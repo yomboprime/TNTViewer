@@ -338,7 +338,12 @@
 
 			function reloadObject( resetCamera ) {
 
-				if ( parts ) for ( let i in parts ) scene.remove( parts[ i ] );
+				if ( parts ) for ( let i in parts ) {
+
+					scene.remove( parts[ i ] );
+					physicsWorld.removeRigidBody( parts[ i ].userData.physicsBody );
+
+				}
 				parts = undefined;
 				if ( models ) for ( let i in models ) scene.remove( models[ i ] );
 				models = undefined;
@@ -357,7 +362,7 @@
 
 							for ( let i in parts ) {
 
-								const part = stepParts[ i ];
+								const part = parts[ i ];
 
 								scene.remove( part );
 
