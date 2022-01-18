@@ -150,7 +150,7 @@
 						modelFileName: 'customs/roverlunar.ldr',
 						startAnimation: startAnimation,
 						oneStep: false,
-						displayLines: true,
+						displayLines: true
 					};
 
 					window.addEventListener( 'resize', onWindowResize );
@@ -305,21 +305,27 @@
 
 			}
 
-			function updateObjectsVisibility( model ) {
+			function updateObjectsVisibility() {
 
-				for ( let i in parts ) {
+				function updateObjects( objects ) {
+					for ( let i in objects ) {
 
-					parts[ i ].traverse( c => {
+						objects[ i ].traverse( c => {
 
-						if ( c.isLineSegments ) {
+							if ( c.isLineSegments ) {
 
-							c.visible = guiData.displayLines;
+								c.visible = guiData.displayLines;
 
-						}
+							}
 
-					} );
+						} );
+
+					}
 
 				}
+
+				updateObjects( models );
+				updateObjects( parts );
 
 			}
 
@@ -786,6 +792,9 @@
 				<br />
 				<a href="http://www.ldraw.org/">This software uses the LDraw Parts Library</a>
 			</center>
+		</div>
+		<div style="position: absolute; bottom: 8px; left: 200px; padding: 4px; background-color: #F3F7F8;">
+		<a href="http://tenteros.land/foro/viewtopic.php?f=47&t=154">TENTE Parts Library CC BY 4.0 by the community.</a>
 		</div>
 
 	</body>
