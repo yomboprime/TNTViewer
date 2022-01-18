@@ -41,6 +41,8 @@
 
 			let camera, scene, renderer, controls, gui, guiData;
 
+			let lDrawLoader;
+
 			let parts;
 			let models;
 			let modelDiameter, turn;
@@ -131,6 +133,9 @@
 				controls = new OrbitControls( camera, renderer.domElement );
 
 				//
+
+				lDrawLoader = new LDrawLoader();
+				lDrawLoader.smoothNormals = true;
 
 				currentConstructionSet = 'TENTE';
 
@@ -334,8 +339,6 @@
 				updateProgressBar( 0 );
 				showProgressBar();
 
-				const lDrawLoader = new LDrawLoader();
-				lDrawLoader.smoothNormals = true;
 				lDrawLoader.setPath( getLibraryPath( currentConstructionSet ) );
 				lDrawLoader.preloadMaterials( 'LDConfig.ldr' ).then( () => {
 
