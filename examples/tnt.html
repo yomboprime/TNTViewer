@@ -52,6 +52,7 @@
 			const ANIM_CONSTRUCTING = 2;
 			const ANIM_WAIT = 3;
 			let animationState;
+			let animationCreated;
 			let timeCurrentState;
 			let timeNextState;
 			let currentConstructionStep;
@@ -391,6 +392,7 @@
 
 						time = 0;
 						animationState = ANIM_STOPPED;
+						animationCreated = false;
 
 						// Adjust camera
 
@@ -415,6 +417,21 @@
 			function startAnimation() {
 
 				if ( animationState !== ANIM_STOPPED ) return;
+
+				if ( ! animationCreated ) createAnimation();
+				else explode();
+
+				// Init animation
+				time = 0;
+				animationState = ANIM_FALLING;
+				timeCurrentState = time;
+				timeNextState = time + 5;
+
+			}
+
+			function createAnimation() {
+
+								animationCreated = true;
 
 				if ( ! models || models.length === 0 ) return;
 
@@ -496,12 +513,6 @@
 
 				}
 
-				// Init animation
-				time = 0;
-				animationState = ANIM_FALLING;
-				timeCurrentState = time;
-				timeNextState = time + 5;
-
 			}
 
 			function handleAnimation() {
@@ -557,7 +568,8 @@
 						currentConstructionStep ++;
 						if ( currentConstructionStep >= stepsParts.length ) {
 
-							animationState = ANIM_WAIT;
+							//animationState = ANIM_WAIT;
+							animationState = ANIM_STOPPED;
 							timeCurrentState = timeNextState;
 							timeNextState = time + 3;
 							turn = ! turn;
@@ -610,26 +622,26 @@
 
 				}
 
-				function explode() {
+			}
 
-					for ( let i in parts ) {
+			function explode() {
 
-						const part = parts[ i ];
+				for ( let i in parts ) {
 
-						updateRigidBodyFromObject( part );
-						physicsWorld.addRigidBody( part.userData.physicsBody );
-						dynamicObjects.push( part );
+					const part = parts[ i ];
 
-					}
-
-					timeCurrentState = timeNextState;
-					timeNextState = time + 5;
-					animationState = ANIM_FALLING;
+					updateRigidBodyFromObject( part );
+					physicsWorld.addRigidBody( part.userData.physicsBody );
+					dynamicObjects.push( part );
 
 				}
 
+				timeCurrentState = timeNextState;
+				timeNextState = time + 5;
+				animationState = ANIM_FALLING;
 
 			}
+
 
 			function getModelsFileList( constructionSet, onLoaded ) {
 
