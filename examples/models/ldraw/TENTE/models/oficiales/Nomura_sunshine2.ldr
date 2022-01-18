@@ -2,7 +2,7 @@
 0 Name: sunshine2.ldr
 0 Author: cpcbegin
 0 Unofficial Model
-0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CENTER 0 0 0 1 "Custom"
 0 ROTATION CONFIG 0 0
 1 4 80 56 0 1 0 0 0 1 0 0 0 1 proa4p.dat
 1 15 80 48 20 1 0 0 0 1 0 0 0 1 proa4.dat
@@ -93,7 +93,7 @@
 1 15 80 -56 70 -1 0 0 0 1 0 0 0 -1 ancla1x2.dat
 1 15 90 -80 160 0 0 1 0 1 0 -1 0 0 onditajp.dat
 1 15 90 -80 240 0 0 1 0 1 0 -1 0 0 onditajp.dat
-1 14 80 -8 390 0 0 -1 0 1 0 1 0 0 bandesp.dat
+1 14 80 -8 390 0 0 -1 0 1 0 1 0 0 bandeesp.dat
 1 15 70 -80 200 0 0 -1 0 1 0 1 0 0 onditajp.dat
 1 15 70 -80 120 0 0 -1 0 1 0 1 0 0 onditajp.dat
 1 15 80 -80 10 -1 0 0 0 1 0 0 0 -1 antncruz.dat
