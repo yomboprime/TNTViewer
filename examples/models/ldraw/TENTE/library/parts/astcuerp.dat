@@ -1,0 +1,10 @@
+0 Astronauta Cuerpo  |S:S
+0 Name: astcuerp.dat
+0 Author: betatron & jasolo
+0 ROTATION CENTER 0 -50 -8.197 0 "Eje" 
+0 ROTATION CONFIG 1 0
+0 BFC CERTIFY CCW
+1 16 0 0 0 1 0 0 0 1 0 0 0 1 asttorso.dat
+1 16 0 1.313 -0.682 1 0 0 0 0.258819 0.965926 0 -0.965926 0.258819 astbrazi.dat
+1 16 0 0.291 -1.2 1 0 0 0 0.83867 0.544639 0 -0.544639 0.83867 astbrazd.dat
+0

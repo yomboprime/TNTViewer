@@ -1,0 +1,15 @@
+0 Untitled
+0 Name: jetpac.ldr
+0 Author: MLCad
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 14 0 0 0 1 0 0 0 1 0 0 0 1 astronav.dat
+1 14 0 0 0 1 0 0 0 1 0 0 0 1 astcuerv.dat
+1 15 -99 46 -72 1 0 0 0 1 0 0 0 1 asttorso.dat
+1 15 -109 0 -79 1 0 0 0 1 0 0 0 1 astpierv.dat
+1 15 -100 28 -33 1 0 0 0 1 0 0 0 1 astbrazd.dat
+1 15 -99 -20 -2 1 0 0 0 1 0 0 0 1 astbrazi.dat
+1 7 -99 -23 -66 0 0 -1 1 0 0 0 -1 0 pistola.dat
+1 4 -109 17 -52 0 0 -1 0 -1 0 -1 0 0 tubo.dat
+0

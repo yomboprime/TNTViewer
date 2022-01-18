@@ -1,0 +1,7 @@
+0 Cilindro Arriba 2   |S:S|E:E
+0 Name: cilindar2.dat
+0 Author: betatron & jasolo
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 16 0 0 0 1 0 0 0 1 0 0 0 1 cilindar.dat
+0

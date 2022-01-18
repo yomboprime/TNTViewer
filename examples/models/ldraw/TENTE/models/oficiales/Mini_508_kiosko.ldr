@@ -1,0 +1,53 @@
+0 Kiosko
+0 Name: kiosko.ldr
+0 Author: cpcbegin
+0 Tente mini
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 15 -90 0 50 1 0 0 0 1 0 0 0 1 placa2x8.dat
+1 15 -90 0 10 1 0 0 0 1 0 0 0 1 placa2x8.dat
+1 15 -90 0 -30 1 0 0 0 1 0 0 0 1 placa2x8.dat
+1 4 -90 -88 50 1 0 0 0 1 0 0 0 1 placa2x8.dat
+1 14 70 -88 10 0 0 -1 0 1 0 1 0 0 jacena2.dat
+1 14 60 -112 40 0 0 -1 0 1 0 1 0 0 jacena1.dat
+1 14 60 -136 40 0 0 -1 0 1 0 1 0 0 jacena1.dat
+1 4 70 -160 10 0 0 -1 0 1 0 1 0 0 placa2.dat
+1 4 70 -160 -30 0 0 -1 0 1 0 1 0 0 placa2.dat
+1 4 70 -152 -10 0 0 -1 0 1 0 1 0 0 placa2.dat
+1 4 70 -144 -10 0 0 -1 0 1 0 1 0 0 placa2.dat
+1 15 -70 -88 -10 1 0 0 0 1 0 0 0 1 jacena6.dat
+1 1 -90 -8 70 1 0 0 0 1 0 0 0 1 jacena2.dat
+1 1 30 -8 70 1 0 0 0 1 0 0 0 1 jacena2.dat
+1 1 30 -8 -30 1 0 0 0 1 0 0 0 1 jacena2.dat
+1 1 -90 -8 -30 1 0 0 0 1 0 0 0 1 jacena2.dat
+1 1 -50 -8 -30 1 0 0 0 1 0 0 0 1 jacena2.dat
+1 1 50 -8 70 0 0 1 0 1 0 -1 0 0 jacena2.dat
+1 1 50 -8 30 0 0 1 0 1 0 -1 0 0 jacena2.dat
+1 1 50 -32 50 0 0 1 0 1 0 -1 0 0 jacena2.dat
+1 1 30 -32 90 0 0 1 0 1 0 -1 0 0 jacena2.dat
+1 1 -70 -32 90 0 0 1 0 1 0 -1 0 0 jacena2.dat
+1 15 -50 -80 90 -1 0 0 0 1 0 0 0 -1 placa2.dat
+1 15 -10 -80 90 -1 0 0 0 1 0 0 0 -1 placa2.dat
+1 15 30 -80 90 -1 0 0 0 1 0 0 0 -1 placa2.dat
+1 15 70 -80 90 -1 0 0 0 1 0 0 0 -1 placa2.dat
+1 15 70 -80 70 -1 0 0 0 1 0 0 0 -1 placa6x8.dat
+1 15 50 -56 50 0 0 1 0 1 0 -1 0 0 jacena2.dat
+1 1 -90 -32 50 0 0 1 0 1 0 -1 0 0 jacena2.dat
+1 15 -90 -56 50 0 0 1 0 1 0 -1 0 0 jacena2.dat
+1 15 -10 -8 -10 0 0 1 0 1 0 -1 0 0 bald2.dat
+1 4 -70 -32 -10 0 0 1 0 1 0 -1 0 0 bald2.dat
+1 4 -90 -32 -30 1 0 0 0 1 0 0 0 1 bald2.dat
+1 4 50 -32 -30 1 0 0 0 1 0 0 0 1 bald2.dat
+1 4 30 -32 -50 1 0 0 0 1 0 0 0 1 bald2.dat
+1 4 -30 -32 -50 1 0 0 0 1 0 0 0 1 bald2.dat
+1 14 -60 -56 80 1 0 0 0 1 0 0 0 1 jacena1.dat
+1 14 40 -56 80 1 0 0 0 1 0 0 0 1 jacena1.dat
+1 1 -90 -8 70 0 0 1 0 1 0 -1 0 0 jacena2.dat
+1 1 -90 -8 30 0 0 1 0 1 0 -1 0 0 jacena2.dat
+1 4 80 -168 30 0 0 1 0 1 0 -1 0 0 tejadorm.dat
+1 4 -90 -32 90 0 0 1 0 1 0 -1 0 0 vntcasa.dat
+1 4 -30 -8 10 1 0 0 0 1 0 0 0 1 puertang.dat
+1 4 10 -8 10 1 0 0 0 1 0 0 0 1 puertang.dat
+1 4 -70 -8 10 1 0 0 0 1 0 0 0 1 puertang.dat
+1 4 70 -32 50 0 0 -1 0 1 0 1 0 0 vntcasa.dat
+0

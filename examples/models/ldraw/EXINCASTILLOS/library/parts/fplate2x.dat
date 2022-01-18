@@ -1,0 +1,14 @@
+0 Placa lisa rectangular 2 puntos
+0 Name: fplate2x.dat
+0 Author: FJB
+0 1/05/2007
+
+
+1 16 -24 -24 0 1 0 0 0 1 0 0 0 1 Exin\dn3x.dat
+1 16 -24 -24 0 1 0 0 0 24 0 0 0 1 Exin\box3x.dat
+1 16 -24   0 0 1 0 0 0 1 0 0 0 1 Exin\dn3x.dat
+1 16  24 -24 0 -1 0 0 0 1 0 0 0 1 Exin\dn3x.dat
+1 16  24 -24 0 -1 0 0 0 24 0 0 0 1 Exin\box3x.dat
+1 16  24   0 0 -1 0 0 0 1 0 0 0 1 Exin\dn3x.dat
+0
+

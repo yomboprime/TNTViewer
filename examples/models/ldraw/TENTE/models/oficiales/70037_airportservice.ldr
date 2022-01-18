@@ -1,0 +1,116 @@
+0 70037 Airport Service
+0 Name: 70037_airportservice.ldr
+0 Author: cpcbegin
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 14 0 24 -150 1 0 0 0 1 0 0 0 1 placa2x3.dat
+1 14 0 24 -370 1 0 0 0 1 0 0 0 1 placa2x3.dat
+1 14 -60 24 -370 1 0 0 0 1 0 0 0 1 placa2x3.dat
+1 14 -20 24 -330 0 0 -1 0 1 0 1 0 0 placa2x3.dat
+1 14 20 24 -330 0 0 -1 0 1 0 1 0 0 placa2x3.dat
+1 14 60 24 -330 0 0 -1 0 1 0 1 0 0 placa2x3.dat
+1 14 0 24 -110 1 0 0 0 1 0 0 0 1 placa2x3.dat
+1 14 -60 24 -150 1 0 0 0 1 0 0 0 1 placa2x3.dat
+1 14 -60 24 -110 1 0 0 0 1 0 0 0 1 placa2x3.dat
+1 14 20 16 -150 0 0 -1 0 1 0 1 0 0 jacen2x4.dat
+1 14 -20 16 -130 -1 0 0 0 1 0 0 0 -1 cuna.dat
+1 14 60 16 -130 -1 0 0 0 1 0 0 0 -1 cuna.dat
+1 14 -20 -8 -150 -1 0 0 0 1 0 0 0 -1 cuna.dat
+1 14 60 -8 -150 -1 0 0 0 1 0 0 0 -1 cuna.dat
+1 14 60 -8 50 -1 0 0 0 1 0 0 0 -1 cuna.dat
+1 14 -20 -8 50 -1 0 0 0 1 0 0 0 -1 cuna.dat
+1 14 20 16 -90 1 0 0 0 1 0 0 0 1 cuna.dat
+1 15 20 -8 -270 0 0 -1 0 1 0 1 0 0 jacena14.dat
+1 14 60 -40 -250 0 0 -1 0 1 0 1 0 0 jacena14.dat
+1 14 -40 -40 -250 0 0 -1 0 1 0 1 0 0 jacena14.dat
+1 15 0 -8 -270 0 0 -1 0 1 0 1 0 0 jacena14.dat
+1 14 -60 16 -90 1 0 0 0 1 0 0 0 1 cuna.dat
+1 14 20 -8 -70 1 0 0 0 1 0 0 0 1 cuna.dat
+1 14 20 -8 -270 1 0 0 0 1 0 0 0 1 cuna.dat
+1 14 20 16 -290 1 0 0 0 1 0 0 0 1 cuna.dat
+1 14 -20 16 -290 1 0 0 0 1 0 0 0 1 cuna.dat
+1 14 -60 16 -290 1 0 0 0 1 0 0 0 1 cuna.dat
+1 14 -60 -8 -270 1 0 0 0 1 0 0 0 1 cuna.dat
+1 14 -60 -8 -70 1 0 0 0 1 0 0 0 1 cuna.dat
+1 0 -50 16 -120 0 0 1 0 1 0 -1 0 0 faros.dat
+1 0 50 16 -100 0 0 -1 0 1 0 1 0 0 faros.dat
+1 0 -10 -80 0 -1 0 0 0 1 0 0 0 -1 faros.dat
+1 0 10 -88 -320 1 0 0 0 1 0 0 0 1 faros.dat
+1 14 60 -8 -150 0 0 -1 0 1 0 1 0 0 jacena4.dat
+1 14 -40 -8 -150 0 0 -1 0 1 0 1 0 0 jacena4.dat
+1 14 60 -32 -110 0 0 -1 0 1 0 1 0 0 placa6x8.dat
+1 14 60 -32 -270 0 0 -1 0 1 0 1 0 0 placa6x8.dat
+0 MLCAD BTG ruedas_traseras
+1 14 20 15.354 8.263 -1 0 0 0 1 0 0 0 -1 ejextro2.dat
+1 14 0 16 -370 1 0 0 0 1 0 0 0 1 cabnuear.dat
+1 14 -60 -40 -250 1 0 0 0 1 0 0 0 1 jacena6.dat
+1 14 -60 -40 50 1 0 0 0 1 0 0 0 1 jacena6.dat
+1 14 0 24 -370 1 0 0 0 1 0 0 0 1 cabnuept.dat
+1 14 0 -24 -370 -1 0 0 0 -1 0 0 0 1 cabnuept.dat
+1 14 0 16 -370 1 0 0 0 1 0 0 0 1 cabnuecr.dat
+1 14 -60 -64 -270 1 0 0 0 1 0 0 0 1 remate_6.dat
+1 14 -60 -64 -190 1 0 0 0 1 0 0 0 1 remate_6.dat
+1 14 -60 -64 -110 1 0 0 0 1 0 0 0 1 remate_6.dat
+1 14 -60 -64 -30 1 0 0 0 1 0 0 0 1 remate_6.dat
+1 15 -20 -72 -10 1 0 0 0 1 0 0 0 1 placa2.dat
+1 15 20 -72 50 -1 0 0 0 1 0 0 0 -1 bald2x2r.dat
+1 15 20 -72 -50 -1 0 0 0 1 0 0 0 -1 bald2x2.dat
+1 15 20 -72 -10 -1 0 0 0 1 0 0 0 -1 bald2x2.dat
+1 15 20 -72 -90 -1 0 0 0 1 0 0 0 -1 bald2x2.dat
+1 15 20 -72 -130 -1 0 0 0 1 0 0 0 -1 bald2x2.dat
+1 15 -20 -72 -170 0 0 1 0 1 0 -1 0 0 placa2x8.dat
+1 15 0 -80 -230 0 0 1 0 1 0 -1 0 0 rotorinf.dat
+1 15 0 -80 -230 1 0 0 0 1 0 0 0 1 platfgi2.dat
+1 15 2.634 -112 -267.366 1 0 0 0 1 0 0 0 1 bisgraba.dat
+1 15 2.634 -115.268 -266.898 1 0 0 0 0.5 -0.866026 0 0.866025 0.5 bisgrarr.dat
+1 15 -7.366 -128 -225.63 1 0 0 0 0.5 -0.866026 0 0.866025 0.5 cilindro.dat
+1 15 12.634 -128 -225.63 1 0 0 0 0.5 -0.866026 0 0.866025 0.5 cilindro.dat
+1 15 0.634 -152.039 -291.856 1 0 0 0 0.5 -0.866026 0 0.866025 0.5 ejeastr2.dat
+1 0 0.634 -176.039 -333.425 1 0 0 0 0.5 -0.866026 0 0.866025 0.5 tubo.dat
+1 15 -40 -80 -330 1 0 0 0 1 0 0 0 1 placa4.dat
+1 36 -30 -88 -320 1 0 0 0 1 0 0 0 1 sirena.dat
+1 36 30 -88 -320 1 0 0 0 1 0 0 0 1 sirena.dat
+1 7 10 -88 -320 1 0 0 0 1 0 0 0 1 farosluz.dat
+1 0 -20 -72 -180 0 0 -1 0 1 0 1 0 0 pistola.dat
+1 0 40 -72 -180 0 0 -1 0 1 0 1 0 0 pistola.dat
+1 0 -10 -8 40 -1 0 0 0 1 0 0 0 -1 faros.dat
+1 14 60 0 30 0 0 -1 0 1 0 1 0 0 remate62.dat
+1 14 20 24 50 -1 0 0 0 1 0 0 0 -1 jacena2.dat
+1 14 20 32 70 -1 0 0 0 1 0 0 0 -1 placa2x2.dat
+1 15 0 24 50 1 0 0 0 1 0 0 0 1 pistola.dat
+1 15 0 24 70 -1 0 0 0 1 0 0 0 -1 pistola.dat
+1 0 20 -72 20 0 0 1 0 1 0 -1 0 0 pistola.dat
+1 0 -40 -72 20 0 0 1 0 1 0 -1 0 0 pistola.dat
+1 15 -30 -86 -20 0 0 1 1 0 0 0 1 0 cilindro.dat
+1 15 -30 -86 -44 0 0 1 1 0 0 0 1 0 cilindro.dat
+1 15 -30 -86 -68 0 0 1 1 0 0 0 1 0 cilindro.dat
+1 15 -30 -86 -92 0 0 1 1 0 0 0 1 0 cilindro.dat
+1 15 -30 -86 -116 0 0 1 1 0 0 0 1 0 tubo.dat
+1 15 30 -86 -20 0 0 1 1 0 0 0 1 0 cilindro.dat
+1 15 30 -86 -44 0 0 1 1 0 0 0 1 0 cilindro.dat
+1 15 30 -86 -68 0 0 1 1 0 0 0 1 0 cilindro.dat
+1 15 30 -86 -92 0 0 1 1 0 0 0 1 0 cilindro.dat
+1 15 30 -86 -116 0 0 1 1 0 0 0 1 0 tubo.dat
+1 15 0 -141.039 -272.803 1 0 0 0 0.866025 0.5 0 -0.5 0.866025 conotanq.dat
+0 MLCAD BTG ruedas_traseras
+1 14 0 5.674 -29.79 1 0 0 0 0.866025 0.5 0 -0.5 0.866025 alfalln1.dat
+0 MLCAD BTG ruedas_traseras
+1 0 0 6.541 -30.29 1 0 0 0 0.866025 0.5 0 -0.5 0.866025 alfaneum.dat
+0 MLCAD BTG ruedas_traseras
+1 14 2 4.995 6.923 -1 0 0 0 0.866025 0.5 0 0.5 -0.866025 alfalln1.dat
+0 MLCAD BTG ruedas_traseras
+1 0 2 5.862 7.423 -1 0 0 0 0.866025 0.5 0 0.5 -0.866025 alfaneum.dat
+0 GROUP 5 ruedas_traseras
+0 MLCAD BTG ruedas_delanteras
+1 14 20 17.732 -190.268 -1 0 0 0 1 0 0 0 -1 ejextro2.dat
+0 MLCAD BTG ruedas_delanteras
+1 14 0 8.052 -228.321 1 0 0 0 0.866025 0.5 0 -0.5 0.866025 alfalln1.dat
+0 MLCAD BTG ruedas_delanteras
+1 0 0 8.919 -228.821 1 0 0 0 0.866025 0.5 0 -0.5 0.866025 alfaneum.dat
+0 MLCAD BTG ruedas_delanteras
+1 14 2 7.373 -191.608 -1 0 0 0 0.866025 0.5 0 0.5 -0.866025 alfalln1.dat
+0 MLCAD BTG ruedas_delanteras
+1 0 2 8.24 -191.108 -1 0 0 0 0.866025 0.5 0 0.5 -0.866025 alfaneum.dat
+0 GROUP 5 ruedas_delanteras
+0

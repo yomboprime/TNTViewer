@@ -1,0 +1,19 @@
+0 Remate Almena redonda pequeña 
+0 Name: 48-48al3r.dat
+0 Author: FJB
+0 01/05/2007
+
+1 16 0 0 0  1   0 0      0  1 0 0      0 1 Exin\8-48al3r.dat
+1 16 0 0 0 -1   0 0      0  1 0 0      0 -1 Exin\8-48al3r.dat
+1 16 0 0 0  0.5 0 0.866  0  1 0 -0.866 0 0.5  Exin\8-48al3r.dat
+1 16 0 0 0 -0.5 0 0.866  0  1 0 -0.866 0 -0.5 Exin\8-48al3r.dat
+1 16 0 0 0 -0.5 0 -0.866 0  1 0 0.866  0 -0.5 Exin\8-48al3r.dat
+1 16 0 0 0 0.5  0 -0.866 0  1 0 0.866  0 0.5  Exin\8-48al3r.dat
+
+
+1 16 0 0 0 1 0 0 0 1 0 0 0 1 Exin\1-4al3rt.dat
+1 16 0 0 0 -1 0 0 0 1 0 0 0 1 Exin\1-4al3rt.dat
+1 16 0 0 0 1 0 0 0 1 0 0 0 -1 Exin\1-4al3rt.dat
+1 16 0 0 0 -1 0 0 0 1 0 0 0 -1 Exin\1-4al3rt.dat
+
+1 16  0  -25 0 1 0 0 0 1 0 0 0 1 Exin\estud.dat

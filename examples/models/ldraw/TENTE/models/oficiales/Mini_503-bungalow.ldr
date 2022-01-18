@@ -1,0 +1,70 @@
+0 MLCAD BTG planta baja
+0 Untitled
+0 MLCAD BTG planta baja
+0 Name: adosado503.ldr
+0 MLCAD BTG planta baja
+0 Author: MLCad
+0 MLCAD BTG planta baja
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+0 MLCAD BTG planta baja
+1 15 -30 24 0 1 0 0 0 1 0 0 0 1 placa6x8.dat
+0 MLCAD BTG planta baja
+1 15 -30 -56 0 1 0 0 0 1 0 0 0 1 placa6x8.dat
+0 MLCAD BTG planta baja
+1 15 -10 16 20 1 0 0 0 1 0 0 0 1 jacena6.dat
+0 MLCAD BTG planta baja
+1 15 -10 16 100 1 0 0 0 1 0 0 0 1 jacena4.dat
+0 MLCAD BTG planta baja
+1 4 110 16 120 -1 0 0 0 1 0 0 0 -1 puertamr.dat
+0 MLCAD BTG planta baja
+1 47 110 16 120 -1 0 0 0 1 0 0 0 -1 puertacr.dat
+0 MLCAD BTG planta baja
+1 4 70 -8 120 -1 0 0 0 1 0 0 0 -1 ventan4m.dat
+0 MLCAD BTG planta baja
+1 47 70 -8 120 -1 0 0 0 1 0 0 0 -1 ventan4c.dat
+0 MLCAD BTG planta baja
+1 4 30 -8 0 1 0 0 0 1 0 0 0 1 ventan4m.dat
+0 MLCAD BTG planta baja
+1 47 30 -8 0 1 0 0 0 1 0 0 0 1 ventan4c.dat
+0 MLCAD BTG planta baja
+1 4 -10 -8 0 1 0 0 0 1 0 0 0 1 vntcasam.dat
+0 MLCAD BTG planta baja
+1 47 -10 -8 0 1 0 0 0 1 0 0 0 1 vntcasac.dat
+0 MLCAD BTG planta baja
+1 15 -30 16 0 0 0 -1 0 1 0 1 0 0 jacena6.dat
+0 MLCAD BTG planta baja
+1 15 110 16 0 0 0 -1 0 1 0 1 0 0 jacena6.dat
+0 MLCAD BTG planta baja
+1 15 -30 -8 0 0 0 -1 0 1 0 1 0 0 jacena6.dat
+0 MLCAD BTG planta baja
+1 15 110 -8 0 0 0 -1 0 1 0 1 0 0 jacena6.dat
+0 MLCAD BTG planta baja
+1 15 -30 -32 0 0 0 -1 0 1 0 1 0 0 jacena6.dat
+0 MLCAD BTG planta baja
+1 15 110 -32 0 0 0 -1 0 1 0 1 0 0 jacena6.dat
+0 GROUP 22 planta baja
+0 Untitled
+0 Name: adosado503.ldr
+0 Author: MLCad
+0 Unofficial Model
+1 15 10 -64 -40 1 0 0 0 1 0 0 0 1 placa6x8.dat
+1 15 10 -144 -40 1 0 0 0 1 0 0 0 1 placa6x8.dat
+1 15 30 -72 -20 1 0 0 0 1 0 0 0 1 jacena6.dat
+1 15 30 -72 60 1 0 0 0 1 0 0 0 1 jacena4.dat
+1 4 150 -72 80 -1 0 0 0 1 0 0 0 -1 puertamr.dat
+1 47 150 -72 80 -1 0 0 0 1 0 0 0 -1 puertacr.dat
+1 4 110 -96 80 -1 0 0 0 1 0 0 0 -1 ventan4m.dat
+1 47 110 -96 80 -1 0 0 0 1 0 0 0 -1 ventan4c.dat
+1 4 70 -96 -40 1 0 0 0 1 0 0 0 1 ventan4m.dat
+1 47 70 -96 -40 1 0 0 0 1 0 0 0 1 ventan4c.dat
+1 4 30 -96 -40 1 0 0 0 1 0 0 0 1 vntcasam.dat
+1 47 30 -96 -40 1 0 0 0 1 0 0 0 1 vntcasac.dat
+1 15 10 -72 -40 0 0 -1 0 1 0 1 0 0 jacena6.dat
+1 15 150 -72 -40 0 0 -1 0 1 0 1 0 0 jacena6.dat
+1 15 10 -96 -40 0 0 -1 0 1 0 1 0 0 jacena6.dat
+1 15 150 -96 -40 0 0 -1 0 1 0 1 0 0 jacena6.dat
+1 15 10 -120 -40 0 0 -1 0 1 0 1 0 0 jacena6.dat
+1 15 150 -120 -40 0 0 -1 0 1 0 1 0 0 jacena6.dat
+0

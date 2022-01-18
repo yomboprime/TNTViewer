@@ -1,0 +1,34 @@
+0 Jacena 2x3
+0 Name: jacen2x3.dat
+0 Author: jasolo
+0 !LDRAW_ORG Unofficial_Part
+0 BFC CERTIFY CCW
+0 BFC CERTIFY INVERTNEXT
+1 16 30 0 20 27.5 0 0 0 -21.5 0 0 0 17.5 BOX4.DAT
+4 16 60 0 40 57.5 0 37.5 2.5 0 37.5 0 0 40
+4 16 0 0 0 2.5 0 2.5 57.5 0 2.5 60 0 0
+4 16 60 0 0 57.5 0 2.5 57.5 0 37.5 60 0 40
+4 16 0 0 40 2.5 0 37.5 2.5 0 2.5 0 0 0
+1 16 30 0 20 30 0 0 0 -24 0 0 0 20 box5.dat
+1 16 10 0 10 1 0 0 0 1 0 0 0 1 s\teton.dat
+1 16 10 0 30 1 0 0 0 1 0 0 0 1 s\teton.dat
+1 16 30 0 10 1 0 0 0 1 0 0 0 1 s\teton.dat
+1 16 30 0 30 1 0 0 0 1 0 0 0 1 s\teton.dat
+1 16 50 0 30 1 0 0 0 1 0 0 0 1 s\teton.dat
+1 16 50 0 10 1 0 0 0 1 0 0 0 1 s\teton.dat
+1 16 40 0 10 1 0 0 0 1 0 0 0 1 s\pilar.dat
+1 16 20 0 10 1 0 0 0 1 0 0 0 1 s\pilar.dat
+1 16 40 0 30 1 0 0 0 1 0 0 0 1 s\pilar.dat
+1 16 20 0 30 1 0 0 0 1 0 0 0 1 s\pilar.dat
+1 16 50 0 20 1 0 0 0 1 0 0 0 1 s\pilar.dat
+1 16 30 0 20 1 0 0 0 1 0 0 0 1 s\pilar.dat
+1 16 10 0 20 1 0 0 0 1 0 0 0 1 s\pilar.dat
+1 16 40 -24 20 1 0 0 0 1 0 0 0 1 s\cruceta.dat
+1 16 20 -24 20 1 0 0 0 1 0 0 0 1 s\cruceta.dat
+1 16 20 -24 0 1 0 0 0 1 0 0 0 1 s\cruceta1.dat
+1 16 0 -24 20 0 0 1 0 1 0 -1 0 0 s\cruceta1.dat
+1 16 60 -24 20 0 0 -1 0 1 0 1 0 0 s\cruceta1.dat
+1 16 40 -24 0 1 0 0 0 1 0 0 0 1 s\cruceta1.dat
+1 16 40 -24 40 -1 0 0 0 1 0 0 0 -1 s\cruceta1.dat
+1 16 20 -24 40 -1 0 0 0 1 0 0 0 -1 s\cruceta1.dat
+0

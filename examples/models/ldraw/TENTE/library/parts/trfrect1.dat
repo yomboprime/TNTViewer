@@ -1,0 +1,9 @@
+0 Tráfico Autopista Inicio	|R:R
+0 Name: trfrect1.dat
+0 Author: jasolo
+0 BFC CERTIFY CCW
+1 7 0 0 0 1 0 0 0 1 0 0 0 1 placa1.dat
+1 7 10 -13 10 1 0 0 0 1 0 0 0 1 trfposte.dat
+1 7 10 -106.5 4 0 0 1 1 0 0 0 1 0 trfrectb.dat
+1 7 10 -106.5 4 0 0 -1 -1 0 0 0 1 0 trfrecta.dat
+0

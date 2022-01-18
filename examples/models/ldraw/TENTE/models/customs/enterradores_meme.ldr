@@ -1,0 +1,98 @@
+0 Untitled
+0 Name: enterradores_meme.ldr
+0 Author: MLCad
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 7 -28 -36 430 1 0 0 0 1 0 0 0 1 htitcab2.dat
+1 1 -28 44 430 1 0 0 0 1 0 0 0 1 htittron.dat
+1 1 -28 44 430 1 0 0 0 1 0 0 0 1 htitbrzd.dat
+1 1 -28 43 431 1 0 0 0 1 0 0 0 1 htitmand.dat
+1 1 -29 43 431 1 0 0 0 1 0 0 0 1 htitmani.dat
+1 1 -29 28.444 434.745 1 0 0 0 0.707107 0.707107 0 -0.707107 0.707107 htitmani.dat
+1 1 -29 41.979 549.129 1 0 0 0 0.965926 -0.258819 0 0.258819 0.965926 htitmani.dat
+1 1 -91 45 431 1 0 0 0 1 0 0 0 1 htitmani.dat
+1 1 -91 45 481 1 0 0 0 1 0 0 0 1 htitmani.dat
+1 1 -91 45 531 1 0 0 0 1 0 0 0 1 htitmani.dat
+1 1 -28 43 481 1 0 0 0 1 0 0 0 1 htitmand.dat
+1 1 -28 43 531 1 0 0 0 1 0 0 0 1 htitmand.dat
+1 1 -90 -51.131 371.763 1 0 0 0 -0.5 0.866025 0 -0.866025 -0.5 htitmand.dat
+1 1 -90 44 481 1 0 0 0 1 0 0 0 1 htitmand.dat
+1 1 -90 38.294 498.653 1 0 0 0 0.866025 0.5 0 -0.5 0.866025 htitmand.dat
+1 1 -28 44 430 1 0 0 0 1 0 0 0 1 htitbrzi.dat
+1 1 -28 44 430 1 0 0 0 1 0 0 0 1 htitpies.dat
+1 7 -28 -36 480 1 0 0 0 1 0 0 0 1 htitcab2.dat
+1 1 -28 44 480 1 0 0 0 1 0 0 0 1 htittron.dat
+1 1 -28 44 480 1 0 0 0 1 0 0 0 1 htitbrzd.dat
+1 1 -28 28.444 433.331 1 0 0 0 0.707107 0.707107 0 -0.707107 0.707107 htitbrzi.dat
+1 1 -28 44 480 1 0 0 0 1 0 0 0 1 htitpies.dat
+1 7 -28 -36 530 1 0 0 0 1 0 0 0 1 htitcab2.dat
+1 1 -28 44 530 1 0 0 0 1 0 0 0 1 htittron.dat
+1 1 -28 44 530 1 0 0 0 1 0 0 0 1 htitbrzd.dat
+1 1 -28 43.204 548.422 1 0 0 0 0.965926 -0.258819 0 0.258819 0.965926 htitbrzi.dat
+1 1 -28 44 530 1 0 0 0 1 0 0 0 1 htitpies.dat
+0 MLCAD BTG ataud
+1 6 -80 -46 496 1 0 0 0 0 -1 0 1 0 jacen2x2.dat
+0 MLCAD BTG ataud
+1 6 -80 -46 448 1 0 0 0 0 -1 0 1 0 jacen2x2.dat
+0 MLCAD BTG ataud
+1 6 -80 -46 472 1 0 0 0 0 -1 0 1 0 enganch2.dat
+0 MLCAD BTG ataud
+1 6 -60 -46 472 1 0 0 0 0 -1 0 1 0 enganch2.dat
+0 MLCAD BTG ataud
+1 6 -80 -66 472 1 0 0 0 0 -1 0 1 0 jacena2.dat
+0 MLCAD BTG ataud
+1 6 -80 -46 520 1 0 0 0 0 -1 0 1 0 enganch2.dat
+0 MLCAD BTG ataud
+1 6 -60 -46 520 1 0 0 0 0 -1 0 1 0 enganch2.dat
+0 MLCAD BTG ataud
+1 6 -80 -66 520 1 0 0 0 0 -1 0 1 0 jacena2.dat
+0 MLCAD BTG ataud
+1 6 -40 -46 482 0 0 -1 0 -1 0 -1 0 0 baldgord.dat
+0 MLCAD BTG ataud
+1 6 -40 -46 532 0 0 -1 0 -1 0 -1 0 0 baldgord.dat
+0 MLCAD BTG ataud
+1 28 -80 -86 520 1 0 0 0 0 -1 0 1 0 jacena2.dat
+0 MLCAD BTG ataud
+1 6 -80 -46 544 1 0 0 0 0 -1 0 1 0 jacen2x2.dat
+0 MLCAD BTG ataud
+1 28 -80 -86 544 1 0 0 0 0 -1 0 1 0 jacena2.dat
+0 MLCAD BTG ataud
+1 28 -80 -86 496 1 0 0 0 0 -1 0 1 0 jacena2.dat
+0 MLCAD BTG ataud
+1 28 -80 -86 472 1 0 0 0 0 -1 0 1 0 jacena2.dat
+0 MLCAD BTG ataud
+1 28 -80 -86 448 1 0 0 0 0 -1 0 1 0 jacena2.dat
+0 MLCAD BTG ataud
+1 47 -80 -106 424 0 0 1 1 0 0 0 1 0 placa2x3.dat
+0 MLCAD BTG ataud
+1 47 -80 -106 552 0 0 1 1 0 0 0 1 0 placa2x3.dat
+0 GROUP 18 ataud
+1 1 -28 -61 438 0 0 -1 1 0 0 0 -1 0 tuboguia.dat
+1 1 -28 -61 489 0 0 -1 1 0 0 0 -1 0 tuboguia.dat
+1 1 -28 -61 538 0 0 -1 1 0 0 0 -1 0 tuboguia.dat
+1 7 -90 -34 430 1 0 0 0 1 0 0 0 1 htitcab2.dat
+1 1 -90 46 430 1 0 0 0 1 0 0 0 1 htittron.dat
+1 1 -90 -52.997 370.531 1 0 0 0 -0.5 0.866025 0 -0.866025 -0.5 htitbrzd.dat
+1 1 -90 46 430 1 0 0 0 1 0 0 0 1 htitbrzi.dat
+1 1 -90 46 430 1 0 0 0 1 0 0 0 1 htitpies.dat
+1 7 -90 -34 480 1 0 0 0 1 0 0 0 1 htitcab2.dat
+1 1 -90 46 480 1 0 0 0 1 0 0 0 1 htittron.dat
+1 1 -90 46 480 1 0 0 0 1 0 0 0 1 htitbrzd.dat
+1 1 -90 46 480 1 0 0 0 1 0 0 0 1 htitbrzi.dat
+1 1 -90 46 480 1 0 0 0 1 0 0 0 1 htitpies.dat
+1 7 -90 -34 530 1 0 0 0 1 0 0 0 1 htitcab2.dat
+1 1 -90 46 530 1 0 0 0 1 0 0 0 1 htittron.dat
+1 1 -90 39.526 496.787 1 0 0 0 0.866025 0.5 0 -0.5 0.866025 htitbrzd.dat
+1 1 -90 46 530 1 0 0 0 1 0 0 0 1 htitbrzi.dat
+1 1 -90 46 530 1 0 0 0 1 0 0 0 1 htitpies.dat
+1 1 -90 -59 438 0 0 -1 1 0 0 0 -1 0 tuboguia.dat
+1 0 -120 -34 330 1 0 0 0 1 0 0 0 1 htitcab2.dat
+1 0 -120 46 330 1 0 0 0 1 0 0 0 1 htittron.dat
+1 0 -120 46 330 1 0 0 0 1 0 0 0 1 htitbrzd.dat
+1 0 -120 46 330 1 0 0 0 1 0 0 0 1 htitbrzi.dat
+1 0 -120 46 330 1 0 0 0 1 0 0 0 1 htitpies.dat
+1 0 -120 -59 338 0 0 -1 1 0 0 0 -1 0 tuboguia.dat
+1 1 -90 -59 489 0 0 -1 1 0 0 0 -1 0 tuboguia.dat
+1 1 -90 -59 538 0 0 -1 1 0 0 0 -1 0 tuboguia.dat
+0

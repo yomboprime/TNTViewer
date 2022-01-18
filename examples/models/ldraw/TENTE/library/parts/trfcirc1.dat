@@ -1,0 +1,11 @@
+0 Tráfico Prohibido Aparcar	|R:R
+0 Name: trfcirc1.ldr
+0 Author: jasolo
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+0 BFC CERTIFY CCW
+1 7 0 0 0 1 0 0 0 1 0 0 0 1 placa1.dat
+1 7 10 -13 10 1 0 0 0 1 0 0 0 1 trfposte.dat
+1 7 10 -106.5 4 0 0 1 1 0 0 0 1 0 trfcircb.dat
+1 7 10 -106.5 -4.15 1 0 0 0 0 -1 0 1 0 trfcircp.dat
+0

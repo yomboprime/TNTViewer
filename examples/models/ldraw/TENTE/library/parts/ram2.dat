@@ -1,0 +1,8 @@
+0 RAM 2        |D:D
+0 Name: ram2.dat
+0 Author: jasolo
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+0 BFC CERTIFY CCW
+1 16 0 0 0 1 0 0 0 1 0 0 0 1 ram-bas2.dat
+1 16 0 0 0 1 0 0 0 1 0 0 0 1 ram-misi.dat

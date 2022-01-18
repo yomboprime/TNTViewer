@@ -1,0 +1,81 @@
+0 Peaje autopista
+0 Name: peajeautopista.ldr
+0 cpcbegin
+0 Tente ruta (el mundo de la ruta)
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 0 -160 16 0 0 0 1 0 1 0 -1 0 0 placa4x8.dat
+1 0 -160 16 160 0 0 1 0 1 0 -1 0 0 placa4x8.dat
+1 4 -100 -184 -80 1 0 0 0 1 0 0 0 1 placa4x8.dat
+1 14 -140 8 20 0 0 1 0 1 0 -1 0 0 jacen2x2.dat
+1 0 -140 -16 20 0 0 1 0 1 0 -1 0 0 jacen2x2.dat
+1 14 -140 -40 20 0 0 1 0 1 0 -1 0 0 jacen2x2.dat
+1 0 -140 -64 20 0 0 1 0 1 0 -1 0 0 jacen2x2.dat
+1 15 -140 -88 20 0 0 1 0 1 0 -1 0 0 jacen2x2.dat
+1 15 -140 -112 20 0 0 1 0 1 0 -1 0 0 jacen2x2.dat
+1 15 -140 -136 20 0 0 1 0 1 0 -1 0 0 jacen2x2.dat
+1 15 -140 -160 20 0 0 1 0 1 0 -1 0 0 jacen2x2.dat
+1 15 -200 -184 -20 1 0 0 0 1 0 0 0 1 jacen2x8.dat
+1 14 -90 8 -150 1 0 0 0 1 0 0 0 1 cilindro.dat
+1 0 -80 -16 -140 -1 0 0 0 1 0 0 0 -1 enganche.dat
+1 0 -80 -40 -140 -1 0 0 0 1 0 0 0 -1 enganche.dat
+1 2 -80 -16 -140 -1 0 0 0 0 -1 0 -1 0 bald1.dat
+1 4 -80 -40 -140 -1 0 0 0 0 -1 0 -1 0 bald1.dat
+1 4 -100 8 140 -1 0 0 0 1 0 0 0 -1 placa2x2.dat
+1 4 -100 -72 140 -1 0 0 0 1 0 0 0 -1 placa2x2.dat
+1 15 -100 0 100 0 0 -1 0 1 0 1 0 0 puertang.dat
+1 15 -140 0 140 0 0 1 0 1 0 -1 0 0 puertang.dat
+1 4 -120 -80 120 0 0 1 0 1 0 -1 0 0 bald2x2.dat
+1 4 -160 -80 120 0 0 1 0 1 0 -1 0 0 bald2x2.dat
+1 4 -120 -80 160 0 0 1 0 1 0 -1 0 0 bald2x2.dat
+1 4 -160 -80 160 0 0 1 0 1 0 -1 0 0 bald2x2.dat
+0 Peaje autopista
+0 Name: peajeautopista.ldr
+0 cpcbegin
+0 Tente ruta (el mundo de la ruta)
+1 0 -360 16 0 0 0 1 0 1 0 -1 0 0 placa4x8.dat
+1 0 -360 16 160 0 0 1 0 1 0 -1 0 0 placa4x8.dat
+1 4 -300 -184 -40 1 0 0 0 1 0 0 0 1 placa4x8.dat
+1 4 -300 -184 -80 1 0 0 0 1 0 0 0 1 placa4x8.dat
+1 4 -300 -184 0 1 0 0 0 1 0 0 0 1 placa4x8.dat
+1 4 -500 -184 -80 1 0 0 0 1 0 0 0 1 placa4x8.dat
+1 4 -100 -184 0 1 0 0 0 1 0 0 0 1 placa4x8.dat
+1 4 -500 -184 0 1 0 0 0 1 0 0 0 1 placa4x8.dat
+1 14 -340 8 20 0 0 1 0 1 0 -1 0 0 jacen2x2.dat
+1 0 -340 -16 20 0 0 1 0 1 0 -1 0 0 jacen2x2.dat
+1 14 -340 -40 20 0 0 1 0 1 0 -1 0 0 jacen2x2.dat
+1 0 -340 -64 20 0 0 1 0 1 0 -1 0 0 jacen2x2.dat
+1 15 -340 -88 20 0 0 1 0 1 0 -1 0 0 jacen2x2.dat
+1 15 -340 -112 20 0 0 1 0 1 0 -1 0 0 jacen2x2.dat
+1 15 -340 -136 20 0 0 1 0 1 0 -1 0 0 jacen2x2.dat
+1 15 -340 -160 20 0 0 1 0 1 0 -1 0 0 jacen2x2.dat
+1 15 -400 -184 -20 1 0 0 0 1 0 0 0 1 jacen2x8.dat
+1 14 -290 8 -150 1 0 0 0 1 0 0 0 1 cilindro.dat
+1 0 -280 -16 -140 -1 0 0 0 1 0 0 0 -1 enganche.dat
+1 0 -280 -40 -140 -1 0 0 0 1 0 0 0 -1 enganche.dat
+1 2 -280 -16 -140 -1 0 0 0 0 -1 0 -1 0 bald1.dat
+1 4 -280 -40 -140 -1 0 0 0 0 -1 0 -1 0 bald1.dat
+1 4 -300 8 140 -1 0 0 0 1 0 0 0 -1 placa2x2.dat
+1 4 -300 -72 140 -1 0 0 0 1 0 0 0 -1 placa2x2.dat
+1 15 -300 0 100 0 0 -1 0 1 0 1 0 0 puertang.dat
+1 15 -340 0 140 0 0 1 0 1 0 -1 0 0 puertang.dat
+1 4 -320 -80 120 0 0 1 0 1 0 -1 0 0 bald2x2.dat
+1 4 -360 -80 120 0 0 1 0 1 0 -1 0 0 bald2x2.dat
+1 4 -320 -80 160 0 0 1 0 1 0 -1 0 0 bald2x2.dat
+1 4 -360 -80 160 0 0 1 0 1 0 -1 0 0 bald2x2.dat
+1 0 -200 -192 80 -1 0 0 0 1 0 0 0 -1 enganche.dat
+1 0 -220 -192 80 -1 0 0 0 1 0 0 0 -1 enganche.dat
+1 0 0 -192 80 -1 0 0 0 1 0 0 0 -1 enganche.dat
+1 0 -20 -192 80 -1 0 0 0 1 0 0 0 -1 enganche.dat
+1 0 -400 -192 80 -1 0 0 0 1 0 0 0 -1 enganche.dat
+1 0 -420 -192 80 -1 0 0 0 1 0 0 0 -1 enganche.dat
+1 1 -20 -184 80 -1 0 0 0 0 -1 0 -1 0 bald2x2.dat
+1 15 -240 -204 90 0 -1 0 -1 0 0 0 0 -1 flecha2.dat
+1 15 -439 -204 90 1 0 0 0 1 0 0 0 1 flecha2.dat
+1 15 0 -204 90 -1 0 0 0 1 0 0 0 -1 flecha2.dat
+1 1 20 -184 80 -1 0 0 0 0 -1 0 -1 0 bald2x2.dat
+1 1 -220 -184 80 -1 0 0 0 0 -1 0 -1 0 bald2x2.dat
+1 1 -180 -184 80 -1 0 0 0 0 -1 0 -1 0 bald2x2.dat
+1 1 -420 -184 80 -1 0 0 0 0 -1 0 -1 0 bald2x2.dat
+1 1 -380 -184 80 -1 0 0 0 0 -1 0 -1 0 bald2x2.dat
+0

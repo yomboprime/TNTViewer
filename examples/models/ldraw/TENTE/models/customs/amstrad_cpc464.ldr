@@ -1,0 +1,505 @@
+0 Untitled
+0 Name: amstrad_cpc464.ldr
+0 Author: MLCad
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+0 MLCAD BTG keyboard
+1 0 30 0 10 1 0 0 0 1 0 0 0 1 cilindro.dat
+0 MLCAD BTG keyboard
+1 0 50 0 10 1 0 0 0 1 0 0 0 1 cilindro.dat
+0 MLCAD BTG keyboard
+1 0 70 0 10 1 0 0 0 1 0 0 0 1 cilindro.dat
+0 MLCAD BTG keyboard
+1 0 90 0 10 1 0 0 0 1 0 0 0 1 cilindro.dat
+0 MLCAD BTG keyboard
+1 0 110 0 10 1 0 0 0 1 0 0 0 1 cilindro.dat
+0 MLCAD BTG keyboard
+1 0 130 0 10 1 0 0 0 1 0 0 0 1 cilindro.dat
+0 MLCAD BTG keyboard
+1 0 150 0 10 1 0 0 0 1 0 0 0 1 cilindro.dat
+0 MLCAD BTG keyboard
+1 0 170 0 10 1 0 0 0 1 0 0 0 1 cilindro.dat
+0 MLCAD BTG keyboard
+1 0 190 0 10 1 0 0 0 1 0 0 0 1 cilindro.dat
+0 MLCAD BTG keyboard
+1 0 210 0 10 1 0 0 0 1 0 0 0 1 cilindro.dat
+0 MLCAD BTG keyboard
+1 0 230 0 10 1 0 0 0 1 0 0 0 1 cilindro.dat
+0 MLCAD BTG keyboard
+1 0 40 0 30 1 0 0 0 1 0 0 0 1 cilindro.dat
+0 MLCAD BTG keyboard
+1 0 20 0 30 1 0 0 0 1 0 0 0 1 cilindro.dat
+0 MLCAD BTG keyboard
+1 0 60 0 30 1 0 0 0 1 0 0 0 1 cilindro.dat
+0 MLCAD BTG keyboard
+1 0 80 0 30 1 0 0 0 1 0 0 0 1 cilindro.dat
+0 MLCAD BTG keyboard
+1 0 100 0 30 1 0 0 0 1 0 0 0 1 cilindro.dat
+0 MLCAD BTG keyboard
+1 0 120 0 30 1 0 0 0 1 0 0 0 1 cilindro.dat
+0 MLCAD BTG keyboard
+1 0 140 0 30 1 0 0 0 1 0 0 0 1 cilindro.dat
+0 MLCAD BTG keyboard
+1 0 160 0 30 1 0 0 0 1 0 0 0 1 cilindro.dat
+0 MLCAD BTG keyboard
+1 0 180 0 30 1 0 0 0 1 0 0 0 1 cilindro.dat
+0 MLCAD BTG keyboard
+1 0 200 0 30 1 0 0 0 1 0 0 0 1 cilindro.dat
+0 MLCAD BTG keyboard
+1 0 220 0 30 1 0 0 0 1 0 0 0 1 cilindro.dat
+0 MLCAD BTG keyboard
+1 0 240 0 30 1 0 0 0 1 0 0 0 1 cilindro.dat
+0 MLCAD BTG keyboard
+1 0 30 0 50 1 0 0 0 1 0 0 0 1 cilindro.dat
+0 MLCAD BTG keyboard
+1 0 10 0 50 1 0 0 0 1 0 0 0 1 cilindro.dat
+0 MLCAD BTG keyboard
+1 0 50 0 50 1 0 0 0 1 0 0 0 1 cilindro.dat
+0 MLCAD BTG keyboard
+1 0 70 0 50 1 0 0 0 1 0 0 0 1 cilindro.dat
+0 MLCAD BTG keyboard
+1 0 90 0 50 1 0 0 0 1 0 0 0 1 cilindro.dat
+0 MLCAD BTG keyboard
+1 0 110 0 50 1 0 0 0 1 0 0 0 1 cilindro.dat
+0 MLCAD BTG keyboard
+1 0 130 0 50 1 0 0 0 1 0 0 0 1 cilindro.dat
+0 MLCAD BTG keyboard
+1 0 150 0 50 1 0 0 0 1 0 0 0 1 cilindro.dat
+0 MLCAD BTG keyboard
+1 0 170 0 50 1 0 0 0 1 0 0 0 1 cilindro.dat
+0 MLCAD BTG keyboard
+1 0 190 0 50 1 0 0 0 1 0 0 0 1 cilindro.dat
+0 MLCAD BTG keyboard
+1 0 210 0 50 1 0 0 0 1 0 0 0 1 cilindro.dat
+0 MLCAD BTG keyboard
+1 0 230 0 50 1 0 0 0 1 0 0 0 1 cilindro.dat
+0 MLCAD BTG keyboard
+1 0 20 0 70 1 0 0 0 1 0 0 0 1 cilindro.dat
+0 MLCAD BTG keyboard
+1 0 0 0 70 1 0 0 0 1 0 0 0 1 cilindro.dat
+0 MLCAD BTG keyboard
+1 4 -20 0 70 1 0 0 0 1 0 0 0 1 cilindro.dat
+0 MLCAD BTG keyboard
+1 1 290 0 50 1 0 0 0 1 0 0 0 1 cilindro.dat
+0 MLCAD BTG keyboard
+1 2 290 0 10 1 0 0 0 1 0 0 0 1 cilindro.dat
+0 MLCAD BTG numeric_keypad
+1 0 350 0 -10 1 0 0 0 1 0 0 0 1 cilindro.dat
+0 MLCAD BTG numeric_keypad
+1 0 370 0 -10 1 0 0 0 1 0 0 0 1 cilindro.dat
+0 MLCAD BTG numeric_keypad
+1 1 390 0 -10 1 0 0 0 1 0 0 0 1 cilindro.dat
+0 MLCAD BTG numeric_keypad
+1 0 350 0 10 1 0 0 0 1 0 0 0 1 cilindro.dat
+0 MLCAD BTG numeric_keypad
+1 0 370 0 10 1 0 0 0 1 0 0 0 1 cilindro.dat
+0 MLCAD BTG numeric_keypad
+1 0 390 0 10 1 0 0 0 1 0 0 0 1 cilindro.dat
+0 MLCAD BTG numeric_keypad
+1 0 350 0 30 1 0 0 0 1 0 0 0 1 cilindro.dat
+0 MLCAD BTG numeric_keypad
+1 0 370 0 30 1 0 0 0 1 0 0 0 1 cilindro.dat
+0 MLCAD BTG numeric_keypad
+1 0 390 0 30 1 0 0 0 1 0 0 0 1 cilindro.dat
+0 MLCAD BTG numeric_keypad
+1 0 350 0 50 1 0 0 0 1 0 0 0 1 cilindro.dat
+0 MLCAD BTG numeric_keypad
+1 0 370 0 50 1 0 0 0 1 0 0 0 1 cilindro.dat
+0 MLCAD BTG arrow_keys
+1 0 370 0 80 1 0 0 0 1 0 0 0 1 cilindro.dat
+0 MLCAD BTG arrow_keys
+1 2 370 0 100 1 0 0 0 1 0 0 0 1 cilindro.dat
+0 MLCAD BTG arrow_keys
+1 0 390 0 100 1 0 0 0 1 0 0 0 1 cilindro.dat
+0 MLCAD BTG arrow_keys
+1 0 350 0 100 1 0 0 0 1 0 0 0 1 cilindro.dat
+0 MLCAD BTG arrow_keys
+1 0 370 0 120 1 0 0 0 1 0 0 0 1 cilindro.dat
+0 GROUP 5 arrow_keys
+0 MLCAD BTG numeric_keypad
+1 0 390 0 50 1 0 0 0 1 0 0 0 1 cilindro.dat
+0 GROUP 12 numeric_keypad
+1 4 450 0 -30 1 0 0 0 1 0 0 0 1 cilindro.dat
+1 0 470 0 -30 1 0 0 0 1 0 0 0 1 cilindro.dat
+1 0 490 0 -30 1 0 0 0 1 0 0 0 1 cilindro.dat
+1 0 510 0 -30 1 0 0 0 1 0 0 0 1 cilindro.dat
+1 0 530 0 -30 1 0 0 0 1 0 0 0 1 cilindro.dat
+1 0 550 0 -30 1 0 0 0 1 0 0 0 1 cilindro.dat
+0 MLCAD BTG keyboard
+1 2 230 0 -10 1 0 0 0 1 0 0 0 1 cilindro.dat
+0 MLCAD BTG keyboard
+1 0 60 0 -20 1 0 0 0 1 0 0 0 1 jacena8.dat
+0 MLCAD BTG keyboard
+1 0 20 0 -20 1 0 0 0 1 0 0 0 1 jacena2.dat
+0 MLCAD BTG keyboard
+1 2 -30 0 10 1 0 0 0 1 0 0 0 1 cilindro.dat
+0 MLCAD BTG keyboard
+1 2 -30 0 50 1 0 0 0 1 0 0 0 1 chimtubo.dat
+0 MLCAD BTG keyboard
+1 2 260 0 70 1 0 0 0 1 0 0 0 1 chimtubo.dat
+0 MLCAD BTG keyboard
+1 1 250 0 50 1 0 0 0 1 0 0 0 1 chimtubo.dat
+0 MLCAD BTG keyboard
+1 1 260 0 30 1 0 0 0 1 0 0 0 1 chimtubo.dat
+0 MLCAD BTG keyboard
+1 2 250 0 10 1 0 0 0 1 0 0 0 1 chimtubo.dat
+0 MLCAD BTG keyboard
+1 2 -20 0 30 1 0 0 0 1 0 0 0 1 chimtubo.dat
+0 MLCAD BTG keyboard
+1 2 -10 0 10 1 0 0 0 1 0 0 0 1 chimtubo.dat
+0 MLCAD BTG keyboard
+1 0 40 0 70 1 0 0 0 1 0 0 0 1 cilindro.dat
+0 MLCAD BTG keyboard
+1 0 60 0 70 1 0 0 0 1 0 0 0 1 cilindro.dat
+0 MLCAD BTG keyboard
+1 0 80 0 70 1 0 0 0 1 0 0 0 1 cilindro.dat
+0 MLCAD BTG keyboard
+1 0 100 0 70 1 0 0 0 1 0 0 0 1 cilindro.dat
+0 MLCAD BTG keyboard
+1 0 120 0 70 1 0 0 0 1 0 0 0 1 cilindro.dat
+0 MLCAD BTG keyboard
+1 0 140 0 70 1 0 0 0 1 0 0 0 1 cilindro.dat
+0 MLCAD BTG keyboard
+1 0 160 0 70 1 0 0 0 1 0 0 0 1 cilindro.dat
+0 MLCAD BTG keyboard
+1 0 180 0 70 1 0 0 0 1 0 0 0 1 cilindro.dat
+0 MLCAD BTG keyboard
+1 0 200 0 70 1 0 0 0 1 0 0 0 1 cilindro.dat
+0 MLCAD BTG keyboard
+1 0 220 0 70 1 0 0 0 1 0 0 0 1 cilindro.dat
+0 MLCAD BTG keyboard
+1 0 240 0 70 1 0 0 0 1 0 0 0 1 cilindro.dat
+0 GROUP 62 keyboard
+1 24 -60 8 -20 1 0 0 0 1 0 0 0 1 placa2x8.dat
+1 24 -60 0 0 1 0 0 0 1 0 0 0 1 placa1.dat
+1 24 -60 -8 0 1 0 0 0 1 0 0 0 1 bald2.dat
+1 24 240 -8 -40 1 0 0 0 1 0 0 0 1 bald2.dat
+1 24 -100 -8 140 1 0 0 0 1 0 0 0 1 bald2.dat
+1 24 -40 -8 140 0 0 -1 0 1 0 1 0 0 bald2.dat
+1 24 -40 -8 80 0 0 -1 0 1 0 1 0 0 bald2.dat
+1 24 0 -8 80 0 0 -1 0 1 0 1 0 0 bald2.dat
+1 24 40 -8 80 0 0 -1 0 1 0 1 0 0 bald2.dat
+1 24 80 -8 80 0 0 -1 0 1 0 1 0 0 bald2.dat
+1 24 120 -8 80 0 0 -1 0 1 0 1 0 0 bald2.dat
+1 24 160 -8 80 0 0 -1 0 1 0 1 0 0 bald2.dat
+1 24 200 -8 80 0 0 -1 0 1 0 1 0 0 bald2.dat
+1 24 240 -8 80 0 0 -1 0 1 0 1 0 0 bald2.dat
+1 24 280 -8 80 0 0 -1 0 1 0 1 0 0 bald2.dat
+1 24 320 -8 80 0 0 -1 0 1 0 1 0 0 bald2.dat
+1 24 340 -8 40 0 0 -1 0 1 0 1 0 0 bald2.dat
+1 24 340 -8 0 0 0 -1 0 1 0 1 0 0 bald2.dat
+1 24 0 -8 140 0 0 -1 0 1 0 1 0 0 bald2.dat
+1 24 40 -8 140 0 0 -1 0 1 0 1 0 0 bald2.dat
+1 24 80 -8 140 0 0 -1 0 1 0 1 0 0 bald2.dat
+1 24 120 -8 140 0 0 -1 0 1 0 1 0 0 bald2.dat
+1 24 160 -8 140 0 0 -1 0 1 0 1 0 0 bald2.dat
+1 24 200 -8 140 0 0 -1 0 1 0 1 0 0 bald2.dat
+1 24 240 -8 140 0 0 -1 0 1 0 1 0 0 bald2.dat
+1 24 280 -8 140 0 0 -1 0 1 0 1 0 0 bald2.dat
+1 24 320 -8 140 0 0 -1 0 1 0 1 0 0 bald2.dat
+1 24 -100 -8 100 1 0 0 0 1 0 0 0 1 bald2.dat
+1 24 -100 -8 60 1 0 0 0 1 0 0 0 1 bald2.dat
+1 72 280 -8 100 1 0 0 0 1 0 0 0 1 bald2.dat
+1 24 300 -8 100 1 0 0 0 1 0 0 0 1 bald2.dat
+1 24 100 8 -20 1 0 0 0 1 0 0 0 1 placa2x8.dat
+1 24 260 8 -20 1 0 0 0 1 0 0 0 1 placa2x8.dat
+1 24 -10 8 20 1 0 0 0 1 0 0 0 1 placa4.dat
+1 24 70 8 20 1 0 0 0 1 0 0 0 1 placa4.dat
+1 24 150 8 20 1 0 0 0 1 0 0 0 1 placa4.dat
+1 24 230 8 20 1 0 0 0 1 0 0 0 1 placa4.dat
+1 24 -20 8 40 1 0 0 0 1 0 0 0 1 placa4.dat
+1 24 60 8 40 1 0 0 0 1 0 0 0 1 placa4.dat
+1 24 140 8 40 1 0 0 0 1 0 0 0 1 placa4.dat
+1 24 220 8 40 1 0 0 0 1 0 0 0 1 placa4.dat
+1 24 -10 8 60 1 0 0 0 1 0 0 0 1 placa4.dat
+1 24 70 8 60 1 0 0 0 1 0 0 0 1 placa4.dat
+1 24 150 8 60 1 0 0 0 1 0 0 0 1 placa4.dat
+1 24 230 8 60 1 0 0 0 1 0 0 0 1 placa4.dat
+1 0 300 16 0 0 0 -1 0 1 0 1 0 0 placa4.dat
+1 0 280 16 0 0 0 -1 0 1 0 1 0 0 placa4.dat
+1 0 200 16 0 0 0 -1 0 1 0 1 0 0 placa4.dat
+1 0 300 16 0 -1 0 0 0 1 0 0 0 -1 placa4.dat
+1 0 220 16 0 -1 0 0 0 1 0 0 0 -1 placa4.dat
+1 0 140 16 0 -1 0 0 0 1 0 0 0 -1 placa4.dat
+1 0 60 16 0 -1 0 0 0 1 0 0 0 -1 placa4.dat
+1 0 -20 16 20 -1 0 0 0 1 0 0 0 -1 placa2x2.dat
+1 0 340 16 20 -1 0 0 0 1 0 0 0 -1 placa2x2.dat
+1 0 20 16 20 -1 0 0 0 1 0 0 0 -1 placa2.dat
+1 0 400 16 20 0 0 1 0 1 0 -1 0 0 placa2.dat
+1 0 220 16 0 1 0 0 0 1 0 0 0 1 bald2.dat
+1 0 220 16 40 1 0 0 0 1 0 0 0 1 bald2.dat
+1 0 140 16 0 1 0 0 0 1 0 0 0 1 bald2.dat
+1 0 140 16 40 1 0 0 0 1 0 0 0 1 bald2.dat
+1 0 60 16 0 1 0 0 0 1 0 0 0 1 bald2.dat
+1 0 60 16 40 1 0 0 0 1 0 0 0 1 bald2.dat
+1 0 220 16 0 0 0 -1 0 1 0 1 0 0 placa4.dat
+1 0 140 16 0 0 0 -1 0 1 0 1 0 0 placa4.dat
+1 0 120 16 0 0 0 -1 0 1 0 1 0 0 placa4.dat
+1 0 100 16 0 0 0 -1 0 1 0 1 0 0 placa4.dat
+1 0 60 16 0 0 0 -1 0 1 0 1 0 0 placa4.dat
+1 0 40 16 0 0 0 -1 0 1 0 1 0 0 placa4.dat
+1 0 380 16 -20 0 0 -1 0 1 0 1 0 0 placa4.dat
+1 0 400 16 -20 0 0 -1 0 1 0 1 0 0 placa4.dat
+1 0 360 16 -20 0 0 -1 0 1 0 1 0 0 placa4.dat
+1 0 260 16 0 0 0 -1 0 1 0 1 0 0 placa4.dat
+1 0 180 16 0 0 0 -1 0 1 0 1 0 0 placa4.dat
+1 24 360 8 110 1 0 0 0 1 0 0 0 1 placa1.dat
+1 24 -30 8 20 1 0 0 0 1 0 0 0 1 placa1.dat
+1 24 -40 8 40 1 0 0 0 1 0 0 0 1 placa1.dat
+1 24 -30 8 60 1 0 0 0 1 0 0 0 1 placa1.dat
+1 24 340 8 70 1 0 0 0 1 0 0 0 1 placa2x3.dat
+1 24 340 8 20 1 0 0 0 1 0 0 0 1 placa2x3.dat
+1 24 -20 16 70 0 0 1 0 1 0 -1 0 0 camion.dat
+1 14 -30 16 50 0 0 1 0 1 0 -1 0 0 camion.dat
+1 24 -20 16 30 0 0 1 0 1 0 -1 0 0 camion.dat
+1 24 350 16 100 -1 0 0 0 1 0 0 0 -1 camion.dat
+1 24 390 16 100 -1 0 0 0 1 0 0 0 -1 camion.dat
+1 24 370 16 120 -1 0 0 0 1 0 0 0 -1 camion.dat
+1 24 -60 24 -40 1 0 0 0 1 0 0 0 1 placa6x8.dat
+1 24 380 32 80 -1 0 0 0 1 0 0 0 -1 placa6x8.dat
+1 24 220 32 80 -1 0 0 0 1 0 0 0 -1 placa6x8.dat
+1 24 60 32 80 -1 0 0 0 1 0 0 0 -1 placa6x8.dat
+1 24 100 40 0 1 0 0 0 1 0 0 0 1 placa6x8.dat
+1 24 240 48 20 1 0 0 0 1 0 0 0 1 placa4x8.dat
+1 24 -60 40 0 1 0 0 0 1 0 0 0 1 placa6x8.dat
+1 24 280 40 0 1 0 0 0 1 0 0 0 1 placa6x8.dat
+1 24 60 56 0 1 0 0 0 1 0 0 0 1 placa6x8.dat
+1 24 60 64 -20 1 0 0 0 1 0 0 0 1 placa6x8.dat
+1 24 220 64 -20 1 0 0 0 1 0 0 0 1 placa6x8.dat
+1 24 380 64 -20 1 0 0 0 1 0 0 0 1 placa6x8.dat
+1 24 580 64 20 0 0 -1 0 1 0 1 0 0 placa2x8.dat
+1 24 580 64 -20 0 0 -1 0 1 0 1 0 0 placa2x2.dat
+1 24 60 64 180 -1 0 0 0 1 0 0 0 -1 placa2x8.dat
+1 24 -60 64 140 -1 0 0 0 1 0 0 0 -1 placa2.dat
+1 24 -60 64 120 -1 0 0 0 1 0 0 0 -1 placa2.dat
+1 24 -100 64 -20 1 0 0 0 1 0 0 0 1 placa6x8.dat
+1 24 -40 72 160 0 0 1 0 1 0 -1 0 0 placa6x8.dat
+1 24 -80 72 160 0 0 1 0 1 0 -1 0 0 placa2x8.dat
+1 24 80 72 160 0 0 1 0 1 0 -1 0 0 placa6x8.dat
+1 24 200 72 160 0 0 1 0 1 0 -1 0 0 placa6x8.dat
+1 24 320 72 160 0 0 1 0 1 0 -1 0 0 placa6x8.dat
+1 24 440 72 160 0 0 1 0 1 0 -1 0 0 placa6x8.dat
+1 24 220 56 0 1 0 0 0 1 0 0 0 1 placa6x8.dat
+1 24 380 56 0 1 0 0 0 1 0 0 0 1 placa6x8.dat
+1 24 460 40 120 0 0 1 0 1 0 -1 0 0 placa4x6.dat
+1 24 220 56 180 0 0 1 0 1 0 -1 0 0 jacena2.dat
+1 24 400 56 180 0 0 1 0 1 0 -1 0 0 jacena2.dat
+1 24 -100 56 180 0 0 1 0 1 0 -1 0 0 jacen2x3.dat
+1 24 -100 56 120 0 0 1 0 1 0 -1 0 0 jacen2x8.dat
+1 24 420 56 -40 1 0 0 0 1 0 0 0 1 jacen2x8.dat
+1 24 -60 56 140 1 0 0 0 1 0 0 0 1 jacen2x8.dat
+1 24 580 56 20 0 0 -1 0 1 0 1 0 0 jacen2x8.dat
+1 24 580 56 20 -1 0 0 0 1 0 0 0 -1 jacena2.dat
+1 24 420 40 140 1 0 0 0 1 0 0 0 1 placa2x3.dat
+1 24 480 40 140 1 0 0 0 1 0 0 0 1 placa2x3.dat
+1 24 -60 56 -40 1 0 0 0 1 0 0 0 1 jacen2x8.dat
+1 24 100 56 -40 1 0 0 0 1 0 0 0 1 jacen2x8.dat
+1 24 260 56 -40 1 0 0 0 1 0 0 0 1 jacen2x8.dat
+1 24 -20 40 120 0 0 1 0 1 0 -1 0 0 placa2x3.dat
+1 24 60 32 180 -1 0 0 0 1 0 0 0 -1 placa4x8.dat
+1 24 220 32 180 -1 0 0 0 1 0 0 0 -1 placa4x8.dat
+1 24 380 32 180 -1 0 0 0 1 0 0 0 -1 placa4x8.dat
+1 24 100 24 -40 1 0 0 0 1 0 0 0 1 placa6x8.dat
+1 24 180 24 120 1 0 0 0 1 0 0 0 1 jacen2x8.dat
+1 24 350 24 150 1 0 0 0 1 0 0 0 1 jacena1.dat
+1 24 390 24 150 1 0 0 0 1 0 0 0 1 jacena1.dat
+1 24 340 0 140 1 0 0 0 1 0 0 0 1 placa1.dat
+1 24 380 0 70 1 0 0 0 1 0 0 0 1 placa1.dat
+1 24 340 0 70 1 0 0 0 1 0 0 0 1 placa1.dat
+1 24 380 0 140 1 0 0 0 1 0 0 0 1 placa1.dat
+1 24 400 16 180 -1 0 0 0 1 0 0 0 -1 enganche.dat
+1 24 440 16 180 1 0 0 0 1 0 0 0 1 bispqaba.dat
+1 24 100 24 120 1 0 0 0 1 0 0 0 1 jacen2x4.dat
+1 24 100 24 80 1 0 0 0 1 0 0 0 1 jacen2x4.dat
+1 24 340 16 160 -1 0 0 0 1 0 0 0 -1 alfajacn.dat
+1 24 380 16 160 -1 0 0 0 1 0 0 0 -1 alfajacn.dat
+1 24 560 24 180 -1 0 0 0 1 0 0 0 -1 jacena4.dat
+1 24 400 24 180 -1 0 0 0 1 0 0 0 -1 placa4.dat
+1 24 480 24 180 -1 0 0 0 1 0 0 0 -1 placa1.dat
+1 24 420 24 180 -1 0 0 0 1 0 0 0 -1 placa1.dat
+1 24 480 16 180 -1 0 0 0 1 0 0 0 -1 placa1.dat
+1 24 420 16 180 -1 0 0 0 1 0 0 0 -1 placa1.dat
+1 24 320 24 180 -1 0 0 0 1 0 0 0 -1 placa4.dat
+1 24 240 24 180 -1 0 0 0 1 0 0 0 -1 placa4.dat
+1 24 120 24 180 -1 0 0 0 1 0 0 0 -1 placa4.dat
+1 24 480 8 180 -1 0 0 0 1 0 0 0 -1 placa4.dat
+1 24 20 24 160 -1 0 0 0 1 0 0 0 -1 placa4.dat
+1 24 180 24 80 1 0 0 0 1 0 0 0 1 jacen2x8.dat
+1 24 260 24 -40 1 0 0 0 1 0 0 0 1 placa6x8.dat
+1 24 340 24 0 0 0 -1 0 1 0 1 0 0 jacena4.dat
+1 24 380 32 -40 1 0 0 0 1 0 0 0 1 placa4x8.dat
+1 24 540 32 -40 1 0 0 0 1 0 0 0 1 placa2x2.dat
+1 24 500 32 180 -1 0 0 0 1 0 0 0 -1 placa4x6.dat
+1 24 500 32 180 0 0 1 0 1 0 -1 0 0 placa4x6.dat
+1 24 -20 32 100 -1 0 0 0 1 0 0 0 -1 placa4.dat
+1 24 60 32 100 -1 0 0 0 1 0 0 0 -1 placa4.dat
+1 24 140 32 100 -1 0 0 0 1 0 0 0 -1 placa4.dat
+1 24 220 32 100 -1 0 0 0 1 0 0 0 -1 placa4.dat
+1 24 300 32 100 -1 0 0 0 1 0 0 0 -1 placa4.dat
+1 24 380 32 100 -1 0 0 0 1 0 0 0 -1 placa4.dat
+1 24 460 32 100 -1 0 0 0 1 0 0 0 -1 placa4.dat
+1 24 460 32 40 0 0 -1 0 1 0 1 0 0 placa2x2.dat
+1 24 580 32 0 0 0 -1 0 1 0 1 0 0 placa2x3.dat
+1 24 500 32 40 0 0 -1 0 1 0 1 0 0 placa2x3.dat
+1 24 540 32 60 -1 0 0 0 1 0 0 0 -1 placa2.dat
+1 72 540 24 0 0 0 -1 0 1 0 1 0 0 baldc4x6.dat
+1 72 450 16 80 1 0 0 0 1 0 0 0 1 placa4.dat
+1 15 470 8 100 0 0 1 0 1 0 -1 0 0 bald2.dat
+1 0 520 8 90 0 0 1 0 1 0 -1 0 0 placacil.dat
+1 0 460 8 90 0 0 1 0 1 0 -1 0 0 placacil.dat
+1 72 500 24 100 1 0 0 0 1 0 0 0 1 baldc2x2.dat
+1 72 460 24 100 1 0 0 0 1 0 0 0 1 baldc2x2.dat
+1 72 420 24 100 1 0 0 0 1 0 0 0 1 baldc2x2.dat
+1 72 460 24 80 0 0 -1 0 1 0 1 0 0 baldc2.dat
+1 72 560 24 80 0 0 -1 0 1 0 1 0 0 baldc2.dat
+1 72 560 24 140 -1 0 0 0 1 0 0 0 -1 baldc2.dat
+1 72 560 24 80 -1 0 0 0 1 0 0 0 -1 baldc2.dat
+1 72 560 24 40 -1 0 0 0 1 0 0 0 -1 baldc2.dat
+1 72 520 24 100 -1 0 0 0 1 0 0 0 -1 placa2.dat
+1 72 480 24 100 -1 0 0 0 1 0 0 0 -1 placa1.dat
+1 24 60 16 -40 -1 0 0 0 1 0 0 0 -1 jacena6.dat
+1 24 420 16 -40 -1 0 0 0 1 0 0 0 -1 jacena6.dat
+1 24 420 24 -40 1 0 0 0 1 0 0 0 1 jacen2x8.dat
+1 24 400 0 -20 1 0 0 0 1 0 0 0 1 placa2x3.dat
+1 24 460 0 -20 1 0 0 0 1 0 0 0 1 placa2x3.dat
+1 24 520 0 -20 1 0 0 0 1 0 0 0 1 placa2x3.dat
+1 24 520 0 140 1 0 0 0 1 0 0 0 1 placa2x3.dat
+1 24 580 0 60 0 0 -1 0 1 0 1 0 0 placa4.dat
+1 24 580 0 20 0 0 -1 0 1 0 1 0 0 placa2.dat
+1 24 400 16 20 0 0 -1 0 1 0 1 0 0 jacena6.dat
+1 47 540 -8 160 -1 0 0 0 1 0 0 0 -1 baldc4x6.dat
+1 47 460 -8 160 -1 0 0 0 1 0 0 0 -1 baldc2x2.dat
+1 47 460 -8 120 -1 0 0 0 1 0 0 0 -1 baldc2x2.dat
+1 47 460 -8 80 -1 0 0 0 1 0 0 0 -1 baldc2x2.dat
+1 47 560 -8 160 -1 0 0 0 1 0 0 0 -1 baldc2.dat
+1 47 560 -8 120 -1 0 0 0 1 0 0 0 -1 baldc2.dat
+1 47 560 -8 80 -1 0 0 0 1 0 0 0 -1 baldc2.dat
+1 47 480 0 60 -1 0 0 0 1 0 0 0 -1 placa2.dat
+1 47 520 0 60 -1 0 0 0 1 0 0 0 -1 placa2.dat
+1 47 560 0 60 -1 0 0 0 1 0 0 0 -1 placa2.dat
+1 47 540 0 100 0 0 1 0 1 0 -1 0 0 placa2.dat
+1 47 540 0 140 0 0 1 0 1 0 -1 0 0 placa2.dat
+1 47 420 0 140 0 0 1 0 1 0 -1 0 0 placa2.dat
+1 47 420 0 100 0 0 1 0 1 0 -1 0 0 placa2.dat
+1 47 420 0 60 0 0 1 0 1 0 -1 0 0 placa1.dat
+1 24 460 0 140 1 0 0 0 1 0 0 0 1 placa2x3.dat
+1 24 400 0 140 1 0 0 0 1 0 0 0 1 placa2x3.dat
+1 24 240 -8 170 1 0 0 0 1 0 0 0 1 pastilla.dat
+1 24 280 -8 170 1 0 0 0 1 0 0 0 1 pastilla.dat
+1 24 320 -8 170 1 0 0 0 1 0 0 0 1 pastilla.dat
+1 24 360 -8 170 1 0 0 0 1 0 0 0 1 pastilla.dat
+1 24 480 -8 170 1 0 0 0 1 0 0 0 1 pastilla.dat
+1 24 400 -8 170 1 0 0 0 1 0 0 0 1 pastilla.dat
+1 24 440 -8 170 1 0 0 0 1 0 0 0 1 pastilla.dat
+1 24 520 -8 170 1 0 0 0 1 0 0 0 1 pastilla.dat
+1 24 0 16 160 -1 0 0 0 1 0 0 0 -1 alfajacn.dat
+1 24 80 16 160 -1 0 0 0 1 0 0 0 -1 alfajacn.dat
+1 24 100 16 160 -1 0 0 0 1 0 0 0 -1 alfajacn.dat
+1 24 140 16 160 -1 0 0 0 1 0 0 0 -1 alfajacn.dat
+1 24 180 16 160 -1 0 0 0 1 0 0 0 -1 alfajacn.dat
+1 24 220 16 160 -1 0 0 0 1 0 0 0 -1 alfajacn.dat
+1 24 260 16 160 -1 0 0 0 1 0 0 0 -1 alfajacn.dat
+1 24 300 16 160 -1 0 0 0 1 0 0 0 -1 alfajacn.dat
+1 24 -40 -8 170 1 0 0 0 1 0 0 0 1 pastilla.dat
+1 24 -100 0 160 1 0 0 0 1 0 0 0 1 placa2.dat
+1 24 0 -8 170 1 0 0 0 1 0 0 0 1 pastilla.dat
+1 24 40 -8 170 1 0 0 0 1 0 0 0 1 pastilla.dat
+1 24 160 -8 170 1 0 0 0 1 0 0 0 1 pastilla.dat
+1 24 80 -8 170 1 0 0 0 1 0 0 0 1 pastilla.dat
+1 24 120 -8 170 1 0 0 0 1 0 0 0 1 pastilla.dat
+1 24 200 -8 170 1 0 0 0 1 0 0 0 1 pastilla.dat
+1 24 400 -8 -40 1 0 0 0 1 0 0 0 1 bald2x2r.dat
+1 24 560 -8 -40 1 0 0 0 1 0 0 0 1 bald2r.dat
+1 24 400 -8 0 1 0 0 0 1 0 0 0 1 bald2x2.dat
+1 24 440 -8 0 1 0 0 0 1 0 0 0 1 bald2x2.dat
+1 24 540 -8 0 1 0 0 0 1 0 0 0 1 bald2x2.dat
+1 24 -100 -8 0 1 0 0 0 1 0 0 0 1 bald2x2.dat
+1 24 -80 -8 40 1 0 0 0 1 0 0 0 1 bald2x2.dat
+1 24 -80 -8 100 1 0 0 0 1 0 0 0 1 bald2x2.dat
+1 72 -40 -8 100 1 0 0 0 1 0 0 0 1 bald2x2.dat
+1 72 0 -8 100 1 0 0 0 1 0 0 0 1 bald2x2.dat
+1 72 40 -8 100 1 0 0 0 1 0 0 0 1 bald2x2.dat
+1 72 80 -8 100 1 0 0 0 1 0 0 0 1 bald2x2.dat
+1 72 120 -8 100 1 0 0 0 1 0 0 0 1 bald2x2.dat
+1 72 160 -8 100 1 0 0 0 1 0 0 0 1 bald2x2.dat
+1 72 200 -8 100 1 0 0 0 1 0 0 0 1 bald2x2.dat
+1 72 240 -8 100 1 0 0 0 1 0 0 0 1 bald2x2.dat
+1 24 500 -8 0 1 0 0 0 1 0 0 0 1 bald2x2.dat
+1 24 480 -8 0 1 0 0 0 1 0 0 0 1 bald2.dat
+1 24 380 -8 120 1 0 0 0 1 0 0 0 1 bald2.dat
+1 24 340 -8 160 0 0 1 0 1 0 -1 0 0 bald2.dat
+1 24 320 -8 140 0 0 1 0 1 0 -1 0 0 bald2.dat
+1 24 320 -8 80 1 0 0 0 1 0 0 0 1 bald2.dat
+1 24 440 -8 0 0 0 1 0 1 0 -1 0 0 bald2.dat
+1 24 520 -8 0 0 0 1 0 1 0 -1 0 0 bald2.dat
+1 24 540 -8 180 0 0 1 0 1 0 -1 0 0 bald2.dat
+1 24 0 24 180 0 0 1 0 1 0 -1 0 0 bald2.dat
+1 24 120 24 180 0 0 1 0 1 0 -1 0 0 bald2.dat
+1 24 480 -8 0 0 0 1 0 1 0 -1 0 0 bald2.dat
+1 24 -80 -8 180 0 0 1 0 1 0 -1 0 0 bald1.dat
+1 24 -60 24 180 0 0 1 0 1 0 -1 0 0 bald1.dat
+1 24 560 -8 40 1 0 0 0 1 0 0 0 1 bald2.dat
+1 24 560 -8 80 1 0 0 0 1 0 0 0 1 bald2.dat
+1 24 560 -8 120 1 0 0 0 1 0 0 0 1 bald2.dat
+1 24 400 -8 120 1 0 0 0 1 0 0 0 1 bald2.dat
+1 24 400 -8 80 1 0 0 0 1 0 0 0 1 bald2.dat
+1 24 400 -8 40 1 0 0 0 1 0 0 0 1 bald2.dat
+1 24 300 -8 -40 1 0 0 0 1 0 0 0 1 bald2x2r.dat
+1 24 260 -8 -40 1 0 0 0 1 0 0 0 1 bald2x2r.dat
+1 24 -20 -8 -40 1 0 0 0 1 0 0 0 1 bald2x2r.dat
+1 24 -60 -8 -40 1 0 0 0 1 0 0 0 1 bald2x2r.dat
+1 24 -100 -8 -40 1 0 0 0 1 0 0 0 1 bald2x2r.dat
+1 24 340 -8 -20 0 0 1 0 1 0 -1 0 0 bald2.dat
+1 24 200 -8 -20 0 0 1 0 1 0 -1 0 0 bald2.dat
+1 24 160 -8 -20 0 0 1 0 1 0 -1 0 0 bald2.dat
+1 24 120 -8 -20 0 0 1 0 1 0 -1 0 0 bald2.dat
+1 24 80 -8 -20 0 0 1 0 1 0 -1 0 0 bald2.dat
+1 24 -40 24 180 0 0 1 0 1 0 -1 0 0 bald2.dat
+1 24 40 -8 -20 0 0 1 0 1 0 -1 0 0 bald2.dat
+1 24 380 -8 -20 0 0 1 0 1 0 -1 0 0 bald1.dat
+1 24 320 -8 160 0 0 1 0 1 0 -1 0 0 bald1.dat
+1 24 -100 -8 60 0 0 1 0 1 0 -1 0 0 bald1.dat
+1 24 380 -8 90 0 0 1 0 1 0 -1 0 0 bald1.dat
+1 24 290 -8 40 0 0 1 0 1 0 -1 0 0 bald1.dat
+1 24 320 -8 40 0 0 1 0 1 0 -1 0 0 bald1.dat
+1 24 320 -8 80 0 0 1 0 1 0 -1 0 0 bald1.dat
+1 24 20 -8 -20 0 0 1 0 1 0 -1 0 0 bald1.dat
+1 24 290 -8 80 0 0 1 0 1 0 -1 0 0 bald1.dat
+1 24 319 4 80 0 1 0 0 0 -1 -1 0 0 bald1.dat
+1 24 319 4 40 0 1 0 0 0 -1 -1 0 0 bald1.dat
+1 24 340 -8 90 0 0 1 0 1 0 -1 0 0 bald1.dat
+1 24 580 24 0 0 0 -1 0 1 0 1 0 0 jacena8.dat
+1 24 570 24 170 0 0 -1 0 1 0 1 0 0 jacena1.dat
+1 24 420 0 -40 1 0 0 0 1 0 0 0 1 placa1.dat
+1 24 560 0 -40 1 0 0 0 1 0 0 0 1 placa1.dat
+1 24 -100 24 120 0 0 1 0 1 0 -1 0 0 placa2.dat
+1 24 -80 24 40 0 0 1 0 1 0 -1 0 0 placa2.dat
+1 24 -80 16 40 0 0 1 0 1 0 -1 0 0 enganch2.dat
+1 24 -80 16 20 0 0 1 0 1 0 -1 0 0 enganch2.dat
+1 24 -100 24 0 0 0 1 0 1 0 -1 0 0 jacen2x2.dat
+1 24 -100 24 40 1 0 0 0 1 0 0 0 1 jacena2.dat
+1 24 -100 0 0 0 0 1 0 1 0 -1 0 0 placa2x2.dat
+1 24 -100 8 140 0 0 1 0 1 0 -1 0 0 placa2x2.dat
+1 24 -100 8 100 0 0 1 0 1 0 -1 0 0 placa2x2.dat
+1 24 -100 0 80 0 0 1 0 1 0 -1 0 0 placa2x2.dat
+1 24 -100 0 120 0 0 1 0 1 0 -1 0 0 placa2x2.dat
+1 24 -100 0 160 0 0 1 0 1 0 -1 0 0 placa2x2.dat
+1 24 -100 24 80 0 0 1 0 1 0 -1 0 0 bald2.dat
+1 24 -100 24 140 0 0 1 0 1 0 -1 0 0 bald2.dat
+1 0 -70 16 100 0 0 1 0 1 0 -1 0 0 popa4p.dat
+1 24 -100 24 140 1 0 0 0 1 0 0 0 1 jacen2x2.dat
+1 24 300 16 -40 -1 0 0 0 1 0 0 0 -1 jacena6.dat
+1 24 180 16 -40 -1 0 0 0 1 0 0 0 -1 jacena6.dat
+1 24 340 24 80 1 0 0 0 1 0 0 0 1 placa2x3.dat
+1 24 340 24 120 1 0 0 0 1 0 0 0 1 placa2x3.dat
+1 24 -20 16 160 -1 0 0 0 1 0 0 0 -1 cuna.dat
+1 24 20 16 160 -1 0 0 0 1 0 0 0 -1 cuna.dat
+1 24 200 48 180 -1 0 0 0 1 0 0 0 -1 baldc4x8.dat
+1 24 60 64 180 0 0 1 0 1 0 -1 0 0 baldc4x6.dat
+1 24 180 64 180 0 0 1 0 1 0 -1 0 0 baldc4x6.dat
+1 24 300 64 180 0 0 1 0 1 0 -1 0 0 baldc4x6.dat
+1 24 420 64 180 0 0 1 0 1 0 -1 0 0 baldc4x6.dat
+1 24 520 48 180 -1 0 0 0 1 0 0 0 -1 baldc4x8.dat
+1 24 260 48 180 0 0 1 0 1 0 -1 0 0 baldc4x6.dat
+0

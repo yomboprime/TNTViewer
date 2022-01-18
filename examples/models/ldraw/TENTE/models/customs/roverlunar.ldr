@@ -1,0 +1,66 @@
+0 Untitled
+0 Name: roverlunar.ldr
+0 Author: MLCad
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 15 -40 8 0 1 0 0 0 1 0 0 0 1 alfachas.dat
+1 0 130 8 20 1 0 0 0 1 0 0 0 1 alfaneum.dat
+1 7 40 0 20 -1 0 0 0 -1 0 0 0 1 alfalln1.dat
+1 0 130 8 180 1 0 0 0 1 0 0 0 1 alfaneum.dat
+1 7 40 0 180 -1 0 0 0 -1 0 0 0 1 alfalln1.dat
+1 0 -130 8 220 -1 0 0 0 1 0 0 0 -1 alfaneum.dat
+1 7 -40 0 220 1 0 0 0 -1 0 0 0 -1 alfalln1.dat
+1 0 -130 8 60 -1 0 0 0 1 0 0 0 -1 alfaneum.dat
+1 7 -40 0 60 1 0 0 0 -1 0 0 0 -1 alfalln1.dat
+1 7 -50 8 140 1 0 0 0 1 0 0 0 1 laser.dat
+1 7 -70 -88 140 1 0 0 0 1 0 0 0 1 chimplac.dat
+1 7 -50 -88 120 1 0 0 0 -1 0 0 0 -1 laser.dat
+1 15 -70 16 120 1 0 0 0 1 0 0 0 1 chimplac.dat
+1 15 -60 16 130 1 0 0 0 1 0 0 0 1 placa2.dat
+1 15 20 -16 180 1 0 0 0 1 0 0 0 1 pico.dat
+1 15 -60 -16 180 1 0 0 0 1 0 0 0 1 pico.dat
+1 15 -40 -8 160 1 0 0 0 1 0 0 0 1 placa4.dat
+1 15 -60 -8 160 1 0 0 0 1 0 0 0 1 placa1.dat
+1 15 40 -8 160 1 0 0 0 1 0 0 0 1 placa1.dat
+1 15 20 -16 160 0 0 -1 0 1 0 1 0 0 remate_2.dat
+1 15 0 -24 170 1 0 0 0 1 0 0 0 1 pastilla.dat
+1 15 0 -8 200 1 0 0 0 1 0 0 0 1 placa1.dat
+1 7 10 -70 210 0 1 0 -1 0 0 0 0 1 eje45.dat
+1 7 10 -120 210 0 0 1 0 -1 0 1 0 0 toberast.dat
+1 7 10 -168 210 0 0 1 0 -1 0 1 0 0 cilindro.dat
+1 7 10 -192 210 0 0 1 0 -1 0 1 0 0 cilindro.dat
+1 15 10 -184 210 -1 0 0 0 1 0 0 0 -1 radar.dat
+1 15 -20 -8 20 1 0 0 0 1 0 0 0 1 jacena2.dat
+1 15 -20 -32 20 1 0 0 0 1 0 0 0 1 enganch2.dat
+1 15 0 -32 220 -1 0 0 0 0 -1 0 -1 0 enganch2.dat
+1 15 0 -32 20 1 0 0 0 1 0 0 0 1 enganch2.dat
+1 15 -10 -56 30 1 0 0 0 1 0 0 0 1 amortigu.dat
+1 15 10 -56 30 1 0 0 0 1 0 0 0 1 chimplac.dat
+1 15 -40 -8 80 1 0 0 0 1 0 0 0 1 placa2x2.dat
+1 15 0 -8 80 1 0 0 0 1 0 0 0 1 placa2x2.dat
+1 15 -40 -16 80 1 0 0 0 1 0 0 0 1 placa2x2.dat
+1 15 -40 -24 120 0 0 1 0 1 0 -1 0 0 placacty.dat
+1 15 40 -24 80 0 0 -1 0 1 0 1 0 0 placacty.dat
+1 15 0 -16 80 1 0 0 0 1 0 0 0 1 placa2x2.dat
+1 15 -20 -24 120 0 0 1 0 1 0 -1 0 0 pinzastr.dat
+1 15 30 -8 130 0 0 1 0 1 0 -1 0 0 jacena1.dat
+1 15 -30 -8 130 0 0 1 0 1 0 -1 0 0 jacena1.dat
+1 15 30 -32 140 0 0 1 0 1 0 -1 0 0 chimplac.dat
+1 15 -30 -32 140 0 0 1 0 1 0 -1 0 0 chimplac.dat
+1 15 -30 -40 140 0 0 1 0 1 0 -1 0 0 sirena.dat
+1 15 30 -40 140 0 0 1 0 1 0 -1 0 0 sirena.dat
+0 MLCAD BTG astronauta
+1 15 0 -45 106 -1 0 0 0 0 1 0 1 0 astpiern.dat
+0 MLCAD BTG astronauta
+1 15 -10 7.912 107.647 -1 0 0 0 0.965926 0.258819 0 0.258819 -0.965926 astcuerp.dat
+0 GROUP 2 astronauta
+1 15 -10 -8 230 1 0 0 0 1 0 0 0 1 tubo.dat
+1 7 -10 -42 269 1 0 0 0 0 -1 0 1 0 tubo.dat
+1 15 -20 -51 212 1 0 0 0 0 1 0 -1 0 placa1.dat
+1 15 -40 -89 130 0 1 0 0 0 -1 -1 0 0 enganch2.dat
+1 7 -89 -99 120 0 -1 0 0 0 -1 1 0 0 tubo.dat
+1 15 -32 -108 110 0 1 0 0 0 1 1 0 0 placa1.dat
+1 15 -20 -32 20 1 0 0 0 0 -1 0 1 0 vntscorm.dat
+1 15 20 8 -4 0 0 -1 -1 0 0 0 1 0 placa2x3.dat
+0

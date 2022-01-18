@@ -1,0 +1,71 @@
+0 MLCAD BTG ruedas_50
+0 Sin_nombre
+0 MLCAD BTG ruedas_50
+0 Name: microbus50.ldr
+0 MLCAD BTG ruedas_50
+0 Author: cpcbegin
+0 MLCAD BTG ruedas_50
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+0 MLCAD BTG ruedas_50
+1 0 -20 0 0 1 0 0 0 1 0 0 0 1 jacen2x2.dat
+0 MLCAD BTG ruedas_50
+1 8 -20 0 40 1 0 0 0 1 0 0 0 1 llantrut.dat
+0 MLCAD BTG ruedas_50
+1 15 -20 0 40 1 0 0 0 1 0 0 0 1 ruta21nm.dat
+0 MLCAD BTG ruedas_50
+1 8 20 0 0 -1 0 0 0 1 0 0 0 -1 llantrut.dat
+0 MLCAD BTG ruedas_50
+1 15 20 0 0 -1 0 0 0 1 0 0 0 -1 ruta21nm.dat
+0 GROUP 9 ruedas_50
+0 Sin_nombre
+0 Name: Sin_nombre.ldr
+0 Author: cpcbegin
+0 Unofficial Model
+1 0 -20 0 -80 1 0 0 0 1 0 0 0 1 jacen2x2.dat
+1 0 -20 -24 -80 1 0 0 0 1 0 0 0 1 placa2x2.dat
+1 0 -20 -24 0 1 0 0 0 1 0 0 0 1 placa2x2.dat
+1 15 40 -32 -100 0 0 -1 0 1 0 1 0 0 placa4x8.dat
+1 1 0 -32 -80 1 0 0 0 1 0 0 0 1 paracf21.dat
+1 1 0 -40 -60 1 0 0 0 1 0 0 0 1 cabant.dat
+1 1 -40 -40 40 1 0 0 0 1 0 0 0 1 jacena4.dat
+1 1 -40 -40 40 0 0 1 0 1 0 -1 0 0 jacena4.dat
+1 1 20 -40 40 0 0 1 0 1 0 -1 0 0 jacena4.dat
+1 1 40 -40 -40 -1 0 0 0 1 0 0 0 -1 ventana1m.dat
+1 1 -40 -8 -30 1 0 0 0 1 0 0 0 1 jacena4.dat
+1 1 0 -32 40 -1 0 0 0 1 0 0 0 -1 paracq21.dat
+1 8 -20 0 -40 1 0 0 0 1 0 0 0 1 llantrut.dat
+1 15 -20 0 -40 1 0 0 0 1 0 0 0 1 ruta21nm.dat
+1 8 20 0 -80 -1 0 0 0 1 0 0 0 -1 llantrut.dat
+1 15 20 0 -80 -1 0 0 0 1 0 0 0 -1 ruta21nm.dat
+1 32 40 -40 -60 0 0 -1 0 1 0 1 0 0 ventana1c.dat
+1 1 -40 -40 -60 1 0 0 0 1 0 0 0 1 ventana1m.dat
+1 32 -40 -40 -40 0 0 1 0 1 0 -1 0 0 ventana1c.dat
+1 1 40 -64 20 0 0 -1 0 1 0 1 0 0 vnt1x1.dat
+1 1 40 -64 0 0 0 -1 0 1 0 1 0 0 vnt1x1.dat
+1 1 40 -64 -20 0 0 -1 0 1 0 1 0 0 vnt1x1.dat
+1 1 40 -64 -40 0 0 -1 0 1 0 1 0 0 vnt1x1.dat
+1 1 -40 -64 40 0 0 1 0 1 0 -1 0 0 vnt1x1.dat
+1 1 -40 -64 0 0 0 1 0 1 0 -1 0 0 vnt1x1.dat
+1 1 -40 -64 20 0 0 1 0 1 0 -1 0 0 vnt1x1.dat
+1 1 -40 -64 -20 0 0 1 0 1 0 -1 0 0 vnt1x1.dat
+1 1 20 -64 60 -1 0 0 0 1 0 0 0 -1 vntscorp.dat
+1 1 -20 -64 60 -1 0 0 0 1 0 0 0 -1 enganch2.dat
+1 1 40 -64 60 -1 0 0 0 1 0 0 0 -1 enganch2.dat
+1 1 -40 -88 60 0 0 1 0 1 0 -1 0 0 bald2x2r.dat
+1 1 -40 -88 0 0 0 1 0 1 0 -1 0 0 bald2x2r.dat
+1 1 40 -88 -40 0 0 -1 0 1 0 1 0 0 bald2x2r.dat
+1 15 40 -88 -60 0 0 -1 0 1 0 1 0 0 bald2r.dat
+1 15 40 -88 0 0 0 -1 0 1 0 1 0 0 bald2r.dat
+1 15 -40 -88 20 0 0 1 0 1 0 -1 0 0 bald2r.dat
+1 15 -40 -88 -40 0 0 1 0 1 0 -1 0 0 bald2r.dat
+1 1 40 -96 -80 0 0 -1 0 1 0 1 0 0 bald2r.dat
+1 1 -40 -96 -60 0 0 1 0 1 0 -1 0 0 bald2r.dat
+1 36 -30 -75 60 0 0 1 -1 0 0 0 -1 0 placacil.dat
+1 36 30 -75 60 0 0 1 -1 0 0 0 -1 0 placacil.dat
+1 46 20 -88 -60 -1 0 0 0 1 0 0 0 -1 placa2.dat
+1 1 20 -88 -60 0 0 1 0 1 0 -1 0 0 placa1.dat
+1 1 -40 -88 -60 0 0 1 0 1 0 -1 0 0 placa1.dat
+1 1 40 -88 20 0 0 -1 0 1 0 1 0 0 bald2x2r.dat
+0

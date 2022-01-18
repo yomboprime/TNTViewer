@@ -1,0 +1,64 @@
+0 Sin_nombre
+0 Name: uesondeo.ldr
+0 Author: cpcbegin
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 0 0 16 -40 1 0 0 0 1 0 0 0 1 ejecaden.dat
+1 0 0 16 -80 1 0 0 0 1 0 0 0 1 ejecaden.dat
+1 0 0 16 -120 1 0 0 0 1 0 0 0 1 ejedbcad.dat
+1 0 -80 16 -40 -1 0 0 0 1 0 0 0 -1 ejecaden.dat
+1 0 -80 16 0 -1 0 0 0 1 0 0 0 -1 ejedbcad.dat
+1 15 -80 32 -200 -1 0 0 0 1 0 0 0 -1 llantqar.dat
+1 15 -80 32 -160 -1 0 0 0 1 0 0 0 -1 llantqar.dat
+1 15 -80 32 -120 -1 0 0 0 1 0 0 0 -1 llantqar.dat
+1 15 -80 32 -80 -1 0 0 0 1 0 0 0 -1 llantqar.dat
+1 15 -80 32 -40 -1 0 0 0 1 0 0 0 -1 llantqar.dat
+1 15 -80 16 0 -1 0 0 0 1 0 0 0 -1 llantqar.dat
+1 15 -80 16 -240 -1 0 0 0 1 0 0 0 -1 llantqar.dat
+1 15 0 32 80 1 0 0 0 1 0 0 0 1 llantqar.dat
+1 15 0 32 40 1 0 0 0 1 0 0 0 1 llantqar.dat
+1 15 0 32 0 1 0 0 0 1 0 0 0 1 llantqar.dat
+1 15 0 32 -40 1 0 0 0 1 0 0 0 1 llantqar.dat
+1 15 0 32 -80 1 0 0 0 1 0 0 0 1 llantqar.dat
+1 15 0 16 -120 1 0 0 0 1 0 0 0 1 llantqar.dat
+1 15 0 16 120 1 0 0 0 1 0 0 0 1 llantqar.dat
+1 0 -40 -8 -120 1 0 0 0 1 0 0 0 1 cadlarga.dat
+1 0 -170 -8 -120 1 0 0 0 1 0 0 0 1 cadlarga.dat
+1 1 0 -8 -100 0 0 -1 0 1 0 1 0 0 jacena8.dat
+1 4 -50 -8 10 1 0 0 0 1 0 0 0 1 extenabj.dat
+1 4 -50 -8 10 1 0 0 0 1 0 0 0 1 extenmed.dat
+1 1 -60 -8 -100 0 0 -1 0 1 0 1 0 0 jacena8.dat
+1 1 -80 -8 -220 0 0 -1 0 1 0 1 0 0 jacena6.dat
+1 1 -20 -8 -220 0 0 -1 0 1 0 1 0 0 jacena6.dat
+1 15 -20 -8 -100 0 0 -1 0 1 0 1 0 0 jacen2x4.dat
+1 1 40 -32 -140 -1 0 0 0 1 0 0 0 -1 placa6x8.dat
+1 15 -40 -40 -60 1 0 0 0 1 0 0 0 1 bisnraba.dat
+1 15 -40 -40 -60 1 0 0 0 0.707107 -0.707107 0 0.707107 0.707107 bisnrarr.dat
+1 15 -40 -40 -60 1 0 0 0 1 0 0 0 1 bisnreje.dat
+1 1 -80 -32 -80 0 0 1 0 1 0 -1 0 0 bald2x2r.dat
+1 1 0 -32 -120 0 0 -1 0 1 0 1 0 0 bald2x2r.dat
+1 1 0 -88 -240 1 0 0 0 1 0 0 0 1 bald2x2r.dat
+1 1 -40 -88 -240 1 0 0 0 1 0 0 0 1 bald2x2r.dat
+1 1 -80 -88 -240 1 0 0 0 1 0 0 0 1 bald2x2r.dat
+1 1 -120 -88 -240 1 0 0 0 1 0 0 0 1 bald2x2r.dat
+1 15 -80 -32 -140 1 0 0 0 1 0 0 0 1 pistola.dat
+1 1 -80 -8 -220 -1 0 0 0 1 0 0 0 -1 cuna.dat
+1 1 -40 -8 -220 -1 0 0 0 1 0 0 0 -1 cuna.dat
+1 1 0 -8 -220 -1 0 0 0 1 0 0 0 -1 cuna.dat
+1 1 40 -8 -220 -1 0 0 0 1 0 0 0 -1 cuna.dat
+1 15 40 -40 -220 0 0 -1 0 1 0 1 0 0 vntthor.dat
+1 15 -120 -40 -180 0 0 1 0 1 0 -1 0 0 vntthor.dat
+1 15 -80 -40 -220 1 0 0 0 1 0 0 0 1 cabant.dat
+1 15 0 -40 -220 1 0 0 0 1 0 0 0 1 cabant.dat
+1 15 -120 -40 -180 1 0 0 0 1 0 0 0 1 jacen2x8.dat
+1 15 -120 -64 -180 1 0 0 0 1 0 0 0 1 jacena8.dat
+1 15 -80 -64 -160 -1 0 0 0 1 0 0 0 -1 pico.dat
+1 15 -20 -64 -160 -1 0 0 0 1 0 0 0 -1 pico.dat
+1 15 40 -64 -160 -1 0 0 0 1 0 0 0 -1 pico.dat
+1 1 40 -88 -160 -1 0 0 0 1 0 0 0 -1 placa2x8.dat
+1 46 20 -96 -180 -1 0 0 0 1 0 0 0 -1 amortigu.dat
+1 1 -40 -96 -200 1 0 0 0 1 0 0 0 1 semicupp.dat
+1 0 -10 -69 -150 1 0 0 0 1 0 0 0 1 antena.dat
+1 0 -70 -69 -150 1 0 0 0 1 0 0 0 1 antena.dat
+0

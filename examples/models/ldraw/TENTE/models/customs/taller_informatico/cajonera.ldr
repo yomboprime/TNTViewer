@@ -1,0 +1,378 @@
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 0 40 40 100 1 0 0 0 1 0 0 0 1 cajon.ldr
+1 0 40 40 0 1 0 0 0 1 0 0 0 1 cajon.ldr
+1 0 40 40 300 1 0 0 0 1 0 0 0 1 cajon.ldr
+1 0 40 40 200 1 0 0 0 1 0 0 0 1 cajon.ldr
+0 MLCAD BTG portacajon
+1 366 -80 50 120 0 0 -1 1 0 0 0 -1 0 placa4x6.dat
+0 MLCAD BTG portacajon
+1 366 120 170 120 -1 0 0 0 0 -1 0 -1 0 placa6x8.dat
+0 MLCAD BTG portacajon
+1 366 -140 50 120 -1 0 0 0 0 -1 0 -1 0 placa1.dat
+0 MLCAD BTG portacajon
+1 366 120 50 120 -1 0 0 0 0 -1 0 -1 0 placa1.dat
+0 MLCAD BTG portacajon
+1 366 -80 110 120 0 0 1 -1 0 0 0 -1 0 placa2x3.dat
+0 MLCAD BTG portacajon
+1 366 -80 150 120 0 0 1 -1 0 0 0 -1 0 placa2x2.dat
+0 MLCAD BTG portacajon
+1 366 -80 190 120 0 0 1 -1 0 0 0 -1 0 placa2x2.dat
+0 MLCAD BTG portacajon
+1 366 -160 170 120 1 0 0 0 0 1 0 -1 0 placa4.dat
+0 MLCAD BTG portacajon
+1 366 -40 170 120 1 0 0 0 0 1 0 -1 0 placa4.dat
+0 MLCAD BTG portacajon
+1 366 40 170 120 1 0 0 0 0 1 0 -1 0 placa4.dat
+0 MLCAD BTG portacajon
+1 366 -160 190 120 1 0 0 0 0 1 0 -1 0 placa4x8.dat
+0 MLCAD BTG portacajon
+1 366 0 190 120 1 0 0 0 0 1 0 -1 0 placa4x6.dat
+0 MLCAD BTG portacajon
+1 366 20 130 128 1 0 0 0 0 1 0 -1 0 baldc4x6.dat
+0 MLCAD BTG portacajon
+1 366 -140 130 128 1 0 0 0 0 1 0 -1 0 baldc4x6.dat
+0 MLCAD BTG portacajon
+1 366 -60 130 128 1 0 0 0 0 1 0 -1 0 baldc4x6.dat
+0 MLCAD BTG portacajon
+1 366 -20 50 128 0 0 -1 1 0 0 0 -1 0 baldc4x6.dat
+0 MLCAD BTG portacajon
+1 366 100 50 128 0 0 -1 1 0 0 0 -1 0 baldc4x6.dat
+0 MLCAD BTG portacajon
+1 366 120 270 128 0 0 1 -1 0 0 0 -1 0 jacena6.dat
+0 MLCAD BTG portacajon
+1 366 120 150 128 0 0 1 -1 0 0 0 -1 0 jacena6.dat
+0 MLCAD BTG portacajon
+1 366 -140 270 128 0 0 1 -1 0 0 0 -1 0 jacena6.dat
+0 MLCAD BTG portacajon
+1 366 -20 250 128 -1 0 0 0 0 -1 0 -1 0 jacena6.dat
+0 MLCAD BTG portacajon
+1 366 100 250 128 -1 0 0 0 0 -1 0 -1 0 jacena6.dat
+0 MLCAD BTG portacajon
+1 366 120 250 152 -1 0 0 0 0 -1 0 -1 0 jacena6.dat
+0 MLCAD BTG portacajon
+1 366 0 270 152 -1 0 0 0 0 -1 0 -1 0 jacena8.dat
+0 MLCAD BTG portacajon
+1 366 -140 250 152 0 0 1 -1 0 0 0 -1 0 jacena6.dat
+0 MLCAD BTG portacajon
+1 366 120 250 152 0 0 1 -1 0 0 0 -1 0 jacena6.dat
+0 MLCAD BTG portacajon
+1 366 100 130 152 0 0 1 -1 0 0 0 -1 0 jacena4.dat
+0 MLCAD BTG portacajon
+1 366 -160 130 152 0 0 1 -1 0 0 0 -1 0 jacena4.dat
+0 MLCAD BTG portacajon
+1 366 -150 40 152 0 0 1 -1 0 0 0 -1 0 jacena1.dat
+0 MLCAD BTG portacajon
+1 366 110 40 152 0 0 1 -1 0 0 0 -1 0 jacena1.dat
+0 MLCAD BTG portacajon
+1 366 -140 150 128 0 0 1 -1 0 0 0 -1 0 jacena6.dat
+0 MLCAD BTG portacajon
+1 366 120 270 176 0 0 1 -1 0 0 0 -1 0 jacena6.dat
+0 MLCAD BTG portacajon
+1 366 120 150 176 0 0 1 -1 0 0 0 -1 0 jacena6.dat
+0 MLCAD BTG portacajon
+1 366 -140 270 176 0 0 1 -1 0 0 0 -1 0 jacena6.dat
+0 MLCAD BTG portacajon
+1 366 -20 250 176 -1 0 0 0 0 -1 0 -1 0 jacena6.dat
+0 MLCAD BTG portacajon
+1 366 100 250 176 -1 0 0 0 0 -1 0 -1 0 jacena6.dat
+0 MLCAD BTG portacajon
+1 366 120 250 200 -1 0 0 0 0 -1 0 -1 0 jacena6.dat
+0 MLCAD BTG portacajon
+1 366 0 270 200 -1 0 0 0 0 -1 0 -1 0 jacena8.dat
+0 MLCAD BTG portacajon
+1 366 -140 250 200 0 0 1 -1 0 0 0 -1 0 jacena6.dat
+0 MLCAD BTG portacajon
+1 366 120 250 200 0 0 1 -1 0 0 0 -1 0 jacena6.dat
+0 MLCAD BTG portacajon
+1 366 100 130 200 0 0 1 -1 0 0 0 -1 0 jacena4.dat
+0 MLCAD BTG portacajon
+1 366 -160 130 200 0 0 1 -1 0 0 0 -1 0 jacena4.dat
+0 MLCAD BTG portacajon
+1 366 -150 40 200 0 0 1 -1 0 0 0 -1 0 jacena1.dat
+0 MLCAD BTG portacajon
+1 366 110 40 200 0 0 1 -1 0 0 0 -1 0 jacena1.dat
+0 MLCAD BTG portacajon
+1 366 -140 150 176 0 0 1 -1 0 0 0 -1 0 jacena6.dat
+0 GROUP 45 portacajon
+0 MLCAD BTG pie
+1 366 -80 50 416 0 0 -1 1 0 0 0 -1 0 placa4x6.dat
+0 MLCAD BTG pie
+1 366 120 170 416 -1 0 0 0 0 -1 0 -1 0 placa6x8.dat
+0 MLCAD BTG pie
+1 366 -140 50 416 -1 0 0 0 0 -1 0 -1 0 placa1.dat
+0 MLCAD BTG pie
+1 366 120 50 416 -1 0 0 0 0 -1 0 -1 0 placa1.dat
+0 MLCAD BTG pie
+1 366 -80 110 416 0 0 1 -1 0 0 0 -1 0 placa2x3.dat
+0 MLCAD BTG pie
+1 366 -80 150 416 0 0 1 -1 0 0 0 -1 0 placa2x2.dat
+0 MLCAD BTG pie
+1 366 -80 190 416 0 0 1 -1 0 0 0 -1 0 placa2x2.dat
+0 MLCAD BTG pie
+1 366 -160 170 416 1 0 0 0 0 1 0 -1 0 placa4.dat
+0 MLCAD BTG pie
+1 366 -40 170 416 1 0 0 0 0 1 0 -1 0 placa4.dat
+0 MLCAD BTG pie
+1 366 40 170 416 1 0 0 0 0 1 0 -1 0 placa4.dat
+0 MLCAD BTG pie
+1 366 -160 190 416 1 0 0 0 0 1 0 -1 0 placa4x8.dat
+0 MLCAD BTG pie
+1 366 0 190 416 1 0 0 0 0 1 0 -1 0 placa4x6.dat
+0 MLCAD BTG pie
+1 366 -20 70 424 0 0 -1 1 0 0 0 -1 0 baldc4x6.dat
+0 MLCAD BTG pie
+1 366 100 70 424 0 0 -1 1 0 0 0 -1 0 baldc4x6.dat
+0 MLCAD BTG pie
+1 366 -20 150 424 0 0 -1 1 0 0 0 -1 0 baldc4x6.dat
+0 MLCAD BTG pie
+1 366 100 150 424 0 0 -1 1 0 0 0 -1 0 baldc4x6.dat
+0 MLCAD BTG pie
+1 366 100 230 424 0 0 -1 1 0 0 0 -1 0 baldc2.dat
+0 MLCAD BTG pie
+1 366 120 270 472 -1 0 0 0 0 -1 0 -1 0 baldc2.dat
+0 MLCAD BTG pie
+1 366 120 230 472 -1 0 0 0 0 -1 0 -1 0 baldc2.dat
+0 MLCAD BTG pie
+1 366 120 190 472 -1 0 0 0 0 -1 0 -1 0 baldc2.dat
+0 MLCAD BTG pie
+1 366 120 150 472 -1 0 0 0 0 -1 0 -1 0 baldc2.dat
+0 MLCAD BTG pie
+1 366 120 110 472 -1 0 0 0 0 -1 0 -1 0 baldc2.dat
+0 MLCAD BTG pie
+1 366 -140 270 472 -1 0 0 0 0 -1 0 -1 0 baldc2.dat
+0 MLCAD BTG pie
+1 366 -140 230 472 -1 0 0 0 0 -1 0 -1 0 baldc2.dat
+0 MLCAD BTG pie
+1 366 -140 190 472 -1 0 0 0 0 -1 0 -1 0 baldc2.dat
+0 MLCAD BTG pie
+1 366 -140 150 472 -1 0 0 0 0 -1 0 -1 0 baldc2.dat
+0 MLCAD BTG pie
+1 366 -140 110 472 -1 0 0 0 0 -1 0 -1 0 baldc2.dat
+0 MLCAD BTG pie
+1 366 100 250 472 0 0 -1 1 0 0 0 -1 0 baldc2.dat
+0 MLCAD BTG pie
+1 366 60 250 472 0 0 -1 1 0 0 0 -1 0 baldc2.dat
+0 MLCAD BTG pie
+1 366 20 250 472 0 0 -1 1 0 0 0 -1 0 baldc2.dat
+0 MLCAD BTG pie
+1 366 -20 250 472 0 0 -1 1 0 0 0 -1 0 baldc2.dat
+0 MLCAD BTG pie
+1 366 -60 250 472 0 0 -1 1 0 0 0 -1 0 baldc2.dat
+0 MLCAD BTG pie
+1 366 -100 250 472 0 0 -1 1 0 0 0 -1 0 baldc2.dat
+0 MLCAD BTG pie
+1 366 80 50 472 0 0 -1 1 0 0 0 -1 0 baldc2.dat
+0 MLCAD BTG pie
+1 366 120 50 472 0 0 -1 1 0 0 0 -1 0 baldc2.dat
+0 MLCAD BTG pie
+1 366 120 30 472 0 0 -1 1 0 0 0 -1 0 baldc1.dat
+0 MLCAD BTG pie
+1 366 -140 30 472 0 0 -1 1 0 0 0 -1 0 baldc1.dat
+0 MLCAD BTG pie
+1 366 40 50 472 0 0 -1 1 0 0 0 -1 0 baldc2.dat
+0 MLCAD BTG pie
+1 366 0 50 472 0 0 -1 1 0 0 0 -1 0 baldc2.dat
+0 MLCAD BTG pie
+1 366 -40 50 472 0 0 -1 1 0 0 0 -1 0 baldc2.dat
+0 MLCAD BTG pie
+1 366 -80 50 472 0 0 -1 1 0 0 0 -1 0 baldc2.dat
+0 MLCAD BTG pie
+1 366 -120 50 472 0 0 -1 1 0 0 0 -1 0 baldc2.dat
+0 MLCAD BTG pie
+1 366 60 230 424 0 0 -1 1 0 0 0 -1 0 baldc2.dat
+0 MLCAD BTG pie
+1 366 20 230 424 0 0 -1 1 0 0 0 -1 0 baldc2.dat
+0 MLCAD BTG pie
+1 366 -20 230 424 0 0 -1 1 0 0 0 -1 0 baldc2.dat
+0 MLCAD BTG pie
+1 366 -60 230 424 0 0 -1 1 0 0 0 -1 0 baldc2.dat
+0 MLCAD BTG pie
+1 366 -100 230 424 0 0 -1 1 0 0 0 -1 0 baldc2.dat
+0 MLCAD BTG pie
+1 366 120 270 424 0 0 1 -1 0 0 0 -1 0 jacena6.dat
+0 MLCAD BTG pie
+1 366 120 150 424 0 0 1 -1 0 0 0 -1 0 jacena6.dat
+0 MLCAD BTG pie
+1 366 -140 270 424 0 0 1 -1 0 0 0 -1 0 jacena6.dat
+0 MLCAD BTG pie
+1 366 -20 250 424 -1 0 0 0 0 -1 0 -1 0 jacena6.dat
+0 MLCAD BTG pie
+1 366 100 250 424 -1 0 0 0 0 -1 0 -1 0 jacena6.dat
+0 MLCAD BTG pie
+1 366 120 250 448 -1 0 0 0 0 -1 0 -1 0 jacena6.dat
+0 MLCAD BTG pie
+1 366 0 270 448 -1 0 0 0 0 -1 0 -1 0 jacena8.dat
+0 MLCAD BTG pie
+1 366 -140 250 448 0 0 1 -1 0 0 0 -1 0 jacena6.dat
+0 MLCAD BTG pie
+1 366 120 250 448 0 0 1 -1 0 0 0 -1 0 jacena6.dat
+0 MLCAD BTG pie
+1 366 100 130 448 0 0 1 -1 0 0 0 -1 0 jacena4.dat
+0 MLCAD BTG pie
+1 366 -160 130 448 0 0 1 -1 0 0 0 -1 0 jacena4.dat
+0 MLCAD BTG pie
+1 366 -150 40 448 0 0 1 -1 0 0 0 -1 0 jacena1.dat
+0 MLCAD BTG pie
+1 366 110 40 448 0 0 1 -1 0 0 0 -1 0 jacena1.dat
+0 MLCAD BTG pie
+1 366 -140 150 424 0 0 1 -1 0 0 0 -1 0 jacena6.dat
+0 MLCAD BTG pie
+1 366 -20 50 424 -1 0 0 0 0 -1 0 -1 0 jacena6.dat
+0 MLCAD BTG pie
+1 366 100 50 424 -1 0 0 0 0 -1 0 -1 0 jacena6.dat
+0 MLCAD BTG pie
+1 366 -20 50 448 -1 0 0 0 0 -1 0 -1 0 jacena6.dat
+0 MLCAD BTG pie
+1 366 100 50 448 -1 0 0 0 0 -1 0 -1 0 jacena6.dat
+0 GROUP 65 pie
+1 366 -80 50 16 0 0 -1 1 0 0 0 -1 0 placa4x6.dat
+1 366 120 170 16 -1 0 0 0 0 -1 0 -1 0 placa6x8.dat
+1 366 -140 50 16 -1 0 0 0 0 -1 0 -1 0 placa1.dat
+1 366 120 50 16 -1 0 0 0 0 -1 0 -1 0 placa1.dat
+1 366 -80 110 16 0 0 1 -1 0 0 0 -1 0 placa2x3.dat
+1 366 -80 150 16 0 0 1 -1 0 0 0 -1 0 placa2x2.dat
+1 366 -80 190 16 0 0 1 -1 0 0 0 -1 0 placa2x2.dat
+1 366 -160 170 16 1 0 0 0 0 1 0 -1 0 placa4.dat
+1 366 -140 30 8 0 0 -1 1 0 0 0 -1 0 placa4.dat
+1 366 120 30 8 0 0 -1 1 0 0 0 -1 0 placa4.dat
+1 366 120 110 8 0 0 -1 1 0 0 0 -1 0 placa4.dat
+1 366 -140 110 8 0 0 -1 1 0 0 0 -1 0 placa4.dat
+1 366 -140 190 8 0 0 -1 1 0 0 0 -1 0 placa4.dat
+1 366 120 190 8 0 0 -1 1 0 0 0 -1 0 placa4.dat
+1 366 20 250 8 1 0 0 0 0 1 0 -1 0 placa4.dat
+1 366 -60 250 8 1 0 0 0 0 1 0 -1 0 placa4.dat
+1 366 -140 250 8 1 0 0 0 0 1 0 -1 0 placa4.dat
+1 366 -140 50 8 1 0 0 0 0 1 0 -1 0 placa2x8.dat
+1 366 60 50 8 1 0 0 0 0 1 0 -1 0 placa2x2.dat
+1 366 20 50 8 1 0 0 0 0 1 0 -1 0 placa2x2.dat
+1 366 -20 90 16 0 0 1 1 0 0 0 1 0 placa6x8.dat
+1 366 -140 90 16 0 0 1 1 0 0 0 1 0 placa6x8.dat
+1 366 -40 170 16 1 0 0 0 0 1 0 -1 0 placa4.dat
+1 366 40 170 16 1 0 0 0 0 1 0 -1 0 placa4.dat
+1 366 -160 190 16 1 0 0 0 0 1 0 -1 0 placa4x8.dat
+1 366 0 190 16 1 0 0 0 0 1 0 -1 0 placa4x6.dat
+1 366 20 130 24 1 0 0 0 0 1 0 -1 0 baldc4x6.dat
+1 366 -140 130 24 1 0 0 0 0 1 0 -1 0 baldc4x6.dat
+1 366 -60 130 24 1 0 0 0 0 1 0 -1 0 baldc4x6.dat
+1 366 -20 50 24 0 0 -1 1 0 0 0 -1 0 baldc4x6.dat
+1 366 100 50 24 0 0 -1 1 0 0 0 -1 0 baldc4x6.dat
+1 366 120 270 24 0 0 1 -1 0 0 0 -1 0 jacena6.dat
+1 366 120 150 24 0 0 1 -1 0 0 0 -1 0 jacena6.dat
+1 366 -140 270 24 0 0 1 -1 0 0 0 -1 0 jacena6.dat
+1 366 -20 250 24 -1 0 0 0 0 -1 0 -1 0 jacena6.dat
+1 366 100 250 24 -1 0 0 0 0 -1 0 -1 0 jacena6.dat
+1 366 120 250 48 -1 0 0 0 0 -1 0 -1 0 jacena6.dat
+1 366 0 270 48 -1 0 0 0 0 -1 0 -1 0 jacena8.dat
+1 366 -140 250 48 0 0 1 -1 0 0 0 -1 0 jacena6.dat
+1 366 120 250 48 0 0 1 -1 0 0 0 -1 0 jacena6.dat
+1 366 100 130 48 0 0 1 -1 0 0 0 -1 0 jacena4.dat
+1 366 -160 130 48 0 0 1 -1 0 0 0 -1 0 jacena4.dat
+1 366 -150 40 48 0 0 1 -1 0 0 0 -1 0 jacena1.dat
+1 366 110 40 48 0 0 1 -1 0 0 0 -1 0 jacena1.dat
+1 366 -140 150 24 0 0 1 -1 0 0 0 -1 0 jacena6.dat
+1 366 120 270 72 0 0 1 -1 0 0 0 -1 0 jacena6.dat
+1 366 120 150 72 0 0 1 -1 0 0 0 -1 0 jacena6.dat
+1 366 -140 270 72 0 0 1 -1 0 0 0 -1 0 jacena6.dat
+1 366 -20 250 72 -1 0 0 0 0 -1 0 -1 0 jacena6.dat
+1 366 100 250 72 -1 0 0 0 0 -1 0 -1 0 jacena6.dat
+1 366 120 250 96 -1 0 0 0 0 -1 0 -1 0 jacena6.dat
+1 366 0 270 96 -1 0 0 0 0 -1 0 -1 0 jacena8.dat
+1 366 -140 250 96 0 0 1 -1 0 0 0 -1 0 jacena6.dat
+1 366 120 250 96 0 0 1 -1 0 0 0 -1 0 jacena6.dat
+1 366 100 130 96 0 0 1 -1 0 0 0 -1 0 jacena4.dat
+1 366 -160 130 96 0 0 1 -1 0 0 0 -1 0 jacena4.dat
+1 366 -150 40 96 0 0 1 -1 0 0 0 -1 0 jacena1.dat
+1 366 110 40 96 0 0 1 -1 0 0 0 -1 0 jacena1.dat
+1 366 -140 150 72 0 0 1 -1 0 0 0 -1 0 jacena6.dat
+1 366 -80 50 320 0 0 -1 1 0 0 0 -1 0 placa4x6.dat
+1 366 120 170 320 -1 0 0 0 0 -1 0 -1 0 placa6x8.dat
+1 366 -140 50 320 -1 0 0 0 0 -1 0 -1 0 placa1.dat
+1 366 120 50 320 -1 0 0 0 0 -1 0 -1 0 placa1.dat
+1 366 -80 110 320 0 0 1 -1 0 0 0 -1 0 placa2x3.dat
+1 366 -80 150 320 0 0 1 -1 0 0 0 -1 0 placa2x2.dat
+1 366 -80 190 320 0 0 1 -1 0 0 0 -1 0 placa2x2.dat
+1 366 -160 170 320 1 0 0 0 0 1 0 -1 0 placa4.dat
+1 366 -40 170 320 1 0 0 0 0 1 0 -1 0 placa4.dat
+1 366 40 170 320 1 0 0 0 0 1 0 -1 0 placa4.dat
+1 366 -160 190 320 1 0 0 0 0 1 0 -1 0 placa4x8.dat
+1 366 0 190 320 1 0 0 0 0 1 0 -1 0 placa4x6.dat
+1 366 20 130 328 1 0 0 0 0 1 0 -1 0 baldc4x6.dat
+1 366 -140 130 328 1 0 0 0 0 1 0 -1 0 baldc4x6.dat
+1 366 -60 130 328 1 0 0 0 0 1 0 -1 0 baldc4x6.dat
+1 366 -20 50 328 0 0 -1 1 0 0 0 -1 0 baldc4x6.dat
+1 366 100 50 328 0 0 -1 1 0 0 0 -1 0 baldc4x6.dat
+1 366 120 270 328 0 0 1 -1 0 0 0 -1 0 jacena6.dat
+1 366 120 150 328 0 0 1 -1 0 0 0 -1 0 jacena6.dat
+1 366 -140 270 328 0 0 1 -1 0 0 0 -1 0 jacena6.dat
+1 366 -20 250 328 -1 0 0 0 0 -1 0 -1 0 jacena6.dat
+1 366 100 250 328 -1 0 0 0 0 -1 0 -1 0 jacena6.dat
+1 366 120 250 352 -1 0 0 0 0 -1 0 -1 0 jacena6.dat
+1 366 0 270 352 -1 0 0 0 0 -1 0 -1 0 jacena8.dat
+1 366 -140 250 352 0 0 1 -1 0 0 0 -1 0 jacena6.dat
+1 366 120 250 352 0 0 1 -1 0 0 0 -1 0 jacena6.dat
+1 366 100 130 352 0 0 1 -1 0 0 0 -1 0 jacena4.dat
+1 366 -160 130 352 0 0 1 -1 0 0 0 -1 0 jacena4.dat
+1 366 -150 40 352 0 0 1 -1 0 0 0 -1 0 jacena1.dat
+1 366 110 40 352 0 0 1 -1 0 0 0 -1 0 jacena1.dat
+1 366 -140 150 328 0 0 1 -1 0 0 0 -1 0 jacena6.dat
+1 366 120 270 376 0 0 1 -1 0 0 0 -1 0 jacena6.dat
+1 366 120 150 376 0 0 1 -1 0 0 0 -1 0 jacena6.dat
+1 366 -140 270 376 0 0 1 -1 0 0 0 -1 0 jacena6.dat
+1 366 -20 250 376 -1 0 0 0 0 -1 0 -1 0 jacena6.dat
+1 366 100 250 376 -1 0 0 0 0 -1 0 -1 0 jacena6.dat
+1 366 120 250 400 -1 0 0 0 0 -1 0 -1 0 jacena6.dat
+1 366 0 270 400 -1 0 0 0 0 -1 0 -1 0 jacena8.dat
+1 366 -140 250 400 0 0 1 -1 0 0 0 -1 0 jacena6.dat
+1 366 120 250 400 0 0 1 -1 0 0 0 -1 0 jacena6.dat
+1 366 100 130 400 0 0 1 -1 0 0 0 -1 0 jacena4.dat
+1 366 -160 130 400 0 0 1 -1 0 0 0 -1 0 jacena4.dat
+1 366 -150 40 400 0 0 1 -1 0 0 0 -1 0 jacena1.dat
+1 366 110 40 400 0 0 1 -1 0 0 0 -1 0 jacena1.dat
+1 366 -140 150 376 0 0 1 -1 0 0 0 -1 0 jacena6.dat
+1 366 -80 50 224 0 0 -1 1 0 0 0 -1 0 placa4x6.dat
+1 366 120 170 224 -1 0 0 0 0 -1 0 -1 0 placa6x8.dat
+1 366 -140 50 224 -1 0 0 0 0 -1 0 -1 0 placa1.dat
+1 366 120 50 224 -1 0 0 0 0 -1 0 -1 0 placa1.dat
+1 366 -80 110 224 0 0 1 -1 0 0 0 -1 0 placa2x3.dat
+1 366 -80 150 224 0 0 1 -1 0 0 0 -1 0 placa2x2.dat
+1 366 -80 190 224 0 0 1 -1 0 0 0 -1 0 placa2x2.dat
+1 366 -160 170 224 1 0 0 0 0 1 0 -1 0 placa4.dat
+1 366 -40 170 224 1 0 0 0 0 1 0 -1 0 placa4.dat
+1 366 40 170 224 1 0 0 0 0 1 0 -1 0 placa4.dat
+1 366 -160 190 224 1 0 0 0 0 1 0 -1 0 placa4x8.dat
+1 366 0 190 224 1 0 0 0 0 1 0 -1 0 placa4x6.dat
+1 366 20 130 232 1 0 0 0 0 1 0 -1 0 baldc4x6.dat
+1 366 -140 130 232 1 0 0 0 0 1 0 -1 0 baldc4x6.dat
+1 366 -60 130 232 1 0 0 0 0 1 0 -1 0 baldc4x6.dat
+1 366 -20 50 232 0 0 -1 1 0 0 0 -1 0 baldc4x6.dat
+1 366 100 50 232 0 0 -1 1 0 0 0 -1 0 baldc4x6.dat
+1 366 120 270 232 0 0 1 -1 0 0 0 -1 0 jacena6.dat
+1 366 120 150 232 0 0 1 -1 0 0 0 -1 0 jacena6.dat
+1 366 -140 270 232 0 0 1 -1 0 0 0 -1 0 jacena6.dat
+1 366 -20 250 232 -1 0 0 0 0 -1 0 -1 0 jacena6.dat
+1 366 100 250 232 -1 0 0 0 0 -1 0 -1 0 jacena6.dat
+1 366 120 250 256 -1 0 0 0 0 -1 0 -1 0 jacena6.dat
+1 366 0 270 256 -1 0 0 0 0 -1 0 -1 0 jacena8.dat
+1 366 -140 250 256 0 0 1 -1 0 0 0 -1 0 jacena6.dat
+1 366 120 250 256 0 0 1 -1 0 0 0 -1 0 jacena6.dat
+1 366 100 130 256 0 0 1 -1 0 0 0 -1 0 jacena4.dat
+1 366 -160 130 256 0 0 1 -1 0 0 0 -1 0 jacena4.dat
+1 366 -150 40 256 0 0 1 -1 0 0 0 -1 0 jacena1.dat
+1 366 110 40 256 0 0 1 -1 0 0 0 -1 0 jacena1.dat
+1 366 -140 150 232 0 0 1 -1 0 0 0 -1 0 jacena6.dat
+1 366 120 270 280 0 0 1 -1 0 0 0 -1 0 jacena6.dat
+1 366 120 150 280 0 0 1 -1 0 0 0 -1 0 jacena6.dat
+1 366 -140 270 280 0 0 1 -1 0 0 0 -1 0 jacena6.dat
+1 366 -20 250 280 -1 0 0 0 0 -1 0 -1 0 jacena6.dat
+1 366 100 250 280 -1 0 0 0 0 -1 0 -1 0 jacena6.dat
+1 366 120 250 304 -1 0 0 0 0 -1 0 -1 0 jacena6.dat
+1 366 0 270 304 -1 0 0 0 0 -1 0 -1 0 jacena8.dat
+1 366 -140 250 304 0 0 1 -1 0 0 0 -1 0 jacena6.dat
+1 366 120 250 304 0 0 1 -1 0 0 0 -1 0 jacena6.dat
+1 366 100 130 304 0 0 1 -1 0 0 0 -1 0 jacena4.dat
+1 366 -160 130 304 0 0 1 -1 0 0 0 -1 0 jacena4.dat
+1 366 -150 40 304 0 0 1 -1 0 0 0 -1 0 jacena1.dat
+1 366 110 40 304 0 0 1 -1 0 0 0 -1 0 jacena1.dat
+1 366 -140 150 280 0 0 1 -1 0 0 0 -1 0 jacena6.dat
+0

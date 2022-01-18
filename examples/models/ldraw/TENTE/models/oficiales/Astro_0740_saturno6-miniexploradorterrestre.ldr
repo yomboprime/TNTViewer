@@ -1,0 +1,28 @@
+0 Saturno-6 miniexplorador terrestre
+0 Name: saturno6-miniexploradorterrestre.ldr
+0 cpcbegin
+0 Astro (saturno-6)
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 4 -46 40 0 1 0 0 0 1 0 0 0 1 helillnt.dat
+1 0 -46 40 0 1 0 0 0 1 0 0 0 1 helineum.dat
+1 0 -80 72 -40 1 0 0 0 1 0 0 0 1 jacen2x2.dat
+1 4 -46 40 40 1 0 0 0 1 0 0 0 1 helillnt.dat
+1 0 -46 40 40 1 0 0 0 1 0 0 0 1 helineum.dat
+1 4 -74 40 0 -1 0 0 0 1 0 0 0 -1 helillnt.dat
+1 0 -74 40 0 -1 0 0 0 1 0 0 0 -1 helineum.dat
+1 4 -74 40 -40 -1 0 0 0 1 0 0 0 -1 helillnt.dat
+1 0 -74 40 -40 -1 0 0 0 1 0 0 0 -1 helineum.dat
+1 0 -80 72 0 1 0 0 0 1 0 0 0 1 jacen2x2.dat
+1 2 -80 40 0 1 0 0 0 1 0 0 0 1 jacena2.dat
+1 2 -80 72 40 1 0 0 0 1 0 0 0 1 jacena2.dat
+1 2 -80 40 0 1 0 0 0 1 0 0 0 1 pico.dat
+1 2 -80 16 20 1 0 0 0 1 0 0 0 1 pico.dat
+1 2 -60 40 -40 -1 0 0 0 1 0 0 0 -1 bispqaba.dat
+1 2 -60 40 -40 -1 0 0 0 0 1 0 1 0 bispqarr.dat
+1 2 -80 48 -20 1 0 0 0 1 0 0 0 1 placa2x2.dat
+1 2 -80 48 20 1 0 0 0 1 0 0 0 1 placa2x2.dat
+1 2 -60 20 -48 0 0 1 1 0 0 0 1 0 pinzastr.dat
+1 2 -100 20 -48 0 0 1 1 0 0 0 1 0 pinzastr.dat
+1 14 -60 -8 38 1 0 0 0 1 0 0 0 1 astronav.dat
+0

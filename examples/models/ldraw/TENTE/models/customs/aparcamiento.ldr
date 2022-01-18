@@ -1,0 +1,1408 @@
+0 MLCAD BTG 4 plazas
+0 Untitled
+0 MLCAD BTG 4 plazas
+0 Name: aparcamiento.ldr
+0 MLCAD BTG 4 plazas
+0 Author: MLCad
+0 MLCAD BTG 4 plazas
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+0 MLCAD BTG 4 plazas
+1 1 -220 32 -100 0 0 -1 0 1 0 1 0 0 baldc4x6.dat
+0 MLCAD BTG 4 plazas
+1 1 -100 32 -100 0 0 -1 0 1 0 1 0 0 baldc4x6.dat
+0 MLCAD BTG 4 plazas
+1 1 -220 32 -20 0 0 -1 0 1 0 1 0 0 baldc4x6.dat
+0 MLCAD BTG 4 plazas
+1 1 -100 32 -20 0 0 -1 0 1 0 1 0 0 baldc4x6.dat
+0 MLCAD BTG 4 plazas
+1 15 -320 32 -120 0 0 -1 0 1 0 1 0 0 baldc2.dat
+0 MLCAD BTG 4 plazas
+1 15 -280 32 -120 0 0 -1 0 1 0 1 0 0 baldc2.dat
+0 MLCAD BTG 4 plazas
+1 15 -240 32 -120 0 0 -1 0 1 0 1 0 0 baldc2.dat
+0 MLCAD BTG 4 plazas
+1 15 -240 32 -120 1 0 0 0 1 0 0 0 1 placa2.dat
+0 MLCAD BTG 4 plazas
+1 15 -160 32 -120 0 0 -1 0 1 0 1 0 0 baldc2.dat
+0 MLCAD BTG 4 plazas
+1 15 -120 32 -120 0 0 -1 0 1 0 1 0 0 baldc2.dat
+0 MLCAD BTG 4 plazas
+1 15 -80 32 -120 0 0 -1 0 1 0 1 0 0 baldc2.dat
+0 MLCAD BTG 4 plazas
+1 15 -80 32 -60 -1 0 0 0 1 0 0 0 -1 baldc2.dat
+0 MLCAD BTG 4 plazas
+1 15 -80 32 -20 -1 0 0 0 1 0 0 0 -1 baldc2.dat
+0 MLCAD BTG 4 plazas
+1 15 -80 32 20 -1 0 0 0 1 0 0 0 -1 baldc2.dat
+0 MLCAD BTG 4 plazas
+1 15 -80 32 60 -1 0 0 0 1 0 0 0 -1 baldc2.dat
+0 MLCAD BTG 4 plazas
+1 15 -340 32 -60 -1 0 0 0 1 0 0 0 -1 baldc2.dat
+0 MLCAD BTG 4 plazas
+1 15 -340 32 -20 -1 0 0 0 1 0 0 0 -1 baldc2.dat
+0 MLCAD BTG 4 plazas
+1 15 -340 32 20 -1 0 0 0 1 0 0 0 -1 baldc2.dat
+0 MLCAD BTG 4 plazas
+1 15 -340 32 60 -1 0 0 0 1 0 0 0 -1 baldc2.dat
+0 MLCAD BTG 4 plazas
+1 1 560 32 -100 0 0 -1 0 1 0 1 0 0 baldc4x6.dat
+0 MLCAD BTG 4 plazas
+1 1 680 32 -100 0 0 -1 0 1 0 1 0 0 baldc4x6.dat
+0 MLCAD BTG 4 plazas
+1 1 560 32 -20 0 0 -1 0 1 0 1 0 0 baldc4x6.dat
+0 MLCAD BTG 4 plazas
+1 1 680 32 -20 0 0 -1 0 1 0 1 0 0 baldc4x6.dat
+0 MLCAD BTG 4 plazas
+1 15 460 32 -120 0 0 -1 0 1 0 1 0 0 baldc2.dat
+0 MLCAD BTG 4 plazas
+1 15 500 32 -120 0 0 -1 0 1 0 1 0 0 baldc2.dat
+0 MLCAD BTG 4 plazas
+1 15 540 32 -120 0 0 -1 0 1 0 1 0 0 baldc2.dat
+0 MLCAD BTG 4 plazas
+1 15 540 32 -120 1 0 0 0 1 0 0 0 1 placa2.dat
+0 MLCAD BTG 4 plazas
+1 15 620 32 -120 0 0 -1 0 1 0 1 0 0 baldc2.dat
+0 MLCAD BTG 4 plazas
+1 15 660 32 -120 0 0 -1 0 1 0 1 0 0 baldc2.dat
+0 MLCAD BTG 4 plazas
+1 15 700 32 -120 0 0 -1 0 1 0 1 0 0 baldc2.dat
+0 MLCAD BTG 4 plazas
+1 15 700 32 -60 -1 0 0 0 1 0 0 0 -1 baldc2.dat
+0 MLCAD BTG 4 plazas
+1 15 700 32 -20 -1 0 0 0 1 0 0 0 -1 baldc2.dat
+0 MLCAD BTG 4 plazas
+1 15 700 32 20 -1 0 0 0 1 0 0 0 -1 baldc2.dat
+0 MLCAD BTG 4 plazas
+1 15 700 32 60 -1 0 0 0 1 0 0 0 -1 baldc2.dat
+0 MLCAD BTG 4 plazas
+1 15 440 32 -60 -1 0 0 0 1 0 0 0 -1 baldc2.dat
+0 MLCAD BTG 4 plazas
+1 15 440 32 -20 -1 0 0 0 1 0 0 0 -1 baldc2.dat
+0 MLCAD BTG 4 plazas
+1 15 440 32 20 -1 0 0 0 1 0 0 0 -1 baldc2.dat
+0 MLCAD BTG 4 plazas
+1 15 440 32 60 -1 0 0 0 1 0 0 0 -1 baldc2.dat
+0 MLCAD BTG 4 plazas
+1 15 540 32 -60 -1 0 0 0 1 0 0 0 -1 baldc2.dat
+0 MLCAD BTG 4 plazas
+1 15 540 32 -20 -1 0 0 0 1 0 0 0 -1 baldc2.dat
+0 MLCAD BTG 4 plazas
+1 15 540 32 20 -1 0 0 0 1 0 0 0 -1 baldc2.dat
+0 MLCAD BTG 4 plazas
+1 14 180 32 60 -1 0 0 0 1 0 0 0 -1 baldc2.dat
+0 MLCAD BTG 4 plazas
+1 14 180 32 20 -1 0 0 0 1 0 0 0 -1 baldc2.dat
+0 MLCAD BTG 4 plazas
+1 14 180 32 -20 -1 0 0 0 1 0 0 0 -1 baldc2.dat
+0 MLCAD BTG 4 plazas
+1 14 180 32 -60 -1 0 0 0 1 0 0 0 -1 baldc2.dat
+0 MLCAD BTG 4 plazas
+1 14 180 32 -100 -1 0 0 0 1 0 0 0 -1 baldc1.dat
+0 MLCAD BTG 4 plazas
+1 7 -80 32 -100 0 0 1 0 1 0 -1 0 0 baldc2.dat
+0 MLCAD BTG 4 plazas
+1 7 -40 32 -100 0 0 1 0 1 0 -1 0 0 baldc2.dat
+0 MLCAD BTG 4 plazas
+1 7 0 32 -100 0 0 1 0 1 0 -1 0 0 baldc2.dat
+0 MLCAD BTG 4 plazas
+1 7 40 32 -100 0 0 1 0 1 0 -1 0 0 baldc2.dat
+0 MLCAD BTG 4 plazas
+1 7 80 32 -100 0 0 1 0 1 0 -1 0 0 baldc2.dat
+0 MLCAD BTG 4 plazas
+1 7 120 32 -100 0 0 1 0 1 0 -1 0 0 baldc2.dat
+0 MLCAD BTG 4 plazas
+1 7 40 32 60 0 0 1 0 1 0 -1 0 0 baldc4x6.dat
+0 MLCAD BTG 4 plazas
+1 7 -80 32 60 0 0 1 0 1 0 -1 0 0 baldc4x6.dat
+0 MLCAD BTG 4 plazas
+1 7 -80 32 -20 0 0 1 0 1 0 -1 0 0 baldc4x6.dat
+0 MLCAD BTG 4 plazas
+1 7 40 32 -20 0 0 1 0 1 0 -1 0 0 baldc4x6.dat
+0 MLCAD BTG 4 plazas
+1 7 180 32 -100 0 0 1 0 1 0 -1 0 0 baldc2.dat
+0 MLCAD BTG 4 plazas
+1 7 220 32 -100 0 0 1 0 1 0 -1 0 0 baldc2.dat
+0 MLCAD BTG 4 plazas
+1 7 260 32 -100 0 0 1 0 1 0 -1 0 0 baldc2.dat
+0 MLCAD BTG 4 plazas
+1 7 300 32 -100 0 0 1 0 1 0 -1 0 0 baldc2.dat
+0 MLCAD BTG 4 plazas
+1 7 340 32 -100 0 0 1 0 1 0 -1 0 0 baldc2.dat
+0 MLCAD BTG 4 plazas
+1 7 380 32 -100 0 0 1 0 1 0 -1 0 0 baldc2.dat
+0 MLCAD BTG 4 plazas
+1 7 300 32 60 0 0 1 0 1 0 -1 0 0 baldc4x6.dat
+0 MLCAD BTG 4 plazas
+1 7 180 32 60 0 0 1 0 1 0 -1 0 0 baldc4x6.dat
+0 MLCAD BTG 4 plazas
+1 7 180 32 -20 0 0 1 0 1 0 -1 0 0 baldc4x6.dat
+0 MLCAD BTG 4 plazas
+1 7 300 32 -20 0 0 1 0 1 0 -1 0 0 baldc4x6.dat
+0 MLCAD BTG 4 plazas
+1 15 -400 32 60 0 0 1 0 1 0 -1 0 0 placa2x3.dat
+0 MLCAD BTG 4 plazas
+1 15 -400 32 0 0 0 1 0 1 0 -1 0 0 placa2x3.dat
+0 MLCAD BTG 4 plazas
+1 15 -400 32 -60 0 0 1 0 1 0 -1 0 0 placa2x3.dat
+0 MLCAD BTG 4 plazas
+1 15 700 32 60 0 0 1 0 1 0 -1 0 0 placa2x3.dat
+0 MLCAD BTG 4 plazas
+1 15 700 32 0 0 0 1 0 1 0 -1 0 0 placa2x3.dat
+0 MLCAD BTG 4 plazas
+1 15 700 32 -60 0 0 1 0 1 0 -1 0 0 placa2x3.dat
+0 MLCAD BTG 4 plazas
+1 1 -220 32 -280 0 0 -1 0 1 0 1 0 0 baldc4x6.dat
+0 MLCAD BTG 4 plazas
+1 1 -100 32 -280 0 0 -1 0 1 0 1 0 0 baldc4x6.dat
+0 MLCAD BTG 4 plazas
+1 1 -220 32 -200 0 0 -1 0 1 0 1 0 0 baldc4x6.dat
+0 MLCAD BTG 4 plazas
+1 1 -100 32 -200 0 0 -1 0 1 0 1 0 0 baldc4x6.dat
+0 MLCAD BTG 4 plazas
+1 15 -320 32 -300 0 0 -1 0 1 0 1 0 0 baldc2.dat
+0 MLCAD BTG 4 plazas
+1 15 -280 32 -300 0 0 -1 0 1 0 1 0 0 baldc2.dat
+0 MLCAD BTG 4 plazas
+1 15 -240 32 -300 0 0 -1 0 1 0 1 0 0 baldc2.dat
+0 MLCAD BTG 4 plazas
+1 15 -240 32 -300 1 0 0 0 1 0 0 0 1 placa2.dat
+0 MLCAD BTG 4 plazas
+1 15 -160 32 -300 0 0 -1 0 1 0 1 0 0 baldc2.dat
+0 MLCAD BTG 4 plazas
+1 15 -120 32 -300 0 0 -1 0 1 0 1 0 0 baldc2.dat
+0 MLCAD BTG 4 plazas
+1 15 -80 32 -300 0 0 -1 0 1 0 1 0 0 baldc2.dat
+0 MLCAD BTG 4 plazas
+1 15 -80 32 -240 -1 0 0 0 1 0 0 0 -1 baldc2.dat
+0 MLCAD BTG 4 plazas
+1 15 -80 32 -200 -1 0 0 0 1 0 0 0 -1 baldc2.dat
+0 MLCAD BTG 4 plazas
+1 15 -80 32 -160 -1 0 0 0 1 0 0 0 -1 baldc2.dat
+0 MLCAD BTG 4 plazas
+1 15 -80 32 -120 -1 0 0 0 1 0 0 0 -1 baldc2.dat
+0 MLCAD BTG 4 plazas
+1 15 -340 32 -240 -1 0 0 0 1 0 0 0 -1 baldc2.dat
+0 MLCAD BTG 4 plazas
+1 15 -340 32 -200 -1 0 0 0 1 0 0 0 -1 baldc2.dat
+0 MLCAD BTG 4 plazas
+1 15 -340 32 -160 -1 0 0 0 1 0 0 0 -1 baldc2.dat
+0 MLCAD BTG 4 plazas
+1 15 -340 32 -120 -1 0 0 0 1 0 0 0 -1 baldc2.dat
+0 MLCAD BTG 4 plazas
+1 1 560 32 -280 0 0 -1 0 1 0 1 0 0 baldc4x6.dat
+0 MLCAD BTG 4 plazas
+1 1 680 32 -280 0 0 -1 0 1 0 1 0 0 baldc4x6.dat
+0 MLCAD BTG 4 plazas
+1 1 560 32 -200 0 0 -1 0 1 0 1 0 0 baldc4x6.dat
+0 MLCAD BTG 4 plazas
+1 1 680 32 -200 0 0 -1 0 1 0 1 0 0 baldc4x6.dat
+0 MLCAD BTG 4 plazas
+1 15 460 32 -300 0 0 -1 0 1 0 1 0 0 baldc2.dat
+0 MLCAD BTG 4 plazas
+1 15 500 32 -300 0 0 -1 0 1 0 1 0 0 baldc2.dat
+0 MLCAD BTG 4 plazas
+1 15 540 32 -300 0 0 -1 0 1 0 1 0 0 baldc2.dat
+0 MLCAD BTG 4 plazas
+1 15 540 32 -300 1 0 0 0 1 0 0 0 1 placa2.dat
+0 MLCAD BTG 4 plazas
+1 15 620 32 -300 0 0 -1 0 1 0 1 0 0 baldc2.dat
+0 MLCAD BTG 4 plazas
+1 15 660 32 -300 0 0 -1 0 1 0 1 0 0 baldc2.dat
+0 MLCAD BTG 4 plazas
+1 15 700 32 -300 0 0 -1 0 1 0 1 0 0 baldc2.dat
+0 MLCAD BTG 4 plazas
+1 15 700 32 -240 -1 0 0 0 1 0 0 0 -1 baldc2.dat
+0 MLCAD BTG 4 plazas
+1 15 700 32 -200 -1 0 0 0 1 0 0 0 -1 baldc2.dat
+0 MLCAD BTG 4 plazas
+1 15 700 32 -160 -1 0 0 0 1 0 0 0 -1 baldc2.dat
+0 MLCAD BTG 4 plazas
+1 15 700 32 -120 -1 0 0 0 1 0 0 0 -1 baldc2.dat
+0 MLCAD BTG 4 plazas
+1 15 440 32 -240 -1 0 0 0 1 0 0 0 -1 baldc2.dat
+0 MLCAD BTG 4 plazas
+1 15 440 32 -200 -1 0 0 0 1 0 0 0 -1 baldc2.dat
+0 MLCAD BTG 4 plazas
+1 15 440 32 -160 -1 0 0 0 1 0 0 0 -1 baldc2.dat
+0 MLCAD BTG 4 plazas
+1 15 440 32 -120 -1 0 0 0 1 0 0 0 -1 baldc2.dat
+0 MLCAD BTG 4 plazas
+1 14 180 32 -120 -1 0 0 0 1 0 0 0 -1 baldc2.dat
+0 MLCAD BTG 4 plazas
+1 14 180 32 -160 -1 0 0 0 1 0 0 0 -1 baldc2.dat
+0 MLCAD BTG 4 plazas
+1 14 180 32 -200 -1 0 0 0 1 0 0 0 -1 baldc2.dat
+0 MLCAD BTG 4 plazas
+1 14 180 32 -240 -1 0 0 0 1 0 0 0 -1 baldc2.dat
+0 MLCAD BTG 4 plazas
+1 14 180 32 -280 -1 0 0 0 1 0 0 0 -1 baldc1.dat
+0 MLCAD BTG 4 plazas
+1 7 -80 32 -280 0 0 1 0 1 0 -1 0 0 baldc2.dat
+0 MLCAD BTG 4 plazas
+1 7 -40 32 -280 0 0 1 0 1 0 -1 0 0 baldc2.dat
+0 MLCAD BTG 4 plazas
+1 7 0 32 -280 0 0 1 0 1 0 -1 0 0 baldc2.dat
+0 MLCAD BTG 4 plazas
+1 7 40 32 -280 0 0 1 0 1 0 -1 0 0 baldc2.dat
+0 MLCAD BTG 4 plazas
+1 7 80 32 -280 0 0 1 0 1 0 -1 0 0 baldc2.dat
+0 MLCAD BTG 4 plazas
+1 7 120 32 -280 0 0 1 0 1 0 -1 0 0 baldc2.dat
+0 MLCAD BTG 4 plazas
+1 7 40 32 -120 0 0 1 0 1 0 -1 0 0 baldc4x6.dat
+0 MLCAD BTG 4 plazas
+1 7 -80 32 -120 0 0 1 0 1 0 -1 0 0 baldc4x6.dat
+0 MLCAD BTG 4 plazas
+1 7 -80 32 -200 0 0 1 0 1 0 -1 0 0 baldc4x6.dat
+0 MLCAD BTG 4 plazas
+1 7 40 32 -200 0 0 1 0 1 0 -1 0 0 baldc4x6.dat
+0 MLCAD BTG 4 plazas
+1 7 180 32 -280 0 0 1 0 1 0 -1 0 0 baldc2.dat
+0 MLCAD BTG 4 plazas
+1 7 220 32 -280 0 0 1 0 1 0 -1 0 0 baldc2.dat
+0 MLCAD BTG 4 plazas
+1 7 260 32 -280 0 0 1 0 1 0 -1 0 0 baldc2.dat
+0 MLCAD BTG 4 plazas
+1 7 300 32 -280 0 0 1 0 1 0 -1 0 0 baldc2.dat
+0 MLCAD BTG 4 plazas
+1 7 340 32 -280 0 0 1 0 1 0 -1 0 0 baldc2.dat
+0 MLCAD BTG 4 plazas
+1 7 380 32 -280 0 0 1 0 1 0 -1 0 0 baldc2.dat
+0 MLCAD BTG 4 plazas
+1 7 300 32 -120 0 0 1 0 1 0 -1 0 0 baldc4x6.dat
+0 MLCAD BTG 4 plazas
+1 7 180 32 -120 0 0 1 0 1 0 -1 0 0 baldc4x6.dat
+0 MLCAD BTG 4 plazas
+1 7 180 32 -200 0 0 1 0 1 0 -1 0 0 baldc4x6.dat
+0 MLCAD BTG 4 plazas
+1 7 300 32 -200 0 0 1 0 1 0 -1 0 0 baldc4x6.dat
+0 MLCAD BTG 4 plazas
+1 15 -400 32 -120 0 0 1 0 1 0 -1 0 0 placa2x3.dat
+0 MLCAD BTG 4 plazas
+1 15 -400 32 -180 0 0 1 0 1 0 -1 0 0 placa2x3.dat
+0 MLCAD BTG 4 plazas
+1 15 -400 32 -240 0 0 1 0 1 0 -1 0 0 placa2x3.dat
+0 MLCAD BTG 4 plazas
+1 15 700 32 -120 0 0 1 0 1 0 -1 0 0 placa2x3.dat
+0 MLCAD BTG 4 plazas
+1 15 700 32 -180 0 0 1 0 1 0 -1 0 0 placa2x3.dat
+0 MLCAD BTG 4 plazas
+1 15 700 32 -240 0 0 1 0 1 0 -1 0 0 placa2x3.dat
+0 GROUP 145 4 plazas
+0 Untitled
+0 Name: aparcamiento.ldr
+0 Author: MLCad
+0 Unofficial Model
+1 15 -320 32 -480 0 0 -1 0 1 0 1 0 0 baldc2.dat
+1 15 -280 32 -480 0 0 -1 0 1 0 1 0 0 baldc2.dat
+1 15 -240 32 -480 0 0 -1 0 1 0 1 0 0 baldc2.dat
+1 15 -240 32 -480 1 0 0 0 1 0 0 0 1 placa2.dat
+1 15 -160 32 -480 0 0 -1 0 1 0 1 0 0 baldc2.dat
+1 15 -120 32 -480 0 0 -1 0 1 0 1 0 0 baldc2.dat
+1 15 -80 32 -480 0 0 -1 0 1 0 1 0 0 baldc2.dat
+1 15 -80 32 -420 -1 0 0 0 1 0 0 0 -1 baldc2.dat
+1 15 -80 32 -380 -1 0 0 0 1 0 0 0 -1 baldc2.dat
+1 15 -80 32 -340 -1 0 0 0 1 0 0 0 -1 baldc2.dat
+1 15 -80 32 -300 -1 0 0 0 1 0 0 0 -1 baldc2.dat
+1 15 -340 32 -420 -1 0 0 0 1 0 0 0 -1 baldc2.dat
+1 15 -340 32 -380 -1 0 0 0 1 0 0 0 -1 baldc2.dat
+1 15 -340 32 -340 -1 0 0 0 1 0 0 0 -1 baldc2.dat
+1 15 -340 32 -300 -1 0 0 0 1 0 0 0 -1 baldc2.dat
+1 1 560 32 -460 0 0 -1 0 1 0 1 0 0 baldc4x6.dat
+1 1 680 32 -460 0 0 -1 0 1 0 1 0 0 baldc4x6.dat
+1 1 560 32 -380 0 0 -1 0 1 0 1 0 0 baldc4x6.dat
+1 1 680 32 -380 0 0 -1 0 1 0 1 0 0 baldc4x6.dat
+1 15 460 32 -480 0 0 -1 0 1 0 1 0 0 baldc2.dat
+1 15 500 32 -480 0 0 -1 0 1 0 1 0 0 baldc2.dat
+1 15 540 32 -480 0 0 -1 0 1 0 1 0 0 baldc2.dat
+1 15 540 32 -480 1 0 0 0 1 0 0 0 1 placa2.dat
+1 15 620 32 -480 0 0 -1 0 1 0 1 0 0 baldc2.dat
+1 15 660 32 -480 0 0 -1 0 1 0 1 0 0 baldc2.dat
+1 15 700 32 -480 0 0 -1 0 1 0 1 0 0 baldc2.dat
+1 15 700 32 -420 -1 0 0 0 1 0 0 0 -1 baldc2.dat
+1 15 700 32 -380 -1 0 0 0 1 0 0 0 -1 baldc2.dat
+1 15 700 32 -340 -1 0 0 0 1 0 0 0 -1 baldc2.dat
+1 15 700 32 -300 -1 0 0 0 1 0 0 0 -1 baldc2.dat
+1 15 440 32 -420 -1 0 0 0 1 0 0 0 -1 baldc2.dat
+1 15 440 32 -380 -1 0 0 0 1 0 0 0 -1 baldc2.dat
+1 15 440 32 -340 -1 0 0 0 1 0 0 0 -1 baldc2.dat
+1 15 440 32 -300 -1 0 0 0 1 0 0 0 -1 baldc2.dat
+1 15 540 32 -420 -1 0 0 0 1 0 0 0 -1 baldc2.dat
+1 15 540 32 -380 -1 0 0 0 1 0 0 0 -1 baldc2.dat
+1 15 540 32 -340 -1 0 0 0 1 0 0 0 -1 baldc2.dat
+1 14 180 32 -300 -1 0 0 0 1 0 0 0 -1 baldc2.dat
+1 14 180 32 -340 -1 0 0 0 1 0 0 0 -1 baldc2.dat
+1 14 180 32 -380 -1 0 0 0 1 0 0 0 -1 baldc2.dat
+1 14 180 32 -420 -1 0 0 0 1 0 0 0 -1 baldc2.dat
+1 14 180 32 -460 -1 0 0 0 1 0 0 0 -1 baldc1.dat
+1 7 -80 32 -460 0 0 1 0 1 0 -1 0 0 baldc2.dat
+1 7 -40 32 -460 0 0 1 0 1 0 -1 0 0 baldc2.dat
+1 7 0 32 -460 0 0 1 0 1 0 -1 0 0 baldc2.dat
+1 7 40 32 -460 0 0 1 0 1 0 -1 0 0 baldc2.dat
+1 7 80 32 -460 0 0 1 0 1 0 -1 0 0 baldc2.dat
+1 7 120 32 -460 0 0 1 0 1 0 -1 0 0 baldc2.dat
+1 7 40 32 -300 0 0 1 0 1 0 -1 0 0 baldc4x6.dat
+1 7 -80 32 -300 0 0 1 0 1 0 -1 0 0 baldc4x6.dat
+1 7 -80 32 -380 0 0 1 0 1 0 -1 0 0 baldc4x6.dat
+1 7 40 32 -380 0 0 1 0 1 0 -1 0 0 baldc4x6.dat
+1 7 180 32 -460 0 0 1 0 1 0 -1 0 0 baldc2.dat
+1 7 220 32 -460 0 0 1 0 1 0 -1 0 0 baldc2.dat
+1 7 260 32 -460 0 0 1 0 1 0 -1 0 0 baldc2.dat
+1 7 300 32 -460 0 0 1 0 1 0 -1 0 0 baldc2.dat
+1 7 340 32 -460 0 0 1 0 1 0 -1 0 0 baldc2.dat
+1 7 380 32 -460 0 0 1 0 1 0 -1 0 0 baldc2.dat
+1 7 300 32 -300 0 0 1 0 1 0 -1 0 0 baldc4x6.dat
+1 7 180 32 -300 0 0 1 0 1 0 -1 0 0 baldc4x6.dat
+1 7 180 32 -380 0 0 1 0 1 0 -1 0 0 baldc4x6.dat
+1 7 300 32 -380 0 0 1 0 1 0 -1 0 0 baldc4x6.dat
+1 15 -400 32 -300 0 0 1 0 1 0 -1 0 0 placa2x3.dat
+1 15 -400 32 -360 0 0 1 0 1 0 -1 0 0 placa2x3.dat
+1 15 -400 32 -420 0 0 1 0 1 0 -1 0 0 placa2x3.dat
+1 15 700 32 -300 0 0 1 0 1 0 -1 0 0 placa2x3.dat
+1 15 700 32 -360 0 0 1 0 1 0 -1 0 0 placa2x3.dat
+1 15 700 32 -420 0 0 1 0 1 0 -1 0 0 placa2x3.dat
+1 1 -220 32 -640 0 0 -1 0 1 0 1 0 0 baldc4x6.dat
+1 1 -100 32 -640 0 0 -1 0 1 0 1 0 0 baldc4x6.dat
+1 1 -220 32 -560 0 0 -1 0 1 0 1 0 0 baldc4x6.dat
+1 8 -220 32 -380 0 0 -1 0 1 0 1 0 0 baldc4x6.dat
+1 8 -100 32 -380 0 0 -1 0 1 0 1 0 0 baldc4x6.dat
+1 8 -100 32 -460 0 0 -1 0 1 0 1 0 0 baldc4x6.dat
+1 8 -120 -80 -380 0 0 -1 0 1 0 1 0 0 baldc4x6.dat
+1 8 -240 -80 -380 0 0 -1 0 1 0 1 0 0 baldc4x6.dat
+1 8 -240 -80 -460 0 0 -1 0 1 0 1 0 0 baldc4x6.dat
+1 8 -120 -80 -460 0 0 -1 0 1 0 1 0 0 baldc4x6.dat
+1 15 -360 -80 -360 0 0 -1 0 1 0 1 0 0 placa4.dat
+1 15 -360 -80 -300 1 0 0 0 1 0 0 0 1 placa4.dat
+1 15 -280 -80 -300 1 0 0 0 1 0 0 0 1 placa4.dat
+1 15 -200 -80 -300 1 0 0 0 1 0 0 0 1 placa4.dat
+1 15 -360 -80 -480 1 0 0 0 1 0 0 0 1 placa4.dat
+1 15 -280 -80 -480 1 0 0 0 1 0 0 0 1 placa4.dat
+1 15 -200 -80 -480 1 0 0 0 1 0 0 0 1 placa4.dat
+1 15 -120 -80 -280 0 0 1 0 1 0 -1 0 0 placa4.dat
+1 15 -120 -80 -360 0 0 1 0 1 0 -1 0 0 placa4.dat
+1 15 -360 -80 -440 0 0 -1 0 1 0 1 0 0 placa4.dat
+1 15 -360 -80 -480 0 0 -1 0 1 0 1 0 0 placa2.dat
+1 15 -100 -80 -480 0 0 -1 0 1 0 1 0 0 placa2.dat
+1 8 -220 32 -460 0 0 -1 0 1 0 1 0 0 baldc4x6.dat
+1 1 -100 32 -560 0 0 -1 0 1 0 1 0 0 baldc4x6.dat
+1 15 -320 32 -660 0 0 -1 0 1 0 1 0 0 baldc2.dat
+1 15 -280 32 -660 0 0 -1 0 1 0 1 0 0 baldc2.dat
+1 15 -240 32 -660 0 0 -1 0 1 0 1 0 0 baldc2.dat
+1 15 -240 32 -660 1 0 0 0 1 0 0 0 1 placa2.dat
+1 15 -160 32 -660 0 0 -1 0 1 0 1 0 0 baldc2.dat
+1 15 -120 32 -660 0 0 -1 0 1 0 1 0 0 baldc2.dat
+1 15 -80 32 -660 0 0 -1 0 1 0 1 0 0 baldc2.dat
+1 15 -80 32 -600 -1 0 0 0 1 0 0 0 -1 baldc2.dat
+1 15 -80 32 -560 -1 0 0 0 1 0 0 0 -1 baldc2.dat
+1 15 -80 32 -520 -1 0 0 0 1 0 0 0 -1 baldc2.dat
+1 15 -80 32 -480 -1 0 0 0 1 0 0 0 -1 baldc2.dat
+1 15 -340 32 -600 -1 0 0 0 1 0 0 0 -1 baldc2.dat
+1 15 -340 32 -560 -1 0 0 0 1 0 0 0 -1 baldc2.dat
+1 15 -340 32 -520 -1 0 0 0 1 0 0 0 -1 baldc2.dat
+1 15 -340 32 -480 -1 0 0 0 1 0 0 0 -1 baldc2.dat
+1 1 560 32 -640 0 0 -1 0 1 0 1 0 0 baldc4x6.dat
+1 1 680 32 -640 0 0 -1 0 1 0 1 0 0 baldc4x6.dat
+1 1 560 32 -560 0 0 -1 0 1 0 1 0 0 baldc4x6.dat
+1 1 680 32 -560 0 0 -1 0 1 0 1 0 0 baldc4x6.dat
+1 15 460 32 -660 0 0 -1 0 1 0 1 0 0 baldc2.dat
+1 15 500 32 -660 0 0 -1 0 1 0 1 0 0 baldc2.dat
+1 15 540 32 -660 0 0 -1 0 1 0 1 0 0 baldc2.dat
+1 15 540 32 -660 1 0 0 0 1 0 0 0 1 placa2.dat
+1 15 620 32 -660 0 0 -1 0 1 0 1 0 0 baldc2.dat
+1 15 660 32 -660 0 0 -1 0 1 0 1 0 0 baldc2.dat
+1 15 700 32 -660 0 0 -1 0 1 0 1 0 0 baldc2.dat
+1 15 700 32 -600 -1 0 0 0 1 0 0 0 -1 baldc2.dat
+1 15 700 32 -560 -1 0 0 0 1 0 0 0 -1 baldc2.dat
+1 15 700 32 -520 -1 0 0 0 1 0 0 0 -1 baldc2.dat
+1 15 700 32 -480 -1 0 0 0 1 0 0 0 -1 baldc2.dat
+1 15 440 32 -600 -1 0 0 0 1 0 0 0 -1 baldc2.dat
+1 15 440 32 -560 -1 0 0 0 1 0 0 0 -1 baldc2.dat
+1 15 440 32 -520 -1 0 0 0 1 0 0 0 -1 baldc2.dat
+1 15 440 32 -480 -1 0 0 0 1 0 0 0 -1 baldc2.dat
+1 14 180 32 -480 -1 0 0 0 1 0 0 0 -1 baldc2.dat
+1 14 180 32 -520 -1 0 0 0 1 0 0 0 -1 baldc2.dat
+1 14 180 32 -560 -1 0 0 0 1 0 0 0 -1 baldc2.dat
+1 14 180 32 -600 -1 0 0 0 1 0 0 0 -1 baldc2.dat
+1 14 180 32 -640 -1 0 0 0 1 0 0 0 -1 baldc1.dat
+1 7 -80 32 -640 0 0 1 0 1 0 -1 0 0 baldc2.dat
+1 7 -40 32 -640 0 0 1 0 1 0 -1 0 0 baldc2.dat
+1 7 0 32 -640 0 0 1 0 1 0 -1 0 0 baldc2.dat
+1 7 40 32 -640 0 0 1 0 1 0 -1 0 0 baldc2.dat
+1 7 80 32 -640 0 0 1 0 1 0 -1 0 0 baldc2.dat
+1 7 120 32 -640 0 0 1 0 1 0 -1 0 0 baldc2.dat
+1 7 40 32 -480 0 0 1 0 1 0 -1 0 0 baldc4x6.dat
+1 7 -80 32 -480 0 0 1 0 1 0 -1 0 0 baldc4x6.dat
+1 7 -80 32 -560 0 0 1 0 1 0 -1 0 0 baldc4x6.dat
+1 7 40 32 -560 0 0 1 0 1 0 -1 0 0 baldc4x6.dat
+1 7 180 32 -640 0 0 1 0 1 0 -1 0 0 baldc2.dat
+1 7 220 32 -640 0 0 1 0 1 0 -1 0 0 baldc2.dat
+1 7 260 32 -640 0 0 1 0 1 0 -1 0 0 baldc2.dat
+1 7 300 32 -640 0 0 1 0 1 0 -1 0 0 baldc2.dat
+1 7 340 32 -640 0 0 1 0 1 0 -1 0 0 baldc2.dat
+1 7 380 32 -640 0 0 1 0 1 0 -1 0 0 baldc2.dat
+1 7 300 32 -480 0 0 1 0 1 0 -1 0 0 baldc4x6.dat
+1 7 180 32 -480 0 0 1 0 1 0 -1 0 0 baldc4x6.dat
+1 7 180 32 -560 0 0 1 0 1 0 -1 0 0 baldc4x6.dat
+1 7 300 32 -560 0 0 1 0 1 0 -1 0 0 baldc4x6.dat
+1 15 -400 32 -480 0 0 1 0 1 0 -1 0 0 placa2x3.dat
+1 15 -400 32 -540 0 0 1 0 1 0 -1 0 0 placa2x3.dat
+1 15 -400 32 -600 0 0 1 0 1 0 -1 0 0 placa2x3.dat
+1 15 700 32 -480 0 0 1 0 1 0 -1 0 0 placa2x3.dat
+1 15 700 32 -540 0 0 1 0 1 0 -1 0 0 placa2x3.dat
+1 15 700 32 -600 0 0 1 0 1 0 -1 0 0 placa2x3.dat
+0 Untitled
+0 Name: aparcamiento.ldr
+0 Author: MLCad
+0 Unofficial Model
+1 1 -220 32 260 0 0 -1 0 1 0 1 0 0 baldc4x6.dat
+1 1 -100 32 260 0 0 -1 0 1 0 1 0 0 baldc4x6.dat
+1 1 -220 32 340 0 0 -1 0 1 0 1 0 0 baldc4x6.dat
+1 1 -100 32 340 0 0 -1 0 1 0 1 0 0 baldc4x6.dat
+1 15 -320 32 240 0 0 -1 0 1 0 1 0 0 baldc2.dat
+1 15 -280 32 240 0 0 -1 0 1 0 1 0 0 baldc2.dat
+1 15 -240 32 240 0 0 -1 0 1 0 1 0 0 baldc2.dat
+1 15 -240 32 240 1 0 0 0 1 0 0 0 1 placa2.dat
+1 15 -160 32 240 0 0 -1 0 1 0 1 0 0 baldc2.dat
+1 15 -120 32 240 0 0 -1 0 1 0 1 0 0 baldc2.dat
+1 15 -80 32 240 0 0 -1 0 1 0 1 0 0 baldc2.dat
+1 15 -80 32 300 -1 0 0 0 1 0 0 0 -1 baldc2.dat
+1 15 -80 32 340 -1 0 0 0 1 0 0 0 -1 baldc2.dat
+1 15 -80 32 380 -1 0 0 0 1 0 0 0 -1 baldc2.dat
+1 15 -80 32 420 -1 0 0 0 1 0 0 0 -1 baldc2.dat
+1 15 -340 32 300 -1 0 0 0 1 0 0 0 -1 baldc2.dat
+1 15 -340 32 340 -1 0 0 0 1 0 0 0 -1 baldc2.dat
+1 15 -340 32 380 -1 0 0 0 1 0 0 0 -1 baldc2.dat
+1 15 -340 32 420 -1 0 0 0 1 0 0 0 -1 baldc2.dat
+1 1 560 32 260 0 0 -1 0 1 0 1 0 0 baldc4x6.dat
+1 1 680 32 260 0 0 -1 0 1 0 1 0 0 baldc4x6.dat
+1 1 560 32 340 0 0 -1 0 1 0 1 0 0 baldc4x6.dat
+1 1 680 32 340 0 0 -1 0 1 0 1 0 0 baldc4x6.dat
+1 15 460 32 240 0 0 -1 0 1 0 1 0 0 baldc2.dat
+1 15 500 32 240 0 0 -1 0 1 0 1 0 0 baldc2.dat
+1 15 540 32 240 0 0 -1 0 1 0 1 0 0 baldc2.dat
+1 15 540 32 240 1 0 0 0 1 0 0 0 1 placa2.dat
+1 15 620 32 240 0 0 -1 0 1 0 1 0 0 baldc2.dat
+1 15 660 32 240 0 0 -1 0 1 0 1 0 0 baldc2.dat
+1 15 700 32 240 0 0 -1 0 1 0 1 0 0 baldc2.dat
+1 15 700 32 300 -1 0 0 0 1 0 0 0 -1 baldc2.dat
+1 15 700 32 340 -1 0 0 0 1 0 0 0 -1 baldc2.dat
+1 15 700 32 380 -1 0 0 0 1 0 0 0 -1 baldc2.dat
+1 15 700 32 420 -1 0 0 0 1 0 0 0 -1 baldc2.dat
+1 15 440 32 300 -1 0 0 0 1 0 0 0 -1 baldc2.dat
+1 15 440 32 340 -1 0 0 0 1 0 0 0 -1 baldc2.dat
+1 15 440 32 380 -1 0 0 0 1 0 0 0 -1 baldc2.dat
+1 15 440 32 420 -1 0 0 0 1 0 0 0 -1 baldc2.dat
+1 15 540 32 300 -1 0 0 0 1 0 0 0 -1 baldc2.dat
+1 15 540 32 340 -1 0 0 0 1 0 0 0 -1 baldc2.dat
+1 15 540 32 380 -1 0 0 0 1 0 0 0 -1 baldc2.dat
+1 14 180 32 420 -1 0 0 0 1 0 0 0 -1 baldc2.dat
+1 14 180 32 380 -1 0 0 0 1 0 0 0 -1 baldc2.dat
+1 14 180 32 340 -1 0 0 0 1 0 0 0 -1 baldc2.dat
+1 14 180 32 300 -1 0 0 0 1 0 0 0 -1 baldc2.dat
+1 14 180 32 260 -1 0 0 0 1 0 0 0 -1 baldc1.dat
+1 7 -80 32 260 0 0 1 0 1 0 -1 0 0 baldc2.dat
+1 7 -40 32 260 0 0 1 0 1 0 -1 0 0 baldc2.dat
+1 7 0 32 260 0 0 1 0 1 0 -1 0 0 baldc2.dat
+1 7 40 32 260 0 0 1 0 1 0 -1 0 0 baldc2.dat
+1 7 80 32 260 0 0 1 0 1 0 -1 0 0 baldc2.dat
+1 7 120 32 260 0 0 1 0 1 0 -1 0 0 baldc2.dat
+1 7 40 32 420 0 0 1 0 1 0 -1 0 0 baldc4x6.dat
+1 7 -80 32 420 0 0 1 0 1 0 -1 0 0 baldc4x6.dat
+1 7 -80 32 340 0 0 1 0 1 0 -1 0 0 baldc4x6.dat
+1 7 40 32 340 0 0 1 0 1 0 -1 0 0 baldc4x6.dat
+1 7 180 32 260 0 0 1 0 1 0 -1 0 0 baldc2.dat
+1 7 220 32 260 0 0 1 0 1 0 -1 0 0 baldc2.dat
+1 7 260 32 260 0 0 1 0 1 0 -1 0 0 baldc2.dat
+1 7 300 32 260 0 0 1 0 1 0 -1 0 0 baldc2.dat
+1 7 340 32 260 0 0 1 0 1 0 -1 0 0 baldc2.dat
+1 7 380 32 260 0 0 1 0 1 0 -1 0 0 baldc2.dat
+1 7 300 32 420 0 0 1 0 1 0 -1 0 0 baldc4x6.dat
+1 7 180 32 420 0 0 1 0 1 0 -1 0 0 baldc4x6.dat
+1 7 180 32 340 0 0 1 0 1 0 -1 0 0 baldc4x6.dat
+1 7 300 32 340 0 0 1 0 1 0 -1 0 0 baldc4x6.dat
+1 15 -400 32 420 0 0 1 0 1 0 -1 0 0 placa2x3.dat
+0 MLCAD BTG tira pared
+1 7 -400 24 420 0 0 1 0 1 0 -1 0 0 jacena14.dat
+0 MLCAD BTG tira pared
+1 7 -400 24 140 0 0 1 0 1 0 -1 0 0 jacena14.dat
+0 MLCAD BTG tira pared
+1 7 -400 24 -140 0 0 1 0 1 0 -1 0 0 jacena14.dat
+0 MLCAD BTG tira pared
+1 7 -400 24 -420 0 0 1 0 1 0 -1 0 0 jacena8.dat
+0 MLCAD BTG tira pared
+1 7 -400 24 -580 0 0 1 0 1 0 -1 0 0 jacena4.dat
+0 GROUP 5 tira pared
+1 15 -380 -96 -660 0 0 -1 0 1 0 1 0 0 jacena14.dat
+1 15 -380 -96 -380 0 0 -1 0 1 0 1 0 0 jacena14.dat
+1 15 -380 -96 -100 0 0 -1 0 1 0 1 0 0 jacena14.dat
+1 15 -380 -96 180 0 0 -1 0 1 0 1 0 0 jacena8.dat
+1 15 -380 -96 340 0 0 -1 0 1 0 1 0 0 jacena4.dat
+1 15 740 -96 -660 0 0 -1 0 1 0 1 0 0 jacena14.dat
+1 15 740 -96 -380 0 0 -1 0 1 0 1 0 0 jacena14.dat
+1 15 740 -96 -100 0 0 -1 0 1 0 1 0 0 jacena14.dat
+1 15 740 -96 180 0 0 -1 0 1 0 1 0 0 jacena8.dat
+1 15 740 -96 340 0 0 -1 0 1 0 1 0 0 jacena4.dat
+1 7 -200 24 230 0 0 -1 0 1 0 1 0 0 jacen2x2.dat
+1 7 580 24 230 0 0 -1 0 1 0 1 0 0 jacen2x2.dat
+1 7 580 24 50 0 0 -1 0 1 0 1 0 0 jacen2x2.dat
+1 7 -200 24 50 0 0 -1 0 1 0 1 0 0 jacen2x2.dat
+1 7 -200 24 -130 0 0 -1 0 1 0 1 0 0 jacen2x2.dat
+1 7 -380 24 -300 1 0 0 0 1 0 0 0 1 jacena14.dat
+1 7 -380 24 -480 1 0 0 0 1 0 0 0 1 jacena14.dat
+1 7 -100 24 -380 0 0 -1 0 1 0 1 0 0 jacena4.dat
+1 7 -100 0 -360 0 0 -1 0 1 0 1 0 0 jacena4.dat
+1 1 -100 -24 -380 0 0 -1 0 1 0 1 0 0 jacena4.dat
+1 1 -220 -24 -280 1 0 0 0 1 0 0 0 1 jacena6.dat
+1 7 -110 0 -370 0 0 -1 0 1 0 1 0 0 jacena1.dat
+1 7 -370 0 -310 0 0 -1 0 1 0 1 0 0 jacena1.dat
+1 7 -220 0 -280 -1 0 0 0 1 0 0 0 -1 ventan4.dat
+1 7 -240 0 -480 1 0 0 0 1 0 0 0 1 ventan4.dat
+1 7 -110 0 -430 0 0 -1 0 1 0 1 0 0 jacena1.dat
+1 1 -150 -24 -470 0 0 -1 0 1 0 1 0 0 jacena1.dat
+1 1 -250 -24 -470 0 0 -1 0 1 0 1 0 0 jacena1.dat
+1 4 -150 0 -280 0 0 1 0 1 0 -1 0 0 llantrut.dat
+1 7 -160 0 -280 -1 0 0 0 1 0 0 0 -1 enganch2.dat
+1 7 -120 0 -280 -1 0 0 0 1 0 0 0 -1 jacena2.dat
+1 7 -120 0 -460 -1 0 0 0 1 0 0 0 -1 jacena2.dat
+1 7 -240 0 -480 -1 0 0 0 1 0 0 0 -1 jacena6.dat
+1 1 -260 -24 -480 -1 0 0 0 1 0 0 0 -1 jacena6.dat
+1 7 -180 0 -280 -1 0 0 0 1 0 0 0 -1 jacena2.dat
+1 7 -300 0 -280 -1 0 0 0 1 0 0 0 -1 jacena4.dat
+1 1 -300 -24 -280 -1 0 0 0 1 0 0 0 -1 jacena4.dat
+1 7 -100 24 -460 0 0 -1 0 1 0 1 0 0 jacena2.dat
+1 7 -100 0 -480 0 0 -1 0 1 0 1 0 0 jacena2.dat
+1 1 -100 -24 -460 0 0 -1 0 1 0 1 0 0 jacena2.dat
+1 1 -140 -24 -480 1 0 0 0 1 0 0 0 1 jacena2.dat
+1 7 -360 24 -460 0 0 -1 0 1 0 1 0 0 jacena8.dat
+1 7 -360 0 -480 0 0 -1 0 1 0 1 0 0 jacena8.dat
+1 1 -360 -24 -460 0 0 -1 0 1 0 1 0 0 jacena8.dat
+1 15 -360 -48 -440 0 0 -1 0 1 0 1 0 0 jacena8.dat
+1 15 -360 -48 -480 0 0 -1 0 1 0 1 0 0 jacena2.dat
+1 15 -340 -88 -460 -1 0 0 0 1 0 0 0 -1 jacena2.dat
+1 15 -340 -88 -280 -1 0 0 0 1 0 0 0 -1 jacena2.dat
+1 15 -100 -88 -460 -1 0 0 0 1 0 0 0 -1 jacena8.dat
+1 15 -100 -88 -280 -1 0 0 0 1 0 0 0 -1 jacena8.dat
+1 15 -360 -88 -460 0 0 -1 0 1 0 1 0 0 jacena8.dat
+1 15 -360 -112 -460 0 0 -1 0 1 0 1 0 0 jacena8.dat
+1 15 -100 -88 -460 0 0 -1 0 1 0 1 0 0 jacena8.dat
+1 15 -100 -112 -340 0 0 -1 0 1 0 1 0 0 jacena2.dat
+1 15 -100 -112 -460 0 0 -1 0 1 0 1 0 0 jacena2.dat
+1 15 -100 -112 -420 0 0 -1 0 1 0 1 0 0 vntscorp.dat
+1 15 -100 -112 -380 0 0 -1 0 1 0 1 0 0 vntscorp.dat
+1 383 -300 -88 -300 -1 0 0 0 1 0 0 0 -1 rallado2.dat
+1 383 -260 -88 -300 -1 0 0 0 1 0 0 0 -1 rallado2.dat
+1 15 -340 -112 -460 -1 0 0 0 1 0 0 0 -1 jacena2.dat
+1 15 -340 -112 -280 -1 0 0 0 1 0 0 0 -1 jacena2.dat
+1 15 -100 -112 -280 -1 0 0 0 1 0 0 0 -1 jacena8.dat
+1 383 -300 -112 -300 -1 0 0 0 1 0 0 0 -1 rallado2.dat
+1 383 -260 -112 -300 -1 0 0 0 1 0 0 0 -1 rallado2.dat
+1 383 -340 -88 -460 1 0 0 0 1 0 0 0 1 rallado2.dat
+1 383 -300 -88 -460 1 0 0 0 1 0 0 0 1 rallado2.dat
+1 15 -100 -112 -460 -1 0 0 0 1 0 0 0 -1 jacena8.dat
+1 383 -340 -112 -460 1 0 0 0 1 0 0 0 1 rallado2.dat
+1 383 -300 -112 -460 1 0 0 0 1 0 0 0 1 rallado2.dat
+1 15 -100 -48 -320 0 0 -1 0 1 0 1 0 0 jacena2.dat
+1 15 -120 -48 -280 -1 0 0 0 1 0 0 0 -1 jacena2.dat
+1 15 -320 -48 -280 -1 0 0 0 1 0 0 0 -1 jacena2.dat
+1 15 -160 -48 -280 -1 0 0 0 1 0 0 0 -1 jacena8.dat
+1 15 -120 -48 -320 0 0 1 0 1 0 -1 0 0 jacena8.dat
+1 15 -280 -48 -480 1 0 0 0 1 0 0 0 1 jacena8.dat
+1 15 -360 -48 -480 1 0 0 0 1 0 0 0 1 jacena4.dat
+1 0 -100 24 -420 0 0 -1 0 1 0 1 0 0 puertamr.dat
+1 7 -100 24 -420 0 0 -1 0 1 0 1 0 0 puertacr.dat
+1 7 -200 24 -670 0 0 -1 0 1 0 1 0 0 jacen2x2.dat
+1 7 580 24 -670 0 0 -1 0 1 0 1 0 0 jacen2x2.dat
+1 7 580 24 -490 0 0 -1 0 1 0 1 0 0 jacen2x2.dat
+1 7 580 24 -310 0 0 -1 0 1 0 1 0 0 jacen2x2.dat
+1 7 580 24 -130 0 0 -1 0 1 0 1 0 0 jacen2x2.dat
+1 7 -200 0 230 0 0 -1 0 1 0 1 0 0 jacen2x2.dat
+1 7 580 0 230 0 0 -1 0 1 0 1 0 0 jacen2x2.dat
+1 7 580 0 50 0 0 -1 0 1 0 1 0 0 jacen2x2.dat
+1 7 -200 0 50 0 0 -1 0 1 0 1 0 0 jacen2x2.dat
+1 7 -200 0 -130 0 0 -1 0 1 0 1 0 0 jacen2x2.dat
+1 7 -200 0 -670 0 0 -1 0 1 0 1 0 0 jacen2x2.dat
+1 7 580 0 -670 0 0 -1 0 1 0 1 0 0 jacen2x2.dat
+1 7 580 0 -490 0 0 -1 0 1 0 1 0 0 jacen2x2.dat
+1 7 580 0 -310 0 0 -1 0 1 0 1 0 0 jacen2x2.dat
+1 7 580 0 -130 0 0 -1 0 1 0 1 0 0 jacen2x2.dat
+1 1 -200 -24 230 0 0 -1 0 1 0 1 0 0 jacen2x2.dat
+1 1 580 -24 230 0 0 -1 0 1 0 1 0 0 jacen2x2.dat
+1 1 580 -24 50 0 0 -1 0 1 0 1 0 0 jacen2x2.dat
+1 1 -200 -24 50 0 0 -1 0 1 0 1 0 0 jacen2x2.dat
+1 1 -200 -24 -130 0 0 -1 0 1 0 1 0 0 jacen2x2.dat
+1 1 -200 -24 -670 0 0 -1 0 1 0 1 0 0 jacen2x2.dat
+1 1 580 -24 -670 0 0 -1 0 1 0 1 0 0 jacen2x2.dat
+1 1 580 -24 -490 0 0 -1 0 1 0 1 0 0 jacen2x2.dat
+1 1 580 -24 -310 0 0 -1 0 1 0 1 0 0 jacen2x2.dat
+1 1 580 -24 -130 0 0 -1 0 1 0 1 0 0 jacen2x2.dat
+1 15 -200 -48 230 0 0 -1 0 1 0 1 0 0 jacen2x2.dat
+1 15 580 -48 230 0 0 -1 0 1 0 1 0 0 jacen2x2.dat
+1 15 580 -48 50 0 0 -1 0 1 0 1 0 0 jacen2x2.dat
+1 15 -200 -48 50 0 0 -1 0 1 0 1 0 0 jacen2x2.dat
+1 15 -200 -48 -130 0 0 -1 0 1 0 1 0 0 jacen2x2.dat
+1 15 -200 -48 -670 0 0 -1 0 1 0 1 0 0 jacen2x2.dat
+1 15 580 -48 -670 0 0 -1 0 1 0 1 0 0 jacen2x2.dat
+1 15 580 -48 -490 0 0 -1 0 1 0 1 0 0 jacen2x2.dat
+1 15 580 -48 -310 0 0 -1 0 1 0 1 0 0 jacen2x2.dat
+1 15 580 -48 -130 0 0 -1 0 1 0 1 0 0 jacen2x2.dat
+1 15 -200 -72 230 0 0 -1 0 1 0 1 0 0 jacen2x2.dat
+1 15 580 -72 230 0 0 -1 0 1 0 1 0 0 jacen2x2.dat
+1 15 580 -72 50 0 0 -1 0 1 0 1 0 0 jacen2x2.dat
+1 15 -200 -72 50 0 0 -1 0 1 0 1 0 0 jacen2x2.dat
+1 15 -200 -72 -130 0 0 -1 0 1 0 1 0 0 jacen2x2.dat
+1 15 -200 -72 -670 0 0 -1 0 1 0 1 0 0 jacen2x2.dat
+1 15 580 -72 -670 0 0 -1 0 1 0 1 0 0 jacen2x2.dat
+1 15 580 -72 -490 0 0 -1 0 1 0 1 0 0 jacen2x2.dat
+1 15 580 -72 -310 0 0 -1 0 1 0 1 0 0 jacen2x2.dat
+1 15 580 -72 -130 0 0 -1 0 1 0 1 0 0 jacen2x2.dat
+1 15 -200 -96 230 0 0 -1 0 1 0 1 0 0 jacen2x2.dat
+1 15 580 -96 230 0 0 -1 0 1 0 1 0 0 jacen2x2.dat
+1 15 580 -96 50 0 0 -1 0 1 0 1 0 0 jacen2x2.dat
+1 15 -200 -96 50 0 0 -1 0 1 0 1 0 0 jacen2x2.dat
+1 15 -200 -96 -130 0 0 -1 0 1 0 1 0 0 jacen2x2.dat
+1 15 -200 -120 230 0 0 -1 0 1 0 1 0 0 jacen2x2.dat
+1 15 -200 -120 50 0 0 -1 0 1 0 1 0 0 jacen2x2.dat
+1 15 -200 -120 -130 0 0 -1 0 1 0 1 0 0 jacen2x2.dat
+1 15 -200 -120 -630 -1 0 0 0 1 0 0 0 -1 jacena2.dat
+1 15 -220 -120 -660 -1 0 0 0 1 0 0 0 -1 ancla1x2.dat
+1 15 580 -120 -630 -1 0 0 0 1 0 0 0 -1 jacena2.dat
+1 15 560 -120 -660 -1 0 0 0 1 0 0 0 -1 ancla1x2.dat
+1 15 580 -96 -490 0 0 -1 0 1 0 1 0 0 jacen2x2.dat
+1 15 580 -96 -670 0 0 -1 0 1 0 1 0 0 jacen2x2.dat
+1 15 -200 -96 -670 0 0 -1 0 1 0 1 0 0 jacen2x2.dat
+1 15 580 -96 -310 0 0 -1 0 1 0 1 0 0 jacen2x2.dat
+1 15 580 -96 -130 0 0 -1 0 1 0 1 0 0 jacen2x2.dat
+1 15 580 -120 230 0 0 -1 0 1 0 1 0 0 jacen2x2.dat
+1 15 580 -120 50 0 0 -1 0 1 0 1 0 0 jacen2x2.dat
+1 15 580 -120 -490 0 0 -1 0 1 0 1 0 0 jacen2x2.dat
+1 15 580 -120 -310 0 0 -1 0 1 0 1 0 0 jacen2x2.dat
+1 15 580 -120 -130 0 0 -1 0 1 0 1 0 0 jacen2x2.dat
+1 15 -400 -72 420 0 0 1 0 1 0 -1 0 0 jacena14.dat
+1 15 -400 -72 140 0 0 1 0 1 0 -1 0 0 jacena14.dat
+1 15 -400 -72 -140 0 0 1 0 1 0 -1 0 0 jacena14.dat
+1 15 -400 -72 -420 0 0 1 0 1 0 -1 0 0 jacena8.dat
+1 15 -400 -72 -580 0 0 1 0 1 0 -1 0 0 jacena4.dat
+1 15 720 -72 420 0 0 1 0 1 0 -1 0 0 jacena14.dat
+1 15 720 -72 140 0 0 1 0 1 0 -1 0 0 jacena14.dat
+1 15 720 -72 -140 0 0 1 0 1 0 -1 0 0 jacena14.dat
+1 15 720 -72 -420 0 0 1 0 1 0 -1 0 0 jacena8.dat
+1 15 720 -72 -580 0 0 1 0 1 0 -1 0 0 jacena4.dat
+1 15 -380 -48 -660 0 0 -1 0 1 0 1 0 0 jacena14.dat
+1 15 -380 -48 -380 0 0 -1 0 1 0 1 0 0 jacena14.dat
+1 15 -380 -48 -100 0 0 -1 0 1 0 1 0 0 jacena14.dat
+1 15 -380 -48 180 0 0 -1 0 1 0 1 0 0 jacena8.dat
+1 15 -380 -48 340 0 0 -1 0 1 0 1 0 0 jacena4.dat
+1 15 740 -48 -660 0 0 -1 0 1 0 1 0 0 jacena14.dat
+1 15 740 -48 -380 0 0 -1 0 1 0 1 0 0 jacena14.dat
+1 15 740 -48 -100 0 0 -1 0 1 0 1 0 0 jacena14.dat
+1 15 740 -48 180 0 0 -1 0 1 0 1 0 0 jacena8.dat
+1 15 740 -48 340 0 0 -1 0 1 0 1 0 0 jacena4.dat
+1 1 -400 -24 420 0 0 1 0 1 0 -1 0 0 jacena14.dat
+1 1 -400 -24 140 0 0 1 0 1 0 -1 0 0 jacena14.dat
+1 1 -400 -24 -140 0 0 1 0 1 0 -1 0 0 jacena14.dat
+1 1 -400 -24 -420 0 0 1 0 1 0 -1 0 0 jacena8.dat
+1 1 -400 -24 -580 0 0 1 0 1 0 -1 0 0 jacena4.dat
+1 1 720 -24 420 0 0 1 0 1 0 -1 0 0 jacena14.dat
+1 1 720 -24 140 0 0 1 0 1 0 -1 0 0 jacena14.dat
+1 1 720 -24 -140 0 0 1 0 1 0 -1 0 0 jacena14.dat
+1 1 720 -24 -420 0 0 1 0 1 0 -1 0 0 jacena8.dat
+1 1 720 -24 -580 0 0 1 0 1 0 -1 0 0 jacena4.dat
+1 7 -380 0 -660 0 0 -1 0 1 0 1 0 0 jacena14.dat
+1 7 -380 0 -380 0 0 -1 0 1 0 1 0 0 jacena14.dat
+1 7 -380 0 -100 0 0 -1 0 1 0 1 0 0 jacena14.dat
+1 7 -380 0 180 0 0 -1 0 1 0 1 0 0 jacena8.dat
+1 7 -380 0 340 0 0 -1 0 1 0 1 0 0 jacena4.dat
+1 7 740 0 -660 0 0 -1 0 1 0 1 0 0 jacena14.dat
+1 7 740 0 -380 0 0 -1 0 1 0 1 0 0 jacena14.dat
+1 7 740 0 -100 0 0 -1 0 1 0 1 0 0 jacena14.dat
+1 7 740 0 180 0 0 -1 0 1 0 1 0 0 jacena8.dat
+1 7 740 0 340 0 0 -1 0 1 0 1 0 0 jacena4.dat
+1 7 720 24 420 0 0 1 0 1 0 -1 0 0 jacena14.dat
+1 7 720 24 140 0 0 1 0 1 0 -1 0 0 jacena14.dat
+1 7 720 24 -140 0 0 1 0 1 0 -1 0 0 jacena14.dat
+1 7 720 24 -420 0 0 1 0 1 0 -1 0 0 jacena8.dat
+1 7 720 24 -580 0 0 1 0 1 0 -1 0 0 jacena4.dat
+1 15 -400 32 360 0 0 1 0 1 0 -1 0 0 placa2x3.dat
+1 15 -400 32 300 0 0 1 0 1 0 -1 0 0 placa2x3.dat
+1 15 700 32 420 0 0 1 0 1 0 -1 0 0 placa2x3.dat
+1 15 700 32 360 0 0 1 0 1 0 -1 0 0 placa2x3.dat
+1 15 700 32 300 0 0 1 0 1 0 -1 0 0 placa2x3.dat
+1 1 -220 32 80 0 0 -1 0 1 0 1 0 0 baldc4x6.dat
+1 1 -100 32 80 0 0 -1 0 1 0 1 0 0 baldc4x6.dat
+1 1 -220 32 160 0 0 -1 0 1 0 1 0 0 baldc4x6.dat
+1 1 -100 32 160 0 0 -1 0 1 0 1 0 0 baldc4x6.dat
+1 15 -320 32 60 0 0 -1 0 1 0 1 0 0 baldc2.dat
+1 15 -280 32 60 0 0 -1 0 1 0 1 0 0 baldc2.dat
+1 15 -240 32 60 0 0 -1 0 1 0 1 0 0 baldc2.dat
+1 15 -240 32 60 1 0 0 0 1 0 0 0 1 placa2.dat
+1 15 -160 32 60 0 0 -1 0 1 0 1 0 0 baldc2.dat
+1 15 -120 32 60 0 0 -1 0 1 0 1 0 0 baldc2.dat
+1 15 -80 32 60 0 0 -1 0 1 0 1 0 0 baldc2.dat
+1 15 -80 32 120 -1 0 0 0 1 0 0 0 -1 baldc2.dat
+1 15 -80 32 160 -1 0 0 0 1 0 0 0 -1 baldc2.dat
+1 15 -80 32 200 -1 0 0 0 1 0 0 0 -1 baldc2.dat
+1 15 -80 32 240 -1 0 0 0 1 0 0 0 -1 baldc2.dat
+1 15 -340 32 120 -1 0 0 0 1 0 0 0 -1 baldc2.dat
+1 15 -340 32 160 -1 0 0 0 1 0 0 0 -1 baldc2.dat
+1 15 -340 32 200 -1 0 0 0 1 0 0 0 -1 baldc2.dat
+1 15 -340 32 240 -1 0 0 0 1 0 0 0 -1 baldc2.dat
+1 1 560 32 80 0 0 -1 0 1 0 1 0 0 baldc4x6.dat
+1 1 680 32 80 0 0 -1 0 1 0 1 0 0 baldc4x6.dat
+1 1 560 32 160 0 0 -1 0 1 0 1 0 0 baldc4x6.dat
+1 1 680 32 160 0 0 -1 0 1 0 1 0 0 baldc4x6.dat
+1 15 460 32 60 0 0 -1 0 1 0 1 0 0 baldc2.dat
+1 15 500 32 60 0 0 -1 0 1 0 1 0 0 baldc2.dat
+1 15 540 32 60 0 0 -1 0 1 0 1 0 0 baldc2.dat
+1 15 540 32 60 1 0 0 0 1 0 0 0 1 placa2.dat
+1 15 620 32 60 0 0 -1 0 1 0 1 0 0 baldc2.dat
+1 15 660 32 60 0 0 -1 0 1 0 1 0 0 baldc2.dat
+1 15 700 32 60 0 0 -1 0 1 0 1 0 0 baldc2.dat
+1 15 700 32 120 -1 0 0 0 1 0 0 0 -1 baldc2.dat
+1 15 700 32 160 -1 0 0 0 1 0 0 0 -1 baldc2.dat
+1 15 700 32 200 -1 0 0 0 1 0 0 0 -1 baldc2.dat
+1 15 700 32 240 -1 0 0 0 1 0 0 0 -1 baldc2.dat
+1 15 440 32 120 -1 0 0 0 1 0 0 0 -1 baldc2.dat
+1 15 440 32 160 -1 0 0 0 1 0 0 0 -1 baldc2.dat
+1 15 440 32 200 -1 0 0 0 1 0 0 0 -1 baldc2.dat
+1 15 440 32 240 -1 0 0 0 1 0 0 0 -1 baldc2.dat
+1 14 180 32 240 -1 0 0 0 1 0 0 0 -1 baldc2.dat
+1 14 180 32 200 -1 0 0 0 1 0 0 0 -1 baldc2.dat
+1 14 180 32 160 -1 0 0 0 1 0 0 0 -1 baldc2.dat
+1 14 180 32 120 -1 0 0 0 1 0 0 0 -1 baldc2.dat
+1 14 180 32 80 -1 0 0 0 1 0 0 0 -1 baldc1.dat
+1 7 -80 32 80 0 0 1 0 1 0 -1 0 0 baldc2.dat
+1 7 -40 32 80 0 0 1 0 1 0 -1 0 0 baldc2.dat
+1 7 0 32 80 0 0 1 0 1 0 -1 0 0 baldc2.dat
+1 7 40 32 80 0 0 1 0 1 0 -1 0 0 baldc2.dat
+1 7 80 32 80 0 0 1 0 1 0 -1 0 0 baldc2.dat
+1 7 120 32 80 0 0 1 0 1 0 -1 0 0 baldc2.dat
+1 7 40 32 240 0 0 1 0 1 0 -1 0 0 baldc4x6.dat
+1 7 -80 32 240 0 0 1 0 1 0 -1 0 0 baldc4x6.dat
+1 7 -80 32 160 0 0 1 0 1 0 -1 0 0 baldc4x6.dat
+1 7 40 32 160 0 0 1 0 1 0 -1 0 0 baldc4x6.dat
+1 14 44 22 70 0 1 0 0 0 -1 -1 0 0 flecha2.dat
+1 14 308 22 70 0 -1 0 0 0 -1 1 0 0 flecha2.dat
+1 7 180 32 80 0 0 1 0 1 0 -1 0 0 baldc2.dat
+1 7 220 32 80 0 0 1 0 1 0 -1 0 0 baldc2.dat
+1 7 260 32 80 0 0 1 0 1 0 -1 0 0 baldc2.dat
+1 7 300 32 80 0 0 1 0 1 0 -1 0 0 baldc2.dat
+1 7 340 32 80 0 0 1 0 1 0 -1 0 0 baldc2.dat
+1 7 380 32 80 0 0 1 0 1 0 -1 0 0 baldc2.dat
+1 7 300 32 240 0 0 1 0 1 0 -1 0 0 baldc4x6.dat
+1 7 180 32 240 0 0 1 0 1 0 -1 0 0 baldc4x6.dat
+1 7 180 32 160 0 0 1 0 1 0 -1 0 0 baldc4x6.dat
+1 7 300 32 160 0 0 1 0 1 0 -1 0 0 baldc4x6.dat
+1 15 -400 32 240 0 0 1 0 1 0 -1 0 0 placa2x3.dat
+1 15 -400 32 180 0 0 1 0 1 0 -1 0 0 placa2x3.dat
+1 15 -400 32 120 0 0 1 0 1 0 -1 0 0 placa2x3.dat
+1 15 700 32 240 0 0 1 0 1 0 -1 0 0 placa2x3.dat
+1 15 700 32 180 0 0 1 0 1 0 -1 0 0 placa2x3.dat
+1 15 700 32 120 0 0 1 0 1 0 -1 0 0 placa2x3.dat
+0 MLCAD BTG baldosines
+1 7 -360 24 420 -1 0 0 0 1 0 0 0 -1 bald2.dat
+0 MLCAD BTG baldosines
+1 7 -360 24 380 -1 0 0 0 1 0 0 0 -1 bald2.dat
+0 MLCAD BTG baldosines
+1 7 -360 24 340 -1 0 0 0 1 0 0 0 -1 bald2.dat
+0 MLCAD BTG baldosines
+1 7 -360 24 300 -1 0 0 0 1 0 0 0 -1 bald2.dat
+0 MLCAD BTG baldosines
+1 7 -360 24 260 -1 0 0 0 1 0 0 0 -1 bald2.dat
+0 MLCAD BTG baldosines
+1 7 -360 24 220 -1 0 0 0 1 0 0 0 -1 bald2.dat
+0 MLCAD BTG baldosines
+1 7 -360 24 180 -1 0 0 0 1 0 0 0 -1 bald2.dat
+0 MLCAD BTG baldosines
+1 7 -360 24 140 -1 0 0 0 1 0 0 0 -1 bald2.dat
+0 MLCAD BTG baldosines
+1 7 -360 24 100 -1 0 0 0 1 0 0 0 -1 bald2.dat
+0 MLCAD BTG baldosines
+1 7 -360 24 60 -1 0 0 0 1 0 0 0 -1 bald2.dat
+0 MLCAD BTG baldosines
+1 7 -360 24 20 -1 0 0 0 1 0 0 0 -1 bald2.dat
+0 MLCAD BTG baldosines
+1 7 -360 24 -20 -1 0 0 0 1 0 0 0 -1 bald2.dat
+0 MLCAD BTG baldosines
+1 7 -360 24 -60 -1 0 0 0 1 0 0 0 -1 bald2.dat
+0 MLCAD BTG baldosines
+1 7 -360 24 -100 -1 0 0 0 1 0 0 0 -1 bald2.dat
+0 MLCAD BTG baldosines
+1 7 -360 24 -140 -1 0 0 0 1 0 0 0 -1 bald2.dat
+0 MLCAD BTG baldosines
+1 7 -360 24 -180 -1 0 0 0 1 0 0 0 -1 bald2.dat
+0 MLCAD BTG baldosines
+1 7 -360 24 -220 -1 0 0 0 1 0 0 0 -1 bald2.dat
+0 MLCAD BTG baldosines
+1 7 -360 24 -260 -1 0 0 0 1 0 0 0 -1 bald2.dat
+0 MLCAD BTG baldosines
+1 7 -360 24 -300 -1 0 0 0 1 0 0 0 -1 bald2.dat
+0 MLCAD BTG baldosines
+1 7 -360 24 -340 -1 0 0 0 1 0 0 0 -1 bald2.dat
+0 MLCAD BTG baldosines
+1 7 -360 24 -380 -1 0 0 0 1 0 0 0 -1 bald2.dat
+0 MLCAD BTG baldosines
+1 7 -360 24 -420 -1 0 0 0 1 0 0 0 -1 bald2.dat
+0 MLCAD BTG baldosines
+1 7 -360 24 -460 -1 0 0 0 1 0 0 0 -1 bald2.dat
+0 MLCAD BTG baldosines
+1 7 -360 24 -500 -1 0 0 0 1 0 0 0 -1 bald2.dat
+0 MLCAD BTG baldosines
+1 7 -360 24 -540 -1 0 0 0 1 0 0 0 -1 bald2.dat
+0 MLCAD BTG baldosines
+1 7 -360 24 -580 -1 0 0 0 1 0 0 0 -1 bald2.dat
+0 MLCAD BTG baldosines
+1 7 -360 24 -620 -1 0 0 0 1 0 0 0 -1 bald2.dat
+0 GROUP 27 baldosines
+1 7 720 24 420 -1 0 0 0 1 0 0 0 -1 bald2.dat
+1 7 720 24 380 -1 0 0 0 1 0 0 0 -1 bald2.dat
+1 7 720 24 340 -1 0 0 0 1 0 0 0 -1 bald2.dat
+1 7 720 24 300 -1 0 0 0 1 0 0 0 -1 bald2.dat
+1 7 720 24 260 -1 0 0 0 1 0 0 0 -1 bald2.dat
+1 7 720 24 220 -1 0 0 0 1 0 0 0 -1 bald2.dat
+1 7 720 24 180 -1 0 0 0 1 0 0 0 -1 bald2.dat
+1 7 720 24 140 -1 0 0 0 1 0 0 0 -1 bald2.dat
+1 7 720 24 100 -1 0 0 0 1 0 0 0 -1 bald2.dat
+1 7 720 24 60 -1 0 0 0 1 0 0 0 -1 bald2.dat
+1 7 720 24 20 -1 0 0 0 1 0 0 0 -1 bald2.dat
+1 7 720 24 -20 -1 0 0 0 1 0 0 0 -1 bald2.dat
+1 7 720 24 -60 -1 0 0 0 1 0 0 0 -1 bald2.dat
+1 7 720 24 -100 -1 0 0 0 1 0 0 0 -1 bald2.dat
+1 7 720 24 -140 -1 0 0 0 1 0 0 0 -1 bald2.dat
+1 7 720 24 -180 -1 0 0 0 1 0 0 0 -1 bald2.dat
+1 7 720 24 -220 -1 0 0 0 1 0 0 0 -1 bald2.dat
+1 7 720 24 -260 -1 0 0 0 1 0 0 0 -1 bald2.dat
+1 7 720 24 -300 -1 0 0 0 1 0 0 0 -1 bald2.dat
+1 7 720 24 -340 -1 0 0 0 1 0 0 0 -1 bald2.dat
+1 7 720 24 -380 -1 0 0 0 1 0 0 0 -1 bald2.dat
+1 7 720 24 -420 -1 0 0 0 1 0 0 0 -1 bald2.dat
+1 7 720 24 -460 -1 0 0 0 1 0 0 0 -1 bald2.dat
+1 7 720 24 -500 -1 0 0 0 1 0 0 0 -1 bald2.dat
+1 7 720 24 -540 -1 0 0 0 1 0 0 0 -1 bald2.dat
+1 7 720 24 -580 -1 0 0 0 1 0 0 0 -1 bald2.dat
+1 7 720 24 -620 -1 0 0 0 1 0 0 0 -1 bald2.dat
+1 15 -380 -72 -280 0 0 1 0 1 0 -1 0 0 placa4x8.dat
+1 15 -300 -72 -280 0 0 1 0 1 0 -1 0 0 placa4x8.dat
+1 15 -220 -72 -280 0 0 1 0 1 0 -1 0 0 placa6x8.dat
+1 15 -160 -72 -440 -1 0 0 0 1 0 0 0 -1 placa2x8.dat
+1 15 -320 -72 -440 -1 0 0 0 1 0 0 0 -1 placa2x3.dat
+1 15 -100 -72 -440 -1 0 0 0 1 0 0 0 -1 placa2x3.dat
+0 MLCAD BTG techo caseton
+1 15 -120 -136 -460 -1 0 0 0 1 0 0 0 -1 placa4.dat
+0 MLCAD BTG techo caseton
+1 15 -200 -136 -460 -1 0 0 0 1 0 0 0 -1 placa4.dat
+0 MLCAD BTG techo caseton
+1 15 -280 -136 -460 -1 0 0 0 1 0 0 0 -1 placa4.dat
+0 MLCAD BTG techo caseton
+1 15 -120 -136 -280 -1 0 0 0 1 0 0 0 -1 placa4.dat
+0 MLCAD BTG techo caseton
+1 15 -200 -136 -280 -1 0 0 0 1 0 0 0 -1 placa4.dat
+0 MLCAD BTG techo caseton
+1 15 -280 -136 -280 -1 0 0 0 1 0 0 0 -1 placa4.dat
+0 MLCAD BTG techo caseton
+1 15 -120 -136 -280 0 0 1 0 1 0 -1 0 0 placa4.dat
+0 MLCAD BTG techo caseton
+1 15 -120 -136 -400 0 0 1 0 1 0 -1 0 0 placa4.dat
+0 MLCAD BTG techo caseton
+1 15 -120 -136 -360 0 0 1 0 1 0 -1 0 0 placa2.dat
+0 MLCAD BTG techo caseton
+1 15 -380 -136 -280 0 0 1 0 1 0 -1 0 0 placa4.dat
+0 MLCAD BTG techo caseton
+1 15 -380 -136 -400 0 0 1 0 1 0 -1 0 0 placa4.dat
+0 MLCAD BTG techo caseton
+1 15 -380 -136 -360 0 0 1 0 1 0 -1 0 0 placa2.dat
+0 GROUP 12 techo caseton
+1 15 -380 -120 -660 0 0 -1 0 1 0 1 0 0 jacena14.dat
+1 15 -380 -120 -380 0 0 -1 0 1 0 1 0 0 jacena14.dat
+1 15 -380 -120 -100 0 0 -1 0 1 0 1 0 0 jacena14.dat
+1 15 -380 -120 180 0 0 -1 0 1 0 1 0 0 jacena8.dat
+1 15 -380 -120 340 0 0 -1 0 1 0 1 0 0 jacena4.dat
+1 15 740 -120 -660 0 0 -1 0 1 0 1 0 0 jacena14.dat
+1 15 740 -120 -380 0 0 -1 0 1 0 1 0 0 jacena14.dat
+1 15 740 -120 -100 0 0 -1 0 1 0 1 0 0 jacena14.dat
+1 15 740 -120 180 0 0 -1 0 1 0 1 0 0 jacena8.dat
+1 15 740 -120 340 0 0 -1 0 1 0 1 0 0 jacena4.dat
+1 21 150 -120 -220 0 0 1 0 1 0 -1 0 0 jacen2x8.dat
+1 21 150 -120 140 0 0 1 0 1 0 -1 0 0 jacen2x8.dat
+0 MLCAD BTG suelo
+1 15 -400 -144 300 1 0 0 0 1 0 0 0 1 placa6x8.dat
+0 MLCAD BTG suelo
+1 15 -400 -144 180 1 0 0 0 1 0 0 0 1 placa6x8.dat
+0 MLCAD BTG suelo
+1 15 -400 -144 100 1 0 0 0 1 0 0 0 1 placa4x8.dat
+0 MLCAD BTG suelo
+1 15 -400 -144 20 1 0 0 0 1 0 0 0 1 placa4x8.dat
+0 MLCAD BTG suelo
+1 15 -400 -144 -60 1 0 0 0 1 0 0 0 1 placa4x8.dat
+0 MLCAD BTG suelo
+1 15 -400 -144 -180 1 0 0 0 1 0 0 0 1 placa6x8.dat
+0 MLCAD BTG suelo
+1 15 -400 -144 -300 1 0 0 0 1 0 0 0 1 placa6x8.dat
+0 MLCAD BTG suelo
+1 15 -400 -144 -420 1 0 0 0 1 0 0 0 1 placa6x8.dat
+0 MLCAD BTG suelo
+1 15 -400 -144 -540 1 0 0 0 1 0 0 0 1 placa6x8.dat
+0 MLCAD BTG suelo
+1 15 -400 -144 -660 1 0 0 0 1 0 0 0 1 placa6x8.dat
+0 MLCAD BTG suelo
+1 15 -240 -144 300 1 0 0 0 1 0 0 0 1 placa6x8.dat
+0 MLCAD BTG suelo
+1 15 -240 -144 180 1 0 0 0 1 0 0 0 1 placa6x8.dat
+0 MLCAD BTG suelo
+1 15 -240 -144 100 1 0 0 0 1 0 0 0 1 placa4x8.dat
+0 MLCAD BTG suelo
+1 15 -240 -144 20 1 0 0 0 1 0 0 0 1 placa4x8.dat
+0 MLCAD BTG suelo
+1 15 -240 -144 -60 1 0 0 0 1 0 0 0 1 placa4x8.dat
+0 MLCAD BTG suelo
+1 15 -240 -144 -180 1 0 0 0 1 0 0 0 1 placa6x8.dat
+0 MLCAD BTG suelo
+1 15 -240 -144 -300 1 0 0 0 1 0 0 0 1 placa6x8.dat
+0 MLCAD BTG suelo
+1 15 -240 -144 -420 1 0 0 0 1 0 0 0 1 placa6x8.dat
+0 MLCAD BTG suelo
+1 15 -240 -144 -540 1 0 0 0 1 0 0 0 1 placa6x8.dat
+0 MLCAD BTG suelo
+1 15 -240 -144 -660 1 0 0 0 1 0 0 0 1 placa6x8.dat
+0 MLCAD BTG suelo
+1 15 -80 -144 300 1 0 0 0 1 0 0 0 1 placa6x8.dat
+0 MLCAD BTG suelo
+1 15 -80 -144 180 1 0 0 0 1 0 0 0 1 placa6x8.dat
+0 MLCAD BTG suelo
+1 15 -80 -144 100 1 0 0 0 1 0 0 0 1 placa4x8.dat
+0 MLCAD BTG suelo
+1 15 -80 -144 20 1 0 0 0 1 0 0 0 1 placa4x8.dat
+0 MLCAD BTG suelo
+1 15 -80 -144 -60 1 0 0 0 1 0 0 0 1 placa4x8.dat
+0 MLCAD BTG suelo
+1 15 -80 -144 -180 1 0 0 0 1 0 0 0 1 placa6x8.dat
+0 MLCAD BTG suelo
+1 15 -80 -144 -300 1 0 0 0 1 0 0 0 1 placa6x8.dat
+0 MLCAD BTG suelo
+1 15 -80 -144 -420 1 0 0 0 1 0 0 0 1 placa6x8.dat
+0 MLCAD BTG suelo
+1 15 -80 -144 -540 1 0 0 0 1 0 0 0 1 placa6x8.dat
+0 MLCAD BTG suelo
+1 15 -80 -144 -660 1 0 0 0 1 0 0 0 1 placa6x8.dat
+0 MLCAD BTG suelo
+1 15 80 -144 300 1 0 0 0 1 0 0 0 1 placa6x8.dat
+0 MLCAD BTG suelo
+1 15 80 -144 180 1 0 0 0 1 0 0 0 1 placa6x8.dat
+0 MLCAD BTG suelo
+1 15 80 -144 100 1 0 0 0 1 0 0 0 1 placa4x8.dat
+0 MLCAD BTG suelo
+1 15 80 -144 20 1 0 0 0 1 0 0 0 1 placa4x8.dat
+0 MLCAD BTG suelo
+1 15 80 -144 -60 1 0 0 0 1 0 0 0 1 placa4x8.dat
+0 MLCAD BTG suelo
+1 15 80 -144 -180 1 0 0 0 1 0 0 0 1 placa6x8.dat
+0 MLCAD BTG suelo
+1 15 80 -144 -300 1 0 0 0 1 0 0 0 1 placa6x8.dat
+0 MLCAD BTG suelo
+1 15 80 -144 -420 1 0 0 0 1 0 0 0 1 placa6x8.dat
+0 MLCAD BTG suelo
+1 15 80 -144 -540 1 0 0 0 1 0 0 0 1 placa6x8.dat
+0 MLCAD BTG suelo
+1 15 80 -144 -660 1 0 0 0 1 0 0 0 1 placa6x8.dat
+0 MLCAD BTG suelo
+1 15 240 -144 300 1 0 0 0 1 0 0 0 1 placa6x8.dat
+0 MLCAD BTG suelo
+1 15 240 -144 180 1 0 0 0 1 0 0 0 1 placa6x8.dat
+0 MLCAD BTG suelo
+1 15 240 -144 100 1 0 0 0 1 0 0 0 1 placa4x8.dat
+0 MLCAD BTG suelo
+1 15 240 -144 20 1 0 0 0 1 0 0 0 1 placa4x8.dat
+0 MLCAD BTG suelo
+1 15 240 -144 -60 1 0 0 0 1 0 0 0 1 placa4x8.dat
+0 MLCAD BTG suelo
+1 15 240 -144 -180 1 0 0 0 1 0 0 0 1 placa6x8.dat
+0 MLCAD BTG suelo
+1 15 240 -144 -300 1 0 0 0 1 0 0 0 1 placa6x8.dat
+0 MLCAD BTG suelo
+1 15 240 -144 -420 1 0 0 0 1 0 0 0 1 placa6x8.dat
+0 MLCAD BTG suelo
+1 15 240 -144 -540 1 0 0 0 1 0 0 0 1 placa6x8.dat
+0 MLCAD BTG suelo
+1 15 240 -144 -660 1 0 0 0 1 0 0 0 1 placa6x8.dat
+0 MLCAD BTG suelo
+1 15 420 -144 300 1 0 0 0 1 0 0 0 1 placa6x8.dat
+0 MLCAD BTG suelo
+1 15 420 -144 180 1 0 0 0 1 0 0 0 1 placa6x8.dat
+0 MLCAD BTG suelo
+1 15 420 -144 100 1 0 0 0 1 0 0 0 1 placa4x8.dat
+0 MLCAD BTG suelo
+1 15 420 -144 20 1 0 0 0 1 0 0 0 1 placa4x8.dat
+0 MLCAD BTG suelo
+1 15 420 -144 -60 1 0 0 0 1 0 0 0 1 placa4x8.dat
+0 MLCAD BTG suelo
+1 15 420 -144 -180 1 0 0 0 1 0 0 0 1 placa6x8.dat
+0 MLCAD BTG suelo
+1 15 420 -144 -300 1 0 0 0 1 0 0 0 1 placa6x8.dat
+0 MLCAD BTG suelo
+1 15 420 -144 -420 1 0 0 0 1 0 0 0 1 placa6x8.dat
+0 MLCAD BTG suelo
+1 15 420 -144 -540 1 0 0 0 1 0 0 0 1 placa6x8.dat
+0 MLCAD BTG suelo
+1 15 420 -144 -660 1 0 0 0 1 0 0 0 1 placa6x8.dat
+0 MLCAD BTG suelo
+1 15 420 -144 -660 0 0 -1 0 1 0 1 0 0 placa4.dat
+0 MLCAD BTG suelo
+1 15 420 -144 -580 0 0 -1 0 1 0 1 0 0 placa4.dat
+0 MLCAD BTG suelo
+1 15 420 -144 -500 0 0 -1 0 1 0 1 0 0 placa4.dat
+0 MLCAD BTG suelo
+1 15 420 -144 -420 0 0 -1 0 1 0 1 0 0 placa4.dat
+0 MLCAD BTG suelo
+1 15 420 -144 -340 0 0 -1 0 1 0 1 0 0 placa4.dat
+0 MLCAD BTG suelo
+1 15 420 -144 -260 0 0 -1 0 1 0 1 0 0 placa4.dat
+0 MLCAD BTG suelo
+1 15 420 -144 -180 0 0 -1 0 1 0 1 0 0 placa4.dat
+0 MLCAD BTG suelo
+1 15 420 -144 -100 0 0 -1 0 1 0 1 0 0 placa4.dat
+0 MLCAD BTG suelo
+1 15 420 -144 -20 0 0 -1 0 1 0 1 0 0 placa4.dat
+0 MLCAD BTG suelo
+1 15 420 -144 60 0 0 -1 0 1 0 1 0 0 placa4.dat
+0 MLCAD BTG suelo
+1 15 420 -144 140 0 0 -1 0 1 0 1 0 0 placa4.dat
+0 MLCAD BTG suelo
+1 15 420 -144 300 0 0 -1 0 1 0 1 0 0 placa4.dat
+0 MLCAD BTG suelo
+1 15 420 -144 220 0 0 -1 0 1 0 1 0 0 placa4.dat
+0 MLCAD BTG suelo
+1 15 420 -144 380 0 0 -1 0 1 0 1 0 0 placa2.dat
+0 MLCAD BTG suelo
+1 15 580 -144 300 1 0 0 0 1 0 0 0 1 placa6x8.dat
+0 MLCAD BTG suelo
+1 15 580 -144 180 1 0 0 0 1 0 0 0 1 placa6x8.dat
+0 MLCAD BTG suelo
+1 15 580 -144 100 1 0 0 0 1 0 0 0 1 placa4x8.dat
+0 MLCAD BTG suelo
+1 15 580 -144 20 1 0 0 0 1 0 0 0 1 placa4x8.dat
+0 MLCAD BTG suelo
+1 15 580 -144 -60 1 0 0 0 1 0 0 0 1 placa4x8.dat
+0 MLCAD BTG suelo
+1 15 580 -144 -180 1 0 0 0 1 0 0 0 1 placa6x8.dat
+0 MLCAD BTG suelo
+1 15 580 -144 -300 1 0 0 0 1 0 0 0 1 placa6x8.dat
+0 MLCAD BTG suelo
+1 15 580 -144 -420 1 0 0 0 1 0 0 0 1 placa6x8.dat
+0 MLCAD BTG suelo
+1 15 580 -144 -540 1 0 0 0 1 0 0 0 1 placa6x8.dat
+0 MLCAD BTG suelo
+1 15 580 -144 -660 1 0 0 0 1 0 0 0 1 placa6x8.dat
+0 GROUP 84 suelo
+1 15 -400 40 300 1 0 0 0 1 0 0 0 1 placa6x8.dat
+1 15 -400 40 180 1 0 0 0 1 0 0 0 1 placa6x8.dat
+1 15 -400 40 100 1 0 0 0 1 0 0 0 1 placa4x8.dat
+1 15 -400 40 20 1 0 0 0 1 0 0 0 1 placa4x8.dat
+1 15 -400 40 -60 1 0 0 0 1 0 0 0 1 placa4x8.dat
+1 15 -400 40 -180 1 0 0 0 1 0 0 0 1 placa6x8.dat
+1 15 -400 40 -300 1 0 0 0 1 0 0 0 1 placa6x8.dat
+1 15 -400 40 -420 1 0 0 0 1 0 0 0 1 placa6x8.dat
+1 15 -400 40 -540 1 0 0 0 1 0 0 0 1 placa6x8.dat
+1 15 -400 40 -660 1 0 0 0 1 0 0 0 1 placa6x8.dat
+0 MLCAD BTG Tela asfaltica
+1 0 -380 -152 400 0 0 1 0 1 0 -1 0 0 placa6x8.dat
+0 MLCAD BTG Tela asfaltica
+1 0 -260 -152 400 0 0 1 0 1 0 -1 0 0 placa6x8.dat
+0 MLCAD BTG Tela asfaltica
+1 0 -140 -152 400 0 0 1 0 1 0 -1 0 0 placa6x8.dat
+0 MLCAD BTG Tela asfaltica
+1 0 -20 -152 400 0 0 1 0 1 0 -1 0 0 placa6x8.dat
+0 MLCAD BTG Tela asfaltica
+1 0 100 -152 400 0 0 1 0 1 0 -1 0 0 placa6x8.dat
+0 MLCAD BTG Tela asfaltica
+1 0 220 -152 400 0 0 1 0 1 0 -1 0 0 placa6x8.dat
+0 MLCAD BTG Tela asfaltica
+1 0 340 -152 400 0 0 1 0 1 0 -1 0 0 placa6x8.dat
+0 MLCAD BTG Tela asfaltica
+1 0 620 -152 400 0 0 1 0 1 0 -1 0 0 placa6x8.dat
+0 MLCAD BTG Tela asfaltica
+1 0 460 -152 400 0 0 1 0 1 0 -1 0 0 placa4x8.dat
+0 MLCAD BTG Tela asfaltica
+1 0 540 -152 400 0 0 1 0 1 0 -1 0 0 placa4x8.dat
+0 MLCAD BTG Tela asfaltica
+1 0 -380 -152 240 0 0 1 0 1 0 -1 0 0 placa6x8.dat
+0 MLCAD BTG Tela asfaltica
+1 0 -260 -152 240 0 0 1 0 1 0 -1 0 0 placa6x8.dat
+0 MLCAD BTG Tela asfaltica
+1 0 -140 -152 240 0 0 1 0 1 0 -1 0 0 placa6x8.dat
+0 MLCAD BTG Tela asfaltica
+1 0 -20 -152 240 0 0 1 0 1 0 -1 0 0 placa6x8.dat
+0 MLCAD BTG Tela asfaltica
+1 0 100 -152 240 0 0 1 0 1 0 -1 0 0 placa6x8.dat
+0 MLCAD BTG Tela asfaltica
+1 0 220 -152 240 0 0 1 0 1 0 -1 0 0 placa6x8.dat
+0 MLCAD BTG Tela asfaltica
+1 0 340 -152 240 0 0 1 0 1 0 -1 0 0 placa6x8.dat
+0 MLCAD BTG Tela asfaltica
+1 0 620 -152 240 0 0 1 0 1 0 -1 0 0 placa6x8.dat
+0 MLCAD BTG Tela asfaltica
+1 0 460 -152 240 0 0 1 0 1 0 -1 0 0 placa4x8.dat
+0 MLCAD BTG Tela asfaltica
+1 0 540 -152 240 0 0 1 0 1 0 -1 0 0 placa4x8.dat
+0 MLCAD BTG Tela asfaltica
+1 0 -380 -152 80 0 0 1 0 1 0 -1 0 0 placa6x8.dat
+0 MLCAD BTG Tela asfaltica
+1 0 -260 -152 80 0 0 1 0 1 0 -1 0 0 placa6x8.dat
+0 MLCAD BTG Tela asfaltica
+1 0 -140 -152 80 0 0 1 0 1 0 -1 0 0 placa6x8.dat
+0 MLCAD BTG Tela asfaltica
+1 0 -20 -152 80 0 0 1 0 1 0 -1 0 0 placa6x8.dat
+0 MLCAD BTG Tela asfaltica
+1 0 100 -152 80 0 0 1 0 1 0 -1 0 0 placa6x8.dat
+0 MLCAD BTG Tela asfaltica
+1 0 220 -152 80 0 0 1 0 1 0 -1 0 0 placa6x8.dat
+0 MLCAD BTG Tela asfaltica
+1 0 340 -152 80 0 0 1 0 1 0 -1 0 0 placa6x8.dat
+0 MLCAD BTG Tela asfaltica
+1 0 620 -152 80 0 0 1 0 1 0 -1 0 0 placa6x8.dat
+0 MLCAD BTG Tela asfaltica
+1 0 460 -152 80 0 0 1 0 1 0 -1 0 0 placa4x8.dat
+0 MLCAD BTG Tela asfaltica
+1 0 540 -152 80 0 0 1 0 1 0 -1 0 0 placa4x8.dat
+0 MLCAD BTG Tela asfaltica
+1 0 -380 -152 -80 0 0 1 0 1 0 -1 0 0 placa6x8.dat
+0 MLCAD BTG Tela asfaltica
+1 0 -260 -152 -80 0 0 1 0 1 0 -1 0 0 placa6x8.dat
+0 MLCAD BTG Tela asfaltica
+1 0 -140 -152 -80 0 0 1 0 1 0 -1 0 0 placa6x8.dat
+0 MLCAD BTG Tela asfaltica
+1 0 -20 -152 -80 0 0 1 0 1 0 -1 0 0 placa6x8.dat
+0 MLCAD BTG Tela asfaltica
+1 0 100 -152 -80 0 0 1 0 1 0 -1 0 0 placa6x8.dat
+0 MLCAD BTG Tela asfaltica
+1 0 220 -152 -80 0 0 1 0 1 0 -1 0 0 placa6x8.dat
+0 MLCAD BTG Tela asfaltica
+1 0 340 -152 -80 0 0 1 0 1 0 -1 0 0 placa6x8.dat
+0 MLCAD BTG Tela asfaltica
+1 0 620 -152 -80 0 0 1 0 1 0 -1 0 0 placa6x8.dat
+0 MLCAD BTG Tela asfaltica
+1 0 460 -152 -80 0 0 1 0 1 0 -1 0 0 placa4x8.dat
+0 MLCAD BTG Tela asfaltica
+1 0 540 -152 -80 0 0 1 0 1 0 -1 0 0 placa4x8.dat
+0 MLCAD BTG Tela asfaltica
+1 0 -380 -152 -240 0 0 1 0 1 0 -1 0 0 placa6x8.dat
+0 MLCAD BTG Tela asfaltica
+1 0 -260 -152 -240 0 0 1 0 1 0 -1 0 0 placa6x8.dat
+0 MLCAD BTG Tela asfaltica
+1 0 -140 -152 -240 0 0 1 0 1 0 -1 0 0 placa6x8.dat
+0 MLCAD BTG Tela asfaltica
+1 0 -20 -152 -240 0 0 1 0 1 0 -1 0 0 placa6x8.dat
+0 MLCAD BTG Tela asfaltica
+1 0 100 -152 -240 0 0 1 0 1 0 -1 0 0 placa6x8.dat
+0 MLCAD BTG Tela asfaltica
+1 0 220 -152 -240 0 0 1 0 1 0 -1 0 0 placa6x8.dat
+0 MLCAD BTG Tela asfaltica
+1 0 340 -152 -240 0 0 1 0 1 0 -1 0 0 placa6x8.dat
+0 MLCAD BTG Tela asfaltica
+1 0 620 -152 -240 0 0 1 0 1 0 -1 0 0 placa6x8.dat
+0 MLCAD BTG Tela asfaltica
+1 0 460 -152 -240 0 0 1 0 1 0 -1 0 0 placa4x8.dat
+0 MLCAD BTG Tela asfaltica
+1 0 540 -152 -240 0 0 1 0 1 0 -1 0 0 placa4x8.dat
+0 MLCAD BTG Tela asfaltica
+1 0 -380 -152 -400 0 0 1 0 1 0 -1 0 0 placa6x8.dat
+0 MLCAD BTG Tela asfaltica
+1 0 -260 -152 -400 0 0 1 0 1 0 -1 0 0 placa6x8.dat
+0 MLCAD BTG Tela asfaltica
+1 0 -140 -152 -400 0 0 1 0 1 0 -1 0 0 placa6x8.dat
+0 MLCAD BTG Tela asfaltica
+1 0 -20 -152 -400 0 0 1 0 1 0 -1 0 0 placa6x8.dat
+0 MLCAD BTG Tela asfaltica
+1 0 100 -152 -400 0 0 1 0 1 0 -1 0 0 placa6x8.dat
+0 MLCAD BTG Tela asfaltica
+1 0 220 -152 -400 0 0 1 0 1 0 -1 0 0 placa6x8.dat
+0 MLCAD BTG Tela asfaltica
+1 0 340 -152 -400 0 0 1 0 1 0 -1 0 0 placa6x8.dat
+0 MLCAD BTG Tela asfaltica
+1 0 620 -152 -400 0 0 1 0 1 0 -1 0 0 placa6x8.dat
+0 MLCAD BTG Tela asfaltica
+1 0 460 -152 -400 0 0 1 0 1 0 -1 0 0 placa4x8.dat
+0 MLCAD BTG Tela asfaltica
+1 0 460 -152 -640 1 0 0 0 1 0 0 0 1 placa4x8.dat
+0 MLCAD BTG Tela asfaltica
+1 0 300 -152 -640 1 0 0 0 1 0 0 0 1 placa4x8.dat
+0 MLCAD BTG Tela asfaltica
+1 0 140 -152 -640 1 0 0 0 1 0 0 0 1 placa4x8.dat
+0 MLCAD BTG Tela asfaltica
+1 0 -20 -152 -640 1 0 0 0 1 0 0 0 1 placa4x8.dat
+0 MLCAD BTG Tela asfaltica
+1 0 -180 -152 -640 1 0 0 0 1 0 0 0 1 placa4x8.dat
+0 MLCAD BTG Tela asfaltica
+1 0 -340 -152 -640 1 0 0 0 1 0 0 0 1 placa4x8.dat
+0 MLCAD BTG Tela asfaltica
+1 0 -400 -152 -600 1 0 0 0 1 0 0 0 1 placa2x3.dat
+0 MLCAD BTG Tela asfaltica
+1 0 -400 -152 -640 1 0 0 0 1 0 0 0 1 placa2x3.dat
+0 MLCAD BTG Tela asfaltica
+1 0 -360 -152 -660 1 0 0 0 1 0 0 0 1 placa4.dat
+0 MLCAD BTG Tela asfaltica
+1 0 -400 -152 -660 1 0 0 0 1 0 0 0 1 placa2.dat
+0 MLCAD BTG Tela asfaltica
+1 0 -280 -152 -660 1 0 0 0 1 0 0 0 1 placa4.dat
+0 MLCAD BTG Tela asfaltica
+1 0 -380 -152 -560 0 0 -1 0 1 0 1 0 0 placa4.dat
+0 MLCAD BTG Tela asfaltica
+1 0 -380 -152 -480 0 0 -1 0 1 0 1 0 0 placa4.dat
+0 MLCAD BTG Tela asfaltica
+1 0 -380 -152 -400 0 0 -1 0 1 0 1 0 0 placa4.dat
+0 MLCAD BTG Tela asfaltica
+1 0 -380 -152 -320 0 0 -1 0 1 0 1 0 0 placa4.dat
+0 MLCAD BTG Tela asfaltica
+1 0 -380 -152 -240 0 0 -1 0 1 0 1 0 0 placa4.dat
+0 MLCAD BTG Tela asfaltica
+1 0 -380 -152 -160 0 0 -1 0 1 0 1 0 0 placa4.dat
+0 MLCAD BTG Tela asfaltica
+1 0 -380 -152 -80 0 0 -1 0 1 0 1 0 0 placa4.dat
+0 MLCAD BTG Tela asfaltica
+1 0 -380 -152 0 0 0 -1 0 1 0 1 0 0 placa4.dat
+0 MLCAD BTG Tela asfaltica
+1 0 -380 -152 80 0 0 -1 0 1 0 1 0 0 placa4.dat
+0 MLCAD BTG Tela asfaltica
+1 0 -380 -152 160 0 0 -1 0 1 0 1 0 0 placa4.dat
+0 MLCAD BTG Tela asfaltica
+1 0 -380 -152 240 0 0 -1 0 1 0 1 0 0 placa4.dat
+0 MLCAD BTG Tela asfaltica
+1 0 -380 -152 320 0 0 -1 0 1 0 1 0 0 placa4.dat
+0 MLCAD BTG Tela asfaltica
+1 0 700 -152 420 -1 0 0 0 1 0 0 0 -1 placa4.dat
+0 MLCAD BTG Tela asfaltica
+1 0 620 -152 420 -1 0 0 0 1 0 0 0 -1 placa4.dat
+0 MLCAD BTG Tela asfaltica
+1 0 540 -152 420 -1 0 0 0 1 0 0 0 -1 placa4.dat
+0 MLCAD BTG Tela asfaltica
+1 0 460 -152 420 -1 0 0 0 1 0 0 0 -1 placa4.dat
+0 MLCAD BTG Tela asfaltica
+1 0 380 -152 420 -1 0 0 0 1 0 0 0 -1 placa4.dat
+0 MLCAD BTG Tela asfaltica
+1 0 300 -152 420 -1 0 0 0 1 0 0 0 -1 placa4.dat
+0 MLCAD BTG Tela asfaltica
+1 0 220 -152 420 -1 0 0 0 1 0 0 0 -1 placa4.dat
+0 MLCAD BTG Tela asfaltica
+1 0 140 -152 420 -1 0 0 0 1 0 0 0 -1 placa4.dat
+0 MLCAD BTG Tela asfaltica
+1 0 60 -152 420 -1 0 0 0 1 0 0 0 -1 placa4.dat
+0 MLCAD BTG Tela asfaltica
+1 0 -20 -152 420 -1 0 0 0 1 0 0 0 -1 placa4.dat
+0 MLCAD BTG Tela asfaltica
+1 0 -100 -152 420 -1 0 0 0 1 0 0 0 -1 placa4.dat
+0 MLCAD BTG Tela asfaltica
+1 0 -180 -152 420 -1 0 0 0 1 0 0 0 -1 placa4.dat
+0 MLCAD BTG Tela asfaltica
+1 0 -260 -152 420 -1 0 0 0 1 0 0 0 -1 placa4.dat
+0 MLCAD BTG Tela asfaltica
+1 0 -340 -152 420 -1 0 0 0 1 0 0 0 -1 placa2.dat
+0 MLCAD BTG Tela asfaltica
+1 0 -380 -152 420 -1 0 0 0 1 0 0 0 -1 placa1.dat
+0 MLCAD BTG Tela asfaltica
+1 0 740 -152 420 -1 0 0 0 1 0 0 0 -1 placa2.dat
+0 MLCAD BTG Tela asfaltica
+1 0 -200 -152 -660 1 0 0 0 1 0 0 0 1 placa4.dat
+0 MLCAD BTG Tela asfaltica
+1 0 -120 -152 -660 1 0 0 0 1 0 0 0 1 placa4.dat
+0 MLCAD BTG Tela asfaltica
+1 0 -40 -152 -660 1 0 0 0 1 0 0 0 1 placa4.dat
+0 MLCAD BTG Tela asfaltica
+1 0 40 -152 -660 1 0 0 0 1 0 0 0 1 placa4.dat
+0 MLCAD BTG Tela asfaltica
+1 0 120 -152 -660 1 0 0 0 1 0 0 0 1 placa4.dat
+0 MLCAD BTG Tela asfaltica
+1 0 200 -152 -660 1 0 0 0 1 0 0 0 1 placa4.dat
+0 MLCAD BTG Tela asfaltica
+1 0 280 -152 -660 1 0 0 0 1 0 0 0 1 placa4.dat
+0 MLCAD BTG Tela asfaltica
+1 0 360 -152 -660 1 0 0 0 1 0 0 0 1 placa4.dat
+0 MLCAD BTG Tela asfaltica
+1 0 440 -152 -660 1 0 0 0 1 0 0 0 1 placa4.dat
+0 MLCAD BTG Tela asfaltica
+1 0 600 -152 -660 1 0 0 0 1 0 0 0 1 placa4.dat
+0 MLCAD BTG Tela asfaltica
+1 0 520 -152 -660 1 0 0 0 1 0 0 0 1 placa4.dat
+0 MLCAD BTG Tela asfaltica
+1 0 680 -152 -660 1 0 0 0 1 0 0 0 1 placa2.dat
+0 MLCAD BTG Tela asfaltica
+1 0 720 -152 -660 1 0 0 0 1 0 0 0 1 placa1.dat
+0 MLCAD BTG Tela asfaltica
+1 0 620 -152 -640 1 0 0 0 1 0 0 0 1 placa4x6.dat
+0 MLCAD BTG Tela asfaltica
+1 0 540 -152 -400 0 0 1 0 1 0 -1 0 0 placa4x8.dat
+0 GROUP 113 Tela asfaltica
+1 15 -240 40 300 1 0 0 0 1 0 0 0 1 placa6x8.dat
+1 15 -240 40 180 1 0 0 0 1 0 0 0 1 placa6x8.dat
+1 15 -240 40 100 1 0 0 0 1 0 0 0 1 placa4x8.dat
+1 15 -240 40 20 1 0 0 0 1 0 0 0 1 placa4x8.dat
+1 15 -240 40 -60 1 0 0 0 1 0 0 0 1 placa4x8.dat
+1 15 -240 40 -180 1 0 0 0 1 0 0 0 1 placa6x8.dat
+1 15 -240 40 -300 1 0 0 0 1 0 0 0 1 placa6x8.dat
+1 15 -240 40 -420 1 0 0 0 1 0 0 0 1 placa6x8.dat
+1 15 -240 40 -540 1 0 0 0 1 0 0 0 1 placa6x8.dat
+1 15 -240 40 -660 1 0 0 0 1 0 0 0 1 placa6x8.dat
+1 15 -80 40 300 1 0 0 0 1 0 0 0 1 placa6x8.dat
+1 15 -80 40 180 1 0 0 0 1 0 0 0 1 placa6x8.dat
+1 15 -80 40 100 1 0 0 0 1 0 0 0 1 placa4x8.dat
+1 15 -80 40 20 1 0 0 0 1 0 0 0 1 placa4x8.dat
+1 15 -80 40 -60 1 0 0 0 1 0 0 0 1 placa4x8.dat
+1 15 -80 40 -180 1 0 0 0 1 0 0 0 1 placa6x8.dat
+1 15 -80 40 -300 1 0 0 0 1 0 0 0 1 placa6x8.dat
+1 15 -80 40 -420 1 0 0 0 1 0 0 0 1 placa6x8.dat
+1 15 -80 40 -540 1 0 0 0 1 0 0 0 1 placa6x8.dat
+1 15 -80 40 -660 1 0 0 0 1 0 0 0 1 placa6x8.dat
+1 15 80 40 300 1 0 0 0 1 0 0 0 1 placa6x8.dat
+1 15 80 40 180 1 0 0 0 1 0 0 0 1 placa6x8.dat
+1 15 80 40 100 1 0 0 0 1 0 0 0 1 placa4x8.dat
+1 15 80 40 20 1 0 0 0 1 0 0 0 1 placa4x8.dat
+1 15 80 40 -60 1 0 0 0 1 0 0 0 1 placa4x8.dat
+1 15 80 40 -180 1 0 0 0 1 0 0 0 1 placa6x8.dat
+1 15 80 40 -300 1 0 0 0 1 0 0 0 1 placa6x8.dat
+1 15 80 40 -420 1 0 0 0 1 0 0 0 1 placa6x8.dat
+1 15 80 40 -540 1 0 0 0 1 0 0 0 1 placa6x8.dat
+1 15 80 40 -660 1 0 0 0 1 0 0 0 1 placa6x8.dat
+1 15 240 40 300 1 0 0 0 1 0 0 0 1 placa6x8.dat
+1 15 240 40 180 1 0 0 0 1 0 0 0 1 placa6x8.dat
+1 15 240 40 100 1 0 0 0 1 0 0 0 1 placa4x8.dat
+1 15 240 40 20 1 0 0 0 1 0 0 0 1 placa4x8.dat
+1 15 240 40 -60 1 0 0 0 1 0 0 0 1 placa4x8.dat
+1 15 240 40 -180 1 0 0 0 1 0 0 0 1 placa6x8.dat
+1 15 240 40 -300 1 0 0 0 1 0 0 0 1 placa6x8.dat
+1 15 240 40 -420 1 0 0 0 1 0 0 0 1 placa6x8.dat
+1 15 240 40 -540 1 0 0 0 1 0 0 0 1 placa6x8.dat
+1 15 240 40 -660 1 0 0 0 1 0 0 0 1 placa6x8.dat
+1 15 420 40 300 1 0 0 0 1 0 0 0 1 placa6x8.dat
+1 15 420 40 180 1 0 0 0 1 0 0 0 1 placa6x8.dat
+1 15 420 40 100 1 0 0 0 1 0 0 0 1 placa4x8.dat
+1 15 420 40 20 1 0 0 0 1 0 0 0 1 placa4x8.dat
+1 15 420 40 -60 1 0 0 0 1 0 0 0 1 placa4x8.dat
+1 15 420 40 -180 1 0 0 0 1 0 0 0 1 placa6x8.dat
+1 15 420 40 -300 1 0 0 0 1 0 0 0 1 placa6x8.dat
+1 15 420 40 -420 1 0 0 0 1 0 0 0 1 placa6x8.dat
+1 15 420 40 -540 1 0 0 0 1 0 0 0 1 placa6x8.dat
+1 15 420 40 -660 1 0 0 0 1 0 0 0 1 placa6x8.dat
+1 15 420 40 -660 0 0 -1 0 1 0 1 0 0 placa4.dat
+1 15 420 40 -580 0 0 -1 0 1 0 1 0 0 placa4.dat
+1 15 420 40 -500 0 0 -1 0 1 0 1 0 0 placa4.dat
+1 15 420 40 -420 0 0 -1 0 1 0 1 0 0 placa4.dat
+1 15 420 40 -340 0 0 -1 0 1 0 1 0 0 placa4.dat
+1 15 420 40 -260 0 0 -1 0 1 0 1 0 0 placa4.dat
+1 15 420 40 -180 0 0 -1 0 1 0 1 0 0 placa4.dat
+1 15 420 40 -100 0 0 -1 0 1 0 1 0 0 placa4.dat
+1 15 420 40 -20 0 0 -1 0 1 0 1 0 0 placa4.dat
+1 15 420 40 60 0 0 -1 0 1 0 1 0 0 placa4.dat
+1 15 420 40 140 0 0 -1 0 1 0 1 0 0 placa4.dat
+1 15 420 40 300 0 0 -1 0 1 0 1 0 0 placa4.dat
+1 15 420 40 220 0 0 -1 0 1 0 1 0 0 placa4.dat
+1 15 420 40 380 0 0 -1 0 1 0 1 0 0 placa2.dat
+1 15 580 40 300 1 0 0 0 1 0 0 0 1 placa6x8.dat
+1 15 580 40 180 1 0 0 0 1 0 0 0 1 placa6x8.dat
+1 15 580 40 100 1 0 0 0 1 0 0 0 1 placa4x8.dat
+1 15 580 40 20 1 0 0 0 1 0 0 0 1 placa4x8.dat
+1 15 580 40 -60 1 0 0 0 1 0 0 0 1 placa4x8.dat
+1 15 580 40 -180 1 0 0 0 1 0 0 0 1 placa6x8.dat
+1 15 580 40 -300 1 0 0 0 1 0 0 0 1 placa6x8.dat
+1 15 580 40 -420 1 0 0 0 1 0 0 0 1 placa6x8.dat
+1 15 580 40 -540 1 0 0 0 1 0 0 0 1 placa6x8.dat
+1 15 580 40 -660 1 0 0 0 1 0 0 0 1 placa6x8.dat
+0

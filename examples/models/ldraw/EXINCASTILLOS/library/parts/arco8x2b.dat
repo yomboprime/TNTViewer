@@ -1,0 +1,27 @@
+0 Arco Exin de 8x2 PdJ
+0 Name: arco8x2b.dat
+0 Author: FJB
+0 1 /05/2007
+
+1 16 0 0 0 6 0 0 0 1  0 0 0 1 Exin\tp2x.dat
+1 16 0 2 0 6 0 0 0 46 0 0 0 1 Exin\box2x.dat
+1 16 0 0 0 3 0 0 0 2 0 0 0 1 Exin\arcinf2x1.dat
+1 16 -168 0 0 1 0 0 0 1 0 0 0 1 Exin\tp3x.dat
+1 16 -168 2 0 1 0 0 0 94 0 0 0 1 Exin\box3x.dat
+1 16 -168 96 0 1 0 0 0 1 0 0 0 1 Exin\dn3x.dat
+1 16 168 0 0 -1 0 0 0 1 0 0 0 1 Exin\tp3x.dat
+1 16 168 2 0  -1 0 0 0 94 0 0 0 1 Exin\box3x.dat
+1 16 168 96 0 -1 0 0 0 1 0 0 0 1 Exin\dn3x.dat
+
+
+
+0  estuds
+1 16 -168 0 0 1 0 0 0 1 0 0 0 1 Exin\estud.dat
+1 16 -120 0 0 1 0 0 0 1 0 0 0 1 Exin\estud.dat
+1 16 -72 0 0 1 0 0 0 1 0 0 0 1 Exin\estud.dat
+1 16 -24 0 0 1 0 0 0 1 0 0 0 1 Exin\estud.dat
+1 16 24 0 0 1 0 0 0 1 0 0 0 1 Exin\estud.dat
+1 16 72 0 0 1 0 0 0 1 0 0 0 1 Exin\estud.dat
+1 16 120 0 0 1 0 0 0 1 0 0 0 1 Exin\estud.dat
+1 16 168 0 0 1 0 0 0 1 0 0 0 1 Exin\estud.dat
+0

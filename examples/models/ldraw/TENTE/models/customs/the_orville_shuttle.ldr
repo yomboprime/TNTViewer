@@ -1,0 +1,47 @@
+0 Untitled
+0 Name: the_orville_shuttle.ldr
+0 Author: MLCad
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 15 30 0 -10 1 0 0 0 1 0 0 0 1 cirrevol.dat
+1 15 30 8 0 1 0 0 0 1 0 0 0 1 popa6p.dat
+1 15 30 -72 0 1 0 0 0 1 0 0 0 1 popa6p.dat
+1 15 30 -80 10 1 0 0 0 1 0 0 0 1 popa6p.dat
+1 15 30 16 10 1 0 0 0 1 0 0 0 1 popa6p.dat
+1 15 30 24 10 1 0 0 0 1 0 0 0 1 popa6p.dat
+1 15 -30 16 10 0 0 -1 0 1 0 1 0 0 jacena8.dat
+1 15 -30 -8 -10 0 0 -1 0 1 0 1 0 0 jacena8.dat
+1 15 -30 -32 -10 0 0 -1 0 1 0 1 0 0 jacena8.dat
+1 15 90 -56 -10 0 0 -1 0 1 0 1 0 0 pico.dat
+1 15 90 -56 30 0 0 -1 0 1 0 1 0 0 pico.dat
+1 15 90 -56 70 0 0 -1 0 1 0 1 0 0 pico.dat
+1 15 90 -56 110 0 0 -1 0 1 0 1 0 0 pico.dat
+1 15 -30 -56 150 0 0 1 0 1 0 -1 0 0 pico.dat
+1 15 -30 -56 110 0 0 1 0 1 0 -1 0 0 pico.dat
+1 15 -30 -56 70 0 0 1 0 1 0 -1 0 0 pico.dat
+1 15 -30 -56 30 0 0 1 0 1 0 -1 0 0 pico.dat
+1 15 110 16 10 0 0 -1 0 1 0 1 0 0 jacena8.dat
+1 15 110 24 90 -1 0 0 0 1 0 0 0 -1 placa4x8.dat
+1 15 -10 32 100 0 0 1 0 1 0 -1 0 0 placa4x6.dat
+1 15 10 0 190 -1 0 0 0 1 0 0 0 -1 bisgraba.dat
+1 15 50 0 190 -1 0 0 0 1 0 0 0 -1 bisgraba.dat
+1 15 50 0 190 1 0 0 0 1 0 0 0 1 bisgraba.dat
+1 15 10 0 190 1 0 0 0 1 0 0 0 1 bisgraba.dat
+1 15 110 24 110 -1 0 0 0 1 0 0 0 -1 placa4.dat
+1 15 70 32 90 0 0 1 0 1 0 -1 0 0 placa4.dat
+1 15 -30 32 90 0 0 1 0 1 0 -1 0 0 placa4.dat
+1 15 30 24 110 -1 0 0 0 1 0 0 0 -1 placa4.dat
+1 15 110 8 -10 0 0 -1 0 1 0 1 0 0 placa1.dat
+1 15 110 0 -10 0 0 -1 0 1 0 1 0 0 placa1.dat
+1 15 -30 8 -10 0 0 -1 0 1 0 1 0 0 placa1.dat
+1 15 -30 0 -10 0 0 -1 0 1 0 1 0 0 placa1.dat
+1 15 70 16 170 1 0 0 0 1 0 0 0 1 cuna.dat
+1 15 70 -8 190 1 0 0 0 1 0 0 0 1 cuna.dat
+1 15 -50 -8 190 1 0 0 0 1 0 0 0 1 cuna.dat
+1 15 -50 16 170 1 0 0 0 1 0 0 0 1 cuna.dat
+1 15 110 -8 -10 0 0 -1 0 1 0 1 0 0 jacena8.dat
+1 15 -30 -8 190 0 0 1 0 1 0 -1 0 0 alfajacn.dat
+1 15 90 -8 150 0 0 -1 0 1 0 1 0 0 alfajacn.dat
+1 15 110 -32 -10 0 0 -1 0 1 0 1 0 0 jacena8.dat
+0

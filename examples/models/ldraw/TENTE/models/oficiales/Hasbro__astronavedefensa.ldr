@@ -1,0 +1,78 @@
+0 Untitled
+0 Name: astronavededefensa.ldr
+0 Author: MLCad
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 15 -90 0 0 1 0 0 0 1 0 0 0 1 placa4x8.dat
+1 1 20 46.572 -89.67 -1 0 0 0 0.5 -0.866025 0 -0.866025 -0.5 paracq21.dat
+1 15 -177.732 67.229 17.617 0 -0.866025 -0.5 0 0.5 -0.866025 1 0 0 placa2.dat
+1 1 20 45.459 169.382 1 0 0 0 0.5 -0.866025 0 0.866025 0.5 paracq21.dat
+1 15 10 -8 20 1 0 0 0 1 0 0 0 1 placa2x8.dat
+1 15 170 -16 -40 0 0 -1 0 1 0 1 0 0 placa2x8.dat
+1 15 130 -24 20 0 0 1 0 1 0 -1 0 0 bald2x2r.dat
+1 15 130 -24 60 0 0 1 0 1 0 -1 0 0 bald2x2r.dat
+1 15 130 -24 100 0 0 1 0 1 0 -1 0 0 bald2x2r.dat
+1 0 130 -24 100 1 0 0 0 1 0 0 0 1 sillastr.dat
+1 0 170 -24 -20 -1 0 0 0 1 0 0 0 -1 sillastr.dat
+1 15 -60 -40 40 1 0 0 0 1 0 0 0 1 semicugg.dat
+1 15 -80 24 40 0 0 1 0 1 0 -1 0 0 enganch2.dat
+1 15 -80 24 60 0 0 1 0 1 0 -1 0 0 enganch2.dat
+1 15 20 24 10 1 0 0 0 1 0 0 0 1 enganch2.dat
+1 15 0 24 10 1 0 0 0 1 0 0 0 1 enganch2.dat
+1 15 20 24 70 -1 0 0 0 1 0 0 0 -1 enganch2.dat
+1 15 40 24 70 -1 0 0 0 1 0 0 0 -1 enganch2.dat
+1 15 0 32 70 0 0 1 0 1 0 -1 0 0 placa2x3.dat
+1 4 -10 24 40 0 0 1 0 1 0 -1 0 0 cilindro.dat
+0 MLCAD BTG fasers
+1 15 -24 21 120 0 1 0 0 0 -1 -1 0 0 jacena8.dat
+0 MLCAD BTG fasers
+1 14 -48 11 110 0 1 0 0 0 -1 -1 0 0 cilindro.dat
+0 MLCAD BTG fasers
+1 14 -48 11 -30 0 1 0 0 0 -1 -1 0 0 cilindro.dat
+0 MLCAD BTG fasers
+1 14 -72 11 -30 0 1 0 0 0 -1 -1 0 0 ejeastr2.dat
+0 MLCAD BTG fasers
+1 14 -72 11 110 0 1 0 0 0 -1 -1 0 0 ejeastr2.dat
+0 MLCAD BTG fasers
+1 46 -120 11 110 0 1 0 0 0 -1 -1 0 0 amortigu.dat
+0 MLCAD BTG fasers
+1 46 -120 11 -30 0 1 0 0 0 -1 -1 0 0 amortigu.dat
+0 MLCAD BTG fasers
+1 15 0 1 10 0 1 0 0 0 1 1 0 0 enganch2.dat
+0 MLCAD BTG fasers
+1 15 0 1 50 0 1 0 0 0 1 1 0 0 enganch2.dat
+0 MLCAD BTG fasers
+1 14 0 11 110 0 1 0 0 0 -1 -1 0 0 cilindro.dat
+0 MLCAD BTG fasers
+1 14 0 11 -30 0 1 0 0 0 -1 -1 0 0 cilindro.dat
+0 MLCAD BTG fasers
+1 14 24 11 110 0 1 0 0 0 -1 -1 0 0 cilindro.dat
+0 MLCAD BTG fasers
+1 14 24 11 -30 0 1 0 0 0 -1 -1 0 0 cilindro.dat
+0 GROUP 13 fasers
+1 32 -50 -8 40 0 0 -1 0 1 0 1 0 0 semicupg.dat
+0 MLCAD BTG propursores
+1 15 71 0 30 0 1 0 0 0 1 1 0 0 enganch2.dat
+0 MLCAD BTG propursores
+1 15 79 0 10 0 1 0 0 0 1 1 0 0 placa2x3.dat
+0 MLCAD BTG propursores
+1 4 103 10 20 0 1 0 0 0 1 1 0 0 cilindro.dat
+0 MLCAD BTG propursores
+1 4 103 30 20 0 1 0 0 0 1 1 0 0 cilindro.dat
+0 MLCAD BTG propursores
+1 4 103 10 40 0 1 0 0 0 1 1 0 0 cilindro.dat
+0 MLCAD BTG propursores
+1 4 103 30 40 0 1 0 0 0 1 1 0 0 cilindro.dat
+0 MLCAD BTG propursores
+1 4 103 10 60 0 1 0 0 0 1 1 0 0 cilindro.dat
+0 MLCAD BTG propursores
+1 4 103 30 60 0 1 0 0 0 1 1 0 0 cilindro.dat
+0 GROUP 8 propursores
+1 15 -87 15 50 0 1 0 1 0 0 0 0 -1 antnincl.dat
+1 15 -87 15 30 0 1 0 1 0 0 0 0 -1 antnincl.dat
+1 15 10 15 6 0 0 1 1 0 0 0 1 0 antnincl.dat
+1 15 30 15 6 0 0 1 1 0 0 0 1 0 antnincl.dat
+1 15 30 15 74 0 0 -1 1 0 0 0 -1 0 antnincl.dat
+1 15 10 15 74 0 0 -1 1 0 0 0 -1 0 antnincl.dat
+0

@@ -1,0 +1,250 @@
+0 Untitled
+0 Name: trenturistico.ldr
+0 Author: MLCad
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 15 0 0 0 1 0 0 0 1 0 0 0 1 cilindr.dat
+1 15 0 0 80 1 0 0 0 1 0 0 0 1 cilindr.dat
+1 46 0 -40 70 1 0 0 0 1 0 0 0 1 amortigu.dat
+1 0 0 -40 -10 1 0 0 0 1 0 0 0 1 cilindro.dat
+1 0 0 -64 -10 1 0 0 0 1 0 0 0 1 tubo.dat
+1 0 0 -88 -10 1 0 0 0 -1 0 0 0 -1 toberast.dat
+1 7 0 24 70 1 0 0 0 1 0 0 0 1 amortigu.dat
+1 4 0 8 -20 1 0 0 0 1 0 0 0 1 rueruj2t.dat
+1 4 0 8 100 1 0 0 0 1 0 0 0 1 rueruj2t.dat
+1 0 -20 24 20 1 0 0 0 1 0 0 0 1 placa2x2.dat
+1 0 -40 24 60 0 0 1 0 1 0 -1 0 0 placa2.dat
+1 0 20 24 60 0 0 1 0 1 0 -1 0 0 placa2.dat
+1 0 0 16 60 0 0 1 0 1 0 -1 0 0 placa2x2.dat
+1 0 -40 16 60 0 0 1 0 1 0 -1 0 0 placa2x2.dat
+1 0 -10 32 80 0 0 1 0 1 0 -1 0 0 placa4.dat
+1 0 -10 8 80 0 0 1 0 1 0 -1 0 0 placa4.dat
+1 0 20 8 80 0 0 1 0 1 0 -1 0 0 placa4.dat
+1 0 -40 8 80 0 0 1 0 1 0 -1 0 0 placa4.dat
+1 15 -40 0 120 0 0 1 0 1 0 -1 0 0 placa4.dat
+1 15 -40 0 40 0 0 1 0 1 0 -1 0 0 placa4.dat
+1 15 20 0 40 0 0 1 0 1 0 -1 0 0 placa4.dat
+1 15 20 0 120 0 0 1 0 1 0 -1 0 0 placa4.dat
+1 7 20 -8 0 0 0 1 0 1 0 -1 0 0 pistola.dat
+1 7 -40 -8 0 0 0 1 0 1 0 -1 0 0 pistola.dat
+1 0 -10 40 40 0 0 1 0 1 0 -1 0 0 placa4.dat
+1 0 -10 40 140 0 0 1 0 1 0 -1 0 0 placa4.dat
+1 0 -20 32 160 0 0 1 0 1 0 -1 0 0 jacen2x2.dat
+1 0 0 32 230 0 0 1 0 1 0 -1 0 0 chimtubo.dat
+0 MLCAD BTG vagon
+1 0 0 32 270 0 0 1 0 1 0 -1 0 0 chimtubo.dat
+0 MLCAD BTG vagon
+1 0 0 32 510 0 0 1 0 1 0 -1 0 0 chimtubo.dat
+0 MLCAD BTG vagon
+1 0 0 32 290 0 0 1 0 1 0 -1 0 0 jacena1.dat
+0 MLCAD BTG vagon
+1 0 0 32 470 0 0 1 0 1 0 -1 0 0 jacena1.dat
+0 MLCAD BTG vagon
+1 0 -10 32 420 0 0 1 0 1 0 -1 0 0 jacena4.dat
+0 MLCAD BTG vagon
+1 0 0 40 250 0 0 1 0 1 0 -1 0 0 chimplac.dat
+0 MLCAD BTG vagon
+1 0 0 8 250 0 0 1 0 1 0 -1 0 0 chimplac.dat
+1 4 0 8 180 1 0 0 0 1 0 0 0 1 rueruj2t.dat
+0 MLCAD BTG vagon
+1 4 0 8 320 1 0 0 0 1 0 0 0 1 rueruj2t.dat
+0 MLCAD BTG vagon
+1 4 0 8 440 1 0 0 0 1 0 0 0 1 rueruj2t.dat
+0 MLCAD BTG vagon
+1 0 20 8 260 0 0 -1 0 1 0 1 0 0 placa2x3.dat
+0 MLCAD BTG vagon
+1 15 40 0 380 0 0 -1 0 1 0 1 0 0 placa4x6.dat
+0 MLCAD BTG vagon
+1 15 40 0 260 0 0 -1 0 1 0 1 0 0 placa4x6.dat
+0 MLCAD BTG vagon
+1 15 -20 -8 260 1 0 0 0 1 0 0 0 1 jacena2.dat
+0 MLCAD BTG vagon
+1 15 -20 -8 480 1 0 0 0 1 0 0 0 1 jacena2.dat
+0 MLCAD BTG vagon
+1 1 -30 -8 270 0 0 1 0 1 0 -1 0 0 jacena1.dat
+0 MLCAD BTG vagon
+1 1 30 -8 270 0 0 1 0 1 0 -1 0 0 jacena1.dat
+0 MLCAD BTG vagon
+1 1 30 -8 490 0 0 1 0 1 0 -1 0 0 jacena1.dat
+0 MLCAD BTG vagon
+1 1 -30 -8 490 0 0 1 0 1 0 -1 0 0 jacena1.dat
+0 MLCAD BTG vagon
+1 1 -30 -32 490 0 0 1 0 1 0 -1 0 0 jacena1.dat
+0 MLCAD BTG vagon
+1 1 30 -32 490 0 0 1 0 1 0 -1 0 0 jacena1.dat
+0 MLCAD BTG vagon
+1 1 30 -32 270 0 0 1 0 1 0 -1 0 0 jacena1.dat
+0 MLCAD BTG vagon
+1 1 -30 -32 270 0 0 1 0 1 0 -1 0 0 jacena1.dat
+0 MLCAD BTG vagon
+1 1 -30 -56 270 0 0 1 0 1 0 -1 0 0 jacena1.dat
+0 MLCAD BTG vagon
+1 1 -30 -56 490 0 0 1 0 1 0 -1 0 0 jacena1.dat
+0 MLCAD BTG vagon
+1 1 30 -56 490 0 0 1 0 1 0 -1 0 0 jacena1.dat
+0 MLCAD BTG vagon
+1 1 30 -56 270 0 0 1 0 1 0 -1 0 0 jacena1.dat
+0 MLCAD BTG vagon
+1 0 20 8 440 0 0 -1 0 1 0 1 0 0 placa2x3.dat
+0 MLCAD BTG vagon
+1 0 20 8 380 0 0 -1 0 1 0 1 0 0 placa2x3.dat
+0 MLCAD BTG vagon
+1 0 20 8 320 0 0 -1 0 1 0 1 0 0 placa2x3.dat
+1 0 -10 40 220 0 0 1 0 1 0 -1 0 0 placa4.dat
+0 MLCAD BTG vagon
+1 0 -10 40 340 0 0 1 0 1 0 -1 0 0 placa4.dat
+0 MLCAD BTG vagon
+1 0 -10 40 420 0 0 1 0 1 0 -1 0 0 placa4.dat
+0 MLCAD BTG vagon
+1 0 -10 40 500 0 0 1 0 1 0 -1 0 0 placa4.dat
+1 7 0 24 10 1 0 0 0 1 0 0 0 1 amortigu.dat
+1 0 -20 8 20 1 0 0 0 1 0 0 0 1 bald2x2.dat
+1 15 0 -72 180 -1 0 0 0 1 0 0 0 -1 tejado.dat
+1 15 40 -72 180 -1 0 0 0 1 0 0 0 -1 tejado.dat
+1 15 0 -80 160 -1 0 0 0 1 0 0 0 -1 baldc4.dat
+1 0 20 8 -20 0 0 -1 0 1 0 1 0 0 bald2.dat
+1 0 20 8 80 0 0 -1 0 1 0 1 0 0 bald2.dat
+1 0 20 8 100 0 0 -1 0 1 0 1 0 0 bald2x2.dat
+1 0 20 8 140 0 0 -1 0 1 0 1 0 0 placa2x2.dat
+1 15 -40 0 180 1 0 0 0 1 0 0 0 1 jacen2x4.dat
+1 15 -30 -24 210 1 0 0 0 1 0 0 0 1 jacena1.dat
+1 15 30 -24 210 1 0 0 0 1 0 0 0 1 jacena1.dat
+1 15 -30 -48 210 1 0 0 0 1 0 0 0 1 jacena1.dat
+1 15 30 -48 210 1 0 0 0 1 0 0 0 1 jacena1.dat
+1 15 -40 -32 120 1 0 0 0 1 0 0 0 1 ventan4.dat
+1 15 20 -24 220 -1 0 0 0 1 0 0 0 -1 vntthor.dat
+0 MLCAD BTG vagon
+1 15 20 -32 500 -1 0 0 0 1 0 0 0 -1 vntthor.dat
+0 MLCAD BTG vagon
+1 15 -20 -32 260 1 0 0 0 1 0 0 0 1 vntthor.dat
+0 MLCAD BTG vagon
+1 15 -40 -32 360 0 0 1 0 1 0 -1 0 0 ventan4.dat
+0 MLCAD BTG vagon
+1 15 -40 -32 480 0 0 1 0 1 0 -1 0 0 ventan4.dat
+0 MLCAD BTG vagon
+1 15 -40 -8 360 0 0 1 0 1 0 -1 0 0 jacena4.dat
+0 MLCAD BTG vagon
+1 15 -40 -8 480 0 0 1 0 1 0 -1 0 0 jacena4.dat
+0 MLCAD BTG vagon
+1 1 -40 -8 400 0 0 1 0 1 0 -1 0 0 jacena2.dat
+0 MLCAD BTG vagon
+1 1 -40 -32 400 0 0 1 0 1 0 -1 0 0 jacena2.dat
+0 MLCAD BTG vagon
+1 1 -40 -56 400 0 0 1 0 1 0 -1 0 0 jacena2.dat
+0 MLCAD BTG vagon
+1 15 40 -32 400 0 0 -1 0 1 0 1 0 0 ventan4.dat
+0 MLCAD BTG vagon
+1 15 40 -32 280 0 0 -1 0 1 0 1 0 0 ventan4.dat
+0 MLCAD BTG vagon
+1 15 40 -8 400 0 0 -1 0 1 0 1 0 0 jacena4.dat
+0 MLCAD BTG vagon
+1 15 40 -8 280 0 0 -1 0 1 0 1 0 0 jacena4.dat
+0 MLCAD BTG vagon
+1 1 40 -8 360 0 0 -1 0 1 0 1 0 0 jacena2.dat
+0 MLCAD BTG vagon
+1 1 40 -32 360 0 0 -1 0 1 0 1 0 0 jacena2.dat
+0 MLCAD BTG vagon
+1 1 40 -56 360 0 0 -1 0 1 0 1 0 0 jacena2.dat
+0 MLCAD BTG vagon
+1 15 -20 -88 260 0 0 -1 0 1 0 1 0 0 tejador8.dat
+0 MLCAD BTG vagon
+1 15 -20 -88 420 0 0 -1 0 1 0 1 0 0 tejadorm.dat
+0 MLCAD BTG vagon
+1 15 -20 -88 460 0 0 -1 0 1 0 1 0 0 tejadorm.dat
+0 MLCAD BTG vagon
+1 15 0 -80 340 0 0 -1 0 1 0 1 0 0 tejado8.dat
+0 MLCAD BTG vagon
+1 15 0 -80 300 0 0 -1 0 1 0 1 0 0 tejado.dat
+0 MLCAD BTG vagon
+1 15 0 -80 260 0 0 -1 0 1 0 1 0 0 tejado.dat
+0 MLCAD BTG vagon
+1 15 0 -80 420 0 0 1 0 1 0 -1 0 0 tejado8.dat
+0 MLCAD BTG vagon
+1 15 0 -80 460 0 0 1 0 1 0 -1 0 0 tejado.dat
+0 MLCAD BTG vagon
+1 15 0 -80 500 0 0 1 0 1 0 -1 0 0 tejado.dat
+0 GROUP 57 vagon
+1 0 0 32 550 0 0 1 0 1 0 -1 0 0 chimtubo.dat
+1 0 0 32 570 0 0 1 0 1 0 -1 0 0 jacena1.dat
+1 0 0 32 750 0 0 1 0 1 0 -1 0 0 jacena1.dat
+1 0 -10 32 700 0 0 1 0 1 0 -1 0 0 jacena4.dat
+1 0 0 40 530 0 0 1 0 1 0 -1 0 0 chimplac.dat
+1 0 0 8 530 0 0 1 0 1 0 -1 0 0 chimplac.dat
+1 4 0 8 600 1 0 0 0 1 0 0 0 1 rueruj2t.dat
+1 4 0 8 720 1 0 0 0 1 0 0 0 1 rueruj2t.dat
+1 0 20 8 540 0 0 -1 0 1 0 1 0 0 placa2x3.dat
+1 15 40 0 660 0 0 -1 0 1 0 1 0 0 placa4x6.dat
+1 15 40 0 540 0 0 -1 0 1 0 1 0 0 placa4x6.dat
+1 15 -20 -8 540 1 0 0 0 1 0 0 0 1 jacena2.dat
+1 15 -20 -8 760 1 0 0 0 1 0 0 0 1 jacena2.dat
+1 1 -30 -8 550 0 0 1 0 1 0 -1 0 0 jacena1.dat
+1 1 30 -8 550 0 0 1 0 1 0 -1 0 0 jacena1.dat
+1 1 30 -8 770 0 0 1 0 1 0 -1 0 0 jacena1.dat
+1 1 -30 -8 770 0 0 1 0 1 0 -1 0 0 jacena1.dat
+1 1 -30 -32 770 0 0 1 0 1 0 -1 0 0 jacena1.dat
+1 1 30 -32 770 0 0 1 0 1 0 -1 0 0 jacena1.dat
+1 1 30 -32 550 0 0 1 0 1 0 -1 0 0 jacena1.dat
+1 1 -30 -32 550 0 0 1 0 1 0 -1 0 0 jacena1.dat
+1 1 -30 -56 550 0 0 1 0 1 0 -1 0 0 jacena1.dat
+1 1 -30 -56 770 0 0 1 0 1 0 -1 0 0 jacena1.dat
+1 1 30 -56 770 0 0 1 0 1 0 -1 0 0 jacena1.dat
+1 1 30 -56 550 0 0 1 0 1 0 -1 0 0 jacena1.dat
+1 0 20 8 720 0 0 -1 0 1 0 1 0 0 placa2x3.dat
+1 0 40 8 760 0 0 -1 0 1 0 1 0 0 placa1.dat
+1 0 -20 8 760 0 0 -1 0 1 0 1 0 0 placa1.dat
+1 36 -20 16 760 0 0 -1 0 1 0 1 0 0 placa1.dat
+1 36 40 16 760 0 0 -1 0 1 0 1 0 0 placa1.dat
+1 46 40 24 760 0 0 -1 0 1 0 1 0 0 placa1.dat
+1 46 -20 24 760 0 0 -1 0 1 0 1 0 0 placa1.dat
+1 0 20 8 660 0 0 -1 0 1 0 1 0 0 placa2x3.dat
+1 0 20 8 600 0 0 -1 0 1 0 1 0 0 placa2x3.dat
+1 0 -10 40 620 0 0 1 0 1 0 -1 0 0 placa4.dat
+1 0 -10 40 700 0 0 1 0 1 0 -1 0 0 placa4.dat
+1 0 -40 32 760 1 0 0 0 1 0 0 0 1 placa4.dat
+1 7 -20 24 760 1 0 0 0 1 0 0 0 1 placa2.dat
+1 7 -20 16 760 1 0 0 0 1 0 0 0 1 placa2.dat
+1 0 -10 40 780 0 0 1 0 1 0 -1 0 0 placa4.dat
+1 15 20 -32 780 -1 0 0 0 1 0 0 0 -1 vntthor.dat
+1 15 -20 -32 540 1 0 0 0 1 0 0 0 1 vntthor.dat
+1 15 -40 -32 640 0 0 1 0 1 0 -1 0 0 ventan4.dat
+1 15 -40 -32 760 0 0 1 0 1 0 -1 0 0 ventan4.dat
+1 15 -40 -8 640 0 0 1 0 1 0 -1 0 0 jacena4.dat
+1 15 -40 -8 760 0 0 1 0 1 0 -1 0 0 jacena4.dat
+1 1 -40 -8 680 0 0 1 0 1 0 -1 0 0 jacena2.dat
+1 1 -40 -32 680 0 0 1 0 1 0 -1 0 0 jacena2.dat
+1 1 -40 -56 680 0 0 1 0 1 0 -1 0 0 jacena2.dat
+1 15 40 -32 680 0 0 -1 0 1 0 1 0 0 ventan4.dat
+1 15 40 -32 560 0 0 -1 0 1 0 1 0 0 ventan4.dat
+1 15 40 -8 680 0 0 -1 0 1 0 1 0 0 jacena4.dat
+1 15 40 -8 560 0 0 -1 0 1 0 1 0 0 jacena4.dat
+1 1 40 -8 640 0 0 -1 0 1 0 1 0 0 jacena2.dat
+1 1 40 -32 640 0 0 -1 0 1 0 1 0 0 jacena2.dat
+1 1 40 -56 640 0 0 -1 0 1 0 1 0 0 jacena2.dat
+1 15 -20 -88 540 0 0 -1 0 1 0 1 0 0 tejador8.dat
+1 15 -20 -88 700 0 0 -1 0 1 0 1 0 0 tejadorm.dat
+1 15 -20 -88 740 0 0 -1 0 1 0 1 0 0 tejadorm.dat
+1 15 0 -80 620 0 0 -1 0 1 0 1 0 0 tejado8.dat
+1 15 0 -80 580 0 0 -1 0 1 0 1 0 0 tejado.dat
+1 15 0 -80 540 0 0 -1 0 1 0 1 0 0 tejado.dat
+1 15 0 -80 700 0 0 1 0 1 0 -1 0 0 tejado8.dat
+1 15 0 -80 740 0 0 1 0 1 0 -1 0 0 tejado.dat
+1 15 0 -80 780 0 0 1 0 1 0 -1 0 0 tejado.dat
+1 15 40 -24 200 -1 0 0 0 1 0 0 0 -1 ventana1m.dat
+1 15 -40 -24 180 1 0 0 0 1 0 0 0 1 ventana1m.dat
+1 47 20 -24 200 0 0 1 0 1 0 -1 0 0 ventana1c.dat
+1 47 -20 -24 180 0 0 -1 0 1 0 1 0 0 ventana1c.dat
+1 0 20 8 180 0 0 -1 0 1 0 1 0 0 placa2x2.dat
+1 15 0 0 180 1 0 0 0 1 0 0 0 1 asiescor.dat
+1 15 40 0 180 1 0 0 0 1 0 0 0 1 asiescor.dat
+1 0 0 0 -40 -1 0 0 0 1 0 0 0 -1 bispqaba.dat
+0 MLCAD BTG parachoques
+1 0 0 0 -40 1 0 0 0 0.258819 -0.965926 0 0.965926 0.258819 bispqarr.dat
+0 MLCAD BTG parachoques
+1 0 -20 38.637 -50.353 1 0 0 0 0.258819 -0.965926 0 0.965926 0.258819 placa2.dat
+0 MLCAD BTG parachoques
+1 0 0 36.568 -58.081 1 0 0 0 0.258819 -0.965926 0 0.965926 0.258819 baldc2x2.dat
+0 MLCAD BTG parachoques
+1 0 -40 36.568 -58.081 1 0 0 0 0.258819 -0.965926 0 0.965926 0.258819 baldc2x2.dat
+0 GROUP 4 parachoques
+0

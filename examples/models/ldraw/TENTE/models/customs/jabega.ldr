@@ -1,0 +1,50 @@
+0 Untitled
+0 Name: jabega.ldr
+0 Author: MLCad
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 1 0 0 20 0 0 -1 0 1 0 1 0 0 jacena6.dat
+1 15 0 24 40 0 0 -1 0 1 0 1 0 0 jacena6.dat
+1 1 -60 0 20 0 0 -1 0 1 0 1 0 0 jacena6.dat
+1 1 -40 0 140 0 0 -1 0 1 0 1 0 0 jacena8.dat
+1 1 20 0 140 0 0 -1 0 1 0 1 0 0 jacena8.dat
+1 15 -60 24 40 0 0 -1 0 1 0 1 0 0 jacena6.dat
+1 15 -60 24 160 0 0 -1 0 1 0 1 0 0 jacena6.dat
+1 15 0 24 160 0 0 -1 0 1 0 1 0 0 jacena6.dat
+1 0 20 32 180 0 0 -1 0 1 0 1 0 0 placa4x6.dat
+1 0 20 32 20 0 0 -1 0 1 0 1 0 0 placa4x8.dat
+1 15 -20 24 280 -1 0 0 0 1 0 0 0 -1 proa4.dat
+1 1 -20 0 300 -1 0 0 0 1 0 0 0 -1 proa4.dat
+1 15 0 -24 300 0 0 -1 0 1 0 1 0 0 placa2x8.dat
+1 15 -10 -32 -130 0 0 -1 0 1 0 1 0 0 laser.dat
+1 15 0 -24 -140 0 0 -1 0 1 0 1 0 0 placa2x8.dat
+1 15 -60 -24 60 1 0 0 0 1 0 0 0 1 placa4.dat
+1 15 -60 -24 140 1 0 0 0 1 0 0 0 1 placa4.dat
+1 15 -60 -24 220 1 0 0 0 1 0 0 0 1 placa4.dat
+1 15 -40 -24 280 0 0 -1 0 1 0 1 0 0 placa4.dat
+1 15 20 -24 280 0 0 -1 0 1 0 1 0 0 placa4.dat
+1 15 20 -24 -40 0 0 -1 0 1 0 1 0 0 placa4.dat
+1 15 -40 -24 -40 0 0 -1 0 1 0 1 0 0 placa4.dat
+1 6 -50 -32 230 0 0 -1 0 1 0 1 0 0 engbarco.dat
+1 6 10 -32 230 0 0 -1 0 1 0 1 0 0 engbarco.dat
+1 6 10 -32 150 0 0 -1 0 1 0 1 0 0 engbarco.dat
+1 6 -50 -32 150 0 0 -1 0 1 0 1 0 0 engbarco.dat
+1 6 -50 -32 70 0 0 -1 0 1 0 1 0 0 engbarco.dat
+1 6 10 -32 70 0 0 -1 0 1 0 1 0 0 engbarco.dat
+1 0 -20 32 300 -1 0 0 0 1 0 0 0 -1 proa4p.dat
+1 15 -20 24 40 1 0 0 0 1 0 0 0 1 proa4.dat
+1 1 -20 0 20 1 0 0 0 1 0 0 0 1 proa4.dat
+1 0 -20 32 20 1 0 0 0 1 0 0 0 1 proa4p.dat
+1 15 -20 -16 460 1 0 0 0 0.707107 -0.707107 0 0.707107 0.707107 bispqaba.dat
+1 15 -20 13.698 475.557 1 0 0 0 0.707107 -0.707107 0 0.707107 0.707107 cilindro.dat
+1 7 -40 -32 300 1 0 0 0 1 0 0 0 1 pistola.dat
+1 15 -20 -16 460 1 0 0 0 1 0 0 0 1 bispqarr.dat
+1 15 -20 16 190 1 0 0 0 1 0 0 0 1 htit2.dat
+1 15 -20 16 260 -1 0 0 0 1 0 0 0 -1 htit2.dat
+1 14 -20 8 110 0 0 1 0 1 0 -1 0 0 htit2.dat
+1 2 -60 0 20 0 0 1 0 1 0 -1 0 0 fireline.dat
+1 2 20 0 10 0 0 1 0 1 0 -1 0 0 fireline.dat
+1 15 20 0 340 0 0 1 0 1 0 -1 0 0 pojovrnt.dat
+1 15 -60 0 330 0 0 1 0 1 0 -1 0 0 pojovrnt.dat
+0

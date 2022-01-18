@@ -1,0 +1,27 @@
+0 Sin_nombre
+0 Name: semicupula_pequenna_con_logo_prueba.dat
+0 Author: CPCBEGIN
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 15 -80 -16 0 1 0 0 0 1 0 0 0 1 semicuqg.dat
+1 15 -80 -16 0 -1 0 0 0 1 0 0 0 -1 semicuqg.dat
+1 15 -80 -8 0 -1 0 0 0 1 0 0 0 -1 popa4p.dat
+1 15 -80 -8 0 1 0 0 0 1 0 0 0 1 popa4p.dat
+1 1 -100 16 -20 1 0 0 0 1 0 0 0 1 jacen2x2.dat
+1 15 -80 24 0 -1 0 0 0 1 0 0 0 -1 popa4p.dat
+1 15 -80 24 0 1 0 0 0 1 0 0 0 1 popa4p.dat
+1 1 -100 48 -20 1 0 0 0 1 0 0 0 1 jacen2x2.dat
+1 15 -80 56 0 -1 0 0 0 1 0 0 0 -1 popa4p.dat
+1 15 -80 56 0 1 0 0 0 1 0 0 0 1 popa4p.dat
+1 1 -100 80 -20 1 0 0 0 1 0 0 0 1 jacen2x2.dat
+1 15 -80 88 0 -1 0 0 0 1 0 0 0 -1 popa4p.dat
+1 15 -80 88 0 1 0 0 0 1 0 0 0 1 popa4p.dat
+1 1 -100 112 -20 1 0 0 0 1 0 0 0 1 jacen2x2.dat
+1 15 -80 120 0 -1 0 0 0 1 0 0 0 -1 popa4p.dat
+1 15 -80 120 0 1 0 0 0 1 0 0 0 1 popa4p.dat
+1 1 -100 144 -20 1 0 0 0 1 0 0 0 1 jacen2x2.dat
+1 15 -80 152 0 -1 0 0 0 1 0 0 0 -1 popa4p.dat
+1 15 -80 152 0 1 0 0 0 1 0 0 0 1 popa4p.dat
+1 1 -100 176 -20 1 0 0 0 1 0 0 0 1 jacen2x2.dat
+0

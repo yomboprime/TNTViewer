@@ -1,0 +1,32 @@
+0 Untitled
+0 Name: taxi_espacial.ldr
+0 Author: MLCad
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 15 -100 56 -200 1 0 0 0 1 0 0 0 1 cirrevol.dat
+1 34 -120 -16 -220 1 0 0 0 1 0 0 0 1 jacena2.dat
+1 34 -120 -16 -220 1 0 0 0 1 0 0 0 1 pico.dat
+1 15 -120 56 -200 0 0 -1 0 1 0 1 0 0 comprtm.dat
+1 7 -120 56 -200 0 0 -1 0 1 0 1 0 0 comprtp.dat
+1 15 -80 56 -80 0 0 1 0 1 0 -1 0 0 comprtm.dat
+1 7 -80 56 -80 0 0 1 0 1 0 -1 0 0 comprtp.dat
+1 15 -120 56 -100 0 0 -1 0 1 0 1 0 0 comprtm.dat
+1 7 -120 56 -100 0 0 -1 0 1 0 1 0 0 comprtp.dat
+1 15 -80 56 20 0 0 1 0 1 0 -1 0 0 comprtm.dat
+1 7 -80 56 20 0 0 1 0 1 0 -1 0 0 comprtp.dat
+1 15 -140 -40 -220 1 0 0 0 1 0 0 0 1 baldc4x6.dat
+1 15 -140 -40 -100 1 0 0 0 1 0 0 0 1 baldc4x6.dat
+1 15 -80 8 20 -1 0 0 0 1 0 0 0 -1 vntthor.dat
+1 15 -120 56 0 1 0 0 0 1 0 0 0 1 vntcasam.dat
+1 15 -40 64 -220 0 0 -1 0 1 0 1 0 0 placa6x8.dat
+1 8 -110 72 -40 -1 0 0 0 1 0 0 0 -1 helpata.dat
+1 8 -90 72 -160 1 0 0 0 1 0 0 0 1 helpata.dat
+1 0 -90 40 44 1 0 0 0 0 -1 0 1 0 cilindro.dat
+1 0 -110 40 44 1 0 0 0 0 -1 0 1 0 cilindro.dat
+1 0 -90 20 44 1 0 0 0 0 -1 0 1 0 cilindro.dat
+1 0 -110 20 44 1 0 0 0 0 -1 0 1 0 cilindro.dat
+1 15 -160 64 -60 1 0 0 0 1 0 0 0 1 placa4x6.dat
+1 14 -140 -16 -200 0 0 1 0 1 0 -1 0 0 pistola.dat
+1 14 -80 -16 -200 0 0 1 0 1 0 -1 0 0 pistola.dat
+0

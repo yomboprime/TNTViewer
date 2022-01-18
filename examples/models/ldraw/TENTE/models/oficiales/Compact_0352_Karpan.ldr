@@ -1,0 +1,84 @@
+0 Untitled
+0 Name: Compact_0352_Karpan.ldr
+0 Author: MLCad
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+0 MLCAD BTG pilotaje
+1 8 -250 64 70 0 0 1 0 1 0 -1 0 0 airsillo.dat
+1 8 -390 136 40 1 0 0 0 1 0 0 0 1 alfamotr.dat
+1 8 -210 136 110 1 0 0 0 1 0 0 0 1 alfamotr.dat
+1 8 -210 136 -30 1 0 0 0 1 0 0 0 1 alfamotr.dat
+1 8 -250 72 30 0 0 -1 0 1 0 1 0 0 alfaplac.dat
+1 1 -210 136 10 1 0 0 0 1 0 0 0 1 popa6p.dat
+1 1 -210 136 90 -1 0 0 0 1 0 0 0 -1 popa6p.dat
+1 1 -330 136 40 0 0 -1 0 1 0 1 0 0 bald2r.dat
+1 1 -450 136 60 0 0 1 0 1 0 -1 0 0 bald2r.dat
+1 1 -430 144 40 1 0 0 0 1 0 0 0 1 placa4.dat
+1 1 -410 112 30 1 0 0 0 1 0 0 0 1 placa2x3.dat
+1 1 -230 112 130 0 0 1 0 1 0 -1 0 0 placa2x3.dat
+1 1 -230 112 30 0 0 1 0 1 0 -1 0 0 placa2x3.dat
+1 1 -350 112 30 1 0 0 0 1 0 0 0 1 placa2x8.dat
+1 1 -370 104 30 1 0 0 0 1 0 0 0 1 jacen2x8.dat
+1 1 -390 104 30 1 0 0 0 1 0 0 0 1 enganch2.dat
+1 1 -370 104 70 -1 0 0 0 1 0 0 0 -1 enganch2.dat
+1 1 -390 104 70 0 0 1 0 1 0 -1 0 0 pico.dat
+1 1 -230 104 -10 1 0 0 0 1 0 0 0 1 pico.dat
+1 1 -190 80 10 1 0 0 0 1 0 0 0 1 alfapico.dat
+1 1 -230 80 90 -1 0 0 0 1 0 0 0 -1 alfapico.dat
+1 1 -230 72 90 0 0 1 0 1 0 -1 0 0 bald2.dat
+1 1 -230 72 30 0 0 1 0 1 0 -1 0 0 bald2.dat
+1 1 -170 64 50 0 0 1 0 1 0 -1 0 0 bispqaba.dat
+0 MLCAD BTG bateria_fuego
+1 1 -169.9 64.651 50 0 -0.707107 0.707107 0 0.707107 0.707107 -1 0 0 bispqarr.dat
+0 MLCAD BTG bateria_fuego
+1 15 -178.384 44.851 30 0.707107 -0.707107 0 0.707107 0.707107 0 0 0 1 enganch2.dat
+0 MLCAD BTG bateria_fuego
+1 15 -164.242 58.994 70 -0.707107 -0.707107 0 -0.707107 0.707107 0 0 0 -1 enganch2.dat
+0 MLCAD BTG bateria_fuego
+1 15 -161.414 27.881 70 0 -0.707107 0.707107 0 0.707107 0.707107 -1 0 0 rejilla.dat
+0 MLCAD BTG bateria_fuego
+1 15 -178.384 44.851 30 0.707107 0 0.707107 0.707107 0 -0.707107 0 1 0 pistola.dat
+0 MLCAD BTG bateria_fuego
+1 15 -167.778 41.315 16 0 0.707107 0.707107 0 0.707107 -0.707107 -1 0 0 laser.dat
+0 MLCAD BTG bateria_fuego
+1 15 -167.778 41.315 84 0 0.707107 0.707107 0 0.707107 -0.707107 -1 0 0 laser.dat
+0 MLCAD BTG bateria_fuego
+1 15 -143.029 66.065 16 0.707107 -0.707107 0 -0.707107 -0.707107 0 0 0 -1 chimenea.dat
+0 MLCAD BTG bateria_fuego
+1 15 -143.029 66.065 84 0.707107 -0.707107 0 -0.707107 -0.707107 0 0 0 -1 chimenea.dat
+0 MLCAD BTG bateria_fuego
+1 15 -164.242 30.709 70 0.707107 0 -0.707107 0.707107 0 0.707107 0 -1 0 pistola.dat
+0 GROUP 10 bateria_fuego
+1 1 -210 80 30 1 0 0 0 1 0 0 0 1 placa2x2.dat
+1 1 -250 72 30 1 0 0 0 1 0 0 0 1 placa2x3.dat
+1 1 -210 80 50 -1 0 0 0 1 0 0 0 -1 alaastro.dat
+1 1 -320 72 68 0 -1 0 0 0 1 -1 0 0 p_galdev.dat
+1 1 -190 104 110 -1 0 0 0 1 0 0 0 -1 pico.dat
+1 1 -210 104 -10 0 0 -1 0 1 0 1 0 0 jacena6.dat
+1 1 -210 104 70 0 0 -1 0 1 0 1 0 0 jacena2.dat
+1 1 -210 104 -10 0 0 -1 0 1 0 1 0 0 jacena2.dat
+0 MLCAD BTG pilotaje
+1 8 -250 64 70 0 0 1 0 1 0 -1 0 0 helmando.dat
+0 MLCAD BTG pilotaje
+1 4 -208 88 50 0 0 1 0 1 0 -1 0 0 htitcab1.dat
+0 MLCAD BTG pilotaje
+1 14 -209 88 50 0 0 1 0 1 0 -1 0 0 htittron.dat
+0 MLCAD BTG pilotaje
+1 14 -276 23 50 0 -1 0 0 0 1 -1 0 0 htitbrzd.dat
+0 MLCAD BTG pilotaje
+1 14 -276 23 50 0 -1 0 0 0 1 -1 0 0 htitbrzi.dat
+0 MLCAD BTG pilotaje
+1 14 -276 23 50 0 -1 0 0 0 1 -1 0 0 htitmand.dat
+0 MLCAD BTG pilotaje
+1 14 -275 23 50 0 -1 0 0 0 1 -1 0 0 htitmani.dat
+0 MLCAD BTG pilotaje
+1 14 -245 50 50 0 -1 0 0 0 1 -1 0 0 htitpies.dat
+0 GROUP 9 pilotaje
+0 Untitled
+0 Name: Compact_0351_Tex.ldr
+0 Author: MLCad
+0 Unofficial Model
+1 4 -379.964 91.134 30 0.5 0 0.866025 0.866025 0 -0.5 0 1 0 helala.dat
+1 4 -379.964 91.134 70 -0.5 0 0.866025 -0.866025 0 -0.5 0 -1 0 helala.dat
+0

@@ -1,0 +1,46 @@
+0 Sin_nombre
+0 Name: Alpha_0370_ControlAereo.ldr
+0 Author: jasolo
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 9 -20 0 -50 -1 0 0 0 1 0 0 0 -1 alfacuna.dat
+1 9 20 0 110 1 0 0 0 1 0 0 0 1 alfacuna.dat
+1 9 -40 -24 90 1 0 0 0 1 0 0 0 1 placa2x2.dat
+1 9 -40 -24 50 1 0 0 0 1 0 0 0 1 placa2x2.dat
+1 9 0 -24 90 1 0 0 0 1 0 0 0 1 placa2x2.dat
+1 9 0 -24 50 1 0 0 0 1 0 0 0 1 placa2x2.dat
+1 9 -20 -24 130 1 0 0 0 1 0 0 0 1 placa2.dat
+1 9 0 -24 50 0 0 1 0 1 0 -1 0 0 alaastro.dat
+1 9 -40 -32 130 0 0 1 0 1 0 -1 0 0 enganche.dat
+1 9 -40 -32 70 1 0 0 0 1 0 0 0 1 jacen2x4.dat
+1 9 -20 -32 110 1 0 0 0 1 0 0 0 1 jacena2.dat
+1 9 -20 -48 130 1 0 0 0 1 0 0 0 1 placa2.dat
+1 9 -40 -56 30 1 0 0 0 1 0 0 0 1 bald2r.dat
+1 9 -20 -56 130 -1 0 0 0 1 0 0 0 -1 alfapico.dat
+1 9 -20 -56 70 0 0 1 0 1 0 -1 0 0 alfapico.dat
+1 9 -20 -56 130 0 0 1 0 1 0 -1 0 0 jacen2x3.dat
+1 0 -20 -32 10 1 0 0 0 1 0 0 0 1 helmando.dat
+1 9 -20 -80 130 0 0 1 0 1 0 -1 0 0 bald2.dat
+1 9 -20 -80 70 1 0 0 0 1 0 0 0 1 alfaplac.dat
+1 12 -30 -46 10 1 0 0 0 0 -1 0 1 0 tubo.dat
+1 12 30 -46 10 1 0 0 0 0 -1 0 1 0 tubo.dat
+1 12 -30 -46 10 1 0 0 0 0 -1 0 1 0 laser.dat
+1 12 30 -46 10 1 0 0 0 0 -1 0 1 0 laser.dat
+1 9 20 -56 110 0 0 -1 0 1 0 1 0 0 alfapico.dat
+1 9 20 -56 30 1 0 0 0 1 0 0 0 1 bald2r.dat
+1 15 30 -56 120 1 0 0 0 1 0 0 0 1 cilindro.dat
+1 15 -30 -56 120 1 0 0 0 1 0 0 0 1 cilindro.dat
+1 46 -30 -80 120 1 0 0 0 1 0 0 0 1 amortigu.dat
+1 46 30 -80 120 1 0 0 0 1 0 0 0 1 amortigu.dat
+1 15 -20 -32 10 1 0 0 0 1 0 0 0 1 airsillo.dat
+1 9 -40 -32 70 0 0 1 0 1 0 -1 0 0 enganche.dat
+1 9 40 -32 50 0 0 -1 0 1 0 1 0 0 enganche.dat
+1 9 40 -32 110 0 0 -1 0 1 0 1 0 0 enganche.dat
+1 9 -40 -32 90 0 1 0 1 0 0 0 0 -1 alaafpeq.dat
+1 9 40 -32 90 0 -1 0 1 0 0 0 0 1 alaafpeq.dat
+1 12 -18 -32 150 -1 0 0 0 1 0 0 0 -1 alfaturb.dat
+1 12 -40 -32 50 0 0 1 0 1 0 -1 0 0 pistola.dat
+1 12 20 -32 50 0 0 1 0 1 0 -1 0 0 pistola.dat
+1 9 20 0 -50 0 0 -1 0 1 0 1 0 0 jacen2x8.dat
+0

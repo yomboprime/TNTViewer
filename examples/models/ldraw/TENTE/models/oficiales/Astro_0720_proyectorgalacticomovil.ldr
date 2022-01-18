@@ -1,0 +1,71 @@
+0 Proyector Galactico Movil
+0 Name: proyectorgalacticomovil.ldr
+0 Author: cpcbegin
+0 Tente official Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 1 0 32 -480 0 0 1 0 1 0 -1 0 0 placa2x8.dat
+1 4 0 24 -600 0 0 1 0 1 0 -1 0 0 placa2x3.dat
+1 4 10 40 -600 -1 0 0 0 1 0 0 0 -1 rueastro.dat
+1 4 10 40 -540 -1 0 0 0 1 0 0 0 -1 rueastro.dat
+1 4 10 40 -480 -1 0 0 0 1 0 0 0 -1 rueastro.dat
+1 4 10 40 -200 -1 0 0 0 1 0 0 0 -1 rueastro.dat
+1 4 10 40 -140 -1 0 0 0 1 0 0 0 -1 rueastro.dat
+1 4 40 8 -660 -1 0 0 0 1 0 0 0 -1 jacena2.dat
+1 15 70 8 -670 -1 0 0 0 1 0 0 0 -1 chimtubo.dat
+1 15 -10 8 -670 -1 0 0 0 1 0 0 0 -1 chimtubo.dat
+1 15 70 -16 -670 0 0 -1 0 1 0 1 0 0 chimenea.dat
+1 15 -30 -16 -670 0 0 -1 0 1 0 1 0 0 chimenea.dat
+1 15 -20 -16 -660 0 0 1 0 1 0 -1 0 0 bald2x2r.dat
+1 15 20 -24 -340 0 0 1 0 1 0 -1 0 0 cirrevog.dat
+1 4 20 -24 -340 0 0 1 0 1 0 -1 0 0 p_pgm.dat
+1 15 20 -24 -340 0 0 -1 0 1 0 1 0 0 cirrevog.dat
+1 4 20 -24 -340 0 0 -1 0 1 0 1 0 0 p_pgm.dat
+1 15 60 -16 -700 0 0 -1 0 1 0 1 0 0 bald2x2r.dat
+1 15 80 16 -600 -1 0 0 0 1 0 0 0 -1 placa4x6.dat
+1 1 60 8 -580 0 0 -1 0 1 0 1 0 0 placa4x6.dat
+1 1 60 0 -460 -1 0 0 0 1 0 0 0 -1 jacen2x4.dat
+1 1 60 0 -180 -1 0 0 0 1 0 0 0 -1 jacen2x4.dat
+1 1 0 32 -140 0 0 1 0 1 0 -1 0 0 jacen2x4.dat
+1 1 60 -96 -340 -1 0 0 0 1 0 0 0 -1 jacen2x4.dat
+1 1 60 -96 -300 -1 0 0 0 1 0 0 0 -1 jacen2x4.dat
+1 0 20 -128 -380 0 0 -1 0 1 0 1 0 0 jacen2x4.dat
+1 0 60 -128 -380 0 0 -1 0 1 0 1 0 0 jacen2x4.dat
+1 1 80 -24 -380 0 0 1 0 1 0 -1 0 0 patastro.dat
+1 1 0 -24 -380 0 0 1 0 1 0 -1 0 0 patastro.dat
+1 1 -40 -24 -300 0 0 -1 0 1 0 1 0 0 patastro.dat
+1 1 40 -24 -300 0 0 -1 0 1 0 1 0 0 patastro.dat
+1 4 20 24 -520 -1 0 0 0 1 0 0 0 -1 rotorinf.dat
+1 4 20 -152 -340 -1 0 0 0 1 0 0 0 -1 rotorinf.dat
+1 4 20 -152 -340 -1 0 0 0 1 0 0 0 -1 platfgir.dat
+1 4 20 24 -520 -1 0 0 0 1 0 0 0 -1 rotorsup.dat
+1 1 40 8 -180 -1 0 0 0 1 0 0 0 -1 placa2x2.dat
+1 1 -40 -120 -260 0 0 1 0 1 0 -1 0 0 placa6x8.dat
+1 15 20 56 -680 1 0 0 0 1 0 0 0 1 cirrevor.dat
+1 0 20 56 -680 -1 0 0 0 1 0 0 0 -1 cirrevoc.dat
+1 1 0 -16 -700 0 0 1 0 1 0 -1 0 0 bald2.dat
+1 4 0 -168 -380 1 0 0 0 1 0 0 0 1 jacena2.dat
+1 15 -10 0 -540 1 0 0 0 1 0 0 0 1 cilindar.dat
+1 15 50 0 -540 1 0 0 0 1 0 0 0 1 cilindar.dat
+1 15 20 8 -150 0 0 1 0 1 0 -1 0 0 cilindr.dat
+1 1 0 32 -220 1 0 0 0 1 0 0 0 1 pico.dat
+1 15 20 8 -660 1 0 0 0 1 0 0 0 1 semicupg.dat
+1 0 40 -168 -320 0 0 -1 0 1 0 1 0 0 pinzastr.dat
+1 0 40 -168 -360 0 0 -1 0 1 0 1 0 0 bald2x2.dat
+1 15 -10 -168 -340 0 0 -1 0 1 0 1 0 0 ancla1x2.dat
+1 15 50 -168 -340 0 0 -1 0 1 0 1 0 0 ancla1x2.dat
+1 4 20 -200 -380 -1 0 0 0 1 0 0 0 -1 bispqaba.dat
+1 4 20 -200 -380 -1 0 0 0 0 1 0 1 0 bispqarr.dat
+1 4 40 -230 -388 -1 0 0 0 0 1 0 1 0 placa2x2.dat
+1 4 40 -230 -404 -1 0 0 0 0 1 0 1 0 placa2x2.dat
+1 4 20 -210 -396 0 0 1 1 0 0 0 1 0 popa6p.dat
+1 4 20 -210 -396 0 0 -1 -1 0 0 0 1 0 popa6p.dat
+1 1 0 -210 -412 1 0 0 0 0 -1 0 1 0 pico.dat
+1 15 10 -220 -412 1 0 0 0 0 -1 0 1 0 chimtubo.dat
+1 4 10 -220 -436 1 0 0 0 0 -1 0 1 0 laser.dat
+1 4 30 -220 -436 1 0 0 0 0 -1 0 1 0 laser.dat
+1 7 70 0 -610 0 0 1 0 1 0 -1 0 0 tbescrct.dat
+1 7 -30 0 -610 0 0 1 0 1 0 -1 0 0 tbescrct.dat
+1 14 30 -136 -300 1 0 0 0 1 0 0 0 1 astcuerp.dat
+1 14 20 -192 -310 1 0 0 0 0 1 0 -1 0 astpiern.dat
+0

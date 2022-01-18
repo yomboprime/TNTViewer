@@ -1,0 +1,8 @@
+0 Ventana 1x1    |R:R
+0 Name: vnt1x1.dat
+0 Author: jasolo & cpcbegin
+0 !LDRAW_ORG Unofficial_Part
+0 BFC CERTIFY CCW
+1 16 0 0 0 1 0 0 0 1 0 0 0 1 vnt1x1m.dat
+1 40 0 24 0 1 0 0 0 1 0 0 0 1 vnt1x1c.dat
+0

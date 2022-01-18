@@ -1,0 +1,14 @@
+0 Untitled
+0 Name: torre_glories_barcelona.ldr
+0 Author: MLCad
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 33 70 32 0 1 0 0 0 1 0 0 0 1 remtcoht.dat
+1 33 70 32 0 -1 0 0 0 -1 0 0 0 1 chimttnc.dat
+1 33 70 64 0 -1 0 0 0 -1 0 0 0 1 chimttnc.dat
+1 33 70 96 0 -1 0 0 0 -1 0 0 0 1 chimttnc.dat
+1 33 70 128 0 -1 0 0 0 -1 0 0 0 1 chimttnc.dat
+1 33 70 160 0 -1 0 0 0 -1 0 0 0 1 chimttnc.dat
+1 33 70 192 0 -1 0 0 0 -1 0 0 0 1 chimttnc.dat
+0

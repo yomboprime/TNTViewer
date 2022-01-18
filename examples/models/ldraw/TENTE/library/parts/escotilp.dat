@@ -1,0 +1,8 @@
+0 Escotilla Puerta    |E:E
+0 Name: escotilp.ldr
+0 Author: betatron & jasolo
+0 ROTATION CENTER 0 -8 0 1 "Bisagra" 
+0 ROTATION CONFIG 1 0
+0 BFC CERTIFY CCW
+1 16 0 -8 0 -1 0 0 0 1 0 0 0 -1 compuert.dat
+0

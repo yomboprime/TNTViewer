@@ -1,0 +1,10 @@
+0 Grua   |M:M
+0 Name: grua.dat
+0 Author: jasolo
+0 ROTATION CENTER -20 0 0 0 "Eje" 
+0 ROTATION CONFIG 1 0
+0 BFC CERTIFY CCW
+
+1 16 0 0 0 1 0 0 0 1 0 0 0 1 gruab.dat
+1 16 0 0 0 1 0 0 0 1 0 0 0 1 gruap.dat
+

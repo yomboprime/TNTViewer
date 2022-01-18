@@ -1,0 +1,72 @@
+0 Trailer transporte internacional
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 15 100 16 0 -1 0 0 0 1 0 0 0 -1 placa2.dat
+1 4 140 8 0 -1 0 0 0 1 0 0 0 -1 jacen2x4.dat
+1 4 140 -16 0 -1 0 0 0 1 0 0 0 -1 jacen2x4.dat
+1 15 140 -40 -20 0 0 -1 0 1 0 1 0 0 bald2r.dat
+1 15 140 -40 -60 0 0 -1 0 1 0 1 0 0 bald2x2r.dat
+1 15 60 -40 -20 0 0 1 0 1 0 -1 0 0 bald2x2r.dat
+1 15 60 -40 0 0 0 1 0 1 0 -1 0 0 bald2r.dat
+1 15 60 16 -20 0 0 1 0 1 0 -1 0 0 placa2x3.dat
+1 15 140 16 0 -1 0 0 0 1 0 0 0 -1 placa2.dat
+1 15 100 16 -20 0 0 1 0 1 0 -1 0 0 placa2x3.dat
+0 Name: trailertransporteinternacional.ldr
+0 Author: CPCBEGIN
+0 Unofficial Model
+1 4 80 24 100 0 0 1 0 1 0 -1 0 0 placa2x8.dat
+1 0 80 48 100 0 0 1 0 1 0 -1 0 0 jacen2x2.dat
+1 0 80 48 260 0 0 1 0 1 0 -1 0 0 jacen2x2.dat
+1 0 80 48 320 0 0 1 0 1 0 -1 0 0 jacen2x2.dat
+1 0 80 48 -20 0 0 1 0 1 0 -1 0 0 jacen2x2.dat
+1 0 60 48 0 1 0 0 0 1 0 0 0 1 jacen2x4.dat
+1 0 100 16 80 1 0 0 0 1 0 0 0 1 rotorinf.dat
+1 0 100 16 80 1 0 0 0 1 0 0 0 1 rotorsup.dat
+1 15 140 0 40 0 0 -1 0 1 0 1 0 0 placa4x8.dat
+1 15 140 0 200 0 0 -1 0 1 0 1 0 0 placa4x8.dat
+1 15 140 -80 40 0 0 -1 0 1 0 1 0 0 placa4x8.dat
+1 15 140 -80 200 0 0 -1 0 1 0 1 0 0 placa4x8.dat
+1 4 100 8 -40 1 0 0 0 1 0 0 0 1 cabant.dat
+1 14 80 56 100 1 0 0 0 1 0 0 0 1 llantrut.dat
+1 15 100 16 -60 1 0 0 0 1 0 0 0 1 paracf21.dat
+1 0 80 56 100 1 0 0 0 1 0 0 0 1 ruta21nm.dat
+1 14 80 56 320 1 0 0 0 1 0 0 0 1 llantrut.dat
+1 0 80 56 320 1 0 0 0 1 0 0 0 1 ruta21nm.dat
+1 14 80 56 260 1 0 0 0 1 0 0 0 1 llantrut.dat
+1 0 80 56 260 1 0 0 0 1 0 0 0 1 ruta21nm.dat
+1 14 120 56 220 -1 0 0 0 1 0 0 0 -1 llantrut.dat
+1 0 120 56 220 -1 0 0 0 1 0 0 0 -1 ruta21nm.dat
+1 14 120 56 280 -1 0 0 0 1 0 0 0 -1 llantrut.dat
+1 0 120 56 280 -1 0 0 0 1 0 0 0 -1 ruta21nm.dat
+1 14 120 56 60 -1 0 0 0 1 0 0 0 -1 llantrut.dat
+1 0 120 56 60 -1 0 0 0 1 0 0 0 -1 ruta21nm.dat
+1 14 120 56 -60 -1 0 0 0 1 0 0 0 -1 llantrut.dat
+1 0 120 56 -60 -1 0 0 0 1 0 0 0 -1 ruta21nm.dat
+1 14 80 56 -20 1 0 0 0 1 0 0 0 1 llantrut.dat
+1 0 80 56 -20 1 0 0 0 1 0 0 0 1 ruta21nm.dat
+1 4 80 24 360 0 0 1 0 1 0 -1 0 0 jacen2x3.dat
+1 4 80 24 300 0 0 1 0 1 0 -1 0 0 jacen2x8.dat
+1 15 140 48 360 -1 0 0 0 1 0 0 0 -1 jacena4.dat
+1 15 140 -8 360 -1 0 0 0 1 0 0 0 -1 jacena4.dat
+1 15 140 -8 60 -1 0 0 0 1 0 0 0 -1 jacena4.dat
+1 15 60 -8 220 0 0 1 0 1 0 -1 0 0 jacena8.dat
+1 15 80 -8 340 0 0 1 0 1 0 -1 0 0 jacena6.dat
+1 1 60 -32 40 1 0 0 0 1 0 0 0 1 jacena4.dat
+1 1 60 -32 340 1 0 0 0 1 0 0 0 1 jacena4.dat
+1 1 140 -32 180 0 0 -1 0 1 0 1 0 0 jacena8.dat
+1 1 120 -32 60 0 0 -1 0 1 0 1 0 0 jacena6.dat
+1 1 60 -56 40 1 0 0 0 1 0 0 0 1 jacena4.dat
+1 1 60 -56 340 1 0 0 0 1 0 0 0 1 jacena4.dat
+1 1 140 -56 180 0 0 -1 0 1 0 1 0 0 jacena8.dat
+1 1 120 -56 60 0 0 -1 0 1 0 1 0 0 jacena6.dat
+1 1 80 -32 180 0 0 -1 0 1 0 1 0 0 jacena8.dat
+1 1 60 -32 60 0 0 -1 0 1 0 1 0 0 jacena6.dat
+1 1 80 -56 180 0 0 -1 0 1 0 1 0 0 jacena8.dat
+1 1 60 -56 60 0 0 -1 0 1 0 1 0 0 jacena6.dat
+1 15 120 -8 220 0 0 1 0 1 0 -1 0 0 jacena8.dat
+1 15 140 -8 340 0 0 1 0 1 0 -1 0 0 jacena6.dat
+1 15 60 -32 70 0 0 1 0 -1 0 1 0 0 tir.dat
+1 15 140 -32 170 0 0 -1 0 -1 0 -1 0 0 tir.dat
+1 15 140 -32 340 0 0 -1 0 -1 0 -1 0 0 europa.dat
+1 15 60 -32 180 0 0 1 0 -1 0 1 0 0 europa.dat
+0

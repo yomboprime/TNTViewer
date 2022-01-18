@@ -1,0 +1,66 @@
+0 Untitled
+0 Name: farola50p.ldr
+0 Author: MLCad
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 15 -70 88 180 1 0 0 0 1 0 0 0 1 respirad.dat
+1 15 -30 88 180 1 0 0 0 1 0 0 0 1 baldc2x2.dat
+1 15 -30 88 220 1 0 0 0 1 0 0 0 1 baldc2x2.dat
+1 15 -70 88 220 1 0 0 0 1 0 0 0 1 baldc2x2.dat
+1 15 -110 88 220 1 0 0 0 1 0 0 0 1 baldc2x2.dat
+1 15 -110 88 180 1 0 0 0 1 0 0 0 1 baldc2x2.dat
+1 15 -110 88 140 1 0 0 0 1 0 0 0 1 baldc2x2.dat
+1 15 -70 88 140 1 0 0 0 1 0 0 0 1 baldc2x2.dat
+1 15 -30 88 140 1 0 0 0 1 0 0 0 1 baldc2x2.dat
+1 15 -70 120 180 0 0 -1 0 1 0 1 0 0 jacen2x4.dat
+1 15 10 120 140 0 0 -1 0 1 0 1 0 0 jacen2x4.dat
+1 15 -30 120 180 -1 0 0 0 1 0 0 0 -1 jacen2x4.dat
+1 15 10 120 260 -1 0 0 0 1 0 0 0 -1 jacen2x4.dat
+1 15 -30 120 180 -1 0 0 0 1 0 0 0 -1 jacen2x4.dat
+1 15 10 120 260 -1 0 0 0 1 0 0 0 -1 jacen2x4.dat
+1 15 -30 144 260 -1 0 0 0 1 0 0 0 -1 jacen2x4.dat
+1 15 -110 144 220 0 0 1 0 1 0 -1 0 0 jacen2x4.dat
+1 15 -70 144 140 1 0 0 0 1 0 0 0 1 jacen2x4.dat
+1 15 10 144 180 0 0 -1 0 1 0 1 0 0 jacen2x4.dat
+1 15 -110 120 200 0 0 1 0 1 0 -1 0 0 vntarabe.dat
+1 15 -110 120 170 0 0 1 0 1 0 -1 0 0 vntarabe.dat
+1 15 -110 120 230 0 0 1 0 1 0 -1 0 0 vntarabe.dat
+1 15 -50 120 139 -1 0 0 0 1 0 0 0 -1 vntarabe.dat
+1 15 -80 120 139 -1 0 0 0 1 0 0 0 -1 vntarabe.dat
+1 15 -20 120 139 -1 0 0 0 1 0 0 0 -1 vntarabe.dat
+1 15 10 120 200 0 0 -1 0 1 0 1 0 0 vntarabe.dat
+1 15 10 120 230 0 0 -1 0 1 0 1 0 0 vntarabe.dat
+1 15 10 120 170 0 0 -1 0 1 0 1 0 0 vntarabe.dat
+1 15 -50.001 120 261 1 0 0 0 1 0 0 0 1 vntarabe.dat
+1 15 -20 120 261 1 0 0 0 1 0 0 0 1 vntarabe.dat
+1 15 -80 120 261 1 0 0 0 1 0 0 0 1 vntarabe.dat
+1 15 -70 168 180 0 0 -1 0 1 0 1 0 0 jacen2x4.dat
+1 15 10 168 140 0 0 -1 0 1 0 1 0 0 jacen2x4.dat
+1 15 -30 168 180 -1 0 0 0 1 0 0 0 -1 jacen2x4.dat
+1 15 10 168 260 -1 0 0 0 1 0 0 0 -1 jacen2x4.dat
+1 15 -30 168 180 -1 0 0 0 1 0 0 0 -1 jacen2x4.dat
+1 15 10 168 260 -1 0 0 0 1 0 0 0 -1 jacen2x4.dat
+1 15 10 152 200 0 0 -1 0 1 0 1 0 0 vntarabe.dat
+1 15 10 152 230 0 0 -1 0 1 0 1 0 0 vntarabe.dat
+1 15 10 152 170 0 0 -1 0 1 0 1 0 0 vntarabe.dat
+1 15 -50 152 139 -1 0 0 0 1 0 0 0 -1 vntarabe.dat
+1 15 -50 168 139 -1 0 0 0 1 0 0 0 -1 vntarabe.dat
+1 15 -80 152 139 -1 0 0 0 1 0 0 0 -1 vntarabe.dat
+1 15 -20 152 139 -1 0 0 0 1 0 0 0 -1 vntarabe.dat
+1 0 -120 152 200 0 0 1 0 1 0 -1 0 0 vntarabe.dat
+1 0 -120 152 170 0 0 1 0 1 0 -1 0 0 vntarabe.dat
+1 0 -120.001 152 230 0 0 1 0 1 0 -1 0 0 vntarabe.dat
+1 15 -50.001 152 261 1 0 0 0 1 0 0 0 1 vntarabe.dat
+1 15 -20 152 261 1 0 0 0 1 0 0 0 1 vntarabe.dat
+1 15 -80 152 261 1 0 0 0 1 0 0 0 1 vntarabe.dat
+1 15 10 96 260 -1 0 0 0 1 0 0 0 -1 placa4x6.dat
+1 15 10 96 180 -1 0 0 0 1 0 0 0 -1 placa2x3.dat
+1 15 -50 96 180 -1 0 0 0 1 0 0 0 -1 placa2x3.dat
+1 15 -50 48 200 -1 0 0 0 -1 0 0 0 1 chimttnc.dat
+1 15 -50 16 200 -1 0 0 0 -1 0 0 0 1 chimttnc.dat
+1 15 -50 -16 200 -1 0 0 0 -1 0 0 0 1 chimttnc.dat
+1 15 -50 -48 200 -1 0 0 0 -1 0 0 0 1 chimttnc.dat
+1 15 -42 -67 220 0 1 0 -1 0 0 0 0 1 llanrutt.dat
+1 46 -50 -67 200 1 0 0 0 1 0 0 0 1 sirena.dat
+0

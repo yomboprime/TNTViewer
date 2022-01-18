@@ -1,0 +1,11 @@
+0 Tejados Exin Tejado 2x Final de Pico
+0 Name: fbtejado2x.dat
+0 Author: FJB
+0 01/05/2007
+
+1 2  24 0 24  1 0 0 0 1 0 0 0 1 Exin\bteja1xc.dat 
+1 3  24 0 -24  1 0 0 0 1 0 0 0 1 Exin\bteja1xc.dat 
+1 4  -24 0 24  -1 0 0 0 1 0 0 0 1 Exin\bteja1xc.dat 
+1 5  -24 0 -24  -1 0 0 0 1 0 0 0 1 Exin\bteja1xc.dat 
+0
+

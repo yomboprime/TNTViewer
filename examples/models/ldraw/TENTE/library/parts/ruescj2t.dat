@@ -1,0 +1,12 @@
+0 Rueda scorpio teton montada en jacena2      |R:R|E:E
+0 Name: ruescj2t.dat
+0 Author: CPCBEGIN
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 383 0 16.5 0 1 0 0 0 1 0 0 0 1 eje28.dat
+1 16 -21 24 20 1 0 0 0 1 0 0 0 1 llanrutt.dat
+1 256 -21 24 20 1 0 0 0 1 0 0 0 1 neumtter.dat
+1 16 21 24 -20 -1 0 0 0 1 0 0 0 -1 llanrutt.dat
+1 256 21 24 -20 -1 0 0 0 1 0 0 0 -1 neumtter.dat
+1 0 0 24 0 1 0 0 0 1 0 0 0 1 jacn2x2a.dat
+0

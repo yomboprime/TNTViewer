@@ -1,0 +1,44 @@
+0 Arco 12 puntos
+0 Name: arco12x3.dat
+0 Author: FJB
+0 1/05/2007
+
+1 16 0    0   0 10 0 0 0 1  0 0 0 1 Exin\tp2x.dat
+1 16 0    1   0 10 0 0 0 46 0 0 0 1 Exin\box2x.dat
+1 16 0    -48 0 5 0 0 0 4 0 0 0 1 Exin\arcinf2x1.dat
+1 16 -264 0   0 1 0 0 0 1 0 0 0 1 Exin\tp3x.dat
+1 16 -264 1   0 1 0 0 0 94 0 0 0 1 Exin\box3x.dat
+1 16 -264 96  0 1 0 0 0 48 0 0 0 1 Exin\box2x.dat
+1 16 -264 144 0 1 0 0 0 48 0 0 0 1 Exin\dn2x.dat
+1 16 -312 96  0 1 0 0 0 1  0 0 0 1 Exin\tp3xb.dat
+1 16 -312 98  0 1 0 0 0 46 0 0 0 1 Exin\box3x.dat
+1 16 -312 144  0 1 0 0 0 46 0 0 0 1 Exin\dn3x.dat
+ 
+1 16 264 0 0 -1 0 0 0 1 0 0 0 1 Exin\tp3x.dat
+1 16 264 1 0  -1 0 0 0 46 0 0 0 1 Exin\box3x.dat
+1 16 264 48 0 -1 0 0 0 48 0 0 0 1 Exin\box2x.dat
+1 16 264 96 0  -1 0 0 0 48 0 0 0 1 Exin\box3x.dat
+1 16 264 144 0 -1 0 0 0 1 0 0 0 1 Exin\dn3x.dat
+1 16 312 48 0 -1 0 0 0 1 0 0 0 1 Exin\tp3xb.dat
+1 16 312 50 0 -1 0 0 0 46 0 0 0 1 Exin\box3x.dat
+1 16 312 96 0 -1 0 0 0 1  0 0 0 1 Exin\dn3xb.dat
+
+0 1 estud
+1 16 -264 0 0 1 0 0 0 1 0 0 0 1 Exin\estud.dat
+1 16 -216 0 0 1 0 0 0 1 0 0 0 1 Exin\estud.dat
+1 16 -168 0 0 1 0 0 0 1 0 0 0 1 Exin\estud.dat
+1 16 -120 0 0 1 0 0 0 1 0 0 0 1 Exin\estud.dat
+1 16 -72 0 0 1 0 0 0 1 0 0 0 1 Exin\estud.dat
+1 16 -24 0 0 1 0 0 0 1 0 0 0 1 Exin\estud.dat
+1 16 24 0 0 1 0 0 0 1 0 0 0 1 Exin\estud.dat
+1 16 72 0 0 1 0 0 0 1 0 0 0 1 Exin\estud.dat
+1 16 120 0 0 1 0 0 0 1 0 0 0 1 Exin\estud.dat
+1 16 168 0 0 1 0 0 0 1 0 0 0 1 Exin\estud.dat
+1 16 216 0 0 1 0 0 0 1 0 0 0 1 Exin\estud.dat
+1 16 264 0 0 1 0 0 0 1 0 0 0 1 Exin\estud.dat
+
+1 16 -312 96 0 1 0 0 0 1 0 0 0 1 Exin\estud.dat
+1 16 312 48 0 1 0 0 0 1 0 0 0 1 Exin\estud.dat
+
+
+0

@@ -1,0 +1,76 @@
+0 MLCAD BTG piloto1
+0 Untitled
+0 MLCAD BTG piloto1
+0 Name: Compact_0351_Tex.ldr
+0 MLCAD BTG piloto1
+0 Author: MLCad
+0 MLCAD BTG piloto1
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+0 MLCAD BTG piloto1
+1 8 -209 5 40 0 0 1 0 1 0 -1 0 0 airsillo.dat
+0 MLCAD BTG piloto1
+1 8 -209 5 40 0 0 1 0 1 0 -1 0 0 helmando.dat
+0 MLCAD BTG piloto1
+1 14 -167 29 20 0 0 1 0 1 0 -1 0 0 htitcab1.dat
+0 MLCAD BTG piloto1
+1 1 -168 29 20 0 0 1 0 1 0 -1 0 0 htittron.dat
+0 MLCAD BTG piloto1
+1 1 -235 -36 20 0 -1 0 0 0 1 -1 0 0 htitbrzd.dat
+0 MLCAD BTG piloto1
+1 1 -235 -36 20 0 -1 0 0 0 1 -1 0 0 htitbrzi.dat
+0 MLCAD BTG piloto1
+1 1 -235 -36 20 0 -1 0 0 0 1 -1 0 0 htitmand.dat
+0 MLCAD BTG piloto1
+1 1 -234 -36 20 0 -1 0 0 0 1 -1 0 0 htitmani.dat
+0 MLCAD BTG piloto1
+1 1 -204 -9 20 0 -1 0 0 0 1 -1 0 0 htitpies.dat
+0 GROUP 13 piloto1
+0 Untitled
+0 Name: Compact_0351_Tex.ldr
+0 Author: MLCad
+0 Unofficial Model
+1 8 -149 -11 40 0 0 1 0 1 0 -1 0 0 airsillo.dat
+1 8 -149 -11 40 0 0 1 0 1 0 -1 0 0 helmando.dat
+1 14 -107 13 20 0 0 1 0 1 0 -1 0 0 htitcab1.dat
+1 1 -108 13 20 0 0 1 0 1 0 -1 0 0 htittron.dat
+1 1 -175 -52 20 0 -1 0 0 0 1 -1 0 0 htitbrzd.dat
+1 1 -175 -52 20 0 -1 0 0 0 1 -1 0 0 htitbrzi.dat
+1 1 -175 -52 20 0 -1 0 0 0 1 -1 0 0 htitmand.dat
+1 1 -174 -52 20 0 -1 0 0 0 1 -1 0 0 htitmani.dat
+1 1 -144 -25 20 0 -1 0 0 0 1 -1 0 0 htitpies.dat
+1 14 -208 40 20 0 0 1 0 1 0 -1 0 0 cilindab2.dat
+1 14 -128 40 20 0 0 1 0 1 0 -1 0 0 cilindab2.dat
+1 14 -228 32 10 1 0 0 0 1 0 0 0 1 placa2.dat
+1 14 -148 32 10 1 0 0 0 1 0 0 0 1 placa2.dat
+1 14 -248 21 0 1 0 0 0 1 0 0 0 1 placa2x3.dat
+1 32 -210 13 20 0 0 -1 0 1 0 1 0 0 semicupp.dat
+1 14 -188 13 0 0 0 -1 0 1 0 1 0 0 placa2.dat
+1 14 -130 5 0 0 0 -1 0 1 0 1 0 0 placa2.dat
+1 14 -130 -3 0 0 0 -1 0 1 0 1 0 0 placa2.dat
+1 14 -130 21 -20 0 0 -1 0 1 0 1 0 0 placa4.dat
+1 14 -150 13 -20 1 0 0 0 1 0 0 0 1 pistola.dat
+1 14 -150 13 40 1 0 0 0 1 0 0 0 1 pistola.dat
+1 14 -110 -1 50 0 -1 0 1 0 0 0 0 1 cilindro.dat
+1 14 -110 -1 -10 0 -1 0 1 0 0 0 0 1 cilindro.dat
+1 14 -50 -3 40 -1 0 0 0 1 0 0 0 -1 placa4.dat
+1 14 -50 -3 20 -1 0 0 0 1 0 0 0 -1 placa4.dat
+1 4 -70 -12 20 -1 0 0 0 1 0 0 0 -1 amortigu.dat
+1 4 14 22 20 0 1 0 1 0 0 0 0 -1 cilindro.dat
+1 4 -60 -37 20 -1 0 0 0 1 0 0 0 -1 chimplac.dat
+1 4 -198 48 20 -1 0 0 0 1 0 0 0 -1 chimplac.dat
+1 4 -198 56 20 -1 0 0 0 1 0 0 0 -1 chimplac.dat
+1 4 -86 -1 -10 0 -1 0 0 0 1 -1 0 0 chimplac.dat
+1 4 -86 -1 70 0 -1 0 0 0 1 -1 0 0 chimplac.dat
+1 4 -120 -1 -30 0 -1 0 0 0 1 -1 0 0 ejecosm2.dat
+1 4 -120 -1 70 0 -1 0 0 0 1 -1 0 0 ejecosm2.dat
+1 4 -60 -45 20 0 0 1 0 1 0 -1 0 0 piquito.dat
+1 4 -80 -37 20 0 0 1 0 1 0 -1 0 0 laser.dat
+1 4 -111 -1 -30 0 1 0 0 0 -1 -1 0 0 laser.dat
+1 4 -111 -1 70 0 1 0 0 0 -1 -1 0 0 laser.dat
+1 14 -110 21 0 0 0 -1 0 1 0 1 0 0 jacena2.dat
+1 14 -130 13 0 0 0 -1 0 1 0 1 0 0 placa2x2.dat
+1 14 -88 20 20 0 1 0 0 0 -1 -1 0 0 alercoh2.dat
+1 14 -248 20 20 0 1 0 0 0 -1 -1 0 0 remtcoht.dat
+0

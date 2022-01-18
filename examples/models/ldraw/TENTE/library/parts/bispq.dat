@@ -1,0 +1,10 @@
+0 Bisagra Pequeña     |B:B
+0 Name: bisgr.dat
+0 Author: betatron
+0 !LDRAW_ORG Unofficial_Part
+0 !LICENSE Redistributable under CCAL version 2.0 : see CAreadme.txt
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 16 -10 0 0 1 0 0 0 1 0 0 0 1 bispqaba.dat
+1 16 -10 0 0 1 0 0 0 1 0 0 0 1 bispqarr.dat
+0

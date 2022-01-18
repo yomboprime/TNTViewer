@@ -1,0 +1,8 @@
+0 New Ruta Embellecedor    |R:R
+0 Name: nrutembl.dat
+0 Author: betatron & jasolo
+0 ROTATION CENTER 10 0 0 1 "Eje" 
+0 ROTATION CONFIG 1 0
+0 BFC CERTIFY CCW
+1 16 -95.25 -10.535 -20 1 0 0 0 1 0 0 0 1 nrutemb2.dat
+

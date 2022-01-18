@@ -1,0 +1,17 @@
+0 Untitled
+0 Name: cohete_tintin.ldr
+0 Author: MLCad
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 4 20 0 80 1 0 0 0 1 0 0 0 1 alercoht.dat
+1 4 20 -320 80 1 0 0 0 1 0 0 0 1 remtcoht.dat
+1 4 20 -280 72 1 0 0 0 0 1 0 -1 0 cilindar.dat
+1 15 20 -280 60 1 0 0 0 0 1 0 -1 0 cilindab2.dat
+1 4 20 -200 88 -1 0 0 0 0 1 0 1 0 cilindar.dat
+1 15 20 -200 100 -1 0 0 0 0 1 0 1 0 cilindab2.dat
+1 4 20 -40 88 -1 0 0 0 0 1 0 1 0 cilindar.dat
+1 15 20 -40 100 -1 0 0 0 0 1 0 1 0 cilindab2.dat
+1 4 20 -120 72 1 0 0 0 0 1 0 -1 0 cilindar.dat
+1 15 20 -120 60 1 0 0 0 0 1 0 -1 0 cilindab2.dat
+0

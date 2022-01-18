@@ -1,0 +1,15 @@
+0 Rueda Cosmic      |S:S
+0 Name: ruecosmi.dat
+0 Author: jasolo
+0 BFC CERTIFY CCW 
+1 4 43 -7.5 0 0 -1 0 -1 0 0 0 0 -1 ejecosm1.dat
+1 4 69.5 -7.5 0 0 -1 0 -1 0 0 0 0 -1 ejecosm2.dat
+1 4 -43 -7.5 0 0 1 0 -1 0 0 0 0 1 ejecosm1.dat
+1 4 -69.5 -7.5 0 0 1 0 -1 0 0 0 0 1 ejecosm2.dat
+1 256 -74.5 -8 0 0 1 0 -1 0 0 0 0 1 ruecosmn.dat
+1 256 -74.5 -8 0 0 -1 0 -1 0 0 0 0 -1 ruecosmn.dat
+1 256 74.5 -8 0 0 1 0 -1 0 0 0 0 1 ruecosmn.dat
+1 256 74.5 -8 0 0 -1 0 -1 0 0 0 0 -1 ruecosmn.dat
+1 383 -2 -7.5 0 -1 0 0 0 -1 0 0 0 1 eje75.dat
+1 0 0 0 0 1 0 0 0 1 0 0 0 1 jacn2x4a.dat
+0

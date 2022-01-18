@@ -1,0 +1,26 @@
+0 Ventana recta
+0 Name: fwin1x1.dat
+0 Author: FJB
+0 Modified by: Risk
+0 18/09/2007
+
+1 16 0 0 0 1 0 0 0 1 0 0 0 1 exin\win1x1.dat
+1 16 0 0 24 1 0 0 0 1 0 0 0 1 exin\mwin1x1.dat
+
+1 16 -2 -40 24 0 1.4 0 -1 0 0 0 0 2 exin\bloqvent.dat
+
+1 16 -24 -18 24 -0.35 1 0 -0.35 -1 0 0 0 2 exin\bloqvent.dat
+1 16 20 -22 24 0.35 1 0 -0.35 1 0 0 0 2 exin\bloqvent.dat
+
+1 16 -40 0 24 -1 0 0 0 1.4 0 0 0 2 exin\bloqvent.dat
+1 16 -30 22 24 -0.5 0 0 0 1.4 0 0 0 2 exin\bloqvent.dat
+1 16 -40 44 24 -1 0 0 0 1.4 0 0 0 2 exin\bloqvent.dat
+1 16 -30 66 24 -0.5 0 0 0 1.4 0 0 0 2 exin\bloqvent.dat
+1 16 -28 87 24 -1.4 0 0 0 1.4 0 0 0 2 exin\bloqvent.dat
+
+1 16 40 0 24 1 0 0 0 1.4 0 0 0 2 exin\bloqvent.dat
+1 16 30 22 24 0.5 0 0 0 1.4 0 0 0 2 exin\bloqvent.dat
+1 16 40 44 24 1 0 0 0 1.4 0 0 0 2 exin\bloqvent.dat
+1 16 30 66 24 0.5 0 0 0 1.4 0 0 0 2 exin\bloqvent.dat
+1 16 28 87 24 1.4 0 0 0 1.4 0 0 0 2 exin\bloqvent.dat
+0

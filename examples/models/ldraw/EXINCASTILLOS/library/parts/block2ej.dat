@@ -1,0 +1,21 @@
+0 Bloque 2 puntos con eje
+0 Name: block2ej.dat
+0 Author: Risk
+0 11/09/2007
+
+
+1 16 -24 0 0 1 0 0 0 1 0 0 0 1 Exin\estud.dat
+1 16 24 0 0 1 0 0 0 1 0 0 0 1 Exin\estud.dat
+
+1 16 -24 0 0 1 0 0 0 1 0 0 0 1 Exin\tp3x.dat
+1 16 -24 2 0 1 0 0 0 46 0 0 0 1 Exin\box3x.dat
+1 16 -24 48 0 1 0 0 0 1 0 0 0 1 Exin\dn3x.dat
+1 16 24 0 0 -1 0 0 0 1 0 0 0 1 Exin\tp3x.dat
+1 16 24 2 0 -1 0 0 0 46 0 0 0 1 Exin\box3x.dat
+1 16 24 48 0 -1 0 0 0 1 0 0 0 1 Exin\dn3x.dat
+
+1 16 44 0 32 8 0 0 0 48 0 0 0 8 4-4cyli.dat
+1 16 44 0 32 8 0 0 0 8 0 0 0 8 4-4disc.dat
+1 16 44 48 32 8 0 0 0 8 0 0 0 8 4-4disc.dat
+
+0

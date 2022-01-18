@@ -1,0 +1,17 @@
+0 Untitled
+0 Name: ventanas_ahumadas.ldr
+0 Author: MLCad
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 4 60 48 0 1 0 0 0 1 0 0 0 1 skycabcr.dat
+1 4 60 8 40 1 0 0 0 1 0 0 0 1 ventana1.dat
+1 4 80 -48 50 0 0 -1 0 1 0 1 0 0 vnt1x1.dat
+1 4 60 8 150 0 0 1 0 1 0 -1 0 0 ventan4.dat
+1 4 60 -48 120 0 0 1 0 1 0 -1 0 0 vntcasa.dat
+1 4 60 -48 170 0 0 1 0 1 0 -1 0 0 vntthor.dat
+1 4 60 -72 10 0 0 1 0 1 0 -1 0 0 vntthor.dat
+1 4 60 -48 220 0 0 1 0 1 0 -1 0 0 vntscorp.dat
+1 4 60 -16 270 0 0 1 0 1 0 -1 0 0 puertang.dat
+1 4 60 40 320 0 0 1 0 1 0 -1 0 0 parabcrs.dat
+0

@@ -1,0 +1,32 @@
+0 Bloque 2x1 con escalón a la izquierda
+0 Name: block2xe.dat
+0 Author: FJB
+0 01/05/2007
+
+1 16 0 0 -24 1 0 0 0 1 0 0 0 1 Exin\estud.dat
+1 16 0 0  24  1 0 0 0 1 0 0 0 1 Exin\estud.dat
+
+1 16 0 0  -24 1 0 0 0 1 0 0 0 1 Exin\tp2xb.dat
+1 16 0 2  -24 1 0 0 0 46 0 0 0 1 Exin\box2xb.dat
+1 16 0 48 -24 1 0 0 0 1 0 0 0 1 Exin\dn2xb.dat
+1 16 0 0  24  1 0 0 0 1 0 0 0 -1 Exin\tp2xb.dat
+1 16 0 2  24  1 0 0 0 46 0 0 0  -1 Exin\box2xb.dat
+1 16 0 48  24 1 0 0 0 1 0 0 0  -1 Exin\dn2xb.dat
+
+1 16 48 0 -24 -1 0 0 0 1 0 0 0 1 Exin\tp3x.dat
+1 16 48 2 -24 -1 0 0 0 22 0 0 0 1 Exin\box3x.dat
+1 16 48 24 -24 -1 0 0 0 24 0 0 0 1 Exin\dn3x.dat
+
+0 tapando "el hueco" 
+4 16 24 24 -48 24 24 48 24 48 48 24 48 -48
+2 24 24 48 -48 24 48 48
+2 24 24 2 -2 24 2 48
+2 24 24 2 48 24 48 48
+2 24 24 2 0 24 24 0
+
+
+4 16 24 2 48 24 2 0  24 24 0 24 24 48 
+4 16 24 2 48 24 2 0 24 0 -2 24 0 46 
+
+0
+

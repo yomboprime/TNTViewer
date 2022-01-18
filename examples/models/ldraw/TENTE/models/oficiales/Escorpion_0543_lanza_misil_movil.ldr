@@ -1,0 +1,131 @@
+0 Untitled
+0 Name: Escorpion_0543_lanza_misil_movil.ldr
+0 Author: MLCad
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+0 MLCAD BTG sosten
+1 8 289.835 -38.817 0 0 0.5 -0.866026 0 0.866026 0.5 1 0 0 bispqarr.dat
+0 MLCAD BTG sosten
+1 8 298.495 -43.817 10 0 0.5 -0.866026 0 0.866026 0.5 1 0 0 laser.dat
+0 MLCAD BTG sosten
+1 8 298.495 -43.817 -10 0 0.5 -0.866026 0 0.866026 0.5 1 0 0 laser.dat
+0 GROUP 3 sosten
+1 8 330 -32 20 -1 0 0 0 1 0 0 0 -1 bald2.dat
+1 8 330 -8 0 -1 0 0 0 1 0 0 0 -1 rallado2.dat
+1 8 290 -8 0 1 0 0 0 1 0 0 0 1 rallado2.dat
+1 8 310 16 0 1 0 0 0 1 0 0 0 1 platfgir.dat
+1 8 310 16 0 1 0 0 0 1 0 0 0 1 rotorinf.dat
+1 8 170 24 -60 1 0 0 0 1 0 0 0 1 placa6x8.dat
+1 8 330 24 0 0 0 1 0 1 0 -1 0 0 placa2x3.dat
+1 8 330 24 60 0 0 1 0 1 0 -1 0 0 placa2x3.dat
+1 8 350 16 20 1 0 0 0 1 0 0 0 1 baldc2.dat
+1 8 350 16 -60 1 0 0 0 1 0 0 0 1 baldc2.dat
+1 8 230 16 -20 1 0 0 0 1 0 0 0 1 baldc2.dat
+1 8 330 16 -20 1 0 0 0 1 0 0 0 1 baldc2x2.dat
+1 8 310 16 20 1 0 0 0 1 0 0 0 1 baldc2x2.dat
+1 8 310 16 -60 1 0 0 0 1 0 0 0 1 baldc2x2.dat
+1 8 270 16 -60 1 0 0 0 1 0 0 0 1 baldc2x2.dat
+1 8 270 16 20 1 0 0 0 1 0 0 0 1 baldc2x2.dat
+1 8 250 16 -20 1 0 0 0 1 0 0 0 1 baldc2x2.dat
+1 8 230 16 20 1 0 0 0 1 0 0 0 1 baldc2x2.dat
+1 8 230 16 -60 1 0 0 0 1 0 0 0 1 baldc2x2.dat
+1 8 190 16 40 1 0 0 0 1 0 0 0 1 placa2.dat
+1 8 90 16 40 0 0 -1 0 1 0 1 0 0 bald2.dat
+1 8 50 16 40 0 0 -1 0 1 0 1 0 0 bald2.dat
+1 8 50 16 -60 0 0 -1 0 1 0 1 0 0 bald2.dat
+1 8 90 16 -60 0 0 -1 0 1 0 1 0 0 bald2.dat
+1 8 190 16 -60 1 0 0 0 1 0 0 0 1 placa2.dat
+1 8 -30 40 -20 1 0 0 0 1 0 0 0 1 placa2.dat
+1 8 -10 32 -20 0 0 -1 0 1 0 1 0 0 pistola.dat
+1 8 190 8 -60 1 0 0 0 1 0 0 0 1 pistola.dat
+1 8 230 -24 -30 1 0 0 0 1 0 0 0 1 ejeastr1.dat
+1 8 230 -24 70 1 0 0 0 1 0 0 0 1 ejeastr1.dat
+1 8 190 8 40 1 0 0 0 1 0 0 0 1 pistola.dat
+1 8 330 -9 -20 1 0 0 0 0 -1 0 1 0 pistola.dat
+1 8 330 -29 20 1 0 0 0 0 1 0 -1 0 pistola.dat
+1 8 370 0 44 -1 0 0 0 0 1 0 1 0 llantrut.dat
+1 8 370 0 -28 -1 0 0 0 0 1 0 1 0 llantrut.dat
+1 8 370 48 -60 0 0 -1 0 1 0 1 0 0 cuna.dat
+1 8 370 48 20 0 0 -1 0 1 0 1 0 0 cuna.dat
+1 8 150 48 -60 0 0 -1 0 1 0 1 0 0 cuna.dat
+1 8 150 48 20 0 0 -1 0 1 0 1 0 0 cuna.dat
+1 8 10 48 60 0 0 1 0 1 0 -1 0 0 cuna.dat
+1 8 10 48 -20 0 0 1 0 1 0 -1 0 0 cuna.dat
+1 8 -10 32 20 0 0 1 0 1 0 -1 0 0 parachoq.dat
+1 8 10 24 -20 0 0 -1 0 1 0 1 0 0 rejilla.dat
+1 8 190 48 60 0 0 1 0 1 0 -1 0 0 cuna.dat
+1 8 190 48 -20 0 0 1 0 1 0 -1 0 0 cuna.dat
+1 8 30 16 -20 1 0 0 0 1 0 0 0 1 jacen2x3.dat
+1 8 30 -8 -20 1 0 0 0 1 0 0 0 1 jacen2x3.dat
+1 8 90 16 -20 1 0 0 0 1 0 0 0 1 jacen2x3.dat
+1 8 90 16 20 1 0 0 0 1 0 0 0 1 jacen2x3.dat
+1 8 90 16 -60 1 0 0 0 1 0 0 0 1 jacen2x3.dat
+1 8 150 16 -20 1 0 0 0 1 0 0 0 1 jacen2x4.dat
+1 8 190 48 -20 1 0 0 0 1 0 0 0 1 jacen2x8.dat
+1 8 30 48 -20 1 0 0 0 1 0 0 0 1 jacen2x8.dat
+1 8 310 48 0 0 0 -1 0 1 0 1 0 0 ruescj2t.dat
+1 8 250 48 0 0 0 -1 0 1 0 1 0 0 ruescj2t.dat
+1 8 250 48 0 0 0 -1 0 1 0 1 0 0 ruescorl.dat
+1 8 310 48 0 0 0 -1 0 1 0 1 0 0 ruescorl.dat
+1 8 310 48 0 0 0 1 0 1 0 -1 0 0 ruescorl.dat
+1 8 250 48 0 0 0 1 0 1 0 -1 0 0 ruescorl.dat
+1 8 60 48 0 0 0 -1 0 1 0 1 0 0 rues42l.dat
+1 7 50 48 -30 0 0 -1 0 1 0 1 0 0 amortigu.dat
+1 7 70 48 -30 0 0 -1 0 1 0 1 0 0 amortigu.dat
+1 7 50 48 30 0 0 -1 0 1 0 1 0 0 amortigu.dat
+1 7 70 48 30 0 0 -1 0 1 0 1 0 0 amortigu.dat
+1 8 160 16 -50 0 0 -1 0 1 0 1 0 0 tbescrct.dat
+1 8 160 16 50 0 0 1 0 1 0 -1 0 0 tbescrct.dat
+1 8 150 -8 -60 0 0 1 0 1 0 -1 0 0 asiescor.dat
+1 8 150 -8 -20 0 0 1 0 1 0 -1 0 0 asiescor.dat
+1 8 150 -8 20 0 0 1 0 1 0 -1 0 0 asiescor.dat
+1 8 30 16 20 0 0 1 0 1 0 -1 0 0 rallado2.dat
+1 8 30 -8 20 0 0 1 0 1 0 -1 0 0 rallado2.dat
+1 8 10 16 20 1 0 0 0 1 0 0 0 1 jacena4.dat
+1 8 10 16 -40 1 0 0 0 1 0 0 0 1 jacena4.dat
+1 8 10 -8 -20 1 0 0 0 1 0 0 0 1 pico.dat
+1 8 10 -32 -20 1 0 0 0 1 0 0 0 1 bald2x2.dat
+1 8 50 -32 -20 1 0 0 0 1 0 0 0 1 bald2x2.dat
+1 8 90 -40 -20 1 0 0 0 1 0 0 0 1 bald2.dat
+1 8 60 -40 10 0 0 1 0 1 0 -1 0 0 parabris.dat
+1 8 150 32 -40 1 0 0 0 1 0 0 0 1 deposito.dat
+1 8 190 -8 -20 1 0 0 0 1 0 0 0 1 deposito.dat
+1 8 150 -8 -20 1 0 0 0 1 0 0 0 1 deposito.dat
+1 8 190 -8 20 -1 0 0 0 1 0 0 0 -1 deposito.dat
+1 8 230 -8 20 -1 0 0 0 1 0 0 0 -1 deposito.dat
+1 8 190 32 40 -1 0 0 0 1 0 0 0 -1 deposito.dat
+1 8 50 -8 -20 1 0 0 0 1 0 0 0 1 pico.dat
+1 8 90 -8 20 -1 0 0 0 1 0 0 0 -1 pico.dat
+1 8 50 -8 20 -1 0 0 0 1 0 0 0 -1 pico.dat
+1 8 10 24 -60 1 0 0 0 1 0 0 0 1 placa6x8.dat
+1 8 330 -8 -20 1 0 0 0 1 0 0 0 1 enganch2.dat
+1 8 350 -8 20 -1 0 0 0 1 0 0 0 -1 enganch2.dat
+1 0 310 0 0 0 0 1 0 1 0 -1 0 0 popa6p.dat
+1 0 310 0 0 0 0 -1 0 1 0 1 0 0 popa6p.dat
+1 8 350 -40 0 0 0 1 0 1 0 -1 0 0 bispqaba.dat
+1 8 290 -40 0 0 0 -1 0 1 0 1 0 0 bispqaba.dat
+0 MLCAD BTG pepino
+1 0 224.917 -202.076 0 0.642788 0.766044 0 -0.766044 0.642788 0 0 0 1 remtcoht.dat
+0 MLCAD BTG pepino
+1 8 252.882 -142.06 -30 0 -0.642788 -0.766044 0 0.766044 -0.642788 1 0 0 placa2x3.dat
+0 MLCAD BTG pepino
+1 8 375.449 -39.215 -30 0 -0.642788 -0.766044 0 0.766044 -0.642788 1 0 0 placa2x3.dat
+0 MLCAD BTG pepino
+1 4 365.271 -58.198 0 0 -0.642788 0.766044 0 0.766044 0.642788 -1 0 0 cilindab.dat
+0 MLCAD BTG pepino
+1 4 250.418 -170.236 0 0 -0.642788 0.766044 0 0.766044 0.642788 -1 0 0 cilindar.dat
+0 MLCAD BTG pepino
+1 15 372.985 -67.391 0 0 -0.642788 0.766044 0 0.766044 0.642788 -1 0 0 cilindar.dat
+0 MLCAD BTG pepino
+1 0 407.236 -49.093 0 0 0.766044 0.642788 0 0.642788 -0.766044 -1 0 0 toberast.dat
+0 MLCAD BTG pepino
+1 15 242.704 -161.044 0 0 -0.642788 0.766044 0 0.766044 0.642788 -1 0 0 cilindab.dat
+0 MLCAD BTG pepino
+1 8 349.845 -39.813 0 0 -0.642788 0.766044 0 0.766044 0.642788 -1 0 0 bispqarr.dat
+0 MLCAD BTG pepino
+1 8 232.42 -148.786 -20 0.766044 -0.642788 0 0.642788 0.766044 0 0 0 1 placa2x8.dat
+0 MLCAD BTG pepino
+1 15 285.98 -150.389 0 -0.454519 0.766044 -0.454519 0.541675 0.642788 0.541675 0.707107 0 -0.707107 alercoh2.dat
+0 GROUP 11 pepino
+0

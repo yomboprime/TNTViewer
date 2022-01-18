@@ -1,0 +1,17 @@
+0 Untitled
+0 Name: esfera4.ldr
+0 Author: MLCad
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 14 -36 -2 0 1 0 0 0 1 0 0 0 1 popa6p.dat
+1 14 -35 -8 0 0 0 -1 0 1 0 1 0 0 semicupg.dat
+1 14 -35 -8 0 0 0 1 0 1 0 -1 0 0 semicupg.dat
+1 14 -35 6 0 0 0 -1 0 -1 0 -1 0 0 semicupg.dat
+1 14 -35 6 0 0 0 1 0 -1 0 1 0 0 semicupg.dat
+1 14 -36 -2 0 -1 0 0 0 1 0 0 0 -1 popa6p.dat
+1 14 -36 -2 0 -1 0 0 0 -1 0 0 0 1 popa6p.dat
+1 14 -36 -2 0 1 0 0 0 -1 0 0 0 -1 popa6p.dat
+1 14 -36 -1 -50 0 1 0 1 0 0 0 0 -1 bisgreje.dat
+1 14 -36 -1 50 0 1 0 1 0 0 0 0 -1 bisgreje.dat
+0

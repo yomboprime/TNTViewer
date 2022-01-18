@@ -1,0 +1,67 @@
+0 Dump truck
+0 Name: dumptruck.ldr
+0 cpcbegin
+0 Tente ruta USA
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 0 -90 0 50 0 0 -1 0 1 0 1 0 0 placa4x6.dat
+1 0 -110 0 50 -1 0 0 0 1 0 0 0 -1 placa2.dat
+1 0 -110 8 10 -1 0 0 0 1 0 0 0 -1 placa2.dat
+1 0 -130 0 30 0 0 1 0 1 0 -1 0 0 placa2x3.dat
+1 0 -150 8 -10 0 0 1 0 1 0 -1 0 0 placa2x3.dat
+1 0 -170 0 30 0 0 1 0 1 0 -1 0 0 placa2x3.dat
+1 0 -130 0 -30 0 0 1 0 1 0 -1 0 0 placa2x3.dat
+1 0 -170 0 -30 0 0 1 0 1 0 -1 0 0 placa2x3.dat
+1 15 -150 -8 -70 1 0 0 0 1 0 0 0 1 rallado2.dat
+1 14 -150 -32 -10 0 0 1 0 1 0 -1 0 0 rallado2.dat
+1 14 -110 -32 -10 -1 0 0 0 1 0 0 0 -1 rallado2.dat
+1 14 -90 -56 -10 -1 0 0 0 1 0 0 0 -1 jacen2x4.dat
+1 14 -170 -16 190 0 0 1 0 1 0 -1 0 0 placa4x8.dat
+1 0 -150 -56 10 0 0 1 0 1 0 -1 0 0 bald2.dat
+1 14 -170 -80 -70 1 0 0 0 1 0 0 0 1 bald2x2r.dat
+1 14 -130 -80 -70 1 0 0 0 1 0 0 0 1 bald2x2r.dat
+1 14 -130 -24 70 1 0 0 0 1 0 0 0 1 pinzaesq.dat
+1 14 -130 -24 150 0 0 1 0 1 0 -1 0 0 pinzaesq.dat
+1 14 -130 -24 150 -1 0 0 0 1 0 0 0 -1 pinzaesq.dat
+1 14 -130 -24 70 0 0 -1 0 1 0 1 0 0 pinzaesq.dat
+1 14 -150 -80 -10 0 0 1 0 1 0 -1 0 0 bald2.dat
+1 0 -130 -32 -50 1 0 0 0 1 0 0 0 1 cabant.dat
+1 14 -110 -32 -50 0 0 -1 0 1 0 1 0 0 rallado2.dat
+1 14 -170 -8 -10 1 0 0 0 1 0 0 0 1 jacena4.dat
+1 14 -150 -8 -90 0 0 -1 0 1 0 1 0 0 jacena4.dat
+1 4 -171 -9 -104.5 0 0 1 0 -1 0 1 0 0 dumptrur.dat
+1 4 -89 -9 -104.5 0 0 1 0 -1 0 1 0 0 dumptrul.dat
+1 14 -90 -8 -90 0 0 -1 0 1 0 1 0 0 jacena4.dat
+1 14 -110 -8 -50 0 0 -1 0 1 0 1 0 0 jacen2x2.dat
+1 14 -150 -8 170 0 0 1 0 1 0 -1 0 0 placa2x8.dat
+1 14 -130 -24 70 1 0 0 0 1 0 0 0 1 pinzastr.dat
+1 14 -130 -24 110 1 0 0 0 1 0 0 0 1 pinzastr.dat
+1 14 -130 -24 150 -1 0 0 0 1 0 0 0 -1 pinzastr.dat
+1 14 -130 -24 110 -1 0 0 0 1 0 0 0 -1 pinzastr.dat
+1 383 -160 -37 0 -1 0 0 0 1 0 0 0 -1 tbescrct.dat
+1 383 -100 -37 0 -1 0 0 0 1 0 0 0 -1 tbescrct.dat
+1 4 -100 -83 -19 0 0 -1 0 1 0 1 0 0 antnincl.dat
+1 14 -160 -80 -20 0 0 -1 0 1 0 1 0 0 amortigu.dat
+1 0 -110 8 10 0 0 -1 0 1 0 1 0 0 placa2x8.dat
+1 0 -110 32 -60 0 0 -1 0 1 0 1 0 0 jacen2x2.dat
+1 0 -110 32 130 0 0 -1 0 1 0 1 0 0 jacen2x2.dat
+1 0 -110 32 70 0 0 -1 0 1 0 1 0 0 jacen2x2.dat
+1 14 -130 0 -70 1 0 0 0 1 0 0 0 1 paracq21.dat
+1 15 -90 24 -86 -1 0 0 0 -0.981627 -0.190809 0 -0.190809 0.981627 dtfaros.dat
+1 4 -90 -56 -50 0 0 1 0 -1 0 1 0 0 dumpflag.dat
+1 4 -170 -56 -50 0 0 1 0 -1 0 1 0 0 dumpflag.dat
+1 4 -110 32 -60 -1 0 0 0 1 0 0 0 -1 llanrutt.dat
+1 0 -110 32 -60 -1 0 0 0 1 0 0 0 -1 ruta21nm.dat
+1 4 -150 32 -20 1 0 0 0 1 0 0 0 1 llanrutt.dat
+1 0 -150 32 -20 1 0 0 0 1 0 0 0 1 ruta21nm.dat
+1 4 -110 32 130 -1 0 0 0 1 0 0 0 -1 llanrutt.dat
+1 0 -110 32 130 -1 0 0 0 1 0 0 0 -1 ruta21nm.dat
+1 4 -110 32 70 -1 0 0 0 1 0 0 0 -1 llanrutt.dat
+1 0 -110 32 70 -1 0 0 0 1 0 0 0 -1 ruta21nm.dat
+1 4 -150 32 110 1 0 0 0 1 0 0 0 1 llanrutt.dat
+1 0 -150 32 110 1 0 0 0 1 0 0 0 1 ruta21nm.dat
+1 4 -150 32 170 1 0 0 0 1 0 0 0 1 llanrutt.dat
+1 0 -150 32 170 1 0 0 0 1 0 0 0 1 ruta21nm.dat
+1 14 -110 16 10 0 0 -1 0 1 0 1 0 0 deposito.dat
+1 14 -150 16 50 0 0 1 0 1 0 -1 0 0 deposito.dat
+0

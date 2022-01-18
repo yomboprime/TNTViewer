@@ -1,0 +1,46 @@
+0 Generador movil
+0 Name: Combi_5_8.ldr
+0 Author: cpcbegin
+0 Tente astro: Combi 6
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 0 100 40 10 1 0 0 0 1 0 0 0 1 ruetober.dat
+1 0 100 40 150 1 0 0 0 1 0 0 0 1 ruetober.dat
+1 1 70 0 150 1 0 0 0 1 0 0 0 1 jacena2.dat
+1 0 70 -24 150 1 0 0 0 1 0 0 0 1 sillastr.dat
+1 383 80 0 60 0 0 1 0 1 0 -1 0 0 tbescrct.dat
+1 1 70 16 190 0 0 1 0 1 0 -1 0 0 placa2x8.dat
+1 1 70 16 30 0 0 1 0 1 0 -1 0 0 placa2x8.dat
+1 15 70 8 210 0 0 1 0 1 0 -1 0 0 placa2x3.dat
+1 15 120 0 130 -1 0 0 0 1 0 0 0 -1 placa2x3.dat
+1 4 20 0 110 1 0 0 0 1 0 0 0 1 cilindr2.dat
+1 4 160 0 110 1 0 0 0 1 0 0 0 1 cilindr2.dat
+1 1 90 8 110 1 0 0 0 1 0 0 0 1 alaastro.dat
+1 1 90 8 110 -1 0 0 0 1 0 0 0 -1 alaastro.dat
+1 0 110 8 -70 0 0 -1 0 1 0 1 0 0 pinzastr.dat
+1 1 90 0 170 1 0 0 0 1 0 0 0 1 semicupp.dat
+1 15 90 0 170 1 0 0 0 1 0 0 0 1 astgrfpq.dat
+1 1 90 8 -90 -1 0 0 0 1 0 0 0 -1 semicupp.dat
+1 15 90 8 -90 -1 0 0 0 1 0 0 0 -1 astgrfpq.dat
+1 4 100 8 20 0 0 -1 0 1 0 1 0 0 cilindro.dat
+1 4 90 -8 120 0 0 -1 0 1 0 1 0 0 cilindro.dat
+1 4 90 -56 120 0 0 -1 0 1 0 1 0 0 cilindro.dat
+1 4 90 -80 120 0 0 -1 0 1 0 1 0 0 cilindro.dat
+1 15 90 26 -38 0 0 -1 -1 0 0 0 1 0 cilindro.dat
+1 15 90 26 -14 0 0 -1 -1 0 0 0 1 0 cilindro.dat
+1 15 90 26 -62 0 0 -1 -1 0 0 0 1 0 cilindro.dat
+1 15 90 -144 120 1 0 0 0 1 0 0 0 1 radar.dat
+1 4 80 8 20 0 0 -1 0 1 0 1 0 0 cilindro.dat
+1 4 80 8 40 0 0 -1 0 1 0 1 0 0 cilindro.dat
+1 4 100 8 40 0 0 -1 0 1 0 1 0 0 cilindro.dat
+1 383 90 -24 30 0 0 -1 0 1 0 1 0 0 amortigu.dat
+1 15 110 -16 10 0 0 -1 0 1 0 1 0 0 placa2x2.dat
+1 0 90 -56 120 0 0 -1 0 1 0 1 0 0 toberast.dat
+1 15 90 26 -86 -1 0 0 0 0 1 0 1 0 antncruz.dat
+1 15 90 -104 120 1 0 0 0 1 0 0 0 1 ramplanz.dat
+1 1 90 -128 120 1 0 0 0 1 0 0 0 1 tubo.dat
+1 15 90 16 10 -1 0 0 0 0 1 0 1 0 enganch2.dat
+1 15 90 -12.768 -55.33 1 0 0 0 0 1 0 -1 0 astpiern.dat
+1 15 90 -14.768 -57.33 1 0 0 0 0.866025 0.5 0 -0.5 0.866025 astcuerv.dat
+1 0 90 -8 158 -1 0 0 0 1 0 0 0 -1 tbcb1_58.dat
+0

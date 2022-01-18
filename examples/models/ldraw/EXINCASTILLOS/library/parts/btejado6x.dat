@@ -1,0 +1,10 @@
+0 Tejados Exin Tejado Biselado 6x Cerrado Ambos Lados
+0 Name: btejado6x.dat
+0 Author: FJB
+0 01/05/2007
+
+1 16 0 0 72 1 0 0 0 1 0 0 0 -1 Exin\btejado1xi.dat
+1 16 0 0 24 1 0 0 0 1 0 0 0 1 Exin\btejado1x.dat
+1 16 0 0 -24 1 0 0 0 1 0 0 0 1 Exin\btejado1x.dat
+1 16 0 0 -72 1 0 0 0 1 0 0 0 1 Exin\btejado1xi.dat
+

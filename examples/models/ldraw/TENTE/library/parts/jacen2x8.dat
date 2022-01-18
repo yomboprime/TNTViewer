@@ -1,0 +1,74 @@
+0 Jacena 2x8
+0 Name: jacen2x8.DAT
+0 Author: jasolo
+0 !LDRAW_ORG Unofficial_Part
+0 BFC CERTIFY CCW
+0 BFC CERTIFY INVERTNEXT
+1 16 80 0 20 77.5 0 0 0 -21.5 0 0 0 17.5 BOX4.DAT
+4 16 160 0 40 157.5 0 37.5 2.5 0 37.5 0 0 40
+4 16 0 0 0 2.5 0 2.5 157.5 0 2.5 160 0 0
+4 16 160 0 0 157.5 0 2.5 157.5 0 37.5 160 0 40
+4 16 0 0 40 2.5 0 37.5 2.5 0 2.5 0 0 0
+1 16 80 0 20 80 0 0 0 -24 0 0 0 20 box5.dat
+1 16 10 0 10 1 0 0 0 1 0 0 0 1 s\teton.dat
+1 16 10 0 30 1 0 0 0 1 0 0 0 1 s\teton.dat
+1 16 30 0 10 1 0 0 0 1 0 0 0 1 s\teton.dat
+1 16 30 0 30 1 0 0 0 1 0 0 0 1 s\teton.dat
+1 16 50 0 30 1 0 0 0 1 0 0 0 1 s\teton.dat
+1 16 70 0 30 1 0 0 0 1 0 0 0 1 s\teton.dat
+1 16 90 0 30 1 0 0 0 1 0 0 0 1 s\teton.dat
+1 16 110 0 30 1 0 0 0 1 0 0 0 1 s\teton.dat
+1 16 130 0 30 1 0 0 0 1 0 0 0 1 s\teton.dat
+1 16 150 0 30 1 0 0 0 1 0 0 0 1 s\teton.dat
+1 16 50 0 10 1 0 0 0 1 0 0 0 1 s\teton.dat
+1 16 70 0 10 1 0 0 0 1 0 0 0 1 s\teton.dat
+1 16 90 0 10 1 0 0 0 1 0 0 0 1 s\teton.dat
+1 16 110 0 10 1 0 0 0 1 0 0 0 1 s\teton.dat
+1 16 130 0 10 1 0 0 0 1 0 0 0 1 s\teton.dat
+1 16 150 0 10 1 0 0 0 1 0 0 0 1 s\teton.dat
+1 16 140 0 10 1 0 0 0 1 0 0 0 1 s\pilar.dat
+1 16 120 0 10 1 0 0 0 1 0 0 0 1 s\pilar.dat
+1 16 100 0 10 1 0 0 0 1 0 0 0 1 s\pilar.dat
+1 16 80 0 10 1 0 0 0 1 0 0 0 1 s\pilar.dat
+1 16 60 0 10 1 0 0 0 1 0 0 0 1 s\pilar.dat
+1 16 40 0 10 1 0 0 0 1 0 0 0 1 s\pilar.dat
+1 16 20 0 10 1 0 0 0 1 0 0 0 1 s\pilar.dat
+1 16 140 0 30 1 0 0 0 1 0 0 0 1 s\pilar.dat
+1 16 120 0 30 1 0 0 0 1 0 0 0 1 s\pilar.dat
+1 16 100 0 30 1 0 0 0 1 0 0 0 1 s\pilar.dat
+1 16 80 0 30 1 0 0 0 1 0 0 0 1 s\pilar.dat
+1 16 60 0 30 1 0 0 0 1 0 0 0 1 s\pilar.dat
+1 16 40 0 30 1 0 0 0 1 0 0 0 1 s\pilar.dat
+1 16 20 0 30 1 0 0 0 1 0 0 0 1 s\pilar.dat
+1 16 130 0 20 1 0 0 0 1 0 0 0 1 s\pilar.dat
+1 16 150 0 20 1 0 0 0 1 0 0 0 1 s\pilar.dat
+1 16 110 0 20 1 0 0 0 1 0 0 0 1 s\pilar.dat
+1 16 90 0 20 1 0 0 0 1 0 0 0 1 s\pilar.dat
+1 16 70 0 20 1 0 0 0 1 0 0 0 1 s\pilar.dat
+1 16 50 0 20 1 0 0 0 1 0 0 0 1 s\pilar.dat
+1 16 30 0 20 1 0 0 0 1 0 0 0 1 s\pilar.dat
+1 16 10 0 20 1 0 0 0 1 0 0 0 1 s\pilar.dat
+1 16 80 -24 20 1 0 0 0 1 0 0 0 1 s\cruceta.dat
+1 16 100 -24 20 1 0 0 0 1 0 0 0 1 s\cruceta.dat
+1 16 120 -24 20 1 0 0 0 1 0 0 0 1 s\cruceta.dat
+1 16 140 -24 20 1 0 0 0 1 0 0 0 1 s\cruceta.dat
+1 16 60 -24 20 1 0 0 0 1 0 0 0 1 s\cruceta.dat
+1 16 40 -24 20 1 0 0 0 1 0 0 0 1 s\cruceta.dat
+1 16 20 -24 20 1 0 0 0 1 0 0 0 1 s\cruceta.dat
+1 16 20 -24 0 1 0 0 0 1 0 0 0 1 s\cruceta1.dat
+1 16 0 -24 20 0 0 1 0 1 0 -1 0 0 s\cruceta1.dat
+1 16 160 -24 20 0 0 -1 0 1 0 1 0 0 s\cruceta1.dat
+1 16 40 -24 0 1 0 0 0 1 0 0 0 1 s\cruceta1.dat
+1 16 60 -24 0 1 0 0 0 1 0 0 0 1 s\cruceta1.dat
+1 16 80 -24 0 1 0 0 0 1 0 0 0 1 s\cruceta1.dat
+1 16 100 -24 0 1 0 0 0 1 0 0 0 1 s\cruceta1.dat
+1 16 120 -24 0 1 0 0 0 1 0 0 0 1 s\cruceta1.dat
+1 16 140 -24 0 1 0 0 0 1 0 0 0 1 s\cruceta1.dat
+1 16 140 -24 40 -1 0 0 0 1 0 0 0 -1 s\cruceta1.dat
+1 16 120 -24 40 -1 0 0 0 1 0 0 0 -1 s\cruceta1.dat
+1 16 100 -24 40 -1 0 0 0 1 0 0 0 -1 s\cruceta1.dat
+1 16 80 -24 40 -1 0 0 0 1 0 0 0 -1 s\cruceta1.dat
+1 16 60 -24 40 -1 0 0 0 1 0 0 0 -1 s\cruceta1.dat
+1 16 40 -24 40 -1 0 0 0 1 0 0 0 -1 s\cruceta1.dat
+1 16 20 -24 40 -1 0 0 0 1 0 0 0 -1 s\cruceta1.dat
+0

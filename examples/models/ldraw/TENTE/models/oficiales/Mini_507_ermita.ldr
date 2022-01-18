@@ -1,0 +1,71 @@
+0 Sin_nombre
+0 Name: ermita.ldr
+0 Author: MLCad
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 2 10 8 -80 0 0 -1 0 1 0 1 0 0 placa4x8.dat
+1 2 90 8 -80 0 0 -1 0 1 0 1 0 0 placa4x8.dat
+1 14 -50 0 -60 0 0 -1 0 1 0 1 0 0 jacena6.dat
+1 14 -50 -48 -60 0 0 -1 0 1 0 1 0 0 jacena6.dat
+1 14 -50 0 -20 0 0 -1 0 1 0 1 0 0 jacena2.dat
+1 14 -50 -48 -20 0 0 -1 0 1 0 1 0 0 jacena2.dat
+1 14 -30 -24 -60 0 0 -1 0 1 0 1 0 0 jacena2.dat
+1 14 -30 -24 20 0 0 -1 0 1 0 1 0 0 jacena2.dat
+1 14 -30 -24 -20 0 0 -1 0 1 0 1 0 0 jacen2x2.dat
+1 14 -30 0 40 1 0 0 0 1 0 0 0 1 jacena4.dat
+1 47 -20 -24 50 1 0 0 0 1 0 0 0 1 jacena1.dat
+1 47 40 -24 50 1 0 0 0 1 0 0 0 1 jacena1.dat
+1 14 -10 -24 40 1 0 0 0 1 0 0 0 1 jacena2.dat
+1 47 -10 0 -60 1 0 0 0 1 0 0 0 1 jacena2.dat
+1 47 -10 -48 -60 1 0 0 0 1 0 0 0 1 jacena2.dat
+1 47 -30 -24 -60 1 0 0 0 1 0 0 0 1 jacena2.dat
+1 47 10 -24 -60 1 0 0 0 1 0 0 0 1 jacena2.dat
+1 14 30 -48 -60 1 0 0 0 1 0 0 0 1 jacena2.dat
+1 14 30 0 -60 1 0 0 0 1 0 0 0 1 jacena2.dat
+1 47 -20 -48 50 1 0 0 0 1 0 0 0 1 jacena1.dat
+1 14 -20 0 -50 1 0 0 0 1 0 0 0 1 jacena1.dat
+1 14 60 -24 -50 1 0 0 0 1 0 0 0 1 jacena1.dat
+1 14 -20 -48 -50 1 0 0 0 1 0 0 0 1 jacena1.dat
+1 47 40 -48 50 1 0 0 0 1 0 0 0 1 jacena1.dat
+1 14 60 -48 50 1 0 0 0 1 0 0 0 1 jacena1.dat
+1 14 60 -24 50 1 0 0 0 1 0 0 0 1 jacena1.dat
+1 14 60 0 50 1 0 0 0 1 0 0 0 1 jacena1.dat
+1 15 70 0 0 0 0 -1 0 1 0 1 0 0 puertamr.dat
+1 15 70 0 -40 0 0 -1 0 1 0 1 0 0 puertamr.dat
+1 47 70 0 0 0 0 -1 0 1 0 1 0 0 puertacr.dat
+1 47 70 0 -40 0 0 -1 0 1 0 1 0 0 puertacr.dat
+1 14 -10 -48 40 1 0 0 0 1 0 0 0 1 jacena2.dat
+1 0 -30 -72 80 0 0 1 0 1 0 -1 0 0 tejado8.dat
+1 0 -10 -80 80 0 0 1 0 1 0 -1 0 0 tejado8.dat
+1 0 10 -88 80 0 0 1 0 1 0 -1 0 0 tejado8.dat
+1 14 -10 -96 80 0 0 1 0 1 0 -1 0 0 jacen2x2.dat
+1 14 -10 -120 80 0 0 1 0 1 0 -1 0 0 jacen2x2.dat
+1 0 30 -96 -40 0 0 1 0 1 0 -1 0 0 tejadorm.dat
+1 0 30 -96 0 0 0 1 0 1 0 -1 0 0 tejadorm.dat
+1 0 30 -96 40 0 0 1 0 1 0 -1 0 0 tejadorm.dat
+1 15 20 -144 50 0 0 1 0 1 0 -1 0 0 cilindro.dat
+1 15 20 -144 70 0 0 1 0 1 0 -1 0 0 cilindro.dat
+1 15 0 -144 70 0 0 1 0 1 0 -1 0 0 cilindro.dat
+1 15 0 -144 50 0 0 1 0 1 0 -1 0 0 cilindro.dat
+1 15 20 -168 50 0 0 1 0 1 0 -1 0 0 cilindro.dat
+1 15 0 -168 50 0 0 1 0 1 0 -1 0 0 cilindro.dat
+1 15 20 -200 50 0 0 1 0 1 0 -1 0 0 cilindro.dat
+1 15 0 -200 50 0 0 1 0 1 0 -1 0 0 cilindro.dat
+1 15 20 -200 70 0 0 1 0 1 0 -1 0 0 cilindro.dat
+1 15 0 -200 70 0 0 1 0 1 0 -1 0 0 cilindro.dat
+1 15 -10 -224 80 0 0 1 0 1 0 -1 0 0 bald2x2.dat
+1 15 20 -168 70 0 0 1 0 1 0 -1 0 0 cilindro.dat
+1 15 0 -168 70 0 0 1 0 1 0 -1 0 0 cilindro.dat
+1 15 10 -192 80 0 0 1 0 1 0 -1 0 0 placa2x2.dat
+1 15 -30 -192 80 0 0 1 0 1 0 -1 0 0 placa2x2.dat
+1 0 50 -72 -80 0 0 -1 0 1 0 1 0 0 tejado8.dat
+1 0 30 -80 -80 0 0 -1 0 1 0 1 0 0 tejado8.dat
+1 0 10 -88 -80 0 0 -1 0 1 0 1 0 0 tejado8.dat
+1 14 10 -72 60 -1 0 0 0 1 0 0 0 -1 placa2.dat
+1 14 50 -72 60 -1 0 0 0 1 0 0 0 -1 placa2.dat
+1 14 50 -72 -40 -1 0 0 0 1 0 0 0 -1 placa2.dat
+1 14 10 -72 -40 -1 0 0 0 1 0 0 0 -1 placa2.dat
+1 14 30 -80 -40 -1 0 0 0 1 0 0 0 -1 placa2.dat
+1 14 30 -80 60 -1 0 0 0 1 0 0 0 -1 placa2.dat
+0

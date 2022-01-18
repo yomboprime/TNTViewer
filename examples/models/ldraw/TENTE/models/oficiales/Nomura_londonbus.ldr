@@ -1,0 +1,82 @@
+0 Untitled
+0 Name: londobus.ldr
+0 Author: MLCad
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 4 -10 0 -10 1 0 0 0 1 0 0 0 1 vntcasa.dat
+1 4 30 0 -10 1 0 0 0 1 0 0 0 1 vntcasa.dat
+1 4 -10 56 -10 1 0 0 0 1 0 0 0 1 vntcasa.dat
+1 4 30 56 -10 1 0 0 0 1 0 0 0 1 vntcasa.dat
+1 4 90 56 -10 0 0 -1 0 1 0 1 0 0 vntcasa.dat
+1 4 130 56 30 0 0 -1 0 1 0 1 0 0 vntcasa.dat
+1 4 -90 56 -10 1 0 0 0 1 0 0 0 1 vntcasa.dat
+1 4 -50 56 -10 1 0 0 0 1 0 0 0 1 vntcasa.dat
+1 4 -170 56 30 1 0 0 0 1 0 0 0 1 vntcasa.dat
+1 4 -190 56 70 0 0 1 0 1 0 -1 0 0 vntcasa.dat
+1 4 -130 56 -10 1 0 0 0 1 0 0 0 1 vntcasa.dat
+1 4 -50 56 70 -1 0 0 0 1 0 0 0 -1 vntcasa.dat
+1 4 -90 56 70 -1 0 0 0 1 0 0 0 -1 vntcasa.dat
+1 4 30 56 70 -1 0 0 0 1 0 0 0 -1 vntcasa.dat
+1 4 -10 56 70 -1 0 0 0 1 0 0 0 -1 vntcasa.dat
+1 4 70 56 70 -1 0 0 0 1 0 0 0 -1 vntcasa.dat
+1 4 110 56 70 -1 0 0 0 1 0 0 0 -1 vntcasa.dat
+1 4 -130 56 70 -1 0 0 0 1 0 0 0 -1 vntcasa.dat
+1 4 70 0 -10 1 0 0 0 1 0 0 0 1 vntcasa.dat
+1 4 -50 0 -10 1 0 0 0 1 0 0 0 1 vntcasa.dat
+1 4 -90 0 -10 1 0 0 0 1 0 0 0 1 vntcasa.dat
+1 4 -130 0 -10 1 0 0 0 1 0 0 0 1 vntcasa.dat
+1 4 -170 0 -10 1 0 0 0 1 0 0 0 1 vntcasa.dat
+1 4 -50 0 70 -1 0 0 0 1 0 0 0 -1 vntcasa.dat
+1 4 -90 0 70 -1 0 0 0 1 0 0 0 -1 vntcasa.dat
+1 4 -130 0 70 -1 0 0 0 1 0 0 0 -1 vntcasa.dat
+1 4 -10 0 70 -1 0 0 0 1 0 0 0 -1 vntcasa.dat
+1 4 30 0 70 -1 0 0 0 1 0 0 0 -1 vntcasa.dat
+1 4 70 0 70 -1 0 0 0 1 0 0 0 -1 vntcasa.dat
+1 4 110 0 70 -1 0 0 0 1 0 0 0 -1 vntcasa.dat
+1 4 -30 -48 70 -1 0 0 0 1 0 0 0 -1 placa4x8.dat
+1 4 -150 -56 70 -1 0 0 0 1 0 0 0 -1 bald2x2r.dat
+1 4 -110 -56 70 -1 0 0 0 1 0 0 0 -1 bald2x2r.dat
+1 4 -70 -56 70 -1 0 0 0 1 0 0 0 -1 bald2x2r.dat
+1 4 -30 -56 70 -1 0 0 0 1 0 0 0 -1 bald2x2r.dat
+1 4 10 -56 70 -1 0 0 0 1 0 0 0 -1 bald2x2r.dat
+1 4 50 -56 70 -1 0 0 0 1 0 0 0 -1 bald2x2r.dat
+1 4 90 -56 70 -1 0 0 0 1 0 0 0 -1 bald2x2r.dat
+1 4 130 -56 70 -1 0 0 0 1 0 0 0 -1 bald2x2r.dat
+1 4 90 -56 -10 1 0 0 0 1 0 0 0 1 bald2x2r.dat
+1 4 50 -56 -10 1 0 0 0 1 0 0 0 1 bald2x2r.dat
+1 4 10 -56 -10 1 0 0 0 1 0 0 0 1 bald2x2r.dat
+1 4 -30 -56 -10 1 0 0 0 1 0 0 0 1 bald2x2r.dat
+1 4 -70 -56 -10 1 0 0 0 1 0 0 0 1 bald2x2r.dat
+1 4 -110 -56 -10 1 0 0 0 1 0 0 0 1 bald2x2r.dat
+1 4 -150 -56 -10 1 0 0 0 1 0 0 0 1 bald2x2r.dat
+1 4 -190 -56 -10 1 0 0 0 1 0 0 0 1 bald2x2r.dat
+1 4 -190 56 30 0 0 1 0 1 0 -1 0 0 bald2x2r.dat
+1 4 -150 56 -10 1 0 0 0 1 0 0 0 1 bald2.dat
+1 4 90 64 70 -1 0 0 0 1 0 0 0 -1 placa4x8.dat
+1 4 -130 32 50 0 0 1 0 1 0 -1 0 0 jacena2.dat
+1 4 -130 56 50 0 0 1 0 1 0 -1 0 0 jacena2.dat
+1 4 -70 64 70 -1 0 0 0 1 0 0 0 -1 placa4x6.dat
+1 4 90 64 70 0 0 1 0 1 0 -1 0 0 placa2x2.dat
+1 4 90 80 70 0 0 1 0 1 0 -1 0 0 placa2x2.dat
+1 4 90 80 30 0 0 1 0 1 0 -1 0 0 placa2x2.dat
+1 4 90 72 50 1 0 0 0 1 0 0 0 1 placa2.dat
+1 4 -30 72 10 1 0 0 0 1 0 0 0 1 placa2x8.dat
+1 4 -130 72 10 1 0 0 0 1 0 0 0 1 placa2x3.dat
+1 4 -170 72 10 1 0 0 0 1 0 0 0 1 placa2x2.dat
+1 4 -170 64 30 0 0 1 0 1 0 -1 0 0 parac21j.dat
+1 383 -150 72 30 0 0 1 0 1 0 -1 0 0 rueruj2l.dat
+1 383 60 72 30 0 0 1 0 1 0 -1 0 0 rueruj2l.dat
+1 383 120 39 0 0 0 1 1 0 0 0 1 0 eje26.dat
+1 4 -120 80 10 1 0 0 0 1 0 0 0 1 deposito.dat
+1 4 -80 80 50 -1 0 0 0 1 0 0 0 -1 deposito.dat
+1 4 130 -48 70 -1 0 0 0 1 0 0 0 -1 placa4x8.dat
+1 4 -30 8 70 -1 0 0 0 1 0 0 0 -1 placa4x8.dat
+1 4 130 8 70 -1 0 0 0 1 0 0 0 -1 placa4x8.dat
+1 4 130 0 -10 0 0 -1 0 1 0 1 0 0 ventan4.dat
+1 4 -190 0 70 0 0 1 0 1 0 -1 0 0 ventan4.dat
+1 4 -70 88 50 1 0 0 0 1 0 0 0 1 jacena4.dat
+1 4 -70 88 -10 1 0 0 0 1 0 0 0 1 jacena4.dat
+1 4 20 88 0 1 0 0 0 1 0 0 0 1 jacena1.dat
+1 4 20 88 60 1 0 0 0 1 0 0 0 1 jacena1.dat
+0

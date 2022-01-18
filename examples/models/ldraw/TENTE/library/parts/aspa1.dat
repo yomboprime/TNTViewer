@@ -1,0 +1,8 @@
+0 Aspa Helicoptero     |A:A|V:V
+0 Name: aspa1.dat
+0 Author: betatron & jasolo
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+0 BFC CERTIFY CCW
+1 16 0 -38.25 0 1 0 0 0 1 0 0 0 1 heliaspa.dat
+0

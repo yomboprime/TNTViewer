@@ -1,0 +1,11 @@
+0 Base Exin Bloque 1x1 Biselado 2 (mayor bisel)
+0 Name: dbblock1x.dat
+0 Author: FJB
+0 01/05/2007
+
+1 16 0 0 0 1 0 0 0 1 0 0 0 1 Exin\estud.dat
+1 16 0 0 0 1 0 0 0 1 0 0 0 1 Exin\dbtp4x.dat
+1 16 0 2 0 1 0 0 0 46 0 0 0 1 Exin\dbbox4x.dat
+1 16 0 48 0 1 0 0 0 1 0 0 0 1 Exin\dbdn4x.dat
+0
+

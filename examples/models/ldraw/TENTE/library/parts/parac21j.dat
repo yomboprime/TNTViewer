@@ -1,0 +1,12 @@
+0 Parachoques 21 con Faros y Radiador     |R:R
+0 Name: parac21j.dat
+0 Author: betatron
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 16 0 0 0 1 0 0 0 1 0 0 0 1 paracq21.dat
+1 15 0 0 0 1 0 0 0 1 0 0 0 1 faros212.dat
+1 15 0.5 -3.039 -1.396 1 0 0 0 0.984808 -0.173648 0 0.173648 0.984808 radiadjp.dat
+1 15 0 0 0 1 0 0 0 1 0 0 0 1 faros214.dat
+1 0 0 0 0 1 0 0 0 1 0 0 0 1 faros213.dat
+0

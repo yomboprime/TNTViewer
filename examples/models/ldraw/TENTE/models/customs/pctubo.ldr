@@ -1,0 +1,261 @@
+0 Untitled
+0 Name: pctubo.ldr
+0 Author: MLCad
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+0 MLCAD BTG cpu
+1 226 26 -48 -200 0 -1 0 1 0 0 0 0 1 alfajacn.dat
+0 MLCAD BTG cpu
+1 15 50 -48 -220 0 -1 0 1 0 0 0 0 1 cuna.dat
+0 MLCAD BTG cpu
+1 226 50 52 -220 0 -1 0 0 0 -1 1 0 0 jacena8.dat
+0 MLCAD BTG cpu
+1 226 74 52 -220 0 -1 0 0 0 -1 1 0 0 baldc4x6.dat
+0 MLCAD BTG cpu
+1 226 74 52 -140 0 -1 0 0 0 -1 1 0 0 baldc4x6.dat
+0 MLCAD BTG cpu
+1 226 26 52 -220 0 -1 0 0 0 -1 1 0 0 jacena8.dat
+0 MLCAD BTG cpu
+1 226 50 -48 -220 0 -1 0 0 0 -1 1 0 0 jacena8.dat
+0 MLCAD BTG cpu
+1 226 26 -48 -220 0 -1 0 0 0 -1 1 0 0 jacena8.dat
+1 1 350 32 -220 0 0 -1 0 1 0 1 0 0 volkswag.dat
+0 MLCAD BTG monitor
+1 7 160 20 -99 -1 0 0 0 1 0 0 0 -1 chimplac.dat
+0 MLCAD BTG monitor
+1 7 280 20 -99 -1 0 0 0 1 0 0 0 -1 chimplac.dat
+0 MLCAD BTG monitor
+1 226 230 20 -90 -1 0 0 0 1 0 0 0 -1 placa2.dat
+0 MLCAD BTG monitor
+1 226 210 36 -90 1 0 0 0 1 0 0 0 1 platfgi2.dat
+0 MLCAD BTG monitor
+1 226 210 40 -91 1 0 0 0 1 0 0 0 1 rotrinf2.dat
+0 MLCAD BTG monitor
+1 226 210 48 -91 0 0 -1 0 1 0 1 0 0 popa6p.dat
+0 MLCAD BTG monitor
+1 226 210 48 -91 0 0 1 0 1 0 -1 0 0 popa6p.dat
+0 MLCAD BTG monitor
+1 226 170 40 -111 1 0 0 0 1 0 0 0 1 bald2.dat
+0 MLCAD BTG monitor
+1 226 230 40 -111 1 0 0 0 1 0 0 0 1 bald2.dat
+0 MLCAD BTG monitor
+1 226 230 20 -50 -1 0 0 0 1 0 0 0 -1 bald2x2.dat
+0 MLCAD BTG monitor
+1 226 190 20 -110 0 0 1 0 1 0 -1 0 0 bald2.dat
+0 MLCAD BTG cpu
+1 383 26 -48 -60 0 -1 0 0 0 1 -1 0 0 ventana1m.dat
+0 MLCAD BTG cpu
+1 383 26 -28 -60 0 -1 0 0 0 1 -1 0 0 ventana1m.dat
+0 MLCAD BTG cpu
+1 383 26 -8 -60 0 -1 0 0 0 1 -1 0 0 ventana1m.dat
+0 MLCAD BTG cpu
+1 383 26 12 -60 0 -1 0 0 0 1 -1 0 0 ventana1m.dat
+0 MLCAD BTG cpu
+1 226 50 -8 -200 0 -1 0 1 0 0 0 0 1 rallado2.dat
+0 MLCAD BTG cpu
+1 226 26 -8 -200 0 -1 0 1 0 0 0 0 1 rallado2.dat
+0 MLCAD BTG cpu
+1 226 18 -68 -60 0 -1 0 0 0 1 -1 0 0 placa6x8.dat
+0 GROUP 15 cpu
+0 MLCAD BTG teclado
+1 15 290 35.622 -195.723 -1 0 0 0 -0.996195 -0.0871557 0 -0.0871557 0.996195 placacty.dat
+0 MLCAD BTG teclado
+1 15 170 35.622 -195.723 -1 0 0 0 -0.996195 -0.0871557 0 -0.0871557 0.996195 placacty.dat
+0 MLCAD BTG teclado
+1 15 290 32.882 -256.192 -1 0 0 0 -0.996195 -0.0871557 0 -0.0871557 0.996195 placa4x8.dat
+0 GROUP 3 teclado
+0 MLCAD BTG monitor
+1 226 130 -128 -124 -1 0 0 0 0 1 0 1 0 bald2.dat
+0 MLCAD BTG monitor
+1 226 130 -88 -124 -1 0 0 0 0 1 0 1 0 bald2.dat
+0 MLCAD BTG monitor
+1 226 130 -48 -124 -1 0 0 0 0 1 0 1 0 bald2.dat
+0 MLCAD BTG monitor
+1 226 310 -128 -124 -1 0 0 0 0 1 0 1 0 bald2.dat
+0 MLCAD BTG monitor
+1 226 310 -88 -124 -1 0 0 0 0 1 0 1 0 bald2.dat
+0 MLCAD BTG monitor
+1 226 310 -48 -124 -1 0 0 0 0 1 0 1 0 bald2.dat
+0 MLCAD BTG monitor
+1 226 110 -148 -124 0 0 1 1 0 0 0 1 0 bald2.dat
+0 MLCAD BTG monitor
+1 226 150 -148 -124 0 0 1 1 0 0 0 1 0 bald2.dat
+0 MLCAD BTG monitor
+1 226 190 -148 -124 0 0 1 1 0 0 0 1 0 bald2.dat
+0 MLCAD BTG monitor
+1 226 230 -148 -124 0 0 1 1 0 0 0 1 0 bald2.dat
+0 MLCAD BTG monitor
+1 226 270 -148 -124 0 0 1 1 0 0 0 1 0 bald2.dat
+0 MLCAD BTG monitor
+1 226 110 -8 -124 0 0 1 1 0 0 0 1 0 bald2.dat
+0 MLCAD BTG monitor
+1 226 150 -8 -124 0 0 1 1 0 0 0 1 0 bald2.dat
+0 MLCAD BTG monitor
+1 226 190 -8 -124 0 0 1 1 0 0 0 1 0 bald2.dat
+0 MLCAD BTG monitor
+1 226 230 -8 -124 0 0 1 1 0 0 0 1 0 bald2.dat
+0 MLCAD BTG monitor
+1 226 270 -8 -124 0 0 1 1 0 0 0 1 0 bald2.dat
+0 MLCAD BTG monitor
+1 226 110 -148 -116 0 0 1 1 0 0 0 1 0 placa4.dat
+0 MLCAD BTG monitor
+1 226 110 -68 -116 0 0 1 1 0 0 0 1 0 placa4.dat
+0 MLCAD BTG monitor
+1 226 130 12 -116 1 0 0 0 0 -1 0 1 0 placa4.dat
+0 MLCAD BTG monitor
+1 226 310 -108 -108 -1 0 0 0 0 1 0 1 0 placa6x8.dat
+0 MLCAD BTG monitor
+1 226 110 -48 -108 0 0 1 1 0 0 0 1 0 placa2x3.dat
+0 MLCAD BTG monitor
+1 226 110 -108 -108 0 0 1 1 0 0 0 1 0 placa2x3.dat
+0 MLCAD BTG monitor
+1 226 110 -108 -92 1 0 0 0 0 -1 0 1 0 cuna.dat
+0 MLCAD BTG monitor
+1 226 190 12 -84 1 0 0 0 0 -1 0 1 0 cuna.dat
+0 MLCAD BTG monitor
+1 226 250 12 -84 1 0 0 0 0 -1 0 1 0 cuna.dat
+0 MLCAD BTG monitor
+1 226 130 12 -84 1 0 0 0 0 -1 0 1 0 cuna.dat
+0 MLCAD BTG monitor
+1 226 150 -108 -92 1 0 0 0 0 -1 0 1 0 cuna.dat
+0 MLCAD BTG monitor
+1 226 190 -108 -92 1 0 0 0 0 -1 0 1 0 cuna.dat
+0 MLCAD BTG monitor
+1 226 230 -108 -92 1 0 0 0 0 -1 0 1 0 cuna.dat
+0 MLCAD BTG monitor
+1 226 270 -108 -92 1 0 0 0 0 -1 0 1 0 cuna.dat
+0 MLCAD BTG monitor
+1 226 110 -88 -68 1 0 0 0 0 -1 0 1 0 cuna.dat
+0 MLCAD BTG monitor
+1 226 150 -88 -68 1 0 0 0 0 -1 0 1 0 cuna.dat
+0 MLCAD BTG monitor
+1 226 190 -88 -68 1 0 0 0 0 -1 0 1 0 cuna.dat
+0 MLCAD BTG monitor
+1 226 230 -88 -68 1 0 0 0 0 -1 0 1 0 cuna.dat
+0 MLCAD BTG monitor
+1 226 270 -88 -68 1 0 0 0 0 -1 0 1 0 cuna.dat
+0 MLCAD BTG monitor
+1 226 110 -68 -44 1 0 0 0 0 -1 0 1 0 cuna.dat
+0 MLCAD BTG monitor
+1 226 150 -68 -44 1 0 0 0 0 -1 0 1 0 cuna.dat
+0 MLCAD BTG monitor
+1 226 190 -68 -44 1 0 0 0 0 -1 0 1 0 cuna.dat
+0 MLCAD BTG monitor
+1 226 230 -68 -44 1 0 0 0 0 -1 0 1 0 cuna.dat
+0 MLCAD BTG monitor
+1 226 270 -68 -44 1 0 0 0 0 -1 0 1 0 cuna.dat
+0 MLCAD BTG monitor
+1 226 210 12 -116 1 0 0 0 0 -1 0 1 0 placa4.dat
+0 MLCAD BTG monitor
+1 226 210 -128 -116 1 0 0 0 0 -1 0 1 0 placa4.dat
+0 MLCAD BTG monitor
+1 226 130 -128 -116 1 0 0 0 0 -1 0 1 0 placa4.dat
+0 MLCAD BTG monitor
+1 32 130 -88 -116 1 0 0 0 0 -1 0 1 0 bald2x2.dat
+0 MLCAD BTG monitor
+1 32 170 -88 -116 1 0 0 0 0 -1 0 1 0 bald2x2.dat
+0 MLCAD BTG monitor
+1 32 210 -88 -116 1 0 0 0 0 -1 0 1 0 bald2x2.dat
+0 MLCAD BTG monitor
+1 32 250 -88 -116 1 0 0 0 0 -1 0 1 0 bald2x2.dat
+0 MLCAD BTG monitor
+1 32 130 -48 -116 1 0 0 0 0 -1 0 1 0 bald2x2.dat
+0 MLCAD BTG monitor
+1 32 170 -48 -116 1 0 0 0 0 -1 0 1 0 bald2x2.dat
+0 MLCAD BTG monitor
+1 32 210 -48 -116 1 0 0 0 0 -1 0 1 0 bald2x2.dat
+0 MLCAD BTG monitor
+1 32 250 -48 -116 1 0 0 0 0 -1 0 1 0 bald2x2.dat
+0 MLCAD BTG monitor
+1 32 130 -8 -116 1 0 0 0 0 -1 0 1 0 bald2x2.dat
+0 MLCAD BTG monitor
+1 32 170 -8 -116 1 0 0 0 0 -1 0 1 0 bald2x2.dat
+0 MLCAD BTG monitor
+1 32 210 -8 -116 1 0 0 0 0 -1 0 1 0 bald2x2.dat
+0 MLCAD BTG monitor
+1 32 250 -8 -116 1 0 0 0 0 -1 0 1 0 bald2x2.dat
+0 MLCAD BTG monitor
+1 226 290 -68 -116 0 0 1 1 0 0 0 1 0 placa4.dat
+0 MLCAD BTG monitor
+1 226 290 -148 -116 0 0 1 1 0 0 0 1 0 placa4.dat
+0 MLCAD BTG monitor
+1 226 180 2 -84 0 0 1 1 0 0 0 1 0 jacena1.dat
+0 MLCAD BTG monitor
+1 226 120 -78 -84 0 0 1 1 0 0 0 1 0 jacena1.dat
+0 MLCAD BTG monitor
+1 226 300 -78 -84 0 0 1 1 0 0 0 1 0 jacena1.dat
+0 MLCAD BTG monitor
+1 226 270 -108 -92 0 0 1 1 0 0 0 1 0 bald2.dat
+0 MLCAD BTG monitor
+1 226 230 -108 -92 0 0 1 1 0 0 0 1 0 bald2.dat
+0 MLCAD BTG monitor
+1 226 190 -108 -92 0 0 1 1 0 0 0 1 0 bald2.dat
+0 MLCAD BTG monitor
+1 226 150 -108 -92 0 0 1 1 0 0 0 1 0 bald2.dat
+0 MLCAD BTG monitor
+1 226 110 -108 -92 0 0 1 1 0 0 0 1 0 bald2.dat
+0 MLCAD BTG monitor
+1 226 110 -88 -68 0 0 1 1 0 0 0 1 0 bald2.dat
+0 MLCAD BTG monitor
+1 226 150 -88 -68 0 0 1 1 0 0 0 1 0 bald2.dat
+0 MLCAD BTG monitor
+1 226 190 -88 -68 0 0 1 1 0 0 0 1 0 bald2.dat
+0 MLCAD BTG monitor
+1 226 230 -88 -68 0 0 1 1 0 0 0 1 0 bald2.dat
+0 MLCAD BTG monitor
+1 226 270 -88 -68 0 0 1 1 0 0 0 1 0 bald2.dat
+0 MLCAD BTG monitor
+1 226 110 -68 -44 0 0 1 1 0 0 0 1 0 bald2.dat
+0 MLCAD BTG monitor
+1 226 150 -48 -36 1 0 0 0 0 -1 0 1 0 placa2x8.dat
+0 MLCAD BTG monitor
+1 226 110 -48 -36 1 0 0 0 0 -1 0 1 0 placa2x2.dat
+0 MLCAD BTG monitor
+1 226 130 12 -28 1 0 0 0 0 -1 0 1 0 placa4x8.dat
+0 MLCAD BTG monitor
+1 226 130 12 -28 0 0 -1 -1 0 0 0 1 0 placa4.dat
+0 MLCAD BTG monitor
+1 226 310 12 -28 0 0 -1 -1 0 0 0 1 0 placa4.dat
+0 MLCAD BTG monitor
+1 7 220 -18 -20 0 0 -1 -1 0 0 0 1 0 placa1.dat
+0 MLCAD BTG monitor
+1 7 170 -8 -20 0 0 -1 -1 0 0 0 1 0 placa1.dat
+0 MLCAD BTG monitor
+1 7 260 -8 -20 0 0 -1 -1 0 0 0 1 0 placa1.dat
+0 MLCAD BTG monitor
+1 226 150 -68 -44 0 0 1 1 0 0 0 1 0 bald2.dat
+0 MLCAD BTG monitor
+1 226 190 -68 -44 0 0 1 1 0 0 0 1 0 bald2.dat
+0 MLCAD BTG monitor
+1 226 230 -68 -44 0 0 1 1 0 0 0 1 0 bald2.dat
+0 MLCAD BTG monitor
+1 226 270 -68 -44 0 0 1 1 0 0 0 1 0 bald2.dat
+0 MLCAD BTG monitor
+1 226 240 2 -84 0 0 1 1 0 0 0 1 0 jacena1.dat
+0 MLCAD BTG monitor
+1 226 110 -28 -84 0 0 1 1 0 0 0 1 0 jacena2.dat
+0 MLCAD BTG monitor
+1 226 110 12 -60 1 0 0 0 0 -1 0 1 0 jacen2x3.dat
+0 MLCAD BTG monitor
+1 226 250 12 -60 1 0 0 0 0 -1 0 1 0 jacen2x3.dat
+0 MLCAD BTG monitor
+1 226 250 12 -84 1 0 0 0 0 -1 0 1 0 jacen2x3.dat
+0 MLCAD BTG monitor
+1 226 170 12 -60 1 0 0 0 0 -1 0 1 0 jacen2x4.dat
+0 MLCAD BTG monitor
+1 226 150 -8 -36 1 0 0 0 0 -1 0 1 0 jacena6.dat
+0 MLCAD BTG monitor
+1 226 150 12 -36 0 0 -1 -1 0 0 0 1 0 jacen2x3.dat
+0 MLCAD BTG monitor
+1 226 310 12 -36 0 0 -1 -1 0 0 0 1 0 jacen2x3.dat
+0 MLCAD BTG monitor
+1 226 110 -48 -60 1 0 0 0 0 -1 0 1 0 ventana1m.dat
+0 MLCAD BTG monitor
+1 226 110 -28 -60 1 0 0 0 0 -1 0 1 0 ventana1m.dat
+0 MLCAD BTG monitor
+1 226 290 -48 -60 1 0 0 0 0 -1 0 1 0 ventana1m.dat
+0 MLCAD BTG monitor
+1 226 290 -28 -60 1 0 0 0 0 -1 0 1 0 ventana1m.dat
+0 GROUP 107 monitor
+0

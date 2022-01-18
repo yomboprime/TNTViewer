@@ -1,0 +1,8 @@
+0 Chasis Rueda 1     |C:C|V:V
+0 Name: chasisr1.dat
+0 Author: jasolo & plinman
+0 !LDRAW_ORG Unofficial_Part
+0 BFC CERTIFY CCW
+1 4 0 0 -10 1 0 0 0 1 0 0 0 1 ruemicr1.dat
+1 4 0 0 10 -1 0 0 0 1 0 0 0 -1 ruemicr1.dat
+1 4 0 0 0 1 0 0 0 1 0 0 0 1 ejemicro.dat

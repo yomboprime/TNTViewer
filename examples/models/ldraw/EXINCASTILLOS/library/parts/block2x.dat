@@ -1,0 +1,17 @@
+0 Bloque liso 2 puntos
+0 Name: block2x.dat
+0 Author: FJB
+0 01/05/2007
+
+
+1 16 -24 0 0 1 0 0 0 1 0 0 0 1 Exin\estud.dat
+1 16 24 0 0 1 0 0 0 1 0 0 0 1 Exin\estud.dat
+
+1 16 -24 0 0 1 0 0 0 1 0 0 0 1 Exin\tp3x.dat
+1 16 -24 2 0 1 0 0 0 46 0 0 0 1 Exin\box3x.dat
+1 16 -24 48 0 1 0 0 0 1 0 0 0 1 Exin\dn3x.dat
+1 16 24 0 0 -1 0 0 0 1 0 0 0 1 Exin\tp3x.dat
+1 16 24 2 0 -1 0 0 0 46 0 0 0 1 Exin\box3x.dat
+1 16 24 48 0 -1 0 0 0 1 0 0 0 1 Exin\dn3x.dat
+0
+

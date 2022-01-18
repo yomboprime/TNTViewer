@@ -1,0 +1,66 @@
+0 Gasolinera (ruta clasica)
+0 Name: gasolinerarutaclasica.ldr
+0 cpcbegin
+0 Tente ruta
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 0 -130 8 0 0 0 -1 0 1 0 1 0 0 placa4x6.dat
+1 0 -130 8 -160 0 0 -1 0 1 0 1 0 0 placa4x8.dat
+1 4 -150 -24 -20 0 0 -1 0 1 0 1 0 0 jacen2x2.dat
+1 15 -150 0 -20 0 0 -1 0 1 0 1 0 0 jacen2x2.dat
+1 4 -150 -72 -20 0 0 -1 0 1 0 1 0 0 jacen2x2.dat
+1 15 -150 -48 -20 0 0 -1 0 1 0 1 0 0 jacen2x2.dat
+1 15 -150 -120 -20 0 0 -1 0 1 0 1 0 0 jacen2x2.dat
+1 15 -150 -96 -20 0 0 -1 0 1 0 1 0 0 jacen2x2.dat
+1 15 -170 0 60 0 0 -1 0 1 0 1 0 0 jacena2.dat
+1 47 -170 -24 60 0 0 -1 0 1 0 1 0 0 jacena2.dat
+1 1 -170 -48 100 -1 0 0 0 1 0 0 0 -1 bald2.dat
+1 15 -170 0 -160 0 0 -1 0 1 0 1 0 0 jacena2.dat
+1 47 -170 -24 -160 0 0 -1 0 1 0 1 0 0 jacena2.dat
+1 4 -170 -48 -120 -1 0 0 0 1 0 0 0 -1 bald2.dat
+1 4 -70 -144 0 -1 0 0 0 1 0 0 0 -1 placa6x8.dat
+0 Gasolinera (ruta clasica)
+0 Name: gasolinerarutaclasica.ldr
+0 cpcbegin
+0 Tente ruta
+1 0 70 8 0 0 0 -1 0 1 0 1 0 0 placa4x6.dat
+1 0 70 8 -160 0 0 -1 0 1 0 1 0 0 placa4x8.dat
+1 4 50 -24 -20 0 0 -1 0 1 0 1 0 0 jacen2x2.dat
+1 15 50 0 -20 0 0 -1 0 1 0 1 0 0 jacen2x2.dat
+1 4 50 -72 -20 0 0 -1 0 1 0 1 0 0 jacen2x2.dat
+1 15 50 -48 -20 0 0 -1 0 1 0 1 0 0 jacen2x2.dat
+1 15 50 -120 -20 0 0 -1 0 1 0 1 0 0 jacen2x2.dat
+1 15 50 -152 -20 0 0 -1 0 1 0 1 0 0 jacen2x2.dat
+1 15 -150 -152 -20 0 0 -1 0 1 0 1 0 0 jacen2x2.dat
+1 15 10 -152 20 -1 0 0 0 1 0 0 0 -1 jacen2x8.dat
+1 15 50 -96 -20 0 0 -1 0 1 0 1 0 0 jacen2x2.dat
+1 15 50 0 60 0 0 -1 0 1 0 1 0 0 jacena2.dat
+1 47 50 -24 60 0 0 -1 0 1 0 1 0 0 jacena2.dat
+1 1 50 -48 100 -1 0 0 0 1 0 0 0 -1 bald2.dat
+1 15 50 0 -160 0 0 -1 0 1 0 1 0 0 jacena2.dat
+1 47 50 -24 -160 0 0 -1 0 1 0 1 0 0 jacena2.dat
+1 4 50 -48 -120 -1 0 0 0 1 0 0 0 -1 bald2.dat
+1 4 90 -144 120 -1 0 0 0 1 0 0 0 -1 placa6x8.dat
+1 4 -70 -144 120 -1 0 0 0 1 0 0 0 -1 placa6x8.dat
+1 4 90 -144 0 -1 0 0 0 1 0 0 0 -1 placa6x8.dat
+1 15 10 0 -60 0 0 1 0 1 0 -1 0 0 puertabl.dat
+1 15 -190 0 -60 0 0 1 0 1 0 -1 0 0 puertabl.dat
+1 15 -150 0 -100 0 0 -1 0 1 0 1 0 0 puertabl.dat
+1 15 50 0 -100 0 0 -1 0 1 0 1 0 0 puertabl.dat
+1 15 -150 -72 -100 0 0 -1 0 1 0 1 0 0 placa2x2.dat
+1 15 50 -72 -100 0 0 -1 0 1 0 1 0 0 placa2x2.dat
+1 2 -130 -80 -80 0 0 -1 0 1 0 1 0 0 bald2x2.dat
+1 2 -170 -80 -80 0 0 -1 0 1 0 1 0 0 bald2x2.dat
+1 2 70 -80 -80 0 0 -1 0 1 0 1 0 0 bald2x2.dat
+1 2 30 -80 -80 0 0 -1 0 1 0 1 0 0 bald2x2.dat
+1 2 70 -80 -120 0 0 -1 0 1 0 1 0 0 bald2x2.dat
+1 2 30 -80 -120 0 0 -1 0 1 0 1 0 0 bald2x2.dat
+1 2 -130 -80 -120 0 0 -1 0 1 0 1 0 0 bald2x2.dat
+1 2 -170 -80 -120 0 0 -1 0 1 0 1 0 0 bald2x2.dat
+1 1 30 -176 -60 0 0 -1 0 1 0 1 0 0 jacena6.dat
+1 1 -190 -176 -60 0 0 -1 0 1 0 1 0 0 jacena6.dat
+1 1 30 -176 -60 0 0 -1 0 1 0 1 0 0 gasolina.dat
+1 1 -190 -176 -60 0 0 -1 0 1 0 1 0 0 gasolina.dat
+1 1 -170 -176 60 0 0 1 0 1 0 -1 0 0 gasolina.dat
+1 1 50 -176 60 0 0 1 0 1 0 -1 0 0 gasolina.dat
+0

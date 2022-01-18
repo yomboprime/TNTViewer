@@ -1,0 +1,25 @@
+0 Bloque 2x1 con placa plana 2x2
+0 Name: block2xes.dat
+0 Author: FJB
+0 01/05/2007
+
+1 16 0 0 -24 1 0 0 0 1 0 0 0 1 Exin\estud.dat
+1 16 0 0  24  1 0 0 0 1 0 0 0 1 Exin\estud.dat
+
+1 16 0 0  -24 1 0 0 0 1 0 0 0 1 Exin\tp2xb.dat
+1 16 0 2  -24 1 0 0 0 46 0 0 0 1 Exin\box2xb.dat
+1 16 0 48 -24 1 0 0 0 1 0 0 0 1 Exin\dn2xb.dat
+1 16 0 0  24  1 0 0 0 1 0 0 0 -1 Exin\tp2xb.dat
+1 16 0 2  24  1 0 0 0 46 0 0 0  -1 Exin\box2xb.dat
+1 16 0 48  24 1 0 0 0 1 0 0 0  -1 Exin\dn2xb.dat
+
+1 16 48 0 -24 0 0 1 0 1 0 1 0 0 Exin\pl1x05l.dat
+1 16 48 0  24 0 0 1 0 1 0 -1 0 0 Exin\pl1x05l.dat
+1 16 96 0 -24 0 0 -1 0 1 0 1 0 0 Exin\pl1x05e.dat
+1 16 96 0  24 0 0 -1 0 1 0 -1 0 0 Exin\pl1x05e.dat
+
+0 tapando "el hueco" 
+4 16 24 24 -48 24 24 48 24 48 48 24 48 -48
+2 24 24 48 -48 24 48 48
+0
+

@@ -1,0 +1,9 @@
+0 Rueda Variant 2     |R:R
+0 Name: ruextro2.dat
+0 Author: jasolo
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 16 -50 -8 42 1 0 0 0 1 0 0 0 1 ejecadpq.dat
+1 16 -50 -8 22 1 0 0 0 1 0 0 0 1 rvariant.dat
+1 16 -90 -8 22 -1 0 0 0 1 0 0 0 -1 rvariant.dat
+0

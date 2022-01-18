@@ -1,0 +1,11 @@
+0 Remate Almena cuadrada pequeña
+0 Name: 4-4al3c.dat
+0 Author: FJB
+0 01/05/2007
+
+
+1 16 0 0 0 1 0 0 0 1 0 0 0 1 Exin\1-4al3c.dat
+1 16 0 0 0 1 0 0 0 1 0 0 0 -1 Exin\1-4al3c.dat
+1 16 0 0 0 -1 0 0 0 1 0 0 0 1 Exin\1-4al3c.dat
+1 16 0 0 0 -1 0 0 0 1 0 0 0 -1 Exin\1-4al3c.dat
+1 16 0 -24 0 1 0 0 0 1 0 0 0 1 Exin\estud.dat

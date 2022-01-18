@@ -1,0 +1,417 @@
+0 MLCAD BTG isla
+0 Untitled
+0 MLCAD BTG isla
+0 Name: templo_debod.ldr
+0 MLCAD BTG isla
+0 Author: MLCad
+0 MLCAD BTG isla
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+0 MLCAD BTG isla
+1 14 -80 0 40 1 0 0 0 1 0 0 0 1 jacena4.dat
+0 MLCAD BTG isla
+1 14 -80 -24 40 1 0 0 0 1 0 0 0 1 jacena4.dat
+0 MLCAD BTG isla
+1 14 -80 -48 40 1 0 0 0 1 0 0 0 1 jacena4.dat
+0 MLCAD BTG isla
+1 14 -70 -96 50 0 0 -1 0 1 0 1 0 0 jacena1.dat
+0 MLCAD BTG isla
+1 14 -70 -96 110 0 0 -1 0 1 0 1 0 0 jacena1.dat
+0 MLCAD BTG isla
+1 7 70 32 10 0 0 -1 0 1 0 1 0 0 baldc4x8.dat
+0 MLCAD BTG isla
+1 7 350 32 10 0 0 -1 0 1 0 1 0 0 baldc4x8.dat
+0 MLCAD BTG isla
+1 7 70 32 210 -1 0 0 0 1 0 0 0 -1 baldc4x6.dat
+0 MLCAD BTG isla
+1 7 230 32 210 -1 0 0 0 1 0 0 0 -1 baldc4x6.dat
+0 MLCAD BTG isla
+1 7 310 32 210 -1 0 0 0 1 0 0 0 -1 baldc4x6.dat
+0 MLCAD BTG isla
+1 7 390 32 210 -1 0 0 0 1 0 0 0 -1 baldc4x6.dat
+0 MLCAD BTG isla
+1 7 470 32 210 -1 0 0 0 1 0 0 0 -1 baldc4x6.dat
+0 MLCAD BTG isla
+1 7 550 32 130 -1 0 0 0 1 0 0 0 -1 baldc4x6.dat
+0 MLCAD BTG isla
+1 7 150 32 210 -1 0 0 0 1 0 0 0 -1 baldc4x6.dat
+0 MLCAD BTG isla
+1 7 -10 32 210 -1 0 0 0 1 0 0 0 -1 baldc4x6.dat
+0 MLCAD BTG isla
+1 7 -90 32 130 -1 0 0 0 1 0 0 0 -1 baldc4x6.dat
+0 MLCAD BTG isla
+1 7 -170 32 130 -1 0 0 0 1 0 0 0 -1 baldc4x6.dat
+0 MLCAD BTG isla
+1 7 -210 32 170 0 0 1 0 1 0 -1 0 0 baldc4.dat
+0 MLCAD BTG isla
+1 7 -130 32 170 0 0 1 0 1 0 -1 0 0 baldc4.dat
+0 MLCAD BTG isla
+1 7 -210 32 -30 0 0 1 0 1 0 -1 0 0 baldc4.dat
+0 MLCAD BTG isla
+1 7 -130 32 -30 0 0 1 0 1 0 -1 0 0 baldc4.dat
+0 MLCAD BTG isla
+1 7 -90 32 10 0 0 1 0 1 0 -1 0 0 baldc4x6.dat
+0 MLCAD BTG isla
+1 7 30 32 10 0 0 1 0 1 0 -1 0 0 baldc4x6.dat
+0 MLCAD BTG isla
+1 7 150 32 10 0 0 1 0 1 0 -1 0 0 baldc4x6.dat
+0 MLCAD BTG isla
+1 7 70 32 90 0 0 1 0 1 0 -1 0 0 baldc4x6.dat
+0 MLCAD BTG isla
+1 7 350 32 90 0 0 1 0 1 0 -1 0 0 baldc4x6.dat
+0 MLCAD BTG isla
+1 7 270 32 10 0 0 1 0 1 0 -1 0 0 baldc4x6.dat
+0 MLCAD BTG isla
+1 7 430 32 -30 0 0 1 0 1 0 -1 0 0 baldc4.dat
+0 MLCAD BTG isla
+1 7 510 32 -30 0 0 1 0 1 0 -1 0 0 baldc4.dat
+0 MLCAD BTG isla
+1 7 430 40 90 0 0 1 0 1 0 -1 0 0 placa6x8.dat
+0 MLCAD BTG isla
+1 7 310 40 90 0 0 1 0 1 0 -1 0 0 placa6x8.dat
+0 MLCAD BTG isla
+1 7 190 40 90 0 0 1 0 1 0 -1 0 0 placa6x8.dat
+0 MLCAD BTG isla
+1 7 70 40 90 0 0 1 0 1 0 -1 0 0 placa6x8.dat
+0 MLCAD BTG isla
+1 7 -250 48 170 0 0 1 0 1 0 -1 0 0 placa6x8.dat
+0 MLCAD BTG isla
+1 7 -130 48 170 0 0 1 0 1 0 -1 0 0 placa6x8.dat
+0 MLCAD BTG isla
+1 7 -10 48 170 0 0 1 0 1 0 -1 0 0 placa6x8.dat
+0 MLCAD BTG isla
+1 7 110 48 170 0 0 1 0 1 0 -1 0 0 placa6x8.dat
+0 MLCAD BTG isla
+1 7 -250 48 170 1 0 0 0 1 0 0 0 1 placa2x8.dat
+0 MLCAD BTG isla
+1 7 -90 48 170 1 0 0 0 1 0 0 0 1 placa2x8.dat
+0 MLCAD BTG isla
+1 7 70 48 170 1 0 0 0 1 0 0 0 1 placa2x8.dat
+0 MLCAD BTG isla
+1 7 70 48 -70 1 0 0 0 1 0 0 0 1 placa4x8.dat
+0 MLCAD BTG isla
+1 7 -90 48 -70 1 0 0 0 1 0 0 0 1 placa4x8.dat
+0 MLCAD BTG isla
+1 7 -250 48 -70 1 0 0 0 1 0 0 0 1 placa4x8.dat
+0 MLCAD BTG isla
+1 7 230 40 90 1 0 0 0 1 0 0 0 1 placa6x8.dat
+0 MLCAD BTG isla
+1 7 70 40 90 1 0 0 0 1 0 0 0 1 placa6x8.dat
+0 MLCAD BTG isla
+1 7 -90 40 -70 1 0 0 0 1 0 0 0 1 placa6x8.dat
+0 MLCAD BTG isla
+1 7 -250 40 -70 1 0 0 0 1 0 0 0 1 placa6x8.dat
+0 MLCAD BTG isla
+1 7 -250 40 50 1 0 0 0 1 0 0 0 1 placa2x8.dat
+0 MLCAD BTG isla
+1 7 -90 40 50 1 0 0 0 1 0 0 0 1 placa2x8.dat
+0 MLCAD BTG isla
+1 7 -90 40 90 1 0 0 0 1 0 0 0 1 placa6x8.dat
+0 MLCAD BTG isla
+1 7 -250 40 90 1 0 0 0 1 0 0 0 1 placa6x8.dat
+0 MLCAD BTG isla
+1 7 390 40 90 1 0 0 0 1 0 0 0 1 placa6x8.dat
+0 MLCAD BTG isla
+1 7 510 32 170 0 0 1 0 1 0 -1 0 0 baldc4.dat
+0 MLCAD BTG isla
+1 14 -60 -96 100 0 0 1 0 1 0 -1 0 0 alfajacn.dat
+0 MLCAD BTG isla
+1 14 0 -96 40 0 0 -1 0 1 0 1 0 0 jacena4.dat
+0 MLCAD BTG isla
+1 14 -30 -120 80 0 0 -1 0 1 0 1 0 0 tejadorm.dat
+0 MLCAD BTG isla
+1 14 -30 -120 40 0 0 -1 0 1 0 1 0 0 tejadorm.dat
+0 MLCAD BTG isla
+1 14 -90 -120 80 0 0 -1 0 1 0 1 0 0 tejadorm.dat
+0 MLCAD BTG isla
+1 14 -90 -120 40 0 0 -1 0 1 0 1 0 0 tejadorm.dat
+0 MLCAD BTG isla
+1 14 -80 0 100 1 0 0 0 1 0 0 0 1 jacena4.dat
+0 MLCAD BTG isla
+1 14 -80 24 40 1 0 0 0 1 0 0 0 1 jacena4.dat
+0 MLCAD BTG isla
+1 14 -80 24 100 1 0 0 0 1 0 0 0 1 jacena4.dat
+0 MLCAD BTG isla
+1 14 -80 -24 100 1 0 0 0 1 0 0 0 1 jacena4.dat
+0 MLCAD BTG isla
+1 14 -80 -48 100 1 0 0 0 1 0 0 0 1 jacena4.dat
+0 MLCAD BTG isla
+1 14 -40 -72 40 0 0 -1 0 1 0 1 0 0 jacen2x4.dat
+0 MLCAD BTG isla
+1 14 0 -72 40 0 0 -1 0 1 0 1 0 0 jacen2x4.dat
+0 MLCAD BTG isla
+1 14 -80 0 40 1 0 0 0 1 0 0 0 1 jacena4.dat
+0 MLCAD BTG isla
+1 14 -80 -24 40 1 0 0 0 1 0 0 0 1 jacena4.dat
+0 MLCAD BTG isla
+1 14 -80 -48 40 1 0 0 0 1 0 0 0 1 jacena4.dat
+0 MLCAD BTG isla
+1 14 -70 -96 50 0 0 -1 0 1 0 1 0 0 jacena1.dat
+0 MLCAD BTG isla
+1 14 -70 -96 110 0 0 -1 0 1 0 1 0 0 jacena1.dat
+0 MLCAD BTG isla
+1 7 230 32 210 -1 0 0 0 1 0 0 0 -1 baldc4x6.dat
+0 MLCAD BTG isla
+1 14 -60 -96 100 0 0 1 0 1 0 -1 0 0 alfajacn.dat
+0 MLCAD BTG isla
+1 14 0 -96 40 0 0 -1 0 1 0 1 0 0 jacena4.dat
+0 MLCAD BTG isla
+1 14 -30 -120 80 0 0 -1 0 1 0 1 0 0 tejadorm.dat
+0 MLCAD BTG isla
+1 14 -30 -120 40 0 0 -1 0 1 0 1 0 0 tejadorm.dat
+0 MLCAD BTG isla
+1 14 -90 -120 80 0 0 -1 0 1 0 1 0 0 tejadorm.dat
+0 MLCAD BTG isla
+1 14 -90 -120 40 0 0 -1 0 1 0 1 0 0 tejadorm.dat
+0 MLCAD BTG isla
+1 14 -80 0 100 1 0 0 0 1 0 0 0 1 jacena4.dat
+0 MLCAD BTG isla
+1 14 -80 24 40 1 0 0 0 1 0 0 0 1 jacena4.dat
+0 MLCAD BTG isla
+1 14 -80 24 100 1 0 0 0 1 0 0 0 1 jacena4.dat
+0 MLCAD BTG isla
+1 14 -80 -24 100 1 0 0 0 1 0 0 0 1 jacena4.dat
+0 MLCAD BTG isla
+1 14 -80 -48 100 1 0 0 0 1 0 0 0 1 jacena4.dat
+0 MLCAD BTG isla
+1 14 -40 -72 40 0 0 -1 0 1 0 1 0 0 jacen2x4.dat
+0 MLCAD BTG isla
+1 14 0 -72 40 0 0 -1 0 1 0 1 0 0 jacen2x4.dat
+0 MLCAD BTG isla
+1 14 -80 0 40 1 0 0 0 1 0 0 0 1 jacena4.dat
+0 MLCAD BTG isla
+1 14 -80 -24 40 1 0 0 0 1 0 0 0 1 jacena4.dat
+0 MLCAD BTG isla
+1 14 -80 -48 40 1 0 0 0 1 0 0 0 1 jacena4.dat
+0 MLCAD BTG isla
+1 14 -70 -96 50 0 0 -1 0 1 0 1 0 0 jacena1.dat
+0 MLCAD BTG isla
+1 14 -70 -96 110 0 0 -1 0 1 0 1 0 0 jacena1.dat
+0 MLCAD BTG isla
+1 7 230 32 210 -1 0 0 0 1 0 0 0 -1 baldc4x6.dat
+0 MLCAD BTG isla
+1 14 -60 -96 100 0 0 1 0 1 0 -1 0 0 alfajacn.dat
+0 MLCAD BTG isla
+1 14 0 -96 40 0 0 -1 0 1 0 1 0 0 jacena4.dat
+0 MLCAD BTG isla
+1 14 -30 -120 80 0 0 -1 0 1 0 1 0 0 tejadorm.dat
+0 MLCAD BTG isla
+1 14 -30 -120 40 0 0 -1 0 1 0 1 0 0 tejadorm.dat
+0 MLCAD BTG isla
+1 14 -90 -120 80 0 0 -1 0 1 0 1 0 0 tejadorm.dat
+0 MLCAD BTG isla
+1 14 -90 -120 40 0 0 -1 0 1 0 1 0 0 tejadorm.dat
+0 MLCAD BTG isla
+1 14 -80 0 100 1 0 0 0 1 0 0 0 1 jacena4.dat
+0 MLCAD BTG isla
+1 14 -80 24 40 1 0 0 0 1 0 0 0 1 jacena4.dat
+0 MLCAD BTG isla
+1 14 -80 24 100 1 0 0 0 1 0 0 0 1 jacena4.dat
+0 MLCAD BTG isla
+1 14 -80 -24 100 1 0 0 0 1 0 0 0 1 jacena4.dat
+0 MLCAD BTG isla
+1 14 -80 -48 100 1 0 0 0 1 0 0 0 1 jacena4.dat
+0 MLCAD BTG isla
+1 14 -40 -72 40 0 0 -1 0 1 0 1 0 0 jacen2x4.dat
+0 MLCAD BTG isla
+1 14 0 -72 40 0 0 -1 0 1 0 1 0 0 jacen2x4.dat
+0 MLCAD BTG isla
+1 14 -80 0 40 1 0 0 0 1 0 0 0 1 jacena4.dat
+0 MLCAD BTG isla
+1 14 -80 -24 40 1 0 0 0 1 0 0 0 1 jacena4.dat
+0 MLCAD BTG isla
+1 14 -80 -48 40 1 0 0 0 1 0 0 0 1 jacena4.dat
+0 MLCAD BTG isla
+1 14 -70 -96 50 0 0 -1 0 1 0 1 0 0 jacena1.dat
+0 MLCAD BTG isla
+1 14 -70 -96 110 0 0 -1 0 1 0 1 0 0 jacena1.dat
+0 MLCAD BTG isla
+1 7 230 32 210 -1 0 0 0 1 0 0 0 -1 baldc4x6.dat
+0 MLCAD BTG isla
+1 14 -60 -96 100 0 0 1 0 1 0 -1 0 0 alfajacn.dat
+0 MLCAD BTG isla
+1 14 0 -96 40 0 0 -1 0 1 0 1 0 0 jacena4.dat
+0 MLCAD BTG isla
+1 14 -30 -120 80 0 0 -1 0 1 0 1 0 0 tejadorm.dat
+0 MLCAD BTG isla
+1 14 -30 -120 40 0 0 -1 0 1 0 1 0 0 tejadorm.dat
+0 MLCAD BTG isla
+1 14 -90 -120 80 0 0 -1 0 1 0 1 0 0 tejadorm.dat
+0 MLCAD BTG isla
+1 14 -90 -120 40 0 0 -1 0 1 0 1 0 0 tejadorm.dat
+0 MLCAD BTG isla
+1 14 -80 0 100 1 0 0 0 1 0 0 0 1 jacena4.dat
+0 MLCAD BTG isla
+1 14 -80 24 40 1 0 0 0 1 0 0 0 1 jacena4.dat
+0 MLCAD BTG isla
+1 14 -80 24 100 1 0 0 0 1 0 0 0 1 jacena4.dat
+0 MLCAD BTG isla
+1 14 -80 -24 100 1 0 0 0 1 0 0 0 1 jacena4.dat
+0 MLCAD BTG isla
+1 14 -80 -48 100 1 0 0 0 1 0 0 0 1 jacena4.dat
+0 MLCAD BTG isla
+1 14 -40 -72 40 0 0 -1 0 1 0 1 0 0 jacen2x4.dat
+0 MLCAD BTG isla
+1 14 0 -72 40 0 0 -1 0 1 0 1 0 0 jacen2x4.dat
+0 MLCAD BTG isla
+1 14 260 0 40 1 0 0 0 1 0 0 0 1 jacena4.dat
+0 MLCAD BTG isla
+1 14 260 -24 40 1 0 0 0 1 0 0 0 1 jacena4.dat
+0 MLCAD BTG isla
+1 14 260 -48 40 1 0 0 0 1 0 0 0 1 jacena4.dat
+0 MLCAD BTG isla
+1 14 270 -96 50 0 0 -1 0 1 0 1 0 0 jacena1.dat
+0 MLCAD BTG isla
+1 14 270 -96 110 0 0 -1 0 1 0 1 0 0 jacena1.dat
+0 MLCAD BTG isla
+1 14 280 -96 100 0 0 1 0 1 0 -1 0 0 alfajacn.dat
+0 MLCAD BTG isla
+1 14 340 -96 40 0 0 -1 0 1 0 1 0 0 jacena4.dat
+0 MLCAD BTG isla
+1 14 310 -120 80 0 0 -1 0 1 0 1 0 0 tejadorm.dat
+0 MLCAD BTG isla
+1 14 310 -120 40 0 0 -1 0 1 0 1 0 0 tejadorm.dat
+0 MLCAD BTG isla
+1 14 250 -120 80 0 0 -1 0 1 0 1 0 0 tejadorm.dat
+0 MLCAD BTG isla
+1 14 250 -120 40 0 0 -1 0 1 0 1 0 0 tejadorm.dat
+0 MLCAD BTG isla
+1 14 260 0 100 1 0 0 0 1 0 0 0 1 jacena4.dat
+0 MLCAD BTG isla
+1 14 260 24 40 1 0 0 0 1 0 0 0 1 jacena4.dat
+0 MLCAD BTG isla
+1 14 260 24 100 1 0 0 0 1 0 0 0 1 jacena4.dat
+0 MLCAD BTG isla
+1 14 260 -24 100 1 0 0 0 1 0 0 0 1 jacena4.dat
+0 MLCAD BTG isla
+1 14 260 -48 100 1 0 0 0 1 0 0 0 1 jacena4.dat
+0 MLCAD BTG isla
+1 14 300 -72 40 0 0 -1 0 1 0 1 0 0 jacen2x4.dat
+0 MLCAD BTG isla
+1 14 340 -72 40 0 0 -1 0 1 0 1 0 0 jacen2x4.dat
+0 MLCAD BTG isla
+1 14 260 0 40 1 0 0 0 1 0 0 0 1 jacena4.dat
+0 MLCAD BTG isla
+1 14 260 -24 40 1 0 0 0 1 0 0 0 1 jacena4.dat
+0 MLCAD BTG isla
+1 14 260 -48 40 1 0 0 0 1 0 0 0 1 jacena4.dat
+0 MLCAD BTG isla
+1 14 270 -96 50 0 0 -1 0 1 0 1 0 0 jacena1.dat
+0 MLCAD BTG isla
+1 14 270 -96 110 0 0 -1 0 1 0 1 0 0 jacena1.dat
+0 MLCAD BTG isla
+1 14 280 -96 100 0 0 1 0 1 0 -1 0 0 alfajacn.dat
+0 MLCAD BTG isla
+1 14 340 -96 40 0 0 -1 0 1 0 1 0 0 jacena4.dat
+0 MLCAD BTG isla
+1 14 310 -120 80 0 0 -1 0 1 0 1 0 0 tejadorm.dat
+0 MLCAD BTG isla
+1 14 310 -120 40 0 0 -1 0 1 0 1 0 0 tejadorm.dat
+0 MLCAD BTG isla
+1 14 250 -120 80 0 0 -1 0 1 0 1 0 0 tejadorm.dat
+0 MLCAD BTG isla
+1 14 250 -120 40 0 0 -1 0 1 0 1 0 0 tejadorm.dat
+0 MLCAD BTG isla
+1 14 260 0 100 1 0 0 0 1 0 0 0 1 jacena4.dat
+0 MLCAD BTG isla
+1 14 260 24 40 1 0 0 0 1 0 0 0 1 jacena4.dat
+0 MLCAD BTG isla
+1 14 260 24 100 1 0 0 0 1 0 0 0 1 jacena4.dat
+0 MLCAD BTG isla
+1 14 260 -24 100 1 0 0 0 1 0 0 0 1 jacena4.dat
+0 MLCAD BTG isla
+1 14 260 -48 100 1 0 0 0 1 0 0 0 1 jacena4.dat
+0 MLCAD BTG isla
+1 14 300 -72 40 0 0 -1 0 1 0 1 0 0 jacen2x4.dat
+0 MLCAD BTG isla
+1 14 340 -72 40 0 0 -1 0 1 0 1 0 0 jacen2x4.dat
+0 MLCAD BTG isla
+1 14 260 0 40 1 0 0 0 1 0 0 0 1 jacena4.dat
+0 MLCAD BTG isla
+1 14 260 -24 40 1 0 0 0 1 0 0 0 1 jacena4.dat
+0 MLCAD BTG isla
+1 14 260 -48 40 1 0 0 0 1 0 0 0 1 jacena4.dat
+0 MLCAD BTG isla
+1 14 270 -96 50 0 0 -1 0 1 0 1 0 0 jacena1.dat
+0 MLCAD BTG isla
+1 14 270 -96 110 0 0 -1 0 1 0 1 0 0 jacena1.dat
+0 MLCAD BTG isla
+1 14 280 -96 100 0 0 1 0 1 0 -1 0 0 alfajacn.dat
+0 MLCAD BTG isla
+1 14 340 -96 40 0 0 -1 0 1 0 1 0 0 jacena4.dat
+0 MLCAD BTG isla
+1 14 310 -120 80 0 0 -1 0 1 0 1 0 0 tejadorm.dat
+0 MLCAD BTG isla
+1 14 310 -120 40 0 0 -1 0 1 0 1 0 0 tejadorm.dat
+0 MLCAD BTG isla
+1 14 250 -120 80 0 0 -1 0 1 0 1 0 0 tejadorm.dat
+0 MLCAD BTG isla
+1 14 250 -120 40 0 0 -1 0 1 0 1 0 0 tejadorm.dat
+0 MLCAD BTG isla
+1 14 260 0 100 1 0 0 0 1 0 0 0 1 jacena4.dat
+0 MLCAD BTG isla
+1 14 260 24 40 1 0 0 0 1 0 0 0 1 jacena4.dat
+0 MLCAD BTG isla
+1 14 260 24 100 1 0 0 0 1 0 0 0 1 jacena4.dat
+0 MLCAD BTG isla
+1 14 260 -24 100 1 0 0 0 1 0 0 0 1 jacena4.dat
+0 MLCAD BTG isla
+1 14 260 -48 100 1 0 0 0 1 0 0 0 1 jacena4.dat
+0 MLCAD BTG isla
+1 14 300 -72 40 0 0 -1 0 1 0 1 0 0 jacen2x4.dat
+0 MLCAD BTG isla
+1 14 340 -72 40 0 0 -1 0 1 0 1 0 0 jacen2x4.dat
+0 MLCAD BTG isla
+1 14 260 0 40 1 0 0 0 1 0 0 0 1 jacena4.dat
+0 MLCAD BTG isla
+1 14 260 -24 40 1 0 0 0 1 0 0 0 1 jacena4.dat
+0 MLCAD BTG isla
+1 14 260 -48 40 1 0 0 0 1 0 0 0 1 jacena4.dat
+0 MLCAD BTG isla
+1 14 270 -96 50 0 0 -1 0 1 0 1 0 0 jacena1.dat
+0 MLCAD BTG isla
+1 14 270 -96 110 0 0 -1 0 1 0 1 0 0 jacena1.dat
+0 MLCAD BTG isla
+1 14 280 -96 100 0 0 1 0 1 0 -1 0 0 alfajacn.dat
+0 MLCAD BTG isla
+1 14 340 -96 40 0 0 -1 0 1 0 1 0 0 jacena4.dat
+0 MLCAD BTG isla
+1 14 310 -120 80 0 0 -1 0 1 0 1 0 0 tejadorm.dat
+0 MLCAD BTG isla
+1 14 310 -120 40 0 0 -1 0 1 0 1 0 0 tejadorm.dat
+0 MLCAD BTG isla
+1 14 250 -120 80 0 0 -1 0 1 0 1 0 0 tejadorm.dat
+0 MLCAD BTG isla
+1 14 250 -120 40 0 0 -1 0 1 0 1 0 0 tejadorm.dat
+0 MLCAD BTG isla
+1 14 260 0 100 1 0 0 0 1 0 0 0 1 jacena4.dat
+0 MLCAD BTG isla
+1 14 260 24 40 1 0 0 0 1 0 0 0 1 jacena4.dat
+0 MLCAD BTG isla
+1 14 260 24 100 1 0 0 0 1 0 0 0 1 jacena4.dat
+0 MLCAD BTG isla
+1 14 260 -24 100 1 0 0 0 1 0 0 0 1 jacena4.dat
+0 MLCAD BTG isla
+1 14 260 -48 100 1 0 0 0 1 0 0 0 1 jacena4.dat
+0 MLCAD BTG isla
+1 14 300 -72 40 0 0 -1 0 1 0 1 0 0 jacen2x4.dat
+0 MLCAD BTG isla
+1 14 340 -72 40 0 0 -1 0 1 0 1 0 0 jacen2x4.dat
+0 GROUP 199 isla
+1 7 630 64 -10 0 0 -1 0 1 0 1 0 0 jacen2x8.dat
+1 7 670 64 -10 0 0 -1 0 1 0 1 0 0 jacen2x8.dat
+1 7 710 64 -10 0 0 -1 0 1 0 1 0 0 jacen2x8.dat
+1 7 750 64 -10 0 0 -1 0 1 0 1 0 0 jacen2x8.dat
+1 7 630 64 -170 0 0 -1 0 1 0 1 0 0 jacen2x8.dat
+1 7 670 64 -170 0 0 -1 0 1 0 1 0 0 jacen2x8.dat
+1 7 710 64 -170 0 0 -1 0 1 0 1 0 0 jacen2x8.dat
+1 7 750 64 -170 0 0 -1 0 1 0 1 0 0 jacen2x8.dat
+1 7 630 64 150 0 0 -1 0 1 0 1 0 0 jacen2x8.dat
+1 7 670 64 150 0 0 -1 0 1 0 1 0 0 jacen2x8.dat
+1 7 710 64 150 0 0 -1 0 1 0 1 0 0 jacen2x8.dat
+1 7 750 64 150 0 0 -1 0 1 0 1 0 0 jacen2x8.dat
+1 7 630 40 210 -1 0 0 0 1 0 0 0 -1 baldc4x8.dat
+1 7 630 40 50 -1 0 0 0 1 0 0 0 -1 baldc4x6.dat
+1 1 590 56 330 -1 0 0 0 1 0 0 0 -1 baldc4x6.dat
+0

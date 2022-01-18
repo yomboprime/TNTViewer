@@ -1,0 +1,13 @@
+0 Sin_nombre
+0 Name: exinubuntu.ldr
+0 Author: cpcbegin
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 4 28 -8 -2 1 0 0 0 1 0 0 0 1 curv1.dat
+1 4 28 -8 38 1 0 0 0 1 0 0 0 1 columna.dat
+1 4 63.255 -8 -63.079 -0.5 0 0.866025 0 1 0 -0.866025 0 -0.5 curv1.dat
+1 4 97.897 -8 -83.079 -0.5 0 0.866025 0 1 0 -0.866025 0 -0.5 columna.dat
+1 4 -5.268 -8 -64.196 -0.499999 0 -0.866025 0 1 0 0.866025 0 -0.499999 curv1.dat
+1 4 -39.909 -8 -84.197 -0.499999 0 -0.866025 0 1 0 0.866025 0 -0.499999 columna.dat
+0

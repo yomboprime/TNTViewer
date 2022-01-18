@@ -1,0 +1,46 @@
+0 Avion iniciacion
+0 Name: avion_iniciacion.ldr
+0 Author: cpcbegin
+0 Tente iniciacion
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 4 -110 -8 0 1 0 0 0 1 0 0 0 1 placa2x8.dat
+1 1 -50 16 0 1 0 0 0 1 0 0 0 1 jacen2x2.dat
+1 0 -50 160 -80 0 0 1 0 1 0 -1 0 0 jacen2x4.dat
+1 1 -50 40 40 0 0 1 0 1 0 -1 0 0 jacen2x4.dat
+1 1 -50 88 40 0 0 1 0 1 0 -1 0 0 jacen2x4.dat
+1 1 -50 64 40 0 0 1 0 1 0 -1 0 0 jacen2x8.dat
+1 1 -50 88 -40 0 0 1 0 1 0 -1 0 0 jacen2x8.dat
+1 15 -50 112 0 0 0 1 0 1 0 -1 0 0 jacen2x8.dat
+1 15 -50 112 -160 0 0 1 0 1 0 -1 0 0 jacen2x8.dat
+1 4 -50 136 -40 0 0 1 0 1 0 -1 0 0 jacen2x8.dat
+1 15 -50 112 -320 0 0 1 0 1 0 -1 0 0 jacen2x8.dat
+1 4 -50 136 -200 0 0 1 0 1 0 -1 0 0 jacen2x8.dat
+1 4 -50 136 -360 0 0 1 0 1 0 -1 0 0 jacen2x8.dat
+1 15 -30 144 -240 1 0 0 0 1 0 0 0 1 placa4x8.dat
+1 15 -30 144 -400 0 0 -1 0 1 0 1 0 0 placa4x8.dat
+1 15 50 144 -400 0 0 -1 0 1 0 1 0 0 placa4x8.dat
+1 15 10 144 -560 0 0 -1 0 1 0 1 0 0 placa4x8.dat
+1 15 -190 144 -240 1 0 0 0 1 0 0 0 1 placa4x8.dat
+1 15 -10 112 -560 0 0 -1 0 1 0 1 0 0 jacen2x4.dat
+1 47 -10 112 -640 0 0 -1 0 1 0 1 0 0 jacen2x4.dat
+1 4 -10 136 -600 0 0 -1 0 1 0 1 0 0 jacen2x4.dat
+1 4 -10 136 -680 0 0 -1 0 1 0 1 0 0 jacen2x4.dat
+1 0 -10 152 -320 0 0 -1 0 1 0 1 0 0 placa2x8.dat
+1 0 -10 160 -320 0 0 -1 0 1 0 1 0 0 placa2x8.dat
+1 0 10 184 -280 -1 0 0 0 1 0 0 0 -1 jacena4.dat
+1 0 10 184 -180 -1 0 0 0 1 0 0 0 -1 jacena4.dat
+1 0 10 184 -230 -1 0 0 0 1 0 0 0 -1 jacena4.dat
+1 0 10 184 -310 -1 0 0 0 1 0 0 0 -1 ruta21nm.dat
+1 4 10 184 -310 -1 0 0 0 1 0 0 0 -1 llanrutt.dat
+1 0 10 184 -210 -1 0 0 0 1 0 0 0 -1 ruta21nm.dat
+1 4 10 184 -210 -1 0 0 0 1 0 0 0 -1 llanrutt.dat
+1 0 10 184 -260 -1 0 0 0 1 0 0 0 -1 ruta21nm.dat
+1 4 10 184 -260 -1 0 0 0 1 0 0 0 -1 llanrutt.dat
+1 0 -70 184 -170 1 0 0 0 1 0 0 0 1 ruta21nm.dat
+1 4 -70 184 -170 1 0 0 0 1 0 0 0 1 llanrutt.dat
+1 0 -70 184 -270 1 0 0 0 1 0 0 0 1 ruta21nm.dat
+1 4 -70 184 -270 1 0 0 0 1 0 0 0 1 llanrutt.dat
+1 0 -70 184 -220 1 0 0 0 1 0 0 0 1 ruta21nm.dat
+1 4 -70 184 -220 1 0 0 0 1 0 0 0 1 llanrutt.dat
+0

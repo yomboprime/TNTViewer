@@ -1,0 +1,14 @@
+0 Rueda Alfa     |F:F|T:T
+0 Name: alfarued.dat
+0 Author: betatron
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 16 -60 0 0 1 0 0 0 1 0 0 0 1 alfa_eje.dat
+1 15 -60 0 0 1 0 0 0 1 0 0 0 1 alfalln1.dat
+1 15 20 0 40 -1 0 0 0 1 0 0 0 -1 alfalln1.dat
+1 0 20 0 40 -1 0 0 0 1 0 0 0 -1 alfaneum.dat
+1 0 -60 0 0 1 0 0 0 1 0 0 0 1 alfaneum.dat
+1 14 -60 0 0 1 0 0 0 1 0 0 0 1 alfalln2.dat
+1 14 20 0 40 -1 0 0 0 1 0 0 0 -1 alfalln2.dat
+0

@@ -1,0 +1,13 @@
+0 Untitled
+0 Name: ld3dstudio_logo.ldr
+0 Author: MLCad
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 4 -10 0 80 1 0 0 0 1 0 0 0 1 jacn2x4e.dat
+1 4 -10 0 0 1 0 0 0 1 0 0 0 1 jacn2x4e.dat
+1 4 -10 0 -80 1 0 0 0 1 0 0 0 1 jacn2x4e.dat
+1 14 -10 -48 -40 1 0 0 0 1 0 0 0 1 jacn2x2e.dat
+1 14 -10 -48 40 1 0 0 0 1 0 0 0 1 jacn2x2e.dat
+1 1 -10 -96 0 1 0 0 0 1 0 0 0 1 jacn2x2e.dat
+0

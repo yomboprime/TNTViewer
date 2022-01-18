@@ -1,0 +1,25 @@
+0 Sin_nombre
+0 Name: circulo.ldr
+0 Author: cpcbegin
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 0 30 0 50 1 0 0 0 1 0 0 0 1 proa4p.dat
+1 0 -70 0 50 1 0 0 0 1 0 0 0 1 proa6p.dat
+1 0 130 0 50 1 0 0 0 1 0 0 0 1 popa6p.dat
+1 0 30 0 50 -1 0 0 0 1 0 0 0 -1 proa4p.dat
+1 0 -70 0 50 -1 0 0 0 1 0 0 0 -1 proa6p.dat
+1 0 230 0 50 -1 0 0 0 1 0 0 0 -1 proa4p.dat
+1 0 330 0 50 -1 0 0 0 1 0 0 0 -1 proa6p.dat
+1 0 230 0 50 1 0 0 0 1 0 0 0 1 proa4p.dat
+1 0 330 0 50 1 0 0 0 1 0 0 0 1 proa6p.dat
+1 0 130 0 -50 0 0 -1 0 1 0 1 0 0 proa4p.dat
+1 0 130 0 -150 0 0 -1 0 1 0 1 0 0 proa6p.dat
+1 0 130 0 -50 0 0 1 0 1 0 -1 0 0 proa4p.dat
+1 0 130 0 -150 0 0 1 0 1 0 -1 0 0 proa6p.dat
+1 0 130 0 150 0 0 1 0 1 0 -1 0 0 proa4p.dat
+1 0 130 0 250 0 0 1 0 1 0 -1 0 0 proa6p.dat
+1 0 130 0 150 0 0 -1 0 1 0 1 0 0 proa4p.dat
+1 0 130 0 250 0 0 -1 0 1 0 1 0 0 proa6p.dat
+1 0 130 0 50 -1 0 0 0 1 0 0 0 -1 popa6p.dat
+0

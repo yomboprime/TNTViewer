@@ -1,0 +1,48 @@
+0 Untitled
+0 Name: papamovil.ldr
+0 Author: MLCad
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 15 0 0 0 1 0 0 0 1 0 0 0 1 cabant.dat
+1 15 0 0 -80 1 0 0 0 1 0 0 0 1 bald2x2r.dat
+1 15 -40 0 -80 1 0 0 0 1 0 0 0 1 bald2x2r.dat
+1 15 0 -48 -20 1 0 0 0 1 0 0 0 1 bald2x2r.dat
+1 15 -40 -48 -20 1 0 0 0 1 0 0 0 1 bald2x2r.dat
+1 15 40 0 0 0 0 -1 0 1 0 1 0 0 vntcasa.dat
+1 15 -40 0 40 0 0 1 0 1 0 -1 0 0 vntcasa.dat
+1 15 -20 -48 60 1 0 0 0 1 0 0 0 1 vntcasam.dat
+1 47 -20 -48 60 1 0 0 0 1 0 0 0 1 vntcasac.dat
+1 15 20 0 140 -1 0 0 0 1 0 0 0 -1 puertamr.dat
+1 15 20 -72 140 -1 0 0 0 1 0 0 0 -1 vntscorm.dat
+1 15 0 -96 140 -1 0 0 0 1 0 0 0 -1 bald2x2.dat
+1 15 40 -96 140 -1 0 0 0 1 0 0 0 -1 bald2x2.dat
+1 15 40 -96 100 -1 0 0 0 1 0 0 0 -1 bald2x2.dat
+1 15 0 -96 100 -1 0 0 0 1 0 0 0 -1 bald2x2.dat
+1 15 -40 8 80 0 0 1 0 1 0 -1 0 0 placa4x8.dat
+1 15 -40 8 140 0 0 1 0 1 0 -1 0 0 placa2x3.dat
+1 0 -20 16 0 0 0 1 0 1 0 -1 0 0 placa2x3.dat
+1 0 -20 16 120 0 0 1 0 1 0 -1 0 0 placa2x3.dat
+1 15 0 8 -60 1 0 0 0 1 0 0 0 1 paracf21.dat
+1 14 0 16 -30 1 0 0 0 1 0 0 0 1 rueruj2l.dat
+1 14 0 16 90 1 0 0 0 1 0 0 0 1 rueruj2l.dat
+1 15 0 8 140 0 0 1 0 1 0 -1 0 0 placa2x3.dat
+1 15 -40 0 40 1 0 0 0 1 0 0 0 1 jacena4.dat
+1 15 -40 -48 20 1 0 0 0 1 0 0 0 1 bald2x2.dat
+1 15 0 -48 20 1 0 0 0 1 0 0 0 1 bald2x2.dat
+1 15 40 -48 60 0 0 -1 0 1 0 1 0 0 ventan4m.dat
+1 15 40 0 60 0 0 -1 0 1 0 1 0 0 ventan4m.dat
+1 47 40 0 60 0 0 -1 0 1 0 1 0 0 ventan4c.dat
+1 47 40 -48 60 0 0 -1 0 1 0 1 0 0 ventan4c.dat
+1 15 -40 -48 140 0 0 1 0 1 0 -1 0 0 ventan4m.dat
+1 15 -40 0 140 0 0 1 0 1 0 -1 0 0 ventan4m.dat
+1 47 -40 0 140 0 0 1 0 1 0 -1 0 0 ventan4c.dat
+1 47 -40 -48 140 0 0 1 0 1 0 -1 0 0 ventan4c.dat
+1 47 -20 0 130 1 0 0 0 1 0 0 0 1 puertacr.dat
+1 15 0 32 0 0 0 -1 0 1 0 1 0 0 jacen2x3.dat
+1 15 40 32 0 0 0 -1 0 1 0 1 0 0 jacen2x3.dat
+1 15 0 8 120 -1 0 0 0 1 0 0 0 -1 paracq21.dat
+1 15 -20 -24 40 1 0 0 0 1 0 0 0 1 cuna.dat
+1 15 -30 -24 50 1 0 0 0 1 0 0 0 1 jacena1.dat
+1 15 30 -24 50 1 0 0 0 1 0 0 0 1 jacena1.dat
+0

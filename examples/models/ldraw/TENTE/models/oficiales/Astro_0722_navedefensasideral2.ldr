@@ -1,0 +1,54 @@
+0 Nave de defensa sideral II
+0 Name: Astro_0722_navedefensasideral2.ldr
+0 Author: cpcbegin
+0 Tente astro
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 15 -14 20 64 0 -1 0 1 0 0 0 0 1 cilindr.dat
+1 1 -54 24 -76 0 0 1 0 1 0 -1 0 0 alaastro.dat
+1 383 -64 0 94 0 0 1 0 1 0 -1 0 0 amortigu.dat
+1 383 -64 0 114 0 0 1 0 1 0 -1 0 0 amortigu.dat
+1 383 -44 0 114 0 0 1 0 1 0 -1 0 0 amortigu.dat
+1 383 -64 0 134 0 0 1 0 1 0 -1 0 0 amortigu.dat
+1 383 -64 0 154 0 0 1 0 1 0 -1 0 0 amortigu.dat
+1 383 -44 0 94 0 0 1 0 1 0 -1 0 0 amortigu.dat
+1 383 -44 0 134 0 0 1 0 1 0 -1 0 0 amortigu.dat
+1 383 -44 0 154 0 0 1 0 1 0 -1 0 0 amortigu.dat
+1 1 -74 48 124 0 0 1 0 1 0 -1 0 0 jacen2x2.dat
+1 1 26 128 64 1 0 0 0 1 0 0 0 1 alaastro.dat
+1 4 -34 152 -16 0 0 1 0 1 0 -1 0 0 patastro.dat
+1 4 -174 0 84 1 0 0 0 1 0 0 0 1 patastro.dat
+1 4 -54 120 84 1 0 0 0 1 0 0 0 1 patastro.dat
+1 1 -134 128 64 -1 0 0 0 1 0 0 0 -1 alaastro.dat
+1 1 26 -96 64 1 0 0 0 1 0 0 0 1 alaastro.dat
+1 1 -134 -96 64 -1 0 0 0 1 0 0 0 -1 alaastro.dat
+1 4 -54 120 44 -1 0 0 0 1 0 0 0 -1 patastro.dat
+1 4 66 0 44 -1 0 0 0 1 0 0 0 -1 patastro.dat
+1 0 6 20 106 -1 0 0 0 0 1 0 1 0 toberast.dat
+1 15 -96 20 64 0 1 0 -1 0 0 0 0 1 cilindr.dat
+1 0 -116 20 106 1 0 0 0 0 -1 0 1 0 toberast.dat
+1 1 -74 56 44 0 0 1 0 1 0 -1 0 0 jacen2x8.dat
+1 1 -74 24 164 0 0 1 0 1 0 -1 0 0 jacen2x8.dat
+1 0 -74 48 -116 0 0 1 0 1 0 -1 0 0 jacen2x4.dat
+1 1 -94 32 44 0 0 1 0 1 0 -1 0 0 placa4x8.dat
+1 1 -94 24 84 0 0 1 0 1 0 -1 0 0 enganche.dat
+1 1 -94 24 64 0 0 1 0 1 0 -1 0 0 enganche.dat
+1 1 -14 24 44 0 0 -1 0 1 0 1 0 0 enganche.dat
+1 1 -44 26 -198 -1 0 0 0 0 1 0 1 0 enganche.dat
+1 4 -54 36 -222 -1 0 0 0 0 1 0 1 0 canontnq.dat
+1 1 -14 24 64 0 0 -1 0 1 0 1 0 0 enganche.dat
+1 15 -34 48 124 -1 0 0 0 1 0 0 0 -1 rallado2.dat
+1 15 -94 16 -76 1 0 0 0 1 0 0 0 1 rallado2.dat
+1 15 -54 16 -76 1 0 0 0 1 0 0 0 1 rallado2.dat
+1 15 -24 24 24 0 0 1 0 1 0 -1 0 0 ancla1x2.dat
+1 15 -84 24 24 0 0 1 0 1 0 -1 0 0 ancla1x2.dat
+1 0 -74 0 24 1 0 0 0 1 0 0 0 1 pico.dat
+1 8 -24 24 -16 0 0 1 0 1 0 -1 0 0 pastilla.dat
+1 8 -84 24 -16 0 0 1 0 1 0 -1 0 0 pastilla.dat
+1 1 -34 -24 164 -1 0 0 0 1 0 0 0 -1 bald2x2r.dat
+1 1 -74 -24 84 1 0 0 0 1 0 0 0 1 bald2x2r.dat
+1 15 -94 -8 -96 1 0 0 0 1 0 0 0 1 bald2x2r.dat
+1 15 -54 -8 -96 1 0 0 0 1 0 0 0 1 bald2x2r.dat
+1 14 -44 56 -10 1 0 0 0 1 0 0 0 1 astcuerp.dat
+1 14 -54 8 -22 1 0 0 0 0 1 0 -1 0 astpiern.dat
+0

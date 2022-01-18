@@ -1,0 +1,67 @@
+0 Sin_nombre
+0 Name: aire_servicio_autopista.ldr
+0 Author: MLCad
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 7 -60 0 0 1 0 0 0 1 0 0 0 1 helcolhu.dat
+1 7 -60 0 -40 1 0 0 0 1 0 0 0 1 jacen2x2.dat
+1 7 -60 -48 -80 1 0 0 0 1 0 0 0 1 jacen2x2.dat
+1 7 -20 -24 -80 0 0 -1 0 1 0 1 0 0 jacen2x4.dat
+1 7 -60 0 -80 1 0 0 0 1 0 0 0 1 jacena2.dat
+1 1 -40 24 -120 1 0 0 0 1 0 0 0 1 jacen2x3.dat
+1 1 -100 24 -120 1 0 0 0 1 0 0 0 1 jacen2x3.dat
+1 1 -100 -8 -120 1 0 0 0 1 0 0 0 1 jacen2x3.dat
+1 1 -100 -32 -120 1 0 0 0 1 0 0 0 1 jacen2x3.dat
+1 1 -40 -8 -120 1 0 0 0 1 0 0 0 1 jacen2x3.dat
+1 1 -40 -32 -120 1 0 0 0 1 0 0 0 1 jacen2x3.dat
+1 14 -100 0 -120 1 0 0 0 1 0 0 0 1 placa2x3.dat
+1 7 -70 -48 -20 1 0 0 0 1 0 0 0 1 placa2x3.dat
+1 14 -40 0 -120 1 0 0 0 1 0 0 0 1 placa2x3.dat
+1 1 -20 24 -80 0 0 -1 0 1 0 1 0 0 jacen2x3.dat
+1 1 -60 24 -20 1 0 0 0 1 0 0 0 1 cuna.dat
+1 1 0 32 -160 0 0 -1 0 1 0 1 0 0 placa4x8.dat
+1 1 -80 32 0 -1 0 0 0 1 0 0 0 -1 helpata.dat
+1 1 0 32 -120 1 0 0 0 1 0 0 0 1 helpata.dat
+1 1 0 24 -60 -1 0 0 0 1 0 0 0 -1 jacena4.dat
+1 1 20 0 -80 0 0 -1 0 1 0 1 0 0 bald2r.dat
+1 1 -100 0 -60 0 0 1 0 1 0 -1 0 0 bald2r.dat
+1 7 -40 -8 -180 1 0 0 0 1 0 0 0 1 airsillo.dat
+1 0 -40 -8 -180 1 0 0 0 1 0 0 0 1 helmando.dat
+1 7 -80 -8 -180 1 0 0 0 1 0 0 0 1 airsillo.dat
+1 0 -80 -8 -180 1 0 0 0 1 0 0 0 1 helmando.dat
+1 7 -40 16 -120 1 0 0 0 1 0 0 0 1 helcabcr.dat
+1 1 -40 16 -120 1 0 0 0 1 0 0 0 1 helcab.dat
+1 1 -60 24 0 -1 0 0 0 1 0 0 0 -1 bald2x2r.dat
+1 1 20 24 0 -1 0 0 0 1 0 0 0 -1 bald2x2r.dat
+1 1 20 24 -60 -1 0 0 0 1 0 0 0 -1 pico.dat
+1 1 -60 24 -60 -1 0 0 0 1 0 0 0 -1 pico.dat
+1 0 -40 0 -40 -1 0 0 0 1 0 0 0 -1 pistola.dat
+1 7 -80 24 -60 -1 0 0 0 1 0 0 0 -1 pistola.dat
+1 0 -40 0 -60 1 0 0 0 1 0 0 0 1 pistola.dat
+1 7 0 24 -80 1 0 0 0 1 0 0 0 1 pistola.dat
+1 1 -60 -56 -120 1 0 0 0 1 0 0 0 1 placa2x2.dat
+1 1 20 -56 -120 0 0 -1 0 1 0 1 0 0 baldgord.dat
+1 1 -100 -56 -80 0 0 1 0 1 0 -1 0 0 baldgord.dat
+1 1 -60 -64 -80 0 0 1 0 1 0 -1 0 0 bald2x2.dat
+1 7 -40 -56 0 -1 0 0 0 1 0 0 0 -1 cilindr2.dat
+1 0 -30 -72 -70 0 0 -1 0 1 0 1 0 0 amortigu.dat
+1 0 -30 -72 -50 0 0 -1 0 1 0 1 0 0 amortigu.dat
+1 0 -50 -72 -50 0 0 -1 0 1 0 1 0 0 amortigu.dat
+1 0 -50 -72 -70 0 0 -1 0 1 0 1 0 0 amortigu.dat
+1 0 -40 -96 -60 0 0 -1 0 1 0 1 0 0 rotorinf.dat
+1 0 -40 -96 -60 0 0 -1 0 1 0 1 0 0 rotorsup.dat
+1 0 -30 -112 -70 0 0 -1 0 1 0 1 0 0 aspa.dat
+1 0 -50 -112 -50 0 0 1 0 1 0 -1 0 0 aspa.dat
+1 7 -50 -16 260 1 0 0 0 1 0 0 0 1 helaspac.dat
+1 0 -50 -120 -50 0 0 1 0 1 0 -1 0 0 chimplac.dat
+1 0 -40 -68 72 0 0 1 -1 0 0 0 -1 0 chimplac.dat
+1 0 -40 -88 80 0 0 1 -1 0 0 0 -1 0 chimenea.dat
+1 0 -30 -120 -50 0 0 1 0 1 0 -1 0 0 chimplac.dat
+1 0 -40 -48 250 0 0 1 0 1 0 -1 0 0 chimplac.dat
+1 46 -40 -56 230 0 0 1 0 1 0 -1 0 0 amortigu.dat
+1 0 -40 -48 270 0 0 1 0 1 0 -1 0 0 placacil.dat
+1 0 -40 -8 270 0 0 1 0 1 0 -1 0 0 placacil.dat
+1 1 -40 -56 280 1 0 0 0 1 0 0 0 1 helala.dat
+1 0 -20 -72 102 0 0 -1 0 1 0 1 0 0 alfalln1.dat
+0

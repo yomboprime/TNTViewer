@@ -1,0 +1,66 @@
+0 Untitled
+0 Name: entrada_puerto_malaga.ldr
+0 Author: MLCad
+0 Unofficial Model
+0 Untitled
+0 Name: Untitled.ldr
+0 Author: MLCad
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 151 -70 96 20 0 0 -1 0 1 0 1 0 0 puertamr.dat
+1 151 -70 96 20 0 0 -1 0 1 0 1 0 0 puertacr.dat
+0 Untitled
+0 Name: Untitled.ldr
+0 Author: MLCad
+0 Unofficial Model
+1 151 -70 48 20 -1 0 0 0 1 0 0 0 -1 jacena4.dat
+1 151 -70 72 20 -1 0 0 0 1 0 0 0 -1 jacena4.dat
+1 151 -70 96 20 -1 0 0 0 1 0 0 0 -1 jacena4.dat
+1 151 -70 48 80 -1 0 0 0 1 0 0 0 -1 jacena4.dat
+1 151 -70 72 80 -1 0 0 0 1 0 0 0 -1 jacena4.dat
+1 151 -70 96 80 -1 0 0 0 1 0 0 0 -1 jacena4.dat
+0 Untitled
+0 Name: Untitled.ldr
+0 Author: MLCad
+0 Unofficial Model
+1 151 -150 96 60 0 0 1 0 1 0 -1 0 0 puertamr.dat
+1 151 -150 96 60 0 0 1 0 1 0 -1 0 0 puertacr.dat
+1 151 -150 24 80 0 0 1 0 1 0 -1 0 0 jacen2x4.dat
+1 151 -110 24 80 0 0 1 0 1 0 -1 0 0 jacen2x4.dat
+1 19 -150 -192 80 0 0 1 0 1 0 -1 0 0 jacen2x4.dat
+1 19 -110 -192 80 0 0 1 0 1 0 -1 0 0 jacen2x4.dat
+1 19 -140 0 70 0 0 1 0 1 0 -1 0 0 cilindro.dat
+1 19 -80 0 70 0 0 1 0 1 0 -1 0 0 cilindro.dat
+1 19 -80 0 10 0 0 1 0 1 0 -1 0 0 cilindro.dat
+1 19 -140 0 10 0 0 1 0 1 0 -1 0 0 cilindro.dat
+1 19 -140 -24 70 0 0 1 0 1 0 -1 0 0 cilindro.dat
+1 19 -80 -24 70 0 0 1 0 1 0 -1 0 0 cilindro.dat
+1 19 -80 -24 10 0 0 1 0 1 0 -1 0 0 cilindro.dat
+1 19 -140 -24 10 0 0 1 0 1 0 -1 0 0 cilindro.dat
+1 19 -140 -48 70 0 0 1 0 1 0 -1 0 0 cilindro.dat
+1 19 -80 -48 70 0 0 1 0 1 0 -1 0 0 cilindro.dat
+1 19 -80 -48 10 0 0 1 0 1 0 -1 0 0 cilindro.dat
+1 19 -140 -48 10 0 0 1 0 1 0 -1 0 0 cilindro.dat
+1 19 -140 -72 70 0 0 1 0 1 0 -1 0 0 cilindro.dat
+1 19 -80 -72 70 0 0 1 0 1 0 -1 0 0 cilindro.dat
+1 19 -80 -72 10 0 0 1 0 1 0 -1 0 0 cilindro.dat
+1 19 -140 -72 10 0 0 1 0 1 0 -1 0 0 cilindro.dat
+1 19 -140 -96 70 0 0 1 0 1 0 -1 0 0 cilindro.dat
+1 19 -80 -96 70 0 0 1 0 1 0 -1 0 0 cilindro.dat
+1 19 -80 -96 10 0 0 1 0 1 0 -1 0 0 cilindro.dat
+1 19 -140 -96 10 0 0 1 0 1 0 -1 0 0 cilindro.dat
+1 19 -140 -120 70 0 0 1 0 1 0 -1 0 0 cilindro.dat
+1 19 -80 -120 70 0 0 1 0 1 0 -1 0 0 cilindro.dat
+1 19 -80 -120 10 0 0 1 0 1 0 -1 0 0 cilindro.dat
+1 19 -140 -120 10 0 0 1 0 1 0 -1 0 0 cilindro.dat
+1 19 -140 -144 70 0 0 1 0 1 0 -1 0 0 cilindro.dat
+1 19 -80 -144 70 0 0 1 0 1 0 -1 0 0 cilindro.dat
+1 19 -80 -144 10 0 0 1 0 1 0 -1 0 0 cilindro.dat
+1 19 -140 -144 10 0 0 1 0 1 0 -1 0 0 cilindro.dat
+1 19 -140 -168 70 0 0 1 0 1 0 -1 0 0 cilindro.dat
+1 19 -80 -168 70 0 0 1 0 1 0 -1 0 0 cilindro.dat
+1 19 -80 -168 10 0 0 1 0 1 0 -1 0 0 cilindro.dat
+1 19 -140 -168 10 0 0 1 0 1 0 -1 0 0 cilindro.dat
+1 19 -110 -216 40 0 0 1 0 1 0 -1 0 0 baldc4.dat
+0

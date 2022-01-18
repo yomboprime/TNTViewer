@@ -1,0 +1,22 @@
+0 Ficticia Bloque Esquina 3 puntos 
+0 Name: block3e.dat
+0 Author: FJB
+0 01/05/2007
+
+1 16 0 0 48 1 0 0 0 1 0 0 0 1 Exin\estud.dat
+1 16 0 0 0 1 0 0 0 1 0 0 0 1 Exin\estud.dat
+1 16 48 0 0 1 0 0 0 1 0 0 0 1 Exin\estud.dat
+
+1 16 0 0 48 0 0 1 0 1 0 -1 0 0 Exin\tp3x.dat
+1 16 0 2 48 0 0 1 0 46 0 -1 0 0 Exin\box3x.dat
+1 16 0 48 48 0 0 1 0 1 0 -1 0 0 Exin\dn3x.dat
+
+1 16 0 0 0 1 0 0 0 1 0 0 0 1 Exin\tp2xc.dat
+1 16 0 2 0 1 0 0 0 46 0 0 0 1 Exin\box2xb.dat
+1 16 0 48 0 1 0 0 0 1 0 0 0 1 Exin\dn2xb.dat
+
+1 16 48 0 0 -1 0 0 0 1 0 0 0 1 Exin\tp3x.dat
+1 16 48 2 0 -1 0 0 0 46 0 0 0 1 Exin\box3x.dat
+1 16 48 48 0 -1 0 0 0 1 0 0 0 1 Exin\dn3x.dat
+0
+

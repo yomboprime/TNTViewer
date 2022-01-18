@@ -1,0 +1,75 @@
+0 Todoterreno compacto
+0 Name: todoterrenocompacto.ldr
+0 Author: cpcbegin
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 10 0 8 -90 1 0 0 0 1 0 0 0 1 rueastro.dat
+1 10 0 8 -170 1 0 0 0 1 0 0 0 1 rueastro.dat
+1 7 -50 -8 -50 0 0 1 0 1 0 -1 0 0 placa4x6.dat
+1 7 -50 0 -50 0 0 1 0 1 0 -1 0 0 placa4x6.dat
+1 10 -90 -16 -90 1 0 0 0 1 0 0 0 1 placa4x8.dat
+1 10 -90 -16 -210 1 0 0 0 1 0 0 0 1 placa6x8.dat
+1 10 -90 -96 -130 1 0 0 0 1 0 0 0 1 placa6x8.dat
+1 10 -90 -48 -30 1 0 0 0 1 0 0 0 1 jacena2.dat
+1 10 30 -48 -30 1 0 0 0 1 0 0 0 1 jacena2.dat
+1 10 -70 8 -210 1 0 0 0 1 0 0 0 1 enganch2.dat
+1 10 -50 8 -210 1 0 0 0 1 0 0 0 1 enganch2.dat
+1 10 10 8 -210 1 0 0 0 1 0 0 0 1 enganch2.dat
+1 10 30 8 -210 1 0 0 0 1 0 0 0 1 enganch2.dat
+1 10 70 8 -210 0 0 -1 0 1 0 1 0 0 enganch2.dat
+1 10 -90 8 -190 0 0 1 0 1 0 -1 0 0 enganch2.dat
+1 10 50 8 -10 -1 0 0 0 1 0 0 0 -1 enganch2.dat
+1 10 30 -16 -18 -1 0 0 0 0 1 0 1 0 enganch2.dat
+1 10 -30 -16 -18 -1 0 0 0 0 1 0 1 0 enganch2.dat
+1 10 -50 8 -10 -1 0 0 0 1 0 0 0 -1 enganch2.dat
+1 10 -90 8 -10 0 0 1 0 1 0 -1 0 0 enganch2.dat
+1 10 70 8 -30 0 0 -1 0 1 0 1 0 0 enganch2.dat
+1 0 20 -6 6 0 0 -1 -1 0 0 0 1 0 cilindro.dat
+1 0 -40 -6 6 0 0 -1 -1 0 0 0 1 0 cilindro.dat
+1 15 -30 8 -190 1 0 0 0 1 0 0 0 1 alfajacn.dat
+1 15 10 8 -30 -1 0 0 0 1 0 0 0 -1 alfajacn.dat
+1 0 -70 -24 -190 1 0 0 0 1 0 0 0 1 rallado2.dat
+1 0 -30 -24 -190 1 0 0 0 1 0 0 0 1 rallado2.dat
+1 0 10 -24 -190 1 0 0 0 1 0 0 0 1 rallado2.dat
+1 10 70 -24 -210 0 0 -1 0 1 0 1 0 0 jacena2.dat
+1 10 -70 -24 -210 0 0 -1 0 1 0 1 0 0 jacena2.dat
+1 10 -50 -48 -170 1 0 0 0 1 0 0 0 1 cabant.dat
+1 10 30 -48 -170 1 0 0 0 1 0 0 0 1 cabant.dat
+1 10 70 -24 -170 0 0 -1 0 1 0 1 0 0 puertang.dat
+1 10 -90 -24 -130 0 0 1 0 1 0 -1 0 0 puertang.dat
+1 10 -60 -24 -20 0 0 1 0 1 0 -1 0 0 jacena1.dat
+1 10 40 -24 -20 0 0 1 0 1 0 -1 0 0 jacena1.dat
+1 10 60 -72 -20 0 0 1 0 1 0 -1 0 0 jacena1.dat
+1 10 60 -48 -120 0 0 1 0 1 0 -1 0 0 jacena1.dat
+1 10 60 -72 -120 0 0 1 0 1 0 -1 0 0 jacena1.dat
+1 10 -80 -48 -120 0 0 1 0 1 0 -1 0 0 jacena1.dat
+1 10 -80 -72 -120 0 0 1 0 1 0 -1 0 0 jacena1.dat
+1 10 -80 -72 -20 0 0 1 0 1 0 -1 0 0 jacena1.dat
+1 10 70 -24 -10 0 0 1 0 1 0 -1 0 0 jacena6.dat
+1 10 -70 -24 -10 0 0 1 0 1 0 -1 0 0 jacena6.dat
+1 10 70 -48 -70 0 0 -1 0 1 0 1 0 0 vntthor.dat
+1 10 70 -48 -110 0 0 -1 0 1 0 1 0 0 vntthor.dat
+1 10 -90 -48 -70 0 0 1 0 1 0 -1 0 0 vntthor.dat
+1 10 -90 -48 -30 0 0 1 0 1 0 -1 0 0 vntthor.dat
+1 10 50 -72 -30 0 0 -1 0 1 0 1 0 0 pgarajes.dat
+1 32 50 -72 -30 0 0 -1 0 1 0 1 0 0 pgaraje.dat
+1 10 70 -96 -190 0 0 -1 0 1 0 1 0 0 placa2x3.dat
+1 10 30 -96 -190 0 0 -1 0 1 0 1 0 0 placa2x3.dat
+1 10 -10 -96 -190 0 0 -1 0 1 0 1 0 0 placa2x3.dat
+1 10 -50 -96 -190 0 0 -1 0 1 0 1 0 0 placa2x3.dat
+1 47 60 -104 -180 0 0 -1 0 1 0 1 0 0 placacil.dat
+1 47 -80 -104 -180 0 0 -1 0 1 0 1 0 0 placacil.dat
+1 36 -80 -104 -20 0 0 -1 0 1 0 1 0 0 placacil.dat
+1 36 60 -104 -20 0 0 -1 0 1 0 1 0 0 placacil.dat
+1 36 40 -2 -10 0 0 -1 1 0 0 0 -1 0 placacil.dat
+1 36 -60 -2 -10 0 0 -1 1 0 0 0 -1 0 placacil.dat
+1 47 -60 -2 -208 0 0 1 1 0 0 0 1 0 placacil.dat
+1 47 -40 -2 -208 0 0 1 1 0 0 0 1 0 placacil.dat
+1 47 20 -2 -208 0 0 1 1 0 0 0 1 0 placacil.dat
+1 47 40 -2 -208 0 0 1 1 0 0 0 1 0 placacil.dat
+1 46 68 -2 -200 0 -1 0 1 0 0 0 0 1 placacil.dat
+1 46 -90 -2 -200 0 1 0 1 0 0 0 0 -1 placacil.dat
+1 46 -90 -2 -20 0 1 0 1 0 0 0 0 -1 placacil.dat
+1 46 68 -2 -20 0 -1 0 1 0 0 0 0 1 placacil.dat
+0

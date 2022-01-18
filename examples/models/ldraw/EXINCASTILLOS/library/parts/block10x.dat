@@ -1,0 +1,30 @@
+0 ExinBlock Bloque 10 puntos 
+0 Name: block10x.dat
+0 Author: Risk
+0 15/06/2007
+
+1 16 -216 0 0 1 0 0 0 1 0 0 0 1 Exin\estud.dat
+1 16 -168 0 0 1 0 0 0 1 0 0 0 1 Exin\estud.dat
+1 16 -120 0 0 1 0 0 0 1 0 0 0 1 Exin\estud.dat
+1 16 -72 0 0 1 0 0 0 1 0 0 0 1 Exin\estud.dat
+1 16 -24 0 0 1 0 0 0 1 0 0 0 1 Exin\estud.dat
+1 16 24 0 0 1 0 0 0 1 0 0 0 1 Exin\estud.dat
+1 16 72 0 0 1 0 0 0 1 0 0 0 1 Exin\estud.dat
+1 16 120 0 0 1 0 0 0 1 0 0 0 1 Exin\estud.dat
+1 16 168 0 0 1 0 0 0 1 0 0 0 1 Exin\estud.dat
+1 16 216 0 0 1 0 0 0 1 0 0 0 1 Exin\estud.dat
+
+1 16 -216 0 0 1 0 0 0 1 0 0 0 1 Exin\tp3x.dat
+1 16 -216 2 0 1 0 0 0 46 0 0 0 1 Exin\box3x.dat
+1 16 -216 48 0 1 0 0 0 1 0 0 0 1 Exin\dn3x.dat
+
+1 16 0 0 0 8 0 0 0 1 0 0 0 1 Exin\tp2x.dat
+1 16 0 2 0 8 0 0 0 46 0 0 0 1 Exin\box2x.dat
+1 16 0 48 0 8 0 0 0 1 0 0 0 1 Exin\dn2x.dat
+
+
+1 16 216 0 0 -1 0 0 0 1 0 0 0 1 Exin\tp3x.dat
+1 16 216 2 0 -1 0 0 0 46 0 0 0 1 Exin\box3x.dat
+1 16 216 48 0 -1 0 0 0 1 0 0 0 1 Exin\dn3x.dat
+0
+

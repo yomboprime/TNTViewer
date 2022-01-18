@@ -1,0 +1,14 @@
+0 Remate Almena rectangunar 2 puntos 
+0 Name: fblock2x.dat
+0 Author: FJB
+0 1/05/2007
+
+
+1 16 -24 0 0 1 0 0 0 1 0 0 0 1 Exin\dn3x.dat
+1 16 -24 0 0 1 0 0 0 48 0 0 0 1 Exin\box3x.dat
+1 16 -24 48 0 1 0 0 0 1 0 0 0 1 Exin\dn3x.dat
+1 16 24 0 0 -1 0 0 0 1 0 0 0 1 Exin\dn3x.dat
+1 16 24 0 0 -1 0 0 0 48 0 0 0 1 Exin\box3x.dat
+1 16 24 48 0 -1 0 0 0 1 0 0 0 1 Exin\dn3x.dat
+0
+

@@ -1,0 +1,32 @@
+0 Untitled
+0 Name: planeador_orbital.ldr
+0 Author: MLCad
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 142 -20 -32 -40 0 0 1 0 1 0 -1 0 0 cabant2.dat
+1 142 -20 -32 -120 0 0 1 0 1 0 -1 0 0 cabant2.dat
+1 142 20 -32 -120 0 0 -1 0 1 0 1 0 0 cabant2.dat
+1 142 20 -32 -40 0 0 -1 0 1 0 1 0 0 cabant2.dat
+1 142 40 -80 0 -1 0 0 0 1 0 0 0 -1 baldc4x8.dat
+1 2 -40 8 20 0 0 1 0 1 0 -1 0 0 placa4x8.dat
+1 2 -60 -24 -160 1 0 0 0 1 0 0 0 1 placa2x3.dat
+1 2 0 -24 -160 1 0 0 0 1 0 0 0 1 placa2x3.dat
+1 142 -20 -32 -160 1 0 0 0 1 0 0 0 1 vntthor.dat
+1 2 -20 0 -40 0 0 -1 0 1 0 1 0 0 cuna.dat
+1 2 -20 0 -80 0 0 -1 0 1 0 1 0 0 cuna.dat
+1 2 -20 0 -120 0 0 -1 0 1 0 1 0 0 cuna.dat
+1 2 -20 0 -160 0 0 -1 0 1 0 1 0 0 cuna.dat
+1 2 -20 0 -160 1 0 0 0 1 0 0 0 1 cuna.dat
+1 0 0 -15 -159 1 0 0 0 0 1 0 -1 0 toberast.dat
+1 2 20 0 -120 0 0 1 0 1 0 -1 0 0 cuna.dat
+1 2 20 0 -80 0 0 1 0 1 0 -1 0 0 cuna.dat
+1 2 20 0 -40 0 0 1 0 1 0 -1 0 0 cuna.dat
+1 2 20 0 0 0 0 1 0 1 0 -1 0 0 cuna.dat
+1 142 20 -48 20 -1 0 0 0 1 0 0 0 -1 jacena2.dat
+1 142 20 -72 -20 -1 0 0 0 1 0 0 0 -1 tejado.dat
+1 2 0 0 0 -1 0 0 0 1 0 0 0 -1 cabalfab.dat
+1 32 0 0 0 -1 0 0 0 1 0 0 0 -1 cabalfar.dat
+1 2 -40 -24 -80 -1 0 0 0 1 0 0 0 -1 alaafmed.dat
+1 2 40 -24 -80 1 0 0 0 1 0 0 0 1 alaafmed.dat
+0

@@ -1,0 +1,14 @@
+0 Accesorio Escalera
+0 Name: fstair.dat
+0 Author: FJB
+0 1/05/2007
+
+
+1 16 0 0 0     1 0 0 0 1 0 0 0 1 Exin\stup.dat
+1 16 48 24 0   1 0 0 0 1 0 0 0 1 Exin\step.dat
+1 16 96 48 0   1 0 0 0 1 0 0 0 1 Exin\step.dat
+1 16 144 72 0   1 0 0 0 1 0 0 0 1 Exin\step.dat
+1 16 192 96 0   1 0 0 0 1 0 0 0 1 Exin\step.dat
+1 16 240 120 0   1 0 0 0 1 0 0 0 1 Exin\step.dat
+1 16 288 144 0   1 0 0 0 1 0 0 0 1 Exin\stdown2.dat
+1 16 288 168 0   -1 0 0 0 1 0 0 0 1 Exin\stdown.dat

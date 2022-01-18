@@ -1,0 +1,37 @@
+0 Puerta con reja
+0 Name: fgat2x1r.dat
+0 Author: FJB
+0 Modified by: Risk
+0 19/09/2007
+
+1 16 0 0 0 1 0 0 0 1 0 0 0 1 exin\gat2x1.dat
+1 16 0 0 24 1 0 0 0 1 0 0 0 1 exin\mgat2x1.dat
+
+1 16 -4 -43 24 0 2.4 0 -1.4 0 0 0 0 2 exin\bloqvent.dat
+1 16 -26 -32 24 -0.258819 0.965926 0 -0.965926 -0.258819 0 0 0 2 exin\bloqvent.dat
+1 16 26 -32 24 0.258819 0.965926 0 -0.965926 0.258819 0 0 0 2 exin\bloqvent.dat
+
+1 16 -51 -20 24 -0.9 1.4 0 -0.9 -1.4 0 0 0 2 exin\bloqvent.dat
+1 16 49 -25 24 0.9 1.4 0 -0.9 1.4 0 0 0 2 exin\bloqvent.dat
+
+1 16 -58 5 24 -0.9 0 0 0 1.7 0 0 0 2 exin\bloqvent.dat
+1 16 -68 30 24 -1.4 0 0 0 1.5 0 0 0 2 exin\bloqvent.dat
+1 16 -58 55 24 -0.9 0 0 0 1.9 0 0 0 2 exin\bloqvent.dat
+1 16 -68 80 24 -1.4 0 0 0 1.5 0 0 0 2 exin\bloqvent.dat
+1 16 -58 105 24 -0.9 0 0 0 1.9 0 0 0 2 exin\bloqvent.dat
+1 16 -68 130 24 -1.4 0 0 0 1.5 0 0 0 2 exin\bloqvent.dat
+
+1 16 58 5 24 0.9 0 0 0 1.7 0 0 0 2 exin\bloqvent.dat
+1 16 68 30 24 1.4 0 0 0 1.5 0 0 0 2 exin\bloqvent.dat
+1 16 58 55 24 0.9 0 0 0 1.9 0 0 0 2 exin\bloqvent.dat
+1 16 68 80 24 1.4 0 0 0 1.5 0 0 0 2 exin\bloqvent.dat
+1 16 58 105 24 0.9 0 0 0 1.9 0 0 0 2 exin\bloqvent.dat
+1 16 68 130 24 1.4 0 0 0 1.5 0 0 0 2 exin\bloqvent.dat
+
+1 0 15 -20 20 3 0 0 0 160 0 0 0 3 4-4cyli.dat
+1 0 -15 -20 20 3 0 0 0 160 0 0 0 3 4-4cyli.dat
+1 0 -40 10 20 0 80 0 3 0 0 0 0 3 4-4cyli.dat
+1 0 -40 70 20 0 80 0 3 0 0 0 0 3 4-4cyli.dat
+1 0 -40 40 20 0 80 0 3 0 0 0 0 3 4-4cyli.dat
+1 0 -40 100 20 0 80 0 3 0 0 0 0 3 4-4cyli.dat
+0

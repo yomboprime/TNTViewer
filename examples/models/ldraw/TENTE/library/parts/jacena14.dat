@@ -1,0 +1,66 @@
+0 Jacena 14
+0 Name: jacena14.dat
+0 Author: jasolo
+0 !LDRAW_ORG Unofficial_Part
+0 BFC CERTIFY CCW
+0 BFC CERTIFY INVERTNEXT
+1 16 140 0 10 137.5 0 0 0 -21.5 0 0 0 7.5 BOX4.DAT
+4 16 280 0 20 277.5 0 17.5 2.5 0 17.5 0 0 20
+4 16 0 0 0 2.5 0 2.5 277.5 0 2.5 280 0 0
+4 16 280 0 0 277.5 0 2.5 277.5 0 17.5 280 0 20
+4 16 0 0 20 2.5 0 17.5 2.5 0 2.5 0 0 0
+1 16 140 0 10 140 0 0 0 -24 0 0 0 10 box5.dat
+1 16 10 0 10 1 0 0 0 1 0 0 0 1 s\teton.dat
+1 16 30 0 10 1 0 0 0 1 0 0 0 1 s\teton.dat
+1 16 50 0 10 1 0 0 0 1 0 0 0 1 s\teton.dat
+1 16 70 0 10 1 0 0 0 1 0 0 0 1 s\teton.dat
+1 16 90 0 10 1 0 0 0 1 0 0 0 1 s\teton.dat
+1 16 110 0 10 1 0 0 0 1 0 0 0 1 s\teton.dat
+1 16 130 0 10 1 0 0 0 1 0 0 0 1 s\teton.dat
+1 16 150 0 10 1 0 0 0 1 0 0 0 1 s\teton.dat
+1 16 140 0 10 1 0 0 0 1 0 0 0 1 s\pilar.dat
+1 16 120 0 10 1 0 0 0 1 0 0 0 1 s\pilar.dat
+1 16 100 0 10 1 0 0 0 1 0 0 0 1 s\pilar.dat
+1 16 80 0 10 1 0 0 0 1 0 0 0 1 s\pilar.dat
+1 16 60 0 10 1 0 0 0 1 0 0 0 1 s\pilar.dat
+1 16 40 0 10 1 0 0 0 1 0 0 0 1 s\pilar.dat
+1 16 20 0 10 1 0 0 0 1 0 0 0 1 s\pilar.dat
+1 16 20 -24 0 1 0 0 0 1 0 0 0 1 s\cruceta1.dat
+1 16 40 -24 0 1 0 0 0 1 0 0 0 1 s\cruceta1.dat
+1 16 60 -24 0 1 0 0 0 1 0 0 0 1 s\cruceta1.dat
+1 16 80 -24 0 1 0 0 0 1 0 0 0 1 s\cruceta1.dat
+1 16 100 -24 0 1 0 0 0 1 0 0 0 1 s\cruceta1.dat
+1 16 120 -24 0 1 0 0 0 1 0 0 0 1 s\cruceta1.dat
+1 16 140 -24 0 1 0 0 0 1 0 0 0 1 s\cruceta1.dat
+1 16 140 -24 20 -1 0 0 0 1 0 0 0 -1 s\cruceta1.dat
+1 16 120 -24 20 -1 0 0 0 1 0 0 0 -1 s\cruceta1.dat
+1 16 100 -24 20 -1 0 0 0 1 0 0 0 -1 s\cruceta1.dat
+1 16 80 -24 20 -1 0 0 0 1 0 0 0 -1 s\cruceta1.dat
+1 16 60 -24 20 -1 0 0 0 1 0 0 0 -1 s\cruceta1.dat
+1 16 40 -24 20 -1 0 0 0 1 0 0 0 -1 s\cruceta1.dat
+1 16 20 -24 20 -1 0 0 0 1 0 0 0 -1 s\cruceta1.dat
+1 16 170 0 10 1 0 0 0 1 0 0 0 1 s\teton.dat
+1 16 190 0 10 1 0 0 0 1 0 0 0 1 s\teton.dat
+1 16 210 0 10 1 0 0 0 1 0 0 0 1 s\teton.dat
+1 16 230 0 10 1 0 0 0 1 0 0 0 1 s\teton.dat
+1 16 250 0 10 1 0 0 0 1 0 0 0 1 s\teton.dat
+1 16 270 0 10 1 0 0 0 1 0 0 0 1 s\teton.dat
+1 16 260 0 10 1 0 0 0 1 0 0 0 1 s\pilar.dat
+1 16 240 0 10 1 0 0 0 1 0 0 0 1 s\pilar.dat
+1 16 220 0 10 1 0 0 0 1 0 0 0 1 s\pilar.dat
+1 16 200 0 10 1 0 0 0 1 0 0 0 1 s\pilar.dat
+1 16 180 0 10 1 0 0 0 1 0 0 0 1 s\pilar.dat
+1 16 180 -24 0 1 0 0 0 1 0 0 0 1 s\cruceta1.dat
+1 16 200 -24 0 1 0 0 0 1 0 0 0 1 s\cruceta1.dat
+1 16 220 -24 0 1 0 0 0 1 0 0 0 1 s\cruceta1.dat
+1 16 240 -24 0 1 0 0 0 1 0 0 0 1 s\cruceta1.dat
+1 16 260 -24 0 1 0 0 0 1 0 0 0 1 s\cruceta1.dat
+1 16 260 -24 20 -1 0 0 0 1 0 0 0 -1 s\cruceta1.dat
+1 16 240 -24 20 -1 0 0 0 1 0 0 0 -1 s\cruceta1.dat
+1 16 220 -24 20 -1 0 0 0 1 0 0 0 -1 s\cruceta1.dat
+1 16 200 -24 20 -1 0 0 0 1 0 0 0 -1 s\cruceta1.dat
+1 16 180 -24 20 -1 0 0 0 1 0 0 0 -1 s\cruceta1.dat
+1 16 160 0 10 1 0 0 0 1 0 0 0 1 s\pilar.dat
+1 16 160 -24 0 1 0 0 0 1 0 0 0 1 s\cruceta1.dat
+1 16 160 -24 20 -1 0 0 0 1 0 0 0 -1 s\cruceta1.dat
+0

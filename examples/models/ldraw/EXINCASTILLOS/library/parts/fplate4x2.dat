@@ -1,0 +1,15 @@
+0 Placa lisa 2x4
+0 Name: fplate4x2.dat
+0 Author: Risk
+0 27/04/2008
+
+1 16 -24 0 72 1 0 0 0 1 0 0 0 -1 Exin\pl1x05e.dat
+1 16 24 0  72 -1 0 0 0 1 0 0 0 -1 Exin\pl1x05e.dat
+1 16 -24 0 -72 1 0 0 0 1 0 0 0 1 Exin\pl1x05e.dat
+1 16 24 0  -72 -1 0 0 0 1 0 0 0 1 Exin\pl1x05e.dat
+
+1 16 -24  0 24   1 0 0 0 1 0 0 0 1 Exin\pl1x05l.dat
+1 16 24   0 24   -1 0 0 0 1 0 0 0 1 Exin\pl1x05l.dat
+1 16 -24 0 -24 1 0 0 0 1 0 0 0 1 Exin\pl1x05l.dat
+1 16 24 0 -24 -1 0 0 0 1 0 0 0 1 Exin\pl1x05l.dat
+0
