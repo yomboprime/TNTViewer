@@ -785,7 +785,7 @@
 
 			function hideProgressBar() {
 
-				document.body.removeChild( progressBarDiv );
+				if ( document.body.contains( progressBarDiv ) ) document.body.removeChild( progressBarDiv );
 
 			}
 
