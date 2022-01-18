@@ -1175,6 +1175,10 @@ class LDrawParsedCache {
 
 					}
 
+const vv = v1;
+v1 = v2;
+v2 = vv;
+
 					// specifically place the triangle diagonal in the v0 and v1 slots so we can
 					// account for the doubling of vertices later when smoothing normals.
 					faces.push( {
