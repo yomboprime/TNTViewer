@@ -549,7 +549,6 @@
 				if ( parts.length > 0 ) {
 
 					meanPos.multiplyScalar( 1 / parts.length );
-					//setCamera( meanPos.x - getTurnOffset(), meanPos.y, meanPos.z );
 
 				}
 
@@ -560,7 +559,7 @@
 					const part = parts[ p ];
 
 					part.position.add( meanPos );
-					part.position.y += part.userData.sy * 4;
+					part.position.y += meanPos.y * 2;
 
 					const physicsShape = new Ammo.btBoxShape(
 						new Ammo.btVector3(
