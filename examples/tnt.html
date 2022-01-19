@@ -712,45 +712,9 @@
 
 			}
 
-			function getPartsFileList( constructionSet, onLoaded ) {
-
-				getList( getLibraryPath( constructionSet ) + 'parts.lst', onLoaded );
-
-			}
-
-			function getList( path, onLoaded ) {
-
-				const loader = new THREE.FileLoader();
-				loader.load( path, ( content ) => {
-
-					const lines = content.split( '\n' );
-					const list = {};
-					for ( var i = 0; i < lines.length; i ++ ) {
-
-						const line = lines[ i ];
-						const spcPos = line.indexOf( ' ' );
-						let partPath = line;
-						let partName = line;
-						if ( spcPos >= 0 ) {
-
-							partPath = line.substring( 0, spcPos );
-							partName = line.substring( spcPos ).trim();
-
-						}
-
-						list[ partName ] = partPath;
-
-					}
-
-					onLoaded( list );
-
-				} );
-
-			}
-
 			function getLibraryPath( constructionSet ) {
 
-				return ldrawPath + constructionSet  + '/library/';
+				return ldrawPath + constructionSet  + '/';
 
 			}
 

@@ -1,0 +1,650 @@
+ID	SERIE	Serie / Ref. Num.	Nombre	URL Listado Refs
+3	400	Serie 400		https://tente.spread.name/id/3
+4	400	410	410	https://tente.spread.name/id/4
+5	400	420	420	https://tente.spread.name/id/5
+6	400	430	430	https://tente.spread.name/id/6
+7	Mini	Serie MINI		https://tente.spread.name/id/7
+8	Mini	501	CHALET	https://tente.spread.name/id/8
+9	Mini	502	PEAJE AUTOPISTA	https://tente.spread.name/id/9
+10	Mini	503 	BUNGALOW	https://tente.spread.name/id/10
+11	Mini	504	TORRE DE CONTROL	https://tente.spread.name/id/11
+12	Mini	505	CENTRO COMERCIAL	https://tente.spread.name/id/12
+13	Mini	506	JUGADOR DE RUGBY	https://tente.spread.name/id/13
+14	Mini	507	ERMITA	https://tente.spread.name/id/14
+15	Mini	508	KIOSKO REFRESCOS	https://tente.spread.name/id/15
+16	Mini	509	GASOLINERA	https://tente.spread.name/id/16
+17	Mini	510	CASA DE CAMPO	https://tente.spread.name/id/17
+18	Mini	511	PETROLERO	https://tente.spread.name/id/18
+19	Mini	512	HELICÓPTERO	https://tente.spread.name/id/19
+20	Básico	Serie BÁSICO		https://tente.spread.name/id/20
+21	Básico	0401	1 / 401	https://tente.spread.name/id/21
+22	Básico	0402	2 / 401	https://tente.spread.name/id/22
+23	Básico	0403	3 / 402	https://tente.spread.name/id/23
+24	Básico	0404	4 / 403	https://tente.spread.name/id/24
+25	Ruta	Serie RUTA		https://tente.spread.name/id/25
+26	Ruta	0670	CAMIÓN PLATAFORMA	https://tente.spread.name/id/26
+27	Ruta	0671	CAMIÓN FURGÓN 	https://tente.spread.name/id/27
+28	Ruta	0672	CAMIÓN VOLQUETE	https://tente.spread.name/id/28
+29	Ruta	0673	CAMIÓN DE REPARTO	https://tente.spread.name/id/29
+30	Ruta	0674	AUTOBÚS URBANO	https://tente.spread.name/id/30
+31	Ruta	0675	QUITANIEVES	https://tente.spread.name/id/31
+32	Ruta	0676	AMBULANCIA	https://tente.spread.name/id/32
+33	Ruta	0677	AUTO-BAR	https://tente.spread.name/id/33
+34	Ruta	0680	TRÁILER PLATAFORMA	https://tente.spread.name/id/34
+35	Ruta	0681	TRÁILER CISTERNA AEROPUERTO	https://tente.spread.name/id/35
+36	Ruta	0682	TRÁILER TRANSPORTES ESPECIALES	https://tente.spread.name/id/36
+37	Ruta	0683	TRÁILER TRANSPORTE INTERNACIONAL	https://tente.spread.name/id/37
+38	Ruta	0684	TRÁILER TRANSPORTE YATE	https://tente.spread.name/id/38
+39	Ruta	0685	TRÁILER TRANSPORTE MINERALES	https://tente.spread.name/id/39
+40	Ruta	0686	TRÁILER FRIGORÍFICO	https://tente.spread.name/id/40
+41	Ruta	0687	TRÁILER VOLQUETE	https://tente.spread.name/id/41
+42	Ruta	0690	CUARTEL Y CAMIÓN BOMBEROS	https://tente.spread.name/id/42
+43	Ruta	0691	ESTACIÓN DE ENGRASE Y CAMIÓN GRÚA	https://tente.spread.name/id/43
+44	Ruta	0692	GASOLINERA Y CAMIÓN CISTERNA	https://tente.spread.name/id/44
+45	Ruta	0693	SILO Y CAMIÓN CEMENTO	https://tente.spread.name/id/45
+46	Ruta	0553	EL MUNDO DE LA RUTA	https://tente.spread.name/id/46
+47	Ruta2	Serie RUTA  (2ª Generación)		https://tente.spread.name/id/47
+48	Ruta2	0500	CAMIÓN ÁFRICA	https://tente.spread.name/id/48
+49	Ruta2	0501	ASISTENCIA EN RUTA	https://tente.spread.name/id/49
+50	Ruta2	0502	VOLQUETE	https://tente.spread.name/id/50
+51	Ruta2	0503	SERVICIO LIMPIEZA	https://tente.spread.name/id/51
+52	Ruta2	0504	BRIGADA DE BOMBEROS	https://tente.spread.name/id/52
+53	Ruta2	0505	TRÁILER HELICÓPTERO	https://tente.spread.name/id/53
+54	Ruta2	0506	CAÑÓN PROPULSADO	https://tente.spread.name/id/54
+55	Ruta2	0509	BASE LANZAMISILES	https://tente.spread.name/id/55
+56	Ruta2	0510	CAMIÓN GRUA	https://tente.spread.name/id/56
+57	Ruta2	0514	EXPLOTACIÓN PETROLÍFERA	https://tente.spread.name/id/57
+58	Ruta2	0515	PEAJE Y CAMIÓN SERVICIOS	https://tente.spread.name/id/58
+59	Ruta2	0516	ESTACIÓN DE SERVICIO	https://tente.spread.name/id/59
+60	Ruta2	70034	CAMIÓN ÁFRICA	https://tente.spread.name/id/60
+61	Ruta2	70035	CAMIÓN VOLQUETE	https://tente.spread.name/id/61
+62	Ruta2	70036	CAMIÓN BOMBEROS	https://tente.spread.name/id/62
+63	Ruta2	70038	4×4 TUAREG	https://tente.spread.name/id/63
+64	Ruta2	70046	AIRPORT SERVICE	https://tente.spread.name/id/64
+65	Ruta2	70130	BRIGADA DE INCENDIOS	https://tente.spread.name/id/65
+66	Ruta2	70131	TRÁILER PORTA-HELICÓPTEROS	https://tente.spread.name/id/66
+67	Ruta2	70133	RACING TRUCKS	https://tente.spread.name/id/67
+68	Mar	Serie MAR		https://tente.spread.name/id/68
+69	Mar	0540	LOS COLOSOS DEL OCÉANO	https://tente.spread.name/id/69
+70	Mar	0541	LOS TIGRES DEL MAR	https://tente.spread.name/id/70
+71	Mar	0550	LOS GIGANTES DEL MAR	https://tente.spread.name/id/71
+72	Mar	0551	LOS INTRÉPIDOS NAVÍOS	https://tente.spread.name/id/72
+73	Mar	0560	BASE COBRA	https://tente.spread.name/id/73
+74	Mar	0600	DRAGAMINAS  (HURON)	https://tente.spread.name/id/74
+75	Mar	0601	PESQUERO DE ALTA MAR (CABO NORTE)	https://tente.spread.name/id/75
+76	Mar	0602	BARCO FARO  (VEGA15)	https://tente.spread.name/id/76
+77	Mar	0603	BARCO CONTRA INCENDIOS (ETNA)	https://tente.spread.name/id/77
+78	Mar	0604	BARCO POLICÍA (CHARLY)	https://tente.spread.name/id/78
+79	Mar	0605	CISTERNA DE ESCOLTA (SYDNEY)	https://tente.spread.name/id/79
+80	Mar	0606	BARCO DE RESCATE (SANSON)	https://tente.spread.name/id/80
+81	Mar	0607	BUQUE METEOROLÓGICO (EOLO)	https://tente.spread.name/id/81
+82	Mar	0610	MOTONAVE  (VELÁZQUEZ)	https://tente.spread.name/id/82
+83	Mar	0611	METANERO  (LIBIA)	https://tente.spread.name/id/83
+84	Mar	0612	CARGUERO  (PANAMÁ)	https://tente.spread.name/id/84
+85	Mar	0613	DESTRUCTOR  (AQUILES)	https://tente.spread.name/id/85
+86	Mar	0614	FERRY  (EGEO)	https://tente.spread.name/id/86
+87	Mar	0615	FRAGATA LANZAMISILES (ICARO)	https://tente.spread.name/id/87
+88	Mar	0616	HOVERCRAFT (PEGASO)	https://tente.spread.name/id/88
+89	Mar	0617	BUQUE DESEMBARCO (ATLAS)	https://tente.spread.name/id/89
+90	Mar	0618	GUARDACOSTAS  (FENIX)	https://tente.spread.name/id/90
+91	Mar	0619	ROMPEHIELOS NUCLEAR OCEANOGRÁFICO (PEARY) 	https://tente.spread.name/id/91
+92	Mar	0620	ESTACIÓN MARÍTIMA Y REMOLCADOR  (TORO)	https://tente.spread.name/id/92
+93	Mar	0621	MUELLE COMERCIAL Y BARCO PESQUERO  (ASUNCIÓN)	https://tente.spread.name/id/93
+94	Mar	0622	REFINERÍA Y PETROLERO DE CABOTAJE  (FOCA)	https://tente.spread.name/id/94
+95	Mar	0623	BUQUE DE INVESTIGACIONES SUBMARINAS (CALIXTO)	https://tente.spread.name/id/95
+96	Mar	0624	DESTRUCTOR ANTISUBMARINO (TRITON)	https://tente.spread.name/id/96
+97	Mar	0625	TRANSPORTE GAS LICUADO (TEIDE)	https://tente.spread.name/id/97
+98	Mar	0626	TRANSPORTE LANCHAS DESEMBARCO (TIGRE)	https://tente.spread.name/id/98
+99	Mar	0627	BUQUE DE PERFORACIONES (CASTOR)	https://tente.spread.name/id/99
+100	Mar	0628	BUQUE FRIGORÍFICO (AROSA)	https://tente.spread.name/id/100
+101	Mar	0629	CORSARIO (INTERCEPTOR)	https://tente.spread.name/id/101
+102	Mar	0630	CRUCERO (FALCON)	https://tente.spread.name/id/102
+103	Mar	0631	FRAGATA MIXTA (FROG)	https://tente.spread.name/id/103
+104	Mar	0633	BUQUE DE CARGA (THORELL)	https://tente.spread.name/id/104
+105	Mar	0634	TRANSPORTE MIXTO (SEAGULL)	https://tente.spread.name/id/105
+106	Mar	0635	BUQUE DE PASAJE (IBIZA)	https://tente.spread.name/id/106
+107	Mar	0636	VAMP	https://tente.spread.name/id/107
+108	Mar	0637	LASER X  (NEBULAE)	https://tente.spread.name/id/108
+109	Mar	0638	SHADOW (STORM)	https://tente.spread.name/id/109
+110	Mar	0639	ORION	https://tente.spread.name/id/110
+111	Mar	0640	SIRIUS	https://tente.spread.name/id/111
+112	Mar	0641	PHOENIX	https://tente.spread.name/id/112
+113	Mar	0642	EXPLOR	https://tente.spread.name/id/113
+114	Mar, Motor	0640	BUQUE POLAR DE RESCATE  (OSLO)	https://tente.spread.name/id/114
+115	Mar, Motor	0641	BUQUE DE ASALTO  (TITAN)	https://tente.spread.name/id/115
+116	Mar, Motor	0642	TRANSBORDADOR HOVERCRAFT  (BALEARES / ALGECIRAS / CESAR)	https://tente.spread.name/id/116
+117	Mar, Motor	0643	DESTRUCTOR NUCLEAR (THOR)	https://tente.spread.name/id/117
+118	Mar, Motor	0644	BUQUE FACTORÍA (DELFOS)	https://tente.spread.name/id/118
+119	Mar, Motor	0645	PORTAHELICÓPTEROS LIGERO (FOX)	https://tente.spread.name/id/119
+120	Mar	0646	STRINGDRAKE	https://tente.spread.name/id/120
+121	Mar	0647	NEMMOR (ДЛ / ЛД)	https://tente.spread.name/id/121
+122	Mar	0700	MERCANTE MIXTO (ORIENTE)	https://tente.spread.name/id/122
+123	Mar	0701	PORTAAVIONES 2ª GUERRA MUNDIAL (JÚPITER)	https://tente.spread.name/id/123
+124	Mar	0702	CARGUERO Y TERMINAL DE SILOS (MENORCA)	https://tente.spread.name/id/124
+125	Mar	0703	FRAGATA LANZAMISILES Y BASE NAVAL (ARIES)	https://tente.spread.name/id/125
+126	Mar	0703	PORTAAERONAVES (MYSTERE)	https://tente.spread.name/id/126
+127	Mar	0704	PORTAAVIONES TÁCTICO (CORONADO)	https://tente.spread.name/id/127
+128	Mar	0705	BARCO SHUTTLE (SAGITARIUS)	https://tente.spread.name/id/128
+129	Mar	0706	TRANSUB-OCEANIC (NEPTUNE)	https://tente.spread.name/id/129
+130	Mar	0707	STAR LINES ZENITH 	https://tente.spread.name/id/130
+131	Mar	0708	OCTOPUS (PERSEUS)	https://tente.spread.name/id/131
+132	Mar	0709	WORKSHIP (TROPIC) 	https://tente.spread.name/id/132
+133	Mar	0710	TRANSATLÁNTICO EL GRECO	https://tente.spread.name/id/133
+134	Mar	0711	PORTAAVIONES  (PACIFIC)	https://tente.spread.name/id/134
+135	Mar	0712	MOTONAVE CANGURO (PALMA)	https://tente.spread.name/id/135
+136	Mar	0713	ACORAZADO  (TORNADO)	https://tente.spread.name/id/136
+137	Mar	0714	PORTAAVIONES GALAXIE	https://tente.spread.name/id/137
+138	Mar	0715	PORTAHELICÓPTEROS  (DRAGON)	https://tente.spread.name/id/138
+139	Mar	0716	HARDTRON	https://tente.spread.name/id/139
+140	Mar	0717	TRANSATLATICO II (PALERMO)	https://tente.spread.name/id/140
+141	Oceanis	Serie OCEANIS		https://tente.spread.name/id/141
+142	Oceanis	0608	HOVERCRAFT EXPRESS	https://tente.spread.name/id/142
+143	Oceanis	0609	DESTROYER (DESTRUCTOR) (NAUTILUS)	https://tente.spread.name/id/143
+144	Oceanis	0648	BUQUE DE ASALTO (ZEBRA)	https://tente.spread.name/id/144
+145	Oceanis	0649	CARGUERO  (COLOSUS)	https://tente.spread.name/id/145
+146	Oceanis	0650	REMOLCADOR (TORO)	https://tente.spread.name/id/146
+147	Oceanis	0651	CORBETA “DESCUBIERTA”	https://tente.spread.name/id/147
+148	Oceanis	0652	FRAGATA “SANTA MARIA”	https://tente.spread.name/id/148
+149	Oceanis	0653	TASK FORCE (NIMITZ / EAGLE / TRITON)	https://tente.spread.name/id/149
+150	Oceanis	0654	PORTAAVIONES “NIMITZ”	https://tente.spread.name/id/150
+151	Oceanis	0655	PORTAHELICÓPTEROS “MOCKBA”	https://tente.spread.name/id/151
+152	Oceanis	0656	TRANSATLÁTICO “LUXOR”	https://tente.spread.name/id/152
+153	Oceanis	0657	PATRULLERA (P435)	https://tente.spread.name/id/153
+154	Oceanis	0658	OCEANOGRÁFICO (METEOR)	https://tente.spread.name/id/154
+155	Oceanis	0659	MISSOURI	https://tente.spread.name/id/155
+156	Oceanis	0660	PUERTO COMERCIAL  (CARIBE)	https://tente.spread.name/id/156
+157	Oceanis	11433	CRUCERO SEA DREAM	https://tente.spread.name/id/157
+158	Oceanis	11434	PETROLERO WEST OIL & CO (POTOMAC STAR)	https://tente.spread.name/id/158
+159	Oceanis	11875	PORTAAVIONES CHARLES DE GAULLE	https://tente.spread.name/id/159
+160	Oceanis	11876	JUAN SEBASTIÁN DE ELCANO	https://tente.spread.name/id/160
+161	Oceanis	12199	CUTTY SARK	https://tente.spread.name/id/161
+162	Oceanis	12200	QUEEN ELIZABETH 2	https://tente.spread.name/id/162
+163	Oceanis	70011	PATRULLA GUARDAMARINA  (CONSUL)	https://tente.spread.name/id/163
+164	Oceanis	70012	BARCO FARO  (STAR)	https://tente.spread.name/id/164
+165	Oceanis	70013	BARCO PESQUERO  (ASUNCIÓN)	https://tente.spread.name/id/165
+166	Oceanis	70014	BARCO OCEANOGRÁFICO (METEOR)	https://tente.spread.name/id/166
+167	Oceanis	70015	BARCO PERFORADOR  (CASTOR)	https://tente.spread.name/id/167
+168	Oceanis	70016	BARCO DE RESCATE (SANSON)	https://tente.spread.name/id/168
+169	Oceanis	70017	PHONE LINE	https://tente.spread.name/id/169
+170	Oceanis	70018	SANTA ELENA	https://tente.spread.name/id/170
+171	Oceanis	70019	SEA CRUISER	https://tente.spread.name/id/171
+172	Oceanis	70041	SANTA MARIA	https://tente.spread.name/id/172
+173	Oceanis	70041	FRAGATA SANTA MARIA + CONSUL	https://tente.spread.name/id/173
+174	Oceanis	70045	SEA GUARDIAN (SEA WARRIOR)	https://tente.spread.name/id/174
+175	Oceanis	70110	PUERTO PESQUERO / FISHING PORT (ASUNCION / MARIA / TEIDE)	https://tente.spread.name/id/175
+176	Oceanis	70111	PORTAVIONES NIMITZ (NIMITZ / CONSUL)	https://tente.spread.name/id/176
+177	Oceanis	70111	PORTAVIONES NIMITZ (NIMITZ / CONSUL)	https://tente.spread.name/id/177
+178	Oceanis	70112	HARBOUR / GRAN PUERTO COMERCIAL  (CARIBE)	https://tente.spread.name/id/178
+179	Oceanis	70113	TRANSATLÁNTICO TITANIC	https://tente.spread.name/id/179
+180	Oceanis	70114	PORTAHELICÓPTEROS DRAGON	https://tente.spread.name/id/180
+181	Oceanis	70115	ACORAZADO BISMARCK	https://tente.spread.name/id/181
+182	Oceanis	70116	CALEDONIAN FERRY	https://tente.spread.name/id/182
+183	Combi Mar	Serie COMBI MAR		https://tente.spread.name/id/183
+184	Combi Mar	0301	PATRULLERO (CONSUL)	https://tente.spread.name/id/184
+185	Combi Mar	0302	TRANSPORTE ANFIBIO (OCEAN)	https://tente.spread.name/id/185
+186	Combi Mar	0303	BUQUE HOSPITAL (MARIA)	https://tente.spread.name/id/186
+187	Combi Mar	0304	BUTANERO (HERMES)	https://tente.spread.name/id/187
+188	Combi Mar	0311	PORTACONTAINERS (RODAS)	https://tente.spread.name/id/188
+189	Combi Mar	0312	MOTONAVE (TUNEZ)	https://tente.spread.name/id/189
+190	Combi Mar	0313	BUQUE DE ENLACE  (COBRA)	https://tente.spread.name/id/190
+191	Combi Mar	0314	BUQUE DE ESCOLTA (MARTE)	https://tente.spread.name/id/191
+192	Combi Mar	0333	TRANSBORDADOR (CORFU)	https://tente.spread.name/id/192
+193	Combi Mar	0334	PESQUERO DE CABOTAJE (ALBA)	https://tente.spread.name/id/193
+194	Combi Mar	0335	PORTAAVIONES (ZEUS)	https://tente.spread.name/id/194
+195	Combi Mar	0336	CORBETA (ATILA)	https://tente.spread.name/id/195
+196	Astro	Serie ASTRO		https://tente.spread.name/id/196
+197	Astro	0552	LOS VEHÍCULOS DE LAS GALAXIAS	https://tente.spread.name/id/197
+198	Astro	0542	LOS EXPLORADORES DEL ESPACIO	https://tente.spread.name/id/198
+199	Astro	0650	DESINTEGRADOR DE RAYOS LASER	https://tente.spread.name/id/199
+200	Astro	0651	CENTRO MÓVIL DE CONTROL	https://tente.spread.name/id/200
+201	Astro	0652	EXPLORADOR ESPACIAL	https://tente.spread.name/id/201
+202	Astro	0653	ASTROMÓVIL	https://tente.spread.name/id/202
+203	Astro	0654	UNIDAD SIDERAL DE RESCATE	https://tente.spread.name/id/203
+204	Astro	0655	TORRE CONTROL TRÁFICO ORBITAL	https://tente.spread.name/id/204
+205	Astro	0656	INTERCEPTOR ESPACIAL	https://tente.spread.name/id/205
+206	Astro	0657	UNIDAD TELEDETECTORA	https://tente.spread.name/id/206
+207	Astro	0658	ARAÑA LUNAR	https://tente.spread.name/id/207
+208	Astro	0659	ASTRO-DELTA TRANSPORTADO	https://tente.spread.name/id/208
+209	Astro	0660	STRATOJET	https://tente.spread.name/id/209
+210	Astro	0661	UNIDAD ESPECIAL DE SONDEO	https://tente.spread.name/id/210
+211	Astro	0720	PROYECTOR GALÁCTICO MÓVIL	https://tente.spread.name/id/211
+212	Astro	0721	ASTRONAVE Y TORRE DE LANZAMIENTO	https://tente.spread.name/id/212
+213	Astro	0722	NAVE DEFENSA SIDERAL	https://tente.spread.name/id/213
+214	Astro	0723	BASE VIGÍA CÓSMICA 	https://tente.spread.name/id/214
+215	Astro	0724	ASTRONAVE PORTACONTAINERS	https://tente.spread.name/id/215
+216	Astro	0725	EQUIPO MÓVIL FOTOSTÉREO	https://tente.spread.name/id/216
+217	Astro	0726	BASE DESCONTAMINACIÓN	https://tente.spread.name/id/217
+218	Astro	0740	SUPERTRANSPORTE INTERESTELAR	https://tente.spread.name/id/218
+219	Astro, Motor	0745	BIORRASTREADOR	https://tente.spread.name/id/219
+220	Astro, Motor	0746	DESLIZADOR DRACO	https://tente.spread.name/id/220
+221	Astro	70022	VEHÍCULO EXPLORADOR	https://tente.spread.name/id/221
+222	Combi Astro	Serie COMBI ASTRO		https://tente.spread.name/id/222
+223	Combi Astro	0305	PLANEADOR ESPACIAL	https://tente.spread.name/id/223
+224	Combi Astro	0306	GENERADOR MÓVIL	https://tente.spread.name/id/224
+225	Combi Astro	0307	UNIDAD EXPLANADORA	https://tente.spread.name/id/225
+226	Combi Astro	0308	PERFORADOR ULTRASÓNICO	https://tente.spread.name/id/226
+227	Combi Astro	0321	JET ORBITER	https://tente.spread.name/id/227
+228	Combi Astro	0322	CLIMATIZADOR	https://tente.spread.name/id/228
+229	Combi Astro	0323	MODULO DE EXPLORACIÓN	https://tente.spread.name/id/229
+230	Combi Astro	0324	BUGGY LUNAR	https://tente.spread.name/id/230
+231	Combi Astro	0338	POLICÍA GALÁCTICA	https://tente.spread.name/id/231
+232	Combi Astro	0339	SOLDADOR ORBITAL	https://tente.spread.name/id/232
+233	Combi Astro	0340	LECTOR GEOLÓGICO	https://tente.spread.name/id/233
+234	Combi Astro	0341	LANZADERA ESPACIAL	https://tente.spread.name/id/234
+235	Cosmic	Serie COSMIC		https://tente.spread.name/id/235
+236	Cosmic	0429	LÁSER ANTINIEBLA	https://tente.spread.name/id/236
+237	Cosmic	0430	MÓDULO DE ENLACE	https://tente.spread.name/id/237
+238	Cosmic	0431	UVI-MÓVIL	https://tente.spread.name/id/238
+239	Cosmic	0432	SPACE WALKER	https://tente.spread.name/id/239
+240	Cosmic	0433	VECTOR X-15	https://tente.spread.name/id/240
+241	Cosmic	0434	DRAGSTER	https://tente.spread.name/id/241
+242	Cosmic	0435	SCOUTY	https://tente.spread.name/id/242
+243	Cosmic	0436	REDWOLF	https://tente.spread.name/id/243
+244	Cosmic	0437	STRONER	https://tente.spread.name/id/244
+245	Cosmic	0438	LANZADERA BLUE STAR 	https://tente.spread.name/id/245
+246	Cosmic	0439	DISCOPTER	https://tente.spread.name/id/246
+247	Cosmic	0440	TRISTAR	https://tente.spread.name/id/247
+248	Cosmic	0441	CENTAURUS	https://tente.spread.name/id/248
+249	Cosmic	0442	TURBO CUTER	https://tente.spread.name/id/249
+250	Cosmic	0445	ESTACIÓN ESPACIAL ODISEUS 22 -SONO-LUX-	https://tente.spread.name/id/250
+251	Cosmic	0557	BASE ESPACIAL ANDRÓMEDA	https://tente.spread.name/id/251
+252	Cosmic	70023	VIGILANTE MARCIANO	https://tente.spread.name/id/252
+253	Cosmic	70024	NAVE MARCIANA	https://tente.spread.name/id/253
+254	Cosmic	70120	AVENTURA EN MARTE	https://tente.spread.name/id/254
+255	Scorpion	Serie SCORPION		https://tente.spread.name/id/255
+256	Scorpion	0543	SCORPIONES DE ACERO	https://tente.spread.name/id/256
+257	Scorpion	0750	TANQUE	https://tente.spread.name/id/257
+258	Scorpion	0751	TRANSPORTE ANFIBIO	https://tente.spread.name/id/258
+259	Scorpion	0752	SEMI-ORUGA	https://tente.spread.name/id/259
+260	Scorpion	0753	CAMIÓN LANZAMISILES	https://tente.spread.name/id/260
+261	Scorpion	0754	CAÑÓN AUTOPROPULSADO	https://tente.spread.name/id/261
+262	Scorpion	0755	AMBULANCIA DE CAMPAÑA	https://tente.spread.name/id/262
+263	Scorpion	0756	CARRO ANTIAÉREO	https://tente.spread.name/id/263
+264	Scorpion	0757	HELICÓPTERO LANZACOHETES	https://tente.spread.name/id/264
+265	Scorpion	0770	TRANSPORTE CARRO DE COMBATE	https://tente.spread.name/id/265
+266	Aire	Serie AIRE		https://tente.spread.name/id/266
+267	Aire, Scorpion	0757	HELICÓPTERO LANZACOHETES	https://tente.spread.name/id/267
+268	Aire	0500	HELICÓPTERO DE RESCATE	https://tente.spread.name/id/268
+269	Aire	0501	HELICÓPTERO SERVICIO AUTOPISTA	https://tente.spread.name/id/269
+270	Aire	0502	HELICÓPTERO BRIGADA FORESTAL	https://tente.spread.name/id/270
+271	Aire	0503	HELICÓPTERO COMERCIAL 	https://tente.spread.name/id/271
+272	Aire	0504	HELICÓPTERO TRANSPORTES ESPECIALES	https://tente.spread.name/id/272
+273	Aire	0505	HELICÓPTERO REPORTAJES AÉREOS	https://tente.spread.name/id/273
+274	Aire	0506	HELICÓPTERO FUMIGADOR	https://tente.spread.name/id/274
+275	Aire	0507	HELICÓPTERO DOBLE COLA 	https://tente.spread.name/id/275
+276	Aire	0508	HELICÓPTERO TURBO-SPEED	https://tente.spread.name/id/276
+277	Aire	0509	HELICÓPTERO FALCON	https://tente.spread.name/id/277
+278	Aire	0510	HELICÓPTERO ALA VARIABLE	https://tente.spread.name/id/278
+279	Aire	0511	HELICÓPTERO DE TRANSPORTE	https://tente.spread.name/id/279
+280	Aire	0512	AIR-RACER MUSTANG	https://tente.spread.name/id/280
+281	Aire	0513	AIR-RACER EAGLE	https://tente.spread.name/id/281
+282	Aire	0530	HELICÓPTERO AUTOTRANSPORTADO	https://tente.spread.name/id/282
+283	Aire	0556	ESTACIÓN POLAR "ARTIC 2"	https://tente.spread.name/id/283
+284	Aire	70032	HELICÓPTERO RESCATE	https://tente.spread.name/id/284
+285	Aire	70037	AIR SERVICE	https://tente.spread.name/id/285
+286	Aire	70043	HELICÓPTERO 2 HÉLICES	https://tente.spread.name/id/286
+287	Roblock	Serie ROBLOCK		https://tente.spread.name/id/287
+288	Roblock	0760	DEFENDER	https://tente.spread.name/id/288
+289	Roblock	0761	FROGSTER	https://tente.spread.name/id/289
+290	Roblock	0762	DARK WARRIOR	https://tente.spread.name/id/290
+291	Roblock	0765	REDPANTHER	https://tente.spread.name/id/291
+292	Roblock	0766	VULCAN	https://tente.spread.name/id/292
+293	Roblock	0767	BLACKFIGHTER	https://tente.spread.name/id/293
+294	Roblock	0775	REDCOBRA	https://tente.spread.name/id/294
+295	Roblock	0776	TRACK VII	https://tente.spread.name/id/295
+296	Roblock	0777	WICCO	https://tente.spread.name/id/296
+297	Roblock	0778	KERAMIC	https://tente.spread.name/id/297
+298	Roblock	0779	REDOX	https://tente.spread.name/id/298
+299	Roblock	0780	HELITRON	https://tente.spread.name/id/299
+300	Roblock	0781	GAMMA II	https://tente.spread.name/id/300
+301	Roblock	0782	HERCULES	https://tente.spread.name/id/301
+302	Roblock	0783	FENIXTER	https://tente.spread.name/id/302
+303	Roblock	0784	SUPERBEE	https://tente.spread.name/id/303
+304	Roblock	0785	GUNNER	https://tente.spread.name/id/304
+305	Roblock	0786	RACER	https://tente.spread.name/id/305
+306	Roblock	0787	ATLANTIS	https://tente.spread.name/id/306
+307	Roblock	0788	ROBOSAURIUS	https://tente.spread.name/id/307
+308	Roblock	0790	PERSUS	https://tente.spread.name/id/308
+309	Roblock	0791	THOR	https://tente.spread.name/id/309
+310	Roblock	0792	SKYMASTER	https://tente.spread.name/id/310
+311	Roblock	0793	BETATRON	https://tente.spread.name/id/311
+312	Roblock	0797	X-TRONIC -SONO-LUX-	https://tente.spread.name/id/312
+313	Roblock	0798	KRATOR -SONO-LUX-	https://tente.spread.name/id/313
+314	Titanium	Serie TITANIUM		https://tente.spread.name/id/314
+315	Titanium	0450	INTRUDER	https://tente.spread.name/id/315
+316	Titanium	0451	CAPTOR	https://tente.spread.name/id/316
+317	Titanium	0452	EXPLORION	https://tente.spread.name/id/317
+318	Titanium	0453	TRANS-LASER	https://tente.spread.name/id/318
+319	Titanium	0454	TRANS LAB	https://tente.spread.name/id/319
+320	Titanium	0455	RESCATOR	https://tente.spread.name/id/320
+321	Titanium	0456	MASTER-CAPTOR	https://tente.spread.name/id/321
+322	Titanium	0457	TRANSCOMPUTER	https://tente.spread.name/id/322
+323	Titanium	0458	EXPLORMOVIL	https://tente.spread.name/id/323
+324	Titanium	0459	BLACKGUN	https://tente.spread.name/id/324
+325	Titanium	0460	FASTHORN	https://tente.spread.name/id/325
+326	Titanium	0461	WOLFDARK	https://tente.spread.name/id/326
+327	Titanium	0462	FOXSTAR	https://tente.spread.name/id/327
+328	Titanium	0463	GALAXIE	https://tente.spread.name/id/328
+329	Titanium	0464	REDSPY	https://tente.spread.name/id/329
+330	Titanium	0465	ARKANER	https://tente.spread.name/id/330
+331	Titanium	0466	ENERGON	https://tente.spread.name/id/331
+332	Titanium	0467	IONBUSTER	https://tente.spread.name/id/332
+333	Titanium	0468	KING CAT -SONO-LUX-	https://tente.spread.name/id/333
+334	Titanium	0480	ORBITAL ÁREA “ULISES”	https://tente.spread.name/id/334
+335	Titanium	70021	PATRULLA ESPACIAL	https://tente.spread.name/id/335
+336	Titanium	70025	NAVE DE ATAQUE	https://tente.spread.name/id/336
+337	Titanium	70026	TORRE DE DEFENSA	https://tente.spread.name/id/337
+338	Titanium	70031	BÓLIDO CARRERAS	https://tente.spread.name/id/338
+339	Titanium	70033	COCHE 4×4	https://tente.spread.name/id/339
+340	Titanium	70124	GALAXY WAR / GUERRA EN LA GALAXIA	https://tente.spread.name/id/340
+341	Titanium	70132	SUPER TRÁILER PORTA-MISILES	https://tente.spread.name/id/341
+342	Alfa	Serie ALFA		https://tente.spread.name/id/342
+343	Alfa	0355	JEEP TALLER	https://tente.spread.name/id/343
+344	Alfa	0356	SCOOTER PLANEADOR	https://tente.spread.name/id/344
+345	Alfa	0357	TRANSPORTE DE MOTORES	https://tente.spread.name/id/345
+346	Alfa	0358	TRANSPORTE DE PILOTOS	https://tente.spread.name/id/346
+347	Alfa	0359	HELICÓPTERO DE BOMBEROS	https://tente.spread.name/id/347
+348	Alfa	0360	NAVE SKY 4	https://tente.spread.name/id/348
+349	Alfa	0361	CAMIÓN DE BOMBEROS	https://tente.spread.name/id/349
+350	Alfa	0362	GRÚA DE RESCATE	https://tente.spread.name/id/350
+351	Alfa	0363	PATRULLA DE POLICÍA	https://tente.spread.name/id/351
+352	Alfa	0364	MOTOR SERVICE	https://tente.spread.name/id/352
+353	Alfa	0365	CUARTEL DE BOMBEROS	https://tente.spread.name/id/353
+354	Alfa	0366	AEROPUERTO	https://tente.spread.name/id/354
+355	Alfa	0367	SET 3 FIGURAS (1 POLICÍA + 2 BOMBEROS CON ACCESORIOS)	https://tente.spread.name/id/355
+356	Alfa	0368	SET 3 FIGURAS (1 PILOTO + 2 MECÁNICOS CON ACCESORIOS)	https://tente.spread.name/id/356
+357	Alfa	0369	PATRULLA DE TRÁFICO	https://tente.spread.name/id/357
+358	Alfa	0370	CONTROL AÉREO	https://tente.spread.name/id/358
+359	Alfa	0371	ESCORPIÓN	https://tente.spread.name/id/359
+360	Alfa	0372	CUARTEL DE POLICÍA	https://tente.spread.name/id/360
+361	Alfa	0373	PARADA DE TAXI	https://tente.spread.name/id/361
+362	Alfa	0374	ROBOTÚNEL	https://tente.spread.name/id/362
+363	Alfa	70042	TRANSPORTE ESPACIAL / NAVE TRANSPORTE	https://tente.spread.name/id/363
+364	Alfa	70121	ESTACIÓN ORBITAL	https://tente.spread.name/id/364
+365	Alfa	70122	GRAN BASE ESPACIAL	https://tente.spread.name/id/365
+366	Compact	Serie COMPACT		https://tente.spread.name/id/366
+367	Compact	0342	KRANG	https://tente.spread.name/id/367
+368	Compact	0343	EXCAVATOR	https://tente.spread.name/id/368
+369	Compact	0344	EXTIN-THOR	https://tente.spread.name/id/369
+370	Compact	0345	SPACE-PATROL	https://tente.spread.name/id/370
+371	Compact	0346	VIGILANTIC	https://tente.spread.name/id/371
+372	Compact	0347	PEGASUS	https://tente.spread.name/id/372
+373	Compact	0348	BIP-STAR	https://tente.spread.name/id/373
+374	Compact	0349	ROBBY	https://tente.spread.name/id/374
+375	Compact	0350	SCOOPER	https://tente.spread.name/id/375
+376	Compact	0351	TEX	https://tente.spread.name/id/376
+377	Compact	0352	KARPAN	https://tente.spread.name/id/377
+378	Compact	0353	CONDOR	https://tente.spread.name/id/378
+379	Pocket	Serie POCKET		https://tente.spread.name/id/379
+380	Pocket	0310	ROBOTOOL	https://tente.spread.name/id/380
+381	Pocket	0311	HUCKS	https://tente.spread.name/id/381
+382	Pocket	0312	BOXER	https://tente.spread.name/id/382
+383	Pocket	0313	LASER	https://tente.spread.name/id/383
+384	Pocket	0314	CYCLON	https://tente.spread.name/id/384
+385	Pocket, Promocional	0315	ESLATOR	https://tente.spread.name/id/385
+386	Pocket	0316	SANSON	https://tente.spread.name/id/386
+387	Pocket	0317	TAURO	https://tente.spread.name/id/387
+388	Pocket	0318	MATCH  (SPRINT)	https://tente.spread.name/id/388
+389	Pocket, Promocional	0319	DESLIZADOR	https://tente.spread.name/id/389
+390	MultiModel	Serie MULTI MODEL		https://tente.spread.name/id/390
+391	MultiModel	0570	MULTI MODEL (MAR)	https://tente.spread.name/id/391
+392	MultiModel	0571	MULTI MODEL (TITANIUM)	https://tente.spread.name/id/392
+393	Micro	Serie MICRO		https://tente.spread.name/id/393
+394	Micro	0418	BLISTER 3 VEHÍCULOS (3 MODELOS SURTIDOS)	https://tente.spread.name/id/394
+395	Micro	0419	BLISTER 4 COCHES (4 MODELOS SURTIDOS)	https://tente.spread.name/id/395
+396	Micro	0420	PARKING	https://tente.spread.name/id/396
+397	Micro	0421	CUARTEL DE BOMBEROS	https://tente.spread.name/id/397
+398	Micro	0422	ÁFRICA	https://tente.spread.name/id/398
+399	Micro	0423	ESTACIÓN DE SERVICIO	https://tente.spread.name/id/399
+400	Micro	0424	CUARTEL DE POLICÍA	https://tente.spread.name/id/400
+401	Micro	0425	BASE LANZACOHETES	https://tente.spread.name/id/401
+402	Micro	0426	GRAND PRIX	https://tente.spread.name/id/402
+403	Micro	0427	ESTACIÓN MARÍTIMA	https://tente.spread.name/id/403
+404	Micro	0428	MULTIMODEL I	https://tente.spread.name/id/404
+405	Micro	0429	MULTIMODEL II	https://tente.spread.name/id/405
+406	Micro	0430	GASOLINERA	https://tente.spread.name/id/406
+407	Micro	0431	TALLER	https://tente.spread.name/id/407
+408	Micro	0432	CHALET	https://tente.spread.name/id/408
+409	Micro	0433	ADUANA	https://tente.spread.name/id/409
+410	Micro	0434	PROTECCIÓN CIVIL 	https://tente.spread.name/id/410
+411	Micro	0435	TALLER COMPETICIÓN	https://tente.spread.name/id/411
+412	Micro	0436	BASE NAVAL	https://tente.spread.name/id/412
+413	Micro	0437	MULTIMODEL III	https://tente.spread.name/id/413
+414	Micro	0446	BAR	https://tente.spread.name/id/414
+415	Micro	0447	CASITA DE CAMPO	https://tente.spread.name/id/415
+416	Micro	0448	SERVICIO AEROPOSTAL	https://tente.spread.name/id/416
+417	Micro	0449	PEAJE AUTOPISTA	https://tente.spread.name/id/417
+418	Micro	0451	SAFARI PARK	https://tente.spread.name/id/418
+419	Micro	0469	TERMINAL FERRY	https://tente.spread.name/id/419
+420	Micro	0470	AEROCLUB	https://tente.spread.name/id/420
+421	Micro	0471	MULTIMODEL IV	https://tente.spread.name/id/421
+422	City	Serie CITY		https://tente.spread.name/id/422
+423	City	70044	F-1 RACING / CIRCUITO F-1	https://tente.spread.name/id/423
+424	City	70161	PETROL STATION / ESTACIÓN SERVICIO	https://tente.spread.name/id/424
+425	City	70162	MOTOR CHECK / TALLER AUTOMÓVILES	https://tente.spread.name/id/425
+426	City	70163	PARKING GARAGE / PARKING	https://tente.spread.name/id/426
+427	City	70171	POLICE STATION / CUARTEL POLICÍA	https://tente.spread.name/id/427
+428	City	70172	HOTEL	https://tente.spread.name/id/428
+429	City	70173	FIRE BRIGADE / PARQUE BOMBEROS	https://tente.spread.name/id/429
+430	City	70181	4 CARS / ACCESORIO 4 COCHES	https://tente.spread.name/id/430
+431	Iniciación	Serie INICIACIÓN		https://tente.spread.name/id/431
+432	Iniciación	0351	INICIACIÓN A	https://tente.spread.name/id/432
+433	Iniciación	0352	INICIACIÓN B	https://tente.spread.name/id/433
+434	Variant	Serie VARIANT		https://tente.spread.name/id/434
+435	Variant	408	VARIANT 408	https://tente.spread.name/id/435
+436	Variant	409	VARIANT 409	https://tente.spread.name/id/436
+437	Variant	410	VARIANT 410	https://tente.spread.name/id/437
+438	Variant	411	VARIANT 411	https://tente.spread.name/id/438
+439	Variant	412	VARIANT 412	https://tente.spread.name/id/439
+440	Variant	413	VARIANT 413	https://tente.spread.name/id/440
+441	Block	Serie BLOCK		https://tente.spread.name/id/441
+442	Block	0413	CUBO TENTE BLOCK 1	https://tente.spread.name/id/442
+443	Block	0414	CUBO TENTE BLOCK 2	https://tente.spread.name/id/443
+444	Block	0415	CUBO TENTE BLOCK 3	https://tente.spread.name/id/444
+445	Block	0416	TAMBOR	https://tente.spread.name/id/445
+446	Imagine	Serie IMAGINE		https://tente.spread.name/id/446
+447	Imagine	70001	IMAGINE (90 PIEZAS)	https://tente.spread.name/id/447
+448	Imagine	70002	IMAGINE (140 PIEZAS)	https://tente.spread.name/id/448
+449	Imagine	70003	IMAGINE (231 PIEZAS)	https://tente.spread.name/id/449
+450	Mutants	Serie MUTANTS		https://tente.spread.name/id/450
+451	Mutants	70201	T-SAURIOR	https://tente.spread.name/id/451
+452	Mutants	70202	BEET-X	https://tente.spread.name/id/452
+453	Mutants	70203	SCORP-Y	https://tente.spread.name/id/453
+454	Mutants	70204	AKYLORNIOR	https://tente.spread.name/id/454
+455	Promocional	Series PROMOCIONALES 		https://tente.spread.name/id/455
+456	Promocional	Serie Promocional  NESQUIK		https://tente.spread.name/id/456
+457	Promocional	A Nesquik	ÁGUILA	https://tente.spread.name/id/457
+458	Promocional	B Nesquik	TREN	https://tente.spread.name/id/458
+459	Promocional	C Nesquik	DRAGÓN	https://tente.spread.name/id/459
+460	Promocional	D Nesquik	HELICÓPTERO	https://tente.spread.name/id/460
+461	Promocional	E Nesquik	CIERVO	https://tente.spread.name/id/461
+462	Promocional	F Nesquik	HIDROAVIÓN	https://tente.spread.name/id/462
+463	Promocional	Serie Promocional  TENTE		https://tente.spread.name/id/463
+464	Promocional	Promo Aire	NUEVA LÍNEA AIRE	https://tente.spread.name/id/464
+465	Promocional	Promo TENTE	156 COMBINACIONES "HAZ LA PRUEBA"	https://tente.spread.name/id/465
+466	Promocional	Serie Promocional  CHAMBURCY:  BARCO KITS		https://tente.spread.name/id/466
+467	Promocional	1 Barco Kits	MERCANTE	https://tente.spread.name/id/467
+468	Promocional	2 Barco Kits	TRANSATLÁNTICO	https://tente.spread.name/id/468
+469	Promocional	3 Barco Kits	BUQUE OCEANOGRAFICO	https://tente.spread.name/id/469
+470	Promocional	4 Barco Kits	MOTONAVE	https://tente.spread.name/id/470
+471	Promocional	5 Barco Kits	TRANSPORTE MIXTO	https://tente.spread.name/id/471
+472	Promocional	6 Barco Kits	PESQUERO DE ALTA MAR	https://tente.spread.name/id/472
+473	Promocional	7 Barco Kits	PAQUEBOTE	https://tente.spread.name/id/473
+474	Promocional	8 Barco Kits	REMOLCADOR DE ALTURA	https://tente.spread.name/id/474
+475	Promocional	9 Barco Kits	BARCO DE SALVAMENTO	https://tente.spread.name/id/475
+476	Promocional	10 Barco Kits	BUQUE DE CARGA	https://tente.spread.name/id/476
+477	Promocional	Serie Promocional  CHAMBURCY: ROBOT KITS		https://tente.spread.name/id/477
+478	Promocional	1 Robot Kits	IGOR	https://tente.spread.name/id/478
+479	Promocional	2 Robot Kits	HELIOS	https://tente.spread.name/id/479
+480	Promocional	3 Robot Kits	EPSILON	https://tente.spread.name/id/480
+481	Promocional	4 Robot Kits	MERCURY	https://tente.spread.name/id/481
+482	Promocional	5 Robot Kits	INTERCEPTOR	https://tente.spread.name/id/482
+483	Promocional	6 Robot Kits	MEGATRON	https://tente.spread.name/id/483
+484	Promocional	7 Robot Kits	BLACK-METAL	https://tente.spread.name/id/484
+485	Promocional	8 Robot Kits	VIKING	https://tente.spread.name/id/485
+486	Promocional	Serie Promocional  CHAMBURCY:  ASTRO KITS		https://tente.spread.name/id/486
+487	Promocional	1 Astro Kit	ASTRONAUTA AUTOPROPULSADO	https://tente.spread.name/id/487
+488	Promocional	2 Astro Kit	PLANEADOR ORBITAL	https://tente.spread.name/id/488
+489	Promocional	3 Astro Kit	TURBO TRANSBORDADOR	https://tente.spread.name/id/489
+490	Promocional	4 Astro Kit	DESLIZADOR DE SUPERFÍCIE	https://tente.spread.name/id/490
+491	Promocional	5 Astro Kit	VEHÍCULO ANTENA SOLAR	https://tente.spread.name/id/491
+492	Promocional	6 Astro Kit	TURBO RASTREADOR	https://tente.spread.name/id/492
+493	Promocional	Serie Promocional  DIXAN 2000		https://tente.spread.name/id/493
+494	Promocional	0311	HUCKS	https://tente.spread.name/id/494
+495	Promocional	0313	LASER	https://tente.spread.name/id/495
+496	Promocional	0318	MATCH  (SPRINT)	https://tente.spread.name/id/496
+497	Promocional	Serie Promocional  COLGATE JUNIOR		https://tente.spread.name/id/497
+498	Promocional	1 Colgate	HELICÓPTERO FIRE CHIEF	https://tente.spread.name/id/498
+499	Promocional	2 Colgate	HELICÓPTERO RESCUE SERVICE	https://tente.spread.name/id/499
+500	Promocional	3 Colgate	HELICÓPTERO POLICE PATROL	https://tente.spread.name/id/500
+501	Promocional	Serie Promocional  MARBÚ		https://tente.spread.name/id/501
+502	Promocional	99001	AVIONETA ACROBÁTICA	https://tente.spread.name/id/502
+503	Promocional	99002	TODOTERRENO POLICÍA	https://tente.spread.name/id/503
+504	Promocional	99003	LANCHA GUARDACOSTAS	https://tente.spread.name/id/504
+505	elephant -NC-	Serie ELEPHANT -NC: NO COMPATIBLE-		https://tente.spread.name/id/505
+506	elephant -NC-	0219	TAMBOR ELEPHANT	https://tente.spread.name/id/506
+507	elephant -NC-	0220	TENTE ELEPHANT Nº1	https://tente.spread.name/id/507
+508	elephant -NC-	0221	TENTE ELEPHANT Nº2	https://tente.spread.name/id/508
+509	elephant -NC-	0222	TENTE ELEPHANT Nº3	https://tente.spread.name/id/509
+510	elephant -NC-	0223	TENTE ELEPHANT Nº4	https://tente.spread.name/id/510
+511	elephant -NC-	0220	CUBO ELEPHANT 1	https://tente.spread.name/id/511
+512	elephant -NC-	0221	CUBO ELEPHANT 2	https://tente.spread.name/id/512
+513	elephant -NC-	0222	CUBO ELEPHANT 3	https://tente.spread.name/id/513
+514	elephant -NC-	0224	TAMBOR NARANJA	https://tente.spread.name/id/514
+515	elephant -NC-	0225	VEHÍCULO CON PERSONAJE	https://tente.spread.name/id/515
+516	elephant -NC-	0226	TURISMO RALLYE	https://tente.spread.name/id/516
+517	elephant -NC-	0226	TURISMO RALLYE	https://tente.spread.name/id/517
+518	elephant -NC-	0227	FURGONETA AUTOPISTA	https://tente.spread.name/id/518
+519	elephant -NC-	0228	CANGURO / CAJA DE BLOQUES-1	https://tente.spread.name/id/519
+520	elephant -NC-	0229	TURISMO CON CARAVANA	https://tente.spread.name/id/520
+521	elephant -NC-	0230	BALANCÍN	https://tente.spread.name/id/521
+522	elephant -NC-	0231	HOTEL Y ESCUELA	https://tente.spread.name/id/522
+523	elephant -NC-	0232	TALLER	https://tente.spread.name/id/523
+524	elephant -NC-	0233	EDIFICIO, VEHÍCULOS Y BALANCÍN	https://tente.spread.name/id/524
+525	elephant -NC-	0234	JAULA CON LEÓN	https://tente.spread.name/id/525
+526	elephant -NC-	0235	CARAVANA CIRCO	https://tente.spread.name/id/526
+527	elephant -NC-	0236	CAJA DE BLOQUES-2	https://tente.spread.name/id/527
+528	elephant -NC-	0237	ZOO	https://tente.spread.name/id/528
+529	elephant -NC-	0238	2 BLOQUES SONOROS	https://tente.spread.name/id/529
+530	elephant -NC-	0239	CASA CON 3 BLOQUES SONOROS	https://tente.spread.name/id/530
+531	elephant -NC-	0240	MOTO CON PERSONAJE	https://tente.spread.name/id/531
+532	elephant -NC-	0242	TIRO DE 4 RUEDAS	https://tente.spread.name/id/532
+533	elephant -NC-	0243	CARAVANA BLOQUES SONOROS	https://tente.spread.name/id/533
+534	elephant -NC-	0244	PARKING	https://tente.spread.name/id/534
+535	elephant -NC-	0245	SUPERMERCADO	https://tente.spread.name/id/535
+536	elephant -NC-	0246	GASOLINERA	https://tente.spread.name/id/536
+537	elephant -NC-	0247	CAJA 16 PIEZAS	https://tente.spread.name/id/537
+538	elephant -NC-	0248	CAJA 30 PIEZAS	https://tente.spread.name/id/538
+539	elephant -NC-	0249	CENTRO COMERCIAL	https://tente.spread.name/id/539
+540	elephant -NC-	0250	FANTASY 1	https://tente.spread.name/id/540
+541	elephant -NC-	0251	FANTASY 2	https://tente.spread.name/id/541
+542	elephant -NC-	0252	FANTASY 3	https://tente.spread.name/id/542
+543	elephant -NC-	0253	HELADERÍA	https://tente.spread.name/id/543
+544	elephant -NC-	0254	FANTASY 4	https://tente.spread.name/id/544
+545	elephant -NC-	0255	BOMBEROS	https://tente.spread.name/id/545
+546	elephant -NC-	0256	HOTEL	https://tente.spread.name/id/546
+547	elephant -NC-	0265	PAPAGAYO BALANCÍN	https://tente.spread.name/id/547
+548	elephant -NC-	0266	ANDÉN	https://tente.spread.name/id/548
+549	elephant -NC-	0267	GARDEN CENTER	https://tente.spread.name/id/549
+550	elephant -NC-	0268	COCHE CARRERAS	https://tente.spread.name/id/550
+551	elephant -NC-	0269	CASITA CON SETO	https://tente.spread.name/id/551
+552	elephant -NC-	0270	LOCOMOTORA	https://tente.spread.name/id/552
+553	elephant -NC-	0271	CASITA CON 3 BLOQUES SONOROS	https://tente.spread.name/id/553
+554	elephant -NC-	0272	PUENTE GARAJE AUTOPISTA	https://tente.spread.name/id/554
+555	elephant -NC-	0273	RACING CARS	https://tente.spread.name/id/555
+556	elephant -NC-	0274	FURGONETA	https://tente.spread.name/id/556
+557	elephant -NC-	0275	BLOQUES CONSTRUCCIÓN	https://tente.spread.name/id/557
+558	elephant -NC-	0276	MÁQUINA DE TREN	https://tente.spread.name/id/558
+559	elephant -NC-	0277	CASA MÁGICA	https://tente.spread.name/id/559
+560	elephant -NC-	0278	LORO BAILARÍN	https://tente.spread.name/id/560
+561	elephant -NC-	0279	CARAVANA ZOO	https://tente.spread.name/id/561
+562	elephant -NC-	0280	CONTENEDOR ELEPHANT	https://tente.spread.name/id/562
+563	elephant -NC-	0281	TAMBOR ELEPHANT GRANDE	https://tente.spread.name/id/563
+564	elephant -NC-	0282	COCHE PASEO	https://tente.spread.name/id/564
+565	elephant -NC-	0283	PARQUE VERDE	https://tente.spread.name/id/565
+566	elephant -NC-	0284	HELADOS Y ATRACCIONES	https://tente.spread.name/id/566
+567	elephant -NC-	Serie PROMOCIONAL  ELEPHANT -NC: NO COMPATIBLE-		https://tente.spread.name/id/567
+568	elephant -NC-	PROMO ELEPHANT 1	PROMOCIONAL ELEPHANT 1	https://tente.spread.name/id/568
+569	elephant -NC-	PROMO ELEPHANT 2	PROMOCIONAL ELEPHANT 2	https://tente.spread.name/id/569
+570	elephant -NC-	PROMO ELEPHANT 3	PROMOCIONAL ELEPHANT - DODOT	https://tente.spread.name/id/570
+571	initio -NC-	Serie INITIO -NC: NO COMPATIBLE-		https://tente.spread.name/id/571
+572	initio -NC-	70151	INITIO VEHÍCULOS	https://tente.spread.name/id/572
+573	initio -NC-	70152	INITIO MULTIMODEL	https://tente.spread.name/id/573
+574	multimedia -NC-	Serie TENTE MULTIMEDIA -NC: NO COMPATIBLE-		https://tente.spread.name/id/574
+575	multimedia -NC-	12973	OBRAS PÚBLICAS	https://tente.spread.name/id/575
+576	multimedia -NC-	12974	BRIGADA DE BOMBEROS	https://tente.spread.name/id/576
+577	multimedia -NC-	12975	CUERPO DE POLICÍA	https://tente.spread.name/id/577
+578	·Catálogos	CATÁLOGOS ESP		https://tente.spread.name/id/578
+579	·Catálogos	CATÁLOGO 1976	Catálogo Exin	https://tente.spread.name/id/579
+580	·Catálogos	CATÁLOGO 1977	Catálogo Exin	https://tente.spread.name/id/580
+581	·Catálogos	CATÁLOGO 1978	Catálogo Exin	https://tente.spread.name/id/581
+582	·Catálogos	CATÁLOGO 1980	Catálogo Exin	https://tente.spread.name/id/582
+583	·Catálogos	CATÁLOGO 1981	Catálogo Exin	https://tente.spread.name/id/583
+584	·Catálogos	CATÁLOGO 1982	Catálogo Exin	https://tente.spread.name/id/584
+585	·Catálogos,·Catálogos elephant -NC-	CATÁLOGO 1983	Catálogo Exin	https://tente.spread.name/id/585
+586	·Catálogos,·Catálogos elephant -NC-	CATÁLOGO 1984	Catálogo Exin	https://tente.spread.name/id/586
+587	·Catálogos,·Catálogos elephant -NC-	CATÁLOGO GRAL. 1985	Catálogo Exin	https://tente.spread.name/id/587
+588	·Catálogos,·Catálogos elephant -NC-	CATÁLOGO 1985	Catálogo Exin	https://tente.spread.name/id/588
+589	·Catálogos,·Catálogos elephant -NC-	CATÁLOGO GRAL. 1986	Catálogo Exin	https://tente.spread.name/id/589
+590	·Catálogos,·Catálogos elephant -NC-	CATÁLOGO 1986	Catálogo Exin	https://tente.spread.name/id/590
+591	·Catálogos	CATÁLOGO GRAL. 1987	Catálogo Exin	https://tente.spread.name/id/591
+592	·Catálogos	CATÁLOGO 1987	Catálogo Exin	https://tente.spread.name/id/592
+593	·Catálogos,·Catálogos elephant -NC-	CATÁLOGO GRAL. 1988	Catálogo Exin	https://tente.spread.name/id/593
+594	·Catálogos	CATÁLOGO 1988	Catálogo Exin	https://tente.spread.name/id/594
+595	·Catálogos,·Catálogos elephant -NC-	CATÁLOGO GRAL. 1989	Catálogo Exin	https://tente.spread.name/id/595
+596	·Catálogos	CATÁLOGO 1989	Catálogo Exin	https://tente.spread.name/id/596
+597	·Catálogos,·Catálogos elephant -NC-	CATÁLOGO GRAL. 1990	Catálogo Exin	https://tente.spread.name/id/597
+598	·Catálogos	CATÁLOGO 1990	Catálogo Exin	https://tente.spread.name/id/598
+599	·Catálogos,·Catálogos elephant -NC-	CATÁLOGO GRAL. 1991	Catálogo Exin	https://tente.spread.name/id/599
+600	·Catálogos,·Catálogos elephant -NC-	CATÁLOGO MINI 1991	Catálogo Exin	https://tente.spread.name/id/600
+601	·Catálogos,·Catálogos elephant -NC-	CATÁLOGO 1991	Catálogo Exin	https://tente.spread.name/id/601
+602	·Catálogos,·Catálogos elephant -NC-	CATÁLOGO GRAL. 1992	Catálogo Exin	https://tente.spread.name/id/602
+603	·Catálogos	CATÁLOGO GRAL. 1998	Catálogo Borrás	https://tente.spread.name/id/603
+604	·Catálogos	CATÁLOGO GRAL. 1999	Catálogo Borrás	https://tente.spread.name/id/604
+605	·Catálogos	CATÁLOGO 1999	Catálogo Borrás	https://tente.spread.name/id/605
+606	·Catálogos	CATÁLOGO GRAL. 2000	Catálogo Borrás	https://tente.spread.name/id/606
+607	·Catálogos elephant -NC-	CATÁLOGOS elephant -NC- ESP		https://tente.spread.name/id/607
+608	·Catálogos elephant -NC-	CATÁLOGO elephant 1983	Catálogo Exin	https://tente.spread.name/id/608
+609	·Catálogos elephant -NC-	CATÁLOGO elephant 1983	Catálogo Exin	https://tente.spread.name/id/609
+610	·Catálogos elephant -NC-	CATÁLOGO elephant 1984	Catálogo Exin	https://tente.spread.name/id/610
+611	·Catálogos elephant -NC-	CATÁLOGO elephant 1988	Catálogo Exin	https://tente.spread.name/id/611
+612	·Catálogos elephant -NC-	CATÁLOGO elephant 1989	Catálogo Exin	https://tente.spread.name/id/612
+613	IUNITS	TENTE by IUNITS		https://tente.spread.name/id/613
+614	IUNITS, Ruta2, Titanium	10001	OFF ROAD BUGGY (Buggy Todoterreno)	https://tente.spread.name/id/614
+615	IUNITS, Ruta2, Titanium	10002	HOT ROD BUGGY (Buggy Bólido)	https://tente.spread.name/id/615
+616	IUNITS, Ruta2, Scorpion	10003	ARMY BUGGY (Buggy Militar)	https://tente.spread.name/id/616
+				https://tente.spread.name/id/
+				https://tente.spread.name/id/
+				https://tente.spread.name/id/
+				https://tente.spread.name/id/
+				https://tente.spread.name/id/
+				https://tente.spread.name/id/
+				https://tente.spread.name/id/
+				https://tente.spread.name/id/
+				https://tente.spread.name/id/
+				https://tente.spread.name/id/
+				https://tente.spread.name/id/
+				https://tente.spread.name/id/
+				https://tente.spread.name/id/
+				https://tente.spread.name/id/
+				https://tente.spread.name/id/
+				https://tente.spread.name/id/
+				https://tente.spread.name/id/
+				https://tente.spread.name/id/
+				https://tente.spread.name/id/
+				https://tente.spread.name/id/
+				https://tente.spread.name/id/
+				https://tente.spread.name/id/
+				https://tente.spread.name/id/
+				https://tente.spread.name/id/
+				https://tente.spread.name/id/
+				https://tente.spread.name/id/
+				https://tente.spread.name/id/
+				https://tente.spread.name/id/
+				https://tente.spread.name/id/
+				https://tente.spread.name/id/
+				https://tente.spread.name/id/
+				https://tente.spread.name/id/
+				https://tente.spread.name/id/
+				https://tente.spread.name/id/
+				https://tente.spread.name/id/

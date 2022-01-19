@@ -701,6 +701,7 @@ class LDrawParsedCache {
 
 		let triedLowerCase = false;
 		let locationState = FILE_LOCATION_TRY_PARTS;
+
 		while ( locationState !== FILE_LOCATION_NOT_FOUND ) {
 
 			let subobjectURL = fileName;
@@ -721,7 +722,7 @@ class LDrawParsedCache {
 					break;
 
 				case FILE_LOCATION_TRY_MODELS:
-					subobjectURL = 'models/' + subobjectURL;
+					subobjectURL = 'models/' + this.loader.rootPath + subobjectURL;
 					locationState = locationState + 1;
 					break;
 
@@ -1864,6 +1865,17 @@ function createObject( elements, elementSize, isConditionalSegments = false, tot
 
 }
 
+function removeFilenameFromPath( path ) {
+
+	if ( ! path ) return null;
+
+	const p = path.lastIndexOf( '/' );
+	if ( p >= 0 ) return path.substring( 0, p + 1 );
+
+	return null;
+
+}
+
 //
 
 class LDrawLoader extends Loader {
@@ -1895,6 +1907,8 @@ class LDrawLoader extends Loader {
 		this.missingColorMaterial = new MeshStandardMaterial( { color: 0xFF00FF, roughness: 0.3, metalness: 0 } );
 		this.missingEdgeColorMaterial = new LineBasicMaterial( { color: 0xFF00FF } );
 		this.missingConditionalEdgeColorMaterial = new LDrawConditionalLineMaterial( { fog: true, color: 0xFF00FF } );
+
+		this.rootPath = null;
 
 	}
 
@@ -1934,6 +1948,8 @@ class LDrawLoader extends Loader {
 	}
 
 	load( url, onLoad, onProgress, onError ) {
+
+		this.rootPath =  removeFilenameFromPath( url );
 
 		const fileLoader = new FileLoader( this.manager );
 		fileLoader.setPath( this.path );
