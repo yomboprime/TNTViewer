@@ -132,14 +132,9 @@
 				scene.background = new THREE.Color( 0xdeebed );
 				scene.environment = pmremGenerator.fromScene( new RoomEnvironment() ).texture;
 
+				//scene.add( new THREE.AxesHelper( 100 ) );
+
 				controls = new OrbitControls( camera, renderer.domElement );
-/*
-				const curvePositions = [
-					new THREE.Vector3( 0, 0, 0 ),
-					new THREE.Vector3( 0.25, 0.3, 0 ),
-					new THREE.Vector3( 0.75, 0.7, 0 ),
-					new THREE.Vector3( 1, 1, 0 ),
-				];*/
 
 				const curvePositions = [
 					new THREE.Vector3( 0, 0, 0 ),
@@ -307,12 +302,14 @@
 
 			function getTurnOffset() {
 
-				return 0;
-				//return turn ? modelDiameter : - modelDiameter;
+				//return 0;
+				return 2.1 * ( turn ? modelDiameter : - modelDiameter );
 
 			}
 
 			function placePartRandomly( part, diameter ) {
+
+				// TODO old.
 
 				part.position.set(
 					( Math.random() - 0.5 ) * diameter + getTurnOffset(),
@@ -411,7 +408,7 @@
 						modelDiameter = 2 * radius;
 
 						// Put above floor
-						model.position.y = size.y * 1.2;
+						model.position.y = - modelBbox.min.y;
 
 						models.push( model );
 						scene.add( model );
@@ -493,7 +490,7 @@
 
 				for ( let i in parts ) {
 
-					const partOrig = parts[ i ].clone();
+					const partOrig = parts[ i ];
 					const part = partOrig.clone();
 					parts[ i ] = part;
 					part.userData.type = partOrig.userData.type;
@@ -513,6 +510,9 @@
 					const sz = vector3Temp1.z;
 					const objectSize = sx > sy ? ( sz > sx ? sz : sx ) : ( sz > sy ? sz : sy );
 					part.userData.objectSize = objectSize;
+					part.userData.sx = sx;
+					part.userData.sy = sy;
+					part.userData.sz = sz;
 
 					matrix4Temp1.decompose( part.position, part.quaternion, part.scale );
 					part.userData.partPosition = new THREE.Vector3().copy( part.position );
@@ -521,16 +521,9 @@
 					part.userData.positionEnd = new THREE.Vector3();
 					part.userData.quaternionStart = new THREE.Quaternion();
 
-					//placePartRandomly( part, objectSize * 5 );
-
-					const physicsShape = new Ammo.btBoxShape( new Ammo.btVector3( sx * 0.5, sy * 0.5, sz * 0.5 ) );
-					physicsShape.setMargin( objectSize * 0.01 );
-					const mass = Math.pow( 10 * objectSize, 2.2 );
-					createRigidBody( part, physicsShape, mass );
-
 					meanPos.add( part.userData.partPosition );
 
-					scene.add( part );
+					//placePartRandomly( part, objectSize * 5 );
 
 				}
 
@@ -556,7 +549,32 @@
 				if ( parts.length > 0 ) {
 
 					meanPos.multiplyScalar( 1 / parts.length );
-					setCamera( meanPos.x - getTurnOffset(), meanPos.y, meanPos.z );
+					//setCamera( meanPos.x - getTurnOffset(), meanPos.y, meanPos.z );
+
+				}
+
+				meanPos.x += getTurnOffset();
+
+				for ( let p in parts ) {
+
+					const part = parts[ p ];
+
+					part.position.add( meanPos );
+					part.position.y += part.userData.sy * 2;
+
+					const physicsShape = new Ammo.btBoxShape(
+						new Ammo.btVector3(
+							part.userData.sx * 0.5,
+							part.userData.sy * 0.5,
+							part.userData.sz * 0.5
+						)
+					);
+
+					physicsShape.setMargin( part.userData.objectSize * 0.01 );
+					const mass = Math.pow( 10 * part.userData.objectSize, 2.2 );
+					createRigidBody( part, physicsShape, mass );
+
+					scene.add( part );
 
 				}
 
@@ -621,7 +639,7 @@
 							animationState = ANIM_STOPPED;
 							timeCurrentState = timeNextState;
 							timeNextState = time + 3;
-							turn = ! turn;
+							//turn = ! turn;
 							return;
 
 						}
@@ -633,7 +651,6 @@
 							part.userData.positionStart.copy( part.position );
 							part.userData.quaternionStart.copy( part.quaternion );
 							part.userData.positionEnd.copy( part.userData.partPosition );
-							part.userData.positionEnd.x -= getTurnOffset();
 
 							physicsWorld.removeRigidBody( part.userData.physicsBody );
 							dynamicObjects.splice( dynamicObjects.indexOf( part ), 1 );
@@ -685,6 +702,8 @@
 				for ( let i in parts ) {
 
 					const part = parts[ i ];
+
+					part.position.x += getTurnOffset();
 
 					updateRigidBodyFromObject( part );
 					physicsWorld.addRigidBody( part.userData.physicsBody );
