@@ -1,1 +1,0 @@
-find ./ -type f -printf '%P\n' > models.lst
