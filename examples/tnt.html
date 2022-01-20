@@ -154,22 +154,30 @@
 
 					dataBase = db;
 
-					// TODO load config
+					// Load config
+					//localStorage.clear();
 
+					let initialModel = isOptionSet( 'modelPath' ) ? getOption( 'modelPath', false ) : 'oficiales/Aire_0501_servicio_autopista.ldr';
 					const urlParams = new URLSearchParams( window.location.search );
-					let initialModel = urlParams.get( 'modelPath' );
-					if ( ! initialModel ) {
+					if ( urlParams.get( 'modelPath' ) ) initialModel = urlParams.get( 'modelPath' );
 
-						initialModel = 'oficiales/Aire_0501_servicio_autopista.ldr';
+					let displayLines = isOptionSet( 'displayLines' ) ? getOption( 'displayLines' ) : true;
+
+					const backgroundColor = { r: scene.background.r, g: scene.background.g, b: scene.background.b }
+					if ( isOptionSet( 'backgroundColor.r' ) ) {
+
+						backgroundColor.r = getOption( 'backgroundColor.r' );
+						backgroundColor.g = getOption( 'backgroundColor.g' );
+						backgroundColor.b = getOption( 'backgroundColor.b' );
+						scene.background.setRGB( backgroundColor.r, backgroundColor.g, backgroundColor.b );
 
 					}
 
 					guiData = {
 						modelFileName: initialModel,
 						startAnimation: startAnimation,
-						oneStep: false,
-						displayLines: true,
-						backgroundColor: { r: scene.background.r, g: scene.background.g, b: scene.background.b }
+						displayLines: displayLines,
+						backgroundColor: backgroundColor
 					};
 
 					window.addEventListener( 'resize', onWindowResize );
@@ -574,13 +582,8 @@
 
 					const part = parts[ p ];
 
-					let constructionStep = 0;
-					if ( ! guiData.oneStep ) {
-
-						if ( fileNumConstructionSteps > 1 ) constructionStep = part.userData.constructionStep;
-						else constructionStep = p;
-
-					}
+					let constructionStep = p;
+					if ( fileNumConstructionSteps > 1 ) constructionStep = part.userData.constructionStep;
 
 					if ( ! stepsParts[ constructionStep ] ) stepsParts[ constructionStep ] = [];
 					stepsParts[ constructionStep ].push( part );
@@ -808,21 +811,20 @@
 				}
 				gui.add( guiData, 'modelFileName', fileNameMap ).name( 'Model' ).onFinishChange( () => {
 
+					setOption( 'modelPath', guiData.modelFileName );
 					reloadObject( true );
 
 				} );
-
-				gui.add( guiData, 'startAnimation' ).name( 'Start animation' );
 
 				const optionsFolder = gui.addFolder( "Options" );
 
-				optionsFolder.add( guiData, 'oneStep' ).name( 'Only one step' ).onFinishChange( () => {
+				optionsFolder.add( guiData, 'displayLines' ).name( 'Display Lines' ).onChange( () => {
 
-					reloadObject( true );
+					setOption( 'displayLines', guiData.displayLines );
+
+					updateObjectsVisibility();
 
 				} );
-
-				optionsFolder.add( guiData, 'displayLines' ).name( 'Display Lines' ).onChange( updateObjectsVisibility );
 
 				optionsFolder.addColor( guiData, 'backgroundColor' ).name( 'Background color' ).onChange( () => {
 
@@ -830,11 +832,40 @@
 
 				} ).onFinishChange( () => {
 
-					// TODO save config
+					setOption( 'backgroundColor.r', guiData.backgroundColor.r );
+					setOption( 'backgroundColor.g', guiData.backgroundColor.g );
+					setOption( 'backgroundColor.b', guiData.backgroundColor.b );
 
 				} );
 
 				optionsFolder.close();
+
+
+				gui.add( guiData, 'startAnimation' ).name( 'Start animation' );
+
+			}
+
+			function getOption( name, parse = true ) {
+
+				const v = localStorage.getItem( name );
+
+				if ( parse ) return JSON.parse( v );
+
+				return v;
+
+			}
+
+			function isOptionSet( name ) {
+
+				const v = localStorage.getItem( name );
+
+				return v !== null;
+
+			}
+
+			function setOption( name, value ) {
+
+				localStorage.setItem( name, value );
 
 			}
 
