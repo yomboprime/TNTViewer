@@ -47,8 +47,6 @@
 			let models;
 			let modelDiameter, turn;
 			const meanPos = new THREE.Vector3();
-			let stepsParts;
-			let stepsPart;
 			const ANIM_STOPPED = 0;
 			const ANIM_FALLING = 1;
 			const ANIM_CONSTRUCTING = 2;
@@ -156,12 +154,13 @@
 
 					dataBase = db;
 
+					// TODO load config
+
 					const urlParams = new URLSearchParams( window.location.search );
 					let initialModel = urlParams.get( 'modelPath' );
 					if ( ! initialModel ) {
 
 						initialModel = 'oficiales/Aire_0501_servicio_autopista.ldr';
-						//initialModel = 'customs/roverlunar.ldr';
 
 					}
 
@@ -169,7 +168,8 @@
 						modelFileName: initialModel,
 						startAnimation: startAnimation,
 						oneStep: false,
-						displayLines: true
+						displayLines: true,
+						backgroundColor: { r: scene.background.r, g: scene.background.g, b: scene.background.b }
 					};
 
 					window.addEventListener( 'resize', onWindowResize );
@@ -396,7 +396,6 @@
 
 						parts = [];
 						models = [];
-						stepsParts = [];
 						dynamicObjects = [];
 						turn = true;
 
@@ -529,7 +528,7 @@
 
 				}
 
-				const numConstructionSteps = model.userData.numConstructionSteps;
+				const fileNumConstructionSteps = model.userData.numConstructionSteps;
 
 				if ( parts.length > 0 ) {
 
@@ -564,13 +563,13 @@
 
 				// Sort parts
 
-				if ( numConstructionSteps === 1 ) {
+				if ( fileNumConstructionSteps === 1 ) {
 
 					sortParts( parts );
 
 				}
 
-				stepsParts = [];
+				const stepsParts = [];
 				for ( let p in parts ) {
 
 					const part = parts[ p ];
@@ -578,13 +577,42 @@
 					let constructionStep = 0;
 					if ( ! guiData.oneStep ) {
 
-						if ( numConstructionSteps > 1 ) constructionStep = part.userData.constructionStep;
+						if ( fileNumConstructionSteps > 1 ) constructionStep = part.userData.constructionStep;
 						else constructionStep = p;
 
 					}
 
 					if ( ! stepsParts[ constructionStep ] ) stepsParts[ constructionStep ] = [];
 					stepsParts[ constructionStep ].push( part );
+
+				}
+
+				if ( fileNumConstructionSteps > 1 ) {
+
+					let cs = 0;
+					for ( let sp in stepsParts ) {
+
+						const stepParts = stepsParts[ sp ];
+
+						sortParts( stepParts );
+
+						for ( let p in stepParts ) {
+
+							const part = stepParts[ p ];
+							part.userData.constructionStep = cs ++;
+
+						}
+
+					}
+
+					parts.sort( ( a, b ) => {
+
+						const sa = a.constructionStep;
+						const sb = b.constructionStep;
+
+						return sa === sb ? 0 : ( sa < sb ? - 1 : 1 );
+
+					} );
 
 				}
 
@@ -607,10 +635,10 @@
 
 				if ( ! parts ) return;
 
-				//const constructionDuration = 20 * Math.min( 1.3, Math.max( 0.5, stepsParts.length / 60 ) );
-				//const stepDuration = constructionDuration / stepsParts.length;
+				//const constructionDuration = 20 * Math.min( 1.3, Math.max( 0.5, parts.length / 60 ) );
+				//const stepDuration = constructionDuration / parts.length;
 				const stepDuration = 1.2;
-				const constructionDuration = stepDuration * stepsParts.length;
+				const constructionDuration = stepDuration * parts.length;
 
 				switch ( animationState ) {
 
@@ -644,19 +672,14 @@
 
 						if ( currentConstructionStep >= 0 ) {
 
-							const stepParts = stepsParts[ currentConstructionStep ];
-							for ( let i in stepParts ) {
-
-								const part = stepParts[ i ];
-								part.position.copy( part.userData.positionEnd );
-								part.quaternion.copy( part.userData.partQuaternion );
-
-							}
+							const part = parts[ currentConstructionStep ];
+							part.position.copy( part.userData.positionEnd );
+							part.quaternion.copy( part.userData.partQuaternion );
 
 						}
 
 						currentConstructionStep ++;
-						if ( currentConstructionStep >= stepsParts.length ) {
+						if ( currentConstructionStep >= parts.length ) {
 
 							//animationState = ANIM_WAIT;
 							animationState = ANIM_STOPPED;
@@ -667,18 +690,13 @@
 
 						}
 
-						const stepParts = stepsParts[ currentConstructionStep ];
-						for ( let i in stepParts ) {
+						const part = parts[ currentConstructionStep ];
+						part.userData.positionStart.copy( part.position );
+						part.userData.quaternionStart.copy( part.quaternion );
+						part.userData.positionEnd.copy( part.userData.partPosition );
 
-							const part = stepParts[ i ];
-							part.userData.positionStart.copy( part.position );
-							part.userData.quaternionStart.copy( part.quaternion );
-							part.userData.positionEnd.copy( part.userData.partPosition );
-
-							physicsWorld.removeRigidBody( part.userData.physicsBody );
-							dynamicObjects.splice( dynamicObjects.indexOf( part ), 1 );
-
-						}
+						physicsWorld.removeRigidBody( part.userData.physicsBody );
+						dynamicObjects.splice( dynamicObjects.indexOf( part ), 1 );
 
 						timeCurrentState = timeNextState;
 						timeNextState = time + stepDuration;
@@ -699,22 +717,17 @@
 					//const t = tPow;
 					const t = tCurve;
 
-					const stepParts = stepsParts[ currentConstructionStep ];
-					for ( let i in stepParts ) {
+					const part = parts[ currentConstructionStep ];
 
-						const part = stepParts[ i ];
+					vector3Temp1.lerpVectors( part.userData.positionStart, part.userData.positionEnd, t );
+					vector3Temp2.subVectors( part.userData.positionEnd, part.userData.positionStart );
+					const d = vector3Temp2.length();
+					const y = d * ( - Math.pow( t - 0.5, 2 ) + 0.25 );
 
-						vector3Temp1.lerpVectors( part.userData.positionStart, part.userData.positionEnd, t );
-						vector3Temp2.subVectors( part.userData.positionEnd, part.userData.positionStart );
-						const d = vector3Temp2.length();
-						const y = d * ( - Math.pow( t - 0.5, 2 ) + 0.25 );
+					part.position.copy( vector3Temp1 );
+					part.position.y += y;
 
-						part.position.copy( vector3Temp1 );
-						part.position.y += y;
-
-						part.quaternion.slerpQuaternions( part.userData.quaternionStart, part.userData.partQuaternion, t );
-
-					}
+					part.quaternion.slerpQuaternions( part.userData.quaternionStart, part.userData.partQuaternion, t );
 
 				}
 
@@ -793,7 +806,7 @@
 					fileNameMap[ model.title ] = filePath;
 
 				}
-				gui.add( guiData, 'modelFileName', fileNameMap ).name( 'Model' ).onFinishChange( function () {
+				gui.add( guiData, 'modelFileName', fileNameMap ).name( 'Model' ).onFinishChange( () => {
 
 					reloadObject( true );
 
@@ -801,13 +814,27 @@
 
 				gui.add( guiData, 'startAnimation' ).name( 'Start animation' );
 
-				gui.add( guiData, 'oneStep' ).name( 'Only one step' ).onFinishChange( function () {
+				const optionsFolder = gui.addFolder( "Options" );
+
+				optionsFolder.add( guiData, 'oneStep' ).name( 'Only one step' ).onFinishChange( () => {
 
 					reloadObject( true );
 
 				} );
 
-				gui.add( guiData, 'displayLines' ).name( 'Display Lines' ).onChange( updateObjectsVisibility );
+				optionsFolder.add( guiData, 'displayLines' ).name( 'Display Lines' ).onChange( updateObjectsVisibility );
+
+				optionsFolder.addColor( guiData, 'backgroundColor' ).name( 'Background color' ).onChange( () => {
+
+					scene.background.setRGB( guiData.backgroundColor.r, guiData.backgroundColor.g, guiData.backgroundColor.b );
+
+				} ).onFinishChange( () => {
+
+					// TODO save config
+
+				} );
+
+				optionsFolder.close();
 
 			}
 
