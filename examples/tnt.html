@@ -48,6 +48,7 @@
 			let modelDiameter, turn;
 			const meanPos = new THREE.Vector3();
 			let stepsParts;
+			let stepsPart;
 			const ANIM_STOPPED = 0;
 			const ANIM_FALLING = 1;
 			const ANIM_CONSTRUCTING = 2;
@@ -513,6 +514,7 @@
 					part.userData.sx = sx;
 					part.userData.sy = sy;
 					part.userData.sz = sz;
+					part.userData.bbox = bbox;
 
 					matrix4Temp1.decompose( part.position, part.quaternion, part.scale );
 					part.userData.partPosition = new THREE.Vector3().copy( part.position );
@@ -528,23 +530,6 @@
 				}
 
 				const numConstructionSteps = model.userData.numConstructionSteps;
-				stepsParts = [];
-				for ( let p in parts ) {
-
-					const part = parts[ p ];
-
-					let constructionStep = 0;
-					if ( ! guiData.oneStep ) {
-
-						if ( numConstructionSteps > 1 ) constructionStep = part.userData.constructionStep;
-						else constructionStep = p;
-
-					}
-
-					if ( ! stepsParts[ constructionStep ] ) stepsParts[ constructionStep ] = [];
-					stepsParts[ constructionStep ].push( part );
-
-				}
 
 				if ( parts.length > 0 ) {
 
@@ -577,7 +562,46 @@
 
 				}
 
+				// Sort parts
+
+				if ( numConstructionSteps === 1 ) {
+
+					sortParts( parts );
+
+				}
+
+				stepsParts = [];
+				for ( let p in parts ) {
+
+					const part = parts[ p ];
+
+					let constructionStep = 0;
+					if ( ! guiData.oneStep ) {
+
+						if ( numConstructionSteps > 1 ) constructionStep = part.userData.constructionStep;
+						else constructionStep = p;
+
+					}
+
+					if ( ! stepsParts[ constructionStep ] ) stepsParts[ constructionStep ] = [];
+					stepsParts[ constructionStep ].push( part );
+
+				}
+
 			}
+
+			function sortParts( partsArray ) {
+
+				partsArray.sort( ( a, b ) => {
+
+					const ay = - a.userData.bbox.max.y + a.position.y;
+					const by = - b.userData.bbox.max.y + b.position.y;
+
+					return ay === by ? 0 : ( ay < by ? - 1 : 1 );
+
+
+				} );
+			}
 
 			function handleAnimation() {
 
