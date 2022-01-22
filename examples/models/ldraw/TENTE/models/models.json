@@ -1,1915 +1,1915 @@
 {
     "models": {
         "oficiales/0403_avion_iniciacion.ldr": {
+            "path": "oficiales/0403_avion_iniciacion.ldr",
             "id": "",
             "title": "oficiales/0403_avion_iniciacion.ldr",
-            "refNumber": "",
-            "path": "oficiales/0403_avion_iniciacion.ldr",
-            "infoURL": ""
+            "seriesNumber": null,
+            "refNumber": null
         },
         "oficiales/353_karpan.ldr": {
+            "path": "oficiales/353_karpan.ldr",
             "id": "",
             "title": "oficiales/353_karpan.ldr",
-            "refNumber": "",
-            "path": "oficiales/353_karpan.ldr",
-            "infoURL": ""
+            "seriesNumber": null,
+            "refNumber": null
         },
         "oficiales/401_casa_caja_1.ldr": {
+            "path": "oficiales/401_casa_caja_1.ldr",
             "id": "",
             "title": "oficiales/401_casa_caja_1.ldr",
-            "refNumber": "",
-            "path": "oficiales/401_casa_caja_1.ldr",
-            "infoURL": ""
+            "seriesNumber": null,
+            "refNumber": null
         },
         "oficiales/401_f1tesoro.ldr": {
+            "path": "oficiales/401_f1tesoro.ldr",
             "id": "",
             "title": "oficiales/401_f1tesoro.ldr",
-            "refNumber": "",
-            "path": "oficiales/401_f1tesoro.ldr",
-            "infoURL": ""
+            "seriesNumber": null,
+            "refNumber": null
         },
         "oficiales/402_casa402.ldr": {
+            "path": "oficiales/402_casa402.ldr",
             "id": "",
             "title": "oficiales/402_casa402.ldr",
-            "refNumber": "",
-            "path": "oficiales/402_casa402.ldr",
-            "infoURL": ""
+            "seriesNumber": null,
+            "refNumber": null
         },
         "oficiales/403_casa403.ldr": {
+            "path": "oficiales/403_casa403.ldr",
             "id": "",
             "title": "oficiales/403_casa403.ldr",
-            "refNumber": "",
-            "path": "oficiales/403_casa403.ldr",
-            "infoURL": ""
+            "seriesNumber": null,
+            "refNumber": null
         },
         "oficiales/403_casahalt.ldr": {
+            "path": "oficiales/403_casahalt.ldr",
             "id": "",
             "title": "oficiales/403_casahalt.ldr",
-            "refNumber": "",
-            "path": "oficiales/403_casahalt.ldr",
-            "infoURL": ""
+            "seriesNumber": null,
+            "refNumber": null
         },
         "oficiales/403_chalet403.ldr": {
+            "path": "oficiales/403_chalet403.ldr",
             "id": "",
             "title": "oficiales/403_chalet403.ldr",
-            "refNumber": "",
-            "path": "oficiales/403_chalet403.ldr",
-            "infoURL": ""
+            "seriesNumber": null,
+            "refNumber": null
         },
         "oficiales/403_cochetente3.ldr": {
+            "path": "oficiales/403_cochetente3.ldr",
             "id": "",
             "title": "oficiales/403_cochetente3.ldr",
-            "refNumber": "",
-            "path": "oficiales/403_cochetente3.ldr",
-            "infoURL": ""
+            "seriesNumber": null,
+            "refNumber": null
         },
         "oficiales/420_estacionservicio.ldr": {
+            "path": "oficiales/420_estacionservicio.ldr",
             "id": "",
             "title": "oficiales/420_estacionservicio.ldr",
-            "refNumber": "",
-            "path": "oficiales/420_estacionservicio.ldr",
-            "infoURL": ""
+            "seriesNumber": null,
+            "refNumber": null
         },
         "oficiales/70021_patrulla_espacial.ldr": {
+            "path": "oficiales/70021_patrulla_espacial.ldr",
             "id": "",
             "title": "oficiales/70021_patrulla_espacial.ldr",
-            "refNumber": "",
-            "path": "oficiales/70021_patrulla_espacial.ldr",
-            "infoURL": ""
+            "seriesNumber": null,
+            "refNumber": null
         },
         "oficiales/70021_patrulla_espacial_borras.ldr": {
+            "path": "oficiales/70021_patrulla_espacial_borras.ldr",
             "id": "",
             "title": "oficiales/70021_patrulla_espacial_borras.ldr",
-            "refNumber": "",
-            "path": "oficiales/70021_patrulla_espacial_borras.ldr",
-            "infoURL": ""
+            "seriesNumber": null,
+            "refNumber": null
         },
         "oficiales/70022_desintegrador_borras.ldr": {
+            "path": "oficiales/70022_desintegrador_borras.ldr",
             "id": "",
             "title": "oficiales/70022_desintegrador_borras.ldr",
-            "refNumber": "",
-            "path": "oficiales/70022_desintegrador_borras.ldr",
-            "infoURL": ""
+            "seriesNumber": null,
+            "refNumber": null
         },
         "oficiales/70037_airportservice.ldr": {
+            "path": "oficiales/70037_airportservice.ldr",
             "id": "",
             "title": "oficiales/70037_airportservice.ldr",
-            "refNumber": "",
-            "path": "oficiales/70037_airportservice.ldr",
-            "infoURL": ""
+            "seriesNumber": null,
+            "refNumber": null
         },
         "oficiales/Aire_0501_servicio_autopista.ldr": {
+            "path": "oficiales/Aire_0501_servicio_autopista.ldr",
             "id": "",
             "title": "oficiales/Aire_0501_servicio_autopista.ldr",
-            "refNumber": "",
-            "path": "oficiales/Aire_0501_servicio_autopista.ldr",
-            "infoURL": ""
+            "seriesNumber": null,
+            "refNumber": null
         },
         "oficiales/Aire_0502_HelicopteroBrigadaForestal.ldr": {
+            "path": "oficiales/Aire_0502_HelicopteroBrigadaForestal.ldr",
             "id": "",
             "title": "oficiales/Aire_0502_HelicopteroBrigadaForestal.ldr",
-            "refNumber": "",
-            "path": "oficiales/Aire_0502_HelicopteroBrigadaForestal.ldr",
-            "infoURL": ""
+            "seriesNumber": null,
+            "refNumber": null
         },
         "oficiales/Aire_0506_HelicopteroFumigador.ldr": {
+            "path": "oficiales/Aire_0506_HelicopteroFumigador.ldr",
             "id": "",
             "title": "oficiales/Aire_0506_HelicopteroFumigador.ldr",
-            "refNumber": "",
-            "path": "oficiales/Aire_0506_HelicopteroFumigador.ldr",
-            "infoURL": ""
+            "seriesNumber": null,
+            "refNumber": null
         },
         "oficiales/Alpha_0370_ControlAereo.ldr": {
+            "path": "oficiales/Alpha_0370_ControlAereo.ldr",
             "id": "",
             "title": "oficiales/Alpha_0370_ControlAereo.ldr",
-            "refNumber": "",
-            "path": "oficiales/Alpha_0370_ControlAereo.ldr",
-            "infoURL": ""
+            "seriesNumber": null,
+            "refNumber": null
         },
         "oficiales/Astro_0552_Astro_Sencillo.ldr": {
+            "path": "oficiales/Astro_0552_Astro_Sencillo.ldr",
             "id": "",
             "title": "oficiales/Astro_0552_Astro_Sencillo.ldr",
-            "refNumber": "",
-            "path": "oficiales/Astro_0552_Astro_Sencillo.ldr",
-            "infoURL": ""
+            "seriesNumber": null,
+            "refNumber": null
         },
         "oficiales/Astro_0552_aerodeslizadorespacial.ldr": {
+            "path": "oficiales/Astro_0552_aerodeslizadorespacial.ldr",
             "id": "",
             "title": "oficiales/Astro_0552_aerodeslizadorespacial.ldr",
-            "refNumber": "",
-            "path": "oficiales/Astro_0552_aerodeslizadorespacial.ldr",
-            "infoURL": ""
+            "seriesNumber": null,
+            "refNumber": null
         },
         "oficiales/Astro_0552_basealertagalactica.ldr": {
+            "path": "oficiales/Astro_0552_basealertagalactica.ldr",
             "id": "",
             "title": "oficiales/Astro_0552_basealertagalactica.ldr",
-            "refNumber": "",
-            "path": "oficiales/Astro_0552_basealertagalactica.ldr",
-            "infoURL": ""
+            "seriesNumber": null,
+            "refNumber": null
         },
         "oficiales/Astro_0552_busespacial-tractor.ldr": {
+            "path": "oficiales/Astro_0552_busespacial-tractor.ldr",
             "id": "",
             "title": "oficiales/Astro_0552_busespacial-tractor.ldr",
-            "refNumber": "",
-            "path": "oficiales/Astro_0552_busespacial-tractor.ldr",
-            "infoURL": ""
+            "seriesNumber": null,
+            "refNumber": null
         },
         "oficiales/Astro_0552_busespacial.ldr": {
+            "path": "oficiales/Astro_0552_busespacial.ldr",
             "id": "",
             "title": "oficiales/Astro_0552_busespacial.ldr",
-            "refNumber": "",
-            "path": "oficiales/Astro_0552_busespacial.ldr",
-            "infoURL": ""
+            "seriesNumber": null,
+            "refNumber": null
         },
         "oficiales/Astro_0552_estacionuranio.ldr": {
+            "path": "oficiales/Astro_0552_estacionuranio.ldr",
             "id": "",
             "title": "oficiales/Astro_0552_estacionuranio.ldr",
-            "refNumber": "",
-            "path": "oficiales/Astro_0552_estacionuranio.ldr",
-            "infoURL": ""
+            "seriesNumber": null,
+            "refNumber": null
         },
         "oficiales/Astro_0552_exploradordetector.ldr": {
+            "path": "oficiales/Astro_0552_exploradordetector.ldr",
             "id": "",
             "title": "oficiales/Astro_0552_exploradordetector.ldr",
-            "refNumber": "",
-            "path": "oficiales/Astro_0552_exploradordetector.ldr",
-            "infoURL": ""
+            "seriesNumber": null,
+            "refNumber": null
         },
         "oficiales/Astro_0552_laboratoriomovil.ldr": {
+            "path": "oficiales/Astro_0552_laboratoriomovil.ldr",
             "id": "",
             "title": "oficiales/Astro_0552_laboratoriomovil.ldr",
-            "refNumber": "",
-            "path": "oficiales/Astro_0552_laboratoriomovil.ldr",
-            "infoURL": ""
+            "seriesNumber": null,
+            "refNumber": null
         },
         "oficiales/Astro_0552_nave_interceptora.ldr": {
+            "path": "oficiales/Astro_0552_nave_interceptora.ldr",
             "id": "",
             "title": "oficiales/Astro_0552_nave_interceptora.ldr",
-            "refNumber": "",
-            "path": "oficiales/Astro_0552_nave_interceptora.ldr",
-            "infoURL": ""
+            "seriesNumber": null,
+            "refNumber": null
         },
         "oficiales/Astro_0552_patrulla91.ldr": {
+            "path": "oficiales/Astro_0552_patrulla91.ldr",
             "id": "",
             "title": "oficiales/Astro_0552_patrulla91.ldr",
-            "refNumber": "",
-            "path": "oficiales/Astro_0552_patrulla91.ldr",
-            "infoURL": ""
+            "seriesNumber": null,
+            "refNumber": null
         },
         "oficiales/Astro_0552_plantatransformadoradeuranio.ldr": {
+            "path": "oficiales/Astro_0552_plantatransformadoradeuranio.ldr",
             "id": "",
             "title": "oficiales/Astro_0552_plantatransformadoradeuranio.ldr",
-            "refNumber": "",
-            "path": "oficiales/Astro_0552_plantatransformadoradeuranio.ldr",
-            "infoURL": ""
+            "seriesNumber": null,
+            "refNumber": null
         },
         "oficiales/Astro_0552_tractormantenimiento.ldr": {
+            "path": "oficiales/Astro_0552_tractormantenimiento.ldr",
             "id": "",
             "title": "oficiales/Astro_0552_tractormantenimiento.ldr",
-            "refNumber": "",
-            "path": "oficiales/Astro_0552_tractormantenimiento.ldr",
-            "infoURL": ""
+            "seriesNumber": null,
+            "refNumber": null
         },
         "oficiales/Astro_0552_transportefluidos.ldr": {
+            "path": "oficiales/Astro_0552_transportefluidos.ldr",
             "id": "",
             "title": "oficiales/Astro_0552_transportefluidos.ldr",
-            "refNumber": "",
-            "path": "oficiales/Astro_0552_transportefluidos.ldr",
-            "infoURL": ""
+            "seriesNumber": null,
+            "refNumber": null
         },
         "oficiales/Astro_0552_transportematerialradioactivo.ldr": {
+            "path": "oficiales/Astro_0552_transportematerialradioactivo.ldr",
             "id": "",
             "title": "oficiales/Astro_0552_transportematerialradioactivo.ldr",
-            "refNumber": "",
-            "path": "oficiales/Astro_0552_transportematerialradioactivo.ldr",
-            "infoURL": ""
+            "seriesNumber": null,
+            "refNumber": null
         },
         "oficiales/Astro_0552_transporteuranio.ldr": {
+            "path": "oficiales/Astro_0552_transporteuranio.ldr",
             "id": "",
             "title": "oficiales/Astro_0552_transporteuranio.ldr",
-            "refNumber": "",
-            "path": "oficiales/Astro_0552_transporteuranio.ldr",
-            "infoURL": ""
+            "seriesNumber": null,
+            "refNumber": null
         },
         "oficiales/Astro_0552_vehiculoarticulado.ldr": {
+            "path": "oficiales/Astro_0552_vehiculoarticulado.ldr",
             "id": "",
             "title": "oficiales/Astro_0552_vehiculoarticulado.ldr",
-            "refNumber": "",
-            "path": "oficiales/Astro_0552_vehiculoarticulado.ldr",
-            "infoURL": ""
+            "seriesNumber": null,
+            "refNumber": null
         },
         "oficiales/Astro_0552_vehiculodedefensa.ldr": {
+            "path": "oficiales/Astro_0552_vehiculodedefensa.ldr",
             "id": "",
             "title": "oficiales/Astro_0552_vehiculodedefensa.ldr",
-            "refNumber": "",
-            "path": "oficiales/Astro_0552_vehiculodedefensa.ldr",
-            "infoURL": ""
+            "seriesNumber": null,
+            "refNumber": null
         },
         "oficiales/Astro_0552_vehiculoenlace.ldr": {
+            "path": "oficiales/Astro_0552_vehiculoenlace.ldr",
             "id": "",
             "title": "oficiales/Astro_0552_vehiculoenlace.ldr",
-            "refNumber": "",
-            "path": "oficiales/Astro_0552_vehiculoenlace.ldr",
-            "infoURL": ""
+            "seriesNumber": null,
+            "refNumber": null
         },
         "oficiales/Astro_0650_desintegrador_alternativo.ldr": {
+            "path": "oficiales/Astro_0650_desintegrador_alternativo.ldr",
             "id": "",
             "title": "oficiales/Astro_0650_desintegrador_alternativo.ldr",
-            "refNumber": "",
-            "path": "oficiales/Astro_0650_desintegrador_alternativo.ldr",
-            "infoURL": ""
+            "seriesNumber": null,
+            "refNumber": null
         },
         "oficiales/Astro_0650_desintegradorrayoslaser.ldr": {
+            "path": "oficiales/Astro_0650_desintegradorrayoslaser.ldr",
             "id": "",
             "title": "oficiales/Astro_0650_desintegradorrayoslaser.ldr",
-            "refNumber": "",
-            "path": "oficiales/Astro_0650_desintegradorrayoslaser.ldr",
-            "infoURL": ""
+            "seriesNumber": null,
+            "refNumber": null
         },
         "oficiales/Astro_0651_centromovilcontrol.ldr": {
+            "path": "oficiales/Astro_0651_centromovilcontrol.ldr",
             "id": "",
             "title": "oficiales/Astro_0651_centromovilcontrol.ldr",
-            "refNumber": "",
-            "path": "oficiales/Astro_0651_centromovilcontrol.ldr",
-            "infoURL": ""
+            "seriesNumber": null,
+            "refNumber": null
         },
         "oficiales/Astro_0652_exploradorespacial.ldr": {
+            "path": "oficiales/Astro_0652_exploradorespacial.ldr",
             "id": "",
             "title": "oficiales/Astro_0652_exploradorespacial.ldr",
-            "refNumber": "",
-            "path": "oficiales/Astro_0652_exploradorespacial.ldr",
-            "infoURL": ""
+            "seriesNumber": null,
+            "refNumber": null
         },
         "oficiales/Astro_0653_astromovil.ldr": {
+            "path": "oficiales/Astro_0653_astromovil.ldr",
             "id": "",
             "title": "oficiales/Astro_0653_astromovil.ldr",
-            "refNumber": "",
-            "path": "oficiales/Astro_0653_astromovil.ldr",
-            "infoURL": ""
+            "seriesNumber": null,
+            "refNumber": null
         },
         "oficiales/Astro_0654_unidadsideralrescate.ldr": {
+            "path": "oficiales/Astro_0654_unidadsideralrescate.ldr",
             "id": "",
             "title": "oficiales/Astro_0654_unidadsideralrescate.ldr",
-            "refNumber": "",
-            "path": "oficiales/Astro_0654_unidadsideralrescate.ldr",
-            "infoURL": ""
+            "seriesNumber": null,
+            "refNumber": null
         },
         "oficiales/Astro_0655_torrecontroltraficoorbital.ldr": {
+            "path": "oficiales/Astro_0655_torrecontroltraficoorbital.ldr",
             "id": "",
             "title": "oficiales/Astro_0655_torrecontroltraficoorbital.ldr",
-            "refNumber": "",
-            "path": "oficiales/Astro_0655_torrecontroltraficoorbital.ldr",
-            "infoURL": ""
+            "seriesNumber": null,
+            "refNumber": null
         },
         "oficiales/Astro_0657_unidadteledetectora.ldr": {
+            "path": "oficiales/Astro_0657_unidadteledetectora.ldr",
             "id": "",
             "title": "oficiales/Astro_0657_unidadteledetectora.ldr",
-            "refNumber": "",
-            "path": "oficiales/Astro_0657_unidadteledetectora.ldr",
-            "infoURL": ""
+            "seriesNumber": null,
+            "refNumber": null
         },
         "oficiales/Astro_0661_uesondeo.ldr": {
+            "path": "oficiales/Astro_0661_uesondeo.ldr",
             "id": "",
             "title": "oficiales/Astro_0661_uesondeo.ldr",
-            "refNumber": "",
-            "path": "oficiales/Astro_0661_uesondeo.ldr",
-            "infoURL": ""
+            "seriesNumber": null,
+            "refNumber": null
         },
         "oficiales/Astro_0678_aranalunar.ldr": {
+            "path": "oficiales/Astro_0678_aranalunar.ldr",
             "id": "",
             "title": "oficiales/Astro_0678_aranalunar.ldr",
-            "refNumber": "",
-            "path": "oficiales/Astro_0678_aranalunar.ldr",
-            "infoURL": ""
+            "seriesNumber": null,
+            "refNumber": null
         },
         "oficiales/Astro_0720_proyectorgalacticomovil.ldr": {
+            "path": "oficiales/Astro_0720_proyectorgalacticomovil.ldr",
             "id": "",
             "title": "oficiales/Astro_0720_proyectorgalacticomovil.ldr",
-            "refNumber": "",
-            "path": "oficiales/Astro_0720_proyectorgalacticomovil.ldr",
-            "infoURL": ""
+            "seriesNumber": null,
+            "refNumber": null
         },
         "oficiales/Astro_0722_navedefensasideral.ldr": {
+            "path": "oficiales/Astro_0722_navedefensasideral.ldr",
             "id": "",
             "title": "oficiales/Astro_0722_navedefensasideral.ldr",
-            "refNumber": "",
-            "path": "oficiales/Astro_0722_navedefensasideral.ldr",
-            "infoURL": ""
+            "seriesNumber": null,
+            "refNumber": null
         },
         "oficiales/Astro_0722_navedefensasideral2.ldr": {
+            "path": "oficiales/Astro_0722_navedefensasideral2.ldr",
             "id": "",
             "title": "oficiales/Astro_0722_navedefensasideral2.ldr",
-            "refNumber": "",
-            "path": "oficiales/Astro_0722_navedefensasideral2.ldr",
-            "infoURL": ""
+            "seriesNumber": null,
+            "refNumber": null
         },
         "oficiales/Astro_0722_navedefensasideral3.ldr": {
+            "path": "oficiales/Astro_0722_navedefensasideral3.ldr",
             "id": "",
             "title": "oficiales/Astro_0722_navedefensasideral3.ldr",
-            "refNumber": "",
-            "path": "oficiales/Astro_0722_navedefensasideral3.ldr",
-            "infoURL": ""
+            "seriesNumber": null,
+            "refNumber": null
         },
         "oficiales/Astro_0740_saturno6-explorador-aereo.ldr": {
+            "path": "oficiales/Astro_0740_saturno6-explorador-aereo.ldr",
             "id": "",
             "title": "oficiales/Astro_0740_saturno6-explorador-aereo.ldr",
-            "refNumber": "",
-            "path": "oficiales/Astro_0740_saturno6-explorador-aereo.ldr",
-            "infoURL": ""
+            "seriesNumber": null,
+            "refNumber": null
         },
         "oficiales/Astro_0740_saturno6-miniexploradoraereo.ldr": {
+            "path": "oficiales/Astro_0740_saturno6-miniexploradoraereo.ldr",
             "id": "",
             "title": "oficiales/Astro_0740_saturno6-miniexploradoraereo.ldr",
-            "refNumber": "",
-            "path": "oficiales/Astro_0740_saturno6-miniexploradoraereo.ldr",
-            "infoURL": ""
+            "seriesNumber": null,
+            "refNumber": null
         },
         "oficiales/Astro_0740_saturno6-miniexploradorterrestre.ldr": {
+            "path": "oficiales/Astro_0740_saturno6-miniexploradorterrestre.ldr",
             "id": "",
             "title": "oficiales/Astro_0740_saturno6-miniexploradorterrestre.ldr",
-            "refNumber": "",
-            "path": "oficiales/Astro_0740_saturno6-miniexploradorterrestre.ldr",
-            "infoURL": ""
+            "seriesNumber": null,
+            "refNumber": null
         },
         "oficiales/Astro_0740_saturno6-nodriza.ldr": {
+            "path": "oficiales/Astro_0740_saturno6-nodriza.ldr",
             "id": "",
             "title": "oficiales/Astro_0740_saturno6-nodriza.ldr",
-            "refNumber": "",
-            "path": "oficiales/Astro_0740_saturno6-nodriza.ldr",
-            "infoURL": ""
+            "seriesNumber": null,
+            "refNumber": null
         },
         "oficiales/Borras_patrullaespacial.ldr": {
+            "path": "oficiales/Borras_patrullaespacial.ldr",
             "id": "",
             "title": "oficiales/Borras_patrullaespacial.ldr",
-            "refNumber": "",
-            "path": "oficiales/Borras_patrullaespacial.ldr",
-            "infoURL": ""
+            "seriesNumber": null,
+            "refNumber": null
         },
         "oficiales/Combi_0333_corfu.ldr": {
+            "path": "oficiales/Combi_0333_corfu.ldr",
             "id": "",
             "title": "oficiales/Combi_0333_corfu.ldr",
-            "refNumber": "",
-            "path": "oficiales/Combi_0333_corfu.ldr",
-            "infoURL": ""
+            "seriesNumber": null,
+            "refNumber": null
         },
         "oficiales/Combi_0340_lectorgeologico.ldr": {
+            "path": "oficiales/Combi_0340_lectorgeologico.ldr",
             "id": "",
             "title": "oficiales/Combi_0340_lectorgeologico.ldr",
-            "refNumber": "",
-            "path": "oficiales/Combi_0340_lectorgeologico.ldr",
-            "infoURL": ""
+            "seriesNumber": null,
+            "refNumber": null
         },
         "oficiales/Combi_1.ldr": {
+            "path": "oficiales/Combi_1.ldr",
             "id": "",
             "title": "oficiales/Combi_1.ldr",
-            "refNumber": "",
-            "path": "oficiales/Combi_1.ldr",
-            "infoURL": ""
+            "seriesNumber": null,
+            "refNumber": null
         },
         "oficiales/Combi_2.ldr": {
+            "path": "oficiales/Combi_2.ldr",
             "id": "",
             "title": "oficiales/Combi_2.ldr",
-            "refNumber": "",
-            "path": "oficiales/Combi_2.ldr",
-            "infoURL": ""
+            "seriesNumber": null,
+            "refNumber": null
         },
         "oficiales/Combi_5_8.ldr": {
+            "path": "oficiales/Combi_5_8.ldr",
             "id": "",
             "title": "oficiales/Combi_5_8.ldr",
-            "refNumber": "",
-            "path": "oficiales/Combi_5_8.ldr",
-            "infoURL": ""
+            "seriesNumber": null,
+            "refNumber": null
         },
         "oficiales/Combi_6_7.ldr": {
+            "path": "oficiales/Combi_6_7.ldr",
             "id": "",
             "title": "oficiales/Combi_6_7.ldr",
-            "refNumber": "",
-            "path": "oficiales/Combi_6_7.ldr",
-            "infoURL": ""
+            "seriesNumber": null,
+            "refNumber": null
         },
         "oficiales/Combi_6_generadormovil.ldr": {
+            "path": "oficiales/Combi_6_generadormovil.ldr",
             "id": "",
             "title": "oficiales/Combi_6_generadormovil.ldr",
-            "refNumber": "",
-            "path": "oficiales/Combi_6_generadormovil.ldr",
-            "infoURL": ""
+            "seriesNumber": null,
+            "refNumber": null
         },
         "oficiales/Combi_7_unidad-exploradora.ldr": {
+            "path": "oficiales/Combi_7_unidad-exploradora.ldr",
             "id": "",
             "title": "oficiales/Combi_7_unidad-exploradora.ldr",
-            "refNumber": "",
-            "path": "oficiales/Combi_7_unidad-exploradora.ldr",
-            "infoURL": ""
+            "seriesNumber": null,
+            "refNumber": null
         },
         "oficiales/Compact_0343_Excavator.ldr": {
+            "path": "oficiales/Compact_0343_Excavator.ldr",
             "id": "",
             "title": "oficiales/Compact_0343_Excavator.ldr",
-            "refNumber": "",
-            "path": "oficiales/Compact_0343_Excavator.ldr",
-            "infoURL": ""
+            "seriesNumber": null,
+            "refNumber": null
         },
         "oficiales/Compact_0344_Extinthor.ldr": {
+            "path": "oficiales/Compact_0344_Extinthor.ldr",
             "id": "",
             "title": "oficiales/Compact_0344_Extinthor.ldr",
-            "refNumber": "",
-            "path": "oficiales/Compact_0344_Extinthor.ldr",
-            "infoURL": ""
+            "seriesNumber": null,
+            "refNumber": null
         },
         "oficiales/Compact_0345_SpacePatrol.ldr": {
+            "path": "oficiales/Compact_0345_SpacePatrol.ldr",
             "id": "",
             "title": "oficiales/Compact_0345_SpacePatrol.ldr",
-            "refNumber": "",
-            "path": "oficiales/Compact_0345_SpacePatrol.ldr",
-            "infoURL": ""
+            "seriesNumber": null,
+            "refNumber": null
         },
         "oficiales/Compact_0346_Vigilantic.ldr": {
+            "path": "oficiales/Compact_0346_Vigilantic.ldr",
             "id": "",
             "title": "oficiales/Compact_0346_Vigilantic.ldr",
-            "refNumber": "",
-            "path": "oficiales/Compact_0346_Vigilantic.ldr",
-            "infoURL": ""
+            "seriesNumber": null,
+            "refNumber": null
         },
         "oficiales/Compact_0347_Pegasus.ldr": {
+            "path": "oficiales/Compact_0347_Pegasus.ldr",
             "id": "",
             "title": "oficiales/Compact_0347_Pegasus.ldr",
-            "refNumber": "",
-            "path": "oficiales/Compact_0347_Pegasus.ldr",
-            "infoURL": ""
+            "seriesNumber": null,
+            "refNumber": null
         },
         "oficiales/Compact_0348_Bipstar.ldr": {
+            "path": "oficiales/Compact_0348_Bipstar.ldr",
             "id": "",
             "title": "oficiales/Compact_0348_Bipstar.ldr",
-            "refNumber": "",
-            "path": "oficiales/Compact_0348_Bipstar.ldr",
-            "infoURL": ""
+            "seriesNumber": null,
+            "refNumber": null
         },
         "oficiales/Compact_0349_Robby.ldr": {
+            "path": "oficiales/Compact_0349_Robby.ldr",
             "id": "",
             "title": "oficiales/Compact_0349_Robby.ldr",
-            "refNumber": "",
-            "path": "oficiales/Compact_0349_Robby.ldr",
-            "infoURL": ""
+            "seriesNumber": null,
+            "refNumber": null
         },
         "oficiales/Compact_0351_Tex.ldr": {
+            "path": "oficiales/Compact_0351_Tex.ldr",
             "id": "",
             "title": "oficiales/Compact_0351_Tex.ldr",
-            "refNumber": "",
-            "path": "oficiales/Compact_0351_Tex.ldr",
-            "infoURL": ""
+            "seriesNumber": null,
+            "refNumber": null
         },
         "oficiales/Compact_0352_Karpan.ldr": {
+            "path": "oficiales/Compact_0352_Karpan.ldr",
             "id": "",
             "title": "oficiales/Compact_0352_Karpan.ldr",
-            "refNumber": "",
-            "path": "oficiales/Compact_0352_Karpan.ldr",
-            "infoURL": ""
+            "seriesNumber": null,
+            "refNumber": null
         },
         "oficiales/Compact_0353_Condor.ldr": {
+            "path": "oficiales/Compact_0353_Condor.ldr",
             "id": "",
             "title": "oficiales/Compact_0353_Condor.ldr",
-            "refNumber": "",
-            "path": "oficiales/Compact_0353_Condor.ldr",
-            "infoURL": ""
+            "seriesNumber": null,
+            "refNumber": null
         },
         "oficiales/Cosmic_0435_scutty.ldr": {
+            "path": "oficiales/Cosmic_0435_scutty.ldr",
             "id": "",
             "title": "oficiales/Cosmic_0435_scutty.ldr",
-            "refNumber": "",
-            "path": "oficiales/Cosmic_0435_scutty.ldr",
-            "infoURL": ""
+            "seriesNumber": null,
+            "refNumber": null
         },
         "oficiales/Escorpion_0543_lanza_misil_movil.ldr": {
+            "path": "oficiales/Escorpion_0543_lanza_misil_movil.ldr",
             "id": "",
             "title": "oficiales/Escorpion_0543_lanza_misil_movil.ldr",
-            "refNumber": "",
-            "path": "oficiales/Escorpion_0543_lanza_misil_movil.ldr",
-            "infoURL": ""
+            "seriesNumber": null,
+            "refNumber": null
         },
         "oficiales/Escorpion_0543_misil_autotransportado.ldr": {
+            "path": "oficiales/Escorpion_0543_misil_autotransportado.ldr",
             "id": "",
             "title": "oficiales/Escorpion_0543_misil_autotransportado.ldr",
-            "refNumber": "",
-            "path": "oficiales/Escorpion_0543_misil_autotransportado.ldr",
-            "infoURL": ""
+            "seriesNumber": null,
+            "refNumber": null
         },
         "oficiales/Escorpion_0543_transporte_blindado.ldr": {
+            "path": "oficiales/Escorpion_0543_transporte_blindado.ldr",
             "id": "",
             "title": "oficiales/Escorpion_0543_transporte_blindado.ldr",
-            "refNumber": "",
-            "path": "oficiales/Escorpion_0543_transporte_blindado.ldr",
-            "infoURL": ""
+            "seriesNumber": null,
+            "refNumber": null
         },
         "oficiales/Escorpion_0750_tanque.ldr": {
+            "path": "oficiales/Escorpion_0750_tanque.ldr",
             "id": "",
             "title": "oficiales/Escorpion_0750_tanque.ldr",
-            "refNumber": "",
-            "path": "oficiales/Escorpion_0750_tanque.ldr",
-            "infoURL": ""
+            "seriesNumber": null,
+            "refNumber": null
         },
         "oficiales/Escorpion_0751_transporteanfibio.ldr": {
+            "path": "oficiales/Escorpion_0751_transporteanfibio.ldr",
             "id": "",
             "title": "oficiales/Escorpion_0751_transporteanfibio.ldr",
-            "refNumber": "",
-            "path": "oficiales/Escorpion_0751_transporteanfibio.ldr",
-            "infoURL": ""
+            "seriesNumber": null,
+            "refNumber": null
         },
         "oficiales/Escorpion_0752_semioruga.ldr": {
+            "path": "oficiales/Escorpion_0752_semioruga.ldr",
             "id": "",
             "title": "oficiales/Escorpion_0752_semioruga.ldr",
-            "refNumber": "",
-            "path": "oficiales/Escorpion_0752_semioruga.ldr",
-            "infoURL": ""
+            "seriesNumber": null,
+            "refNumber": null
         },
         "oficiales/Escorpion_0755_ambulanciacampana.ldr": {
+            "path": "oficiales/Escorpion_0755_ambulanciacampana.ldr",
             "id": "",
             "title": "oficiales/Escorpion_0755_ambulanciacampana.ldr",
-            "refNumber": "",
-            "path": "oficiales/Escorpion_0755_ambulanciacampana.ldr",
-            "infoURL": ""
+            "seriesNumber": null,
+            "refNumber": null
         },
         "oficiales/Hasbro_0210_rainbowvan.ldr": {
+            "path": "oficiales/Hasbro_0210_rainbowvan.ldr",
             "id": "",
             "title": "oficiales/Hasbro_0210_rainbowvan.ldr",
-            "refNumber": "",
-            "path": "oficiales/Hasbro_0210_rainbowvan.ldr",
-            "infoURL": ""
+            "seriesNumber": null,
+            "refNumber": null
         },
         "oficiales/Hasbro_0212_rangerpickup.ldr": {
+            "path": "oficiales/Hasbro_0212_rangerpickup.ldr",
             "id": "",
             "title": "oficiales/Hasbro_0212_rangerpickup.ldr",
-            "refNumber": "",
-            "path": "oficiales/Hasbro_0212_rangerpickup.ldr",
-            "infoURL": ""
+            "seriesNumber": null,
+            "refNumber": null
         },
         "oficiales/Hasbro_0220_refrigeratortruck.ldr": {
+            "path": "oficiales/Hasbro_0220_refrigeratortruck.ldr",
             "id": "",
             "title": "oficiales/Hasbro_0220_refrigeratortruck.ldr",
-            "refNumber": "",
-            "path": "oficiales/Hasbro_0220_refrigeratortruck.ldr",
-            "infoURL": ""
+            "seriesNumber": null,
+            "refNumber": null
         },
         "oficiales/Hasbro_0222_caravana_americana.ldr": {
+            "path": "oficiales/Hasbro_0222_caravana_americana.ldr",
             "id": "",
             "title": "oficiales/Hasbro_0222_caravana_americana.ldr",
-            "refNumber": "",
-            "path": "oficiales/Hasbro_0222_caravana_americana.ldr",
-            "infoURL": ""
+            "seriesNumber": null,
+            "refNumber": null
         },
         "oficiales/Hasbro_0222_greyhoundbus.ldr": {
+            "path": "oficiales/Hasbro_0222_greyhoundbus.ldr",
             "id": "",
             "title": "oficiales/Hasbro_0222_greyhoundbus.ldr",
-            "refNumber": "",
-            "path": "oficiales/Hasbro_0222_greyhoundbus.ldr",
-            "infoURL": ""
+            "seriesNumber": null,
+            "refNumber": null
         },
         "oficiales/Hasbro_0250_formula1witht8.ldr": {
+            "path": "oficiales/Hasbro_0250_formula1witht8.ldr",
             "id": "",
             "title": "oficiales/Hasbro_0250_formula1witht8.ldr",
-            "refNumber": "",
-            "path": "oficiales/Hasbro_0250_formula1witht8.ldr",
-            "infoURL": ""
+            "seriesNumber": null,
+            "refNumber": null
         },
         "oficiales/Hasbro_0260_dumptruck.ldr": {
+            "path": "oficiales/Hasbro_0260_dumptruck.ldr",
             "id": "",
             "title": "oficiales/Hasbro_0260_dumptruck.ldr",
-            "refNumber": "",
-            "path": "oficiales/Hasbro_0260_dumptruck.ldr",
-            "infoURL": ""
+            "seriesNumber": null,
+            "refNumber": null
         },
         "oficiales/Hasbro_0260_firetruck.ldr": {
+            "path": "oficiales/Hasbro_0260_firetruck.ldr",
             "id": "",
             "title": "oficiales/Hasbro_0260_firetruck.ldr",
-            "refNumber": "",
-            "path": "oficiales/Hasbro_0260_firetruck.ldr",
-            "infoURL": ""
+            "seriesNumber": null,
+            "refNumber": null
         },
         "oficiales/Hasbro_0260_jeepconvertible.ldr": {
+            "path": "oficiales/Hasbro_0260_jeepconvertible.ldr",
             "id": "",
             "title": "oficiales/Hasbro_0260_jeepconvertible.ldr",
-            "refNumber": "",
-            "path": "oficiales/Hasbro_0260_jeepconvertible.ldr",
-            "infoURL": ""
+            "seriesNumber": null,
+            "refNumber": null
         },
         "oficiales/Hasbro_0260_mobilehome.ldr": {
+            "path": "oficiales/Hasbro_0260_mobilehome.ldr",
             "id": "",
             "title": "oficiales/Hasbro_0260_mobilehome.ldr",
-            "refNumber": "",
-            "path": "oficiales/Hasbro_0260_mobilehome.ldr",
-            "infoURL": ""
+            "seriesNumber": null,
+            "refNumber": null
         },
         "oficiales/Hasbro_0260_trashtruck.ldr": {
+            "path": "oficiales/Hasbro_0260_trashtruck.ldr",
             "id": "",
             "title": "oficiales/Hasbro_0260_trashtruck.ldr",
-            "refNumber": "",
-            "path": "oficiales/Hasbro_0260_trashtruck.ldr",
-            "infoURL": ""
+            "seriesNumber": null,
+            "refNumber": null
         },
         "oficiales/Hasbro_0270_basespaceaventure.ldr": {
+            "path": "oficiales/Hasbro_0270_basespaceaventure.ldr",
             "id": "",
             "title": "oficiales/Hasbro_0270_basespaceaventure.ldr",
-            "refNumber": "",
-            "path": "oficiales/Hasbro_0270_basespaceaventure.ldr",
-            "infoURL": ""
+            "seriesNumber": null,
+            "refNumber": null
         },
         "oficiales/Hasbro_0403_laserray.ldr": {
+            "path": "oficiales/Hasbro_0403_laserray.ldr",
             "id": "",
             "title": "oficiales/Hasbro_0403_laserray.ldr",
-            "refNumber": "",
-            "path": "oficiales/Hasbro_0403_laserray.ldr",
-            "infoURL": ""
+            "seriesNumber": null,
+            "refNumber": null
         },
         "oficiales/Hasbro_0481_astrostarcommander.ldr": {
+            "path": "oficiales/Hasbro_0481_astrostarcommander.ldr",
             "id": "",
             "title": "oficiales/Hasbro_0481_astrostarcommander.ldr",
-            "refNumber": "",
-            "path": "oficiales/Hasbro_0481_astrostarcommander.ldr",
-            "infoURL": ""
+            "seriesNumber": null,
+            "refNumber": null
         },
         "oficiales/Hasbro__astronavedefensa.ldr": {
+            "path": "oficiales/Hasbro__astronavedefensa.ldr",
             "id": "",
             "title": "oficiales/Hasbro__astronavedefensa.ldr",
-            "refNumber": "",
-            "path": "oficiales/Hasbro__astronavedefensa.ldr",
-            "infoURL": ""
+            "seriesNumber": null,
+            "refNumber": null
         },
         "oficiales/Hasbro__camionnye.ldr": {
+            "path": "oficiales/Hasbro__camionnye.ldr",
             "id": "",
             "title": "oficiales/Hasbro__camionnye.ldr",
-            "refNumber": "",
-            "path": "oficiales/Hasbro__camionnye.ldr",
-            "infoURL": ""
+            "seriesNumber": null,
+            "refNumber": null
         },
         "oficiales/Hasbro__campingcar.ldr": {
+            "path": "oficiales/Hasbro__campingcar.ldr",
             "id": "",
             "title": "oficiales/Hasbro__campingcar.ldr",
-            "refNumber": "",
-            "path": "oficiales/Hasbro__campingcar.ldr",
-            "infoURL": ""
+            "seriesNumber": null,
+            "refNumber": null
         },
         "oficiales/Mar_0550_barcopaseo.ldr": {
+            "path": "oficiales/Mar_0550_barcopaseo.ldr",
             "id": "",
             "title": "oficiales/Mar_0550_barcopaseo.ldr",
-            "refNumber": "",
-            "path": "oficiales/Mar_0550_barcopaseo.ldr",
-            "infoURL": ""
+            "seriesNumber": null,
+            "refNumber": null
         },
         "oficiales/Mar_0550_buqueFaro.ldr": {
+            "path": "oficiales/Mar_0550_buqueFaro.ldr",
             "id": "",
             "title": "oficiales/Mar_0550_buqueFaro.ldr",
-            "refNumber": "",
-            "path": "oficiales/Mar_0550_buqueFaro.ldr",
-            "infoURL": ""
+            "seriesNumber": null,
+            "refNumber": null
         },
         "oficiales/Mar_0550_buquepasaje.ldr": {
+            "path": "oficiales/Mar_0550_buquepasaje.ldr",
             "id": "",
             "title": "oficiales/Mar_0550_buquepasaje.ldr",
-            "refNumber": "",
-            "path": "oficiales/Mar_0550_buquepasaje.ldr",
-            "infoURL": ""
+            "seriesNumber": null,
+            "refNumber": null
         },
         "oficiales/Mar_0550_yatemallorca.ldr": {
+            "path": "oficiales/Mar_0550_yatemallorca.ldr",
             "id": "",
             "title": "oficiales/Mar_0550_yatemallorca.ldr",
-            "refNumber": "",
-            "path": "oficiales/Mar_0550_yatemallorca.ldr",
-            "infoURL": ""
+            "seriesNumber": null,
+            "refNumber": null
         },
         "oficiales/Mar_0550_yatexaloc.ldr": {
+            "path": "oficiales/Mar_0550_yatexaloc.ldr",
             "id": "",
             "title": "oficiales/Mar_0550_yatexaloc.ldr",
-            "refNumber": "",
-            "path": "oficiales/Mar_0550_yatexaloc.ldr",
-            "infoURL": ""
+            "seriesNumber": null,
+            "refNumber": null
         },
         "oficiales/Mar_0614_ferry.ldr": {
+            "path": "oficiales/Mar_0614_ferry.ldr",
             "id": "",
             "title": "oficiales/Mar_0614_ferry.ldr",
-            "refNumber": "",
-            "path": "oficiales/Mar_0614_ferry.ldr",
-            "infoURL": ""
+            "seriesNumber": null,
+            "refNumber": null
         },
         "oficiales/Mar_0615_fragata-lanzamisiles.ldr": {
+            "path": "oficiales/Mar_0615_fragata-lanzamisiles.ldr",
             "id": "",
             "title": "oficiales/Mar_0615_fragata-lanzamisiles.ldr",
-            "refNumber": "",
-            "path": "oficiales/Mar_0615_fragata-lanzamisiles.ldr",
-            "infoURL": ""
+            "seriesNumber": null,
+            "refNumber": null
         },
         "oficiales/Mar_0642_automotor.ldr": {
+            "path": "oficiales/Mar_0642_automotor.ldr",
             "id": "",
             "title": "oficiales/Mar_0642_automotor.ldr",
-            "refNumber": "",
-            "path": "oficiales/Mar_0642_automotor.ldr",
-            "infoURL": ""
+            "seriesNumber": null,
+            "refNumber": null
         },
         "oficiales/Mar_0642_hovercraftmotor.ldr": {
+            "path": "oficiales/Mar_0642_hovercraftmotor.ldr",
             "id": "",
             "title": "oficiales/Mar_0642_hovercraftmotor.ldr",
-            "refNumber": "",
-            "path": "oficiales/Mar_0642_hovercraftmotor.ldr",
-            "infoURL": ""
+            "seriesNumber": null,
+            "refNumber": null
         },
         "oficiales/Mar_0710_vaportransatlantico.ldr": {
+            "path": "oficiales/Mar_0710_vaportransatlantico.ldr",
             "id": "",
             "title": "oficiales/Mar_0710_vaportransatlantico.ldr",
-            "refNumber": "",
-            "path": "oficiales/Mar_0710_vaportransatlantico.ldr",
-            "infoURL": ""
+            "seriesNumber": null,
+            "refNumber": null
         },
         "oficiales/Mini_501_casa501.ldr": {
+            "path": "oficiales/Mini_501_casa501.ldr",
             "id": "",
             "title": "oficiales/Mini_501_casa501.ldr",
-            "refNumber": "",
-            "path": "oficiales/Mini_501_casa501.ldr",
-            "infoURL": ""
+            "seriesNumber": null,
+            "refNumber": null
         },
         "oficiales/Mini_501_chalet501.ldr": {
+            "path": "oficiales/Mini_501_chalet501.ldr",
             "id": "",
             "title": "oficiales/Mini_501_chalet501.ldr",
-            "refNumber": "",
-            "path": "oficiales/Mini_501_chalet501.ldr",
-            "infoURL": ""
+            "seriesNumber": null,
+            "refNumber": null
         },
         "oficiales/Mini_501_simbolo_chino_501.ldr": {
+            "path": "oficiales/Mini_501_simbolo_chino_501.ldr",
             "id": "",
             "title": "oficiales/Mini_501_simbolo_chino_501.ldr",
-            "refNumber": "",
-            "path": "oficiales/Mini_501_simbolo_chino_501.ldr",
-            "infoURL": ""
+            "seriesNumber": null,
+            "refNumber": null
         },
         "oficiales/Mini_502_peaje502.ldr": {
+            "path": "oficiales/Mini_502_peaje502.ldr",
             "id": "",
             "title": "oficiales/Mini_502_peaje502.ldr",
-            "refNumber": "",
-            "path": "oficiales/Mini_502_peaje502.ldr",
-            "infoURL": ""
+            "seriesNumber": null,
+            "refNumber": null
         },
         "oficiales/Mini_503-bungalow.ldr": {
+            "path": "oficiales/Mini_503-bungalow.ldr",
             "id": "",
             "title": "oficiales/Mini_503-bungalow.ldr",
-            "refNumber": "",
-            "path": "oficiales/Mini_503-bungalow.ldr",
-            "infoURL": ""
+            "seriesNumber": null,
+            "refNumber": null
         },
         "oficiales/Mini_507_ermita.ldr": {
+            "path": "oficiales/Mini_507_ermita.ldr",
             "id": "",
             "title": "oficiales/Mini_507_ermita.ldr",
-            "refNumber": "",
-            "path": "oficiales/Mini_507_ermita.ldr",
-            "infoURL": ""
+            "seriesNumber": null,
+            "refNumber": null
         },
         "oficiales/Mini_508_kiosko.ldr": {
+            "path": "oficiales/Mini_508_kiosko.ldr",
             "id": "",
             "title": "oficiales/Mini_508_kiosko.ldr",
-            "refNumber": "",
-            "path": "oficiales/Mini_508_kiosko.ldr",
-            "infoURL": ""
+            "seriesNumber": null,
+            "refNumber": null
         },
         "oficiales/Mini_510_casadecampo.ldr": {
+            "path": "oficiales/Mini_510_casadecampo.ldr",
             "id": "",
             "title": "oficiales/Mini_510_casadecampo.ldr",
-            "refNumber": "",
-            "path": "oficiales/Mini_510_casadecampo.ldr",
-            "infoURL": ""
+            "seriesNumber": null,
+            "refNumber": null
         },
         "oficiales/Mini_510_casita-mini.ldr": {
+            "path": "oficiales/Mini_510_casita-mini.ldr",
             "id": "",
             "title": "oficiales/Mini_510_casita-mini.ldr",
-            "refNumber": "",
-            "path": "oficiales/Mini_510_casita-mini.ldr",
-            "infoURL": ""
+            "seriesNumber": null,
+            "refNumber": null
         },
         "oficiales/Nomura_camionbomberosjapones.ldr": {
+            "path": "oficiales/Nomura_camionbomberosjapones.ldr",
             "id": "",
             "title": "oficiales/Nomura_camionbomberosjapones.ldr",
-            "refNumber": "",
-            "path": "oficiales/Nomura_camionbomberosjapones.ldr",
-            "infoURL": ""
+            "seriesNumber": null,
+            "refNumber": null
         },
         "oficiales/Nomura_camionjaponessony.ldr": {
+            "path": "oficiales/Nomura_camionjaponessony.ldr",
             "id": "",
             "title": "oficiales/Nomura_camionjaponessony.ldr",
-            "refNumber": "",
-            "path": "oficiales/Nomura_camionjaponessony.ldr",
-            "infoURL": ""
+            "seriesNumber": null,
+            "refNumber": null
         },
         "oficiales/Nomura_estaciondeserviciojaponesa.ldr": {
+            "path": "oficiales/Nomura_estaciondeserviciojaponesa.ldr",
             "id": "",
             "title": "oficiales/Nomura_estaciondeserviciojaponesa.ldr",
-            "refNumber": "",
-            "path": "oficiales/Nomura_estaciondeserviciojaponesa.ldr",
-            "infoURL": ""
+            "seriesNumber": null,
+            "refNumber": null
         },
         "oficiales/Nomura_haitobus.ldr": {
+            "path": "oficiales/Nomura_haitobus.ldr",
             "id": "",
             "title": "oficiales/Nomura_haitobus.ldr",
-            "refNumber": "",
-            "path": "oficiales/Nomura_haitobus.ldr",
-            "infoURL": ""
+            "seriesNumber": null,
+            "refNumber": null
         },
         "oficiales/Nomura_londonbus.ldr": {
+            "path": "oficiales/Nomura_londonbus.ldr",
             "id": "",
             "title": "oficiales/Nomura_londonbus.ldr",
-            "refNumber": "",
-            "path": "oficiales/Nomura_londonbus.ldr",
-            "infoURL": ""
+            "seriesNumber": null,
+            "refNumber": null
         },
         "oficiales/Nomura_minifirej.ldr": {
+            "path": "oficiales/Nomura_minifirej.ldr",
             "id": "",
             "title": "oficiales/Nomura_minifirej.ldr",
-            "refNumber": "",
-            "path": "oficiales/Nomura_minifirej.ldr",
-            "infoURL": ""
+            "seriesNumber": null,
+            "refNumber": null
         },
         "oficiales/Nomura_sunshine2.ldr": {
+            "path": "oficiales/Nomura_sunshine2.ldr",
             "id": "",
             "title": "oficiales/Nomura_sunshine2.ldr",
-            "refNumber": "",
-            "path": "oficiales/Nomura_sunshine2.ldr",
-            "infoURL": ""
+            "seriesNumber": null,
+            "refNumber": null
         },
         "oficiales/Pocket_0315_Eslator.ldr": {
+            "path": "oficiales/Pocket_0315_Eslator.ldr",
             "id": "",
             "title": "oficiales/Pocket_0315_Eslator.ldr",
-            "refNumber": "",
-            "path": "oficiales/Pocket_0315_Eslator.ldr",
-            "infoURL": ""
+            "seriesNumber": null,
+            "refNumber": null
         },
         "oficiales/Ruta0553_dragster8cilindros.ldr": {
+            "path": "oficiales/Ruta0553_dragster8cilindros.ldr",
             "id": "",
             "title": "oficiales/Ruta0553_dragster8cilindros.ldr",
-            "refNumber": "",
-            "path": "oficiales/Ruta0553_dragster8cilindros.ldr",
-            "infoURL": ""
+            "seriesNumber": null,
+            "refNumber": null
         },
         "oficiales/Ruta_0553_camionautopista.ldr": {
+            "path": "oficiales/Ruta_0553_camionautopista.ldr",
             "id": "",
             "title": "oficiales/Ruta_0553_camionautopista.ldr",
-            "refNumber": "",
-            "path": "oficiales/Ruta_0553_camionautopista.ldr",
-            "infoURL": ""
+            "seriesNumber": null,
+            "refNumber": null
         },
         "oficiales/Ruta_0553_camiondragstercisterna.ldr": {
+            "path": "oficiales/Ruta_0553_camiondragstercisterna.ldr",
             "id": "",
             "title": "oficiales/Ruta_0553_camiondragstercisterna.ldr",
-            "refNumber": "",
-            "path": "oficiales/Ruta_0553_camiondragstercisterna.ldr",
-            "infoURL": ""
+            "seriesNumber": null,
+            "refNumber": null
         },
         "oficiales/Ruta_0553_camionespecialbomberosaeropuerto.ldr": {
+            "path": "oficiales/Ruta_0553_camionespecialbomberosaeropuerto.ldr",
             "id": "",
             "title": "oficiales/Ruta_0553_camionespecialbomberosaeropuerto.ldr",
-            "refNumber": "",
-            "path": "oficiales/Ruta_0553_camionespecialbomberosaeropuerto.ldr",
-            "infoURL": ""
+            "seriesNumber": null,
+            "refNumber": null
         },
         "oficiales/Ruta_0553_camionespecialreparacioneselectricas.ldr": {
+            "path": "oficiales/Ruta_0553_camionespecialreparacioneselectricas.ldr",
             "id": "",
             "title": "oficiales/Ruta_0553_camionespecialreparacioneselectricas.ldr",
-            "refNumber": "",
-            "path": "oficiales/Ruta_0553_camionespecialreparacioneselectricas.ldr",
-            "infoURL": ""
+            "seriesNumber": null,
+            "refNumber": null
         },
         "oficiales/Ruta_0553_camionportacontainers.ldr": {
+            "path": "oficiales/Ruta_0553_camionportacontainers.ldr",
             "id": "",
             "title": "oficiales/Ruta_0553_camionportacontainers.ldr",
-            "refNumber": "",
-            "path": "oficiales/Ruta_0553_camionportacontainers.ldr",
-            "infoURL": ""
+            "seriesNumber": null,
+            "refNumber": null
         },
         "oficiales/Ruta_0553_dragster.ldr": {
+            "path": "oficiales/Ruta_0553_dragster.ldr",
             "id": "",
             "title": "oficiales/Ruta_0553_dragster.ldr",
-            "refNumber": "",
-            "path": "oficiales/Ruta_0553_dragster.ldr",
-            "infoURL": ""
+            "seriesNumber": null,
+            "refNumber": null
         },
         "oficiales/Ruta_0553_expedicionmozambique.ldr": {
+            "path": "oficiales/Ruta_0553_expedicionmozambique.ldr",
             "id": "",
             "title": "oficiales/Ruta_0553_expedicionmozambique.ldr",
-            "refNumber": "",
-            "path": "oficiales/Ruta_0553_expedicionmozambique.ldr",
-            "infoURL": ""
+            "seriesNumber": null,
+            "refNumber": null
         },
         "oficiales/Ruta_0553_flyingvan.ldr": {
+            "path": "oficiales/Ruta_0553_flyingvan.ldr",
             "id": "",
             "title": "oficiales/Ruta_0553_flyingvan.ldr",
-            "refNumber": "",
-            "path": "oficiales/Ruta_0553_flyingvan.ldr",
-            "infoURL": ""
+            "seriesNumber": null,
+            "refNumber": null
         },
         "oficiales/Ruta_0553_formula1-6ruedas.ldr": {
+            "path": "oficiales/Ruta_0553_formula1-6ruedas.ldr",
             "id": "",
             "title": "oficiales/Ruta_0553_formula1-6ruedas.ldr",
-            "refNumber": "",
-            "path": "oficiales/Ruta_0553_formula1-6ruedas.ldr",
-            "infoURL": ""
+            "seriesNumber": null,
+            "refNumber": null
         },
         "oficiales/Ruta_0553_formula1elf.ldr": {
+            "path": "oficiales/Ruta_0553_formula1elf.ldr",
             "id": "",
             "title": "oficiales/Ruta_0553_formula1elf.ldr",
-            "refNumber": "",
-            "path": "oficiales/Ruta_0553_formula1elf.ldr",
-            "infoURL": ""
+            "seriesNumber": null,
+            "refNumber": null
         },
         "oficiales/Ruta_0553_furgonetaaeropuerto.ldr": {
+            "path": "oficiales/Ruta_0553_furgonetaaeropuerto.ldr",
             "id": "",
             "title": "oficiales/Ruta_0553_furgonetaaeropuerto.ldr",
-            "refNumber": "",
-            "path": "oficiales/Ruta_0553_furgonetaaeropuerto.ldr",
-            "infoURL": ""
+            "seriesNumber": null,
+            "refNumber": null
         },
         "oficiales/Ruta_0553_gasolineramundoruta.ldr": {
+            "path": "oficiales/Ruta_0553_gasolineramundoruta.ldr",
             "id": "",
             "title": "oficiales/Ruta_0553_gasolineramundoruta.ldr",
-            "refNumber": "",
-            "path": "oficiales/Ruta_0553_gasolineramundoruta.ldr",
-            "infoURL": ""
+            "seriesNumber": null,
+            "refNumber": null
         },
         "oficiales/Ruta_0553_gruaportacontainers.ldr": {
+            "path": "oficiales/Ruta_0553_gruaportacontainers.ldr",
             "id": "",
             "title": "oficiales/Ruta_0553_gruaportacontainers.ldr",
-            "refNumber": "",
-            "path": "oficiales/Ruta_0553_gruaportacontainers.ldr",
-            "infoURL": ""
+            "seriesNumber": null,
+            "refNumber": null
         },
         "oficiales/Ruta_0553_limpiapistas.ldr": {
+            "path": "oficiales/Ruta_0553_limpiapistas.ldr",
             "id": "",
             "title": "oficiales/Ruta_0553_limpiapistas.ldr",
-            "refNumber": "",
-            "path": "oficiales/Ruta_0553_limpiapistas.ldr",
-            "infoURL": ""
+            "seriesNumber": null,
+            "refNumber": null
         },
         "oficiales/Ruta_0553_multiruedas.ldr": {
+            "path": "oficiales/Ruta_0553_multiruedas.ldr",
             "id": "",
             "title": "oficiales/Ruta_0553_multiruedas.ldr",
-            "refNumber": "",
-            "path": "oficiales/Ruta_0553_multiruedas.ldr",
-            "infoURL": ""
+            "seriesNumber": null,
+            "refNumber": null
         },
         "oficiales/Ruta_0553_peajeautopista.ldr": {
+            "path": "oficiales/Ruta_0553_peajeautopista.ldr",
             "id": "",
             "title": "oficiales/Ruta_0553_peajeautopista.ldr",
-            "refNumber": "",
-            "path": "oficiales/Ruta_0553_peajeautopista.ldr",
-            "infoURL": ""
+            "seriesNumber": null,
+            "refNumber": null
         },
         "oficiales/Ruta_0553_todoterrenocisterna.ldr": {
+            "path": "oficiales/Ruta_0553_todoterrenocisterna.ldr",
             "id": "",
             "title": "oficiales/Ruta_0553_todoterrenocisterna.ldr",
-            "refNumber": "",
-            "path": "oficiales/Ruta_0553_todoterrenocisterna.ldr",
-            "infoURL": ""
+            "seriesNumber": null,
+            "refNumber": null
         },
         "oficiales/Ruta_0553_torrecontrolaeropuerto.ldr": {
+            "path": "oficiales/Ruta_0553_torrecontrolaeropuerto.ldr",
             "id": "",
             "title": "oficiales/Ruta_0553_torrecontrolaeropuerto.ldr",
-            "refNumber": "",
-            "path": "oficiales/Ruta_0553_torrecontrolaeropuerto.ldr",
-            "infoURL": ""
+            "seriesNumber": null,
+            "refNumber": null
         },
         "oficiales/Ruta_0553_trailertransformador.ldr": {
+            "path": "oficiales/Ruta_0553_trailertransformador.ldr",
             "id": "",
             "title": "oficiales/Ruta_0553_trailertransformador.ldr",
-            "refNumber": "",
-            "path": "oficiales/Ruta_0553_trailertransformador.ldr",
-            "infoURL": ""
+            "seriesNumber": null,
+            "refNumber": null
         },
         "oficiales/Ruta_0553_trailertransportemineral.ldr": {
+            "path": "oficiales/Ruta_0553_trailertransportemineral.ldr",
             "id": "",
             "title": "oficiales/Ruta_0553_trailertransportemineral.ldr",
-            "refNumber": "",
-            "path": "oficiales/Ruta_0553_trailertransportemineral.ldr",
-            "infoURL": ""
+            "seriesNumber": null,
+            "refNumber": null
         },
         "oficiales/Ruta_0553_transportedoblearticulado.ldr": {
+            "path": "oficiales/Ruta_0553_transportedoblearticulado.ldr",
             "id": "",
             "title": "oficiales/Ruta_0553_transportedoblearticulado.ldr",
-            "refNumber": "",
-            "path": "oficiales/Ruta_0553_transportedoblearticulado.ldr",
-            "infoURL": ""
+            "seriesNumber": null,
+            "refNumber": null
         },
         "oficiales/Ruta_0553_transporteespecial.ldr": {
+            "path": "oficiales/Ruta_0553_transporteespecial.ldr",
             "id": "",
             "title": "oficiales/Ruta_0553_transporteespecial.ldr",
-            "refNumber": "",
-            "path": "oficiales/Ruta_0553_transporteespecial.ldr",
-            "infoURL": ""
+            "seriesNumber": null,
+            "refNumber": null
         },
         "oficiales/Ruta_0553_transporteespecialcarga.ldr": {
+            "path": "oficiales/Ruta_0553_transporteespecialcarga.ldr",
             "id": "",
             "title": "oficiales/Ruta_0553_transporteespecialcarga.ldr",
-            "refNumber": "",
-            "path": "oficiales/Ruta_0553_transporteespecialcarga.ldr",
-            "infoURL": ""
+            "seriesNumber": null,
+            "refNumber": null
         },
         "oficiales/Ruta_0553_vehiculo20ruedas.ldr": {
+            "path": "oficiales/Ruta_0553_vehiculo20ruedas.ldr",
             "id": "",
             "title": "oficiales/Ruta_0553_vehiculo20ruedas.ldr",
-            "refNumber": "",
-            "path": "oficiales/Ruta_0553_vehiculo20ruedas.ldr",
-            "infoURL": ""
+            "seriesNumber": null,
+            "refNumber": null
         },
         "oficiales/Ruta_0670_camionplataforma.ldr": {
+            "path": "oficiales/Ruta_0670_camionplataforma.ldr",
             "id": "",
             "title": "oficiales/Ruta_0670_camionplataforma.ldr",
-            "refNumber": "",
-            "path": "oficiales/Ruta_0670_camionplataforma.ldr",
-            "infoURL": ""
+            "seriesNumber": null,
+            "refNumber": null
         },
         "oficiales/Ruta_0671_camionfurgon.ldr": {
+            "path": "oficiales/Ruta_0671_camionfurgon.ldr",
             "id": "",
             "title": "oficiales/Ruta_0671_camionfurgon.ldr",
-            "refNumber": "",
-            "path": "oficiales/Ruta_0671_camionfurgon.ldr",
-            "infoURL": ""
+            "seriesNumber": null,
+            "refNumber": null
         },
         "oficiales/Ruta_0672_camionvolqueterutaclasica.ldr": {
+            "path": "oficiales/Ruta_0672_camionvolqueterutaclasica.ldr",
             "id": "",
             "title": "oficiales/Ruta_0672_camionvolqueterutaclasica.ldr",
-            "refNumber": "",
-            "path": "oficiales/Ruta_0672_camionvolqueterutaclasica.ldr",
-            "infoURL": ""
+            "seriesNumber": null,
+            "refNumber": null
         },
         "oficiales/Ruta_0673_camionreparto.ldr": {
+            "path": "oficiales/Ruta_0673_camionreparto.ldr",
             "id": "",
             "title": "oficiales/Ruta_0673_camionreparto.ldr",
-            "refNumber": "",
-            "path": "oficiales/Ruta_0673_camionreparto.ldr",
-            "infoURL": ""
+            "seriesNumber": null,
+            "refNumber": null
         },
         "oficiales/Ruta_0674_autobusurbano.ldr": {
+            "path": "oficiales/Ruta_0674_autobusurbano.ldr",
             "id": "",
             "title": "oficiales/Ruta_0674_autobusurbano.ldr",
-            "refNumber": "",
-            "path": "oficiales/Ruta_0674_autobusurbano.ldr",
-            "infoURL": ""
+            "seriesNumber": null,
+            "refNumber": null
         },
         "oficiales/Ruta_0675_quitanieves.ldr": {
+            "path": "oficiales/Ruta_0675_quitanieves.ldr",
             "id": "",
             "title": "oficiales/Ruta_0675_quitanieves.ldr",
-            "refNumber": "",
-            "path": "oficiales/Ruta_0675_quitanieves.ldr",
-            "infoURL": ""
+            "seriesNumber": null,
+            "refNumber": null
         },
         "oficiales/Ruta_0676_ambulanciarutaclasica.ldr": {
+            "path": "oficiales/Ruta_0676_ambulanciarutaclasica.ldr",
             "id": "",
             "title": "oficiales/Ruta_0676_ambulanciarutaclasica.ldr",
-            "refNumber": "",
-            "path": "oficiales/Ruta_0676_ambulanciarutaclasica.ldr",
-            "infoURL": ""
+            "seriesNumber": null,
+            "refNumber": null
         },
         "oficiales/Ruta_0677_autobar.ldr": {
+            "path": "oficiales/Ruta_0677_autobar.ldr",
             "id": "",
             "title": "oficiales/Ruta_0677_autobar.ldr",
-            "refNumber": "",
-            "path": "oficiales/Ruta_0677_autobar.ldr",
-            "infoURL": ""
+            "seriesNumber": null,
+            "refNumber": null
         },
         "oficiales/Ruta_0680_trailerplataforma.ldr": {
+            "path": "oficiales/Ruta_0680_trailerplataforma.ldr",
             "id": "",
             "title": "oficiales/Ruta_0680_trailerplataforma.ldr",
-            "refNumber": "",
-            "path": "oficiales/Ruta_0680_trailerplataforma.ldr",
-            "infoURL": ""
+            "seriesNumber": null,
+            "refNumber": null
         },
         "oficiales/Ruta_0681_trailercisternaaeropuerto.ldr": {
+            "path": "oficiales/Ruta_0681_trailercisternaaeropuerto.ldr",
             "id": "",
             "title": "oficiales/Ruta_0681_trailercisternaaeropuerto.ldr",
-            "refNumber": "",
-            "path": "oficiales/Ruta_0681_trailercisternaaeropuerto.ldr",
-            "infoURL": ""
+            "seriesNumber": null,
+            "refNumber": null
         },
         "oficiales/Ruta_0682_trailertransportesespeciales.ldr": {
+            "path": "oficiales/Ruta_0682_trailertransportesespeciales.ldr",
             "id": "",
             "title": "oficiales/Ruta_0682_trailertransportesespeciales.ldr",
-            "refNumber": "",
-            "path": "oficiales/Ruta_0682_trailertransportesespeciales.ldr",
-            "infoURL": ""
+            "seriesNumber": null,
+            "refNumber": null
         },
         "oficiales/Ruta_0683EU_trailertransporteinternacional.ldr": {
+            "path": "oficiales/Ruta_0683EU_trailertransporteinternacional.ldr",
             "id": "",
             "title": "oficiales/Ruta_0683EU_trailertransporteinternacional.ldr",
-            "refNumber": "",
-            "path": "oficiales/Ruta_0683EU_trailertransporteinternacional.ldr",
-            "infoURL": ""
+            "seriesNumber": null,
+            "refNumber": null
         },
         "oficiales/Ruta_0685_trailertransporteminerales.ldr": {
+            "path": "oficiales/Ruta_0685_trailertransporteminerales.ldr",
             "id": "",
             "title": "oficiales/Ruta_0685_trailertransporteminerales.ldr",
-            "refNumber": "",
-            "path": "oficiales/Ruta_0685_trailertransporteminerales.ldr",
-            "infoURL": ""
+            "seriesNumber": null,
+            "refNumber": null
         },
         "oficiales/Ruta_0686_norfrio.ldr": {
+            "path": "oficiales/Ruta_0686_norfrio.ldr",
             "id": "",
             "title": "oficiales/Ruta_0686_norfrio.ldr",
-            "refNumber": "",
-            "path": "oficiales/Ruta_0686_norfrio.ldr",
-            "infoURL": ""
+            "seriesNumber": null,
+            "refNumber": null
         },
         "oficiales/Ruta_0690_camionbomberos.ldr": {
+            "path": "oficiales/Ruta_0690_camionbomberos.ldr",
             "id": "",
             "title": "oficiales/Ruta_0690_camionbomberos.ldr",
-            "refNumber": "",
-            "path": "oficiales/Ruta_0690_camionbomberos.ldr",
-            "infoURL": ""
+            "seriesNumber": null,
+            "refNumber": null
         },
         "oficiales/Ruta_0690_cuartelbomberos.ldr": {
+            "path": "oficiales/Ruta_0690_cuartelbomberos.ldr",
             "id": "",
             "title": "oficiales/Ruta_0690_cuartelbomberos.ldr",
-            "refNumber": "",
-            "path": "oficiales/Ruta_0690_cuartelbomberos.ldr",
-            "infoURL": ""
+            "seriesNumber": null,
+            "refNumber": null
         },
         "oficiales/Ruta_0691_estacionengrase.ldr": {
+            "path": "oficiales/Ruta_0691_estacionengrase.ldr",
             "id": "",
             "title": "oficiales/Ruta_0691_estacionengrase.ldr",
-            "refNumber": "",
-            "path": "oficiales/Ruta_0691_estacionengrase.ldr",
-            "infoURL": ""
+            "seriesNumber": null,
+            "refNumber": null
         },
         "oficiales/Ruta_0691_gruarutaclasica.ldr": {
+            "path": "oficiales/Ruta_0691_gruarutaclasica.ldr",
             "id": "",
             "title": "oficiales/Ruta_0691_gruarutaclasica.ldr",
-            "refNumber": "",
-            "path": "oficiales/Ruta_0691_gruarutaclasica.ldr",
-            "infoURL": ""
+            "seriesNumber": null,
+            "refNumber": null
         },
         "oficiales/Ruta_0692_camioncisterna.ldr": {
+            "path": "oficiales/Ruta_0692_camioncisterna.ldr",
             "id": "",
             "title": "oficiales/Ruta_0692_camioncisterna.ldr",
-            "refNumber": "",
-            "path": "oficiales/Ruta_0692_camioncisterna.ldr",
-            "infoURL": ""
+            "seriesNumber": null,
+            "refNumber": null
         },
         "oficiales/Ruta_0692_gasolinerarutaclasica.ldr": {
+            "path": "oficiales/Ruta_0692_gasolinerarutaclasica.ldr",
             "id": "",
             "title": "oficiales/Ruta_0692_gasolinerarutaclasica.ldr",
-            "refNumber": "",
-            "path": "oficiales/Ruta_0692_gasolinerarutaclasica.ldr",
-            "infoURL": ""
+            "seriesNumber": null,
+            "refNumber": null
         },
         "oficiales/Ruta_0693_camioncemento.ldr": {
+            "path": "oficiales/Ruta_0693_camioncemento.ldr",
             "id": "",
             "title": "oficiales/Ruta_0693_camioncemento.ldr",
-            "refNumber": "",
-            "path": "oficiales/Ruta_0693_camioncemento.ldr",
-            "infoURL": ""
+            "seriesNumber": null,
+            "refNumber": null
         },
         "oficiales/Ruta_0693_silo.ldr": {
+            "path": "oficiales/Ruta_0693_silo.ldr",
             "id": "",
             "title": "oficiales/Ruta_0693_silo.ldr",
-            "refNumber": "",
-            "path": "oficiales/Ruta_0693_silo.ldr",
-            "infoURL": ""
+            "seriesNumber": null,
+            "refNumber": null
         },
         "oficiales/Titanium_0452_astronauta_expolion.ldr": {
+            "path": "oficiales/Titanium_0452_astronauta_expolion.ldr",
             "id": "",
             "title": "oficiales/Titanium_0452_astronauta_expolion.ldr",
-            "refNumber": "",
-            "path": "oficiales/Titanium_0452_astronauta_expolion.ldr",
-            "infoURL": ""
+            "seriesNumber": null,
+            "refNumber": null
         },
         "oficiales/Titanium_0452_expolion.ldr": {
+            "path": "oficiales/Titanium_0452_expolion.ldr",
             "id": "",
             "title": "oficiales/Titanium_0452_expolion.ldr",
-            "refNumber": "",
-            "path": "oficiales/Titanium_0452_expolion.ldr",
-            "infoURL": ""
+            "seriesNumber": null,
+            "refNumber": null
         },
         "oficiales/astronauta_viejo.ldr": {
+            "path": "oficiales/astronauta_viejo.ldr",
             "id": "",
             "title": "oficiales/astronauta_viejo.ldr",
-            "refNumber": "",
-            "path": "oficiales/astronauta_viejo.ldr",
-            "infoURL": ""
+            "seriesNumber": null,
+            "refNumber": null
         },
         "oficiales/motobomba.ldr": {
+            "path": "oficiales/motobomba.ldr",
             "id": "",
             "title": "oficiales/motobomba.ldr",
-            "refNumber": "",
-            "path": "oficiales/motobomba.ldr",
-            "infoURL": ""
+            "seriesNumber": null,
+            "refNumber": null
         },
         "oficiales/roadmaster.ldr": {
+            "path": "oficiales/roadmaster.ldr",
             "id": "",
             "title": "oficiales/roadmaster.ldr",
-            "refNumber": "",
-            "path": "oficiales/roadmaster.ldr",
-            "infoURL": ""
+            "seriesNumber": null,
+            "refNumber": null
         },
-        "customs/amstrad_cpc464.ldr": {
+        "custom/amstrad_cpc464.ldr": {
+            "path": "custom/amstrad_cpc464.ldr",
             "id": "",
-            "title": "customs/amstrad_cpc464.ldr",
-            "refNumber": "",
-            "path": "customs/amstrad_cpc464.ldr",
-            "infoURL": ""
+            "title": "custom/amstrad_cpc464.ldr",
+            "seriesNumber": null,
+            "refNumber": null
         },
-        "customs/aparcamiento.ldr": {
+        "custom/aparcamiento.ldr": {
+            "path": "custom/aparcamiento.ldr",
             "id": "",
-            "title": "customs/aparcamiento.ldr",
-            "refNumber": "",
-            "path": "customs/aparcamiento.ldr",
-            "infoURL": ""
+            "title": "custom/aparcamiento.ldr",
+            "seriesNumber": null,
+            "refNumber": null
         },
-        "customs/aparcamiento_con_vehiculos.ldr": {
+        "custom/aparcamiento_con_vehiculos.ldr": {
+            "path": "custom/aparcamiento_con_vehiculos.ldr",
             "id": "",
-            "title": "customs/aparcamiento_con_vehiculos.ldr",
-            "refNumber": "",
-            "path": "customs/aparcamiento_con_vehiculos.ldr",
-            "infoURL": ""
+            "title": "custom/aparcamiento_con_vehiculos.ldr",
+            "seriesNumber": null,
+            "refNumber": null
         },
-        "customs/autolavado.ldr": {
+        "custom/autolavado.ldr": {
+            "path": "custom/autolavado.ldr",
             "id": "",
-            "title": "customs/autolavado.ldr",
-            "refNumber": "",
-            "path": "customs/autolavado.ldr",
-            "infoURL": ""
+            "title": "custom/autolavado.ldr",
+            "seriesNumber": null,
+            "refNumber": null
         },
-        "customs/autolavado_vacio.ldr": {
+        "custom/autolavado_vacio.ldr": {
+            "path": "custom/autolavado_vacio.ldr",
             "id": "",
-            "title": "customs/autolavado_vacio.ldr",
-            "refNumber": "",
-            "path": "customs/autolavado_vacio.ldr",
-            "infoURL": ""
+            "title": "custom/autolavado_vacio.ldr",
+            "seriesNumber": null,
+            "refNumber": null
         },
-        "customs/bannertente.ldr": {
+        "custom/bannertente.ldr": {
+            "path": "custom/bannertente.ldr",
             "id": "",
-            "title": "customs/bannertente.ldr",
-            "refNumber": "",
-            "path": "customs/bannertente.ldr",
-            "infoURL": ""
+            "title": "custom/bannertente.ldr",
+            "seriesNumber": null,
+            "refNumber": null
         },
-        "customs/barco_turistico_bahia_malaga.ldr": {
+        "custom/barco_turistico_bahia_malaga.ldr": {
+            "path": "custom/barco_turistico_bahia_malaga.ldr",
             "id": "",
-            "title": "customs/barco_turistico_bahia_malaga.ldr",
-            "refNumber": "",
-            "path": "customs/barco_turistico_bahia_malaga.ldr",
-            "infoURL": ""
+            "title": "custom/barco_turistico_bahia_malaga.ldr",
+            "seriesNumber": null,
+            "refNumber": null
         },
-        "customs/bocametro.ldr": {
+        "custom/bocametro.ldr": {
+            "path": "custom/bocametro.ldr",
             "id": "",
-            "title": "customs/bocametro.ldr",
-            "refNumber": "",
-            "path": "customs/bocametro.ldr",
-            "infoURL": ""
+            "title": "custom/bocametro.ldr",
+            "seriesNumber": null,
+            "refNumber": null
         },
-        "customs/busbateria.ldr": {
+        "custom/busbateria.ldr": {
+            "path": "custom/busbateria.ldr",
             "id": "",
-            "title": "customs/busbateria.ldr",
-            "refNumber": "",
-            "path": "customs/busbateria.ldr",
-            "infoURL": ""
+            "title": "custom/busbateria.ldr",
+            "seriesNumber": null,
+            "refNumber": null
         },
-        "customs/buzon_sugerencias.ldr": {
+        "custom/buzon_sugerencias.ldr": {
+            "path": "custom/buzon_sugerencias.ldr",
             "id": "",
-            "title": "customs/buzon_sugerencias.ldr",
-            "refNumber": "",
-            "path": "customs/buzon_sugerencias.ldr",
-            "infoURL": ""
+            "title": "custom/buzon_sugerencias.ldr",
+            "seriesNumber": null,
+            "refNumber": null
         },
-        "customs/cabinatelefonos.ldr": {
+        "custom/cabinatelefonos.ldr": {
+            "path": "custom/cabinatelefonos.ldr",
             "id": "",
-            "title": "customs/cabinatelefonos.ldr",
-            "refNumber": "",
-            "path": "customs/cabinatelefonos.ldr",
-            "infoURL": ""
+            "title": "custom/cabinatelefonos.ldr",
+            "seriesNumber": null,
+            "refNumber": null
         },
-        "customs/cajonera/cajon.ldr": {
+        "custom/cajonera/cajon.ldr": {
+            "path": "custom/cajonera/cajon.ldr",
             "id": "",
-            "title": "customs/cajonera/cajon.ldr",
-            "refNumber": "",
-            "path": "customs/cajonera/cajon.ldr",
-            "infoURL": ""
+            "title": "custom/cajonera/cajon.ldr",
+            "seriesNumber": null,
+            "refNumber": null
         },
-        "customs/cajonera/cajonera_4c.ldr": {
+        "custom/cajonera/cajonera_4c.ldr": {
+            "path": "custom/cajonera/cajonera_4c.ldr",
             "id": "",
-            "title": "customs/cajonera/cajonera_4c.ldr",
-            "refNumber": "",
-            "path": "customs/cajonera/cajonera_4c.ldr",
-            "infoURL": ""
+            "title": "custom/cajonera/cajonera_4c.ldr",
+            "seriesNumber": null,
+            "refNumber": null
         },
-        "customs/cajonera/cajonera_4c_open.ldr": {
+        "custom/cajonera/cajonera_4c_open.ldr": {
+            "path": "custom/cajonera/cajonera_4c_open.ldr",
             "id": "",
-            "title": "customs/cajonera/cajonera_4c_open.ldr",
-            "refNumber": "",
-            "path": "customs/cajonera/cajonera_4c_open.ldr",
-            "infoURL": ""
+            "title": "custom/cajonera/cajonera_4c_open.ldr",
+            "seriesNumber": null,
+            "refNumber": null
         },
-        "customs/cajonera_4c.ldr": {
+        "custom/cajonera_4c.ldr": {
+            "path": "custom/cajonera_4c.ldr",
             "id": "",
-            "title": "customs/cajonera_4c.ldr",
-            "refNumber": "",
-            "path": "customs/cajonera_4c.ldr",
-            "infoURL": ""
+            "title": "custom/cajonera_4c.ldr",
+            "seriesNumber": null,
+            "refNumber": null
         },
-        "customs/castillito1.ldr": {
+        "custom/castillito1.ldr": {
+            "path": "custom/castillito1.ldr",
             "id": "",
-            "title": "customs/castillito1.ldr",
-            "refNumber": "",
-            "path": "customs/castillito1.ldr",
-            "infoURL": ""
+            "title": "custom/castillito1.ldr",
+            "seriesNumber": null,
+            "refNumber": null
         },
-        "customs/circulo.ldr": {
+        "custom/circulo.ldr": {
+            "path": "custom/circulo.ldr",
             "id": "",
-            "title": "customs/circulo.ldr",
-            "refNumber": "",
-            "path": "customs/circulo.ldr",
-            "infoURL": ""
+            "title": "custom/circulo.ldr",
+            "seriesNumber": null,
+            "refNumber": null
         },
-        "customs/cocacola.ldr": {
+        "custom/cocacola.ldr": {
+            "path": "custom/cocacola.ldr",
             "id": "",
-            "title": "customs/cocacola.ldr",
-            "refNumber": "",
-            "path": "customs/cocacola.ldr",
-            "infoURL": ""
+            "title": "custom/cocacola.ldr",
+            "seriesNumber": null,
+            "refNumber": null
         },
-        "customs/cohete_tintin.ldr": {
+        "custom/cohete_tintin.ldr": {
+            "path": "custom/cohete_tintin.ldr",
             "id": "",
-            "title": "customs/cohete_tintin.ldr",
-            "refNumber": "",
-            "path": "customs/cohete_tintin.ldr",
-            "infoURL": ""
+            "title": "custom/cohete_tintin.ldr",
+            "seriesNumber": null,
+            "refNumber": null
         },
-        "customs/damas.ldr": {
+        "custom/damas.ldr": {
+            "path": "custom/damas.ldr",
             "id": "",
-            "title": "customs/damas.ldr",
-            "refNumber": "",
-            "path": "customs/damas.ldr",
-            "infoURL": ""
+            "title": "custom/damas.ldr",
+            "seriesNumber": null,
+            "refNumber": null
         },
-        "customs/donut.ldr": {
+        "custom/donut.ldr": {
+            "path": "custom/donut.ldr",
             "id": "",
-            "title": "customs/donut.ldr",
-            "refNumber": "",
-            "path": "customs/donut.ldr",
-            "infoURL": ""
+            "title": "custom/donut.ldr",
+            "seriesNumber": null,
+            "refNumber": null
         },
-        "customs/duplexcosta.ldr": {
+        "custom/duplexcosta.ldr": {
+            "path": "custom/duplexcosta.ldr",
             "id": "",
-            "title": "customs/duplexcosta.ldr",
-            "refNumber": "",
-            "path": "customs/duplexcosta.ldr",
-            "infoURL": ""
+            "title": "custom/duplexcosta.ldr",
+            "seriesNumber": null,
+            "refNumber": null
         },
-        "customs/ecocasarodante.ldr": {
+        "custom/ecocasarodante.ldr": {
+            "path": "custom/ecocasarodante.ldr",
             "id": "",
-            "title": "customs/ecocasarodante.ldr",
-            "refNumber": "",
-            "path": "customs/ecocasarodante.ldr",
-            "infoURL": ""
+            "title": "custom/ecocasarodante.ldr",
+            "seriesNumber": null,
+            "refNumber": null
         },
-        "customs/edificio_clot_barcelona.ldr": {
+        "custom/edificio_clot_barcelona.ldr": {
+            "path": "custom/edificio_clot_barcelona.ldr",
             "id": "",
-            "title": "customs/edificio_clot_barcelona.ldr",
-            "refNumber": "",
-            "path": "customs/edificio_clot_barcelona.ldr",
-            "infoURL": ""
+            "title": "custom/edificio_clot_barcelona.ldr",
+            "seriesNumber": null,
+            "refNumber": null
         },
-        "customs/enterradores_meme.ldr": {
+        "custom/enterradores_meme.ldr": {
+            "path": "custom/enterradores_meme.ldr",
             "id": "",
-            "title": "customs/enterradores_meme.ldr",
-            "refNumber": "",
-            "path": "customs/enterradores_meme.ldr",
-            "infoURL": ""
+            "title": "custom/enterradores_meme.ldr",
+            "seriesNumber": null,
+            "refNumber": null
         },
-        "customs/entrada_puerto_malaga_full.ldr": {
+        "custom/entrada_puerto_malaga_full.ldr": {
+            "path": "custom/entrada_puerto_malaga_full.ldr",
             "id": "",
-            "title": "customs/entrada_puerto_malaga_full.ldr",
-            "refNumber": "",
-            "path": "customs/entrada_puerto_malaga_full.ldr",
-            "infoURL": ""
+            "title": "custom/entrada_puerto_malaga_full.ldr",
+            "seriesNumber": null,
+            "refNumber": null
         },
-        "customs/esfera1.ldr": {
+        "custom/esfera1.ldr": {
+            "path": "custom/esfera1.ldr",
             "id": "",
-            "title": "customs/esfera1.ldr",
-            "refNumber": "",
-            "path": "customs/esfera1.ldr",
-            "infoURL": ""
+            "title": "custom/esfera1.ldr",
+            "seriesNumber": null,
+            "refNumber": null
         },
-        "customs/esfera2.ldr": {
+        "custom/esfera2.ldr": {
+            "path": "custom/esfera2.ldr",
             "id": "",
-            "title": "customs/esfera2.ldr",
-            "refNumber": "",
-            "path": "customs/esfera2.ldr",
-            "infoURL": ""
+            "title": "custom/esfera2.ldr",
+            "seriesNumber": null,
+            "refNumber": null
         },
-        "customs/esfera3.ldr": {
+        "custom/esfera3.ldr": {
+            "path": "custom/esfera3.ldr",
             "id": "",
-            "title": "customs/esfera3.ldr",
-            "refNumber": "",
-            "path": "customs/esfera3.ldr",
-            "infoURL": ""
+            "title": "custom/esfera3.ldr",
+            "seriesNumber": null,
+            "refNumber": null
         },
-        "customs/esfera4.ldr": {
+        "custom/esfera4.ldr": {
+            "path": "custom/esfera4.ldr",
             "id": "",
-            "title": "customs/esfera4.ldr",
-            "refNumber": "",
-            "path": "customs/esfera4.ldr",
-            "infoURL": ""
+            "title": "custom/esfera4.ldr",
+            "seriesNumber": null,
+            "refNumber": null
         },
-        "customs/esperanza-torre.ldr": {
+        "custom/esperanza-torre.ldr": {
+            "path": "custom/esperanza-torre.ldr",
             "id": "",
-            "title": "customs/esperanza-torre.ldr",
-            "refNumber": "",
-            "path": "customs/esperanza-torre.ldr",
-            "infoURL": ""
+            "title": "custom/esperanza-torre.ldr",
+            "seriesNumber": null,
+            "refNumber": null
         },
-        "customs/estacion_feve_malaga.ldr": {
+        "custom/estacion_feve_malaga.ldr": {
+            "path": "custom/estacion_feve_malaga.ldr",
             "id": "",
-            "title": "customs/estacion_feve_malaga.ldr",
-            "refNumber": "",
-            "path": "customs/estacion_feve_malaga.ldr",
-            "infoURL": ""
+            "title": "custom/estacion_feve_malaga.ldr",
+            "seriesNumber": null,
+            "refNumber": null
         },
-        "customs/estacionmeteorologica.ldr": {
+        "custom/estacionmeteorologica.ldr": {
+            "path": "custom/estacionmeteorologica.ldr",
             "id": "",
-            "title": "customs/estacionmeteorologica.ldr",
-            "refNumber": "",
-            "path": "customs/estacionmeteorologica.ldr",
-            "infoURL": ""
+            "title": "custom/estacionmeteorologica.ldr",
+            "seriesNumber": null,
+            "refNumber": null
         },
-        "customs/estacionmetereologica.ldr": {
+        "custom/estacionmetereologica.ldr": {
+            "path": "custom/estacionmetereologica.ldr",
             "id": "",
-            "title": "customs/estacionmetereologica.ldr",
-            "refNumber": "",
-            "path": "customs/estacionmetereologica.ldr",
-            "infoURL": ""
+            "title": "custom/estacionmetereologica.ldr",
+            "seriesNumber": null,
+            "refNumber": null
         },
-        "customs/etch.ldr": {
+        "custom/etch.ldr": {
+            "path": "custom/etch.ldr",
             "id": "",
-            "title": "customs/etch.ldr",
-            "refNumber": "",
-            "path": "customs/etch.ldr",
-            "infoURL": ""
+            "title": "custom/etch.ldr",
+            "seriesNumber": null,
+            "refNumber": null
         },
-        "customs/exinubuntu.ldr": {
+        "custom/exinubuntu.ldr": {
+            "path": "custom/exinubuntu.ldr",
             "id": "",
-            "title": "customs/exinubuntu.ldr",
-            "refNumber": "",
-            "path": "customs/exinubuntu.ldr",
-            "infoURL": ""
+            "title": "custom/exinubuntu.ldr",
+            "seriesNumber": null,
+            "refNumber": null
         },
-        "customs/foodtruck.ldr": {
+        "custom/foodtruck.ldr": {
+            "path": "custom/foodtruck.ldr",
             "id": "",
-            "title": "customs/foodtruck.ldr",
-            "refNumber": "",
-            "path": "customs/foodtruck.ldr",
-            "infoURL": ""
+            "title": "custom/foodtruck.ldr",
+            "seriesNumber": null,
+            "refNumber": null
         },
-        "customs/foodtruck_en_ruta.ldr": {
+        "custom/foodtruck_en_ruta.ldr": {
+            "path": "custom/foodtruck_en_ruta.ldr",
             "id": "",
-            "title": "customs/foodtruck_en_ruta.ldr",
-            "refNumber": "",
-            "path": "customs/foodtruck_en_ruta.ldr",
-            "infoURL": ""
+            "title": "custom/foodtruck_en_ruta.ldr",
+            "seriesNumber": null,
+            "refNumber": null
         },
-        "customs/furgonetahielo.ldr": {
+        "custom/furgonetahielo.ldr": {
+            "path": "custom/furgonetahielo.ldr",
             "id": "",
-            "title": "customs/furgonetahielo.ldr",
-            "refNumber": "",
-            "path": "customs/furgonetahielo.ldr",
-            "infoURL": ""
+            "title": "custom/furgonetahielo.ldr",
+            "seriesNumber": null,
+            "refNumber": null
         },
-        "customs/galileo.ldr": {
+        "custom/galileo.ldr": {
+            "path": "custom/galileo.ldr",
             "id": "",
-            "title": "customs/galileo.ldr",
-            "refNumber": "",
-            "path": "customs/galileo.ldr",
-            "infoURL": ""
+            "title": "custom/galileo.ldr",
+            "seriesNumber": null,
+            "refNumber": null
         },
-        "customs/galileo_concurso.ldr": {
+        "custom/galileo_concurso.ldr": {
+            "path": "custom/galileo_concurso.ldr",
             "id": "",
-            "title": "customs/galileo_concurso.ldr",
-            "refNumber": "",
-            "path": "customs/galileo_concurso.ldr",
-            "infoURL": ""
+            "title": "custom/galileo_concurso.ldr",
+            "seriesNumber": null,
+            "refNumber": null
         },
-        "customs/hunslet_att77.ldr": {
+        "custom/hunslet_att77.ldr": {
+            "path": "custom/hunslet_att77.ldr",
             "id": "",
-            "title": "customs/hunslet_att77.ldr",
-            "refNumber": "",
-            "path": "customs/hunslet_att77.ldr",
-            "infoURL": ""
+            "title": "custom/hunslet_att77.ldr",
+            "seriesNumber": null,
+            "refNumber": null
         },
-        "customs/incinerador_termonuclear.ldr": {
+        "custom/incinerador_termonuclear.ldr": {
+            "path": "custom/incinerador_termonuclear.ldr",
             "id": "",
-            "title": "customs/incinerador_termonuclear.ldr",
-            "refNumber": "",
-            "path": "customs/incinerador_termonuclear.ldr",
-            "infoURL": ""
+            "title": "custom/incinerador_termonuclear.ldr",
+            "seriesNumber": null,
+            "refNumber": null
         },
-        "customs/jabega.ldr": {
+        "custom/jabega.ldr": {
+            "path": "custom/jabega.ldr",
             "id": "",
-            "title": "customs/jabega.ldr",
-            "refNumber": "",
-            "path": "customs/jabega.ldr",
-            "infoURL": ""
+            "title": "custom/jabega.ldr",
+            "seriesNumber": null,
+            "refNumber": null
         },
-        "customs/jetpac.ldr": {
+        "custom/jetpac.ldr": {
+            "path": "custom/jetpac.ldr",
             "id": "",
-            "title": "customs/jetpac.ldr",
-            "refNumber": "",
-            "path": "customs/jetpac.ldr",
-            "infoURL": ""
+            "title": "custom/jetpac.ldr",
+            "seriesNumber": null,
+            "refNumber": null
         },
-        "customs/lafarola.ldr": {
+        "custom/lafarola.ldr": {
+            "path": "custom/lafarola.ldr",
             "id": "",
-            "title": "customs/lafarola.ldr",
-            "refNumber": "",
-            "path": "customs/lafarola.ldr",
-            "infoURL": ""
+            "title": "custom/lafarola.ldr",
+            "seriesNumber": null,
+            "refNumber": null
         },
-        "customs/ld3dstudio_logo.ldr": {
+        "custom/ld3dstudio_logo.ldr": {
+            "path": "custom/ld3dstudio_logo.ldr",
             "id": "",
-            "title": "customs/ld3dstudio_logo.ldr",
-            "refNumber": "",
-            "path": "customs/ld3dstudio_logo.ldr",
-            "infoURL": ""
+            "title": "custom/ld3dstudio_logo.ldr",
+            "seriesNumber": null,
+            "refNumber": null
         },
-        "customs/lemmings_flat.ldr": {
+        "custom/lemmings_flat.ldr": {
+            "path": "custom/lemmings_flat.ldr",
             "id": "",
-            "title": "customs/lemmings_flat.ldr",
-            "refNumber": "",
-            "path": "customs/lemmings_flat.ldr",
-            "infoURL": ""
+            "title": "custom/lemmings_flat.ldr",
+            "seriesNumber": null,
+            "refNumber": null
         },
-        "customs/lopezpenalver.ldr": {
+        "custom/lopezpenalver.ldr": {
+            "path": "custom/lopezpenalver.ldr",
             "id": "",
-            "title": "customs/lopezpenalver.ldr",
-            "refNumber": "",
-            "path": "customs/lopezpenalver.ldr",
-            "infoURL": ""
+            "title": "custom/lopezpenalver.ldr",
+            "seriesNumber": null,
+            "refNumber": null
         },
-        "customs/martian_chronicles_van.ldr": {
+        "custom/martian_chronicles_van.ldr": {
+            "path": "custom/martian_chronicles_van.ldr",
             "id": "",
-            "title": "customs/martian_chronicles_van.ldr",
-            "refNumber": "",
-            "path": "customs/martian_chronicles_van.ldr",
-            "infoURL": ""
+            "title": "custom/martian_chronicles_van.ldr",
+            "seriesNumber": null,
+            "refNumber": null
         },
-        "customs/microbus50.ldr": {
+        "custom/microbus50.ldr": {
+            "path": "custom/microbus50.ldr",
             "id": "",
-            "title": "customs/microbus50.ldr",
-            "refNumber": "",
-            "path": "customs/microbus50.ldr",
-            "infoURL": ""
+            "title": "custom/microbus50.ldr",
+            "seriesNumber": null,
+            "refNumber": null
         },
-        "customs/minipcsobremesa.ldr": {
+        "custom/minipcsobremesa.ldr": {
+            "path": "custom/minipcsobremesa.ldr",
             "id": "",
-            "title": "customs/minipcsobremesa.ldr",
-            "refNumber": "",
-            "path": "customs/minipcsobremesa.ldr",
-            "infoURL": ""
+            "title": "custom/minipcsobremesa.ldr",
+            "seriesNumber": null,
+            "refNumber": null
         },
-        "customs/moduloescapemarciano.ldr": {
+        "custom/moduloescapemarciano.ldr": {
+            "path": "custom/moduloescapemarciano.ldr",
             "id": "",
-            "title": "customs/moduloescapemarciano.ldr",
-            "refNumber": "",
-            "path": "customs/moduloescapemarciano.ldr",
-            "infoURL": ""
+            "title": "custom/moduloescapemarciano.ldr",
+            "seriesNumber": null,
+            "refNumber": null
         },
-        "customs/molino.ldr": {
+        "custom/molino.ldr": {
+            "path": "custom/molino.ldr",
             "id": "",
-            "title": "customs/molino.ldr",
-            "refNumber": "",
-            "path": "customs/molino.ldr",
-            "infoURL": ""
+            "title": "custom/molino.ldr",
+            "seriesNumber": null,
+            "refNumber": null
         },
-        "customs/morlaco.ldr": {
+        "custom/morlaco.ldr": {
+            "path": "custom/morlaco.ldr",
             "id": "",
-            "title": "customs/morlaco.ldr",
-            "refNumber": "",
-            "path": "customs/morlaco.ldr",
-            "infoURL": ""
+            "title": "custom/morlaco.ldr",
+            "seriesNumber": null,
+            "refNumber": null
         },
-        "customs/nave_guaul_mini.ldr": {
+        "custom/nave_guaul_mini.ldr": {
+            "path": "custom/nave_guaul_mini.ldr",
             "id": "",
-            "title": "customs/nave_guaul_mini.ldr",
-            "refNumber": "",
-            "path": "customs/nave_guaul_mini.ldr",
-            "infoURL": ""
+            "title": "custom/nave_guaul_mini.ldr",
+            "seriesNumber": null,
+            "refNumber": null
         },
-        "customs/navevisitante.ldr": {
+        "custom/navevisitante.ldr": {
+            "path": "custom/navevisitante.ldr",
             "id": "",
-            "title": "customs/navevisitante.ldr",
-            "refNumber": "",
-            "path": "customs/navevisitante.ldr",
-            "infoURL": ""
+            "title": "custom/navevisitante.ldr",
+            "seriesNumber": null,
+            "refNumber": null
         },
-        "customs/ovni9.ldr": {
+        "custom/ovni9.ldr": {
+            "path": "custom/ovni9.ldr",
             "id": "",
-            "title": "customs/ovni9.ldr",
-            "refNumber": "",
-            "path": "customs/ovni9.ldr",
-            "infoURL": ""
+            "title": "custom/ovni9.ldr",
+            "seriesNumber": null,
+            "refNumber": null
         },
-        "customs/papamovil.ldr": {
+        "custom/papamovil.ldr": {
+            "path": "custom/papamovil.ldr",
             "id": "",
-            "title": "customs/papamovil.ldr",
-            "refNumber": "",
-            "path": "customs/papamovil.ldr",
-            "infoURL": ""
+            "title": "custom/papamovil.ldr",
+            "seriesNumber": null,
+            "refNumber": null
         },
-        "customs/pctubo.ldr": {
+        "custom/pctubo.ldr": {
+            "path": "custom/pctubo.ldr",
             "id": "",
-            "title": "customs/pctubo.ldr",
-            "refNumber": "",
-            "path": "customs/pctubo.ldr",
-            "infoURL": ""
+            "title": "custom/pctubo.ldr",
+            "seriesNumber": null,
+            "refNumber": null
         },
-        "customs/peasochalet.ldr": {
+        "custom/peasochalet.ldr": {
+            "path": "custom/peasochalet.ldr",
             "id": "",
-            "title": "customs/peasochalet.ldr",
-            "refNumber": "",
-            "path": "customs/peasochalet.ldr",
-            "infoURL": ""
+            "title": "custom/peasochalet.ldr",
+            "seriesNumber": null,
+            "refNumber": null
         },
-        "customs/planeador_orbital.ldr": {
+        "custom/planeador_orbital.ldr": {
+            "path": "custom/planeador_orbital.ldr",
             "id": "",
-            "title": "customs/planeador_orbital.ldr",
-            "refNumber": "",
-            "path": "customs/planeador_orbital.ldr",
-            "infoURL": ""
+            "title": "custom/planeador_orbital.ldr",
+            "seriesNumber": null,
+            "refNumber": null
         },
-        "customs/robotaxi.ldr": {
+        "custom/robotaxi.ldr": {
+            "path": "custom/robotaxi.ldr",
             "id": "",
-            "title": "customs/robotaxi.ldr",
-            "refNumber": "",
-            "path": "customs/robotaxi.ldr",
-            "infoURL": ""
+            "title": "custom/robotaxi.ldr",
+            "seriesNumber": null,
+            "refNumber": null
         },
-        "customs/roverlunar.ldr": {
+        "custom/roverlunar.ldr": {
+            "path": "custom/roverlunar.ldr",
             "id": "",
-            "title": "customs/roverlunar.ldr",
-            "refNumber": "",
-            "path": "customs/roverlunar.ldr",
-            "infoURL": ""
+            "title": "custom/roverlunar.ldr",
+            "seriesNumber": null,
+            "refNumber": null
         },
-        "customs/ruedelpercebe.ldr": {
+        "custom/ruedelpercebe.ldr": {
+            "path": "custom/ruedelpercebe.ldr",
             "id": "",
-            "title": "customs/ruedelpercebe.ldr",
-            "refNumber": "",
-            "path": "customs/ruedelpercebe.ldr",
-            "infoURL": ""
+            "title": "custom/ruedelpercebe.ldr",
+            "seriesNumber": null,
+            "refNumber": null
         },
-        "customs/seat1430.ldr": {
+        "custom/seat1430.ldr": {
+            "path": "custom/seat1430.ldr",
             "id": "",
-            "title": "customs/seat1430.ldr",
-            "refNumber": "",
-            "path": "customs/seat1430.ldr",
-            "infoURL": ""
+            "title": "custom/seat1430.ldr",
+            "seriesNumber": null,
+            "refNumber": null
         },
-        "customs/sinclairzx80.ldr": {
+        "custom/sinclairzx80.ldr": {
+            "path": "custom/sinclairzx80.ldr",
             "id": "",
-            "title": "customs/sinclairzx80.ldr",
-            "refNumber": "",
-            "path": "customs/sinclairzx80.ldr",
-            "infoURL": ""
+            "title": "custom/sinclairzx80.ldr",
+            "seriesNumber": null,
+            "refNumber": null
         },
-        "customs/taller_informatico/cajon.ldr": {
+        "custom/taller_informatico/cajon.ldr": {
+            "path": "custom/taller_informatico/cajon.ldr",
             "id": "",
-            "title": "customs/taller_informatico/cajon.ldr",
-            "refNumber": "",
-            "path": "customs/taller_informatico/cajon.ldr",
-            "infoURL": ""
+            "title": "custom/taller_informatico/cajon.ldr",
+            "seriesNumber": null,
+            "refNumber": null
         },
-        "customs/taller_informatico/cajonera.ldr": {
+        "custom/taller_informatico/cajonera.ldr": {
+            "path": "custom/taller_informatico/cajonera.ldr",
             "id": "",
-            "title": "customs/taller_informatico/cajonera.ldr",
-            "refNumber": "",
-            "path": "customs/taller_informatico/cajonera.ldr",
-            "infoURL": ""
+            "title": "custom/taller_informatico/cajonera.ldr",
+            "seriesNumber": null,
+            "refNumber": null
         },
-        "customs/taller_informatico/taller_informatico.ldr": {
+        "custom/taller_informatico/taller_informatico.ldr": {
+            "path": "custom/taller_informatico/taller_informatico.ldr",
             "id": "",
-            "title": "customs/taller_informatico/taller_informatico.ldr",
-            "refNumber": "",
-            "path": "customs/taller_informatico/taller_informatico.ldr",
-            "infoURL": ""
+            "title": "custom/taller_informatico/taller_informatico.ldr",
+            "seriesNumber": null,
+            "refNumber": null
         },
-        "customs/tardis.ldr": {
+        "custom/tardis.ldr": {
+            "path": "custom/tardis.ldr",
             "id": "",
-            "title": "customs/tardis.ldr",
-            "refNumber": "",
-            "path": "customs/tardis.ldr",
-            "infoURL": ""
+            "title": "custom/tardis.ldr",
+            "seriesNumber": null,
+            "refNumber": null
         },
-        "customs/taxi_espacial.ldr": {
+        "custom/taxi_espacial.ldr": {
+            "path": "custom/taxi_espacial.ldr",
             "id": "",
-            "title": "customs/taxi_espacial.ldr",
-            "refNumber": "",
-            "path": "customs/taxi_espacial.ldr",
-            "infoURL": ""
+            "title": "custom/taxi_espacial.ldr",
+            "seriesNumber": null,
+            "refNumber": null
         },
-        "customs/templo_debod.ldr": {
+        "custom/templo_debod.ldr": {
+            "path": "custom/templo_debod.ldr",
             "id": "",
-            "title": "customs/templo_debod.ldr",
-            "refNumber": "",
-            "path": "customs/templo_debod.ldr",
-            "infoURL": ""
+            "title": "custom/templo_debod.ldr",
+            "seriesNumber": null,
+            "refNumber": null
         },
-        "customs/the_orville_shuttle.ldr": {
+        "custom/the_orville_shuttle.ldr": {
+            "path": "custom/the_orville_shuttle.ldr",
             "id": "",
-            "title": "customs/the_orville_shuttle.ldr",
-            "refNumber": "",
-            "path": "customs/the_orville_shuttle.ldr",
-            "infoURL": ""
+            "title": "custom/the_orville_shuttle.ldr",
+            "seriesNumber": null,
+            "refNumber": null
         },
-        "customs/titan_mare_explorer.ldr": {
+        "custom/titan_mare_explorer.ldr": {
+            "path": "custom/titan_mare_explorer.ldr",
             "id": "",
-            "title": "customs/titan_mare_explorer.ldr",
-            "refNumber": "",
-            "path": "customs/titan_mare_explorer.ldr",
-            "infoURL": ""
+            "title": "custom/titan_mare_explorer.ldr",
+            "seriesNumber": null,
+            "refNumber": null
         },
-        "customs/todoterrenocompacto.ldr": {
+        "custom/todoterrenocompacto.ldr": {
+            "path": "custom/todoterrenocompacto.ldr",
             "id": "",
-            "title": "customs/todoterrenocompacto.ldr",
-            "refNumber": "",
-            "path": "customs/todoterrenocompacto.ldr",
-            "infoURL": ""
+            "title": "custom/todoterrenocompacto.ldr",
+            "seriesNumber": null,
+            "refNumber": null
         },
-        "customs/torre_entrada_puerto_malaga.ldr": {
+        "custom/torre_entrada_puerto_malaga.ldr": {
+            "path": "custom/torre_entrada_puerto_malaga.ldr",
             "id": "",
-            "title": "customs/torre_entrada_puerto_malaga.ldr",
-            "refNumber": "",
-            "path": "customs/torre_entrada_puerto_malaga.ldr",
-            "infoURL": ""
+            "title": "custom/torre_entrada_puerto_malaga.ldr",
+            "seriesNumber": null,
+            "refNumber": null
         },
-        "customs/torre_fastolfe.ldr": {
+        "custom/torre_fastolfe.ldr": {
+            "path": "custom/torre_fastolfe.ldr",
             "id": "",
-            "title": "customs/torre_fastolfe.ldr",
-            "refNumber": "",
-            "path": "customs/torre_fastolfe.ldr",
-            "infoURL": ""
+            "title": "custom/torre_fastolfe.ldr",
+            "seriesNumber": null,
+            "refNumber": null
         },
-        "customs/torre_glories_barcelona.ldr": {
+        "custom/torre_glories_barcelona.ldr": {
+            "path": "custom/torre_glories_barcelona.ldr",
             "id": "",
-            "title": "customs/torre_glories_barcelona.ldr",
-            "refNumber": "",
-            "path": "customs/torre_glories_barcelona.ldr",
-            "infoURL": ""
+            "title": "custom/torre_glories_barcelona.ldr",
+            "seriesNumber": null,
+            "refNumber": null
         },
-        "customs/torres_hanoi.ldr": {
+        "custom/torres_hanoi.ldr": {
+            "path": "custom/torres_hanoi.ldr",
             "id": "",
-            "title": "customs/torres_hanoi.ldr",
-            "refNumber": "",
-            "path": "customs/torres_hanoi.ldr",
-            "infoURL": ""
+            "title": "custom/torres_hanoi.ldr",
+            "seriesNumber": null,
+            "refNumber": null
         },
-        "customs/trenturistico.ldr": {
+        "custom/trenturistico.ldr": {
+            "path": "custom/trenturistico.ldr",
             "id": "",
-            "title": "customs/trenturistico.ldr",
-            "refNumber": "",
-            "path": "customs/trenturistico.ldr",
-            "infoURL": ""
+            "title": "custom/trenturistico.ldr",
+            "seriesNumber": null,
+            "refNumber": null
         },
-        "customs/tux3d.ldr": {
+        "custom/tux3d.ldr": {
+            "path": "custom/tux3d.ldr",
             "id": "",
-            "title": "customs/tux3d.ldr",
-            "refNumber": "",
-            "path": "customs/tux3d.ldr",
-            "infoURL": ""
+            "title": "custom/tux3d.ldr",
+            "seriesNumber": null,
+            "refNumber": null
         },
-        "customs/tux_flat_base.ldr": {
+        "custom/tux_flat_base.ldr": {
+            "path": "custom/tux_flat_base.ldr",
             "id": "",
-            "title": "customs/tux_flat_base.ldr",
-            "refNumber": "",
-            "path": "customs/tux_flat_base.ldr",
-            "infoURL": ""
+            "title": "custom/tux_flat_base.ldr",
+            "seriesNumber": null,
+            "refNumber": null
         },
-        "customs/tuxplano.ldr": {
+        "custom/tuxplano.ldr": {
+            "path": "custom/tuxplano.ldr",
             "id": "",
-            "title": "customs/tuxplano.ldr",
-            "refNumber": "",
-            "path": "customs/tuxplano.ldr",
-            "infoURL": ""
+            "title": "custom/tuxplano.ldr",
+            "seriesNumber": null,
+            "refNumber": null
         },
-        "customs/tuxtentero.ldr": {
+        "custom/tuxtentero.ldr": {
+            "path": "custom/tuxtentero.ldr",
             "id": "",
-            "title": "customs/tuxtentero.ldr",
-            "refNumber": "",
-            "path": "customs/tuxtentero.ldr",
-            "infoURL": ""
+            "title": "custom/tuxtentero.ldr",
+            "seriesNumber": null,
+            "refNumber": null
         },
-        "customs/ubuntu_exin_castillos.ldr": {
+        "custom/ubuntu_exin_castillos.ldr": {
+            "path": "custom/ubuntu_exin_castillos.ldr",
             "id": "",
-            "title": "customs/ubuntu_exin_castillos.ldr",
-            "refNumber": "",
-            "path": "customs/ubuntu_exin_castillos.ldr",
-            "infoURL": ""
+            "title": "custom/ubuntu_exin_castillos.ldr",
+            "seriesNumber": null,
+            "refNumber": null
         },
-        "customs/ubuntu_exin_castillos_transparente.ldr": {
+        "custom/ubuntu_exin_castillos_transparente.ldr": {
+            "path": "custom/ubuntu_exin_castillos_transparente.ldr",
             "id": "",
-            "title": "customs/ubuntu_exin_castillos_transparente.ldr",
-            "refNumber": "",
-            "path": "customs/ubuntu_exin_castillos_transparente.ldr",
-            "infoURL": ""
+            "title": "custom/ubuntu_exin_castillos_transparente.ldr",
+            "seriesNumber": null,
+            "refNumber": null
         },
-        "customs/urna_votacion.ldr": {
+        "custom/urna_votacion.ldr": {
+            "path": "custom/urna_votacion.ldr",
             "id": "",
-            "title": "customs/urna_votacion.ldr",
-            "refNumber": "",
-            "path": "customs/urna_votacion.ldr",
-            "infoURL": ""
+            "title": "custom/urna_votacion.ldr",
+            "seriesNumber": null,
+            "refNumber": null
         },
-        "customs/ventanas_ahumadas.ldr": {
+        "custom/ventanas_ahumadas.ldr": {
+            "path": "custom/ventanas_ahumadas.ldr",
             "id": "",
-            "title": "customs/ventanas_ahumadas.ldr",
-            "refNumber": "",
-            "path": "customs/ventanas_ahumadas.ldr",
-            "infoURL": ""
+            "title": "custom/ventanas_ahumadas.ldr",
+            "seriesNumber": null,
+            "refNumber": null
         },
-        "customs/vialia_antiguo.ldr": {
+        "custom/vialia_antiguo.ldr": {
+            "path": "custom/vialia_antiguo.ldr",
             "id": "",
-            "title": "customs/vialia_antiguo.ldr",
-            "refNumber": "",
-            "path": "customs/vialia_antiguo.ldr",
-            "infoURL": ""
+            "title": "custom/vialia_antiguo.ldr",
+            "seriesNumber": null,
+            "refNumber": null
         },
-        "customs/vialia_antiguo_lateral_bajo.ldr": {
+        "custom/vialia_antiguo_lateral_bajo.ldr": {
+            "path": "custom/vialia_antiguo_lateral_bajo.ldr",
             "id": "",
-            "title": "customs/vialia_antiguo_lateral_bajo.ldr",
-            "refNumber": "",
-            "path": "customs/vialia_antiguo_lateral_bajo.ldr",
-            "infoURL": ""
+            "title": "custom/vialia_antiguo_lateral_bajo.ldr",
+            "seriesNumber": null,
+            "refNumber": null
         },
-        "customs/vialia_antiguo_primera_planta.ldr": {
+        "custom/vialia_antiguo_primera_planta.ldr": {
+            "path": "custom/vialia_antiguo_primera_planta.ldr",
             "id": "",
-            "title": "customs/vialia_antiguo_primera_planta.ldr",
-            "refNumber": "",
-            "path": "customs/vialia_antiguo_primera_planta.ldr",
-            "infoURL": ""
+            "title": "custom/vialia_antiguo_primera_planta.ldr",
+            "seriesNumber": null,
+            "refNumber": null
         },
-        "customs/vialia_antiguo_segunda_planta.ldr": {
+        "custom/vialia_antiguo_segunda_planta.ldr": {
+            "path": "custom/vialia_antiguo_segunda_planta.ldr",
             "id": "",
-            "title": "customs/vialia_antiguo_segunda_planta.ldr",
-            "refNumber": "",
-            "path": "customs/vialia_antiguo_segunda_planta.ldr",
-            "infoURL": ""
+            "title": "custom/vialia_antiguo_segunda_planta.ldr",
+            "seriesNumber": null,
+            "refNumber": null
         },
-        "customs/walkietalkie.ldr": {
+        "custom/walkietalkie.ldr": {
+            "path": "custom/walkietalkie.ldr",
             "id": "",
-            "title": "customs/walkietalkie.ldr",
-            "refNumber": "",
-            "path": "customs/walkietalkie.ldr",
-            "infoURL": ""
+            "title": "custom/walkietalkie.ldr",
+            "seriesNumber": null,
+            "refNumber": null
         },
-        "customs/walkietalkies_pair.ldr": {
+        "custom/walkietalkies_pair.ldr": {
+            "path": "custom/walkietalkies_pair.ldr",
             "id": "",
-            "title": "customs/walkietalkies_pair.ldr",
-            "refNumber": "",
-            "path": "customs/walkietalkies_pair.ldr",
-            "infoURL": ""
+            "title": "custom/walkietalkies_pair.ldr",
+            "seriesNumber": null,
+            "refNumber": null
         },
-        "customs/zxspectrum48k.ldr": {
+        "custom/zxspectrum48k.ldr": {
+            "path": "custom/zxspectrum48k.ldr",
             "id": "",
-            "title": "customs/zxspectrum48k.ldr",
-            "refNumber": "",
-            "path": "customs/zxspectrum48k.ldr",
-            "infoURL": ""
+            "title": "custom/zxspectrum48k.ldr",
+            "seriesNumber": null,
+            "refNumber": null
         }
     },
     "pathsList": [
@@ -2090,101 +2090,101 @@
         "oficiales/astronauta_viejo.ldr",
         "oficiales/motobomba.ldr",
         "oficiales/roadmaster.ldr",
-        "customs/amstrad_cpc464.ldr",
-        "customs/aparcamiento.ldr",
-        "customs/aparcamiento_con_vehiculos.ldr",
-        "customs/autolavado.ldr",
-        "customs/autolavado_vacio.ldr",
-        "customs/bannertente.ldr",
-        "customs/barco_turistico_bahia_malaga.ldr",
-        "customs/bocametro.ldr",
-        "customs/busbateria.ldr",
-        "customs/buzon_sugerencias.ldr",
-        "customs/cabinatelefonos.ldr",
-        "customs/cajonera/cajon.ldr",
-        "customs/cajonera/cajonera_4c.ldr",
-        "customs/cajonera/cajonera_4c_open.ldr",
-        "customs/cajonera_4c.ldr",
-        "customs/castillito1.ldr",
-        "customs/circulo.ldr",
-        "customs/cocacola.ldr",
-        "customs/cohete_tintin.ldr",
-        "customs/damas.ldr",
-        "customs/donut.ldr",
-        "customs/duplexcosta.ldr",
-        "customs/ecocasarodante.ldr",
-        "customs/edificio_clot_barcelona.ldr",
-        "customs/enterradores_meme.ldr",
-        "customs/entrada_puerto_malaga_full.ldr",
-        "customs/esfera1.ldr",
-        "customs/esfera2.ldr",
-        "customs/esfera3.ldr",
-        "customs/esfera4.ldr",
-        "customs/esperanza-torre.ldr",
-        "customs/estacion_feve_malaga.ldr",
-        "customs/estacionmeteorologica.ldr",
-        "customs/estacionmetereologica.ldr",
-        "customs/etch.ldr",
-        "customs/exinubuntu.ldr",
-        "customs/foodtruck.ldr",
-        "customs/foodtruck_en_ruta.ldr",
-        "customs/furgonetahielo.ldr",
-        "customs/galileo.ldr",
-        "customs/galileo_concurso.ldr",
-        "customs/hunslet_att77.ldr",
-        "customs/incinerador_termonuclear.ldr",
-        "customs/jabega.ldr",
-        "customs/jetpac.ldr",
-        "customs/lafarola.ldr",
-        "customs/ld3dstudio_logo.ldr",
-        "customs/lemmings_flat.ldr",
-        "customs/lopezpenalver.ldr",
-        "customs/martian_chronicles_van.ldr",
-        "customs/microbus50.ldr",
-        "customs/minipcsobremesa.ldr",
-        "customs/moduloescapemarciano.ldr",
-        "customs/molino.ldr",
-        "customs/morlaco.ldr",
-        "customs/nave_guaul_mini.ldr",
-        "customs/navevisitante.ldr",
-        "customs/ovni9.ldr",
-        "customs/papamovil.ldr",
-        "customs/pctubo.ldr",
-        "customs/peasochalet.ldr",
-        "customs/planeador_orbital.ldr",
-        "customs/robotaxi.ldr",
-        "customs/roverlunar.ldr",
-        "customs/ruedelpercebe.ldr",
-        "customs/seat1430.ldr",
-        "customs/sinclairzx80.ldr",
-        "customs/taller_informatico/cajon.ldr",
-        "customs/taller_informatico/cajonera.ldr",
-        "customs/taller_informatico/taller_informatico.ldr",
-        "customs/tardis.ldr",
-        "customs/taxi_espacial.ldr",
-        "customs/templo_debod.ldr",
-        "customs/the_orville_shuttle.ldr",
-        "customs/titan_mare_explorer.ldr",
-        "customs/todoterrenocompacto.ldr",
-        "customs/torre_entrada_puerto_malaga.ldr",
-        "customs/torre_fastolfe.ldr",
-        "customs/torre_glories_barcelona.ldr",
-        "customs/torres_hanoi.ldr",
-        "customs/trenturistico.ldr",
-        "customs/tux3d.ldr",
-        "customs/tux_flat_base.ldr",
-        "customs/tuxplano.ldr",
-        "customs/tuxtentero.ldr",
-        "customs/ubuntu_exin_castillos.ldr",
-        "customs/ubuntu_exin_castillos_transparente.ldr",
-        "customs/urna_votacion.ldr",
-        "customs/ventanas_ahumadas.ldr",
-        "customs/vialia_antiguo.ldr",
-        "customs/vialia_antiguo_lateral_bajo.ldr",
-        "customs/vialia_antiguo_primera_planta.ldr",
-        "customs/vialia_antiguo_segunda_planta.ldr",
-        "customs/walkietalkie.ldr",
-        "customs/walkietalkies_pair.ldr",
-        "customs/zxspectrum48k.ldr"
+        "custom/amstrad_cpc464.ldr",
+        "custom/aparcamiento.ldr",
+        "custom/aparcamiento_con_vehiculos.ldr",
+        "custom/autolavado.ldr",
+        "custom/autolavado_vacio.ldr",
+        "custom/bannertente.ldr",
+        "custom/barco_turistico_bahia_malaga.ldr",
+        "custom/bocametro.ldr",
+        "custom/busbateria.ldr",
+        "custom/buzon_sugerencias.ldr",
+        "custom/cabinatelefonos.ldr",
+        "custom/cajonera/cajon.ldr",
+        "custom/cajonera/cajonera_4c.ldr",
+        "custom/cajonera/cajonera_4c_open.ldr",
+        "custom/cajonera_4c.ldr",
+        "custom/castillito1.ldr",
+        "custom/circulo.ldr",
+        "custom/cocacola.ldr",
+        "custom/cohete_tintin.ldr",
+        "custom/damas.ldr",
+        "custom/donut.ldr",
+        "custom/duplexcosta.ldr",
+        "custom/ecocasarodante.ldr",
+        "custom/edificio_clot_barcelona.ldr",
+        "custom/enterradores_meme.ldr",
+        "custom/entrada_puerto_malaga_full.ldr",
+        "custom/esfera1.ldr",
+        "custom/esfera2.ldr",
+        "custom/esfera3.ldr",
+        "custom/esfera4.ldr",
+        "custom/esperanza-torre.ldr",
+        "custom/estacion_feve_malaga.ldr",
+        "custom/estacionmeteorologica.ldr",
+        "custom/estacionmetereologica.ldr",
+        "custom/etch.ldr",
+        "custom/exinubuntu.ldr",
+        "custom/foodtruck.ldr",
+        "custom/foodtruck_en_ruta.ldr",
+        "custom/furgonetahielo.ldr",
+        "custom/galileo.ldr",
+        "custom/galileo_concurso.ldr",
+        "custom/hunslet_att77.ldr",
+        "custom/incinerador_termonuclear.ldr",
+        "custom/jabega.ldr",
+        "custom/jetpac.ldr",
+        "custom/lafarola.ldr",
+        "custom/ld3dstudio_logo.ldr",
+        "custom/lemmings_flat.ldr",
+        "custom/lopezpenalver.ldr",
+        "custom/martian_chronicles_van.ldr",
+        "custom/microbus50.ldr",
+        "custom/minipcsobremesa.ldr",
+        "custom/moduloescapemarciano.ldr",
+        "custom/molino.ldr",
+        "custom/morlaco.ldr",
+        "custom/nave_guaul_mini.ldr",
+        "custom/navevisitante.ldr",
+        "custom/ovni9.ldr",
+        "custom/papamovil.ldr",
+        "custom/pctubo.ldr",
+        "custom/peasochalet.ldr",
+        "custom/planeador_orbital.ldr",
+        "custom/robotaxi.ldr",
+        "custom/roverlunar.ldr",
+        "custom/ruedelpercebe.ldr",
+        "custom/seat1430.ldr",
+        "custom/sinclairzx80.ldr",
+        "custom/taller_informatico/cajon.ldr",
+        "custom/taller_informatico/cajonera.ldr",
+        "custom/taller_informatico/taller_informatico.ldr",
+        "custom/tardis.ldr",
+        "custom/taxi_espacial.ldr",
+        "custom/templo_debod.ldr",
+        "custom/the_orville_shuttle.ldr",
+        "custom/titan_mare_explorer.ldr",
+        "custom/todoterrenocompacto.ldr",
+        "custom/torre_entrada_puerto_malaga.ldr",
+        "custom/torre_fastolfe.ldr",
+        "custom/torre_glories_barcelona.ldr",
+        "custom/torres_hanoi.ldr",
+        "custom/trenturistico.ldr",
+        "custom/tux3d.ldr",
+        "custom/tux_flat_base.ldr",
+        "custom/tuxplano.ldr",
+        "custom/tuxtentero.ldr",
+        "custom/ubuntu_exin_castillos.ldr",
+        "custom/ubuntu_exin_castillos_transparente.ldr",
+        "custom/urna_votacion.ldr",
+        "custom/ventanas_ahumadas.ldr",
+        "custom/vialia_antiguo.ldr",
+        "custom/vialia_antiguo_lateral_bajo.ldr",
+        "custom/vialia_antiguo_primera_planta.ldr",
+        "custom/vialia_antiguo_segunda_planta.ldr",
+        "custom/walkietalkie.ldr",
+        "custom/walkietalkies_pair.ldr",
+        "custom/zxspectrum48k.ldr"
     ]
 }

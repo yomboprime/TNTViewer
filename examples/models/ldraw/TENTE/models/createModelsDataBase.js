@@ -48,8 +48,8 @@ for ( var i = 0, n = dataBase.pathsList.length; i < n; i++ ) {
 		path: modelPath,
 		id: '',
 		title: modelPath,
-		seriesNumber:'',
-		refNumber: ''
+		seriesNumber: null,
+		refNumber: null
 	};
 
 	dataBase.models[ modelPath ] = model;

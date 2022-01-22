@@ -50,13 +50,29 @@
 			const ANIM_STOPPED = 0;
 			const ANIM_FALLING = 1;
 			const ANIM_CONSTRUCTING = 2;
-			const ANIM_WAIT = 3;
+			const ANIM_PAUSED = 3;
 			let animationState;
 			let animationCreated;
-			let timeCurrentState;
 			let timeNextState;
-			let currentConstructionStep;
+			let stepDuration = 1.5;
+			let constructionDuration;
+			let time = 0;
+			let timeFactor = 1;
+			let pausedTimeFactor = 1;
+			let pauseOnNextStep;
+			let pauseOnNextStepStep;
+
+			const clock = new THREE.Clock();
 			let curve;
+
+			let timeFactorController;
+			let constructionStepController;
+			let animationButtonController;
+			let modelTitleController;
+			let pathController;
+			let modelSeriesController;
+			let modelRefController;
+			let modelInfoURLController;
 
 			// Physics variables
 			let collisionConfiguration;
@@ -68,8 +84,6 @@
 			let btVectorAux1;
 			let btQuatAux1;
 			let btTransformAux1;
-			let time = 0;
-			const clock = new THREE.Clock();
 
 			const vector3Temp1 = new THREE.Vector3();
 			const vector3Temp2 = new THREE.Vector3();
@@ -175,9 +189,18 @@
 
 					guiData = {
 						modelFileName: initialModel,
-						startAnimation: startAnimation,
+						animationButton: animationButton,
 						displayLines: displayLines,
-						backgroundColor: backgroundColor
+						backgroundColor: backgroundColor,
+						constructionStep: 0,
+						timeFactor: 1,
+						goToNextStep: goToNextStep,
+						goToPrevStep: goToPrevStep,
+						modelTitle: 'kjsbdh kjshkj sdjk sdsjlkdkjhdsa kj',
+						modelSeries: 'AAAA',
+						modelRef: '0001',
+						modelInfoURL: 'https://www.google.com',
+						path: '---'
 					};
 
 					window.addEventListener( 'resize', onWindowResize );
@@ -254,7 +277,7 @@
 
 			}
 
-			function createRigidBody( object, physicsShape, mass ) {
+			function createRigidBody( object, physicsShape, mass = 0 ) {
 
 				const pos = object.position;
 				const quat = object.quaternion;
@@ -439,6 +462,27 @@
 
 						createGUI();
 
+						guiData.modelTitle = "No title.";
+						guiData.path = guiData.modelFileName;
+						guiData.modelSeries = "No series.";
+						guiData.modelRef = "No ref.";
+						guiData.modelInfoURL = "No URL.";
+						const modelInfo = dataBase.models[ guiData.modelFileName ];
+						if ( modelInfo ) {
+
+							if ( modelInfo.title ) guiData.modelTitle = modelInfo.title;
+							if ( modelInfo.seriesNumber ) guiData.modelSeries = modelInfo.seriesNumber;
+							if ( modelInfo.refNumber ) guiData.modelRef = modelInfo.refNumber;
+							if ( modelInfo.id && Number.isInteger( parseInt( modelInfo.id ) ) ) guiData.modelInfoURL = 'https://tente.spread/name/id/' + modelInfo.id;
+
+							pathController.updateDisplay();
+							modelTitleController.updateDisplay();
+							modelSeriesController.updateDisplay();
+							modelRefController.updateDisplay();
+							modelInfoURLController.updateDisplay();
+
+						}
+
 						hideProgressBar();
 
 					}, onProgress, onError );
@@ -455,18 +499,150 @@
 
 			}
 
+			function animationButton() {
+
+				switch ( animationState ) {
+
+					case ANIM_STOPPED:
+						startAnimation();
+						break;
+
+					case ANIM_CONSTRUCTING:
+						if ( timeFactor === 0 ) resumeAnimation( pausedTimeFactor );
+						else pauseAnimation();
+						break;
+
+					default:
+						break;
+
+				}
+
+			}
+
 			function startAnimation() {
 
 				if ( animationState !== ANIM_STOPPED ) return;
 
-				if ( ! animationCreated ) createAnimation();
-				else explode();
+				if ( ! animationCreated ) {
 
-				// Init animation
-				time = 0;
-				animationState = ANIM_FALLING;
-				timeCurrentState = time;
-				timeNextState = time + 5;
+					createAnimation();
+
+					time = 0;
+					timeNextState = 5;
+					animationState = ANIM_FALLING;
+
+				}
+				else {
+
+					//reenablePhysics();
+					beginConstruction();
+
+				}
+
+				timeFactor = Math.abs( timeFactor );
+				pausedTimeFactor = timeFactor;
+				guiData.timeFactor = timeFactor;
+				timeFactorController.updateDisplay();
+				pauseOnNextStep = false;
+				pauseOnNextStepStep = - 1;
+
+				animationButtonController.name( "Pause animation" );
+
+			}
+
+			function pauseAnimation() {
+
+				if ( animationState !== ANIM_CONSTRUCTING || timeFactor === 0 ) return false;
+
+				pausedTimeFactor = timeFactor;
+				timeFactor = 0;
+
+				animationButtonController.name( "Resume animation" );
+				guiData.timeFactor = timeFactor;
+				timeFactorController.updateDisplay();
+
+				return true;
+
+			}
+
+			function resumeAnimation( timeFactorParam ) {
+
+				if ( animationState === ANIM_CONSTRUCTING ) animationButtonController.name( "Pause animation" );
+
+				timeFactor = timeFactorParam;
+
+				guiData.timeFactor = timeFactor;
+				timeFactorController.updateDisplay();
+
+				return true;
+
+			}
+
+			function animationGoToStep( constructionStep ) {
+
+				if ( animationState !== ANIM_CONSTRUCTING ) return;
+
+				constructionStep = Math.max( 0, Math.min( parts.length, constructionStep ) );
+
+				time = getTimeByStep( constructionStep + 1 );
+
+				for ( let i in parts ) {
+
+					positionPart( parts[ i ], time );
+
+				}
+
+			}
+
+			function getStepByTime( t ) {
+
+				return Math.max( 0, Math.min( parts.length - 1, Math.floor( t / stepDuration ) ) );
+
+			}
+
+			function getTimeByStep( s ) {
+
+				return s * stepDuration;
+
+			}
+
+			function goToPrevStep() {
+
+				if ( ! parts ) return;
+
+				const remTime = time - Math.floor( time / stepDuration ) * stepDuration;
+				const rem = remTime / stepDuration;
+				let firstHalf = rem < 0.5 && remTime > 0;
+				const newStep = Math.max( 0, Math.min( parts.length - 1, getStepByTime( time ) - 1 ) );
+
+				time = getTimeByStep( newStep );
+				for ( let i in parts ) {
+
+					positionPart( parts[ i ], time );
+
+				}
+
+				animationState = ANIM_CONSTRUCTING;
+
+			}
+
+			function goToNextStep() {
+
+				if ( ! parts ) return;
+
+				const remTime = time - Math.floor( time / stepDuration ) * stepDuration;
+				const rem = remTime / stepDuration;
+				let firstHalf = rem < 0.5 && remTime > 0;
+				const newStep = Math.max( 0, Math.min( parts.length, Math.floor( time / stepDuration ) + 1 ) );
+
+				time = getTimeByStep( newStep );
+				for ( let i in parts ) {
+
+					positionPart( parts[ i ], time );
+
+				}
+
+				animationState = ANIM_CONSTRUCTING;
 
 			}
 
@@ -564,6 +740,7 @@
 					physicsShape.setMargin( part.userData.objectSize * 0.01 );
 					const mass = Math.pow( 10 * part.userData.objectSize, 2.2 );
 					createRigidBody( part, physicsShape, mass );
+					part.userData.physicsControlled = true;
 
 					scene.add( part );
 
@@ -584,6 +761,7 @@
 
 					let constructionStep = p;
 					if ( fileNumConstructionSteps > 1 ) constructionStep = part.userData.constructionStep;
+					part.userData.constructionStep = constructionStep;
 
 					if ( ! stepsParts[ constructionStep ] ) stepsParts[ constructionStep ] = [];
 					stepsParts[ constructionStep ].push( part );
@@ -619,6 +797,9 @@
 
 				}
 
+				constructionDuration = stepDuration * parts.length;
+				constructionStepController.min( 1).max( parts.length );
+
 			}
 
 			function sortParts( partsArray ) {
@@ -634,128 +815,159 @@
 				} );
 			}
 
-			function handleAnimation() {
+			function handleAnimation( deltaTime ) {
 
 				if ( ! parts ) return;
-
-				//const constructionDuration = 20 * Math.min( 1.3, Math.max( 0.5, parts.length / 60 ) );
-				//const stepDuration = constructionDuration / parts.length;
-				const stepDuration = 1.2;
-				const constructionDuration = stepDuration * parts.length;
 
 				switch ( animationState ) {
 
 					case ANIM_FALLING:
-						if ( time >= timeNextState ) beginConstruction();
+						if ( time >= timeNextState ) {
+
+							beginConstruction();
+							animParts( deltaTime );
+
+						}
 						break;
 
 					case ANIM_CONSTRUCTING:
-						animPieces();
+						animParts( deltaTime );
 						break;
 
-					case ANIM_WAIT:
-						if ( time >= timeNextState ) explode();
 						break;
 
-				}
-
-				function beginConstruction() {
-
-					animationState = ANIM_CONSTRUCTING;
-					timeCurrentState = time;
-					currentConstructionStep = - 1;
-
-					animPieces();
-
-				}
-
-				function animPieces() {
-
-					if ( time >= timeNextState ) {
-
-						if ( currentConstructionStep >= 0 ) {
-
-							const part = parts[ currentConstructionStep ];
-							part.position.copy( part.userData.positionEnd );
-							part.quaternion.copy( part.userData.partQuaternion );
-
-						}
-
-						currentConstructionStep ++;
-						if ( currentConstructionStep >= parts.length ) {
-
-							//animationState = ANIM_WAIT;
-							animationState = ANIM_STOPPED;
-							timeCurrentState = timeNextState;
-							timeNextState = time + 3;
-							//turn = ! turn;
-							return;
-
-						}
-
-						const part = parts[ currentConstructionStep ];
-						part.userData.positionStart.copy( part.position );
-						part.userData.quaternionStart.copy( part.quaternion );
-						part.userData.positionEnd.copy( part.userData.partPosition );
-
-						physicsWorld.removeRigidBody( part.userData.physicsBody );
-						dynamicObjects.splice( dynamicObjects.indexOf( part ), 1 );
-
-						timeCurrentState = timeNextState;
-						timeNextState = time + stepDuration;
-
-					}
-
-					const tOrig = Math.min( 1, Math.max( 0, ( time - timeCurrentState ) / stepDuration ) );
-
-					/*
-					const power = 2;
-					const tPow = Math.sign( tOrig - 0.5 ) * ( 0.5 * Math.pow( 2 * Math.abs( tOrig - 0.5 ), power ) ) + 0.5;
-					*/
-
-					curve.getPoint( tOrig, vector3Temp1 );
-					const tCurve = vector3Temp1.y;
-
-					//const t = tOrig;
-					//const t = tPow;
-					const t = tCurve;
-
-					const part = parts[ currentConstructionStep ];
-
-					vector3Temp1.lerpVectors( part.userData.positionStart, part.userData.positionEnd, t );
-					vector3Temp2.subVectors( part.userData.positionEnd, part.userData.positionStart );
-					const d = vector3Temp2.length();
-					const y = d * ( - Math.pow( t - 0.5, 2 ) + 0.25 );
-
-					part.position.copy( vector3Temp1 );
-					part.position.y += y;
-
-					part.quaternion.slerpQuaternions( part.userData.quaternionStart, part.userData.partQuaternion, t );
+					default:
+						break;
 
 				}
 
 			}
 
-			function explode() {
+			function beginConstruction() {
+
+				time = 0;
+				animationState = ANIM_CONSTRUCTING;
+
+				for ( let i in parts ) {
+
+					positionPart( parts[ i ], time );
+
+				}
+
+				constructionStepController.enable();
+
+			}
+
+			function animParts( deltaTime ) {
+
+				let timeNextStep = time + deltaTime;
+
+				if ( ( deltaTime > 0 && time >= constructionDuration ) || ( deltaTime < 0 && time <= 0 ) ) {
+
+					animationState = ANIM_STOPPED;
+					time = deltaTime > 0 ? constructionDuration : 0;
+					timeNextStep = time;
+					animationButtonController.name( "Start animation" );
+					constructionStepController.disable();
+
+					//animationState = ANIM_WAIT;
+					//timeNextState = time + 3;
+					//turn = ! turn;
+
+				}
+
+				let currentConstructionStep = getStepByTime( time );
+				let nextConstructionStep = getStepByTime( timeNextStep );
+				let displayConstructionStep = currentConstructionStep;
+
+				if ( Math.sign( nextConstructionStep - currentConstructionStep ) >= 0 ) {
+
+					currentConstructionStep = Math.max( 0, currentConstructionStep - 1 );
+					nextConstructionStep = Math.min( parts.length - 1, nextConstructionStep + 1 );
+
+				}
+				else {
+
+					nextConstructionStep = Math.max( 0, nextConstructionStep - 1 );
+					currentConstructionStep = Math.min( parts.length - 1, currentConstructionStep + 1 );
+
+				}
+
+				const numSteps = Math.abs( currentConstructionStep - nextConstructionStep ) + 1;
+				const stepsDir = Math.sign( nextConstructionStep - currentConstructionStep );
+				const step0 = Math.min( currentConstructionStep, nextConstructionStep );
+
+				let step = step0;
+				for ( let i = 0; i < numSteps; i ++ ) {
+
+					if ( step >= 0 && step <= parts.length - 1 ) {
+
+						positionPart( parts[ step ], time );
+
+					}
+
+					step += stepsDir;
+
+				}
+
+				guiData.constructionStep = displayConstructionStep + 1;
+				constructionStepController.updateDisplay();
+
+			}
+
+
+			function positionPart( part, t ) {
+
+				if ( part.userData.physicsControlled ) {
+
+					part.userData.positionStart.copy( part.position );
+					part.userData.quaternionStart.copy( part.quaternion );
+					part.userData.positionEnd.copy( part.userData.partPosition );
+
+					physicsWorld.removeRigidBody( part.userData.physicsBody );
+					dynamicObjects.splice( dynamicObjects.indexOf( part ), 1 );
+
+					part.userData.physicsControlled = false;
+
+				}
+
+				const step = getStepByTime( t );
+
+				let tClamped;
+
+				if ( step > part.userData.constructionStep ) tClamped = 1;
+				else if ( step < part.userData.constructionStep ) tClamped = 0;
+				else tClamped = Math.min( 1, Math.max( 0, ( t - getTimeByStep( step ) ) / stepDuration ) );
+
+				curve.getPoint( tClamped, vector3Temp1 );
+				const tCurve = vector3Temp1.y;
+
+				vector3Temp1.lerpVectors( part.userData.positionStart, part.userData.positionEnd, tCurve );
+				vector3Temp2.subVectors( part.userData.positionEnd, part.userData.positionStart );
+				const d = vector3Temp2.length();
+				const y = d * ( - Math.pow( tCurve - 0.5, 2 ) + 0.25 );
+
+				part.position.copy( vector3Temp1 );
+				part.position.y += y;
+
+				part.quaternion.slerpQuaternions( part.userData.quaternionStart, part.userData.partQuaternion, tCurve );
+
+			}
+
+			function reenablePhysics() {
 
 				for ( let i in parts ) {
 
 					const part = parts[ i ];
 
-					part.position.x += getTurnOffset();
-
 					updateRigidBodyFromObject( part );
 					physicsWorld.addRigidBody( part.userData.physicsBody );
 					dynamicObjects.push( part );
+					part.userData.physicsControlled = true;
 
 				}
 
-				timeCurrentState = timeNextState;
-				timeNextState = time + 5;
-				animationState = ANIM_FALLING;
-
 			}
-
 
 			function getModelsDataBase( constructionSet, onLoaded ) {
 
@@ -816,6 +1028,12 @@
 
 				} );
 
+				modelTitleController = gui.add( guiData, 'modelTitle' ).name( 'Title' );
+				modelSeriesController = gui.add( guiData, 'modelSeries' ).name( 'Series' );
+				modelRefController = gui.add( guiData, 'modelRef' ).name( 'Reference' );
+				modelInfoURLController = gui.add( guiData, 'modelInfoURL' ).name( 'Info URL' );
+				pathController = gui.add( guiData, 'path' ).name( 'Path' );
+
 				const optionsFolder = gui.addFolder( "Options" );
 
 				optionsFolder.add( guiData, 'displayLines' ).name( 'Display Lines' ).onChange( () => {
@@ -841,7 +1059,26 @@
 				optionsFolder.close();
 
 
-				gui.add( guiData, 'startAnimation' ).name( 'Start animation' );
+				animationButtonController = gui.add( guiData, 'animationButton' ).name( 'Start animation' );
+
+				constructionStepController = gui.add( guiData, 'constructionStep', 1, 1 ).step( 1 ).name( 'Construction step' ).onChange( () => {
+
+					pauseAnimation();
+
+					animationGoToStep( guiData.constructionStep - 1 );
+
+				} );
+				constructionStepController.disable();
+
+				timeFactorController = gui.add( guiData, 'timeFactor', - 5, 5 ).name( 'Time factor' ).onChange( () => {
+
+					resumeAnimation( guiData.timeFactor );
+
+				} );
+
+				gui.add( guiData, 'goToPrevStep' ).name( '⬅️ Go back one step' );
+				gui.add( guiData, 'goToNextStep' ).name( '➡️ Go forward one step' );
+
 
 			}
 
@@ -880,11 +1117,12 @@
 
 			function render() {
 
-				const deltaTime = clock.getDelta();
+				const deltaTime = clock.getDelta() * timeFactor;
 
-				handleAnimation();
+				handleAnimation( deltaTime );
+				//handleAnimation( 1 / 60 );
 
-				updatePhysics( deltaTime );
+				if ( animationState === ANIM_FALLING ) updatePhysics( Math.abs( deltaTime ) );
 
 				renderer.render( scene, camera );
 

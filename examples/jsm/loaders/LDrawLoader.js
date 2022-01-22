@@ -1660,6 +1660,7 @@ function createObject( elements, elementSize, isConditionalSegments = false, tot
 			quadArray[ 3 ] = vertices[ 0 ];
 			quadArray[ 4 ] = vertices[ 2 ];
 			quadArray[ 5 ] = vertices[ 3 ];
+
 			vertices = quadArray;
 
 		}
