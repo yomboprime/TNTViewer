@@ -29,6 +29,7 @@
 			import { RoomEnvironment } from './jsm/environments/RoomEnvironment.js';
 
 			import { LDrawLoader } from './jsm/loaders/LDrawLoader.js';
+			//import { LDrawUtils } from './jsm/utils/LDrawUtils.js';
 
 			const constructionSets = [
 				'LEGO',
@@ -109,7 +110,7 @@
 				'Shuttle': '4494-1-Imperial Shuttle-Mini.mpd_Packed.mpd',
 				'TIE Interceptor': '6965-1-TIEIntercep_4h4MXk5.mpd_Packed.mpd',
 				'Star fighter': '6966-1-JediStarfighter-Mini.mpd_Packed.mpd',
-//				'X-Wing': '7140-1-X-wingFighter.mpd_Packed.mpd',
+				//'X-Wing': '7140-1-X-wingFighter.mpd_Packed.mpd',
 				'AT-ST': '10174-1-ImperialAT-ST-UCS.mpd_Packed.mpd'
 			};*/
 
@@ -473,7 +474,7 @@
 							if ( modelInfo.title ) guiData.modelTitle = modelInfo.title;
 							if ( modelInfo.seriesNumber ) guiData.modelSeries = modelInfo.seriesNumber;
 							if ( modelInfo.refNumber ) guiData.modelRef = modelInfo.refNumber;
-							if ( modelInfo.id && Number.isInteger( parseInt( modelInfo.id ) ) ) guiData.modelInfoURL = 'https://tente.spread/name/id/' + modelInfo.id;
+							if ( modelInfo.id && Number.isInteger( parseInt( modelInfo.id ) ) ) guiData.modelInfoURL = 'https://tente.spread.name/id/' + modelInfo.id;
 
 							pathController.updateDisplay();
 							modelTitleController.updateDisplay();
@@ -1018,7 +1019,8 @@
 
 					const filePath = dataBase.pathsList[ i ];
 					const model = dataBase.models[ filePath ];
-					fileNameMap[ model.title ] = filePath;
+
+					fileNameMap[ model.path ] = filePath;
 
 				}
 				gui.add( guiData, 'modelFileName', fileNameMap ).name( 'Model' ).onFinishChange( () => {
@@ -1028,11 +1030,13 @@
 
 				} );
 
-				modelTitleController = gui.add( guiData, 'modelTitle' ).name( 'Title' );
-				modelSeriesController = gui.add( guiData, 'modelSeries' ).name( 'Series' );
-				modelRefController = gui.add( guiData, 'modelRef' ).name( 'Reference' );
-				modelInfoURLController = gui.add( guiData, 'modelInfoURL' ).name( 'Info URL' );
-				pathController = gui.add( guiData, 'path' ).name( 'Path' );
+				const infoFolder = gui.addFolder( "Model info" );
+
+				modelTitleController = infoFolder.add( guiData, 'modelTitle' ).name( 'Title' );
+				modelSeriesController = infoFolder.add( guiData, 'modelSeries' ).name( 'Series' );
+				modelRefController = infoFolder.add( guiData, 'modelRef' ).name( 'Reference' );
+				modelInfoURLController = infoFolder.add( guiData, 'modelInfoURL' ).name( 'Info URL' );
+				pathController = infoFolder.add( guiData, 'path' ).name( 'Path' );
 
 				const optionsFolder = gui.addFolder( "Options" );
 
