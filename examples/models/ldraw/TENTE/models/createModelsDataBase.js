@@ -8,13 +8,13 @@ Execute with 'node createModelsDataBase.js'
 
 // Imports
 
-var fs = require( "fs" );
-var pathJoin = require( 'path' ).join;
+const fs = require( "fs" );
+const pathJoin = require( 'path' ).join;
 
 
 // Main code
 
-var dataBase = {
+const dataBase = {
 
 	models: {},
 
@@ -82,8 +82,8 @@ scanDirectory( __dirname, '' );
 
 dataBase.pathsList.sort( ( a, b ) => {
 
-	var aOf = a.startsWith( 'oficiales' );
-	var bOf = b.startsWith( 'oficiales' );
+	const aOf = a.startsWith( 'oficiales' );
+	const bOf = b.startsWith( 'oficiales' );
 
 	if ( aOf === bOf ) return a === b ? 0 : ( a < b ? - 1 : 1 );
 
@@ -95,13 +95,13 @@ console.log( "Total: " + dataBase.pathsList.length + " models." );
 console.log();
 
 let numModelsInSourceDataBase = 0;
-for ( var i = 0, n = dataBase.pathsList.length; i < n; i++ ) {
+for ( let i in dataBase.pathsList ) {
 
-	var modelPath = dataBase.pathsList[ i ];
+	const modelPath = dataBase.pathsList[ i ];
 
 	console.log( "Processing model " + modelPath + " ..." );
 
-	var model = {
+	let model = {
 		path: modelPath,
 		id: '',
 		title: '',
@@ -175,6 +175,7 @@ for ( var i = 0, n = dataBase.pathsList.length; i < n; i++ ) {
 		}
 
 	}
+	else model.title = model.path;
 
 }
 
@@ -187,14 +188,105 @@ console.log( "Writing models.json ..." );
 
 if ( ! writeJSONFileSync( dataBase, pathJoin( __dirname, "models.json" ) ) ) {
 
-	console.log( "ERROR writing models.json!" );
+	console.log( "ERROR writing models.json !" );
+	return;
 
 }
-else {
 
-	console.log( "Done. Have a nice day." );
+
+const htmlModelListPath = '../../../../tnt_models.html';
+
+console.log();
+console.log( "Writing " + htmlModelListPath );
+
+let htmlModelListContent =
+`<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link type="text/css" rel="stylesheet" href="tnt_models.css" />
+	</head>
+	<body>
+		<h1>TNT Viewer models list</h1>
+		<h2>Index</h2>
+		<ul>
+			<li>Official models</li>
+			<li>Custom models</li>
+		</ul>
+		<h2>Official models</h2>
+		<table>
+			<tr>
+				<th>Title</th>
+				<th>Series</th>
+				<th>Reference</th>
+				<th>View model</th>
+				<th>Model information</th>
+			</tr>
+***OFFICIAL_MODELS***
+		</table>
+		<h2>Custom models</h2>
+		<table>
+			<tr>
+				<th>Title</th>
+				<th>View model</th>
+			</tr>
+***CUSTOM_MODELS***
+		</table>
+	</body>
+</html>`;
+
+
+let officialModelsContent = '';
+let customModelsContent = '';
+
+for ( let i in dataBase.pathsList ) {
+
+	const modelPath = dataBase.pathsList[ i ];
+	const model = dataBase.models[ modelPath ];
+
+	if ( modelPath.startsWith( 'oficiales/' ) ) {
+
+			officialModelsContent +=
+`			<tr>
+				<td>` + model.title + `</td>
+				<td>` + ( model.seriesNumber ? model.seriesNumber : "No series." ) + `</td>
+				<td>` + ( model.refNumber ? model.refNumber : "No ref." ) + `</td>
+				<td><a href="https://yomboprime.github.io/TNTViewer/examples/tnt.html?modelPath=` + model.path + `">View model</a></td>
+				` +
+				(
+					model.id ?
+					`<td><a href="https://tente.spread.name/id/` + model.id + `">Model information</a></td>`
+					:
+					`<td>No info.</td>`
+				) +
+				`
+			</tr>
+`;
+
+	}
+	else {
+
+			customModelsContent +=
+`			<tr>
+				<td>` + model.title + `</td>
+				<td><a href="https://yomboprime.github.io/TNTViewer/examples/tnt.html?modelPath=` + model.path + `">View model</a></td>
+			</tr>
+`;
+
+	}
 
 }
+
+htmlModelListContent = htmlModelListContent.replace( '***OFFICIAL_MODELS***', officialModelsContent );
+htmlModelListContent = htmlModelListContent.replace( '***CUSTOM_MODELS***', customModelsContent );
+
+if ( ! writeTextFileSync( htmlModelListContent, pathJoin( __dirname, htmlModelListPath ) ) ) {
+
+	console.log( "ERROR writing tnt_models.html !" );
+
+}
+
+console.log( "Done. Have a nice day." );
 
 
 // Functions
@@ -203,7 +295,7 @@ function scanDirectory( base, path ) {
 
 	if ( path ) console.log( "Entering directory " + path + " ..." );
 
-	var files = fs.readdirSync( pathJoin( base, path ) );
+	const files = fs.readdirSync( pathJoin( base, path ) );
 
 	if ( ! files ) {
 
@@ -214,11 +306,11 @@ function scanDirectory( base, path ) {
 
 	for ( var i = 0, n = files.length; i < n; i++ ) {
 
-		var fileName = files[ i ];
+		const fileName = files[ i ];
 
-		var filePath = pathJoin( path, fileName );
+		const filePath = pathJoin( path, fileName );
 
-		var stat = fs.statSync( pathJoin( base, filePath ) );
+		const stat = fs.statSync( pathJoin( base, filePath ) );
 
 		if ( stat.isDirectory() ) {
 
@@ -243,7 +335,7 @@ function scanDirectory( base, path ) {
 
 function writeJSONFileSync( object, path ) {
 
-	var content = getObjectSerializedAsString( object, true );
+	const content = getObjectSerializedAsString( object, true );
 
 	if ( ! content ) {
 

@@ -75,6 +75,8 @@
 			let modelRefController;
 			let modelInfoURLController;
 
+			let infoDiv;
+
 			// Physics variables
 			let collisionConfiguration;
 			let dispatcher;
@@ -175,6 +177,12 @@
 					let initialModel = isOptionSet( 'modelPath' ) ? getOption( 'modelPath', false ) : 'oficiales/Aire_0501_servicio_autopista.ldr';
 					const urlParams = new URLSearchParams( window.location.search );
 					if ( urlParams.get( 'modelPath' ) ) initialModel = urlParams.get( 'modelPath' );
+					if ( urlParams.get( 'modelId' ) ) {
+
+						const mp = searchModelByField( 'id', urlParams.get( 'modelId' ) );
+						if ( mp ) initialModel = dataBase.models[ mp ].path;
+
+					}
 
 					let displayLines = isOptionSet( 'displayLines' ) ? getOption( 'displayLines' ) : true;
 
@@ -482,6 +490,16 @@
 							modelRefController.updateDisplay();
 							modelInfoURLController.updateDisplay();
 
+							let infoText = 'See all models in TNTViewer <a href="https://yomboprime.github.io/TNTViewer/examples/tnt_models.html">models list</a>.' +
+								'<br>TNTViewer project <a href="https://github.com/yomboprime/TNTViewer">code at github.com</a>';
+
+							if ( modelInfo.id && Number.isInteger( parseInt( modelInfo.id ) ) ) {
+
+								infoText += '<br>Go <a href="https://tente.spread.name/id/' + modelInfo.id + '"><b>here for model info</b> (external link)</a>';
+
+							}
+							infoDiv.innerHTML = infoText;
+
 						}
 
 						hideProgressBar();
@@ -489,6 +507,20 @@
 					}, onProgress, onError );
 
 				} );
+
+			}
+
+			function searchModelByField( field, value ) {
+
+				for ( modelPath in pathsList ) {
+
+					const model = dataBase.models[ modelPath ];
+
+					if ( model[ field ] === value ) return modelPath;
+
+				}
+
+				return null;
 
 			}
 
@@ -1082,6 +1114,16 @@
 
 				gui.add( guiData, 'goToPrevStep' ).name( '⬅️ Go back one step' );
 				gui.add( guiData, 'goToNextStep' ).name( '➡️ Go forward one step' );
+
+
+				infoDiv = document.createElement( 'div' );
+				infoDiv.innerHTML = 'If model does not load go to the <a href="https://yomboprime.github.io/TNTViewer/examples/tnt_models.html">Models list</a> and try loading a different one.'
+				infoDiv.style.position = 'absolute';
+				infoDiv.style.top = '10px';
+				infoDiv.style.left = '10px';
+				infoDiv.style.width = '60%';
+				infoDiv.style.color = '#A0B0C0';
+				container.appendChild( infoDiv) ;
 
 
 			}
