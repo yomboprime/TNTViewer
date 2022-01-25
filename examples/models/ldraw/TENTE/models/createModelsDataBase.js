@@ -46,6 +46,15 @@ for ( let l in sourceDataBase ) {
 
 	if ( fields.length !== 5 ) continue;
 
+	fields[ 1 ] = fields[ 1 ]
+		.replace( 'á', 'a' ).replace( 'Á', 'A' )
+		.replace( 'é', 'e' ).replace( 'É', 'E' )
+		.replace( 'í', 'i' ).replace( 'Í', 'I' )
+		.replace( 'ó', 'o' ).replace( 'Ó', 'O' )
+		.replace( 'ó', 'u' ).replace( 'Ú', 'U' )
+		.replace( 'ñ', 'n' ).replace( 'Ñ', 'N' )
+		.replace( ' ', '_' );
+
 	sourceDataBaseFields.push( fields );
 
 	/*
@@ -59,8 +68,6 @@ for ( let l in sourceDataBase ) {
 }
 
 function findSeriesRef( series, ref ) {
-
-console.log( "series, ref: *" + series + "*, *" + ref + "*" );
 
 	for ( let l in sourceDataBaseFields ) {
 
@@ -130,7 +137,7 @@ for ( let i in dataBase.pathsList ) {
 		}
 		else {
 
-			if ( Number.isInteger( parseInt( pathFields[ 0 ] ) ) ) {
+			if ( Number.isInteger( parseInt( pathFields[ 0 ] ) ) && ! Number.isInteger( parseInt( pathFields[ 1 ] ) ) ) {
 
 				model.refNumber = pathFields[ 0 ];
 
@@ -143,6 +150,7 @@ for ( let i in dataBase.pathsList ) {
 			else if ( Number.isInteger( parseInt( pathFields[ 1 ] ) ) ) {
 
 				model.seriesNumber = pathFields[ 0 ];
+
 				model.refNumber = pathFields[ 1 ];
 
 				// Search in source database by series and ref
@@ -176,6 +184,12 @@ for ( let i in dataBase.pathsList ) {
 
 	}
 	else model.title = model.path;
+
+	if ( model.title.endsWith( '.ldr' ) ) {
+
+		model.title = model.title.substring( 0, model.title.length - 4 );
+
+	}
 
 }
 
@@ -221,6 +235,7 @@ let htmlModelListContent =
 				<th>Reference</th>
 				<th>View model</th>
 				<th>Model information</th>
+				<th>File</th>
 			</tr>
 ***OFFICIAL_MODELS***
 		</table>
@@ -229,6 +244,7 @@ let htmlModelListContent =
 			<tr>
 				<th>Title</th>
 				<th>View model</th>
+				<th>File</th>
 			</tr>
 ***CUSTOM_MODELS***
 		</table>
@@ -245,13 +261,13 @@ for ( let i in dataBase.pathsList ) {
 	const model = dataBase.models[ modelPath ];
 
 	if ( modelPath.startsWith( 'oficiales/' ) ) {
-
+//<td><a href="https://yomboprime.github.io/TNTViewer/examples/tnt.html?modelPath=` + model.path + `">View model</a></td>
 			officialModelsContent +=
 `			<tr>
 				<td>` + model.title + `</td>
 				<td>` + ( model.seriesNumber ? model.seriesNumber : "No series." ) + `</td>
 				<td>` + ( model.refNumber ? model.refNumber : "No ref." ) + `</td>
-				<td><a href="https://yomboprime.github.io/TNTViewer/examples/tnt.html?modelPath=` + model.path + `">View model</a></td>
+				<td><a href="http://127.0.0.1:8091/examples/tnt.html?modelPath=` + model.path + `">View model</a></td>
 				` +
 				(
 					model.id ?
@@ -260,6 +276,7 @@ for ( let i in dataBase.pathsList ) {
 					`<td>No info.</td>`
 				) +
 				`
+				<td>` + ( model.path ? model.path : "No file." ) + `</td>
 			</tr>
 `;
 
@@ -269,7 +286,8 @@ for ( let i in dataBase.pathsList ) {
 			customModelsContent +=
 `			<tr>
 				<td>` + model.title + `</td>
-				<td><a href="https://yomboprime.github.io/TNTViewer/examples/tnt.html?modelPath=` + model.path + `">View model</a></td>
+				<td><a href="http://127.0.0.1:8091/examples/tnt.html?modelPath=` + model.path + `">View model</a>
+				<td>` + ( model.path ? model.path : "No file." ) + `</td>
 			</tr>
 `;
 

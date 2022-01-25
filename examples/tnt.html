@@ -162,73 +162,105 @@
 
 				//
 
-				lDrawLoader = new LDrawLoader();
-				lDrawLoader.smoothNormals = true;
-
 				currentConstructionSet = 'TENTE';
 
-				getModelsDataBase( currentConstructionSet, ( db ) => {
+				lDrawLoader = new LDrawLoader();
+				lDrawLoader.smoothNormals = true;
+				lDrawLoader.setPath( getLibraryPath( currentConstructionSet ) );
+				lDrawLoader.preloadMaterials( 'LDConfig.ldr' ).then( () => {
 
-					dataBase = db;
+					getModelsDataBase( currentConstructionSet, ( db ) => {
 
-					// Load config
-					//localStorage.clear();
+						dataBase = db;
 
-					let initialModel = isOptionSet( 'modelPath' ) ? getOption( 'modelPath', false ) : 'oficiales/Aire_0501_servicio_autopista.ldr';
-					const urlParams = new URLSearchParams( window.location.search );
-					if ( urlParams.get( 'modelPath' ) ) initialModel = urlParams.get( 'modelPath' );
-					if ( urlParams.get( 'modelId' ) ) {
+						// Load config
+						//localStorage.clear();
 
-						const mp = searchModelByField( 'id', urlParams.get( 'modelId' ) );
-						if ( mp ) initialModel = dataBase.models[ mp ].path;
+						let initialModel = isOptionSet( 'modelPath' ) ? getOption( 'modelPath', false ) : 'oficiales/Aire_0501_servicio_autopista.ldr';
+						const urlParams = new URLSearchParams( window.location.search );
+						if ( urlParams.get( 'modelPath' ) ) initialModel = urlParams.get( 'modelPath' );
+						if ( urlParams.get( 'modelId' ) ) {
 
-					}
+							const mp = searchModelByField( 'id', urlParams.get( 'modelId' ) );
+							if ( mp ) initialModel = dataBase.models[ mp ].path;
 
-					let displayLines = isOptionSet( 'displayLines' ) ? getOption( 'displayLines' ) : true;
+						}
 
-					const backgroundColor = { r: scene.background.r, g: scene.background.g, b: scene.background.b }
-					if ( isOptionSet( 'backgroundColor.r' ) ) {
+						let displayLines = isOptionSet( 'displayLines' ) ? getOption( 'displayLines' ) : true;
 
-						backgroundColor.r = getOption( 'backgroundColor.r' );
-						backgroundColor.g = getOption( 'backgroundColor.g' );
-						backgroundColor.b = getOption( 'backgroundColor.b' );
-						scene.background.setRGB( backgroundColor.r, backgroundColor.g, backgroundColor.b );
+						const backgroundColor = { r: scene.background.r, g: scene.background.g, b: scene.background.b }
+						if ( isOptionSet( 'backgroundColor.r' ) ) {
 
-					}
+							backgroundColor.r = getOption( 'backgroundColor.r' );
+							backgroundColor.g = getOption( 'backgroundColor.g' );
+							backgroundColor.b = getOption( 'backgroundColor.b' );
+							scene.background.setRGB( backgroundColor.r, backgroundColor.g, backgroundColor.b );
 
-					guiData = {
-						modelFileName: initialModel,
-						animationButton: animationButton,
-						displayLines: displayLines,
-						backgroundColor: backgroundColor,
-						constructionStep: 0,
-						timeFactor: 1,
-						goToNextStep: goToNextStep,
-						goToPrevStep: goToPrevStep,
-						modelTitle: 'kjsbdh kjshkj sdjk sdsjlkdkjhdsa kj',
-						modelSeries: 'AAAA',
-						modelRef: '0001',
-						modelInfoURL: 'https://www.google.com',
-						path: '---'
-					};
+						}
 
-					window.addEventListener( 'resize', onWindowResize );
+						const mainMat = lDrawLoader.getMainMaterial();
+						const mainEdgeMat = mainMat.userData.edgeMaterial;
+						const mainEdgeCondMat = mainEdgeMat.userData.conditionalEdgeMaterial;
 
-					progressBarDiv = document.createElement( 'div' );
-					progressBarDiv.innerText = 'Loading...';
-					progressBarDiv.style.fontSize = '3em';
-					progressBarDiv.style.color = '#888';
-					progressBarDiv.style.display = 'block';
-					progressBarDiv.style.position = 'absolute';
-					progressBarDiv.style.top = '50%';
-					progressBarDiv.style.width = '100%';
-					progressBarDiv.style.textAlign = 'center';
+						if ( isOptionSet( 'mainColor.r' ) ) {
 
-					initPhysics();
+							const r = getOption( 'mainColor.r' );
+							const g = getOption( 'mainColor.g' );
+							const b = getOption( 'mainColor.b' );
+							mainMat.color.setRGB( r, g, b );
 
-					reloadObject( true );
+						}
 
-					animate();
+						if ( isOptionSet( 'mainEdgeColor.r' ) ) {
+
+							const r = getOption( 'mainEdgeColor.r' );
+							const g = getOption( 'mainEdgeColor.g' );
+							const b = getOption( 'mainEdgeColor.b' );
+							mainEdgeMat.color.setRGB( r, g, b );
+							mainEdgeCondMat.color.setRGB( r, g, b );
+
+						}
+
+						const mainColor = { r: mainMat.color.r, g: mainMat.color.g, b: mainMat.color.b }
+						const mainEdgeColor = { r: mainEdgeMat.color.r, g: mainEdgeMat.color.g, b: mainEdgeMat.color.b }
+
+						guiData = {
+							modelFileName: initialModel,
+							animationButton: animationButton,
+							displayLines: displayLines,
+							backgroundColor: backgroundColor,
+							mainColor: mainColor,
+							mainEdgeColor: mainEdgeColor,
+							constructionStep: 0,
+							timeFactor: 1,
+							goToNextStep: goToNextStep,
+							goToPrevStep: goToPrevStep,
+							modelTitle: '',
+							modelSeries: '',
+							modelRef: '',
+							modelInfoURL: '',
+							path: ''
+						};
+
+						window.addEventListener( 'resize', onWindowResize );
+
+						progressBarDiv = document.createElement( 'div' );
+						progressBarDiv.innerText = 'Loading...';
+						progressBarDiv.style.fontSize = '3em';
+						progressBarDiv.style.color = '#888';
+						progressBarDiv.style.display = 'block';
+						progressBarDiv.style.position = 'absolute';
+						progressBarDiv.style.top = '50%';
+						progressBarDiv.style.width = '100%';
+						progressBarDiv.style.textAlign = 'center';
+
+						initPhysics();
+
+						reloadObject( true );
+
+						animate();
+
+					} );
 
 				} );
 
@@ -412,101 +444,110 @@
 				updateProgressBar( 0 );
 				showProgressBar();
 
-				lDrawLoader.setPath( getLibraryPath( currentConstructionSet ) );
-				lDrawLoader.preloadMaterials( 'LDConfig.ldr' ).then( () => {
+				const isLoadingPart = isPartPath( guiData.modelFileName );
 
-					lDrawLoader.setPartsLibraryPath( getLibraryPath( currentConstructionSet ) );
-					lDrawLoader.setPath( getModelPath( currentConstructionSet ) );
-					lDrawLoader.load( guiData.modelFileName, function ( model ) {
+				lDrawLoader.setPartsLibraryPath( getLibraryPath( currentConstructionSet ) );
+				lDrawLoader.setPath( getModelPath( currentConstructionSet ) );
+				lDrawLoader.load( guiData.modelFileName, function ( model ) {
 
-						if ( parts ) {
+					if ( parts ) {
 
-							for ( let i in parts ) {
+						for ( let i in parts ) {
 
-								const part = parts[ i ];
+							const part = parts[ i ];
 
-								scene.remove( part );
+							scene.remove( part );
 
-								physicsWorld.removeRigidBody( part.userData.physicsBody );
-
-							}
-
-						}
-						if ( models ) for ( let i in models ) scene.remove( models[ i ] );
-
-						parts = [];
-						models = [];
-						dynamicObjects = [];
-						turn = true;
-
-						// Convert from LDraw coordinates: rotate 180 degrees around OX
-						model.rotation.x = Math.PI;
-
-						const modelBbox = new THREE.Box3().setFromObject( model );
-						const size = modelBbox.getSize( new THREE.Vector3() );
-						const radius = Math.max( size.x, Math.max( size.y, size.z ) ) * 0.5;
-						modelDiameter = 2 * radius;
-
-						// Put above floor
-						model.position.y = - modelBbox.min.y;
-
-						models.push( model );
-						scene.add( model );
-
-						updateObjectsVisibility();
-
-						time = 0;
-						animationState = ANIM_STOPPED;
-						animationCreated = false;
-
-						// Adjust camera
-
-						if ( resetCamera ) {
-
-							const pos = modelBbox.getCenter( new THREE.Vector3() );
-							pos.y += model.position.y;
-							setCamera( pos.x, pos.y, pos.z );
+							physicsWorld.removeRigidBody( part.userData.physicsBody );
 
 						}
 
-						createGUI();
+					}
+					if ( models ) for ( let i in models ) scene.remove( models[ i ] );
 
-						guiData.modelTitle = "No title.";
-						guiData.path = guiData.modelFileName;
-						guiData.modelSeries = "No series.";
-						guiData.modelRef = "No ref.";
-						guiData.modelInfoURL = "No URL.";
-						const modelInfo = dataBase.models[ guiData.modelFileName ];
-						if ( modelInfo ) {
+					parts = [];
+					models = [];
+					dynamicObjects = [];
+					turn = true;
 
-							if ( modelInfo.title ) guiData.modelTitle = modelInfo.title;
-							if ( modelInfo.seriesNumber ) guiData.modelSeries = modelInfo.seriesNumber;
-							if ( modelInfo.refNumber ) guiData.modelRef = modelInfo.refNumber;
-							if ( modelInfo.id && Number.isInteger( parseInt( modelInfo.id ) ) ) guiData.modelInfoURL = 'https://tente.spread.name/id/' + modelInfo.id;
+					// Convert from LDraw coordinates: rotate 180 degrees around OX
+					model.rotation.x = Math.PI;
 
-							pathController.updateDisplay();
-							modelTitleController.updateDisplay();
-							modelSeriesController.updateDisplay();
-							modelRefController.updateDisplay();
-							modelInfoURLController.updateDisplay();
+					const modelBbox = new THREE.Box3().setFromObject( model );
+					const size = modelBbox.getSize( new THREE.Vector3() );
+					const radius = Math.max( size.x, Math.max( size.y, size.z ) ) * 0.5;
+					modelDiameter = 2 * radius;
 
-							let infoText = 'See all models in TNTViewer <a href="https://yomboprime.github.io/TNTViewer/examples/tnt_models.html">models list</a>.' +
-								'<br>TNTViewer project <a href="https://github.com/yomboprime/TNTViewer">code at github.com</a>';
+					// Put above floor
+					model.position.y = - modelBbox.min.y;
 
-							if ( modelInfo.id && Number.isInteger( parseInt( modelInfo.id ) ) ) {
+					models.push( model );
+					scene.add( model );
 
-								infoText += '<br>Go <a href="https://tente.spread.name/id/' + modelInfo.id + '"><b>here for model info</b> (external link)</a>';
+					updateObjectsVisibility();
 
-							}
-							infoDiv.innerHTML = infoText;
+					time = 0;
+					animationState = ANIM_STOPPED;
+					animationCreated = false;
+
+					// Adjust camera
+
+					if ( resetCamera ) {
+
+						const pos = modelBbox.getCenter( new THREE.Vector3() );
+						pos.y += model.position.y;
+						setCamera( pos.x, pos.y, pos.z );
+
+					}
+
+					createGUI();
+
+					guiData.modelTitle = "No title.";
+					guiData.path = guiData.modelFileName;
+					guiData.modelSeries = "No series.";
+					guiData.modelRef = "No ref.";
+					guiData.modelInfoURL = "No URL.";
+					const modelInfo = dataBase.models[ guiData.modelFileName ];
+					if ( modelInfo ) {
+
+						if ( modelInfo.title ) guiData.modelTitle = modelInfo.title;
+						if ( modelInfo.seriesNumber ) guiData.modelSeries = modelInfo.seriesNumber;
+						if ( modelInfo.refNumber ) guiData.modelRef = modelInfo.refNumber;
+						if ( modelInfo.id && Number.isInteger( parseInt( modelInfo.id ) ) ) guiData.modelInfoURL = 'https://tente.spread.name/id/' + modelInfo.id;
+
+						pathController.updateDisplay();
+						modelTitleController.updateDisplay();
+						modelSeriesController.updateDisplay();
+						modelRefController.updateDisplay();
+						modelInfoURLController.updateDisplay();
+
+						let infoText = '';
+						let infoHeight = 50;
+
+						if ( modelInfo.id && Number.isInteger( parseInt( modelInfo.id ) ) ) {
+
+							infoText += 'Go <a href="https://tente.spread.name/id/' + modelInfo.id + '"><b>here for model info</b> (external link)</a>';
+							//infoHeight = 100;
 
 						}
 
-						hideProgressBar();
+						infoText += '<br>See <a href="https://yomboprime.github.io/TNTViewer/examples/tnt_models.html">models list</a>.' +
+							'<br><a href="https://github.com/yomboprime/TNTViewer">TNTViewer at Github</a>';
 
-					}, onProgress, onError );
+						infoDiv.innerHTML = infoText;
+						infoDiv.style.bottom = infoHeight + 'px';
 
-				} );
+					}
+
+					hideProgressBar();
+
+				}, onProgress, onError );
+
+			}
+
+			function isPartPath( path ) {
+
+				return path.startsWith( '../parts/' );
 
 			}
 
@@ -1072,11 +1113,27 @@
 
 				const optionsFolder = gui.addFolder( "Options" );
 
-				optionsFolder.add( guiData, 'displayLines' ).name( 'Display Lines' ).onChange( () => {
+				optionsFolder.addColor( guiData, 'mainColor' ).name( 'Main color' ).onChange( () => {
 
-					setOption( 'displayLines', guiData.displayLines );
+					const mainMat = lDrawLoader.getMainMaterial();
+					mainMat.color.setRGB( guiData.mainColor.r, guiData.mainColor.g, guiData.mainColor.b );
+					setOption( 'mainColor.r', mainMat.color.r );
+					setOption( 'mainColor.g', mainMat.color.g );
+					setOption( 'mainColor.b', mainMat.color.b );
 
-					updateObjectsVisibility();
+				} );
+
+				optionsFolder.addColor( guiData, 'mainEdgeColor' ).name( 'Main edge color' ).onChange( () => {
+
+					const mainMat = lDrawLoader.getMainMaterial();
+					//const mainEdgeMat = lDrawLoader.getMainEdgeMaterial();
+					const mainEdgeMat = mainMat.userData.edgeMaterial;
+					const mainEdgeCondMat = mainEdgeMat.userData.conditionalEdgeMaterial;
+					mainEdgeMat.color.setRGB( guiData.mainEdgeColor.r, guiData.mainEdgeColor.g, guiData.mainEdgeColor.b );
+					mainEdgeCondMat.color.setRGB( guiData.mainEdgeColor.r, guiData.mainEdgeColor.g, guiData.mainEdgeColor.b );
+					setOption( 'mainEdgeColor.r', mainEdgeMat.color.r );
+					setOption( 'mainEdgeColor.g', mainEdgeMat.color.g );
+					setOption( 'mainEdgeColor.b', mainEdgeMat.color.b );
 
 				} );
 
@@ -1089,6 +1146,14 @@
 					setOption( 'backgroundColor.r', guiData.backgroundColor.r );
 					setOption( 'backgroundColor.g', guiData.backgroundColor.g );
 					setOption( 'backgroundColor.b', guiData.backgroundColor.b );
+
+				} );
+
+				optionsFolder.add( guiData, 'displayLines' ).name( 'Display Lines' ).onChange( () => {
+
+					setOption( 'displayLines', guiData.displayLines );
+
+					updateObjectsVisibility();
 
 				} );
 
@@ -1116,14 +1181,15 @@
 				gui.add( guiData, 'goToNextStep' ).name( '➡️ Go forward one step' );
 
 
+				if ( container.contains( infoDiv ) ) container.removeChild( infoDiv );
 				infoDiv = document.createElement( 'div' );
-				infoDiv.innerHTML = 'If model does not load go to the <a href="https://yomboprime.github.io/TNTViewer/examples/tnt_models.html">Models list</a> and try loading a different one.'
+				infoDiv.innerHTML = 'If model does not load go to the <a href="https://yomboprime.github.io/TNTViewer/examples/tnt_models.html">Models list</a> and try loading a different one.';
 				infoDiv.style.position = 'absolute';
-				infoDiv.style.top = '10px';
-				infoDiv.style.left = '10px';
+				infoDiv.style.bottom = '50px';
+				infoDiv.style.left = '200px';
 				infoDiv.style.width = '60%';
 				infoDiv.style.color = '#A0B0C0';
-				container.appendChild( infoDiv) ;
+				container.appendChild( infoDiv );
 
 
 			}

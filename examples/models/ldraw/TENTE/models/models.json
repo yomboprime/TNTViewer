@@ -1,100 +1,79 @@
 {
     "models": {
-        "oficiales/0403_avion_iniciacion.ldr": {
-            "path": "oficiales/0403_avion_iniciacion.ldr",
-            "id": "",
-            "title": "avion iniciacion.ldr",
-            "seriesNumber": null,
-            "refNumber": "0403"
-        },
-        "oficiales/353_karpan.ldr": {
-            "path": "oficiales/353_karpan.ldr",
-            "id": "",
-            "title": "karpan.ldr",
-            "seriesNumber": null,
-            "refNumber": "353"
-        },
-        "oficiales/401_casa_caja_1.ldr": {
-            "path": "oficiales/401_casa_caja_1.ldr",
-            "id": "",
-            "title": "casa caja 1.ldr",
-            "seriesNumber": null,
-            "refNumber": "401"
+        "oficiales/400_420_estacionservicio.ldr": {
+            "path": "oficiales/400_420_estacionservicio.ldr",
+            "id": "5",
+            "title": "420",
+            "seriesNumber": "400",
+            "refNumber": "420"
         },
         "oficiales/401_f1tesoro.ldr": {
             "path": "oficiales/401_f1tesoro.ldr",
             "id": "",
-            "title": "f1tesoro.ldr",
+            "title": "f1tesoro",
             "seriesNumber": null,
             "refNumber": "401"
         },
         "oficiales/402_casa402.ldr": {
             "path": "oficiales/402_casa402.ldr",
             "id": "",
-            "title": "casa402.ldr",
+            "title": "casa402",
             "seriesNumber": null,
             "refNumber": "402"
         },
         "oficiales/403_casa403.ldr": {
             "path": "oficiales/403_casa403.ldr",
             "id": "",
-            "title": "casa403.ldr",
+            "title": "casa403",
             "seriesNumber": null,
             "refNumber": "403"
         },
         "oficiales/403_casahalt.ldr": {
             "path": "oficiales/403_casahalt.ldr",
             "id": "",
-            "title": "casahalt.ldr",
+            "title": "casahalt",
             "seriesNumber": null,
             "refNumber": "403"
         },
         "oficiales/403_chalet403.ldr": {
             "path": "oficiales/403_chalet403.ldr",
             "id": "",
-            "title": "chalet403.ldr",
+            "title": "chalet403",
             "seriesNumber": null,
             "refNumber": "403"
         },
         "oficiales/403_cochetente3.ldr": {
             "path": "oficiales/403_cochetente3.ldr",
             "id": "",
-            "title": "cochetente3.ldr",
+            "title": "cochetente3",
             "seriesNumber": null,
             "refNumber": "403"
-        },
-        "oficiales/420_estacionservicio.ldr": {
-            "path": "oficiales/420_estacionservicio.ldr",
-            "id": "",
-            "title": "estacionservicio.ldr",
-            "seriesNumber": null,
-            "refNumber": "420"
         },
         "oficiales/70021_patrulla_espacial.ldr": {
             "path": "oficiales/70021_patrulla_espacial.ldr",
             "id": "",
-            "title": "patrulla espacial.ldr",
+            "title": "patrulla espacial",
             "seriesNumber": null,
             "refNumber": "70021"
         },
         "oficiales/70021_patrulla_espacial_borras.ldr": {
             "path": "oficiales/70021_patrulla_espacial_borras.ldr",
             "id": "",
-            "title": "patrulla espacial borras.ldr",
+            "title": "patrulla espacial borras",
             "seriesNumber": null,
             "refNumber": "70021"
         },
         "oficiales/70022_desintegrador_borras.ldr": {
             "path": "oficiales/70022_desintegrador_borras.ldr",
             "id": "",
-            "title": "desintegrador borras.ldr",
+            "title": "desintegrador borras",
             "seriesNumber": null,
             "refNumber": "70022"
         },
         "oficiales/70037_airportservice.ldr": {
             "path": "oficiales/70037_airportservice.ldr",
             "id": "",
-            "title": "airportservice.ldr",
+            "title": "airportservice",
             "seriesNumber": null,
             "refNumber": "70037"
         },
@@ -122,7 +101,7 @@
         "oficiales/Alpha_0370_ControlAereo.ldr": {
             "path": "oficiales/Alpha_0370_ControlAereo.ldr",
             "id": "",
-            "title": "ControlAereo.ldr",
+            "title": "ControlAereo",
             "seriesNumber": "Alpha",
             "refNumber": "0370"
         },
@@ -318,7 +297,7 @@
         "oficiales/Astro_0678_aranalunar.ldr": {
             "path": "oficiales/Astro_0678_aranalunar.ldr",
             "id": "",
-            "title": "aranalunar.ldr",
+            "title": "aranalunar",
             "seriesNumber": "Astro",
             "refNumber": "0678"
         },
@@ -378,66 +357,80 @@
             "seriesNumber": "Astro",
             "refNumber": "0740"
         },
+        "oficiales/Basico_0401_casa_caja_1.ldr": {
+            "path": "oficiales/Basico_0401_casa_caja_1.ldr",
+            "id": "21",
+            "title": "1 / 401",
+            "seriesNumber": "Basico",
+            "refNumber": "0401"
+        },
+        "oficiales/Basico_0403_avion_iniciacion.ldr": {
+            "path": "oficiales/Basico_0403_avion_iniciacion.ldr",
+            "id": "23",
+            "title": "3 / 402",
+            "seriesNumber": "Basico",
+            "refNumber": "0403"
+        },
         "oficiales/Borras_patrullaespacial.ldr": {
             "path": "oficiales/Borras_patrullaespacial.ldr",
             "id": "",
-            "title": "Borras patrullaespacial.ldr",
+            "title": "Borras patrullaespacial",
             "seriesNumber": null,
             "refNumber": null
         },
         "oficiales/Combi_0333_corfu.ldr": {
             "path": "oficiales/Combi_0333_corfu.ldr",
             "id": "",
-            "title": "corfu.ldr",
+            "title": "corfu",
             "seriesNumber": "Combi",
             "refNumber": "0333"
         },
         "oficiales/Combi_0340_lectorgeologico.ldr": {
             "path": "oficiales/Combi_0340_lectorgeologico.ldr",
             "id": "",
-            "title": "lectorgeologico.ldr",
+            "title": "lectorgeologico",
             "seriesNumber": "Combi",
             "refNumber": "0340"
         },
         "oficiales/Combi_1.ldr": {
             "path": "oficiales/Combi_1.ldr",
             "id": "",
-            "title": "Combi 1.ldr",
+            "title": "Combi 1",
             "seriesNumber": null,
             "refNumber": null
         },
         "oficiales/Combi_2.ldr": {
             "path": "oficiales/Combi_2.ldr",
             "id": "",
-            "title": "Combi 2.ldr",
+            "title": "Combi 2",
             "seriesNumber": null,
             "refNumber": null
         },
         "oficiales/Combi_5_8.ldr": {
             "path": "oficiales/Combi_5_8.ldr",
             "id": "",
-            "title": "8.ldr",
+            "title": "8",
             "seriesNumber": "Combi",
             "refNumber": "5"
         },
         "oficiales/Combi_6_7.ldr": {
             "path": "oficiales/Combi_6_7.ldr",
             "id": "",
-            "title": "7.ldr",
+            "title": "7",
             "seriesNumber": "Combi",
             "refNumber": "6"
         },
         "oficiales/Combi_6_generadormovil.ldr": {
             "path": "oficiales/Combi_6_generadormovil.ldr",
             "id": "",
-            "title": "generadormovil.ldr",
+            "title": "generadormovil",
             "seriesNumber": "Combi",
             "refNumber": "6"
         },
         "oficiales/Combi_7_unidad-exploradora.ldr": {
             "path": "oficiales/Combi_7_unidad-exploradora.ldr",
             "id": "",
-            "title": "unidad-exploradora.ldr",
+            "title": "unidad-exploradora",
             "seriesNumber": "Combi",
             "refNumber": "7"
         },
@@ -504,6 +497,13 @@
             "seriesNumber": "Compact",
             "refNumber": "0352"
         },
+        "oficiales/Compact_0352_karpan.ldr": {
+            "path": "oficiales/Compact_0352_karpan.ldr",
+            "id": "377",
+            "title": "KARPAN",
+            "seriesNumber": "Compact",
+            "refNumber": "0352"
+        },
         "oficiales/Compact_0353_Condor.ldr": {
             "path": "oficiales/Compact_0353_Condor.ldr",
             "id": "378",
@@ -521,168 +521,168 @@
         "oficiales/Escorpion_0543_lanza_misil_movil.ldr": {
             "path": "oficiales/Escorpion_0543_lanza_misil_movil.ldr",
             "id": "",
-            "title": "lanza misil movil.ldr",
+            "title": "lanza misil movil",
             "seriesNumber": "Escorpion",
             "refNumber": "0543"
         },
         "oficiales/Escorpion_0543_misil_autotransportado.ldr": {
             "path": "oficiales/Escorpion_0543_misil_autotransportado.ldr",
             "id": "",
-            "title": "misil autotransportado.ldr",
+            "title": "misil autotransportado",
             "seriesNumber": "Escorpion",
             "refNumber": "0543"
         },
         "oficiales/Escorpion_0543_transporte_blindado.ldr": {
             "path": "oficiales/Escorpion_0543_transporte_blindado.ldr",
             "id": "",
-            "title": "transporte blindado.ldr",
+            "title": "transporte blindado",
             "seriesNumber": "Escorpion",
             "refNumber": "0543"
         },
         "oficiales/Escorpion_0750_tanque.ldr": {
             "path": "oficiales/Escorpion_0750_tanque.ldr",
             "id": "",
-            "title": "tanque.ldr",
+            "title": "tanque",
             "seriesNumber": "Escorpion",
             "refNumber": "0750"
         },
         "oficiales/Escorpion_0751_transporteanfibio.ldr": {
             "path": "oficiales/Escorpion_0751_transporteanfibio.ldr",
             "id": "",
-            "title": "transporteanfibio.ldr",
+            "title": "transporteanfibio",
             "seriesNumber": "Escorpion",
             "refNumber": "0751"
         },
         "oficiales/Escorpion_0752_semioruga.ldr": {
             "path": "oficiales/Escorpion_0752_semioruga.ldr",
             "id": "",
-            "title": "semioruga.ldr",
+            "title": "semioruga",
             "seriesNumber": "Escorpion",
             "refNumber": "0752"
         },
         "oficiales/Escorpion_0755_ambulanciacampana.ldr": {
             "path": "oficiales/Escorpion_0755_ambulanciacampana.ldr",
             "id": "",
-            "title": "ambulanciacampana.ldr",
+            "title": "ambulanciacampana",
             "seriesNumber": "Escorpion",
             "refNumber": "0755"
         },
         "oficiales/Hasbro_0210_rainbowvan.ldr": {
             "path": "oficiales/Hasbro_0210_rainbowvan.ldr",
             "id": "",
-            "title": "rainbowvan.ldr",
+            "title": "rainbowvan",
             "seriesNumber": "Hasbro",
             "refNumber": "0210"
         },
         "oficiales/Hasbro_0212_rangerpickup.ldr": {
             "path": "oficiales/Hasbro_0212_rangerpickup.ldr",
             "id": "",
-            "title": "rangerpickup.ldr",
+            "title": "rangerpickup",
             "seriesNumber": "Hasbro",
             "refNumber": "0212"
         },
         "oficiales/Hasbro_0220_refrigeratortruck.ldr": {
             "path": "oficiales/Hasbro_0220_refrigeratortruck.ldr",
             "id": "",
-            "title": "refrigeratortruck.ldr",
+            "title": "refrigeratortruck",
             "seriesNumber": "Hasbro",
             "refNumber": "0220"
         },
         "oficiales/Hasbro_0222_caravana_americana.ldr": {
             "path": "oficiales/Hasbro_0222_caravana_americana.ldr",
             "id": "",
-            "title": "caravana americana.ldr",
+            "title": "caravana americana",
             "seriesNumber": "Hasbro",
             "refNumber": "0222"
         },
         "oficiales/Hasbro_0222_greyhoundbus.ldr": {
             "path": "oficiales/Hasbro_0222_greyhoundbus.ldr",
             "id": "",
-            "title": "greyhoundbus.ldr",
+            "title": "greyhoundbus",
             "seriesNumber": "Hasbro",
             "refNumber": "0222"
         },
         "oficiales/Hasbro_0250_formula1witht8.ldr": {
             "path": "oficiales/Hasbro_0250_formula1witht8.ldr",
             "id": "",
-            "title": "formula1witht8.ldr",
+            "title": "formula1witht8",
             "seriesNumber": "Hasbro",
             "refNumber": "0250"
         },
         "oficiales/Hasbro_0260_dumptruck.ldr": {
             "path": "oficiales/Hasbro_0260_dumptruck.ldr",
             "id": "",
-            "title": "dumptruck.ldr",
+            "title": "dumptruck",
             "seriesNumber": "Hasbro",
             "refNumber": "0260"
         },
         "oficiales/Hasbro_0260_firetruck.ldr": {
             "path": "oficiales/Hasbro_0260_firetruck.ldr",
             "id": "",
-            "title": "firetruck.ldr",
+            "title": "firetruck",
             "seriesNumber": "Hasbro",
             "refNumber": "0260"
         },
         "oficiales/Hasbro_0260_jeepconvertible.ldr": {
             "path": "oficiales/Hasbro_0260_jeepconvertible.ldr",
             "id": "",
-            "title": "jeepconvertible.ldr",
+            "title": "jeepconvertible",
             "seriesNumber": "Hasbro",
             "refNumber": "0260"
         },
         "oficiales/Hasbro_0260_mobilehome.ldr": {
             "path": "oficiales/Hasbro_0260_mobilehome.ldr",
             "id": "",
-            "title": "mobilehome.ldr",
+            "title": "mobilehome",
             "seriesNumber": "Hasbro",
             "refNumber": "0260"
         },
         "oficiales/Hasbro_0260_trashtruck.ldr": {
             "path": "oficiales/Hasbro_0260_trashtruck.ldr",
             "id": "",
-            "title": "trashtruck.ldr",
+            "title": "trashtruck",
             "seriesNumber": "Hasbro",
             "refNumber": "0260"
         },
         "oficiales/Hasbro_0270_basespaceaventure.ldr": {
             "path": "oficiales/Hasbro_0270_basespaceaventure.ldr",
             "id": "",
-            "title": "basespaceaventure.ldr",
+            "title": "basespaceaventure",
             "seriesNumber": "Hasbro",
             "refNumber": "0270"
         },
         "oficiales/Hasbro_0403_laserray.ldr": {
             "path": "oficiales/Hasbro_0403_laserray.ldr",
             "id": "",
-            "title": "laserray.ldr",
+            "title": "laserray",
             "seriesNumber": "Hasbro",
             "refNumber": "0403"
         },
         "oficiales/Hasbro_0481_astrostarcommander.ldr": {
             "path": "oficiales/Hasbro_0481_astrostarcommander.ldr",
             "id": "",
-            "title": "astrostarcommander.ldr",
+            "title": "astrostarcommander",
             "seriesNumber": "Hasbro",
             "refNumber": "0481"
         },
         "oficiales/Hasbro__astronavedefensa.ldr": {
             "path": "oficiales/Hasbro__astronavedefensa.ldr",
             "id": "",
-            "title": "Hasbro  astronavedefensa.ldr",
+            "title": "Hasbro  astronavedefensa",
             "seriesNumber": null,
             "refNumber": null
         },
         "oficiales/Hasbro__camionnye.ldr": {
             "path": "oficiales/Hasbro__camionnye.ldr",
             "id": "",
-            "title": "Hasbro  camionnye.ldr",
+            "title": "Hasbro  camionnye",
             "seriesNumber": null,
             "refNumber": null
         },
         "oficiales/Hasbro__campingcar.ldr": {
             "path": "oficiales/Hasbro__campingcar.ldr",
             "id": "",
-            "title": "Hasbro  campingcar.ldr",
+            "title": "Hasbro  campingcar",
             "seriesNumber": null,
             "refNumber": null
         },
@@ -787,7 +787,7 @@
         "oficiales/Mini_503-bungalow.ldr": {
             "path": "oficiales/Mini_503-bungalow.ldr",
             "id": "",
-            "title": "Mini 503-bungalow.ldr",
+            "title": "Mini 503-bungalow",
             "seriesNumber": null,
             "refNumber": null
         },
@@ -822,63 +822,63 @@
         "oficiales/Nomura_camionbomberosjapones.ldr": {
             "path": "oficiales/Nomura_camionbomberosjapones.ldr",
             "id": "",
-            "title": "Nomura camionbomberosjapones.ldr",
+            "title": "Nomura camionbomberosjapones",
             "seriesNumber": null,
             "refNumber": null
         },
         "oficiales/Nomura_camionjaponessony.ldr": {
             "path": "oficiales/Nomura_camionjaponessony.ldr",
             "id": "",
-            "title": "Nomura camionjaponessony.ldr",
+            "title": "Nomura camionjaponessony",
             "seriesNumber": null,
             "refNumber": null
         },
         "oficiales/Nomura_estaciondeserviciojaponesa.ldr": {
             "path": "oficiales/Nomura_estaciondeserviciojaponesa.ldr",
             "id": "",
-            "title": "Nomura estaciondeserviciojaponesa.ldr",
+            "title": "Nomura estaciondeserviciojaponesa",
             "seriesNumber": null,
             "refNumber": null
         },
         "oficiales/Nomura_haitobus.ldr": {
             "path": "oficiales/Nomura_haitobus.ldr",
             "id": "",
-            "title": "Nomura haitobus.ldr",
+            "title": "Nomura haitobus",
             "seriesNumber": null,
             "refNumber": null
         },
         "oficiales/Nomura_londonbus.ldr": {
             "path": "oficiales/Nomura_londonbus.ldr",
             "id": "",
-            "title": "Nomura londonbus.ldr",
+            "title": "Nomura londonbus",
             "seriesNumber": null,
             "refNumber": null
         },
         "oficiales/Nomura_minifirej.ldr": {
             "path": "oficiales/Nomura_minifirej.ldr",
             "id": "",
-            "title": "Nomura minifirej.ldr",
+            "title": "Nomura minifirej",
             "seriesNumber": null,
             "refNumber": null
         },
         "oficiales/Nomura_sunshine2.ldr": {
             "path": "oficiales/Nomura_sunshine2.ldr",
             "id": "",
-            "title": "Nomura sunshine2.ldr",
+            "title": "Nomura sunshine2",
             "seriesNumber": null,
             "refNumber": null
         },
         "oficiales/Pocket_0315_Eslator.ldr": {
             "path": "oficiales/Pocket_0315_Eslator.ldr",
             "id": "",
-            "title": "Eslator.ldr",
+            "title": "Eslator",
             "seriesNumber": "Pocket",
             "refNumber": "0315"
         },
         "oficiales/Ruta0553_dragster8cilindros.ldr": {
             "path": "oficiales/Ruta0553_dragster8cilindros.ldr",
             "id": "",
-            "title": "Ruta0553 dragster8cilindros.ldr",
+            "title": "Ruta0553 dragster8cilindros",
             "seriesNumber": null,
             "refNumber": null
         },
@@ -1130,7 +1130,7 @@
         "oficiales/Ruta_0683EU_trailertransporteinternacional.ldr": {
             "path": "oficiales/Ruta_0683EU_trailertransporteinternacional.ldr",
             "id": "",
-            "title": "trailertransporteinternacional.ldr",
+            "title": "trailertransporteinternacional",
             "seriesNumber": "Ruta",
             "refNumber": "0683EU"
         },
@@ -1221,708 +1221,705 @@
         "oficiales/astronauta_viejo.ldr": {
             "path": "oficiales/astronauta_viejo.ldr",
             "id": "",
-            "title": "astronauta viejo.ldr",
+            "title": "astronauta viejo",
             "seriesNumber": null,
             "refNumber": null
         },
         "oficiales/motobomba.ldr": {
             "path": "oficiales/motobomba.ldr",
             "id": "",
-            "title": "motobomba.ldr",
+            "title": "motobomba",
             "seriesNumber": null,
             "refNumber": null
         },
         "oficiales/roadmaster.ldr": {
             "path": "oficiales/roadmaster.ldr",
             "id": "",
-            "title": "roadmaster.ldr",
+            "title": "roadmaster",
             "seriesNumber": null,
             "refNumber": null
         },
         "custom/amstrad_cpc464.ldr": {
             "path": "custom/amstrad_cpc464.ldr",
             "id": "",
-            "title": "custom/amstrad_cpc464.ldr",
+            "title": "custom/amstrad_cpc464",
             "seriesNumber": null,
             "refNumber": null
         },
         "custom/aparcamiento.ldr": {
             "path": "custom/aparcamiento.ldr",
             "id": "",
-            "title": "custom/aparcamiento.ldr",
+            "title": "custom/aparcamiento",
             "seriesNumber": null,
             "refNumber": null
         },
         "custom/aparcamiento_con_vehiculos.ldr": {
             "path": "custom/aparcamiento_con_vehiculos.ldr",
             "id": "",
-            "title": "custom/aparcamiento_con_vehiculos.ldr",
+            "title": "custom/aparcamiento_con_vehiculos",
             "seriesNumber": null,
             "refNumber": null
         },
         "custom/autolavado.ldr": {
             "path": "custom/autolavado.ldr",
             "id": "",
-            "title": "custom/autolavado.ldr",
+            "title": "custom/autolavado",
             "seriesNumber": null,
             "refNumber": null
         },
         "custom/autolavado_vacio.ldr": {
             "path": "custom/autolavado_vacio.ldr",
             "id": "",
-            "title": "custom/autolavado_vacio.ldr",
+            "title": "custom/autolavado_vacio",
             "seriesNumber": null,
             "refNumber": null
         },
         "custom/bannertente.ldr": {
             "path": "custom/bannertente.ldr",
             "id": "",
-            "title": "custom/bannertente.ldr",
+            "title": "custom/bannertente",
             "seriesNumber": null,
             "refNumber": null
         },
         "custom/barco_turistico_bahia_malaga.ldr": {
             "path": "custom/barco_turistico_bahia_malaga.ldr",
             "id": "",
-            "title": "custom/barco_turistico_bahia_malaga.ldr",
+            "title": "custom/barco_turistico_bahia_malaga",
             "seriesNumber": null,
             "refNumber": null
         },
         "custom/bocametro.ldr": {
             "path": "custom/bocametro.ldr",
             "id": "",
-            "title": "custom/bocametro.ldr",
+            "title": "custom/bocametro",
             "seriesNumber": null,
             "refNumber": null
         },
         "custom/busbateria.ldr": {
             "path": "custom/busbateria.ldr",
             "id": "",
-            "title": "custom/busbateria.ldr",
+            "title": "custom/busbateria",
             "seriesNumber": null,
             "refNumber": null
         },
         "custom/buzon_sugerencias.ldr": {
             "path": "custom/buzon_sugerencias.ldr",
             "id": "",
-            "title": "custom/buzon_sugerencias.ldr",
+            "title": "custom/buzon_sugerencias",
             "seriesNumber": null,
             "refNumber": null
         },
         "custom/cabinatelefonos.ldr": {
             "path": "custom/cabinatelefonos.ldr",
             "id": "",
-            "title": "custom/cabinatelefonos.ldr",
+            "title": "custom/cabinatelefonos",
             "seriesNumber": null,
             "refNumber": null
         },
         "custom/cajonera/cajon.ldr": {
             "path": "custom/cajonera/cajon.ldr",
             "id": "",
-            "title": "custom/cajonera/cajon.ldr",
+            "title": "custom/cajonera/cajon",
             "seriesNumber": null,
             "refNumber": null
         },
         "custom/cajonera/cajonera_4c.ldr": {
             "path": "custom/cajonera/cajonera_4c.ldr",
             "id": "",
-            "title": "custom/cajonera/cajonera_4c.ldr",
+            "title": "custom/cajonera/cajonera_4c",
             "seriesNumber": null,
             "refNumber": null
         },
         "custom/cajonera/cajonera_4c_open.ldr": {
             "path": "custom/cajonera/cajonera_4c_open.ldr",
             "id": "",
-            "title": "custom/cajonera/cajonera_4c_open.ldr",
+            "title": "custom/cajonera/cajonera_4c_open",
             "seriesNumber": null,
             "refNumber": null
         },
         "custom/cajonera_4c.ldr": {
             "path": "custom/cajonera_4c.ldr",
             "id": "",
-            "title": "custom/cajonera_4c.ldr",
+            "title": "custom/cajonera_4c",
             "seriesNumber": null,
             "refNumber": null
         },
         "custom/castillito1.ldr": {
             "path": "custom/castillito1.ldr",
             "id": "",
-            "title": "custom/castillito1.ldr",
+            "title": "custom/castillito1",
             "seriesNumber": null,
             "refNumber": null
         },
         "custom/circulo.ldr": {
             "path": "custom/circulo.ldr",
             "id": "",
-            "title": "custom/circulo.ldr",
+            "title": "custom/circulo",
             "seriesNumber": null,
             "refNumber": null
         },
         "custom/cocacola.ldr": {
             "path": "custom/cocacola.ldr",
             "id": "",
-            "title": "custom/cocacola.ldr",
+            "title": "custom/cocacola",
             "seriesNumber": null,
             "refNumber": null
         },
         "custom/cohete_tintin.ldr": {
             "path": "custom/cohete_tintin.ldr",
             "id": "",
-            "title": "custom/cohete_tintin.ldr",
+            "title": "custom/cohete_tintin",
             "seriesNumber": null,
             "refNumber": null
         },
         "custom/damas.ldr": {
             "path": "custom/damas.ldr",
             "id": "",
-            "title": "custom/damas.ldr",
+            "title": "custom/damas",
             "seriesNumber": null,
             "refNumber": null
         },
         "custom/donut.ldr": {
             "path": "custom/donut.ldr",
             "id": "",
-            "title": "custom/donut.ldr",
+            "title": "custom/donut",
             "seriesNumber": null,
             "refNumber": null
         },
         "custom/duplexcosta.ldr": {
             "path": "custom/duplexcosta.ldr",
             "id": "",
-            "title": "custom/duplexcosta.ldr",
+            "title": "custom/duplexcosta",
             "seriesNumber": null,
             "refNumber": null
         },
         "custom/ecocasarodante.ldr": {
             "path": "custom/ecocasarodante.ldr",
             "id": "",
-            "title": "custom/ecocasarodante.ldr",
+            "title": "custom/ecocasarodante",
             "seriesNumber": null,
             "refNumber": null
         },
         "custom/edificio_clot_barcelona.ldr": {
             "path": "custom/edificio_clot_barcelona.ldr",
             "id": "",
-            "title": "custom/edificio_clot_barcelona.ldr",
+            "title": "custom/edificio_clot_barcelona",
             "seriesNumber": null,
             "refNumber": null
         },
         "custom/enterradores_meme.ldr": {
             "path": "custom/enterradores_meme.ldr",
             "id": "",
-            "title": "custom/enterradores_meme.ldr",
+            "title": "custom/enterradores_meme",
             "seriesNumber": null,
             "refNumber": null
         },
         "custom/entrada_puerto_malaga_full.ldr": {
             "path": "custom/entrada_puerto_malaga_full.ldr",
             "id": "",
-            "title": "custom/entrada_puerto_malaga_full.ldr",
+            "title": "custom/entrada_puerto_malaga_full",
             "seriesNumber": null,
             "refNumber": null
         },
         "custom/esfera1.ldr": {
             "path": "custom/esfera1.ldr",
             "id": "",
-            "title": "custom/esfera1.ldr",
+            "title": "custom/esfera1",
             "seriesNumber": null,
             "refNumber": null
         },
         "custom/esfera2.ldr": {
             "path": "custom/esfera2.ldr",
             "id": "",
-            "title": "custom/esfera2.ldr",
+            "title": "custom/esfera2",
             "seriesNumber": null,
             "refNumber": null
         },
         "custom/esfera3.ldr": {
             "path": "custom/esfera3.ldr",
             "id": "",
-            "title": "custom/esfera3.ldr",
+            "title": "custom/esfera3",
             "seriesNumber": null,
             "refNumber": null
         },
         "custom/esfera4.ldr": {
             "path": "custom/esfera4.ldr",
             "id": "",
-            "title": "custom/esfera4.ldr",
+            "title": "custom/esfera4",
             "seriesNumber": null,
             "refNumber": null
         },
         "custom/esperanza-torre.ldr": {
             "path": "custom/esperanza-torre.ldr",
             "id": "",
-            "title": "custom/esperanza-torre.ldr",
+            "title": "custom/esperanza-torre",
             "seriesNumber": null,
             "refNumber": null
         },
         "custom/estacion_feve_malaga.ldr": {
             "path": "custom/estacion_feve_malaga.ldr",
             "id": "",
-            "title": "custom/estacion_feve_malaga.ldr",
+            "title": "custom/estacion_feve_malaga",
             "seriesNumber": null,
             "refNumber": null
         },
         "custom/estacionmeteorologica.ldr": {
             "path": "custom/estacionmeteorologica.ldr",
             "id": "",
-            "title": "custom/estacionmeteorologica.ldr",
+            "title": "custom/estacionmeteorologica",
             "seriesNumber": null,
             "refNumber": null
         },
         "custom/estacionmetereologica.ldr": {
             "path": "custom/estacionmetereologica.ldr",
             "id": "",
-            "title": "custom/estacionmetereologica.ldr",
+            "title": "custom/estacionmetereologica",
             "seriesNumber": null,
             "refNumber": null
         },
         "custom/etch.ldr": {
             "path": "custom/etch.ldr",
             "id": "",
-            "title": "custom/etch.ldr",
+            "title": "custom/etch",
             "seriesNumber": null,
             "refNumber": null
         },
         "custom/exinubuntu.ldr": {
             "path": "custom/exinubuntu.ldr",
             "id": "",
-            "title": "custom/exinubuntu.ldr",
+            "title": "custom/exinubuntu",
             "seriesNumber": null,
             "refNumber": null
         },
         "custom/foodtruck.ldr": {
             "path": "custom/foodtruck.ldr",
             "id": "",
-            "title": "custom/foodtruck.ldr",
+            "title": "custom/foodtruck",
             "seriesNumber": null,
             "refNumber": null
         },
         "custom/foodtruck_en_ruta.ldr": {
             "path": "custom/foodtruck_en_ruta.ldr",
             "id": "",
-            "title": "custom/foodtruck_en_ruta.ldr",
+            "title": "custom/foodtruck_en_ruta",
             "seriesNumber": null,
             "refNumber": null
         },
         "custom/furgonetahielo.ldr": {
             "path": "custom/furgonetahielo.ldr",
             "id": "",
-            "title": "custom/furgonetahielo.ldr",
+            "title": "custom/furgonetahielo",
             "seriesNumber": null,
             "refNumber": null
         },
         "custom/galileo.ldr": {
             "path": "custom/galileo.ldr",
             "id": "",
-            "title": "custom/galileo.ldr",
+            "title": "custom/galileo",
             "seriesNumber": null,
             "refNumber": null
         },
         "custom/galileo_concurso.ldr": {
             "path": "custom/galileo_concurso.ldr",
             "id": "",
-            "title": "custom/galileo_concurso.ldr",
+            "title": "custom/galileo_concurso",
             "seriesNumber": null,
             "refNumber": null
         },
         "custom/hunslet_att77.ldr": {
             "path": "custom/hunslet_att77.ldr",
             "id": "",
-            "title": "custom/hunslet_att77.ldr",
+            "title": "custom/hunslet_att77",
             "seriesNumber": null,
             "refNumber": null
         },
         "custom/incinerador_termonuclear.ldr": {
             "path": "custom/incinerador_termonuclear.ldr",
             "id": "",
-            "title": "custom/incinerador_termonuclear.ldr",
+            "title": "custom/incinerador_termonuclear",
             "seriesNumber": null,
             "refNumber": null
         },
         "custom/jabega.ldr": {
             "path": "custom/jabega.ldr",
             "id": "",
-            "title": "custom/jabega.ldr",
+            "title": "custom/jabega",
             "seriesNumber": null,
             "refNumber": null
         },
         "custom/jetpac.ldr": {
             "path": "custom/jetpac.ldr",
             "id": "",
-            "title": "custom/jetpac.ldr",
+            "title": "custom/jetpac",
             "seriesNumber": null,
             "refNumber": null
         },
         "custom/lafarola.ldr": {
             "path": "custom/lafarola.ldr",
             "id": "",
-            "title": "custom/lafarola.ldr",
+            "title": "custom/lafarola",
             "seriesNumber": null,
             "refNumber": null
         },
         "custom/ld3dstudio_logo.ldr": {
             "path": "custom/ld3dstudio_logo.ldr",
             "id": "",
-            "title": "custom/ld3dstudio_logo.ldr",
+            "title": "custom/ld3dstudio_logo",
             "seriesNumber": null,
             "refNumber": null
         },
         "custom/lemmings_flat.ldr": {
             "path": "custom/lemmings_flat.ldr",
             "id": "",
-            "title": "custom/lemmings_flat.ldr",
+            "title": "custom/lemmings_flat",
             "seriesNumber": null,
             "refNumber": null
         },
         "custom/lopezpenalver.ldr": {
             "path": "custom/lopezpenalver.ldr",
             "id": "",
-            "title": "custom/lopezpenalver.ldr",
+            "title": "custom/lopezpenalver",
             "seriesNumber": null,
             "refNumber": null
         },
         "custom/martian_chronicles_van.ldr": {
             "path": "custom/martian_chronicles_van.ldr",
             "id": "",
-            "title": "custom/martian_chronicles_van.ldr",
+            "title": "custom/martian_chronicles_van",
             "seriesNumber": null,
             "refNumber": null
         },
         "custom/microbus50.ldr": {
             "path": "custom/microbus50.ldr",
             "id": "",
-            "title": "custom/microbus50.ldr",
+            "title": "custom/microbus50",
             "seriesNumber": null,
             "refNumber": null
         },
         "custom/minipcsobremesa.ldr": {
             "path": "custom/minipcsobremesa.ldr",
             "id": "",
-            "title": "custom/minipcsobremesa.ldr",
+            "title": "custom/minipcsobremesa",
             "seriesNumber": null,
             "refNumber": null
         },
         "custom/moduloescapemarciano.ldr": {
             "path": "custom/moduloescapemarciano.ldr",
             "id": "",
-            "title": "custom/moduloescapemarciano.ldr",
+            "title": "custom/moduloescapemarciano",
             "seriesNumber": null,
             "refNumber": null
         },
         "custom/molino.ldr": {
             "path": "custom/molino.ldr",
             "id": "",
-            "title": "custom/molino.ldr",
+            "title": "custom/molino",
             "seriesNumber": null,
             "refNumber": null
         },
         "custom/morlaco.ldr": {
             "path": "custom/morlaco.ldr",
             "id": "",
-            "title": "custom/morlaco.ldr",
+            "title": "custom/morlaco",
             "seriesNumber": null,
             "refNumber": null
         },
         "custom/nave_guaul_mini.ldr": {
             "path": "custom/nave_guaul_mini.ldr",
             "id": "",
-            "title": "custom/nave_guaul_mini.ldr",
+            "title": "custom/nave_guaul_mini",
             "seriesNumber": null,
             "refNumber": null
         },
         "custom/navevisitante.ldr": {
             "path": "custom/navevisitante.ldr",
             "id": "",
-            "title": "custom/navevisitante.ldr",
+            "title": "custom/navevisitante",
             "seriesNumber": null,
             "refNumber": null
         },
         "custom/ovni9.ldr": {
             "path": "custom/ovni9.ldr",
             "id": "",
-            "title": "custom/ovni9.ldr",
+            "title": "custom/ovni9",
             "seriesNumber": null,
             "refNumber": null
         },
         "custom/papamovil.ldr": {
             "path": "custom/papamovil.ldr",
             "id": "",
-            "title": "custom/papamovil.ldr",
+            "title": "custom/papamovil",
             "seriesNumber": null,
             "refNumber": null
         },
         "custom/pctubo.ldr": {
             "path": "custom/pctubo.ldr",
             "id": "",
-            "title": "custom/pctubo.ldr",
+            "title": "custom/pctubo",
             "seriesNumber": null,
             "refNumber": null
         },
         "custom/peasochalet.ldr": {
             "path": "custom/peasochalet.ldr",
             "id": "",
-            "title": "custom/peasochalet.ldr",
+            "title": "custom/peasochalet",
             "seriesNumber": null,
             "refNumber": null
         },
         "custom/planeador_orbital.ldr": {
             "path": "custom/planeador_orbital.ldr",
             "id": "",
-            "title": "custom/planeador_orbital.ldr",
+            "title": "custom/planeador_orbital",
             "seriesNumber": null,
             "refNumber": null
         },
         "custom/robotaxi.ldr": {
             "path": "custom/robotaxi.ldr",
             "id": "",
-            "title": "custom/robotaxi.ldr",
+            "title": "custom/robotaxi",
             "seriesNumber": null,
             "refNumber": null
         },
         "custom/roverlunar.ldr": {
             "path": "custom/roverlunar.ldr",
             "id": "",
-            "title": "custom/roverlunar.ldr",
+            "title": "custom/roverlunar",
             "seriesNumber": null,
             "refNumber": null
         },
         "custom/ruedelpercebe.ldr": {
             "path": "custom/ruedelpercebe.ldr",
             "id": "",
-            "title": "custom/ruedelpercebe.ldr",
+            "title": "custom/ruedelpercebe",
             "seriesNumber": null,
             "refNumber": null
         },
         "custom/seat1430.ldr": {
             "path": "custom/seat1430.ldr",
             "id": "",
-            "title": "custom/seat1430.ldr",
+            "title": "custom/seat1430",
             "seriesNumber": null,
             "refNumber": null
         },
         "custom/sinclairzx80.ldr": {
             "path": "custom/sinclairzx80.ldr",
             "id": "",
-            "title": "custom/sinclairzx80.ldr",
+            "title": "custom/sinclairzx80",
             "seriesNumber": null,
             "refNumber": null
         },
         "custom/taller_informatico/cajon.ldr": {
             "path": "custom/taller_informatico/cajon.ldr",
             "id": "",
-            "title": "custom/taller_informatico/cajon.ldr",
+            "title": "custom/taller_informatico/cajon",
             "seriesNumber": null,
             "refNumber": null
         },
         "custom/taller_informatico/cajonera.ldr": {
             "path": "custom/taller_informatico/cajonera.ldr",
             "id": "",
-            "title": "custom/taller_informatico/cajonera.ldr",
+            "title": "custom/taller_informatico/cajonera",
             "seriesNumber": null,
             "refNumber": null
         },
         "custom/taller_informatico/taller_informatico.ldr": {
             "path": "custom/taller_informatico/taller_informatico.ldr",
             "id": "",
-            "title": "custom/taller_informatico/taller_informatico.ldr",
+            "title": "custom/taller_informatico/taller_informatico",
             "seriesNumber": null,
             "refNumber": null
         },
         "custom/tardis.ldr": {
             "path": "custom/tardis.ldr",
             "id": "",
-            "title": "custom/tardis.ldr",
+            "title": "custom/tardis",
             "seriesNumber": null,
             "refNumber": null
         },
         "custom/taxi_espacial.ldr": {
             "path": "custom/taxi_espacial.ldr",
             "id": "",
-            "title": "custom/taxi_espacial.ldr",
+            "title": "custom/taxi_espacial",
             "seriesNumber": null,
             "refNumber": null
         },
         "custom/templo_debod.ldr": {
             "path": "custom/templo_debod.ldr",
             "id": "",
-            "title": "custom/templo_debod.ldr",
+            "title": "custom/templo_debod",
             "seriesNumber": null,
             "refNumber": null
         },
         "custom/the_orville_shuttle.ldr": {
             "path": "custom/the_orville_shuttle.ldr",
             "id": "",
-            "title": "custom/the_orville_shuttle.ldr",
+            "title": "custom/the_orville_shuttle",
             "seriesNumber": null,
             "refNumber": null
         },
         "custom/titan_mare_explorer.ldr": {
             "path": "custom/titan_mare_explorer.ldr",
             "id": "",
-            "title": "custom/titan_mare_explorer.ldr",
+            "title": "custom/titan_mare_explorer",
             "seriesNumber": null,
             "refNumber": null
         },
         "custom/todoterrenocompacto.ldr": {
             "path": "custom/todoterrenocompacto.ldr",
             "id": "",
-            "title": "custom/todoterrenocompacto.ldr",
+            "title": "custom/todoterrenocompacto",
             "seriesNumber": null,
             "refNumber": null
         },
         "custom/torre_entrada_puerto_malaga.ldr": {
             "path": "custom/torre_entrada_puerto_malaga.ldr",
             "id": "",
-            "title": "custom/torre_entrada_puerto_malaga.ldr",
+            "title": "custom/torre_entrada_puerto_malaga",
             "seriesNumber": null,
             "refNumber": null
         },
         "custom/torre_fastolfe.ldr": {
             "path": "custom/torre_fastolfe.ldr",
             "id": "",
-            "title": "custom/torre_fastolfe.ldr",
+            "title": "custom/torre_fastolfe",
             "seriesNumber": null,
             "refNumber": null
         },
         "custom/torre_glories_barcelona.ldr": {
             "path": "custom/torre_glories_barcelona.ldr",
             "id": "",
-            "title": "custom/torre_glories_barcelona.ldr",
+            "title": "custom/torre_glories_barcelona",
             "seriesNumber": null,
             "refNumber": null
         },
         "custom/torres_hanoi.ldr": {
             "path": "custom/torres_hanoi.ldr",
             "id": "",
-            "title": "custom/torres_hanoi.ldr",
+            "title": "custom/torres_hanoi",
             "seriesNumber": null,
             "refNumber": null
         },
         "custom/trenturistico.ldr": {
             "path": "custom/trenturistico.ldr",
             "id": "",
-            "title": "custom/trenturistico.ldr",
+            "title": "custom/trenturistico",
             "seriesNumber": null,
             "refNumber": null
         },
         "custom/tux3d.ldr": {
             "path": "custom/tux3d.ldr",
             "id": "",
-            "title": "custom/tux3d.ldr",
+            "title": "custom/tux3d",
             "seriesNumber": null,
             "refNumber": null
         },
         "custom/tux_flat_base.ldr": {
             "path": "custom/tux_flat_base.ldr",
             "id": "",
-            "title": "custom/tux_flat_base.ldr",
+            "title": "custom/tux_flat_base",
             "seriesNumber": null,
             "refNumber": null
         },
         "custom/tuxplano.ldr": {
             "path": "custom/tuxplano.ldr",
             "id": "",
-            "title": "custom/tuxplano.ldr",
+            "title": "custom/tuxplano",
             "seriesNumber": null,
             "refNumber": null
         },
         "custom/tuxtentero.ldr": {
             "path": "custom/tuxtentero.ldr",
             "id": "",
-            "title": "custom/tuxtentero.ldr",
+            "title": "custom/tuxtentero",
             "seriesNumber": null,
             "refNumber": null
         },
         "custom/ubuntu_exin_castillos.ldr": {
             "path": "custom/ubuntu_exin_castillos.ldr",
             "id": "",
-            "title": "custom/ubuntu_exin_castillos.ldr",
+            "title": "custom/ubuntu_exin_castillos",
             "seriesNumber": null,
             "refNumber": null
         },
         "custom/ubuntu_exin_castillos_transparente.ldr": {
             "path": "custom/ubuntu_exin_castillos_transparente.ldr",
             "id": "",
-            "title": "custom/ubuntu_exin_castillos_transparente.ldr",
+            "title": "custom/ubuntu_exin_castillos_transparente",
             "seriesNumber": null,
             "refNumber": null
         },
         "custom/urna_votacion.ldr": {
             "path": "custom/urna_votacion.ldr",
             "id": "",
-            "title": "custom/urna_votacion.ldr",
+            "title": "custom/urna_votacion",
             "seriesNumber": null,
             "refNumber": null
         },
         "custom/ventanas_ahumadas.ldr": {
             "path": "custom/ventanas_ahumadas.ldr",
             "id": "",
-            "title": "custom/ventanas_ahumadas.ldr",
+            "title": "custom/ventanas_ahumadas",
             "seriesNumber": null,
             "refNumber": null
         },
         "custom/vialia_antiguo.ldr": {
             "path": "custom/vialia_antiguo.ldr",
             "id": "",
-            "title": "custom/vialia_antiguo.ldr",
+            "title": "custom/vialia_antiguo",
             "seriesNumber": null,
             "refNumber": null
         },
         "custom/vialia_antiguo_lateral_bajo.ldr": {
             "path": "custom/vialia_antiguo_lateral_bajo.ldr",
             "id": "",
-            "title": "custom/vialia_antiguo_lateral_bajo.ldr",
+            "title": "custom/vialia_antiguo_lateral_bajo",
             "seriesNumber": null,
             "refNumber": null
         },
         "custom/vialia_antiguo_primera_planta.ldr": {
             "path": "custom/vialia_antiguo_primera_planta.ldr",
             "id": "",
-            "title": "custom/vialia_antiguo_primera_planta.ldr",
+            "title": "custom/vialia_antiguo_primera_planta",
             "seriesNumber": null,
             "refNumber": null
         },
         "custom/vialia_antiguo_segunda_planta.ldr": {
             "path": "custom/vialia_antiguo_segunda_planta.ldr",
             "id": "",
-            "title": "custom/vialia_antiguo_segunda_planta.ldr",
+            "title": "custom/vialia_antiguo_segunda_planta",
             "seriesNumber": null,
             "refNumber": null
         },
         "custom/walkietalkie.ldr": {
             "path": "custom/walkietalkie.ldr",
             "id": "",
-            "title": "custom/walkietalkie.ldr",
+            "title": "custom/walkietalkie",
             "seriesNumber": null,
             "refNumber": null
         },
         "custom/walkietalkies_pair.ldr": {
             "path": "custom/walkietalkies_pair.ldr",
             "id": "",
-            "title": "custom/walkietalkies_pair.ldr",
+            "title": "custom/walkietalkies_pair",
             "seriesNumber": null,
             "refNumber": null
         },
         "custom/zxspectrum48k.ldr": {
             "path": "custom/zxspectrum48k.ldr",
             "id": "",
-            "title": "custom/zxspectrum48k.ldr",
+            "title": "custom/zxspectrum48k",
             "seriesNumber": null,
             "refNumber": null
         }
     },
     "pathsList": [
-        "oficiales/0403_avion_iniciacion.ldr",
-        "oficiales/353_karpan.ldr",
-        "oficiales/401_casa_caja_1.ldr",
+        "oficiales/400_420_estacionservicio.ldr",
         "oficiales/401_f1tesoro.ldr",
         "oficiales/402_casa402.ldr",
         "oficiales/403_casa403.ldr",
         "oficiales/403_casahalt.ldr",
         "oficiales/403_chalet403.ldr",
         "oficiales/403_cochetente3.ldr",
-        "oficiales/420_estacionservicio.ldr",
         "oficiales/70021_patrulla_espacial.ldr",
         "oficiales/70021_patrulla_espacial_borras.ldr",
         "oficiales/70022_desintegrador_borras.ldr",
@@ -1967,6 +1964,8 @@
         "oficiales/Astro_0740_saturno6-miniexploradoraereo.ldr",
         "oficiales/Astro_0740_saturno6-miniexploradorterrestre.ldr",
         "oficiales/Astro_0740_saturno6-nodriza.ldr",
+        "oficiales/Basico_0401_casa_caja_1.ldr",
+        "oficiales/Basico_0403_avion_iniciacion.ldr",
         "oficiales/Borras_patrullaespacial.ldr",
         "oficiales/Combi_0333_corfu.ldr",
         "oficiales/Combi_0340_lectorgeologico.ldr",
@@ -1985,6 +1984,7 @@
         "oficiales/Compact_0349_Robby.ldr",
         "oficiales/Compact_0351_Tex.ldr",
         "oficiales/Compact_0352_Karpan.ldr",
+        "oficiales/Compact_0352_karpan.ldr",
         "oficiales/Compact_0353_Condor.ldr",
         "oficiales/Cosmic_0435_scutty.ldr",
         "oficiales/Escorpion_0543_lanza_misil_movil.ldr",
