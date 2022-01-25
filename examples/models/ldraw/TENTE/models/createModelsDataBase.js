@@ -10,7 +10,7 @@ Execute with 'node createModelsDataBase.js'
 
 const fs = require( "fs" );
 const pathJoin = require( 'path' ).join;
-
+const { spawn, exec } = require( 'child_process' );
 
 // Main code
 
@@ -23,6 +23,17 @@ const dataBase = {
 	partsPathsList: []
 
 };
+
+spawnProgram(
+	__dirname,
+	'cp',
+	[
+		'../p/BOX5.DAT',
+		'../p/box5.dat',
+	],
+	( code, output, error ) => {},
+	true
+);
 
 console.log( "Reading source database ..." );
 
@@ -561,5 +572,75 @@ function readTextFileSync( path, encoding ) {
 		return null;
 
 	}
+
+}
+
+function spawnProgram( cwd, program, args, callback, cancelOutput ) {
+
+	var p;
+
+	if ( cwd ) p = spawn( program, args, { cwd: cwd } );
+	else p = spawn( program, args );
+
+	var output = "";
+	var error = "";
+
+	p.stdout.on( 'data', ( data ) => {
+
+		if ( cancelOutput === false ) output += data;
+
+	} );
+
+	p.stderr.on( 'data', ( data ) => {
+
+		error += data;
+
+	} );
+
+	p.on( 'exit', ( code, signal ) => {
+
+		if ( callback ) {
+
+			callback( code, output, error );
+
+		}
+
+	} );
+
+}
+
+function execProgram( cwd, command, callback, cancelOutput ) {
+
+	// Executes in a shell
+
+	var p;
+
+	if ( cwd ) p = exec( command, { cwd: cwd } );
+	else p = exec( command );
+
+	var output = "";
+	var error = "";
+
+	p.stdout.on( 'data', ( data ) => {
+
+		if ( cancelOutput === false ) output += data;
+
+	} );
+
+	p.stderr.on( 'data', ( data ) => {
+
+		error += data;
+
+	} );
+
+	p.on( 'exit', ( code, signal ) => {
+
+		if ( callback ) {
+
+			callback( code, output, error );
+
+		}
+
+	} );
 
 }
