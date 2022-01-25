@@ -1,11 +1,32 @@
 {
     "models": {
+        "oficiales/0403_avion_iniciacion.ldr": {
+            "path": "oficiales/0403_avion_iniciacion.ldr",
+            "id": "",
+            "title": "avion iniciacion",
+            "seriesNumber": null,
+            "refNumber": "0403"
+        },
+        "oficiales/353_karpan.ldr": {
+            "path": "oficiales/353_karpan.ldr",
+            "id": "",
+            "title": "karpan",
+            "seriesNumber": null,
+            "refNumber": "353"
+        },
         "oficiales/400_420_estacionservicio.ldr": {
             "path": "oficiales/400_420_estacionservicio.ldr",
             "id": "5",
             "title": "420",
             "seriesNumber": "400",
             "refNumber": "420"
+        },
+        "oficiales/401_casa_caja_1.ldr": {
+            "path": "oficiales/401_casa_caja_1.ldr",
+            "id": "",
+            "title": "casa caja 1",
+            "seriesNumber": null,
+            "refNumber": "401"
         },
         "oficiales/401_f1tesoro.ldr": {
             "path": "oficiales/401_f1tesoro.ldr",
@@ -48,6 +69,13 @@
             "title": "cochetente3",
             "seriesNumber": null,
             "refNumber": "403"
+        },
+        "oficiales/420_estacionservicio.ldr": {
+            "path": "oficiales/420_estacionservicio.ldr",
+            "id": "",
+            "title": "estacionservicio",
+            "seriesNumber": null,
+            "refNumber": "420"
         },
         "oficiales/70021_patrulla_espacial.ldr": {
             "path": "oficiales/70021_patrulla_espacial.ldr",
@@ -1912,14 +1940,18 @@
             "refNumber": null
         }
     },
-    "pathsList": [
+    "modelPathsList": [
+        "oficiales/0403_avion_iniciacion.ldr",
+        "oficiales/353_karpan.ldr",
         "oficiales/400_420_estacionservicio.ldr",
+        "oficiales/401_casa_caja_1.ldr",
         "oficiales/401_f1tesoro.ldr",
         "oficiales/402_casa402.ldr",
         "oficiales/403_casa403.ldr",
         "oficiales/403_casahalt.ldr",
         "oficiales/403_chalet403.ldr",
         "oficiales/403_cochetente3.ldr",
+        "oficiales/420_estacionservicio.ldr",
         "oficiales/70021_patrulla_espacial.ldr",
         "oficiales/70021_patrulla_espacial_borras.ldr",
         "oficiales/70022_desintegrador_borras.ldr",
@@ -2186,5 +2218,5877 @@
         "custom/walkietalkie.ldr",
         "custom/walkietalkies_pair.ldr",
         "custom/zxspectrum48k.ldr"
+    ],
+    "parts": {
+        "acetilen.dat": {
+            "path": "acetilen.dat",
+            "title": "Acetileno",
+            "metaData": "|F:F"
+        },
+        "acetirue.dat": {
+            "path": "acetirue.dat",
+            "title": "Acetileno Ruedas",
+            "metaData": "|F:F"
+        },
+        "acetitub.dat": {
+            "path": "acetitub.dat",
+            "title": "Acetileno Tubos",
+            "metaData": "|F:F"
+        },
+        "aduanabr.dat": {
+            "path": "aduanabr.dat",
+            "title": "Aduana bARRA",
+            "metaData": "|C:C"
+        },
+        "aduanasp.dat": {
+            "path": "aduanasp.dat",
+            "title": "Aduana Soporte",
+            "metaData": "|C:C"
+        },
+        "aduana.dat": {
+            "path": "aduana.dat",
+            "title": "Aduana Soporte",
+            "metaData": "|C:C"
+        },
+        "alaastro.dat": {
+            "path": "alaastro.dat",
+            "title": "Ala Astro",
+            "metaData": "|S:S"
+        },
+        "titalaiz.dat": {
+            "path": "titalaiz.dat",
+            "title": "Ala Gaviota Izquierda",
+            "metaData": "|T:T"
+        },
+        "alaafgrn.dat": {
+            "path": "alaafgrn.dat",
+            "title": "Ala Grande Alfa",
+            "metaData": "|F:F"
+        },
+        "alaafmed.dat": {
+            "path": "alaafmed.dat",
+            "title": "Ala Mediana Alfa",
+            "metaData": "|F:F"
+        },
+        "alaafpeq.dat": {
+            "path": "alaafpeq.dat",
+            "title": "Ala Mediana Pequena",
+            "metaData": "|F:F"
+        },
+        "alaafpnt.dat": {
+            "path": "alaafpnt.dat",
+            "title": "Ala Puente Alfa",
+            "metaData": "|F:F"
+        },
+        "alaskyms.dat": {
+            "path": "alaskyms.dat",
+            "title": "Ala Skymaster",
+            "metaData": "|S:S"
+        },
+        "titsoprt.dat": {
+            "path": "titsoprt.dat",
+            "title": "Alas Gaviota Soporte",
+            "metaData": "|T:T"
+        },
+        "alero1.dat": {
+            "path": "alero1.dat",
+            "title": "Alero 1 punto   :X",
+            "metaData": ""
+        },
+        "alero2.dat": {
+            "path": "alero2.dat",
+            "title": "Alero 2 puntos   :X",
+            "metaData": ""
+        },
+        "alero2e.dat": {
+            "path": "alero2e.dat",
+            "title": "Alero 2 puntos esquina   :X",
+            "metaData": ""
+        },
+        "alerocoh.dat": {
+            "path": "alerocoh.dat",
+            "title": "Aleron Cohete",
+            "metaData": "|F:F"
+        },
+        "alercoht.dat": {
+            "path": "alercoht.dat",
+            "title": "Aleron Cohete",
+            "metaData": "|S:S|E:E"
+        },
+        "alercoh2.dat": {
+            "path": "alercoh2.dat",
+            "title": "Aleron Cohete 2",
+            "metaData": "|S:S|E:E"
+        },
+        "almena1.dat": {
+            "path": "almena1.dat",
+            "title": "Almena 1 punto   :X",
+            "metaData": ""
+        },
+        "almenacg.dat": {
+            "path": "almenacg.dat",
+            "title": "Almena cuadrada grande    :X",
+            "metaData": ""
+        },
+        "almenacp.dat": {
+            "path": "almenacp.dat",
+            "title": "Almena cuadrada peque�a    :X",
+            "metaData": ""
+        },
+        "almenarg.dat": {
+            "path": "almenarg.dat",
+            "title": "Almena redonda grande    :X",
+            "metaData": ""
+        },
+        "almenarp.dat": {
+            "path": "almenarp.dat",
+            "title": "Almena redonda peque�a    :X",
+            "metaData": ""
+        },
+        "amortigu.dat": {
+            "path": "amortigu.dat",
+            "title": "Amortiguador",
+            "metaData": "|B:B"
+        },
+        "antena.dat": {
+            "path": "antena.dat",
+            "title": "Antena",
+            "metaData": "|E:E|V:V"
+        },
+        "antncruz.dat": {
+            "path": "antncruz.dat",
+            "title": "Antena Cruz",
+            "metaData": "|M:M"
+        },
+        "antenart.dat": {
+            "path": "antenart.dat",
+            "title": "Antena Enganche Lateral",
+            "metaData": "|R:R|V:V"
+        },
+        "antnincl.dat": {
+            "path": "antnincl.dat",
+            "title": "Antena Inclinada",
+            "metaData": "|M:M"
+        },
+        "antninc2.dat": {
+            "path": "antninc2.dat",
+            "title": "Antena Inclinada Invertida",
+            "metaData": "|M:M"
+        },
+        "antincv.dat": {
+            "path": "antincv.dat",
+            "title": "Antena Inclinada Vieja",
+            "metaData": "|M:M"
+        },
+        "antincv2.dat": {
+            "path": "antincv2.dat",
+            "title": "Antena Inclinada Vieja Invertida",
+            "metaData": "|M:M"
+        },
+        "arco12.dat": {
+            "path": "arco12.dat",
+            "title": "Arco 12 puntos    :X",
+            "metaData": ""
+        },
+        "arco3.dat": {
+            "path": "arco3.dat",
+            "title": "Arco 3 puntos    :X",
+            "metaData": ""
+        },
+        "arco4.dat": {
+            "path": "arco4.dat",
+            "title": "Arco 4 puntos    :X",
+            "metaData": ""
+        },
+        "arco8.dat": {
+            "path": "arco8.dat",
+            "title": "Arco 8 puntos    :X",
+            "metaData": ""
+        },
+        "ascens1.dat": {
+            "path": "ascens1.dat",
+            "title": "Ascensor Enganche",
+            "metaData": "|M:M"
+        },
+        "ascens1b.dat": {
+            "path": "ascens1b.dat",
+            "title": "Ascensor Enganche Suelto",
+            "metaData": "|M:M"
+        },
+        "ascens2.dat": {
+            "path": "ascens2.dat",
+            "title": "Ascensor Placa",
+            "metaData": "|M:M"
+        },
+        "asiescor.dat": {
+            "path": "asiescor.dat",
+            "title": "Asiento Escorpion",
+            "metaData": "|E|V"
+        },
+        "aspa1.dat": {
+            "path": "aspa1.dat",
+            "title": "Aspa Helicoptero",
+            "metaData": "|A:A|V:V"
+        },
+        "aspamic1.dat": {
+            "path": "aspamic1.dat",
+            "title": "Aspa Micro",
+            "metaData": "|C:C"
+        },
+        "aspamic2.dat": {
+            "path": "aspamic2.dat",
+            "title": "Aspa Micro 2",
+            "metaData": "|C:C"
+        },
+        "astronau.dat": {
+            "path": "astronau.dat",
+            "title": "Astronauta",
+            "metaData": "|S:S"
+        },
+        "astbrazd.dat": {
+            "path": "astbrazd.dat",
+            "title": "Astronauta brazo derecho",
+            "metaData": "|S:S"
+        },
+        "astbrazi.dat": {
+            "path": "astbrazi.dat",
+            "title": "Astronauta brazo izquierdo",
+            "metaData": "|S:S"
+        },
+        "astcuerp.dat": {
+            "path": "astcuerp.dat",
+            "title": "Astronauta Cuerpo",
+            "metaData": "|S:S"
+        },
+        "astpiern.dat": {
+            "path": "astpiern.dat",
+            "title": "Astronauta Piernas",
+            "metaData": "|S:S"
+        },
+        "asttorso.dat": {
+            "path": "asttorso.dat",
+            "title": "Astronauta torso",
+            "metaData": "|S:S"
+        },
+        "astronav.dat": {
+            "path": "astronav.dat",
+            "title": "Astronauta Viejo",
+            "metaData": "|S:S"
+        },
+        "astcuerv.dat": {
+            "path": "astcuerv.dat",
+            "title": "Astronauta Viejo Cuerpo",
+            "metaData": "|S:S"
+        },
+        "astpierv.dat": {
+            "path": "astpierv.dat",
+            "title": "Astronauta Viejo Piernas",
+            "metaData": "|S:S"
+        },
+        "bald2ry.dat": {
+            "path": "bald2ry.dat",
+            "title": "Ba1dosa 2 rayada I.UNITS",
+            "metaData": ""
+        },
+        "bald2x3.dat": {
+            "path": "bald2x3.dat",
+            "title": "Ba1dosa 2x3 I.UNITS",
+            "metaData": ""
+        },
+        "bald2x4.dat": {
+            "path": "bald2x4.dat",
+            "title": "Ba1dosa 2x4 I.UNITS",
+            "metaData": ""
+        },
+        "bald2x8.dat": {
+            "path": "bald2x8.dat",
+            "title": "Ba1dosa 2x8 I.UNITS",
+            "metaData": ""
+        },
+        "bald3.dat": {
+            "path": "bald3.dat",
+            "title": "Ba1dosa 3 I.UNITS",
+            "metaData": ""
+        },
+        "bald4.dat": {
+            "path": "bald4.dat",
+            "title": "Ba1dosa 4 I.UNITS",
+            "metaData": ""
+        },
+        "bald8.dat": {
+            "path": "bald8.dat",
+            "title": "Ba1dosa 8 I.UNITS",
+            "metaData": ""
+        },
+        "bald1.dat": {
+            "path": "bald1.dat",
+            "title": "Baldosa 1",
+            "metaData": ""
+        },
+        "bald2.dat": {
+            "path": "bald2.dat",
+            "title": "Baldosa 2",
+            "metaData": ""
+        },
+        "bald2r.dat": {
+            "path": "bald2r.dat",
+            "title": "Baldosa 2 redondeada",
+            "metaData": ""
+        },
+        "bald2x2.dat": {
+            "path": "bald2x2.dat",
+            "title": "Baldosa 2x2",
+            "metaData": ""
+        },
+        "bald2x2r.dat": {
+            "path": "bald2x2r.dat",
+            "title": "Baldosa 2x2 redondeada",
+            "metaData": ""
+        },
+        "baldcil.dat": {
+            "path": "baldcil.dat",
+            "title": "Baldosa Cilindro I.UNITS",
+            "metaData": "|D:D"
+        },
+        "baldc1.dat": {
+            "path": "baldc1.dat",
+            "title": "Baldosa cuadros 1",
+            "metaData": ""
+        },
+        "baldc2.dat": {
+            "path": "baldc2.dat",
+            "title": "Baldosa cuadros 2",
+            "metaData": ""
+        },
+        "baldc2x2.dat": {
+            "path": "baldc2x2.dat",
+            "title": "Baldosa cuadros 2x2",
+            "metaData": ""
+        },
+        "baldg2x2.dat": {
+            "path": "baldg2x2.dat",
+            "title": "Baldosa cuadros 2x2 con agujero",
+            "metaData": ""
+        },
+        "baldb2x2.dat": {
+            "path": "baldb2x2.dat",
+            "title": "Baldosa cuadros 2x2 con bisagra",
+            "metaData": "|C:C"
+        },
+        "baldc4.dat": {
+            "path": "baldc4.dat",
+            "title": "Baldosa cuadros 4",
+            "metaData": ""
+        },
+        "baldc4x6.dat": {
+            "path": "baldc4x6.dat",
+            "title": "Baldosa cuadros 4x6",
+            "metaData": ""
+        },
+        "baldc4x8.dat": {
+            "path": "baldc4x8.dat",
+            "title": "Baldosa cuadros 4x8",
+            "metaData": ""
+        },
+        "baldc4in.dat": {
+            "path": "baldc4in.dat",
+            "title": "Baldosa cuadros inclinada",
+            "metaData": ""
+        },
+        "baldgord.dat": {
+            "path": "baldgord.dat",
+            "title": "Baldosa gorda",
+            "metaData": ""
+        },
+        "bald2r2.dat": {
+            "path": "bald2r2.dat",
+            "title": "Baldosin 2 redondeado",
+            "metaData": "|D:D"
+        },
+        "bandera.dat": {
+            "path": "bandera.dat",
+            "title": "Bandera",
+            "metaData": "|M:M"
+        },
+        "bandeale.dat": {
+            "path": "bandeale.dat",
+            "title": "Bandera Alemania",
+            "metaData": "|M:M"
+        },
+        "bandeesp.dat": {
+            "path": "bandeesp.dat",
+            "title": "Bandera Espa�a",
+            "metaData": "|M:M"
+        },
+        "bandefra.dat": {
+            "path": "bandefra.dat",
+            "title": "Bandera Francia",
+            "metaData": "|M:M"
+        },
+        "bandejap.dat": {
+            "path": "bandejap.dat",
+            "title": "Bandera Japon",
+            "metaData": "|M:M"
+        },
+        "bandepan.dat": {
+            "path": "bandepan.dat",
+            "title": "Bandera Panama",
+            "metaData": "|M:M"
+        },
+        "bandeusa.dat": {
+            "path": "bandeusa.dat",
+            "title": "Bandera USA",
+            "metaData": "|M:M"
+        },
+        "barandil.dat": {
+            "path": "barandil.dat",
+            "title": "Barandilla Ibertren",
+            "metaData": "|D:D"
+        },
+        "barca.dat": {
+            "path": "barca.dat",
+            "title": "Barca",
+            "metaData": "|M:M|V:V"
+        },
+        "barruta.dat": {
+            "path": "barruta.dat",
+            "title": "Barrera Ruta 2",
+            "metaData": "|R:R"
+        },
+        "barrutab.dat": {
+            "path": "barrutab.dat",
+            "title": "Barrera Ruta 2 Barra",
+            "metaData": "|R:R"
+        },
+        "barrutas.dat": {
+            "path": "barrutas.dat",
+            "title": "Barrera Ruta 2 Soporte",
+            "metaData": "|R:R"
+        },
+        "base1x1.dat": {
+            "path": "base1x1.dat",
+            "title": "Base 1x1   :X",
+            "metaData": ""
+        },
+        "base8x4.dat": {
+            "path": "base8x4.dat",
+            "title": "Base 8x4    :X",
+            "metaData": ""
+        },
+        "base8x8.dat": {
+            "path": "base8x8.dat",
+            "title": "Base 8x8    :X",
+            "metaData": ""
+        },
+        "base9x3.dat": {
+            "path": "base9x3.dat",
+            "title": "Base 9x3    :X",
+            "metaData": ""
+        },
+        "basel1x1.dat": {
+            "path": "basel1x1.dat",
+            "title": "Base lisa 1x1    :X",
+            "metaData": ""
+        },
+        "basel2x1.dat": {
+            "path": "basel2x1.dat",
+            "title": "Base lisa 2x1    :X",
+            "metaData": ""
+        },
+        "ancl1x2.dat": {
+            "path": "ancl1x2.dat",
+            "title": "Base Mastil (cuadrado)",
+            "metaData": "|M:M"
+        },
+        "ancla1x2.dat": {
+            "path": "ancla1x2.dat",
+            "title": "Base Mastil (rectangulo)",
+            "metaData": "|M:M"
+        },
+        "bis1aba.dat": {
+            "path": "bis1aba.dat",
+            "title": "Bisagra 1 teton Abajo",
+            "metaData": "|D:D"
+        },
+        "bis1arr.dat": {
+            "path": "bis1arr.dat",
+            "title": "Bisagra 1 teton Arriba",
+            "metaData": "|D:D"
+        },
+        "bsgcarr1.dat": {
+            "path": "bsgcarr1.dat",
+            "title": "Bisagra Carraca 1",
+            "metaData": "|R:R"
+        },
+        "bsgcarr2.dat": {
+            "path": "bsgcarr2.dat",
+            "title": "Bisagra Carraca 2",
+            "metaData": "|R:R"
+        },
+        "bisgr.dat": {
+            "path": "bisgr.dat",
+            "title": "Bisagra Grande",
+            "metaData": "|B:B"
+        },
+        "bisgraba.dat": {
+            "path": "bisgraba.dat",
+            "title": "Bisagra Grande Abajo",
+            "metaData": "|B:B"
+        },
+        "bisgrarr.dat": {
+            "path": "bisgrarr.dat",
+            "title": "Bisagra Grande Arriba",
+            "metaData": "|B:B"
+        },
+        "bisgreje.dat": {
+            "path": "bisgreje.dat",
+            "title": "Bisagra Grande Eje",
+            "metaData": "|B:B"
+        },
+        "bisnr.dat": {
+            "path": "bisnr.dat",
+            "title": "Bisagra Normal",
+            "metaData": "|B:B"
+        },
+        "bisnraba.dat": {
+            "path": "bisnraba.dat",
+            "title": "Bisagra Normal Abajo",
+            "metaData": "|B:B"
+        },
+        "bisnrarr.dat": {
+            "path": "bisnrarr.dat",
+            "title": "Bisagra Normal Arriba",
+            "metaData": "|B:B"
+        },
+        "bisnreje.dat": {
+            "path": "bisnreje.dat",
+            "title": "Bisagra Normal Eje",
+            "metaData": "|B:B"
+        },
+        "bispq.dat": {
+            "path": "bispq.dat",
+            "title": "Bisagra Peque�a",
+            "metaData": "|B:B"
+        },
+        "bispqaba.dat": {
+            "path": "bispqaba.dat",
+            "title": "Bisagra Peque�a Abajo",
+            "metaData": "|B:B|E:E"
+        },
+        "bispqarr.dat": {
+            "path": "bispqarr.dat",
+            "title": "Bisagra Peque�a Arriba",
+            "metaData": "|B:B"
+        },
+        "alfacris.dat": {
+            "path": "alfacris.dat",
+            "title": "Cabina Alfa (mejor usar Titanium)",
+            "metaData": "|F:F"
+        },
+        "cabalfab.dat": {
+            "path": "cabalfab.dat",
+            "title": "Cabina Alfa Abajo",
+            "metaData": "|F:F"
+        },
+        "cabalfar.dat": {
+            "path": "cabalfar.dat",
+            "title": "Cabina Alfa Arriba",
+            "metaData": "|F:F"
+        },
+        "cabalfsg.dat": {
+            "path": "cabalfsg.dat",
+            "title": "Cabina Alfa Serigrafia",
+            "metaData": "|F:F"
+        },
+        "cabant.dat": {
+            "path": "cabant.dat",
+            "title": "Cabina Antigua",
+            "metaData": "|R:R"
+        },
+        "cabant2.dat": {
+            "path": "cabant2.dat",
+            "title": "Cabina Antigua 2",
+            "metaData": "|R:R"
+        },
+        "cabantcr.dat": {
+            "path": "cabantcr.dat",
+            "title": "Cabina Antigua Cristal",
+            "metaData": "|R:R"
+        },
+        "cabantc2.dat": {
+            "path": "cabantc2.dat",
+            "title": "Cabina Antigua Cristal 2",
+            "metaData": "|R:R"
+        },
+        "cabantcv.dat": {
+            "path": "cabantcv.dat",
+            "title": "Cabina Antigua Cristal Curvado",
+            "metaData": "|R:R"
+        },
+        "cabantmr.dat": {
+            "path": "cabantmr.dat",
+            "title": "Cabina Antigua Marco",
+            "metaData": "|R"
+        },
+        "cabantm2.dat": {
+            "path": "cabantm2.dat",
+            "title": "Cabina Antigua Marco 2",
+            "metaData": "|R"
+        },
+        "cabferro.dat": {
+            "path": "cabferro.dat",
+            "title": "Cabina Ferrocarril Elephant",
+            "metaData": ""
+        },
+        "cabnueva.dat": {
+            "path": "cabnueva.dat",
+            "title": "Cabina Nueva",
+            "metaData": "|R:R"
+        },
+        "cabnuear.dat": {
+            "path": "cabnuear.dat",
+            "title": "Cabina Nueva Arriba",
+            "metaData": "|R:R"
+        },
+        "cabnuebs.dat": {
+            "path": "cabnuebs.dat",
+            "title": "Cabina Nueva Base",
+            "metaData": "|R:R"
+        },
+        "capo.dat": {
+            "path": "capo.dat",
+            "title": "Cabina Nueva Capo",
+            "metaData": "|R:R"
+        },
+        "capom.dat": {
+            "path": "capom.dat",
+            "title": "Cabina Nueva Capo morro negro",
+            "metaData": "|R:R"
+        },
+        "cabnuecr.dat": {
+            "path": "cabnuecr.dat",
+            "title": "Cabina Nueva Cristal",
+            "metaData": "|R:R"
+        },
+        "cabnuesp.dat": {
+            "path": "cabnuesp.dat",
+            "title": "Cabina Nueva Espejo",
+            "metaData": "|R:R"
+        },
+        "cabnuepa.dat": {
+            "path": "cabnuepa.dat",
+            "title": "Cabina Nueva Parachoques",
+            "metaData": "|R:R"
+        },
+        "cabnuept.dat": {
+            "path": "cabnuept.dat",
+            "title": "Cabina Nueva Puerta",
+            "metaData": "|R:R"
+        },
+        "cabnuevo.dat": {
+            "path": "cabnuevo.dat",
+            "title": "Cabina Nueva Volante",
+            "metaData": "|R:R"
+        },
+        "cabantrr.dat": {
+            "path": "cabantrr.dat",
+            "title": "Cabina Ruta Rota",
+            "metaData": "|D:D"
+        },
+        "titcabin.dat": {
+            "path": "titcabin.dat",
+            "title": "Cabina Titanium",
+            "metaData": "|T:T"
+        },
+        "cadcanon.dat": {
+            "path": "cadcanon.dat",
+            "title": "Cadena Ca�on Autopropulsado",
+            "metaData": "|E:E"
+        },
+        "cadcobra.dat": {
+            "path": "cadcobra.dat",
+            "title": "Cadena Cobra",
+            "metaData": "|E:E"
+        },
+        "cadcombi.dat": {
+            "path": "cadcombi.dat",
+            "title": "Cadena Combi",
+            "metaData": "|E:E"
+        },
+        "cadcorci.dat": {
+            "path": "cadcorci.dat",
+            "title": "Cadena Corta Circular",
+            "metaData": "|V:V"
+        },
+        "cadmisil.dat": {
+            "path": "cadmisil.dat",
+            "title": "Cadena Misil Autopropulsado",
+            "metaData": "|E:E"
+        },
+        "cadcorta.dat": {
+            "path": "cadcorta.dat",
+            "title": "Cadena Tanque Corta",
+            "metaData": "|E:E"
+        },
+        "cadlarga.dat": {
+            "path": "cadlarga.dat",
+            "title": "Cadena Tanque Larga",
+            "metaData": "|E:E"
+        },
+        "camionsp.dat": {
+            "path": "camionsp.dat",
+            "title": "Camion sin pegatinas",
+            "metaData": "|M:M|V:V"
+        },
+        "camion.dat": {
+            "path": "camion.dat",
+            "title": "Camion tipo 1",
+            "metaData": "|M:M|V:V"
+        },
+        "camion2.dat": {
+            "path": "camion2.dat",
+            "title": "Camion tipo 2",
+            "metaData": "|M:M|V:V"
+        },
+        "canongrn.dat": {
+            "path": "canongrn.dat",
+            "title": "Canon grande",
+            "metaData": "|M:M"
+        },
+        "canongrb.dat": {
+            "path": "canongrb.dat",
+            "title": "Canon grande base",
+            "metaData": "|M:M"
+        },
+        "canongrt.dat": {
+            "path": "canongrt.dat",
+            "title": "Canon grande tubos",
+            "metaData": "|M:M"
+        },
+        "canonmed.dat": {
+            "path": "canonmed.dat",
+            "title": "Canon mediano",
+            "metaData": "|M:M"
+        },
+        "canonom.dat": {
+            "path": "canonom.dat",
+            "title": "Canon Oto Melara 127mm",
+            "metaData": "|D:D"
+        },
+        "canonpeq.dat": {
+            "path": "canonpeq.dat",
+            "title": "Canon pequeno",
+            "metaData": "|M:M"
+        },
+        "canontnq.dat": {
+            "path": "canontnq.dat",
+            "title": "Canon Tanque",
+            "metaData": "|E:E"
+        },
+        "castillo.dat": {
+            "path": "castillo.dat",
+            "title": "Castillo",
+            "metaData": "|M:M"
+        },
+        "castill1.dat": {
+            "path": "castill1.dat",
+            "title": "Castillo 1",
+            "metaData": "|D:D"
+        },
+        "castesqu.dat": {
+            "path": "castesqu.dat",
+            "title": "Castillo esquina",
+            "metaData": "|M:M"
+        },
+        "castrinc.dat": {
+            "path": "castrinc.dat",
+            "title": "Castillo Rincon",
+            "metaData": "|D:D"
+        },
+        "chasis2.dat": {
+            "path": "chasis2.dat",
+            "title": "Chasis 2 puntos",
+            "metaData": "|C:C|V:V"
+        },
+        "chasis3.dat": {
+            "path": "chasis3.dat",
+            "title": "Chasis 3 puntos",
+            "metaData": "|C:C|V:V"
+        },
+        "chasis3r.dat": {
+            "path": "chasis3r.dat",
+            "title": "Chasis 3 puntos con ruedas",
+            "metaData": "|C:C|V:V"
+        },
+        "chasis4.dat": {
+            "path": "chasis4.dat",
+            "title": "Chasis 4 puntos",
+            "metaData": "|C:C|V:V"
+        },
+        "chasis4r.dat": {
+            "path": "chasis4r.dat",
+            "title": "Chasis 4 puntos con ruedas",
+            "metaData": "|C:C|V:V"
+        },
+        "alfachas.dat": {
+            "path": "alfachas.dat",
+            "title": "Chasis Alfa",
+            "metaData": "|A:A|F:F|V:V|T:T"
+        },
+        "chasisr1.dat": {
+            "path": "chasisr1.dat",
+            "title": "Chasis Rueda 1",
+            "metaData": "|C:C|V:V"
+        },
+        "chasisr2.dat": {
+            "path": "chasisr2.dat",
+            "title": "Chasis Rueda 2",
+            "metaData": "|C:C|V:V"
+        },
+        "chimenea.dat": {
+            "path": "chimenea.dat",
+            "title": "Chimenea",
+            "metaData": "|M:M"
+        },
+        "chimbald.dat": {
+            "path": "chimbald.dat",
+            "title": "Chimenea baldosa  I.UNITS",
+            "metaData": ""
+        },
+        "chimeneg.dat": {
+            "path": "chimeneg.dat",
+            "title": "Chimenea Gu�a Giro",
+            "metaData": "|M:M"
+        },
+        "chimmach.dat": {
+            "path": "chimmach.dat",
+            "title": "Chimenea macho-macho I.UNITS",
+            "metaData": ""
+        },
+        "chimplam.dat": {
+            "path": "chimplam.dat",
+            "title": "Chimenea p1aca mitad",
+            "metaData": "|D:D"
+        },
+        "chimplac.dat": {
+            "path": "chimplac.dat",
+            "title": "Chimenea placa",
+            "metaData": "|M:M"
+        },
+        "chimttnc.dat": {
+            "path": "chimttnc.dat",
+            "title": "Chimenea Titanic",
+            "metaData": "|M:M"
+        },
+        "chimtubo.dat": {
+            "path": "chimtubo.dat",
+            "title": "Chimenea tubo",
+            "metaData": "|M:M"
+        },
+        "cilindro.dat": {
+            "path": "cilindro.dat",
+            "title": "Cilindro",
+            "metaData": "|B:B"
+        },
+        "cilindr2.dat": {
+            "path": "cilindr2.dat",
+            "title": "Cilindro 2 Montado",
+            "metaData": "|S:S|A:A"
+        },
+        "cilindr3.dat": {
+            "path": "cilindr3.dat",
+            "title": "Cilindro 3 puntos    :X",
+            "metaData": ""
+        },
+        "cilind4p.dat": {
+            "path": "cilind4p.dat",
+            "title": "Cilindro 4 puntos",
+            "metaData": "|F:F"
+        },
+        "cilindr4.dat": {
+            "path": "cilindr4.dat",
+            "title": "Cilindro 4 puntos    :X",
+            "metaData": ""
+        },
+        "cilindr5.dat": {
+            "path": "cilindr5.dat",
+            "title": "Cilindro 5 puntos    :X",
+            "metaData": ""
+        },
+        "cilindab.dat": {
+            "path": "cilindab.dat",
+            "title": "Cilindro Abajo",
+            "metaData": "|S:S|E:E"
+        },
+        "cilindab2.dat": {
+            "path": "cilindab2.dat",
+            "title": "Cilindro Abajo 2",
+            "metaData": "|S:S|E:E"
+        },
+        "cilindar.dat": {
+            "path": "cilindar.dat",
+            "title": "Cilindro Arriba 1",
+            "metaData": "|S:S|E:E"
+        },
+        "cilindar2.dat": {
+            "path": "cilindar2.dat",
+            "title": "Cilindro Arriba 2",
+            "metaData": "|S:S|E:E"
+        },
+        "cilindr.dat": {
+            "path": "cilindr.dat",
+            "title": "Cilindro Montado",
+            "metaData": "|S:S|A:A"
+        },
+        "cilintap.dat": {
+            "path": "cilintap.dat",
+            "title": "Cilindro Tapa",
+            "metaData": "|A:A"
+        },
+        "cirrevol.dat": {
+            "path": "cirrevol.dat",
+            "title": "Cirrevol Grande con Cristal",
+            "metaData": "|S:S"
+        },
+        "cirrevor.dat": {
+            "path": "cirrevor.dat",
+            "title": "Cirrevol Grande con Logo",
+            "metaData": "|S:S"
+        },
+        "cirrevoc.dat": {
+            "path": "cirrevoc.dat",
+            "title": "Cirrevol Grande Cristal",
+            "metaData": "|S:S"
+        },
+        "cirrevog.dat": {
+            "path": "cirrevog.dat",
+            "title": "Cirrevol Grande Limpio",
+            "metaData": "|S:S"
+        },
+        "cirrevos.dat": {
+            "path": "cirrevos.dat",
+            "title": "Cirrevol Grande Logo",
+            "metaData": "|S:S"
+        },
+        "cirrevop.dat": {
+            "path": "cirrevop.dat",
+            "title": "Cirrevol Peque�o",
+            "metaData": "|S:S"
+        },
+        "ciws.dat": {
+            "path": "ciws.dat",
+            "title": "CIWS",
+            "metaData": "|D:D"
+        },
+        "ciws2.dat": {
+            "path": "ciws2.dat",
+            "title": "CIWS 2",
+            "metaData": "|D:D"
+        },
+        "columna.dat": {
+            "path": "columna.dat",
+            "title": "Columna    :X",
+            "metaData": ""
+        },
+        "compuert.dat": {
+            "path": "compuert.dat",
+            "title": "Compuerta",
+            "metaData": "|B:B|E:E|V:V"
+        },
+        "comprtm.dat": {
+            "path": "comprtm.dat",
+            "title": "Compuerta Alfa (marco)",
+            "metaData": "|F:F|T:T"
+        },
+        "comprtp.dat": {
+            "path": "comprtp.dat",
+            "title": "Compuerta Alfa (puerta)",
+            "metaData": "|F:F|T:T"
+        },
+        "conotanq.dat": {
+            "path": "conotanq.dat",
+            "title": "Cono Tanque",
+            "metaData": "|E:E"
+        },
+        "cornisa1.dat": {
+            "path": "cornisa1.dat",
+            "title": "Cornisa 1 punto    :X",
+            "metaData": ""
+        },
+        "cornisa3.dat": {
+            "path": "cornisa3.dat",
+            "title": "Cornisa 3 puntos    :X",
+            "metaData": ""
+        },
+        "cunad1.dat": {
+            "path": "cunad1.dat",
+            "title": "Cuna 1x1 doble altura I.UNITS",
+            "metaData": ""
+        },
+        "cunad2.dat": {
+            "path": "cunad2.dat",
+            "title": "Cuna 2x1 doble altura I.UNITS",
+            "metaData": ""
+        },
+        "cunad4.dat": {
+            "path": "cunad4.dat",
+            "title": "Cuna 4x1 doble altura I.UNITS",
+            "metaData": ""
+        },
+        "cunad8.dat": {
+            "path": "cunad8.dat",
+            "title": "Cuna 8x1 doble altura I.UNITS",
+            "metaData": ""
+        },
+        "alfacuna.dat": {
+            "path": "alfacuna.dat",
+            "title": "Cuna Alfa",
+            "metaData": "|F:F"
+        },
+        "cunaesq.dat": {
+            "path": "cunaesq.dat",
+            "title": "Cuna Esquina",
+            "metaData": "|D:D"
+        },
+        "cunaesq2.dat": {
+            "path": "cunaesq2.dat",
+            "title": "Cuna Esquina 2",
+            "metaData": "|D:D"
+        },
+        "cuna1.dat": {
+            "path": "cuna1.dat",
+            "title": "Cuna1",
+            "metaData": "|D:D"
+        },
+        "curv1.dat": {
+            "path": "curv1.dat",
+            "title": "Curva 1 punto    :X",
+            "metaData": ""
+        },
+        "curv1de.dat": {
+            "path": "curv1de.dat",
+            "title": "Curva 1 punto derecha   :X",
+            "metaData": ""
+        },
+        "curv1iz.dat": {
+            "path": "curv1iz.dat",
+            "title": "Curva 1 punto izquierda   :X",
+            "metaData": ""
+        },
+        "curv3.dat": {
+            "path": "curv3.dat",
+            "title": "Curva 3 puntos    :X",
+            "metaData": ""
+        },
+        "cuna.dat": {
+            "path": "cuna.dat",
+            "title": "Cu�a",
+            "metaData": "|B:B"
+        },
+        "cuna2x2e.dat": {
+            "path": "cuna2x2e.dat",
+            "title": "Cu�a 2x2 Elephant",
+            "metaData": ""
+        },
+        "deposito.dat": {
+            "path": "deposito.dat",
+            "title": "Deposito",
+            "metaData": "|V:V|R:R|E:E"
+        },
+        "eje15.dat": {
+            "path": "eje15.dat",
+            "title": "Eje 15mm para helicoptero",
+            "metaData": "|V:V|A:A"
+        },
+        "eje26.dat": {
+            "path": "eje26.dat",
+            "title": "Eje 26mm para helicoptero para 2x2",
+            "metaData": "|V:V|A:A"
+        },
+        "eje28.dat": {
+            "path": "eje28.dat",
+            "title": "Eje 28mm para Ruta 21 y Tobera en jacena2",
+            "metaData": "|V:V|R:R|S:S"
+        },
+        "eje45.dat": {
+            "path": "eje45.dat",
+            "title": "Eje 45mm para ruedas ruta21 en jacena4",
+            "metaData": "|V:V|R:R"
+        },
+        "eje625.dat": {
+            "path": "eje625.dat",
+            "title": "Eje 62.5mm para jacena4 con ruedas balon astro",
+            "metaData": "|V:V|S:S"
+        },
+        "eje75.dat": {
+            "path": "eje75.dat",
+            "title": "Eje 75mm Cosmic",
+            "metaData": "|V:V|S:S"
+        },
+        "alfa_eje.dat": {
+            "path": "alfa_eje.dat",
+            "title": "Eje Alfa",
+            "metaData": "|A:A|F:F|V:V|T:T"
+        },
+        "ejealfa.dat": {
+            "path": "ejealfa.dat",
+            "title": "Eje Alfa",
+            "metaData": "|F:F"
+        },
+        "ejeastr1.dat": {
+            "path": "ejeastr1.dat",
+            "title": "Eje Astro",
+            "metaData": "|S:S"
+        },
+        "ejeastr2.dat": {
+            "path": "ejeastr2.dat",
+            "title": "Eje Astro Vertical",
+            "metaData": "|S:S"
+        },
+        "ejeastr4.dat": {
+            "path": "ejeastr4.dat",
+            "title": "Eje Astro Vertical sin Agujero",
+            "metaData": "|S:S"
+        },
+        "ejecaden.dat": {
+            "path": "ejecaden.dat",
+            "title": "Eje Cadena",
+            "metaData": "|E:E"
+        },
+        "ejecadpq.dat": {
+            "path": "ejecadpq.dat",
+            "title": "Eje Cadena Peque�o",
+            "metaData": "|E:E"
+        },
+        "ejecosm2.dat": {
+            "path": "ejecosm2.dat",
+            "title": "Eje Cosmic Externo",
+            "metaData": "|S:S"
+        },
+        "ejecosm1.dat": {
+            "path": "ejecosm1.dat",
+            "title": "Eje Cosmic Interno",
+            "metaData": "|S:S"
+        },
+        "ejedbcad.dat": {
+            "path": "ejedbcad.dat",
+            "title": "Eje Doble Cadena",
+            "metaData": "|E:E"
+        },
+        "ejedbcpq.dat": {
+            "path": "ejedbcpq.dat",
+            "title": "Eje Doble Cadena Peque�o",
+            "metaData": "|E:E"
+        },
+        "ejemicro.dat": {
+            "path": "ejemicro.dat",
+            "title": "Eje Micro",
+            "metaData": "|D:D"
+        },
+        "ejetnqex.dat": {
+            "path": "ejetnqex.dat",
+            "title": "Eje Tanque Extremo",
+            "metaData": "|E:E"
+        },
+        "ejextro2.dat": {
+            "path": "ejextro2.dat",
+            "title": "Eje Xtronic 2  (duplicado: eje corto Sco",
+            "metaData": "rpion)"
+        },
+        "ejextro4.dat": {
+            "path": "ejextro4.dat",
+            "title": "Eje Xtronic 4  (duplicado: eje Scorpion)",
+            "metaData": ""
+        },
+        "elevad1.dat": {
+            "path": "elevad1.dat",
+            "title": "Elevador Base",
+            "metaData": "|C:C"
+        },
+        "elevad2.dat": {
+            "path": "elevad2.dat",
+            "title": "Elevador Eje",
+            "metaData": "|C:C"
+        },
+        "elevad3.dat": {
+            "path": "elevad3.dat",
+            "title": "Elevador Palanca",
+            "metaData": "|C:C"
+        },
+        "elevad4.dat": {
+            "path": "elevad4.dat",
+            "title": "Elevador Plataforma",
+            "metaData": "|C:C"
+        },
+        "enganc1m.dat": {
+            "path": "enganc1m.dat",
+            "title": "Enganche 1 teton macizo",
+            "metaData": "|D:D"
+        },
+        "enganc3a.dat": {
+            "path": "enganc3a.dat",
+            "title": "Enganche 2 tetones juntos",
+            "metaData": "|D:D"
+        },
+        "enganc3b.dat": {
+            "path": "enganc3b.dat",
+            "title": "Enganche 2 tetones opuestos",
+            "metaData": "|D:D"
+        },
+        "enganc4.dat": {
+            "path": "enganc4.dat",
+            "title": "Enganche 3 tetones",
+            "metaData": "|D:D"
+        },
+        "enganc5.dat": {
+            "path": "enganc5.dat",
+            "title": "Enganche 4 tetones",
+            "metaData": "|D:D"
+        },
+        "engbarco.dat": {
+            "path": "engbarco.dat",
+            "title": "Enganche Vela",
+            "metaData": "|M:M"
+        },
+        "escalera.dat": {
+            "path": "escalera.dat",
+            "title": "Escalera",
+            "metaData": "|S:S"
+        },
+        "escaler2.dat": {
+            "path": "escaler2.dat",
+            "title": "Escalera Alfa",
+            "metaData": "|F:F"
+        },
+        "escobill.dat": {
+            "path": "escobill.dat",
+            "title": "Escobilla",
+            "metaData": "|M:M"
+        },
+        "escotil2.dat": {
+            "path": "escotil2.dat",
+            "title": "Escotilla Abierta",
+            "metaData": "|E:E|V:V"
+        },
+        "escotil1.dat": {
+            "path": "escotil1.dat",
+            "title": "Escotilla Cerrada",
+            "metaData": "|E:E|V:V"
+        },
+        "escotilp.dat": {
+            "path": "escotilp.dat",
+            "title": "Escotilla Puerta",
+            "metaData": "|E:E"
+        },
+        "eslabon.dat": {
+            "path": "eslabon.dat",
+            "title": "Eslabon Cadena",
+            "metaData": "|E:E"
+        },
+        "autolava.dat": {
+            "path": "autolava.dat",
+            "title": "EtiqueDark Autolavado",
+            "metaData": ""
+        },
+        "metro.dat": {
+            "path": "metro.dat",
+            "title": "EtiqueDark Metro",
+            "metaData": ""
+        },
+        "plzspain.dat": {
+            "path": "plzspain.dat",
+            "title": "EtiqueDark Plaza de Espa�a (metro)",
+            "metaData": ""
+        },
+        "telefono.dat": {
+            "path": "telefono.dat",
+            "title": "EtiqueDark Telefono",
+            "metaData": ""
+        },
+        "tentexin.dat": {
+            "path": "tentexin.dat",
+            "title": "EtiqueDark Tente Exin (metro)",
+            "metaData": ""
+        },
+        "ubuntu.dat": {
+            "path": "ubuntu.dat",
+            "title": "EtiqueDark Ubuntu",
+            "metaData": ""
+        },
+        "haitbus1.dat": {
+            "path": "haitbus1.dat",
+            "title": "Etiqueta 1 Haito Bus",
+            "metaData": ""
+        },
+        "15.dat": {
+            "path": "15.dat",
+            "title": "Etiqueta 15",
+            "metaData": ""
+        },
+        "haitbus2.dat": {
+            "path": "haitbus2.dat",
+            "title": "Etiqueta 2 Haito Bus",
+            "metaData": ""
+        },
+        "205.dat": {
+            "path": "205.dat",
+            "title": "Etiqueta 205 tanque",
+            "metaData": ""
+        },
+        "haitbus3.dat": {
+            "path": "haitbus3.dat",
+            "title": "Etiqueta 3 Haito Bus",
+            "metaData": ""
+        },
+        "376k.dat": {
+            "path": "376k.dat",
+            "title": "Etiqueta 376k",
+            "metaData": ""
+        },
+        "4circulo.dat": {
+            "path": "4circulo.dat",
+            "title": "Etiqueta 4 en circulo",
+            "metaData": ""
+        },
+        "haitbus4.dat": {
+            "path": "haitbus4.dat",
+            "title": "Etiqueta 4 Haito Bus",
+            "metaData": ""
+        },
+        "5calixto.dat": {
+            "path": "5calixto.dat",
+            "title": "Etiqueta 5Calixto",
+            "metaData": ""
+        },
+        "ac137.dat": {
+            "path": "ac137.dat",
+            "title": "Etiqueta ac137",
+            "metaData": ""
+        },
+        "p_hrala1.dat": {
+            "path": "p_hrala1.dat",
+            "title": "Etiqueta Ala Robot Hardtron 1",
+            "metaData": ""
+        },
+        "p_hrala2.dat": {
+            "path": "p_hrala2.dat",
+            "title": "Etiqueta Ala Robot Hardtron 2",
+            "metaData": ""
+        },
+        "paries.dat": {
+            "path": "paries.dat",
+            "title": "Etiqueta aries",
+            "metaData": "|M:M"
+        },
+        "artic.dat": {
+            "path": "artic.dat",
+            "title": "Etiqueta Artic",
+            "metaData": ""
+        },
+        "patlas.dat": {
+            "path": "patlas.dat",
+            "title": "Etiqueta atlas",
+            "metaData": "|M:M"
+        },
+        "p_atmos1.dat": {
+            "path": "p_atmos1.dat",
+            "title": "Etiqueta Atmos 1",
+            "metaData": ""
+        },
+        "p_atmos2.dat": {
+            "path": "p_atmos2.dat",
+            "title": "Etiqueta Atmos 2",
+            "metaData": ""
+        },
+        "scorpb2.dat": {
+            "path": "scorpb2.dat",
+            "title": "Etiqueta B (Pico) Scorpiones",
+            "metaData": ""
+        },
+        "scorpb.dat": {
+            "path": "scorpb.dat",
+            "title": "Etiqueta B Scorpiones",
+            "metaData": ""
+        },
+        "baleares.dat": {
+            "path": "baleares.dat",
+            "title": "Etiqueta baleares",
+            "metaData": ""
+        },
+        "balear.dat": {
+            "path": "balear.dat",
+            "title": "Etiqueta BALEARES",
+            "metaData": ""
+        },
+        "bcn5.dat": {
+            "path": "bcn5.dat",
+            "title": "Etiqueta BCN-5",
+            "metaData": ""
+        },
+        "p_bgrp_3.dat": {
+            "path": "p_bgrp_3.dat",
+            "title": "Etiqueta Blackgun RP 3",
+            "metaData": ""
+        },
+        "p_bgtria.dat": {
+            "path": "p_bgtria.dat",
+            "title": "Etiqueta Blackgun tri�ngulos",
+            "metaData": ""
+        },
+        "bomberos.dat": {
+            "path": "bomberos.dat",
+            "title": "Etiqueta BOMBEROS",
+            "metaData": ""
+        },
+        "boomberg.dat": {
+            "path": "boomberg.dat",
+            "title": "Etiqueta Boomerang (camion sony)",
+            "metaData": ""
+        },
+        "pbravo.dat": {
+            "path": "pbravo.dat",
+            "title": "Etiqueta bravo",
+            "metaData": "|M:M"
+        },
+        "pcabonor.dat": {
+            "path": "pcabonor.dat",
+            "title": "Etiqueta CABO NORTE",
+            "metaData": "|M:M"
+        },
+        "campicar.dat": {
+            "path": "campicar.dat",
+            "title": "Etiqueta Camping Car (camion sony)",
+            "metaData": ""
+        },
+        "campsa.dat": {
+            "path": "campsa.dat",
+            "title": "Etiqueta CAMPSA",
+            "metaData": ""
+        },
+        "cargo.dat": {
+            "path": "cargo.dat",
+            "title": "Etiqueta cargo",
+            "metaData": ""
+        },
+        "pcaribe.dat": {
+            "path": "pcaribe.dat",
+            "title": "Etiqueta caribe",
+            "metaData": "|M:M"
+        },
+        "pcastor.dat": {
+            "path": "pcastor.dat",
+            "title": "Etiqueta castor",
+            "metaData": "|M:M"
+        },
+        "p_castch.dat": {
+            "path": "p_castch.dat",
+            "title": "Etiqueta Castor Chimenea",
+            "metaData": ""
+        },
+        "p_permar.dat": {
+            "path": "p_permar.dat",
+            "title": "Etiqueta Castor Permar",
+            "metaData": ""
+        },
+        "cepsaav.dat": {
+            "path": "cepsaav.dat",
+            "title": "Etiqueta cepsa aviacion",
+            "metaData": ""
+        },
+        "p_helcir.dat": {
+            "path": "p_helcir.dat",
+            "title": "Etiqueta Circuito Roblock",
+            "metaData": ""
+        },
+        "p_hrcir1.dat": {
+            "path": "p_hrcir1.dat",
+            "title": "Etiqueta Circuito Robot Hardtron 1",
+            "metaData": ""
+        },
+        "p_hrcir2.dat": {
+            "path": "p_hrcir2.dat",
+            "title": "Etiqueta Circuito Robot Hardtron 2",
+            "metaData": ""
+        },
+        "cocacola.dat": {
+            "path": "cocacola.dat",
+            "title": "Etiqueta Coca Cola",
+            "metaData": ""
+        },
+        "combi3.dat": {
+            "path": "combi3.dat",
+            "title": "Etiqueta Combi3+",
+            "metaData": ""
+        },
+        "pconsul.dat": {
+            "path": "pconsul.dat",
+            "title": "Etiqueta consul",
+            "metaData": "|M:M"
+        },
+        "pcosmos.dat": {
+            "path": "pcosmos.dat",
+            "title": "Etiqueta cosmos",
+            "metaData": "|M:M"
+        },
+        "ncoto.dat": {
+            "path": "ncoto.dat",
+            "title": "Etiqueta Coto N",
+            "metaData": ""
+        },
+        "cruzroja.dat": {
+            "path": "cruzroja.dat",
+            "title": "Etiqueta Cruz Roja",
+            "metaData": ""
+        },
+        "cruzroj6.dat": {
+            "path": "cruzroj6.dat",
+            "title": "Etiqueta Cruz Roja 6",
+            "metaData": ""
+        },
+        "kcuadros.dat": {
+            "path": "kcuadros.dat",
+            "title": "Etiqueta Cuadros con K",
+            "metaData": ""
+        },
+        "p_hrcua1.dat": {
+            "path": "p_hrcua1.dat",
+            "title": "Etiqueta Cuadros Robot Hardtron 1",
+            "metaData": ""
+        },
+        "p_hrcua2.dat": {
+            "path": "p_hrcua2.dat",
+            "title": "Etiqueta Cuadros Robot Hardtron 2",
+            "metaData": ""
+        },
+        "pcyclone.dat": {
+            "path": "pcyclone.dat",
+            "title": "Etiqueta cyclone",
+            "metaData": "|M:M"
+        },
+        "pdavid.dat": {
+            "path": "pdavid.dat",
+            "title": "Etiqueta david",
+            "metaData": "|M:M"
+        },
+        "dianajp.dat": {
+            "path": "dianajp.dat",
+            "title": "Etiqueta Diana japonesa",
+            "metaData": ""
+        },
+        "p_heldis.dat": {
+            "path": "p_heldis.dat",
+            "title": "Etiqueta Discos Grandes",
+            "metaData": ""
+        },
+        "p_perdis.dat": {
+            "path": "p_perdis.dat",
+            "title": "Etiqueta Discos Peque�os",
+            "metaData": ""
+        },
+        "enye.dat": {
+            "path": "enye.dat",
+            "title": "Etiqueta E New York Express (camion sony)",
+            "metaData": ""
+        },
+        "eaglrrow.dat": {
+            "path": "eaglrrow.dat",
+            "title": "Etiqueta Eagle Arrow (camion sony)",
+            "metaData": ""
+        },
+        "pegeo.dat": {
+            "path": "pegeo.dat",
+            "title": "Etiqueta egeo",
+            "metaData": "|M:M"
+        },
+        "enagas.dat": {
+            "path": "enagas.dat",
+            "title": "Etiqueta Enagas",
+            "metaData": ""
+        },
+        "enlectra.dat": {
+            "path": "enlectra.dat",
+            "title": "Etiqueta Enelectra",
+            "metaData": ""
+        },
+        "engrase.dat": {
+            "path": "engrase.dat",
+            "title": "Etiqueta Engrase",
+            "metaData": ""
+        },
+        "fireshld.dat": {
+            "path": "fireshld.dat",
+            "title": "Etiqueta escudo bomberos japoneses",
+            "metaData": "|R:R"
+        },
+        "fireshli.dat": {
+            "path": "fireshli.dat",
+            "title": "Etiqueta escudo bomberos japoneses con bandas",
+            "metaData": "|R:R"
+        },
+        "estacion.dat": {
+            "path": "estacion.dat",
+            "title": "Etiqueta Estacion",
+            "metaData": ""
+        },
+        "europa.dat": {
+            "path": "europa.dat",
+            "title": "Etiqueta Europa ruta",
+            "metaData": ""
+        },
+        "explore.dat": {
+            "path": "explore.dat",
+            "title": "Etiqueta explorer",
+            "metaData": ""
+        },
+        "explornb.dat": {
+            "path": "explornb.dat",
+            "title": "Etiqueta Explorion grande",
+            "metaData": ""
+        },
+        "explornc.dat": {
+            "path": "explornc.dat",
+            "title": "Etiqueta Explorion grande curvada",
+            "metaData": ""
+        },
+        "tferry.dat": {
+            "path": "tferry.dat",
+            "title": "Etiqueta Ferry",
+            "metaData": ""
+        },
+        "firedept.dat": {
+            "path": "firedept.dat",
+            "title": "Etiqueta Fire Dept",
+            "metaData": "|R:R"
+        },
+        "firestat.dat": {
+            "path": "firestat.dat",
+            "title": "Etiqueta Fire Station",
+            "metaData": "|C:C"
+        },
+        "flagblck.dat": {
+            "path": "flagblck.dat",
+            "title": "Etiqueta Flag on block (camion sony)",
+            "metaData": ""
+        },
+        "flecha2.dat": {
+            "path": "flecha2.dat",
+            "title": "Etiqueta Flecha 2x2",
+            "metaData": ""
+        },
+        "p_flecha.dat": {
+            "path": "p_flecha.dat",
+            "title": "Etiqueta Flechas",
+            "metaData": ""
+        },
+        "followme.dat": {
+            "path": "followme.dat",
+            "title": "Etiqueta Follow Me",
+            "metaData": ""
+        },
+        "fireline.dat": {
+            "path": "fireline.dat",
+            "title": "Etiqueta franjas camion bomberos japones",
+            "metaData": "|R:R"
+        },
+        "pfrog.dat": {
+            "path": "pfrog.dat",
+            "title": "Etiqueta FROG",
+            "metaData": "|M:M"
+        },
+        "frezstar.dat": {
+            "path": "frezstar.dat",
+            "title": "Etiqueta Frozen star",
+            "metaData": ""
+        },
+        "p_gala_0.dat": {
+            "path": "p_gala_0.dat",
+            "title": "Etiqueta Galaxie 0",
+            "metaData": ""
+        },
+        "p_gala_3.dat": {
+            "path": "p_gala_3.dat",
+            "title": "Etiqueta Galaxie 3",
+            "metaData": ""
+        },
+        "p_gaban1.dat": {
+            "path": "p_gaban1.dat",
+            "title": "Etiqueta Galaxie bandas 1",
+            "metaData": ""
+        },
+        "p_gaban2.dat": {
+            "path": "p_gaban2.dat",
+            "title": "Etiqueta Galaxie bandas 2",
+            "metaData": ""
+        },
+        "p_gacr73.dat": {
+            "path": "p_gacr73.dat",
+            "title": "Etiqueta Galaxie CR73",
+            "metaData": ""
+        },
+        "p_galdev.dat": {
+            "path": "p_galdev.dat",
+            "title": "Etiqueta Galaxie diablo",
+            "metaData": ""
+        },
+        "p_galtri.dat": {
+            "path": "p_galtri.dat",
+            "title": "Etiqueta Galaxie tri�ngulos",
+            "metaData": ""
+        },
+        "gasolina.dat": {
+            "path": "gasolina.dat",
+            "title": "Etiqueta Gasolinera",
+            "metaData": ""
+        },
+        "pglaciar.dat": {
+            "path": "pglaciar.dat",
+            "title": "Etiqueta glaciar",
+            "metaData": "|M:M"
+        },
+        "etgrua.dat": {
+            "path": "etgrua.dat",
+            "title": "Etiqueta guardabarros grua",
+            "metaData": ""
+        },
+        "p_hard_3.dat": {
+            "path": "p_hard_3.dat",
+            "title": "Etiqueta Hardtron 3",
+            "metaData": ""
+        },
+        "p_harban.dat": {
+            "path": "p_harban.dat",
+            "title": "Etiqueta Hardtron Bandas",
+            "metaData": ""
+        },
+        "p_harent.dat": {
+            "path": "p_harent.dat",
+            "title": "Etiqueta Hardtron Enterprise",
+            "metaData": ""
+        },
+        "p_harpis.dat": {
+            "path": "p_harpis.dat",
+            "title": "Etiqueta Hardtron Pista 1",
+            "metaData": ""
+        },
+        "p_harp23.dat": {
+            "path": "p_harp23.dat",
+            "title": "Etiqueta Hardtron Pista 2",
+            "metaData": ""
+        },
+        "p_harala.dat": {
+            "path": "p_harala.dat",
+            "title": "Etiqueta Hardtron Robot Ala",
+            "metaData": ""
+        },
+        "p_harrob.dat": {
+            "path": "p_harrob.dat",
+            "title": "Etiqueta Hardtron Robot Grafico",
+            "metaData": ""
+        },
+        "p_harmor.dat": {
+            "path": "p_harmor.dat",
+            "title": "Etiqueta Hardtron Robot Morro",
+            "metaData": ""
+        },
+        "p_heli_5.dat": {
+            "path": "p_heli_5.dat",
+            "title": "Etiqueta Helitron 5",
+            "metaData": ""
+        },
+        "p_helcua.dat": {
+            "path": "p_helcua.dat",
+            "title": "Etiqueta Helitron Cuadros",
+            "metaData": ""
+        },
+        "p_helint.dat": {
+            "path": "p_helint.dat",
+            "title": "Etiqueta Helitron Interior",
+            "metaData": ""
+        },
+        "p_helman.dat": {
+            "path": "p_helman.dat",
+            "title": "Etiqueta Helitron mandos",
+            "metaData": ""
+        },
+        "p_helpie.dat": {
+            "path": "p_helpie.dat",
+            "title": "Etiqueta Helitron Pie",
+            "metaData": ""
+        },
+        "phermes.dat": {
+            "path": "phermes.dat",
+            "title": "Etiqueta hermes",
+            "metaData": "|M:M"
+        },
+        "hokuyo23.dat": {
+            "path": "hokuyo23.dat",
+            "title": "Etiqueta Hokuyo 23",
+            "metaData": ""
+        },
+        "hovcraft.dat": {
+            "path": "hovcraft.dat",
+            "title": "Etiqueta hovercraft",
+            "metaData": ""
+        },
+        "phuracan.dat": {
+            "path": "phuracan.dat",
+            "title": "Etiqueta huracan",
+            "metaData": "|M:M"
+        },
+        "pibiza.dat": {
+            "path": "pibiza.dat",
+            "title": "Etiqueta ibiza",
+            "metaData": "|M:M"
+        },
+        "p_ibizbl.dat": {
+            "path": "p_ibizbl.dat",
+            "title": "Etiqueta Ibiza Bluelines",
+            "metaData": ""
+        },
+        "p_ibizch.dat": {
+            "path": "p_ibizch.dat",
+            "title": "Etiqueta Ibiza Chimenea",
+            "metaData": ""
+        },
+        "picaro.dat": {
+            "path": "picaro.dat",
+            "title": "Etiqueta icaro",
+            "metaData": "|M:M"
+        },
+        "pimperial.dat": {
+            "path": "pimperial.dat",
+            "title": "Etiqueta imperial",
+            "metaData": "|M:M"
+        },
+        "intgalax.dat": {
+            "path": "intgalax.dat",
+            "title": "Etiqueta intergalax",
+            "metaData": ""
+        },
+        "kolmar.dat": {
+            "path": "kolmar.dat",
+            "title": "Etiqueta Kolmar",
+            "metaData": ""
+        },
+        "p_kraala.dat": {
+            "path": "p_kraala.dat",
+            "title": "Etiqueta Krator Ala",
+            "metaData": ""
+        },
+        "p_krat_1.dat": {
+            "path": "p_krat_1.dat",
+            "title": "Etiqueta Krator Der",
+            "metaData": ""
+        },
+        "p_krpie2.dat": {
+            "path": "p_krpie2.dat",
+            "title": "Etiqueta Krator Flecha",
+            "metaData": ""
+        },
+        "p_krat_2.dat": {
+            "path": "p_krat_2.dat",
+            "title": "Etiqueta Krator Izq",
+            "metaData": ""
+        },
+        "p_kramor.dat": {
+            "path": "p_kramor.dat",
+            "title": "Etiqueta Krator Morro",
+            "metaData": ""
+        },
+        "p_kraojo.dat": {
+            "path": "p_kraojo.dat",
+            "title": "Etiqueta Krator Ojos",
+            "metaData": ""
+        },
+        "p_krpie1.dat": {
+            "path": "p_krpie1.dat",
+            "title": "Etiqueta Krator Pie",
+            "metaData": ""
+        },
+        "p_krar34.dat": {
+            "path": "p_krar34.dat",
+            "title": "Etiqueta Krator Rob34",
+            "metaData": ""
+        },
+        "plibia.dat": {
+            "path": "plibia.dat",
+            "title": "Etiqueta libia",
+            "metaData": "|M:M"
+        },
+        "lnprkam.dat": {
+            "path": "lnprkam.dat",
+            "title": "Etiqueta Linea Parking Amarilla",
+            "metaData": "|C:C"
+        },
+        "lnprkrb.dat": {
+            "path": "lnprkrb.dat",
+            "title": "Etiqueta Linea Parking Roja Blanca",
+            "metaData": "|C:C"
+        },
+        "p_harlog.dat": {
+            "path": "p_harlog.dat",
+            "title": "Etiqueta Logo Triangulos",
+            "metaData": ""
+        },
+        "pmallorca.dat": {
+            "path": "pmallorca.dat",
+            "title": "Etiqueta mallorca",
+            "metaData": "|M:M"
+        },
+        "pmaria.dat": {
+            "path": "pmaria.dat",
+            "title": "Etiqueta maria",
+            "metaData": "|M:M"
+        },
+        "pmarte.dat": {
+            "path": "pmarte.dat",
+            "title": "Etiqueta marte",
+            "metaData": "|M:M"
+        },
+        "p_mcband.dat": {
+            "path": "p_mcband.dat",
+            "title": "Etiqueta MasterCaptor bandas",
+            "metaData": ""
+        },
+        "p_mccabi.dat": {
+            "path": "p_mccabi.dat",
+            "title": "Etiqueta MasterCaptor cabina",
+            "metaData": ""
+        },
+        "p_mclog1.dat": {
+            "path": "p_mclog1.dat",
+            "title": "Etiqueta MasterCaptor logo1",
+            "metaData": ""
+        },
+        "p_mclog2.dat": {
+            "path": "p_mclog2.dat",
+            "title": "Etiqueta MasterCaptor logo2",
+            "metaData": ""
+        },
+        "p_mctapa.dat": {
+            "path": "p_mctapa.dat",
+            "title": "Etiqueta MasterCaptor tapa",
+            "metaData": ""
+        },
+        "p_mctita.dat": {
+            "path": "p_mctita.dat",
+            "title": "Etiqueta MasterCaptor Titanium",
+            "metaData": ""
+        },
+        "pmenorca.dat": {
+            "path": "pmenorca.dat",
+            "title": "Etiqueta menorca",
+            "metaData": "|M:M"
+        },
+        "pmistral.dat": {
+            "path": "pmistral.dat",
+            "title": "Etiqueta mistral",
+            "metaData": "|M:M"
+        },
+        "fujijp.dat": {
+            "path": "fujijp.dat",
+            "title": "Etiqueta Monte Fuji",
+            "metaData": ""
+        },
+        "pneptuno.dat": {
+            "path": "pneptuno.dat",
+            "title": "Etiqueta neptuno",
+            "metaData": "|M:M"
+        },
+        "pnordic.dat": {
+            "path": "pnordic.dat",
+            "title": "Etiqueta nordic",
+            "metaData": "|M:M"
+        },
+        "norfrio.dat": {
+            "path": "norfrio.dat",
+            "title": "Etiqueta norfrio",
+            "metaData": ""
+        },
+        "ny_sony.dat": {
+            "path": "ny_sony.dat",
+            "title": "Etiqueta NY (camion sony)",
+            "metaData": ""
+        },
+        "ny.dat": {
+            "path": "ny.dat",
+            "title": "Etiqueta NY con puntos(camion sony)",
+            "metaData": ""
+        },
+        "pocean.dat": {
+            "path": "pocean.dat",
+            "title": "Etiqueta ocean",
+            "metaData": "|M:M"
+        },
+        "pojovrnt.dat": {
+            "path": "pojovrnt.dat",
+            "title": "Etiqueta Ojo Variant&Block",
+            "metaData": "|B:B"
+        },
+        "onditajp.dat": {
+            "path": "onditajp.dat",
+            "title": "Etiqueta Ondita Japon",
+            "metaData": ""
+        },
+        "orion.dat": {
+            "path": "orion.dat",
+            "title": "Etiqueta Orion",
+            "metaData": ""
+        },
+        "poslo.dat": {
+            "path": "poslo.dat",
+            "title": "Etiqueta oslo",
+            "metaData": "|M:M"
+        },
+        "panamar.dat": {
+            "path": "panamar.dat",
+            "title": "Etiqueta Panamar",
+            "metaData": ""
+        },
+        "p_pancua.dat": {
+            "path": "p_pancua.dat",
+            "title": "Etiqueta Pantalla Cuadros",
+            "metaData": ""
+        },
+        "peaje502.dat": {
+            "path": "peaje502.dat",
+            "title": "Etiqueta Peaje 502",
+            "metaData": ""
+        },
+        "p_perban.dat": {
+            "path": "p_perban.dat",
+            "title": "Etiqueta Persus Bandas",
+            "metaData": ""
+        },
+        "p_percir.dat": {
+            "path": "p_percir.dat",
+            "title": "Etiqueta Persus Circuito",
+            "metaData": ""
+        },
+        "p_perpie.dat": {
+            "path": "p_perpie.dat",
+            "title": "Etiqueta Persus Pie",
+            "metaData": ""
+        },
+        "p_percua.dat": {
+            "path": "p_percua.dat",
+            "title": "Etiqueta Persus Rodilla",
+            "metaData": ""
+        },
+        "p_perter.dat": {
+            "path": "p_perter.dat",
+            "title": "Etiqueta Persus TER",
+            "metaData": ""
+        },
+        "p_pgm.dat": {
+            "path": "p_pgm.dat",
+            "title": "Etiqueta PGM",
+            "metaData": "|S:S"
+        },
+        "pmcarmen.dat": {
+            "path": "pmcarmen.dat",
+            "title": "Etiqueta Proa Mari Carmen",
+            "metaData": "|M:M"
+        },
+        "prhbapam.dat": {
+            "path": "prhbapam.dat",
+            "title": "Etiqueta Prohibido Aparcar Micro",
+            "metaData": "|C:C"
+        },
+        "prtarabe.dat": {
+            "path": "prtarabe.dat",
+            "title": "Etiqueta Puerta Arabe",
+            "metaData": "|C:C"
+        },
+        "prtventa.dat": {
+            "path": "prtventa.dat",
+            "title": "Etiqueta Puerta con Ventana",
+            "metaData": "|C:C"
+        },
+        "prtdobfs.dat": {
+            "path": "prtdobfs.dat",
+            "title": "Etiqueta Puerta Doble Fire Station",
+            "metaData": "|C:C"
+        },
+        "prtparki.dat": {
+            "path": "prtparki.dat",
+            "title": "Etiqueta Puerta Parking",
+            "metaData": "|C:C"
+        },
+        "prtsenci.dat": {
+            "path": "prtsenci.dat",
+            "title": "Etiqueta Puerta Sencilla",
+            "metaData": "|C:C"
+        },
+        "etqnieve.dat": {
+            "path": "etqnieve.dat",
+            "title": "Etiqueta quitanieves",
+            "metaData": ""
+        },
+        "num7-260.dat": {
+            "path": "num7-260.dat",
+            "title": "Etiqueta Ref. 270 - 7",
+            "metaData": ""
+        },
+        "c-eagle-l.dat": {
+            "path": "c-eagle-l.dat",
+            "title": "Etiqueta Ref. 270 Caravan eagle (left)",
+            "metaData": "|R:R"
+        },
+        "c-eagle-r.dat": {
+            "path": "c-eagle-r.dat",
+            "title": "Etiqueta Ref. 270 Caravan eagle (right)",
+            "metaData": "|R:R"
+        },
+        "cometl.dat": {
+            "path": "cometl.dat",
+            "title": "Etiqueta Ref. 270 Comet (left)",
+            "metaData": ""
+        },
+        "cometr.dat": {
+            "path": "cometr.dat",
+            "title": "Etiqueta Ref. 270 Comet (right)",
+            "metaData": ""
+        },
+        "dumpflag.dat": {
+            "path": "dumpflag.dat",
+            "title": "Etiqueta Ref. 270 Dumptruck flag",
+            "metaData": "|R:R"
+        },
+        "caravfar.dat": {
+            "path": "caravfar.dat",
+            "title": "Etiqueta Ref. 270 Faros caravana",
+            "metaData": ""
+        },
+        "dtfaros.dat": {
+            "path": "dtfaros.dat",
+            "title": "Etiqueta Ref. 270 Faros dumptruck",
+            "metaData": ""
+        },
+        "jeepfaro.dat": {
+            "path": "jeepfaro.dat",
+            "title": "Etiqueta Ref. 270 Faros jeep",
+            "metaData": ""
+        },
+        "sanitlig.dat": {
+            "path": "sanitlig.dat",
+            "title": "Etiqueta Ref. 270 Faros Sanitarion",
+            "metaData": "|R:R"
+        },
+        "ftlightr.dat": {
+            "path": "ftlightr.dat",
+            "title": "Etiqueta Ref. 270 firetruck (luces laterales derecha)",
+            "metaData": ""
+        },
+        "ftlightl.dat": {
+            "path": "ftlightl.dat",
+            "title": "Etiqueta Ref. 270 firetruck (luces laterales izquierda)",
+            "metaData": ""
+        },
+        "firepilo.dat": {
+            "path": "firepilo.dat",
+            "title": "Etiqueta Ref. 270 Firetruck pilots",
+            "metaData": ""
+        },
+        "dumptrur.dat": {
+            "path": "dumptrur.dat",
+            "title": "Etiqueta Ref. 270 Franja dumptruck (derecha)",
+            "metaData": ""
+        },
+        "dumptrul.dat": {
+            "path": "dumptrul.dat",
+            "title": "Etiqueta Ref. 270 Franja dumptruck (izquierda)",
+            "metaData": ""
+        },
+        "axeextin.dat": {
+            "path": "axeextin.dat",
+            "title": "Etiqueta Ref. 270 Hacha y estintor",
+            "metaData": ""
+        },
+        "sanitkab.dat": {
+            "path": "sanitkab.dat",
+            "title": "Etiqueta Ref. 270 Keep America Beautiful",
+            "metaData": ""
+        },
+        "l-eagle-l.dat": {
+            "path": "l-eagle-l.dat",
+            "title": "Etiqueta Ref. 270 L-eagle (left)",
+            "metaData": "|R:R"
+        },
+        "l-eagle-r.dat": {
+            "path": "l-eagle-r.dat",
+            "title": "Etiqueta Ref. 270 L-eagle (right)",
+            "metaData": "|R:R"
+        },
+        "sani4016.dat": {
+            "path": "sani4016.dat",
+            "title": "Etiqueta Ref. 270 Sanitarion 4016",
+            "metaData": ""
+        },
+        "sanitbag.dat": {
+            "path": "sanitbag.dat",
+            "title": "Etiqueta Ref. 270 Sanitarion's bag",
+            "metaData": ""
+        },
+        "sanitati.dat": {
+            "path": "sanitati.dat",
+            "title": "Etiqueta Ref. 270 Sanitarion's title",
+            "metaData": ""
+        },
+        "squar260.dat": {
+            "path": "squar260.dat",
+            "title": "Etiqueta Ref. 270 Squares",
+            "metaData": "|R:R"
+        },
+        "jeepfrnj.dat": {
+            "path": "jeepfrnj.dat",
+            "title": "Etiqueta Ref. 270 Tiger title jeep",
+            "metaData": ""
+        },
+        "tigerttl.dat": {
+            "path": "tigerttl.dat",
+            "title": "Etiqueta Ref. 270 Tiger title jeep",
+            "metaData": ""
+        },
+        "tiger260.dat": {
+            "path": "tiger260.dat",
+            "title": "Etiqueta Ref. 270 Tigre jeep",
+            "metaData": ""
+        },
+        "refresco.dat": {
+            "path": "refresco.dat",
+            "title": "Etiqueta Refresco",
+            "metaData": ""
+        },
+        "rombof.dat": {
+            "path": "rombof.dat",
+            "title": "Etiqueta Rombo F",
+            "metaData": ""
+        },
+        "royaljp.dat": {
+            "path": "royaljp.dat",
+            "title": "Etiqueta Royal Japan",
+            "metaData": ""
+        },
+        "p_rutelf.dat": {
+            "path": "p_rutelf.dat",
+            "title": "Etiqueta Ruta Elf",
+            "metaData": ""
+        },
+        "p_rutene.dat": {
+            "path": "p_rutene.dat",
+            "title": "Etiqueta Ruta Enelectra",
+            "metaData": ""
+        },
+        "p_mombas.dat": {
+            "path": "p_mombas.dat",
+            "title": "Etiqueta Ruta Mombasa",
+            "metaData": ""
+        },
+        "p_shelld.dat": {
+            "path": "p_shelld.dat",
+            "title": "Etiqueta Ruta Shell Der",
+            "metaData": ""
+        },
+        "p_shelli.dat": {
+            "path": "p_shelli.dat",
+            "title": "Etiqueta Ruta Shell Izq",
+            "metaData": ""
+        },
+        "seasub.dat": {
+            "path": "seasub.dat",
+            "title": "Etiqueta Seasub",
+            "metaData": ""
+        },
+        "shell2.dat": {
+            "path": "shell2.dat",
+            "title": "Etiqueta Shell grande (gasolinera japonesa)",
+            "metaData": ""
+        },
+        "shell1.dat": {
+            "path": "shell1.dat",
+            "title": "Etiqueta Shell mediana (gasolinera japonesa)",
+            "metaData": ""
+        },
+        "p_skym_3.dat": {
+            "path": "p_skym_3.dat",
+            "title": "Etiqueta Skymaster 3",
+            "metaData": ""
+        },
+        "p_ala_2.dat": {
+            "path": "p_ala_2.dat",
+            "title": "Etiqueta Skymaster Ala",
+            "metaData": ""
+        },
+        "p_skyc_1.dat": {
+            "path": "p_skyc_1.dat",
+            "title": "Etiqueta Skymaster Circuito 1",
+            "metaData": ""
+        },
+        "p_skyc_2.dat": {
+            "path": "p_skyc_2.dat",
+            "title": "Etiqueta Skymaster Circuito 2",
+            "metaData": ""
+        },
+        "p_skyc_3.dat": {
+            "path": "p_skyc_3.dat",
+            "title": "Etiqueta Skymaster Circuito 3",
+            "metaData": ""
+        },
+        "p_skyc_4.dat": {
+            "path": "p_skyc_4.dat",
+            "title": "Etiqueta Skymaster Circuito 4",
+            "metaData": ""
+        },
+        "p_skyint.dat": {
+            "path": "p_skyint.dat",
+            "title": "Etiqueta Skymaster Interior",
+            "metaData": ""
+        },
+        "p_skyner.dat": {
+            "path": "p_skyner.dat",
+            "title": "Etiqueta Skymaster NER",
+            "metaData": ""
+        },
+        "so_sony.dat": {
+            "path": "so_sony.dat",
+            "title": "Etiqueta SO (camion sony)",
+            "metaData": ""
+        },
+        "sunlines.dat": {
+            "path": "sunlines.dat",
+            "title": "Etiqueta Sunlines",
+            "metaData": ""
+        },
+        "superatl.dat": {
+            "path": "superatl.dat",
+            "title": "Etiqueta SuperAtlas",
+            "metaData": ""
+        },
+        "p_teclad.dat": {
+            "path": "p_teclad.dat",
+            "title": "Etiqueta Teclado",
+            "metaData": ""
+        },
+        "ptigre.dat": {
+            "path": "ptigre.dat",
+            "title": "Etiqueta tigre",
+            "metaData": "|M:M"
+        },
+        "tir.dat": {
+            "path": "tir.dat",
+            "title": "Etiqueta Tir ruta",
+            "metaData": ""
+        },
+        "ptitan.dat": {
+            "path": "ptitan.dat",
+            "title": "Etiqueta titan",
+            "metaData": "|M:M"
+        },
+        "p_titan1.dat": {
+            "path": "p_titan1.dat",
+            "title": "Etiqueta Titanium",
+            "metaData": ""
+        },
+        "titan02.dat": {
+            "path": "titan02.dat",
+            "title": "Etiqueta Titanium 02",
+            "metaData": ""
+        },
+        "titan02c.dat": {
+            "path": "titan02c.dat",
+            "title": "Etiqueta Titanium 02 curvada",
+            "metaData": ""
+        },
+        "p_titan6.dat": {
+            "path": "p_titan6.dat",
+            "title": "Etiqueta Titanium 6",
+            "metaData": ""
+        },
+        "p_titan7.dat": {
+            "path": "p_titan7.dat",
+            "title": "Etiqueta Titanium 7",
+            "metaData": ""
+        },
+        "p_titan2.dat": {
+            "path": "p_titan2.dat",
+            "title": "Etiqueta Titanium sin borde",
+            "metaData": ""
+        },
+        "p_tcband.dat": {
+            "path": "p_tcband.dat",
+            "title": "Etiqueta Transcomputer bandas",
+            "metaData": ""
+        },
+        "p_tccabd.dat": {
+            "path": "p_tccabd.dat",
+            "title": "Etiqueta Transcomputer cabina derecha",
+            "metaData": ""
+        },
+        "p_tccabi.dat": {
+            "path": "p_tccabi.dat",
+            "title": "Etiqueta Transcomputer cabina izquierda",
+            "metaData": ""
+        },
+        "p_tcpant.dat": {
+            "path": "p_tcpant.dat",
+            "title": "Etiqueta Transcomputer pantalla",
+            "metaData": ""
+        },
+        "p_tctecl.dat": {
+            "path": "p_tctecl.dat",
+            "title": "Etiqueta Transcomputer teclado",
+            "metaData": ""
+        },
+        "trialfa.dat": {
+            "path": "trialfa.dat",
+            "title": "Etiqueta Trialfa",
+            "metaData": ""
+        },
+        "ptriton.dat": {
+            "path": "ptriton.dat",
+            "title": "Etiqueta triton",
+            "metaData": "|M:M"
+        },
+        "ptunez.dat": {
+            "path": "ptunez.dat",
+            "title": "Etiqueta tunez",
+            "metaData": "|M:M"
+        },
+        "uranio.dat": {
+            "path": "uranio.dat",
+            "title": "Etiqueta Uranio",
+            "metaData": "|S:S"
+        },
+        "uraniog.dat": {
+            "path": "uraniog.dat",
+            "title": "Etiqueta Uranio Grande",
+            "metaData": "|S:S"
+        },
+        "v20.dat": {
+            "path": "v20.dat",
+            "title": "Etiqueta V20 (camion sony)",
+            "metaData": ""
+        },
+        "pvelazq.dat": {
+            "path": "pvelazq.dat",
+            "title": "Etiqueta velazquez",
+            "metaData": "|M:M"
+        },
+        "ventsony.dat": {
+            "path": "ventsony.dat",
+            "title": "Etiqueta Ventana (camion sony)",
+            "metaData": ""
+        },
+        "vntancab.dat": {
+            "path": "vntancab.dat",
+            "title": "Etiqueta Ventana Ancha Abierta",
+            "metaData": "|C:C"
+        },
+        "vntancdb.dat": {
+            "path": "vntancdb.dat",
+            "title": "Etiqueta Ventana Ancha Doble",
+            "metaData": "|C:C"
+        },
+        "vntarabe.dat": {
+            "path": "vntarabe.dat",
+            "title": "Etiqueta Ventana Arabe",
+            "metaData": "|C:C"
+        },
+        "vntcua6.dat": {
+            "path": "vntcua6.dat",
+            "title": "Etiqueta Ventana Cuadrada 6",
+            "metaData": "|C:C"
+        },
+        "vntest10.dat": {
+            "path": "vntest10.dat",
+            "title": "Etiqueta Ventana Estrecha 10",
+            "metaData": "|C:C"
+        },
+        "vntest2.dat": {
+            "path": "vntest2.dat",
+            "title": "Etiqueta Ventana Estrecha 2",
+            "metaData": "|C:C"
+        },
+        "vntest3.dat": {
+            "path": "vntest3.dat",
+            "title": "Etiqueta Ventana Estrecha 3",
+            "metaData": "|C:C"
+        },
+        "vntest6.dat": {
+            "path": "vntest6.dat",
+            "title": "Etiqueta Ventana Estrecha 6",
+            "metaData": "|C:C"
+        },
+        "vntsafar.dat": {
+            "path": "vntsafar.dat",
+            "title": "Etiqueta Ventana Safari",
+            "metaData": "|C:C"
+        },
+        "viking.dat": {
+            "path": "viking.dat",
+            "title": "Etiqueta Viking",
+            "metaData": ""
+        },
+        "w642.dat": {
+            "path": "w642.dat",
+            "title": "Etiqueta w642",
+            "metaData": ""
+        },
+        "pxaloc.dat": {
+            "path": "pxaloc.dat",
+            "title": "Etiqueta xaloc",
+            "metaData": "|M:M"
+        },
+        "y-36.dat": {
+            "path": "y-36.dat",
+            "title": "Etiqueta Y-36",
+            "metaData": ""
+        },
+        "pzebra.dat": {
+            "path": "pzebra.dat",
+            "title": "Etiqueta zebra",
+            "metaData": "|M:M"
+        },
+        "pzenith.dat": {
+            "path": "pzenith.dat",
+            "title": "Etiqueta Zenith",
+            "metaData": "|M:M"
+        },
+        "p_zenala.dat": {
+            "path": "p_zenala.dat",
+            "title": "Etiqueta Zenith Ala",
+            "metaData": ""
+        },
+        "p_zencup.dat": {
+            "path": "p_zencup.dat",
+            "title": "Etiqueta Zenith Cupula",
+            "metaData": ""
+        },
+        "p_zenlog.dat": {
+            "path": "p_zenlog.dat",
+            "title": "Etiqueta Zenith Logo",
+            "metaData": ""
+        },
+        "p_zensta.dat": {
+            "path": "p_zensta.dat",
+            "title": "Etiqueta Zenith Star Lines",
+            "metaData": ""
+        },
+        "extenabj.dat": {
+            "path": "extenabj.dat",
+            "title": "Extensor Abajo",
+            "metaData": "|R:R"
+        },
+        "extenarr.dat": {
+            "path": "extenarr.dat",
+            "title": "Extensor Arriba",
+            "metaData": "|R:R"
+        },
+        "extengrs.dat": {
+            "path": "extengrs.dat",
+            "title": "Extensor Gris",
+            "metaData": "|R:R"
+        },
+        "extenmed.dat": {
+            "path": "extenmed.dat",
+            "title": "Extensor Medio",
+            "metaData": "|R:R"
+        },
+        "f35.dat": {
+            "path": "f35.dat",
+            "title": "F-35",
+            "metaData": "|D:D"
+        },
+        "paracqtf.dat": {
+            "path": "paracqtf.dat",
+            "title": "Faro Parachoques Titanium",
+            "metaData": "|R:R|V:V|T:T"
+        },
+        "faros.dat": {
+            "path": "faros.dat",
+            "title": "Faros",
+            "metaData": "|R:R"
+        },
+        "farosluz.dat": {
+            "path": "farosluz.dat",
+            "title": "Faros (etiqueta luces)",
+            "metaData": "|R:R"
+        },
+        "faroslzt.dat": {
+            "path": "faroslzt.dat",
+            "title": "Faros Titanium (etiqueta luces)",
+            "metaData": "|V:V|T:T"
+        },
+        "faros214.dat": {
+            "path": "faros214.dat",
+            "title": "Faros2 Focos",
+            "metaData": "|R:R"
+        },
+        "faros212.dat": {
+            "path": "faros212.dat",
+            "title": "Faros2 Fondo1",
+            "metaData": "|R:R"
+        },
+        "faros213.dat": {
+            "path": "faros213.dat",
+            "title": "Faros2 Fondo2",
+            "metaData": "|R:R"
+        },
+        "radiadjp.dat": {
+            "path": "radiadjp.dat",
+            "title": "Faros2 Radiador Japones",
+            "metaData": "|R:R"
+        },
+        "fusil.dat": {
+            "path": "fusil.dat",
+            "title": "Fusil",
+            "metaData": "|F:F"
+        },
+        "garfio.dat": {
+            "path": "garfio.dat",
+            "title": "Garfio",
+            "metaData": "|R:R"
+        },
+        "alfagarf.dat": {
+            "path": "alfagarf.dat",
+            "title": "Garfio Alfa",
+            "metaData": "|F:F"
+        },
+        "garfsprt.dat": {
+            "path": "garfsprt.dat",
+            "title": "Garfio Soporte",
+            "metaData": "|R:R"
+        },
+        "grua.dat": {
+            "path": "grua.dat",
+            "title": "Grua",
+            "metaData": "|M:M"
+        },
+        "grua1.dat": {
+            "path": "grua1.dat",
+            "title": "Grua 1",
+            "metaData": "|R:R"
+        },
+        "grua2.dat": {
+            "path": "grua2.dat",
+            "title": "Grua 2",
+            "metaData": "|R:R"
+        },
+        "grua3jac.dat": {
+            "path": "grua3jac.dat",
+            "title": "Grua 3 (Jacena 14)",
+            "metaData": "|R:R"
+        },
+        "gruastro.dat": {
+            "path": "gruastro.dat",
+            "title": "Grua Astro",
+            "metaData": "|A:A|S:S"
+        },
+        "gruab.dat": {
+            "path": "gruab.dat",
+            "title": "Grua Base",
+            "metaData": "|M:M"
+        },
+        "gruafija.dat": {
+            "path": "gruafija.dat",
+            "title": "Grua Fija",
+            "metaData": "|M:M"
+        },
+        "gruahilo.dat": {
+            "path": "gruahilo.dat",
+            "title": "Grua Hilo",
+            "metaData": "|R:R"
+        },
+        "minigrua.dat": {
+            "path": "minigrua.dat",
+            "title": "Grua Micro",
+            "metaData": "|C:C"
+        },
+        "gruap.dat": {
+            "path": "gruap.dat",
+            "title": "Grua Pluma",
+            "metaData": "|M:M"
+        },
+        "gruaremt.dat": {
+            "path": "gruaremt.dat",
+            "title": "Grua Remate",
+            "metaData": "|R:R"
+        },
+        "gruatop1.dat": {
+            "path": "gruatop1.dat",
+            "title": "Grua Tope 1",
+            "metaData": "|R:R"
+        },
+        "gruatop2.dat": {
+            "path": "gruatop2.dat",
+            "title": "Grua Tope 2",
+            "metaData": "|R:R"
+        },
+        "gruatorn.dat": {
+            "path": "gruatorn.dat",
+            "title": "Grua Torno",
+            "metaData": "|R:R"
+        },
+        "gruators.dat": {
+            "path": "gruators.dat",
+            "title": "Grua Torno Soporte",
+            "metaData": "|R:R"
+        },
+        "guardabr.dat": {
+            "path": "guardabr.dat",
+            "title": "Guardabarros",
+            "metaData": "|R:R|V:V"
+        },
+        "harpoon.dat": {
+            "path": "harpoon.dat",
+            "title": "Harpoon",
+            "metaData": "|D:D"
+        },
+        "harrier.dat": {
+            "path": "harrier.dat",
+            "title": "Harrier AV-8B",
+            "metaData": "|D:D"
+        },
+        "helice.dat": {
+            "path": "helice.dat",
+            "title": "Helice avioneta",
+            "metaData": "|C:C|V:V"
+        },
+        "helicop1.dat": {
+            "path": "helicop1.dat",
+            "title": "Helicoptero",
+            "metaData": "|M:M|V:V"
+        },
+        "helala.dat": {
+            "path": "helala.dat",
+            "title": "Helicoptero Ala",
+            "metaData": "|A:A|V:V"
+        },
+        "aspa.dat": {
+            "path": "aspa.dat",
+            "title": "Helicoptero Aspa",
+            "metaData": "|A:A|V:V"
+        },
+        "helaspac.dat": {
+            "path": "helaspac.dat",
+            "title": "Helicoptero Aspa Cola + enganche",
+            "metaData": "|A:A|V:V"
+        },
+        "heliaspa.dat": {
+            "path": "heliaspa.dat",
+            "title": "Helicoptero Aspa Grande",
+            "metaData": "|A:A|M:M|V:V"
+        },
+        "heliaspp.dat": {
+            "path": "heliaspp.dat",
+            "title": "Helicoptero Aspa Pequena",
+            "metaData": "|M:M|V:V"
+        },
+        "helcab.dat": {
+            "path": "helcab.dat",
+            "title": "Helicoptero cabina",
+            "metaData": "|A:A|V:V"
+        },
+        "helcabcr.dat": {
+            "path": "helcabcr.dat",
+            "title": "Helicoptero cabina cristal",
+            "metaData": "|A:A|V:V"
+        },
+        "helcol.dat": {
+            "path": "helcol.dat",
+            "title": "Helicoptero Cola",
+            "metaData": "|A:A|V:V"
+        },
+        "helcolhu.dat": {
+            "path": "helcolhu.dat",
+            "title": "Helicoptero Cola Hueca",
+            "metaData": "|A:A|V:V"
+        },
+        "helirotr.dat": {
+            "path": "helirotr.dat",
+            "title": "Helicoptero Cola Hueca",
+            "metaData": "|A:A|V:V"
+        },
+        "helicoc1.dat": {
+            "path": "helicoc1.dat",
+            "title": "Helicoptero cuerpo",
+            "metaData": "|M:M|V:V"
+        },
+        "helicop2.dat": {
+            "path": "helicop2.dat",
+            "title": "Helicoptero doble",
+            "metaData": "|M:M|V:V"
+        },
+        "helicoc2.dat": {
+            "path": "helicoc2.dat",
+            "title": "Helicoptero Doble cuerpo",
+            "metaData": "|M:M|V:V"
+        },
+        "helireje.dat": {
+            "path": "helireje.dat",
+            "title": "Helicoptero Eje Rueda",
+            "metaData": "|A:A|V:V"
+        },
+        "helillnt.dat": {
+            "path": "helillnt.dat",
+            "title": "Helicoptero Llanta Rueda",
+            "metaData": "|A:A|V:V"
+        },
+        "helmando.dat": {
+            "path": "helmando.dat",
+            "title": "Helicoptero Mandos",
+            "metaData": "|A:A|V:V"
+        },
+        "helineum.dat": {
+            "path": "helineum.dat",
+            "title": "Helicoptero Neumatico",
+            "metaData": "|A:A|V:V"
+        },
+        "helpata.dat": {
+            "path": "helpata.dat",
+            "title": "Helicoptero Pata",
+            "metaData": "|A:A|V:V"
+        },
+        "helrueda.dat": {
+            "path": "helrueda.dat",
+            "title": "Helicoptero Rueda",
+            "metaData": "|A:A|V:V"
+        },
+        "airsillo.dat": {
+            "path": "airsillo.dat",
+            "title": "Helicoptero Sillon",
+            "metaData": "|A:A|V:V"
+        },
+        "helisprt.dat": {
+            "path": "helisprt.dat",
+            "title": "Helicoptero Soporte Rueda",
+            "metaData": "|A:A|V:V"
+        },
+        "heliprto.dat": {
+            "path": "heliprto.dat",
+            "title": "Helipuerto",
+            "metaData": "|M:M"
+        },
+        "htit2.dat": {
+            "path": "htit2.dat",
+            "title": "Hombre Titanium 1",
+            "metaData": "|T:T"
+        },
+        "htit1.dat": {
+            "path": "htit1.dat",
+            "title": "Hombre Titanium 1",
+            "metaData": "|T:T"
+        },
+        "htitbrzd.dat": {
+            "path": "htitbrzd.dat",
+            "title": "Hombre Titanium brazo derecho",
+            "metaData": "|T:T"
+        },
+        "htitbrzi.dat": {
+            "path": "htitbrzi.dat",
+            "title": "Hombre Titanium brazo izquierdo",
+            "metaData": "|T:T"
+        },
+        "htitcab1.dat": {
+            "path": "htitcab1.dat",
+            "title": "Hombre Titanium cabeza 1",
+            "metaData": "|T:T"
+        },
+        "htitcab2.dat": {
+            "path": "htitcab2.dat",
+            "title": "Hombre Titanium cabeza 2",
+            "metaData": "|T:T"
+        },
+        "htitentr.dat": {
+            "path": "htitentr.dat",
+            "title": "Hombre Titanium entrepierna",
+            "metaData": "|T:T"
+        },
+        "htitmand.dat": {
+            "path": "htitmand.dat",
+            "title": "Hombre Titanium mano derecha",
+            "metaData": "|T:T"
+        },
+        "htitmani.dat": {
+            "path": "htitmani.dat",
+            "title": "Hombre Titanium mano izquierda",
+            "metaData": "|T:T"
+        },
+        "htitpies.dat": {
+            "path": "htitpies.dat",
+            "title": "Hombre Titanium piernas",
+            "metaData": "|T:T"
+        },
+        "htittron.dat": {
+            "path": "htittron.dat",
+            "title": "Hombre Titanium tronco",
+            "metaData": "|T:T"
+        },
+        "invcilin.dat": {
+            "path": "invcilin.dat",
+            "title": "Inversor cilindrico",
+            "metaData": "|D:D"
+        },
+        "jacena1.dat": {
+            "path": "jacena1.dat",
+            "title": "Jacena 1",
+            "metaData": ""
+        },
+        "enganche.dat": {
+            "path": "enganche.dat",
+            "title": "Jacena 1 Enganche 1",
+            "metaData": ""
+        },
+        "enganch2.dat": {
+            "path": "enganch2.dat",
+            "title": "Jacena 1 Enganche 1 (sin agujero)",
+            "metaData": ""
+        },
+        "enganc2.dat": {
+            "path": "enganc2.dat",
+            "title": "Jacena 1 Enganche 2",
+            "metaData": ""
+        },
+        "jacena14.dat": {
+            "path": "jacena14.dat",
+            "title": "Jacena 14",
+            "metaData": ""
+        },
+        "jacena2.dat": {
+            "path": "jacena2.dat",
+            "title": "Jacena 2",
+            "metaData": ""
+        },
+        "jacen2x2.dat": {
+            "path": "jacen2x2.dat",
+            "title": "Jacena 2x2",
+            "metaData": ""
+        },
+        "jacn2x2a.dat": {
+            "path": "jacn2x2a.dat",
+            "title": "Jacena 2x2 con agujero",
+            "metaData": ""
+        },
+        "jacn2x2e.dat": {
+            "path": "jacn2x2e.dat",
+            "title": "Jacena 2x2 Elephant",
+            "metaData": ""
+        },
+        "jacen2x3.dat": {
+            "path": "jacen2x3.dat",
+            "title": "Jacena 2x3",
+            "metaData": ""
+        },
+        "jacen2x4.dat": {
+            "path": "jacen2x4.dat",
+            "title": "Jacena 2x4",
+            "metaData": ""
+        },
+        "jacn2x4a.dat": {
+            "path": "jacn2x4a.dat",
+            "title": "Jacena 2x4 con agujero",
+            "metaData": ""
+        },
+        "jacn2x4e.dat": {
+            "path": "jacn2x4e.dat",
+            "title": "Jacena 2x4 Elephant",
+            "metaData": ""
+        },
+        "jacen2x8.dat": {
+            "path": "jacen2x8.dat",
+            "title": "Jacena 2x8",
+            "metaData": ""
+        },
+        "jacn2x8e.dat": {
+            "path": "jacn2x8e.dat",
+            "title": "Jacena 2x8 Elephant",
+            "metaData": ""
+        },
+        "jacena4.dat": {
+            "path": "jacena4.dat",
+            "title": "Jacena 4",
+            "metaData": ""
+        },
+        "jacn4a.dat": {
+            "path": "jacn4a.dat",
+            "title": "Jacena 4 con agujero",
+            "metaData": ""
+        },
+        "jacena6.dat": {
+            "path": "jacena6.dat",
+            "title": "Jacena 6",
+            "metaData": ""
+        },
+        "jacena8.dat": {
+            "path": "jacena8.dat",
+            "title": "Jacena 8",
+            "metaData": ""
+        },
+        "alfajacn.dat": {
+            "path": "alfajacn.dat",
+            "title": "Jacena Alfa",
+            "metaData": "|F:F"
+        },
+        "rallado1.dat": {
+            "path": "rallado1.dat",
+            "title": "Jacena rallada 1",
+            "metaData": ""
+        },
+        "rallado2.dat": {
+            "path": "rallado2.dat",
+            "title": "Jacena rallada 2",
+            "metaData": ""
+        },
+        "jet.dat": {
+            "path": "jet.dat",
+            "title": "Jet",
+            "metaData": "|M:M|V:V"
+        },
+        "jet1.dat": {
+            "path": "jet1.dat",
+            "title": "Jet 1 cola",
+            "metaData": "|D:D"
+        },
+        "ladri1x1.dat": {
+            "path": "ladri1x1.dat",
+            "title": "Ladrillo 1x1    :X",
+            "metaData": ""
+        },
+        "ladri2x1.dat": {
+            "path": "ladri2x1.dat",
+            "title": "Ladrillo 2x1    :X",
+            "metaData": ""
+        },
+        "ladrs2x1.dat": {
+            "path": "ladrs2x1.dat",
+            "title": "Ladrillo 2x1 con saliente   :X",
+            "metaData": ""
+        },
+        "ladri8x1.dat": {
+            "path": "ladri8x1.dat",
+            "title": "Ladrillo 8x1    :X",
+            "metaData": ""
+        },
+        "ladrl1x1.dat": {
+            "path": "ladrl1x1.dat",
+            "title": "Ladrillo liso 1x1    :X",
+            "metaData": ""
+        },
+        "ladrl2x1.dat": {
+            "path": "ladrl2x1.dat",
+            "title": "Ladrillo liso 2x1    :X",
+            "metaData": ""
+        },
+        "ladrlin1.dat": {
+            "path": "ladrlin1.dat",
+            "title": "Ladrillo liso inclinado 1 punto    :X",
+            "metaData": ""
+        },
+        "ladrlin2.dat": {
+            "path": "ladrlin2.dat",
+            "title": "Ladrillo liso inclinado 2 puntos    :X",
+            "metaData": ""
+        },
+        "lancha.dat": {
+            "path": "lancha.dat",
+            "title": "Lancha",
+            "metaData": "|M:M|V:V"
+        },
+        "landes.dat": {
+            "path": "landes.dat",
+            "title": "Lancha Desembarco",
+            "metaData": "|M:M|V:V"
+        },
+        "landesld.dat": {
+            "path": "landesld.dat",
+            "title": "Lancha Desembarco Etiqueta",
+            "metaData": "|M:M"
+        },
+        "landesse.dat": {
+            "path": "landesse.dat",
+            "title": "Lancha Desembarco sin etiq",
+            "metaData": "|M:M|V:V"
+        },
+        "laser.dat": {
+            "path": "laser.dat",
+            "title": "Laser",
+            "metaData": "|E:E|V:V"
+        },
+        "alfalln1.dat": {
+            "path": "alfalln1.dat",
+            "title": "Llanta Alfa 1",
+            "metaData": "|A:A|F:F|V:V|T:T"
+        },
+        "alfalln2.dat": {
+            "path": "alfalln2.dat",
+            "title": "Llanta Alfa 2",
+            "metaData": "|A:A|F:F|V:V|T:T"
+        },
+        "llantrob.dat": {
+            "path": "llantrob.dat",
+            "title": "Llanta Roblock",
+            "metaData": "|R:R"
+        },
+        "llantrut.dat": {
+            "path": "llantrut.dat",
+            "title": "Llanta Ruta",
+            "metaData": "|R:R"
+        },
+        "llanrutt.dat": {
+            "path": "llanrutt.dat",
+            "title": "Llanta Ruta Teton",
+            "metaData": "|R:R"
+        },
+        "llantnq.dat": {
+            "path": "llantnq.dat",
+            "title": "Llanta Tanque",
+            "metaData": "|E:E"
+        },
+        "llantqab.dat": {
+            "path": "llantqab.dat",
+            "title": "Llanta Tanque Abajo",
+            "metaData": "|E:E"
+        },
+        "llantqar.dat": {
+            "path": "llantqar.dat",
+            "title": "Llanta Tanque Arriba",
+            "metaData": "|E:E"
+        },
+        "llantnqm.dat": {
+            "path": "llantnqm.dat",
+            "title": "Llanta Tanque Montada",
+            "metaData": "|E:E"
+        },
+        "llantaxt.dat": {
+            "path": "llantaxt.dat",
+            "title": "Llanta Xtronic",
+            "metaData": "|R:R"
+        },
+        "astgrfgr.dat": {
+            "path": "astgrfgr.dat",
+            "title": "Logo Semicupula Grande",
+            "metaData": "|S:S"
+        },
+        "astgrfmd.dat": {
+            "path": "astgrfmd.dat",
+            "title": "Logo Semicupula Mediana",
+            "metaData": "|S:S"
+        },
+        "astgrfpq.dat": {
+            "path": "astgrfpq.dat",
+            "title": "Logo Semicupula Peque�a",
+            "metaData": "|S:S"
+        },
+        "logtente.dat": {
+            "path": "logtente.dat",
+            "title": "Logo Tente",
+            "metaData": "|D:D"
+        },
+        "macecun2.dat": {
+            "path": "macecun2.dat",
+            "title": "Macetero cuna 2x1 I.UNITS",
+            "metaData": ""
+        },
+        "manguera.dat": {
+            "path": "manguera.dat",
+            "title": "Manguera Mochila 2",
+            "metaData": "|F:F"
+        },
+        "mastbase.dat": {
+            "path": "mastbase.dat",
+            "title": "Mastil Base",
+            "metaData": "|M:M"
+        },
+        "metrall.dat": {
+            "path": "metrall.dat",
+            "title": "Metralleta",
+            "metaData": "|E:E"
+        },
+        "misiles.dat": {
+            "path": "misiles.dat",
+            "title": "Misiles",
+            "metaData": "|M:M"
+        },
+        "misilesc.dat": {
+            "path": "misilesc.dat",
+            "title": "Misiles Cabezas",
+            "metaData": "|M:M"
+        },
+        "misilese.dat": {
+            "path": "misilese.dat",
+            "title": "Misiles Cabezas sin eje exterior",
+            "metaData": "|M:M"
+        },
+        "mochila1.dat": {
+            "path": "mochila1.dat",
+            "title": "Mochila 1",
+            "metaData": "|T:T|F:F"
+        },
+        "mochila2.dat": {
+            "path": "mochila2.dat",
+            "title": "Mochila 2",
+            "metaData": "|F:F"
+        },
+        "modmando.dat": {
+            "path": "modmando.dat",
+            "title": "Modulo Mando Alfa",
+            "metaData": "|F:F"
+        },
+        "modmandj.dat": {
+            "path": "modmandj.dat",
+            "title": "Modulo Mando Alfa Joystick",
+            "metaData": "|F:F"
+        },
+        "modmandp.dat": {
+            "path": "modmandp.dat",
+            "title": "Modulo Mando Alfa Panel",
+            "metaData": "|F:F"
+        },
+        "modmedic.dat": {
+            "path": "modmedic.dat",
+            "title": "Modulo Medico Alfa",
+            "metaData": "|F:F"
+        },
+        "modmedca.dat": {
+            "path": "modmedca.dat",
+            "title": "Modulo Medico Alfa Camilla",
+            "metaData": "|F:F"
+        },
+        "modmedpa.dat": {
+            "path": "modmedpa.dat",
+            "title": "Modulo Medico Alfa Panel",
+            "metaData": "|F:F"
+        },
+        "monoplan.dat": {
+            "path": "monoplan.dat",
+            "title": "Monoplano",
+            "metaData": "|M:M|V:V"
+        },
+        "motor.dat": {
+            "path": "motor.dat",
+            "title": "Motor",
+            "metaData": "|M:M"
+        },
+        "alfamotr.dat": {
+            "path": "alfamotr.dat",
+            "title": "Motor Alfa",
+            "metaData": "|F:F|T:T"
+        },
+        "mtrhasbr.dat": {
+            "path": "mtrhasbr.dat",
+            "title": "Motor Hasbro",
+            "metaData": "|R:R"
+        },
+        "mastilh.dat": {
+            "path": "mastilh.dat",
+            "title": "M�stil (hembra)",
+            "metaData": "|M:M"
+        },
+        "mastilm.dat": {
+            "path": "mastilm.dat",
+            "title": "M�stil (macho)",
+            "metaData": "|M:M"
+        },
+        "mastf100.dat": {
+            "path": "mastf100.dat",
+            "title": "M�stil fino 100 mm",
+            "metaData": "|M:M"
+        },
+        "mastf135.dat": {
+            "path": "mastf135.dat",
+            "title": "M�stil fino 135 mm",
+            "metaData": "|M:M"
+        },
+        "mastf050.dat": {
+            "path": "mastf050.dat",
+            "title": "M�stil fino 50 mm",
+            "metaData": "|M:M"
+        },
+        "mastf060.dat": {
+            "path": "mastf060.dat",
+            "title": "M�stil fino 60 mm",
+            "metaData": "|M:M"
+        },
+        "mastf070.dat": {
+            "path": "mastf070.dat",
+            "title": "M�stil fino 70 mm",
+            "metaData": "|M:M"
+        },
+        "mastf085.dat": {
+            "path": "mastf085.dat",
+            "title": "M�stil fino 85 mm",
+            "metaData": "|M:M"
+        },
+        "mastg135.dat": {
+            "path": "mastg135.dat",
+            "title": "M�stil grueso 135 mm",
+            "metaData": "|M:M"
+        },
+        "mastg150.dat": {
+            "path": "mastg150.dat",
+            "title": "M�stil grueso 150 mm",
+            "metaData": "|M:M"
+        },
+        "mastg170.dat": {
+            "path": "mastg170.dat",
+            "title": "M�stil grueso 170 mm",
+            "metaData": "|M:M"
+        },
+        "mastg190.dat": {
+            "path": "mastg190.dat",
+            "title": "M�stil grueso 190 mm",
+            "metaData": "|M:M"
+        },
+        "alfaneum.dat": {
+            "path": "alfaneum.dat",
+            "title": "Neumatico Alfa",
+            "metaData": "|A:A|F:F|V:V|T:T"
+        },
+        "neumaxt.dat": {
+            "path": "neumaxt.dat",
+            "title": "Neumatico Xtronic",
+            "metaData": "|R:R"
+        },
+        "neumtter.dat": {
+            "path": "neumtter.dat",
+            "title": "Neum�tico Todo Terreno",
+            "metaData": "|R:R"
+        },
+        "nruteje.dat": {
+            "path": "nruteje.dat",
+            "title": "New Ruta Eje",
+            "metaData": "|R:R"
+        },
+        "nrutembl.dat": {
+            "path": "nrutembl.dat",
+            "title": "New Ruta Embellecedor",
+            "metaData": "|R:R"
+        },
+        "nrutemb2.dat": {
+            "path": "nrutemb2.dat",
+            "title": "New Ruta Embellecedor (centrada)",
+            "metaData": "|R:R"
+        },
+        "nrutllnt.dat": {
+            "path": "nrutllnt.dat",
+            "title": "New Ruta Llanta",
+            "metaData": "|R:R"
+        },
+        "nrutneum.dat": {
+            "path": "nrutneum.dat",
+            "title": "New Ruta Neumatico",
+            "metaData": "|R:R"
+        },
+        "placa1c.dat": {
+            "path": "placa1c.dat",
+            "title": "P1aca 1 curva",
+            "metaData": "|D:D"
+        },
+        "placa10.dat": {
+            "path": "placa10.dat",
+            "title": "P1aca 10 I.UNITS",
+            "metaData": ""
+        },
+        "placa12.dat": {
+            "path": "placa12.dat",
+            "title": "P1aca 12 I.UNITS",
+            "metaData": ""
+        },
+        "plac2m.dat": {
+            "path": "plac2m.dat",
+            "title": "P1aca 2 con teton central I.UNITS",
+            "metaData": ""
+        },
+        "plac2x10.dat": {
+            "path": "plac2x10.dat",
+            "title": "P1aca 2x10 I.UNITS",
+            "metaData": ""
+        },
+        "plac2x2m.dat": {
+            "path": "plac2x2m.dat",
+            "title": "P1aca 2x2 macho-macho",
+            "metaData": "|D:D"
+        },
+        "placa3.dat": {
+            "path": "placa3.dat",
+            "title": "P1aca 3 I.UNITS",
+            "metaData": ""
+        },
+        "placa3m.dat": {
+            "path": "placa3m.dat",
+            "title": "P1aca 3 macho-macho I.UNITS",
+            "metaData": ""
+        },
+        "placa4e.dat": {
+            "path": "placa4e.dat",
+            "title": "P1aca 4 especial I.UNITS",
+            "metaData": ""
+        },
+        "placa8c.dat": {
+            "path": "placa8c.dat",
+            "title": "P1aca 8 Corredera I.UNITS",
+            "metaData": ""
+        },
+        "placa8.dat": {
+            "path": "placa8.dat",
+            "title": "P1aca 8 I.UNITS",
+            "metaData": ""
+        },
+        "pang2x4d.dat": {
+            "path": "pang2x4d.dat",
+            "title": "P1aca Angulo 2x4 Derecha I.UNITS",
+            "metaData": ""
+        },
+        "pang2x4i.dat": {
+            "path": "pang2x4i.dat",
+            "title": "P1aca Angulo 2x4 Izquierda I.UNITS",
+            "metaData": ""
+        },
+        "placacil.dat": {
+            "path": "placacil.dat",
+            "title": "P1aca Cilindro I.UNITS",
+            "metaData": "|D:D"
+        },
+        "placurd2.dat": {
+            "path": "placurd2.dat",
+            "title": "P1aca curva dos alturas 2x1 I.UNITS",
+            "metaData": ""
+        },
+        "placlin2.dat": {
+            "path": "placlin2.dat",
+            "title": "P1aca lingote 2x1 I.UNITS",
+            "metaData": ""
+        },
+        "placarv2.dat": {
+            "path": "placarv2.dat",
+            "title": "P1aca rallada vertical 2x1 I.UNITS",
+            "metaData": ""
+        },
+        "palaexcv.dat": {
+            "path": "palaexcv.dat",
+            "title": "Pala Excavadora",
+            "metaData": "|R:R|V:V"
+        },
+        "plmgrand.dat": {
+            "path": "plmgrand.dat",
+            "title": "Palmera Grande",
+            "metaData": ""
+        },
+        "plmghoja.dat": {
+            "path": "plmghoja.dat",
+            "title": "Palmera grande hoja",
+            "metaData": "|C:C"
+        },
+        "plmgtrnc.dat": {
+            "path": "plmgtrnc.dat",
+            "title": "Palmera grande tronco",
+            "metaData": "|C:C"
+        },
+        "plmbase.dat": {
+            "path": "plmbase.dat",
+            "title": "Palmera pequena base",
+            "metaData": "|C:C"
+        },
+        "plmphojh.dat": {
+            "path": "plmphojh.dat",
+            "title": "Palmera pequena hojas (horizontal)",
+            "metaData": "|C:C"
+        },
+        "plmphoja.dat": {
+            "path": "plmphoja.dat",
+            "title": "Palmera pequena hojas (para tronco)",
+            "metaData": "|C:C"
+        },
+        "plmptrnc.dat": {
+            "path": "plmptrnc.dat",
+            "title": "Palmera pequena tronco",
+            "metaData": "|C:C"
+        },
+        "panelast.dat": {
+            "path": "panelast.dat",
+            "title": "Panel Astro",
+            "metaData": "|S:S"
+        },
+        "panelasr.dat": {
+            "path": "panelasr.dat",
+            "title": "Panel Astro Roto",
+            "metaData": "|D:D"
+        },
+        "parabris.dat": {
+            "path": "parabris.dat",
+            "title": "Parabrisas",
+            "metaData": "|R:R|V:V ventana"
+        },
+        "parabcrs.dat": {
+            "path": "parabcrs.dat",
+            "title": "Parabrisas Cristal",
+            "metaData": "|R:R|V:V ventana"
+        },
+        "parabmrc.dat": {
+            "path": "parabmrc.dat",
+            "title": "Parabrisas Marco",
+            "metaData": "|R:R|V:V ventana"
+        },
+        "parachoq.dat": {
+            "path": "parachoq.dat",
+            "title": "Parachoques",
+            "metaData": "|R:R|V:V"
+        },
+        "paracq21.dat": {
+            "path": "paracq21.dat",
+            "title": "Parachoques 21",
+            "metaData": "|R:R"
+        },
+        "paracf21.dat": {
+            "path": "paracf21.dat",
+            "title": "Parachoques 21 con Faros",
+            "metaData": "|R:R"
+        },
+        "parac21j.dat": {
+            "path": "parac21j.dat",
+            "title": "Parachoques 21 con Faros y Radiador",
+            "metaData": "|R:R"
+        },
+        "paracqtt.dat": {
+            "path": "paracqtt.dat",
+            "title": "Parachoques Titanium",
+            "metaData": "|R:R|V:V|T:T"
+        },
+        "alfapare.dat": {
+            "path": "alfapare.dat",
+            "title": "Pared Alfa",
+            "metaData": "|F:F"
+        },
+        "alfparcv.dat": {
+            "path": "alfparcv.dat",
+            "title": "Pared Alfa con ventana",
+            "metaData": "|F:F"
+        },
+        "alfparsv.dat": {
+            "path": "alfparsv.dat",
+            "title": "Pared Alfa sin ventana",
+            "metaData": "|F:F"
+        },
+        "pastilla.dat": {
+            "path": "pastilla.dat",
+            "title": "Pastilla",
+            "metaData": "|M:M"
+        },
+        "patastro.dat": {
+            "path": "patastro.dat",
+            "title": "Pata Astro",
+            "metaData": "|S:S|V:V"
+        },
+        "alfapatn.dat": {
+            "path": "alfapatn.dat",
+            "title": "Patin Alfa",
+            "metaData": "|F:F"
+        },
+        "petroeng.dat": {
+            "path": "petroeng.dat",
+            "title": "Petroleo Enganche",
+            "metaData": "|R:R"
+        },
+        "petrotub.dat": {
+            "path": "petrotub.dat",
+            "title": "Petroleo Tubo",
+            "metaData": "|R:R"
+        },
+        "pico.dat": {
+            "path": "pico.dat",
+            "title": "Pico",
+            "metaData": "|M:M|B:B"
+        },
+        "pico1.dat": {
+            "path": "pico1.dat",
+            "title": "Pico 1",
+            "metaData": "|D:D"
+        },
+        "alfapico.dat": {
+            "path": "alfapico.dat",
+            "title": "Pico Alfa",
+            "metaData": "|F:F"
+        },
+        "picoesq.dat": {
+            "path": "picoesq.dat",
+            "title": "Pico Esquina I.UNITS",
+            "metaData": "|D:D"
+        },
+        "pinzastr.dat": {
+            "path": "pinzastr.dat",
+            "title": "Pinza Astro",
+            "metaData": "|S:S"
+        },
+        "pinzaesq.dat": {
+            "path": "pinzaesq.dat",
+            "title": "Pinza Esquina",
+            "metaData": "|S:S"
+        },
+        "piquito.dat": {
+            "path": "piquito.dat",
+            "title": "Piquito",
+            "metaData": "|M:M"
+        },
+        "pistola.dat": {
+            "path": "pistola.dat",
+            "title": "Pistola",
+            "metaData": "|M:M"
+        },
+        "pivote.dat": {
+            "path": "pivote.dat",
+            "title": "Pivote",
+            "metaData": "|F:F"
+        },
+        "placa1.dat": {
+            "path": "placa1.dat",
+            "title": "Placa 1",
+            "metaData": ""
+        },
+        "placa15.dat": {
+            "path": "placa15.dat",
+            "title": "Placa 15x15",
+            "metaData": "|F:F"
+        },
+        "placa2.dat": {
+            "path": "placa2.dat",
+            "title": "Placa 2",
+            "metaData": ""
+        },
+        "placa2x2.dat": {
+            "path": "placa2x2.dat",
+            "title": "Placa 2x2",
+            "metaData": ""
+        },
+        "polegrua.dat": {
+            "path": "polegrua.dat",
+            "title": "Placa 2x2 Polea Grua",
+            "metaData": "|F:F"
+        },
+        "placa2x3.dat": {
+            "path": "placa2x3.dat",
+            "title": "Placa 2x3",
+            "metaData": ""
+        },
+        "placa2x8.dat": {
+            "path": "placa2x8.dat",
+            "title": "Placa 2x8",
+            "metaData": ""
+        },
+        "placa30.dat": {
+            "path": "placa30.dat",
+            "title": "Placa 30x30",
+            "metaData": "|F:F"
+        },
+        "placa4.dat": {
+            "path": "placa4.dat",
+            "title": "Placa 4",
+            "metaData": ""
+        },
+        "placa4x6.dat": {
+            "path": "placa4x6.dat",
+            "title": "Placa 4x6",
+            "metaData": ""
+        },
+        "placa4x8.dat": {
+            "path": "placa4x8.dat",
+            "title": "Placa 4x8",
+            "metaData": ""
+        },
+        "placa6x8.dat": {
+            "path": "placa6x8.dat",
+            "title": "Placa 6x8",
+            "metaData": ""
+        },
+        "alfaplac.dat": {
+            "path": "alfaplac.dat",
+            "title": "Placa Alfa",
+            "metaData": "|F:F"
+        },
+        "placalfa.dat": {
+            "path": "placalfa.dat",
+            "title": "Placa Base Habitaculo Alfa",
+            "metaData": "|F:F"
+        },
+        "placacty.dat": {
+            "path": "placacty.dat",
+            "title": "Placa Cutty Sark",
+            "metaData": "|M:M"
+        },
+        "popa6p.dat": {
+            "path": "popa6p.dat",
+            "title": "Placa popa 6",
+            "metaData": "|M:M"
+        },
+        "popa8p.dat": {
+            "path": "popa8p.dat",
+            "title": "Placa popa 8",
+            "metaData": "|D:D"
+        },
+        "plantas.dat": {
+            "path": "plantas.dat",
+            "title": "Plantas",
+            "metaData": "|C:C"
+        },
+        "platfgir.dat": {
+            "path": "platfgir.dat",
+            "title": "Plataforma Giratoria",
+            "metaData": "|R|V"
+        },
+        "platfgi2.dat": {
+            "path": "platfgi2.dat",
+            "title": "Plataforma Giratoria 2x4",
+            "metaData": "|V:V|R:R|F:F"
+        },
+        "popa4.dat": {
+            "path": "popa4.dat",
+            "title": "Popa 4",
+            "metaData": "|M:M"
+        },
+        "popa4pm.dat": {
+            "path": "popa4pm.dat",
+            "title": "Popa 4 p1aca mitad",
+            "metaData": "|D:D"
+        },
+        "popa4p.dat": {
+            "path": "popa4p.dat",
+            "title": "Popa 4 placa",
+            "metaData": "|M:M"
+        },
+        "popa4mre.dat": {
+            "path": "popa4mre.dat",
+            "title": "Popa 4 remate mitad",
+            "metaData": "|D:D"
+        },
+        "popa_6.dat": {
+            "path": "popa_6.dat",
+            "title": "Popa 6",
+            "metaData": "|M:M"
+        },
+        "popa6pm.dat": {
+            "path": "popa6pm.dat",
+            "title": "Popa 6 p1aca mitad",
+            "metaData": "|D:D"
+        },
+        "popa6pmh.dat": {
+            "path": "popa6pmh.dat",
+            "title": "Popa 6 p1aca mitad con hueco",
+            "metaData": "|D:D"
+        },
+        "popa6mre.dat": {
+            "path": "popa6mre.dat",
+            "title": "Popa 6 remate mitad",
+            "metaData": "|D:D"
+        },
+        "popa8.dat": {
+            "path": "popa8.dat",
+            "title": "Popa 8",
+            "metaData": "|D:D"
+        },
+        "popa6rem.dat": {
+            "path": "popa6rem.dat",
+            "title": "Popa Remate 6",
+            "metaData": "|M:M"
+        },
+        "popa8rem.dat": {
+            "path": "popa8rem.dat",
+            "title": "Popa Remate 8",
+            "metaData": "|D:D"
+        },
+        "proa4.dat": {
+            "path": "proa4.dat",
+            "title": "Proa 4",
+            "metaData": "|M:M"
+        },
+        "proa4p.dat": {
+            "path": "proa4p.dat",
+            "title": "Proa 4 placa",
+            "metaData": "|M:M"
+        },
+        "proa4pmd.dat": {
+            "path": "proa4pmd.dat",
+            "title": "Proa 4 puntos p1aca mitad derecha",
+            "metaData": "|D:D"
+        },
+        "proa4pmi.dat": {
+            "path": "proa4pmi.dat",
+            "title": "Proa 4 puntos p1aca mitad izquierda",
+            "metaData": "|D:D"
+        },
+        "proa_6.dat": {
+            "path": "proa_6.dat",
+            "title": "Proa 6",
+            "metaData": "|M:M"
+        },
+        "proa6vel.dat": {
+            "path": "proa6vel.dat",
+            "title": "Proa 6 Velero",
+            "metaData": "|M:M"
+        },
+        "proa8.dat": {
+            "path": "proa8.dat",
+            "title": "Proa 8",
+            "metaData": "|D:D"
+        },
+        "proa8p.dat": {
+            "path": "proa8p.dat",
+            "title": "Proa 8 placa",
+            "metaData": "|D:D"
+        },
+        "proa6p.dat": {
+            "path": "proa6p.dat",
+            "title": "Proa Placa 6",
+            "metaData": "|M:M"
+        },
+        "proa6rem.dat": {
+            "path": "proa6rem.dat",
+            "title": "Proa Remate 6",
+            "metaData": "|M:M"
+        },
+        "proa8rem.dat": {
+            "path": "proa8rem.dat",
+            "title": "Proa Remate 8",
+            "metaData": "|D:D"
+        },
+        "alfprtam.dat": {
+            "path": "alfprtam.dat",
+            "title": "Puerta Alfa Marco",
+            "metaData": "|F:F"
+        },
+        "alfprtar.dat": {
+            "path": "alfprtar.dat",
+            "title": "Puerta Alfa Rampa",
+            "metaData": "|F:F"
+        },
+        "puertang.dat": {
+            "path": "puertang.dat",
+            "title": "Puerta Casa Ahumada",
+            "metaData": "|R:R"
+        },
+        "puertacr.dat": {
+            "path": "puertacr.dat",
+            "title": "Puerta Casa Cristal",
+            "metaData": "|R:R"
+        },
+        "puertamr.dat": {
+            "path": "puertamr.dat",
+            "title": "Puerta Casa Marco",
+            "metaData": "|R:R"
+        },
+        "puertam2.dat": {
+            "path": "puertam2.dat",
+            "title": "Puerta Casa Marco 2",
+            "metaData": "|R:R"
+        },
+        "puertabl.dat": {
+            "path": "puertabl.dat",
+            "title": "Puerta Casa Transparente",
+            "metaData": "|R:R"
+        },
+        "pgaraje.dat": {
+            "path": "pgaraje.dat",
+            "title": "Puerta Garaje",
+            "metaData": "|C:C"
+        },
+        "pgarajeb.dat": {
+            "path": "pgarajeb.dat",
+            "title": "Puerta garaje para baldosa bisagra 2x2",
+            "metaData": "|C:C"
+        },
+        "pgarajes.dat": {
+            "path": "pgarajes.dat",
+            "title": "Puerta Garaje Soporte",
+            "metaData": "|C:C"
+        },
+        "quilla.dat": {
+            "path": "quilla.dat",
+            "title": "Quilla",
+            "metaData": "|M:M"
+        },
+        "quilla_4.dat": {
+            "path": "quilla_4.dat",
+            "title": "Quilla 4",
+            "metaData": "|M:M"
+        },
+        "popa4qui.dat": {
+            "path": "popa4qui.dat",
+            "title": "Quilla popa 4",
+            "metaData": "|D:D"
+        },
+        "popa6qui.dat": {
+            "path": "popa6qui.dat",
+            "title": "Quilla popa 6",
+            "metaData": "|M:M"
+        },
+        "proa4qui.dat": {
+            "path": "proa4qui.dat",
+            "title": "Quilla proa 4",
+            "metaData": "|M:M"
+        },
+        "proa6qui.dat": {
+            "path": "proa6qui.dat",
+            "title": "Quilla proa 6",
+            "metaData": "|M:M"
+        },
+        "antnradr.dat": {
+            "path": "antnradr.dat",
+            "title": "Radar",
+            "metaData": "|M:M"
+        },
+        "radaralf.dat": {
+            "path": "radaralf.dat",
+            "title": "Radar Alfa",
+            "metaData": "|F:F"
+        },
+        "radarneg.dat": {
+            "path": "radarneg.dat",
+            "title": "Radar negro",
+            "metaData": "|M:M"
+        },
+        "radar.dat": {
+            "path": "radar.dat",
+            "title": "Radar parab�lica",
+            "metaData": "|M:M"
+        },
+        "radarp.dat": {
+            "path": "radarp.dat",
+            "title": "Radar plato",
+            "metaData": "|M:M"
+        },
+        "rcurva45.dat": {
+            "path": "rcurva45.dat",
+            "title": "Rail Curva 45 grados",
+            "metaData": "|D:D"
+        },
+        "ram.dat": {
+            "path": "ram.dat",
+            "title": "RAM",
+            "metaData": "|D:D"
+        },
+        "ram-bas2.dat": {
+            "path": "ram-bas2.dat",
+            "title": "RAM (base 2)",
+            "metaData": "|D:D"
+        },
+        "ram-base.dat": {
+            "path": "ram-base.dat",
+            "title": "RAM (base)",
+            "metaData": "|D:D"
+        },
+        "ram-misi.dat": {
+            "path": "ram-misi.dat",
+            "title": "RAM (misiles)",
+            "metaData": "|D:D"
+        },
+        "ram2.dat": {
+            "path": "ram2.dat",
+            "title": "RAM 2",
+            "metaData": "|D:D"
+        },
+        "rampa.dat": {
+            "path": "rampa.dat",
+            "title": "Rampa",
+            "metaData": "|C:C"
+        },
+        "alfaramp.dat": {
+            "path": "alfaramp.dat",
+            "title": "Rampa Alfa",
+            "metaData": "|F:F"
+        },
+        "ramplanz.dat": {
+            "path": "ramplanz.dat",
+            "title": "Rampa Lanzamiento",
+            "metaData": "|S"
+        },
+        "rejilla.dat": {
+            "path": "rejilla.dat",
+            "title": "Rejilla",
+            "metaData": "|R:R|V:V"
+        },
+        "remaesq1.dat": {
+            "path": "remaesq1.dat",
+            "title": "Remate 1 esquina",
+            "metaData": "|D:D"
+        },
+        "remate_2.dat": {
+            "path": "remate_2.dat",
+            "title": "Remate 2",
+            "metaData": "|M:M"
+        },
+        "remaesq2.dat": {
+            "path": "remaesq2.dat",
+            "title": "Remate 2x2 esquina",
+            "metaData": "|D:D"
+        },
+        "remate_6.dat": {
+            "path": "remate_6.dat",
+            "title": "Remate 6",
+            "metaData": "|M:M"
+        },
+        "remate62.dat": {
+            "path": "remate62.dat",
+            "title": "Remate 6x2",
+            "metaData": "|M:M"
+        },
+        "remateb2.dat": {
+            "path": "remateb2.dat",
+            "title": "Remate ba1dosa 2x1 I.UNITS",
+            "metaData": ""
+        },
+        "remtcoht.dat": {
+            "path": "remtcoht.dat",
+            "title": "Remate Cohete",
+            "metaData": "|S:S|E:E"
+        },
+        "rematesq.dat": {
+            "path": "rematesq.dat",
+            "title": "Remate Esquina",
+            "metaData": "|D:D"
+        },
+        "rematl42.dat": {
+            "path": "rematl42.dat",
+            "title": "Remate liso 4x2 I.UNITS",
+            "metaData": ""
+        },
+        "proa4rmt.dat": {
+            "path": "proa4rmt.dat",
+            "title": "Remate Proa 4",
+            "metaData": "|M:M"
+        },
+        "remolcha.dat": {
+            "path": "remolcha.dat",
+            "title": "Remolque Chasis",
+            "metaData": "|C:C|V:V"
+        },
+        "remolpue.dat": {
+            "path": "remolpue.dat",
+            "title": "Remolque Puerta",
+            "metaData": "|C:C|V:V"
+        },
+        "respirad.dat": {
+            "path": "respirad.dat",
+            "title": "Respiradero",
+            "metaData": "|M:M|F:F|T:T"
+        },
+        "rifle.dat": {
+            "path": "rifle.dat",
+            "title": "Rifle",
+            "metaData": "|F:F"
+        },
+        "rotorinf.dat": {
+            "path": "rotorinf.dat",
+            "title": "Rotor Abajo",
+            "metaData": "|A:A|V:V|R:R"
+        },
+        "rotrinf2.dat": {
+            "path": "rotrinf2.dat",
+            "title": "Rotor Abajo Nuevo",
+            "metaData": "|V:V|R:R|F:F"
+        },
+        "rotorsup.dat": {
+            "path": "rotorsup.dat",
+            "title": "Rotor Arriba",
+            "metaData": "|A:A|V:V|R:R"
+        },
+        "rueairj2.dat": {
+            "path": "rueairj2.dat",
+            "title": "Rueda Aire montada en j�cena 2x2",
+            "metaData": "|S:S|M:M"
+        },
+        "alfarued.dat": {
+            "path": "alfarued.dat",
+            "title": "Rueda Alfa",
+            "metaData": "|F:F|T:T"
+        },
+        "rueastro.dat": {
+            "path": "rueastro.dat",
+            "title": "Rueda Astro",
+            "metaData": "|S:S"
+        },
+        "rueasneu.dat": {
+            "path": "rueasneu.dat",
+            "title": "Rueda Astro Neumatico",
+            "metaData": "|S:S"
+        },
+        "ruecosmi.dat": {
+            "path": "ruecosmi.dat",
+            "title": "Rueda Cosmic",
+            "metaData": "|S:S"
+        },
+        "ruecosmn.dat": {
+            "path": "ruecosmn.dat",
+            "title": "Rueda Cosmic Neumatico",
+            "metaData": "|S:S"
+        },
+        "ruemicr1.dat": {
+            "path": "ruemicr1.dat",
+            "title": "Rueda Micro 1",
+            "metaData": "|D:D"
+        },
+        "ruemicr2.dat": {
+            "path": "ruemicr2.dat",
+            "title": "Rueda Micro 2",
+            "metaData": "|D:D"
+        },
+        "ruerutal.dat": {
+            "path": "ruerutal.dat",
+            "title": "Rueda Ruta 21 lisa",
+            "metaData": "|R:R"
+        },
+        "rueruj2l.dat": {
+            "path": "rueruj2l.dat",
+            "title": "Rueda ruta 21 lisa montada en jacena2",
+            "metaData": "|R:R"
+        },
+        "ruerj42l.dat": {
+            "path": "ruerj42l.dat",
+            "title": "Rueda ruta 21 lisa montada en jacena2x4",
+            "metaData": "|R:R"
+        },
+        "ruerutat.dat": {
+            "path": "ruerutat.dat",
+            "title": "Rueda Ruta 21 teton",
+            "metaData": "|R:R"
+        },
+        "rueruj2t.dat": {
+            "path": "rueruj2t.dat",
+            "title": "Rueda ruta 21 teton montada en jacena2",
+            "metaData": "|R:R"
+        },
+        "ruerj42t.dat": {
+            "path": "ruerj42t.dat",
+            "title": "Rueda ruta 21 teton montada en jacena2x4",
+            "metaData": "|R:R"
+        },
+        "rueruj4t.dat": {
+            "path": "rueruj4t.dat",
+            "title": "Rueda ruta 21 teton montada en jacena4",
+            "metaData": "|R:R"
+        },
+        "rues42l.dat": {
+            "path": "rues42l.dat",
+            "title": "Rueda scorpio lisa montada en jacena2x4",
+            "metaData": "|R:R|E:E"
+        },
+        "ruescj2t.dat": {
+            "path": "ruescj2t.dat",
+            "title": "Rueda scorpio teton montada en jacena2",
+            "metaData": "|R:R|E:E"
+        },
+        "ruescorl.dat": {
+            "path": "ruescorl.dat",
+            "title": "Rueda scorpion lisa",
+            "metaData": "|E:E"
+        },
+        "ruescj2l.dat": {
+            "path": "ruescj2l.dat",
+            "title": "Rueda Scorpion lisa montada en jacena2",
+            "metaData": ""
+        },
+        "ruetnqex.dat": {
+            "path": "ruetnqex.dat",
+            "title": "Rueda Tanque Extremo",
+            "metaData": "|E:E"
+        },
+        "ruetober.dat": {
+            "path": "ruetober.dat",
+            "title": "Rueda Tobera",
+            "metaData": "|S:S"
+        },
+        "rvariant.dat": {
+            "path": "rvariant.dat",
+            "title": "Rueda Variant",
+            "metaData": "|R:R"
+        },
+        "ruextro2.dat": {
+            "path": "ruextro2.dat",
+            "title": "Rueda Variant 2",
+            "metaData": "|R:R"
+        },
+        "ruextro4.dat": {
+            "path": "ruextro4.dat",
+            "title": "Rueda Variant 4",
+            "metaData": "|R:R"
+        },
+        "ruta21nm.dat": {
+            "path": "ruta21nm.dat",
+            "title": "Ruta 21 Neumatico",
+            "metaData": "|R:R"
+        },
+        "sparrow.dat": {
+            "path": "sparrow.dat",
+            "title": "Sea Sparrow",
+            "metaData": "|D:D"
+        },
+        "semicupg.dat": {
+            "path": "semicupg.dat",
+            "title": "Semicupula Grande",
+            "metaData": "|S:S"
+        },
+        "semicugg.dat": {
+            "path": "semicugg.dat",
+            "title": "Semicupula Grande con Logo",
+            "metaData": "|S:S"
+        },
+        "semicupm.dat": {
+            "path": "semicupm.dat",
+            "title": "Semicupula Mediana",
+            "metaData": "|S:S"
+        },
+        "semicumg.dat": {
+            "path": "semicumg.dat",
+            "title": "Semicupula Mediana con Logo",
+            "metaData": "|S:S"
+        },
+        "semicupp.dat": {
+            "path": "semicupp.dat",
+            "title": "Semicupula Peque�a",
+            "metaData": "|S:S"
+        },
+        "semicuqg.dat": {
+            "path": "semicuqg.dat",
+            "title": "Semicupula Peque�a con Logo",
+            "metaData": "|S:S"
+        },
+        "alfasens.dat": {
+            "path": "alfasens.dat",
+            "title": "Sensor Alfa",
+            "metaData": "|F:F"
+        },
+        "sillastr.dat": {
+            "path": "sillastr.dat",
+            "title": "Silla Astro",
+            "metaData": "|A:A|S:S|V:V"
+        },
+        "titsilla.dat": {
+            "path": "titsilla.dat",
+            "title": "Silla Titanium",
+            "metaData": "|T:T"
+        },
+        "sirena.dat": {
+            "path": "sirena.dat",
+            "title": "Sirena",
+            "metaData": "|R:R|V:V"
+        },
+        "skycab.dat": {
+            "path": "skycab.dat",
+            "title": "Skymaster Cabina",
+            "metaData": "|A:A|V:V"
+        },
+        "skycabcr.dat": {
+            "path": "skycabcr.dat",
+            "title": "Skymaster Cabina Cristal",
+            "metaData": "|A:A|V:V"
+        },
+        "soport1.dat": {
+            "path": "soport1.dat",
+            "title": "Soporte 1 Grua",
+            "metaData": "|R:R"
+        },
+        "soport2.dat": {
+            "path": "soport2.dat",
+            "title": "Soporte 2",
+            "metaData": "|R:R"
+        },
+        "soport3.dat": {
+            "path": "soport3.dat",
+            "title": "Soporte 3",
+            "metaData": "|R:R"
+        },
+        "soprtmar.dat": {
+            "path": "soprtmar.dat",
+            "title": "Soporte Misiles/Antena",
+            "metaData": "|M:M"
+        },
+        "taladro.dat": {
+            "path": "taladro.dat",
+            "title": "Taladro",
+            "metaData": "|F:F"
+        },
+        "tejamcr2.dat": {
+            "path": "tejamcr2.dat",
+            "title": "Teja Micro 2",
+            "metaData": "|C:C"
+        },
+        "tejamcr3.dat": {
+            "path": "tejamcr3.dat",
+            "title": "Teja Micro 3",
+            "metaData": "|C:C"
+        },
+        "tejado.dat": {
+            "path": "tejado.dat",
+            "title": "Tejado",
+            "metaData": "|B:B"
+        },
+        "tejadox.dat": {
+            "path": "tejadox.dat",
+            "title": "Tejado    :X",
+            "metaData": ""
+        },
+        "tejado1a.dat": {
+            "path": "tejado1a.dat",
+            "title": "Tejado 1 punto A    :X",
+            "metaData": ""
+        },
+        "tejado1b.dat": {
+            "path": "tejado1b.dat",
+            "title": "Tejado 1 punto B    :X",
+            "metaData": ""
+        },
+        "tejado2a.dat": {
+            "path": "tejado2a.dat",
+            "title": "Tejado 2a    :X",
+            "metaData": ""
+        },
+        "tejado2b.dat": {
+            "path": "tejado2b.dat",
+            "title": "Tejado 2b    :X",
+            "metaData": ""
+        },
+        "tejado4.dat": {
+            "path": "tejado4.dat",
+            "title": "Tejado 4 puntos    :X",
+            "metaData": ""
+        },
+        "tejado8.dat": {
+            "path": "tejado8.dat",
+            "title": "Tejado 8",
+            "metaData": "|B:B"
+        },
+        "tejador8.dat": {
+            "path": "tejador8.dat",
+            "title": "Tejado 8 remate",
+            "metaData": "|B:B"
+        },
+        "tejadol8.dat": {
+            "path": "tejadol8.dat",
+            "title": "Tejado 8 remate liso",
+            "metaData": "|B:B"
+        },
+        "tejconal.dat": {
+            "path": "tejconal.dat",
+            "title": "Tejado c�nico alto   :X",
+            "metaData": ""
+        },
+        "tejconbj.dat": {
+            "path": "tejconbj.dat",
+            "title": "Tejado c�nico bajo   :X",
+            "metaData": ""
+        },
+        "tejcongr.dat": {
+            "path": "tejcongr.dat",
+            "title": "Tejado c�nico grande   :X",
+            "metaData": ""
+        },
+        "tejls2x1.dat": {
+            "path": "tejls2x1.dat",
+            "title": "Tejado liso 2x1  I.UNITS",
+            "metaData": ""
+        },
+        "tejadorm.dat": {
+            "path": "tejadorm.dat",
+            "title": "Tejado remate",
+            "metaData": "|B:B"
+        },
+        "tejadorl.dat": {
+            "path": "tejadorl.dat",
+            "title": "Tejado remate liso",
+            "metaData": "|B:B"
+        },
+        "tenazas.dat": {
+            "path": "tenazas.dat",
+            "title": "Tenazas",
+            "metaData": "|F:F"
+        },
+        "tetonesp.dat": {
+            "path": "tetonesp.dat",
+            "title": "Teton especial 1x1 I.UNITS",
+            "metaData": ""
+        },
+        "tetonsin.dat": {
+            "path": "tetonsin.dat",
+            "title": "teton sin parte de abajo",
+            "metaData": ""
+        },
+        "toberast.dat": {
+            "path": "toberast.dat",
+            "title": "Tobera Astro",
+            "metaData": "|S:S"
+        },
+        "tobergal.dat": {
+            "path": "tobergal.dat",
+            "title": "Tobera Galaxy",
+            "metaData": "|F:F|T:T"
+        },
+        "torremcr.dat": {
+            "path": "torremcr.dat",
+            "title": "Torre Micro",
+            "metaData": "|C"
+        },
+        "trenb.dat": {
+            "path": "trenb.dat",
+            "title": "Tren Bloque",
+            "metaData": "|D:D"
+        },
+        "trenejh.dat": {
+            "path": "trenejh.dat",
+            "title": "Tren Eje Hembra",
+            "metaData": "|D:D"
+        },
+        "trenejm.dat": {
+            "path": "trenejm.dat",
+            "title": "Tren Eje Macho",
+            "metaData": "|D:D"
+        },
+        "trenr.dat": {
+            "path": "trenr.dat",
+            "title": "Tren Rueda",
+            "metaData": "|D:D"
+        },
+        "trfrect2.dat": {
+            "path": "trfrect2.dat",
+            "title": "Tr�fico Autopista Fin",
+            "metaData": "|R:R"
+        },
+        "trfrect1.dat": {
+            "path": "trfrect1.dat",
+            "title": "Tr�fico Autopista Inicio",
+            "metaData": "|R:R"
+        },
+        "trfcircb.dat": {
+            "path": "trfcircb.dat",
+            "title": "Tr�fico Circular Base",
+            "metaData": "|R:R"
+        },
+        "trfcircp.dat": {
+            "path": "trfcircp.dat",
+            "title": "Tr�fico Circular Prohibido Aparcar",
+            "metaData": "|R:R"
+        },
+        "trftria1.dat": {
+            "path": "trftria1.dat",
+            "title": "Tr�fico Inflamable",
+            "metaData": "|R:R"
+        },
+        "trfposte.dat": {
+            "path": "trfposte.dat",
+            "title": "Tr�fico Poste",
+            "metaData": "|R:R"
+        },
+        "trfcirc1.dat": {
+            "path": "trfcirc1.dat",
+            "title": "Tr�fico Prohibido Aparcar",
+            "metaData": "|R:R"
+        },
+        "trfrecta.dat": {
+            "path": "trfrecta.dat",
+            "title": "Tr�fico Rect�ngulo Autopista",
+            "metaData": "|R:R"
+        },
+        "trfrectb.dat": {
+            "path": "trfrectb.dat",
+            "title": "Tr�fico Rect�ngulo Base",
+            "metaData": "|R:R"
+        },
+        "trfrectf.dat": {
+            "path": "trfrectf.dat",
+            "title": "Tr�fico Rect�ngulo Fin Autopista",
+            "metaData": "|R:R"
+        },
+        "trfsemfr.dat": {
+            "path": "trfsemfr.dat",
+            "title": "Tr�fico Sem�foro",
+            "metaData": "|R:R"
+        },
+        "trfsemfc.dat": {
+            "path": "trfsemfc.dat",
+            "title": "Tr�fico Sem�foro Caja",
+            "metaData": "|R:R"
+        },
+        "trfsemfl.dat": {
+            "path": "trfsemfl.dat",
+            "title": "Tr�fico Sem�foro Luces",
+            "metaData": "|R:R"
+        },
+        "trftrian.dat": {
+            "path": "trftrian.dat",
+            "title": "Tr�fico Tri�ngulo Base",
+            "metaData": "|R:R"
+        },
+        "trftriai.dat": {
+            "path": "trftriai.dat",
+            "title": "Tr�fico Tri�ngulo Inflamable",
+            "metaData": "|R:R"
+        },
+        "tubo.dat": {
+            "path": "tubo.dat",
+            "title": "Tubo",
+            "metaData": "|B:B"
+        },
+        "tuboguia.dat": {
+            "path": "tuboguia.dat",
+            "title": "Tubo (extremo)",
+            "metaData": "|A:A|V:V|S:S|F:F"
+        },
+        "tuboest8.dat": {
+            "path": "tuboest8.dat",
+            "title": "Tubo Custom",
+            "metaData": "|D:D"
+        },
+        "tb2x1.dat": {
+            "path": "tb2x1.dat",
+            "title": "Tubo Elastico 2x1",
+            "metaData": "|D:D|L:L"
+        },
+        "tbas5421.dat": {
+            "path": "tbas5421.dat",
+            "title": "Tubo Elastico Astro 0542 Base 1",
+            "metaData": "|S:S"
+        },
+        "tbas5422.dat": {
+            "path": "tbas5422.dat",
+            "title": "Tubo Elastico Astro 0542 Base 2",
+            "metaData": "|S:S"
+        },
+        "tbas5423.dat": {
+            "path": "tbas5423.dat",
+            "title": "Tubo Elastico Astro 0542 Base 3",
+            "metaData": "|S:S"
+        },
+        "tbas5424.dat": {
+            "path": "tbas5424.dat",
+            "title": "Tubo Elastico Astro 0542 Base 4",
+            "metaData": "|S:S"
+        },
+        "tubas656.dat": {
+            "path": "tubas656.dat",
+            "title": "Tubo Elastico Astro 0656",
+            "metaData": "|S:S"
+        },
+        "tbcb1_58.dat": {
+            "path": "tbcb1_58.dat",
+            "title": "Tubo Elastico Combi1 5+8",
+            "metaData": "|S:S"
+        },
+        "tbcb1_6.dat": {
+            "path": "tbcb1_6.dat",
+            "title": "Tubo Elastico Combi1 6",
+            "metaData": "|S:S"
+        },
+        "tbcb1_67.dat": {
+            "path": "tbcb1_67.dat",
+            "title": "Tubo Elastico Combi1 6+7",
+            "metaData": "|S:S"
+        },
+        "tbcb1_8.dat": {
+            "path": "tbcb1_8.dat",
+            "title": "Tubo Elastico Combi1 8",
+            "metaData": "|S:S"
+        },
+        "tbcb2_22.dat": {
+            "path": "tbcb2_22.dat",
+            "title": "Tubo Elastico Combi2 22",
+            "metaData": "|S:S"
+        },
+        "tbhelbrg.dat": {
+            "path": "tbhelbrg.dat",
+            "title": "Tubo Elastico Helicoptero Brigada Forestal",
+            "metaData": "|A:A"
+        },
+        "tbrecto.dat": {
+            "path": "tbrecto.dat",
+            "title": "Tubo Elastico Recto",
+            "metaData": "|M:M"
+        },
+        "tbgammad.dat": {
+            "path": "tbgammad.dat",
+            "title": "Tubo Elastico Roblock GammaII Derecha",
+            "metaData": "|S:S|L:L"
+        },
+        "tbgammai.dat": {
+            "path": "tbgammai.dat",
+            "title": "Tubo Elastico Roblock GammaII Izquierda",
+            "metaData": "|S:S|L:L"
+        },
+        "tbshd1.dat": {
+            "path": "tbshd1.dat",
+            "title": "Tubo Elastico Superheterodino Derecha 1",
+            "metaData": "|D:D|L:L"
+        },
+        "tbshd2.dat": {
+            "path": "tbshd2.dat",
+            "title": "Tubo Elastico Superheterodino Derecha 2",
+            "metaData": "|D:D|L:L"
+        },
+        "tbshd3.dat": {
+            "path": "tbshd3.dat",
+            "title": "Tubo Elastico Superheterodino Derecha 3",
+            "metaData": "|D:D|L:L"
+        },
+        "tbshi1.dat": {
+            "path": "tbshi1.dat",
+            "title": "Tubo Elastico Superheterodino Izquierda 1",
+            "metaData": "|D:D|L:L"
+        },
+        "tbshi2.dat": {
+            "path": "tbshi2.dat",
+            "title": "Tubo Elastico Superheterodino Izquierda 2",
+            "metaData": "|D:D|L:L"
+        },
+        "tbshi3.dat": {
+            "path": "tbshi3.dat",
+            "title": "Tubo Elastico Superheterodino Izquierda 3",
+            "metaData": "|D:D|L:L"
+        },
+        "tbshsi.dat": {
+            "path": "tbshsi.dat",
+            "title": "Tubo Elastico Superheterodino Silla",
+            "metaData": "|D:D|L:L"
+        },
+        "tbescdbl.dat": {
+            "path": "tbescdbl.dat",
+            "title": "Tubo Escape Doble",
+            "metaData": "|R:R"
+        },
+        "tbescrct.dat": {
+            "path": "tbescrct.dat",
+            "title": "Tubo Escape Recto",
+            "metaData": "|V:V|R:R|S:S"
+        },
+        "tbescrc2.dat": {
+            "path": "tbescrc2.dat",
+            "title": "Tubo Escape Recto 2",
+            "metaData": "|V:V|R:R|S:S"
+        },
+        "tbesctrp.dat": {
+            "path": "tbesctrp.dat",
+            "title": "Tubo Escape Triple",
+            "metaData": "|V:V|R:R|S:S"
+        },
+        "tuboextr.dat": {
+            "path": "tuboextr.dat",
+            "title": "Tubo Extremo",
+            "metaData": "|D:D"
+        },
+        "tbfarola.dat": {
+            "path": "tbfarola.dat",
+            "title": "Tubo Farola",
+            "metaData": "|C:C"
+        },
+        "tbfutur1.dat": {
+            "path": "tbfutur1.dat",
+            "title": "Tubo Futurama 1",
+            "metaData": "|D:D"
+        },
+        "tbfutur2.dat": {
+            "path": "tbfutur2.dat",
+            "title": "Tubo Futurama 2",
+            "metaData": "|D:D"
+        },
+        "tuboruta.dat": {
+            "path": "tuboruta.dat",
+            "title": "Tubo Ruta",
+            "metaData": "|R:R"
+        },
+        "tbscoeng.dat": {
+            "path": "tbscoeng.dat",
+            "title": "Tubo Scorpion (enganche)",
+            "metaData": "|A:A"
+        },
+        "tbscorec.dat": {
+            "path": "tbscorec.dat",
+            "title": "Tubo Scorpion Recto",
+            "metaData": "|A:A"
+        },
+        "alfaturb.dat": {
+            "path": "alfaturb.dat",
+            "title": "Turbina Alfa",
+            "metaData": "|F:F"
+        },
+        "valla.dat": {
+            "path": "valla.dat",
+            "title": "Valla",
+            "metaData": "|C:C"
+        },
+        "vallaobr.dat": {
+            "path": "vallaobr.dat",
+            "title": "Valla Obras",
+            "metaData": "|F:F"
+        },
+        "ventana1.dat": {
+            "path": "ventana1.dat",
+            "title": "Ventana 1",
+            "metaData": "|R:R"
+        },
+        "ventana1c.dat": {
+            "path": "ventana1c.dat",
+            "title": "Ventana 1 Cristal",
+            "metaData": "|R:R"
+        },
+        "ventana1m.dat": {
+            "path": "ventana1m.dat",
+            "title": "Ventana 1 Marco",
+            "metaData": "|M:M"
+        },
+        "vnt1x1.dat": {
+            "path": "vnt1x1.dat",
+            "title": "Ventana 1x1",
+            "metaData": "|R:R"
+        },
+        "vnt1x1c.dat": {
+            "path": "vnt1x1c.dat",
+            "title": "Ventana 1x1 Cristal",
+            "metaData": "|R:R"
+        },
+        "vnt1x1m.dat": {
+            "path": "vnt1x1m.dat",
+            "title": "Ventana 1x1 Marco",
+            "metaData": "|M:M"
+        },
+        "ventan4.dat": {
+            "path": "ventan4.dat",
+            "title": "Ventana 4",
+            "metaData": "|R:R"
+        },
+        "ventan4c.dat": {
+            "path": "ventan4c.dat",
+            "title": "Ventana 4 Cristal",
+            "metaData": "|R:R"
+        },
+        "ventan4m.dat": {
+            "path": "ventan4m.dat",
+            "title": "Ventana 4 Marco",
+            "metaData": "|R:R"
+        },
+        "vntcasa.dat": {
+            "path": "vntcasa.dat",
+            "title": "Ventana Casa",
+            "metaData": "|R:R"
+        },
+        "vntcasac.dat": {
+            "path": "vntcasac.dat",
+            "title": "Ventana Casa Cristal",
+            "metaData": "|R:R"
+        },
+        "vntcasam.dat": {
+            "path": "vntcasam.dat",
+            "title": "Ventana Casa Marco",
+            "metaData": "|R:R"
+        },
+        "vntscorp.dat": {
+            "path": "vntscorp.dat",
+            "title": "Ventana Escorpion",
+            "metaData": "|E:E"
+        },
+        "vntscorv.dat": {
+            "path": "vntscorv.dat",
+            "title": "Ventana Escorpion Cristal",
+            "metaData": "|E:E"
+        },
+        "vntscorm.dat": {
+            "path": "vntscorm.dat",
+            "title": "Ventana Escorpion Marco",
+            "metaData": "|E:E|M:M"
+        },
+        "alfventn.dat": {
+            "path": "alfventn.dat",
+            "title": "Ventana pared Alfa",
+            "metaData": "|F:F"
+        },
+        "vntthor.dat": {
+            "path": "vntthor.dat",
+            "title": "Ventana Thor",
+            "metaData": "|R:R"
+        },
+        "vntthorv.dat": {
+            "path": "vntthorv.dat",
+            "title": "Ventana Thor Cristal",
+            "metaData": "|R:R"
+        },
+        "vntthorm.dat": {
+            "path": "vntthorm.dat",
+            "title": "Ventana Thor Marco",
+            "metaData": "|R:R"
+        },
+        "titcrist.dat": {
+            "path": "titcrist.dat",
+            "title": "Ventana Titanium (cristal)",
+            "metaData": "|T:T"
+        },
+        "titmarco.dat": {
+            "path": "titmarco.dat",
+            "title": "Ventana Titanium (marco)",
+            "metaData": "|T:T"
+        },
+        "vntcirc2.dat": {
+            "path": "vntcirc2.dat",
+            "title": "Ventanas circulares (c�rculos)",
+            "metaData": ""
+        },
+        "venta2ci.dat": {
+            "path": "venta2ci.dat",
+            "title": "Ventanas circulares 2x1",
+            "metaData": "|M:M"
+        },
+        "venta2bi.dat": {
+            "path": "venta2bi.dat",
+            "title": "Ventanas circulares 2x1 blancas",
+            "metaData": "|M:M"
+        },
+        "venta4ci.dat": {
+            "path": "venta4ci.dat",
+            "title": "Ventanas circulares 4x1",
+            "metaData": "|M:M"
+        },
+        "venta4bi.dat": {
+            "path": "venta4bi.dat",
+            "title": "Ventanas circulares 4x1 blancas",
+            "metaData": "|M:M"
+        },
+        "vntcuad2.dat": {
+            "path": "vntcuad2.dat",
+            "title": "Ventanas cuadradas (cuadros)",
+            "metaData": ""
+        },
+        "venta2cu.dat": {
+            "path": "venta2cu.dat",
+            "title": "Ventanas cuadradas 2x1",
+            "metaData": "|M:M"
+        },
+        "venta2bu.dat": {
+            "path": "venta2bu.dat",
+            "title": "Ventanas cuadradas 2x1 blancas",
+            "metaData": "|M:M"
+        },
+        "venta4cu.dat": {
+            "path": "venta4cu.dat",
+            "title": "Ventanas cuadradas 4x1",
+            "metaData": "|M:M"
+        },
+        "venta4bu.dat": {
+            "path": "venta4bu.dat",
+            "title": "Ventanas cuadradas 4x1 blancas",
+            "metaData": "|M:M"
+        },
+        "alfaviga.dat": {
+            "path": "alfaviga.dat",
+            "title": "Viga Alfa",
+            "metaData": "|F:F"
+        },
+        "vigibert.dat": {
+            "path": "vigibert.dat",
+            "title": "Viga Ibertren",
+            "metaData": "|D:D"
+        },
+        "volkswag.dat": {
+            "path": "volkswag.dat",
+            "title": "Volkswagen",
+            "metaData": "|C:C|V:V"
+        },
+        "volkcarr.dat": {
+            "path": "volkcarr.dat",
+            "title": "Volkswagen Carroceria",
+            "metaData": "|C:C|V:V"
+        },
+        "xtronic.dat": {
+            "path": "xtronic.dat",
+            "title": "Xtronic",
+            "metaData": "|R:R"
+        },
+        "xtroroja.dat": {
+            "path": "xtroroja.dat",
+            "title": "Xtronic Bola Roja",
+            "metaData": "|R:R"
+        },
+        "xtroverd.dat": {
+            "path": "xtroverd.dat",
+            "title": "Xtronic Bola Verde",
+            "metaData": "|R:R"
+        },
+        "alfazeta.dat": {
+            "path": "alfazeta.dat",
+            "title": "Zeta Alfa",
+            "metaData": "|F:F"
+        }
+    },
+    "partsPathsList": [
+        "acetilen.dat",
+        "acetirue.dat",
+        "acetitub.dat",
+        "aduanabr.dat",
+        "aduanasp.dat",
+        "aduana.dat",
+        "alaastro.dat",
+        "titalaiz.dat",
+        "alaafgrn.dat",
+        "alaafmed.dat",
+        "alaafpeq.dat",
+        "alaafpnt.dat",
+        "alaskyms.dat",
+        "titsoprt.dat",
+        "alero1.dat",
+        "alero2.dat",
+        "alero2e.dat",
+        "alerocoh.dat",
+        "alercoht.dat",
+        "alercoh2.dat",
+        "almena1.dat",
+        "almenacg.dat",
+        "almenacp.dat",
+        "almenarg.dat",
+        "almenarp.dat",
+        "amortigu.dat",
+        "antena.dat",
+        "antncruz.dat",
+        "antenart.dat",
+        "antnincl.dat",
+        "antninc2.dat",
+        "antincv.dat",
+        "antincv2.dat",
+        "arco12.dat",
+        "arco3.dat",
+        "arco4.dat",
+        "arco8.dat",
+        "ascens1.dat",
+        "ascens1b.dat",
+        "ascens2.dat",
+        "asiescor.dat",
+        "aspa1.dat",
+        "aspamic1.dat",
+        "aspamic2.dat",
+        "astronau.dat",
+        "astbrazd.dat",
+        "astbrazi.dat",
+        "astcuerp.dat",
+        "astpiern.dat",
+        "asttorso.dat",
+        "astronav.dat",
+        "astcuerv.dat",
+        "astpierv.dat",
+        "bald2ry.dat",
+        "bald2x3.dat",
+        "bald2x4.dat",
+        "bald2x8.dat",
+        "bald3.dat",
+        "bald4.dat",
+        "bald8.dat",
+        "bald1.dat",
+        "bald2.dat",
+        "bald2r.dat",
+        "bald2x2.dat",
+        "bald2x2r.dat",
+        "baldcil.dat",
+        "baldc1.dat",
+        "baldc2.dat",
+        "baldc2x2.dat",
+        "baldg2x2.dat",
+        "baldb2x2.dat",
+        "baldc4.dat",
+        "baldc4x6.dat",
+        "baldc4x8.dat",
+        "baldc4in.dat",
+        "baldgord.dat",
+        "bald2r2.dat",
+        "bandera.dat",
+        "bandeale.dat",
+        "bandeesp.dat",
+        "bandefra.dat",
+        "bandejap.dat",
+        "bandepan.dat",
+        "bandeusa.dat",
+        "barandil.dat",
+        "barca.dat",
+        "barruta.dat",
+        "barrutab.dat",
+        "barrutas.dat",
+        "base1x1.dat",
+        "base8x4.dat",
+        "base8x8.dat",
+        "base9x3.dat",
+        "basel1x1.dat",
+        "basel2x1.dat",
+        "ancl1x2.dat",
+        "ancla1x2.dat",
+        "bis1aba.dat",
+        "bis1arr.dat",
+        "bsgcarr1.dat",
+        "bsgcarr2.dat",
+        "bisgr.dat",
+        "bisgraba.dat",
+        "bisgrarr.dat",
+        "bisgreje.dat",
+        "bisnr.dat",
+        "bisnraba.dat",
+        "bisnrarr.dat",
+        "bisnreje.dat",
+        "bispq.dat",
+        "bispqaba.dat",
+        "bispqarr.dat",
+        "alfacris.dat",
+        "cabalfab.dat",
+        "cabalfar.dat",
+        "cabalfsg.dat",
+        "cabant.dat",
+        "cabant2.dat",
+        "cabantcr.dat",
+        "cabantc2.dat",
+        "cabantcv.dat",
+        "cabantmr.dat",
+        "cabantm2.dat",
+        "cabferro.dat",
+        "cabnueva.dat",
+        "cabnuear.dat",
+        "cabnuebs.dat",
+        "capo.dat",
+        "capom.dat",
+        "cabnuecr.dat",
+        "cabnuesp.dat",
+        "cabnuepa.dat",
+        "cabnuept.dat",
+        "cabnuevo.dat",
+        "cabantrr.dat",
+        "titcabin.dat",
+        "cadcanon.dat",
+        "cadcobra.dat",
+        "cadcombi.dat",
+        "cadcorci.dat",
+        "cadmisil.dat",
+        "cadcorta.dat",
+        "cadlarga.dat",
+        "camionsp.dat",
+        "camion.dat",
+        "camion2.dat",
+        "canongrn.dat",
+        "canongrb.dat",
+        "canongrt.dat",
+        "canonmed.dat",
+        "canonom.dat",
+        "canonpeq.dat",
+        "canontnq.dat",
+        "castillo.dat",
+        "castill1.dat",
+        "castesqu.dat",
+        "castrinc.dat",
+        "chasis2.dat",
+        "chasis3.dat",
+        "chasis3r.dat",
+        "chasis4.dat",
+        "chasis4r.dat",
+        "alfachas.dat",
+        "chasisr1.dat",
+        "chasisr2.dat",
+        "chimenea.dat",
+        "chimbald.dat",
+        "chimeneg.dat",
+        "chimmach.dat",
+        "chimplam.dat",
+        "chimplac.dat",
+        "chimttnc.dat",
+        "chimtubo.dat",
+        "cilindro.dat",
+        "cilindr2.dat",
+        "cilindr3.dat",
+        "cilind4p.dat",
+        "cilindr4.dat",
+        "cilindr5.dat",
+        "cilindab.dat",
+        "cilindab2.dat",
+        "cilindar.dat",
+        "cilindar2.dat",
+        "cilindr.dat",
+        "cilintap.dat",
+        "cirrevol.dat",
+        "cirrevor.dat",
+        "cirrevoc.dat",
+        "cirrevog.dat",
+        "cirrevos.dat",
+        "cirrevop.dat",
+        "ciws.dat",
+        "ciws2.dat",
+        "columna.dat",
+        "compuert.dat",
+        "comprtm.dat",
+        "comprtp.dat",
+        "conotanq.dat",
+        "cornisa1.dat",
+        "cornisa3.dat",
+        "cunad1.dat",
+        "cunad2.dat",
+        "cunad4.dat",
+        "cunad8.dat",
+        "alfacuna.dat",
+        "cunaesq.dat",
+        "cunaesq2.dat",
+        "cuna1.dat",
+        "curv1.dat",
+        "curv1de.dat",
+        "curv1iz.dat",
+        "curv3.dat",
+        "cuna.dat",
+        "cuna2x2e.dat",
+        "deposito.dat",
+        "eje15.dat",
+        "eje26.dat",
+        "eje28.dat",
+        "eje45.dat",
+        "eje625.dat",
+        "eje75.dat",
+        "alfa_eje.dat",
+        "ejealfa.dat",
+        "ejeastr1.dat",
+        "ejeastr2.dat",
+        "ejeastr4.dat",
+        "ejecaden.dat",
+        "ejecadpq.dat",
+        "ejecosm2.dat",
+        "ejecosm1.dat",
+        "ejedbcad.dat",
+        "ejedbcpq.dat",
+        "ejemicro.dat",
+        "ejetnqex.dat",
+        "ejextro2.dat",
+        "ejextro4.dat",
+        "elevad1.dat",
+        "elevad2.dat",
+        "elevad3.dat",
+        "elevad4.dat",
+        "enganc1m.dat",
+        "enganc3a.dat",
+        "enganc3b.dat",
+        "enganc4.dat",
+        "enganc5.dat",
+        "engbarco.dat",
+        "escalera.dat",
+        "escaler2.dat",
+        "escobill.dat",
+        "escotil2.dat",
+        "escotil1.dat",
+        "escotilp.dat",
+        "eslabon.dat",
+        "autolava.dat",
+        "metro.dat",
+        "plzspain.dat",
+        "telefono.dat",
+        "tentexin.dat",
+        "ubuntu.dat",
+        "haitbus1.dat",
+        "15.dat",
+        "haitbus2.dat",
+        "205.dat",
+        "haitbus3.dat",
+        "376k.dat",
+        "4circulo.dat",
+        "haitbus4.dat",
+        "5calixto.dat",
+        "ac137.dat",
+        "p_hrala1.dat",
+        "p_hrala2.dat",
+        "paries.dat",
+        "artic.dat",
+        "patlas.dat",
+        "p_atmos1.dat",
+        "p_atmos2.dat",
+        "scorpb2.dat",
+        "scorpb.dat",
+        "baleares.dat",
+        "balear.dat",
+        "bcn5.dat",
+        "p_bgrp_3.dat",
+        "p_bgtria.dat",
+        "bomberos.dat",
+        "boomberg.dat",
+        "pbravo.dat",
+        "pcabonor.dat",
+        "campicar.dat",
+        "campsa.dat",
+        "cargo.dat",
+        "pcaribe.dat",
+        "pcastor.dat",
+        "p_castch.dat",
+        "p_permar.dat",
+        "cepsaav.dat",
+        "p_helcir.dat",
+        "p_hrcir1.dat",
+        "p_hrcir2.dat",
+        "cocacola.dat",
+        "combi3.dat",
+        "pconsul.dat",
+        "pcosmos.dat",
+        "ncoto.dat",
+        "cruzroja.dat",
+        "cruzroj6.dat",
+        "kcuadros.dat",
+        "p_hrcua1.dat",
+        "p_hrcua2.dat",
+        "pcyclone.dat",
+        "pdavid.dat",
+        "dianajp.dat",
+        "p_heldis.dat",
+        "p_perdis.dat",
+        "enye.dat",
+        "eaglrrow.dat",
+        "pegeo.dat",
+        "enagas.dat",
+        "enlectra.dat",
+        "engrase.dat",
+        "fireshld.dat",
+        "fireshli.dat",
+        "estacion.dat",
+        "europa.dat",
+        "explore.dat",
+        "explornb.dat",
+        "explornc.dat",
+        "tferry.dat",
+        "firedept.dat",
+        "firestat.dat",
+        "flagblck.dat",
+        "flecha2.dat",
+        "p_flecha.dat",
+        "followme.dat",
+        "fireline.dat",
+        "pfrog.dat",
+        "frezstar.dat",
+        "p_gala_0.dat",
+        "p_gala_3.dat",
+        "p_gaban1.dat",
+        "p_gaban2.dat",
+        "p_gacr73.dat",
+        "p_galdev.dat",
+        "p_galtri.dat",
+        "gasolina.dat",
+        "pglaciar.dat",
+        "etgrua.dat",
+        "p_hard_3.dat",
+        "p_harban.dat",
+        "p_harent.dat",
+        "p_harpis.dat",
+        "p_harp23.dat",
+        "p_harala.dat",
+        "p_harrob.dat",
+        "p_harmor.dat",
+        "p_heli_5.dat",
+        "p_helcua.dat",
+        "p_helint.dat",
+        "p_helman.dat",
+        "p_helpie.dat",
+        "phermes.dat",
+        "hokuyo23.dat",
+        "hovcraft.dat",
+        "phuracan.dat",
+        "pibiza.dat",
+        "p_ibizbl.dat",
+        "p_ibizch.dat",
+        "picaro.dat",
+        "pimperial.dat",
+        "intgalax.dat",
+        "kolmar.dat",
+        "p_kraala.dat",
+        "p_krat_1.dat",
+        "p_krpie2.dat",
+        "p_krat_2.dat",
+        "p_kramor.dat",
+        "p_kraojo.dat",
+        "p_krpie1.dat",
+        "p_krar34.dat",
+        "plibia.dat",
+        "lnprkam.dat",
+        "lnprkrb.dat",
+        "p_harlog.dat",
+        "pmallorca.dat",
+        "pmaria.dat",
+        "pmarte.dat",
+        "p_mcband.dat",
+        "p_mccabi.dat",
+        "p_mclog1.dat",
+        "p_mclog2.dat",
+        "p_mctapa.dat",
+        "p_mctita.dat",
+        "pmenorca.dat",
+        "pmistral.dat",
+        "fujijp.dat",
+        "pneptuno.dat",
+        "pnordic.dat",
+        "norfrio.dat",
+        "ny_sony.dat",
+        "ny.dat",
+        "pocean.dat",
+        "pojovrnt.dat",
+        "onditajp.dat",
+        "orion.dat",
+        "poslo.dat",
+        "panamar.dat",
+        "p_pancua.dat",
+        "peaje502.dat",
+        "p_perban.dat",
+        "p_percir.dat",
+        "p_perpie.dat",
+        "p_percua.dat",
+        "p_perter.dat",
+        "p_pgm.dat",
+        "pmcarmen.dat",
+        "prhbapam.dat",
+        "prtarabe.dat",
+        "prtventa.dat",
+        "prtdobfs.dat",
+        "prtparki.dat",
+        "prtsenci.dat",
+        "etqnieve.dat",
+        "num7-260.dat",
+        "c-eagle-l.dat",
+        "c-eagle-r.dat",
+        "cometl.dat",
+        "cometr.dat",
+        "dumpflag.dat",
+        "caravfar.dat",
+        "dtfaros.dat",
+        "jeepfaro.dat",
+        "sanitlig.dat",
+        "ftlightr.dat",
+        "ftlightl.dat",
+        "firepilo.dat",
+        "dumptrur.dat",
+        "dumptrul.dat",
+        "axeextin.dat",
+        "sanitkab.dat",
+        "l-eagle-l.dat",
+        "l-eagle-r.dat",
+        "sani4016.dat",
+        "sanitbag.dat",
+        "sanitati.dat",
+        "squar260.dat",
+        "jeepfrnj.dat",
+        "tigerttl.dat",
+        "tiger260.dat",
+        "refresco.dat",
+        "rombof.dat",
+        "royaljp.dat",
+        "p_rutelf.dat",
+        "p_rutene.dat",
+        "p_mombas.dat",
+        "p_shelld.dat",
+        "p_shelli.dat",
+        "seasub.dat",
+        "shell2.dat",
+        "shell1.dat",
+        "p_skym_3.dat",
+        "p_ala_2.dat",
+        "p_skyc_1.dat",
+        "p_skyc_2.dat",
+        "p_skyc_3.dat",
+        "p_skyc_4.dat",
+        "p_skyint.dat",
+        "p_skyner.dat",
+        "so_sony.dat",
+        "sunlines.dat",
+        "superatl.dat",
+        "p_teclad.dat",
+        "ptigre.dat",
+        "tir.dat",
+        "ptitan.dat",
+        "p_titan1.dat",
+        "titan02.dat",
+        "titan02c.dat",
+        "p_titan6.dat",
+        "p_titan7.dat",
+        "p_titan2.dat",
+        "p_tcband.dat",
+        "p_tccabd.dat",
+        "p_tccabi.dat",
+        "p_tcpant.dat",
+        "p_tctecl.dat",
+        "trialfa.dat",
+        "ptriton.dat",
+        "ptunez.dat",
+        "uranio.dat",
+        "uraniog.dat",
+        "v20.dat",
+        "pvelazq.dat",
+        "ventsony.dat",
+        "vntancab.dat",
+        "vntancdb.dat",
+        "vntarabe.dat",
+        "vntcua6.dat",
+        "vntest10.dat",
+        "vntest2.dat",
+        "vntest3.dat",
+        "vntest6.dat",
+        "vntsafar.dat",
+        "viking.dat",
+        "w642.dat",
+        "pxaloc.dat",
+        "y-36.dat",
+        "pzebra.dat",
+        "pzenith.dat",
+        "p_zenala.dat",
+        "p_zencup.dat",
+        "p_zenlog.dat",
+        "p_zensta.dat",
+        "extenabj.dat",
+        "extenarr.dat",
+        "extengrs.dat",
+        "extenmed.dat",
+        "f35.dat",
+        "paracqtf.dat",
+        "faros.dat",
+        "farosluz.dat",
+        "faroslzt.dat",
+        "faros214.dat",
+        "faros212.dat",
+        "faros213.dat",
+        "radiadjp.dat",
+        "fusil.dat",
+        "garfio.dat",
+        "alfagarf.dat",
+        "garfsprt.dat",
+        "grua.dat",
+        "grua1.dat",
+        "grua2.dat",
+        "grua3jac.dat",
+        "gruastro.dat",
+        "gruab.dat",
+        "gruafija.dat",
+        "gruahilo.dat",
+        "minigrua.dat",
+        "gruap.dat",
+        "gruaremt.dat",
+        "gruatop1.dat",
+        "gruatop2.dat",
+        "gruatorn.dat",
+        "gruators.dat",
+        "guardabr.dat",
+        "harpoon.dat",
+        "harrier.dat",
+        "helice.dat",
+        "helicop1.dat",
+        "helala.dat",
+        "aspa.dat",
+        "helaspac.dat",
+        "heliaspa.dat",
+        "heliaspp.dat",
+        "helcab.dat",
+        "helcabcr.dat",
+        "helcol.dat",
+        "helcolhu.dat",
+        "helirotr.dat",
+        "helicoc1.dat",
+        "helicop2.dat",
+        "helicoc2.dat",
+        "helireje.dat",
+        "helillnt.dat",
+        "helmando.dat",
+        "helineum.dat",
+        "helpata.dat",
+        "helrueda.dat",
+        "airsillo.dat",
+        "helisprt.dat",
+        "heliprto.dat",
+        "htit2.dat",
+        "htit1.dat",
+        "htitbrzd.dat",
+        "htitbrzi.dat",
+        "htitcab1.dat",
+        "htitcab2.dat",
+        "htitentr.dat",
+        "htitmand.dat",
+        "htitmani.dat",
+        "htitpies.dat",
+        "htittron.dat",
+        "invcilin.dat",
+        "jacena1.dat",
+        "enganche.dat",
+        "enganch2.dat",
+        "enganc2.dat",
+        "jacena14.dat",
+        "jacena2.dat",
+        "jacen2x2.dat",
+        "jacn2x2a.dat",
+        "jacn2x2e.dat",
+        "jacen2x3.dat",
+        "jacen2x4.dat",
+        "jacn2x4a.dat",
+        "jacn2x4e.dat",
+        "jacen2x8.dat",
+        "jacn2x8e.dat",
+        "jacena4.dat",
+        "jacn4a.dat",
+        "jacena6.dat",
+        "jacena8.dat",
+        "alfajacn.dat",
+        "rallado1.dat",
+        "rallado2.dat",
+        "jet.dat",
+        "jet1.dat",
+        "ladri1x1.dat",
+        "ladri2x1.dat",
+        "ladrs2x1.dat",
+        "ladri8x1.dat",
+        "ladrl1x1.dat",
+        "ladrl2x1.dat",
+        "ladrlin1.dat",
+        "ladrlin2.dat",
+        "lancha.dat",
+        "landes.dat",
+        "landesld.dat",
+        "landesse.dat",
+        "laser.dat",
+        "alfalln1.dat",
+        "alfalln2.dat",
+        "llantrob.dat",
+        "llantrut.dat",
+        "llanrutt.dat",
+        "llantnq.dat",
+        "llantqab.dat",
+        "llantqar.dat",
+        "llantnqm.dat",
+        "llantaxt.dat",
+        "astgrfgr.dat",
+        "astgrfmd.dat",
+        "astgrfpq.dat",
+        "logtente.dat",
+        "macecun2.dat",
+        "manguera.dat",
+        "mastbase.dat",
+        "metrall.dat",
+        "misiles.dat",
+        "misilesc.dat",
+        "misilese.dat",
+        "mochila1.dat",
+        "mochila2.dat",
+        "modmando.dat",
+        "modmandj.dat",
+        "modmandp.dat",
+        "modmedic.dat",
+        "modmedca.dat",
+        "modmedpa.dat",
+        "monoplan.dat",
+        "motor.dat",
+        "alfamotr.dat",
+        "mtrhasbr.dat",
+        "mastilh.dat",
+        "mastilm.dat",
+        "mastf100.dat",
+        "mastf135.dat",
+        "mastf050.dat",
+        "mastf060.dat",
+        "mastf070.dat",
+        "mastf085.dat",
+        "mastg135.dat",
+        "mastg150.dat",
+        "mastg170.dat",
+        "mastg190.dat",
+        "alfaneum.dat",
+        "neumaxt.dat",
+        "neumtter.dat",
+        "nruteje.dat",
+        "nrutembl.dat",
+        "nrutemb2.dat",
+        "nrutllnt.dat",
+        "nrutneum.dat",
+        "placa1c.dat",
+        "placa10.dat",
+        "placa12.dat",
+        "plac2m.dat",
+        "plac2x10.dat",
+        "plac2x2m.dat",
+        "placa3.dat",
+        "placa3m.dat",
+        "placa4e.dat",
+        "placa8c.dat",
+        "placa8.dat",
+        "pang2x4d.dat",
+        "pang2x4i.dat",
+        "placacil.dat",
+        "placurd2.dat",
+        "placlin2.dat",
+        "placarv2.dat",
+        "palaexcv.dat",
+        "plmgrand.dat",
+        "plmghoja.dat",
+        "plmgtrnc.dat",
+        "plmbase.dat",
+        "plmphojh.dat",
+        "plmphoja.dat",
+        "plmptrnc.dat",
+        "panelast.dat",
+        "panelasr.dat",
+        "parabris.dat",
+        "parabcrs.dat",
+        "parabmrc.dat",
+        "parachoq.dat",
+        "paracq21.dat",
+        "paracf21.dat",
+        "parac21j.dat",
+        "paracqtt.dat",
+        "alfapare.dat",
+        "alfparcv.dat",
+        "alfparsv.dat",
+        "pastilla.dat",
+        "patastro.dat",
+        "alfapatn.dat",
+        "petroeng.dat",
+        "petrotub.dat",
+        "pico.dat",
+        "pico1.dat",
+        "alfapico.dat",
+        "picoesq.dat",
+        "pinzastr.dat",
+        "pinzaesq.dat",
+        "piquito.dat",
+        "pistola.dat",
+        "pivote.dat",
+        "placa1.dat",
+        "placa15.dat",
+        "placa2.dat",
+        "placa2x2.dat",
+        "polegrua.dat",
+        "placa2x3.dat",
+        "placa2x8.dat",
+        "placa30.dat",
+        "placa4.dat",
+        "placa4x6.dat",
+        "placa4x8.dat",
+        "placa6x8.dat",
+        "alfaplac.dat",
+        "placalfa.dat",
+        "placacty.dat",
+        "popa6p.dat",
+        "popa8p.dat",
+        "plantas.dat",
+        "platfgir.dat",
+        "platfgi2.dat",
+        "popa4.dat",
+        "popa4pm.dat",
+        "popa4p.dat",
+        "popa4mre.dat",
+        "popa_6.dat",
+        "popa6pm.dat",
+        "popa6pmh.dat",
+        "popa6mre.dat",
+        "popa8.dat",
+        "popa6rem.dat",
+        "popa8rem.dat",
+        "proa4.dat",
+        "proa4p.dat",
+        "proa4pmd.dat",
+        "proa4pmi.dat",
+        "proa_6.dat",
+        "proa6vel.dat",
+        "proa8.dat",
+        "proa8p.dat",
+        "proa6p.dat",
+        "proa6rem.dat",
+        "proa8rem.dat",
+        "alfprtam.dat",
+        "alfprtar.dat",
+        "puertang.dat",
+        "puertacr.dat",
+        "puertamr.dat",
+        "puertam2.dat",
+        "puertabl.dat",
+        "pgaraje.dat",
+        "pgarajeb.dat",
+        "pgarajes.dat",
+        "quilla.dat",
+        "quilla_4.dat",
+        "popa4qui.dat",
+        "popa6qui.dat",
+        "proa4qui.dat",
+        "proa6qui.dat",
+        "antnradr.dat",
+        "radaralf.dat",
+        "radarneg.dat",
+        "radar.dat",
+        "radarp.dat",
+        "rcurva45.dat",
+        "ram.dat",
+        "ram-bas2.dat",
+        "ram-base.dat",
+        "ram-misi.dat",
+        "ram2.dat",
+        "rampa.dat",
+        "alfaramp.dat",
+        "ramplanz.dat",
+        "rejilla.dat",
+        "remaesq1.dat",
+        "remate_2.dat",
+        "remaesq2.dat",
+        "remate_6.dat",
+        "remate62.dat",
+        "remateb2.dat",
+        "remtcoht.dat",
+        "rematesq.dat",
+        "rematl42.dat",
+        "proa4rmt.dat",
+        "remolcha.dat",
+        "remolpue.dat",
+        "respirad.dat",
+        "rifle.dat",
+        "rotorinf.dat",
+        "rotrinf2.dat",
+        "rotorsup.dat",
+        "rueairj2.dat",
+        "alfarued.dat",
+        "rueastro.dat",
+        "rueasneu.dat",
+        "ruecosmi.dat",
+        "ruecosmn.dat",
+        "ruemicr1.dat",
+        "ruemicr2.dat",
+        "ruerutal.dat",
+        "rueruj2l.dat",
+        "ruerj42l.dat",
+        "ruerutat.dat",
+        "rueruj2t.dat",
+        "ruerj42t.dat",
+        "rueruj4t.dat",
+        "rues42l.dat",
+        "ruescj2t.dat",
+        "ruescorl.dat",
+        "ruescj2l.dat",
+        "ruetnqex.dat",
+        "ruetober.dat",
+        "rvariant.dat",
+        "ruextro2.dat",
+        "ruextro4.dat",
+        "ruta21nm.dat",
+        "sparrow.dat",
+        "semicupg.dat",
+        "semicugg.dat",
+        "semicupm.dat",
+        "semicumg.dat",
+        "semicupp.dat",
+        "semicuqg.dat",
+        "alfasens.dat",
+        "sillastr.dat",
+        "titsilla.dat",
+        "sirena.dat",
+        "skycab.dat",
+        "skycabcr.dat",
+        "soport1.dat",
+        "soport2.dat",
+        "soport3.dat",
+        "soprtmar.dat",
+        "taladro.dat",
+        "tejamcr2.dat",
+        "tejamcr3.dat",
+        "tejado.dat",
+        "tejadox.dat",
+        "tejado1a.dat",
+        "tejado1b.dat",
+        "tejado2a.dat",
+        "tejado2b.dat",
+        "tejado4.dat",
+        "tejado8.dat",
+        "tejador8.dat",
+        "tejadol8.dat",
+        "tejconal.dat",
+        "tejconbj.dat",
+        "tejcongr.dat",
+        "tejls2x1.dat",
+        "tejadorm.dat",
+        "tejadorl.dat",
+        "tenazas.dat",
+        "tetonesp.dat",
+        "tetonsin.dat",
+        "toberast.dat",
+        "tobergal.dat",
+        "torremcr.dat",
+        "trenb.dat",
+        "trenejh.dat",
+        "trenejm.dat",
+        "trenr.dat",
+        "trfrect2.dat",
+        "trfrect1.dat",
+        "trfcircb.dat",
+        "trfcircp.dat",
+        "trftria1.dat",
+        "trfposte.dat",
+        "trfcirc1.dat",
+        "trfrecta.dat",
+        "trfrectb.dat",
+        "trfrectf.dat",
+        "trfsemfr.dat",
+        "trfsemfc.dat",
+        "trfsemfl.dat",
+        "trftrian.dat",
+        "trftriai.dat",
+        "tubo.dat",
+        "tuboguia.dat",
+        "tuboest8.dat",
+        "tb2x1.dat",
+        "tbas5421.dat",
+        "tbas5422.dat",
+        "tbas5423.dat",
+        "tbas5424.dat",
+        "tubas656.dat",
+        "tbcb1_58.dat",
+        "tbcb1_6.dat",
+        "tbcb1_67.dat",
+        "tbcb1_8.dat",
+        "tbcb2_22.dat",
+        "tbhelbrg.dat",
+        "tbrecto.dat",
+        "tbgammad.dat",
+        "tbgammai.dat",
+        "tbshd1.dat",
+        "tbshd2.dat",
+        "tbshd3.dat",
+        "tbshi1.dat",
+        "tbshi2.dat",
+        "tbshi3.dat",
+        "tbshsi.dat",
+        "tbescdbl.dat",
+        "tbescrct.dat",
+        "tbescrc2.dat",
+        "tbesctrp.dat",
+        "tuboextr.dat",
+        "tbfarola.dat",
+        "tbfutur1.dat",
+        "tbfutur2.dat",
+        "tuboruta.dat",
+        "tbscoeng.dat",
+        "tbscorec.dat",
+        "alfaturb.dat",
+        "valla.dat",
+        "vallaobr.dat",
+        "ventana1.dat",
+        "ventana1c.dat",
+        "ventana1m.dat",
+        "vnt1x1.dat",
+        "vnt1x1c.dat",
+        "vnt1x1m.dat",
+        "ventan4.dat",
+        "ventan4c.dat",
+        "ventan4m.dat",
+        "vntcasa.dat",
+        "vntcasac.dat",
+        "vntcasam.dat",
+        "vntscorp.dat",
+        "vntscorv.dat",
+        "vntscorm.dat",
+        "alfventn.dat",
+        "vntthor.dat",
+        "vntthorv.dat",
+        "vntthorm.dat",
+        "titcrist.dat",
+        "titmarco.dat",
+        "vntcirc2.dat",
+        "venta2ci.dat",
+        "venta2bi.dat",
+        "venta4ci.dat",
+        "venta4bi.dat",
+        "vntcuad2.dat",
+        "venta2cu.dat",
+        "venta2bu.dat",
+        "venta4cu.dat",
+        "venta4bu.dat",
+        "alfaviga.dat",
+        "vigibert.dat",
+        "volkswag.dat",
+        "volkcarr.dat",
+        "xtronic.dat",
+        "xtroroja.dat",
+        "xtroverd.dat",
+        "alfazeta.dat"
     ]
 }

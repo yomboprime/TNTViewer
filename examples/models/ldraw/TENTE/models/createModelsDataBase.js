@@ -17,12 +17,14 @@ const pathJoin = require( 'path' ).join;
 const dataBase = {
 
 	models: {},
+	modelPathsList: [],
 
-	pathsList: []
+	parts: {},
+	partsPathsList: []
 
 };
 
-console.log( "Reading sorce database ..." );
+console.log( "Reading source database ..." );
 
 const sourceDataBasePath = 'TENTE Refs - Visor TNT - RefsTENTE.tsv';
 let sourceDataBase = readTextFileSync( pathJoin( __dirname, sourceDataBasePath ), "latin1" );
@@ -31,12 +33,12 @@ if ( sourceDataBase === null ) {
 
 	console.log();
 	console.log( "Error reading source database file: " + sourceDataBasePath );
-	System.exit( - 1 );
+	process.exit( - 1 );
 }
 
 sourceDataBase = sourceDataBase.toString().split( '\n' );
 
-sourceDataBaseFields = [];
+const sourceDataBaseFields = [];
 
 for ( let l in sourceDataBase ) {
 
@@ -67,6 +69,74 @@ for ( let l in sourceDataBase ) {
 
 }
 
+console.log( "Reading parts list..." );
+
+const partsListPath = 'parts.lst';
+let partsListLines = readTextFileSync( pathJoin( __dirname, '..', partsListPath ), "latin1" );
+
+if ( partsListLines === null ) {
+
+	console.log();
+	console.log( "Error reading parts list file: " + partsListPath );
+	process.exit( - 1 );
+
+}
+
+partsListLines = partsListLines.toString().split( '\n' );
+
+const partsTempArray = [];
+
+for ( let i in partsListLines ) {
+
+	const partsListLine = partsListLines[ i ];
+
+	const spPos = partsListLine.indexOf( ' ' );
+	if ( spPos < 0 ) continue;
+
+	const path = partsListLine.substring( 0, spPos );
+	let title = partsListLine.substring( spPos ).trim();
+	const barPos = title.indexOf( '|' );
+	let metaData = '';
+	if ( barPos >= 0 ) {
+		metaData = title.substring( barPos );
+		title = title.substring( 0, barPos ).trim();
+
+	}
+	else {
+
+		const dotPos = partsListLine.lastIndexOf( ':' );
+		if ( dotPos >= 0 ) {
+
+			metaData = title.substring( dotPos );
+			title = title.substring( 0, dotPos ).trim();
+
+		}
+
+	}
+
+	partsTempArray.push( {
+		path: path,
+		title: title,
+		metaData: metaData
+	} );
+
+}
+
+partsTempArray.sort( ( a, b ) => {
+
+	return a.title.localeCompare( b.title );
+
+} );
+
+for ( let i in partsTempArray ) {
+
+	const part = partsTempArray[ i ];
+
+	dataBase.partsPathsList.push( part.path );
+	dataBase.parts[ part.path ] = part;
+
+}
+
 function findSeriesRef( series, ref ) {
 
 	for ( let l in sourceDataBaseFields ) {
@@ -87,7 +157,7 @@ function findSeriesRef( series, ref ) {
 
 scanDirectory( __dirname, '' );
 
-dataBase.pathsList.sort( ( a, b ) => {
+dataBase.modelPathsList.sort( ( a, b ) => {
 
 	const aOf = a.startsWith( 'oficiales' );
 	const bOf = b.startsWith( 'oficiales' );
@@ -98,13 +168,13 @@ dataBase.pathsList.sort( ( a, b ) => {
 } );
 
 console.log();
-console.log( "Total: " + dataBase.pathsList.length + " models." );
+console.log( "Total: " + dataBase.modelPathsList.length + " models." );
 console.log();
 
 let numModelsInSourceDataBase = 0;
-for ( let i in dataBase.pathsList ) {
+for ( let i in dataBase.modelPathsList ) {
 
-	const modelPath = dataBase.pathsList[ i ];
+	const modelPath = dataBase.modelPathsList[ i ];
 
 	console.log( "Processing model " + modelPath + " ..." );
 
@@ -194,9 +264,9 @@ for ( let i in dataBase.pathsList ) {
 }
 
 console.log();
-console.log( "Total: " + dataBase.pathsList.length + " models." );
+console.log( "Total models: " + dataBase.modelPathsList.length );
 
-console.log( "numModelsInSourceDataBase: " + numModelsInSourceDataBase );
+console.log( "Num. models in source database: " + numModelsInSourceDataBase );
 
 console.log( "Writing models.json ..." );
 
@@ -248,6 +318,9 @@ let htmlModelListContent =
 			</tr>
 ***CUSTOM_MODELS***
 		</table>
+		<h2>Other links</h2>
+		<p>See <a href="https://yomboprime.github.io/TNTViewer/examples/tnt_parts.html">parts list</a>.</p>
+		<p><a href="https://github.com/yomboprime/TNTViewer">TNTViewer code at Github</a>'</p>
 	</body>
 </html>`;
 
@@ -255,9 +328,9 @@ let htmlModelListContent =
 let officialModelsContent = '';
 let customModelsContent = '';
 
-for ( let i in dataBase.pathsList ) {
+for ( let i in dataBase.modelPathsList ) {
 
-	const modelPath = dataBase.pathsList[ i ];
+	const modelPath = dataBase.modelPathsList[ i ];
 	const model = dataBase.models[ modelPath ];
 
 	if ( modelPath.startsWith( 'oficiales/' ) ) {
@@ -303,6 +376,69 @@ if ( ! writeTextFileSync( htmlModelListContent, pathJoin( __dirname, htmlModelLi
 
 }
 
+
+const htmlPartListPath = '../../../../tnt_parts.html';
+
+console.log();
+console.log( "Writing " + htmlPartListPath );
+
+let htmlPartListContent =
+`<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link type="text/css" rel="stylesheet" href="tnt_models.css" />
+	</head>
+	<body>
+		<h1>TNT Viewer parts list</h1>
+		<h2>Index</h2>
+		<ul>
+			<li>Parts list</li>
+			<li>Other links</li>
+		</ul>
+		<h2>Parts list</h2>
+		<table>
+			<tr>
+				<th>Title</th>
+				<th>View part</th>
+				<th>Model metadata</th>
+				<th>File</th>
+			</tr>
+***PARTS_LIST***
+		</table>
+		<h2>Other links</h2>
+		<p>See <a href="https://yomboprime.github.io/TNTViewer/examples/tnt_models.html">models list.</a></p>
+		<p><a href="https://github.com/yomboprime/TNTViewer">TNTViewer code at Github</a>'</p>
+	</body>
+</html>`;
+
+let partsContent = '';
+
+for ( let i in dataBase.partsPathsList ) {
+
+	const partPath = dataBase.partsPathsList[ i ];
+	const part = dataBase.parts[ partPath ];
+
+	partsContent +=
+`			<tr>
+				<td>` + part.title + `</td>
+				<td><a href="https://yomboprime.github.io/TNTViewer/examples/tnt.html?modelPath=../parts/` + part.path + `">View part</a></td>
+				<td>` + part.metaData + `</td>
+				<td>` + ( part.path ? part.path : "No file." ) + `</td>
+			</tr>
+`;
+
+}
+
+htmlPartListContent = htmlPartListContent .replace( '***PARTS_LIST***', partsContent );
+
+if ( ! writeTextFileSync( htmlPartListContent, pathJoin( __dirname, htmlPartListPath ) ) ) {
+
+	console.log( "ERROR writing tnt_models.html !" );
+
+}
+
+
 console.log( "Done. Have a nice day." );
 
 
@@ -341,7 +477,7 @@ function scanDirectory( base, path ) {
 			if ( ! fileName.toLowerCase().endsWith( '.ldr' ) ) continue;
 
 			console.log( "Adding model " + filePath);
-			dataBase.pathsList.push( filePath );
+			dataBase.modelPathsList.push( filePath );
 
 		}
 

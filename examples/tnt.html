@@ -508,12 +508,21 @@
 					guiData.modelSeries = "No series.";
 					guiData.modelRef = "No ref.";
 					guiData.modelInfoURL = "No URL.";
-					const modelInfo = dataBase.models[ guiData.modelFileName ];
+					let modelInfo = dataBase.models[ guiData.modelFileName ];
+
+					if ( ! modelInfo ) {
+
+						modelInfo = dataBase.parts[ guiData.modelFileName.substring( '../parts/'.length ) ];
+
+					}
+
 					if ( modelInfo ) {
 
+						if ( modelInfo.path ) guiData.path = modelInfo.path;
 						if ( modelInfo.title ) guiData.modelTitle = modelInfo.title;
 						if ( modelInfo.seriesNumber ) guiData.modelSeries = modelInfo.seriesNumber;
 						if ( modelInfo.refNumber ) guiData.modelRef = modelInfo.refNumber;
+						else if ( modelInfo.metaData ) guiData.modelRef = modelInfo.metaData;
 						if ( modelInfo.id && Number.isInteger( parseInt( modelInfo.id ) ) ) guiData.modelInfoURL = 'https://tente.spread.name/id/' + modelInfo.id;
 
 						pathController.updateDisplay();
@@ -528,12 +537,12 @@
 						if ( modelInfo.id && Number.isInteger( parseInt( modelInfo.id ) ) ) {
 
 							infoText += 'Go <a href="https://tente.spread.name/id/' + modelInfo.id + '"><b>here for model info</b> (external link)</a>';
-							//infoHeight = 100;
 
 						}
 
-						infoText += '<br>See <a href="https://yomboprime.github.io/TNTViewer/examples/tnt_models.html">models list</a>.' +
-							'<br><a href="https://github.com/yomboprime/TNTViewer">TNTViewer at Github</a>';
+						infoText += '<br>See <a href="https://yomboprime.github.io/TNTViewer/examples/tnt_models.html">models</a> and ' +
+							'<a href="https://yomboprime.github.io/TNTViewer/examples/tnt_parts.html">parts</a> lists.' +
+							'<br><a href="https://github.com/yomboprime/TNTViewer">TNTViewer code at Github</a>';
 
 						infoDiv.innerHTML = infoText;
 						infoDiv.style.bottom = infoHeight + 'px';
@@ -554,7 +563,7 @@
 
 			function searchModelByField( field, value ) {
 
-				for ( modelPath in pathsList ) {
+				for ( modelPath in database.modelPathsList ) {
 
 					const model = dataBase.models[ modelPath ];
 
@@ -1089,9 +1098,9 @@
 				gui = new GUI( { width: 500 } );
 
 				const fileNameMap = {};
-				for ( let i in dataBase.pathsList ) {
+				for ( let i in dataBase.modelPathsList ) {
 
-					const filePath = dataBase.pathsList[ i ];
+					const filePath = dataBase.modelPathsList[ i ];
 					const model = dataBase.models[ filePath ];
 
 					fileNameMap[ model.path ] = filePath;
