@@ -298,6 +298,7 @@ let htmlModelListContent =
 			<li>Custom models</li>
 		</ul>
 		<h2>Official models</h2>
+		<p>Number of models: ***OFFICIAL_MODELS_COUNT***<p>
 		<table>
 			<tr>
 				<th>Title</th>
@@ -310,6 +311,7 @@ let htmlModelListContent =
 ***OFFICIAL_MODELS***
 		</table>
 		<h2>Custom models</h2>
+		<p>Number of models: ***CUSTOM_MODELS_COUNT***<p>
 		<table>
 			<tr>
 				<th>Title</th>
@@ -328,13 +330,17 @@ let htmlModelListContent =
 let officialModelsContent = '';
 let customModelsContent = '';
 
+let officialModelsCount = 0;
+let customModelsCount = 0;
+
 for ( let i in dataBase.modelPathsList ) {
 
 	const modelPath = dataBase.modelPathsList[ i ];
 	const model = dataBase.models[ modelPath ];
 
 	if ( modelPath.startsWith( 'oficiales/' ) ) {
-			officialModelsContent +=
+
+		officialModelsContent +=
 `			<tr>
 				<td>` + model.title + `</td>
 				<td>` + ( model.seriesNumber ? model.seriesNumber : "No series." ) + `</td>
@@ -352,10 +358,12 @@ for ( let i in dataBase.modelPathsList ) {
 			</tr>
 `;
 
+		officialModelsCount ++;
+
 	}
 	else {
 
-			customModelsContent +=
+		customModelsContent +=
 `			<tr>
 				<td>` + model.title + `</td>
 				<td><a href="https://yomboprime.github.io/TNTViewer/examples/tnt.html?modelPath=` + model.path + `">View model</a>
@@ -363,12 +371,16 @@ for ( let i in dataBase.modelPathsList ) {
 			</tr>
 `;
 
+		customModelsCount ++;
+
 	}
 
 }
 
 htmlModelListContent = htmlModelListContent.replace( '***OFFICIAL_MODELS***', officialModelsContent );
+htmlModelListContent = htmlModelListContent.replace( '***OFFICIAL_MODELS_COUNT***', '' + officialModelsCount );
 htmlModelListContent = htmlModelListContent.replace( '***CUSTOM_MODELS***', customModelsContent );
+htmlModelListContent = htmlModelListContent.replace( '***CUSTOM_MODELS_COUNT***', '' + customModelsCount );
 
 if ( ! writeTextFileSync( htmlModelListContent, pathJoin( __dirname, htmlModelListPath ) ) ) {
 
@@ -397,6 +409,7 @@ let htmlPartListContent =
 			<li>Other links</li>
 		</ul>
 		<h2>Parts list</h2>
+		<p>Number of parts: ***PARTS_COUNT***<p>
 		<table>
 			<tr>
 				<th>Title</th>
@@ -413,6 +426,7 @@ let htmlPartListContent =
 </html>`;
 
 let partsContent = '';
+let partsCount = '';
 
 for ( let i in dataBase.partsPathsList ) {
 
@@ -428,9 +442,12 @@ for ( let i in dataBase.partsPathsList ) {
 			</tr>
 `;
 
+	partsCount ++;
+
 }
 
 htmlPartListContent = htmlPartListContent .replace( '***PARTS_LIST***', partsContent );
+htmlPartListContent = htmlPartListContent .replace( '***PARTS_COUNT***', '' + partsCount  );
 
 if ( ! writeTextFileSync( htmlPartListContent, pathJoin( __dirname, htmlPartListPath ) ) ) {
 
