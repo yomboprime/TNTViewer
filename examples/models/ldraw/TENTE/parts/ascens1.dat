@@ -1,6 +1,7 @@
 0 Ascensor Enganche   |M:M
 0 Name: ascens1.dat
 0 Author: betatron
+0 !LDRAW_ORG Unofficial_Part
 0 BFC CERTIFY CCW
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 ascens1b.dat
 1 16 160 0 0 1 0 0 0 1 0 0 0 1 ascens1b.dat

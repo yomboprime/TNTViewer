@@ -1,8 +1,7 @@
 0 Ventanas circulares 4x1 blancas   |M:M
 0 Name: venta4bi.dat
 0 Author: betatron
-0 ROTATION CENTER 0 0 0 1 "Custom" 
-0 ROTATION CONFIG 0 0
+0 !LDRAW_ORG Unofficial_Part
 0 BFC CERTIFY CCW
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 jacena4.dat
 1 15 10 0 10 1 0 0 0 1 0 0 0 1 s\vntcirc2.dat

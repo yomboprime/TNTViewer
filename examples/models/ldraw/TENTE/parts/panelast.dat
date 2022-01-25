@@ -1,8 +1,7 @@
 0 Panel Astro   |S:S
 0 Name: panelast.dat
 0 Author: betatron & jasolo
-0 ROTATION CENTER 0 0 0 1 "Custom" 
-0 ROTATION CONFIG 0 0
+0 !LDRAW_ORG Unofficial_Part
 0 BFC CERTIFY CCW
 2 24 -35 -82.386 8.292 -5 -82.386 8.292
 2 24 5 -82.386 8.292 35 -82.386 8.292

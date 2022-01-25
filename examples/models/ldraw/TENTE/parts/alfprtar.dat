@@ -1,6 +1,7 @@
 0 Puerta Alfa Rampa   |F:F
 0 Name: alfprtar.dat
 0 Author: jasolo & hivisoy
+0 !LDRAW_ORG Unofficial_Part
 0 BFC CERTIFY CCW 
 4 16 10.29 -100.102 -9.8 10.006 -100.508 -9.782 9.804 -100.444 -10.236 10.026 -100.114 -10.274
 4 16 10.156 -99.624 -10.278 10.026 -100.114 -10.274 9.705 -100.089 -10.591 9.759 -99.624 -10.666

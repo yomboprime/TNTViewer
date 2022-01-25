@@ -1,8 +1,7 @@
 0 Neumatico Xtronic    |R:R
 0 Name: neumaxt.dat
 0 Author: betatron & jasolo
-0 ROTATION CENTER 0 0 0 1 "Custom" 
-0 ROTATION CONFIG 0 0
+0 !LDRAW_ORG Unofficial_Part
 0 BFC CERTIFY CCW
 2 24 64.25 -33.896 20 64.25 -33.858 21.247
 2 24 64.25 -33.896 20 64.25 -33.858 18.753

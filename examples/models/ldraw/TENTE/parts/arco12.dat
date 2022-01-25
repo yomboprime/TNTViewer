@@ -1,8 +1,7 @@
 0 Arco 12 puntos    :X
 0 Name: arco12.dat
 0 Author: rosaspage
-0 ROTATION CENTER 0 0 0 1 "Custom" 
-0 ROTATION CONFIG 0 0
+0 !LDRAW_ORG Unofficial_Part
 0 BFC CERTIFY CCW
 3 16 188.84 -95 -8.84 186.25 -90 -10.83 188.84 -90 -8.84
 3 16 186.25 -90 -10.83 188.84 -95 -8.84 186.25 -95 -10.83

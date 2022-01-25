@@ -1,6 +1,7 @@
 0 Ladrillo liso inclinado 2 puntos    :X
 0 Name: ladrlin2.dat
 0 Author: jasolo & rosaspage
+0 !LDRAW_ORG Unofficial_Part
 0 BFC CERTIFY CCW
 4 16 -12.5 -27.5 -12.5 -12.5 -27.5 12.5 42.5 -55 12.5 42.5 -55 -12.5
 4 16 45 -60 15 45 -60 -15 45 0 -15 45 0 15

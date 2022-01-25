@@ -1,8 +1,7 @@
 0 Faros2 Fondo2    |R:R
 0 Name: faros213.dat
 0 Author: betatron & jasolo
-0 ROTATION CENTER 0 0 0 1 "Custom" 
-0 ROTATION CONFIG 0 0
+0 !LDRAW_ORG Unofficial_Part
 0 BFC CERTIFY CCW
 4 16 -35 17.889 -17.332 -34.67 18.522 -17.22 -34.67 5.478 -19.53 -35 6.111 -19.418
 4 16 -34.67 18.522 -17.22 -34.163 18.925 -17.149 -34.163 5.075 -19.601 -34.67 5.478 -19.53

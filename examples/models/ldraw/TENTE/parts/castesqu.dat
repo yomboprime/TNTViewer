@@ -1,8 +1,7 @@
 0 Castillo esquina   |M:M
 0 Name: castesqu.dat
 0 Author: betatron & jasolo
-0 ROTATION CENTER 0 0 0 1 "Custom" 
-0 ROTATION CONFIG 0 0
+0 !LDRAW_ORG Unofficial_Part
 0 BFC CERTIFY CCW
 2 24 0 -64 20 0 -64 21.88
 2 24 0 -64 21.88 0.62 -64 22.5

@@ -1,6 +1,7 @@
 0 Mástil fino 135 mm       |M:M
 0 Name: mastf135.dat
 0 Author: jasolo
+0 !LDRAW_ORG Unofficial_Part
 0 BFC CERTIFY CCW
 4 16 1.768 0 1.768 2.079 0 1.389 2.079 -337.5 1.389 1.768 -337.5 1.768
 4 16 2.079 0 1.389 2.31 0 0.957 2.31 -337.5 0.957 2.079 -337.5 1.389

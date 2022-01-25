@@ -1,6 +1,7 @@
 0 Pistola    |M:M
 0 Name: pistola.dat
 0 Author: betatron & jasolo
+0 !LDRAW_ORG Unofficial_Part
 0 BFC CERTIFY CCW
 4 16 17.5 -14 7.5 17.5 -14 12.5 17.5 -9 12.5 17.5 -9 7.5
 3 16 17.5 -9 12.5 17.5 -9 17.5 17.5 0 17.5

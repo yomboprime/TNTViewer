@@ -1,8 +1,7 @@
 0 Mástil (macho)       |M:M
 0 Name: mastilm.dat
 0 Author: perezmol
-0 ROTATION CENTER 0 0 0 1 "Custom" 
-0 ROTATION CONFIG 0 0
+0 !LDRAW_ORG Unofficial_Part
 0 BFC CERTIFY CCW
 2 24 -5.001 -7.508 0.027 -5.001 -7.415 -1.146
 2 24 -5.001 -7.508 0.027 -5.001 -7.415 1.2

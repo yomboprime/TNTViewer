@@ -2208,13 +2208,13 @@
             "title": "Aduana bARRA",
             "metaData": "|C:C"
         },
-        "aduanasp.dat": {
-            "path": "aduanasp.dat",
+        "aduana.dat": {
+            "path": "aduana.dat",
             "title": "Aduana Soporte",
             "metaData": "|C:C"
         },
-        "aduana.dat": {
-            "path": "aduana.dat",
+        "aduanasp.dat": {
+            "path": "aduanasp.dat",
             "title": "Aduana Soporte",
             "metaData": "|C:C"
         },
@@ -2453,6 +2453,11 @@
             "title": "Astronauta Viejo Piernas",
             "metaData": "|S:S"
         },
+        "stealth.dat": {
+            "path": "stealth.dat",
+            "title": "Avion Stealth",
+            "metaData": "|M:M|V:V"
+        },
         "bald2ry.dat": {
             "path": "bald2ry.dat",
             "title": "Ba1dosa 2 rayada I.UNITS",
@@ -2570,7 +2575,7 @@
         },
         "bald2r2.dat": {
             "path": "bald2r2.dat",
-            "title": "Baldosin 2 redondeado",
+            "title": "Baldosin 2 redondeado I.UNITS",
             "metaData": "|D:D"
         },
         "bandera.dat": {
@@ -4883,6 +4888,11 @@
             "title": "Grua Remate",
             "metaData": "|R:R"
         },
+        "gruatamb.dat": {
+            "path": "gruatamb.dat",
+            "title": "Grua Tambor",
+            "metaData": "|R:R"
+        },
         "gruatop1.dat": {
             "path": "gruatop1.dat",
             "title": "Grua Tope 1",
@@ -4893,9 +4903,14 @@
             "title": "Grua Tope 2",
             "metaData": "|R:R"
         },
+        "gruator.dat": {
+            "path": "gruator.dat",
+            "title": "Grua Tornillo",
+            "metaData": "|R:R"
+        },
         "gruatorn.dat": {
             "path": "gruatorn.dat",
-            "title": "Grua Torno",
+            "title": "Grua Tornillo y Tambor",
             "metaData": "|R:R"
         },
         "gruators.dat": {
@@ -4968,13 +4983,13 @@
             "title": "Helicoptero Cola",
             "metaData": "|A:A|V:V"
         },
-        "helcolhu.dat": {
-            "path": "helcolhu.dat",
+        "helirotr.dat": {
+            "path": "helirotr.dat",
             "title": "Helicoptero Cola Hueca",
             "metaData": "|A:A|V:V"
         },
-        "helirotr.dat": {
-            "path": "helirotr.dat",
+        "helcolhu.dat": {
+            "path": "helcolhu.dat",
             "title": "Helicoptero Cola Hueca",
             "metaData": "|A:A|V:V"
         },
@@ -5038,13 +5053,13 @@
             "title": "Helipuerto",
             "metaData": "|M:M"
         },
-        "htit2.dat": {
-            "path": "htit2.dat",
+        "htit1.dat": {
+            "path": "htit1.dat",
             "title": "Hombre Titanium 1",
             "metaData": "|T:T"
         },
-        "htit1.dat": {
-            "path": "htit1.dat",
+        "htit2.dat": {
+            "path": "htit2.dat",
             "title": "Hombre Titanium 1",
             "metaData": "|T:T"
         },
@@ -5293,6 +5308,16 @@
             "title": "Llanta Alfa 2",
             "metaData": "|A:A|F:F|V:V|T:T"
         },
+        "ejeastr3.dat": {
+            "path": "ejeastr3.dat",
+            "title": "Llanta Astro Americana",
+            "metaData": "|S:S"
+        },
+        "llanthas.dat": {
+            "path": "llanthas.dat",
+            "title": "Llanta Hasbro",
+            "metaData": "|R:R"
+        },
         "llantrob.dat": {
             "path": "llantrob.dat",
             "title": "Llanta Roblock",
@@ -5366,6 +5391,11 @@
         "mastbase.dat": {
             "path": "mastbase.dat",
             "title": "Mastil Base",
+            "metaData": "|M:M"
+        },
+        "mastg265.dat": {
+            "path": "mastg265.dat",
+            "title": "Mástil grueso 265 mm",
             "metaData": "|M:M"
         },
         "metrall.dat": {
@@ -5535,6 +5565,11 @@
         },
         "nrutemb2.dat": {
             "path": "nrutemb2.dat",
+            "title": "New Ruta Embellecedor (centrada)",
+            "metaData": "|R:R"
+        },
+        "nrutembl2.dat": {
+            "path": "nrutembl2.dat",
             "title": "New Ruta Embellecedor (centrada)",
             "metaData": "|R:R"
         },
@@ -5782,6 +5817,11 @@
             "path": "picoesq.dat",
             "title": "Pico Esquina I.UNITS",
             "metaData": "|D:D"
+        },
+        "pilaralf.dat": {
+            "path": "pilaralf.dat",
+            "title": "Pilar Alfa",
+            "metaData": "|F:F"
         },
         "pinzastr.dat": {
             "path": "pinzastr.dat",
@@ -6172,6 +6212,11 @@
             "path": "rejilla.dat",
             "title": "Rejilla",
             "metaData": "|R:R|V:V"
+        },
+        "remate_1.dat": {
+            "path": "remate_1.dat",
+            "title": "Remate 1  I.UNITS",
+            "metaData": "|D:D"
         },
         "remaesq1.dat": {
             "path": "remaesq1.dat",
@@ -6593,6 +6638,11 @@
             "title": "Torre Micro",
             "metaData": "|C"
         },
+        "trapesqu.dat": {
+            "path": "trapesqu.dat",
+            "title": "Trapecio esquina I.UNITS",
+            "metaData": ""
+        },
         "trenb.dat": {
             "path": "trenb.dat",
             "title": "Tren Bloque",
@@ -6697,11 +6747,6 @@
             "path": "tuboguia.dat",
             "title": "Tubo (extremo)",
             "metaData": "|A:A|V:V|S:S|F:F"
-        },
-        "tuboest8.dat": {
-            "path": "tuboest8.dat",
-            "title": "Tubo Custom",
-            "metaData": "|D:D"
         },
         "tb2x1.dat": {
             "path": "tb2x1.dat",
@@ -7084,8 +7129,8 @@
         "acetirue.dat",
         "acetitub.dat",
         "aduanabr.dat",
-        "aduanasp.dat",
         "aduana.dat",
+        "aduanasp.dat",
         "alaastro.dat",
         "titalaiz.dat",
         "alaafgrn.dat",
@@ -7133,6 +7178,7 @@
         "astronav.dat",
         "astcuerv.dat",
         "astpierv.dat",
+        "stealth.dat",
         "bald2ry.dat",
         "bald2x3.dat",
         "bald2x4.dat",
@@ -7619,8 +7665,10 @@
         "minigrua.dat",
         "gruap.dat",
         "gruaremt.dat",
+        "gruatamb.dat",
         "gruatop1.dat",
         "gruatop2.dat",
+        "gruator.dat",
         "gruatorn.dat",
         "gruators.dat",
         "guardabr.dat",
@@ -7636,8 +7684,8 @@
         "helcab.dat",
         "helcabcr.dat",
         "helcol.dat",
-        "helcolhu.dat",
         "helirotr.dat",
+        "helcolhu.dat",
         "helicoc1.dat",
         "helicop2.dat",
         "helicoc2.dat",
@@ -7650,8 +7698,8 @@
         "airsillo.dat",
         "helisprt.dat",
         "heliprto.dat",
-        "htit2.dat",
         "htit1.dat",
+        "htit2.dat",
         "htitbrzd.dat",
         "htitbrzi.dat",
         "htitcab1.dat",
@@ -7701,6 +7749,8 @@
         "laser.dat",
         "alfalln1.dat",
         "alfalln2.dat",
+        "ejeastr3.dat",
+        "llanthas.dat",
         "llantrob.dat",
         "llantrut.dat",
         "llanrutt.dat",
@@ -7716,6 +7766,7 @@
         "macecun2.dat",
         "manguera.dat",
         "mastbase.dat",
+        "mastg265.dat",
         "metrall.dat",
         "misiles.dat",
         "misilesc.dat",
@@ -7750,6 +7801,7 @@
         "nruteje.dat",
         "nrutembl.dat",
         "nrutemb2.dat",
+        "nrutembl2.dat",
         "nrutllnt.dat",
         "nrutneum.dat",
         "placa1c.dat",
@@ -7799,6 +7851,7 @@
         "pico1.dat",
         "alfapico.dat",
         "picoesq.dat",
+        "pilaralf.dat",
         "pinzastr.dat",
         "pinzaesq.dat",
         "piquito.dat",
@@ -7877,6 +7930,7 @@
         "alfaramp.dat",
         "ramplanz.dat",
         "rejilla.dat",
+        "remate_1.dat",
         "remaesq1.dat",
         "remate_2.dat",
         "remaesq2.dat",
@@ -7961,6 +8015,7 @@
         "toberast.dat",
         "tobergal.dat",
         "torremcr.dat",
+        "trapesqu.dat",
         "trenb.dat",
         "trenejh.dat",
         "trenejm.dat",
@@ -7982,7 +8037,6 @@
         "trftriai.dat",
         "tubo.dat",
         "tuboguia.dat",
-        "tuboest8.dat",
         "tb2x1.dat",
         "tbas5421.dat",
         "tbas5422.dat",

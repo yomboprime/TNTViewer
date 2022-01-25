@@ -1,8 +1,7 @@
 0 Cilindro      |B:B
 0 Name: cilindro.dat
 0 Author: betatron & jasolo
-0 ROTATION CENTER 0 0 0 1 "Custom" 
-0 ROTATION CONFIG 0 0
+0 !LDRAW_ORG Unofficial_Part
 0 BFC CERTIFY CCW 
 4 16 2.57 -29 -7.05 0.86 -29 -2.35 0 -29 -2.5 0 -29 -7.5
 4 16 4.82 -29 5.75 1.61 -29 1.92 2.17 -29 1.25 6.5 -29 3.75

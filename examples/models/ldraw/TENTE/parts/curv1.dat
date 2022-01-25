@@ -3,6 +3,7 @@
 0 Author: rosaspage
 0 ROTATION CENTER 0 0 -60 1 "Eje_Almena" 
 0 ROTATION CONFIG 1 1
+0 !LDRAW_ORG Unofficial_Part
 0 BFC CERTIFY CCW
 4 16 -6.23 -35 -10.75 -3.23 -35 -12 -12.48 -35 0 -11.98 -35 -3.25
 4 16 -3.23 -35 -12 0.02 -35 -12.5 -11.98 -35 3.25 -12.48 -35 0

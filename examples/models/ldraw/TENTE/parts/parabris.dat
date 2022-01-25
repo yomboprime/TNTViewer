@@ -1,6 +1,7 @@
 0 Parabrisas       |R:R|V:V ventana
 0 Name: parabris.dat
 0 Author: jasolo
+0 !LDRAW_ORG Unofficial_Part
 1 16 -50 0 50 1 0 0 0 1 0 0 0 1 parabmrc.dat
 1 16 -30 -8 30 -1 0 0 0 1 0 0 0 -1 bispqaba.dat
 1 16 50 -8 30 -1 0 0 0 1 0 0 0 -1 bispqaba.dat

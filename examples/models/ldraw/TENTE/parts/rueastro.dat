@@ -1,8 +1,7 @@
 0 Rueda Astro     |S:S
 0 Name: rueastro.dat
 0 Author: betatron & cpcbegin
-0 ROTATION CENTER 0 0 0 1 "Custom" 
-0 ROTATION CONFIG 0 0
+0 !LDRAW_ORG Unofficial_Part
 1 0 -10 16 20 1 0 0 0 1 0 0 0 1 jacn2x4a.dat
 1 383 -10 8.5 20 1 0 0 0 1 0 0 0 1 eje625.dat
 1 16 31 -7.5 39.5 1 0 0 0 1 0 0 0 1 ejeastr1.dat

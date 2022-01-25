@@ -1,6 +1,7 @@
 0 Cabina Alfa Arriba    |F:F
 0 Name: cabalfar.dat
 0 Author: betatron & jasolo
+0 !LDRAW_ORG Unofficial_Part
 0 BFC CERTIFY CCW 
 4 16 15 -80 -62.5 16.667 -80 -56.667 0 -80 -56.667 0 -80 -62.5
 4 16 0 -77.5 -46.458 19.167 -77.5 -46.458 17.57 -77.5 -52.049 0 -77.5 -52.049

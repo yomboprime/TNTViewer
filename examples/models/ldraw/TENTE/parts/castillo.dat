@@ -1,8 +1,7 @@
 0 Castillo   |M:M
 0 Name: castillo.dat
 0 Author: betatron & jasolo
-0 ROTATION CENTER 0 0 0 1 "Custom" 
-0 ROTATION CONFIG 0 0
+0 !LDRAW_ORG Unofficial_Part
 0 BFC CERTIFY CCW
 2 24 20 -64 0 20 -64 40
 2 24 20 -64 0 21.875 -64 0

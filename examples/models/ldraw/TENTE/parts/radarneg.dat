@@ -1,6 +1,7 @@
 0 Radar negro      |M:M
 0 Name: radarneg.dat
 0 Author: betatron & jasolo
+0 !LDRAW_ORG Unofficial_Part
 0 BFC CERTIFY CCW 
 3 16 -9.85 -8 1.725 -9.85 -8 -1.725 -9.65 -8 -2.3
 3 16 -27.5 -8.15 7.875 6.375 -8 7.7 -6.375 -8 7.7

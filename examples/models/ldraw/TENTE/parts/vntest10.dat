@@ -1,6 +1,7 @@
 0 Etiqueta Ventana Estrecha 10		|C:C
 0 Name: vntest10.dat
 0 Author: jasolo
+0 !LDRAW_ORG Unofficial_Part
 0 BFC CERTIFY CCW
 4 15 0 -1.25 -0.1 0 -22.75 -0.1 -0.75 -21.25 -0.1 -0.75 -2.75 -0.1
 4 15 36.75 -22.75 -0.1 36.75 -1.25 -0.1 37.5 -2.75 -0.1 37.5 -21.25 -0.1

@@ -1,8 +1,7 @@
 0 Cirrevol Grande Logo     |S:S
 0 Name: cirrevos.dat
 0 Author: jasolo & cpcbegin
-0 ROTATION CENTER 0 0 0 1 "Custom" 
-0 ROTATION CONFIG 0 0
+0 !LDRAW_ORG Unofficial_Part
 0 BFC CERTIFY CCW
 3 16 -74.39 -43.8 27.78 -74.31 -43.82 28 -74.4 -43.79 27.76
 3 16 75.81 -37.33 25.58 74.2 -36.15 29.68 75.78 -37.39 25.68

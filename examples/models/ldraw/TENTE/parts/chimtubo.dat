@@ -1,8 +1,7 @@
 0 Chimenea tubo   |M:M
 0 Name: chimtubo.dat
 0 Author: betatron & jasolo
-0 ROTATION CENTER 0 0 0 1 "Custom" 
-0 ROTATION CONFIG 0 0
+0 !LDRAW_ORG Unofficial_Part
 0 BFC CERTIFY CCW 
 2 24 -7.5 -29 0 -7.133 -29 -2.318
 2 24 -7.5 -29 0 -7.133 -29 2.318

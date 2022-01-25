@@ -1,6 +1,7 @@
 0 Antena Inclinada   |M:M
 0 Name: antnincl.dat
 0 Author: jasolo
+0 !LDRAW_ORG Unofficial_Part
 0 BFC CERTIFY CCW
 4 16 1.768 4 -1.768 1.768 0 -1.768 0.957 0 -2.31 0.957 4 -2.31
 4 16 0 0 -2.5 0 4 -2.5 0.957 4 -2.31 0.957 0 -2.31

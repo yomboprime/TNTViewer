@@ -1,6 +1,7 @@
 0 Tráfico Prohibido Aparcar	|R:R
 0 Name: trfcirc1.ldr
 0 Author: jasolo
+0 !LDRAW_ORG Unofficial_Part
 0 ROTATION CENTER 0 0 0 1 "Custom" 
 0 ROTATION CONFIG 0 0
 0 BFC CERTIFY CCW

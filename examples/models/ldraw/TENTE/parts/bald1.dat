@@ -1,6 +1,7 @@
 0 Baldosa 1
 0 Name: bald1.dat
 0 Author: betatron & jasolo
+0 !LDRAW_ORG Unofficial_Part
 0 BFC CERTIFY CCW 
 4 16 0 -8 0 20 -8 0 20 -8 20 0 -8 20
 4 16 20 0 20 0 0 20 0 -8 20 20 -8 20

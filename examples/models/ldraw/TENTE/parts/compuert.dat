@@ -1,6 +1,7 @@
 0 Compuerta    |B:B|E:E|V:V
 0 Name: compuert.dat
 0 Author: betatron & jasolo
+0 !LDRAW_ORG Unofficial_Part
 0 BFC CERTIFY CCW
 2 24 5 -5 35 5 -5 30
 2 24 5 -5 30 5 -5 27.5

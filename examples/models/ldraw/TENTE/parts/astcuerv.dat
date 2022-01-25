@@ -3,6 +3,7 @@
 0 Author: betatron & jasolo
 0 ROTATION CENTER 0 -50 -8.197 0 "Eje" 
 0 ROTATION CONFIG 1 0
+0 !LDRAW_ORG Unofficial_Part
 0 BFC CERTIFY CCW
 0
 2 24 -2.155 -59.425 6.04 -0.127 -59.525 6.062

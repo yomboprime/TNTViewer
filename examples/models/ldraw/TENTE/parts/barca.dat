@@ -1,8 +1,7 @@
 0 Barca   |M:M|V:V
 0 Name: barca.dat
 0 Author: betatron & jasolo
-0 ROTATION CENTER 0 0 0 1 "Custom" 
-0 ROTATION CONFIG 0 0
+0 !LDRAW_ORG Unofficial_Part
 0 BFC CERTIFY CCW
 5 24 12.5 -12.98 9.78 17.5 -3 8.72 12.5 -3 9.76 17.5 -13.38 8.73
 5 24 7.5 -13 -10 12.5 -3 -9.76 7.5 -3 -10 12.5 -12.98 -9.78

@@ -1,6 +1,7 @@
 0 Cadena Corta Circular    |V:V
 0 Name: cadcorci.dat
 0 Author: jasolo
+0 !LDRAW_ORG Unofficial_Part
 0 BFC CERTIFY CCW
 4 16 -14.375 65 0.75 14.375 65 0.75 14.375 65 -4.25 -14.375 65 -4.25
 4 16 14.375 65 0.75 -14.375 65 0.75 -10.625 65 4.5 10.625 65 4.5

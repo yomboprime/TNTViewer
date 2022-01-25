@@ -401,7 +401,7 @@ let htmlPartListContent =
 			<tr>
 				<th>Title</th>
 				<th>View part</th>
-				<th>Model metadata</th>
+				<th>Part metadata</th>
 				<th>File</th>
 			</tr>
 ***PARTS_LIST***

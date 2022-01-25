@@ -1,8 +1,7 @@
 0 Pinza Astro    |S:S
 0 Name: pinzastr.dat
 0 Author: betatron & jasolo
-0 ROTATION CENTER 0 0 0 1 "Custom" 
-0 ROTATION CONFIG 0 0
+0 !LDRAW_ORG Unofficial_Part
 0 BFC CERTIFY CCW
 2 24 52.5 -53.5 0 52.5 -53.5 40
 2 24 52.5 -53.5 40 57.5 -53.5 40

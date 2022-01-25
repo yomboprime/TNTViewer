@@ -1,6 +1,7 @@
 0 Jacena 2x2 Elephant
 0 Name: jacn2x2e.dat
 0 Author: jasolo
+0 !LDRAW_ORG Unofficial_Part
 0 BFC CERTIFY CCW
 4 16 35 -43 35 -35 -43 35 -35 0 35 35 0 35
 4 16 -35 -43 -35 35 -43 -35 35 0 -35 -35 0 -35

@@ -1,8 +1,7 @@
 0 RAM (base)        |D:D
 0 Name: ram-base.dat
 0 Author: jasolo
-0 ROTATION CENTER 0 0 0 1 "Custom" 
-0 ROTATION CONFIG 0 0
+0 !LDRAW_ORG Unofficial_Part
 0 BFC CERTIFY CCW
 3 16 -9.808 -8.002 1.951 -10 -8.002 0 -9.808 -8.002 -1.951
 3 16 -4.516 -8.002 -4.52 -5.556 -8.002 -8.315 -3.827 -8.002 -9.239

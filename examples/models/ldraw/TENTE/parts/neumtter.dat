@@ -1,8 +1,7 @@
 0 Neumático Todo Terreno    |R:R
 0 Name: neumtter.dat
 0 Author: betatron & jasolo
-0 ROTATION CENTER 0 0 0 1 "Custom" 
-0 ROTATION CONFIG 0 0
+0 !LDRAW_ORG Unofficial_Part
 0 BFC CERTIFY CCW
 2 24 -11.692 -34.907 -18.933 -11.25 -35 -20
 2 24 -11.692 -34.907 -21.067 -11.25 -35 -20

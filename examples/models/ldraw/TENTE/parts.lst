@@ -1,8 +1,8 @@
 acetilen.dat   Acetileno    |F:F                                               
 acetirue.dat   Acetileno Ruedas    |F:F                                        
 acetitub.dat   Acetileno Tubos    |F:F                                         
-aduanasp.dat   Aduana Soporte     |C:C                                         
 aduana.dat     Aduana Soporte     |C:C                                         
+aduanasp.dat   Aduana Soporte     |C:C                                         
 aduanabr.dat   Aduana bARRA     |C:C                                           
 alaastro.dat   Ala Astro   |S:S                                                
 titalaiz.dat   Ala Gaviota Izquierda       |T:T                                
@@ -51,6 +51,7 @@ astpierv.dat   Astronauta Viejo Piernas   |S:S
 astbrazd.dat   Astronauta brazo derecho     |S:S                               
 astbrazi.dat   Astronauta brazo izquierdo     |S:S                             
 asttorso.dat   Astronauta torso     |S:S                                       
+stealth.dat    Avion Stealth   |M:M|V:V                                        
 bald2ry.dat    Ba1dosa 2 rayada I.UNITS                                        
 bald2x3.dat    Ba1dosa 2x3 I.UNITS                                             
 bald2x4.dat    Ba1dosa 2x4 I.UNITS                                             
@@ -74,7 +75,7 @@ baldc4x6.dat   Baldosa cuadros 4x6
 baldc4x8.dat   Baldosa cuadros 4x8                                             
 baldc4in.dat   Baldosa cuadros inclinada                                       
 baldgord.dat   Baldosa gorda                                                   
-bald2r2.dat    Baldosin 2 redondeado     |D:D                                  
+bald2r2.dat    Baldosin 2 redondeado I.UNITS     |D:D                          
 bandera.dat    Bandera   |M:M                                                  
 bandeale.dat   Bandera Alemania   |M:M                                         
 bandeesp.dat   Bandera España   |M:M                                           
@@ -169,8 +170,8 @@ chimenea.dat   Chimenea   |M:M
 chimeneg.dat   Chimenea Guía Giro   |M:M                                       
 chimttnc.dat   Chimenea Titanic   |M:M                                         
 chimbald.dat   Chimenea baldosa  I.UNITS                                       
-chimmach.dat   Chimenea macho-macho I.UNITS                                    
 chimplam.dat   Chimenea p1aca mitad   |D:D                                     
+chimmach.dat   Chimenea macho-macho I.UNITS                                    
 chimplac.dat   Chimenea placa   |M:M                                           
 chimtubo.dat   Chimenea tubo   |M:M                                            
 cilindro.dat   Cilindro      |B:B                                              
@@ -537,9 +538,11 @@ gruahilo.dat   Grua Hilo    |R:R
 minigrua.dat   Grua Micro		|C:C                                                
 gruap.dat      Grua Pluma   |M:M                                               
 gruaremt.dat   Grua Remate    |R:R                                             
+gruatamb.dat   Grua Tambor    |R:R                                             
 gruatop1.dat   Grua Tope 1    |R:R                                             
 gruatop2.dat   Grua Tope 2    |R:R                                             
-gruatorn.dat   Grua Torno    |R:R                                              
+gruator.dat    Grua Tornillo    |R:R                                           
+gruatorn.dat   Grua Tornillo y Tambor    |R:R                                  
 gruators.dat   Grua Torno Soporte    |R:R                                      
 guardabr.dat   Guardabarros      |R:R|V:V                                      
 harpoon.dat    Harpoon       |D:D                                              
@@ -552,8 +555,8 @@ helaspac.dat   Helicoptero Aspa Cola + enganche     |A:A|V:V
 heliaspa.dat   Helicoptero Aspa Grande    |A:A|M:M|V:V                         
 heliaspp.dat   Helicoptero Aspa Pequena    |M:M|V:V                            
 helcol.dat     Helicoptero Cola    |A:A|V:V                                    
-helcolhu.dat   Helicoptero Cola Hueca    |A:A|V:V                              
 helirotr.dat   Helicoptero Cola Hueca    |A:A|V:V                              
+helcolhu.dat   Helicoptero Cola Hueca    |A:A|V:V                              
 helicoc2.dat   Helicoptero Doble cuerpo   |M:M|V:V                             
 helireje.dat   Helicoptero Eje Rueda    |A:A|V:V                               
 helillnt.dat   Helicoptero Llanta Rueda    |A:A|V:V                            
@@ -568,8 +571,8 @@ helcab.dat     Helicoptero cabina |A:A|V:V
 helicoc1.dat   Helicoptero cuerpo   |M:M|V:V                                   
 helicop2.dat   Helicoptero doble   |M:M|V:V                                    
 heliprto.dat   Helipuerto      |M:M                                            
-htit2.dat      Hombre Titanium 1      |T:T                                     
 htit1.dat      Hombre Titanium 1      |T:T                                     
+htit2.dat      Hombre Titanium 1      |T:T                                     
 htitbrzd.dat   Hombre Titanium brazo derecho      |T:T                         
 htitbrzi.dat   Hombre Titanium brazo izquierdo      |T:T                       
 htitcab1.dat   Hombre Titanium cabeza 1      |T:T                              
@@ -619,6 +622,8 @@ landesse.dat   Lancha Desembarco sin etiq    |M:M|V:V
 laser.dat      Laser     |E:E|V:V                                              
 alfalln1.dat   Llanta Alfa 1     |A:A|F:F|V:V|T:T                              
 alfalln2.dat   Llanta Alfa 2     |A:A|F:F|V:V|T:T                              
+ejeastr3.dat   Llanta Astro Americana   |S:S                                   
+llanthas.dat   Llanta Hasbro    |R:R                                           
 llantrob.dat   Llanta Roblock    |R:R                                          
 llantrut.dat   Llanta Ruta    |R:R                                             
 llanrutt.dat   Llanta Ruta Teton   |R:R                                        
@@ -650,6 +655,7 @@ monoplan.dat   Monoplano   |M:M|V:V
 motor.dat      Motor      |M:M                                                 
 alfamotr.dat   Motor Alfa    |F:F|T:T                                          
 mtrhasbr.dat   Motor Hasbro    |R:R                                            
+mastg265.dat   MÃ¡stil grueso 265 mm       |M:M                                
 mastilh.dat    Mástil (hembra)       |M:M                                      
 mastilm.dat    Mástil (macho)       |M:M                                       
 mastf100.dat   Mástil fino 100 mm       |M:M                                   
@@ -668,6 +674,7 @@ neumtter.dat   Neumático Todo Terreno    |R:R
 nruteje.dat    New Ruta Eje    |R:R                                            
 nrutembl.dat   New Ruta Embellecedor    |R:R                                   
 nrutemb2.dat   New Ruta Embellecedor (centrada)    |R:R                        
+nrutembl2.dat  New Ruta Embellecedor (centrada)    |R:R                        
 nrutllnt.dat   New Ruta Llanta    |R:R                                         
 nrutneum.dat   New Ruta Neumatico    |R:R                                      
 placa1c.dat    P1aca 1 curva   |D:D                                            
@@ -717,6 +724,7 @@ pico.dat       Pico   |M:M|B:B
 pico1.dat      Pico 1  |D:D                                                    
 alfapico.dat   Pico Alfa    |F:F                                               
 picoesq.dat    Pico Esquina I.UNITS    |D:D                                    
+pilaralf.dat   Pilar Alfa  |F:F                                                
 pinzastr.dat   Pinza Astro    |S:S                                             
 pinzaesq.dat   Pinza Esquina    |S:S                                           
 piquito.dat    Piquito   |M:M                                                  
@@ -795,6 +803,7 @@ rampa.dat      Rampa       |C:C
 alfaramp.dat   Rampa Alfa   |F:F                                               
 ramplanz.dat   Rampa Lanzamiento    |S                                         
 rejilla.dat    Rejilla      |R:R|V:V                                           
+remate_1.dat   Remate 1  I.UNITS      |D:D                                     
 remaesq1.dat   Remate 1 esquina          |D:D                                  
 remate_2.dat   Remate 2   |M:M                                                 
 remaesq2.dat   Remate 2x2 esquina          |D:D                                
@@ -878,6 +887,7 @@ tetonesp.dat   Teton especial 1x1 I.UNITS
 toberast.dat   Tobera Astro   |S:S                                             
 tobergal.dat   Tobera Galaxy       |F:F|T:T                                    
 torremcr.dat   Torre Micro     |C                                              
+trapesqu.dat   Trapecio esquina I.UNITS                                        
 trenb.dat      Tren Bloque		|D:D                                               
 trenejh.dat    Tren Eje Hembra	|D:D                                            
 trenejm.dat    Tren Eje Macho	|D:D                                             
@@ -899,7 +909,6 @@ trftrian.dat   Tráfico Triángulo Base	|R:R
 trftriai.dat   Tráfico Triángulo Inflamable		|R:R                              
 tubo.dat       Tubo      |B:B                                                  
 tuboguia.dat   Tubo (extremo)      |A:A|V:V|S:S|F:F                            
-tuboest8.dat   Tubo Custom      |D:D                                           
 tb2x1.dat      Tubo Elastico 2x1    |D:D|L:L                                   
 tbas5421.dat   Tubo Elastico Astro 0542 Base 1    |S:S                         
 tbas5422.dat   Tubo Elastico Astro 0542 Base 2    |S:S                         

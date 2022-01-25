@@ -1,6 +1,7 @@
 0 Cilindro Arriba 1   |S:S|E:E
 0 Name: cilindar.dat
 0 Author: betatron & jasolo
+0 !LDRAW_ORG Unofficial_Part
 0 BFC CERTIFY CCW
 3 16 -17.5 -8 25 -20 -8 40 -17.5 -8 27.5
 3 16 -17.5 -8 27.5 -20 -8 40 -17.5 -8 40

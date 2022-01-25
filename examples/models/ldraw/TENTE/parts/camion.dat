@@ -1,6 +1,7 @@
 0 Camion tipo 1   |M:M|V:V
 0 Name: camion.dat
 0 Author: betatron & jasolo
+0 !LDRAW_ORG Unofficial_Part
 0 BFC CERTIFY CCW 
 3 16 6 -5.5 0 5.543 -5.5 2.296 7.5 -5.5 12.5
 4 16 -1.531 -8 3.696 -2.828 -8 2.828 -4.243 -8 4.243 -2.296 -8 5.543

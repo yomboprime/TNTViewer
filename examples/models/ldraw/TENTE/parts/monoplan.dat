@@ -1,6 +1,7 @@
 0 Monoplano   |M:M|V:V
 0 Name: monoplan.dat
 0 Author: betatron & jasolo
+0 !LDRAW_ORG Unofficial_Part
 0 BFC CERTIFY CCW
 3 16 -20 -2.967 50.649 -20 -3.924 50.841 -20 -4.734 51.385
 3 16 -20 -4.724 59.916 -20 -3.913 60.459 -20 -2.956 60.648

@@ -1,8 +1,7 @@
 0 Llanta Tanque     |E:E
 0 Name: llantnq.dat
 0 Author: betatron & jasolo
-0 ROTATION CENTER 0 0 0 1 "Custom" 
-0 ROTATION CONFIG 0 0
+0 !LDRAW_ORG Unofficial_Part
 0 BFC CERTIFY CCW
 2 24 -17.5 -35 0 -17.285 -35 -2.738
 2 24 -17.5 -35 0 -17.285 -35 2.738

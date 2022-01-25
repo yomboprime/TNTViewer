@@ -1,9 +1,7 @@
 0 Semicupula Grande con Logo     |S:S
 0 Name: semicugg.dat
 0 Author: betatron & jasolo
-0 Unofficial Model
-0 ROTATION CENTER 0 0 0 1 "Custom" 
-0 ROTATION CONFIG 0 0
+0 !LDRAW_ORG Unofficial_Part
 1 16 10 32 0 0 0 1 0 1 0 -1 0 0 semicupg.dat
 1 1 10.1 32 0 0 0 1 0 1 0 -1 0 0 astgrfgr.dat
 0

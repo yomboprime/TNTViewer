@@ -1,6 +1,7 @@
 0 Antena Enganche Lateral     |R:R|V:V
 0 Name: antenart.dat
 0 Author: jasolo & betatron
+0 !LDRAW_ORG Unofficial_Part
 0 BFC CERTIFY CCW
 3 16 0 -289.967 1.519 0.74 -289.815 1.946 0.55 -289.814 2.174
 3 16 0 -289.967 1.519 -0.55 -289.814 2.174 -0.741 -289.815 1.946

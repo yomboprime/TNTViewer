@@ -1,8 +1,7 @@
 0 Rotor Arriba     |A:A|V:V|R:R
 0 Name: rotorsup.ldr
 0 Author: betatron & jasolo
-0 ROTATION CENTER 0 0 0 1 "Custom" 
-0 ROTATION CONFIG 0 0
+0 !LDRAW_ORG Unofficial_Part
 0 BFC CERTIFY CCW
 3 16 0 -16 0 -22.106 -16 -17.629 -17.629 -16 -22.106
 3 16 0 -16 0 17.629 -16 -22.106 22.106 -16 -17.629

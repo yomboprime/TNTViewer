@@ -1,6 +1,7 @@
 0 Elevador Eje   |C:C
 0 Name: elevad2.dat
 0 Author: jasolo & plinman
+0 !LDRAW_ORG Unofficial_Part
 0 BFC CERTIFY CCW
 4 16 -8.75001 1.875 10 -8.75001 1.875 -10 -37.5 1.875 -9.99999 -37.5 1.875 10
 4 16 -8.75001 1.875 10 -37.5 1.875 10 -37.5 3.125 10 -8.75001 3.125 10

@@ -1,6 +1,7 @@
 0 Chasis 4 puntos con ruedas     |C:C|V:V
 0 Name: chasis4r.dat
 0 Author: jasolo & plinman
+0 !LDRAW_ORG Unofficial_Part
 0 BFC CERTIFY CCW
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 chasis4.dat
 1 16 -30 8 0 1 0 0 0 1 0 0 0 1 chasisr1.dat

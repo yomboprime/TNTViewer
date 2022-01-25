@@ -1,6 +1,7 @@
 0 Placa 15x15		|F:F
 0 Name: placa15.dat
 0 Author: jasolo
+0 !LDRAW_ORG Unofficial_Part
 0 BFC CERTIFY CCW
 4 16 -147.5 -12.5 -147 -147.5 -12.5 -133 -147.5 -8 -133 -147.5 -8 -147
 4 16 -132.5 -12.5 -133 -132.5 -12.5 -147 -132.5 -8 -147 -132.5 -8 -133

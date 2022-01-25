@@ -1,8 +1,7 @@
 0 Tejado remate      |B:B
 0 Name: tejadorm.dat
 0 Author: betatron & jasolo
-0 ROTATION CENTER 0 0 0 1 "Custom" 
-0 ROTATION CONFIG 0 0
+0 !LDRAW_ORG Unofficial_Part
 0 BFC CERTIFY CCW
 2 24 0 -16 -20 0 -15.115 -15.833
 2 24 0 -16 -20 0 -15.115 -24.167

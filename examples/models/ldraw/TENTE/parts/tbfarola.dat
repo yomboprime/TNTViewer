@@ -1,6 +1,7 @@
 0 Tubo Farola     |C:C
 0 Name: tbfarola.dat
 0 Author: jasolo
+0 !LDRAW_ORG Unofficial_Part
 0 BFC CERTIFY CCW 
 4 16 -3.477 -29.36 0 -2.494 -29.36 0 -2.343 -29.36 0.853 -3.267 -29.36 1.189
 4 16 -2.494 -29.36 0 -3.477 -29.36 0 -3.267 -29.36 -1.189 -2.343 -29.36 -0.853

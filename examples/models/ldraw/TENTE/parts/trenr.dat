@@ -1,8 +1,7 @@
 0 Tren Rueda		|D:D
 0 Name: trenr.dat
 0 Author: pollo & jasolo
-0 ROTATION CENTER 0 0 0 1 "Custom" 
-0 ROTATION CONFIG 0 0
+0 !LDRAW_ORG Unofficial_Part
 0 BFC CERTIFY CCW
 4 16 20 -6.804 -2.887 17.5 -6.804 -2.887 17.5 -5.79 -2.21 20 -5.79 -2.21
 4 16 20 -8 -3.125 17.5 -8 -3.125 17.5 -6.804 -2.887 20 -6.804 -2.887

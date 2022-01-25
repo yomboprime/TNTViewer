@@ -1,8 +1,7 @@
 0 Ruta 21 Neumatico    |R:R
 0 Name: nuta21nm.dat
 0 Author: betatron & jasolo
-0 ROTATION CENTER 0 0 0 1 "Custom" 
-0 ROTATION CONFIG 0 0 
+0 !LDRAW_ORG Unofficial_Part
 0 BFC CERTIFY CCW
 2 24 -12 -30 -20 -12 -29.658 -16.093
 2 24 -12 -30 -20 -12 -29.658 -23.907

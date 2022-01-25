@@ -1,8 +1,7 @@
 0 Cilindro 4 puntos  |F:F
 0 Name: cilind4p.dat
 0 Author: jasolo
-0 ROTATION CENTER 0 0 0 1 "Custom" 
-0 ROTATION CONFIG 0 0
+0 !LDRAW_ORG Unofficial_Part
 0 BFC CERTIFY CCW
 2 24 7.13 -93 -6.93 10 -93 -7.5
 2 24 -10 -93 -7.5 -7.13 -93 -6.93

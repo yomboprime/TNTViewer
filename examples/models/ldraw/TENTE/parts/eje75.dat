@@ -1,6 +1,7 @@
 0 Eje 75mm Cosmic    |V:V|S:S
 0 Name: eje75.dat
 0 Author: jasolo
+0 !LDRAW_ORG Unofficial_Part
 0 BFC CERTIFY CCW 
 4 16 93.75 -2.5 0 -93.75 -2.5 0 -93.75 -2.31 -0.957 93.75 -2.31 -0.957
 4 16 -93.75 -2.5 0 93.75 -2.5 0 93.75 -2.31 0.957 -93.75 -2.31 0.957

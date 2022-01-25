@@ -1,8 +1,7 @@
 0 Helicoptero Llanta Rueda    |A:A|V:V
 0 Name: helillnt.dat
 0 Author: jasolo
-0 ROTATION CENTER 0 0 0 1 "Custom" 
-0 ROTATION CONFIG 0 0
+0 !LDRAW_ORG Unofficial_Part
 0 BFC CERTIFY CCW
 3 16 15.5 -8.232 1.768 15.5 -10 0 15.5 -7.921 1.389
 3 16 15.5 -7.921 1.389 15.5 -10 0 15.5 -7.69 0.957

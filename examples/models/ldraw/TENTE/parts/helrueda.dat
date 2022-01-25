@@ -1,6 +1,7 @@
 0 Helicoptero Rueda    |A:A|V:V
 0 Name: helrueda.dat
 0 Author: betatron
+0 !LDRAW_ORG Unofficial_Part
 1 4 8.5 35 20 1 0 0 0 1 0 0 0 1 helillnt.dat
 1 4 -8.5 35 20 -1 0 0 0 1 0 0 0 -1 helillnt.dat
 1 256 -4 0 0 -1 0 0 0 1 0 0 0 -1 helineum.dat

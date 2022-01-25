@@ -1,8 +1,7 @@
 0 Harrier AV-8B  |D:D
 0 Name: harrier.dat
 0 Author: jasolo
-0 ROTATION CENTER 0 0 0 1 "Custom" 
-0 ROTATION CONFIG 0 0
+0 !LDRAW_ORG Unofficial_Part
 0 BFC CERTIFY CCW
 2 24 -1.25 -38.34 49.1 -1.25 -38.28 47.9
 2 24 1.25 -38.34 49.1 1.25 -38.28 47.9

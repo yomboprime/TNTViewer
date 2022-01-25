@@ -1,8 +1,7 @@
 0 Tejado remate liso      |B:B
 0 Name: tejadorl.dat
 0 Author: jasolo
-0 ROTATION CENTER 0 0 0 1 "Custom"
-0 ROTATION CONFIG 0 0
+0 !LDRAW_ORG Unofficial_Part
 0 BFC CERTIFY CCW
 3 16 0 -12.448 -9.167 0 -11.917 -6.667 0 -10.667 -6.667
 3 16 40 -12.448 -9.167 40 -10.667 -6.667 40 -11.917 -6.667

@@ -1,6 +1,7 @@
 0 Eje Micro     |D:D
 0 Name: ejemicro.dat
 0 Author: jasolo & plinman
+0 !LDRAW_ORG Unofficial_Part
 0 BFC CERTIFY CCW
 4 383 -0.693 0.287 18.75 -0.75 0 18.75 -1.875 0 18.75 -1.732 0.718 18.75
 4 383 -0.287 -0.693 18.75 0 -0.75 18.75 0 -1.875 18.75 -0.718 -1.732 18.75

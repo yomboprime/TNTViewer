@@ -1,6 +1,7 @@
 0 Placa popa 8   |D:D
 0 Name: popa8p.dat
 0 Author: jasolo
+0 !LDRAW_ORG Unofficial_Part
 0 BFC CERTIFY CCW
 3 16 0 0 0 77.5 0 -2.5 0 0 -2.5
 3 16 -77.5 0 -2.5 0 0 0 0 0 -2.5

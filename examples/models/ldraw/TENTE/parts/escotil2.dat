@@ -1,8 +1,7 @@
 0 Escotilla Abierta   |E:E|V:V
 0 Name: escotil2.dat
 0 Author: jasolo
-0 ROTATION CENTER 0 0 0 1 "Custom" 
-0 ROTATION CONFIG 0 0
+0 !LDRAW_ORG Unofficial_Part
 1 16 -8 -8 0 0 -1 0 0 0 1 -1 0 0 escotilp.dat
 1 16 0 -8 0 0 0 -1 0 1 0 1 0 0 bispqaba.dat
 0
