@@ -101,21 +101,21 @@
         "oficiales/Aire_0501_servicio_autopista.ldr": {
             "path": "oficiales/Aire_0501_servicio_autopista.ldr",
             "id": "269",
-            "title": "HELICÓPTERO SERVICIO AUTOPISTA",
+            "title": "HELICÃPTERO SERVICIO AUTOPISTA",
             "seriesNumber": "Aire",
             "refNumber": "0501"
         },
         "oficiales/Aire_0502_HelicopteroBrigadaForestal.ldr": {
             "path": "oficiales/Aire_0502_HelicopteroBrigadaForestal.ldr",
             "id": "270",
-            "title": "HELICÓPTERO BRIGADA FORESTAL",
+            "title": "HELICÃPTERO BRIGADA FORESTAL",
             "seriesNumber": "Aire",
             "refNumber": "0502"
         },
         "oficiales/Aire_0506_HelicopteroFumigador.ldr": {
             "path": "oficiales/Aire_0506_HelicopteroFumigador.ldr",
             "id": "274",
-            "title": "HELICÓPTERO FUMIGADOR",
+            "title": "HELICÃPTERO FUMIGADOR",
             "seriesNumber": "Aire",
             "refNumber": "0506"
         },
@@ -129,126 +129,126 @@
         "oficiales/Astro_0552_Astro_Sencillo.ldr": {
             "path": "oficiales/Astro_0552_Astro_Sencillo.ldr",
             "id": "197",
-            "title": "LOS VEHÍCULOS DE LAS GALAXIAS",
+            "title": "LOS VEHÃCULOS DE LAS GALAXIAS",
             "seriesNumber": "Astro",
             "refNumber": "0552"
         },
         "oficiales/Astro_0552_aerodeslizadorespacial.ldr": {
             "path": "oficiales/Astro_0552_aerodeslizadorespacial.ldr",
             "id": "197",
-            "title": "LOS VEHÍCULOS DE LAS GALAXIAS",
+            "title": "LOS VEHÃCULOS DE LAS GALAXIAS",
             "seriesNumber": "Astro",
             "refNumber": "0552"
         },
         "oficiales/Astro_0552_basealertagalactica.ldr": {
             "path": "oficiales/Astro_0552_basealertagalactica.ldr",
             "id": "197",
-            "title": "LOS VEHÍCULOS DE LAS GALAXIAS",
+            "title": "LOS VEHÃCULOS DE LAS GALAXIAS",
             "seriesNumber": "Astro",
             "refNumber": "0552"
         },
         "oficiales/Astro_0552_busespacial-tractor.ldr": {
             "path": "oficiales/Astro_0552_busespacial-tractor.ldr",
             "id": "197",
-            "title": "LOS VEHÍCULOS DE LAS GALAXIAS",
+            "title": "LOS VEHÃCULOS DE LAS GALAXIAS",
             "seriesNumber": "Astro",
             "refNumber": "0552"
         },
         "oficiales/Astro_0552_busespacial.ldr": {
             "path": "oficiales/Astro_0552_busespacial.ldr",
             "id": "197",
-            "title": "LOS VEHÍCULOS DE LAS GALAXIAS",
+            "title": "LOS VEHÃCULOS DE LAS GALAXIAS",
             "seriesNumber": "Astro",
             "refNumber": "0552"
         },
         "oficiales/Astro_0552_estacionuranio.ldr": {
             "path": "oficiales/Astro_0552_estacionuranio.ldr",
             "id": "197",
-            "title": "LOS VEHÍCULOS DE LAS GALAXIAS",
+            "title": "LOS VEHÃCULOS DE LAS GALAXIAS",
             "seriesNumber": "Astro",
             "refNumber": "0552"
         },
         "oficiales/Astro_0552_exploradordetector.ldr": {
             "path": "oficiales/Astro_0552_exploradordetector.ldr",
             "id": "197",
-            "title": "LOS VEHÍCULOS DE LAS GALAXIAS",
+            "title": "LOS VEHÃCULOS DE LAS GALAXIAS",
             "seriesNumber": "Astro",
             "refNumber": "0552"
         },
         "oficiales/Astro_0552_laboratoriomovil.ldr": {
             "path": "oficiales/Astro_0552_laboratoriomovil.ldr",
             "id": "197",
-            "title": "LOS VEHÍCULOS DE LAS GALAXIAS",
+            "title": "LOS VEHÃCULOS DE LAS GALAXIAS",
             "seriesNumber": "Astro",
             "refNumber": "0552"
         },
         "oficiales/Astro_0552_nave_interceptora.ldr": {
             "path": "oficiales/Astro_0552_nave_interceptora.ldr",
             "id": "197",
-            "title": "LOS VEHÍCULOS DE LAS GALAXIAS",
+            "title": "LOS VEHÃCULOS DE LAS GALAXIAS",
             "seriesNumber": "Astro",
             "refNumber": "0552"
         },
         "oficiales/Astro_0552_patrulla91.ldr": {
             "path": "oficiales/Astro_0552_patrulla91.ldr",
             "id": "197",
-            "title": "LOS VEHÍCULOS DE LAS GALAXIAS",
+            "title": "LOS VEHÃCULOS DE LAS GALAXIAS",
             "seriesNumber": "Astro",
             "refNumber": "0552"
         },
         "oficiales/Astro_0552_plantatransformadoradeuranio.ldr": {
             "path": "oficiales/Astro_0552_plantatransformadoradeuranio.ldr",
             "id": "197",
-            "title": "LOS VEHÍCULOS DE LAS GALAXIAS",
+            "title": "LOS VEHÃCULOS DE LAS GALAXIAS",
             "seriesNumber": "Astro",
             "refNumber": "0552"
         },
         "oficiales/Astro_0552_tractormantenimiento.ldr": {
             "path": "oficiales/Astro_0552_tractormantenimiento.ldr",
             "id": "197",
-            "title": "LOS VEHÍCULOS DE LAS GALAXIAS",
+            "title": "LOS VEHÃCULOS DE LAS GALAXIAS",
             "seriesNumber": "Astro",
             "refNumber": "0552"
         },
         "oficiales/Astro_0552_transportefluidos.ldr": {
             "path": "oficiales/Astro_0552_transportefluidos.ldr",
             "id": "197",
-            "title": "LOS VEHÍCULOS DE LAS GALAXIAS",
+            "title": "LOS VEHÃCULOS DE LAS GALAXIAS",
             "seriesNumber": "Astro",
             "refNumber": "0552"
         },
         "oficiales/Astro_0552_transportematerialradioactivo.ldr": {
             "path": "oficiales/Astro_0552_transportematerialradioactivo.ldr",
             "id": "197",
-            "title": "LOS VEHÍCULOS DE LAS GALAXIAS",
+            "title": "LOS VEHÃCULOS DE LAS GALAXIAS",
             "seriesNumber": "Astro",
             "refNumber": "0552"
         },
         "oficiales/Astro_0552_transporteuranio.ldr": {
             "path": "oficiales/Astro_0552_transporteuranio.ldr",
             "id": "197",
-            "title": "LOS VEHÍCULOS DE LAS GALAXIAS",
+            "title": "LOS VEHÃCULOS DE LAS GALAXIAS",
             "seriesNumber": "Astro",
             "refNumber": "0552"
         },
         "oficiales/Astro_0552_vehiculoarticulado.ldr": {
             "path": "oficiales/Astro_0552_vehiculoarticulado.ldr",
             "id": "197",
-            "title": "LOS VEHÍCULOS DE LAS GALAXIAS",
+            "title": "LOS VEHÃCULOS DE LAS GALAXIAS",
             "seriesNumber": "Astro",
             "refNumber": "0552"
         },
         "oficiales/Astro_0552_vehiculodedefensa.ldr": {
             "path": "oficiales/Astro_0552_vehiculodedefensa.ldr",
             "id": "197",
-            "title": "LOS VEHÍCULOS DE LAS GALAXIAS",
+            "title": "LOS VEHÃCULOS DE LAS GALAXIAS",
             "seriesNumber": "Astro",
             "refNumber": "0552"
         },
         "oficiales/Astro_0552_vehiculoenlace.ldr": {
             "path": "oficiales/Astro_0552_vehiculoenlace.ldr",
             "id": "197",
-            "title": "LOS VEHÍCULOS DE LAS GALAXIAS",
+            "title": "LOS VEHÃCULOS DE LAS GALAXIAS",
             "seriesNumber": "Astro",
             "refNumber": "0552"
         },
@@ -269,7 +269,7 @@
         "oficiales/Astro_0651_centromovilcontrol.ldr": {
             "path": "oficiales/Astro_0651_centromovilcontrol.ldr",
             "id": "200",
-            "title": "CENTRO MÓVIL DE CONTROL",
+            "title": "CENTRO MÃVIL DE CONTROL",
             "seriesNumber": "Astro",
             "refNumber": "0651"
         },
@@ -283,7 +283,7 @@
         "oficiales/Astro_0653_astromovil.ldr": {
             "path": "oficiales/Astro_0653_astromovil.ldr",
             "id": "202",
-            "title": "ASTROMÓVIL",
+            "title": "ASTROMÃVIL",
             "seriesNumber": "Astro",
             "refNumber": "0653"
         },
@@ -297,7 +297,7 @@
         "oficiales/Astro_0655_torrecontroltraficoorbital.ldr": {
             "path": "oficiales/Astro_0655_torrecontroltraficoorbital.ldr",
             "id": "204",
-            "title": "TORRE CONTROL TRÁFICO ORBITAL",
+            "title": "TORRE CONTROL TRÃFICO ORBITAL",
             "seriesNumber": "Astro",
             "refNumber": "0655"
         },
@@ -325,7 +325,7 @@
         "oficiales/Astro_0720_proyectorgalacticomovil.ldr": {
             "path": "oficiales/Astro_0720_proyectorgalacticomovil.ldr",
             "id": "211",
-            "title": "PROYECTOR GALÁCTICO MÓVIL",
+            "title": "PROYECTOR GALÃCTICO MÃVIL",
             "seriesNumber": "Astro",
             "refNumber": "0720"
         },
@@ -752,7 +752,7 @@
         "oficiales/Mar_0710_vaportransatlantico.ldr": {
             "path": "oficiales/Mar_0710_vaportransatlantico.ldr",
             "id": "133",
-            "title": "TRANSATLÁNTICO EL GRECO",
+            "title": "TRANSATLÃNTICO EL GRECO",
             "seriesNumber": "Mar",
             "refNumber": "0710"
         },
@@ -1053,35 +1053,35 @@
         "oficiales/Ruta_0670_camionplataforma.ldr": {
             "path": "oficiales/Ruta_0670_camionplataforma.ldr",
             "id": "26",
-            "title": "CAMIÓN PLATAFORMA",
+            "title": "CAMIÃN PLATAFORMA",
             "seriesNumber": "Ruta",
             "refNumber": "0670"
         },
         "oficiales/Ruta_0671_camionfurgon.ldr": {
             "path": "oficiales/Ruta_0671_camionfurgon.ldr",
             "id": "27",
-            "title": "CAMIÓN FURGÓN ",
+            "title": "CAMIÃN FURGÃN ",
             "seriesNumber": "Ruta",
             "refNumber": "0671"
         },
         "oficiales/Ruta_0672_camionvolqueterutaclasica.ldr": {
             "path": "oficiales/Ruta_0672_camionvolqueterutaclasica.ldr",
             "id": "28",
-            "title": "CAMIÓN VOLQUETE",
+            "title": "CAMIÃN VOLQUETE",
             "seriesNumber": "Ruta",
             "refNumber": "0672"
         },
         "oficiales/Ruta_0673_camionreparto.ldr": {
             "path": "oficiales/Ruta_0673_camionreparto.ldr",
             "id": "29",
-            "title": "CAMIÓN DE REPARTO",
+            "title": "CAMIÃN DE REPARTO",
             "seriesNumber": "Ruta",
             "refNumber": "0673"
         },
         "oficiales/Ruta_0674_autobusurbano.ldr": {
             "path": "oficiales/Ruta_0674_autobusurbano.ldr",
             "id": "30",
-            "title": "AUTOBÚS URBANO",
+            "title": "AUTOBÃS URBANO",
             "seriesNumber": "Ruta",
             "refNumber": "0674"
         },
@@ -1109,21 +1109,21 @@
         "oficiales/Ruta_0680_trailerplataforma.ldr": {
             "path": "oficiales/Ruta_0680_trailerplataforma.ldr",
             "id": "34",
-            "title": "TRÁILER PLATAFORMA",
+            "title": "TRÃILER PLATAFORMA",
             "seriesNumber": "Ruta",
             "refNumber": "0680"
         },
         "oficiales/Ruta_0681_trailercisternaaeropuerto.ldr": {
             "path": "oficiales/Ruta_0681_trailercisternaaeropuerto.ldr",
             "id": "35",
-            "title": "TRÁILER CISTERNA AEROPUERTO",
+            "title": "TRÃILER CISTERNA AEROPUERTO",
             "seriesNumber": "Ruta",
             "refNumber": "0681"
         },
         "oficiales/Ruta_0682_trailertransportesespeciales.ldr": {
             "path": "oficiales/Ruta_0682_trailertransportesespeciales.ldr",
             "id": "36",
-            "title": "TRÁILER TRANSPORTES ESPECIALES",
+            "title": "TRÃILER TRANSPORTES ESPECIALES",
             "seriesNumber": "Ruta",
             "refNumber": "0682"
         },
@@ -1137,70 +1137,70 @@
         "oficiales/Ruta_0685_trailertransporteminerales.ldr": {
             "path": "oficiales/Ruta_0685_trailertransporteminerales.ldr",
             "id": "39",
-            "title": "TRÁILER TRANSPORTE MINERALES",
+            "title": "TRÃILER TRANSPORTE MINERALES",
             "seriesNumber": "Ruta",
             "refNumber": "0685"
         },
         "oficiales/Ruta_0686_norfrio.ldr": {
             "path": "oficiales/Ruta_0686_norfrio.ldr",
             "id": "40",
-            "title": "TRÁILER FRIGORÍFICO",
+            "title": "TRÃILER FRIGORÃFICO",
             "seriesNumber": "Ruta",
             "refNumber": "0686"
         },
         "oficiales/Ruta_0690_camionbomberos.ldr": {
             "path": "oficiales/Ruta_0690_camionbomberos.ldr",
             "id": "42",
-            "title": "CUARTEL Y CAMIÓN BOMBEROS",
+            "title": "CUARTEL Y CAMIÃN BOMBEROS",
             "seriesNumber": "Ruta",
             "refNumber": "0690"
         },
         "oficiales/Ruta_0690_cuartelbomberos.ldr": {
             "path": "oficiales/Ruta_0690_cuartelbomberos.ldr",
             "id": "42",
-            "title": "CUARTEL Y CAMIÓN BOMBEROS",
+            "title": "CUARTEL Y CAMIÃN BOMBEROS",
             "seriesNumber": "Ruta",
             "refNumber": "0690"
         },
         "oficiales/Ruta_0691_estacionengrase.ldr": {
             "path": "oficiales/Ruta_0691_estacionengrase.ldr",
             "id": "43",
-            "title": "ESTACIÓN DE ENGRASE Y CAMIÓN GRÚA",
+            "title": "ESTACIÃN DE ENGRASE Y CAMIÃN GRÃA",
             "seriesNumber": "Ruta",
             "refNumber": "0691"
         },
         "oficiales/Ruta_0691_gruarutaclasica.ldr": {
             "path": "oficiales/Ruta_0691_gruarutaclasica.ldr",
             "id": "43",
-            "title": "ESTACIÓN DE ENGRASE Y CAMIÓN GRÚA",
+            "title": "ESTACIÃN DE ENGRASE Y CAMIÃN GRÃA",
             "seriesNumber": "Ruta",
             "refNumber": "0691"
         },
         "oficiales/Ruta_0692_camioncisterna.ldr": {
             "path": "oficiales/Ruta_0692_camioncisterna.ldr",
             "id": "44",
-            "title": "GASOLINERA Y CAMIÓN CISTERNA",
+            "title": "GASOLINERA Y CAMIÃN CISTERNA",
             "seriesNumber": "Ruta",
             "refNumber": "0692"
         },
         "oficiales/Ruta_0692_gasolinerarutaclasica.ldr": {
             "path": "oficiales/Ruta_0692_gasolinerarutaclasica.ldr",
             "id": "44",
-            "title": "GASOLINERA Y CAMIÓN CISTERNA",
+            "title": "GASOLINERA Y CAMIÃN CISTERNA",
             "seriesNumber": "Ruta",
             "refNumber": "0692"
         },
         "oficiales/Ruta_0693_camioncemento.ldr": {
             "path": "oficiales/Ruta_0693_camioncemento.ldr",
             "id": "45",
-            "title": "SILO Y CAMIÓN CEMENTO",
+            "title": "SILO Y CAMIÃN CEMENTO",
             "seriesNumber": "Ruta",
             "refNumber": "0693"
         },
         "oficiales/Ruta_0693_silo.ldr": {
             "path": "oficiales/Ruta_0693_silo.ldr",
             "id": "45",
-            "title": "SILO Y CAMIÓN CEMENTO",
+            "title": "SILO Y CAMIÃN CEMENTO",
             "seriesNumber": "Ruta",
             "refNumber": "0693"
         },
@@ -2300,7 +2300,7 @@
         },
         "almenacp.dat": {
             "path": "almenacp.dat",
-            "title": "Almena cuadrada peque�a    :X",
+            "title": "Almena cuadrada pequeña    :X",
             "metaData": ""
         },
         "almenarg.dat": {
@@ -2310,7 +2310,7 @@
         },
         "almenarp.dat": {
             "path": "almenarp.dat",
-            "title": "Almena redonda peque�a    :X",
+            "title": "Almena redonda pequeña    :X",
             "metaData": ""
         },
         "amortigu.dat": {
@@ -2590,7 +2590,7 @@
         },
         "bandeesp.dat": {
             "path": "bandeesp.dat",
-            "title": "Bandera Espa�a",
+            "title": "Bandera España",
             "metaData": "|M:M"
         },
         "bandefra.dat": {
@@ -2740,17 +2740,17 @@
         },
         "bispq.dat": {
             "path": "bispq.dat",
-            "title": "Bisagra Peque�a",
+            "title": "Bisagra Pequeña",
             "metaData": "|B:B"
         },
         "bispqaba.dat": {
             "path": "bispqaba.dat",
-            "title": "Bisagra Peque�a Abajo",
+            "title": "Bisagra Pequeña Abajo",
             "metaData": "|B:B|E:E"
         },
         "bispqarr.dat": {
             "path": "bispqarr.dat",
-            "title": "Bisagra Peque�a Arriba",
+            "title": "Bisagra Pequeña Arriba",
             "metaData": "|B:B"
         },
         "alfacris.dat": {
@@ -2875,7 +2875,7 @@
         },
         "cadcanon.dat": {
             "path": "cadcanon.dat",
-            "title": "Cadena Ca�on Autopropulsado",
+            "title": "Cadena Cañon Autopropulsado",
             "metaData": "|E:E"
         },
         "cadcobra.dat": {
@@ -3030,7 +3030,7 @@
         },
         "chimeneg.dat": {
             "path": "chimeneg.dat",
-            "title": "Chimenea Gu�a Giro",
+            "title": "Chimenea Guía Giro",
             "metaData": "|M:M"
         },
         "chimmach.dat": {
@@ -3145,7 +3145,7 @@
         },
         "cirrevop.dat": {
             "path": "cirrevop.dat",
-            "title": "Cirrevol Peque�o",
+            "title": "Cirrevol Pequeño",
             "metaData": "|S:S"
         },
         "ciws.dat": {
@@ -3233,6 +3233,16 @@
             "title": "Cuna1",
             "metaData": "|D:D"
         },
+        "cuna.dat": {
+            "path": "cuna.dat",
+            "title": "Cuña",
+            "metaData": "|B:B"
+        },
+        "cuna2x2e.dat": {
+            "path": "cuna2x2e.dat",
+            "title": "Cuña 2x2 Elephant",
+            "metaData": ""
+        },
         "curv1.dat": {
             "path": "curv1.dat",
             "title": "Curva 1 punto    :X",
@@ -3251,16 +3261,6 @@
         "curv3.dat": {
             "path": "curv3.dat",
             "title": "Curva 3 puntos    :X",
-            "metaData": ""
-        },
-        "cuna.dat": {
-            "path": "cuna.dat",
-            "title": "Cu�a",
-            "metaData": "|B:B"
-        },
-        "cuna2x2e.dat": {
-            "path": "cuna2x2e.dat",
-            "title": "Cu�a 2x2 Elephant",
             "metaData": ""
         },
         "deposito.dat": {
@@ -3330,7 +3330,7 @@
         },
         "ejecadpq.dat": {
             "path": "ejecadpq.dat",
-            "title": "Eje Cadena Peque�o",
+            "title": "Eje Cadena Pequeño",
             "metaData": "|E:E"
         },
         "ejecosm2.dat": {
@@ -3350,7 +3350,7 @@
         },
         "ejedbcpq.dat": {
             "path": "ejedbcpq.dat",
-            "title": "Eje Doble Cadena Peque�o",
+            "title": "Eje Doble Cadena Pequeño",
             "metaData": "|E:E"
         },
         "ejemicro.dat": {
@@ -3470,7 +3470,7 @@
         },
         "plzspain.dat": {
             "path": "plzspain.dat",
-            "title": "EtiqueDark Plaza de Espa�a (metro)",
+            "title": "EtiqueDark Plaza de España (metro)",
             "metaData": ""
         },
         "telefono.dat": {
@@ -3605,7 +3605,7 @@
         },
         "p_bgtria.dat": {
             "path": "p_bgtria.dat",
-            "title": "Etiqueta Blackgun tri�ngulos",
+            "title": "Etiqueta Blackgun triángulos",
             "metaData": ""
         },
         "bomberos.dat": {
@@ -3755,7 +3755,7 @@
         },
         "p_perdis.dat": {
             "path": "p_perdis.dat",
-            "title": "Etiqueta Discos Peque�os",
+            "title": "Etiqueta Discos Pequeños",
             "metaData": ""
         },
         "enye.dat": {
@@ -3905,7 +3905,7 @@
         },
         "p_galtri.dat": {
             "path": "p_galtri.dat",
-            "title": "Etiqueta Galaxie tri�ngulos",
+            "title": "Etiqueta Galaxie triángulos",
             "metaData": ""
         },
         "gasolina.dat": {
@@ -5370,13 +5370,18 @@
         },
         "astgrfpq.dat": {
             "path": "astgrfpq.dat",
-            "title": "Logo Semicupula Peque�a",
+            "title": "Logo Semicupula Pequeña",
             "metaData": "|S:S"
         },
         "logtente.dat": {
             "path": "logtente.dat",
             "title": "Logo Tente",
             "metaData": "|D:D"
+        },
+        "mastg265.dat": {
+            "path": "mastg265.dat",
+            "title": "MÃ¡stil grueso 265 mm",
+            "metaData": "|M:M"
         },
         "macecun2.dat": {
             "path": "macecun2.dat",
@@ -5388,14 +5393,69 @@
             "title": "Manguera Mochila 2",
             "metaData": "|F:F"
         },
+        "mastilh.dat": {
+            "path": "mastilh.dat",
+            "title": "Mástil (hembra)",
+            "metaData": "|M:M"
+        },
+        "mastilm.dat": {
+            "path": "mastilm.dat",
+            "title": "Mástil (macho)",
+            "metaData": "|M:M"
+        },
         "mastbase.dat": {
             "path": "mastbase.dat",
             "title": "Mastil Base",
             "metaData": "|M:M"
         },
-        "mastg265.dat": {
-            "path": "mastg265.dat",
-            "title": "Mástil grueso 265 mm",
+        "mastf100.dat": {
+            "path": "mastf100.dat",
+            "title": "Mástil fino 100 mm",
+            "metaData": "|M:M"
+        },
+        "mastf135.dat": {
+            "path": "mastf135.dat",
+            "title": "Mástil fino 135 mm",
+            "metaData": "|M:M"
+        },
+        "mastf050.dat": {
+            "path": "mastf050.dat",
+            "title": "Mástil fino 50 mm",
+            "metaData": "|M:M"
+        },
+        "mastf060.dat": {
+            "path": "mastf060.dat",
+            "title": "Mástil fino 60 mm",
+            "metaData": "|M:M"
+        },
+        "mastf070.dat": {
+            "path": "mastf070.dat",
+            "title": "Mástil fino 70 mm",
+            "metaData": "|M:M"
+        },
+        "mastf085.dat": {
+            "path": "mastf085.dat",
+            "title": "Mástil fino 85 mm",
+            "metaData": "|M:M"
+        },
+        "mastg135.dat": {
+            "path": "mastg135.dat",
+            "title": "Mástil grueso 135 mm",
+            "metaData": "|M:M"
+        },
+        "mastg150.dat": {
+            "path": "mastg150.dat",
+            "title": "Mástil grueso 150 mm",
+            "metaData": "|M:M"
+        },
+        "mastg170.dat": {
+            "path": "mastg170.dat",
+            "title": "Mástil grueso 170 mm",
+            "metaData": "|M:M"
+        },
+        "mastg190.dat": {
+            "path": "mastg190.dat",
+            "title": "Mástil grueso 190 mm",
             "metaData": "|M:M"
         },
         "metrall.dat": {
@@ -5478,79 +5538,19 @@
             "title": "Motor Hasbro",
             "metaData": "|R:R"
         },
-        "mastilh.dat": {
-            "path": "mastilh.dat",
-            "title": "M�stil (hembra)",
-            "metaData": "|M:M"
-        },
-        "mastilm.dat": {
-            "path": "mastilm.dat",
-            "title": "M�stil (macho)",
-            "metaData": "|M:M"
-        },
-        "mastf100.dat": {
-            "path": "mastf100.dat",
-            "title": "M�stil fino 100 mm",
-            "metaData": "|M:M"
-        },
-        "mastf135.dat": {
-            "path": "mastf135.dat",
-            "title": "M�stil fino 135 mm",
-            "metaData": "|M:M"
-        },
-        "mastf050.dat": {
-            "path": "mastf050.dat",
-            "title": "M�stil fino 50 mm",
-            "metaData": "|M:M"
-        },
-        "mastf060.dat": {
-            "path": "mastf060.dat",
-            "title": "M�stil fino 60 mm",
-            "metaData": "|M:M"
-        },
-        "mastf070.dat": {
-            "path": "mastf070.dat",
-            "title": "M�stil fino 70 mm",
-            "metaData": "|M:M"
-        },
-        "mastf085.dat": {
-            "path": "mastf085.dat",
-            "title": "M�stil fino 85 mm",
-            "metaData": "|M:M"
-        },
-        "mastg135.dat": {
-            "path": "mastg135.dat",
-            "title": "M�stil grueso 135 mm",
-            "metaData": "|M:M"
-        },
-        "mastg150.dat": {
-            "path": "mastg150.dat",
-            "title": "M�stil grueso 150 mm",
-            "metaData": "|M:M"
-        },
-        "mastg170.dat": {
-            "path": "mastg170.dat",
-            "title": "M�stil grueso 170 mm",
-            "metaData": "|M:M"
-        },
-        "mastg190.dat": {
-            "path": "mastg190.dat",
-            "title": "M�stil grueso 190 mm",
-            "metaData": "|M:M"
-        },
         "alfaneum.dat": {
             "path": "alfaneum.dat",
             "title": "Neumatico Alfa",
             "metaData": "|A:A|F:F|V:V|T:T"
         },
+        "neumtter.dat": {
+            "path": "neumtter.dat",
+            "title": "Neumático Todo Terreno",
+            "metaData": "|R:R"
+        },
         "neumaxt.dat": {
             "path": "neumaxt.dat",
             "title": "Neumatico Xtronic",
-            "metaData": "|R:R"
-        },
-        "neumtter.dat": {
-            "path": "neumtter.dat",
-            "title": "Neum�tico Todo Terreno",
             "metaData": "|R:R"
         },
         "nruteje.dat": {
@@ -6155,7 +6155,7 @@
         },
         "radar.dat": {
             "path": "radar.dat",
-            "title": "Radar parab�lica",
+            "title": "Radar parabólica",
             "metaData": "|M:M"
         },
         "radarp.dat": {
@@ -6305,7 +6305,7 @@
         },
         "rueairj2.dat": {
             "path": "rueairj2.dat",
-            "title": "Rueda Aire montada en j�cena 2x2",
+            "title": "Rueda Aire montada en jácena 2x2",
             "metaData": "|S:S|M:M"
         },
         "alfarued.dat": {
@@ -6455,12 +6455,12 @@
         },
         "semicupp.dat": {
             "path": "semicupp.dat",
-            "title": "Semicupula Peque�a",
+            "title": "Semicupula Pequeña",
             "metaData": "|S:S"
         },
         "semicuqg.dat": {
             "path": "semicuqg.dat",
-            "title": "Semicupula Peque�a con Logo",
+            "title": "Semicupula Pequeña con Logo",
             "metaData": "|S:S"
         },
         "alfasens.dat": {
@@ -6580,17 +6580,17 @@
         },
         "tejconal.dat": {
             "path": "tejconal.dat",
-            "title": "Tejado c�nico alto   :X",
+            "title": "Tejado cónico alto   :X",
             "metaData": ""
         },
         "tejconbj.dat": {
             "path": "tejconbj.dat",
-            "title": "Tejado c�nico bajo   :X",
+            "title": "Tejado cónico bajo   :X",
             "metaData": ""
         },
         "tejcongr.dat": {
             "path": "tejcongr.dat",
-            "title": "Tejado c�nico grande   :X",
+            "title": "Tejado cónico grande   :X",
             "metaData": ""
         },
         "tejls2x1.dat": {
@@ -6638,6 +6638,81 @@
             "title": "Torre Micro",
             "metaData": "|C"
         },
+        "trfrect2.dat": {
+            "path": "trfrect2.dat",
+            "title": "Tráfico Autopista Fin",
+            "metaData": "|R:R"
+        },
+        "trfrect1.dat": {
+            "path": "trfrect1.dat",
+            "title": "Tráfico Autopista Inicio",
+            "metaData": "|R:R"
+        },
+        "trfcircb.dat": {
+            "path": "trfcircb.dat",
+            "title": "Tráfico Circular Base",
+            "metaData": "|R:R"
+        },
+        "trfcircp.dat": {
+            "path": "trfcircp.dat",
+            "title": "Tráfico Circular Prohibido Aparcar",
+            "metaData": "|R:R"
+        },
+        "trftria1.dat": {
+            "path": "trftria1.dat",
+            "title": "Tráfico Inflamable",
+            "metaData": "|R:R"
+        },
+        "trfposte.dat": {
+            "path": "trfposte.dat",
+            "title": "Tráfico Poste",
+            "metaData": "|R:R"
+        },
+        "trfcirc1.dat": {
+            "path": "trfcirc1.dat",
+            "title": "Tráfico Prohibido Aparcar",
+            "metaData": "|R:R"
+        },
+        "trfrecta.dat": {
+            "path": "trfrecta.dat",
+            "title": "Tráfico Rectángulo Autopista",
+            "metaData": "|R:R"
+        },
+        "trfrectb.dat": {
+            "path": "trfrectb.dat",
+            "title": "Tráfico Rectángulo Base",
+            "metaData": "|R:R"
+        },
+        "trfrectf.dat": {
+            "path": "trfrectf.dat",
+            "title": "Tráfico Rectángulo Fin Autopista",
+            "metaData": "|R:R"
+        },
+        "trfsemfr.dat": {
+            "path": "trfsemfr.dat",
+            "title": "Tráfico Semáforo",
+            "metaData": "|R:R"
+        },
+        "trfsemfc.dat": {
+            "path": "trfsemfc.dat",
+            "title": "Tráfico Semáforo Caja",
+            "metaData": "|R:R"
+        },
+        "trfsemfl.dat": {
+            "path": "trfsemfl.dat",
+            "title": "Tráfico Semáforo Luces",
+            "metaData": "|R:R"
+        },
+        "trftrian.dat": {
+            "path": "trftrian.dat",
+            "title": "Tráfico Triángulo Base",
+            "metaData": "|R:R"
+        },
+        "trftriai.dat": {
+            "path": "trftriai.dat",
+            "title": "Tráfico Triángulo Inflamable",
+            "metaData": "|R:R"
+        },
         "trapesqu.dat": {
             "path": "trapesqu.dat",
             "title": "Trapecio esquina I.UNITS",
@@ -6662,81 +6737,6 @@
             "path": "trenr.dat",
             "title": "Tren Rueda",
             "metaData": "|D:D"
-        },
-        "trfrect2.dat": {
-            "path": "trfrect2.dat",
-            "title": "Tr�fico Autopista Fin",
-            "metaData": "|R:R"
-        },
-        "trfrect1.dat": {
-            "path": "trfrect1.dat",
-            "title": "Tr�fico Autopista Inicio",
-            "metaData": "|R:R"
-        },
-        "trfcircb.dat": {
-            "path": "trfcircb.dat",
-            "title": "Tr�fico Circular Base",
-            "metaData": "|R:R"
-        },
-        "trfcircp.dat": {
-            "path": "trfcircp.dat",
-            "title": "Tr�fico Circular Prohibido Aparcar",
-            "metaData": "|R:R"
-        },
-        "trftria1.dat": {
-            "path": "trftria1.dat",
-            "title": "Tr�fico Inflamable",
-            "metaData": "|R:R"
-        },
-        "trfposte.dat": {
-            "path": "trfposte.dat",
-            "title": "Tr�fico Poste",
-            "metaData": "|R:R"
-        },
-        "trfcirc1.dat": {
-            "path": "trfcirc1.dat",
-            "title": "Tr�fico Prohibido Aparcar",
-            "metaData": "|R:R"
-        },
-        "trfrecta.dat": {
-            "path": "trfrecta.dat",
-            "title": "Tr�fico Rect�ngulo Autopista",
-            "metaData": "|R:R"
-        },
-        "trfrectb.dat": {
-            "path": "trfrectb.dat",
-            "title": "Tr�fico Rect�ngulo Base",
-            "metaData": "|R:R"
-        },
-        "trfrectf.dat": {
-            "path": "trfrectf.dat",
-            "title": "Tr�fico Rect�ngulo Fin Autopista",
-            "metaData": "|R:R"
-        },
-        "trfsemfr.dat": {
-            "path": "trfsemfr.dat",
-            "title": "Tr�fico Sem�foro",
-            "metaData": "|R:R"
-        },
-        "trfsemfc.dat": {
-            "path": "trfsemfc.dat",
-            "title": "Tr�fico Sem�foro Caja",
-            "metaData": "|R:R"
-        },
-        "trfsemfl.dat": {
-            "path": "trfsemfl.dat",
-            "title": "Tr�fico Sem�foro Luces",
-            "metaData": "|R:R"
-        },
-        "trftrian.dat": {
-            "path": "trftrian.dat",
-            "title": "Tr�fico Tri�ngulo Base",
-            "metaData": "|R:R"
-        },
-        "trftriai.dat": {
-            "path": "trftriai.dat",
-            "title": "Tr�fico Tri�ngulo Inflamable",
-            "metaData": "|R:R"
         },
         "tubo.dat": {
             "path": "tubo.dat",
@@ -7035,7 +7035,7 @@
         },
         "vntcirc2.dat": {
             "path": "vntcirc2.dat",
-            "title": "Ventanas circulares (c�rculos)",
+            "title": "Ventanas circulares (círculos)",
             "metaData": ""
         },
         "venta2ci.dat": {
@@ -7334,12 +7334,12 @@
         "cunaesq.dat",
         "cunaesq2.dat",
         "cuna1.dat",
+        "cuna.dat",
+        "cuna2x2e.dat",
         "curv1.dat",
         "curv1de.dat",
         "curv1iz.dat",
         "curv3.dat",
-        "cuna.dat",
-        "cuna2x2e.dat",
         "deposito.dat",
         "eje15.dat",
         "eje26.dat",
@@ -7763,10 +7763,22 @@
         "astgrfmd.dat",
         "astgrfpq.dat",
         "logtente.dat",
+        "mastg265.dat",
         "macecun2.dat",
         "manguera.dat",
+        "mastilh.dat",
+        "mastilm.dat",
         "mastbase.dat",
-        "mastg265.dat",
+        "mastf100.dat",
+        "mastf135.dat",
+        "mastf050.dat",
+        "mastf060.dat",
+        "mastf070.dat",
+        "mastf085.dat",
+        "mastg135.dat",
+        "mastg150.dat",
+        "mastg170.dat",
+        "mastg190.dat",
         "metrall.dat",
         "misiles.dat",
         "misilesc.dat",
@@ -7783,21 +7795,9 @@
         "motor.dat",
         "alfamotr.dat",
         "mtrhasbr.dat",
-        "mastilh.dat",
-        "mastilm.dat",
-        "mastf100.dat",
-        "mastf135.dat",
-        "mastf050.dat",
-        "mastf060.dat",
-        "mastf070.dat",
-        "mastf085.dat",
-        "mastg135.dat",
-        "mastg150.dat",
-        "mastg170.dat",
-        "mastg190.dat",
         "alfaneum.dat",
-        "neumaxt.dat",
         "neumtter.dat",
+        "neumaxt.dat",
         "nruteje.dat",
         "nrutembl.dat",
         "nrutemb2.dat",
@@ -8015,11 +8015,6 @@
         "toberast.dat",
         "tobergal.dat",
         "torremcr.dat",
-        "trapesqu.dat",
-        "trenb.dat",
-        "trenejh.dat",
-        "trenejm.dat",
-        "trenr.dat",
         "trfrect2.dat",
         "trfrect1.dat",
         "trfcircb.dat",
@@ -8035,6 +8030,11 @@
         "trfsemfl.dat",
         "trftrian.dat",
         "trftriai.dat",
+        "trapesqu.dat",
+        "trenb.dat",
+        "trenejh.dat",
+        "trenejm.dat",
+        "trenr.dat",
         "tubo.dat",
         "tuboguia.dat",
         "tb2x1.dat",

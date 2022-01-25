@@ -73,7 +73,7 @@ console.log( "Reading parts list..." );
 
 const partsListPath = 'parts.lst';
 let partsListLines = readTextFileSync( pathJoin( __dirname, '..', partsListPath ), "latin1" );
-
+console.log( partsListLines );
 if ( partsListLines === null ) {
 
 	console.log();
@@ -486,7 +486,7 @@ function scanDirectory( base, path ) {
 	return true;
 }
 
-function writeJSONFileSync( object, path ) {
+function writeJSONFileSync( object, path, encoding ) {
 
 	const content = getObjectSerializedAsString( object, true );
 
@@ -496,7 +496,7 @@ function writeJSONFileSync( object, path ) {
 
 	}
 
-	return writeTextFileSync( content, path );
+	return writeTextFileSync( content, path, encoding );
 
 }
 
@@ -532,11 +532,11 @@ function writeTextFileSync( content, path ) {
 
 }
 
-function readTextFileSync( path ) {
+function readTextFileSync( path, encoding ) {
 
 	try {
 
-		return fs.readFileSync( path );
+		return fs.readFileSync( path, encoding );
 
 	}
 	catch ( e ) {
