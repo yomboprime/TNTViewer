@@ -320,7 +320,7 @@ let htmlModelListContent =
 		</table>
 		<h2>Other links</h2>
 		<p>See <a href="https://yomboprime.github.io/TNTViewer/examples/tnt_parts.html">parts list</a>.</p>
-		<p><a href="https://github.com/yomboprime/TNTViewer">TNTViewer code at Github</a>'</p>
+		<p><a href="https://github.com/yomboprime/TNTViewer">TNTViewer code at Github</a></p>
 	</body>
 </html>`;
 
@@ -408,7 +408,7 @@ let htmlPartListContent =
 		</table>
 		<h2>Other links</h2>
 		<p>See <a href="https://yomboprime.github.io/TNTViewer/examples/tnt_models.html">models list.</a></p>
-		<p><a href="https://github.com/yomboprime/TNTViewer">TNTViewer code at Github</a>'</p>
+		<p><a href="https://github.com/yomboprime/TNTViewer">TNTViewer code at Github</a></p>
 	</body>
 </html>`;
 

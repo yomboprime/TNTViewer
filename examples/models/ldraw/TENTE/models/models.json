@@ -14,13 +14,6 @@
             "seriesNumber": null,
             "refNumber": "353"
         },
-        "oficiales/400_420_estacionservicio.ldr": {
-            "path": "oficiales/400_420_estacionservicio.ldr",
-            "id": "5",
-            "title": "420",
-            "seriesNumber": "400",
-            "refNumber": "420"
-        },
         "oficiales/401_casa_caja_1.ldr": {
             "path": "oficiales/401_casa_caja_1.ldr",
             "id": "",
@@ -385,20 +378,6 @@
             "seriesNumber": "Astro",
             "refNumber": "0740"
         },
-        "oficiales/Basico_0401_casa_caja_1.ldr": {
-            "path": "oficiales/Basico_0401_casa_caja_1.ldr",
-            "id": "21",
-            "title": "1 / 401",
-            "seriesNumber": "Basico",
-            "refNumber": "0401"
-        },
-        "oficiales/Basico_0403_avion_iniciacion.ldr": {
-            "path": "oficiales/Basico_0403_avion_iniciacion.ldr",
-            "id": "23",
-            "title": "3 / 402",
-            "seriesNumber": "Basico",
-            "refNumber": "0403"
-        },
         "oficiales/Borras_patrullaespacial.ldr": {
             "path": "oficiales/Borras_patrullaespacial.ldr",
             "id": "",
@@ -520,13 +499,6 @@
         },
         "oficiales/Compact_0352_Karpan.ldr": {
             "path": "oficiales/Compact_0352_Karpan.ldr",
-            "id": "377",
-            "title": "KARPAN",
-            "seriesNumber": "Compact",
-            "refNumber": "0352"
-        },
-        "oficiales/Compact_0352_karpan.ldr": {
-            "path": "oficiales/Compact_0352_karpan.ldr",
             "id": "377",
             "title": "KARPAN",
             "seriesNumber": "Compact",
@@ -1943,7 +1915,6 @@
     "modelPathsList": [
         "oficiales/0403_avion_iniciacion.ldr",
         "oficiales/353_karpan.ldr",
-        "oficiales/400_420_estacionservicio.ldr",
         "oficiales/401_casa_caja_1.ldr",
         "oficiales/401_f1tesoro.ldr",
         "oficiales/402_casa402.ldr",
@@ -1996,8 +1967,6 @@
         "oficiales/Astro_0740_saturno6-miniexploradoraereo.ldr",
         "oficiales/Astro_0740_saturno6-miniexploradorterrestre.ldr",
         "oficiales/Astro_0740_saturno6-nodriza.ldr",
-        "oficiales/Basico_0401_casa_caja_1.ldr",
-        "oficiales/Basico_0403_avion_iniciacion.ldr",
         "oficiales/Borras_patrullaespacial.ldr",
         "oficiales/Combi_0333_corfu.ldr",
         "oficiales/Combi_0340_lectorgeologico.ldr",
@@ -2016,7 +1985,6 @@
         "oficiales/Compact_0349_Robby.ldr",
         "oficiales/Compact_0351_Tex.ldr",
         "oficiales/Compact_0352_Karpan.ldr",
-        "oficiales/Compact_0352_karpan.ldr",
         "oficiales/Compact_0353_Condor.ldr",
         "oficiales/Cosmic_0435_scutty.ldr",
         "oficiales/Escorpion_0543_lanza_misil_movil.ldr",
