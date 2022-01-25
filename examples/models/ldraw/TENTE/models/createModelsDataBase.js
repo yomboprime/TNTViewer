@@ -30,7 +30,7 @@ let sourceDataBase = readTextFileSync( pathJoin( __dirname, sourceDataBasePath )
 if ( sourceDataBase === null ) {
 
 	console.log();
-	console.log( "Error reading sorce database file: " + sourceDataBasePath );
+	console.log( "Error reading source database file: " + sourceDataBasePath );
 	System.exit( - 1 );
 }
 
@@ -261,13 +261,12 @@ for ( let i in dataBase.pathsList ) {
 	const model = dataBase.models[ modelPath ];
 
 	if ( modelPath.startsWith( 'oficiales/' ) ) {
-//<td><a href="https://yomboprime.github.io/TNTViewer/examples/tnt.html?modelPath=` + model.path + `">View model</a></td>
 			officialModelsContent +=
 `			<tr>
 				<td>` + model.title + `</td>
 				<td>` + ( model.seriesNumber ? model.seriesNumber : "No series." ) + `</td>
 				<td>` + ( model.refNumber ? model.refNumber : "No ref." ) + `</td>
-				<td><a href="http://127.0.0.1:8091/examples/tnt.html?modelPath=` + model.path + `">View model</a></td>
+				<td><a href="https://yomboprime.github.io/TNTViewer/examples/tnt.html?modelPath=` + model.path + `">View model</a></td>
 				` +
 				(
 					model.id ?
@@ -286,7 +285,7 @@ for ( let i in dataBase.pathsList ) {
 			customModelsContent +=
 `			<tr>
 				<td>` + model.title + `</td>
-				<td><a href="http://127.0.0.1:8091/examples/tnt.html?modelPath=` + model.path + `">View model</a>
+				<td><a href="https://yomboprime.github.io/TNTViewer/examples/tnt.html?modelPath=` + model.path + `">View model</a>
 				<td>` + ( model.path ? model.path : "No file." ) + `</td>
 			</tr>
 `;
