@@ -1239,675 +1239,668 @@
             "seriesNumber": null,
             "refNumber": null
         },
-        "custom/amstrad_cpc464.ldr": {
-            "path": "custom/amstrad_cpc464.ldr",
+        "inventados/amstrad_cpc464.ldr": {
+            "path": "inventados/amstrad_cpc464.ldr",
             "id": "",
-            "title": "custom/amstrad_cpc464",
+            "title": "inventados/amstrad_cpc464",
             "seriesNumber": null,
             "refNumber": null
         },
-        "custom/aparcamiento.ldr": {
-            "path": "custom/aparcamiento.ldr",
+        "inventados/aparcamiento.ldr": {
+            "path": "inventados/aparcamiento.ldr",
             "id": "",
-            "title": "custom/aparcamiento",
+            "title": "inventados/aparcamiento",
             "seriesNumber": null,
             "refNumber": null
         },
-        "custom/aparcamiento_con_vehiculos.ldr": {
-            "path": "custom/aparcamiento_con_vehiculos.ldr",
+        "inventados/aparcamiento_con_vehiculos.ldr": {
+            "path": "inventados/aparcamiento_con_vehiculos.ldr",
             "id": "",
-            "title": "custom/aparcamiento_con_vehiculos",
+            "title": "inventados/aparcamiento_con_vehiculos",
             "seriesNumber": null,
             "refNumber": null
         },
-        "custom/autolavado.ldr": {
-            "path": "custom/autolavado.ldr",
+        "inventados/autolavado.ldr": {
+            "path": "inventados/autolavado.ldr",
             "id": "",
-            "title": "custom/autolavado",
+            "title": "inventados/autolavado",
             "seriesNumber": null,
             "refNumber": null
         },
-        "custom/autolavado_vacio.ldr": {
-            "path": "custom/autolavado_vacio.ldr",
+        "inventados/autolavado_vacio.ldr": {
+            "path": "inventados/autolavado_vacio.ldr",
             "id": "",
-            "title": "custom/autolavado_vacio",
+            "title": "inventados/autolavado_vacio",
             "seriesNumber": null,
             "refNumber": null
         },
-        "custom/bannertente.ldr": {
-            "path": "custom/bannertente.ldr",
+        "inventados/bannertente.ldr": {
+            "path": "inventados/bannertente.ldr",
             "id": "",
-            "title": "custom/bannertente",
+            "title": "inventados/bannertente",
             "seriesNumber": null,
             "refNumber": null
         },
-        "custom/barco_turistico_bahia_malaga.ldr": {
-            "path": "custom/barco_turistico_bahia_malaga.ldr",
+        "inventados/barco_turistico_bahia_malaga.ldr": {
+            "path": "inventados/barco_turistico_bahia_malaga.ldr",
             "id": "",
-            "title": "custom/barco_turistico_bahia_malaga",
+            "title": "inventados/barco_turistico_bahia_malaga",
             "seriesNumber": null,
             "refNumber": null
         },
-        "custom/bocametro.ldr": {
-            "path": "custom/bocametro.ldr",
+        "inventados/bocametro.ldr": {
+            "path": "inventados/bocametro.ldr",
             "id": "",
-            "title": "custom/bocametro",
+            "title": "inventados/bocametro",
             "seriesNumber": null,
             "refNumber": null
         },
-        "custom/busbateria.ldr": {
-            "path": "custom/busbateria.ldr",
+        "inventados/busbateria.ldr": {
+            "path": "inventados/busbateria.ldr",
             "id": "",
-            "title": "custom/busbateria",
+            "title": "inventados/busbateria",
             "seriesNumber": null,
             "refNumber": null
         },
-        "custom/buzon_sugerencias.ldr": {
-            "path": "custom/buzon_sugerencias.ldr",
+        "inventados/buzon_sugerencias.ldr": {
+            "path": "inventados/buzon_sugerencias.ldr",
             "id": "",
-            "title": "custom/buzon_sugerencias",
+            "title": "inventados/buzon_sugerencias",
             "seriesNumber": null,
             "refNumber": null
         },
-        "custom/cabinatelefonos.ldr": {
-            "path": "custom/cabinatelefonos.ldr",
+        "inventados/cabinatelefonos.ldr": {
+            "path": "inventados/cabinatelefonos.ldr",
             "id": "",
-            "title": "custom/cabinatelefonos",
+            "title": "inventados/cabinatelefonos",
             "seriesNumber": null,
             "refNumber": null
         },
-        "custom/cajonera/cajon.ldr": {
-            "path": "custom/cajonera/cajon.ldr",
+        "inventados/cajonera/cajon.ldr": {
+            "path": "inventados/cajonera/cajon.ldr",
             "id": "",
-            "title": "custom/cajonera/cajon",
+            "title": "inventados/cajonera/cajon",
             "seriesNumber": null,
             "refNumber": null
         },
-        "custom/cajonera/cajonera_4c.ldr": {
-            "path": "custom/cajonera/cajonera_4c.ldr",
+        "inventados/cajonera/cajonera_4c.ldr": {
+            "path": "inventados/cajonera/cajonera_4c.ldr",
             "id": "",
-            "title": "custom/cajonera/cajonera_4c",
+            "title": "inventados/cajonera/cajonera_4c",
             "seriesNumber": null,
             "refNumber": null
         },
-        "custom/cajonera/cajonera_4c_open.ldr": {
-            "path": "custom/cajonera/cajonera_4c_open.ldr",
+        "inventados/cajonera/cajonera_4c_open.ldr": {
+            "path": "inventados/cajonera/cajonera_4c_open.ldr",
             "id": "",
-            "title": "custom/cajonera/cajonera_4c_open",
+            "title": "inventados/cajonera/cajonera_4c_open",
             "seriesNumber": null,
             "refNumber": null
         },
-        "custom/cajonera_4c.ldr": {
-            "path": "custom/cajonera_4c.ldr",
+        "inventados/cajonera_4c.ldr": {
+            "path": "inventados/cajonera_4c.ldr",
             "id": "",
-            "title": "custom/cajonera_4c",
+            "title": "inventados/cajonera_4c",
             "seriesNumber": null,
             "refNumber": null
         },
-        "custom/castillito1.ldr": {
-            "path": "custom/castillito1.ldr",
+        "inventados/castillito1.ldr": {
+            "path": "inventados/castillito1.ldr",
             "id": "",
-            "title": "custom/castillito1",
+            "title": "inventados/castillito1",
             "seriesNumber": null,
             "refNumber": null
         },
-        "custom/circulo.ldr": {
-            "path": "custom/circulo.ldr",
+        "inventados/circulo.ldr": {
+            "path": "inventados/circulo.ldr",
             "id": "",
-            "title": "custom/circulo",
+            "title": "inventados/circulo",
             "seriesNumber": null,
             "refNumber": null
         },
-        "custom/cocacola.ldr": {
-            "path": "custom/cocacola.ldr",
+        "inventados/cohete_tintin.ldr": {
+            "path": "inventados/cohete_tintin.ldr",
             "id": "",
-            "title": "custom/cocacola",
+            "title": "inventados/cohete_tintin",
             "seriesNumber": null,
             "refNumber": null
         },
-        "custom/cohete_tintin.ldr": {
-            "path": "custom/cohete_tintin.ldr",
+        "inventados/damas.ldr": {
+            "path": "inventados/damas.ldr",
             "id": "",
-            "title": "custom/cohete_tintin",
+            "title": "inventados/damas",
             "seriesNumber": null,
             "refNumber": null
         },
-        "custom/damas.ldr": {
-            "path": "custom/damas.ldr",
+        "inventados/donut.ldr": {
+            "path": "inventados/donut.ldr",
             "id": "",
-            "title": "custom/damas",
+            "title": "inventados/donut",
             "seriesNumber": null,
             "refNumber": null
         },
-        "custom/donut.ldr": {
-            "path": "custom/donut.ldr",
+        "inventados/duplexcosta.ldr": {
+            "path": "inventados/duplexcosta.ldr",
             "id": "",
-            "title": "custom/donut",
+            "title": "inventados/duplexcosta",
             "seriesNumber": null,
             "refNumber": null
         },
-        "custom/duplexcosta.ldr": {
-            "path": "custom/duplexcosta.ldr",
+        "inventados/ecocasarodante.ldr": {
+            "path": "inventados/ecocasarodante.ldr",
             "id": "",
-            "title": "custom/duplexcosta",
+            "title": "inventados/ecocasarodante",
             "seriesNumber": null,
             "refNumber": null
         },
-        "custom/ecocasarodante.ldr": {
-            "path": "custom/ecocasarodante.ldr",
+        "inventados/edificio_clot_barcelona.ldr": {
+            "path": "inventados/edificio_clot_barcelona.ldr",
             "id": "",
-            "title": "custom/ecocasarodante",
+            "title": "inventados/edificio_clot_barcelona",
             "seriesNumber": null,
             "refNumber": null
         },
-        "custom/edificio_clot_barcelona.ldr": {
-            "path": "custom/edificio_clot_barcelona.ldr",
+        "inventados/enterradores_meme.ldr": {
+            "path": "inventados/enterradores_meme.ldr",
             "id": "",
-            "title": "custom/edificio_clot_barcelona",
+            "title": "inventados/enterradores_meme",
             "seriesNumber": null,
             "refNumber": null
         },
-        "custom/enterradores_meme.ldr": {
-            "path": "custom/enterradores_meme.ldr",
+        "inventados/entrada_puerto_malaga_full.ldr": {
+            "path": "inventados/entrada_puerto_malaga_full.ldr",
             "id": "",
-            "title": "custom/enterradores_meme",
+            "title": "inventados/entrada_puerto_malaga_full",
             "seriesNumber": null,
             "refNumber": null
         },
-        "custom/entrada_puerto_malaga_full.ldr": {
-            "path": "custom/entrada_puerto_malaga_full.ldr",
+        "inventados/esfera1.ldr": {
+            "path": "inventados/esfera1.ldr",
             "id": "",
-            "title": "custom/entrada_puerto_malaga_full",
+            "title": "inventados/esfera1",
             "seriesNumber": null,
             "refNumber": null
         },
-        "custom/esfera1.ldr": {
-            "path": "custom/esfera1.ldr",
+        "inventados/esfera2.ldr": {
+            "path": "inventados/esfera2.ldr",
             "id": "",
-            "title": "custom/esfera1",
+            "title": "inventados/esfera2",
             "seriesNumber": null,
             "refNumber": null
         },
-        "custom/esfera2.ldr": {
-            "path": "custom/esfera2.ldr",
+        "inventados/esfera3.ldr": {
+            "path": "inventados/esfera3.ldr",
             "id": "",
-            "title": "custom/esfera2",
+            "title": "inventados/esfera3",
             "seriesNumber": null,
             "refNumber": null
         },
-        "custom/esfera3.ldr": {
-            "path": "custom/esfera3.ldr",
+        "inventados/esfera4.ldr": {
+            "path": "inventados/esfera4.ldr",
             "id": "",
-            "title": "custom/esfera3",
+            "title": "inventados/esfera4",
             "seriesNumber": null,
             "refNumber": null
         },
-        "custom/esfera4.ldr": {
-            "path": "custom/esfera4.ldr",
+        "inventados/esperanza-torre.ldr": {
+            "path": "inventados/esperanza-torre.ldr",
             "id": "",
-            "title": "custom/esfera4",
+            "title": "inventados/esperanza-torre",
             "seriesNumber": null,
             "refNumber": null
         },
-        "custom/esperanza-torre.ldr": {
-            "path": "custom/esperanza-torre.ldr",
+        "inventados/estacion_feve_malaga.ldr": {
+            "path": "inventados/estacion_feve_malaga.ldr",
             "id": "",
-            "title": "custom/esperanza-torre",
+            "title": "inventados/estacion_feve_malaga",
             "seriesNumber": null,
             "refNumber": null
         },
-        "custom/estacion_feve_malaga.ldr": {
-            "path": "custom/estacion_feve_malaga.ldr",
+        "inventados/estacionmeteorologica.ldr": {
+            "path": "inventados/estacionmeteorologica.ldr",
             "id": "",
-            "title": "custom/estacion_feve_malaga",
+            "title": "inventados/estacionmeteorologica",
             "seriesNumber": null,
             "refNumber": null
         },
-        "custom/estacionmeteorologica.ldr": {
-            "path": "custom/estacionmeteorologica.ldr",
+        "inventados/estacionmetereologica.ldr": {
+            "path": "inventados/estacionmetereologica.ldr",
             "id": "",
-            "title": "custom/estacionmeteorologica",
+            "title": "inventados/estacionmetereologica",
             "seriesNumber": null,
             "refNumber": null
         },
-        "custom/estacionmetereologica.ldr": {
-            "path": "custom/estacionmetereologica.ldr",
+        "inventados/etch.ldr": {
+            "path": "inventados/etch.ldr",
             "id": "",
-            "title": "custom/estacionmetereologica",
+            "title": "inventados/etch",
             "seriesNumber": null,
             "refNumber": null
         },
-        "custom/etch.ldr": {
-            "path": "custom/etch.ldr",
+        "inventados/exinubuntu.ldr": {
+            "path": "inventados/exinubuntu.ldr",
             "id": "",
-            "title": "custom/etch",
+            "title": "inventados/exinubuntu",
             "seriesNumber": null,
             "refNumber": null
         },
-        "custom/exinubuntu.ldr": {
-            "path": "custom/exinubuntu.ldr",
+        "inventados/foodtruck.ldr": {
+            "path": "inventados/foodtruck.ldr",
             "id": "",
-            "title": "custom/exinubuntu",
+            "title": "inventados/foodtruck",
             "seriesNumber": null,
             "refNumber": null
         },
-        "custom/foodtruck.ldr": {
-            "path": "custom/foodtruck.ldr",
+        "inventados/foodtruck_en_ruta.ldr": {
+            "path": "inventados/foodtruck_en_ruta.ldr",
             "id": "",
-            "title": "custom/foodtruck",
+            "title": "inventados/foodtruck_en_ruta",
             "seriesNumber": null,
             "refNumber": null
         },
-        "custom/foodtruck_en_ruta.ldr": {
-            "path": "custom/foodtruck_en_ruta.ldr",
+        "inventados/furgonetahielo.ldr": {
+            "path": "inventados/furgonetahielo.ldr",
             "id": "",
-            "title": "custom/foodtruck_en_ruta",
+            "title": "inventados/furgonetahielo",
             "seriesNumber": null,
             "refNumber": null
         },
-        "custom/furgonetahielo.ldr": {
-            "path": "custom/furgonetahielo.ldr",
+        "inventados/galileo.ldr": {
+            "path": "inventados/galileo.ldr",
             "id": "",
-            "title": "custom/furgonetahielo",
+            "title": "inventados/galileo",
             "seriesNumber": null,
             "refNumber": null
         },
-        "custom/galileo.ldr": {
-            "path": "custom/galileo.ldr",
+        "inventados/galileo_concurso.ldr": {
+            "path": "inventados/galileo_concurso.ldr",
             "id": "",
-            "title": "custom/galileo",
+            "title": "inventados/galileo_concurso",
             "seriesNumber": null,
             "refNumber": null
         },
-        "custom/galileo_concurso.ldr": {
-            "path": "custom/galileo_concurso.ldr",
+        "inventados/hunslet_att77.ldr": {
+            "path": "inventados/hunslet_att77.ldr",
             "id": "",
-            "title": "custom/galileo_concurso",
+            "title": "inventados/hunslet_att77",
             "seriesNumber": null,
             "refNumber": null
         },
-        "custom/hunslet_att77.ldr": {
-            "path": "custom/hunslet_att77.ldr",
+        "inventados/incinerador_termonuclear.ldr": {
+            "path": "inventados/incinerador_termonuclear.ldr",
             "id": "",
-            "title": "custom/hunslet_att77",
+            "title": "inventados/incinerador_termonuclear",
             "seriesNumber": null,
             "refNumber": null
         },
-        "custom/incinerador_termonuclear.ldr": {
-            "path": "custom/incinerador_termonuclear.ldr",
+        "inventados/jabega.ldr": {
+            "path": "inventados/jabega.ldr",
             "id": "",
-            "title": "custom/incinerador_termonuclear",
+            "title": "inventados/jabega",
             "seriesNumber": null,
             "refNumber": null
         },
-        "custom/jabega.ldr": {
-            "path": "custom/jabega.ldr",
+        "inventados/jetpac.ldr": {
+            "path": "inventados/jetpac.ldr",
             "id": "",
-            "title": "custom/jabega",
+            "title": "inventados/jetpac",
             "seriesNumber": null,
             "refNumber": null
         },
-        "custom/jetpac.ldr": {
-            "path": "custom/jetpac.ldr",
+        "inventados/lafarola.ldr": {
+            "path": "inventados/lafarola.ldr",
             "id": "",
-            "title": "custom/jetpac",
+            "title": "inventados/lafarola",
             "seriesNumber": null,
             "refNumber": null
         },
-        "custom/lafarola.ldr": {
-            "path": "custom/lafarola.ldr",
+        "inventados/ld3dstudio_logo.ldr": {
+            "path": "inventados/ld3dstudio_logo.ldr",
             "id": "",
-            "title": "custom/lafarola",
+            "title": "inventados/ld3dstudio_logo",
             "seriesNumber": null,
             "refNumber": null
         },
-        "custom/ld3dstudio_logo.ldr": {
-            "path": "custom/ld3dstudio_logo.ldr",
+        "inventados/lemmings_flat.ldr": {
+            "path": "inventados/lemmings_flat.ldr",
             "id": "",
-            "title": "custom/ld3dstudio_logo",
+            "title": "inventados/lemmings_flat",
             "seriesNumber": null,
             "refNumber": null
         },
-        "custom/lemmings_flat.ldr": {
-            "path": "custom/lemmings_flat.ldr",
+        "inventados/lopezpenalver.ldr": {
+            "path": "inventados/lopezpenalver.ldr",
             "id": "",
-            "title": "custom/lemmings_flat",
+            "title": "inventados/lopezpenalver",
             "seriesNumber": null,
             "refNumber": null
         },
-        "custom/lopezpenalver.ldr": {
-            "path": "custom/lopezpenalver.ldr",
+        "inventados/martian_chronicles_van.ldr": {
+            "path": "inventados/martian_chronicles_van.ldr",
             "id": "",
-            "title": "custom/lopezpenalver",
+            "title": "inventados/martian_chronicles_van",
             "seriesNumber": null,
             "refNumber": null
         },
-        "custom/martian_chronicles_van.ldr": {
-            "path": "custom/martian_chronicles_van.ldr",
+        "inventados/microbus50.ldr": {
+            "path": "inventados/microbus50.ldr",
             "id": "",
-            "title": "custom/martian_chronicles_van",
+            "title": "inventados/microbus50",
             "seriesNumber": null,
             "refNumber": null
         },
-        "custom/microbus50.ldr": {
-            "path": "custom/microbus50.ldr",
+        "inventados/minipcsobremesa.ldr": {
+            "path": "inventados/minipcsobremesa.ldr",
             "id": "",
-            "title": "custom/microbus50",
+            "title": "inventados/minipcsobremesa",
             "seriesNumber": null,
             "refNumber": null
         },
-        "custom/minipcsobremesa.ldr": {
-            "path": "custom/minipcsobremesa.ldr",
+        "inventados/moduloescapemarciano.ldr": {
+            "path": "inventados/moduloescapemarciano.ldr",
             "id": "",
-            "title": "custom/minipcsobremesa",
+            "title": "inventados/moduloescapemarciano",
             "seriesNumber": null,
             "refNumber": null
         },
-        "custom/moduloescapemarciano.ldr": {
-            "path": "custom/moduloescapemarciano.ldr",
+        "inventados/molino.ldr": {
+            "path": "inventados/molino.ldr",
             "id": "",
-            "title": "custom/moduloescapemarciano",
+            "title": "inventados/molino",
             "seriesNumber": null,
             "refNumber": null
         },
-        "custom/molino.ldr": {
-            "path": "custom/molino.ldr",
+        "inventados/morlaco.ldr": {
+            "path": "inventados/morlaco.ldr",
             "id": "",
-            "title": "custom/molino",
+            "title": "inventados/morlaco",
             "seriesNumber": null,
             "refNumber": null
         },
-        "custom/morlaco.ldr": {
-            "path": "custom/morlaco.ldr",
+        "inventados/nave_guaul_mini.ldr": {
+            "path": "inventados/nave_guaul_mini.ldr",
             "id": "",
-            "title": "custom/morlaco",
+            "title": "inventados/nave_guaul_mini",
             "seriesNumber": null,
             "refNumber": null
         },
-        "custom/nave_guaul_mini.ldr": {
-            "path": "custom/nave_guaul_mini.ldr",
+        "inventados/navevisitante.ldr": {
+            "path": "inventados/navevisitante.ldr",
             "id": "",
-            "title": "custom/nave_guaul_mini",
+            "title": "inventados/navevisitante",
             "seriesNumber": null,
             "refNumber": null
         },
-        "custom/navevisitante.ldr": {
-            "path": "custom/navevisitante.ldr",
+        "inventados/ovni9.ldr": {
+            "path": "inventados/ovni9.ldr",
             "id": "",
-            "title": "custom/navevisitante",
+            "title": "inventados/ovni9",
             "seriesNumber": null,
             "refNumber": null
         },
-        "custom/ovni9.ldr": {
-            "path": "custom/ovni9.ldr",
+        "inventados/papamovil.ldr": {
+            "path": "inventados/papamovil.ldr",
             "id": "",
-            "title": "custom/ovni9",
+            "title": "inventados/papamovil",
             "seriesNumber": null,
             "refNumber": null
         },
-        "custom/papamovil.ldr": {
-            "path": "custom/papamovil.ldr",
+        "inventados/pctubo.ldr": {
+            "path": "inventados/pctubo.ldr",
             "id": "",
-            "title": "custom/papamovil",
+            "title": "inventados/pctubo",
             "seriesNumber": null,
             "refNumber": null
         },
-        "custom/pctubo.ldr": {
-            "path": "custom/pctubo.ldr",
+        "inventados/peasochalet.ldr": {
+            "path": "inventados/peasochalet.ldr",
             "id": "",
-            "title": "custom/pctubo",
+            "title": "inventados/peasochalet",
             "seriesNumber": null,
             "refNumber": null
         },
-        "custom/peasochalet.ldr": {
-            "path": "custom/peasochalet.ldr",
+        "inventados/planeador_orbital.ldr": {
+            "path": "inventados/planeador_orbital.ldr",
             "id": "",
-            "title": "custom/peasochalet",
+            "title": "inventados/planeador_orbital",
             "seriesNumber": null,
             "refNumber": null
         },
-        "custom/planeador_orbital.ldr": {
-            "path": "custom/planeador_orbital.ldr",
+        "inventados/robotaxi.ldr": {
+            "path": "inventados/robotaxi.ldr",
             "id": "",
-            "title": "custom/planeador_orbital",
+            "title": "inventados/robotaxi",
             "seriesNumber": null,
             "refNumber": null
         },
-        "custom/robotaxi.ldr": {
-            "path": "custom/robotaxi.ldr",
+        "inventados/roverlunar.ldr": {
+            "path": "inventados/roverlunar.ldr",
             "id": "",
-            "title": "custom/robotaxi",
+            "title": "inventados/roverlunar",
             "seriesNumber": null,
             "refNumber": null
         },
-        "custom/roverlunar.ldr": {
-            "path": "custom/roverlunar.ldr",
+        "inventados/ruedelpercebe.ldr": {
+            "path": "inventados/ruedelpercebe.ldr",
             "id": "",
-            "title": "custom/roverlunar",
+            "title": "inventados/ruedelpercebe",
             "seriesNumber": null,
             "refNumber": null
         },
-        "custom/ruedelpercebe.ldr": {
-            "path": "custom/ruedelpercebe.ldr",
+        "inventados/seat1430.ldr": {
+            "path": "inventados/seat1430.ldr",
             "id": "",
-            "title": "custom/ruedelpercebe",
+            "title": "inventados/seat1430",
             "seriesNumber": null,
             "refNumber": null
         },
-        "custom/seat1430.ldr": {
-            "path": "custom/seat1430.ldr",
+        "inventados/sinclairzx80.ldr": {
+            "path": "inventados/sinclairzx80.ldr",
             "id": "",
-            "title": "custom/seat1430",
+            "title": "inventados/sinclairzx80",
             "seriesNumber": null,
             "refNumber": null
         },
-        "custom/sinclairzx80.ldr": {
-            "path": "custom/sinclairzx80.ldr",
+        "inventados/taller_informatico/cajon.ldr": {
+            "path": "inventados/taller_informatico/cajon.ldr",
             "id": "",
-            "title": "custom/sinclairzx80",
+            "title": "inventados/taller_informatico/cajon",
             "seriesNumber": null,
             "refNumber": null
         },
-        "custom/taller_informatico/cajon.ldr": {
-            "path": "custom/taller_informatico/cajon.ldr",
+        "inventados/taller_informatico/cajonera.ldr": {
+            "path": "inventados/taller_informatico/cajonera.ldr",
             "id": "",
-            "title": "custom/taller_informatico/cajon",
+            "title": "inventados/taller_informatico/cajonera",
             "seriesNumber": null,
             "refNumber": null
         },
-        "custom/taller_informatico/cajonera.ldr": {
-            "path": "custom/taller_informatico/cajonera.ldr",
+        "inventados/taller_informatico/taller_informatico.ldr": {
+            "path": "inventados/taller_informatico/taller_informatico.ldr",
             "id": "",
-            "title": "custom/taller_informatico/cajonera",
+            "title": "inventados/taller_informatico/taller_informatico",
             "seriesNumber": null,
             "refNumber": null
         },
-        "custom/taller_informatico/taller_informatico.ldr": {
-            "path": "custom/taller_informatico/taller_informatico.ldr",
+        "inventados/tardis.ldr": {
+            "path": "inventados/tardis.ldr",
             "id": "",
-            "title": "custom/taller_informatico/taller_informatico",
+            "title": "inventados/tardis",
             "seriesNumber": null,
             "refNumber": null
         },
-        "custom/tardis.ldr": {
-            "path": "custom/tardis.ldr",
+        "inventados/taxi_espacial.ldr": {
+            "path": "inventados/taxi_espacial.ldr",
             "id": "",
-            "title": "custom/tardis",
+            "title": "inventados/taxi_espacial",
             "seriesNumber": null,
             "refNumber": null
         },
-        "custom/taxi_espacial.ldr": {
-            "path": "custom/taxi_espacial.ldr",
+        "inventados/templo_debod.ldr": {
+            "path": "inventados/templo_debod.ldr",
             "id": "",
-            "title": "custom/taxi_espacial",
+            "title": "inventados/templo_debod",
             "seriesNumber": null,
             "refNumber": null
         },
-        "custom/templo_debod.ldr": {
-            "path": "custom/templo_debod.ldr",
+        "inventados/the_orville_shuttle.ldr": {
+            "path": "inventados/the_orville_shuttle.ldr",
             "id": "",
-            "title": "custom/templo_debod",
+            "title": "inventados/the_orville_shuttle",
             "seriesNumber": null,
             "refNumber": null
         },
-        "custom/the_orville_shuttle.ldr": {
-            "path": "custom/the_orville_shuttle.ldr",
+        "inventados/titan_mare_explorer.ldr": {
+            "path": "inventados/titan_mare_explorer.ldr",
             "id": "",
-            "title": "custom/the_orville_shuttle",
+            "title": "inventados/titan_mare_explorer",
             "seriesNumber": null,
             "refNumber": null
         },
-        "custom/titan_mare_explorer.ldr": {
-            "path": "custom/titan_mare_explorer.ldr",
+        "inventados/todoterrenocompacto.ldr": {
+            "path": "inventados/todoterrenocompacto.ldr",
             "id": "",
-            "title": "custom/titan_mare_explorer",
+            "title": "inventados/todoterrenocompacto",
             "seriesNumber": null,
             "refNumber": null
         },
-        "custom/todoterrenocompacto.ldr": {
-            "path": "custom/todoterrenocompacto.ldr",
+        "inventados/torre_entrada_puerto_malaga.ldr": {
+            "path": "inventados/torre_entrada_puerto_malaga.ldr",
             "id": "",
-            "title": "custom/todoterrenocompacto",
+            "title": "inventados/torre_entrada_puerto_malaga",
             "seriesNumber": null,
             "refNumber": null
         },
-        "custom/torre_entrada_puerto_malaga.ldr": {
-            "path": "custom/torre_entrada_puerto_malaga.ldr",
+        "inventados/torre_fastolfe.ldr": {
+            "path": "inventados/torre_fastolfe.ldr",
             "id": "",
-            "title": "custom/torre_entrada_puerto_malaga",
+            "title": "inventados/torre_fastolfe",
             "seriesNumber": null,
             "refNumber": null
         },
-        "custom/torre_fastolfe.ldr": {
-            "path": "custom/torre_fastolfe.ldr",
+        "inventados/torre_glories_barcelona.ldr": {
+            "path": "inventados/torre_glories_barcelona.ldr",
             "id": "",
-            "title": "custom/torre_fastolfe",
+            "title": "inventados/torre_glories_barcelona",
             "seriesNumber": null,
             "refNumber": null
         },
-        "custom/torre_glories_barcelona.ldr": {
-            "path": "custom/torre_glories_barcelona.ldr",
+        "inventados/torres_hanoi.ldr": {
+            "path": "inventados/torres_hanoi.ldr",
             "id": "",
-            "title": "custom/torre_glories_barcelona",
+            "title": "inventados/torres_hanoi",
             "seriesNumber": null,
             "refNumber": null
         },
-        "custom/torres_hanoi.ldr": {
-            "path": "custom/torres_hanoi.ldr",
+        "inventados/trenturistico.ldr": {
+            "path": "inventados/trenturistico.ldr",
             "id": "",
-            "title": "custom/torres_hanoi",
+            "title": "inventados/trenturistico",
             "seriesNumber": null,
             "refNumber": null
         },
-        "custom/trenturistico.ldr": {
-            "path": "custom/trenturistico.ldr",
+        "inventados/tux3d.ldr": {
+            "path": "inventados/tux3d.ldr",
             "id": "",
-            "title": "custom/trenturistico",
+            "title": "inventados/tux3d",
             "seriesNumber": null,
             "refNumber": null
         },
-        "custom/tux3d.ldr": {
-            "path": "custom/tux3d.ldr",
+        "inventados/tux_flat_base.ldr": {
+            "path": "inventados/tux_flat_base.ldr",
             "id": "",
-            "title": "custom/tux3d",
+            "title": "inventados/tux_flat_base",
             "seriesNumber": null,
             "refNumber": null
         },
-        "custom/tux_flat_base.ldr": {
-            "path": "custom/tux_flat_base.ldr",
+        "inventados/tuxplano.ldr": {
+            "path": "inventados/tuxplano.ldr",
             "id": "",
-            "title": "custom/tux_flat_base",
+            "title": "inventados/tuxplano",
             "seriesNumber": null,
             "refNumber": null
         },
-        "custom/tuxplano.ldr": {
-            "path": "custom/tuxplano.ldr",
+        "inventados/tuxtentero.ldr": {
+            "path": "inventados/tuxtentero.ldr",
             "id": "",
-            "title": "custom/tuxplano",
+            "title": "inventados/tuxtentero",
             "seriesNumber": null,
             "refNumber": null
         },
-        "custom/tuxtentero.ldr": {
-            "path": "custom/tuxtentero.ldr",
+        "inventados/ubuntu_exin_castillos.ldr": {
+            "path": "inventados/ubuntu_exin_castillos.ldr",
             "id": "",
-            "title": "custom/tuxtentero",
+            "title": "inventados/ubuntu_exin_castillos",
             "seriesNumber": null,
             "refNumber": null
         },
-        "custom/ubuntu_exin_castillos.ldr": {
-            "path": "custom/ubuntu_exin_castillos.ldr",
+        "inventados/ubuntu_exin_castillos_transparente.ldr": {
+            "path": "inventados/ubuntu_exin_castillos_transparente.ldr",
             "id": "",
-            "title": "custom/ubuntu_exin_castillos",
+            "title": "inventados/ubuntu_exin_castillos_transparente",
             "seriesNumber": null,
             "refNumber": null
         },
-        "custom/ubuntu_exin_castillos_transparente.ldr": {
-            "path": "custom/ubuntu_exin_castillos_transparente.ldr",
+        "inventados/urna_votacion.ldr": {
+            "path": "inventados/urna_votacion.ldr",
             "id": "",
-            "title": "custom/ubuntu_exin_castillos_transparente",
+            "title": "inventados/urna_votacion",
             "seriesNumber": null,
             "refNumber": null
         },
-        "custom/urna_votacion.ldr": {
-            "path": "custom/urna_votacion.ldr",
+        "inventados/ventanas_ahumadas.ldr": {
+            "path": "inventados/ventanas_ahumadas.ldr",
             "id": "",
-            "title": "custom/urna_votacion",
+            "title": "inventados/ventanas_ahumadas",
             "seriesNumber": null,
             "refNumber": null
         },
-        "custom/ventanas_ahumadas.ldr": {
-            "path": "custom/ventanas_ahumadas.ldr",
+        "inventados/vialia_antiguo.ldr": {
+            "path": "inventados/vialia_antiguo.ldr",
             "id": "",
-            "title": "custom/ventanas_ahumadas",
+            "title": "inventados/vialia_antiguo",
             "seriesNumber": null,
             "refNumber": null
         },
-        "custom/vialia_antiguo.ldr": {
-            "path": "custom/vialia_antiguo.ldr",
+        "inventados/vialia_antiguo_lateral_bajo.ldr": {
+            "path": "inventados/vialia_antiguo_lateral_bajo.ldr",
             "id": "",
-            "title": "custom/vialia_antiguo",
+            "title": "inventados/vialia_antiguo_lateral_bajo",
             "seriesNumber": null,
             "refNumber": null
         },
-        "custom/vialia_antiguo_lateral_bajo.ldr": {
-            "path": "custom/vialia_antiguo_lateral_bajo.ldr",
+        "inventados/vialia_antiguo_primera_planta.ldr": {
+            "path": "inventados/vialia_antiguo_primera_planta.ldr",
             "id": "",
-            "title": "custom/vialia_antiguo_lateral_bajo",
+            "title": "inventados/vialia_antiguo_primera_planta",
             "seriesNumber": null,
             "refNumber": null
         },
-        "custom/vialia_antiguo_primera_planta.ldr": {
-            "path": "custom/vialia_antiguo_primera_planta.ldr",
+        "inventados/vialia_antiguo_segunda_planta.ldr": {
+            "path": "inventados/vialia_antiguo_segunda_planta.ldr",
             "id": "",
-            "title": "custom/vialia_antiguo_primera_planta",
+            "title": "inventados/vialia_antiguo_segunda_planta",
             "seriesNumber": null,
             "refNumber": null
         },
-        "custom/vialia_antiguo_segunda_planta.ldr": {
-            "path": "custom/vialia_antiguo_segunda_planta.ldr",
+        "inventados/walkietalkie.ldr": {
+            "path": "inventados/walkietalkie.ldr",
             "id": "",
-            "title": "custom/vialia_antiguo_segunda_planta",
+            "title": "inventados/walkietalkie",
             "seriesNumber": null,
             "refNumber": null
         },
-        "custom/walkietalkie.ldr": {
-            "path": "custom/walkietalkie.ldr",
+        "inventados/walkietalkies_pair.ldr": {
+            "path": "inventados/walkietalkies_pair.ldr",
             "id": "",
-            "title": "custom/walkietalkie",
+            "title": "inventados/walkietalkies_pair",
             "seriesNumber": null,
             "refNumber": null
         },
-        "custom/walkietalkies_pair.ldr": {
-            "path": "custom/walkietalkies_pair.ldr",
+        "inventados/zxspectrum48k.ldr": {
+            "path": "inventados/zxspectrum48k.ldr",
             "id": "",
-            "title": "custom/walkietalkies_pair",
-            "seriesNumber": null,
-            "refNumber": null
-        },
-        "custom/zxspectrum48k.ldr": {
-            "path": "custom/zxspectrum48k.ldr",
-            "id": "",
-            "title": "custom/zxspectrum48k",
+            "title": "inventados/zxspectrum48k",
             "seriesNumber": null,
             "refNumber": null
         }
@@ -2090,102 +2083,101 @@
         "oficiales/astronauta_viejo.ldr",
         "oficiales/motobomba.ldr",
         "oficiales/roadmaster.ldr",
-        "custom/amstrad_cpc464.ldr",
-        "custom/aparcamiento.ldr",
-        "custom/aparcamiento_con_vehiculos.ldr",
-        "custom/autolavado.ldr",
-        "custom/autolavado_vacio.ldr",
-        "custom/bannertente.ldr",
-        "custom/barco_turistico_bahia_malaga.ldr",
-        "custom/bocametro.ldr",
-        "custom/busbateria.ldr",
-        "custom/buzon_sugerencias.ldr",
-        "custom/cabinatelefonos.ldr",
-        "custom/cajonera/cajon.ldr",
-        "custom/cajonera/cajonera_4c.ldr",
-        "custom/cajonera/cajonera_4c_open.ldr",
-        "custom/cajonera_4c.ldr",
-        "custom/castillito1.ldr",
-        "custom/circulo.ldr",
-        "custom/cocacola.ldr",
-        "custom/cohete_tintin.ldr",
-        "custom/damas.ldr",
-        "custom/donut.ldr",
-        "custom/duplexcosta.ldr",
-        "custom/ecocasarodante.ldr",
-        "custom/edificio_clot_barcelona.ldr",
-        "custom/enterradores_meme.ldr",
-        "custom/entrada_puerto_malaga_full.ldr",
-        "custom/esfera1.ldr",
-        "custom/esfera2.ldr",
-        "custom/esfera3.ldr",
-        "custom/esfera4.ldr",
-        "custom/esperanza-torre.ldr",
-        "custom/estacion_feve_malaga.ldr",
-        "custom/estacionmeteorologica.ldr",
-        "custom/estacionmetereologica.ldr",
-        "custom/etch.ldr",
-        "custom/exinubuntu.ldr",
-        "custom/foodtruck.ldr",
-        "custom/foodtruck_en_ruta.ldr",
-        "custom/furgonetahielo.ldr",
-        "custom/galileo.ldr",
-        "custom/galileo_concurso.ldr",
-        "custom/hunslet_att77.ldr",
-        "custom/incinerador_termonuclear.ldr",
-        "custom/jabega.ldr",
-        "custom/jetpac.ldr",
-        "custom/lafarola.ldr",
-        "custom/ld3dstudio_logo.ldr",
-        "custom/lemmings_flat.ldr",
-        "custom/lopezpenalver.ldr",
-        "custom/martian_chronicles_van.ldr",
-        "custom/microbus50.ldr",
-        "custom/minipcsobremesa.ldr",
-        "custom/moduloescapemarciano.ldr",
-        "custom/molino.ldr",
-        "custom/morlaco.ldr",
-        "custom/nave_guaul_mini.ldr",
-        "custom/navevisitante.ldr",
-        "custom/ovni9.ldr",
-        "custom/papamovil.ldr",
-        "custom/pctubo.ldr",
-        "custom/peasochalet.ldr",
-        "custom/planeador_orbital.ldr",
-        "custom/robotaxi.ldr",
-        "custom/roverlunar.ldr",
-        "custom/ruedelpercebe.ldr",
-        "custom/seat1430.ldr",
-        "custom/sinclairzx80.ldr",
-        "custom/taller_informatico/cajon.ldr",
-        "custom/taller_informatico/cajonera.ldr",
-        "custom/taller_informatico/taller_informatico.ldr",
-        "custom/tardis.ldr",
-        "custom/taxi_espacial.ldr",
-        "custom/templo_debod.ldr",
-        "custom/the_orville_shuttle.ldr",
-        "custom/titan_mare_explorer.ldr",
-        "custom/todoterrenocompacto.ldr",
-        "custom/torre_entrada_puerto_malaga.ldr",
-        "custom/torre_fastolfe.ldr",
-        "custom/torre_glories_barcelona.ldr",
-        "custom/torres_hanoi.ldr",
-        "custom/trenturistico.ldr",
-        "custom/tux3d.ldr",
-        "custom/tux_flat_base.ldr",
-        "custom/tuxplano.ldr",
-        "custom/tuxtentero.ldr",
-        "custom/ubuntu_exin_castillos.ldr",
-        "custom/ubuntu_exin_castillos_transparente.ldr",
-        "custom/urna_votacion.ldr",
-        "custom/ventanas_ahumadas.ldr",
-        "custom/vialia_antiguo.ldr",
-        "custom/vialia_antiguo_lateral_bajo.ldr",
-        "custom/vialia_antiguo_primera_planta.ldr",
-        "custom/vialia_antiguo_segunda_planta.ldr",
-        "custom/walkietalkie.ldr",
-        "custom/walkietalkies_pair.ldr",
-        "custom/zxspectrum48k.ldr"
+        "inventados/amstrad_cpc464.ldr",
+        "inventados/aparcamiento.ldr",
+        "inventados/aparcamiento_con_vehiculos.ldr",
+        "inventados/autolavado.ldr",
+        "inventados/autolavado_vacio.ldr",
+        "inventados/bannertente.ldr",
+        "inventados/barco_turistico_bahia_malaga.ldr",
+        "inventados/bocametro.ldr",
+        "inventados/busbateria.ldr",
+        "inventados/buzon_sugerencias.ldr",
+        "inventados/cabinatelefonos.ldr",
+        "inventados/cajonera/cajon.ldr",
+        "inventados/cajonera/cajonera_4c.ldr",
+        "inventados/cajonera/cajonera_4c_open.ldr",
+        "inventados/cajonera_4c.ldr",
+        "inventados/castillito1.ldr",
+        "inventados/circulo.ldr",
+        "inventados/cohete_tintin.ldr",
+        "inventados/damas.ldr",
+        "inventados/donut.ldr",
+        "inventados/duplexcosta.ldr",
+        "inventados/ecocasarodante.ldr",
+        "inventados/edificio_clot_barcelona.ldr",
+        "inventados/enterradores_meme.ldr",
+        "inventados/entrada_puerto_malaga_full.ldr",
+        "inventados/esfera1.ldr",
+        "inventados/esfera2.ldr",
+        "inventados/esfera3.ldr",
+        "inventados/esfera4.ldr",
+        "inventados/esperanza-torre.ldr",
+        "inventados/estacion_feve_malaga.ldr",
+        "inventados/estacionmeteorologica.ldr",
+        "inventados/estacionmetereologica.ldr",
+        "inventados/etch.ldr",
+        "inventados/exinubuntu.ldr",
+        "inventados/foodtruck.ldr",
+        "inventados/foodtruck_en_ruta.ldr",
+        "inventados/furgonetahielo.ldr",
+        "inventados/galileo.ldr",
+        "inventados/galileo_concurso.ldr",
+        "inventados/hunslet_att77.ldr",
+        "inventados/incinerador_termonuclear.ldr",
+        "inventados/jabega.ldr",
+        "inventados/jetpac.ldr",
+        "inventados/lafarola.ldr",
+        "inventados/ld3dstudio_logo.ldr",
+        "inventados/lemmings_flat.ldr",
+        "inventados/lopezpenalver.ldr",
+        "inventados/martian_chronicles_van.ldr",
+        "inventados/microbus50.ldr",
+        "inventados/minipcsobremesa.ldr",
+        "inventados/moduloescapemarciano.ldr",
+        "inventados/molino.ldr",
+        "inventados/morlaco.ldr",
+        "inventados/nave_guaul_mini.ldr",
+        "inventados/navevisitante.ldr",
+        "inventados/ovni9.ldr",
+        "inventados/papamovil.ldr",
+        "inventados/pctubo.ldr",
+        "inventados/peasochalet.ldr",
+        "inventados/planeador_orbital.ldr",
+        "inventados/robotaxi.ldr",
+        "inventados/roverlunar.ldr",
+        "inventados/ruedelpercebe.ldr",
+        "inventados/seat1430.ldr",
+        "inventados/sinclairzx80.ldr",
+        "inventados/taller_informatico/cajon.ldr",
+        "inventados/taller_informatico/cajonera.ldr",
+        "inventados/taller_informatico/taller_informatico.ldr",
+        "inventados/tardis.ldr",
+        "inventados/taxi_espacial.ldr",
+        "inventados/templo_debod.ldr",
+        "inventados/the_orville_shuttle.ldr",
+        "inventados/titan_mare_explorer.ldr",
+        "inventados/todoterrenocompacto.ldr",
+        "inventados/torre_entrada_puerto_malaga.ldr",
+        "inventados/torre_fastolfe.ldr",
+        "inventados/torre_glories_barcelona.ldr",
+        "inventados/torres_hanoi.ldr",
+        "inventados/trenturistico.ldr",
+        "inventados/tux3d.ldr",
+        "inventados/tux_flat_base.ldr",
+        "inventados/tuxplano.ldr",
+        "inventados/tuxtentero.ldr",
+        "inventados/ubuntu_exin_castillos.ldr",
+        "inventados/ubuntu_exin_castillos_transparente.ldr",
+        "inventados/urna_votacion.ldr",
+        "inventados/ventanas_ahumadas.ldr",
+        "inventados/vialia_antiguo.ldr",
+        "inventados/vialia_antiguo_lateral_bajo.ldr",
+        "inventados/vialia_antiguo_primera_planta.ldr",
+        "inventados/vialia_antiguo_segunda_planta.ldr",
+        "inventados/walkietalkie.ldr",
+        "inventados/walkietalkies_pair.ldr",
+        "inventados/zxspectrum48k.ldr"
     ],
     "parts": {
         "acetilen.dat": {

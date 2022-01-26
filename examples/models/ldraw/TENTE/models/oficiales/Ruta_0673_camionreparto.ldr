@@ -2,7 +2,7 @@
 0 Name: camionreparto.ldr
 0 Author: cpcbegin
 0 Tente ruta
-0 ROTATION CENTER 0 0 0 1 "Custom"
+0 ROTATION CENTER 0 0 0 1 "Custom" 
 0 ROTATION CONFIG 0 0
 1 4 30 -122 22 1 0 0 0 1 0 0 0 1 jacena4.dat
 1 4 30 -154 22 1 0 0 0 1 0 0 0 1 jacena4.dat
@@ -52,3 +52,4 @@
 1 4 50 -114 -78 1 0 0 0 1 0 0 0 1 llantrut.dat
 1 0 50 -114 -78 1 0 0 0 1 0 0 0 1 ruta21nm.dat
 1 0 30 -154 42 1 0 0 0 1 0 0 0 1 cocacola.dat
+0
