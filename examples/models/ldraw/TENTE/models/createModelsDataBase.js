@@ -24,21 +24,27 @@ const dataBase = {
 
 };
 
-spawnProgram(
-	__dirname,
-	'cp',
-	[
-		'../p/BOX5.DAT',
-		'../p/box5.dat',
-	],
-	( code, output, error ) => {},
-	true
-);
+/*
+function copyP( orig, dest ) {
+	spawnProgram(
+		__dirname,
+		'cp',
+		[
+			orig,
+			dest
+		],
+		( code, output, error ) => {},
+		true
+	);
+}
+copyP( '../p/BOX4.DAT', '../p/box4.dat' );
+copyP( '../p/BOX5.DAT', '../p/box5.dat' );
+*/
 
 console.log( "Reading source database ..." );
 
 const sourceDataBasePath = 'TENTE Refs - Visor TNT - RefsTENTE.tsv';
-let sourceDataBase = readTextFileSync( pathJoin( __dirname, sourceDataBasePath ), "latin1" );
+let sourceDataBase = readTextFileSync( pathJoin( __dirname, sourceDataBasePath ), "utf-8" );
 
 if ( sourceDataBase === null ) {
 
@@ -291,7 +297,6 @@ if ( ! writeJSONFileSync( dataBase, pathJoin( __dirname, "models.json" ) ) ) {
 
 const htmlModelListPath = '../../../../tnt_models.html';
 
-console.log();
 console.log( "Writing " + htmlModelListPath );
 
 let htmlModelListContent =
@@ -393,6 +398,8 @@ htmlModelListContent = htmlModelListContent.replace( '***OFFICIAL_MODELS_COUNT**
 htmlModelListContent = htmlModelListContent.replace( '***CUSTOM_MODELS***', customModelsContent );
 htmlModelListContent = htmlModelListContent.replace( '***CUSTOM_MODELS_COUNT***', '' + customModelsCount );
 
+//htmlModelListContent = strReplaceAll( htmlModelListContent, 'https://yomboprime.github.io/TNTViewer', 'http://127.0.0.1:8091' );
+
 if ( ! writeTextFileSync( htmlModelListContent, pathJoin( __dirname, htmlModelListPath ) ) ) {
 
 	console.log( "ERROR writing tnt_models.html !" );
@@ -402,7 +409,6 @@ if ( ! writeTextFileSync( htmlModelListContent, pathJoin( __dirname, htmlModelLi
 
 const htmlPartListPath = '../../../../tnt_parts.html';
 
-console.log();
 console.log( "Writing " + htmlPartListPath );
 
 let htmlPartListContent =
@@ -457,8 +463,10 @@ for ( let i in dataBase.partsPathsList ) {
 
 }
 
-htmlPartListContent = htmlPartListContent .replace( '***PARTS_LIST***', partsContent );
-htmlPartListContent = htmlPartListContent .replace( '***PARTS_COUNT***', '' + partsCount  );
+htmlPartListContent = htmlPartListContent.replace( '***PARTS_LIST***', partsContent );
+htmlPartListContent = htmlPartListContent.replace( '***PARTS_COUNT***', '' + partsCount  );
+
+//htmlPartListContent = strReplaceAll( htmlPartListContent, 'https://yomboprime.github.io/TNTViewer', 'http://127.0.0.1:8091' );
 
 if ( ! writeTextFileSync( htmlPartListContent, pathJoin( __dirname, htmlPartListPath ) ) ) {
 
@@ -642,5 +650,11 @@ function execProgram( cwd, command, callback, cancelOutput ) {
 		}
 
 	} );
+
+}
+
+function strReplaceAll( str, find, replace ) {
+
+	return str.replace( new RegExp( find, 'g'), replace );
 
 }

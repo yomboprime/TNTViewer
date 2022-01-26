@@ -36,6 +36,11 @@
 				'TENTE',
 				'EXINCASTILLOS'
 			];
+			const constructionSetScale = {
+				'LEGO': 1,
+				'TENTE': 0.4,
+				'EXINCASTILLOS': 1
+			};
 			let currentConstructionSet;
 
 			let container, progressBarDiv;
@@ -47,6 +52,7 @@
 			let parts;
 			let models;
 			let modelDiameter, turn;
+			let modelBbox;
 			const meanPos = new THREE.Vector3();
 			const ANIM_STOPPED = 0;
 			const ANIM_FALLING = 1;
@@ -240,7 +246,8 @@
 							modelSeries: '',
 							modelRef: '',
 							modelInfoURL: '',
-							path: ''
+							path: '',
+							modelBboxInfo: ''
 						};
 
 						window.addEventListener( 'resize', onWindowResize );
@@ -474,7 +481,7 @@
 					// Convert from LDraw coordinates: rotate 180 degrees around OX
 					model.rotation.x = Math.PI;
 
-					const modelBbox = new THREE.Box3().setFromObject( model );
+					modelBbox = new THREE.Box3().setFromObject( model );
 					const size = modelBbox.getSize( new THREE.Vector3() );
 					const radius = Math.max( size.x, Math.max( size.y, size.z ) ) * 0.5;
 					modelDiameter = 2 * radius;
@@ -1120,6 +1127,10 @@
 				modelRefController = infoFolder.add( guiData, 'modelRef' ).name( 'Reference' );
 				modelInfoURLController = infoFolder.add( guiData, 'modelInfoURL' ).name( 'Info URL' );
 				pathController = infoFolder.add( guiData, 'path' ).name( 'Path' );
+				modelBbox.getSize( vector3Temp1 ).multiplyScalar( constructionSetScale[ currentConstructionSet ] );
+				function round10( x ) { return Math.round( x * 10 ) / 10; }
+				guiData.modelBboxInfo = round10( vector3Temp1.x ) + " x " + round10( vector3Temp1.z ) + " x " + round10( vector3Temp1.y );
+				infoFolder.add( guiData, 'modelBboxInfo' ).name( 'Model bounds (mm)' );
 
 				const optionsFolder = gui.addFolder( "Options" );
 
