@@ -1323,13 +1323,6 @@
             "seriesNumber": null,
             "refNumber": null
         },
-        "inventados/cajonera_4c.ldr": {
-            "path": "inventados/cajonera_4c.ldr",
-            "id": "",
-            "title": "inventados/cajonera_4c",
-            "seriesNumber": null,
-            "refNumber": null
-        },
         "inventados/castillito1.ldr": {
             "path": "inventados/castillito1.ldr",
             "id": "",
@@ -2074,7 +2067,6 @@
         "inventados/cajonera/cajon.ldr",
         "inventados/cajonera/cajonera_4c.ldr",
         "inventados/cajonera/cajonera_4c_open.ldr",
-        "inventados/cajonera_4c.ldr",
         "inventados/castillito1.ldr",
         "inventados/circulo.ldr",
         "inventados/cohete_tintin.ldr",

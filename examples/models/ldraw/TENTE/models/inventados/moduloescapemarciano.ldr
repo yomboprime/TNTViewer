@@ -6,13 +6,13 @@
 0 ROTATION CONFIG 0 0
 1 32 50 16 0 1 0 0 0 1 0 0 0 1 semicupg.dat
 1 32 50 16 0 -1 0 0 0 1 0 0 0 -1 semicupg.dat
-1 258 50 48 0 -1 0 0 0 1 0 0 0 -1 popa6p.dat
+1 8 50 48 0 -1 0 0 0 1 0 0 0 -1 popa6p.dat
 1 7 70 40 20 -1 0 0 0 1 0 0 0 -1 placa2x2.dat
 1 7 50 32 0 -1 0 0 0 1 0 0 0 -1 popa4p.dat
 1 7 50 32 0 1 0 0 0 1 0 0 0 1 popa4p.dat
-1 258 50 48 0 1 0 0 0 1 0 0 0 1 popa6p.dat
-1 258 50 24 0 -1 0 0 0 1 0 0 0 -1 popa6p.dat
-1 258 50 24 0 1 0 0 0 1 0 0 0 1 popa6p.dat
+1 8 50 48 0 1 0 0 0 1 0 0 0 1 popa6p.dat
+1 8 50 24 0 -1 0 0 0 1 0 0 0 -1 popa6p.dat
+1 8 50 24 0 1 0 0 0 1 0 0 0 1 popa6p.dat
 1 8 70 64 20 1 0 0 0 1 0 0 0 1 alfaramp.dat
 1 8 30 64 -20 -1 0 0 0 1 0 0 0 -1 alfaramp.dat
 1 8 30 64 20 0 0 -1 0 1 0 1 0 0 alfaramp.dat
