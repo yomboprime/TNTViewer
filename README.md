@@ -30,6 +30,8 @@ cd TNTViewer/examples/models/ldraw/TENTE/models
 node createModelsDataBase.js
 ```
 
+You will need to install [NodeJS](https://nodejs.org/) first. If ```node``` is not found, perhaps in your system it is called ```nodejs``` instead.
+
 This will update the ```models.json``` index file used in the viewer, as well as the HTML files ```TNTViewer/tnt_models.html``` and ```TNTViewer/tnt_parts.html``` which are the models and parts lists. Then just refresh your browser by pressing F5.
 
 LEGO parts library is not currently included due to its large size.
