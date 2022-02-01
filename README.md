@@ -15,7 +15,13 @@ Most of the original official models by TENTE (subfolder ```models/oficiales```)
 
 ## How to use your own models
 
-You can run TNTViewer in any HTTP server you can run locally, just clone this repo and move its folder to your web server content folder. TNTViewer is a pure static HTML5 web application, so you just need to serve the files. Having the models locally lets you modify them and update the viewer by just pressing F5. Keep in mind that if you add models or parts or rename them, you need to run the createModelsDataBase.js script (see below) to update the web app.
+You can run TNTViewer in any HTTP server you can run locally, just clone this repo (this command will create the folder ```TNTViewer```):
+
+```shell
+git clone https://github.com/yomboprime/TNTViewer.git
+```
+
+And move this folder to your web server content folder. TNTViewer is a pure static HTML5 web application, so you just need to serve the files. Having the models locally lets you modify them and update the viewer by just pressing F5. Keep in mind that if you add models or parts or rename them, you need to run the createModelsDataBase.js script (see below) to update the web app.
 
 The TENTE models and parts are located under ```TNTViewer/examples/models/ldraw/TENTE/models``` and ```TNTViewer/examples/models/ldraw/TENTE/parts``` respectively. You can put any ```.ldr``` files you want under any subfolder you create inside ```models/```. Then issue the commands:
 
@@ -30,7 +36,7 @@ LEGO parts library is not currently included due to its large size.
 
 ### Spanish tutorial on how to install locally
 
-For a tutorial made by **cpcbegin**, the author of the models repository, please go to: https://malagaoriginal.blogspot.com/2022/01/visor-web-de-modelos-ldraw-y.html
+For a spanish TNTViewer installation tutorial made by **cpcbegin**, the author of the models repository, please go to: https://malagaoriginal.blogspot.com/2022/01/visor-web-de-modelos-ldraw-y.html
 
 ## Contribute with models
 
