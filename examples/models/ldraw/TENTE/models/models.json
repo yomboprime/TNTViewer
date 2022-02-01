@@ -10,23 +10,23 @@
         "oficiales/403_casahalt.ldr": {
             "path": "oficiales/403_casahalt.ldr",
             "id": "",
-            "title": "casahalt",
-            "seriesNumber": null,
-            "refNumber": "403"
+            "title": "",
+            "seriesNumber": "403",
+            "refNumber": "casahalt"
         },
         "oficiales/403_chalet403.ldr": {
             "path": "oficiales/403_chalet403.ldr",
             "id": "",
-            "title": "chalet403",
-            "seriesNumber": null,
-            "refNumber": "403"
+            "title": "",
+            "seriesNumber": "403",
+            "refNumber": "chalet403"
         },
         "oficiales/403_cochetente3.ldr": {
             "path": "oficiales/403_cochetente3.ldr",
             "id": "",
-            "title": "cochetente3",
-            "seriesNumber": null,
-            "refNumber": "403"
+            "title": "",
+            "seriesNumber": "403",
+            "refNumber": "cochetente3"
         },
         "oficiales/Aire_0501_servicio_autopista.ldr": {
             "path": "oficiales/Aire_0501_servicio_autopista.ldr",
@@ -359,29 +359,29 @@
         },
         "oficiales/Combi-Astro_0340_lectorgeologico.ldr": {
             "path": "oficiales/Combi-Astro_0340_lectorgeologico.ldr",
-            "id": "",
-            "title": "lectorgeologico",
+            "id": "233",
+            "title": "LECTOR GEOLÓGICO",
             "seriesNumber": "Combi-Astro",
             "refNumber": "0340"
         },
         "oficiales/Combi-Mar_0301.ldr": {
             "path": "oficiales/Combi-Mar_0301.ldr",
-            "id": "",
-            "title": "Combi-Mar 0301",
-            "seriesNumber": null,
-            "refNumber": null
+            "id": "184",
+            "title": "PATRULLERO (CONSUL)",
+            "seriesNumber": "Combi-Mar",
+            "refNumber": "0301"
         },
         "oficiales/Combi-Mar_0302.ldr": {
             "path": "oficiales/Combi-Mar_0302.ldr",
-            "id": "",
-            "title": "Combi-Mar 0302",
-            "seriesNumber": null,
-            "refNumber": null
+            "id": "185",
+            "title": "TRANSPORTE ANFIBIO (OCEAN)",
+            "seriesNumber": "Combi-Mar",
+            "refNumber": "0302"
         },
         "oficiales/Combi-Mar_0333_corfu.ldr": {
             "path": "oficiales/Combi-Mar_0333_corfu.ldr",
-            "id": "",
-            "title": "corfu",
+            "id": "192",
+            "title": "TRANSBORDADOR (CORFU)",
             "seriesNumber": "Combi-Mar",
             "refNumber": "0333"
         },

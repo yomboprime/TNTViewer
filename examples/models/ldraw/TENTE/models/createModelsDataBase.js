@@ -72,7 +72,7 @@ for ( let l in sourceDataBase ) {
 		.replace( 'ó', 'o' ).replace( 'Ó', 'O' )
 		.replace( 'ó', 'u' ).replace( 'Ú', 'U' )
 		.replace( 'ñ', 'n' ).replace( 'Ñ', 'N' )
-		.replace( ' ', '_' );
+		.replace( ' ', '-' );
 
 	sourceDataBaseFields.push( fields );
 
@@ -206,17 +206,21 @@ for ( let i in dataBase.modelPathsList ) {
 
 	if ( modelPath.startsWith( 'oficiales/' ) ) {
 
-		const pathFields = modelPath.substring( 'oficiales/'.length ).split( '_' );
+		let pathFieldsStr = modelPath;
+		if ( pathFieldsStr.endsWith( '.ldr' ) ) pathFieldsStr = pathFieldsStr.substring( 0, pathFieldsStr.length - 4 );
+		const pathFields = pathFieldsStr.substring( 'oficiales/'.length ).split( '_' );
 		const numPathFields = pathFields.length;
 		if ( numPathFields === 0 ) continue;
 
 		if ( numPathFields === 1 ) model.title = pathFields[ 0 ];
 		else if ( numPathFields === 2 ) {
 
-			if ( Number.isInteger( parseInt( pathFields[ 0 ] ) ) ) {
+			if ( Number.isInteger( parseInt( pathFields[ 0 ] ) ) || Number.isInteger( parseInt( pathFields[ 1 ] ) ) ) {
 
-				model.refNumber = pathFields[ 0 ];
-				model.title = pathFields[ 1 ];
+				model.seriesNumber = pathFields[ 0 ];
+				model.refNumber = pathFields[ 1 ];
+
+				editModelByDataBase( model, pathFields )
 
 			}
 			else model.title = pathFields[ 0 ] + ' ' + pathFields[ 1 ];
@@ -237,25 +241,9 @@ for ( let i in dataBase.modelPathsList ) {
 			else if ( Number.isInteger( parseInt( pathFields[ 1 ] ) ) ) {
 
 				model.seriesNumber = pathFields[ 0 ];
-
 				model.refNumber = pathFields[ 1 ];
 
-				// Search in source database by series and ref
-
-				const sourceFields = findSeriesRef( model.seriesNumber, model.refNumber );
-				if ( sourceFields ) {
-
-					model.id = sourceFields[ 0 ];
-					model.title = sourceFields[ 3 ];
-					numModelsInSourceDataBase ++;
-				}
-				else {
-
-					const titleParts = [];
-					for ( let j = 2; j < numPathFields; j ++ ) titleParts.push( pathFields[ j ] );
-
-					model.title = titleParts.length > 0 ? titleParts.join( ' ' ) : '';
-				}
+				editModelByDataBase( model, pathFields );
 
 			}
 			else {
@@ -275,6 +263,29 @@ for ( let i in dataBase.modelPathsList ) {
 	if ( model.title.endsWith( '.ldr' ) ) {
 
 		model.title = model.title.substring( 0, model.title.length - 4 );
+
+	}
+
+}
+
+function editModelByDataBase( model, pathFields ) {
+
+	// Search in source database by series and ref
+
+	const sourceFields = findSeriesRef( model.seriesNumber, model.refNumber );
+	if ( sourceFields ) {
+
+		model.id = sourceFields[ 0 ];
+		model.title = sourceFields[ 3 ];
+		numModelsInSourceDataBase ++;
+
+	}
+	else {
+
+		const titleParts = [];
+		for ( let j = 2; j < pathFields.length; j ++ ) titleParts.push( pathFields[ j ] );
+
+		model.title = titleParts.length > 0 ? titleParts.join( ' ' ) : '';
 
 	}
 
