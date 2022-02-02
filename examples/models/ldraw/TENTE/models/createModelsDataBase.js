@@ -88,7 +88,6 @@ for ( let l in sourceDataBase ) {
 
 console.log( "Reading parts list..." );
 
-/*
 const partsListPath = 'parts.lst';
 let partsListLines = readTextFileSync( pathJoin( __dirname, '..', partsListPath ), "latin1" );
 //console.log( partsListLines );
@@ -139,44 +138,6 @@ for ( let i in partsListLines ) {
 	} );
 
 }
-*/
-
-const partsListPath = 'partslist.tsv';
-let partsListLines = readTextFileSync( pathJoin( __dirname, partsListPath ), "latin1" );
-//console.log( partsListLines );
-if ( partsListLines === null ) {
-
-	console.log();
-	console.log( "Error reading parts list file: " + partsListPath );
-	process.exit( - 1 );
-
-}
-
-partsListLines = partsListLines.toString().split( '\n' );
-
-const partsTempArray = [];
-let ignoredPArtsLines = 0;
-for ( let i in partsListLines ) {
-
-	const partsListLine = partsListLines[ i ];
-
-	const tabPos = partsListLine.indexOf( '\t' );
-	if ( tabPos < 0 ) {
-
-		ignoredPArtsLines ++;
-		continue;
-
-	}
-
-	const title = partsListLine.substring( 0, tabPos );
-	let path = partsListLine.substring( tabPos ).trim();
-
-	partsTempArray.push( {
-		path: path,
-		title: title
-	} );
-
-}
 
 partsTempArray.sort( ( a, b ) => {
 
@@ -184,9 +145,70 @@ partsTempArray.sort( ( a, b ) => {
 
 } );
 
+
+const jasoloPartsListPath = 'partslist.tsv';
+let jasoloPartsListLines = readTextFileSync( pathJoin( __dirname, jasoloPartsListPath ), "latin1" );
+//console.log( partsListLines );
+if ( jasoloPartsListLines === null ) {
+
+	console.log();
+	console.log( "Error reading parts list file: " + jasoloPartsListPath );
+	process.exit( - 1 );
+
+}
+
+jasoloPartsListLines = jasoloPartsListLines.toString().split( '\n' );
+
+const jasoloPartsTempArray = [];
+let ignoredJasoloPartsLines = 0;
+for ( let i in jasoloPartsListLines ) {
+
+	const partsListLine = jasoloPartsListLines[ i ];
+
+	const tabPos = partsListLine.indexOf( '\t' );
+	if ( tabPos < 0 ) {
+
+		ignoredJasoloPartsLines ++;
+		continue;
+
+	}
+
+	const title = partsListLine.substring( 0, tabPos );
+	let path = partsListLine.substring( tabPos ).trim();
+
+	jasoloPartsTempArray.push( {
+		path: path,
+		title: title
+	} );
+
+}
+
+jasoloPartsTempArray.sort( ( a, b ) => {
+
+	return a.title.localeCompare( b.title );
+
+} );
+
+function findJasoloPart( path ) {
+
+	for ( let i in jasoloPartsTempArray ) {
+
+		const jasoloPart = jasoloPartsTempArray[ i ];
+
+		if ( jasoloPart.path === path ) return jasoloPart;
+
+	}
+
+	return null;
+
+}
+
 for ( let i in partsTempArray ) {
 
-	const part = partsTempArray[ i ];
+	let part = partsTempArray[ i ];
+
+	const jasoloPart = findJasoloPart( part.path );
+	if ( jasoloPart ) part.title = jasoloPart.title;
 
 	dataBase.partsPathsList.push( part.path );
 	dataBase.parts[ part.path ] = part;
