@@ -1,8 +1,7 @@
 0 Etiqueta Logo Triangulos
 0 Name: p_harlog.dat
 0 Author: svlopez
-0 ROTATION CENTER 0 0 0 1 "Custom" 
-0 ROTATION CONFIG 0 0
+0 BFC CERTIFY CW
 4 15 14.19 2.09 0 17.49 2.09 0 17.49 2.2 0 14.19 2.2 0
 4 15 13.53 2.2 0 18.15 2.2 0 18.15 2.31 0 13.53 2.31 0
 4 15 12.87 2.31 0 18.81 2.31 0 18.81 2.42 0 12.87 2.42 0

@@ -1,8 +1,7 @@
 0 Etiqueta Ibiza Bluelines
 0 Name: p_ibizbl.dat
 0 Author: svlopez
-0 ROTATION CENTER 0 0 0 1 "Custom" 
-0 ROTATION CONFIG 0 0
+0 BFC CERTIFY CW
 4 479 61.6 0 0 61.7 0 0 61.7 0.1 0 61.6 0.1 0
 4 1 155.8 2 0 158.2 2 0 158.2 2.1 0 155.8 2.1 0
 4 1 154 2.1 0 159.5 2.1 0 159.5 2.2 0 154 2.2 0

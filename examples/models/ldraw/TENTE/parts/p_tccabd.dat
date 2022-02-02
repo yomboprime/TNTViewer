@@ -1,8 +1,7 @@
 0 Etiqueta Transcomputer cabina derecha
 0 Name: p_tccabd.dat
 0 Author: svlopez
-0 ROTATION CENTER 0 0 0 1 "Custom" 
-0 ROTATION CONFIG 0 0
+0 BFC CERTIFY CW
 4 15 0 0 0 20.1 0 0 20.1 0.1 0 0 0.1 0
 4 15 0 0.1 0 20.4 0.1 0 20.4 0.2 0 0 0.2 0
 4 15 0 0.2 0 20.6 0.2 0 20.6 0.3 0 0 0.3 0

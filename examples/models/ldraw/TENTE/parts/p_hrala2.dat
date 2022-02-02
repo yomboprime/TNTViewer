@@ -1,8 +1,7 @@
 0 Etiqueta Ala Robot Hardtron 2
 0 p_hrala2.dat
 0 Author: svlopez
-0 ROTATION CENTER 0 0 0 1 "Custom" 
-0 ROTATION CONFIG 0 0
+0 BFC CERTIFY CW
 4 14 16.28 7.48 0 25.74 7.48 0 25.74 7.59 0 16.28 7.59 0
 4 14 15.62 7.59 0 26.62 7.59 0 26.62 7.7 0 15.62 7.7 0
 4 14 15.18 7.7 0 27.06 7.7 0 27.06 7.81 0 15.18 7.81 0

@@ -1,8 +1,7 @@
 0 Etiqueta Galaxie bandas 2
 0 Name: p_gaban2.dat
 0 Author: svlopez
-0 ROTATION CENTER 0 0 0 1 "Custom" 
-0 ROTATION CONFIG 0 0
+0 BFC CERTIFY CW
 4 15 0 0 0 12.1 0 0 12.1 13.4 0 0 13.4 0
 4 15 23.7 0 0 35.8 0 0 35.8 13.4 0 23.7 13.4 0
 0

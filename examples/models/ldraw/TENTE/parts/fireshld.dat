@@ -1,8 +1,7 @@
 0 Etiqueta escudo bomberos japoneses      |R:R
 0 Name: fireshld.dat
 0 Author: cpcbegin
-0 ROTATION CENTER 0 0 0 1 "Custom"
-0 ROTATION CONFIG 0 0
+0 BFC CERTIFY CW
 4 16 15.667 -22.753 0 14 -22.753 0 14 -22.442 0 15.667 -22.442 0
 4 16 5.667 -22.753 0 5 -22.753 0 5 -22.442 0 5.667 -22.442 0
 4 16 16 -22.442 0 13.667 -22.442 0 13.667 -22.13 0 16 -22.13 0

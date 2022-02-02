@@ -1,8 +1,7 @@
 0 Etiqueta Titanium 6
 0 Name: p_titan6.ldr
 0 Author: svlopez
-0 ROTATION CENTER 0 0 0 1 "Custom" 
-0 ROTATION CONFIG 0 0
+0 BFC CERTIFY CW
 4 15 0 0 0 35.84 0 0 35.84 2.56 0 0 2.56 0
 4 0 2.56 2.56 0 33.28 2.56 0 33.28 7.36 0 2.56 7.36 0
 4 0 2.56 7.36 0 13.76 7.36 0 13.76 7.68 0 2.56 7.68 0

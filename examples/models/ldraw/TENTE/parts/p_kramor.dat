@@ -1,8 +1,7 @@
 0 Etiqueta Krator Morro
 0 Name: p_kramor.dat
 0 Author: svlopez
-0 ROTATION CENTER 0 0 0 1 "Custom" 
-0 ROTATION CONFIG 0 0
+0 BFC CERTIFY CW
 4 14 31.46 2.31 0 33.55 2.31 0 33.55 2.42 0 31.46 2.42 0
 4 14 31.13 2.42 0 33.88 2.42 0 33.88 2.53 0 31.13 2.53 0
 4 14 30.8 2.53 0 34.21 2.53 0 34.21 2.64 0 30.8 2.64 0

@@ -1,8 +1,7 @@
 0 Etiqueta Krator Flecha
 0 Name: p_krpie2.dat
 0 Author: svlopez
-0 ROTATION CENTER 0 0 0 1 "Custom" 
-0 ROTATION CONFIG 0 0
+0 BFC CERTIFY CW
 4 14 2.97 2.2 0 3.08 2.2 0 3.08 2.31 0 2.97 2.31 0
 4 14 2.97 2.31 0 3.19 2.31 0 3.19 2.42 0 2.97 2.42 0
 4 14 2.97 2.42 0 3.3 2.42 0 3.3 2.53 0 2.97 2.53 0

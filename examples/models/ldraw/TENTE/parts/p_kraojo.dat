@@ -1,8 +1,7 @@
 0 Etiqueta Krator Ojos
 0 Name: p_kraojo.dat
 0 Author: svlopez
-0 ROTATION CENTER 0 0 0 1 "Custom" 
-0 ROTATION CONFIG 0 0
+0 BFC CERTIFY CW
 4 0 7.15 2.75 0 9.35 2.75 0 9.35 2.86 0 7.15 2.86 0
 4 0 27.94 2.75 0 30.14 2.75 0 30.14 2.86 0 27.94 2.86 0
 4 0 6.49 2.86 0 10.12 2.86 0 10.12 2.97 0 6.49 2.97 0

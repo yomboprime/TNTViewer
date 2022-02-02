@@ -1,8 +1,7 @@
 0 Etiqueta Hardtron Robot Grafico
 0 Name: p_harrob.dat
 0 Author: svlopez
-0 ROTATION CENTER 0 0 0 1 "Custom" 
-0 ROTATION CONFIG 0 0
+0 BFC CERTIFY CW
 4 15 18.59 2.31 0 61.6 2.31 0 61.6 2.42 0 18.59 2.42 0
 4 15 18.15 2.42 0 62.15 2.42 0 62.15 2.53 0 18.15 2.53 0
 4 15 18.04 2.53 0 62.26 2.53 0 62.26 2.64 0 18.04 2.64 0

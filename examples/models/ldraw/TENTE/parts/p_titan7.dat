@@ -1,8 +1,7 @@
 0 Etiqueta Titanium 7
 0 Name: p_titan7.dat
 0 Author: svlopez
-0 ROTATION CENTER 0 0 0 1 "Custom" 
-0 ROTATION CONFIG 0 0
+0 BFC CERTIFY CW
 4 15 0 0 0 40 0 0 40 2.7 0 0 2.7 0
 4 0 2.7 2.7 0 37.3 2.7 0 37.3 8.5 0 2.7 8.5 0
 4 0 2.7 8.5 0 10.9 8.5 0 10.9 8.6 0 2.7 8.6 0

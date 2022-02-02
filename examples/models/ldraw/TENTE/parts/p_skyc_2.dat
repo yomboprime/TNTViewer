@@ -1,8 +1,7 @@
 0 Etiqueta Skymaster Circuito 2
 0 Name: p_skyc_2.dat
 0 Author: svlopez
-0 ROTATION CENTER 0 0 0 1 "Custom" 
-0 ROTATION CONFIG 0 0
+0 BFC CERTIFY CW
 4 14 15 2.9 0 17.3 2.9 0 17.3 9.4 0 15 9.4 0
 4 14 11.8 9.4 0 20.5 9.4 0 20.5 11.7 0 11.8 11.7 0
 4 14 11.8 13 0 20.5 13 0 20.5 15.3 0 11.8 15.3 0

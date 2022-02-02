@@ -1,8 +1,7 @@
 0 Etiqueta Transcomputer teclado
 0 Name: p_tctecl.dat
 0 Author: svlopez
-0 ROTATION CENTER 0 0 0 1 "Custom" 
-0 ROTATION CONFIG 0 0
+0 BFC CERTIFY CW
 4 1 0 0 0 55.9 0 0 55.9 1.1 0 0 1.1 0
 4 1 0 1.1 0 34 1.1 0 34 2.4 0 0 2.4 0
 4 1 36.2 1.1 0 55.9 1.1 0 55.9 2.4 0 36.2 2.4 0

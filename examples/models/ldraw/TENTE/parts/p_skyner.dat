@@ -1,8 +1,7 @@
 0 Etiqueta Skymaster NER
 0 Name: p_skyner.dat
 0 Author: svlopez
-0 ROTATION CENTER 0 0 0 1 "Custom"
-0 ROTATION CONFIG 0 0
+0 BFC CERTIFY CW
 3 15 0.71 0 0 2.22 -3.92 0 2.2 -2.4 0
 3 15 0.71 0 0 2.2 -2.4 0 2.2 0 0
 3 15 6.2 -5.13 0 6.2 -4.88 0 4.48 -4.76 0

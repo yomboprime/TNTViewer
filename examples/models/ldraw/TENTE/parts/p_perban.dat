@@ -1,8 +1,7 @@
 0 Etiqueta Persus Bandas
 0 Name: p_perban.dat
 0 Author: svlopez
-0 ROTATION CENTER 0 0 0 1 "Custom" 
-0 ROTATION CONFIG 0 0
+0 BFC CERTIFY CW
 4 0 0.44 0 0 13.2 0 0 13.2 0.11 0 0.44 0.11 0
 4 0 49.72 0 0 62.48 0 0 62.48 0.11 0 49.72 0.11 0
 4 0 0.44 0.11 0 13.31 0.11 0 13.31 0.22 0 0.44 0.22 0

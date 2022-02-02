@@ -1,8 +1,7 @@
 0 Etiqueta Teclado
 0 Name:p_teclad.dat
 0 Author: svlopez
-0 ROTATION CENTER 0 0 0 1 "Custom" 
-0 ROTATION CONFIG 0 0
+0 BFC CERTIFY CW
 4 0 3.72 2.88 0 39.96 2.88 0 39.96 4.08 0 3.72 4.08 0
 4 1 4.92 4.08 0 38.76 4.08 0 38.76 5.52 0 4.92 5.52 0
 4 1 4.92 5.52 0 6.96 5.52 0 6.96 5.64 0 4.92 5.64 0

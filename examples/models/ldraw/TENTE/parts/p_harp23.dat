@@ -1,8 +1,7 @@
 0 Etiqueta Hardtron Pista 2
 0 Name: p_harp23.dat
 0 Author: svlopez
-0 ROTATION CENTER 0 0 0 1 "Custom" 
-0 ROTATION CONFIG 0 0
+0 BFC CERTIFY CW
 4 15 52.3 8.2 0 52.5 8.2 0 52.5 8.3 0 52.3 8.3 0
 4 15 52.8 8.2 0 52.9 8.2 0 52.9 8.3 0 52.8 8.3 0
 4 15 53 8.2 0 53.1 8.2 0 53.1 8.3 0 53 8.3 0

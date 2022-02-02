@@ -1,8 +1,7 @@
 0 Etiqueta Ruta Mombasa
 0 Name: p_mombas.dat
 0 Author: svlopez
-0 ROTATION CENTER 0 0 0 1 "Custom" 
-0 ROTATION CONFIG 0 0
+0 BFC CERTIFY CW
 4 383 58.8 2.8 0 58.9 2.8 0 58.9 2.9 0 58.8 2.9 0
 4 399 58.9 2.8 0 59 2.8 0 59 2.9 0 58.9 2.9 0
 4 271 59 2.8 0 59.2 2.8 0 59.2 2.9 0 59 2.9 0

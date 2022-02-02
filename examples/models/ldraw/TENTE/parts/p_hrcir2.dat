@@ -1,8 +1,7 @@
 0 Etiqueta Circuito Robot Hardtron 2
 0 p_hrcir2.dat
 0 Author: svlopez
-0 ROTATION CENTER 0 0 0 1 "Custom" 
-0 ROTATION CONFIG 0 0
+0 BFC CERTIFY CW
 4 14 0.8 0.8 0 6.2 0.8 0 6.2 3.3 0 0.8 3.3 0
 4 14 13.5 0.8 0 18.9 0.8 0 18.9 3.3 0 13.5 3.3 0
 4 14 0.8 5 0 6.2 5 0 6.2 7.5 0 0.8 7.5 0

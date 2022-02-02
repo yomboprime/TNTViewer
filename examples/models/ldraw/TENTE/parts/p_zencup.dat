@@ -1,8 +1,7 @@
 0 Etiqueta Zenith Cupula
 0 p_zencup.dat
 0 Author: jasolo & svlopez
-0 ROTATION CENTER 0 0 0 1 "Custom" 
-0 ROTATION CONFIG 0 0
+0 BFC CERTIFY CCW
 3 1 -13.74 -30.77 52.52 -13.02 -30.99 52.6 -9.57 -23.69 56.41
 3 1 9.88 -32.27 52.62 10.88 -31.71 52.72 5.59 -22.11 57.47
 3 1 5.59 -22.11 57.47 1.92 -21.22 57.98 4.46 -31.86 53.59

@@ -1,8 +1,7 @@
 0 Etiqueta Flechas
 0 Name: p_flecha.dat
 0 Author: svlopez
-0 ROTATION CENTER 0 0 0 1 "Custom" 
-0 ROTATION CONFIG 0 0
+0 BFC CERTIFY CW
 4 14 12.43 1.1 0 12.54 1.1 0 12.54 1.21 0 12.43 1.21 0
 4 14 29.37 1.1 0 29.48 1.1 0 29.48 1.21 0 29.37 1.21 0
 4 14 12.32 1.21 0 12.54 1.21 0 12.54 1.32 0 12.32 1.32 0

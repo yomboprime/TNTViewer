@@ -1,8 +1,7 @@
 0 Etiqueta Helitron 5
 0 Name: p_heli_5.dat
 0 Author: svlopez
-0 ROTATION CENTER 0 0 0 1 "Custom" 
-0 ROTATION CONFIG 0 0
+0 BFC CERTIFY CW
 4 15 2.2 1.54 0 9.68 1.54 0 9.68 1.65 0 2.2 1.65 0
 4 15 9.68 1.54 0 14.19 1.54 0 14.19 1.65 0 9.68 1.65 0
 4 15 14.19 1.54 0 21.45 1.54 0 21.45 1.65 0 14.19 1.65 0

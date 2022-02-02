@@ -1,8 +1,7 @@
 0 Etiqueta Zenith Star Lines
 0 Name: p_zensta.dat
 0 Author: svlopez
-0 ROTATION CENTER 0 0 0 1 "Custom" 
-0 ROTATION CONFIG 0 0
+0 BFC CERTIFY CW
 4 1 15 6.72 0 19.08 6.72 0 19.08 6.84 0 15 6.84 0
 4 1 55.92 6.72 0 64.44 6.72 0 64.44 6.84 0 55.92 6.84 0
 4 1 75.12 6.72 0 87.84 6.72 0 87.84 6.84 0 75.12 6.84 0

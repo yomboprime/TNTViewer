@@ -1,8 +1,7 @@
 0 Etiqueta Ruta Shell Izq
 0 Name: p_shelli.dat
 0 Author: svlopez
-0 ROTATION CENTER 0 0 0 1 "Custom" 
-0 ROTATION CONFIG 0 0
+0 BFC CERTIFY CW
 4 4 0 0 0 51.7 0 0 51.7 0.1 0 0 0.1 0
 4 4 0 0.1 0 52 0.1 0 52 0.2 0 0 0.2 0
 4 4 0 0.2 0 52.2 0.2 0 52.2 0.3 0 0 0.3 0

@@ -1,8 +1,7 @@
 0 Etiqueta Ruta Enelectra
 0 Name: p_rutene.dat
 0 Author: svlopez
-0 ROTATION CENTER 0 0 0 1 "Custom" 
-0 ROTATION CONFIG 0 0
+0 BFC CERTIFY CW
 4 0 94.84 -21.32 -0.5 95.39 -21.32 -0.5 95.39 -21.21 -0.5 94.84 -21.21 -0.5
 4 0 94.51 -21.21 -0.5 95.61 -21.21 -0.5 95.61 -21.1 -0.5 94.51 -21.1 -0.5
 4 0 97.81 -21.21 -0.5 98.47 -21.21 -0.5 98.47 -21.1 -0.5 97.81 -21.1 -0.5

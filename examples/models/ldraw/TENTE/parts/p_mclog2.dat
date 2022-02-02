@@ -1,8 +1,7 @@
 0 Etiqueta MasterCaptor logo2
 0 Name: p_mclog2.ldr
 0 Author: svlopez
-0 ROTATION CENTER 0 0 0 1 "Custom" 
-0 ROTATION CONFIG 0 0
+0 BFC CERTIFY CW
 4 0 7.59 0 0 11.96 0 0 11.96 0.23 0 7.59 0.23 0
 4 0 6.9 0.23 0 12.65 0.23 0 12.65 0.46 0 6.9 0.46 0
 4 0 6.21 0.46 0 13.34 0.46 0 13.34 0.69 0 6.21 0.69 0

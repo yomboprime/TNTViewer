@@ -1,8 +1,7 @@
 0 Etiqueta Ruta Shell Der
 0 Name: p_shelld.dat
 0 Author: svlopez
-0 ROTATION CENTER 0 0 0 1 "Custom" 
-0 ROTATION CONFIG 0 0
+0 BFC CERTIFY CW
 4 4 99.2 0 0 99.3 0 0 99.3 0.1 0 99.2 0.1 0
 4 4 99.3 0 0 150.9 0 0 150.9 0.1 0 99.3 0.1 0
 4 4 98.9 0.1 0 99 0.1 0 99 0.2 0 98.9 0.2 0

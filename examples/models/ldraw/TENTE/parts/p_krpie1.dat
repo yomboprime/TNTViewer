@@ -1,8 +1,7 @@
 0 Etiqueta Krator Pie
 0 Name: p_krpie1.dat
 0 Author: svlopez
-0 ROTATION CENTER 0 0 0 1 "Custom" 
-0 ROTATION CONFIG 0 0
+0 BFC CERTIFY CW
 4 14 5.17 3.19 0 20.46 3.19 0 20.46 3.3 0 5.17 3.3 0
 4 14 4.73 3.3 0 20.9 3.3 0 20.9 3.41 0 4.73 3.41 0
 4 14 4.51 3.41 0 21.12 3.41 0 21.12 3.52 0 4.51 3.52 0

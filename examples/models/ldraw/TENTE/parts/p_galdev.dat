@@ -1,8 +1,7 @@
 0 Etiqueta Galaxie diablo
 0 Name: p_galdev.dat
 0 Author: svlopez
-0 ROTATION CENTER 0 0 0 1 "Custom" 
-0 ROTATION CONFIG 0 0
+0 BFC CERTIFY CW
 4 15 0.7 0 0 1.2 0 0 1.2 0.1 0 0.7 0.1 0
 4 15 32.2 0 0 32.7 0 0 32.7 0.1 0 32.2 0.1 0
 4 15 0.1 0.1 0 1.4 0.1 0 1.4 0.2 0 0.1 0.2 0

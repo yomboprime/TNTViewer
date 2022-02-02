@@ -1,8 +1,7 @@
 0 Etiqueta Ref. 270 firetruck (luces laterales derecha)
 0 Name: ftlightr.dat
 0 Author: cpcbegin
-0 ROTATION CENTER 0 0 0 1 "Custom"
-0 ROTATION CONFIG 0 0
+0 BFC CERTIFY CW
 4 0 78.678 22.5 0 1.322 22.5 0 1.322 22.125 0 78.678 22.125 0
 4 0 78.678 22.125 0 1.653 22.125 0 1.653 21.75 0 78.678 21.75 0
 4 0 1.653 22.125 0 1.322 22.125 0 1.322 21.75 0 1.653 21.75 0

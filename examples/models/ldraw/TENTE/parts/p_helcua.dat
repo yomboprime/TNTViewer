@@ -1,8 +1,7 @@
 0 Etiqueta Helitron Cuadros
 0 Name: p_helcua.dat
 0 Author: svlopez
-0 ROTATION CENTER 0 0 0 1 "Custom" 
-0 ROTATION CONFIG 0 0
+0 BFC CERTIFY CW
 4 4 3.3 2.97 0 15.84 2.97 0 15.84 3.08 0 3.3 3.08 0
 4 4 20.13 2.97 0 32.67 2.97 0 32.67 3.08 0 20.13 3.08 0
 4 4 37.07 2.97 0 49.61 2.97 0 49.61 3.08 0 37.07 3.08 0
