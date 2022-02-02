@@ -2200,7 +2200,7 @@
         },
         "alaafpeq.dat": {
             "path": "alaafpeq.dat",
-            "title": "Ala Titanium PequeÃ±a",
+            "title": "Ala Titanium Pequeña",
             "metaData": "|F:F"
         },
         "alaafpnt.dat": {
@@ -2235,7 +2235,7 @@
         },
         "alerocoh.dat": {
             "path": "alerocoh.dat",
-            "title": "Aletas Cohete PequeÃ±o",
+            "title": "Aletas Cohete Pequeño",
             "metaData": "|F:F"
         },
         "alercoht.dat": {
@@ -2305,7 +2305,7 @@
         },
         "antincv.dat": {
             "path": "antincv.dat",
-            "title": "Antena Pluma ClÃ¡sica",
+            "title": "Antena Pluma Clásica",
             "metaData": "|M:M"
         },
         "antincv2.dat": {
@@ -2335,7 +2335,7 @@
         },
         "ascens1.dat": {
             "path": "ascens1.dat",
-            "title": "Ascensor GuÃ­as",
+            "title": "Ascensor Guías",
             "metaData": "|M:M"
         },
         "ascens1b.dat": {
@@ -2350,7 +2350,7 @@
         },
         "asiescor.dat": {
             "path": "asiescor.dat",
-            "title": "Asiento ScorpiÃ³n",
+            "title": "Asiento Scorpión",
             "metaData": "|E|V"
         },
         "aspa1.dat": {
@@ -2365,7 +2365,7 @@
         },
         "aspamic2.dat": {
             "path": "aspamic2.dat",
-            "title": "HelicÃ³ptero Micro Rotor",
+            "title": "Helicóptero Micro Rotor",
             "metaData": "|C:C"
         },
         "astronau.dat": {
@@ -2400,7 +2400,7 @@
         },
         "astronav.dat": {
             "path": "astronav.dat",
-            "title": "Figura Astronauta ClÃ¡sico",
+            "title": "Figura Astronauta Clásico",
             "metaData": "|S:S"
         },
         "astcuerv.dat": {
@@ -2415,7 +2415,7 @@
         },
         "stealth.dat": {
             "path": "stealth.dat",
-            "title": "AviÃ³n Stealth",
+            "title": "Avión Stealth",
             "metaData": "|M:M|V:V"
         },
         "bald2ry.dat": {
@@ -2525,7 +2525,7 @@
         },
         "baldc4in.dat": {
             "path": "baldc4in.dat",
-            "title": "Baldosa cuadros / Piso 45Âº",
+            "title": "Baldosa cuadros / Piso 45º",
             "metaData": ""
         },
         "baldgord.dat": {
@@ -2635,7 +2635,7 @@
         },
         "ancla1x2.dat": {
             "path": "ancla1x2.dat",
-            "title": "Base MÃ¡stil",
+            "title": "Base Mástil",
             "metaData": "|M:M"
         },
         "bis1aba.dat": {
@@ -2650,12 +2650,12 @@
         },
         "bsgcarr1.dat": {
             "path": "bsgcarr1.dat",
-            "title": "GrÃºa Ruta 2 Bisagra Superior",
+            "title": "Grúa Ruta 2 Bisagra Superior",
             "metaData": "|R:R"
         },
         "bsgcarr2.dat": {
             "path": "bsgcarr2.dat",
-            "title": "GrÃºa Ruta 2 Bisagra Inferior",
+            "title": "Grúa Ruta 2 Bisagra Inferior",
             "metaData": "|R:R"
         },
         "bisgr.dat": {
@@ -2790,7 +2790,7 @@
         },
         "capo.dat": {
             "path": "capo.dat",
-            "title": "CapÃ³ Ruta 2",
+            "title": "Capó Ruta 2",
             "metaData": "|R:R"
         },
         "capom.dat": {
@@ -2875,7 +2875,7 @@
         },
         "camion.dat": {
             "path": "camion.dat",
-            "title": "CamiÃ³n",
+            "title": "Camión",
             "metaData": "|M:M|V:V"
         },
         "camion2.dat": {
@@ -2885,7 +2885,7 @@
         },
         "canongrn.dat": {
             "path": "canongrn.dat",
-            "title": "Torreta Triple CaÃ±Ã³n",
+            "title": "Torreta Triple Cañón",
             "metaData": "|M:M"
         },
         "canongrb.dat": {
@@ -2900,7 +2900,7 @@
         },
         "canonmed.dat": {
             "path": "canonmed.dat",
-            "title": "Torreta Doble CaÃ±Ã³n",
+            "title": "Torreta Doble Cañón",
             "metaData": "|M:M"
         },
         "canonom.dat": {
@@ -2910,12 +2910,12 @@
         },
         "canonpeq.dat": {
             "path": "canonpeq.dat",
-            "title": "Torreta AntiaÃ©reos",
+            "title": "Torreta Antiaéreos",
             "metaData": "|M:M"
         },
         "canontnq.dat": {
             "path": "canontnq.dat",
-            "title": "CaÃ±Ã³n Tanque",
+            "title": "Cañón Tanque",
             "metaData": "|E:E"
         },
         "castillo.dat": {
@@ -3055,7 +3055,7 @@
         },
         "cilindab2.dat": {
             "path": "cilindab2.dat",
-            "title": "Cilindro 2 Puntos Inferior JÃ¡cena",
+            "title": "Cilindro 2 Puntos Inferior Jácena",
             "metaData": "|S:S|E:E"
         },
         "cilindar.dat": {
@@ -3175,7 +3175,7 @@
         },
         "alfacuna.dat": {
             "path": "alfacuna.dat",
-            "title": "Bloque Inclinado Superior / CuÃ±a 2",
+            "title": "Bloque Inclinado Superior / Cuña 2",
             "metaData": "|F:F"
         },
         "cunaesq.dat": {
@@ -3195,7 +3195,7 @@
         },
         "cuna.dat": {
             "path": "cuna.dat",
-            "title": "Bloque Inclinado Superior / CuÃ±a",
+            "title": "Bloque Inclinado Superior / Cuña",
             "metaData": "|B:B"
         },
         "cuna2x2e.dat": {
@@ -3225,7 +3225,7 @@
         },
         "deposito.dat": {
             "path": "deposito.dat",
-            "title": "DepÃ³sito Ruta",
+            "title": "Depósito Ruta",
             "metaData": "|V:V|R:R|E:E"
         },
         "eje15.dat": {
@@ -3265,7 +3265,7 @@
         },
         "ejealfa.dat": {
             "path": "ejealfa.dat",
-            "title": "Llanta Rueda Compuesta Cosmic TetÃ³n",
+            "title": "Llanta Rueda Compuesta Cosmic Tetón",
             "metaData": "|F:F"
         },
         "ejeastr1.dat": {
@@ -4710,22 +4710,22 @@
         },
         "extenabj.dat": {
             "path": "extenabj.dat",
-            "title": "HidrÃ¡ulico FijaciÃ³n Inferior",
+            "title": "Hidráulico Fijación Inferior",
             "metaData": "|R:R"
         },
         "extenarr.dat": {
             "path": "extenarr.dat",
-            "title": "HidrÃ¡ulico FijaciÃ³n Superior",
+            "title": "Hidráulico Fijación Superior",
             "metaData": "|R:R"
         },
         "extengrs.dat": {
             "path": "extengrs.dat",
-            "title": "HidrÃ¡ulico VÃ¡stago",
+            "title": "Hidráulico Vástago",
             "metaData": "|R:R"
         },
         "extenmed.dat": {
             "path": "extenmed.dat",
-            "title": "HidrÃ¡ulico Camisa",
+            "title": "Hidráulico Camisa",
             "metaData": "|R:R"
         },
         "f35.dat": {
@@ -4780,7 +4780,7 @@
         },
         "garfio.dat": {
             "path": "garfio.dat",
-            "title": "GrÃºa Ruta 2 Gancho",
+            "title": "Grúa Ruta 2 Gancho",
             "metaData": "|R:R"
         },
         "alfagarf.dat": {
@@ -4790,22 +4790,22 @@
         },
         "garfsprt.dat": {
             "path": "garfsprt.dat",
-            "title": "GrÃºa Ruta 2 Gancho Soporte",
+            "title": "Grúa Ruta 2 Gancho Soporte",
             "metaData": "|R:R"
         },
         "grua.dat": {
             "path": "grua.dat",
-            "title": "GrÃºa Mar Articulada",
+            "title": "Grúa Mar Articulada",
             "metaData": "|M:M"
         },
         "grua1.dat": {
             "path": "grua1.dat",
-            "title": "GrÃºa Ruta 2 Pluma 1",
+            "title": "Grúa Ruta 2 Pluma 1",
             "metaData": "|R:R"
         },
         "grua2.dat": {
             "path": "grua2.dat",
-            "title": "GrÃºa Ruta 2 Pluma 2",
+            "title": "Grúa Ruta 2 Pluma 2",
             "metaData": "|R:R"
         },
         "grua3jac.dat": {
@@ -4815,37 +4815,37 @@
         },
         "gruastro.dat": {
             "path": "gruastro.dat",
-            "title": "GrÃºa Astro",
+            "title": "Grúa Astro",
             "metaData": "|A:A|S:S"
         },
         "gruab.dat": {
             "path": "gruab.dat",
-            "title": "GrÃºa Mar Articulada Base",
+            "title": "Grúa Mar Articulada Base",
             "metaData": "|M:M"
         },
         "gruafija.dat": {
             "path": "gruafija.dat",
-            "title": "GrÃºa Mar Fija",
+            "title": "Grúa Mar Fija",
             "metaData": "|M:M"
         },
         "gruahilo.dat": {
             "path": "gruahilo.dat",
-            "title": "GrÃºa Ruta 2 Hilo",
+            "title": "Grúa Ruta 2 Hilo",
             "metaData": "|R:R"
         },
         "minigrua.dat": {
             "path": "minigrua.dat",
-            "title": "GrÃºa Micro",
+            "title": "Grúa Micro",
             "metaData": "|C:C"
         },
         "gruap.dat": {
             "path": "gruap.dat",
-            "title": "GrÃºa Mar Articulada Pluma",
+            "title": "Grúa Mar Articulada Pluma",
             "metaData": "|M:M"
         },
         "gruaremt.dat": {
             "path": "gruaremt.dat",
-            "title": "GrÃºa Ruta 2 Polea",
+            "title": "Grúa Ruta 2 Polea",
             "metaData": "|R:R"
         },
         "gruatamb.dat": {
@@ -4855,7 +4855,7 @@
         },
         "gruatop1.dat": {
             "path": "gruatop1.dat",
-            "title": "GrÃºa Ruta 2 Tope",
+            "title": "Grúa Ruta 2 Tope",
             "metaData": "|R:R"
         },
         "gruatop2.dat": {
@@ -4870,12 +4870,12 @@
         },
         "gruatorn.dat": {
             "path": "gruatorn.dat",
-            "title": "GrÃºa Ruta 2 Tambor",
+            "title": "Grúa Ruta 2 Tambor",
             "metaData": "|R:R"
         },
         "gruators.dat": {
             "path": "gruators.dat",
-            "title": "GrÃºa Ruta 2 Tambor Soporte",
+            "title": "Grúa Ruta 2 Tambor Soporte",
             "metaData": "|R:R"
         },
         "guardabr.dat": {
@@ -4900,17 +4900,17 @@
         },
         "helicop1.dat": {
             "path": "helicop1.dat",
-            "title": "HelicÃ³ptero Mar Simple",
+            "title": "Helicóptero Mar Simple",
             "metaData": "|M:M|V:V"
         },
         "helala.dat": {
             "path": "helala.dat",
-            "title": "Ala HelicÃ³ptero",
+            "title": "Ala Helicóptero",
             "metaData": "|A:A|V:V"
         },
         "aspa.dat": {
             "path": "aspa.dat",
-            "title": "Pala HelicÃ³ptero",
+            "title": "Pala Helicóptero",
             "metaData": "|A:A|V:V"
         },
         "helaspac.dat": {
@@ -4920,7 +4920,7 @@
         },
         "heliaspa.dat": {
             "path": "heliaspa.dat",
-            "title": "HelicÃ³ptero Mar Rotor",
+            "title": "Helicóptero Mar Rotor",
             "metaData": "|A:A|M:M|V:V"
         },
         "heliaspp.dat": {
@@ -4930,27 +4930,27 @@
         },
         "helcab.dat": {
             "path": "helcab.dat",
-            "title": "Cabina HelicÃ³ptero Inferior",
+            "title": "Cabina Helicóptero Inferior",
             "metaData": "|A:A|V:V"
         },
         "helcabcr.dat": {
             "path": "helcabcr.dat",
-            "title": "Cabina HelicÃ³ptero Superior",
+            "title": "Cabina Helicóptero Superior",
             "metaData": "|A:A|V:V"
         },
         "helcol.dat": {
             "path": "helcol.dat",
-            "title": "Cola HelicÃ³ptero",
+            "title": "Cola Helicóptero",
             "metaData": "|A:A|V:V"
         },
         "helirotr.dat": {
             "path": "helirotr.dat",
-            "title": "Rotor de Cola HelicÃ³ptero",
+            "title": "Rotor de Cola Helicóptero",
             "metaData": "|A:A|V:V"
         },
         "helcolhu.dat": {
             "path": "helcolhu.dat",
-            "title": "Cola HelicÃ³ptero Arriostrada",
+            "title": "Cola Helicóptero Arriostrada",
             "metaData": "|A:A|V:V"
         },
         "helicoc1.dat": {
@@ -4960,7 +4960,7 @@
         },
         "helicop2.dat": {
             "path": "helicop2.dat",
-            "title": "HelicÃ³ptero Mar Doble",
+            "title": "Helicóptero Mar Doble",
             "metaData": "|M:M|V:V"
         },
         "helicoc2.dat": {
@@ -4970,42 +4970,42 @@
         },
         "helireje.dat": {
             "path": "helireje.dat",
-            "title": "HelicÃ³ptero Eje Rueda",
+            "title": "Helicóptero Eje Rueda",
             "metaData": "|A:A|V:V"
         },
         "helillnt.dat": {
             "path": "helillnt.dat",
-            "title": "Llanta Rueda HelicÃ³ptero",
+            "title": "Llanta Rueda Helicóptero",
             "metaData": "|A:A|V:V"
         },
         "helmando.dat": {
             "path": "helmando.dat",
-            "title": "Asiento HelicÃ³ptero Mandos",
+            "title": "Asiento Helicóptero Mandos",
             "metaData": "|A:A|V:V"
         },
         "helineum.dat": {
             "path": "helineum.dat",
-            "title": "NeumÃ¡tico HelicÃ³ptero",
+            "title": "Neumático Helicóptero",
             "metaData": "|A:A|V:V"
         },
         "helpata.dat": {
             "path": "helpata.dat",
-            "title": "PatÃ­n HelicÃ³ptero",
+            "title": "Patín Helicóptero",
             "metaData": "|A:A|V:V"
         },
         "helrueda.dat": {
             "path": "helrueda.dat",
-            "title": "Rueda HelicÃ³ptero",
+            "title": "Rueda Helicóptero",
             "metaData": "|A:A|V:V"
         },
         "airsillo.dat": {
             "path": "airsillo.dat",
-            "title": "Asiento HelicÃ³ptero",
+            "title": "Asiento Helicóptero",
             "metaData": "|A:A|V:V"
         },
         "helisprt.dat": {
             "path": "helisprt.dat",
-            "title": "Soporte Rueda HelicÃ³ptero",
+            "title": "Soporte Rueda Helicóptero",
             "metaData": "|A:A|V:V"
         },
         "heliprto.dat": {
@@ -5075,37 +5075,37 @@
         },
         "jacena1.dat": {
             "path": "jacena1.dat",
-            "title": "JÃ¡cena 1",
+            "title": "Jácena 1",
             "metaData": ""
         },
         "enganche.dat": {
             "path": "enganche.dat",
-            "title": "JÃ¡cena 1 Enganche 1 (con agujero aspa)",
+            "title": "Jácena 1 Enganche 1 (con agujero aspa)",
             "metaData": ""
         },
         "enganch2.dat": {
             "path": "enganch2.dat",
-            "title": "JÃ¡cena 1 Enganche 1 (sin agujero)",
+            "title": "Jácena 1 Enganche 1 (sin agujero)",
             "metaData": ""
         },
         "enganc2.dat": {
             "path": "enganc2.dat",
-            "title": "Bloque InversiÃ³n 1 punto Cuadrado / Macetero",
+            "title": "Bloque Inversión 1 punto Cuadrado / Macetero",
             "metaData": ""
         },
         "jacena14.dat": {
             "path": "jacena14.dat",
-            "title": "JÃ¡cena 14",
+            "title": "Jácena 14",
             "metaData": ""
         },
         "jacena2.dat": {
             "path": "jacena2.dat",
-            "title": "JÃ¡cena 2",
+            "title": "Jácena 2",
             "metaData": ""
         },
         "jacen2x2.dat": {
             "path": "jacen2x2.dat",
-            "title": "JÃ¡cena 2x2",
+            "title": "Jácena 2x2",
             "metaData": ""
         },
         "jacn2x2a.dat": {
@@ -5120,12 +5120,12 @@
         },
         "jacen2x3.dat": {
             "path": "jacen2x3.dat",
-            "title": "JÃ¡cena 2x3",
+            "title": "Jácena 2x3",
             "metaData": ""
         },
         "jacen2x4.dat": {
             "path": "jacen2x4.dat",
-            "title": "JÃ¡cena 2x4",
+            "title": "Jácena 2x4",
             "metaData": ""
         },
         "jacn2x4a.dat": {
@@ -5140,7 +5140,7 @@
         },
         "jacen2x8.dat": {
             "path": "jacen2x8.dat",
-            "title": "JÃ¡cena 2x8",
+            "title": "Jácena 2x8",
             "metaData": ""
         },
         "jacn2x8e.dat": {
@@ -5150,7 +5150,7 @@
         },
         "jacena4.dat": {
             "path": "jacena4.dat",
-            "title": "JÃ¡cena 4",
+            "title": "Jácena 4",
             "metaData": ""
         },
         "jacn4a.dat": {
@@ -5160,32 +5160,32 @@
         },
         "jacena6.dat": {
             "path": "jacena6.dat",
-            "title": "JÃ¡cena 6",
+            "title": "Jácena 6",
             "metaData": ""
         },
         "jacena8.dat": {
             "path": "jacena8.dat",
-            "title": "JÃ¡cena 8",
+            "title": "Jácena 8",
             "metaData": ""
         },
         "alfajacn.dat": {
             "path": "alfajacn.dat",
-            "title": "JÃ¡cena Alfa",
+            "title": "Jácena Alfa",
             "metaData": "|F:F"
         },
         "rallado1.dat": {
             "path": "rallado1.dat",
-            "title": "JÃ¡cena rayada 1",
+            "title": "Jácena rayada 1",
             "metaData": ""
         },
         "rallado2.dat": {
             "path": "rallado2.dat",
-            "title": "JÃ¡cena rayada 2",
+            "title": "Jácena rayada 2",
             "metaData": ""
         },
         "jet.dat": {
             "path": "jet.dat",
-            "title": "AviÃ³n Jet",
+            "title": "Avión Jet",
             "metaData": "|M:M|V:V"
         },
         "jet1.dat": {
@@ -5255,7 +5255,7 @@
         },
         "laser.dat": {
             "path": "laser.dat",
-            "title": "LÃ¡ser",
+            "title": "Láser",
             "metaData": "|E:E|V:V"
         },
         "alfalln1.dat": {
@@ -5290,7 +5290,7 @@
         },
         "llanrutt.dat": {
             "path": "llanrutt.dat",
-            "title": "Llanta Ruta TetÃ³n",
+            "title": "Llanta Ruta Tetón",
             "metaData": "|R:R"
         },
         "llantnq.dat": {
@@ -5340,7 +5340,7 @@
         },
         "mastg265.dat": {
             "path": "mastg265.dat",
-            "title": "MÃ¡stil grueso 265 mm",
+            "title": "Mástil grueso 265 mm",
             "metaData": "|M:M"
         },
         "macecun2.dat": {
@@ -5355,67 +5355,67 @@
         },
         "mastilh.dat": {
             "path": "mastilh.dat",
-            "title": "MÃ¡stil (hembra)",
+            "title": "Mástil (hembra)",
             "metaData": "|M:M"
         },
         "mastilm.dat": {
             "path": "mastilm.dat",
-            "title": "MÃ¡stil (macho)",
+            "title": "Mástil (macho)",
             "metaData": "|M:M"
         },
         "mastbase.dat": {
             "path": "mastbase.dat",
-            "title": "MÃ¡stil base",
+            "title": "Mástil base",
             "metaData": "|M:M"
         },
         "mastf100.dat": {
             "path": "mastf100.dat",
-            "title": "MÃ¡stil fino 100 mm",
+            "title": "Mástil fino 100 mm",
             "metaData": "|M:M"
         },
         "mastf135.dat": {
             "path": "mastf135.dat",
-            "title": "MÃ¡stil fino 135 mm",
+            "title": "Mástil fino 135 mm",
             "metaData": "|M:M"
         },
         "mastf050.dat": {
             "path": "mastf050.dat",
-            "title": "MÃ¡stil fino 50 mm",
+            "title": "Mástil fino 50 mm",
             "metaData": "|M:M"
         },
         "mastf060.dat": {
             "path": "mastf060.dat",
-            "title": "MÃ¡stil fino 60 mm",
+            "title": "Mástil fino 60 mm",
             "metaData": "|M:M"
         },
         "mastf070.dat": {
             "path": "mastf070.dat",
-            "title": "MÃ¡stil fino 70 mm",
+            "title": "Mástil fino 70 mm",
             "metaData": "|M:M"
         },
         "mastf085.dat": {
             "path": "mastf085.dat",
-            "title": "MÃ¡stil fino 85 mm",
+            "title": "Mástil fino 85 mm",
             "metaData": "|M:M"
         },
         "mastg135.dat": {
             "path": "mastg135.dat",
-            "title": "MÃ¡stil grueso 135 mm",
+            "title": "Mástil grueso 135 mm",
             "metaData": "|M:M"
         },
         "mastg150.dat": {
             "path": "mastg150.dat",
-            "title": "MÃ¡stil grueso 150 mm",
+            "title": "Mástil grueso 150 mm",
             "metaData": "|M:M"
         },
         "mastg170.dat": {
             "path": "mastg170.dat",
-            "title": "MÃ¡stil grueso 170 mm",
+            "title": "Mástil grueso 170 mm",
             "metaData": "|M:M"
         },
         "mastg190.dat": {
             "path": "mastg190.dat",
-            "title": "MÃ¡stil grueso 190 mm",
+            "title": "Mástil grueso 190 mm",
             "metaData": "|M:M"
         },
         "metrall.dat": {
@@ -5450,12 +5450,12 @@
         },
         "modmando.dat": {
             "path": "modmando.dat",
-            "title": "MÃ³dulo Mando Alfa",
+            "title": "Módulo Mando Alfa",
             "metaData": "|F:F"
         },
         "modmandj.dat": {
             "path": "modmandj.dat",
-            "title": "MÃ³dulo Mando Alfa Joystick",
+            "title": "Módulo Mando Alfa Joystick",
             "metaData": "|F:F"
         },
         "modmandp.dat": {
@@ -5465,12 +5465,12 @@
         },
         "modmedic.dat": {
             "path": "modmedic.dat",
-            "title": "MÃ³dulo MÃ©dico Alfa",
+            "title": "Módulo Médico Alfa",
             "metaData": "|F:F"
         },
         "modmedca.dat": {
             "path": "modmedca.dat",
-            "title": "MÃ³dulo MÃ©dico Alfa Camilla",
+            "title": "Módulo Médico Alfa Camilla",
             "metaData": "|F:F"
         },
         "modmedpa.dat": {
@@ -5480,7 +5480,7 @@
         },
         "monoplan.dat": {
             "path": "monoplan.dat",
-            "title": "AviÃ³n hÃ©lice",
+            "title": "Avión hélice",
             "metaData": "|M:M|V:V"
         },
         "motor.dat": {
@@ -5500,17 +5500,17 @@
         },
         "alfaneum.dat": {
             "path": "alfaneum.dat",
-            "title": "NeumÃ¡tico Titanium",
+            "title": "Neumático Titanium",
             "metaData": "|A:A|F:F|V:V|T:T"
         },
         "neumtter.dat": {
             "path": "neumtter.dat",
-            "title": "NeumÃ¡tico ScorpiÃ³n",
+            "title": "Neumático Scorpión",
             "metaData": "|R:R"
         },
         "neumaxt.dat": {
             "path": "neumaxt.dat",
-            "title": "NeumÃ¡tico Variant",
+            "title": "Neumático Variant",
             "metaData": "|R:R"
         },
         "nruteje.dat": {
@@ -5540,7 +5540,7 @@
         },
         "nrutneum.dat": {
             "path": "nrutneum.dat",
-            "title": "NeumÃ¡tico Ruta 2",
+            "title": "Neumático Ruta 2",
             "metaData": "|R:R"
         },
         "placa1c.dat": {
@@ -5550,7 +5550,7 @@
         },
         "placa10.dat": {
             "path": "placa10.dat",
-            "title": "Placa 10x10 BaterÃ­a Hasbro",
+            "title": "Placa 10x10 Batería Hasbro",
             "metaData": ""
         },
         "placa12.dat": {
@@ -5650,7 +5650,7 @@
         },
         "plmbase.dat": {
             "path": "plmbase.dat",
-            "title": "Palmera pequeÃ±a base",
+            "title": "Palmera pequeña base",
             "metaData": "|C:C"
         },
         "plmphojh.dat": {
@@ -5660,12 +5660,12 @@
         },
         "plmphoja.dat": {
             "path": "plmphoja.dat",
-            "title": "Palmera pequeÃ±a hojas",
+            "title": "Palmera pequeña hojas",
             "metaData": "|C:C"
         },
         "plmptrnc.dat": {
             "path": "plmptrnc.dat",
-            "title": "Palmera pequeÃ±a tronco",
+            "title": "Palmera pequeña tronco",
             "metaData": "|C:C"
         },
         "panelast.dat": {
@@ -5745,17 +5745,17 @@
         },
         "alfapatn.dat": {
             "path": "alfapatn.dat",
-            "title": "PatÃ­n Titanium",
+            "title": "Patín Titanium",
             "metaData": "|F:F"
         },
         "petroeng.dat": {
             "path": "petroeng.dat",
-            "title": "PetrÃ³leo enganche",
+            "title": "Petróleo enganche",
             "metaData": "|R:R"
         },
         "petrotub.dat": {
             "path": "petrotub.dat",
-            "title": "PetrÃ³leo tubo",
+            "title": "Petróleo tubo",
             "metaData": "|R:R"
         },
         "pico.dat": {
@@ -5830,7 +5830,7 @@
         },
         "polegrua.dat": {
             "path": "polegrua.dat",
-            "title": "Placa 2x2 Polea GrÃºa",
+            "title": "Placa 2x2 Polea Grúa",
             "metaData": "|F:F"
         },
         "placa2x3.dat": {
@@ -5875,12 +5875,12 @@
         },
         "placalfa.dat": {
             "path": "placalfa.dat",
-            "title": "Placa Base HabitÃ¡culo Alfa",
+            "title": "Placa Base Habitáculo Alfa",
             "metaData": "|F:F"
         },
         "placacty.dat": {
             "path": "placacty.dat",
-            "title": "Bloque InversiÃ³n 2 puntos Cutty Sark",
+            "title": "Bloque Inversión 2 puntos Cutty Sark",
             "metaData": "|M:M"
         },
         "popa6p.dat": {
@@ -6115,7 +6115,7 @@
         },
         "radar.dat": {
             "path": "radar.dat",
-            "title": "Antena ParabÃ³lica Radar",
+            "title": "Antena Parabólica Radar",
             "metaData": "|M:M"
         },
         "radarp.dat": {
@@ -6265,7 +6265,7 @@
         },
         "rueairj2.dat": {
             "path": "rueairj2.dat",
-            "title": "Rueda Aire montada en jÃ¡cena 2x2",
+            "title": "Rueda Aire montada en jácena 2x2",
             "metaData": "|S:S|M:M"
         },
         "alfarued.dat": {
@@ -6310,42 +6310,42 @@
         },
         "rueruj2l.dat": {
             "path": "rueruj2l.dat",
-            "title": "Rueda Ruta 21 lisa montada en jÃ¡cena 2x2",
+            "title": "Rueda Ruta 21 lisa montada en jácena 2x2",
             "metaData": "|R:R"
         },
         "ruerj42l.dat": {
             "path": "ruerj42l.dat",
-            "title": "Rueda Ruta 21 lisa montada en jÃ¡cena 2x4",
+            "title": "Rueda Ruta 21 lisa montada en jácena 2x4",
             "metaData": "|R:R"
         },
         "ruerutat.dat": {
             "path": "ruerutat.dat",
-            "title": "Rueda Ruta 21 tetÃ³n",
+            "title": "Rueda Ruta 21 tetón",
             "metaData": "|R:R"
         },
         "rueruj2t.dat": {
             "path": "rueruj2t.dat",
-            "title": "Rueda Ruta 21 tetÃ³n montada en jÃ¡cena 2x2",
+            "title": "Rueda Ruta 21 tetón montada en jácena 2x2",
             "metaData": "|R:R"
         },
         "ruerj42t.dat": {
             "path": "ruerj42t.dat",
-            "title": "Rueda Ruta 21 tetÃ³n montada en jÃ¡cena 2x4",
+            "title": "Rueda Ruta 21 tetón montada en jácena 2x4",
             "metaData": "|R:R"
         },
         "rueruj4t.dat": {
             "path": "rueruj4t.dat",
-            "title": "Rueda Ruta 21 tetÃ³n montada en jÃ¡cena 4",
+            "title": "Rueda Ruta 21 tetón montada en jácena 4",
             "metaData": "|R:R"
         },
         "rues42l.dat": {
             "path": "rues42l.dat",
-            "title": "Rueda Scorpion lisa montada en jÃ¡cena 2x4",
+            "title": "Rueda Scorpion lisa montada en jácena 2x4",
             "metaData": "|R:R|E:E"
         },
         "ruescj2t.dat": {
             "path": "ruescj2t.dat",
-            "title": "Rueda Scorpion tetÃ³n montada en jÃ¡cena 2x2",
+            "title": "Rueda Scorpion tetón montada en jácena 2x2",
             "metaData": "|R:R|E:E"
         },
         "ruescorl.dat": {
@@ -6355,7 +6355,7 @@
         },
         "ruescj2l.dat": {
             "path": "ruescj2l.dat",
-            "title": "Rueda Scorpion lisa montada en jÃ¡cena 2x2",
+            "title": "Rueda Scorpion lisa montada en jácena 2x2",
             "metaData": ""
         },
         "ruetnqex.dat": {
@@ -6385,7 +6385,7 @@
         },
         "ruta21nm.dat": {
             "path": "ruta21nm.dat",
-            "title": "NeumÃ¡tico Ruta",
+            "title": "Neumático Ruta",
             "metaData": "|R:R"
         },
         "sparrow.dat": {
@@ -6395,7 +6395,7 @@
         },
         "semicupg.dat": {
             "path": "semicupg.dat",
-            "title": "SemicÃºpula 6 puntos",
+            "title": "Semicúpula 6 puntos",
             "metaData": "|S:S"
         },
         "semicugg.dat": {
@@ -6405,7 +6405,7 @@
         },
         "semicupm.dat": {
             "path": "semicupm.dat",
-            "title": "SemicÃºpula 5 puntos",
+            "title": "Semicúpula 5 puntos",
             "metaData": "|S:S"
         },
         "semicumg.dat": {
@@ -6415,7 +6415,7 @@
         },
         "semicupp.dat": {
             "path": "semicupp.dat",
-            "title": "SemicÃºpula 4 puntos",
+            "title": "Semicúpula 4 puntos",
             "metaData": "|S:S"
         },
         "semicuqg.dat": {
@@ -6455,27 +6455,27 @@
         },
         "soport1.dat": {
             "path": "soport1.dat",
-            "title": "GrÃºa Ruta 2 Estabilizador Pata",
+            "title": "Grúa Ruta 2 Estabilizador Pata",
             "metaData": "|R:R"
         },
         "soport2.dat": {
             "path": "soport2.dat",
-            "title": "GrÃºa Ruta 2 Estabilizador TelescÃ³pico",
+            "title": "Grúa Ruta 2 Estabilizador Telescópico",
             "metaData": "|R:R"
         },
         "soport3.dat": {
             "path": "soport3.dat",
-            "title": "GrÃºa Ruta 2 Estabilizador Alojamiento",
+            "title": "Grúa Ruta 2 Estabilizador Alojamiento",
             "metaData": "|R:R"
         },
         "soprtmar.dat": {
             "path": "soprtmar.dat",
-            "title": "Soporte Lanzamisiles / Antena ParabÃ³lica",
+            "title": "Soporte Lanzamisiles / Antena Parabólica",
             "metaData": "|M:M"
         },
         "taladro.dat": {
             "path": "taladro.dat",
-            "title": "Accesorios Alfa Martillo NeumÃ¡tico",
+            "title": "Accesorios Alfa Martillo Neumático",
             "metaData": "|F:F"
         },
         "tejamcr2.dat": {
@@ -6610,7 +6610,7 @@
         },
         "trfcircb.dat": {
             "path": "trfcircb.dat",
-            "title": "SeÃ±al TrÃ¡fico CÃ­rculo",
+            "title": "Señal Tráfico Círculo",
             "metaData": "|R:R"
         },
         "trfcircp.dat": {
@@ -6625,7 +6625,7 @@
         },
         "trfposte.dat": {
             "path": "trfposte.dat",
-            "title": "SeÃ±al TrÃ¡fico Poste",
+            "title": "Señal Tráfico Poste",
             "metaData": "|R:R"
         },
         "trfcirc1.dat": {
@@ -6640,7 +6640,7 @@
         },
         "trfrectb.dat": {
             "path": "trfrectb.dat",
-            "title": "SeÃ±al TrÃ¡fico RectÃ¡ngulo",
+            "title": "Señal Tráfico Rectángulo",
             "metaData": "|R:R"
         },
         "trfrectf.dat": {
@@ -6655,7 +6655,7 @@
         },
         "trfsemfc.dat": {
             "path": "trfsemfc.dat",
-            "title": "SeÃ±al TrÃ¡fico SemÃ¡foro",
+            "title": "Señal Tráfico Semáforo",
             "metaData": "|R:R"
         },
         "trfsemfl.dat": {
@@ -6665,7 +6665,7 @@
         },
         "trftrian.dat": {
             "path": "trftrian.dat",
-            "title": "SeÃ±al TrÃ¡fico TriÃ¡ngulo",
+            "title": "Señal Tráfico Triángulo",
             "metaData": "|R:R"
         },
         "trftriai.dat": {
@@ -6700,7 +6700,7 @@
         },
         "tubo.dat": {
             "path": "tubo.dat",
-            "title": "Bloque InversiÃ³n 1 punto Redondo / Tubo",
+            "title": "Bloque Inversión 1 punto Redondo / Tubo",
             "metaData": "|B:B"
         },
         "tuboguia.dat": {

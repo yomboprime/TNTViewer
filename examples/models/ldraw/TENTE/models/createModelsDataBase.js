@@ -147,7 +147,7 @@ partsTempArray.sort( ( a, b ) => {
 
 
 const jasoloPartsListPath = 'partslist.tsv';
-let jasoloPartsListLines = readTextFileSync( pathJoin( __dirname, jasoloPartsListPath ), "latin1" );
+let jasoloPartsListLines = readTextFileSync( pathJoin( __dirname, jasoloPartsListPath ), "utf-8" );
 //console.log( partsListLines );
 if ( jasoloPartsListLines === null ) {
 
