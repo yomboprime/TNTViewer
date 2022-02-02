@@ -1,0 +1,416 @@
+Accesorios Alfa Acetileno	acetilen.dat
+Accesorios Alfa Cono	pivote.dat
+Accesorios Alfa Escalera	escaler2.dat
+Accesorios Alfa Fusil	rifle.dat
+Accesorios Alfa Fusil con Mira	alfasens.dat
+Accesorios Alfa Maleta Ruedas
+Accesorios Alfa Manguera Mochila Bombero	manguera.dat
+Accesorios Alfa Martillo Neumático	taladro.dat
+Accesorios Alfa Mochila Bombero	mochila2.dat
+Accesorios Alfa Mochila Comunicaciones	mochila1.dat
+Accesorios Alfa Sensor	alfasens.dat
+Accesorios Alfa Tenazas Obras	tenazas.dat
+Accesorios Alfa Valla	vallaobr.dat
+Accesorios Ruta2 Fusil	fusil.dat
+Accesorios Ruta2 Máscara Anti-gas	mascara.dat
+Accesorios Ruta2 Mochila
+Ala Astro	alaastro.dat
+Ala Helicóptero	helala.dat
+Ala Skymaster	alaskyms.dat
+Ala Titanium Grande	alaafgrn.dat
+Ala Titanium Mediana	alaafmed.dat
+Ala Titanium Pequeña	alaafpeq.dat
+Ala Titanium Puente	alaafpnt.dat
+Aletas Cohete Grande	alercoht.dat
+Aletas Cohete Pequeño	alerocoh.dat
+Amortiguador	amortigu.dat
+Antena	antena.dat
+Antena Cruz	antncruz.dat
+Antena enganche lateral	antenart.dat
+Antena Parabólica Radar	radar.dat
+Antena Pluma	antnincl.dat
+Antena Pluma Clásica	antincv.dat
+Antena Radar	antnradr.dat
+Antivuelco	titmarco.dat
+Antivuelco Cristal	titcrist.dat
+Ascensor Guías	ascens1.dat
+Ascensor Placa	ascens2.dat
+Asiento Astro	sillastr.dat
+Asiento Helicóptero	airsillo.dat
+Asiento Helicóptero Mandos	helmando.dat
+Asiento Scorpión	asiescor.dat
+Asiento Titanium	titsilla.dat
+Avión hélice	monoplan.dat
+Avión Jet	jet.dat
+Avión Stealth	stealth.dat
+Avioneta	avioneta.dat
+Baldosa 1	bald1.dat
+Baldosa 2	bald2.dat
+Baldosa 2 redondeada	bald2r.dat
+Baldosa 2x2	bald2x2.dat
+Baldosa 2x2 redondeada	bald2x2r.dat
+Baldosa cuadros / Piso 1	baldc1.dat
+Baldosa cuadros / Piso 2	baldc2.dat
+Baldosa cuadros / Piso 2x2	baldc2x2.dat
+Baldosa cuadros / Piso 2x2 con agujero	baldg2x2.dat
+Baldosa cuadros / Piso 2x2 con bisagra	baldb2x2.dat
+Baldosa cuadros / Piso 45º	baldc4in.dat
+Baldosa cuadros / Piso 4x4	baldc4.dat
+Baldosa cuadros / Piso 4x6	baldc4x6.dat
+Baldosa cuadros / Piso 4x8	baldc4x8.dat
+Baldosa gruesa	baldgord.dat
+Bandera	bandera.dat
+Barrera Micro Barra	aduanabr.dat
+Barrera Micro Soporte	aduanasp.dat
+Barrera Ruta Barra	barrutab.dat
+Barrera Ruta Soporte	barrutas.dat
+Base Mástil	ancla1x2.dat
+Batería Hasbro sin placa inferior	batersin.dat
+Bisagra 2 puntos Inferior	bispqaba.dat
+Bisagra 2 puntos Superior	bispqarr.dat
+Bisagra 4 puntos Eje	bisnreje.dat
+Bisagra 4 puntos Inferior	bisnraba.dat
+Bisagra 4 puntos Superior	bisnrarr.dat
+Bisagra Gruesa Eje	bisgreje.dat
+Bisagra Gruesa Inferior	bisgraba.dat
+Bisagra Gruesa Superior	bisgrarr.dat
+Bloque Inclinado Inferior / Pico	pico.dat
+Bloque Inclinado Inferior / Pico 2	alfapico.dat
+Bloque Inclinado Superior / Cuña	cuna.dat
+Bloque Inclinado Superior / Cuña 2	alfacuna.dat
+Bloque Inversión 1 punto Cuadrado / Macetero	enganc2.dat
+Bloque Inversión 1 punto Redondo / Tubo	tubo.dat
+Bloque Inversión 2 puntos Cutty Sark	placacty.dat
+Bote Salvavidas	barca.dat
+Cabina Cosmic Inferior	skycab.dat
+Cabina Cosmic Superior	skycabcr.dat
+Cabina Helicóptero Inferior	helcab.dat
+Cabina Helicóptero Superior	helcabcr.dat
+Cabina Ruta 2 Cristal	cabnuecr.dat
+Cabina Ruta 2 Inferior	cabnuebs.dat
+Cabina Ruta 2 Puerta	cabnuept.dat
+Cabina Ruta 2 Superior	cabnuear.dat
+Cabina Titanium Inferior	cabalfab.dat
+Cabina Titanium Superior	cabalfar.dat
+Cabrestante	pistola.dat
+Cadena Oruga Corta	cadcobra.dat
+Cadena Oruga Larga	cadmisil.dat
+Camión	camion.dat
+Cañón Tanque	canontnq.dat
+Capó Ruta 2	capo.dat
+Cepillo	escobill.dat
+Cilindro 1 punto	cilindro.dat
+Cilindro 2 puntos Inferior Curvo	cilindab.dat
+Cilindro 2 Puntos Inferior Jácena	cilindab2.dat
+Cilindro 2 Puntos Superior	cilindar.dat
+Cilindro 2 Puntos Tapa	cilintap.dat
+Cilindro Alfa	cilind4p.dat
+Cirrevol 2 puntos	cirrevop.dat
+Cirrevol 6 puntos	cirrevog.dat
+Cola Helicóptero	helcol.dat
+Cola Helicóptero Arriostrada	helcolhu.dat
+Cono Tanque	conotanq.dat
+Chasis 2 puntos	chasis2.dat
+Chasis 3 puntos con ruedas	chasis3r.dat
+Chasis 4 puntos con ruedas	chasis4r.dat
+Chasis Titanium	alfachas.dat
+Chimenea placa	chimplac.dat
+Chimenea remate	chimenea.dat
+Chimenea Titanic	chimttnc.dat
+Chimenea Tubo	chimtubo.dat
+Depósito Ruta	deposito.dat
+Elevador Micro Base	elevad1.dat
+Elevador Micro Eje	elevad2.dat
+Elevador Micro Palanca	elevad3.dat
+Elevador Micro Plataforma	elevad4.dat
+Enganche Vela	engbarco.dat
+Escalera	escalera.dat
+Escotilla Puerta	escotilp.dat
+Espejo Retrovisor Ruta 2	cabnuesp.dat
+Faros Ruta	paracq21.dat
+Faros Titanium	faros.dat
+Figura Articulada Brazo Derecho	htitbrzd.dat
+Figura Articulada Brazo Izquierdo	htitbrzi.dat
+Figura Articulada Cabeza Bombero Alfa
+Figura Articulada Cabeza Bombero Ruta 2
+Figura Articulada Cabeza Desnuda	htitcab2.dat
+Figura Articulada Cabeza Mecánico Alfa
+Figura Articulada Cabeza Obras Ruta 2
+Figura Articulada Cabeza Piloto Alfa
+Figura Articulada Cabeza Policía Alfa
+Figura Articulada Cabeza Titanium Cuadrada	htitcab1.dat
+Figura Articulada Cabeza Titanium Redonda
+Figura Articulada Completa	htit2.dat
+Figura Articulada Mano Derecha	htitmand.dat
+Figura Articulada Mano Izquierda	htitmani.dat
+Figura Articulada Piernas	htitpies.dat
+Figura Articulada Tronco	htittron.dat
+Figura Astronauta 1 punto dorsal	astronau.dat
+Figura Astronauta Clásico	astronav.dat
+Figura Helicóptero Militar 1
+Figura Helicóptero Militar 2
+Figura Helicóptero Piloto 1
+Figura Helicóptero Piloto 2
+Figura Marciano
+Figura Scorpión Conductor
+Figura Scorpión Soldado
+Figura Scorpión Tanquista
+Gancho 4 puntos	alfagarf.dat
+Grúa Alfa
+Grúa Astro	gruastro.dat
+Grúa Mar Articulada	grua.dat
+Grúa Mar Articulada Base	gruab.dat
+Grúa Mar Articulada Pluma	gruap.dat
+Grúa Mar Fija	gruafija.dat
+Grúa Micro	minigrua.dat
+Grúa Ruta 2 Bisagra Inferior	bsgcarr2.dat
+Grúa Ruta 2 Bisagra Superior	bsgcarr1.dat
+Grúa Ruta 2 Estabilizador Alojamiento	soport3.dat
+Grúa Ruta 2 Estabilizador Pata	soport1.dat
+Grúa Ruta 2 Estabilizador Telescópico	soport2.dat
+Grúa Ruta 2 Gancho	garfio.dat
+Grúa Ruta 2 Gancho Soporte	garfsprt.dat
+Grúa Ruta 2 Hilo	gruahilo.dat
+Grúa Ruta 2 Pluma 1	grua1.dat
+Grúa Ruta 2 Pluma 2	grua2.dat
+Grúa Ruta 2 Polea	gruaremt.dat
+Grúa Ruta 2 Tambor	gruatorn.dat
+Grúa Ruta 2 Tambor Soporte	gruators.dat
+Grúa Ruta 2 Tope	gruatop1.dat
+Guardabarros	guardabr.dat
+Helicóptero Eje Rueda	helireje.dat
+Helicóptero Mar Doble	helicop2.dat
+Helicóptero Mar Rotor	heliaspa.dat
+Helicóptero Mar Simple	helicop1.dat
+Helicóptero Micro 1
+Helicóptero Micro 2
+Helicóptero Micro Rotor	aspamic2.dat
+Hidráulico Camisa	extenmed.dat
+Hidráulico Fijación Inferior	extenabj.dat
+Hidráulico Fijación Superior	extenarr.dat
+Hidráulico Vástago	extengrs.dat
+Jácena 1	jacena1.dat
+Jácena 1 Enganche 1 (con agujero aspa)	enganche.dat
+Jácena 1 Enganche 1 (sin agujero)	enganch2.dat
+Jácena 14	jacena14.dat
+Jácena 2	jacena2.dat
+Jácena 2x2	jacen2x2.dat
+Jácena 2x3	jacen2x3.dat
+Jácena 2x4	jacen2x4.dat
+Jácena 2x8	jacen2x8.dat
+Jácena 4	jacena4.dat
+Jácena 6	jacena6.dat
+Jácena 8	jacena8.dat
+Jácena Alfa	alfajacn.dat
+Jácena rayada 1	rallado1.dat
+Jácena rayada 2	rallado2.dat
+Lancha	lancha.dat
+Lancha Desembarco	landes.dat
+Lanzamisiles	misilese.dat
+Lanzamisiles 2	misiles.dat
+Lanzatorpedos / Radar	radarneg.dat
+Láser	laser.dat
+Latiguillo	tbrecto.dat
+Latiguillo Enganche Lateral	tbscorec.dat
+Llanta Astro	ejeastr4.dat
+Llanta Astro con Agujero	ejeastr1.dat
+Llanta Oruga	llantnq.dat
+Llanta Roblock	llantrob.dat
+Llanta Rueda Compuesta Cosmic Interior	ejecosm1.dat
+Llanta Rueda Compuesta Cosmic Tetón	ejealfa.dat
+Llanta Rueda Helicóptero	helillnt.dat
+Llanta Ruta	llantrut.dat
+Llanta Ruta 2	nrutllnt.dat
+Llanta Ruta Tetón	llanrutt.dat
+Llanta Titanium	alfalln1.dat
+Llanta Variant	llantaxt.dat
+Mástil (hembra)	mastilh.dat
+Mástil (macho)	mastilm.dat
+Mástil base	mastbase.dat
+Mástil fino 100 mm	mastf100.dat
+Mástil fino 135 mm	mastf135.dat
+Mástil fino 50 mm	mastf050.dat
+Mástil fino 60 mm	mastf060.dat
+Mástil fino 70 mm	mastf070.dat
+Mástil fino 85 mm	mastf085.dat
+Mástil grueso 135 mm	mastg135.dat
+Mástil grueso 150 mm	mastg150.dat
+Mástil grueso 170 mm	mastg170.dat
+Mástil grueso 190 mm	mastg190.dat
+Mástil grueso 265 mm	mastg265.dat
+Metralleta / Ametralladora	metrall.dat
+Módulo Mando Alfa	modmando.dat
+Módulo Mando Alfa Joystick	modmandj.dat
+Módulo Médico Alfa	modmedic.dat
+Módulo Médico Alfa Camilla	modmedca.dat
+Motor a Pilas	motor.dat
+Motor Ruta 2
+Motor Titanium	alfamotr.dat
+Neumático Helicóptero	helineum.dat
+Neumático Ruta	ruta21nm.dat
+Neumático Ruta 2	nrutneum.dat
+Neumático Scorpión	neumtter.dat
+Neumático Titanium	alfaneum.dat
+Neumático Variant	neumaxt.dat
+Pala Excavadora	palaexcv.dat
+Pala Helicóptero	aspa.dat
+Palmera grande hoja	plmghoja.dat
+Palmera grande tronco	plmgtrnc.dat
+Palmera pequeña base	plmbase.dat
+Palmera pequeña hojas	plmphoja.dat
+Palmera pequeña tronco	plmptrnc.dat
+Panel	castillo.dat
+Panel Esquina	castesqu.dat
+Panel Solar Astro	panelast.dat
+Parabrisas Cristal	parabcrs.dat
+Parabrisas Marco	parabmrc.dat
+Parabrisas Ruta Cristal	cabantcr.dat
+Parabrisas Ruta Cristal 2	cabantc2.dat
+Parabrisas Ruta Marco	cabantmr.dat
+Parabrisas Ruta Marco 2	cabantm2.dat
+Parabrisas Titanium	alfacris.dat
+Parachoques	parachoq.dat
+Parachoques Ruta 2	cabnuepa.dat
+Parachoques Titanium	paracqtt.dat
+Pared Alfa	alfapare.dat
+Parrilla	rejilla.dat
+Pastilla / Carga de profundidad	pastilla.dat
+Pata Astro	patastro.dat
+Pata Titanium	alfaramp.dat
+Patín Helicóptero	helpata.dat
+Patín Titanium	alfapatn.dat
+Petróleo enganche	petroeng.dat
+Petróleo tubo	petrotub.dat
+Pilar Alfa	pilaralf.dat
+Placa 1	placa1.dat
+Placa 10x10 Batería Hasbro	placa10.dat
+Placa 15x15	placa15.dat
+Placa 2	placa2.dat
+Placa 2x2	placa2x2.dat
+Placa 2x2 Polea Grúa	polegrua.dat
+Placa 2x3	placa2x3.dat
+Placa 2x8	placa2x8.dat
+Placa 30x30	placa30.dat
+Placa 4	placa4.dat
+Placa 4x6	placa4x6.dat
+Placa 4x8	placa4x8.dat
+Placa 6x8	placa6x8.dat
+Placa Base Habitáculo Alfa	placalfa.dat
+Plantas Micro	plantas.dat
+Popa 4 puntos	popa4.dat
+Popa 4 puntos placa	popa4p.dat
+Popa 6 puntos	popa_6.dat
+Popa 6 puntos castillo	popa6rem.dat
+Popa 6 puntos placa	popa6p.dat
+Popa 6 puntos quilla	popa6qui.dat
+Proa 4 puntos	proa4.dat
+Proa 4 puntos castillo	proa4rmt.dat
+Proa 4 puntos placa	proa4p.dat
+Proa 4 puntos quilla	proa4qui.dat
+Proa 6 puntos	proa_6.dat
+Proa 6 puntos castillo	proa6rem.dat
+Proa 6 puntos con enganche	proa6vel.dat
+Proa 6 puntos placa	proa6p.dat
+Proa 6 puntos quilla	proa6qui.dat
+Propulsor Titanium	tobergal.dat
+Puerta Ala Gaviota	titalaiz.dat
+Puerta Ala Gaviota Soporte	titsoprt.dat
+Puerta Alfa Marco	alfprtam.dat
+Puerta Alfa Rampa	alfprtar.dat
+Puerta Casa Cristal	puertacr.dat
+Puerta Casa Marco	puertamr.dat
+Puerta Garaje	pgaraje.dat
+Puerta Garaje Soporte	pgarajes.dat
+Puerta Titanium	comprtp.dat
+Puerta Titanium marco	comprtm.dat
+Quilla 4 puntos	quilla_4.dat
+Quilla 6 puntos	quilla.dat
+Radar Alfa	radaralf.dat
+Rampa Lanzamiento	ramplanz.dat
+Rampa Micro	rampa.dat
+Remate Cohete	remtcoht.dat
+Remate cubierta 2x2	remate_2.dat
+Remate cubierta 6x2	remate62.dat
+Remate cubierta 6x4	remate_6.dat
+Remate Mar 1 punto	piquito.dat
+Rotor de Cola Helicóptero	helirotr.dat
+Rotor Inferior para 4 y 12 puntos	rotorinf.dat
+Rotor Inferior para 8 puntos	rotrinf2.dat
+Rotor Superior 12 puntos	platfgir.dat
+Rotor Superior 4 puntos	rotorsup.dat
+Rotor Superior 8 puntos	platfgi2.dat
+Rueda Aire montada en jácena 2x2	rueairj2.dat
+Rueda Astro	rueastro.dat
+Rueda Cosmic	ruecosmi.dat
+Rueda Helicóptero	helrueda.dat
+Rueda Ruta 21 lisa	ruerutal.dat
+Rueda Ruta 21 lisa montada en jácena 2x2	rueruj2l.dat
+Rueda Ruta 21 lisa montada en jácena 2x4	ruerj42l.dat
+Rueda Ruta 21 tetón	ruerutat.dat
+Rueda Ruta 21 tetón montada en jácena 2x2	rueruj2t.dat
+Rueda Ruta 21 tetón montada en jácena 2x4	ruerj42t.dat
+Rueda Ruta 21 tetón montada en jácena 4	rueruj4t.dat
+Rueda Scorpion lisa	ruescorl.dat
+Rueda Scorpion lisa montada en jácena 2x2	ruescj2l.dat
+Rueda Scorpion lisa montada en jácena 2x4	rues42l.dat
+Rueda Scorpion tetón montada en jácena 2x2	ruescj2t.dat
+Rueda tobera	ruetober.dat
+Rueda Variant	rvariant.dat
+Semicúpula 4 puntos	semicupp.dat
+Semicúpula 5 puntos	semicupm.dat
+Semicúpula 6 puntos	semicupg.dat
+Señal Tráfico Círculo	trfcircb.dat
+Señal Tráfico Poste	trfposte.dat
+Señal Tráfico Rectángulo	trfrectb.dat
+Señal Tráfico Semáforo	trfsemfc.dat
+Señal Tráfico Triángulo	trftrian.dat
+Sirena / Doppler	sirena.dat
+Sono-lux	xtronic.dat
+Soporte Farola Micro	tbfarola.dat
+Soporte Lanzamisiles / Antena Parabólica	soprtmar.dat
+Soporte Llantas 16 puntos	ejedbcad.dat
+Soporte Llantas 4 puntos	ejecadpq.dat
+Soporte Llantas 6 puntos	ejedbcpq.dat
+Soporte Llantas 8 puntos	ejecaden.dat
+Soporte Llantas 8 puntos Ruta 2	nruteje.dat
+Soporte Llantas 8 puntos Titanium	alfa_eje.dat
+Soporte Rueda Helicóptero	helisprt.dat
+Tapacubos Ruta 2	nrutembl.dat
+Tapacubos Titanium	alfalln2.dat
+Tejado 2x2 puntos	tejado.dat
+Tejado 2x2 puntos remate	tejadorm.dat
+Tejado 8x2 puntos	tejado8.dat
+Tejado 8x2 puntos remate	tejador8.dat
+Tejado Micro 2 puntos	tejamcr2.dat
+Tejado Micro 3 puntos	tejamcr3.dat
+Tobera Astro	toberast.dat
+Tobera Titanium	alfaturb.dat
+Toma de Aire Ruta 2	tuboruta.dat
+Toma de Aire Titanium	alfaplac.dat
+Torre Micro	torremcr.dat
+Torreta Antiaéreos	canonpeq.dat
+Torreta Doble Cañón	canonmed.dat
+Torreta Triple Cañón	canongrn.dat
+Tubo Escape Recto	tbescrct.dat
+Tubo Escape Recto 2	tbescrc2.dat
+Tubo Escape Ruta 2	tbescdbl.dat
+Tubo Escape Triple	tbesctrp.dat
+Turbina	respirad.dat
+Valla Micro	valla.dat
+Ventana 1 punto	vnt1x1m.dat
+Ventana 1 punto doble altura	ventana1m.dat
+Ventana 1 punto doble altura Cristal	ventana1c.dat
+Ventana 2 puntos	vntscorm.dat
+Ventana 2 puntos Cristal	vntscorv.dat
+Ventana 2 puntos doble altura	vntcasam.dat
+Ventana 2 puntos doble altura Cristal	vntcasac.dat
+Ventana 4 puntos	ventan4m.dat
+Ventana 4 puntos Cristal	ventan4c.dat
+Ventana Alfa Completa	alfparcv.dat
+Ventana Thor Cristal	vntthorv.dat
+Ventana Thor Marco	vntthorm.dat
+Viga Alfa	alfaviga.dat
+Volante Ruta 2	cabnuevo.dat
+Volquete Esquina	pinzaesq.dat
+Volquete Pared / Asiento Astro	pinzastr.dat
+Zeta Alfa	alfazeta.dat

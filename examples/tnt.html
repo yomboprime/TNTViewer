@@ -489,6 +489,41 @@
 					// Put above floor
 					model.position.y = - modelBbox.min.y;
 
+					/*
+					const stickers = [];
+					model.traverse( c => {
+
+						if ( c.userData.fileName === 'bcn5.dat' ) stickers.push( c );
+
+					} );
+
+					const stickerMaterial = new THREE.MeshStandardMaterial( { color: 0xFFFFFF } );
+					for ( let s in stickers ) {
+
+						stickers[ s ].traverse( c => {
+
+							if ( c.isMesh ) {
+
+
+								c.material.transparent = true;
+								c.material.opacity = 0.4;
+								c.material.premultipliedAlpha = false;
+
+								//c.material = stickerMaterial;
+
+								c.material.polygonOffset = false;
+								c.material.polygonOffsetFactor = - 1;
+								c.material.polygonOffsetUnits = - 5;
+
+								//console.log( c.material );
+
+							}
+
+						} );
+
+					}
+					*/
+
 					models.push( model );
 					scene.add( model );
 
@@ -751,11 +786,14 @@
 /*
 				model.traverse( c => {
 
-					if ( isPartType( c.userData.type ) ) {
+					console.log( "fileName: " + c.userData.fileName );
 
-						parts.push( c );
 
-					}
+					//if ( isPartType( c.userData.type ) ) {
+
+					//	parts.push( c );
+
+					//}
 
 				} );
 */

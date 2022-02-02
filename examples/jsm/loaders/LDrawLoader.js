@@ -689,6 +689,7 @@ class LDrawParsedCache {
 		result.category = original.category;
 		result.keywords = original.keywords;
 		result.subobjects = original.subobjects;
+		result.fileName = original.fileName;
 		result.totalFaces = original.totalFaces;
 		result.startingConstructionStep = original.startingConstructionStep;
 		result.materials = original.materials;
@@ -1358,6 +1359,7 @@ class LDrawPartsGeometryCache {
 			group.userData.category = info.category;
 			group.userData.keywords = info.keywords;
 			group.userData.type = info.type;
+			group.userData.fileName = info.fileName;
 			info.group = group;
 
 			const subobjectInfos = await Promise.all( promises );

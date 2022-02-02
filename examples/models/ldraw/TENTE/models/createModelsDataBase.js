@@ -88,9 +88,10 @@ for ( let l in sourceDataBase ) {
 
 console.log( "Reading parts list..." );
 
+/*
 const partsListPath = 'parts.lst';
 let partsListLines = readTextFileSync( pathJoin( __dirname, '..', partsListPath ), "latin1" );
-console.log( partsListLines );
+//console.log( partsListLines );
 if ( partsListLines === null ) {
 
 	console.log();
@@ -135,6 +136,44 @@ for ( let i in partsListLines ) {
 		path: path,
 		title: title,
 		metaData: metaData
+	} );
+
+}
+*/
+
+const partsListPath = 'partslist.tsv';
+let partsListLines = readTextFileSync( pathJoin( __dirname, partsListPath ), "latin1" );
+//console.log( partsListLines );
+if ( partsListLines === null ) {
+
+	console.log();
+	console.log( "Error reading parts list file: " + partsListPath );
+	process.exit( - 1 );
+
+}
+
+partsListLines = partsListLines.toString().split( '\n' );
+
+const partsTempArray = [];
+let ignoredPArtsLines = 0;
+for ( let i in partsListLines ) {
+
+	const partsListLine = partsListLines[ i ];
+
+	const tabPos = partsListLine.indexOf( '\t' );
+	if ( tabPos < 0 ) {
+
+		ignoredPArtsLines ++;
+		continue;
+
+	}
+
+	const title = partsListLine.substring( 0, tabPos );
+	let path = partsListLine.substring( tabPos ).trim();
+
+	partsTempArray.push( {
+		path: path,
+		title: title
 	} );
 
 }
@@ -319,11 +358,16 @@ let htmlModelListContent =
 	</head>
 	<body>
 		<h1>TNT Viewer models list</h1>
+		<p><a href="https://gitlab.com/cpcbegin/tentemodels">TENTE models repository licensed GPLv3 by cpcbegin</a></p>
 		<h2>Index</h2>
 		<ul>
+			<li>Other links</li>
 			<li>Official models</li>
 			<li>Custom models</li>
 		</ul>
+		<h2>Other links</h2>
+		<p>See <a href="https://yomboprime.github.io/TNTViewer/examples/tnt_parts.html">parts list</a>.</p>
+		<p><a href="https://github.com/yomboprime/TNTViewer">TNTViewer code at Github</a></p>
 		<h2>Official models</h2>
 		<p>Number of models: ***OFFICIAL_MODELS_COUNT***<p>
 		<table>
@@ -347,9 +391,7 @@ let htmlModelListContent =
 			</tr>
 ***CUSTOM_MODELS***
 		</table>
-		<h2>Other links</h2>
-		<p>See <a href="https://yomboprime.github.io/TNTViewer/examples/tnt_parts.html">parts list</a>.</p>
-		<p><a href="https://github.com/yomboprime/TNTViewer">TNTViewer code at Github</a></p>
+		<p><a href="https://gitlab.com/cpcbegin/tentemodels">TENTE models repository licensed GPLv3 by cpcbegin</a></p>
 	</body>
 </html>`;
 
@@ -431,25 +473,26 @@ let htmlPartListContent =
 	</head>
 	<body>
 		<h1>TNT Viewer parts list</h1>
+		<p><a href="http://tenteros.land/foro/viewtopic.php?f=47&t=154">TENTE Parts Library CC BY 4.0 by the community at tenteros.land.</a></p>
 		<h2>Index</h2>
 		<ul>
-			<li>Parts list</li>
 			<li>Other links</li>
+			<li>Parts list</li>
 		</ul>
+		<h2>Other links</h2>
+		<p>See <a href="https://yomboprime.github.io/TNTViewer/examples/tnt_models.html">models list.</a></p>
+		<p><a href="https://github.com/yomboprime/TNTViewer">TNTViewer code at Github</a></p>
 		<h2>Parts list</h2>
 		<p>Number of parts: ***PARTS_COUNT***<p>
 		<table>
 			<tr>
 				<th>Title</th>
 				<th>View part</th>
-				<th>Part metadata</th>
 				<th>File</th>
 			</tr>
 ***PARTS_LIST***
 		</table>
-		<h2>Other links</h2>
-		<p>See <a href="https://yomboprime.github.io/TNTViewer/examples/tnt_models.html">models list.</a></p>
-		<p><a href="https://github.com/yomboprime/TNTViewer">TNTViewer code at Github</a></p>
+		<p><a href="http://tenteros.land/foro/viewtopic.php?f=47&t=154">TENTE Parts Library CC BY 4.0 by the community at tenteros.land.</a></p>
 	</body>
 </html>`;
 
@@ -465,7 +508,6 @@ for ( let i in dataBase.partsPathsList ) {
 `			<tr>
 				<td>` + part.title + `</td>
 				<td><a href="https://yomboprime.github.io/TNTViewer/examples/tnt.html?modelPath=../parts/` + part.path + `">View part</a></td>
-				<td>` + part.metaData + `</td>
 				<td>` + ( part.path ? part.path : "No file." ) + `</td>
 			</tr>
 `;
