@@ -2,10 +2,7 @@
 0 Name: alaafmed.dat
 0 Author: betatron
 0 !LDRAW_ORG Unofficial_Part
-0 !LICENSE Redistributable under CCAL version 2.0 : see CAreadme.txt
-0 ROTATION CENTER 0 0 0 1 "Custom" 
-0 ROTATION CONFIG 0 0
-
+0 BFC CERTIFY CCW
 2 24 2.5 -13 -9.886 2.952 -13 -7.321
 2 24 2.5 -13 -29.886 2.952 -13 -27.321
 2 24 2.5 -13 10.114 2.952 -13 7.549

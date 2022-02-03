@@ -2,10 +2,7 @@
 0 Name: xtroverd.dat
 0 Author: betatron
 0 !LDRAW_ORG Unofficial_Part
-0 !LICENSE Redistributable under CCAL version 2.0 : see CAreadme.txt
-0 ROTATION CENTER 0 0 0 1 "Custom" 
-0 ROTATION CONFIG 0 0
-
+0 BFC CERTIFY CCW
 3 16 23.781 -112.38 42.5 25 -112.38 41.281 25 -112.5 42.5
 3 16 25 -112.38 43.719 25 -112.5 42.5 26.219 -112.38 42.5
 3 16 23.781 -112.38 42.5 23.804 -112.262 41.281 25 -112.38 41.281
