@@ -242,7 +242,7 @@
 						const mainColor = { r: mainMat.color.r, g: mainMat.color.g, b: mainMat.color.b }
 						const mainEdgeColor = { r: mainEdgeMat.color.r, g: mainEdgeMat.color.g, b: mainEdgeMat.color.b }
 
-						const exportScale = 0.01;
+						let exportScale = 0.01;
 						if ( isOptionSet( 'exportScale' ) ) exportScale = getOption( 'exportScale' );
 
 						guiData = {
