@@ -652,6 +652,7 @@
 
 				model.scale.multiplyScalar( scale );
 				model.position.multiplyScalar( scale );
+				model.position.x = 0;
 
 				const removeChilds = [];
 				model.traverse( ( c ) => {

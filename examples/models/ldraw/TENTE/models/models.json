@@ -1596,10 +1596,10 @@
             "seriesNumber": null,
             "refNumber": null
         },
-        "inventados/navevisitante.ldr": {
-            "path": "inventados/navevisitante.ldr",
+        "inventados/nave_v/navevisitante.ldr": {
+            "path": "inventados/nave_v/navevisitante.ldr",
             "id": "",
-            "title": "inventados/navevisitante",
+            "title": "inventados/nave_v/navevisitante",
             "seriesNumber": null,
             "refNumber": null
         },
@@ -2106,7 +2106,7 @@
         "inventados/molino.ldr",
         "inventados/morlaco.ldr",
         "inventados/nave_guaul_mini.ldr",
-        "inventados/navevisitante.ldr",
+        "inventados/nave_v/navevisitante.ldr",
         "inventados/ovni9.ldr",
         "inventados/papamovil.ldr",
         "inventados/pctubo.ldr",
