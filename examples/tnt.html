@@ -37,6 +37,8 @@
 			import { LDrawLoader } from './jsm/loaders/LDrawLoader.js';
 			//import { LDrawUtils } from './jsm/utils/LDrawUtils.js';
 
+			const GUI_WIDTH = 500;
+
 			const constructionSets = [
 				'LEGO',
 				'TENTE',
@@ -49,7 +51,7 @@
 			};
 			let currentConstructionSet;
 
-			let container, progressBarDiv;
+			let container, progressBarDiv, sideBarDiv, scrolledDiv;
 
 			let camera, scene, renderer, controls, gui, guiData;
 
@@ -83,13 +85,21 @@
 			let timeFactorController;
 			let constructionStepController;
 			let animationButtonController;
+			let prevStepController;
+			let nextStepController;
 			let modelTitleController;
 			let pathController;
 			let modelSeriesController;
 			let modelRefController;
 			let modelInfoURLController;
 
-			let infoDiv;
+			let infoDiv, secondPanel;
+
+			const CLASS_PLAYBACK_BUTTON = 'playbackbut';
+			const CLASS_PLAY_BUTTON = 'playbut';
+			const CLASS_PAUSE_BUTTON = 'pausebut';
+			const CLASS_PREV_STEP_BUTTON = 'prevbut';
+			const CLASS_NEXT_STEP_BUTTON = 'nextbut';
 
 			// Physics variables
 			let collisionConfiguration;
@@ -593,8 +603,6 @@
 						modelInfoURLController.updateDisplay();
 
 						let infoText = '';
-						let infoHeight = 50;
-
 						if ( modelInfo.id && Number.isInteger( parseInt( modelInfo.id ) ) ) {
 
 							infoText += 'Go <a href="https://tente.spread.name/id/' + modelInfo.id + '"><b>here for model info</b> (external link)</a>';
@@ -606,7 +614,6 @@
 							'<br><a href="https://github.com/yomboprime/TNTViewer">TNTViewer code at Github</a>';
 
 						infoDiv.innerHTML = infoText;
-						infoDiv.style.bottom = infoHeight + 'px';
 
 					}
 
@@ -753,6 +760,8 @@
 
 				if ( animationState !== ANIM_STOPPED ) return;
 
+				const disableAnimButton = ! animationCreated;
+
 				if ( ! animationCreated ) {
 
 					createAnimation();
@@ -777,6 +786,7 @@
 				pauseOnNextStepStep = - 1;
 
 				animationButtonController.name( "Pause animation" );
+				if ( disableAnimButton ) animationButtonController.disable();
 
 			}
 
@@ -854,6 +864,9 @@
 
 				animationState = ANIM_CONSTRUCTING;
 
+				constructionStepController.enable();
+				animationButtonController.name( "Pause animation" );
+
 			}
 
 			function goToNextStep() {
@@ -873,6 +886,9 @@
 				}
 
 				animationState = ANIM_CONSTRUCTING;
+
+				constructionStepController.enable();
+				animationButtonController.name( "Pause animation" );
 
 			}
 
@@ -953,7 +969,7 @@
 
 				}
 
-				meanPos.x += getTurnOffset();
+				meanPos.z -= getTurnOffset();
 
 				for ( let p in parts ) {
 
@@ -1059,6 +1075,9 @@
 
 							beginConstruction();
 							animParts( deltaTime );
+							animationButtonController.enable();
+							prevStepController.enable();
+							nextStepController.enable();
 
 						}
 						break;
@@ -1100,7 +1119,7 @@
 					animationState = ANIM_STOPPED;
 					time = deltaTime > 0 ? constructionDuration : 0;
 					timeNextStep = time;
-					animationButtonController.name( "Start animation" );
+					animationButtonController.name( "Resume animation" );
 					constructionStepController.disable();
 
 					//animationState = ANIM_WAIT;
@@ -1229,10 +1248,12 @@
 
 			function onWindowResize() {
 
-				camera.aspect = window.innerWidth / window.innerHeight;
-				camera.updateProjectionMatrix();
+				const w = Math.max( 1, window.innerWidth - ( gui ? GUI_WIDTH + 15: 0 ) );
 
-				renderer.setSize( window.innerWidth, window.innerHeight );
+				camera.aspect = w / window.innerHeight;
+				camera.updateProjectionMatrix();0
+
+				renderer.setSize( w, window.innerHeight );
 
 			}
 
@@ -1244,7 +1265,17 @@
 
 				}
 
-				gui = new GUI( { width: 500 } );
+				if ( scrolledDiv && container.contains( scrolledDiv ) ) container.removeChild( scrolledDiv );
+				sideBarDiv = document.createElement( 'div' );
+				scrolledDiv = createScrolledDiv( sideBarDiv );
+				scrolledDiv.style.position = 'absolute';
+				scrolledDiv.style.top = '0px';
+				scrolledDiv.style.right = '0px';
+				scrolledDiv.style.height = '100%';
+				container.appendChild( scrolledDiv );
+
+
+				gui = new GUI( { width: GUI_WIDTH, container: sideBarDiv } );
 
 				const fileNameMap = {};
 				for ( let i in dataBase.modelPathsList ) {
@@ -1336,7 +1367,9 @@
 
 				exportFolder.close();
 
+
 				animationButtonController = gui.add( guiData, 'animationButton' ).name( 'Start animation' );
+				animationButtonController.domElement.firstChild.firstChild.style.height = '50px';
 
 				constructionStepController = gui.add( guiData, 'constructionStep', 1, 1 ).step( 1 ).name( 'Construction step' ).onChange( () => {
 
@@ -1353,22 +1386,92 @@
 
 				} );
 
-				gui.add( guiData, 'goToPrevStep' ).name( '⬅️ Go back one step' );
-				gui.add( guiData, 'goToNextStep' ).name( '➡️ Go forward one step' );
+				prevStepController = gui.add( guiData, 'goToPrevStep' ).name( '⬅️ Go back one step' );
+				prevStepController.domElement.firstChild.firstChild.style.height = '30px';
+				prevStepController.disable();
 
+				nextStepController = gui.add( guiData, 'goToNextStep' ).name( '➡️ Go forward one step' );
+				nextStepController.domElement.firstChild.firstChild.style.height = '30px';
+				nextStepController.disable();
 
-				if ( container.contains( infoDiv ) ) container.removeChild( infoDiv );
+				secondPanel = document.createElement( 'div' );
+				sideBarDiv.appendChild( secondPanel );
+
 				infoDiv = document.createElement( 'div' );
-				infoDiv.innerHTML = 'If model does not load go to the <a href="https://yomboprime.github.io/TNTViewer/examples/tnt_models.html">Models list</a> and try loading a different one.';
+				infoDiv.style.color = '#A0B0C0';
+				infoDiv.style.padding = '4px';
+
+				/*
 				infoDiv.style.position = 'absolute';
 				infoDiv.style.bottom = '50px';
 				infoDiv.style.left = '200px';
 				infoDiv.style.width = '60%';
-				infoDiv.style.color = '#A0B0C0';
-				container.appendChild( infoDiv );
+				*/
+				secondPanel.appendChild( infoDiv );
 
+
+				const tenteLogoDiv = document.createElement( 'div' );
+				tenteLogoDiv.style.padding = '4px';
+				const tenteLink = document.createElement( 'a' );
+				tenteLink.innerHTML = 'TENTE Parts Library CC BY 4.0 by the community at tenteros.land';
+				tenteLink.href = 'http://tenteros.land/foro/viewtopic.php?f=47&t=154';
+
+				const p1 = document.createElement( 'p' );
+				p1.appendChild( tenteLink );
+				tenteLogoDiv.appendChild( p1 );
+				secondPanel.appendChild( tenteLogoDiv );
+
+				const ldrawLogoDiv = document.createElement( 'div' );
+				ldrawLogoDiv.style.padding = '4px';
+				const ldrawImageLink = document.createElement( 'a' );
+				ldrawImageLink.innerHTML = '<img style="width: 145px" src="models/ldraw/LEGO/ldraw_org_logo/Stamp145.png">';
+				ldrawImageLink.href = 'http://www.ldraw.org';
+				const ldrawLink = document.createElement( 'a' );
+				ldrawLink.innerHTML = 'This software uses the LDraw Parts Library';
+				ldrawLink.href = 'http://www.ldraw.org';
+
+				const p2 = document.createElement( 'p' );
+				p2.appendChild( ldrawImageLink );
+				p2.style.backgroundColor = '#F3F7F8';
+				const p3 = document.createElement( 'p' );
+				p3.appendChild( ldrawLink );
+				ldrawLogoDiv.appendChild( p2 );
+				ldrawLogoDiv.appendChild( p3 );
+				secondPanel.appendChild( ldrawLogoDiv );
+
+
+/*
+<div style="display: block; position: absolute; bottom: 8px; left: 8px; width: 160px; padding: 10px; background-color: #F3F7F8;">
+<center>
+<a href="http://www.ldraw.org"><img style="width: 145px" src="models/ldraw/LEGO/ldraw_org_logo/Stamp145.png"></a>
+<br />
+<a href="http://www.ldraw.org/">This software uses the LDraw Parts Library</a>
+</center>
+</div>
+
+<div style="position: absolute; bottom: 8px; left: 200px; padding: 4px; background-color: #F3F7F8;">
+<a href="http://tenteros.land/foro/viewtopic.php?f=47&t=154">TENTE Parts Library CC BY 4.0 by the community.</a>
+</div>
+*/
+				onWindowResize();
 
 			}
+
+			function createScrolledDiv( childDiv ) {
+
+				// Creates a scrolled div. childDiv must be a div and will contain the scrolled content.
+
+				var scrolledDiv = document.createElement( 'div' );
+
+				scrolledDiv.style.overflowX = "hidden";
+				scrolledDiv.style.overflowY = "scroll";
+
+				scrolledDiv.appendChild( childDiv );
+
+				return scrolledDiv;
+
+			}
+
 
 			function getOption( name, parse = true ) {
 
@@ -1563,23 +1666,6 @@
 			}
 
 		</script>
-
-		<!-- LDraw.org CC BY 2.0 Parts Library attribution -->
-		<div style="display: block; position: absolute; bottom: 8px; left: 8px; width: 160px; padding: 10px; background-color: #F3F7F8;">
-			<center>
-				<a href="http://www.ldraw.org"><img style="width: 145px" src="models/ldraw/LEGO/ldraw_org_logo/Stamp145.png"></a>
-				<br />
-				<a href="http://www.ldraw.org/">This software uses the LDraw Parts Library</a>
-			</center>
-		</div>
-		<div style="position: absolute; bottom: 8px; left: 200px; padding: 4px; background-color: #F3F7F8;">
-		<a href="http://tenteros.land/foro/viewtopic.php?f=47&t=154">TENTE Parts Library CC BY 4.0 by the community.</a>
-		</div>
-		<!--
-		<div style="position: absolute; top: 8px; left: 20px; padding: 4px; background-color: #F3F7F8;">
-		TEST Num: 1
-		</div>
-		-->
 
 	</body>
 </html>
