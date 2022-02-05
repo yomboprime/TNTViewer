@@ -275,7 +275,8 @@
 							exportScale: exportScale,
 							exportGLTF: () => { exportModel( models[ 0 ], 'gltf', guiData.exportScale ); },
 							exportDAE: () => { exportModel( models[ 0 ], 'dae', guiData.exportScale ); },
-							exportOBJ: () => { exportModel( models[ 0 ], 'obj', guiData.exportScale ); }
+							exportOBJ: () => { exportModel( models[ 0 ], 'obj', guiData.exportScale ); },
+							centerCameraInObject: centerCameraInObject
 						};
 
 						window.addEventListener( 'resize', onWindowResize );
@@ -731,7 +732,18 @@
 			function setCamera( x, y, z ) {
 
 				controls.target0.set( x, y, z );
-				controls.position0.set( - 2.3, 1, 2 ).multiplyScalar( modelDiameter * 0.5 ).add( controls.target0 );
+				controls.position0.set( - 2.3, 1, 2 ).multiplyScalar( modelDiameter * 0.6 ).add( controls.target0 );
+				controls.reset();
+
+			}
+
+			function centerCameraInObject() {
+
+				if ( ! models || ! models[ 0 ] ) modelBbox.getCenter( controls.target0 );
+				else controls.target0.copy( models[ 0 ].position );
+
+				vector3Temp1.subVectors( camera.position, controls.target );
+				controls.position0.copy( vector3Temp1 ).add( controls.target0 );
 				controls.reset();
 
 			}
@@ -1394,6 +1406,11 @@
 				nextStepController.domElement.firstChild.firstChild.style.height = '30px';
 				nextStepController.disable();
 
+				gui.add( guiData, 'centerCameraInObject' ).name( 'Center view' );
+
+
+
+
 				secondPanel = document.createElement( 'div' );
 				sideBarDiv.appendChild( secondPanel );
 
@@ -1440,19 +1457,6 @@
 				secondPanel.appendChild( ldrawLogoDiv );
 
 
-/*
-<div style="display: block; position: absolute; bottom: 8px; left: 8px; width: 160px; padding: 10px; background-color: #F3F7F8;">
-<center>
-<a href="http://www.ldraw.org"><img style="width: 145px" src="models/ldraw/LEGO/ldraw_org_logo/Stamp145.png"></a>
-<br />
-<a href="http://www.ldraw.org/">This software uses the LDraw Parts Library</a>
-</center>
-</div>
-
-<div style="position: absolute; bottom: 8px; left: 200px; padding: 4px; background-color: #F3F7F8;">
-<a href="http://tenteros.land/foro/viewtopic.php?f=47&t=154">TENTE Parts Library CC BY 4.0 by the community.</a>
-</div>
-*/
 				onWindowResize();
 
 			}
