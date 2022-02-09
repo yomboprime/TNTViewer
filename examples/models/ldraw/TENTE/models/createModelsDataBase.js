@@ -388,7 +388,7 @@ let htmlModelListContent =
 			<li>Custom models</li>
 		</ul>
 		<h2>Other links</h2>
-		<p>See <a href="https://yomboprime.github.io/TNTViewer/examples/tnt_parts.html">parts list</a>.</p>
+		<p>See <a href="/TNTViewer/examples/tnt_parts.html">parts list</a>.</p>
 		<p><a href="https://github.com/yomboprime/TNTViewer">TNTViewer code at Github</a></p>
 		<h2>Official models</h2>
 		<p>Number of models: ***OFFICIAL_MODELS_COUNT***<p>
@@ -436,7 +436,7 @@ for ( let i in dataBase.modelPathsList ) {
 				<td>` + model.title + `</td>
 				<td>` + ( model.seriesNumber ? model.seriesNumber : "No series." ) + `</td>
 				<td>` + ( model.refNumber ? model.refNumber : "No ref." ) + `</td>
-				<td><a href="https://yomboprime.github.io/TNTViewer/examples/tnt.html?modelPath=` + model.path + `">View model</a></td>
+				<td><a href="/TNTViewer/examples/tnt.html?modelPath=` + model.path + `">View model</a></td>
 				` +
 				(
 					model.id ?
@@ -457,7 +457,7 @@ for ( let i in dataBase.modelPathsList ) {
 		customModelsContent +=
 `			<tr>
 				<td>` + model.title + `</td>
-				<td><a href="https://yomboprime.github.io/TNTViewer/examples/tnt.html?modelPath=` + model.path + `">View model</a>
+				<td><a href="/TNTViewer/examples/tnt.html?modelPath=` + model.path + `">View model</a>
 				<td>` + ( model.path ? model.path : "No file." ) + `</td>
 			</tr>
 `;
@@ -472,8 +472,6 @@ htmlModelListContent = htmlModelListContent.replace( '***OFFICIAL_MODELS***', of
 htmlModelListContent = htmlModelListContent.replace( '***OFFICIAL_MODELS_COUNT***', '' + officialModelsCount );
 htmlModelListContent = htmlModelListContent.replace( '***CUSTOM_MODELS***', customModelsContent );
 htmlModelListContent = htmlModelListContent.replace( '***CUSTOM_MODELS_COUNT***', '' + customModelsCount );
-
-//htmlModelListContent = strReplaceAll( htmlModelListContent, 'https://yomboprime.github.io/TNTViewer', 'http://127.0.0.1:8091' );
 
 if ( ! writeTextFileSync( htmlModelListContent, pathJoin( __dirname, htmlModelListPath ) ) ) {
 
@@ -502,7 +500,7 @@ let htmlPartListContent =
 			<li>Parts list</li>
 		</ul>
 		<h2>Other links</h2>
-		<p>See <a href="https://yomboprime.github.io/TNTViewer/examples/tnt_models.html">models list.</a></p>
+		<p>See <a href="/TNTViewer/examples/tnt_models.html">models list.</a></p>
 		<p><a href="https://github.com/yomboprime/TNTViewer">TNTViewer code at Github</a></p>
 		<h2>Parts list</h2>
 		<p>Number of parts: ***PARTS_COUNT***<p>
@@ -529,7 +527,7 @@ for ( let i in dataBase.partsPathsList ) {
 	partsContent +=
 `			<tr>
 				<td>` + part.title + `</td>
-				<td><a href="https://yomboprime.github.io/TNTViewer/examples/tnt.html?modelPath=../parts/` + part.path + `">View part</a></td>
+				<td><a href="/TNTViewer/examples/tnt.html?modelPath=../parts/` + part.path + `">View part</a></td>
 				<td>` + ( part.path ? part.path : "No file." ) + `</td>
 			</tr>
 `;
@@ -540,8 +538,6 @@ for ( let i in dataBase.partsPathsList ) {
 
 htmlPartListContent = htmlPartListContent.replace( '***PARTS_LIST***', partsContent );
 htmlPartListContent = htmlPartListContent.replace( '***PARTS_COUNT***', '' + partsCount  );
-
-//htmlPartListContent = strReplaceAll( htmlPartListContent, 'https://yomboprime.github.io/TNTViewer', 'http://127.0.0.1:8091' );
 
 if ( ! writeTextFileSync( htmlPartListContent, pathJoin( __dirname, htmlPartListPath ) ) ) {
 

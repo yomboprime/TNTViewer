@@ -29,7 +29,6 @@
 			import { RoomEnvironment } from './jsm/environments/RoomEnvironment.js';
 			import { Water } from './jsm/objects/Water.js';
 			import { Sky } from './jsm/objects/Sky.js';
-			import { LightningStrike } from './jsm/geometries/LightningStrike.js';
 			import { GLTFExporter } from './jsm/exporters/GLTFExporter.js';
 			import { ColladaExporter } from './jsm/exporters/ColladaExporter.js';
 			import { OBJExporter } from './jsm/exporters/OBJExporter.js';
@@ -38,6 +37,8 @@
 			//import { LDrawUtils } from './jsm/utils/LDrawUtils.js';
 
 			const GUI_WIDTH = 500;
+
+			const domeSize = 50000;
 
 			const constructionSets = [
 				'LEGO',
@@ -55,7 +56,7 @@
 
 			let camera, scene, renderer, controls, gui, guiData;
 
-			let sun, water, lightningStrike;
+			let sun, sunColor, sunSphere, water, sky;
 
 			let lDrawLoader;
 
@@ -154,7 +155,7 @@
 				container = document.createElement( 'div' );
 				document.body.appendChild( container );
 
-				camera = new THREE.PerspectiveCamera( 45, window.innerWidth / window.innerHeight, 1, 10000 );
+				camera = new THREE.PerspectiveCamera( 45, window.innerWidth / window.innerHeight, 1, domeSize );
 				camera.position.set( 150, 200, 250 );
 
 				//
@@ -610,8 +611,8 @@
 
 						}
 
-						infoText += '<br>See <a href="https://yomboprime.github.io/TNTViewer/examples/tnt_models.html">models</a> and ' +
-							'<a href="https://yomboprime.github.io/TNTViewer/examples/tnt_parts.html">parts</a> lists.' +
+						infoText += '<br>See <a href="/TNTViewer/examples/tnt_models.html">models</a> and ' +
+							'<a href="/TNTViewer/examples/tnt_parts.html">parts</a> lists.' +
 							'<br><a href="https://github.com/yomboprime/TNTViewer">TNTViewer code at Github</a>';
 
 						infoDiv.innerHTML = infoText;
@@ -1504,9 +1505,21 @@
 
 			function createOceanAndSky() {
 
-				sun = new THREE.Vector3( 100, 120, 30 );
+				if ( water ) scene.remove( water );
+				if ( sky ) scene.remove( sky );
+				if ( sunSphere ) scene.remove( sunSphere );
 
-				const domeSize = 15000;
+				sun = new THREE.Vector3();
+				sunColor = new THREE.Color();
+				sunColor.r = 1;
+				sunColor.g = 0.95;
+				sunColor.b = 0.65;
+
+				sunSphere = new THREE.Mesh(
+					new THREE.SphereGeometry( 1000, 16, 8 ),
+					new THREE.MeshStandardMaterial( { color: sunColor, emissive: 0xFFFFFF } )
+				);
+				scene.add( sunSphere );
 
 				const waterGeometry = new THREE.PlaneGeometry( domeSize, domeSize );
 
@@ -1521,7 +1534,7 @@
 
 						} ),
 						sunDirection: sun,
-						sunColor: 0xffffff,
+						sunColor: sunColor,
 						waterColor: 0x001e0f,
 						distortionScale: 3.7,
 						fog: scene.fog !== undefined
@@ -1529,12 +1542,13 @@
 				);
 
 				water.rotation.x = - Math.PI / 2;
+				water.position.y = -500;
 
 				scene.add( water );
 
 				// Skybox
 
-				const sky = new Sky();
+				sky = new Sky();
 				sky.scale.setScalar( domeSize );
 				scene.add( sky );
 
@@ -1546,8 +1560,8 @@
 				skyUniforms[ 'mieDirectionalG' ].value = 0.8;
 
 				const parameters = {
-					elevation: 2,
-					azimuth: 180
+					elevation: 10,
+					azimuth: 120
 				};
 
 				const pmremGenerator = new THREE.PMREMGenerator( renderer );
@@ -1564,45 +1578,11 @@
 
 					scene.environment = pmremGenerator.fromScene( sky ).texture;
 
+					sunSphere.position.copy( sun ).multiplyScalar( domeSize * 0.6 );
+
 				}
 
 				updateSun();
-
-				// Lightning strike
-
-				const lightningMaterial = new THREE.MeshBasicMaterial( { color: 0x00FFFF } );
-
-				const rayParams = {
-
-					sourceOffset: new THREE.Vector3( 500, 1000, - 500 ),
-					destOffset: new THREE.Vector3( 500, 0, - 500 ),
-					radius0: 4,
-					radius1: 4,
-					minRadius: 2.5,
-					maxIterations: 6,
-					isEternal: true,
-
-					timeScale: 1.0,
-
-					propagationTimeFactor: 0.05,
-					vanishingTimeFactor: 0.95,
-					subrayPeriod: 3.5,
-					subrayDutyCycle: 0.6,
-					maxSubrayRecursion: 3,
-					ramification: 7,
-					recursionProbability: 0.6,
-
-					roughness: 0.85,
-					straightness: 0.6
-
-				};
-
-				let lightningStrikeMesh;
-
-				lightningStrike = new LightningStrike( rayParams );
-				lightningStrikeMesh = new THREE.Mesh( lightningStrike, lightningMaterial );
-
-				scene.add( lightningStrikeMesh );
 			}
 
 			//
@@ -1619,10 +1599,8 @@
 				const deltaTime = clock.getDelta() * timeFactor;
 
 				handleAnimation( deltaTime );
-				//handleAnimation( 1 / 60 );
 
 				if ( water ) water.material.uniforms[ 'time' ].value += deltaTime;
-				if ( lightningStrike ) lightningStrike.update( time );
 
 				if ( animationState === ANIM_FALLING ) updatePhysics( Math.abs( deltaTime ) );
 
