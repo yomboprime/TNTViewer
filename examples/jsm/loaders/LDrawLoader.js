@@ -1384,6 +1384,7 @@ class LDrawPartsGeometryCache {
 					subobjectGroup.name = subobject.fileName;
 
 					loader.applyMaterialsToMesh( subobjectGroup, subobject.colorCode, info.materials );
+					subobjectGroup.userData.colorCode = subobject.colorCode;
 
 					group.add( subobjectGroup );
 					continue;
@@ -1477,6 +1478,7 @@ class LDrawPartsGeometryCache {
 			if ( subobject ) {
 
 				loader.applyMaterialsToMesh( group, subobject.colorCode, info.materials );
+				group.userData.colorCode = subobject.colorCode;
 
 			}
 

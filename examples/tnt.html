@@ -27,8 +27,8 @@
 
 			import { OrbitControls } from './jsm/controls/OrbitControls.js';
 			import { RoomEnvironment } from './jsm/environments/RoomEnvironment.js';
-			import { Water } from './jsm/objects/Water.js';
-			import { Sky } from './jsm/objects/Sky.js';
+			//import { Water } from './jsm/objects/Water.js';
+			//import { Sky } from './jsm/objects/Sky.js';
 			import { GLTFExporter } from './jsm/exporters/GLTFExporter.js';
 			import { ColladaExporter } from './jsm/exporters/ColladaExporter.js';
 			import { OBJExporter } from './jsm/exporters/OBJExporter.js';
@@ -56,12 +56,13 @@
 
 			let camera, scene, renderer, controls, gui, guiData;
 
-			let sun, sunColor, sunSphere, water, sky;
+			//let sun, sunColor, sunSphere, water, sky;
 
 			let lDrawLoader;
 
 			let parts;
 			let models;
+			let model;
 			let modelDiameter, turn;
 			let modelBbox;
 			const meanPos = new THREE.Vector3();
@@ -215,6 +216,12 @@
 
 						}
 
+						if ( urlParams.get( 'colorCode' ) ) {
+
+							lDrawLoader.materialLibrary[ '16' ] = lDrawLoader.materialLibrary[ urlParams.get( 'colorCode' ) ];
+
+						}
+
 						let displayLines = isOptionSet( 'displayLines' ) ? getOption( 'displayLines' ) : true;
 
 						const backgroundColor = { r: scene.background.r, g: scene.background.g, b: scene.background.b }
@@ -277,7 +284,8 @@
 							exportGLTF: () => { exportModel( models[ 0 ], 'gltf', guiData.exportScale ); },
 							exportDAE: () => { exportModel( models[ 0 ], 'dae', guiData.exportScale ); },
 							exportOBJ: () => { exportModel( models[ 0 ], 'obj', guiData.exportScale ); },
-							centerCameraInObject: centerCameraInObject
+							centerCameraInObject: centerCameraInObject,
+							showBOM: showBOM
 						};
 
 						window.addEventListener( 'resize', onWindowResize );
@@ -486,7 +494,7 @@
 
 				lDrawLoader.setPartsLibraryPath( getLibraryPath( currentConstructionSet ) );
 				lDrawLoader.setPath( getModelPath( currentConstructionSet ) );
-				lDrawLoader.load( guiData.modelFileName, function ( model ) {
+				lDrawLoader.load( guiData.modelFileName, function ( model1 ) {
 
 					if ( parts ) {
 
@@ -507,6 +515,9 @@
 					models = [];
 					dynamicObjects = [];
 					turn = true;
+
+					model = model1;
+					models.push( model );
 
 					// Convert from LDraw coordinates: rotate 180 degrees around OX
 					model.rotation.x = Math.PI;
@@ -555,7 +566,6 @@
 
 					}
 
-					models.push( model );
 					scene.add( model );
 
 					updateObjectsVisibility();
@@ -910,14 +920,13 @@
 
 				animationCreated = true;
 
-				if ( ! models || models.length === 0 ) return;
+				if ( ! model ) return;
 
-				const model = models[ 0 ];
-				models.splice( 0, 1 );
 				scene.remove( model );
 
 				parts = model.children.slice();
 /*
+kk
 				model.traverse( c => {
 
 					console.log( "fileName: " + c.userData.fileName );
@@ -1318,6 +1327,7 @@
 				function round10( x ) { return Math.round( x * 10 ) / 10; }
 				guiData.modelBboxInfo = round10( vector3Temp1.x ) + " x " + round10( vector3Temp1.z ) + " x " + round10( vector3Temp1.y );
 				infoFolder.add( guiData, 'modelBboxInfo' ).name( 'Model bounds (mm)' );
+				infoFolder.add( guiData, 'showBOM' ).name( 'Show B.O.M. (model parts list)...' );
 
 				const optionsFolder = gui.addFolder( "Options" );
 
@@ -1463,6 +1473,168 @@
 
 			}
 
+			function showBOM() {
+
+				if ( ! model ) return;
+
+				const bomDiv = document.createElement( 'div' );
+				bomDiv.style.backgroundColor = 'black';
+				bomDiv.style.position = 'absolute';
+				bomDiv.style.top = '50%';
+				bomDiv.style.left = '50%';
+				bomDiv.style.transform = 'translate(-50%, -50%)';
+
+				const tableDiv = document.createElement( 'div' );
+				tableDiv.style.height = '500px';
+				bomDiv.appendChild( createScrolledDiv( tableDiv ) );
+				const table = document.createElement( 'table' );
+				table.style.width = '800px';
+				tableDiv.appendChild( table );
+
+				const buttonsDiv = document.createElement( 'div' );
+				bomDiv.appendChild( buttonsDiv );
+
+				const closeButton = document.createElement( 'button' );
+				closeButton.innerHTML = 'Close';
+				closeButton.onclick = () => {
+
+					container.removeChild( bomDiv );
+
+				};
+				buttonsDiv.appendChild( closeButton );
+
+				const exportButton = document.createElement( 'button' );
+				exportButton.innerHTML = 'Export to text file...';
+				exportButton.onclick = () => {
+
+					exportBOM();
+
+				};
+				buttonsDiv.appendChild( exportButton );
+
+
+				const tableHeaderRow = document.createElement( 'tr' );
+				table.appendChild( tableHeaderRow );
+				const h1 = document.createElement( 'th' );
+				h1.innerHTML = "Parts count"
+				tableHeaderRow.appendChild( h1 );
+				const h2 = document.createElement( 'th' );
+				h2.innerHTML = "Name"
+				tableHeaderRow.appendChild( h2 );
+				const h3 = document.createElement( 'th' );
+				h3.innerHTML = "Color"
+				tableHeaderRow.appendChild( h3 );
+				const h4 = document.createElement( 'th' );
+				h4.innerHTML = "View part"
+				tableHeaderRow.appendChild( h4 );
+
+				const differentParts = {};
+				model.traverse( c => {
+
+					if ( c.userData.fileName ) {
+
+						const part = dataBase.parts[ c.userData.fileName ];
+						if ( part ) {
+
+							const colorCode = c.userData.colorCode;
+							const colorName = c.userData.colorCode ? lDrawLoader.materialLibrary[ c.userData.colorCode ].name: "None";
+							const hash = c.userData.fileName + '_'  + colorCode;
+
+							if ( differentParts[ hash ] ) {
+
+								differentParts[ hash ].count ++;
+							}
+							else {
+
+								differentParts[ hash ] = {
+									count: 1,
+									name: part.title,
+									colorName: colorName,
+									colorCode: colorCode,
+									path: part.path
+								};
+
+							}
+						}
+
+					}
+
+				} );
+
+				const differentPartsHashes = Object.keys( differentParts );
+
+				differentPartsHashes.sort( ( a, b ) => {
+
+					const partA = differentParts[ a ];
+					const partB = differentParts[ b ];
+
+					function sortField( field, orderVal ) {
+
+						if ( partA[ field ] === partB[ field ] ) return 0;
+						return partA[ field ] < partB[ field ] ? - orderVal : orderVal;
+
+					}
+
+					const sortedByName = sortField( 'name', 1 );
+					if ( sortedByName !== 0 ) return sortedByName;
+
+					const sortedByColor = sortField( 'color', 1 );
+					if ( sortedByColor !== 0 ) return sortedByColor;
+
+					return sortField( 'count', - 1 );
+
+				} );
+
+				for ( let h in differentPartsHashes ) {
+
+					const part = differentParts[ differentPartsHashes[ h ] ];
+
+					const tableDataRow = document.createElement( 'tr' );
+
+					const d1 = document.createElement( 'td' );
+					d1.innerHTML = "" + part.count;
+					tableDataRow.appendChild( d1 );
+					const d2 = document.createElement( 'td' );
+					d2.innerHTML = "" + part.name;
+					tableDataRow.appendChild( d2 );
+					const d3 = document.createElement( 'td' );
+					d3.innerHTML = "" + part.colorName;
+					tableDataRow.appendChild( d3 );
+					const d4 = document.createElement( 'td' );
+					d4.innerHTML =
+						'<a href="/TNTViewer/examples/tnt.html?modelPath=../parts/' +
+						part.path +
+						'&colorCode=' + part.colorCode +
+						'">View part</a>';
+					tableDataRow.appendChild( d4 );
+
+					table.appendChild( tableDataRow );
+
+				}
+
+				container.appendChild( bomDiv );
+
+				function exportBOM() {
+
+					let output = "";
+
+					for ( let h in differentPartsHashes ) {
+
+						const part = differentParts[ differentPartsHashes[ h ] ];
+
+						output += part.count + "\t";
+						output += part.name + "\t";
+						output += part.colorName + "\t";
+						output += part.colorCode + "\t";
+						output += part.path + "\n";
+
+					}
+
+					saveFile( removeFilenameExtension( "BOM_" + guiData.modelFileName ) + ".tsv", new Blob( [ output ] ) );
+				}
+
+			}
+
 			function createScrolledDiv( childDiv ) {
 
 				// Creates a scrolled div. childDiv must be a div and will contain the scrolled content.
@@ -1503,6 +1675,7 @@
 
 			}
 
+			/*
 			function createOceanAndSky() {
 
 				if ( water ) scene.remove( water );
@@ -1584,6 +1757,7 @@
 
 				updateSun();
 			}
+			*/
 
 			//
 
@@ -1600,7 +1774,7 @@
 
 				handleAnimation( deltaTime );
 
-				if ( water ) water.material.uniforms[ 'time' ].value += deltaTime;
+				//if ( water ) water.material.uniforms[ 'time' ].value += deltaTime;
 
 				if ( animationState === ANIM_FALLING ) updatePhysics( Math.abs( deltaTime ) );
 
