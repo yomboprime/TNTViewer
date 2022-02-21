@@ -260,7 +260,7 @@
 						const mainColor = { r: mainMat.color.r, g: mainMat.color.g, b: mainMat.color.b }
 						const mainEdgeColor = { r: mainEdgeMat.color.r, g: mainEdgeMat.color.g, b: mainEdgeMat.color.b }
 
-						let exportScale = 0.01;
+						let exportScale = 1;
 						if ( isOptionSet( 'exportScale' ) ) exportScale = getOption( 'exportScale' );
 
 						guiData = {
@@ -281,9 +281,9 @@
 							path: '',
 							modelBboxInfo: '',
 							exportScale: exportScale,
-							exportGLTF: () => { exportModel( models[ 0 ], 'gltf', guiData.exportScale ); },
-							exportDAE: () => { exportModel( models[ 0 ], 'dae', guiData.exportScale ); },
-							exportOBJ: () => { exportModel( models[ 0 ], 'obj', guiData.exportScale ); },
+							exportGLTF: () => { exportModel( models[ 0 ], 'gltf' ); },
+							exportDAE: () => { exportModel( models[ 0 ], 'dae' ); },
+							exportOBJ: () => { exportModel( models[ 0 ], 'obj' ); },
 							centerCameraInObject: centerCameraInObject,
 							showBOM: showBOM
 						};
@@ -693,7 +693,9 @@
 
 			}
 
-			function exportModel( model, format, scale ) {
+			function exportModel( model, format ) {
+
+				const scale = constructionSetScale[ currentConstructionSet ] * guiData.exportScale;
 
 				if ( ! model ) return;
 
@@ -987,6 +989,8 @@
 					part.userData.type = partOrig.userData.type;
 					part.userData.numConstructionSteps = partOrig.userData.numConstructionSteps;
 					part.userData.constructionStep = partOrig.userData.constructionStep;
+					part.userData.fileName = partOrig.userData.fileName;
+					part.userData.colorCode = partOrig.userData.colorCode;
 
 					matrix4Temp1.copy( part.matrixWorld );
 					part.removeFromParent();
