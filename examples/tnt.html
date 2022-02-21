@@ -751,9 +751,7 @@
 
 			function centerCameraInObject() {
 
-				if ( ! models || ! models[ 0 ] ) modelBbox.getCenter( controls.target0 );
-				else controls.target0.copy( models[ 0 ].position );
-
+				modelBbox.getCenter( controls.target0 );
 				vector3Temp1.subVectors( camera.position, controls.target );
 				controls.position0.copy( vector3Temp1 ).add( controls.target0 );
 				controls.reset();
