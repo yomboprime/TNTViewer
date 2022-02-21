@@ -290,6 +290,44 @@
 
 						window.addEventListener( 'resize', onWindowResize );
 
+
+						// Key events
+
+						window.addEventListener( 'keydown', ( event ) => {
+
+							if ( event.defaultPrevented ) {
+								// Do nothing if the event was already processed
+								//return;
+							}
+
+							switch ( event.key ) {
+								/*
+								case "ArrowDown":
+									break;
+
+								case "ArrowUp":
+									break;
+								*/
+
+								case "ArrowLeft":
+									if ( ! prevStepController._disabled ) goToPrevStep();
+									break;
+
+								case "ArrowRight":
+									if ( ! nextStepController._disabled ) goToNextStep();
+									break;
+
+								case " ":
+									if ( ! animationButtonController._disabled ) animationButton();
+									break;
+
+								default:
+									break;
+
+							}
+
+						}, false );
+
 						progressBarDiv = document.createElement( 'div' );
 						progressBarDiv.innerText = 'Loading...';
 						progressBarDiv.style.fontSize = '3em';
@@ -924,7 +962,6 @@
 
 				parts = model.children.slice();
 /*
-kk
 				model.traverse( c => {
 
 					console.log( "fileName: " + c.userData.fileName );
