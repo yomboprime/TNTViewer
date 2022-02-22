@@ -17,6 +17,10 @@ a:visited {
 	color: rgb(0,85,215);
 }
 
+span {
+	color: #fff;
+}
+
 table {
   border-collapse: collapse;
   border: 2px solid rgb(130,130,130);

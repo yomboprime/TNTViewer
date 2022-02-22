@@ -1697,6 +1697,10 @@
 				};
 				buttonsDiv.appendChild( exportButton );
 
+				const totalPartsSpan = document.createElement( 'span' );
+				totalPartsSpan.style.paddingLeft = "30px";
+				buttonsDiv.appendChild( totalPartsSpan );
+
 
 				const tableHeaderRow = document.createElement( 'tr' );
 				table.appendChild( tableHeaderRow );
@@ -1714,6 +1718,7 @@
 				tableHeaderRow.appendChild( h4 );
 
 				const differentParts = {};
+				let totalParts = 0;
 				model.traverse( c => {
 
 					if ( c.userData.fileName ) {
@@ -1740,6 +1745,8 @@
 								};
 
 							}
+
+							totalParts ++;
 						}
 
 					}
@@ -1796,6 +1803,8 @@
 					table.appendChild( tableDataRow );
 
 				}
+
+				totalPartsSpan.innerHTML = "Total parts: " + totalParts + ". Different parts: " + differentPartsHashes.length;
 
 				container.appendChild( bomDiv );
 
