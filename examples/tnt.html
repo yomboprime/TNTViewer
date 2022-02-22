@@ -114,6 +114,14 @@
 			let btQuatAux1;
 			let btTransformAux1;
 
+			// Selection
+			let selectedPart;
+			let selectedPartBoxHelper;
+
+			const raycaster = new THREE.Raycaster();
+			const raycasterPointer = new THREE.Vector2();
+			const raycasterPointerNorm = new THREE.Vector2();
+
 			const vector3Temp1 = new THREE.Vector3();
 			const vector3Temp2 = new THREE.Vector3();
 			const vector3Temp3 = new THREE.Vector3();
@@ -176,6 +184,7 @@
 				scene.background = new THREE.Color( 0xdeebed );
 				scene.environment = pmremGenerator.fromScene( new RoomEnvironment() ).texture;
 
+				//scene.add( new THREE.AxesHelper( 100 ) );
 				//scene.add( new THREE.AxesHelper( 100 ) );
 
 				//createOceanAndSky();
@@ -327,6 +336,51 @@
 							}
 
 						}, false );
+
+						// Mouse events
+
+						renderer.domElement.addEventListener( 'mousedown', ( event ) => {
+
+							raycasterPointer.set( event.clientX, event.clientY );
+
+						} );
+
+						renderer.domElement.addEventListener( 'mouseup', ( event ) => {
+
+							if ( models || parts ) {
+
+								if ( Math.abs( event.clientX - raycasterPointer.x ) < 2 &&
+									 Math.abs( event.clientY - raycasterPointer.y ) < 2 ) {
+
+									raycasterPointerNorm.x = ( event.clientX / getViewPortWidth() ) * 2 - 1;
+									raycasterPointerNorm.y = - ( event.clientY / window.innerHeight ) * 2 + 1;
+
+									raycaster.setFromCamera( raycasterPointerNorm, camera );
+
+									let intersects = [];
+
+									if ( models && ! animationCreated ) raycaster.intersectObjects( models, true, intersects );
+									if ( parts ) raycaster.intersectObjects( parts, true, intersects );
+
+									if ( intersects.length > 0 ) {
+
+										let object = intersects[ 0 ].object;
+
+										while ( object && object.userData.fileName ) object = object.parent;
+										while ( object && object.parent && ( object.parent.userData.fileName ) ) object = object.parent;
+
+										selectPart( object );
+										return;
+
+									}
+
+									selectPart( null );
+
+								}
+
+							}
+
+						} );
 
 						progressBarDiv = document.createElement( 'div' );
 						progressBarDiv.innerText = 'Loading...';
@@ -629,43 +683,8 @@
 					guiData.modelSeries = "No series.";
 					guiData.modelRef = "No ref.";
 					guiData.modelInfoURL = "No URL.";
-					let modelInfo = dataBase.models[ guiData.modelFileName ];
 
-					if ( ! modelInfo ) {
-
-						modelInfo = dataBase.parts[ guiData.modelFileName.substring( '../parts/'.length ) ];
-
-					}
-
-					if ( modelInfo ) {
-
-						if ( modelInfo.path ) guiData.path = modelInfo.path;
-						if ( modelInfo.title ) guiData.modelTitle = modelInfo.title;
-						if ( modelInfo.seriesNumber ) guiData.modelSeries = modelInfo.seriesNumber;
-						if ( modelInfo.refNumber ) guiData.modelRef = modelInfo.refNumber;
-						else if ( modelInfo.metaData ) guiData.modelRef = modelInfo.metaData;
-						if ( modelInfo.id && Number.isInteger( parseInt( modelInfo.id ) ) ) guiData.modelInfoURL = 'https://tente.spread.name/id/' + modelInfo.id;
-
-						pathController.updateDisplay();
-						modelTitleController.updateDisplay();
-						modelSeriesController.updateDisplay();
-						modelRefController.updateDisplay();
-						modelInfoURLController.updateDisplay();
-
-						let infoText = '';
-						if ( modelInfo.id && Number.isInteger( parseInt( modelInfo.id ) ) ) {
-
-							infoText += 'Go <a href="https://tente.spread.name/id/' + modelInfo.id + '"><b>here for model info</b> (external link)</a>';
-
-						}
-
-						infoText += '<br>See <a href="/TNTViewer/examples/tnt_models.html">models</a> and ' +
-							'<a href="/TNTViewer/examples/tnt_parts.html">parts</a> lists.' +
-							'<br><a href="https://github.com/yomboprime/TNTViewer">TNTViewer code at Github</a>';
-
-						infoDiv.innerHTML = infoText;
-
-					}
+					selectPart( null );
 
 					hideProgressBar();
 
@@ -795,6 +814,124 @@
 				vector3Temp1.subVectors( camera.position, controls.target );
 				controls.position0.copy( vector3Temp1 ).add( controls.target0 );
 				controls.reset();
+
+			}
+
+			function selectPart( part, iteration ) {
+
+				if ( part ) {
+
+					if ( selectedPartBoxHelper ) {
+
+						selectedPartBoxHelper.setFromObject( part );
+
+					}
+					else {
+
+						selectedPartBoxHelper = new THREE.BoxHelper( part, 0xFF00FF );
+
+					}
+
+					if ( ! selectedPart ) scene.add( selectedPartBoxHelper );
+
+				}
+				else if ( selectedPart ) {
+
+					if ( selectedPartBoxHelper ) selectedPartBoxHelper.removeFromParent();
+
+				}
+
+				selectedPart = part;
+
+				if ( ! iteration && updateModelAndPartInfo() ) {
+
+					selectPart( null, true );
+
+				}
+
+			}
+
+			function updateModelAndPartInfo() {
+
+				// Returns true if part info not found
+
+				let partInfoNotFound = false;
+
+				let modelInfo = dataBase.models[ guiData.modelFileName ];
+
+				if ( ! modelInfo ) {
+
+					modelInfo = dataBase.parts[ guiData.modelFileName.substring( '../parts/'.length ) ];
+
+				}
+
+				let infoText = '';
+
+				if ( selectedPart ) {
+
+					let partInfo = dataBase.parts[ selectedPart.userData.fileName ];
+
+					if ( ! partInfo && selectedPart.userData.fileName ) {
+
+						partInfo = dataBase.parts[ selectedPart.userData.fileName.substring( '../parts/'.length ) ];
+
+					}
+
+					if ( partInfo ) {
+
+						infoText += 'Part: ' +
+							'<a href="/TNTViewer/examples/tnt.html?modelPath=../parts/' + partInfo.path +
+							'&colorCode=' + lDrawLoader.materialLibrary[ selectedPart.userData.colorCode ].userData.code +
+							'">' + partInfo.title + '</a><br>';
+
+						infoText += 'Part color: ' + lDrawLoader.materialLibrary[ selectedPart.userData.colorCode ].name + '<br>';
+
+					}
+					else {
+
+						infoText += 'Part: No part selected.' + '<br>';
+						partInfoNotFound = true;
+
+					}
+
+				}
+				else {
+
+					infoText += 'Part: No part selected.' + '<br>';
+					partInfoNotFound = true;
+
+				}
+
+				if ( modelInfo ) {
+
+					if ( modelInfo.path ) guiData.path = modelInfo.path;
+					if ( modelInfo.title ) guiData.modelTitle = modelInfo.title;
+					if ( modelInfo.seriesNumber ) guiData.modelSeries = modelInfo.seriesNumber;
+					if ( modelInfo.refNumber ) guiData.modelRef = modelInfo.refNumber;
+					else if ( modelInfo.metaData ) guiData.modelRef = modelInfo.metaData;
+					if ( modelInfo.id && Number.isInteger( parseInt( modelInfo.id ) ) ) guiData.modelInfoURL = 'https://tente.spread.name/id/' + modelInfo.id;
+
+					pathController.updateDisplay();
+					modelTitleController.updateDisplay();
+					modelSeriesController.updateDisplay();
+					modelRefController.updateDisplay();
+					modelInfoURLController.updateDisplay();
+
+					if ( modelInfo.id && Number.isInteger( parseInt( modelInfo.id ) ) ) {
+
+						infoText += 'Go <a href="https://tente.spread.name/id/' + modelInfo.id + '"><b>here for model info</b> (external link)</a>';
+
+					}
+
+					infoText += '<br>See <a href="/TNTViewer/examples/tnt_models.html">models</a> and ' +
+						'<a href="/TNTViewer/examples/tnt_parts.html">parts</a> lists.' +
+						'<br><a href="https://github.com/yomboprime/TNTViewer">TNTViewer code at Github</a>';
+
+					infoDiv.innerHTML = infoText;
+
+				}
+
+				return partInfoNotFound;
 
 			}
 
@@ -955,6 +1092,8 @@
 			}
 
 			function createAnimation() {
+
+				selectPart( null );
 
 				animationCreated = true;
 
@@ -1266,6 +1405,8 @@
 
 				part.quaternion.slerpQuaternions( part.userData.quaternionStart, part.userData.partQuaternion, tCurve );
 
+				if ( ( selectedPart === part ) && selectedPartBoxHelper ) selectedPartBoxHelper.update();
+
 			}
 
 			function reenablePhysics() {
@@ -1310,7 +1451,7 @@
 
 			function onWindowResize() {
 
-				const w = Math.max( 1, window.innerWidth - ( gui ? GUI_WIDTH + 15: 0 ) );
+				const w = getViewPortWidth();
 
 				camera.aspect = w / window.innerHeight;
 				camera.updateProjectionMatrix();0
@@ -1318,6 +1459,11 @@
 				renderer.setSize( w, window.innerHeight );
 
 			}
+
+			function getViewPortWidth() {
+
+				return Math.max( 1, window.innerWidth - ( gui ? GUI_WIDTH + 15: 0 ) );
+			}
 
 			function createGUI() {
 
@@ -1643,7 +1789,7 @@
 					d4.innerHTML =
 						'<a href="/TNTViewer/examples/tnt.html?modelPath=../parts/' +
 						part.path +
-						'&colorCode=' + part.colorCode +
+						'&colorCode=' + lDrawLoader.materialLibrary[ part.colorCode ].userData.code +
 						'">View part</a>';
 					tableDataRow.appendChild( d4 );
 
