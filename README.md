@@ -1,4 +1,4 @@
-# TNT Viewer<img src="examples/TNTicon/icon.svg" alt="icon" style="zoom:25%;" />
+# TNT Viewer<img src="examples/TNTicon/icon.svg" alt="icon" width="160"/>
 TNTViewer is a 3D model viewer for the LDraw format that lets you view interactively an animation of the construction steps of the model.
 
 **Play online at**: https://yomboprime.github.io/TNTViewer/examples/tnt.html
