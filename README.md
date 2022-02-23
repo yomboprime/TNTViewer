@@ -1,5 +1,5 @@
-# TNT Viewer
-TNTViewer is a LDraw format 3D model viewer that lets you view interactively an animation of the construction steps of a model.
+# TNT Viewer<img src="/media/datos/Devel/javascript/TNTViewer/examples/TNTicon/icon.svg" alt="icon" style="zoom:25%;" />
+TNTViewer is a 3D model viewer for the LDraw format that lets you view interactively an animation of the construction steps of the model.
 
 **Play online at**: https://yomboprime.github.io/TNTViewer/examples/tnt.html
 
@@ -7,7 +7,7 @@ View complete model list: https://yomboprime.github.io/TNTViewer/examples/tnt_mo
 
 View complete parts list: https://yomboprime.github.io/TNTViewer/examples/tnt_parts.html
 
-You will see a 3D model and can rotate, zoom, pan, etc with your mouse or touch screen. In the control panel at the upper-right corner you can start/pause the animation, control the playback rate, and when paused you can go to any construction step or go forwards/backwards one step at a time.
+You will see a 3D model and can rotate, zoom, pan, etc with your mouse or touch screen. In the control panel at the right side you can start/pause the animation, control the playback rate, and when paused you can go to any construction step or go forwards/backwards one step at a time. Hot keys: Space: Play/pause. Cursor left/right: Go back/forward one step.
 
 When viewing a part from the parts list (or a model that uses the main color code 16) you can also change the color of the part. Please see 'Options' panel folder.
 
@@ -40,7 +40,7 @@ LEGO parts library is not currently included due to its large size.
 
 For a spanish TNTViewer installation tutorial made by **cpcbegin**, the author of the models repository, please go to: https://malagaoriginal.blogspot.com/2022/01/visor-web-de-modelos-ldraw-y.html
 
-## Contribute with models
+## How to contribute with LDraw models
 
 If you want to contribute with models just drop a PR or an issue here, or in the [TENTE models repository](https://gitlab.com/cpcbegin/tentemodels) at Gitlab used in this project. We are hoping to grow the database and fix errors in models and parts thanks to this viewer.
 
