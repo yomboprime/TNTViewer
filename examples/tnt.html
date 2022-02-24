@@ -1460,7 +1460,7 @@
 
 			function getViewPortWidth() {
 
-				return Math.max( 1, window.innerWidth - ( gui ? GUI_WIDTH: 0 ) );
+				return Math.max( 1, window.innerWidth - ( gui ? GUI_WIDTH + 17: 0 ) );
 			}
 
 			function createGUI() {
@@ -1478,6 +1478,7 @@
 				scrolledDiv.style.top = '0px';
 				scrolledDiv.style.right = '0px';
 				scrolledDiv.style.height = '100%';
+				scrolledDiv.style.background = '#000000';
 				container.appendChild( scrolledDiv );
 
 
