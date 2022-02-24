@@ -1590,10 +1590,14 @@
 				} );
 
 
+				const secondPanel = document.createElement( 'div' );
+				secondPanel.id = 'secondpanel';
+				sideBarDiv.appendChild( secondPanel );
+
 
 				playbackPanel = document.createElement( 'div' );
 				playbackPanel.id = 'playbackdiv';
-				sideBarDiv.appendChild( playbackPanel );
+				secondPanel.appendChild( playbackPanel );
 
 				const playbackP = document.createElement( 'p' );
 				playbackPanel.appendChild( playbackP );
@@ -1629,8 +1633,8 @@
 				playbackP2.appendChild( centerViewButton );
 
 
-				const secondPanel = document.createElement( 'div' );
-				sideBarDiv.appendChild( secondPanel );
+				const infoPanel = document.createElement( 'div' );
+				secondPanel.appendChild( infoPanel );
 
 				infoDiv = document.createElement( 'div' );
 				infoDiv.style.color = '#A0B0C0';
@@ -1642,7 +1646,7 @@
 				infoDiv.style.left = '200px';
 				infoDiv.style.width = '60%';
 				*/
-				secondPanel.appendChild( infoDiv );
+				infoPanel.appendChild( infoDiv );
 
 
 				const tenteLogoDiv = document.createElement( 'div' );
@@ -1654,7 +1658,7 @@
 				const p1 = document.createElement( 'p' );
 				p1.appendChild( tenteLink );
 				tenteLogoDiv.appendChild( p1 );
-				secondPanel.appendChild( tenteLogoDiv );
+				infoPanel.appendChild( tenteLogoDiv );
 
 				const ldrawLogoDiv = document.createElement( 'div' );
 				ldrawLogoDiv.style.padding = '4px';
@@ -1672,7 +1676,7 @@
 				p3.appendChild( ldrawLink );
 				ldrawLogoDiv.appendChild( p2 );
 				ldrawLogoDiv.appendChild( p3 );
-				secondPanel.appendChild( ldrawLogoDiv );
+				infoPanel.appendChild( ldrawLogoDiv );
 
 
 				onWindowResize();
@@ -1856,7 +1860,6 @@
 
 				var scrolledDiv = document.createElement( 'div' );
 
-				//scrolledDiv.style.overflowX = "hidden";
 				scrolledDiv.style.overflowY = "scroll";
 
 				scrolledDiv.appendChild( childDiv );
