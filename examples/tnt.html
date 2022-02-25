@@ -311,15 +311,15 @@
 								*/
 
 								case "ArrowLeft":
-									if ( ! prevStepButton.disabled ) goToPrevStep();
+									goToPrevStep();
 									break;
 
 								case "ArrowRight":
-									if ( ! nextStepButton.disabled ) goToNextStep();
+									goToNextStep();
 									break;
 
 								case " ":
-									if ( ! animationButton.disabled ) animationButtonFunc();
+									animationButtonFunc();
 									break;
 
 								default:
@@ -927,7 +927,18 @@
 
 			}
 
+			function setButtonDisabled( button, disabled ) {
+
+				if ( disabled ) button.style.opacity = "30%";
+				else button.style.opacity = "100%";
+
+				button.disabled = disabled;
+
+			}
+
 			function animationButtonFunc() {
+
+				if ( animationButton.disabled ) return;
 
 				switch ( animationState ) {
 
@@ -977,7 +988,7 @@
 				pauseOnNextStepStep = - 1;
 
 				animationButton.innerHTML = "⏸";
-				if ( disableAnimButton ) animationButton.disabled = true;
+				if ( disableAnimButton ) setButtonDisabled( animationButton, true );
 
 			}
 
@@ -1039,7 +1050,9 @@
 
 			function goToPrevStep() {
 
-				if ( ! parts ) return;
+				if ( prevStepButton.disabled ) return;
+
+				if ( ! parts || parts.length === 0 ) return;
 
 				const remTime = time - Math.floor( time / stepDuration ) * stepDuration;
 				const rem = remTime / stepDuration;
@@ -1062,7 +1075,9 @@
 
 			function goToNextStep() {
 
-				if ( ! parts ) return;
+				if ( nextStepButton.disabled ) return;
+
+				if ( ! parts || parts.length === 0 ) return;
 
 				const remTime = time - Math.floor( time / stepDuration ) * stepDuration;
 				const rem = remTime / stepDuration;
@@ -1268,9 +1283,9 @@
 
 							beginConstruction();
 							animParts( deltaTime );
-							animationButton.disabled = false;
-							prevStepButton.disabled = false;
-							nextStepButton.disabled = false;
+							setButtonDisabled( animationButton, false );
+							setButtonDisabled( prevStepButton, false );
+							setButtonDisabled( nextStepButton, false );
 
 						}
 						break;
@@ -1601,19 +1616,23 @@
 				animationButton = document.createElement( 'div' );
 				animationButton.className = 'buttn animbtn';
 				animationButton.innerHTML = "▶";
+				animationButton.title = "Play/pause animation."
 				animationButton.addEventListener( 'click', animationButtonFunc );
+				setButtonDisabled( animationButton, false );
 
 				prevStepButton = document.createElement( 'div' );
 				prevStepButton.className = 'buttn prevbtn';
-				prevStepButton.innerHTML = "⏮";
+				prevStepButton.innerHTML = "↤";
+				prevStepButton.title = "Go to previous animation step."
 				prevStepButton.addEventListener( 'click', goToPrevStep );
-				prevStepButton.disabled = true;
+				setButtonDisabled( prevStepButton, true );
 
 				nextStepButton = document.createElement( 'div' );
 				nextStepButton.className = 'buttn nextbtn';
-				nextStepButton.innerHTML = "⏭";
+				nextStepButton.innerHTML = "⇥";
+				nextStepButton.title = "Go to next animation step."
 				nextStepButton.addEventListener( 'click', goToNextStep );
-				nextStepButton.disabled = true;
+				setButtonDisabled( nextStepButton, true );
 
 				playbackDiv.appendChild( prevStepButton  );
 				playbackDiv.appendChild( animationButton );
@@ -1621,7 +1640,8 @@
 
 				const centerViewButton = document.createElement( 'div' );
 				centerViewButton.className = 'buttn centerbtn';
-				centerViewButton.innerHTML = "Center view";
+				centerViewButton.innerHTML = "⦿";
+				centerViewButton.title = "Center view in model."
 				centerViewButton.addEventListener( 'click', centerCameraInObject );
 				playbackPanel.appendChild( centerViewButton );
 

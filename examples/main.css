@@ -114,3 +114,42 @@ a, button, input, select {
 	margin-top: 20px;
 	padding: 10px;
 }
+
+
+.playbackdiv {
+    display: flex;
+}
+
+.buttn {
+	flex: 1;
+	background: #aaa;
+	margin: 5px;
+	text-align: center;
+	font-size: 220%;
+	padding: 1em;
+	pointer-events: auto;
+}
+
+.buttn.prevbtn {
+	width: 30%;
+}
+
+.buttn.nextbtn {
+    width: 30%;
+}
+
+.buttn.animbtn {
+    width: 50%;
+    flex: auto;
+    background: #ccc;
+}
+
+.buttn:hover {
+    background: #666;
+    cursor: pointer;
+    color: white;
+}
+
+.buttn.centerbtn {
+    font-size: 100%;
+}
