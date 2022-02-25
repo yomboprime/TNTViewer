@@ -99,12 +99,6 @@
 
 			let infoDiv, playbackPanel;
 
-			const CLASS_PLAYBACK_BUTTON = 'playbackbut';
-			const CLASS_PLAY_BUTTON = 'playbut';
-			const CLASS_PAUSE_BUTTON = 'pausebut';
-			const CLASS_PREV_STEP_BUTTON = 'prevbut';
-			const CLASS_NEXT_STEP_BUTTON = 'nextbut';
-
 			// Physics variables
 			let collisionConfiguration;
 			let dispatcher;
@@ -1603,18 +1597,18 @@
 				const playbackP = document.createElement( 'p' );
 				playbackPanel.appendChild( playbackP );
 
-				animationButton = document.createElement( 'button' );
+				animationButton = document.createElement( 'div' );
 				animationButton.id = 'animbtn';
 				animationButton.innerHTML = "Start animation";
 				animationButton.addEventListener( 'click', animationButtonFunc );
 
-				prevStepButton = document.createElement( 'button' );
+				prevStepButton = document.createElement( 'div' );
 				prevStepButton.id = 'prevbtn';
 				prevStepButton.innerHTML = "⬅️ Go back one step";
 				prevStepButton.addEventListener( 'click', goToPrevStep );
 				prevStepButton.disabled = true;
 
-				nextStepButton = document.createElement( 'button' );
+				nextStepButton = document.createElement( 'div' );
 				nextStepButton.id = 'nextbtn';
 				nextStepButton.innerHTML = "➡️ Go forward one step";
 				nextStepButton.addEventListener( 'click', goToNextStep );
