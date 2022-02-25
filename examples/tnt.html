@@ -976,7 +976,7 @@
 				pauseOnNextStep = false;
 				pauseOnNextStepStep = - 1;
 
-				animationButton.innerHTML = "Pause animation";
+				animationButton.innerHTML = "⏸";
 				if ( disableAnimButton ) animationButton.disabled = true;
 
 			}
@@ -988,7 +988,7 @@
 				pausedTimeFactor = timeFactor;
 				timeFactor = 0;
 
-				animationButton.innerHTML = "Resume animation";
+				animationButton.innerHTML = "▶";
 				guiData.timeFactor = timeFactor;
 				timeFactorController.updateDisplay();
 
@@ -998,7 +998,7 @@
 
 			function resumeAnimation( timeFactorParam ) {
 
-				if ( animationState === ANIM_CONSTRUCTING ) animationButton.innerHTML = "Pause animation";
+				if ( animationState === ANIM_CONSTRUCTING ) animationButton.innerHTML = "⏸";
 
 				timeFactor = timeFactorParam;
 
@@ -1056,7 +1056,7 @@
 				animationState = ANIM_CONSTRUCTING;
 
 				constructionStepController.enable();
-				animationButton.innerHTML = "Pause animation";
+				animationButton.innerHTML = "⏸";
 
 			}
 
@@ -1079,7 +1079,7 @@
 				animationState = ANIM_CONSTRUCTING;
 
 				constructionStepController.enable();
-				animationButton.innerHTML = "Pause animation";
+				animationButton.innerHTML = "⏸";
 
 			}
 
@@ -1312,7 +1312,7 @@
 					animationState = ANIM_STOPPED;
 					time = deltaTime > 0 ? constructionDuration : 0;
 					timeNextStep = time;
-					animationButton.innerHTML = "Resume animation";
+					animationButton.innerHTML = "▶";
 					constructionStepController.disable();
 
 					//animationState = ANIM_WAIT;
@@ -1586,47 +1586,44 @@
 
 
 				const secondPanel = document.createElement( 'div' );
-				secondPanel.id = 'secondpanel';
 				sideBarDiv.appendChild( secondPanel );
 
 
 				playbackPanel = document.createElement( 'div' );
-				playbackPanel.id = 'playbackdiv';
+				playbackPanel.id = 'idbuttns';
+				playbackPanel.className = 'playbackPanel';
 				secondPanel.appendChild( playbackPanel );
 
-				const playbackP = document.createElement( 'p' );
-				playbackPanel.appendChild( playbackP );
+				const playbackDiv = document.createElement( 'div' );
+				playbackDiv.className = 'playbackdiv';
+				playbackPanel.appendChild( playbackDiv );
 
 				animationButton = document.createElement( 'div' );
-				animationButton.id = 'animbtn';
-				animationButton.innerHTML = "Start animation";
+				animationButton.className = 'buttn animbtn';
+				animationButton.innerHTML = "▶";
 				animationButton.addEventListener( 'click', animationButtonFunc );
 
 				prevStepButton = document.createElement( 'div' );
-				prevStepButton.id = 'prevbtn';
-				prevStepButton.innerHTML = "⬅️ Go back one step";
+				prevStepButton.className = 'buttn prevbtn';
+				prevStepButton.innerHTML = "⏮";
 				prevStepButton.addEventListener( 'click', goToPrevStep );
 				prevStepButton.disabled = true;
 
 				nextStepButton = document.createElement( 'div' );
-				nextStepButton.id = 'nextbtn';
-				nextStepButton.innerHTML = "➡️ Go forward one step";
+				nextStepButton.className = 'buttn nextbtn';
+				nextStepButton.innerHTML = "⏭";
 				nextStepButton.addEventListener( 'click', goToNextStep );
 				nextStepButton.disabled = true;
 
-				playbackP.appendChild( prevStepButton  );
-				playbackP.appendChild( animationButton );
-				playbackP.appendChild( nextStepButton );
+				playbackDiv.appendChild( prevStepButton  );
+				playbackDiv.appendChild( animationButton );
+				playbackDiv.appendChild( nextStepButton );
 
-				const playbackP2 = document.createElement( 'p' );
-				playbackPanel.appendChild( playbackP2 );
-
-				const centerViewButton = document.createElement( 'button' );
-				centerViewButton.id = 'centerbtn';
+				const centerViewButton = document.createElement( 'div' );
+				centerViewButton.className = 'buttn centerbtn';
 				centerViewButton.innerHTML = "Center view";
 				centerViewButton.addEventListener( 'click', centerCameraInObject );
-				playbackP2.appendChild( centerViewButton );
-
+				playbackPanel.appendChild( centerViewButton );
 
 				const infoPanel = document.createElement( 'div' );
 				secondPanel.appendChild( infoPanel );
