@@ -322,6 +322,10 @@
 									animationButtonFunc();
 									break;
 
+								case "c":
+									centerCameraInObject();
+									break;
+
 								default:
 									break;
 
@@ -1069,7 +1073,6 @@
 				animationState = ANIM_CONSTRUCTING;
 
 				constructionStepController.enable();
-				animationButton.innerHTML = "⏸";
 
 			}
 
@@ -1094,7 +1097,6 @@
 				animationState = ANIM_CONSTRUCTING;
 
 				constructionStepController.enable();
-				animationButton.innerHTML = "⏸";
 
 			}
 
@@ -1616,21 +1618,21 @@
 				animationButton = document.createElement( 'div' );
 				animationButton.className = 'buttn animbtn';
 				animationButton.innerHTML = "▶";
-				animationButton.title = "Play/pause animation."
+				animationButton.title = "Play/pause (Spacebar)"
 				animationButton.addEventListener( 'click', animationButtonFunc );
 				setButtonDisabled( animationButton, false );
 
 				prevStepButton = document.createElement( 'div' );
 				prevStepButton.className = 'buttn prevbtn';
 				prevStepButton.innerHTML = "↤";
-				prevStepButton.title = "Go to previous animation step."
+				prevStepButton.title = "Previous step (Cursor left)"
 				prevStepButton.addEventListener( 'click', goToPrevStep );
 				setButtonDisabled( prevStepButton, true );
 
 				nextStepButton = document.createElement( 'div' );
 				nextStepButton.className = 'buttn nextbtn';
-				nextStepButton.innerHTML = "⇥";
-				nextStepButton.title = "Go to next animation step."
+				nextStepButton.innerHTML = "↦";
+				nextStepButton.title = "Next step (Cursor right)"
 				nextStepButton.addEventListener( 'click', goToNextStep );
 				setButtonDisabled( nextStepButton, true );
 
@@ -1641,7 +1643,7 @@
 				const centerViewButton = document.createElement( 'div' );
 				centerViewButton.className = 'buttn centerbtn';
 				centerViewButton.innerHTML = "⦿";
-				centerViewButton.title = "Center view in model."
+				centerViewButton.title = "Center view (c)"
 				centerViewButton.addEventListener( 'click', centerCameraInObject );
 				playbackPanel.appendChild( centerViewButton );
 
