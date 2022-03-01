@@ -123,11 +123,11 @@ a, button, input, select {
 .buttn {
 	flex: 1;
 	background: #aaa;
-	margin: 5px;
+	margin: 15px 10px;
 	text-align: center;
-	font-size: 220%;
-	padding: 1em;
-	border-radius: 5px;
+	font-size: 120%;
+	padding: 0.7em;
+	border-radius: 3px;
 	pointer-events: auto;
 }
 
@@ -154,7 +154,7 @@ a, button, input, select {
 }
 
 .buttn.centerbtn {
-    font-size: 150%;
+    font-size: 120%;
 	width: 10%;
 	margin: 0 auto;
 }
