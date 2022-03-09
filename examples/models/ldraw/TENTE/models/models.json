@@ -798,6 +798,13 @@
             "seriesNumber": "Pocket",
             "refNumber": "0315"
         },
+        "oficiales/Roblock_0792_SKYMASTER.ldr": {
+            "path": "oficiales/Roblock_0792_SKYMASTER.ldr",
+            "id": "310",
+            "title": "SKYMASTER",
+            "seriesNumber": "Roblock",
+            "refNumber": "0792"
+        },
         "oficiales/Ruta2_70037_airportservice.ldr": {
             "path": "oficiales/Ruta2_70037_airportservice.ldr",
             "id": "",
@@ -1992,6 +1999,7 @@
         "oficiales/Nomura_minifirej.ldr",
         "oficiales/Nomura_sunshine2.ldr",
         "oficiales/Pocket_0315_Eslator.ldr",
+        "oficiales/Roblock_0792_SKYMASTER.ldr",
         "oficiales/Ruta2_70037_airportservice.ldr",
         "oficiales/Ruta_0553_camionautopista.ldr",
         "oficiales/Ruta_0553_camiondragstercisterna.ldr",

@@ -245,16 +245,12 @@ dataBase.modelPathsList.sort( ( a, b ) => {
 	return aOf < bOf ? 1 : - 1;
 } );
 
-console.log();
-console.log( "Total: " + dataBase.modelPathsList.length + " models." );
-console.log();
-
 let numModelsInSourceDataBase = 0;
 for ( let i in dataBase.modelPathsList ) {
 
 	const modelPath = dataBase.modelPathsList[ i ];
 
-	console.log( "Processing model " + modelPath + " ..." );
+//	console.log( "Processing model " + modelPath + " ..." );
 
 	let model = {
 		path: modelPath,
@@ -334,6 +330,7 @@ function editModelByDataBase( model, pathFields ) {
 	// Search in source database by series and ref
 
 	const sourceFields = findSeriesRef( model.seriesNumber, model.refNumber );
+
 	if ( sourceFields ) {
 
 		model.id = sourceFields[ 0 ];
@@ -583,7 +580,7 @@ function scanDirectory( base, path ) {
 
 			if ( ! fileName.toLowerCase().endsWith( '.ldr' ) ) continue;
 
-			console.log( "Adding model " + filePath);
+//			console.log( "Adding model " + filePath);
 			dataBase.modelPathsList.push( filePath );
 
 		}
