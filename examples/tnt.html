@@ -55,17 +55,16 @@
 
 			let container, progressBarDiv, sideBarDiv, scrolledDiv;
 
-			let camera, scene, renderer, controls, gui, guiData;
+			let camera, scene, renderer, controls, gui, gui2, guiData;
 
 			//let sun, sunColor, sunSphere, water, sky;
 
 			let lDrawLoader;
-
-			let parts;
+const debug1 = true;
+//const debug1 = false;
 			let models;
-			let model;
-			let modelDiameter, turn;
-			let modelBbox;
+			let animatedModel;
+			let animatedParts;
 			const meanPos = new THREE.Vector3();
 			const ANIM_STOPPED = 0;
 			const ANIM_FALLING = 1;
@@ -92,10 +91,14 @@
 			let modelSeriesController;
 			let modelRefController;
 			let modelInfoURLController;
+			let modelBboxInfoController;
 
 			let animationButton;
 			let prevStepButton;
 			let nextStepButton;
+
+			let selectionModePartButton;
+			let selectionModeModelButton;
 
 			let infoDiv, playbackPanel;
 
@@ -113,6 +116,8 @@
 			// Selection
 			let selectedPart;
 			let selectedPartBoxHelper;
+			let selectionModeModel = true;
+if ( debug1 ) selectionModeModel = false;
 
 			const raycaster = new THREE.Raycaster();
 			const raycasterPointer = new THREE.Vector2();
@@ -177,10 +182,10 @@
 				const pmremGenerator = new THREE.PMREMGenerator( renderer );
 
 				scene = new THREE.Scene();
-				scene.background = new THREE.Color( 0xdeebed );
+				scene.background = new THREE.Color( 0x596888 );
+
 				scene.environment = pmremGenerator.fromScene( new RoomEnvironment() ).texture;
 
-				//scene.add( new THREE.AxesHelper( 100 ) );
 				//scene.add( new THREE.AxesHelper( 100 ) );
 
 				//createOceanAndSky();
@@ -203,6 +208,9 @@
 				lDrawLoader.smoothNormals = true;
 				lDrawLoader.setPath( getLibraryPath( currentConstructionSet ) );
 				lDrawLoader.preloadMaterials( 'LDCONFIG.LDR' ).then( () => {
+
+					lDrawLoader.setPartsLibraryPath( getLibraryPath( currentConstructionSet ) );
+					lDrawLoader.setPath( getModelPath( currentConstructionSet ) );
 
 					getModelsDataBase( currentConstructionSet, ( db ) => {
 
@@ -243,7 +251,7 @@
 						const mainEdgeMat = mainMat.userData.edgeMaterial;
 						const mainEdgeCondMat = mainEdgeMat.userData.conditionalEdgeMaterial;
 
-						if ( isOptionSet( 'mainColor.r' ) ) {
+						if ( isOptionSet( 'mainColor.r' ) && ! urlParams.get( 'colorCode' ) ) {
 
 							const r = getOption( 'mainColor.r' );
 							const g = getOption( 'mainColor.g' );
@@ -252,7 +260,7 @@
 
 						}
 
-						if ( isOptionSet( 'mainEdgeColor.r' ) ) {
+						if ( isOptionSet( 'mainEdgeColor.r' ) && ! urlParams.get( 'colorCode' ) ) {
 
 							const r = getOption( 'mainEdgeColor.r' );
 							const g = getOption( 'mainEdgeColor.g' );
@@ -343,7 +351,7 @@
 
 						renderer.domElement.addEventListener( 'mouseup', ( event ) => {
 
-							if ( models || parts ) {
+							if ( animatedParts ) {
 
 								if ( Math.abs( event.clientX - raycasterPointer.x ) < 2 &&
 									 Math.abs( event.clientY - raycasterPointer.y ) < 2 ) {
@@ -355,22 +363,21 @@
 
 									let intersects = [];
 
-									if ( models && ! animationCreated ) raycaster.intersectObjects( models, true, intersects );
-									if ( parts ) raycaster.intersectObjects( parts, true, intersects );
+									raycaster.intersectObjects( models, true, intersects );
+									if ( animatedParts ) raycaster.intersectObjects( animatedParts, true, intersects );
 
 									if ( intersects.length > 0 ) {
 
 										let object = intersects[ 0 ].object;
 
-										while ( object && object.userData.fileName ) object = object.parent;
-										while ( object && object.parent && ( object.parent.userData.fileName ) ) object = object.parent;
+										object = getObjectPart( object );
+
+										if ( selectionModeModel ) object = getPartModel( object );
 
 										selectPart( object );
-										return;
 
 									}
-
-									selectPart( null );
+									else selectPart( null );
 
 								}
 
@@ -380,7 +387,7 @@
 
 						progressBarDiv = document.createElement( 'div' );
 						progressBarDiv.innerText = 'Loading...';
-						progressBarDiv.style.fontSize = '3em';
+						progressBarDiv.style.fontSize = '2em';
 						progressBarDiv.style.color = '#888';
 						progressBarDiv.style.display = 'block';
 						progressBarDiv.style.position = 'absolute';
@@ -390,7 +397,11 @@
 
 						initPhysics();
 
+						models = [];
+
 						reloadObject( true );
+
+						createGUI();
 
 						animate();
 
@@ -507,32 +518,6 @@
 
 			}
 
-			function getTurnOffset() {
-
-				//return 0;
-				return 2.1 * ( turn ? modelDiameter : - modelDiameter );
-
-			}
-
-			function placePartRandomly( part, diameter ) {
-
-				// TODO old.
-
-				part.position.set(
-					( Math.random() - 0.5 ) * diameter + getTurnOffset(),
-					( Math.random() + 0.6 ) * diameter,
-					( Math.random() - 0.5 ) * diameter
-				);
-				part.quaternion.setFromEuler(
-					eulerTemp1.set(
-						( 2 * Math.PI * Math.random() ),
-						( 2 * Math.PI * Math.random() ),
-						( 2 * Math.PI * Math.random() )
-					)
-				);
-
-			}
-
 			function updateObjectsVisibility() {
 
 				function updateObjects( objects ) {
@@ -553,74 +538,69 @@
 				}
 
 				updateObjects( models );
-				updateObjects( parts );
-
-			}
-
-			function isPartType( type ) {
-
-				return type === 'Part' || type === 'Unofficial_Part';
+				updateObjects( animatedParts );
 
 			}
 
 			function reloadObject( resetCamera ) {
 
-				if ( parts ) for ( let i in parts ) {
+				if ( animatedParts ) {
 
-					scene.remove( parts[ i ] );
-					physicsWorld.removeRigidBody( parts[ i ].userData.physicsBody );
+					for ( let i in animatedParts ) {
+
+						const part = animatedParts[ i ];
+						scene.remove( part );
+						physicsWorld.removeRigidBody( part.userData.physicsBody );
+
+					}
 
 				}
-				parts = undefined;
-				if ( models ) for ( let i in models ) scene.remove( models[ i ] );
-				models = undefined;
+				animatedParts = undefined;
 
+if ( debug1 ) {
+				if ( models ) for ( let i in models ) scene.remove( models[ i ] );
+				models = [];
+}
 				updateProgressBar( 0 );
 				showProgressBar();
 
-				const isLoadingPart = isPartPath( guiData.modelFileName );
+				//const isLoadingPart = ( guiData.modelFileName );
 
-				lDrawLoader.setPartsLibraryPath( getLibraryPath( currentConstructionSet ) );
-				lDrawLoader.setPath( getModelPath( currentConstructionSet ) );
 				lDrawLoader.load( guiData.modelFileName, function ( model1 ) {
 
-					if ( parts ) {
+					if ( animatedParts ) {
 
-						for ( let i in parts ) {
+						for ( let i in animatedParts ) {
 
-							const part = parts[ i ];
-
+							const part = animatedParts[ i ];
 							scene.remove( part );
-
 							physicsWorld.removeRigidBody( part.userData.physicsBody );
 
 						}
 
 					}
-					if ( models ) for ( let i in models ) scene.remove( models[ i ] );
-
-					parts = [];
-					models = [];
+					animatedParts = undefined;
+					animatedParts = [];
 					dynamicObjects = [];
-					turn = true;
 
-					model = model1;
-					models.push( model );
+if ( debug1 ) {
+					if ( models ) for ( let i in models ) scene.remove( models[ i ] );
+					models = [];
+}
+					animatedModel = model1;
+					models.push( model1 );
 
 					// Convert from LDraw coordinates: rotate 180 degrees around OX
-					model.rotation.x = Math.PI;
+					model1.rotation.x = Math.PI;
 
-					modelBbox = new THREE.Box3().setFromObject( model );
-					const size = modelBbox.getSize( new THREE.Vector3() );
-					const radius = Math.max( size.x, Math.max( size.y, size.z ) ) * 0.5;
-					modelDiameter = 2 * radius;
+					createModelBBox( model1 );
 
 					// Put above floor
-					model.position.y = - modelBbox.min.y;
+					model1.position.y = - model1.userData.modelBbox.min.y;
 
 					// Extrude a little bit the stickers
 					const stickers = [];
-					model.traverse( c => {
+					model1.traverse( c => {
 
 						if ( c.userData.fileName ) {
 
@@ -654,33 +634,31 @@
 
 					}
 
-					scene.add( model );
+					scene.add( model1 );
 
 					updateObjectsVisibility();
 
 					time = 0;
 					animationState = ANIM_STOPPED;
 					animationCreated = false;
-
-					// Adjust camera
+					timeFactor = 1;
+					guiData.timeFactor = timeFactor;
+					if ( timeFactorController ) timeFactorController.updateDisplay();
 
 					if ( resetCamera ) {
 
-						const pos = modelBbox.getCenter( new THREE.Vector3() );
-						pos.y += model.position.y;
-						setCamera( pos.x, pos.y, pos.z );
+						const pos = model1.userData.modelBbox.getCenter( vector3Temp1 );
+						pos.y += model1.position.y;
+						setCamera( model1, pos.x, pos.y, pos.z );
 
 					}
-
-					createGUI();
-
-					guiData.modelTitle = "No title.";
-					guiData.path = guiData.modelFileName;
-					guiData.modelSeries = "No series.";
-					guiData.modelRef = "No ref.";
-					guiData.modelInfoURL = "No URL.";
-
-					selectPart( null );
+if ( ! debug1 )
+					selectionModeModel = true;
+if ( ! debug1 )
+					selectPart( model1 );
+else selectPart( null );
+					setButtonDisabled( selectionModePartButton, false );
+					setButtonDisabled( selectionModeModelButton, true );
 
 					hideProgressBar();
 
@@ -690,7 +668,86 @@
 
 			function isPartPath( path ) {
 
-				return path.startsWith( '../parts/' );
+				return path.startsWith( '../parts/' ) || path.startsWith( 'parts/' );;
+
+			}
+
+			function isPartType( type ) {
+
+				return type === 'Part' || type === 'Unofficial_Part';
+
+			}
+
+			function isModelType( type ) {
+
+				return type === 'Model';
+
+			}
+
+			function isPart( part ) {
+
+				if ( ! part || ! part.userData ) return false;
+
+				return getDataBasePart( part ) !== undefined;
+			}
+
+			function isModel( model ) {
+
+				if ( ! model || ! model.userData ) return false;
+
+				return isModelType( model.userData.type );
+
+			}
+
+			function getObjectPart( object ) {
+
+				if ( ! object ) return undefined;
+
+				while ( object.parent && ( ! object.parent.isScene ) && ! object.userData.fileName ) object = object.parent;
+
+				while ( object.parent && ! object.parent.isScene &&
+						( ( ! isPart( object ) && ! isModel( object ) ) || ( object.parent.parent && ! object.parent.parent.isScene && isModel( object.parent ) ) )
+					  ) {
+
+					object = object.parent;
+
+				}
+
+				return object;
+
+			}
+
+			function getPartModel( part ) {
+
+				if ( ! part ) return undefined;
+
+				while ( part.parent && ( ! part.parent.isScene ) ) part = part.parent;
+
+				return part;
+
+			}
+
+			function getDataBasePart( part ) {
+
+				if ( part.userData.fileName ) {
+
+					return dataBase.parts[ part.userData.fileName ];
+
+				}
+
+				return undefined;
+
+			}
+
+			function getDataBaseModel( model ) {
+
+				if ( model.userData.fileName ) {
+
+					return dataBase.models[ model.userData.fileName ];
+
+				}
+
+				return undefined;
 
 			}
 
@@ -796,17 +853,37 @@
 
 			}
 
-			function setCamera( x, y, z ) {
+			function createModelBBox( model ) {
+
+				if ( model.userData.modelBbox ) return;
+
+				model.userData.modelBbox = new THREE.Box3();
+				model.userData.modelBbox.setFromObject( model );
+
+				const size = model.userData.modelBbox.getSize( vector3Temp1 );
+				const radius = Math.max( vector3Temp1.x, Math.max( vector3Temp1.y, vector3Temp1.z ) ) * 0.5;
+				model.userData.modelDiameter = 2 * radius;
+
+			}
+
+			function setCamera( model, x, y, z ) {
 
 				controls.target0.set( x, y, z );
-				controls.position0.set( - 2.3, 1, 2 ).multiplyScalar( modelDiameter * 0.6 ).add( controls.target0 );
+				controls.position0.set( - 2.3, 1, 2 ).multiplyScalar( model.userData.modelDiameter * 0.6 ).add( controls.target0 );
 				controls.reset();
 
 			}
 
 			function centerCameraInObject() {
 
-				modelBbox.getCenter( controls.target0 );
+				let /*const */model = selectedPart;
+
+if ( debug1 ) model = models[ 0 ];
+				if ( ! model ) return;
+
+				createModelBBox( model );
+
+				model.userData.modelBbox.getCenter( controls.target0 );
 				vector3Temp1.subVectors( camera.position, controls.target );
 				controls.position0.copy( vector3Temp1 ).add( controls.target0 );
 				controls.reset();
@@ -830,6 +907,8 @@
 
 					if ( ! selectedPart ) scene.add( selectedPartBoxHelper );
 
+					selectedPartBoxHelper.material.color.setHex( selectionModeModel ? 0x00FF00 : 0xFF00FF );
+
 				}
 				else if ( selectedPart ) {
 
@@ -839,7 +918,7 @@
 
 				selectedPart = part;
 
-				if ( ! iteration && updateModelAndPartInfo() ) {
+				if ( ! iteration && updateModelAndPartInfo() && ! isModel( selectedPart ) ) {
 
 					selectPart( null, true );
 
@@ -853,23 +932,26 @@
 
 				let partInfoNotFound = false;
 
-				let modelInfo = dataBase.models[ guiData.modelFileName ];
+				const selectedModel = getPartModel( selectedPart );
 
-				if ( ! modelInfo ) {
+				let modelInfo;
+				if ( selectedPart ) {
 
-					modelInfo = dataBase.parts[ guiData.modelFileName.substring( '../parts/'.length ) ];
+					const selectedModelFileName = selectedModel ? selectedModel.userData.fileName : "";
+					modelInfo = dataBase.models[ selectedModelFileName ];
 
 				}
+
 
 				let infoText = '';
 
 				if ( selectedPart ) {
 
 					let partInfo = dataBase.parts[ selectedPart.userData.fileName ];
-
+//TODO
 					if ( ! partInfo && selectedPart.userData.fileName ) {
 
-						partInfo = dataBase.parts[ selectedPart.userData.fileName.substring( '../parts/'.length ) ];
+						partInfo = dataBase.parts[ selectedPart.userData.fileName ];
 
 					}
 
@@ -901,31 +983,51 @@
 				if ( modelInfo ) {
 
 					if ( modelInfo.path ) guiData.path = modelInfo.path;
-					if ( modelInfo.title ) guiData.modelTitle = modelInfo.title;
-					if ( modelInfo.seriesNumber ) guiData.modelSeries = modelInfo.seriesNumber;
+					guiData.modelTitle = modelInfo.title ? modelInfo.title : "No title.";
+					guiData.modelSeries = modelInfo.seriesNumber ? modelInfo.seriesNumber : "No series.";
 					if ( modelInfo.refNumber ) guiData.modelRef = modelInfo.refNumber;
 					else if ( modelInfo.metaData ) guiData.modelRef = modelInfo.metaData;
-					if ( modelInfo.id && Number.isInteger( parseInt( modelInfo.id ) ) ) guiData.modelInfoURL = 'https://tente.spread.name/id/' + modelInfo.id;
-
-					pathController.updateDisplay();
-					modelTitleController.updateDisplay();
-					modelSeriesController.updateDisplay();
-					modelRefController.updateDisplay();
-					modelInfoURLController.updateDisplay();
-
+					else guiData.modelRef = "No ref.";
 					if ( modelInfo.id && Number.isInteger( parseInt( modelInfo.id ) ) ) {
+
+						guiData.modelInfoURL = 'https://tente.spread.name/id/' + modelInfo.id;
 
 						infoText += 'Go <a href="https://tente.spread.name/id/' + modelInfo.id + '"><b>here for model info</b> (external link)</a>';
 
 					}
-
-					infoText += '<br>See <a href="/TNTViewer/examples/tnt_models.html">models</a> and ' +
-						'<a href="/TNTViewer/examples/tnt_parts.html">parts</a> lists.' +
-						'<br><a href="https://github.com/yomboprime/TNTViewer">TNTViewer code at Github</a>';
-
-					infoDiv.innerHTML = infoText;
+					else guiData.modelInfoURL = "No URL.";
 
 				}
+				else {
+
+					guiData.path = "";
+					guiData.modelTitle = "No title.";
+					guiData.modelSeries = "No series.";
+					guiData.modelRef = "No ref.";
+					guiData.modelInfoURL = "";
+
+				}
+
+				if ( selectedModel ) {
+
+					selectedModel.userData.modelBbox.getSize( vector3Temp1 ).multiplyScalar( constructionSetScale[ currentConstructionSet ] );
+					function round10( x ) { return Math.round( x * 10 ) / 10; }
+					guiData.modelBboxInfo = round10( vector3Temp1.x ) + " x " + round10( vector3Temp1.z ) + " x " + round10( vector3Temp1.y );
+
+				}
+
+				pathController.updateDisplay();
+				modelTitleController.updateDisplay();
+				modelSeriesController.updateDisplay();
+				modelRefController.updateDisplay();
+				modelInfoURLController.updateDisplay();
+				modelBboxInfoController.updateDisplay();
+
+				infoText += '<br>See <a href="/TNTViewer/examples/tnt_models.html">models</a> and ' +
+					'<a href="/TNTViewer/examples/tnt_parts.html">parts</a> lists.' +
+					'<br><a href="https://github.com/yomboprime/TNTViewer">TNTViewer code at Github</a>';
+
+				infoDiv.innerHTML = infoText;
 
 				return partInfoNotFound;
 
@@ -1028,13 +1130,13 @@
 
 				if ( animationState !== ANIM_CONSTRUCTING ) return;
 
-				constructionStep = Math.max( 0, Math.min( parts.length, constructionStep ) );
+				constructionStep = Math.max( 0, Math.min( animatedParts.length, constructionStep ) );
 
 				time = getTimeByStep( constructionStep + 1 );
 
-				for ( let i in parts ) {
+				for ( let i in animatedParts ) {
 
-					positionPart( parts[ i ], time );
+					positionPart( animatedParts[ i ], time );
 
 				}
 
@@ -1042,7 +1144,7 @@
 
 			function getStepByTime( t ) {
 
-				return Math.max( 0, Math.min( parts.length - 1, Math.floor( t / stepDuration ) ) );
+				return Math.max( 0, Math.min( animatedParts.length - 1, Math.floor( t / stepDuration ) ) );
 
 			}
 
@@ -1056,17 +1158,17 @@
 
 				if ( prevStepButton.disabled ) return;
 
-				if ( ! parts || parts.length === 0 ) return;
+				if ( ! animatedParts || animatedParts.length === 0 ) return;
 
 				const remTime = time - Math.floor( time / stepDuration ) * stepDuration;
 				const rem = remTime / stepDuration;
 				let firstHalf = rem < 0.5 && remTime > 0;
-				const newStep = Math.max( 0, Math.min( parts.length - 1, getStepByTime( time ) - 1 ) );
+				const newStep = Math.max( 0, Math.min( animatedParts.length - 1, getStepByTime( time ) - 1 ) );
 
 				time = getTimeByStep( newStep );
-				for ( let i in parts ) {
+				for ( let i in animatedParts ) {
 
-					positionPart( parts[ i ], time );
+					positionPart( animatedParts[ i ], time );
 
 				}
 
@@ -1080,17 +1182,17 @@
 
 				if ( nextStepButton.disabled ) return;
 
-				if ( ! parts || parts.length === 0 ) return;
+				if ( ! animatedParts || animatedParts.length === 0 ) return;
 
 				const remTime = time - Math.floor( time / stepDuration ) * stepDuration;
 				const rem = remTime / stepDuration;
 				let firstHalf = rem < 0.5 && remTime > 0;
-				const newStep = Math.max( 0, Math.min( parts.length, Math.floor( time / stepDuration ) + 1 ) );
+				const newStep = Math.max( 0, Math.min( animatedParts.length, Math.floor( time / stepDuration ) + 1 ) );
 
 				time = getTimeByStep( newStep );
-				for ( let i in parts ) {
+				for ( let i in animatedParts ) {
 
-					positionPart( parts[ i ], time );
+					positionPart( animatedParts[ i ], time );
 
 				}
 
@@ -1106,34 +1208,21 @@
 
 				animationCreated = true;
 
-				if ( ! model ) return;
+				if ( ! animatedModel ) return;
 
-				scene.remove( model );
+				scene.remove( animatedModel );
 
-				parts = model.children.slice();
-/*
-				model.traverse( c => {
+				animatedParts = animatedModel.children.slice();
 
-					console.log( "fileName: " + c.userData.fileName );
-
-
-					//if ( isPartType( c.userData.type ) ) {
-
-					//	parts.push( c );
-
-					//}
-
-				} );
-*/
-				model.updateMatrixWorld( true );
+				animatedModel.updateMatrixWorld( true );
 
 				meanPos.set( 0, 0, 0 );
 
-				for ( let i in parts ) {
+				for ( let i in animatedParts ) {
 
-					const partOrig = parts[ i ];
+					const partOrig = animatedParts[ i ];
 					const part = partOrig.clone();
-					parts[ i ] = part;
+					animatedParts[ i ] = part;
 					part.userData.type = partOrig.userData.type;
 					part.userData.numConstructionSteps = partOrig.userData.numConstructionSteps;
 					part.userData.constructionStep = partOrig.userData.constructionStep;
@@ -1171,19 +1260,19 @@
 
 				}
 
-				const fileNumConstructionSteps = model.userData.numConstructionSteps;
+				const fileNumConstructionSteps = animatedModel.userData.numConstructionSteps;
 
-				if ( parts.length > 0 ) {
+				if ( animatedParts.length > 0 ) {
 
-					meanPos.multiplyScalar( 1 / parts.length );
+					meanPos.multiplyScalar( 1 / animatedParts.length );
 
 				}
 
-				meanPos.z -= getTurnOffset();
+				meanPos.z -= 2.1 * animatedModel.userData.modelDiameter;
 
-				for ( let p in parts ) {
+				for ( let p in animatedParts ) {
 
-					const part = parts[ p ];
+					const part = animatedParts[ p ];
 
 					part.position.add( meanPos );
 					part.position.y += meanPos.y * 2;
@@ -1209,14 +1298,14 @@
 
 				if ( fileNumConstructionSteps === 1 ) {
 
-					sortParts( parts );
+					sortParts( animatedParts );
 
 				}
 
 				const stepsParts = [];
-				for ( let p in parts ) {
+				for ( let p in animatedParts ) {
 
-					const part = parts[ p ];
+					const part = animatedParts[ p ];
 
 					let constructionStep = p;
 					if ( fileNumConstructionSteps > 1 ) constructionStep = part.userData.constructionStep;
@@ -1245,7 +1334,7 @@
 
 					}
 
-					parts.sort( ( a, b ) => {
+					animatedParts.sort( ( a, b ) => {
 
 						const sa = a.constructionStep;
 						const sb = b.constructionStep;
@@ -1256,8 +1345,8 @@
 
 				}
 
-				constructionDuration = stepDuration * parts.length;
-				constructionStepController.min( 1).max( parts.length );
+				constructionDuration = stepDuration * animatedParts.length;
+				constructionStepController.min( 1 ).max( animatedParts.length );
 
 			}
 
@@ -1276,7 +1365,7 @@
 
 			function handleAnimation( deltaTime ) {
 
-				if ( ! parts ) return;
+				if ( ! animatedParts ) return;
 
 				switch ( animationState ) {
 
@@ -1310,9 +1399,9 @@
 				time = 0;
 				animationState = ANIM_CONSTRUCTING;
 
-				for ( let i in parts ) {
+				for ( let i in animatedParts ) {
 
-					positionPart( parts[ i ], time );
+					positionPart( animatedParts[ i ], time );
 
 				}
 
@@ -1332,10 +1421,6 @@
 					animationButton.innerHTML = "▶";
 					constructionStepController.disable();
 
-					//animationState = ANIM_WAIT;
-					//timeNextState = time + 3;
-					//turn = ! turn;
-
 				}
 
 				let currentConstructionStep = getStepByTime( time );
@@ -1345,13 +1430,13 @@
 				if ( Math.sign( nextConstructionStep - currentConstructionStep ) >= 0 ) {
 
 					currentConstructionStep = Math.max( 0, currentConstructionStep - 1 );
-					nextConstructionStep = Math.min( parts.length - 1, nextConstructionStep + 1 );
+					nextConstructionStep = Math.min( animatedParts.length - 1, nextConstructionStep + 1 );
 
 				}
 				else {
 
 					nextConstructionStep = Math.max( 0, nextConstructionStep - 1 );
-					currentConstructionStep = Math.min( parts.length - 1, currentConstructionStep + 1 );
+					currentConstructionStep = Math.min( animatedParts.length - 1, currentConstructionStep + 1 );
 
 				}
 
@@ -1362,9 +1447,9 @@
 				let step = step0;
 				for ( let i = 0; i < numSteps; i ++ ) {
 
-					if ( step >= 0 && step <= parts.length - 1 ) {
+					if ( step >= 0 && step <= animatedParts.length - 1 ) {
 
-						positionPart( parts[ step ], time );
+						positionPart( animatedParts[ step ], time );
 
 					}
 
@@ -1420,9 +1505,9 @@
 
 			function reenablePhysics() {
 
-				for ( let i in parts ) {
+				for ( let i in animatedParts ) {
 
-					const part = parts[ i ];
+					const part = animatedParts[ i ];
 
 					updateRigidBodyFromObject( part );
 					physicsWorld.addRigidBody( part.userData.physicsBody );
@@ -1479,6 +1564,7 @@
 				if ( gui ) {
 
 					gui.destroy();
+					gui2.destroy();
 
 				}
 
@@ -1494,6 +1580,7 @@
 
 
 				gui = new GUI( { width: GUI_WIDTH, container: sideBarDiv } );
+				gui.title( "Main menu" );
 
 				const fileNameMap = {};
 				for ( let i in dataBase.modelPathsList ) {
@@ -1518,10 +1605,7 @@
 				modelRefController = infoFolder.add( guiData, 'modelRef' ).name( 'Reference' );
 				modelInfoURLController = infoFolder.add( guiData, 'modelInfoURL' ).name( 'Info URL' );
 				pathController = infoFolder.add( guiData, 'path' ).name( 'Path' );
-				modelBbox.getSize( vector3Temp1 ).multiplyScalar( constructionSetScale[ currentConstructionSet ] );
-				function round10( x ) { return Math.round( x * 10 ) / 10; }
-				guiData.modelBboxInfo = round10( vector3Temp1.x ) + " x " + round10( vector3Temp1.z ) + " x " + round10( vector3Temp1.y );
-				infoFolder.add( guiData, 'modelBboxInfo' ).name( 'Model bounds (mm)' );
+				modelBboxInfoController = infoFolder.add( guiData, 'modelBboxInfo' ).name( 'Model bounds (mm)' );
 				infoFolder.add( guiData, 'showBOM' ).name( 'Show B.O.M. (model parts list)...' );
 
 				const optionsFolder = gui.addFolder( "Options" );
@@ -1586,7 +1670,16 @@
 
 				exportFolder.close();
 
-				constructionStepController = gui.add( guiData, 'constructionStep', 1, 1 ).step( 1 ).name( 'Construction step' ).onChange( () => {
+
+
+				const secondPanel = document.createElement( 'div' );
+				sideBarDiv.appendChild( secondPanel );
+
+
+				gui2 = new GUI( { width: GUI_WIDTH, container: secondPanel } );
+				gui2.title( "Animation" );
+
+				constructionStepController = gui2.add( guiData, 'constructionStep', 1, 1 ).step( 1 ).name( 'Construction step' ).onChange( () => {
 
 					pauseAnimation();
 
@@ -1595,16 +1688,11 @@
 				} );
 				constructionStepController.disable();
 
-				timeFactorController = gui.add( guiData, 'timeFactor', - 5, 5 ).name( 'Time factor' ).onChange( () => {
+				timeFactorController = gui2.add( guiData, 'timeFactor', - 5, 5 ).name( 'Time factor' ).onChange( () => {
 
 					resumeAnimation( guiData.timeFactor );
 
 				} );
-
-
-				const secondPanel = document.createElement( 'div' );
-				sideBarDiv.appendChild( secondPanel );
-
 
 				playbackPanel = document.createElement( 'div' );
 				playbackPanel.id = 'idbuttns';
@@ -1646,6 +1734,52 @@
 				centerViewButton.title = "Center view (c)"
 				centerViewButton.addEventListener( 'click', centerCameraInObject );
 				playbackPanel.appendChild( centerViewButton );
+
+
+
+				const editorPanel = document.createElement( 'div' );
+				//editorPanel.id = 'idbuttns';
+				editorPanel.className = 'playbackPanel';
+if ( ! debug1 )
+				secondPanel.appendChild( editorPanel );
+
+				const editorDiv = document.createElement( 'div' );
+				editorDiv.className = 'playbackdiv';
+				editorPanel.appendChild( editorDiv );
+
+				selectionModePartButton = document.createElement( 'div' );
+				selectionModeModelButton = document.createElement( 'div' );
+
+				selectionModePartButton.className = 'buttn centerbtn';
+				selectionModePartButton.innerHTML = "Part";
+				selectionModePartButton.title = "Selection mode: Part"
+				selectionModePartButton.addEventListener( 'click', () => {
+
+					selectionModeModel = false;
+					selectPart( null );
+					setButtonDisabled( selectionModePartButton, true );
+					setButtonDisabled( selectionModeModelButton, false );
+
+				} );
+				setButtonDisabled( selectionModePartButton, ! selectionModeModel );
+
+				selectionModeModelButton.className = 'buttn centerbtn';
+				selectionModeModelButton.innerHTML = "Model";
+				selectionModeModelButton.title = "Selection mode: Model"
+				selectionModeModelButton.addEventListener( 'click', () => {
+
+					selectionModeModel = true;
+					selectPart( getPartModel( selectedPart ) );
+					setButtonDisabled( selectionModePartButton, false );
+					setButtonDisabled( selectionModeModelButton, true );
+
+				} );
+				setButtonDisabled( selectionModeModelButton, selectionModeModel );
+
+				editorDiv.appendChild( selectionModePartButton );
+				editorDiv.appendChild( selectionModeModelButton );
+
+
 
 				const infoPanel = document.createElement( 'div' );
 				secondPanel.appendChild( infoPanel );
@@ -1698,7 +1832,11 @@
 
 			function showBOM() {
 
-				if ( ! model ) return;
+				if ( ! selectedPart ) return;
+
+				if ( ! getDataBasePart( selectedPart ) && ! getDataBaseModel( selectedPart ) ) return;
+
+				const model = selectedPart;
 
 				const bomDiv = document.createElement( 'div' );
 				bomDiv.style.backgroundColor = 'black';
@@ -1759,37 +1897,32 @@
 				let totalParts = 0;
 				model.traverse( c => {
 
-					if ( c.userData.fileName ) {
+					const dbPart = getDataBasePart( c );
 
-						const part = dataBase.parts[ c.userData.fileName ];
-						if ( part ) {
+					if ( ! dbPart ) return;
 
-							const colorCode = c.userData.colorCode;
-							const colorName = c.userData.colorCode ? lDrawLoader.materialLibrary[ c.userData.colorCode ].name: "None";
-							const hash = c.userData.fileName + '_'  + colorCode;
+					const colorCode = c.userData.colorCode;
+					const colorName = c.userData.colorCode ? lDrawLoader.materialLibrary[ c.userData.colorCode ].name: "None";
+					const hash = c.userData.fileName + '_'  + colorCode;
 
-							if ( differentParts[ hash ] ) {
+					if ( differentParts[ hash ] ) {
 
-								differentParts[ hash ].count ++;
-							}
-							else {
+						differentParts[ hash ].count ++;
+					}
+					else {
 
-								differentParts[ hash ] = {
-									count: 1,
-									name: part.title,
-									colorName: colorName,
-									colorCode: colorCode,
-									path: part.path
-								};
-
-							}
-
-							totalParts ++;
-						}
+						differentParts[ hash ] = {
+							count: 1,
+							name: dbPart.title,
+							colorName: colorName,
+							colorCode: colorCode,
+							path: dbPart.path
+						};
 
 					}
 
-				} );
+					totalParts ++;
+				} );
 
 				const differentPartsHashes = Object.keys( differentParts );
 
@@ -2037,13 +2170,13 @@
 
 			function showProgressBar() {
 
-				document.body.appendChild( progressBarDiv );
+				container.appendChild( progressBarDiv );
 
 			}
 
 			function hideProgressBar() {
 
-				if ( document.body.contains( progressBarDiv ) ) document.body.removeChild( progressBarDiv );
+				if ( container.contains( progressBarDiv ) ) container.removeChild( progressBarDiv );
 
 			}
 
