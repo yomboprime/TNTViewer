@@ -1126,7 +1126,7 @@ if ( debug1 ) model = models[ 0 ];
 
 			}
 
-			function animationGoToStep( constructionStep ) {
+			function animationGoToStep( constructionStep, finishChange ) {
 
 				if ( animationState !== ANIM_CONSTRUCTING ) return;
 
@@ -1137,6 +1137,17 @@ if ( debug1 ) model = models[ 0 ];
 				for ( let i in animatedParts ) {
 
 					positionPart( animatedParts[ i ], time );
+
+				}
+
+				if ( finishChange && constructionStep >= animatedParts.length - 1 ) {
+
+					animationState = ANIM_STOPPED;
+					animationButton.innerHTML = "▶";
+					constructionStepController.disable();
+					timeFactor = pausedTimeFactor;
+					guiData.timeFactor = timeFactor;
+					if ( timeFactorController ) timeFactorController.updateDisplay();
 
 				}
 
@@ -1684,6 +1695,12 @@ if ( debug1 ) model = models[ 0 ];
 					pauseAnimation();
 
 					animationGoToStep( guiData.constructionStep - 1 );
+
+				} ).onFinishChange( () => {
+
+					pauseAnimation();
+
+					animationGoToStep( guiData.constructionStep - 1, true );
 
 				} );
 				constructionStepController.disable();
