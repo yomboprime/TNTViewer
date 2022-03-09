@@ -1,5 +1,5 @@
 0 Untitled
-0 Name: explorion.ldr
+0 Name: Titanium_0452_expolion.ldr
 0 Author: CPCBEGIN
 0 ROTATION CENTER 0 0 0 1 "Custom" 
 0 ROTATION CONFIG 0 0
@@ -54,7 +54,7 @@
 1 14 -50 9 105 -1 0 0 0 1 0 0 0 -1 htittron.dat
 1 14 -50 -89.734 163.992 -1 0 0 0 -0.5 0.866025 0 0.866025 0.5 htitbrzd.dat
 1 14 -50 -90.466 161.26 -1 0 0 0 -0.5 0.866025 0 0.866025 0.5 htitmand.dat
-1 14 -50 11 105 -1 0 0 0 1 0 0 0 -1 htitcab1.dat
+1 4 -50 -69 105 -1 0 0 0 1 0 0 0 -1 htitcabr.dat
 1 14 -50 -56 173 -1 0 0 0 0 1 0 1 0 htitbrzi.dat
 1 14 -50 -56 172 -1 0 0 0 0 1 0 1 0 htitmani.dat
 1 462 -60 -64 177 1 0 0 0 0 1 0 -1 0 explornb.dat

@@ -1,33 +1,5 @@
 {
     "models": {
-        "oficiales/400_420_estacionservicio.ldr": {
-            "path": "oficiales/400_420_estacionservicio.ldr",
-            "id": "5",
-            "title": "420",
-            "seriesNumber": "400",
-            "refNumber": "420"
-        },
-        "oficiales/403_casahalt.ldr": {
-            "path": "oficiales/403_casahalt.ldr",
-            "id": "",
-            "title": "",
-            "seriesNumber": "403",
-            "refNumber": "casahalt"
-        },
-        "oficiales/403_chalet403.ldr": {
-            "path": "oficiales/403_chalet403.ldr",
-            "id": "",
-            "title": "",
-            "seriesNumber": "403",
-            "refNumber": "chalet403"
-        },
-        "oficiales/403_cochetente3.ldr": {
-            "path": "oficiales/403_cochetente3.ldr",
-            "id": "",
-            "title": "",
-            "seriesNumber": "403",
-            "refNumber": "cochetente3"
-        },
         "oficiales/Aire_0501_servicio_autopista.ldr": {
             "path": "oficiales/Aire_0501_servicio_autopista.ldr",
             "id": "269",
@@ -55,6 +27,13 @@
             "title": "CONTROL AÉREO",
             "seriesNumber": "Alfa",
             "refNumber": "0370"
+        },
+        "oficiales/Alpha_0364_roadmaster.ldr": {
+            "path": "oficiales/Alpha_0364_roadmaster.ldr",
+            "id": "",
+            "title": "roadmaster",
+            "seriesNumber": "Alpha",
+            "refNumber": "0364"
         },
         "oficiales/Astro_0552_Astro_Sencillo.ldr": {
             "path": "oficiales/Astro_0552_Astro_Sencillo.ldr",
@@ -322,19 +301,19 @@
             "seriesNumber": "Astro",
             "refNumber": "70022"
         },
-        "oficiales/Basico_0401_casa_caja_1.ldr": {
-            "path": "oficiales/Basico_0401_casa_caja_1.ldr",
-            "id": "21",
-            "title": "1 / 401",
+        "oficiales/Basico_400_420_estacionservicio.ldr": {
+            "path": "oficiales/Basico_400_420_estacionservicio.ldr",
+            "id": "",
+            "title": "420 estacionservicio",
             "seriesNumber": "Basico",
-            "refNumber": "0401"
+            "refNumber": "400"
         },
-        "oficiales/Basico_0403_avion_iniciacion.ldr": {
-            "path": "oficiales/Basico_0403_avion_iniciacion.ldr",
-            "id": "23",
-            "title": "3 / 402",
+        "oficiales/Basico_401_casa_caja_1.ldr": {
+            "path": "oficiales/Basico_401_casa_caja_1.ldr",
+            "id": "",
+            "title": "casa caja 1",
             "seriesNumber": "Basico",
-            "refNumber": "0403"
+            "refNumber": "401"
         },
         "oficiales/Basico_401_f1tesoro.ldr": {
             "path": "oficiales/Basico_401_f1tesoro.ldr",
@@ -350,10 +329,38 @@
             "seriesNumber": "Basico",
             "refNumber": "402"
         },
+        "oficiales/Basico_403_avion_iniciacion.ldr": {
+            "path": "oficiales/Basico_403_avion_iniciacion.ldr",
+            "id": "",
+            "title": "avion iniciacion",
+            "seriesNumber": "Basico",
+            "refNumber": "403"
+        },
         "oficiales/Basico_403_casa403.ldr": {
             "path": "oficiales/Basico_403_casa403.ldr",
             "id": "",
             "title": "casa403",
+            "seriesNumber": "Basico",
+            "refNumber": "403"
+        },
+        "oficiales/Basico_403_casahalt.ldr": {
+            "path": "oficiales/Basico_403_casahalt.ldr",
+            "id": "",
+            "title": "casahalt",
+            "seriesNumber": "Basico",
+            "refNumber": "403"
+        },
+        "oficiales/Basico_403_chalet.ldr": {
+            "path": "oficiales/Basico_403_chalet.ldr",
+            "id": "",
+            "title": "chalet",
+            "seriesNumber": "Basico",
+            "refNumber": "403"
+        },
+        "oficiales/Basico_403_cochetente3.ldr": {
+            "path": "oficiales/Basico_403_cochetente3.ldr",
+            "id": "",
+            "title": "cochetente3",
             "seriesNumber": "Basico",
             "refNumber": "403"
         },
@@ -363,6 +370,34 @@
             "title": "LECTOR GEOLÓGICO",
             "seriesNumber": "Combi-Astro",
             "refNumber": "0340"
+        },
+        "oficiales/Combi-Astro_5_8.ldr": {
+            "path": "oficiales/Combi-Astro_5_8.ldr",
+            "id": "",
+            "title": "8",
+            "seriesNumber": "Combi-Astro",
+            "refNumber": "5"
+        },
+        "oficiales/Combi-Astro_6_7.ldr": {
+            "path": "oficiales/Combi-Astro_6_7.ldr",
+            "id": "",
+            "title": "7",
+            "seriesNumber": "Combi-Astro",
+            "refNumber": "6"
+        },
+        "oficiales/Combi-Astro_6_generadormovil.ldr": {
+            "path": "oficiales/Combi-Astro_6_generadormovil.ldr",
+            "id": "",
+            "title": "generadormovil",
+            "seriesNumber": "Combi-Astro",
+            "refNumber": "6"
+        },
+        "oficiales/Combi-Astro_7_unidad-exploradora.ldr": {
+            "path": "oficiales/Combi-Astro_7_unidad-exploradora.ldr",
+            "id": "",
+            "title": "unidad-exploradora",
+            "seriesNumber": "Combi-Astro",
+            "refNumber": "7"
         },
         "oficiales/Combi-Mar_0301.ldr": {
             "path": "oficiales/Combi-Mar_0301.ldr",
@@ -384,34 +419,6 @@
             "title": "TRANSBORDADOR (CORFU)",
             "seriesNumber": "Combi-Mar",
             "refNumber": "0333"
-        },
-        "oficiales/Combi_5_8.ldr": {
-            "path": "oficiales/Combi_5_8.ldr",
-            "id": "",
-            "title": "8",
-            "seriesNumber": "Combi",
-            "refNumber": "5"
-        },
-        "oficiales/Combi_6_7.ldr": {
-            "path": "oficiales/Combi_6_7.ldr",
-            "id": "",
-            "title": "7",
-            "seriesNumber": "Combi",
-            "refNumber": "6"
-        },
-        "oficiales/Combi_6_generadormovil.ldr": {
-            "path": "oficiales/Combi_6_generadormovil.ldr",
-            "id": "",
-            "title": "generadormovil",
-            "seriesNumber": "Combi",
-            "refNumber": "6"
-        },
-        "oficiales/Combi_7_unidad-exploradora.ldr": {
-            "path": "oficiales/Combi_7_unidad-exploradora.ldr",
-            "id": "",
-            "title": "unidad-exploradora",
-            "seriesNumber": "Combi",
-            "refNumber": "7"
         },
         "oficiales/Compact_0343_Excavator.ldr": {
             "path": "oficiales/Compact_0343_Excavator.ldr",
@@ -798,8 +805,8 @@
             "seriesNumber": "Pocket",
             "refNumber": "0315"
         },
-        "oficiales/Roblock_0792_SKYMASTER.ldr": {
-            "path": "oficiales/Roblock_0792_SKYMASTER.ldr",
+        "oficiales/Roblock_0792_skymaster.ldr": {
+            "path": "oficiales/Roblock_0792_skymaster.ldr",
             "id": "310",
             "title": "SKYMASTER",
             "seriesNumber": "Roblock",
@@ -1211,27 +1218,6 @@
             "seriesNumber": "Titanium",
             "refNumber": "70021"
         },
-        "oficiales/astronauta_viejo.ldr": {
-            "path": "oficiales/astronauta_viejo.ldr",
-            "id": "",
-            "title": "astronauta viejo",
-            "seriesNumber": null,
-            "refNumber": null
-        },
-        "oficiales/motobomba.ldr": {
-            "path": "oficiales/motobomba.ldr",
-            "id": "",
-            "title": "motobomba",
-            "seriesNumber": null,
-            "refNumber": null
-        },
-        "oficiales/roadmaster.ldr": {
-            "path": "oficiales/roadmaster.ldr",
-            "id": "",
-            "title": "roadmaster",
-            "seriesNumber": null,
-            "refNumber": null
-        },
         "inventados/amstrad_cpc464.ldr": {
             "path": "inventados/amstrad_cpc464.ldr",
             "id": "",
@@ -1596,6 +1582,13 @@
             "seriesNumber": null,
             "refNumber": null
         },
+        "inventados/motobomba.ldr": {
+            "path": "inventados/motobomba.ldr",
+            "id": "",
+            "title": "inventados/motobomba",
+            "seriesNumber": null,
+            "refNumber": null
+        },
         "inventados/nave_guaul_mini.ldr": {
             "path": "inventados/nave_guaul_mini.ldr",
             "id": "",
@@ -1885,14 +1878,11 @@
         }
     },
     "modelPathsList": [
-        "oficiales/400_420_estacionservicio.ldr",
-        "oficiales/403_casahalt.ldr",
-        "oficiales/403_chalet403.ldr",
-        "oficiales/403_cochetente3.ldr",
         "oficiales/Aire_0501_servicio_autopista.ldr",
         "oficiales/Aire_0502_HelicopteroBrigadaForestal.ldr",
         "oficiales/Aire_0506_HelicopteroFumigador.ldr",
         "oficiales/Alfa_0370_ControlAereo.ldr",
+        "oficiales/Alpha_0364_roadmaster.ldr",
         "oficiales/Astro_0552_Astro_Sencillo.ldr",
         "oficiales/Astro_0552_aerodeslizadorespacial.ldr",
         "oficiales/Astro_0552_basealertagalactica.ldr",
@@ -1931,19 +1921,23 @@
         "oficiales/Astro_0740_saturno6-nodriza.ldr",
         "oficiales/Astro_70022_desintegrador_borras.ldr",
         "oficiales/Astro_70022_desintegrador_borras_apunta_arriba.ldr",
-        "oficiales/Basico_0401_casa_caja_1.ldr",
-        "oficiales/Basico_0403_avion_iniciacion.ldr",
+        "oficiales/Basico_400_420_estacionservicio.ldr",
+        "oficiales/Basico_401_casa_caja_1.ldr",
         "oficiales/Basico_401_f1tesoro.ldr",
         "oficiales/Basico_402_casa402.ldr",
+        "oficiales/Basico_403_avion_iniciacion.ldr",
         "oficiales/Basico_403_casa403.ldr",
+        "oficiales/Basico_403_casahalt.ldr",
+        "oficiales/Basico_403_chalet.ldr",
+        "oficiales/Basico_403_cochetente3.ldr",
         "oficiales/Combi-Astro_0340_lectorgeologico.ldr",
+        "oficiales/Combi-Astro_5_8.ldr",
+        "oficiales/Combi-Astro_6_7.ldr",
+        "oficiales/Combi-Astro_6_generadormovil.ldr",
+        "oficiales/Combi-Astro_7_unidad-exploradora.ldr",
         "oficiales/Combi-Mar_0301.ldr",
         "oficiales/Combi-Mar_0302.ldr",
         "oficiales/Combi-Mar_0333_corfu.ldr",
-        "oficiales/Combi_5_8.ldr",
-        "oficiales/Combi_6_7.ldr",
-        "oficiales/Combi_6_generadormovil.ldr",
-        "oficiales/Combi_7_unidad-exploradora.ldr",
         "oficiales/Compact_0343_Excavator.ldr",
         "oficiales/Compact_0344_Extinthor.ldr",
         "oficiales/Compact_0345_SpacePatrol.ldr",
@@ -1999,7 +1993,7 @@
         "oficiales/Nomura_minifirej.ldr",
         "oficiales/Nomura_sunshine2.ldr",
         "oficiales/Pocket_0315_Eslator.ldr",
-        "oficiales/Roblock_0792_SKYMASTER.ldr",
+        "oficiales/Roblock_0792_skymaster.ldr",
         "oficiales/Ruta2_70037_airportservice.ldr",
         "oficiales/Ruta_0553_camionautopista.ldr",
         "oficiales/Ruta_0553_camiondragstercisterna.ldr",
@@ -2058,9 +2052,6 @@
         "oficiales/Titanium_0452_astronauta_expolion.ldr",
         "oficiales/Titanium_0452_expolion.ldr",
         "oficiales/Titanium_70021_patrulla_espacial.ldr",
-        "oficiales/astronauta_viejo.ldr",
-        "oficiales/motobomba.ldr",
-        "oficiales/roadmaster.ldr",
         "inventados/amstrad_cpc464.ldr",
         "inventados/aparcamiento.ldr",
         "inventados/aparcamiento_con_vehiculos.ldr",
@@ -2113,6 +2104,7 @@
         "inventados/moduloescapemarciano.ldr",
         "inventados/molino.ldr",
         "inventados/morlaco.ldr",
+        "inventados/motobomba.ldr",
         "inventados/nave_guaul_mini.ldr",
         "inventados/nave_v/navevisitante.ldr",
         "inventados/ovni9.ldr",
