@@ -1849,11 +1849,12 @@ if ( ! debug1 )
 
 			function showBOM() {
 
+				let /*const */ model = selectedPart;
+
+if ( debug1 ) model = models[ 0 ];
 				if ( ! selectedPart ) return;
 
 				if ( ! getDataBasePart( selectedPart ) && ! getDataBaseModel( selectedPart ) ) return;
-
-				const model = selectedPart;
 
 				const bomDiv = document.createElement( 'div' );
 				bomDiv.style.backgroundColor = 'black';
