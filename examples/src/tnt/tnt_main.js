@@ -1,18 +1,15 @@
 
 import * as THREE from '../three/build/three.module.js';
-
 import { GUI } from '../three/examples/jsm/libs/lil-gui.module.min.js';
-
 import { OrbitControls } from '../three/examples/jsm/controls/OrbitControls.js';
 import { RoomEnvironment } from '../three/examples/jsm/environments/RoomEnvironment.js';
 //import { Water } from '../three/examples/jsm/objects/Water.js';
 //import { Sky } from '../three/examples/jsm/objects/Sky.js';
-import { GLTFExporter } from '../three/examples/jsm/exporters/GLTFExporter.js';
-import { ColladaExporter } from '../three/examples/jsm/exporters/ColladaExporter.js';
-import { OBJExporter } from '../three/examples/jsm/exporters/OBJExporter.js';
-
 import { LDrawLoader } from '../three/examples/jsm/loaders/LDrawLoader.js';
 //import { LDrawUtils } from '../three/examples/jsm/utils/LDrawUtils.js';
+
+import * as FileOperations from './fileOperations.js';
+import { iconEmojis } from './iconEmojis.js';
 
 const GUI_WIDTH = 500;
 
@@ -32,12 +29,15 @@ let currentConstructionSet;
 
 let container, progressBarDiv, sideBarDiv, scrolledDiv;
 
-let camera, scene, renderer, cameraControls, gui, gui2, guiData;
+let camera, scene, renderer, cameraControls;
+
+let guiData;
 
 //let sun, sunColor, sunSphere, water, sky;
 
 let lDrawLoader;
 
+let initialModel;
 let models;
 let animatedModel;
 let animatedParts;
@@ -60,6 +60,7 @@ let pauseOnNextStepStep;
 const clock = new THREE.Clock();
 let curve;
 
+let guiCreated, gui, gui2, infoFolder, optionsFolder, exportFolder;
 let timeFactorController;
 let constructionStepController;
 let modelTitleController;
@@ -68,6 +69,7 @@ let modelSeriesController;
 let modelRefController;
 let modelInfoURLController;
 let modelBboxInfoController;
+let showBOMController;
 
 let animationButton;
 let stopAnimButton;
@@ -77,7 +79,14 @@ let nextStepButton;
 let selectionModePartButton;
 let selectionModeModelButton;
 
-let infoDiv, playbackPanel;
+let addPartButton;
+let deleteSelectionButton;
+
+let infoDiv;
+
+let bomPanel;
+let modelSelectPanel;
+let partSelectPanel;
 
 // Physics variables
 let collisionConfiguration;
@@ -94,6 +103,9 @@ let btTransformAux1;
 let selectedPart;
 let selectedPartBoxHelper;
 let selectionModeModel = true;
+
+let selectedModelRowIndex = null;
+let selectedPartRowIndex = null;
 
 const raycaster = new THREE.Raycaster();
 const raycasterPointer = new THREE.Vector2();
@@ -196,7 +208,6 @@ function init() {
 			// Load config
 			//localStorage.clear();
 
-			let initialModel = isOptionSet( 'modelPath' ) ? getOption( 'modelPath', false ) : 'oficiales/Aire_0501_servicio_autopista.ldr';
 			const urlParams = new URLSearchParams( window.location.search );
 			if ( urlParams.get( 'modelPath' ) ) initialModel = urlParams.get( 'modelPath' );
 			if ( urlParams.get( 'modelId' ) ) {
@@ -254,7 +265,6 @@ function init() {
 			if ( isOptionSet( 'exportScale' ) ) exportScale = getOption( 'exportScale' );
 
 			guiData = {
-				modelFileName: initialModel,
 				displayLines: displayLines,
 				backgroundColor: backgroundColor,
 				mainColor: mainColor,
@@ -268,9 +278,9 @@ function init() {
 				path: '',
 				modelBboxInfo: '',
 				exportScale: exportScale,
-				exportGLTF: () => { exportModel( models[ 0 ], 'gltf' ); },
-				exportDAE: () => { exportModel( models[ 0 ], 'dae' ); },
-				exportOBJ: () => { exportModel( models[ 0 ], 'obj' ); },
+				exportGLTF: () => { FileOperations.exportModel( models[ 0 ], 'gltf' ); },
+				exportDAE: () => { FileOperations.exportModel( models[ 0 ], 'dae' ); },
+				exportOBJ: () => { FileOperations.exportModel( models[ 0 ], 'obj' ); },
 				showBOM: showBOM
 			};
 
@@ -309,6 +319,10 @@ function init() {
 
 					case 'c':
 						centerCameraInObject();
+						break;
+
+					case 'Delete':
+						deleteSelection();
 						break;
 
 					default:
@@ -354,6 +368,8 @@ function init() {
 					}
 					else selectPart( null );
 
+					triggerRender();
+
 				}
 
 			} );
@@ -372,7 +388,7 @@ function init() {
 
 			models = [];
 
-			reloadObject( true );
+			if ( initialModel ) loadLDrawModelFromRepo( initialModel );
 
 			createGUI();
 
@@ -502,6 +518,21 @@ function updateRigidBodyFromObject( object ) {
 
 }
 
+function reenablePhysics() {
+
+	for ( let i in animatedParts ) {
+
+		const part = animatedParts[ i ];
+
+		updateRigidBodyFromObject( part );
+		physicsWorld.addRigidBody( part.userData.physicsBody );
+		dynamicObjects.push( part );
+		part.userData.physicsControlled = true;
+
+	}
+
+}
+
 function updateObjectsVisibility() {
 
 	function updateObjects( objects ) {
@@ -526,22 +557,39 @@ function updateObjectsVisibility() {
 
 }
 
-function reloadObject( resetCamera ) {
+function loadLDrawModelFromRepo( modelFileName, parentModel ) {
 
 	updateProgressBar( 0 );
 	showProgressBar();
 
-	lDrawLoader.load( guiData.modelFileName, function ( model1 ) {
+	lDrawLoader.load( modelFileName, function ( model1 ) {
 
-		models.push( model1 );
+		if ( parentModel ) {
+
+			parentModel.add( model1 );
+			model1.userData.type = 'Unofficial_Part';
+			if ( model1.userData.fileName.startsWith( '../parts/' ) ) {
+
+				model1.userData.fileName = model1.userData.fileName.substring( '../parts/'.length );
+
+			}
+			model1.userData.colorCode = '16';
+
+		}
+		else {
+
+			models.push( model1 );
+			scene.add( model1 );
+
+		}
 
 		// Convert from LDraw coordinates: rotate 180 degrees around OX
-		model1.rotation.x = Math.PI;
+		if ( ! parentModel ) model1.rotation.x = Math.PI;
 
 		createModelBBox( model1 );
 
 		// Put above floor
-		model1.position.y = - model1.userData.modelBbox.min.y;
+		if ( ! parentModel ) model1.position.y = - model1.userData.modelBbox.min.y;
 
 		// Extrude a little bit the stickers
 		const stickers = [];
@@ -580,23 +628,28 @@ function reloadObject( resetCamera ) {
 
 		}
 
-		scene.add( model1 );
-
 		updateObjectsVisibility();
 
-		if ( resetCamera ) {
+		if ( ! parentModel ) {
 
 			const pos = model1.userData.modelBbox.getCenter( vector3Temp1 );
 			pos.y += model1.position.y;
 			setCamera( model1, pos.x, pos.y, pos.z );
 
+			selectionModeModel = true;
+			setButtonDisabled( selectionModePartButton, false );
+			setButtonDisabled( selectionModeModelButton, true );
+
+		}
+		else {
+
+			selectionModeModel = false;
+			setButtonDisabled( selectionModePartButton, true );
+			setButtonDisabled( selectionModeModelButton, false );
+
 		}
 
-		selectionModeModel = true;
 		selectPart( model1 );
-
-		setButtonDisabled( selectionModePartButton, false );
-		setButtonDisabled( selectionModeModelButton, true );
 
 		hideProgressBar();
 
@@ -649,7 +702,8 @@ function getObjectPart( object ) {
 	while ( object.parent && ! object.parent.isScene &&
 			(
 			  ( ! isPart( object ) && ! isModel( object ) ) ||
-			  ( object.parent.parent && ! object.parent.parent.isScene && isModel( object.parent ) )
+			  ( object.parent.parent && ! object.parent.parent.isScene && isModel( object.parent ) ) ||
+			  ( object.parent.parent && ! object.parent.parent.isScene && isPart( object.parent ) )
 			)
 		  ) {
 
@@ -693,27 +747,29 @@ function getPartModel( part ) {
 
 }
 
+function isAnimatedPart( part ) {
+
+	return animatedParts && animatedParts.includes( part )
+
+}
+
 function getDataBasePart( part ) {
 
-	if ( part.userData.fileName ) {
+	if ( ! part || ! part.userData.fileName ) return undefined;
 
-		return dataBase.parts[ part.userData.fileName ];
+	let fileName = part.userData.fileName;
 
-	}
-
-	return undefined;
+	return dataBase.parts[ fileName ];
 
 }
 
 function getDataBaseModel( model ) {
 
-	if ( model.userData.fileName ) {
+	if ( ! model || ! model.userData.fileName ) return undefined;
 
-		return dataBase.models[ model.userData.fileName ];
+	let fileName = model.userData.fileName;
 
-	}
-
-	return undefined;
+	return dataBase.models[ fileName ];
 
 }
 
@@ -728,94 +784,6 @@ function searchModelByField( field, value ) {
 	}
 
 	return null;
-
-}
-
-function exportModel( model, format ) {
-
-	const scale = constructionSetScale[ currentConstructionSet ] * guiData.exportScale;
-
-	if ( ! model ) return;
-
-	model = model.clone();
-
-	model.scale.multiplyScalar( scale );
-	model.position.multiplyScalar( scale );
-	model.position.x = 0;
-
-	const removeChilds = [];
-	model.traverse( ( c ) => {
-
-		if ( ( ! c.isMesh ) && ( ! c.isGroup ) ) removeChilds.push( c );
-
-	} );
-	for ( let c in removeChilds ) removeChilds[ c ].removeFromParent();
-
-	model.removeFromParent();
-
-	switch ( format ) {
-
-		case 'dae':
-
-			new ColladaExporter().parse( model, ( data ) => {
-
-				saveFile( removeFilenameExtension( guiData.modelFileName ) + ".dae", new Blob( [ data.data ] ) );
-
-			} );
-			break;
-
-		case 'gltf':
-
-			new GLTFExporter().parse(
-				model,
-				( data ) => {
-
-					saveFile( removeFilenameExtension( guiData.modelFileName ) + ".glb", new Blob( [ data ] ) );
-
-				},
-				( err ) => {
-
-					console.log( "Export GLTF error:" );
-					console.log( err );
-
-				},
-				{ binary: true }
-			);
-			break;
-
-		case 'obj':
-
-			saveFile( removeFilenameExtension( guiData.modelFileName ) + ".obj", new Blob( [ new OBJExporter().parse( model ) ] ) );
-
-			break;
-
-	}
-
-}
-
-function saveFile( fileName, blob ) {
-
-	const link = window.document.createElement( "a" );
-	link.href = window.URL.createObjectURL( blob );
-	link.download = fileName;
-	document.body.appendChild( link );
-	link.click();
-	document.body.removeChild( link );
-
-}
-
-function removeFilenameExtension( path ) {
-
-	path = path || "";
-
-	const pathLastIndexOfDot = path.lastIndexOf( "." );
-
-	if ( pathLastIndexOfDot > 0 && path.length > pathLastIndexOfDot + 1) {
-
-		return path.substring( 0, pathLastIndexOfDot );
-
-	}
-	else return "";
 
 }
 
@@ -859,11 +827,79 @@ function centerCameraInObject() {
 
 }
 
-function selectPart( part, iteration ) {
+function addLDrawModel() {
+
+	showSelectLDrawModelFromRepo();
+
+}
+
+function addLDrawPart() {
+
+	if ( ! selectionModeModel || ! selectedPart ) return;
+	const selectedModel = selectedPart;
+	showSelectLDrawPartFromRepo( selectedModel );
+
+
+}
+
+function addLDrawModelFromFile() {
+}
+
+function addNonLDrawModelFromFile() {
+}
+
+function deleteSelection() {
+
+	if ( ! selectedPart ) return;
+
+	const parent = selectedPart.parent;
+
+	if ( ! deletePartOrModel( selectedPart ) ) return;
+
+	if ( parent && isModel( parent ) && parent.children.length === 0 ) {
+
+		deletePartOrModel( parent );
+		alert( "Model was deleted because you deleted the last part." );
+
+	}
+
+	selectPart( null );
+
+	triggerRender();
+
+}
+
+function deletePartOrModel( part ) {
+
+	// Returns success
+
+	if ( isModel( part ) ) {
+
+		const i = models.indexOf( part );
+		if ( i >= 0 ) {
+
+			models.splice( i, 1 );
+
+		}
+
+	}
+	else {
+
+		if ( isAnimatedPart( part ) ) return false;
+
+	}
+
+	part.removeFromParent();
+
+	return true;
+
+}
+
+function selectPart( part ) {
 
 	if ( selectionModeModel ) {
 
-		if ( animatedParts && animatedParts.includes( part ) ) part = null;
+		if ( isAnimatedPart( part ) ) part = null;
 
 	}
 
@@ -891,6 +927,9 @@ function selectPart( part, iteration ) {
 
 		}
 
+		setButtonDisabled( addPartButton, ! selectionModeModel );
+		setButtonDisabled( deleteSelectionButton, false );
+
 	}
 	else {
 
@@ -907,17 +946,14 @@ function selectPart( part, iteration ) {
 
 		}
 
+		setButtonDisabled( addPartButton, true );
+		setButtonDisabled( deleteSelectionButton, true );
+
 	}
 
 	selectedPart = part;
 
-	if ( ! iteration ) {
-
-		if ( updateModelAndPartInfo() && ! isModel( selectedPart ) ) selectPart( null, true );
-
-		triggerRender();
-
-	}
+	updateModelAndPartInfo();
 
 }
 
@@ -927,38 +963,19 @@ function updateModelAndPartInfo() {
 
 	let partInfoNotFound = false;
 
-	const selectedModel = getPartModel( selectedPart );
-
-	let modelInfo;
-	if ( selectedPart ) {
-
-		const selectedModelFileName = selectedModel ? selectedModel.userData.fileName : "";
-		modelInfo = dataBase.models[ selectedModelFileName ];
-
-	}
-
-
 	let infoText = '';
 
-	if ( selectedPart ) {
+	let partInfo = getDataBasePart( selectedPart );
+	if ( partInfo ) {
 
-		let partInfo = getDataBasePart( selectedPart );
-		if ( partInfo ) {
+		const mat = lDrawLoader.materialLibrary[ selectedPart.userData.colorCode ];
 
-			infoText += 'Part: ' +
-				'<a href="/TNTViewer/examples/tnt.html?modelPath=../parts/' + partInfo.path +
-				'&colorCode=' + lDrawLoader.materialLibrary[ selectedPart.userData.colorCode ].userData.code +
-				'">' + partInfo.title + '</a><br>';
+		infoText += 'Part: ' +
+			'<a href="/TNTViewer/examples/tnt.html?modelPath=../parts/' + partInfo.path +
+			'&colorCode=' + mat.userData.code +
+			'">' + partInfo.title + '</a><br>';
 
-			infoText += 'Part color: ' + lDrawLoader.materialLibrary[ selectedPart.userData.colorCode ].name + '<br>';
-
-		}
-		else {
-
-			infoText += 'Part: No part selected.' + '<br>';
-			partInfoNotFound = true;
-
-		}
+		infoText += 'Part color: ' + mat.name + '<br>';
 
 	}
 	else {
@@ -968,6 +985,8 @@ function updateModelAndPartInfo() {
 
 	}
 
+	const selectedModel = getPartModel( selectedPart );
+	const modelInfo = getDataBaseModel( selectedModel );
 	if ( modelInfo ) {
 
 		if ( modelInfo.path ) guiData.path = modelInfo.path;
@@ -988,11 +1007,23 @@ function updateModelAndPartInfo() {
 	}
 	else {
 
-		guiData.path = "";
-		guiData.modelTitle = "No title.";
-		guiData.modelSeries = "No series.";
-		guiData.modelRef = "No ref.";
-		guiData.modelInfoURL = "";
+		if ( ! selectedPart ) {
+
+			guiData.path = "";
+			guiData.modelTitle = "";
+			guiData.modelSeries = "";
+			guiData.modelRef = "";
+			guiData.modelInfoURL = "";
+		}
+		else {
+
+			guiData.path = selectedModel && selectedModel.userData.fileName ? selectedModel.userData.fileName : "";
+			guiData.modelTitle = "No title.";
+			guiData.modelSeries = "No series.";
+			guiData.modelRef = "No ref.";
+			guiData.modelInfoURL = "";
+
+		}
 
 	}
 
@@ -1003,6 +1034,14 @@ function updateModelAndPartInfo() {
 		selectedModel.userData.modelBbox.getSize( vector3Temp1 ).multiplyScalar( constructionSetScale[ currentConstructionSet ] );
 		function round10( x ) { return Math.round( x * 10 ) / 10; }
 		guiData.modelBboxInfo = round10( vector3Temp1.x ) + " x " + round10( vector3Temp1.z ) + " x " + round10( vector3Temp1.y );
+
+		showBOMController.enable();
+
+	}
+	else {
+
+		guiData.modelBboxInfo = "";
+		showBOMController.disable();
 
 	}
 
@@ -1087,7 +1126,7 @@ function startAnimation() {
 	pauseOnNextStep = false;
 	pauseOnNextStepStep = - 1;
 
-	animationButton.innerHTML = "⏸";
+	animationButton.innerHTML = iconEmojis[ "Pause" ];
 	if ( disableAnimButton ) {
 
 		setButtonDisabled( animationButton, true );
@@ -1113,7 +1152,7 @@ function stopAnimation() {
 	guiData.timeFactor = timeFactor;
 	timeFactorController.updateDisplay();
 
-	animationButton.innerHTML = "▶";
+	animationButton.innerHTML = iconEmojis[ "Play" ];
 	setButtonDisabled( animationButton, false );
 	setButtonDisabled( stopAnimButton, true );
 
@@ -1154,7 +1193,7 @@ function pauseAnimation() {
 	pausedTimeFactor = timeFactor;
 	timeFactor = 0;
 
-	animationButton.innerHTML = "▶";
+	animationButton.innerHTML = iconEmojis[ "Play" ];
 	guiData.timeFactor = timeFactor;
 	timeFactorController.updateDisplay();
 
@@ -1164,7 +1203,7 @@ function pauseAnimation() {
 
 function resumeAnimation( timeFactorParam ) {
 
-	if ( animationState === ANIM_CONSTRUCTING ) animationButton.innerHTML = "⏸";
+	if ( animationState === ANIM_CONSTRUCTING ) animationButton.innerHTML = iconEmojis[ "Pause" ];
 
 	timeFactor = timeFactorParam;
 
@@ -1193,7 +1232,7 @@ function animationGoToStep( constructionStep, finishChange ) {
 
 		animationState = ANIM_STOPPED;
 		timeFactor = pausedTimeFactor;
-		animationButton.innerHTML = "▶";
+		animationButton.innerHTML = iconEmojis[ "Play" ];
 		constructionStepController.disable();
 		guiData.timeFactor = timeFactor;
 		timeFactorController.updateDisplay();
@@ -1447,8 +1486,6 @@ function handleAnimation( deltaTime ) {
 			animParts( deltaTime );
 			break;
 
-			break;
-
 		default:
 			break;
 
@@ -1480,7 +1517,7 @@ function animParts( deltaTime ) {
 		animationState = ANIM_STOPPED;
 		time = deltaTime > 0 ? constructionDuration : 0;
 		timeNextStep = time;
-		animationButton.innerHTML = "▶";
+		animationButton.innerHTML = iconEmojis[ "Play" ];
 		constructionStepController.disable();
 
 	}
@@ -1565,21 +1602,6 @@ function positionPart( part, t ) {
 
 }
 
-function reenablePhysics() {
-
-	for ( let i in animatedParts ) {
-
-		const part = animatedParts[ i ];
-
-		updateRigidBodyFromObject( part );
-		physicsWorld.addRigidBody( part.userData.physicsBody );
-		dynamicObjects.push( part );
-		part.userData.physicsControlled = true;
-
-	}
-
-}
-
 function getModelsDataBase( constructionSet, onLoaded ) {
 
 	const loader = new THREE.FileLoader();
@@ -1610,7 +1632,7 @@ function onWindowResize() {
 	const w = getViewPortWidth();
 
 	camera.aspect = w / window.innerHeight;
-	camera.updateProjectionMatrix();0
+	camera.updateProjectionMatrix();
 
 	renderer.setSize( w, window.innerHeight );
 
@@ -1620,16 +1642,19 @@ function onWindowResize() {
 
 function getViewPortWidth() {
 
-	return Math.max( 1, window.innerWidth - ( gui ? GUI_WIDTH + 17: 0 ) );
+	return Math.max( 1, window.innerWidth - ( guiCreated ? GUI_WIDTH + 17: 0 ) );
 
 }
 
 function createGUI() {
 
-	if ( gui ) {
+	if ( guiCreated ) {
 
 		gui.destroy();
 		gui2.destroy();
+		infoFolder.destroy();
+		optionsFolder.destroy();
+		exportFolder.destroy();
 
 	}
 
@@ -1644,26 +1669,59 @@ function createGUI() {
 	container.appendChild( scrolledDiv );
 
 
-	gui = new GUI( { width: GUI_WIDTH, container: sideBarDiv } );
-	gui.title( "Main menu" );
 
-	const fileNameMap = {};
-	for ( let i in dataBase.modelPathsList ) {
+	const firstPanel = document.createElement( 'div' );
+	sideBarDiv.appendChild( firstPanel );
 
-		const filePath = dataBase.modelPathsList[ i ];
-		const model = dataBase.models[ filePath ];
+	const fileDiv = document.createElement( 'div' );
+	fileDiv.className = 'playbackdiv';
+	firstPanel.appendChild( fileDiv );
 
-		fileNameMap[ model.path ] = filePath;
+	const addModelButton = document.createElement( 'div' );
+	addModelButton.className = 'buttn iconbtn';
+	addModelButton.innerHTML = iconEmojis[ "Plus" ] + iconEmojis[ "Model" ];
+	addModelButton.title = "Add LDraw model..."
+	addModelButton.addEventListener( 'click', addLDrawModel );
+	fileDiv.appendChild( addModelButton );
 
-	}
-	gui.add( guiData, 'modelFileName', fileNameMap ).name( 'Model' ).onFinishChange( () => {
+	addPartButton = document.createElement( 'div' );
+	addPartButton.className = 'buttn iconbtn';
+	addPartButton.innerHTML = iconEmojis[ "Plus" ] + iconEmojis[ "Part" ];
+	addPartButton.title = "Add LDraw part to selected model..."
+	addPartButton.addEventListener( 'click', addLDrawPart );
+	setButtonDisabled( addPartButton, true );
+	fileDiv.appendChild( addPartButton );
 
-		setOption( 'modelPath', guiData.modelFileName );
-		reloadObject( true );
+	const addModelFromFileButton = document.createElement( 'div' );
+	addModelFromFileButton.className = 'buttn iconbtn';
+	addModelFromFileButton.innerHTML = iconEmojis[ "Plus" ] + iconEmojis[ "File" ];
+	addModelFromFileButton.title = "Add LDraw model from file..."
+	addModelFromFileButton.addEventListener( 'click', addLDrawModelFromFile );
+	fileDiv.appendChild( addModelFromFileButton );
 
-	} );
+	const addNonLDrawModelFromFileButton = document.createElement( 'div' );
+	addNonLDrawModelFromFileButton.className = 'buttn iconbtn';
+	addNonLDrawModelFromFileButton.innerHTML = iconEmojis[ "Plus" ] + iconEmojis[ "File" ];
+	addNonLDrawModelFromFileButton.title = "Add non-LDraw model from file..."
+	addNonLDrawModelFromFileButton.addEventListener( 'click', addNonLDrawModelFromFile );
+	fileDiv.appendChild( addNonLDrawModelFromFileButton );
 
-	const infoFolder = gui.addFolder( "Model info" );
+	deleteSelectionButton = document.createElement( 'div' );
+	deleteSelectionButton.className = 'buttn iconbtn';
+	deleteSelectionButton.innerHTML = iconEmojis[ "TrashBin" ];
+	deleteSelectionButton.title = "Delete selection (Del)"
+	deleteSelectionButton.addEventListener( 'click', deleteSelection );
+	setButtonDisabled( deleteSelectionButton, true );
+	fileDiv.appendChild( deleteSelectionButton );
+
+
+
+	//gui = new GUI( { width: GUI_WIDTH, container: sideBarDiv } );
+	//gui.title( "Main menu" );
+
+	//const infoFolder = gui.addFolder( "Model info" );
+	const infoFolder = new GUI( { width: GUI_WIDTH, container: sideBarDiv } );
+	infoFolder.title( "Model info" );
 
 	modelTitleController = infoFolder.add( guiData, 'modelTitle' ).name( 'Title' );
 	modelSeriesController = infoFolder.add( guiData, 'modelSeries' ).name( 'Series' );
@@ -1671,9 +1729,12 @@ function createGUI() {
 	modelInfoURLController = infoFolder.add( guiData, 'modelInfoURL' ).name( 'Info URL' );
 	pathController = infoFolder.add( guiData, 'path' ).name( 'Path' );
 	modelBboxInfoController = infoFolder.add( guiData, 'modelBboxInfo' ).name( 'Model bounds (mm)' );
-	infoFolder.add( guiData, 'showBOM' ).name( 'Show B.O.M. (model parts list)...' );
+	showBOMController = infoFolder.add( guiData, 'showBOM' ).name( 'Model parts list...' );
+	infoFolder.close();
 
-	const optionsFolder = gui.addFolder( "Options" );
+	//const optionsFolder = gui.addFolder( "Options" );
+	const optionsFolder = new GUI( { width: GUI_WIDTH, container: sideBarDiv } );
+	optionsFolder.title( "Options" );
 
 	optionsFolder.addColor( guiData, 'mainColor' ).name( 'Main color' ).onChange( () => {
 
@@ -1722,7 +1783,9 @@ function createGUI() {
 	optionsFolder.close();
 
 
-	const exportFolder = gui.addFolder( "Export" );
+	//const exportFolder = gui.addFolder( "Export" );
+	const exportFolder = new GUI( { width: GUI_WIDTH, container: sideBarDiv } );
+	exportFolder.title( "Export" );
 
 	exportFolder.add( guiData, 'exportScale' ).name( 'Export scale' ).onChange( () => {
 
@@ -1765,9 +1828,9 @@ function createGUI() {
 
 	} );
 
-	playbackPanel = document.createElement( 'div' );
+	const playbackPanel = document.createElement( 'div' );
 	playbackPanel.id = 'idbuttns';
-	playbackPanel.className = 'playbackPanel';
+	//playbackPanel.className = 'playbackpanel';
 	secondPanel.appendChild( playbackPanel );
 
 	const playbackDiv = document.createElement( 'div' );
@@ -1780,6 +1843,13 @@ function createGUI() {
 	animationButton.title = "Play/pause (Spacebar)"
 	animationButton.addEventListener( 'click', animationButtonFunc );
 	setButtonDisabled( animationButton, true );
+
+	stopAnimButton = document.createElement( 'div' );
+	stopAnimButton.className = 'buttn stopbtn';
+	stopAnimButton.innerHTML = "⏹";
+	stopAnimButton.title = "Stop animation"
+	stopAnimButton.addEventListener( 'click', stopAnimation );
+	setButtonDisabled( stopAnimButton, true );
 
 	prevStepButton = document.createElement( 'div' );
 	prevStepButton.className = 'buttn prevbtn';
@@ -1797,38 +1867,33 @@ function createGUI() {
 
 	playbackDiv.appendChild( prevStepButton  );
 	playbackDiv.appendChild( animationButton );
+	playbackDiv.appendChild( stopAnimButton );
 	playbackDiv.appendChild( nextStepButton );
 
-	const centerViewButton = document.createElement( 'div' );
-	centerViewButton.className = 'buttn centerbtn';
-	centerViewButton.innerHTML = "⦿";
-	centerViewButton.title = "Center view on selection (c)"
-	centerViewButton.addEventListener( 'click', centerCameraInObject );
-	playbackPanel.appendChild( centerViewButton );
-
-	stopAnimButton = document.createElement( 'div' );
-	stopAnimButton.className = 'buttn nextbtn';
-	stopAnimButton.innerHTML = "⏹";
-	stopAnimButton.title = "Stop animation"
-	stopAnimButton.addEventListener( 'click', stopAnimation );
-	setButtonDisabled( stopAnimButton, true );
-	playbackPanel.appendChild( stopAnimButton );
 
 
 	const editorPanel = document.createElement( 'div' );
 	//editorPanel.id = 'idbuttns';
-	editorPanel.className = 'playbackPanel';
-
+	//editorPanel.className = 'playbackpanel';
 	secondPanel.appendChild( editorPanel );
 
-	const editorDiv = document.createElement( 'div' );
-	editorDiv.className = 'playbackdiv';
-	editorPanel.appendChild( editorDiv );
+	const selectionDiv = document.createElement( 'div' );
+	selectionDiv.className = 'playbackdiv';
+	editorPanel.appendChild( selectionDiv );
+
+
+	const centerViewButton = document.createElement( 'div' );
+	centerViewButton.className = 'buttn';
+	centerViewButton.innerHTML = "⦿";
+	centerViewButton.title = "Center view on selection (c)"
+	centerViewButton.addEventListener( 'click', centerCameraInObject );
+	selectionDiv.appendChild( centerViewButton );
+
 
 	selectionModePartButton = document.createElement( 'div' );
 	selectionModeModelButton = document.createElement( 'div' );
 
-	selectionModePartButton.className = 'buttn centerbtn';
+	selectionModePartButton.className = 'buttn';
 	selectionModePartButton.innerHTML = "Part";
 	selectionModePartButton.title = "Selection mode: Part"
 	selectionModePartButton.addEventListener( 'click', () => {
@@ -1840,10 +1905,12 @@ function createGUI() {
 		setButtonDisabled( selectionModePartButton, true );
 		setButtonDisabled( selectionModeModelButton, false );
 
+		triggerRender();
+
 	} );
 	setButtonDisabled( selectionModePartButton, ! selectionModeModel );
 
-	selectionModeModelButton.className = 'buttn centerbtn';
+	selectionModeModelButton.className = 'buttn';
 	selectionModeModelButton.innerHTML = "Model";
 	selectionModeModelButton.title = "Selection mode: Model"
 	selectionModeModelButton.addEventListener( 'click', () => {
@@ -1855,11 +1922,19 @@ function createGUI() {
 		setButtonDisabled( selectionModePartButton, false );
 		setButtonDisabled( selectionModeModelButton, true );
 
+		triggerRender();
+
 	} );
 	setButtonDisabled( selectionModeModelButton, selectionModeModel );
 
-	editorDiv.appendChild( selectionModePartButton );
-	editorDiv.appendChild( selectionModeModelButton );
+	selectionDiv.appendChild( selectionModePartButton );
+	selectionDiv.appendChild( selectionModeModelButton );
+
+
+	const editorDiv = document.createElement( 'div' );
+	//editorDiv.className = 'playbackdiv';
+	editorPanel.appendChild( editorDiv );
+
 
 
 
@@ -1907,6 +1982,7 @@ function createGUI() {
 	ldrawLogoDiv.appendChild( p3 );
 	infoPanel.appendChild( ldrawLogoDiv );
 
+	guiCreated = true;
 
 	onWindowResize();
 
@@ -1914,78 +1990,53 @@ function createGUI() {
 
 function showBOM() {
 
-	const model = selectedPart;
+	if ( bomPanel ) {
+
+		if ( container.contains( bomPanel ) ) container.removeChild( bomPanel );
+		bomPanel = null;
+
+	}
+
+	const model = getPartModel( selectedPart );
 
 	if ( ! model ) return;
 
-	if ( ! getDataBasePart( model ) && ! getDataBaseModel( model ) ) return;
+	const columns = [
+		'count',
+		'name',
+		'colorName',
+		'link'
+	];
 
-	const bomDiv = document.createElement( 'div' );
-	bomDiv.style.backgroundColor = 'black';
-	bomDiv.style.position = 'absolute';
-	bomDiv.style.top = '50%';
-	bomDiv.style.left = '50%';
-	bomDiv.style.transform = 'translate(-50%, -50%)';
+	const columnsNames = [
+		"Parts count",
+		"Name",
+		"Color",
+		"View part"
+	];
 
-	const tableDiv = document.createElement( 'div' );
-	tableDiv.style.height = '500px';
-	bomDiv.appendChild( createScrolledDiv( tableDiv ) );
-	const table = document.createElement( 'table' );
-	table.style.width = '800px';
-	tableDiv.appendChild( table );
-
-	const buttonsDiv = document.createElement( 'div' );
-	bomDiv.appendChild( buttonsDiv );
-
-	const closeButton = document.createElement( 'button' );
-	closeButton.innerHTML = 'Close';
-	closeButton.onclick = () => {
-
-		container.removeChild( bomDiv );
-
-	};
-	buttonsDiv.appendChild( closeButton );
-
-	const exportButton = document.createElement( 'button' );
-	exportButton.innerHTML = 'Export to text file...';
-	exportButton.onclick = () => {
-
-		exportBOM();
-
-	};
-	buttonsDiv.appendChild( exportButton );
-
-	const totalPartsSpan = document.createElement( 'span' );
-	totalPartsSpan.style.paddingLeft = "30px";
-	buttonsDiv.appendChild( totalPartsSpan );
-
-
-	const tableHeaderRow = document.createElement( 'tr' );
-	table.appendChild( tableHeaderRow );
-	const h1 = document.createElement( 'th' );
-	h1.innerHTML = "Parts count"
-	tableHeaderRow.appendChild( h1 );
-	const h2 = document.createElement( 'th' );
-	h2.innerHTML = "Name"
-	tableHeaderRow.appendChild( h2 );
-	const h3 = document.createElement( 'th' );
-	h3.innerHTML = "Color"
-	tableHeaderRow.appendChild( h3 );
-	const h4 = document.createElement( 'th' );
-	h4.innerHTML = "View part"
-	tableHeaderRow.appendChild( h4 );
+	const data = [];
 
 	const differentParts = {};
 	let totalParts = 0;
-	model.traverse( c => {
 
-		const dbPart = getDataBasePart( c );
+	for ( let i in model.children ) {
 
-		if ( ! dbPart ) return;
+		const c = model.children[ i ];
 
-		const colorCode = c.userData.colorCode;
-		const colorName = c.userData.colorCode ? lDrawLoader.materialLibrary[ c.userData.colorCode ].name: "None";
-		const hash = c.userData.fileName + '_'  + colorCode;
+		if ( ! c.isGroup ) continue;
+
+		const part = getObjectPart( c );
+
+		if ( ! part || part !== c ) continue;
+
+		const dbPart = getDataBasePart( part );
+
+		if ( ! dbPart ) continue;
+
+		const colorCode = part.userData.colorCode;
+		const colorName = part.userData.colorCode ? lDrawLoader.materialLibrary[ part.userData.colorCode ].name: "None";
+		const hash = part.userData.fileName + '_'  + colorCode;
 
 		if ( differentParts[ hash ] ) {
 
@@ -1999,14 +2050,16 @@ function showBOM() {
 				name: dbPart.title,
 				colorName: colorName,
 				colorCode: colorCode,
-				path: dbPart.path
+				path: dbPart.path,
+				link: '<a href="/TNTViewer/examples/tnt.html?modelPath=../parts/' + dbPart.path +
+						'&colorCode=' + colorCode + '">View part</a>'
 			};
 
 		}
 
 		totalParts ++;
 
-	} );
+	}
 
 	const differentPartsHashes = Object.keys( differentParts );
 
@@ -2034,34 +2087,13 @@ function showBOM() {
 
 	for ( let h in differentPartsHashes ) {
 
-		const part = differentParts[ differentPartsHashes[ h ] ];
+		const row = differentParts[ differentPartsHashes[ h ] ];
 
-		const tableDataRow = document.createElement( 'tr' );
-
-		const d1 = document.createElement( 'td' );
-		d1.innerHTML = "" + part.count;
-		tableDataRow.appendChild( d1 );
-		const d2 = document.createElement( 'td' );
-		d2.innerHTML = "" + part.name;
-		tableDataRow.appendChild( d2 );
-		const d3 = document.createElement( 'td' );
-		d3.innerHTML = "" + part.colorName;
-		tableDataRow.appendChild( d3 );
-		const d4 = document.createElement( 'td' );
-		d4.innerHTML =
-			'<a href="/TNTViewer/examples/tnt.html?modelPath=../parts/' +
-			part.path +
-			'&colorCode=' + lDrawLoader.materialLibrary[ part.colorCode ].userData.code +
-			'">View part</a>';
-		tableDataRow.appendChild( d4 );
-
-		table.appendChild( tableDataRow );
+		data.push( row );
 
 	}
 
-	totalPartsSpan.innerHTML = model.userData.fileName + ". " + totalParts + " parts, " + differentPartsHashes.length + " different.";
-
-	container.appendChild( bomDiv );
+	const infoLine = model.userData.fileName + ". " + totalParts + " parts, " + differentPartsHashes.length + " different.";
 
 	function exportBOM() {
 
@@ -2079,9 +2111,260 @@ function showBOM() {
 
 		}
 
-		saveFile( removeFilenameExtension( "BOM_" + guiData.modelFileName ) + ".tsv", new Blob( [ output ] ) );
+		FileOperations.saveFile( FileOperations.removeFilenameExtension( "BOM_" + model.userData.fileName ) + ".tsv", new Blob( [ output ] ) );
 
 	}
+
+	bomPanel = showSelectTable( 'Export to text file...', exportBOM, infoLine, columns, columnsNames, data );
+
+}
+
+function showSelectLDrawModelFromRepo() {
+
+	if ( modelSelectPanel ) {
+
+		if ( container.contains( modelSelectPanel ) ) container.removeChild( modelSelectPanel );
+		modelSelectPanel = null;
+
+	}
+
+	const columns = [
+		'title',
+		'seriesNumber',
+		'refNumber'
+	];
+
+	const columnsNames = [
+		"Title",
+		"Series",
+		"Reference"
+	];
+
+	const data = [];
+
+	for ( let i in dataBase.modelPathsList ) {
+
+		data.push( dataBase.models[ dataBase.modelPathsList[ i ] ] );
+
+	}
+
+	data.sort( ( a, b ) => {
+
+		function sortField( field, orderVal ) {
+
+			if ( a[ field ] === b[ field ] ) return 0;
+			return a[ field ] < b[ field ] ? - orderVal : orderVal;
+
+		}
+
+		const sortedBySeries = sortField( 'seriesNumber', 1 );
+		if ( sortedBySeries !== 0 ) return sortedBySeries;
+
+		const sortedByReference = sortField( 'refNumber', 1 );
+		if ( sortedByReference !== 0 ) return sortedByReference;
+
+		return sortField( 'title', 1 );
+
+	} );
+
+	const infoLine = "Select a model to load from the list.";
+
+	function onOK( rowIndex ) {
+
+		selectedModelRowIndex = rowIndex;
+		loadLDrawModelFromRepo( data[ rowIndex ].path );
+
+	}
+
+	modelSelectPanel = showSelectTable( 'Ok', onOK, infoLine, columns, columnsNames, data, true, selectedModelRowIndex );
+
+}
+
+function showSelectLDrawPartFromRepo( model ) {
+
+	if ( partSelectPanel ) {
+
+		if ( container.contains( partSelectPanel ) ) container.removeChild( partSelectPanel );
+		partSelectPanel = null;
+
+	}
+
+	const columns = [
+		'title',
+		'path'
+	];
+
+	const columnsNames = [
+		"Title",
+		"File name"
+	];
+
+	const data = [];
+
+	for ( let i in dataBase.partsPathsList ) {
+
+		data.push( dataBase.parts[ dataBase.partsPathsList[ i ] ] );
+
+	}
+
+	data.sort( ( a, b ) => {
+
+		if ( a[ 'title' ] === b[ 'title' ] ) return 0;
+		return a[ 'title' ] < b[ 'title' ] ? - 1 : 1;
+
+	} );
+
+	const infoLine = "Select the part to add from the list.";
+
+	function onOK( rowIndex ) {
+
+		selectedPartRowIndex = rowIndex;
+		loadLDrawModelFromRepo( "../parts/" + data[ rowIndex ].path, model );
+
+	}
+
+	partSelectPanel = showSelectTable( 'Ok', onOK, infoLine, columns, columnsNames, data, true, selectedPartRowIndex );
+
+}
+
+function showSelectTable( buttonLabel, onButtonClicked, infoLine, columns, columnsNames, data, rowSelection, preselectedRow ) {
+
+	const listDiv = document.createElement( 'div' );
+	listDiv.style.backgroundColor = 'black';
+	listDiv.style.position = 'absolute';
+	listDiv.style.top = '50%';
+	listDiv.style.left = '50%';
+	listDiv.style.transform = 'translate(-50%, -50%)';
+
+	const tableDiv = document.createElement( 'div' );
+	tableDiv.style.height = '500px';
+	listDiv.appendChild( createScrolledDiv( tableDiv ) );
+	const table = document.createElement( 'table' );
+	table.style.width = '800px';
+	tableDiv.appendChild( table );
+
+	const buttonsDiv = document.createElement( 'div' );
+	listDiv.appendChild( buttonsDiv );
+
+	const closeButton = document.createElement( 'button' );
+	closeButton.innerHTML = rowSelection ? "Cancel" : "Close";
+	closeButton.onclick = () => {
+
+		if ( container.contains( listDiv ) ) container.removeChild( listDiv );
+
+	};
+	buttonsDiv.appendChild( closeButton );
+
+	let selectedRow = null;
+	let selectedDataRow = null;
+
+	let button = null;
+	if ( buttonLabel ) {
+
+		button = document.createElement( 'button' );
+		button.innerHTML = buttonLabel;
+		button.onclick = () => {
+
+			onButtonClicked( selectedRow );
+
+			if ( rowSelection ) closeButton.onclick();
+
+		};
+		buttonsDiv.appendChild( button );
+
+		if ( rowSelection ) setButtonDisabled( button, true );
+
+	}
+
+	const infoLineSpan = document.createElement( 'span' );
+	infoLineSpan.style.paddingLeft = "30px";
+	infoLineSpan.innerHTML = infoLine;
+	buttonsDiv.appendChild( infoLineSpan );
+
+
+	const tableHeaderRow = document.createElement( 'tr' );
+	table.appendChild( tableHeaderRow );
+
+	for ( let c in columns ) {
+
+		const h = document.createElement( 'th' );
+		h.innerHTML = columnsNames[ c ];
+		tableHeaderRow.appendChild( h );
+
+	}
+
+	let preselectedDataRow = null;
+	let preselectedDataRowFunc = null;
+
+	function createRow( index ) {
+
+		function rowClicked() {
+
+			function styleRow( dataRow, selected ) {
+
+				for ( let i = 0, n = dataRow.children.length; i < n; i ++ ) {
+
+					dataRow.children[ i ].style.color = selected ? 'cyan' : 'white';
+
+				}
+
+			}
+
+			if ( selectedDataRow !== null ) {
+
+				styleRow( selectedDataRow, false );
+
+			}
+
+			selectedRow = index;
+			selectedDataRow = tableDataRow;
+
+			styleRow( selectedDataRow, true );
+
+			if ( button ) setButtonDisabled( button, false );
+
+		}
+
+		const row = data[ index ];
+		const tableDataRow = document.createElement( 'tr' );
+
+		for ( let c in columns ) {
+
+			const d = document.createElement( 'td' );
+			d.innerHTML = "" + row[ columns[ c ] ];
+			tableDataRow.appendChild( d );
+
+		}
+
+		if ( rowSelection ) {
+
+			tableDataRow.addEventListener( 'click', rowClicked );
+
+			if ( index === preselectedRow ) {
+
+				preselectedDataRow = tableDataRow;
+				preselectedDataRowFunc = () => { rowClicked(); };
+
+			}
+
+		}
+
+		table.appendChild( tableDataRow );
+
+	}
+
+	for ( let r in data ) createRow( r );
+
+	container.appendChild( listDiv );
+
+	if ( rowSelection && preselectedDataRowFunc ) {
+
+		preselectedDataRowFunc();
+		preselectedDataRow.scrollIntoView();
+
+	}
+
+	return listDiv;
 
 }
 

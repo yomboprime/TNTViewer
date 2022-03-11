@@ -812,6 +812,13 @@
             "seriesNumber": "Roblock",
             "refNumber": "0792"
         },
+        "oficiales/Roblock_0798_krator.ldr": {
+            "path": "oficiales/Roblock_0798_krator.ldr",
+            "id": "313",
+            "title": "KRATOR -SONO-LUX-",
+            "seriesNumber": "Roblock",
+            "refNumber": "0798"
+        },
         "oficiales/Ruta2_70037_airportservice.ldr": {
             "path": "oficiales/Ruta2_70037_airportservice.ldr",
             "id": "",
@@ -1994,6 +2001,7 @@
         "oficiales/Nomura_sunshine2.ldr",
         "oficiales/Pocket_0315_Eslator.ldr",
         "oficiales/Roblock_0792_skymaster.ldr",
+        "oficiales/Roblock_0798_krator.ldr",
         "oficiales/Ruta2_70037_airportservice.ldr",
         "oficiales/Ruta_0553_camionautopista.ldr",
         "oficiales/Ruta_0553_camiondragstercisterna.ldr",
