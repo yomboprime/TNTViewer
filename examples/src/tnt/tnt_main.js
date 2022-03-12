@@ -79,6 +79,10 @@ let nextStepButton;
 let selectionModePartButton;
 let selectionModeModelButton;
 
+let toolMoveButton;
+let toolRotateButton;
+let toolScaleButton;
+
 let addPartButton;
 let deleteSelectionButton;
 
@@ -87,6 +91,7 @@ let infoDiv;
 let bomPanel;
 let modelSelectPanel;
 let partSelectPanel;
+let colorSelectPanel;
 
 // Physics variables
 let collisionConfiguration;
@@ -104,8 +109,13 @@ let selectedPart;
 let selectedPartBoxHelper;
 let selectionModeModel = true;
 
+// Code 15 is White
+let selectedColorCode = '15';
+
 let selectedModelRowIndex = null;
 let selectedPartRowIndex = null;
+let selectedColorRowIndex = null;
+
 
 const raycaster = new THREE.Raycaster();
 const raycasterPointer = new THREE.Vector2();
@@ -120,6 +130,7 @@ const eulerTemp1 = new THREE.Euler();
 
 const ldrawPath = 'models/ldraw/';
 let dataBase;
+let colorsData;
 
 /*= {
 	'Car': 'car.ldr_Packed.mpd',
@@ -197,6 +208,8 @@ function init() {
 	lDrawLoader.smoothNormals = true;
 	lDrawLoader.setPath( getLibraryPath( currentConstructionSet ) );
 	lDrawLoader.preloadMaterials( 'LDCONFIG.LDR' ).then( () => {
+
+		colorsData = createColorsData();
 
 		lDrawLoader.setPartsLibraryPath( getLibraryPath( currentConstructionSet ) );
 		lDrawLoader.setPath( getModelPath( currentConstructionSet ) );
@@ -294,7 +307,7 @@ function init() {
 
 				if ( event.defaultPrevented ) {
 					// Do nothing if the event was already processed
-					//return;
+					return;
 				}
 
 				switch ( event.key ) {
@@ -318,8 +331,12 @@ function init() {
 						animationButtonFunc();
 						break;
 
-					case 'c':
+					case 'v':
 						centerCameraInObject();
+						break;
+
+					case 'c':
+						selectColor();
 						break;
 
 					case 'Delete':
@@ -405,6 +422,8 @@ function init() {
 
 			//animate();
 			triggerRender();
+
+			console.log( "colors: " + Object.keys( lDrawLoader.materialLibrary ).length );
 
 		} );
 
@@ -836,6 +855,52 @@ function centerCameraInObject() {
 
 }
 
+function colorToolButtonFunc() {
+
+	selectColor();
+
+}
+
+function moveToolButtonFunc() {
+}
+
+function rotateToolButtonFunc() {
+}
+
+function scaleToolButtonFunc() {
+}
+
+function selectColor() {
+
+	if ( selectedPart ) {
+
+		const index = searchColorIndex( selectedPart.userData.colorCode );
+
+		if ( index >= 0 ) {
+
+			selectedColorCode = selectedPart.userData.colorcode;
+			selectedColorRowIndex = index;
+
+		}
+
+	}
+
+	showSelectLDrawColorCode( ( result ) => {
+
+		if ( ! result ) return;
+
+		const colorCode = result;
+		if ( selectedPart ) {
+
+			applyMainMaterialToPart( selectedPart, colorCode );
+			triggerRender();
+
+		}
+
+	} );
+
+}
+
 function addLDrawModel() {
 
 	showSelectLDrawModelFromRepo();
@@ -901,6 +966,67 @@ function deletePartOrModel( part ) {
 	part.removeFromParent();
 
 	return true;
+
+}
+
+function applyMainMaterialToPart( part, colorCode ) {
+
+	const changedMaterial = lDrawLoader.materialLibrary[ colorCode ];
+
+	if ( ! changedMaterial ) return;
+
+	applyMaterialRecursive( part, true );
+
+	function applyMaterialRecursive( p, force ) {
+
+		let hit = false;
+
+		if ( p.isGroup ) {
+
+			if ( force ) {
+
+				p.userData.colorCode = colorCode;
+				hit = true;
+
+			}
+			else if ( p.userData.colorCode === '16' ) hit = true;
+
+		}
+		else hit = true;
+
+		if ( ! hit ) return;
+
+		changeMaterial( p );
+
+		for ( let childIndex in p.children ) {
+
+			const child = p.children[ childIndex ];
+			applyMaterialRecursive( child );
+
+		}
+
+	}
+
+	function changeMaterial( obj ) {
+
+		if ( obj.isGroup ) return;
+
+		let mat = changedMaterial;
+		if ( obj.isConditionalLine ) mat = mat.userData.edgeMaterial.userData.conditionalEdgeMaterial;
+		else if ( obj.isLineSegments ) mat = mat.userData.edgeMaterial;
+
+		if ( Array.isArray( obj.material ) ) {
+
+			for ( let c in obj.material ) {
+
+				obj.material[ c ] = mat;
+
+			}
+
+		}
+		else obj.material = mat;
+
+	}
 
 }
 
@@ -1732,7 +1858,7 @@ function createGUI() {
 
 	//const infoFolder = gui.addFolder( "Model info" );
 	const infoFolder = new GUI( { width: GUI_WIDTH, container: sideBarDiv } );
-	infoFolder.title( "Model info" );
+	infoFolder.title( iconEmojis[ "Model" ] + " Model info" );
 
 	modelTitleController = infoFolder.add( guiData, 'modelTitle' ).name( 'Title' );
 	modelSeriesController = infoFolder.add( guiData, 'modelSeries' ).name( 'Series' );
@@ -1745,7 +1871,7 @@ function createGUI() {
 
 	//const optionsFolder = gui.addFolder( "Options" );
 	const optionsFolder = new GUI( { width: GUI_WIDTH, container: sideBarDiv } );
-	optionsFolder.title( "Options" );
+	optionsFolder.title( iconEmojis[ 'Gear' ] + " Options" );
 
 	optionsFolder.addColor( guiData, 'mainColor' ).name( 'Main color' ).onChange( () => {
 
@@ -1798,7 +1924,7 @@ function createGUI() {
 
 	//const exportFolder = gui.addFolder( "Export" );
 	const exportFolder = new GUI( { width: GUI_WIDTH, container: sideBarDiv } );
-	exportFolder.title( "Export" );
+	exportFolder.title( iconEmojis[ "Floppy" ] + " Export" );
 
 	exportFolder.add( guiData, 'exportScale' ).name( 'Export scale' ).onChange( () => {
 
@@ -1818,7 +1944,7 @@ function createGUI() {
 
 
 	gui2 = new GUI( { width: GUI_WIDTH, container: secondPanel } );
-	gui2.title( "Animation" );
+	gui2.title( iconEmojis[ "Animation" ] + " Animation" );
 
 	constructionStepController = gui2.add( guiData, 'constructionStep', 1, 1 ).step( 1 ).name( 'Construction step' ).onChange( () => {
 
@@ -1852,28 +1978,28 @@ function createGUI() {
 
 	animationButton = document.createElement( 'div' );
 	animationButton.className = 'buttn animbtn';
-	animationButton.innerHTML = "▶";
+	animationButton.innerHTML = iconEmojis[ "Play" ];
 	animationButton.title = "Play/pause (Spacebar)"
 	animationButton.addEventListener( 'click', animationButtonFunc );
 	setButtonDisabled( animationButton, true );
 
 	stopAnimButton = document.createElement( 'div' );
 	stopAnimButton.className = 'buttn stopbtn';
-	stopAnimButton.innerHTML = "⏹";
+	stopAnimButton.innerHTML = iconEmojis[ "Stop" ];;
 	stopAnimButton.title = "Stop animation"
 	stopAnimButton.addEventListener( 'click', stopAnimation );
 	setButtonDisabled( stopAnimButton, true );
 
 	prevStepButton = document.createElement( 'div' );
 	prevStepButton.className = 'buttn prevbtn';
-	prevStepButton.innerHTML = "↤";
+	prevStepButton.innerHTML = iconEmojis[ "Previous" ];;
 	prevStepButton.title = "Previous step (Cursor left)"
 	prevStepButton.addEventListener( 'click', goToPrevStep );
 	setButtonDisabled( prevStepButton, true );
 
 	nextStepButton = document.createElement( 'div' );
 	nextStepButton.className = 'buttn nextbtn';
-	nextStepButton.innerHTML = "↦";
+	nextStepButton.innerHTML = iconEmojis[ "Next" ];;
 	nextStepButton.title = "Next step (Cursor right)"
 	nextStepButton.addEventListener( 'click', goToNextStep );
 	setButtonDisabled( nextStepButton, true );
@@ -1898,7 +2024,7 @@ function createGUI() {
 	const centerViewButton = document.createElement( 'div' );
 	centerViewButton.className = 'buttn';
 	centerViewButton.innerHTML = "⦿";
-	centerViewButton.title = "Center view on selection (c)"
+	centerViewButton.title = "Center view on selection (v)"
 	centerViewButton.addEventListener( 'click', centerCameraInObject );
 	selectionDiv.appendChild( centerViewButton );
 
@@ -1948,6 +2074,39 @@ function createGUI() {
 	//editorDiv.className = 'playbackdiv';
 	editorPanel.appendChild( editorDiv );
 
+
+
+	const toolsDiv = document.createElement( 'div' );
+	toolsDiv.className = 'playbackdiv';
+	editorPanel.appendChild( toolsDiv );
+
+	const toolColorButton = document.createElement( 'div' );
+	toolColorButton.className = 'buttn';
+	toolColorButton.innerHTML = iconEmojis[ "Color" ];
+	toolColorButton.title = "Select color (c)"
+	toolColorButton.addEventListener( 'click', colorToolButtonFunc );
+	toolsDiv.appendChild( toolColorButton );
+
+	const toolMoveButton = document.createElement( 'div' );
+	toolMoveButton.className = 'buttn';
+	toolMoveButton.innerHTML = iconEmojis[ "Move" ];
+	toolMoveButton.title = "Move tool (g)"
+	toolMoveButton.addEventListener( 'click', moveToolButtonFunc );
+	toolsDiv.appendChild( toolMoveButton );
+
+	const toolRotateButton = document.createElement( 'div' );
+	toolRotateButton.className = 'buttn';
+	toolRotateButton.innerHTML = iconEmojis[ "Rotate" ];
+	toolRotateButton.title = "Rotate tool (r)"
+	toolRotateButton.addEventListener( 'click', rotateToolButtonFunc );
+	toolsDiv.appendChild( toolRotateButton );
+
+	const toolScaleButton = document.createElement( 'div' );
+	toolScaleButton.className = 'buttn';
+	toolScaleButton.innerHTML = iconEmojis[ "Scale" ];
+	toolScaleButton.title = "Scale tool (s)"
+	toolRotateButton.addEventListener( 'click', scaleToolButtonFunc );
+	toolsDiv.appendChild( toolScaleButton );
 
 
 
@@ -2128,7 +2287,7 @@ function showBOM() {
 
 	}
 
-	bomPanel = showSelectTable( 'Export to text file...', exportBOM, infoLine, columns, columnsNames, data );
+	bomPanel = showSelectTable( 'Export to text file...', exportBOM, null, infoLine, columns, columnsNames, data );
 
 }
 
@@ -2189,7 +2348,7 @@ function showSelectLDrawModelFromRepo() {
 
 	}
 
-	modelSelectPanel = showSelectTable( 'Ok', onOK, infoLine, columns, columnsNames, data, true, selectedModelRowIndex );
+	modelSelectPanel = showSelectTable( 'Ok', onOK, null, infoLine, columns, columnsNames, data, true, selectedModelRowIndex );
 
 }
 
@@ -2236,11 +2395,95 @@ function showSelectLDrawPartFromRepo( model ) {
 
 	}
 
-	partSelectPanel = showSelectTable( 'Ok', onOK, infoLine, columns, columnsNames, data, true, selectedPartRowIndex );
+	partSelectPanel = showSelectTable( 'Ok', onOK, null, infoLine, columns, columnsNames, data, true, selectedPartRowIndex );
 
 }
 
-function showSelectTable( buttonLabel, onButtonClicked, infoLine, columns, columnsNames, data, rowSelection, preselectedRow ) {
+function createColorsData() {
+
+	const materialsCodes = Object.keys( lDrawLoader.materialLibrary );
+
+	const data = [];
+
+	for ( let colorIndex in materialsCodes ) {
+
+		const colorCode = materialsCodes[ colorIndex ];
+		const mat = lDrawLoader.materialLibrary[ colorCode ];
+
+		data.push( {
+			name: mat.name,
+			code: colorCode,
+			color: mat.name
+		} );
+
+	}
+
+	return data;
+
+}
+
+function searchColorIndex( colorCode ) {
+
+	for ( let c in colorsData ) {
+
+		const d = colorsData[ c ];
+
+		if ( d.code === colorCode ) return c;
+
+	}
+
+	return - 1;
+}
+
+function showSelectLDrawColorCode( onResult ) {
+
+	if ( colorSelectPanel ) {
+
+		if ( container.contains( colorSelectPanel ) ) container.removeChild( colorSelectPanel );
+		colorSelectPanel = null;
+
+	}
+
+	const columns = [
+		'name',
+		'code',
+		'color'
+	];
+
+	const columnsNames = [
+		"Name",
+		"Code",
+		"Color"
+	];
+
+	colorsData.sort( ( a, b ) => {
+
+		if ( parseInt( a[ 'code' ] ) === parseInt( b[ 'code' ] ) ) return 0;
+		return parseInt( a[ 'code' ] ) < parseInt( b[ 'code' ] ) ? - 1 : 1;
+
+	} );
+
+	const infoLine = "Please select a color from the list.";
+
+	function onOK( rowIndex ) {
+
+		selectedColorRowIndex = rowIndex;
+		selectedColorCode = colorsData[ rowIndex ].code;
+
+		onResult( selectedColorCode );
+	}
+
+	function onCancel() {
+
+		onResult( null );
+
+	}
+
+	colorSelectPanel = showSelectTable( 'Ok', onOK, onCancel, infoLine, columns, columnsNames, colorsData, true, selectedColorRowIndex );
+
+}
+
+function showSelectTable( buttonLabel, onButtonClicked, onCloseCancel, infoLine, columns, columnsNames, data, rowSelection, preselectedRow ) {
 
 	const listDiv = document.createElement( 'div' );
 	listDiv.style.backgroundColor = 'black';
@@ -2264,6 +2507,7 @@ function showSelectTable( buttonLabel, onButtonClicked, infoLine, columns, colum
 	closeButton.onclick = () => {
 
 		if ( container.contains( listDiv ) ) container.removeChild( listDiv );
+		if ( onCloseCancel ) onCloseCancel();
 
 	};
 	buttonsDiv.appendChild( closeButton );
@@ -2294,6 +2538,27 @@ function showSelectTable( buttonLabel, onButtonClicked, infoLine, columns, colum
 	infoLineSpan.innerHTML = infoLine;
 	buttonsDiv.appendChild( infoLineSpan );
 
+	// This event doesn't work
+	listDiv.addEventListener( 'keydown', ( event ) => {
+
+		event.defaultPrevented = true;
+
+		switch ( event.key ) {
+
+			case 'Enter':
+				if ( button ) button.onclick();
+				break;
+
+			case 'Escape':
+				closeButton.onclick();
+				break;
+
+			default:
+				break;
+
+		}
+
+	}, true );
 
 	const tableHeaderRow = document.createElement( 'tr' );
 	table.appendChild( tableHeaderRow );

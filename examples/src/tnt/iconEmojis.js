@@ -2,12 +2,27 @@
 const iconEmojis = {
   
     "Plus": "➕",
+
     "Pause": "⏸",
     "Play": "▶",
-    "TrashBin": "🗑",
-    "File": "🗂",
+    "Stop": "⏹",
+    "Previous": "↤",
+    "Next": "↦",
+
     "Part": "🧩",
-    "Model": "🏛"
+    "Model": "🏛",
+
+    "Animation": "🏃",
+    "Move": "🔀",
+    "Rotate": "🔄",
+    "Scale": "📐",
+    "Center": "⦿",
+
+    "File": "🗂",
+    "TrashBin": "🗑",
+    "Gear": "⚙️",
+    "Floppy": "💾",
+    "Color": "🎨"
 
 };
 
