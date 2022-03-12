@@ -1703,15 +1703,17 @@ function createGUI() {
 	const addModelFromFileButton = document.createElement( 'div' );
 	addModelFromFileButton.className = 'buttn iconbtn';
 	addModelFromFileButton.innerHTML = iconEmojis[ "Plus" ] + iconEmojis[ "File" ];
-	addModelFromFileButton.title = "Add LDraw model from file..."
+	addModelFromFileButton.title = "Add LDraw model from file... (not implemented yet)"
 	addModelFromFileButton.addEventListener( 'click', addLDrawModelFromFile );
+	setButtonDisabled( addModelFromFileButton, true );
 	fileDiv.appendChild( addModelFromFileButton );
 
 	const addNonLDrawModelFromFileButton = document.createElement( 'div' );
 	addNonLDrawModelFromFileButton.className = 'buttn iconbtn';
 	addNonLDrawModelFromFileButton.innerHTML = iconEmojis[ "Plus" ] + iconEmojis[ "File" ];
-	addNonLDrawModelFromFileButton.title = "Add non-LDraw model from file..."
+	addNonLDrawModelFromFileButton.title = "Add non-LDraw model from file... (not implemented yet)"
 	addNonLDrawModelFromFileButton.addEventListener( 'click', addNonLDrawModelFromFile );
+	setButtonDisabled( addNonLDrawModelFromFileButton, true );
 	fileDiv.appendChild( addNonLDrawModelFromFileButton );
 
 	deleteSelectionButton = document.createElement( 'div' );
