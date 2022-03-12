@@ -2090,22 +2090,25 @@ function createGUI() {
 	const toolMoveButton = document.createElement( 'div' );
 	toolMoveButton.className = 'buttn';
 	toolMoveButton.innerHTML = iconEmojis[ "Move" ];
-	toolMoveButton.title = "Move tool (g)"
+	toolMoveButton.title = "Move tool (g) (Not implemented yet)"
 	toolMoveButton.addEventListener( 'click', moveToolButtonFunc );
+	setButtonDisabled( toolMoveButton, selectionModeModel );
 	toolsDiv.appendChild( toolMoveButton );
 
 	const toolRotateButton = document.createElement( 'div' );
 	toolRotateButton.className = 'buttn';
 	toolRotateButton.innerHTML = iconEmojis[ "Rotate" ];
-	toolRotateButton.title = "Rotate tool (r)"
+	toolRotateButton.title = "Rotate tool (r) (Not implemented yet)"
 	toolRotateButton.addEventListener( 'click', rotateToolButtonFunc );
+	setButtonDisabled( toolRotateButton, selectionModeModel );
 	toolsDiv.appendChild( toolRotateButton );
 
 	const toolScaleButton = document.createElement( 'div' );
 	toolScaleButton.className = 'buttn';
 	toolScaleButton.innerHTML = iconEmojis[ "Scale" ];
-	toolScaleButton.title = "Scale tool (s)"
-	toolRotateButton.addEventListener( 'click', scaleToolButtonFunc );
+	toolScaleButton.title = "Scale tool (s) (Not implemented yet)"
+	toolScaleButton.addEventListener( 'click', scaleToolButtonFunc );
+	setButtonDisabled( toolScaleButton, selectionModeModel );
 	toolsDiv.appendChild( toolScaleButton );
 
 
