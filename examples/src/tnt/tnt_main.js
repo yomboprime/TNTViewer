@@ -2167,7 +2167,7 @@ function showSelectLDrawModelFromRepo() {
 
 	} );
 
-	const infoLine = "Select a model to load from the list.";
+	const infoLine = "Select a model to load from the list. There are " + data.length + " models.";
 
 	function onOK( rowIndex ) {
 
@@ -2339,6 +2339,12 @@ function showSelectTable( buttonLabel, onButtonClicked, infoLine, columns, colum
 		if ( rowSelection ) {
 
 			tableDataRow.addEventListener( 'click', rowClicked );
+			tableDataRow.addEventListener( 'dblclick', () => {
+
+				rowClicked();
+				button.onclick();
+
+			} );
 
 			if ( index === preselectedRow ) {
 

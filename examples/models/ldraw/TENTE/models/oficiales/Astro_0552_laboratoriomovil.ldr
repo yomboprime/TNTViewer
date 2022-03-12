@@ -51,7 +51,7 @@
 1 4 20 -40 -100 0 0 -1 0 1 0 1 0 0 cilindro.dat
 1 4 80 -40 -100 0 0 -1 0 1 0 1 0 0 cilindro.dat
 1 46 40 -48 120 0 0 -1 0 1 0 1 0 0 amortigu.dat
-1 15 60 -54 120 1 0 0 0 1 0 0 0 1 panelast.dat
-1 15 60 -78 140 0 0 -1 0 1 0 1 0 0 antnincl.dat
-1 15 40 -54 140 0 0 -1 0 1 0 1 0 0 antnincl.dat
+1 15 60 -53 120 1 0 0 0 1 0 0 0 1 panelast.dat
+1 15 60 -78 140 0 0 -1 0 1 0 1 0 0 antincv.dat
+1 15 40 -54 140 0 0 -1 0 1 0 1 0 0 antincv.dat
 0

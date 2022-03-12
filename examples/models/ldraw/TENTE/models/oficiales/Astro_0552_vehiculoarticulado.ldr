@@ -1,5 +1,5 @@
 0 Untitled
-0 Name: vehiculoarticulado.ldr
+0 Name: Astro_0552_vehiculoarticulado.ldr
 0 Author: MLCad
 0 Unofficial Model
 0 ROTATION CENTER 0 0 0 1 "Custom" 
@@ -15,14 +15,12 @@
 1 383 50 -24 10 1 0 0 0 1 0 0 0 1 amortigu.dat
 1 383 50 -24 30 1 0 0 0 1 0 0 0 1 amortigu.dat
 1 0 0 -24 -30 1 0 0 0 1 0 0 0 1 ancl1x2.dat
+1 15 0 -48 -30 1 0 0 0 1 0 0 0 1 antincv.dat
 1 0 0 -24 30 1 0 0 0 1 0 0 0 1 ancl1x2.dat
 1 0 0 -24 20 0 0 1 0 1 0 -1 0 0 sillastr.dat
-0 MLCAD BTG astronauta_sentado
-1 15 -18 -47 0 0 -1 0 0 0 1 -1 0 0 astpiern.dat
-0 MLCAD BTG astronauta_sentado
-1 15 -18 -47 0 0 0 1 0 1 0 -1 0 0 astcuerv.dat
-0 GROUP 2 astronauta_sentado
+1 15 -17 -47 0 0 -1 0 0 0 1 -1 0 0 astpiern.dat
+1 15 -17.449 -43.586 0 0 -0.258819 0.965926 0 0.965926 0.258819 -1 0 0 astcuerv.dat
 1 32 -20 -24 0 0 0 -1 0 1 0 1 0 0 semicupg.dat
-1 4 104 40 10 0 -1 0 0 0 -1 1 0 0 rueastro.dat
-1 4 -104 40 -10 0 1 0 0 0 -1 -1 0 0 rueastro.dat
+1 4 102 40 10 0 -1 0 0 0 -1 1 0 0 rueastro.dat
+1 4 -102 40 -10 0 1 0 0 0 -1 -1 0 0 rueastro.dat
 0

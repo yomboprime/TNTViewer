@@ -72,7 +72,6 @@ for ( let l in sourceDataBase ) {
 		.replace( 'ó', 'o' ).replace( 'Ó', 'O' )
 		.replace( 'ó', 'u' ).replace( 'Ú', 'U' )
 		.replace( 'ñ', 'n' ).replace( 'Ñ', 'N' )
-		.replace( ' ', '-' );
 
 	sourceDataBaseFields.push( fields );
 
@@ -268,34 +267,13 @@ for ( let i in dataBase.modelPathsList ) {
 		const pathFields = pathFieldsStr.substring( 'oficiales/'.length ).split( '_' );
 		const numPathFields = pathFields.length;
 		if ( numPathFields === 0 ) continue;
-
 		if ( numPathFields === 1 ) model.title = pathFields[ 0 ];
-		else if ( numPathFields === 2 ) {
-
-			if ( Number.isInteger( parseInt( pathFields[ 0 ] ) ) || Number.isInteger( parseInt( pathFields[ 1 ] ) ) ) {
-
-				model.seriesNumber = pathFields[ 0 ];
-				model.refNumber = pathFields[ 1 ];
-
-				editModelByDataBase( model, pathFields )
-
-			}
-			else model.title = pathFields[ 0 ] + ' ' + pathFields[ 1 ];
-
-		}
 		else {
 
-			if ( Number.isInteger( parseInt( pathFields[ 0 ] ) ) && ! Number.isInteger( parseInt( pathFields[ 1 ] ) ) ) {
+			if ( Number.isInteger( parseInt( pathFields[ 0 ] ) )  ) pathFields[ 0 ] = 'Serie' + pathFields[ 0 ];
+			pathFields[ 0 ] = pathFields[ 0 ].replace( '-', ' ' );
 
-				model.refNumber = pathFields[ 0 ];
-
-				const titleParts = [];
-				for ( let j = 1; j < numPathFields; j ++ ) titleParts.push( pathFields[ j ] );
-
-				model.title = titleParts.join( ' ' );
-
-			}
-			else if ( Number.isInteger( parseInt( pathFields[ 1 ] ) ) ) {
+			if ( numPathFields === 2 ) {
 
 				model.seriesNumber = pathFields[ 0 ];
 				model.refNumber = pathFields[ 1 ];
@@ -305,10 +283,14 @@ for ( let i in dataBase.modelPathsList ) {
 			}
 			else {
 
-				const titleParts = [];
-				for ( let j = 0; j < numPathFields; j ++ ) titleParts.push( pathFields[ j ] );
+				model.seriesNumber = pathFields[ 0 ];
+				model.refNumber = pathFields[ 1 ];
 
+				const titleParts = [];
+				for ( let j = 2; j < numPathFields; j ++ ) titleParts.push( pathFields[ j ] );
 				model.title = titleParts.join( ' ' );
+
+				editModelByDataBase( model, pathFields );
 
 			}
 

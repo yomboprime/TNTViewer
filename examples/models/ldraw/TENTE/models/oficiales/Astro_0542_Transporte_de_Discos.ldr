@@ -1,0 +1,81 @@
+0 Astro 0542 Transporte de discos
+0 Name: Astro_0542_Transporte de Discos.ldr
+0 Author: jasolo
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 4 10 -24 -20 1 0 0 0 1 0 0 0 1 rueastro.dat
+1 4 10 -24 240 1 0 0 0 1 0 0 0 1 rueastro.dat
+1 4 10 -24 180 1 0 0 0 1 0 0 0 1 rueastro.dat
+1 4 40 -40 -200 0 0 -1 0 1 0 1 0 0 placa4x6.dat
+1 4 0 -16 -160 1 0 0 0 1 0 0 0 1 popa_6.dat
+1 4 -40 -48 -200 1 0 0 0 1 0 0 0 1 jacen2x4.dat
+1 4 0 -72 -200 -1 0 0 0 1 0 0 0 -1 popa6p.dat
+1 4 20 -80 -160 -1 0 0 0 1 0 0 0 -1 placa2x2.dat
+1 4 0 -88 -200 -1 0 0 0 1 0 0 0 -1 popa6p.dat
+1 4 20 -96 -160 -1 0 0 0 1 0 0 0 -1 placa2x2.dat
+1 4 0 -104 -200 -1 0 0 0 1 0 0 0 -1 popa6p.dat
+1 383 20 -48 -120 -1 0 0 0 1 0 0 0 -1 tbesctrp.dat
+1 383 -20 -48 -160 1 0 0 0 1 0 0 0 1 tbesctrp.dat
+1 4 -20 -48 -120 1 0 0 0 1 0 0 0 1 jacena2.dat
+1 4 40 -40 -200 0 0 -1 0 1 0 1 0 0 rallado2.dat
+1 4 -40 -40 -160 0 0 1 0 1 0 -1 0 0 rallado2.dat
+1 4 -40 -16 -160 1 0 0 0 1 0 0 0 1 jacena4.dat
+1 4 10 -24 -80 1 0 0 0 1 0 0 0 1 rueastro.dat
+1 4 10 -24 -140 1 0 0 0 1 0 0 0 1 rueastro.dat
+1 4 0 -40 -20 1 0 0 0 1 0 0 0 1 rotorinf.dat
+1 4 0 -40 -20 1 0 0 0 1 0 0 0 1 rotorsup.dat
+1 0 -20 -32 20 0 0 1 0 1 0 -1 0 0 placa2x8.dat
+1 4 -20 -56 120 0 0 1 0 1 0 -1 0 0 placa2x8.dat
+1 0 -20 -88 200 0 0 1 0 1 0 -1 0 0 placa2x8.dat
+1 0 20 -96 -20 -1 0 0 0 1 0 0 0 -1 pico.dat
+1 0 20 -96 140 -1 0 0 0 1 0 0 0 -1 pico.dat
+1 0 20 -96 60 -1 0 0 0 1 0 0 0 -1 pico.dat
+1 0 20 -96 220 -1 0 0 0 1 0 0 0 -1 pico.dat
+1 0 60 -96 60 0 0 1 0 1 0 -1 0 0 pico.dat
+1 0 -60 -96 20 0 0 -1 0 1 0 1 0 0 pico.dat
+1 4 -120 -64 140 1 0 0 0 1 0 0 0 1 patastro.dat
+1 15 -80 -112 100 0 0 -1 0 1 0 1 0 0 jacena2.dat
+1 15 -80 -64 100 0 0 -1 0 1 0 1 0 0 jacena2.dat
+1 4 -20 -40 140 -1 0 0 0 1 0 0 0 -1 jacen2x4.dat
+1 4 -80 -88 100 0 0 -1 0 1 0 1 0 0 jacena2.dat
+1 4 120 -64 100 -1 0 0 0 1 0 0 0 -1 patastro.dat
+1 15 80 -112 140 0 0 1 0 1 0 -1 0 0 jacena2.dat
+1 15 80 -64 140 0 0 1 0 1 0 -1 0 0 jacena2.dat
+1 4 20 -40 100 1 0 0 0 1 0 0 0 1 jacen2x4.dat
+1 4 80 -88 140 0 0 1 0 1 0 -1 0 0 jacena2.dat
+1 15 -90 -160 120 0 0 1 0 1 0 -1 0 0 ancla1x2.dat
+1 15 90 -160 120 0 0 1 0 1 0 -1 0 0 ancla1x2.dat
+1 4 -100 -185 102.679 -0.5 0 0.866026 0 1 0 -0.866026 0 -0.5 grua.dat
+1 4 95.176 -185 100.681 0.258819 0 0.965926 0 1 0 -0.965926 0 0.258819 grua.dat
+1 0 -40 -64 20 1 0 0 0 1 0 0 0 1 jacen2x4.dat
+1 0 -40 -64 180 1 0 0 0 1 0 0 0 1 jacen2x4.dat
+1 0 20 -88 -20 0 0 -1 0 1 0 1 0 0 placa2x3.dat
+1 0 60 -88 20 0 0 -1 0 1 0 1 0 0 placa2x2.dat
+1 0 60 -96 220 0 0 1 0 1 0 -1 0 0 pico.dat
+1 0 60 -88 180 0 0 -1 0 1 0 1 0 0 placa2x2.dat
+1 0 -60 -96 180 0 0 -1 0 1 0 1 0 0 pico.dat
+1 0 -60 -88 220 0 0 1 0 1 0 -1 0 0 placa2x2.dat
+1 0 -20 -88 20 0 0 -1 0 1 0 1 0 0 placa2x2.dat
+1 0 20 -88 200 0 0 -1 0 1 0 1 0 0 placa2x3.dat
+1 4 -20 -56 280 0 0 1 0 1 0 -1 0 0 placa2x8.dat
+1 4 -20 -32 280 0 0 1 0 1 0 -1 0 0 jacen2x2.dat
+1 4 -20 -32 240 0 0 1 0 1 0 -1 0 0 jacen2x8.dat
+1 15 0 -72 -110 0 0 -1 0 1 0 1 0 0 cilindab.dat
+1 15 0 -84 -110 0 0 -1 0 1 0 1 0 0 cilindar.dat
+1 15 -20 -112 -220 1 0 0 0 1 0 0 0 1 bald2x2r.dat
+1 46 -30 -112 -210 1 0 0 0 1 0 0 0 1 amortigu.dat
+1 46 30 -112 -210 1 0 0 0 1 0 0 0 1 amortigu.dat
+1 15 0 -40 -200 1 0 0 0 1 0 0 0 1 cirrevol.dat
+1 1 0 -40 -200 -1 0 0 0 1 0 0 0 -1 cirrevos.dat
+0 WRITE Nave
+1 1 0 -136 200 1 0 0 0 1 0 0 0 1 semicupp.dat
+1 15 0 -128 200 1 0 0 0 1 0 0 0 1 popa6p.dat
+1 15 0 -128 200 -1 0 0 0 1 0 0 0 -1 popa6p.dat
+1 383 30 -114 240 -1 0 0 0 0 -1 0 -1 0 amortigu.dat
+1 15 -20 -104 240 -1 0 0 0 1 0 0 0 -1 enganch2.dat
+1 15 40 -104 240 -1 0 0 0 1 0 0 0 -1 enganch2.dat
+1 383 -30 -114 240 -1 0 0 0 0 -1 0 -1 0 amortigu.dat
+1 15 0 -104 220 -1 0 0 0 1 0 0 0 -1 popa4.dat
+1 40 0 -136 200 -1 0 0 0 1 0 0 0 -1 semicupp.dat
+0

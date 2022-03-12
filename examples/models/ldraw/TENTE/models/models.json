@@ -21,6 +21,41 @@
             "seriesNumber": "Aire",
             "refNumber": "0506"
         },
+        "oficiales/Aire_0508_HelicopteroTurbo-Speed.ldr": {
+            "path": "oficiales/Aire_0508_HelicopteroTurbo-Speed.ldr",
+            "id": "276",
+            "title": "HELICÓPTERO TURBO-SPEED",
+            "seriesNumber": "Aire",
+            "refNumber": "0508"
+        },
+        "oficiales/Aire_0509_HelicopteroFalcon.ldr": {
+            "path": "oficiales/Aire_0509_HelicopteroFalcon.ldr",
+            "id": "277",
+            "title": "HELICÓPTERO FALCON",
+            "seriesNumber": "Aire",
+            "refNumber": "0509"
+        },
+        "oficiales/Aire_0510_HelicopteroAlaVariable.ldr": {
+            "path": "oficiales/Aire_0510_HelicopteroAlaVariable.ldr",
+            "id": "278",
+            "title": "HELICÓPTERO ALA VARIABLE",
+            "seriesNumber": "Aire",
+            "refNumber": "0510"
+        },
+        "oficiales/Aire_0530_HelicopteroAutotransportado.ldr": {
+            "path": "oficiales/Aire_0530_HelicopteroAutotransportado.ldr",
+            "id": "282",
+            "title": "HELICÓPTERO AUTOTRANSPORTADO",
+            "seriesNumber": "Aire",
+            "refNumber": "0530"
+        },
+        "oficiales/Aire_70037_AirService.ldr": {
+            "path": "oficiales/Aire_70037_AirService.ldr",
+            "id": "285",
+            "title": "AIR SERVICE",
+            "seriesNumber": "Aire",
+            "refNumber": "70037"
+        },
         "oficiales/Alfa_0370_ControlAereo.ldr": {
             "path": "oficiales/Alfa_0370_ControlAereo.ldr",
             "id": "358",
@@ -34,6 +69,20 @@
             "title": "roadmaster",
             "seriesNumber": "Alpha",
             "refNumber": "0364"
+        },
+        "oficiales/Astro_0542_Interceptor_Tactico.ldr": {
+            "path": "oficiales/Astro_0542_Interceptor_Tactico.ldr",
+            "id": "198",
+            "title": "LOS EXPLORADORES DEL ESPACIO",
+            "seriesNumber": "Astro",
+            "refNumber": "0542"
+        },
+        "oficiales/Astro_0542_Transporte_de_Discos.ldr": {
+            "path": "oficiales/Astro_0542_Transporte_de_Discos.ldr",
+            "id": "198",
+            "title": "LOS EXPLORADORES DEL ESPACIO",
+            "seriesNumber": "Astro",
+            "refNumber": "0542"
         },
         "oficiales/Astro_0552_Astro_Sencillo.ldr": {
             "path": "oficiales/Astro_0552_Astro_Sencillo.ldr",
@@ -210,6 +259,13 @@
             "seriesNumber": "Astro",
             "refNumber": "0655"
         },
+        "oficiales/Astro_0656_InterceptorEspacial.ldr": {
+            "path": "oficiales/Astro_0656_InterceptorEspacial.ldr",
+            "id": "205",
+            "title": "INTERCEPTOR ESPACIAL",
+            "seriesNumber": "Astro",
+            "refNumber": "0656"
+        },
         "oficiales/Astro_0657_unidadteledetectora.ldr": {
             "path": "oficiales/Astro_0657_unidadteledetectora.ldr",
             "id": "206",
@@ -259,13 +315,6 @@
             "seriesNumber": "Astro",
             "refNumber": "0722"
         },
-        "oficiales/Astro_0740_saturno6-explorador-aereo.ldr": {
-            "path": "oficiales/Astro_0740_saturno6-explorador-aereo.ldr",
-            "id": "218",
-            "title": "SUPERTRANSPORTE INTERESTELAR",
-            "seriesNumber": "Astro",
-            "refNumber": "0740"
-        },
         "oficiales/Astro_0740_saturno6-miniexploradoraereo.ldr": {
             "path": "oficiales/Astro_0740_saturno6-miniexploradoraereo.ldr",
             "id": "218",
@@ -301,123 +350,116 @@
             "seriesNumber": "Astro",
             "refNumber": "70022"
         },
-        "oficiales/Basico_400_420_estacionservicio.ldr": {
-            "path": "oficiales/Basico_400_420_estacionservicio.ldr",
-            "id": "",
-            "title": "420 estacionservicio",
+        "oficiales/Basico_0401_casa.ldr": {
+            "path": "oficiales/Basico_0401_casa.ldr",
+            "id": "21",
+            "title": "1 / 401",
             "seriesNumber": "Basico",
-            "refNumber": "400"
+            "refNumber": "0401"
         },
-        "oficiales/Basico_401_casa_caja_1.ldr": {
-            "path": "oficiales/Basico_401_casa_caja_1.ldr",
-            "id": "",
-            "title": "casa caja 1",
+        "oficiales/Basico_0401_f1tesoro.ldr": {
+            "path": "oficiales/Basico_0401_f1tesoro.ldr",
+            "id": "21",
+            "title": "1 / 401",
             "seriesNumber": "Basico",
-            "refNumber": "401"
+            "refNumber": "0401"
         },
-        "oficiales/Basico_401_f1tesoro.ldr": {
-            "path": "oficiales/Basico_401_f1tesoro.ldr",
-            "id": "",
-            "title": "f1tesoro",
+        "oficiales/Basico_0402_casa.ldr": {
+            "path": "oficiales/Basico_0402_casa.ldr",
+            "id": "22",
+            "title": "2 / 401",
             "seriesNumber": "Basico",
-            "refNumber": "401"
+            "refNumber": "0402"
         },
-        "oficiales/Basico_402_casa402.ldr": {
-            "path": "oficiales/Basico_402_casa402.ldr",
-            "id": "",
-            "title": "casa402",
+        "oficiales/Basico_0403_avion_iniciacion.ldr": {
+            "path": "oficiales/Basico_0403_avion_iniciacion.ldr",
+            "id": "23",
+            "title": "3 / 402",
             "seriesNumber": "Basico",
-            "refNumber": "402"
+            "refNumber": "0403"
         },
-        "oficiales/Basico_403_avion_iniciacion.ldr": {
-            "path": "oficiales/Basico_403_avion_iniciacion.ldr",
-            "id": "",
-            "title": "avion iniciacion",
+        "oficiales/Basico_0403_casa.ldr": {
+            "path": "oficiales/Basico_0403_casa.ldr",
+            "id": "23",
+            "title": "3 / 402",
             "seriesNumber": "Basico",
-            "refNumber": "403"
+            "refNumber": "0403"
         },
-        "oficiales/Basico_403_casa403.ldr": {
-            "path": "oficiales/Basico_403_casa403.ldr",
-            "id": "",
-            "title": "casa403",
+        "oficiales/Basico_0403_casahalt.ldr": {
+            "path": "oficiales/Basico_0403_casahalt.ldr",
+            "id": "23",
+            "title": "3 / 402",
             "seriesNumber": "Basico",
-            "refNumber": "403"
+            "refNumber": "0403"
         },
-        "oficiales/Basico_403_casahalt.ldr": {
-            "path": "oficiales/Basico_403_casahalt.ldr",
-            "id": "",
-            "title": "casahalt",
+        "oficiales/Basico_0403_chalet.ldr": {
+            "path": "oficiales/Basico_0403_chalet.ldr",
+            "id": "23",
+            "title": "3 / 402",
             "seriesNumber": "Basico",
-            "refNumber": "403"
+            "refNumber": "0403"
         },
-        "oficiales/Basico_403_chalet.ldr": {
-            "path": "oficiales/Basico_403_chalet.ldr",
-            "id": "",
-            "title": "chalet",
+        "oficiales/Basico_0403_coche.ldr": {
+            "path": "oficiales/Basico_0403_coche.ldr",
+            "id": "23",
+            "title": "3 / 402",
             "seriesNumber": "Basico",
-            "refNumber": "403"
-        },
-        "oficiales/Basico_403_cochetente3.ldr": {
-            "path": "oficiales/Basico_403_cochetente3.ldr",
-            "id": "",
-            "title": "cochetente3",
-            "seriesNumber": "Basico",
-            "refNumber": "403"
+            "refNumber": "0403"
         },
         "oficiales/Combi-Astro_0340_lectorgeologico.ldr": {
             "path": "oficiales/Combi-Astro_0340_lectorgeologico.ldr",
             "id": "233",
             "title": "LECTOR GEOLÓGICO",
-            "seriesNumber": "Combi-Astro",
+            "seriesNumber": "Combi Astro",
             "refNumber": "0340"
         },
         "oficiales/Combi-Astro_5_8.ldr": {
             "path": "oficiales/Combi-Astro_5_8.ldr",
             "id": "",
             "title": "8",
-            "seriesNumber": "Combi-Astro",
+            "seriesNumber": "Combi Astro",
             "refNumber": "5"
         },
         "oficiales/Combi-Astro_6_7.ldr": {
             "path": "oficiales/Combi-Astro_6_7.ldr",
             "id": "",
             "title": "7",
-            "seriesNumber": "Combi-Astro",
+            "seriesNumber": "Combi Astro",
             "refNumber": "6"
         },
         "oficiales/Combi-Astro_6_generadormovil.ldr": {
             "path": "oficiales/Combi-Astro_6_generadormovil.ldr",
             "id": "",
             "title": "generadormovil",
-            "seriesNumber": "Combi-Astro",
+            "seriesNumber": "Combi Astro",
             "refNumber": "6"
         },
         "oficiales/Combi-Astro_7_unidad-exploradora.ldr": {
             "path": "oficiales/Combi-Astro_7_unidad-exploradora.ldr",
             "id": "",
             "title": "unidad-exploradora",
-            "seriesNumber": "Combi-Astro",
+            "seriesNumber": "Combi Astro",
             "refNumber": "7"
         },
         "oficiales/Combi-Mar_0301.ldr": {
             "path": "oficiales/Combi-Mar_0301.ldr",
             "id": "184",
             "title": "PATRULLERO (CONSUL)",
-            "seriesNumber": "Combi-Mar",
+            "seriesNumber": "Combi Mar",
             "refNumber": "0301"
         },
         "oficiales/Combi-Mar_0302.ldr": {
             "path": "oficiales/Combi-Mar_0302.ldr",
             "id": "185",
             "title": "TRANSPORTE ANFIBIO (OCEAN)",
-            "seriesNumber": "Combi-Mar",
+            "seriesNumber": "Combi Mar",
             "refNumber": "0302"
         },
         "oficiales/Combi-Mar_0333_corfu.ldr": {
             "path": "oficiales/Combi-Mar_0333_corfu.ldr",
             "id": "192",
             "title": "TRANSBORDADOR (CORFU)",
-            "seriesNumber": "Combi-Mar",
+            "seriesNumber": "Combi Mar",
             "refNumber": "0333"
         },
         "oficiales/Compact_0343_Excavator.ldr": {
@@ -478,13 +520,6 @@
         },
         "oficiales/Compact_0352_Karpan.ldr": {
             "path": "oficiales/Compact_0352_Karpan.ldr",
-            "id": "377",
-            "title": "KARPAN",
-            "seriesNumber": "Compact",
-            "refNumber": "0352"
-        },
-        "oficiales/Compact_0352_karpan.ldr": {
-            "path": "oficiales/Compact_0352_karpan.ldr",
             "id": "377",
             "title": "KARPAN",
             "seriesNumber": "Compact",
@@ -605,23 +640,23 @@
         "oficiales/Hasbro__astronavedefensa.ldr": {
             "path": "oficiales/Hasbro__astronavedefensa.ldr",
             "id": "",
-            "title": "Hasbro  astronavedefensa",
-            "seriesNumber": null,
-            "refNumber": null
+            "title": "astronavedefensa",
+            "seriesNumber": "Hasbro",
+            "refNumber": ""
         },
         "oficiales/Hasbro__camionnye.ldr": {
             "path": "oficiales/Hasbro__camionnye.ldr",
             "id": "",
-            "title": "Hasbro  camionnye",
-            "seriesNumber": null,
-            "refNumber": null
+            "title": "camionnye",
+            "seriesNumber": "Hasbro",
+            "refNumber": ""
         },
         "oficiales/Hasbro__campingcar.ldr": {
             "path": "oficiales/Hasbro__campingcar.ldr",
             "id": "",
-            "title": "Hasbro  campingcar",
-            "seriesNumber": null,
-            "refNumber": null
+            "title": "campingcar",
+            "seriesNumber": "Hasbro",
+            "refNumber": ""
         },
         "oficiales/Mar_0550_barcopaseo.ldr": {
             "path": "oficiales/Mar_0550_barcopaseo.ldr",
@@ -693,29 +728,22 @@
             "seriesNumber": "Mar",
             "refNumber": "0710"
         },
-        "oficiales/Mini_501_casa501.ldr": {
-            "path": "oficiales/Mini_501_casa501.ldr",
+        "oficiales/Mini_501_chalet.ldr": {
+            "path": "oficiales/Mini_501_chalet.ldr",
             "id": "8",
             "title": "CHALET",
             "seriesNumber": "Mini",
             "refNumber": "501"
         },
-        "oficiales/Mini_501_chalet501.ldr": {
-            "path": "oficiales/Mini_501_chalet501.ldr",
+        "oficiales/Mini_501_simbolo_chino.ldr": {
+            "path": "oficiales/Mini_501_simbolo_chino.ldr",
             "id": "8",
             "title": "CHALET",
             "seriesNumber": "Mini",
             "refNumber": "501"
         },
-        "oficiales/Mini_501_simbolo_chino_501.ldr": {
-            "path": "oficiales/Mini_501_simbolo_chino_501.ldr",
-            "id": "8",
-            "title": "CHALET",
-            "seriesNumber": "Mini",
-            "refNumber": "501"
-        },
-        "oficiales/Mini_502_peaje502.ldr": {
-            "path": "oficiales/Mini_502_peaje502.ldr",
+        "oficiales/Mini_502_peaje_autopista.ldr": {
+            "path": "oficiales/Mini_502_peaje_autopista.ldr",
             "id": "9",
             "title": "PEAJE AUTOPISTA",
             "seriesNumber": "Mini",
@@ -735,15 +763,15 @@
             "seriesNumber": "Mini",
             "refNumber": "507"
         },
-        "oficiales/Mini_508_kiosko.ldr": {
-            "path": "oficiales/Mini_508_kiosko.ldr",
+        "oficiales/Mini_508_kiosko_refrescos.ldr": {
+            "path": "oficiales/Mini_508_kiosko_refrescos.ldr",
             "id": "15",
             "title": "KIOSKO REFRESCOS",
             "seriesNumber": "Mini",
             "refNumber": "508"
         },
-        "oficiales/Mini_510_casita-mini.ldr": {
-            "path": "oficiales/Mini_510_casita-mini.ldr",
+        "oficiales/Mini_510_casa_de_campo.ldr": {
+            "path": "oficiales/Mini_510_casa_de_campo.ldr",
             "id": "17",
             "title": "CASA DE CAMPO",
             "seriesNumber": "Mini",
@@ -752,51 +780,51 @@
         "oficiales/Nomura_camionbomberosjapones.ldr": {
             "path": "oficiales/Nomura_camionbomberosjapones.ldr",
             "id": "",
-            "title": "Nomura camionbomberosjapones",
-            "seriesNumber": null,
-            "refNumber": null
+            "title": "",
+            "seriesNumber": "Nomura",
+            "refNumber": "camionbomberosjapones"
         },
         "oficiales/Nomura_camionjaponessony.ldr": {
             "path": "oficiales/Nomura_camionjaponessony.ldr",
             "id": "",
-            "title": "Nomura camionjaponessony",
-            "seriesNumber": null,
-            "refNumber": null
+            "title": "",
+            "seriesNumber": "Nomura",
+            "refNumber": "camionjaponessony"
         },
         "oficiales/Nomura_estaciondeserviciojaponesa.ldr": {
             "path": "oficiales/Nomura_estaciondeserviciojaponesa.ldr",
             "id": "",
-            "title": "Nomura estaciondeserviciojaponesa",
-            "seriesNumber": null,
-            "refNumber": null
+            "title": "",
+            "seriesNumber": "Nomura",
+            "refNumber": "estaciondeserviciojaponesa"
         },
         "oficiales/Nomura_haitobus.ldr": {
             "path": "oficiales/Nomura_haitobus.ldr",
             "id": "",
-            "title": "Nomura haitobus",
-            "seriesNumber": null,
-            "refNumber": null
+            "title": "",
+            "seriesNumber": "Nomura",
+            "refNumber": "haitobus"
         },
         "oficiales/Nomura_londonbus.ldr": {
             "path": "oficiales/Nomura_londonbus.ldr",
             "id": "",
-            "title": "Nomura londonbus",
-            "seriesNumber": null,
-            "refNumber": null
+            "title": "",
+            "seriesNumber": "Nomura",
+            "refNumber": "londonbus"
         },
         "oficiales/Nomura_minifirej.ldr": {
             "path": "oficiales/Nomura_minifirej.ldr",
             "id": "",
-            "title": "Nomura minifirej",
-            "seriesNumber": null,
-            "refNumber": null
+            "title": "",
+            "seriesNumber": "Nomura",
+            "refNumber": "minifirej"
         },
         "oficiales/Nomura_sunshine2.ldr": {
             "path": "oficiales/Nomura_sunshine2.ldr",
             "id": "",
-            "title": "Nomura sunshine2",
-            "seriesNumber": null,
-            "refNumber": null
+            "title": "",
+            "seriesNumber": "Nomura",
+            "refNumber": "sunshine2"
         },
         "oficiales/Pocket_0315_Eslator.ldr": {
             "path": "oficiales/Pocket_0315_Eslator.ldr",
@@ -1203,6 +1231,13 @@
             "title": "AMBULANCIA DE CAMPAÑA",
             "seriesNumber": "Scorpion",
             "refNumber": "0755"
+        },
+        "oficiales/Serie400_420_estacionservicio.ldr": {
+            "path": "oficiales/Serie400_420_estacionservicio.ldr",
+            "id": "",
+            "title": "estacionservicio",
+            "seriesNumber": "Serie400",
+            "refNumber": "420"
         },
         "oficiales/Titanium_0452_astronauta_expolion.ldr": {
             "path": "oficiales/Titanium_0452_astronauta_expolion.ldr",
@@ -1888,8 +1923,15 @@
         "oficiales/Aire_0501_servicio_autopista.ldr",
         "oficiales/Aire_0502_HelicopteroBrigadaForestal.ldr",
         "oficiales/Aire_0506_HelicopteroFumigador.ldr",
+        "oficiales/Aire_0508_HelicopteroTurbo-Speed.ldr",
+        "oficiales/Aire_0509_HelicopteroFalcon.ldr",
+        "oficiales/Aire_0510_HelicopteroAlaVariable.ldr",
+        "oficiales/Aire_0530_HelicopteroAutotransportado.ldr",
+        "oficiales/Aire_70037_AirService.ldr",
         "oficiales/Alfa_0370_ControlAereo.ldr",
         "oficiales/Alpha_0364_roadmaster.ldr",
+        "oficiales/Astro_0542_Interceptor_Tactico.ldr",
+        "oficiales/Astro_0542_Transporte_de_Discos.ldr",
         "oficiales/Astro_0552_Astro_Sencillo.ldr",
         "oficiales/Astro_0552_aerodeslizadorespacial.ldr",
         "oficiales/Astro_0552_basealertagalactica.ldr",
@@ -1915,6 +1957,7 @@
         "oficiales/Astro_0653_astromovil.ldr",
         "oficiales/Astro_0654_unidadsideralrescate.ldr",
         "oficiales/Astro_0655_torrecontroltraficoorbital.ldr",
+        "oficiales/Astro_0656_InterceptorEspacial.ldr",
         "oficiales/Astro_0657_unidadteledetectora.ldr",
         "oficiales/Astro_0658_aranalunar.ldr",
         "oficiales/Astro_0661_uesondeo.ldr",
@@ -1922,21 +1965,19 @@
         "oficiales/Astro_0722_navedefensasideral.ldr",
         "oficiales/Astro_0722_navedefensasideral2.ldr",
         "oficiales/Astro_0722_navedefensasideral3.ldr",
-        "oficiales/Astro_0740_saturno6-explorador-aereo.ldr",
         "oficiales/Astro_0740_saturno6-miniexploradoraereo.ldr",
         "oficiales/Astro_0740_saturno6-miniexploradorterrestre.ldr",
         "oficiales/Astro_0740_saturno6-nodriza.ldr",
         "oficiales/Astro_70022_desintegrador_borras.ldr",
         "oficiales/Astro_70022_desintegrador_borras_apunta_arriba.ldr",
-        "oficiales/Basico_400_420_estacionservicio.ldr",
-        "oficiales/Basico_401_casa_caja_1.ldr",
-        "oficiales/Basico_401_f1tesoro.ldr",
-        "oficiales/Basico_402_casa402.ldr",
-        "oficiales/Basico_403_avion_iniciacion.ldr",
-        "oficiales/Basico_403_casa403.ldr",
-        "oficiales/Basico_403_casahalt.ldr",
-        "oficiales/Basico_403_chalet.ldr",
-        "oficiales/Basico_403_cochetente3.ldr",
+        "oficiales/Basico_0401_casa.ldr",
+        "oficiales/Basico_0401_f1tesoro.ldr",
+        "oficiales/Basico_0402_casa.ldr",
+        "oficiales/Basico_0403_avion_iniciacion.ldr",
+        "oficiales/Basico_0403_casa.ldr",
+        "oficiales/Basico_0403_casahalt.ldr",
+        "oficiales/Basico_0403_chalet.ldr",
+        "oficiales/Basico_0403_coche.ldr",
         "oficiales/Combi-Astro_0340_lectorgeologico.ldr",
         "oficiales/Combi-Astro_5_8.ldr",
         "oficiales/Combi-Astro_6_7.ldr",
@@ -1954,7 +1995,6 @@
         "oficiales/Compact_0349_Robby.ldr",
         "oficiales/Compact_0351_Tex.ldr",
         "oficiales/Compact_0352_Karpan.ldr",
-        "oficiales/Compact_0352_karpan.ldr",
         "oficiales/Compact_0353_Condor.ldr",
         "oficiales/Cosmic_0435_scutty.ldr",
         "oficiales/Hasbro_0210_rainbowvan.ldr",
@@ -1984,14 +2024,13 @@
         "oficiales/Mar_0642_automotor.ldr",
         "oficiales/Mar_0642_hovercraftmotor.ldr",
         "oficiales/Mar_0710_vaportransatlantico.ldr",
-        "oficiales/Mini_501_casa501.ldr",
-        "oficiales/Mini_501_chalet501.ldr",
-        "oficiales/Mini_501_simbolo_chino_501.ldr",
-        "oficiales/Mini_502_peaje502.ldr",
+        "oficiales/Mini_501_chalet.ldr",
+        "oficiales/Mini_501_simbolo_chino.ldr",
+        "oficiales/Mini_502_peaje_autopista.ldr",
         "oficiales/Mini_503_bungalow.ldr",
         "oficiales/Mini_507_ermita.ldr",
-        "oficiales/Mini_508_kiosko.ldr",
-        "oficiales/Mini_510_casita-mini.ldr",
+        "oficiales/Mini_508_kiosko_refrescos.ldr",
+        "oficiales/Mini_510_casa_de_campo.ldr",
         "oficiales/Nomura_camionbomberosjapones.ldr",
         "oficiales/Nomura_camionjaponessony.ldr",
         "oficiales/Nomura_estaciondeserviciojaponesa.ldr",
@@ -2057,6 +2096,7 @@
         "oficiales/Scorpion_0751_transporteanfibio.ldr",
         "oficiales/Scorpion_0752_semioruga.ldr",
         "oficiales/Scorpion_0755_ambulanciacampana.ldr",
+        "oficiales/Serie400_420_estacionservicio.ldr",
         "oficiales/Titanium_0452_astronauta_expolion.ldr",
         "oficiales/Titanium_0452_expolion.ldr",
         "oficiales/Titanium_70021_patrulla_espacial.ldr",

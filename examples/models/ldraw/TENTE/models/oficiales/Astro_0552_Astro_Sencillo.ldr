@@ -2,7 +2,7 @@
 0 Name: Astro_0552_Astro_Sencillo.ldr
 0 Author: jasolo
 0 Unofficial Model
-0 ROTATION CENTER 0 0 0 1 "Custom"
+0 ROTATION CENTER 0 0 0 1 "Custom" 
 0 ROTATION CONFIG 0 0
 1 15 30 0 -50 0 0 -1 0 1 0 1 0 0 placa2x8.dat
 1 15 -10 0 70 0 0 -1 0 1 0 1 0 0 placa2.dat

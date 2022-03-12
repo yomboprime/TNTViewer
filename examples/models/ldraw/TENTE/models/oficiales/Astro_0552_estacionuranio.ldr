@@ -1,5 +1,5 @@
 0 Estacion de uranio
-0 Name: estacionuranio.ldr
+0 Name: Astro_0552_estacionuranio.ldr
 0 Author: cpcbegin
 0 Tente astro: Los vehiculos de las galaxias
 0 ROTATION CENTER 0 0 0 1 "Custom" 
@@ -14,6 +14,8 @@
 1 15 50 -168 70 -1 0 0 0 1 0 0 0 -1 placa4x6.dat
 1 15 50 -32 -150 -1 0 0 0 1 0 0 0 -1 placa2x3.dat
 1 15 -10 -32 -150 -1 0 0 0 1 0 0 0 -1 placa2x3.dat
+1 15 20 -45 -160 -0.681998 0 0.731354 0 1 0 -0.731354 0 -0.681998 antincv.dat
+1 15 -40 -45 -160 0.681998 0 0.731354 0 1 0 -0.731354 0 0.681998 antincv.dat
 1 40 -170 -56 -30 0 0 1 0 1 0 -1 0 0 semicupg.dat
 1 15 -130 -8 -70 0 0 -1 0 1 0 1 0 0 jacen2x4.dat
 1 15 -170 -8 -70 0 0 -1 0 1 0 1 0 0 jacen2x4.dat
@@ -35,8 +37,8 @@
 1 15 -60 -64 0 0 0 -1 0 1 0 1 0 0 jacena1.dat
 1 4 0 -64 0 0 0 -1 0 1 0 1 0 0 cilindro.dat
 1 4 -20 -64 0 0 0 -1 0 1 0 1 0 0 cilindro.dat
-1 4 -20 -20 -28 0 0 1 1 0 0 0 1 0 cilindro.dat
-1 4 0 -20 -28 0 0 1 1 0 0 0 1 0 cilindro.dat
+1 4 -20 -22 -28 0 0 1 1 0 0 0 1 0 cilindro.dat
+1 4 0 -22 -28 0 0 1 1 0 0 0 1 0 cilindro.dat
 1 15 40 -88 60 0 0 -1 0 1 0 1 0 0 jacena1.dat
 1 15 40 -88 0 0 0 -1 0 1 0 1 0 0 jacena1.dat
 1 15 -60 -88 0 0 0 -1 0 1 0 1 0 0 jacena1.dat
@@ -57,25 +59,25 @@
 1 4 -10 -176 30 -1 0 0 0 1 0 0 0 -1 cirrevog.dat
 1 4 -10 -176 30 1 0 0 0 1 0 0 0 1 cirrevog.dat
 1 1 -30 -248 10 1 0 0 0 1 0 0 0 1 placa2x2.dat
-1 15 -10 -30 12 -1 0 0 0 0 1 0 1 0 enganche.dat
-1 15 10 -30 12 -1 0 0 0 0 1 0 1 0 enganche.dat
-1 4 -20 -20 -172 0 0 1 1 0 0 0 1 0 cilindro.dat
-1 4 0 -20 -172 0 0 1 1 0 0 0 1 0 cilindro.dat
-1 15 -10 -30 -148 -1 0 0 0 0 1 0 1 0 enganche.dat
-1 15 10 -30 -148 -1 0 0 0 0 1 0 1 0 enganche.dat
-1 4 -10 -10 -52 -1 0 0 0 0 1 0 1 0 popa4p.dat
-1 4 -10 -10 -20 -1 0 0 0 0 1 0 1 0 popa4p.dat
-1 4 -20 -20 -60 0 0 1 1 0 0 0 1 0 cilindro.dat
-1 4 0 -20 -60 0 0 1 1 0 0 0 1 0 cilindro.dat
-1 4 -20 -20 -124 0 0 1 1 0 0 0 1 0 cilindro.dat
-1 4 0 -20 -124 0 0 1 1 0 0 0 1 0 cilindro.dat
-1 4 -10 -10 -84 -1 0 0 0 0 1 0 1 0 popa4p.dat
-1 4 -20 -20 -92 0 0 1 1 0 0 0 1 0 cilindro.dat
-1 4 0 -20 -92 0 0 1 1 0 0 0 1 0 cilindro.dat
-1 4 -10 -10 -116 -1 0 0 0 0 1 0 1 0 popa4p.dat
-1 15 10 -30 -12 -1 0 0 0 0 1 0 1 0 placa2.dat
-1 15 60 -6 -84 1 0 0 0 1 0 0 0 1 escalera.dat
-1 15 -100 -6 -84 1 0 0 0 1 0 0 0 1 escalera.dat
+1 15 -10 -32 12 -1 0 0 0 0 1 0 1 0 enganch2.dat
+1 15 10 -32 12 -1 0 0 0 0 1 0 1 0 enganch2.dat
+1 4 -20 -22 -172 0 0 1 1 0 0 0 1 0 cilindro.dat
+1 4 0 -22 -172 0 0 1 1 0 0 0 1 0 cilindro.dat
+1 15 -10 -32 -148 -1 0 0 0 0 1 0 1 0 enganch2.dat
+1 15 10 -32 -148 -1 0 0 0 0 1 0 1 0 enganch2.dat
+1 4 -10 -12 -52 -1 0 0 0 0 1 0 1 0 popa4p.dat
+1 4 -10 -12 -20 -1 0 0 0 0 1 0 1 0 popa4p.dat
+1 4 -20 -22 -60 0 0 1 1 0 0 0 1 0 cilindro.dat
+1 4 0 -22 -60 0 0 1 1 0 0 0 1 0 cilindro.dat
+1 4 -20 -22 -124 0 0 1 1 0 0 0 1 0 cilindro.dat
+1 4 0 -22 -124 0 0 1 1 0 0 0 1 0 cilindro.dat
+1 4 -10 -12 -84 -1 0 0 0 0 1 0 1 0 popa4p.dat
+1 4 -20 -22 -92 0 0 1 1 0 0 0 1 0 cilindro.dat
+1 4 0 -22 -92 0 0 1 1 0 0 0 1 0 cilindro.dat
+1 4 -10 -12 -116 -1 0 0 0 0 1 0 1 0 popa4p.dat
+1 15 10 -32 -12 -1 0 0 0 0 1 0 1 0 placa2.dat
+1 15 60 -8 -40 1 0 0 0 1 0 0 0 1 escalera.dat
+1 15 -100 -8 -40 1 0 0 0 1 0 0 0 1 escalera.dat
 1 15 -160 -88 -30 -1 0 0 0 1 0 0 0 -1 semicugg.dat
 1 15 -10 -176 52 -1 0 0 0 1 0 0 0 -1 uranio.dat
 1 15 -10 -176 8 1 0 0 0 1 0 0 0 1 uranio.dat
