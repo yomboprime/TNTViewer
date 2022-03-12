@@ -2,9 +2,7 @@ import { GLTFExporter } from '../three/examples/jsm/exporters/GLTFExporter.js';
 import { ColladaExporter } from '../three/examples/jsm/exporters/ColladaExporter.js';
 import { OBJExporter } from '../three/examples/jsm/exporters/OBJExporter.js';
 
-function exportModel( model, format ) {
-
-	const scale = constructionSetScale[ currentConstructionSet ] * guiData.exportScale;
+function exportModel( model, format, scale ) {
 
 	if ( ! model ) return;
 
@@ -56,7 +54,7 @@ function exportModel( model, format ) {
 
 		case 'obj':
 
-			saveFile( removeFilenameExtension( guiData.modelFileName ) + ".obj", new Blob( [ new OBJExporter().parse( model ) ] ) );
+			saveFile( removeFilenameExtension( model.userData.fileName ) + ".obj", new Blob( [ new OBJExporter().parse( model ) ] ) );
 
 			break;
 

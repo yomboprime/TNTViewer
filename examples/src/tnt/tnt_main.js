@@ -278,9 +278,9 @@ function init() {
 				path: '',
 				modelBboxInfo: '',
 				exportScale: exportScale,
-				exportGLTF: () => { FileOperations.exportModel( models[ 0 ], 'gltf' ); },
-				exportDAE: () => { FileOperations.exportModel( models[ 0 ], 'dae' ); },
-				exportOBJ: () => { FileOperations.exportModel( models[ 0 ], 'obj' ); },
+				exportGLTF: () => { exportModel( 'gltf' ); },
+				exportDAE: () => { exportModel( 'dae' ); },
+				exportOBJ: () => { exportModel( 'obj' ); },
 				showBOM: showBOM
 			};
 
@@ -656,6 +656,14 @@ function loadLDrawModelFromRepo( modelFileName, parentModel ) {
 		triggerRender();
 
 	}, onProgress, onError );
+
+}
+
+function exportModel( format ) {
+
+	const scale = constructionSetScale[ currentConstructionSet ] * guiData.exportScale;
+
+	if ( isModel( selectedPart ) ) FileOperations.exportModel( selectedPart, format, scale );
 
 }
 
