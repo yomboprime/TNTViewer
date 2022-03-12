@@ -751,8 +751,8 @@
         },
         "oficiales/Mini_503_bungalow.ldr": {
             "path": "oficiales/Mini_503_bungalow.ldr",
-            "id": "",
-            "title": "bungalow",
+            "id": "10",
+            "title": "BUNGALOW",
             "seriesNumber": "Mini",
             "refNumber": "503"
         },
@@ -1234,9 +1234,9 @@
         },
         "oficiales/Serie400_420_estacionservicio.ldr": {
             "path": "oficiales/Serie400_420_estacionservicio.ldr",
-            "id": "",
-            "title": "estacionservicio",
-            "seriesNumber": "Serie400",
+            "id": "5",
+            "title": "420",
+            "seriesNumber": "400",
             "refNumber": "420"
         },
         "oficiales/Titanium_0452_astronauta_expolion.ldr": {

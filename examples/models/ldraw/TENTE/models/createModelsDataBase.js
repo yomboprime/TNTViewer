@@ -271,6 +271,10 @@ for ( let i in dataBase.modelPathsList ) {
 		else {
 
 			if ( Number.isInteger( parseInt( pathFields[ 0 ] ) )  ) pathFields[ 0 ] = 'Serie' + pathFields[ 0 ];
+
+			if ( pathFields[ 0 ].startsWith( 'Serie' ) ) pathFields[ 0 ] = pathFields[ 0 ].substring( 'Serie'.length );
+
+
 			pathFields[ 0 ] = pathFields[ 0 ].replace( '-', ' ' );
 
 			if ( numPathFields === 2 ) {
