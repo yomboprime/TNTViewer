@@ -238,7 +238,7 @@ function init() {
 			const mainMat = lDrawLoader.getMainMaterial();
 			const mainEdgeMat = mainMat.userData.edgeMaterial;
 			const mainEdgeCondMat = mainEdgeMat.userData.conditionalEdgeMaterial;
-
+			/*
 			if ( isOptionSet( 'mainColor.r' ) && ! urlParams.get( 'colorCode' ) ) {
 
 				const r = getOption( 'mainColor.r' );
@@ -257,6 +257,7 @@ function init() {
 				mainEdgeCondMat.color.setRGB( r, g, b );
 
 			}
+			*/
 
 			const mainColor = { r: mainMat.color.r, g: mainMat.color.g, b: mainMat.color.b }
 			const mainEdgeColor = { r: mainEdgeMat.color.r, g: mainEdgeMat.color.g, b: mainEdgeMat.color.b }
