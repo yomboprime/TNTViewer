@@ -1788,6 +1788,8 @@ function createGUI() {
 
 		updateObjectsVisibility();
 
+		triggerRender();
+
 	} );
 
 	optionsFolder.close();
