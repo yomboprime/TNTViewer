@@ -388,7 +388,7 @@ function init() {
 						break;
 
 					case 'l':
-						setLocalCoordinateSystem( ! localCoordinateSystem );
+						toggleCoordinateSystem();
 						break;
 
 					case 'Delete':
@@ -1060,6 +1060,13 @@ function setLocalCoordinateSystem( local ) {
 
 	localCoordinateSystem = local;
 	transformControls.setSpace( local ? 'local' : 'world' );
+	triggerRender();
+
+}
+
+function toggleCoordinateSystem() {
+
+	setLocalCoordinateSystem( ! localCoordinateSystem );
 
 }
 
@@ -2354,6 +2361,13 @@ function createGUI() {
 	toolScaleButton.addEventListener( 'click', scaleToolButtonFunc );
 	toolsDiv.appendChild( toolScaleButton );
 	toolButtons.push( toolScaleButton );
+
+	const toggleCoordinateSystemButton = document.createElement( 'div' );
+	toggleCoordinateSystemButton.className = 'buttn';
+	toggleCoordinateSystemButton.innerHTML = iconEmojis[ "World" ];
+	toggleCoordinateSystemButton.title = "Toggle Local/World coordinates (l)"
+	toggleCoordinateSystemButton.addEventListener( 'click', toggleCoordinateSystem );
+	toolsDiv.appendChild( toggleCoordinateSystemButton );
 
 
 

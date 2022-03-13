@@ -23,7 +23,8 @@ const iconEmojis = {
     "Gear": "⚙️",
     "Floppy": "💾",
     "Color": "🎨",
-    "Clone": "🐑"
+    "Clone": "🐑",
+    "World": "🌐"
 
 };
 
