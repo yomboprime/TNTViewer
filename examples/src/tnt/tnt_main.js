@@ -747,6 +747,8 @@ function loadLDrawModelFromRepo( modelFileName, parentModel ) {
 
 		updateObjectsVisibility();
 
+		if ( parentModel ) applyMainMaterialToPart( model1, selectedColorCode );
+
 		if ( ! parentModel ) {
 
 			const pos = model1.userData.modelBbox.getCenter( vector3Temp1 );
