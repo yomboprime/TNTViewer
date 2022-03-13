@@ -223,7 +223,6 @@ function init() {
 	transformControls = new TransformControls( camera, renderer.domElement );
 	transformControls.setMode( 'translate' );
 	transformControls.setSpace( 'local' );
-	setSnapEnabled( true );
 	setFineSnap( false );
 	transformControls.addEventListener( 'change', triggerRender );
 	transformControls.addEventListener( 'objectChange', () => {
@@ -469,6 +468,7 @@ function init() {
 					if ( intersects.length > 0 ) {
 
 						object = intersects[ 0 ].object;
+
 						if ( object.isTransformControlsPlane ) object = null;
 
 					}
@@ -476,6 +476,8 @@ function init() {
 					if ( object ) {
 
 						object = getObjectPart( object );
+
+						if ( ! isPart( object ) ) object = null;
 
 						if ( selectionModeModel ) object = getPartModel( object );
 
@@ -764,6 +766,7 @@ function loadLDrawModelFromRepo( modelFileName, parentModel ) {
 
 		}
 
+		setFineSnap( false );
 		selectPart( model1 );
 
 		hideProgressBar();
@@ -1045,27 +1048,14 @@ function setSnapEnabled( enabled ) {
 		transformControls.setTranslationSnap( null );
 		transformControls.setRotationSnap( null );
 		transformControls.setScaleSnap( null );
-		return;
+
+	} else {
+
+		transformControls.setTranslationSnap( translationSnap );
+		transformControls.setRotationSnap( rotationSnap * Math.PI / 180 );
+		transformControls.setScaleSnap( scaleSnap );
 
 	}
-
-	transformControls.setTranslationSnap( translationSnap );
-	transformControls.setRotationSnap( rotationSnap * Math.PI / 180 );
-	transformControls.setScaleSnap( scaleSnap );
-
-}
-
-function setLocalCoordinateSystem( local ) {
-
-	localCoordinateSystem = local;
-	transformControls.setSpace( local ? 'local' : 'world' );
-	triggerRender();
-
-}
-
-function toggleCoordinateSystem() {
-
-	setLocalCoordinateSystem( ! localCoordinateSystem );
 
 }
 
@@ -1086,6 +1076,20 @@ function setFineSnap( fine ) {
 	}
 
 	setSnapEnabled( true );
+
+}
+
+function setLocalCoordinateSystem( local ) {
+
+	localCoordinateSystem = local;
+	transformControls.setSpace( local ? 'local' : 'world' );
+	triggerRender();
+
+}
+
+function toggleCoordinateSystem() {
+
+	setLocalCoordinateSystem( ! localCoordinateSystem );
 
 }
 
