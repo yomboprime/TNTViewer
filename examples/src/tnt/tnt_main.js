@@ -1147,7 +1147,12 @@ function addLDrawModel() {
 
 function addLDrawPart() {
 
-	if ( ! selectionModeModel || ! selectedPart ) return;
+	if ( ! selectedPart ) return;
+
+	if ( ! selectionModeModel ) selectPart( getPartModel( selectedPart ) );
+
+	if ( ! selectedPart ) return;
+
 	const selectedModel = selectedPart;
 	showSelectLDrawPartFromRepo( selectedModel );
 
@@ -1302,7 +1307,7 @@ function selectPart( part ) {
 
 		}
 
-		setButtonDisabled( addPartButton, ! selectionModeModel );
+		setButtonDisabled( addPartButton, false );
 		setButtonDisabled( deleteSelectionButton, false );
 
 	}
