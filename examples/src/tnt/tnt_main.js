@@ -912,9 +912,8 @@ function searchModelByField( field, value ) {
 
 function createModelBBox( model ) {
 
-	if ( model.userData.modelBbox ) return;
+	if ( ! model.userData.modelBbox ) model.userData.modelBbox = new THREE.Box3();
 
-	model.userData.modelBbox = new THREE.Box3();
 	model.userData.modelBbox.setFromObject( model );
 
 	const size = model.userData.modelBbox.getSize( vector3Temp1 );
