@@ -136,6 +136,8 @@ let translationSnap = 1;
 let rotationSnap = DEFAULT_ROTATION_SNAP ;
 let scaleSnap = DEFAULT_SCALE_SNAP;
 
+let localCoordinateSystem = true;
+
 let selectedModelRowIndex = null;
 let selectedPartRowIndex = null;
 let selectedColorRowIndex = null;
@@ -220,7 +222,7 @@ function init() {
 
 	transformControls = new TransformControls( camera, renderer.domElement );
 	transformControls.setMode( 'translate' );
-	//transformControls.setSpace( 'local' );
+	transformControls.setSpace( 'local' );
 	setSnapEnabled( true );
 	setFineSnap( false );
 	transformControls.addEventListener( 'change', triggerRender );
@@ -383,6 +385,10 @@ function init() {
 
 					case 'c':
 						selectColor();
+						break;
+
+					case 'l':
+						setLocalCoordinateSystem( ! localCoordinateSystem );
 						break;
 
 					case 'Delete':
@@ -1047,6 +1053,13 @@ function setSnapEnabled( enabled ) {
 	transformControls.setTranslationSnap( translationSnap );
 	transformControls.setRotationSnap( rotationSnap * Math.PI / 180 );
 	transformControls.setScaleSnap( scaleSnap );
+
+}
+
+function setLocalCoordinateSystem( local ) {
+
+	localCoordinateSystem = local;
+	transformControls.setSpace( local ? 'local' : 'world' );
 
 }
 
