@@ -2585,6 +2585,7 @@ function showSelectLDrawModelFromRepo() {
 
 		function sortField( field, orderVal ) {
 
+			if ( ( a[ field ] === null ) !== ( b[ field ] === null ) ) return b[ field ] === null ? - orderVal : orderVal;
 			if ( a[ field ] === b[ field ] ) return 0;
 			return a[ field ] < b[ field ] ? - orderVal : orderVal;
 
