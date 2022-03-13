@@ -92,6 +92,7 @@ let bomPanel;
 let modelSelectPanel;
 let partSelectPanel;
 let colorSelectPanel;
+let lastOpenPanel;
 
 // Physics variables
 let collisionConfiguration;
@@ -305,10 +306,10 @@ function init() {
 
 			window.addEventListener( 'keydown', ( event ) => {
 
-				if ( event.defaultPrevented ) {
+				//if ( event.defaultPrevented ) {
 					// Do nothing if the event was already processed
-					return;
-				}
+					//return;
+				//}
 
 				switch ( event.key ) {
 					/*
@@ -341,6 +342,14 @@ function init() {
 
 					case 'Delete':
 						deleteSelection();
+						break;
+
+					case 'Enter':
+						if ( lastOpenPanel && lastOpenPanel.button ) lastOpenPanel.button.onclick();
+						break;
+
+					case 'Escape':
+						if ( lastOpenPanel ) lastOpenPanel.closeButton.onclick();
 						break;
 
 					default:
@@ -1881,6 +1890,8 @@ function createGUI() {
 		setOption( 'mainColor.g', mainMat.color.g );
 		setOption( 'mainColor.b', mainMat.color.b );
 
+		triggerRender();
+
 	} );
 
 	optionsFolder.addColor( guiData, 'mainEdgeColor' ).name( 'Main edge color' ).onChange( () => {
@@ -1895,17 +1906,23 @@ function createGUI() {
 		setOption( 'mainEdgeColor.g', mainEdgeMat.color.g );
 		setOption( 'mainEdgeColor.b', mainEdgeMat.color.b );
 
+		triggerRender();
+
 	} );
 
 	optionsFolder.addColor( guiData, 'backgroundColor' ).name( 'Background color' ).onChange( () => {
 
 		scene.background.setRGB( guiData.backgroundColor.r, guiData.backgroundColor.g, guiData.backgroundColor.b );
 
+		triggerRender();
+
 	} ).onFinishChange( () => {
 
 		setOption( 'backgroundColor.r', guiData.backgroundColor.r );
 		setOption( 'backgroundColor.g', guiData.backgroundColor.g );
 		setOption( 'backgroundColor.b', guiData.backgroundColor.b );
+
+		triggerRender();
 
 	} );
 
@@ -2165,12 +2182,7 @@ function createGUI() {
 
 function showBOM() {
 
-	if ( bomPanel ) {
-
-		if ( container.contains( bomPanel ) ) container.removeChild( bomPanel );
-		bomPanel = null;
-
-	}
+	bomPanel = deleteSelectTable( bomPanel );
 
 	const model = getPartModel( selectedPart );
 
@@ -2296,12 +2308,7 @@ function showBOM() {
 
 function showSelectLDrawModelFromRepo() {
 
-	if ( modelSelectPanel ) {
-
-		if ( container.contains( modelSelectPanel ) ) container.removeChild( modelSelectPanel );
-		modelSelectPanel = null;
-
-	}
+	modelSelectPanel = deleteSelectTable( modelSelectPanel );
 
 	const columns = [
 		'title',
@@ -2357,12 +2364,7 @@ function showSelectLDrawModelFromRepo() {
 
 function showSelectLDrawPartFromRepo( model ) {
 
-	if ( partSelectPanel ) {
-
-		if ( container.contains( partSelectPanel ) ) container.removeChild( partSelectPanel );
-		partSelectPanel = null;
-
-	}
+	partSelectPanel = deleteSelectTable( partSelectPanel );
 
 	const columns = [
 		'title',
@@ -2440,12 +2442,7 @@ function searchColorIndex( colorCode ) {
 
 function showSelectLDrawColorCode( onResult ) {
 
-	if ( colorSelectPanel ) {
-
-		if ( container.contains( colorSelectPanel ) ) container.removeChild( colorSelectPanel );
-		colorSelectPanel = null;
-
-	}
+	colorSelectPanel = deleteSelectTable( colorSelectPanel );
 
 	const columns = [
 		'name',
@@ -2485,6 +2482,17 @@ function showSelectLDrawColorCode( onResult ) {
 	colorSelectPanel = showSelectTable( 'Ok', onOK, onCancel, infoLine, columns, columnsNames, colorsData, true, selectedColorRowIndex );
 
 }
+
+function deleteSelectTable( panel ) {
+
+	if ( panel ) {
+
+		if ( container.contains( panel.div ) ) container.removeChild( panel.div );
+
+	}
+
+	return null;
+}
 
 function showSelectTable( buttonLabel, onButtonClicked, onCloseCancel, infoLine, columns, columnsNames, data, rowSelection, preselectedRow ) {
 
@@ -2540,28 +2548,6 @@ function showSelectTable( buttonLabel, onButtonClicked, onCloseCancel, infoLine,
 	infoLineSpan.style.paddingLeft = "30px";
 	infoLineSpan.innerHTML = infoLine;
 	buttonsDiv.appendChild( infoLineSpan );
-
-	// This event doesn't work
-	listDiv.addEventListener( 'keydown', ( event ) => {
-
-		event.defaultPrevented = true;
-
-		switch ( event.key ) {
-
-			case 'Enter':
-				if ( button ) button.onclick();
-				break;
-
-			case 'Escape':
-				closeButton.onclick();
-				break;
-
-			default:
-				break;
-
-		}
-
-	}, true );
 
 	const tableHeaderRow = document.createElement( 'tr' );
 	table.appendChild( tableHeaderRow );
@@ -2651,7 +2637,15 @@ function showSelectTable( buttonLabel, onButtonClicked, onCloseCancel, infoLine,
 
 	}
 
-	return listDiv;
+	const panel = {
+		panel: listDiv,
+		button: button,
+		closeButton: closeButton
+	};
+
+	lastOpenPanel = panel;
+
+	return panel;
 
 }
 
