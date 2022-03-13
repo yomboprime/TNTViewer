@@ -2,6 +2,7 @@
 import * as THREE from '../three/build/three.module.js';
 import { GUI } from '../three/examples/jsm/libs/lil-gui.module.min.js';
 import { OrbitControls } from '../three/examples/jsm/controls/OrbitControls.js';
+import { TransformControls } from '../three/examples/jsm/controls/TransformControls.js';
 import { RoomEnvironment } from '../three/examples/jsm/environments/RoomEnvironment.js';
 //import { Water } from '../three/examples/jsm/objects/Water.js';
 //import { Sky } from '../three/examples/jsm/objects/Sky.js';
@@ -15,21 +16,30 @@ const GUI_WIDTH = 500;
 
 const domeSize = 50000;
 
-const constructionSets = [
+const constructionSetsNames = [
 	'LEGO',
 	'TENTE',
 	'EXINCASTILLOS'
 ];
-const constructionSetScale = {
-	'LEGO': 1,
-	'TENTE': 0.4,
-	'EXINCASTILLOS': 1
+const constructionSets = {
+	'LEGO': {
+		scale: 1,
+		translationSnap: 1
+	},
+	'TENTE': {
+		scale: 0.4,
+		translationSnap: 8
+	},
+	'EXINCASTILLOS': {
+		scale: 1,
+		translationSnap: 1
+	}
 };
 let currentConstructionSet;
 
 let container, progressBarDiv, sideBarDiv, scrolledDiv;
-
-let camera, scene, renderer, cameraControls;
+let camera, scene, renderer;
+let cameraControls, transformControls;
 
 let guiData;
 
@@ -113,6 +123,19 @@ let selectionModeModel = true;
 // Code 15 is White
 let selectedColorCode = '15';
 
+const TOOL_NONE = 0;
+const TOOL_MOVE = 1;
+const TOOL_ROTATE = 2;
+const TOOL_SCALE = 3;
+let selectedTool = TOOL_NONE;
+let toolButtons;
+
+const DEFAULT_ROTATION_SNAP = 15;
+const DEFAULT_SCALE_SNAP = 0.5;
+let translationSnap = 1;
+let rotationSnap = DEFAULT_ROTATION_SNAP ;
+let scaleSnap = DEFAULT_SCALE_SNAP;
+
 let selectedModelRowIndex = null;
 let selectedPartRowIndex = null;
 let selectedColorRowIndex = null;
@@ -193,6 +216,30 @@ function init() {
 	cameraControls = new OrbitControls( camera, renderer.domElement );
 	cameraControls.addEventListener( 'change', triggerRender );
 
+	currentConstructionSet = 'TENTE';
+
+	transformControls = new TransformControls( camera, renderer.domElement );
+	transformControls.setMode( 'translate' );
+	//transformControls.setSpace( 'local' );
+	setSnapEnabled( true );
+	setFineSnap( false );
+	transformControls.addEventListener( 'change', triggerRender );
+	transformControls.addEventListener( 'objectChange', () => {
+
+		if ( selectedPart && selectedPartBoxHelper ) selectedPartBoxHelper.update();
+		triggerRender();
+
+	} );
+
+	transformControls.addEventListener( 'dragging-changed', function ( event ) {
+
+		cameraControls.enabled = ! event.value;
+
+	} );
+
+	scene.add( transformControls );
+
+
 	const curvePositions = [
 		new THREE.Vector3( 0, 0, 0 ),
 		new THREE.Vector3( 0.25, 0.38, 0 ),
@@ -202,8 +249,6 @@ function init() {
 	curve = new THREE.CatmullRomCurve3( curvePositions );
 
 	//
-
-	currentConstructionSet = 'TENTE';
 
 	lDrawLoader = new LDrawLoader();
 	lDrawLoader.smoothNormals = true;
@@ -352,6 +397,38 @@ function init() {
 						if ( lastOpenPanel ) lastOpenPanel.closeButton.onclick();
 						break;
 
+					case 'Control':
+						setSnapEnabled( false );
+						break;
+
+					case 'Alt':
+						setFineSnap( true );
+						break;
+
+					default:
+						break;
+
+				}
+
+			}, false );
+
+			window.addEventListener( 'keyup', ( event ) => {
+
+				//if ( event.defaultPrevented ) {
+					// Do nothing if the event was already processed
+					//return;
+				//}
+
+				switch ( event.key ) {
+
+					case 'Control':
+						setSnapEnabled( true );
+						break;
+
+					case 'Alt':
+						setFineSnap( false );
+						break;
+
 					default:
 						break;
 
@@ -382,9 +459,15 @@ function init() {
 					raycaster.intersectObjects( models, true, intersects );
 					if ( animatedParts ) raycaster.intersectObjects( animatedParts, true, intersects );
 
+					let object = null;
 					if ( intersects.length > 0 ) {
 
-						let object = intersects[ 0 ].object;
+						object = intersects[ 0 ].object;
+						if ( object.isTransformControlsPlane ) object = null;
+
+					}
+
+					if ( object ) {
 
 						object = getObjectPart( object );
 
@@ -429,10 +512,7 @@ function init() {
 			guiData.timeFactor = timeFactor;
 			timeFactorController.updateDisplay();
 
-			//animate();
 			triggerRender();
-
-			console.log( "colors: " + Object.keys( lDrawLoader.materialLibrary ).length );
 
 		} );
 
@@ -612,13 +692,13 @@ function loadLDrawModelFromRepo( modelFileName, parentModel ) {
 
 		}
 
-		// Convert from LDraw coordinates: rotate 180 degrees around OX
+		// Convert from LDraw coordinate system: rotate 180 degrees around X axis
 		if ( ! parentModel ) model1.rotation.x = Math.PI;
 
 		createModelBBox( model1 );
 
 		// Put above floor
-		if ( ! parentModel ) model1.position.y = - model1.userData.modelBbox.min.y;
+		//if ( ! parentModel ) model1.position.y = - model1.userData.modelBbox.min.y;
 
 		// Extrude a little bit the stickers
 		const stickers = [];
@@ -690,7 +770,7 @@ function loadLDrawModelFromRepo( modelFileName, parentModel ) {
 
 function exportModel( format ) {
 
-	const scale = constructionSetScale[ currentConstructionSet ] * guiData.exportScale;
+	const scale = constructionSets[ currentConstructionSet ].scale * guiData.exportScale;
 
 	if ( isModel( selectedPart ) ) FileOperations.exportModel( selectedPart, format, scale );
 
@@ -718,7 +798,7 @@ function isPart( part ) {
 
 	if ( ! part || ! part.userData ) return false;
 
-	return getDataBasePart( part ) !== undefined;
+	return getDataBasePart( part ) !== null;
 
 }
 
@@ -732,7 +812,7 @@ function isModel( model ) {
 
 function getObjectPart( object ) {
 
-	if ( ! object ) return undefined;
+	if ( ! object ) return null;
 
 	while ( object.parent && ( ! object.parent.isScene ) && ! object.userData.fileName ) object = object.parent;
 
@@ -776,7 +856,7 @@ function getObjectPart( object ) {
 
 function getPartModel( part ) {
 
-	if ( ! part ) return undefined;
+	if ( ! part ) return null;
 
 	while ( part.parent && ( ! part.parent.isScene ) ) part = part.parent;
 
@@ -792,7 +872,7 @@ function isAnimatedPart( part ) {
 
 function getDataBasePart( part ) {
 
-	if ( ! part || ! part.userData.fileName ) return undefined;
+	if ( ! part || ! part.userData.fileName ) return null;
 
 	let fileName = part.userData.fileName;
 
@@ -802,7 +882,7 @@ function getDataBasePart( part ) {
 
 function getDataBaseModel( model ) {
 
-	if ( ! model || ! model.userData.fileName ) return undefined;
+	if ( ! model || ! model.userData.fileName ) return null;
 
 	let fileName = model.userData.fileName;
 
@@ -871,12 +951,138 @@ function colorToolButtonFunc() {
 }
 
 function moveToolButtonFunc() {
+
+	selectTool( TOOL_MOVE );
+
 }
 
 function rotateToolButtonFunc() {
+
+	selectTool( TOOL_ROTATE );
+
 }
 
 function scaleToolButtonFunc() {
+
+	selectTool( TOOL_SCALE );
+
+}
+
+function selectTool( tool ) {
+
+	const previousTool = selectedTool;
+
+	if ( previousTool !== TOOL_NONE ) {
+
+		const toolButton = toolButtons[ previousTool ];
+		if ( toolButton ) setButtonDisabled( toolButton, false );
+
+	}
+
+	if ( tool !== TOOL_NONE ) {
+
+		const toolButton = toolButtons[ tool ];
+		if ( toolButton ) setButtonDisabled( toolButton, true );
+
+	}
+
+	selectedTool = tool;
+
+	activateTool( tool, previousTool, selectedPart, selectedPart );
+
+}
+
+function activateTool( tool, previousTool, part, previousPart ) {
+
+	switch ( tool ) {
+
+		case TOOL_NONE:
+
+			if ( previousTool !== TOOL_NONE && previousPart && previousPart !== part ) detachTransformControlsFromPart( previousPart );
+			transformControls.visible = false;
+			transformControls.enabled = false;
+			break;
+
+		case TOOL_MOVE:
+			if ( previousTool !== TOOL_NONE && previousPart && previousPart !== part ) detachTransformControlsFromPart( previousPart );
+			transformControls.setMode( 'translate' );
+			if ( part ) attachTransformControlsToPart( part );
+			transformControls.visible = part !== null;
+			transformControls.enabled = part !== null;
+			break;
+
+		case TOOL_ROTATE:
+			if ( previousTool !== TOOL_NONE && previousPart && previousPart !== part ) detachTransformControlsFromPart( previousPart );
+			transformControls.setMode( 'rotate' );
+			if ( part ) attachTransformControlsToPart( part );
+			transformControls.visible = part !== null;
+			transformControls.enabled = part !== null;
+			break;
+
+		case TOOL_SCALE:
+			if ( previousTool !== TOOL_NONE && previousPart && previousPart !== part ) detachTransformControlsFromPart( previousPart );
+			transformControls.setMode( 'scale' );
+			if ( part ) attachTransformControlsToPart( part );
+			transformControls.visible = part !== null;
+			transformControls.enabled = part !== null;
+			break;
+
+		default:
+			break;
+
+	}
+}
+
+function setSnapEnabled( enabled ) {
+
+	if ( ! enabled ) {
+
+		transformControls.setTranslationSnap( null );
+		transformControls.setRotationSnap( null );
+		transformControls.setScaleSnap( null );
+		return;
+
+	}
+
+	transformControls.setTranslationSnap( translationSnap );
+	transformControls.setRotationSnap( rotationSnap * Math.PI / 180 );
+	transformControls.setScaleSnap( scaleSnap );
+
+}
+
+function setFineSnap( fine ) {
+
+	if ( fine ) {
+
+		translationSnap = 1;
+		rotationSnap = 1;
+		scaleSnap = 0.01;
+
+	} else {
+
+		translationSnap = constructionSets[ currentConstructionSet ].translationSnap;
+		rotationSnap = DEFAULT_ROTATION_SNAP;
+		scaleSnap = DEFAULT_SCALE_SNAP;
+
+	}
+
+	setSnapEnabled( true );
+
+}
+
+function attachTransformControlsToPart( part ) {
+
+	part.updateMatrixWorld( true );
+	transformControls.matrix.copy( part.matrixWorld );
+	part.parent.attach( transformControls );
+	transformControls.attach( part );
+}
+
+function detachTransformControlsFromPart( part ) {
+
+	transformControls.parent.attach( part );
+	scene.attach( transformControls );
+
 }
 
 function selectColor() {
@@ -935,18 +1141,20 @@ function deleteSelection() {
 
 	if ( ! selectedPart ) return;
 
-	const parent = selectedPart.parent;
+	const partToBeDeleted = selectedPart;
 
-	if ( ! deletePartOrModel( selectedPart ) ) return;
+	selectPart( null );
+
+	const parent = partToBeDeleted.parent;
+
+	if ( ! deletePartOrModel( partToBeDeleted ) ) return;
 
 	if ( parent && isModel( parent ) && parent.children.length === 0 ) {
 
 		deletePartOrModel( parent );
-		alert( "Model was deleted because you deleted the last part." );
+		alert( "Model was deleted because you deleted its last part." );
 
 	}
-
-	selectPart( null );
 
 	triggerRender();
 
@@ -1095,7 +1303,10 @@ function selectPart( part ) {
 
 	}
 
+	const previousPart = selectedPart;
 	selectedPart = part;
+
+	activateTool( selectedTool, selectedTool, selectedPart, previousPart );
 
 	updateModelAndPartInfo();
 
@@ -1175,7 +1386,7 @@ function updateModelAndPartInfo() {
 
 		createModelBBox( selectedModel );
 
-		selectedModel.userData.modelBbox.getSize( vector3Temp1 ).multiplyScalar( constructionSetScale[ currentConstructionSet ] );
+		selectedModel.userData.modelBbox.getSize( vector3Temp1 ).multiplyScalar( constructionSets[ currentConstructionSet ].scale );
 		function round10( x ) { return Math.round( x * 10 ) / 10; }
 		guiData.modelBboxInfo = round10( vector3Temp1.x ) + " x " + round10( vector3Temp1.z ) + " x " + round10( vector3Temp1.y );
 
@@ -1321,9 +1532,9 @@ function stopAnimation() {
 	selectPart( animatedModel );
 	animatedModel = null;
 
-	animatedModel = undefined;
-	animatedParts = undefined;
-	animatedParts = undefined;
+	animatedModel = null;
+	animatedParts = null;
+	animatedParts = null;
 	dynamicObjects = [];
 
 	triggerRender();
@@ -1761,13 +1972,13 @@ function getModelsDataBase( constructionSet, onLoaded ) {
 
 function getLibraryPath( constructionSet ) {
 
-	return ldrawPath + constructionSet  + '/';
+	return ldrawPath + constructionSet + '/';
 
 }
 
 function getModelPath( constructionSet ) {
 
-	return ldrawPath + constructionSet  + '/models/';
+	return ldrawPath + constructionSet + '/models/';
 
 }
 
@@ -2075,6 +2286,7 @@ function createGUI() {
 
 		selectionModeModel = true;
 		selectPart( getPartModel( selectedPart ) );
+		if ( selectedPart ) selectedPartBoxHelper.update();
 		setButtonDisabled( selectionModePartButton, false );
 		setButtonDisabled( selectionModeModelButton, true );
 
@@ -2093,6 +2305,8 @@ function createGUI() {
 
 
 
+	toolButtons = [ null ];
+
 	const toolsDiv = document.createElement( 'div' );
 	toolsDiv.className = 'playbackdiv';
 	editorPanel.appendChild( toolsDiv );
@@ -2107,26 +2321,26 @@ function createGUI() {
 	const toolMoveButton = document.createElement( 'div' );
 	toolMoveButton.className = 'buttn';
 	toolMoveButton.innerHTML = iconEmojis[ "Move" ];
-	toolMoveButton.title = "Move tool (g) (Not implemented yet)"
+	toolMoveButton.title = "Move tool (g)"
 	toolMoveButton.addEventListener( 'click', moveToolButtonFunc );
-	setButtonDisabled( toolMoveButton, selectionModeModel );
 	toolsDiv.appendChild( toolMoveButton );
+	toolButtons.push( toolMoveButton );
 
 	const toolRotateButton = document.createElement( 'div' );
 	toolRotateButton.className = 'buttn';
 	toolRotateButton.innerHTML = iconEmojis[ "Rotate" ];
-	toolRotateButton.title = "Rotate tool (r) (Not implemented yet)"
+	toolRotateButton.title = "Rotate tool (r)"
 	toolRotateButton.addEventListener( 'click', rotateToolButtonFunc );
-	setButtonDisabled( toolRotateButton, selectionModeModel );
 	toolsDiv.appendChild( toolRotateButton );
+	toolButtons.push( toolRotateButton );
 
 	const toolScaleButton = document.createElement( 'div' );
 	toolScaleButton.className = 'buttn';
 	toolScaleButton.innerHTML = iconEmojis[ "Scale" ];
-	toolScaleButton.title = "Scale tool (s) (Not implemented yet)"
+	toolScaleButton.title = "Scale tool (s)"
 	toolScaleButton.addEventListener( 'click', scaleToolButtonFunc );
-	setButtonDisabled( toolScaleButton, selectionModeModel );
 	toolsDiv.appendChild( toolScaleButton );
+	toolButtons.push( toolScaleButton );
 
 
 

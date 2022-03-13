@@ -28,7 +28,7 @@ function exportModel( model, format, scale ) {
 
 			new ColladaExporter().parse( model, ( data ) => {
 
-				saveFile( removeFilenameExtension( guiData.modelFileName ) + ".dae", new Blob( [ data.data ] ) );
+				saveFile( removeFilenameExtension( model.userData.fileName ) + ".dae", new Blob( [ data.data ] ) );
 
 			} );
 			break;
@@ -39,7 +39,7 @@ function exportModel( model, format, scale ) {
 				model,
 				( data ) => {
 
-					saveFile( removeFilenameExtension( guiData.modelFileName ) + ".glb", new Blob( [ data ] ) );
+					saveFile( removeFilenameExtension( model.userData.fileName ) + ".glb", new Blob( [ data ] ) );
 
 				},
 				( err ) => {

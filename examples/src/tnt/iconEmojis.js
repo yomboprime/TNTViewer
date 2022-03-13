@@ -22,7 +22,8 @@ const iconEmojis = {
     "TrashBin": "🗑",
     "Gear": "⚙️",
     "Floppy": "💾",
-    "Color": "🎨"
+    "Color": "🎨",
+    "Clone": "🐑"
 
 };
 
