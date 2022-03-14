@@ -24,7 +24,8 @@ const iconEmojis = {
     "Floppy": "💾",
     "Color": "🎨",
     "Clone": "🐑",
-    "World": "🌐"
+    "World": "🌐",
+    "Ruler": "📏"
 
 };
 

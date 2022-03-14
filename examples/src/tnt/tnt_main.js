@@ -73,7 +73,7 @@ let pauseOnNextStepStep;
 const clock = new THREE.Clock();
 let curve;
 
-let guiCreated, gui, gui2, infoFolder, optionsFolder, exportFolder;
+let guiCreated, gui, gui2, gui3, infoFolder, optionsFolder, exportFolder;
 let timeFactorController;
 let constructionStepController;
 let modelTitleController;
@@ -135,10 +135,10 @@ let toolButtons;
 
 const DEFAULT_ROTATION_SNAP = 15;
 const DEFAULT_SCALE_SNAP = 0.5;
-let translationSnap = 1;
-let translationSnapVertical = 1;
-let rotationSnap = DEFAULT_ROTATION_SNAP;
-let scaleSnap = DEFAULT_SCALE_SNAP;
+let translationSnap;
+let translationSnapVertical;
+let rotationSnap;
+let scaleSnap;
 
 let localCoordinateSystem = true;
 
@@ -227,7 +227,6 @@ function init() {
 	transformControls = new TransformControls( camera, renderer.domElement );
 	transformControls.setMode( 'translate' );
 	transformControls.setSpace( 'local' );
-	setFineSnap( false );
 	transformControls.addEventListener( 'change', triggerRender );
 	transformControls.addEventListener( 'objectChange', () => {
 
@@ -329,6 +328,15 @@ function init() {
 			let exportScale = 1;
 			if ( isOptionSet( 'exportScale' ) ) exportScale = getOption( 'exportScale' );
 
+			translationSnap = constructionSets[ currentConstructionSet ].translationSnap;
+			translationSnapVertical = constructionSets[ currentConstructionSet ].translationSnapVertical;
+			rotationSnap = DEFAULT_ROTATION_SNAP;
+			scaleSnap = DEFAULT_SCALE_SNAP;
+			if ( isOptionSet( 'horizontalTranslationSnap' ) ) translationSnap = getOption( 'horizontalTranslationSnap' );
+			if ( isOptionSet( 'verticalTranslationSnap' ) ) translationSnapVertical = getOption( 'verticalTranslationSnap' );
+			if ( isOptionSet( 'rotationSnap' ) ) rotationSnap = getOption( 'rotationSnap' );
+			if ( isOptionSet( 'scaleSnap' ) ) scaleSnap = getOption( 'scaleSnap' );
+
 			guiData = {
 				displayLines: displayLines,
 				backgroundColor: backgroundColor,
@@ -346,8 +354,14 @@ function init() {
 				exportGLTF: () => { exportModel( 'gltf' ); },
 				exportDAE: () => { exportModel( 'dae' ); },
 				exportOBJ: () => { exportModel( 'obj' ); },
-				showBOM: showBOM
+				showBOM: showBOM,
+				translationSnap: translationSnap,
+				translationSnapVertical: translationSnapVertical,
+				rotationSnap: rotationSnap,
+				scaleSnap: scaleSnap
 			};
+
+			setFineSnap( false );
 
 			window.addEventListener( 'resize', onWindowResize );
 
@@ -1070,14 +1084,14 @@ function setFineSnap( fine ) {
 		translationSnap = 1;
 		translationSnapVertical = 1;
 		rotationSnap = 1;
-		scaleSnap = 0.01;
+		scaleSnap = 0.05;
 
 	} else {
 
-		translationSnap = constructionSets[ currentConstructionSet ].translationSnap;
-		translationSnapVertical = constructionSets[ currentConstructionSet ].translationSnapVertical;
-		rotationSnap = DEFAULT_ROTATION_SNAP;
-		scaleSnap = DEFAULT_SCALE_SNAP;
+		translationSnap = guiData.translationSnap;
+		translationSnapVertical = guiData.translationSnapVertical;
+		rotationSnap = guiData.rotationSnap;
+		scaleSnap = guiData.scaleSnap;
 
 	}
 
@@ -2044,6 +2058,7 @@ function createGUI() {
 		infoFolder.destroy();
 		optionsFolder.destroy();
 		exportFolder.destroy();
+		gui3.destroy();
 
 	}
 
@@ -2384,6 +2399,25 @@ function createGUI() {
 	toolsDiv.appendChild( toggleCoordinateSystemButton );
 
 
+	gui3 = new GUI( { width: GUI_WIDTH, container: editorPanel } );
+	gui3.title( iconEmojis[ "Ruler" ] + " Grid" );
+	gui3.add( guiData, 'translationSnap' ).name( 'Horizontal snap' ).onChange( () => {
+		setFineSnap( false );
+		setOption( 'horizontalTranslationSnap', guiData.translationSnap );
+	} );
+	gui3.add( guiData, 'translationSnapVertical' ).name( 'Vertical snap' ).onChange( () => {
+		setFineSnap( false );
+		setOption( 'verticalTranslationSnap', guiData.translationSnapVertical );
+	} );
+	gui3.add( guiData, 'rotationSnap' ).name( 'Rotation snap' ).onChange( () => {
+		setFineSnap( false );
+		setOption( 'rotationSnap', guiData.rotationSnap );
+	} );
+	gui3.add( guiData, 'scaleSnap' ).name( 'Scale snap' ).onChange( () => {
+		setFineSnap( false );
+		setOption( 'scaleSnap', guiData.scaleSnap );
+	} );
+	gui3.close();
 
 	const infoPanel = document.createElement( 'div' );
 	secondPanel.appendChild( infoPanel );
