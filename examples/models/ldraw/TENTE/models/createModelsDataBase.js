@@ -20,7 +20,9 @@ const dataBase = {
 	modelPathsList: [],
 
 	parts: {},
-	partsPathsList: []
+	partsPathsList: [],
+
+	colorsCodesList: []
 
 };
 
@@ -40,6 +42,10 @@ function copyP( orig, dest ) {
 copyP( '../p/BOX4.DAT', '../p/box4.dat' );
 copyP( '../p/BOX5.DAT', '../p/box5.dat' );
 */
+
+console.log( "Reading materials library ..." );
+
+const materialLibrary = loadMaterialLibrary();
 
 console.log( "Reading source database ..." );
 
@@ -309,6 +315,89 @@ for ( let i in dataBase.modelPathsList ) {
 
 	}
 
+	scanModelColors( modelPath, dataBase.colorsCodesList );
+
+}
+
+dataBase.colorsCodesList.sort();
+
+function scanModelColors( modelPath, listToAdd ) {
+
+	let modelConstents = readTextFileSync( pathJoin( __dirname, modelPath ), "utf-8" );
+	if ( modelConstents === null ) {
+
+		console.log();
+		console.log( "Error reading model file: " + modelPath );
+		process.exit( - 1 );
+
+	}
+
+	const lines = modelConstents.toString().split( '\n' );
+
+	for ( let l in lines ) {
+
+		const line = lines[ l ];
+
+		if ( line.startsWith( '1 ' ) ) {
+
+			let spacePos = 2;
+			let n = line.length;
+			while ( spacePos < n && line[ spacePos ] !== ' ' ) spacePos ++;
+			const colorCodeNumeric = parseInt( line.substring( 2, spacePos ) );
+			const colorCode = colorCodeNumeric.toString();
+			if ( ! isNaN( colorCodeNumeric ) && ! listToAdd.includes( colorCode ) ) {
+
+				if ( ! materialLibrary.includes( colorCode ) ) {
+
+					console.log( "****** ERROR: The color code " + colorCode + " was not found in materials library but it is used in the model: " + modelPath );
+				}
+
+				listToAdd.push( colorCode );
+
+			}
+
+		}
+	}
+
+}
+
+function loadMaterialLibrary() {
+
+	const materialLibraryPath = '../LDCONFIG.LDR';
+	let materialLibraryContents = readTextFileSync( pathJoin( __dirname, materialLibraryPath ), "utf-8" );
+
+	if ( materialLibraryContents === null ) {
+
+		console.log();
+		console.log( "Error reading material library file: " + materialLibraryPath );
+		process.exit( - 1 );
+
+	}
+
+	const lines = materialLibraryContents.toString().split( '\n' );
+
+	const library = [];
+
+	for ( let l in lines ) {
+
+		const line = lines[ l ];
+		if ( ! line.startsWith( '0 !COLOUR ' ) ) continue;
+
+		const codePos = line.indexOf( 'CODE ', '0 !COLOUR '.length );
+		if ( codePos < 0 ) continue;
+
+		const spacePos0 = codePos + 'CODE '.length;
+		let spacePos = spacePos0;
+		let n = line.length;
+		while ( spacePos < n && line[ spacePos ] !== ' ' ) spacePos ++;
+		const colorCodeNumeric = parseInt( line.substring( spacePos0, spacePos ) );
+		const colorCode = colorCodeNumeric.toString();
+		if ( ! isNaN( colorCodeNumeric ) && ! library.includes( colorCode ) ) library.push( colorCode );
+
+	}
+
+	return library;
+
 }
 
 function editModelByDataBase( model, pathFields ) {
@@ -339,6 +428,8 @@ console.log();
 console.log( "Total models: " + dataBase.modelPathsList.length );
 
 console.log( "Num. models in source database: " + numModelsInSourceDataBase );
+
+console.log( "Number of used colors in database models: " + dataBase.colorsCodesList.length );
 
 console.log( "Writing models.json ..." );
 

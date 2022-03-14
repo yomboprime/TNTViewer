@@ -259,14 +259,14 @@ function init() {
 	lDrawLoader.setPath( getLibraryPath( currentConstructionSet ) );
 	lDrawLoader.preloadMaterials( 'LDCONFIG.LDR' ).then( () => {
 
-		colorsData = createColorsData();
-
 		lDrawLoader.setPartsLibraryPath( getLibraryPath( currentConstructionSet ) );
 		lDrawLoader.setPath( getModelPath( currentConstructionSet ) );
 
 		getModelsDataBase( currentConstructionSet, ( db ) => {
 
 			dataBase = db;
+
+			colorsData = createColorsData();
 
 			// Load config
 			//localStorage.clear();
@@ -2639,7 +2639,7 @@ function showSelectLDrawModelFromRepo() {
 
 	} );
 
-	const infoLine = "Select a model to load from the list. There are " + data.length + " models.";
+	const infoLine = "Please select a model to load from the list. There are " + data.length + " models.";
 
 	function onOK( rowIndex ) {
 
@@ -2681,7 +2681,7 @@ function showSelectLDrawPartFromRepo( model ) {
 
 	} );
 
-	const infoLine = "Select the part to add from the list.";
+	const infoLine = "Please select the part to add from the list.";
 
 	function onOK( rowIndex ) {
 
@@ -2696,7 +2696,8 @@ function showSelectLDrawPartFromRepo( model ) {
 
 function createColorsData() {
 
-	const materialsCodes = Object.keys( lDrawLoader.materialLibrary );
+	//const materialsCodes = Object.keys( lDrawLoader.materialLibrary );
+	const materialsCodes = dataBase.colorsCodesList;
 
 	const data = [];
 
@@ -2705,13 +2706,31 @@ function createColorsData() {
 		const colorCode = materialsCodes[ colorIndex ];
 		const mat = lDrawLoader.materialLibrary[ colorCode ];
 
+		if ( ! mat ) {
+
+			console.log( "MATERIAL NOT FOUND: " + colorCode );
+			continue;
+
+		}
+
+		const rgb = mat.color.getHexString();
+		const text = mat.transparent ? 'T' : '';
+		const textColorRGB = new THREE.Color( 1 - mat.color.r, 1 - mat.color.g, 1 - mat.color.b ).getHexString();
+
 		data.push( {
+			color: '<div style="width: 50px; height: 25px; background-color: #' + rgb + '; color: #' + textColorRGB + '; ">' + text + '</div>',
 			name: mat.name,
-			code: colorCode,
-			color: mat.name
+			code: colorCode
 		} );
 
 	}
+
+	data.sort( ( a, b ) => {
+
+		if ( parseInt( a[ 'code' ] ) === parseInt( b[ 'code' ] ) ) return 0;
+		return parseInt( a[ 'code' ] ) < parseInt( b[ 'code' ] ) ? - 1 : 1;
+
+	} );
 
 	return data;
 
@@ -2735,24 +2754,17 @@ function showSelectLDrawColorCode( onResult ) {
 	colorSelectPanel = deleteSelectTable( colorSelectPanel );
 
 	const columns = [
+		'color',
 		'name',
-		'code',
-		'color'
+		'code'
 	];
 
 	const columnsNames = [
+		"Color",
 		"Name",
-		"Code",
-		"Color"
+		"Code"
 	];
-
-	colorsData.sort( ( a, b ) => {
-
-		if ( parseInt( a[ 'code' ] ) === parseInt( b[ 'code' ] ) ) return 0;
-		return parseInt( a[ 'code' ] ) < parseInt( b[ 'code' ] ) ? - 1 : 1;
-
-	} );
-
+//kk
 	const infoLine = "Please select a color from the list.";
 
 	function onOK( rowIndex ) {
