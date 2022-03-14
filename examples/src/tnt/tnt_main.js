@@ -368,7 +368,7 @@ function init() {
 
 			// Key events
 
-			window.addEventListener( 'keydown', ( event ) => {
+			renderer.domElement.addEventListener( 'keydown', ( event ) => {
 
 				//if ( event.defaultPrevented ) {
 					// Do nothing if the event was already processed
@@ -435,7 +435,7 @@ function init() {
 
 			}, false );
 
-			window.addEventListener( 'keyup', ( event ) => {
+			renderer.domElement.addEventListener( 'keyup', ( event ) => {
 
 				//if ( event.defaultPrevented ) {
 					// Do nothing if the event was already processed
@@ -2648,7 +2648,7 @@ function showSelectLDrawModelFromRepo() {
 
 	}
 
-	modelSelectPanel = showSelectTable( 'Ok', onOK, null, infoLine, columns, columnsNames, data, true, selectedModelRowIndex );
+	modelSelectPanel = showSelectTable( 'Ok', onOK, null, infoLine, columns, columnsNames, data, true, selectedModelRowIndex, true );
 
 }
 
@@ -2690,7 +2690,7 @@ function showSelectLDrawPartFromRepo( model ) {
 
 	}
 
-	partSelectPanel = showSelectTable( 'Ok', onOK, null, infoLine, columns, columnsNames, data, true, selectedPartRowIndex );
+	partSelectPanel = showSelectTable( 'Ok', onOK, null, infoLine, columns, columnsNames, data, true, selectedPartRowIndex, true );
 
 }
 
@@ -2764,7 +2764,7 @@ function showSelectLDrawColorCode( onResult ) {
 		"Name",
 		"Code"
 	];
-//kk
+
 	const infoLine = "Please select a color from the list.";
 
 	function onOK( rowIndex ) {
@@ -2781,7 +2781,7 @@ function showSelectLDrawColorCode( onResult ) {
 
 	}
 
-	colorSelectPanel = showSelectTable( 'Ok', onOK, onCancel, infoLine, columns, columnsNames, colorsData, true, selectedColorRowIndex );
+	colorSelectPanel = showSelectTable( 'Ok', onOK, onCancel, infoLine, columns, columnsNames, colorsData, true, selectedColorRowIndex, true );
 
 }
 
@@ -2796,7 +2796,7 @@ function deleteSelectTable( panel ) {
 	return null;
 }
 
-function showSelectTable( buttonLabel, onButtonClicked, onCloseCancel, infoLine, columns, columnsNames, data, rowSelection, preselectedRow ) {
+function showSelectTable( buttonLabel, onButtonClicked, onCloseCancel, infoLine, columns, columnsNames, data, rowSelection, preselectedRow, filterEnabled ) {
 
 	const listDiv = document.createElement( 'div' );
 	listDiv.style.backgroundColor = 'black';
@@ -2849,8 +2849,33 @@ function showSelectTable( buttonLabel, onButtonClicked, onCloseCancel, infoLine,
 
 	}
 
+	let filterEditBox;
+	if ( filterEnabled ) {
+
+		filterEditBox = document.createElement( 'input' );
+		filterEditBox.type = 'text';
+		filterEditBox.size = 15;
+		filterEditBox.style.marginLeft = "15px";
+		filterEditBox.placeholder = 'Type here to filter...';
+		filterEditBox.addEventListener( 'input', () => {
+
+			const filter = filterEditBox.value.toLowerCase();
+			applyFilter( filter );
+
+		} );
+		buttonsDiv.appendChild( filterEditBox );
+
+		function applyFilter( filter ) {
+
+			for ( let r in tableDataRows ) {
+
+				tableDataRows[ r ].filterText( filter );
+			}
+		}
+	}
+
 	const infoLineSpan = document.createElement( 'span' );
-	infoLineSpan.style.paddingLeft = "30px";
+	infoLineSpan.style.paddingLeft = "15px";
 	infoLineSpan.innerHTML = infoLine;
 	buttonsDiv.appendChild( infoLineSpan );
 
@@ -2867,6 +2892,8 @@ function showSelectTable( buttonLabel, onButtonClicked, onCloseCancel, infoLine,
 
 	let preselectedDataRow = null;
 	let preselectedDataRowFunc = null;
+
+	let tableDataRows = [];
 
 	function createRow( index ) {
 
@@ -2900,11 +2927,23 @@ function showSelectTable( buttonLabel, onButtonClicked, onCloseCancel, infoLine,
 		const row = data[ index ];
 		const tableDataRow = document.createElement( 'tr' );
 
+		let rowText = '';
 		for ( let c in columns ) {
 
 			const d = document.createElement( 'td' );
-			d.innerHTML = "" + row[ columns[ c ] ];
+			const cellContent = "" + row[ columns[ c ] ];
+			d.innerHTML = cellContent;
+			rowText += cellContent + " ";
 			tableDataRow.appendChild( d );
+
+		}
+		rowText = rowText.toLowerCase();
+
+		tableDataRow.filterText = ( filter ) => {
+
+			const filtered = rowText.indexOf( filter ) < 0;
+
+			tableDataRow.hidden = filtered;
 
 		}
 
@@ -2928,6 +2967,7 @@ function showSelectTable( buttonLabel, onButtonClicked, onCloseCancel, infoLine,
 		}
 
 		table.appendChild( tableDataRow );
+		tableDataRows.push( tableDataRow );
 
 	}
 
