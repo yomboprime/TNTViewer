@@ -99,6 +99,8 @@ let toolScaleButton;
 let addPartButton;
 let deleteSelectionButton;
 
+let cloneButton;
+
 let infoDiv;
 
 let bomPanel;
@@ -368,7 +370,7 @@ function init() {
 
 			// Key events
 
-			renderer.domElement.addEventListener( 'keydown', ( event ) => {
+			window.addEventListener( 'keydown', ( event ) => {
 
 				//if ( event.defaultPrevented ) {
 					// Do nothing if the event was already processed
@@ -385,31 +387,31 @@ function init() {
 					*/
 
 					case 'ArrowLeft':
-						goToPrevStep();
+						if ( ! lastOpenPanel ) goToPrevStep();
 						break;
 
 					case 'ArrowRight':
-						goToNextStep();
+						if ( ! lastOpenPanel ) goToNextStep();
 						break;
 
 					case ' ':
-						animationButtonFunc();
+						if ( ! lastOpenPanel ) animationButtonFunc();
 						break;
 
 					case 'v':
-						centerCameraInObject();
+						if ( ! lastOpenPanel ) centerCameraInObject();
 						break;
 
 					case 'c':
-						selectColor();
+						if ( ! lastOpenPanel ) selectColor();
 						break;
 
 					case 'l':
-						toggleCoordinateSystem();
+						if ( ! lastOpenPanel ) toggleCoordinateSystem();
 						break;
 
 					case 'Delete':
-						deleteSelection();
+						if ( ! lastOpenPanel ) deleteSelection();
 						break;
 
 					case 'Enter':
@@ -435,7 +437,7 @@ function init() {
 
 			}, false );
 
-			renderer.domElement.addEventListener( 'keyup', ( event ) => {
+			window.addEventListener( 'keyup', ( event ) => {
 
 				//if ( event.defaultPrevented ) {
 					// Do nothing if the event was already processed
@@ -519,6 +521,7 @@ function init() {
 
 			models = [];
 
+			// TODO use onOK in this call:
 			if ( initialModel ) loadLDrawModelFromRepo( initialModel );
 
 			createGUI();
@@ -689,106 +692,15 @@ function updateObjectsVisibility() {
 
 }
 
-function loadLDrawModelFromRepo( modelFileName, parentModel ) {
+function loadLDrawModelFromRepo( modelFileName, parentModel, onLoaded ) {
 
 	updateProgressBar( 0 );
 	showProgressBar();
 
 	lDrawLoader.load( modelFileName, function ( model1 ) {
 
-		if ( parentModel ) {
-
-			parentModel.add( model1 );
-			model1.userData.type = 'Unofficial_Part';
-			if ( model1.userData.fileName.startsWith( '../parts/' ) ) {
-
-				model1.userData.fileName = model1.userData.fileName.substring( '../parts/'.length );
-
-			}
-			model1.userData.colorCode = '16';
-
-		}
-		else {
-
-			models.push( model1 );
-			scene.add( model1 );
-
-		}
-
-		// Convert from LDraw coordinate system: rotate 180 degrees around X axis
-		if ( ! parentModel ) model1.rotation.x = Math.PI;
-
-		createModelBBox( model1 );
-
-		// Put above floor
-		//if ( ! parentModel ) model1.position.y = - model1.userData.modelBbox.min.y;
-
-		// Extrude a little bit the stickers
-		const stickers = [];
-		model1.traverse( c => {
-
-			if ( c.userData.fileName ) {
-
-				const part = getDataBasePart( c );
-				if ( part && part.title.indexOf( 'Etique' ) >= 0 ) stickers.push( c );
-
-			}
-
-		} );
-		for ( let s in stickers ) {
-
-			stickers[ s ].traverse( c => {
-
-				if ( c.isMesh ) {
-
-					const vertices = c.geometry.getAttribute( 'position' ).array;
-					const normals = c.geometry.getAttribute( 'normal' ).array;
-
-					for ( let ip = 0, np = vertices.length; ip < np; ip += 3 ) {
-
-						vector3Temp1.fromArray( vertices, ip );
-						vector3Temp2.fromArray( normals, ip );
-						vector3Temp3.copy( vector3Temp2 ).setLength( 0.5 );
-						vector3Temp1.add( vector3Temp3 );
-						vector3Temp1.toArray( vertices, ip );
-
-					}
-
-				}
-
-			} );
-
-		}
-
-		updateObjectsVisibility();
-
-		if ( parentModel ) applyMainMaterialToPart( model1, selectedColorCode );
-
-		if ( ! parentModel ) {
-
-			const pos = model1.userData.modelBbox.getCenter( vector3Temp1 );
-			pos.y += model1.position.y;
-			setCamera( model1, pos.x, pos.y, pos.z );
-
-			selectionModeModel = true;
-			setButtonDisabled( selectionModePartButton, false );
-			setButtonDisabled( selectionModeModelButton, true );
-
-		}
-		else {
-
-			selectionModeModel = false;
-			setButtonDisabled( selectionModePartButton, true );
-			setButtonDisabled( selectionModeModelButton, false );
-
-		}
-
-		setFineSnap( false );
-		selectPart( model1 );
-
-		hideProgressBar();
-
-		triggerRender();
+		addLDrawPartOrModel( model1/*.clone()*/, parentModel );
+		onLoaded( model1 );
 
 	}, onProgress, onError );
 
@@ -932,7 +844,7 @@ function searchModelByField( field, value ) {
 
 function createModelBBox( model ) {
 
-	if ( ! model.userData.modelBbox ) model.userData.modelBbox = new THREE.Box3();
+	if ( ! model.userData.modelBbox || ! model.userData.modelBbox.setFromObject ) model.userData.modelBbox = new THREE.Box3();
 
 	model.userData.modelBbox.setFromObject( model );
 
@@ -1159,13 +1071,7 @@ function selectColor() {
 
 }
 
-function addLDrawModel() {
-
-	showSelectLDrawModelFromRepo();
-
-}
-
-function addLDrawPart() {
+function showSelectAddLDrawPart() {
 
 	if ( ! selectedPart ) return;
 
@@ -1174,15 +1080,47 @@ function addLDrawPart() {
 	if ( ! selectedPart ) return;
 
 	const selectedModel = selectedPart;
-	showSelectLDrawPartFromRepo( selectedModel );
+	showSelectLDrawPartFromRepo( selectedModel, ( part ) => {
 
+		setSelectionModeModel( false );
+		selectPart( part );
+
+		setFineSnap( false );
+		hideProgressBar();
+		triggerRender();
+
+	} );
 
 }
 
-function addLDrawModelFromFile() {
+function createNewEmptyModel() {
+
+	const model = new THREE.Group();
+	model.userData.fileName = "sdfsdfsdfs";
+	model.userData.type = "Model";
+	model.userData.colorCode = "16";
+	model.userData.numConstructionSteps = 1;
+	model.userData.constructionStep = 0;
+
+	showSelectLDrawPartFromRepo( model, ( part ) => {
+
+		addLDrawPartOrModel( model );
+
+		setSelectionModeModel( false );
+		selectPart( part );
+
+		setFineSnap( false );
+		hideProgressBar();
+		triggerRender();
+
+	} );
+
 }
 
-function addNonLDrawModelFromFile() {
+function showSelectLDrawModelFromFile() {
+}
+
+function showSelectNonLDrawModelFromFile() {
 }
 
 function deleteSelection() {
@@ -1205,6 +1143,76 @@ function deleteSelection() {
 	}
 
 	triggerRender();
+
+}
+
+function addLDrawPartOrModel( model, parentModel ) {
+
+	if ( parentModel ) {
+
+		parentModel.add( model );
+		model.userData.type = 'Unofficial_Part';
+		if ( model.userData.fileName.startsWith( '../parts/' ) ) {
+
+			model.userData.fileName = model.userData.fileName.substring( '../parts/'.length );
+
+		}
+		model.userData.colorCode = '16';
+
+	}
+	else {
+
+		models.push( model );
+		scene.add( model );
+
+	}
+
+	// Convert from LDraw coordinate system: rotate 180 degrees around X axis
+	if ( ! parentModel ) model.rotation.x = Math.PI;
+
+	createModelBBox( model );
+
+	// Put above floor
+	//if ( ! parentModel ) model.position.y = - model.userData.modelBbox.min.y;
+
+	// Extrude a little bit the stickers
+	const stickers = [];
+	model.traverse( c => {
+
+		if ( c.userData.fileName ) {
+
+			const part = getDataBasePart( c );
+			if ( part && part.title.indexOf( 'Etique' ) >= 0 ) stickers.push( c );
+
+		}
+
+	} );
+	for ( let s in stickers ) {
+
+		stickers[ s ].traverse( c => {
+
+			if ( c.isMesh ) {
+
+				const vertices = c.geometry.getAttribute( 'position' ).array;
+				const normals = c.geometry.getAttribute( 'normal' ).array;
+
+				for ( let ip = 0, np = vertices.length; ip < np; ip += 3 ) {
+
+					vector3Temp1.fromArray( vertices, ip );
+					vector3Temp2.fromArray( normals, ip );
+					vector3Temp3.copy( vector3Temp2 ).setLength( 0.5 );
+					vector3Temp1.add( vector3Temp3 );
+					vector3Temp1.toArray( vertices, ip );
+
+				}
+
+			}
+
+		} );
+
+	}
+
+	if ( parentModel ) applyMainMaterialToPart( model, selectedColorCode );
 
 }
 
@@ -1295,6 +1303,57 @@ function applyMainMaterialToPart( part, colorCode ) {
 
 }
 
+function undo() {
+}
+
+function redo() {
+}
+
+function cloneSelection() {
+
+	if ( ! selectedPart ) return;
+
+	if ( selectionModeModel ) {
+
+		const clone = selectedPart.clone();
+		models.push( clone );
+		scene.add( clone );
+		selectPart( clone );
+
+	} else {
+
+		const model = getPartModel( selectedPart );
+		if ( ! model ) return;
+		const clone = selectedPart.clone();
+		model.add( clone );
+		selectPart( clone );
+
+	}
+
+}
+
+function setSelectionModeModel( set ) {
+
+	if ( selectionModeModel === set ) return;
+
+	selectPart( null );
+
+	if ( set ) {
+
+		selectionModeModel = true;
+		setButtonDisabled( selectionModePartButton, false );
+		setButtonDisabled( selectionModeModelButton, true );
+
+	} else {
+
+		selectionModeModel = false;
+		setButtonDisabled( selectionModePartButton, true );
+		setButtonDisabled( selectionModeModelButton, false );
+
+	}
+
+}
+
 function selectPart( part ) {
 
 	if ( selectionModeModel ) {
@@ -1329,6 +1388,7 @@ function selectPart( part ) {
 
 		setButtonDisabled( addPartButton, false );
 		setButtonDisabled( deleteSelectionButton, false );
+		setButtonDisabled( cloneButton, false );
 
 	}
 	else {
@@ -1348,6 +1408,7 @@ function selectPart( part ) {
 
 		setButtonDisabled( addPartButton, true );
 		setButtonDisabled( deleteSelectionButton, true );
+		setButtonDisabled( cloneButton, true );
 
 	}
 
@@ -2084,38 +2145,38 @@ function createGUI() {
 	const addModelButton = document.createElement( 'div' );
 	addModelButton.className = 'buttn iconbtn';
 	addModelButton.innerHTML = iconEmojis[ "Plus" ] + iconEmojis[ "Model" ];
-	addModelButton.title = "Add LDraw model..."
-	addModelButton.addEventListener( 'click', addLDrawModel );
+	addModelButton.title = "Add LDraw model...";
+	addModelButton.addEventListener( 'click', showSelectLDrawModelFromRepo );
 	fileDiv.appendChild( addModelButton );
 
 	addPartButton = document.createElement( 'div' );
 	addPartButton.className = 'buttn iconbtn';
 	addPartButton.innerHTML = iconEmojis[ "Plus" ] + iconEmojis[ "Part" ];
-	addPartButton.title = "Add LDraw part to selected model..."
-	addPartButton.addEventListener( 'click', addLDrawPart );
+	addPartButton.title = "Add LDraw part to selected model...";
+	addPartButton.addEventListener( 'click', showSelectAddLDrawPart );
 	setButtonDisabled( addPartButton, true );
 	fileDiv.appendChild( addPartButton );
 
 	const addModelFromFileButton = document.createElement( 'div' );
 	addModelFromFileButton.className = 'buttn iconbtn';
 	addModelFromFileButton.innerHTML = iconEmojis[ "Plus" ] + iconEmojis[ "File" ];
-	addModelFromFileButton.title = "Add LDraw model from file... (not implemented yet)"
-	addModelFromFileButton.addEventListener( 'click', addLDrawModelFromFile );
+	addModelFromFileButton.title = "Add LDraw model from file... (not implemented yet)";
+	addModelFromFileButton.addEventListener( 'click', showSelectLDrawModelFromFile );
 	setButtonDisabled( addModelFromFileButton, true );
 	fileDiv.appendChild( addModelFromFileButton );
 
 	const addNonLDrawModelFromFileButton = document.createElement( 'div' );
 	addNonLDrawModelFromFileButton.className = 'buttn iconbtn';
 	addNonLDrawModelFromFileButton.innerHTML = iconEmojis[ "Plus" ] + iconEmojis[ "File" ];
-	addNonLDrawModelFromFileButton.title = "Add non-LDraw model from file... (not implemented yet)"
-	addNonLDrawModelFromFileButton.addEventListener( 'click', addNonLDrawModelFromFile );
+	addNonLDrawModelFromFileButton.title = "Add non-LDraw model from file... (not implemented yet)";
+	addNonLDrawModelFromFileButton.addEventListener( 'click', showSelectNonLDrawModelFromFile );
 	setButtonDisabled( addNonLDrawModelFromFileButton, true );
 	fileDiv.appendChild( addNonLDrawModelFromFileButton );
 
 	deleteSelectionButton = document.createElement( 'div' );
 	deleteSelectionButton.className = 'buttn iconbtn';
 	deleteSelectionButton.innerHTML = iconEmojis[ "TrashBin" ];
-	deleteSelectionButton.title = "Delete selection (Del)"
+	deleteSelectionButton.title = "Delete selection (Del)";
 	deleteSelectionButton.addEventListener( 'click', deleteSelection );
 	setButtonDisabled( deleteSelectionButton, true );
 	fileDiv.appendChild( deleteSelectionButton );
@@ -2256,28 +2317,28 @@ function createGUI() {
 	animationButton = document.createElement( 'div' );
 	animationButton.className = 'buttn animbtn';
 	animationButton.innerHTML = iconEmojis[ "Play" ];
-	animationButton.title = "Play/pause (Spacebar)"
+	animationButton.title = "Play/pause (Spacebar)";
 	animationButton.addEventListener( 'click', animationButtonFunc );
 	setButtonDisabled( animationButton, true );
 
 	stopAnimButton = document.createElement( 'div' );
 	stopAnimButton.className = 'buttn stopbtn';
 	stopAnimButton.innerHTML = iconEmojis[ "Stop" ];;
-	stopAnimButton.title = "Stop animation"
+	stopAnimButton.title = "Stop animation";
 	stopAnimButton.addEventListener( 'click', stopAnimation );
 	setButtonDisabled( stopAnimButton, true );
 
 	prevStepButton = document.createElement( 'div' );
 	prevStepButton.className = 'buttn prevbtn';
 	prevStepButton.innerHTML = iconEmojis[ "Previous" ];;
-	prevStepButton.title = "Previous step (Cursor left)"
+	prevStepButton.title = "Previous step (Cursor left)";
 	prevStepButton.addEventListener( 'click', goToPrevStep );
 	setButtonDisabled( prevStepButton, true );
 
 	nextStepButton = document.createElement( 'div' );
 	nextStepButton.className = 'buttn nextbtn';
 	nextStepButton.innerHTML = iconEmojis[ "Next" ];;
-	nextStepButton.title = "Next step (Cursor right)"
+	nextStepButton.title = "Next step (Cursor right)";
 	nextStepButton.addEventListener( 'click', goToNextStep );
 	setButtonDisabled( nextStepButton, true );
 
@@ -2301,7 +2362,7 @@ function createGUI() {
 	const centerViewButton = document.createElement( 'div' );
 	centerViewButton.className = 'buttn';
 	centerViewButton.innerHTML = "⦿";
-	centerViewButton.title = "Center view on selection (v)"
+	centerViewButton.title = "Center view on selection (v)";
 	centerViewButton.addEventListener( 'click', centerCameraInObject );
 	selectionDiv.appendChild( centerViewButton );
 
@@ -2311,7 +2372,7 @@ function createGUI() {
 
 	selectionModePartButton.className = 'buttn';
 	selectionModePartButton.innerHTML = "Part";
-	selectionModePartButton.title = "Selection mode: Part"
+	selectionModePartButton.title = "Selection mode: Part";
 	selectionModePartButton.addEventListener( 'click', () => {
 
 		if ( selectionModePartButton.disabled ) return;
@@ -2328,7 +2389,7 @@ function createGUI() {
 
 	selectionModeModelButton.className = 'buttn';
 	selectionModeModelButton.innerHTML = "Model";
-	selectionModeModelButton.title = "Selection mode: Model"
+	selectionModeModelButton.title = "Selection mode: Model";
 	selectionModeModelButton.addEventListener( 'click', () => {
 
 		if ( selectionModeModelButton.disabled ) return;
@@ -2361,40 +2422,40 @@ function createGUI() {
 	editorPanel.appendChild( toolsDiv );
 
 	const toolColorButton = document.createElement( 'div' );
-	toolColorButton.className = 'buttn';
+	toolColorButton.className = 'buttn iconbtn';
 	toolColorButton.innerHTML = iconEmojis[ "Color" ];
-	toolColorButton.title = "Select color (c)"
+	toolColorButton.title = "Select color (c)";
 	toolColorButton.addEventListener( 'click', colorToolButtonFunc );
 	toolsDiv.appendChild( toolColorButton );
 
 	const toolMoveButton = document.createElement( 'div' );
-	toolMoveButton.className = 'buttn';
+	toolMoveButton.className = 'buttn iconbtn';
 	toolMoveButton.innerHTML = iconEmojis[ "Move" ];
-	toolMoveButton.title = "Move tool (g)"
+	toolMoveButton.title = "Move tool (g)";
 	toolMoveButton.addEventListener( 'click', moveToolButtonFunc );
 	toolsDiv.appendChild( toolMoveButton );
 	toolButtons.push( toolMoveButton );
 
 	const toolRotateButton = document.createElement( 'div' );
-	toolRotateButton.className = 'buttn';
+	toolRotateButton.className = 'buttn iconbtn';
 	toolRotateButton.innerHTML = iconEmojis[ "Rotate" ];
-	toolRotateButton.title = "Rotate tool (r)"
+	toolRotateButton.title = "Rotate tool (r)";
 	toolRotateButton.addEventListener( 'click', rotateToolButtonFunc );
 	toolsDiv.appendChild( toolRotateButton );
 	toolButtons.push( toolRotateButton );
 
 	const toolScaleButton = document.createElement( 'div' );
-	toolScaleButton.className = 'buttn';
+	toolScaleButton.className = 'buttn iconbtn';
 	toolScaleButton.innerHTML = iconEmojis[ "Scale" ];
-	toolScaleButton.title = "Scale tool (s)"
+	toolScaleButton.title = "Scale tool (s)";
 	toolScaleButton.addEventListener( 'click', scaleToolButtonFunc );
 	toolsDiv.appendChild( toolScaleButton );
 	toolButtons.push( toolScaleButton );
 
 	const toggleCoordinateSystemButton = document.createElement( 'div' );
-	toggleCoordinateSystemButton.className = 'buttn';
+	toggleCoordinateSystemButton.className = 'buttn iconbtn';
 	toggleCoordinateSystemButton.innerHTML = iconEmojis[ "World" ];
-	toggleCoordinateSystemButton.title = "Toggle Local/World coordinates (l)"
+	toggleCoordinateSystemButton.title = "Toggle Local/World coordinates (l)";
 	toggleCoordinateSystemButton.addEventListener( 'click', toggleCoordinateSystem );
 	toolsDiv.appendChild( toggleCoordinateSystemButton );
 
@@ -2418,6 +2479,43 @@ function createGUI() {
 		setOption( 'scaleSnap', guiData.scaleSnap );
 	} );
 	gui3.close();
+
+
+	const tools2Div = document.createElement( 'div' );
+	tools2Div.className = 'playbackdiv';
+	editorPanel.appendChild( tools2Div );
+
+	const undoButton = document.createElement( 'div' );
+	undoButton.className = 'buttn iconbtn';
+	undoButton.innerHTML = iconEmojis[ "Undo" ];
+	undoButton.title = "Undo (Ctrl-z or u) (not implemented yet)";
+	undoButton.addEventListener( 'click', undo );
+	setButtonDisabled( undoButton, true );
+	tools2Div.appendChild( undoButton );
+
+	const redoButton = document.createElement( 'div' );
+	redoButton.className = 'buttn iconbtn';
+	redoButton.innerHTML = iconEmojis[ "Redo" ];
+	redoButton.title = "Redo (Shift-Ctrl-z or Shift-u) (not implemented yet)";
+	redoButton.addEventListener( 'click', redo );
+	setButtonDisabled( redoButton, true );
+	tools2Div.appendChild( redoButton );
+
+	cloneButton = document.createElement( 'div' );
+	cloneButton.className = 'buttn iconbtn';
+	cloneButton.innerHTML = iconEmojis[ "Clone" ];
+	cloneButton.title = "Clone selection (n)";
+	cloneButton.addEventListener( 'click', cloneSelection );
+	setButtonDisabled( cloneButton, true );
+	tools2Div.appendChild( cloneButton );
+
+	const newModelButton = document.createElement( 'div' );
+	newModelButton.className = 'buttn iconbtn';
+	newModelButton.innerHTML = iconEmojis[ "Pin" ] + iconEmojis[ "Model" ];
+	newModelButton.title = "Create new model...";
+	newModelButton.addEventListener( 'click', createNewEmptyModel );
+	tools2Div.appendChild( newModelButton );
+
 
 	const infoPanel = document.createElement( 'div' );
 	secondPanel.appendChild( infoPanel );
@@ -2644,7 +2742,24 @@ function showSelectLDrawModelFromRepo() {
 	function onOK( rowIndex ) {
 
 		selectedModelRowIndex = rowIndex;
-		loadLDrawModelFromRepo( data[ rowIndex ].path );
+		loadLDrawModelFromRepo( data[ rowIndex ].path, null, ( model ) => {
+
+			// TODO revise camera repositioning and object apparent zoom
+			const pos = model.userData.modelBbox.getCenter( vector3Temp1 );
+			pos.y += model.position.y;
+			setCamera( model, pos.x, pos.y, pos.z );
+
+			setSelectionModeModel( true );
+			selectPart( model );
+
+			setFineSnap( false );
+
+			updateObjectsVisibility();
+
+			hideProgressBar();
+			triggerRender();
+
+		} );
 
 	}
 
@@ -2652,7 +2767,7 @@ function showSelectLDrawModelFromRepo() {
 
 }
 
-function showSelectLDrawPartFromRepo( model ) {
+function showSelectLDrawPartFromRepo( parentModel, onOK ) {
 
 	partSelectPanel = deleteSelectTable( partSelectPanel );
 
@@ -2683,14 +2798,18 @@ function showSelectLDrawPartFromRepo( model ) {
 
 	const infoLine = "Please select the part to add from the list.";
 
-	function onOK( rowIndex ) {
+	function onSelectOK( rowIndex ) {
 
 		selectedPartRowIndex = rowIndex;
-		loadLDrawModelFromRepo( "../parts/" + data[ rowIndex ].path, model );
+		loadLDrawModelFromRepo( "../parts/" + data[ rowIndex ].path, parentModel, ( part ) => {
+
+			onOK( part );
+
+		} );
 
 	}
 
-	partSelectPanel = showSelectTable( 'Ok', onOK, null, infoLine, columns, columnsNames, data, true, selectedPartRowIndex, true );
+	partSelectPanel = showSelectTable( 'Ok', onSelectOK, null, infoLine, columns, columnsNames, data, true, selectedPartRowIndex, true );
 
 }
 
@@ -2787,9 +2906,12 @@ function showSelectLDrawColorCode( onResult ) {
 
 function deleteSelectTable( panel ) {
 
+	//const containerElement = document.body;
+	const containerElement = container;
+
 	if ( panel ) {
 
-		if ( container.contains( panel.div ) ) container.removeChild( panel.div );
+		if ( containerElement.contains( panel.div ) ) containerElement.removeChild( panel.div );
 
 	}
 
@@ -2797,6 +2919,9 @@ function deleteSelectTable( panel ) {
 }
 
 function showSelectTable( buttonLabel, onButtonClicked, onCloseCancel, infoLine, columns, columnsNames, data, rowSelection, preselectedRow, filterEnabled ) {
+
+	//const containerElement = document.body;
+	const containerElement = container;
 
 	const listDiv = document.createElement( 'div' );
 	listDiv.style.backgroundColor = 'black';
@@ -2822,7 +2947,8 @@ function showSelectTable( buttonLabel, onButtonClicked, onCloseCancel, infoLine,
 	closeButton.innerHTML = rowSelection ? "Cancel" : "Close";
 	closeButton.onclick = () => {
 
-		if ( container.contains( listDiv ) ) container.removeChild( listDiv );
+		lastOpenPanel = null;
+		if ( containerElement.contains( listDiv ) ) containerElement.removeChild( listDiv );
 		if ( onCloseCancel ) onCloseCancel();
 
 	};
@@ -2973,7 +3099,7 @@ function showSelectTable( buttonLabel, onButtonClicked, onCloseCancel, infoLine,
 
 	for ( let r in data ) createRow( r );
 
-	container.appendChild( listDiv );
+	containerElement.appendChild( listDiv );
 
 	if ( rowSelection && preselectedDataRowFunc ) {
 
@@ -2981,6 +3107,8 @@ function showSelectTable( buttonLabel, onButtonClicked, onCloseCancel, infoLine,
 		preselectedDataRow.scrollIntoView();
 
 	}
+
+	if ( filterEnabled ) filterEditBox.focus();
 
 	const panel = {
 		panel: listDiv,

@@ -1984,6 +1984,8 @@ class LDrawLoader extends Loader {
 			.parseModel( text, this.materialLibrary )
 			.then( group => {
 
+				// TODO missing this line?:
+				//this.applyMaterialsToMesh( group, MAIN_COLOUR_CODE, this.materialLibrary, true );
 				this.computeConstructionSteps( group );
 				onLoad( group );
 

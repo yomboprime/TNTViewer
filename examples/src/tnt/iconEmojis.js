@@ -25,7 +25,13 @@ const iconEmojis = {
     "Color": "🎨",
     "Clone": "🐑",
     "World": "🌐",
-    "Ruler": "📏"
+    "Ruler": "📏",
+    "Text": "📝",
+    "Pin": "📌",
+    "Package": "📦",
+    
+    "Undo": "↩️",
+    "Redo": "↪️"
 
 };
 
