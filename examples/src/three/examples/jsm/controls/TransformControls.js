@@ -109,6 +109,7 @@ class TransformControls extends Object3D {
 		defineProperty( 'axis', null );
 		defineProperty( 'mode', 'translate' );
 		defineProperty( 'translationSnap', null );
+		defineProperty( 'translationSnapVertical', null );
 		defineProperty( 'rotationSnap', null );
 		defineProperty( 'scaleSnap', null );
 		defineProperty( 'space', 'world' );
@@ -333,7 +334,7 @@ class TransformControls extends Object3D {
 
 					if ( axis.search( 'Y' ) !== - 1 ) {
 
-						object.position.y = Math.round( object.position.y / this.translationSnap ) * this.translationSnap;
+						object.position.y = Math.round( object.position.y / this.translationSnapVertical ) * this.translationSnapVertical;
 
 					}
 
@@ -363,7 +364,7 @@ class TransformControls extends Object3D {
 
 					if ( axis.search( 'Y' ) !== - 1 ) {
 
-						object.position.y = Math.round( object.position.y / this.translationSnap ) * this.translationSnap;
+						object.position.y = Math.round( object.position.y / this.translationSnapVertical ) * this.translationSnapVertical;
 
 					}
 
@@ -606,6 +607,12 @@ class TransformControls extends Object3D {
 	setTranslationSnap( translationSnap ) {
 
 		this.translationSnap = translationSnap;
+
+	}
+
+	setTranslationSnapVertical( translationSnapVertical ) {
+
+		this.translationSnapVertical = translationSnapVertical;
 
 	}
 

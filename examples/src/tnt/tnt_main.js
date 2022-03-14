@@ -24,15 +24,18 @@ const constructionSetsNames = [
 const constructionSets = {
 	'LEGO': {
 		scale: 1,
-		translationSnap: 1
+		translationSnap: 1,
+		translationSnapVertical: 1
 	},
 	'TENTE': {
 		scale: 0.4,
-		translationSnap: 8
+		translationSnap: 10,
+		translationSnapVertical: 8
 	},
 	'EXINCASTILLOS': {
 		scale: 1,
-		translationSnap: 1
+		translationSnap: 1,
+		translationSnapVertical: 1
 	}
 };
 let currentConstructionSet;
@@ -133,7 +136,8 @@ let toolButtons;
 const DEFAULT_ROTATION_SNAP = 15;
 const DEFAULT_SCALE_SNAP = 0.5;
 let translationSnap = 1;
-let rotationSnap = DEFAULT_ROTATION_SNAP ;
+let translationSnapVertical = 1;
+let rotationSnap = DEFAULT_ROTATION_SNAP;
 let scaleSnap = DEFAULT_SCALE_SNAP;
 
 let localCoordinateSystem = true;
@@ -471,20 +475,15 @@ function init() {
 
 						if ( object.isTransformControlsPlane ) object = null;
 
-					}
-
-					if ( object ) {
-
 						object = getObjectPart( object );
 
 						if ( ! isPart( object ) ) object = null;
 
 						if ( selectionModeModel ) object = getPartModel( object );
 
-						selectPart( object );
-
 					}
-					else selectPart( null );
+
+					selectPart( object );
 
 					triggerRender();
 
@@ -653,6 +652,7 @@ function reenablePhysics() {
 function updateObjectsVisibility() {
 
 	function updateObjects( objects ) {
+
 		for ( let i in objects ) {
 
 			objects[ i ].traverse( c => {
@@ -671,6 +671,7 @@ function updateObjectsVisibility() {
 
 	updateObjects( models );
 	updateObjects( animatedParts );
+	if ( animatedModel ) updateObjects( [ animatedModel ] );
 
 }
 
@@ -1054,6 +1055,7 @@ function setSnapEnabled( enabled ) {
 	} else {
 
 		transformControls.setTranslationSnap( translationSnap );
+		transformControls.setTranslationSnapVertical( translationSnapVertical );
 		transformControls.setRotationSnap( rotationSnap * Math.PI / 180 );
 		transformControls.setScaleSnap( scaleSnap );
 
@@ -1066,12 +1068,14 @@ function setFineSnap( fine ) {
 	if ( fine ) {
 
 		translationSnap = 1;
+		translationSnapVertical = 1;
 		rotationSnap = 1;
 		scaleSnap = 0.01;
 
 	} else {
 
 		translationSnap = constructionSets[ currentConstructionSet ].translationSnap;
+		translationSnapVertical = constructionSets[ currentConstructionSet ].translationSnapVertical;
 		rotationSnap = DEFAULT_ROTATION_SNAP;
 		scaleSnap = DEFAULT_SCALE_SNAP;
 
@@ -2753,6 +2757,9 @@ function showSelectTable( buttonLabel, onButtonClicked, onCloseCancel, infoLine,
 	listDiv.style.position = 'absolute';
 	listDiv.style.top = '50%';
 	listDiv.style.left = '50%';
+	listDiv.style.borderWidth = '3px';
+	listDiv.style.borderStyle = 'solid';
+	listDiv.style.borderColor = 'black';
 	listDiv.style.transform = 'translate(-50%, -50%)';
 
 	const tableDiv = document.createElement( 'div' );
