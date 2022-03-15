@@ -525,22 +525,36 @@ function init() {
 
 			models = [];
 
-			// TODO use onOK in this call:
-			if ( initialModel ) loadLDrawModelFromRepo( initialModel );
-
 			createGUI();
 
-			updateModelAndPartInfo();
+			if ( initialModel ) loadLDrawModelFromRepo( initialModel, null, ( model ) => {
 
-			time = 0;
-			animationState = ANIM_STOPPED;
-			animationCreated = false;
-			animatedModel = null;
-			timeFactor = 1;
-			guiData.timeFactor = timeFactor;
-			timeFactorController.updateDisplay();
+				setSelectionModeModel( true );
+				selectPart( model );
+				centerCameraInObject();
+				setFineSnap( false );
+				updateObjectsVisibility();
+				hideProgressBar();
+				finishInit();
 
-			triggerRender();
+			} );
+			else finishInit();
+
+			function finishInit() {
+
+				updateModelAndPartInfo();
+
+				time = 0;
+				animationState = ANIM_STOPPED;
+				animationCreated = false;
+				animatedModel = null;
+				timeFactor = 1;
+				guiData.timeFactor = timeFactor;
+				timeFactorController.updateDisplay();
+
+				triggerRender();
+
+			}
 
 		} );
 
@@ -1102,7 +1116,7 @@ function showSelectAddLDrawPart() {
 function createNewEmptyModel() {
 
 	const model = new THREE.Group();
-	model.userData.fileName = "sdfsdfsdfs";
+	model.userData.fileName = "";
 	model.userData.type = "Model";
 	model.userData.colorCode = "16";
 	model.userData.numConstructionSteps = 1;
@@ -1124,9 +1138,15 @@ function createNewEmptyModel() {
 }
 
 function showSelectLDrawModelFromFile() {
+
+	// TODO
+
 }
 
 function showSelectNonLDrawModelFromFile() {
+
+	// TODO
+
 }
 
 function deleteSelection() {
@@ -1434,15 +1454,14 @@ function selectPart( part ) {
 
 function updateModelAndPartInfo() {
 
-	// Returns true if part info not found
-
-	let partInfoNotFound = false;
-
 	let infoText = '';
 
 	const selectedModel = getPartModel( selectedPart );
+	const modelInfo = getDataBaseModel( selectedModel );
 
-	if ( selectedPart && selectedPart !== selectedModel ) {
+	const isEmbeddedPart = selectedPart && selectedPart !== selectedModel && ! modelInfo;
+
+	if ( selectedPart ) {
 
 		const mat = lDrawLoader.materialLibrary[ selectedPart.userData.colorCode ];
 
@@ -1455,17 +1474,17 @@ function updateModelAndPartInfo() {
 				'">' + partInfo.title + '</a><br>';
 
 		}
-		else infoText += 'Part: Embedded part.<br>';
+		else {
+
+			if ( isEmbeddedPart ) infoText += 'Part: Embedded part.<br>';
+			else infoText += 'Part: No part selected.<br>';
+
+		}
 
 		if ( mat ) infoText += 'Part color: ' + mat.name + '<br>';
 
-	} else {
+	} else infoText += 'Part: No part selected.<br>';
 
-		infoText += 'Part: No part selected.<br>';
-		partInfoNotFound = true;
-	}
-
-	const modelInfo = getDataBaseModel( selectedModel );
 	if ( modelInfo ) {
 
 		if ( modelInfo.path ) guiData.path = modelInfo.path;
@@ -1536,8 +1555,6 @@ function updateModelAndPartInfo() {
 		'<br><a href="https://github.com/yomboprime/TNTViewer">TNTViewer code at Github</a>';
 
 	infoDiv.innerHTML = infoText;
-
-	return partInfoNotFound;
 
 }
 
