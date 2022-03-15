@@ -2725,7 +2725,7 @@ function showSelectLDrawModelFromRepo() {
 		data.push( dataBase.models[ dataBase.modelPathsList[ i ] ] );
 
 	}
-
+/*
 	data.sort( ( a, b ) => {
 
 		function sortField( field, orderVal ) {
@@ -2745,7 +2745,7 @@ function showSelectLDrawModelFromRepo() {
 		return sortField( 'title', 1 );
 
 	} );
-
+*/
 	const infoLine = "Please select a model to load from the list. There are " + data.length + " models.";
 
 	function onOK( rowIndex ) {

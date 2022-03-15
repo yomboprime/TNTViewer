@@ -54,8 +54,8 @@ let sourceDataBase = readTextFileSync( pathJoin( __dirname, sourceDataBasePath )
 
 if ( sourceDataBase === null ) {
 
-	console.log();
-	console.log( "Error reading source database file: " + sourceDataBasePath );
+	console.error();
+	console.error( "Error reading source database file: " + sourceDataBasePath );
 	process.exit( - 1 );
 }
 
@@ -98,8 +98,8 @@ let partsListLines = readTextFileSync( pathJoin( __dirname, '..', partsListPath 
 //console.log( partsListLines );
 if ( partsListLines === null ) {
 
-	console.log();
-	console.log( "Error reading parts list file: " + partsListPath );
+	console.error();
+	console.error( "Error reading parts list file: " + partsListPath );
 	process.exit( - 1 );
 
 }
@@ -156,8 +156,8 @@ let jasoloPartsListLines = readTextFileSync( pathJoin( __dirname, jasoloPartsLis
 //console.log( partsListLines );
 if ( jasoloPartsListLines === null ) {
 
-	console.log();
-	console.log( "Error reading parts list file: " + jasoloPartsListPath );
+	console.error();
+	console.error( "Error reading parts list file: " + jasoloPartsListPath );
 	process.exit( - 1 );
 
 }
@@ -245,9 +245,9 @@ dataBase.modelPathsList.sort( ( a, b ) => {
 	const aOf = a.startsWith( 'oficiales' );
 	const bOf = b.startsWith( 'oficiales' );
 
-	if ( aOf === bOf ) return a === b ? 0 : ( a < b ? - 1 : 1 );
+	if ( aOf !== bOf ) return aOf ? - 1 : 1;
 
-	return aOf < bOf ? 1 : - 1;
+	return a === b ? 0 : ( a < b ? - 1 : 1 );
 } );
 
 let numModelsInSourceDataBase = 0;
@@ -307,7 +307,13 @@ for ( let i in dataBase.modelPathsList ) {
 		}
 
 	}
-	else model.title = model.path;
+	else {
+
+		model.title = model.path;
+		model.seriesNumber = "";
+		model.refNumber = "";
+
+	}
 
 	if ( model.title.endsWith( '.ldr' ) ) {
 
@@ -326,8 +332,8 @@ function scanModelColors( modelPath, listToAdd ) {
 	let modelConstents = readTextFileSync( pathJoin( __dirname, modelPath ), "utf-8" );
 	if ( modelConstents === null ) {
 
-		console.log();
-		console.log( "Error reading model file: " + modelPath );
+		console.error();
+		console.error( "Error reading model file: " + modelPath );
 		process.exit( - 1 );
 
 	}
@@ -349,7 +355,7 @@ function scanModelColors( modelPath, listToAdd ) {
 
 				if ( ! materialLibrary.includes( colorCode ) ) {
 
-					console.log( "****** ERROR: The color code " + colorCode + " was not found in materials library but it is used in the model: " + modelPath );
+					console.error( "****** ERROR: The color code " + colorCode + " was not found in materials library but it is used in the model: " + modelPath );
 				}
 
 				listToAdd.push( colorCode );
@@ -368,8 +374,8 @@ function loadMaterialLibrary() {
 
 	if ( materialLibraryContents === null ) {
 
-		console.log();
-		console.log( "Error reading material library file: " + materialLibraryPath );
+		console.error();
+		console.error( "Error reading material library file: " + materialLibraryPath );
 		process.exit( - 1 );
 
 	}
@@ -409,14 +415,17 @@ function editModelByDataBase( model, pathFields ) {
 	if ( sourceFields ) {
 
 		model.id = sourceFields[ 0 ];
-		model.title = sourceFields[ 3 ];
+		model.title = sourceFields[ 3 ] + " " + model.title;
 		numModelsInSourceDataBase ++;
 
 	}
 	else {
 
+		model.seriesNumber = "";
+		model.refNumber = "";
+
 		const titleParts = [];
-		for ( let j = 2; j < pathFields.length; j ++ ) titleParts.push( pathFields[ j ] );
+		for ( let j = 0; j < pathFields.length; j ++ ) titleParts.push( pathFields[ j ] );
 
 		model.title = titleParts.length > 0 ? titleParts.join( ' ' ) : '';
 
@@ -435,7 +444,7 @@ console.log( "Writing models.json ..." );
 
 if ( ! writeJSONFileSync( dataBase, pathJoin( __dirname, "models.json" ) ) ) {
 
-	console.log( "ERROR writing models.json !" );
+	console.error( "ERROR writing models.json !" );
 	return;
 
 }
@@ -549,7 +558,7 @@ htmlModelListContent = htmlModelListContent.replace( '***CUSTOM_MODELS_COUNT***'
 
 if ( ! writeTextFileSync( htmlModelListContent, pathJoin( __dirname, htmlModelListPath ) ) ) {
 
-	console.log( "ERROR writing tnt_models.html !" );
+	console.error( "ERROR writing tnt_models.html !" );
 
 }
 
@@ -615,7 +624,7 @@ htmlPartListContent = htmlPartListContent.replace( '***PARTS_COUNT***', '' + par
 
 if ( ! writeTextFileSync( htmlPartListContent, pathJoin( __dirname, htmlPartListPath ) ) ) {
 
-	console.log( "ERROR writing tnt_models.html !" );
+	console.error( "ERROR writing tnt_models.html !" );
 
 }
 
@@ -633,7 +642,7 @@ function scanDirectory( base, path ) {
 
 	if ( ! files ) {
 
-		console.log( "Error: Couldn't open directory: " + path );
+		console.error( "Error: Couldn't open directory: " + path );
 		return false;
 
 	}
