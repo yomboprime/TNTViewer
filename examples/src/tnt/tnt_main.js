@@ -410,6 +410,10 @@ function init() {
 						if ( ! lastOpenPanel ) toggleCoordinateSystem();
 						break;
 
+					case 'n':
+						if ( ! lastOpenPanel ) cloneSelection();
+						break;
+
 					case 'Delete':
 						if ( ! lastOpenPanel ) deleteSelection();
 						break;
@@ -1063,6 +1067,7 @@ function selectColor() {
 		if ( selectedPart ) {
 
 			applyMainMaterialToPart( selectedPart, colorCode );
+			updateModelAndPartInfo();
 			triggerRender();
 
 		}
@@ -1429,24 +1434,27 @@ function updateModelAndPartInfo() {
 
 	let infoText = '';
 
-	let partInfo = getDataBasePart( selectedPart );
-	if ( partInfo ) {
+	if ( selectedPart ) {
 
 		const mat = lDrawLoader.materialLibrary[ selectedPart.userData.colorCode ];
 
-		infoText += 'Part: ' +
-			'<a href="/TNTViewer/examples/tnt.html?modelPath=../parts/' + partInfo.path +
-			'&colorCode=' + mat.userData.code +
-			'">' + partInfo.title + '</a><br>';
+		let partInfo = getDataBasePart( selectedPart );
+		if ( partInfo ) {
 
-		infoText += 'Part color: ' + mat.name + '<br>';
+			infoText += 'Part: ' +
+				'<a href="/TNTViewer/examples/tnt.html?modelPath=../parts/' + partInfo.path +
+				'&colorCode=' + mat.userData.code +
+				'">' + partInfo.title + '</a><br>';
 
-	}
-	else {
+		}
+		else infoText += 'Part: Embedded part.<br>';
 
-		infoText += 'Part: No part selected.' + '<br>';
+		if ( mat ) infoText += 'Part color: ' + mat.name + '<br>';
+
+	} else {
+
+		infoText += 'Part: No part selected.<br>';
 		partInfoNotFound = true;
-
 	}
 
 	const selectedModel = getPartModel( selectedPart );
