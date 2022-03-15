@@ -1434,7 +1434,9 @@ function updateModelAndPartInfo() {
 
 	let infoText = '';
 
-	if ( selectedPart ) {
+	const selectedModel = getPartModel( selectedPart );
+
+	if ( selectedPart && selectedPart !== selectedModel ) {
 
 		const mat = lDrawLoader.materialLibrary[ selectedPart.userData.colorCode ];
 
@@ -1457,7 +1459,6 @@ function updateModelAndPartInfo() {
 		partInfoNotFound = true;
 	}
 
-	const selectedModel = getPartModel( selectedPart );
 	const modelInfo = getDataBaseModel( selectedModel );
 	if ( modelInfo ) {
 
