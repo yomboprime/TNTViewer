@@ -1205,6 +1205,7 @@ function exportModelAsLDraw( model ) {
 	output += "0 Name: " + model.userData.fileName + dosLineEnd;
 	output += "0 Author: TNT Editor" + dosLineEnd;
 	output += "0 Unofficial Model" + dosLineEnd;
+	output += "0 BFC CERTIFY CCW" + dosLineEnd;
 
 	const embeddedParts = [];
 
@@ -1250,7 +1251,6 @@ function embeddedPartToText( embeddedPart ) {
 	let output = "";
 	output += "0 FILE " + embeddedPart.userData.fileName + dosLineEnd;
 	output += "0 BFC CERTIFY CCW" + dosLineEnd;
-	output += "0" + dosLineEnd;
 	internalTraverseEmbeddedPart( embeddedPart, null, true );
 	return output;
 
