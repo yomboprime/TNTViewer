@@ -397,6 +397,7 @@ function loadMaterialLibrary() {
 		let n = line.length;
 		while ( spacePos < n && line[ spacePos ] !== ' ' ) spacePos ++;
 		const colorCodeNumeric = parseInt( line.substring( spacePos0, spacePos ) );
+		if ( colorCodeNumeric === 24 ) continue;
 		const colorCode = colorCodeNumeric.toString();
 		if ( ! isNaN( colorCodeNumeric ) && ! library.includes( colorCode ) ) library.push( colorCode );
 
@@ -436,7 +437,7 @@ function editModelByDataBase( model, pathFields ) {
 console.log();
 console.log( "Total models: " + dataBase.modelPathsList.length );
 
-console.log( "Num. models in source database: " + numModelsInSourceDataBase );
+console.log( "Number of models in source database: " + numModelsInSourceDataBase );
 
 console.log( "Number of used colors in database models: " + dataBase.colorsCodesList.length );
 
