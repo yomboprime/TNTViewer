@@ -294,6 +294,13 @@
             "seriesNumber": "Astro",
             "refNumber": "0720"
         },
+        "oficiales/Astro_0721_Astronave+TorreLanzamiento.ldr": {
+            "path": "oficiales/Astro_0721_Astronave+TorreLanzamiento.ldr",
+            "id": "212",
+            "title": "ASTRONAVE Y TORRE DE LANZAMIENTO Astronave+TorreLanzamiento",
+            "seriesNumber": "Astro",
+            "refNumber": "0721"
+        },
         "oficiales/Astro_0722_navedefensasideral.ldr": {
             "path": "oficiales/Astro_0722_navedefensasideral.ldr",
             "id": "213",
@@ -314,6 +321,13 @@
             "title": "NAVE DEFENSA SIDERAL navedefensasideral3",
             "seriesNumber": "Astro",
             "refNumber": "0722"
+        },
+        "oficiales/Astro_0723_BaseVigiaCosmica.ldr": {
+            "path": "oficiales/Astro_0723_BaseVigiaCosmica.ldr",
+            "id": "214",
+            "title": "BASE VIGÍA CÓSMICA  BaseVigiaCosmica",
+            "seriesNumber": "Astro",
+            "refNumber": "0723"
         },
         "oficiales/Astro_0740_saturno6-miniexploradoraereo.ldr": {
             "path": "oficiales/Astro_0740_saturno6-miniexploradoraereo.ldr",
@@ -833,6 +847,55 @@
             "seriesNumber": "",
             "refNumber": ""
         },
+        "oficiales/Roblock_0761_Frogster.ldr": {
+            "path": "oficiales/Roblock_0761_Frogster.ldr",
+            "id": "289",
+            "title": "FROGSTER Frogster",
+            "seriesNumber": "Roblock",
+            "refNumber": "0761"
+        },
+        "oficiales/Roblock_0762_DarkWarrior.ldr": {
+            "path": "oficiales/Roblock_0762_DarkWarrior.ldr",
+            "id": "290",
+            "title": "DARK WARRIOR DarkWarrior",
+            "seriesNumber": "Roblock",
+            "refNumber": "0762"
+        },
+        "oficiales/Roblock_0780_Helitron.ldr": {
+            "path": "oficiales/Roblock_0780_Helitron.ldr",
+            "id": "299",
+            "title": "HELITRON Helitron",
+            "seriesNumber": "Roblock",
+            "refNumber": "0780"
+        },
+        "oficiales/Roblock_0782_Hercules.ldr": {
+            "path": "oficiales/Roblock_0782_Hercules.ldr",
+            "id": "301",
+            "title": "HERCULES Hercules",
+            "seriesNumber": "Roblock",
+            "refNumber": "0782"
+        },
+        "oficiales/Roblock_0783_Fenixter.ldr": {
+            "path": "oficiales/Roblock_0783_Fenixter.ldr",
+            "id": "302",
+            "title": "FENIXTER Fenixter",
+            "seriesNumber": "Roblock",
+            "refNumber": "0783"
+        },
+        "oficiales/Roblock_0788_Robosaurius.ldr": {
+            "path": "oficiales/Roblock_0788_Robosaurius.ldr",
+            "id": "307",
+            "title": "ROBOSAURIUS Robosaurius",
+            "seriesNumber": "Roblock",
+            "refNumber": "0788"
+        },
+        "oficiales/Roblock_0790_Persus.ldr": {
+            "path": "oficiales/Roblock_0790_Persus.ldr",
+            "id": "308",
+            "title": "PERSUS Persus",
+            "seriesNumber": "Roblock",
+            "refNumber": "0790"
+        },
         "oficiales/Roblock_0792_skymaster.ldr": {
             "path": "oficiales/Roblock_0792_skymaster.ldr",
             "id": "310",
@@ -846,6 +909,13 @@
             "title": "SKYMASTER skymaster transf",
             "seriesNumber": "Roblock",
             "refNumber": "0792"
+        },
+        "oficiales/Roblock_0797_X-Tronic.ldr": {
+            "path": "oficiales/Roblock_0797_X-Tronic.ldr",
+            "id": "312",
+            "title": "X-TRONIC -SONO-LUX- X-Tronic",
+            "seriesNumber": "Roblock",
+            "refNumber": "0797"
         },
         "oficiales/Roblock_0798_krator.ldr": {
             "path": "oficiales/Roblock_0798_krator.ldr",
@@ -1976,9 +2046,11 @@
         "oficiales/Astro_0658_aranalunar.ldr",
         "oficiales/Astro_0661_uesondeo.ldr",
         "oficiales/Astro_0720_proyectorgalacticomovil.ldr",
+        "oficiales/Astro_0721_Astronave+TorreLanzamiento.ldr",
         "oficiales/Astro_0722_navedefensasideral.ldr",
         "oficiales/Astro_0722_navedefensasideral2.ldr",
         "oficiales/Astro_0722_navedefensasideral3.ldr",
+        "oficiales/Astro_0723_BaseVigiaCosmica.ldr",
         "oficiales/Astro_0740_saturno6-miniexploradoraereo.ldr",
         "oficiales/Astro_0740_saturno6-miniexploradorterrestre.ldr",
         "oficiales/Astro_0740_saturno6-nodriza.ldr",
@@ -2053,8 +2125,16 @@
         "oficiales/Nomura_minifirej.ldr",
         "oficiales/Nomura_sunshine2.ldr",
         "oficiales/Pocket_0315_Eslator.ldr",
+        "oficiales/Roblock_0761_Frogster.ldr",
+        "oficiales/Roblock_0762_DarkWarrior.ldr",
+        "oficiales/Roblock_0780_Helitron.ldr",
+        "oficiales/Roblock_0782_Hercules.ldr",
+        "oficiales/Roblock_0783_Fenixter.ldr",
+        "oficiales/Roblock_0788_Robosaurius.ldr",
+        "oficiales/Roblock_0790_Persus.ldr",
         "oficiales/Roblock_0792_skymaster.ldr",
         "oficiales/Roblock_0792_skymaster_transf.ldr",
+        "oficiales/Roblock_0797_X-Tronic.ldr",
         "oficiales/Roblock_0798_krator.ldr",
         "oficiales/Roblock_0798_krator_transf.ldr",
         "oficiales/Ruta2_70037_airportservice.ldr",
