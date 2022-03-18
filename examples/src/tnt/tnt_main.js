@@ -100,6 +100,7 @@ let addPartButton;
 let deleteSelectionButton;
 
 let cloneButton;
+let saveLDrawButton;
 
 let infoDiv;
 
@@ -158,11 +159,16 @@ const vector3Temp2 = new THREE.Vector3();
 const vector3Temp3 = new THREE.Vector3();
 const quatTemp1 = new THREE.Quaternion();
 const matrix4Temp1 = new THREE.Matrix4();
+const matrix4Temp2 = new THREE.Matrix4();
+const matrix4Temp3 = new THREE.Matrix4();
+const matrix4Temp4 = new THREE.Matrix4();
 const eulerTemp1 = new THREE.Euler();
 
 const ldrawPath = 'models/ldraw/';
 let dataBase;
 let colorsData;
+
+const dosLineEnd = "\r\n";
 
 /*= {
 	'Car': 'car.ldr_Packed.mpd',
@@ -217,7 +223,7 @@ function init() {
 
 	scene.environment = pmremGenerator.fromScene( new RoomEnvironment() ).texture;
 
-	//scene.add( new THREE.AxesHelper( 100 ) );
+	//scene.add( new THREE.AxesHelper( 30 ) );
 
 	//createOceanAndSky();
 
@@ -493,11 +499,11 @@ function init() {
 
 						object = intersects[ 0 ].object;
 
-						if ( object.isTransformControlsPlane ) object = null;
+						if ( object.isTransformControlsPlane && intersects.length > 1 ) object = intersects[ 1 ].object;
 
 						object = getObjectPart( object );
 
-						if ( ! isPart( object ) ) object = null;
+						if ( ! isPart( object ) && ! isEmbeddedPart( object ) ) object = null;
 
 						if ( selectionModeModel ) object = getPartModel( object );
 
@@ -754,7 +760,7 @@ function isPart( part ) {
 
 	if ( ! part || ! part.userData ) return false;
 
-	return getDataBasePart( part ) !== null;
+	return getDataBasePart( part ) !== undefined;
 
 }
 
@@ -807,6 +813,12 @@ function getObjectPart( object ) {
 	}
 
 	return object;
+
+}
+
+function isEmbeddedPart( part ) {
+
+	return part && ! isPart( part ) && ! getDataBaseModel( part );
 
 }
 
@@ -1067,7 +1079,7 @@ function selectColor() {
 
 		if ( index >= 0 ) {
 
-			selectedColorCode = selectedPart.userData.colorcode;
+			selectedColorCode = selectedPart.userData.colorCode;
 			selectedColorRowIndex = index;
 
 		}
@@ -1116,6 +1128,7 @@ function showSelectAddLDrawPart() {
 function createNewEmptyModel() {
 
 	const model = new THREE.Group();
+	model.rotation.x = Math.PI;
 	model.userData.fileName = "";
 	model.userData.type = "Model";
 	model.userData.colorCode = "16";
@@ -1126,8 +1139,8 @@ function createNewEmptyModel() {
 
 		addLDrawPartOrModel( model );
 
-		setSelectionModeModel( false );
-		selectPart( part );
+		setSelectionModeModel( true );
+		selectPart( model );
 
 		setFineSnap( false );
 		hideProgressBar();
@@ -1147,6 +1160,233 @@ function showSelectNonLDrawModelFromFile() {
 
 	// TODO
 
+}
+
+function saveModelAsLDrawButtonFunc() {
+
+	if ( ! selectedPart || ! selectionModeModel ) return;
+
+
+	let fileName = guiData.path;
+
+	if ( ! fileName ) {
+
+		alert( "Please set model file name before saving it, under Model Info -> File name." );
+		return;
+
+	}
+
+	const fileContents = exportModelAsLDraw( selectedPart );
+
+	FileOperations.saveFile( fileName, new Blob( [ fileContents ] ) );
+
+}
+
+function saveSceneAsTNTButtonFunc() {
+
+	const fileContents = exportSceneAsTNT();
+
+	let fileName = "Scene.tnte";
+	//if ( ! fileName ) FileOperations.removeFilenameExtension( fileName ) + ".ldr", new Blob( [ fileContents ] ) );
+
+	// TODO
+
+	FileOperations.saveFile( fileName, new Blob( [ fileContents ] ) );
+
+
+}
+
+function exportModelAsLDraw( model ) {
+
+	let output = "";
+
+	output += "0 FILE " + model.userData.fileName + dosLineEnd;
+	output += "0 Sin_nombre" + dosLineEnd;
+	output += "0 Name: " + model.userData.fileName + dosLineEnd;
+	output += "0 Author: TNT Editor" + dosLineEnd;
+	output += "0 Unofficial Model" + dosLineEnd;
+
+	const embeddedParts = [];
+
+	for ( let childIndex in model.children ) {
+
+		const part = getObjectPart( model.children[ childIndex ] );
+		if ( ! part ) continue;
+
+		const isEmbedded = isEmbeddedPart( part );
+		if ( isEmbedded ) embeddedParts.push( part );
+
+		// Referenced model, part or embedded part
+		output += "1 " + part.userData.colorCode + " " + poseToText( part ) + " " + part.userData.fileName + dosLineEnd;
+
+	}
+
+	output += "0" + dosLineEnd;
+
+	for ( let partIndex in embeddedParts ) {
+
+		output += embeddedPartToText( embeddedParts[ partIndex ] );
+
+	}
+
+	return output;
+
+}
+
+function round3( x ) { return Math.round( x * 1000 ) / 1000; }
+
+function poseToText( part ) {
+
+	const e = part.matrix.elements;
+
+	return 	"" + round3( e[ 12 ] ) + " " + round3( e[ 13 ] ) + " " + round3( e[ 14 ] ) +
+			" " + round3( e[ 0 ] ) + " " + round3( e[ 4 ] ) + " " + round3( e[ 8 ] ) +
+			" " + round3( e[ 1 ] ) + " " + round3( e[ 5 ] ) + " " + round3( e[ 9 ] ) +
+			" " + round3( e[ 2 ] ) + " " + round3( e[ 6 ] ) + " " + round3( e[ 10 ] )
+}
+
+function embeddedPartToText( embeddedPart ) {
+
+	let output = "";
+	output += "0 FILE " + embeddedPart.userData.fileName + dosLineEnd;
+	output += "0 BFC CERTIFY CCW" + dosLineEnd;
+	output += "0" + dosLineEnd;
+	internalTraverseEmbeddedPart( embeddedPart, null, true );
+	return output;
+
+	function internalTraverseEmbeddedPart( child, colorCode, firstLevel ) {
+
+		let traverseChildren = true;
+
+		if ( child.userData.colorCode ) colorCode = child.userData.colorCode;
+		if ( child.material && child.material.userData.code ) colorCode = child.material.userData.code;
+
+		if ( child.isGroup ) {
+
+			// Referenced part
+			if ( ! firstLevel ) {
+
+				output += "1 " + child.userData.colorCode + " " + poseToText( child ) + " " + child.userData.fileName + dosLineEnd;
+
+			}
+
+			traverseChildren = firstLevel;
+
+		}
+		else if ( child.isMesh ) {
+
+			const positions = child.geometry.getAttribute( 'position' ).array;
+			const indices = child.geometry.getIndex() ? child.geometry.getIndex().array : null;
+			if ( indices ) {
+
+				for ( let i = 0, n = indices.length; i + 2 < n; i += 3 ) {
+
+					output += "3 " + colorCode;
+
+					vector3Temp1.fromArray( positions, indices[ i ] * 3 );
+					writeVector( vector3Temp1 );
+
+					vector3Temp1.fromArray( positions, indices[ i + 1 ] * 3 );
+					writeVector( vector3Temp1 );
+
+					vector3Temp1.fromArray( positions, indices[ i + 2 ] * 3 );
+					writeVector( vector3Temp1 );
+
+					output += dosLineEnd;
+
+				}
+
+			} else {
+
+				for ( let i = 0, n = positions.length; i + 8 < n; i += 9 ) {
+
+					output += "3 " + colorCode;
+
+					vector3Temp1.fromArray( positions, i );
+					writeVector( vector3Temp1 );
+
+					vector3Temp1.fromArray( positions, i + 3 );
+					writeVector( vector3Temp1 );
+
+					vector3Temp1.fromArray( positions, i + 6 );
+					writeVector( vector3Temp1 );
+
+					output += dosLineEnd;
+
+				}
+
+			}
+
+		} else if ( child.isConditionalLine ) {
+
+			const positions = child.geometry.getAttribute( 'position' ).array;
+			const controls0 = child.geometry.getAttribute( 'control0' ).array;
+			const controls1 = child.geometry.getAttribute( 'control1' ).array;
+
+			for ( let i = 0, n = positions.length; i + 5 < n; i += 6 ) {
+
+				output += "5 " + colorCode;
+
+				vector3Temp1.fromArray( positions, i );
+				writeVector( vector3Temp1 );
+
+				vector3Temp1.fromArray( positions, i + 3 );
+				writeVector( vector3Temp1 );
+
+				vector3Temp1.fromArray( controls0, i );
+				writeVector( vector3Temp1 );
+
+				vector3Temp1.fromArray( controls1, i );
+				writeVector( vector3Temp1 );
+
+				output += dosLineEnd;
+
+			}
+
+		} else if ( child.isLineSegments ) {
+
+			const positions = child.geometry.getAttribute( 'position' ).array;
+
+			for ( let i = 0, n = positions.length; i + 5 < n; i += 6 ) {
+
+				output += "2 " + colorCode;
+
+				vector3Temp1.fromArray( positions, i );
+				writeVector( vector3Temp1 );
+
+				vector3Temp1.fromArray( positions, i + 3 );
+				writeVector( vector3Temp1 );
+
+				output += dosLineEnd;
+
+			}
+
+		}
+
+		if ( traverseChildren ) {
+
+			for ( let c in child.children ) {
+
+				internalTraverseEmbeddedPart( child.children[ c ], colorCode );
+
+			}
+
+		}
+
+	}
+
+	function writeVector( v ) {
+
+		output += " " + round3( v.x ) + " " + round3( v.y ) + " " + round3( v.z );
+
+	}
+
+}
+
+function loadTNTScene() {
+}
+
+function exportSceneAsTNT() {
 }
 
 function deleteSelection() {
@@ -1420,6 +1660,7 @@ function selectPart( part ) {
 		setButtonDisabled( addPartButton, false );
 		setButtonDisabled( deleteSelectionButton, false );
 		setButtonDisabled( cloneButton, false );
+		setButtonDisabled( saveLDrawButton, ! selectionModeModel );
 
 	}
 	else {
@@ -1440,6 +1681,7 @@ function selectPart( part ) {
 		setButtonDisabled( addPartButton, true );
 		setButtonDisabled( deleteSelectionButton, true );
 		setButtonDisabled( cloneButton, true );
+		setButtonDisabled( saveLDrawButton, true );
 
 	}
 
@@ -1459,8 +1701,6 @@ function updateModelAndPartInfo() {
 	const selectedModel = getPartModel( selectedPart );
 	const modelInfo = getDataBaseModel( selectedModel );
 
-	const isEmbeddedPart = selectedPart && selectedPart !== selectedModel && ! modelInfo;
-
 	if ( selectedPart ) {
 
 		const mat = lDrawLoader.materialLibrary[ selectedPart.userData.colorCode ];
@@ -1473,15 +1713,20 @@ function updateModelAndPartInfo() {
 				'&colorCode=' + mat.userData.code +
 				'">' + partInfo.title + '</a><br>';
 
+			if ( mat ) infoText += 'Part color: ' + mat.name + '<br>';
+
 		}
 		else {
 
-			if ( isEmbeddedPart ) infoText += 'Part: Embedded part.<br>';
+			if ( isEmbeddedPart( selectedPart ) ) {
+
+				infoText += 'Part: Embedded part.<br>';
+				if ( mat ) infoText += 'Part color: ' + mat.name + '<br>';
+
+			}
 			else infoText += 'Part: No part selected.<br>';
 
 		}
-
-		if ( mat ) infoText += 'Part color: ' + mat.name + '<br>';
 
 	} else infoText += 'Part: No part selected.<br>';
 
@@ -2187,6 +2432,7 @@ function createGUI() {
 	addPartButton.title = "Add LDraw part to selected model...";
 	addPartButton.addEventListener( 'click', showSelectAddLDrawPart );
 	setButtonDisabled( addPartButton, true );
+	addPartButton.hidden = true;
 	fileDiv.appendChild( addPartButton );
 
 	const addModelFromFileButton = document.createElement( 'div' );
@@ -2195,6 +2441,7 @@ function createGUI() {
 	addModelFromFileButton.title = "Add LDraw model from file... (not implemented yet)";
 	addModelFromFileButton.addEventListener( 'click', showSelectLDrawModelFromFile );
 	setButtonDisabled( addModelFromFileButton, true );
+	addModelFromFileButton.hidden = true;
 	fileDiv.appendChild( addModelFromFileButton );
 
 	const addNonLDrawModelFromFileButton = document.createElement( 'div' );
@@ -2203,16 +2450,17 @@ function createGUI() {
 	addNonLDrawModelFromFileButton.title = "Add non-LDraw model from file... (not implemented yet)";
 	addNonLDrawModelFromFileButton.addEventListener( 'click', showSelectNonLDrawModelFromFile );
 	setButtonDisabled( addNonLDrawModelFromFileButton, true );
+	addNonLDrawModelFromFileButton.hidden = true;
 	fileDiv.appendChild( addNonLDrawModelFromFileButton );
 
-	deleteSelectionButton = document.createElement( 'div' );
-	deleteSelectionButton.className = 'buttn iconbtn';
-	deleteSelectionButton.innerHTML = iconEmojis[ "TrashBin" ];
-	deleteSelectionButton.title = "Delete selection (Del)";
-	deleteSelectionButton.addEventListener( 'click', deleteSelection );
-	setButtonDisabled( deleteSelectionButton, true );
-	fileDiv.appendChild( deleteSelectionButton );
-
+	const loadTNTSceneButton = document.createElement( 'div' );
+	loadTNTSceneButton.className = 'buttn iconbtn';
+	loadTNTSceneButton.innerHTML = iconEmojis[ "File" ] + iconEmojis[ "TNT" ];
+	loadTNTSceneButton.title = "Load TNT scene from file (.tnte)... (not implemented yet)";
+	loadTNTSceneButton.addEventListener( 'click', loadTNTScene );
+	setButtonDisabled( loadTNTSceneButton, true );
+	loadTNTSceneButton.hidden = true;
+	fileDiv.appendChild( loadTNTSceneButton );
 
 
 	//gui = new GUI( { width: GUI_WIDTH, container: sideBarDiv } );
@@ -2226,7 +2474,16 @@ function createGUI() {
 	modelSeriesController = infoFolder.add( guiData, 'modelSeries' ).name( 'Series' );
 	modelRefController = infoFolder.add( guiData, 'modelRef' ).name( 'Reference' );
 	modelInfoURLController = infoFolder.add( guiData, 'modelInfoURL' ).name( 'Info URL' );
-	pathController = infoFolder.add( guiData, 'path' ).name( 'Path' );
+	pathController = infoFolder.add( guiData, 'path' ).name( 'File name' ).onChange( () => {
+
+		if ( selectedPart ) {
+
+			const model = getPartModel( selectedPart );
+			if ( model ) model.userData.fileName = guiData.path;
+
+		}
+
+	} );
 	modelBboxInfoController = infoFolder.add( guiData, 'modelBboxInfo' ).name( 'Model bounds (mm)' );
 	showBOMController = infoFolder.add( guiData, 'showBOM' ).name( 'Model parts list...' );
 	infoFolder.close();
@@ -2384,20 +2641,22 @@ function createGUI() {
 	const editorPanel = document.createElement( 'div' );
 	//editorPanel.id = 'idbuttns';
 	//editorPanel.className = 'playbackpanel';
-	secondPanel.appendChild( editorPanel );
+	editorPanel.hidden = true;
+
 
 	const selectionDiv = document.createElement( 'div' );
 	selectionDiv.className = 'playbackdiv';
-	editorPanel.appendChild( selectionDiv );
+	secondPanel.appendChild( selectionDiv );
+
+	secondPanel.appendChild( editorPanel );
 
 
 	const centerViewButton = document.createElement( 'div' );
 	centerViewButton.className = 'buttn';
-	centerViewButton.innerHTML = "⦿";
+	centerViewButton.innerHTML = iconEmojis[ "Center" ];
 	centerViewButton.title = "Center view on selection (v)";
 	centerViewButton.addEventListener( 'click', centerCameraInObject );
 	selectionDiv.appendChild( centerViewButton );
-
 
 	selectionModePartButton = document.createElement( 'div' );
 	selectionModeModelButton = document.createElement( 'div' );
@@ -2405,7 +2664,8 @@ function createGUI() {
 	selectionModePartButton.className = 'buttn';
 	selectionModePartButton.innerHTML = "Part";
 	selectionModePartButton.title = "Selection mode: Part";
-	selectionModePartButton.addEventListener( 'click', () => {
+	selectionModePartButton.addEventListener( 'click', selectionModePartFunc );
+	function selectionModePartFunc() {
 
 		if ( selectionModePartButton.disabled ) return;
 
@@ -2416,13 +2676,14 @@ function createGUI() {
 
 		triggerRender();
 
-	} );
+	}
 	setButtonDisabled( selectionModePartButton, ! selectionModeModel );
 
 	selectionModeModelButton.className = 'buttn';
 	selectionModeModelButton.innerHTML = "Model";
 	selectionModeModelButton.title = "Selection mode: Model";
-	selectionModeModelButton.addEventListener( 'click', () => {
+	selectionModeModelButton.addEventListener( 'click', selectionModeModelFunc );
+	function selectionModeModelFunc() {
 
 		if ( selectionModeModelButton.disabled ) return;
 
@@ -2434,7 +2695,8 @@ function createGUI() {
 
 		triggerRender();
 
-	} );
+	}
+
 	setButtonDisabled( selectionModeModelButton, selectionModeModel );
 
 	selectionDiv.appendChild( selectionModePartButton );
@@ -2492,26 +2754,6 @@ function createGUI() {
 	toolsDiv.appendChild( toggleCoordinateSystemButton );
 
 
-	gui3 = new GUI( { width: GUI_WIDTH, container: editorPanel } );
-	gui3.title( iconEmojis[ "Ruler" ] + " Grid" );
-	gui3.add( guiData, 'translationSnap' ).name( 'Horizontal snap' ).onChange( () => {
-		setFineSnap( false );
-		setOption( 'horizontalTranslationSnap', guiData.translationSnap );
-	} );
-	gui3.add( guiData, 'translationSnapVertical' ).name( 'Vertical snap' ).onChange( () => {
-		setFineSnap( false );
-		setOption( 'verticalTranslationSnap', guiData.translationSnapVertical );
-	} );
-	gui3.add( guiData, 'rotationSnap' ).name( 'Rotation snap' ).onChange( () => {
-		setFineSnap( false );
-		setOption( 'rotationSnap', guiData.rotationSnap );
-	} );
-	gui3.add( guiData, 'scaleSnap' ).name( 'Scale snap' ).onChange( () => {
-		setFineSnap( false );
-		setOption( 'scaleSnap', guiData.scaleSnap );
-	} );
-	gui3.close();
-
 
 	const tools2Div = document.createElement( 'div' );
 	tools2Div.className = 'playbackdiv';
@@ -2547,6 +2789,82 @@ function createGUI() {
 	newModelButton.title = "Create new model...";
 	newModelButton.addEventListener( 'click', createNewEmptyModel );
 	tools2Div.appendChild( newModelButton );
+
+	deleteSelectionButton = document.createElement( 'div' );
+	deleteSelectionButton.className = 'buttn iconbtn';
+	deleteSelectionButton.innerHTML = iconEmojis[ "TrashBin" ];
+	deleteSelectionButton.title = "Delete selection (Del)";
+	deleteSelectionButton.addEventListener( 'click', deleteSelection );
+	setButtonDisabled( deleteSelectionButton, true );
+	tools2Div.appendChild( deleteSelectionButton );
+
+
+	const tools3Div = document.createElement( 'div' );
+	tools3Div.className = 'playbackdiv';
+	editorPanel.appendChild( tools3Div );
+
+	saveLDrawButton = document.createElement( 'div' );
+	saveLDrawButton.className = 'buttn';
+	saveLDrawButton.innerHTML = iconEmojis[ "Floppy" ] + iconEmojis[ "Model" ];
+	saveLDrawButton.title = "Save selected model (LDraw format)...";
+	saveLDrawButton.addEventListener( 'click', saveModelAsLDrawButtonFunc );
+	setButtonDisabled( saveLDrawButton, true );
+	tools3Div.appendChild( saveLDrawButton );
+
+	const saveTNTButton = document.createElement( 'div' );
+	saveTNTButton.className = 'buttn';
+	saveTNTButton.innerHTML = iconEmojis[ "Floppy" ] + iconEmojis[ "TNT" ];
+	saveTNTButton.title = "Save scene (.tnte format)... (not implemented yet)";
+	saveTNTButton.addEventListener( 'click', saveSceneAsTNTButtonFunc );
+	setButtonDisabled( saveTNTButton, true );
+	tools3Div.appendChild( saveTNTButton );
+
+	gui3 = new GUI( { width: GUI_WIDTH, container: editorPanel } );
+	gui3.title( iconEmojis[ "Ruler" ] + " Grid" );
+	gui3.add( guiData, 'translationSnap' ).name( 'Horizontal snap' ).onChange( () => {
+		setFineSnap( false );
+		setOption( 'horizontalTranslationSnap', guiData.translationSnap );
+	} );
+	gui3.add( guiData, 'translationSnapVertical' ).name( 'Vertical snap' ).onChange( () => {
+		setFineSnap( false );
+		setOption( 'verticalTranslationSnap', guiData.translationSnapVertical );
+	} );
+	gui3.add( guiData, 'rotationSnap' ).name( 'Rotation snap' ).onChange( () => {
+		setFineSnap( false );
+		setOption( 'rotationSnap', guiData.rotationSnap );
+	} );
+	gui3.add( guiData, 'scaleSnap' ).name( 'Scale snap' ).onChange( () => {
+		setFineSnap( false );
+		setOption( 'scaleSnap', guiData.scaleSnap );
+	} );
+	gui3.close();
+
+
+
+	const viewerPanel = document.createElement( 'div' );
+	viewerPanel.className = 'playbackdiv';
+	secondPanel.appendChild( viewerPanel );
+
+	const showEditorButton = document.createElement( 'div' );
+	showEditorButton.className = 'buttn';
+	showEditorButton.style.width = "150px";
+	showEditorButton.innerHTML = "Show editor";
+	showEditorButton.title = "Show editor controls";
+	showEditorButton.addEventListener( 'click', () => {
+
+		editorPanel.hidden = false;
+		viewerPanel.hidden = true;
+		showEditorButton.hidden = true;
+
+		addPartButton.hidden = false;
+		addModelFromFileButton.hidden = false;
+		addNonLDrawModelFromFileButton.hidden = false;
+		loadTNTSceneButton.hidden = false;
+
+	} );
+	viewerPanel.appendChild( showEditorButton );
+
+
 
 
 	const infoPanel = document.createElement( 'div' );

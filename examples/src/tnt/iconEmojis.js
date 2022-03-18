@@ -29,6 +29,7 @@ const iconEmojis = {
     "Text": "📝",
     "Pin": "📌",
     "Package": "📦",
+    "TNT": "🧨",
     
     "Undo": "↩️",
     "Redo": "↪️"
