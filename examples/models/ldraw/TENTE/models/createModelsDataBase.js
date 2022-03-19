@@ -262,7 +262,10 @@ for ( let i in dataBase.modelPathsList ) {
 		id: '',
 		title: '',
 		seriesNumber: null,
-		refNumber: null
+		refNumber: null,
+		fileTitle: "",
+		fileAuthor: "",
+		fileBoxTitle: ""
 	};
 	dataBase.models[ modelPath ] = model;
 
@@ -321,16 +324,18 @@ for ( let i in dataBase.modelPathsList ) {
 
 	}
 
-	scanModelColors( modelPath, dataBase.colorsCodesList );
+	obtainFieldsFromFile( model );
 
 }
 
 dataBase.colorsCodesList.sort();
 
-function scanModelColors( modelPath, listToAdd ) {
+function obtainFieldsFromFile( model ) {
 
-	let modelConstents = readTextFileSync( pathJoin( __dirname, modelPath ), "utf-8" );
-	if ( modelConstents === null ) {
+	const modelPath = model.path;
+
+	let modelContents = readTextFileSync( pathJoin( __dirname, modelPath ), "utf-8" );
+	if ( modelContents === null ) {
 
 		console.error();
 		console.error( "Error reading model file: " + modelPath );
@@ -338,27 +343,50 @@ function scanModelColors( modelPath, listToAdd ) {
 
 	}
 
-	const lines = modelConstents.toString().split( '\n' );
+	const lines = modelContents.toString().split( '\n' );
 
-	for ( let l in lines ) {
+	for ( let l = 0; l < lines.length; l ++ ) {
 
 		const line = lines[ l ];
 
-		if ( line.startsWith( '1 ' ) ) {
+		if ( line.startsWith( '0 ' ) ) {
+
+			if ( l === 0 ) {
+
+				model.fileTitle = line.substring( 2 ).trim();
+
+			}
+			else if ( l === 2 ) {
+
+				model.fileAuthor = line.substring( 2 ).trim();
+				if ( model.fileAuthor.startsWith( 'Author: ' ) ) model.fileAuthor = model.fileAuthor.substring( 'Author: '.length ).trim();
+
+			}
+			else if ( l === 3 ) {
+
+				model.fileBoxTitle = line.substring( 2 ).trim();
+				if ( model.fileBoxTitle === 'Unofficial Model' ) model.fileBoxTitle = "";
+
+			}
+
+		}
+		else if ( line.startsWith( '1 ' ) ) {
+
+			// Analyze used color code
 
 			let spacePos = 2;
 			let n = line.length;
 			while ( spacePos < n && line[ spacePos ] !== ' ' ) spacePos ++;
 			const colorCodeNumeric = parseInt( line.substring( 2, spacePos ) );
 			const colorCode = colorCodeNumeric.toString();
-			if ( ! isNaN( colorCodeNumeric ) && ! listToAdd.includes( colorCode ) ) {
+			if ( ! isNaN( colorCodeNumeric ) && ! dataBase.colorsCodesList.includes( colorCode ) ) {
 
 				if ( ! materialLibrary.includes( colorCode ) ) {
 
 					console.error( "****** ERROR: The color code " + colorCode + " was not found in materials library but it is used in the model: " + modelPath );
 				}
 
-				listToAdd.push( colorCode );
+				dataBase.colorsCodesList.push( colorCode );
 
 			}
 

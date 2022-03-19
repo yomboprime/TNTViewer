@@ -78,6 +78,7 @@ let timeFactorController;
 let constructionStepController;
 let modelTitleController;
 let pathController;
+let fileAuthorController;
 let modelSeriesController;
 let modelRefController;
 let modelInfoURLController;
@@ -357,6 +358,7 @@ function init() {
 				modelRef: '',
 				modelInfoURL: '',
 				path: '',
+				fileAuthor: '',
 				modelBboxInfo: '',
 				exportScale: exportScale,
 				exportGLTF: () => { exportModel( 'gltf' ); },
@@ -1198,13 +1200,19 @@ function saveSceneAsTNTButtonFunc() {
 
 function exportModelAsLDraw( model ) {
 
+	const dbModel = getDataBaseModel( model );
+	const name = FileOperations.removePathFromFilename( model.userData.fileName );
+	const fileAuthor = guiData.fileAuthor ? guiData.fileAuthor : ( dbModel ? dbModel.fileAuthor : "TNT Editor" );
+	const fileTitle = dbModel ? dbModel.fileTitle : name;
+
 	let output = "";
 
-	output += "0 FILE " + model.userData.fileName + dosLineEnd;
-	output += "0 Sin_nombre" + dosLineEnd;
-	output += "0 Name: " + model.userData.fileName + dosLineEnd;
-	output += "0 Author: TNT Editor" + dosLineEnd;
+	output += "0 " + fileTitle + dosLineEnd;
+	output += "0 Name: " + name + dosLineEnd;
+	output += "0 Author: " + fileAuthor + dosLineEnd;
 	output += "0 Unofficial Model" + dosLineEnd;
+	output += "0 ROTATION CENTER 0 0 0 1 \"Custom\"" + dosLineEnd;
+	output += "0 ROTATION CONFIG 0 0" + dosLineEnd;
 	output += "0 BFC CERTIFY CCW" + dosLineEnd;
 
 	const embeddedParts = [];
@@ -1733,6 +1741,7 @@ function updateModelAndPartInfo() {
 	if ( modelInfo ) {
 
 		if ( modelInfo.path ) guiData.path = modelInfo.path;
+		guiData.fileAuthor = modelInfo.fileAuthor ? modelInfo.fileAuthor : "";
 		guiData.modelTitle = modelInfo.title ? modelInfo.title : "No title.";
 		guiData.modelSeries = modelInfo.seriesNumber ? modelInfo.seriesNumber : "No series.";
 		if ( modelInfo.refNumber ) guiData.modelRef = modelInfo.refNumber;
@@ -1753,6 +1762,7 @@ function updateModelAndPartInfo() {
 		if ( ! selectedPart ) {
 
 			guiData.path = "";
+			guiData.fileAuthor = "";
 			guiData.modelTitle = "";
 			guiData.modelSeries = "";
 			guiData.modelRef = "";
@@ -1761,6 +1771,7 @@ function updateModelAndPartInfo() {
 		else {
 
 			guiData.path = selectedModel && selectedModel.userData.fileName ? selectedModel.userData.fileName : "";
+			guiData.fileAuthor = "";
 			guiData.modelTitle = "No title.";
 			guiData.modelSeries = "No series.";
 			guiData.modelRef = "No ref.";
@@ -1789,6 +1800,7 @@ function updateModelAndPartInfo() {
 	}
 
 	pathController.updateDisplay();
+	fileAuthorController.updateDisplay();
 	modelTitleController.updateDisplay();
 	modelSeriesController.updateDisplay();
 	modelRefController.updateDisplay();
@@ -2480,6 +2492,16 @@ function createGUI() {
 
 			const model = getPartModel( selectedPart );
 			if ( model ) model.userData.fileName = guiData.path;
+
+		}
+
+	} );
+	fileAuthorController = infoFolder.add( guiData, 'fileAuthor' ).name( 'Author' ).onChange( () => {
+
+		if ( selectedPart ) {
+
+			const model = getPartModel( selectedPart );
+			if ( model ) model.userData.fileAuthor = guiData.fileAuthor;
 
 		}
 

@@ -5,2002 +5,2860 @@
             "id": "269",
             "title": "HELICÓPTERO SERVICIO AUTOPISTA servicio autopista",
             "seriesNumber": "Aire",
-            "refNumber": "0501"
+            "refNumber": "0501",
+            "fileTitle": "FILE Aire_0501_servicio_autopista.ldr",
+            "fileAuthor": "Name: Aire_0501_servicio_autopista.ldr",
+            "fileBoxTitle": "Author: MLCad"
         },
         "oficiales/Aire_0502_HelicopteroBrigadaForestal.ldr": {
             "path": "oficiales/Aire_0502_HelicopteroBrigadaForestal.ldr",
             "id": "270",
             "title": "HELICÓPTERO BRIGADA FORESTAL HelicopteroBrigadaForestal",
             "seriesNumber": "Aire",
-            "refNumber": "0502"
+            "refNumber": "0502",
+            "fileTitle": "Sin_nombre",
+            "fileAuthor": "jasolo",
+            "fileBoxTitle": ""
         },
         "oficiales/Aire_0506_HelicopteroFumigador.ldr": {
             "path": "oficiales/Aire_0506_HelicopteroFumigador.ldr",
             "id": "274",
             "title": "HELICÓPTERO FUMIGADOR HelicopteroFumigador",
             "seriesNumber": "Aire",
-            "refNumber": "0506"
+            "refNumber": "0506",
+            "fileTitle": "Sin_nombre",
+            "fileAuthor": "jasolo",
+            "fileBoxTitle": ""
         },
         "oficiales/Aire_0508_HelicopteroTurbo-Speed.ldr": {
             "path": "oficiales/Aire_0508_HelicopteroTurbo-Speed.ldr",
             "id": "276",
             "title": "HELICÓPTERO TURBO-SPEED HelicopteroTurbo-Speed",
             "seriesNumber": "Aire",
-            "refNumber": "0508"
+            "refNumber": "0508",
+            "fileTitle": "Untitled",
+            "fileAuthor": "jasolo",
+            "fileBoxTitle": ""
         },
         "oficiales/Aire_0509_HelicopteroFalcon.ldr": {
             "path": "oficiales/Aire_0509_HelicopteroFalcon.ldr",
             "id": "277",
             "title": "HELICÓPTERO FALCON HelicopteroFalcon",
             "seriesNumber": "Aire",
-            "refNumber": "0509"
+            "refNumber": "0509",
+            "fileTitle": "Aire 0509 Helicoptero Falcon",
+            "fileAuthor": "Isaac",
+            "fileBoxTitle": ""
         },
         "oficiales/Aire_0510_HelicopteroAlaVariable.ldr": {
             "path": "oficiales/Aire_0510_HelicopteroAlaVariable.ldr",
             "id": "278",
             "title": "HELICÓPTERO ALA VARIABLE HelicopteroAlaVariable",
             "seriesNumber": "Aire",
-            "refNumber": "0510"
+            "refNumber": "0510",
+            "fileTitle": "Untitled",
+            "fileAuthor": "jasolo",
+            "fileBoxTitle": ""
         },
         "oficiales/Aire_0530_HelicopteroAutotransportado.ldr": {
             "path": "oficiales/Aire_0530_HelicopteroAutotransportado.ldr",
             "id": "282",
             "title": "HELICÓPTERO AUTOTRANSPORTADO HelicopteroAutotransportado",
             "seriesNumber": "Aire",
-            "refNumber": "0530"
+            "refNumber": "0530",
+            "fileTitle": "Aire 0530 Helicoptero Autotransportado",
+            "fileAuthor": "jasolo",
+            "fileBoxTitle": ""
         },
         "oficiales/Aire_70037_AirService.ldr": {
             "path": "oficiales/Aire_70037_AirService.ldr",
             "id": "285",
             "title": "AIR SERVICE AirService",
             "seriesNumber": "Aire",
-            "refNumber": "70037"
+            "refNumber": "70037",
+            "fileTitle": "Untitled",
+            "fileAuthor": "jasolo",
+            "fileBoxTitle": ""
         },
         "oficiales/Alfa_0364_roadmaster.ldr": {
             "path": "oficiales/Alfa_0364_roadmaster.ldr",
             "id": "352",
             "title": "MOTOR SERVICE roadmaster",
             "seriesNumber": "Alfa",
-            "refNumber": "0364"
+            "refNumber": "0364",
+            "fileTitle": "Untitled",
+            "fileAuthor": "MLCad",
+            "fileBoxTitle": ""
         },
         "oficiales/Alfa_0370_ControlAereo.ldr": {
             "path": "oficiales/Alfa_0370_ControlAereo.ldr",
             "id": "358",
             "title": "CONTROL AÉREO ControlAereo",
             "seriesNumber": "Alfa",
-            "refNumber": "0370"
+            "refNumber": "0370",
+            "fileTitle": "Alfa 0370 Control A�reo",
+            "fileAuthor": "jasolo",
+            "fileBoxTitle": ""
         },
         "oficiales/Astro_0542_Interceptor_Tactico.ldr": {
             "path": "oficiales/Astro_0542_Interceptor_Tactico.ldr",
             "id": "198",
             "title": "LOS EXPLORADORES DEL ESPACIO Interceptor Tactico",
             "seriesNumber": "Astro",
-            "refNumber": "0542"
+            "refNumber": "0542",
+            "fileTitle": "Astro 0542 Interceptor Tactico",
+            "fileAuthor": "Jasolo",
+            "fileBoxTitle": ""
         },
         "oficiales/Astro_0542_Transporte_de_Discos.ldr": {
             "path": "oficiales/Astro_0542_Transporte_de_Discos.ldr",
             "id": "198",
             "title": "LOS EXPLORADORES DEL ESPACIO Transporte de Discos",
             "seriesNumber": "Astro",
-            "refNumber": "0542"
+            "refNumber": "0542",
+            "fileTitle": "Astro 0542 Transporte de discos",
+            "fileAuthor": "jasolo",
+            "fileBoxTitle": ""
         },
         "oficiales/Astro_0552_Astro_Sencillo.ldr": {
             "path": "oficiales/Astro_0552_Astro_Sencillo.ldr",
             "id": "197",
             "title": "LOS VEHÍCULOS DE LAS GALAXIAS Astro Sencillo",
             "seriesNumber": "Astro",
-            "refNumber": "0552"
+            "refNumber": "0552",
+            "fileTitle": "Astro sencillo",
+            "fileAuthor": "jasolo",
+            "fileBoxTitle": ""
         },
         "oficiales/Astro_0552_aerodeslizadorespacial.ldr": {
             "path": "oficiales/Astro_0552_aerodeslizadorespacial.ldr",
             "id": "197",
             "title": "LOS VEHÍCULOS DE LAS GALAXIAS aerodeslizadorespacial",
             "seriesNumber": "Astro",
-            "refNumber": "0552"
+            "refNumber": "0552",
+            "fileTitle": "aerodeslizador espacial",
+            "fileAuthor": "cpcbegin",
+            "fileBoxTitle": "Tente astro (los vehiculos de las galaxias)"
         },
         "oficiales/Astro_0552_basealertagalactica.ldr": {
             "path": "oficiales/Astro_0552_basealertagalactica.ldr",
             "id": "197",
             "title": "LOS VEHÍCULOS DE LAS GALAXIAS basealertagalactica",
             "seriesNumber": "Astro",
-            "refNumber": "0552"
+            "refNumber": "0552",
+            "fileTitle": "Astro 0552 Base Alerta Gal�ctica",
+            "fileAuthor": "jasolo",
+            "fileBoxTitle": ""
         },
         "oficiales/Astro_0552_busespacial-tractor.ldr": {
             "path": "oficiales/Astro_0552_busespacial-tractor.ldr",
             "id": "197",
             "title": "LOS VEHÍCULOS DE LAS GALAXIAS busespacial-tractor",
             "seriesNumber": "Astro",
-            "refNumber": "0552"
+            "refNumber": "0552",
+            "fileTitle": "Bus espacial",
+            "fileAuthor": "cpcbegin",
+            "fileBoxTitle": "Tente astro: Los vehiculos de las galaxias"
         },
         "oficiales/Astro_0552_busespacial.ldr": {
             "path": "oficiales/Astro_0552_busespacial.ldr",
             "id": "197",
             "title": "LOS VEHÍCULOS DE LAS GALAXIAS busespacial",
             "seriesNumber": "Astro",
-            "refNumber": "0552"
+            "refNumber": "0552",
+            "fileTitle": "Bus espacial",
+            "fileAuthor": "cpcbegin",
+            "fileBoxTitle": "Tente astro: Los vehiculos de las galaxias"
         },
         "oficiales/Astro_0552_estacionuranio.ldr": {
             "path": "oficiales/Astro_0552_estacionuranio.ldr",
             "id": "197",
             "title": "LOS VEHÍCULOS DE LAS GALAXIAS estacionuranio",
             "seriesNumber": "Astro",
-            "refNumber": "0552"
+            "refNumber": "0552",
+            "fileTitle": "Estacion de uranio",
+            "fileAuthor": "cpcbegin",
+            "fileBoxTitle": "Tente astro: Los vehiculos de las galaxias"
         },
         "oficiales/Astro_0552_exploradordetector.ldr": {
             "path": "oficiales/Astro_0552_exploradordetector.ldr",
             "id": "197",
             "title": "LOS VEHÍCULOS DE LAS GALAXIAS exploradordetector",
             "seriesNumber": "Astro",
-            "refNumber": "0552"
+            "refNumber": "0552",
+            "fileTitle": "Explorador detector",
+            "fileAuthor": "cpcbegin",
+            "fileBoxTitle": "Tente astro: Los vehiculos de las galaxias"
         },
         "oficiales/Astro_0552_laboratoriomovil.ldr": {
             "path": "oficiales/Astro_0552_laboratoriomovil.ldr",
             "id": "197",
             "title": "LOS VEHÍCULOS DE LAS GALAXIAS laboratoriomovil",
             "seriesNumber": "Astro",
-            "refNumber": "0552"
+            "refNumber": "0552",
+            "fileTitle": "Laboratorio movil",
+            "fileAuthor": "cpcbegin",
+            "fileBoxTitle": "Tente astro (los vehiculos de las galaxias)"
         },
         "oficiales/Astro_0552_nave_interceptora.ldr": {
             "path": "oficiales/Astro_0552_nave_interceptora.ldr",
             "id": "197",
             "title": "LOS VEHÍCULOS DE LAS GALAXIAS nave interceptora",
             "seriesNumber": "Astro",
-            "refNumber": "0552"
+            "refNumber": "0552",
+            "fileTitle": "Untitled",
+            "fileAuthor": "MLCad",
+            "fileBoxTitle": ""
         },
         "oficiales/Astro_0552_patrulla91.ldr": {
             "path": "oficiales/Astro_0552_patrulla91.ldr",
             "id": "197",
             "title": "LOS VEHÍCULOS DE LAS GALAXIAS patrulla91",
             "seriesNumber": "Astro",
-            "refNumber": "0552"
+            "refNumber": "0552",
+            "fileTitle": "Patrulla Astro-91",
+            "fileAuthor": "cpcbegin",
+            "fileBoxTitle": "Tente astro: los vehiculos de las galaxias"
         },
         "oficiales/Astro_0552_plantatransformadoradeuranio.ldr": {
             "path": "oficiales/Astro_0552_plantatransformadoradeuranio.ldr",
             "id": "197",
             "title": "LOS VEHÍCULOS DE LAS GALAXIAS plantatransformadoradeuranio",
             "seriesNumber": "Astro",
-            "refNumber": "0552"
+            "refNumber": "0552",
+            "fileTitle": "Sin_nombre",
+            "fileAuthor": "CPCBEGIN & JASOLO",
+            "fileBoxTitle": ""
         },
         "oficiales/Astro_0552_tractormantenimiento.ldr": {
             "path": "oficiales/Astro_0552_tractormantenimiento.ldr",
             "id": "197",
             "title": "LOS VEHÍCULOS DE LAS GALAXIAS tractormantenimiento",
             "seriesNumber": "Astro",
-            "refNumber": "0552"
+            "refNumber": "0552",
+            "fileTitle": "Sin_nombre",
+            "fileAuthor": "CPCBEGIN",
+            "fileBoxTitle": ""
         },
         "oficiales/Astro_0552_transportefluidos.ldr": {
             "path": "oficiales/Astro_0552_transportefluidos.ldr",
             "id": "197",
             "title": "LOS VEHÍCULOS DE LAS GALAXIAS transportefluidos",
             "seriesNumber": "Astro",
-            "refNumber": "0552"
+            "refNumber": "0552",
+            "fileTitle": "Sin_nombre",
+            "fileAuthor": "CPCBEGIN",
+            "fileBoxTitle": ""
         },
         "oficiales/Astro_0552_transportematerialradioactivo.ldr": {
             "path": "oficiales/Astro_0552_transportematerialradioactivo.ldr",
             "id": "197",
             "title": "LOS VEHÍCULOS DE LAS GALAXIAS transportematerialradioactivo",
             "seriesNumber": "Astro",
-            "refNumber": "0552"
+            "refNumber": "0552",
+            "fileTitle": "Sin_nombre",
+            "fileAuthor": "CPCBEGIN",
+            "fileBoxTitle": ""
         },
         "oficiales/Astro_0552_transporteuranio.ldr": {
             "path": "oficiales/Astro_0552_transporteuranio.ldr",
             "id": "197",
             "title": "LOS VEHÍCULOS DE LAS GALAXIAS transporteuranio",
             "seriesNumber": "Astro",
-            "refNumber": "0552"
+            "refNumber": "0552",
+            "fileTitle": "Transporte de uranio",
+            "fileAuthor": "cpcbegin",
+            "fileBoxTitle": "Tente astro: Los vehiculos de las galaxias"
         },
         "oficiales/Astro_0552_vehiculoarticulado.ldr": {
             "path": "oficiales/Astro_0552_vehiculoarticulado.ldr",
             "id": "197",
             "title": "LOS VEHÍCULOS DE LAS GALAXIAS vehiculoarticulado",
             "seriesNumber": "Astro",
-            "refNumber": "0552"
+            "refNumber": "0552",
+            "fileTitle": "Untitled",
+            "fileAuthor": "MLCad",
+            "fileBoxTitle": ""
         },
         "oficiales/Astro_0552_vehiculodedefensa.ldr": {
             "path": "oficiales/Astro_0552_vehiculodedefensa.ldr",
             "id": "197",
             "title": "LOS VEHÍCULOS DE LAS GALAXIAS vehiculodedefensa",
             "seriesNumber": "Astro",
-            "refNumber": "0552"
+            "refNumber": "0552",
+            "fileTitle": "Nave de defensa",
+            "fileAuthor": "cpcbegin",
+            "fileBoxTitle": "Tente astro (los vehiculos de las galaxias)"
         },
         "oficiales/Astro_0552_vehiculoenlace.ldr": {
             "path": "oficiales/Astro_0552_vehiculoenlace.ldr",
             "id": "197",
             "title": "LOS VEHÍCULOS DE LAS GALAXIAS vehiculoenlace",
             "seriesNumber": "Astro",
-            "refNumber": "0552"
+            "refNumber": "0552",
+            "fileTitle": "Vehiculo de enlace",
+            "fileAuthor": "cpcbegin",
+            "fileBoxTitle": "Tente astro: Los vehiculos de las galaxias"
         },
         "oficiales/Astro_0650_desintegrador_alternativo.ldr": {
             "path": "oficiales/Astro_0650_desintegrador_alternativo.ldr",
             "id": "199",
             "title": "DESINTEGRADOR DE RAYOS LASER desintegrador alternativo",
             "seriesNumber": "Astro",
-            "refNumber": "0650"
+            "refNumber": "0650",
+            "fileTitle": "Sin_nombre",
+            "fileAuthor": "cpcbegin",
+            "fileBoxTitle": ""
         },
         "oficiales/Astro_0650_desintegradorrayoslaser.ldr": {
             "path": "oficiales/Astro_0650_desintegradorrayoslaser.ldr",
             "id": "199",
             "title": "DESINTEGRADOR DE RAYOS LASER desintegradorrayoslaser",
             "seriesNumber": "Astro",
-            "refNumber": "0650"
+            "refNumber": "0650",
+            "fileTitle": "Sin_nombre",
+            "fileAuthor": "cpcbegin",
+            "fileBoxTitle": ""
         },
         "oficiales/Astro_0651_centromovilcontrol.ldr": {
             "path": "oficiales/Astro_0651_centromovilcontrol.ldr",
             "id": "200",
             "title": "CENTRO MÓVIL DE CONTROL centromovilcontrol",
             "seriesNumber": "Astro",
-            "refNumber": "0651"
+            "refNumber": "0651",
+            "fileTitle": "Centro movil de control",
+            "fileAuthor": "cpcbegin",
+            "fileBoxTitle": "Tente astro"
         },
         "oficiales/Astro_0652_exploradorespacial.ldr": {
             "path": "oficiales/Astro_0652_exploradorespacial.ldr",
             "id": "201",
             "title": "EXPLORADOR ESPACIAL exploradorespacial",
             "seriesNumber": "Astro",
-            "refNumber": "0652"
+            "refNumber": "0652",
+            "fileTitle": "Explorador espacial",
+            "fileAuthor": "cpcbegin",
+            "fileBoxTitle": "Tente astro"
         },
         "oficiales/Astro_0653_astromovil.ldr": {
             "path": "oficiales/Astro_0653_astromovil.ldr",
             "id": "202",
             "title": "ASTROMÓVIL astromovil",
             "seriesNumber": "Astro",
-            "refNumber": "0653"
+            "refNumber": "0653",
+            "fileTitle": "Astromovil",
+            "fileAuthor": "cpcbegin",
+            "fileBoxTitle": "Tente astro"
         },
         "oficiales/Astro_0654_unidadsideralrescate.ldr": {
             "path": "oficiales/Astro_0654_unidadsideralrescate.ldr",
             "id": "203",
             "title": "UNIDAD SIDERAL DE RESCATE unidadsideralrescate",
             "seriesNumber": "Astro",
-            "refNumber": "0654"
+            "refNumber": "0654",
+            "fileTitle": "Unidad sideral de rescate",
+            "fileAuthor": "cpcbegin",
+            "fileBoxTitle": "Tente astro"
         },
         "oficiales/Astro_0655_torrecontroltraficoorbital.ldr": {
             "path": "oficiales/Astro_0655_torrecontroltraficoorbital.ldr",
             "id": "204",
             "title": "TORRE CONTROL TRÁFICO ORBITAL torrecontroltraficoorbital",
             "seriesNumber": "Astro",
-            "refNumber": "0655"
+            "refNumber": "0655",
+            "fileTitle": "Torre de control",
+            "fileAuthor": "cpcbegin",
+            "fileBoxTitle": "Tente astro: Torre de control y trafico orbital"
         },
         "oficiales/Astro_0656_InterceptorEspacial.ldr": {
             "path": "oficiales/Astro_0656_InterceptorEspacial.ldr",
             "id": "205",
             "title": "INTERCEPTOR ESPACIAL InterceptorEspacial",
             "seriesNumber": "Astro",
-            "refNumber": "0656"
+            "refNumber": "0656",
+            "fileTitle": "Astro 0656 Interceptor Espacial",
+            "fileAuthor": "Jasolo",
+            "fileBoxTitle": ""
         },
         "oficiales/Astro_0657_unidadteledetectora.ldr": {
             "path": "oficiales/Astro_0657_unidadteledetectora.ldr",
             "id": "206",
             "title": "UNIDAD TELEDETECTORA unidadteledetectora",
             "seriesNumber": "Astro",
-            "refNumber": "0657"
+            "refNumber": "0657",
+            "fileTitle": "Unidad teledetectora",
+            "fileAuthor": "cpcbegin",
+            "fileBoxTitle": "Tente astro"
         },
         "oficiales/Astro_0658_aranalunar.ldr": {
             "path": "oficiales/Astro_0658_aranalunar.ldr",
             "id": "207",
             "title": "ARAÑA LUNAR aranalunar",
             "seriesNumber": "Astro",
-            "refNumber": "0658"
+            "refNumber": "0658",
+            "fileTitle": "Ara�a lunar",
+            "fileAuthor": "cpcbegin",
+            "fileBoxTitle": "Tente astro"
         },
         "oficiales/Astro_0661_uesondeo.ldr": {
             "path": "oficiales/Astro_0661_uesondeo.ldr",
             "id": "210",
             "title": "UNIDAD ESPECIAL DE SONDEO uesondeo",
             "seriesNumber": "Astro",
-            "refNumber": "0661"
+            "refNumber": "0661",
+            "fileTitle": "Sin_nombre",
+            "fileAuthor": "cpcbegin",
+            "fileBoxTitle": ""
         },
         "oficiales/Astro_0720_proyectorgalacticomovil.ldr": {
             "path": "oficiales/Astro_0720_proyectorgalacticomovil.ldr",
             "id": "211",
             "title": "PROYECTOR GALÁCTICO MÓVIL proyectorgalacticomovil",
             "seriesNumber": "Astro",
-            "refNumber": "0720"
+            "refNumber": "0720",
+            "fileTitle": "FILE Astro_0720_proyectorgalacticomovil.ldr",
+            "fileAuthor": "Name: Astro_0720_proyectorgalacticomovil.ldr",
+            "fileBoxTitle": "Author: cpcbegin"
         },
         "oficiales/Astro_0721_Astronave+TorreLanzamiento.ldr": {
             "path": "oficiales/Astro_0721_Astronave+TorreLanzamiento.ldr",
             "id": "212",
             "title": "ASTRONAVE Y TORRE DE LANZAMIENTO Astronave+TorreLanzamiento",
             "seriesNumber": "Astro",
-            "refNumber": "0721"
+            "refNumber": "0721",
+            "fileTitle": "FILE Astro_0721_Astronave+TorreLanzamiento.ldr",
+            "fileAuthor": "jasolo",
+            "fileBoxTitle": ""
         },
         "oficiales/Astro_0722_navedefensasideral.ldr": {
             "path": "oficiales/Astro_0722_navedefensasideral.ldr",
             "id": "213",
             "title": "NAVE DEFENSA SIDERAL navedefensasideral",
             "seriesNumber": "Astro",
-            "refNumber": "0722"
+            "refNumber": "0722",
+            "fileTitle": "FILE Astro_0722_navedefensasideral.ldr",
+            "fileAuthor": "Name: Astro_0722_navedefensasideral.ldr",
+            "fileBoxTitle": "Author: cpcbegin"
         },
         "oficiales/Astro_0722_navedefensasideral2.ldr": {
             "path": "oficiales/Astro_0722_navedefensasideral2.ldr",
             "id": "213",
             "title": "NAVE DEFENSA SIDERAL navedefensasideral2",
             "seriesNumber": "Astro",
-            "refNumber": "0722"
+            "refNumber": "0722",
+            "fileTitle": "FILE Astro_0722_navedefensasideral2.ldr",
+            "fileAuthor": "Name: Astro_0722_navedefensasideral2.ldr",
+            "fileBoxTitle": "Author: cpcbegin"
         },
         "oficiales/Astro_0722_navedefensasideral3.ldr": {
             "path": "oficiales/Astro_0722_navedefensasideral3.ldr",
             "id": "213",
             "title": "NAVE DEFENSA SIDERAL navedefensasideral3",
             "seriesNumber": "Astro",
-            "refNumber": "0722"
+            "refNumber": "0722",
+            "fileTitle": "FILE Astro_0722_navedefensasideral3.ldr",
+            "fileAuthor": "Name: Astro_0722_navedefensasideral3.ldr",
+            "fileBoxTitle": "Author: cpcbegin"
         },
         "oficiales/Astro_0723_BaseVigiaCosmica.ldr": {
             "path": "oficiales/Astro_0723_BaseVigiaCosmica.ldr",
             "id": "214",
             "title": "BASE VIGÍA CÓSMICA  BaseVigiaCosmica",
             "seriesNumber": "Astro",
-            "refNumber": "0723"
+            "refNumber": "0723",
+            "fileTitle": "FILE Astro_0723_BaseVigiaCosmica.ldr",
+            "fileAuthor": "jasolo",
+            "fileBoxTitle": ""
         },
         "oficiales/Astro_0740_saturno6-miniexploradoraereo.ldr": {
             "path": "oficiales/Astro_0740_saturno6-miniexploradoraereo.ldr",
             "id": "218",
             "title": "SUPERTRANSPORTE INTERESTELAR saturno6-miniexploradoraereo",
             "seriesNumber": "Astro",
-            "refNumber": "0740"
+            "refNumber": "0740",
+            "fileTitle": "Mini explorador aereo",
+            "fileAuthor": "MLCad",
+            "fileBoxTitle": "Tente astro: Saturno-6"
         },
         "oficiales/Astro_0740_saturno6-miniexploradorterrestre.ldr": {
             "path": "oficiales/Astro_0740_saturno6-miniexploradorterrestre.ldr",
             "id": "218",
             "title": "SUPERTRANSPORTE INTERESTELAR saturno6-miniexploradorterrestre",
             "seriesNumber": "Astro",
-            "refNumber": "0740"
+            "refNumber": "0740",
+            "fileTitle": "Saturno-6 miniexplorador terrestre",
+            "fileAuthor": "cpcbegin",
+            "fileBoxTitle": "Astro (saturno-6)"
         },
         "oficiales/Astro_0740_saturno6-nodriza.ldr": {
             "path": "oficiales/Astro_0740_saturno6-nodriza.ldr",
             "id": "218",
             "title": "SUPERTRANSPORTE INTERESTELAR saturno6-nodriza",
             "seriesNumber": "Astro",
-            "refNumber": "0740"
+            "refNumber": "0740",
+            "fileTitle": "Supertransporte interestelar",
+            "fileAuthor": "cpcbegin",
+            "fileBoxTitle": "Tente astro: Saturno-6"
         },
         "oficiales/Astro_70022_desintegrador_borras.ldr": {
             "path": "oficiales/Astro_70022_desintegrador_borras.ldr",
             "id": "221",
             "title": "VEHÍCULO EXPLORADOR desintegrador borras",
             "seriesNumber": "Astro",
-            "refNumber": "70022"
+            "refNumber": "70022",
+            "fileTitle": "Sin_nombre",
+            "fileAuthor": "CPCBEGIN",
+            "fileBoxTitle": ""
         },
         "oficiales/Astro_70022_desintegrador_borras_apunta_arriba.ldr": {
             "path": "oficiales/Astro_70022_desintegrador_borras_apunta_arriba.ldr",
             "id": "221",
             "title": "VEHÍCULO EXPLORADOR desintegrador borras apunta arriba",
             "seriesNumber": "Astro",
-            "refNumber": "70022"
+            "refNumber": "70022",
+            "fileTitle": "Sin_nombre",
+            "fileAuthor": "CPCBEGIN",
+            "fileBoxTitle": ""
         },
         "oficiales/Basico_0401_casa.ldr": {
             "path": "oficiales/Basico_0401_casa.ldr",
             "id": "21",
             "title": "1 / 401 casa",
             "seriesNumber": "Basico",
-            "refNumber": "0401"
+            "refNumber": "0401",
+            "fileTitle": "Sin_nombre",
+            "fileAuthor": "MLCad",
+            "fileBoxTitle": ""
         },
         "oficiales/Basico_0401_f1tesoro.ldr": {
             "path": "oficiales/Basico_0401_f1tesoro.ldr",
             "id": "21",
             "title": "1 / 401 f1tesoro",
             "seriesNumber": "Basico",
-            "refNumber": "0401"
+            "refNumber": "0401",
+            "fileTitle": "F-1 tesoro",
+            "fileAuthor": "cpcbegin",
+            "fileBoxTitle": "Tente iniciacion"
         },
         "oficiales/Basico_0402_casa.ldr": {
             "path": "oficiales/Basico_0402_casa.ldr",
             "id": "22",
             "title": "2 / 401 casa",
             "seriesNumber": "Basico",
-            "refNumber": "0402"
+            "refNumber": "0402",
+            "fileTitle": "Sin_nombre",
+            "fileAuthor": "CPCBEGIN",
+            "fileBoxTitle": ""
         },
         "oficiales/Basico_0403_avion_iniciacion.ldr": {
             "path": "oficiales/Basico_0403_avion_iniciacion.ldr",
             "id": "23",
             "title": "3 / 402 avion iniciacion",
             "seriesNumber": "Basico",
-            "refNumber": "0403"
+            "refNumber": "0403",
+            "fileTitle": "Avion iniciacion",
+            "fileAuthor": "cpcbegin",
+            "fileBoxTitle": "Tente iniciacion"
         },
         "oficiales/Basico_0403_casa.ldr": {
             "path": "oficiales/Basico_0403_casa.ldr",
             "id": "23",
             "title": "3 / 402 casa",
             "seriesNumber": "Basico",
-            "refNumber": "0403"
+            "refNumber": "0403",
+            "fileTitle": "Sin_nombre",
+            "fileAuthor": "cpcbegin",
+            "fileBoxTitle": ""
         },
         "oficiales/Basico_0403_casahalt.ldr": {
             "path": "oficiales/Basico_0403_casahalt.ldr",
             "id": "23",
             "title": "3 / 402 casahalt",
             "seriesNumber": "Basico",
-            "refNumber": "0403"
+            "refNumber": "0403",
+            "fileTitle": "Sin_nombre",
+            "fileAuthor": "CPCBEGIN",
+            "fileBoxTitle": ""
         },
         "oficiales/Basico_0403_chalet.ldr": {
             "path": "oficiales/Basico_0403_chalet.ldr",
             "id": "23",
             "title": "3 / 402 chalet",
             "seriesNumber": "Basico",
-            "refNumber": "0403"
+            "refNumber": "0403",
+            "fileTitle": "Sin_nombre",
+            "fileAuthor": "MLCad",
+            "fileBoxTitle": ""
         },
         "oficiales/Basico_0403_coche.ldr": {
             "path": "oficiales/Basico_0403_coche.ldr",
             "id": "23",
             "title": "3 / 402 coche",
             "seriesNumber": "Basico",
-            "refNumber": "0403"
+            "refNumber": "0403",
+            "fileTitle": "Untitled",
+            "fileAuthor": "MLCad",
+            "fileBoxTitle": ""
         },
         "oficiales/Combi-Astro_0340_lectorgeologico.ldr": {
             "path": "oficiales/Combi-Astro_0340_lectorgeologico.ldr",
             "id": "233",
             "title": "LECTOR GEOLÓGICO lectorgeologico",
             "seriesNumber": "Combi Astro",
-            "refNumber": "0340"
+            "refNumber": "0340",
+            "fileTitle": "Untitled",
+            "fileAuthor": "MLCad",
+            "fileBoxTitle": ""
         },
         "oficiales/Combi-Astro_5_8.ldr": {
             "path": "oficiales/Combi-Astro_5_8.ldr",
             "id": "",
             "title": "Combi Astro 5 8",
             "seriesNumber": "",
-            "refNumber": ""
+            "refNumber": "",
+            "fileTitle": "Generador movil",
+            "fileAuthor": "cpcbegin",
+            "fileBoxTitle": "Tente astro: Combi 6"
         },
         "oficiales/Combi-Astro_6_7.ldr": {
             "path": "oficiales/Combi-Astro_6_7.ldr",
             "id": "",
             "title": "Combi Astro 6 7",
             "seriesNumber": "",
-            "refNumber": ""
+            "refNumber": "",
+            "fileTitle": "Generador movil",
+            "fileAuthor": "cpcbegin",
+            "fileBoxTitle": "Tente astro: Combi 6"
         },
         "oficiales/Combi-Astro_6_generadormovil.ldr": {
             "path": "oficiales/Combi-Astro_6_generadormovil.ldr",
             "id": "",
             "title": "Combi Astro 6 generadormovil",
             "seriesNumber": "",
-            "refNumber": ""
+            "refNumber": "",
+            "fileTitle": "Generador movil",
+            "fileAuthor": "cpcbegin",
+            "fileBoxTitle": "Tente astro: Combi 6"
         },
         "oficiales/Combi-Astro_7_unidad-exploradora.ldr": {
             "path": "oficiales/Combi-Astro_7_unidad-exploradora.ldr",
             "id": "",
             "title": "Combi Astro 7 unidad-exploradora",
             "seriesNumber": "",
-            "refNumber": ""
+            "refNumber": "",
+            "fileTitle": "Sin_nombre",
+            "fileAuthor": "jasolo",
+            "fileBoxTitle": ""
         },
         "oficiales/Combi-Mar_0301.ldr": {
             "path": "oficiales/Combi-Mar_0301.ldr",
             "id": "184",
             "title": "PATRULLERO (CONSUL) ",
             "seriesNumber": "Combi Mar",
-            "refNumber": "0301"
+            "refNumber": "0301",
+            "fileTitle": "Sin_nombre",
+            "fileAuthor": "jasolo",
+            "fileBoxTitle": ""
         },
         "oficiales/Combi-Mar_0302.ldr": {
             "path": "oficiales/Combi-Mar_0302.ldr",
             "id": "185",
             "title": "TRANSPORTE ANFIBIO (OCEAN) ",
             "seriesNumber": "Combi Mar",
-            "refNumber": "0302"
+            "refNumber": "0302",
+            "fileTitle": "Sin_nombre",
+            "fileAuthor": "jasolo",
+            "fileBoxTitle": ""
         },
         "oficiales/Combi-Mar_0333_corfu.ldr": {
             "path": "oficiales/Combi-Mar_0333_corfu.ldr",
             "id": "192",
             "title": "TRANSBORDADOR (CORFU) corfu",
             "seriesNumber": "Combi Mar",
-            "refNumber": "0333"
+            "refNumber": "0333",
+            "fileTitle": "Untitled",
+            "fileAuthor": "MLCad",
+            "fileBoxTitle": ""
         },
         "oficiales/Compact_0343_Excavator.ldr": {
             "path": "oficiales/Compact_0343_Excavator.ldr",
             "id": "368",
             "title": "EXCAVATOR Excavator",
             "seriesNumber": "Compact",
-            "refNumber": "0343"
+            "refNumber": "0343",
+            "fileTitle": "Untitled",
+            "fileAuthor": "MLCad",
+            "fileBoxTitle": ""
         },
         "oficiales/Compact_0344_Extinthor.ldr": {
             "path": "oficiales/Compact_0344_Extinthor.ldr",
             "id": "369",
             "title": "EXTIN-THOR Extinthor",
             "seriesNumber": "Compact",
-            "refNumber": "0344"
+            "refNumber": "0344",
+            "fileTitle": "Untitled",
+            "fileAuthor": "MLCad",
+            "fileBoxTitle": ""
         },
         "oficiales/Compact_0345_SpacePatrol.ldr": {
             "path": "oficiales/Compact_0345_SpacePatrol.ldr",
             "id": "370",
             "title": "SPACE-PATROL SpacePatrol",
             "seriesNumber": "Compact",
-            "refNumber": "0345"
+            "refNumber": "0345",
+            "fileTitle": "Untitled",
+            "fileAuthor": "MLCad",
+            "fileBoxTitle": ""
         },
         "oficiales/Compact_0346_Vigilantic.ldr": {
             "path": "oficiales/Compact_0346_Vigilantic.ldr",
             "id": "371",
             "title": "VIGILANTIC Vigilantic",
             "seriesNumber": "Compact",
-            "refNumber": "0346"
+            "refNumber": "0346",
+            "fileTitle": "MLCAD BTG astronauta_sentado",
+            "fileAuthor": "MLCAD BTG astronauta_sentado",
+            "fileBoxTitle": "Name: Compact_0346_Vigilantic.ldr"
         },
         "oficiales/Compact_0347_Pegasus.ldr": {
             "path": "oficiales/Compact_0347_Pegasus.ldr",
             "id": "372",
             "title": "PEGASUS Pegasus",
             "seriesNumber": "Compact",
-            "refNumber": "0347"
+            "refNumber": "0347",
+            "fileTitle": "Untitled",
+            "fileAuthor": "MLCad",
+            "fileBoxTitle": ""
         },
         "oficiales/Compact_0348_Bipstar.ldr": {
             "path": "oficiales/Compact_0348_Bipstar.ldr",
             "id": "373",
             "title": "BIP-STAR Bipstar",
             "seriesNumber": "Compact",
-            "refNumber": "0348"
+            "refNumber": "0348",
+            "fileTitle": "Untitled",
+            "fileAuthor": "MLCad",
+            "fileBoxTitle": ""
         },
         "oficiales/Compact_0349_Robby.ldr": {
             "path": "oficiales/Compact_0349_Robby.ldr",
             "id": "374",
             "title": "ROBBY Robby",
             "seriesNumber": "Compact",
-            "refNumber": "0349"
+            "refNumber": "0349",
+            "fileTitle": "Untitled",
+            "fileAuthor": "MLCad",
+            "fileBoxTitle": ""
         },
         "oficiales/Compact_0351_Tex.ldr": {
             "path": "oficiales/Compact_0351_Tex.ldr",
             "id": "376",
             "title": "TEX Tex",
             "seriesNumber": "Compact",
-            "refNumber": "0351"
+            "refNumber": "0351",
+            "fileTitle": "MLCAD BTG piloto1",
+            "fileAuthor": "MLCAD BTG piloto1",
+            "fileBoxTitle": "Name: Compact_0351_Tex.ldr"
         },
         "oficiales/Compact_0352_Karpan.ldr": {
             "path": "oficiales/Compact_0352_Karpan.ldr",
             "id": "377",
             "title": "KARPAN Karpan",
             "seriesNumber": "Compact",
-            "refNumber": "0352"
+            "refNumber": "0352",
+            "fileTitle": "Untitled",
+            "fileAuthor": "MLCad",
+            "fileBoxTitle": ""
         },
         "oficiales/Compact_0353_Condor.ldr": {
             "path": "oficiales/Compact_0353_Condor.ldr",
             "id": "378",
             "title": "CONDOR Condor",
             "seriesNumber": "Compact",
-            "refNumber": "0353"
+            "refNumber": "0353",
+            "fileTitle": "Untitled",
+            "fileAuthor": "MLCad",
+            "fileBoxTitle": ""
         },
         "oficiales/Cosmic_0435_scutty.ldr": {
             "path": "oficiales/Cosmic_0435_scutty.ldr",
             "id": "242",
             "title": "SCOUTY scutty",
             "seriesNumber": "Cosmic",
-            "refNumber": "0435"
+            "refNumber": "0435",
+            "fileTitle": "Scutty",
+            "fileAuthor": "CPCBEGIN",
+            "fileBoxTitle": ""
         },
         "oficiales/Hasbro_0210_rainbowvan.ldr": {
             "path": "oficiales/Hasbro_0210_rainbowvan.ldr",
             "id": "",
             "title": "Hasbro 0210 rainbowvan",
             "seriesNumber": "",
-            "refNumber": ""
+            "refNumber": "",
+            "fileTitle": "Sin_nombre",
+            "fileAuthor": "CPCBEGIN",
+            "fileBoxTitle": ""
         },
         "oficiales/Hasbro_0212_rangerpickup.ldr": {
             "path": "oficiales/Hasbro_0212_rangerpickup.ldr",
             "id": "",
             "title": "Hasbro 0212 rangerpickup",
             "seriesNumber": "",
-            "refNumber": ""
+            "refNumber": "",
+            "fileTitle": "Pickup",
+            "fileAuthor": "cpcbegin",
+            "fileBoxTitle": "Tente ruta (USA)"
         },
         "oficiales/Hasbro_0220_refrigeratortruck.ldr": {
             "path": "oficiales/Hasbro_0220_refrigeratortruck.ldr",
             "id": "",
             "title": "Hasbro 0220 refrigeratortruck",
             "seriesNumber": "",
-            "refNumber": ""
+            "refNumber": "",
+            "fileTitle": "Refrigerator truck",
+            "fileAuthor": "cpcbegin",
+            "fileBoxTitle": "Tente ruta USA"
         },
         "oficiales/Hasbro_0222_caravana_americana.ldr": {
             "path": "oficiales/Hasbro_0222_caravana_americana.ldr",
             "id": "",
             "title": "Hasbro 0222 caravana americana",
             "seriesNumber": "",
-            "refNumber": ""
+            "refNumber": "",
+            "fileTitle": "Caravana americana",
+            "fileAuthor": "CPCBEGIN",
+            "fileBoxTitle": "ROTATION CENTER 0 0 0 1 \"Custom\""
         },
         "oficiales/Hasbro_0222_greyhoundbus.ldr": {
             "path": "oficiales/Hasbro_0222_greyhoundbus.ldr",
             "id": "",
             "title": "Hasbro 0222 greyhoundbus",
             "seriesNumber": "",
-            "refNumber": ""
+            "refNumber": "",
+            "fileTitle": "Greyhound Bus",
+            "fileAuthor": "cpcbegin",
+            "fileBoxTitle": "Tente ruta USA"
         },
         "oficiales/Hasbro_0250_formula1witht8.ldr": {
             "path": "oficiales/Hasbro_0250_formula1witht8.ldr",
             "id": "",
             "title": "Hasbro 0250 formula1witht8",
             "seriesNumber": "",
-            "refNumber": ""
+            "refNumber": "",
+            "fileTitle": "Untitled",
+            "fileAuthor": "MLCad",
+            "fileBoxTitle": ""
         },
         "oficiales/Hasbro_0260_dumptruck.ldr": {
             "path": "oficiales/Hasbro_0260_dumptruck.ldr",
             "id": "",
             "title": "Hasbro 0260 dumptruck",
             "seriesNumber": "",
-            "refNumber": ""
+            "refNumber": "",
+            "fileTitle": "Dump truck",
+            "fileAuthor": "cpcbegin",
+            "fileBoxTitle": "Tente ruta USA"
         },
         "oficiales/Hasbro_0260_firetruck.ldr": {
             "path": "oficiales/Hasbro_0260_firetruck.ldr",
             "id": "",
             "title": "Hasbro 0260 firetruck",
             "seriesNumber": "",
-            "refNumber": ""
+            "refNumber": "",
+            "fileTitle": "Fire Truck",
+            "fileAuthor": "cpcbegin",
+            "fileBoxTitle": "Tente ruta USA"
         },
         "oficiales/Hasbro_0260_jeepconvertible.ldr": {
             "path": "oficiales/Hasbro_0260_jeepconvertible.ldr",
             "id": "",
             "title": "Hasbro 0260 jeepconvertible",
             "seriesNumber": "",
-            "refNumber": ""
+            "refNumber": "",
+            "fileTitle": "Jeep convertible",
+            "fileAuthor": "ROTATION CONFIG 0 0",
+            "fileBoxTitle": ""
         },
         "oficiales/Hasbro_0260_mobilehome.ldr": {
             "path": "oficiales/Hasbro_0260_mobilehome.ldr",
             "id": "",
             "title": "Hasbro 0260 mobilehome",
             "seriesNumber": "",
-            "refNumber": ""
+            "refNumber": "",
+            "fileTitle": "Mobile Home",
+            "fileAuthor": "cpcbegin",
+            "fileBoxTitle": "Tente ruta USA"
         },
         "oficiales/Hasbro_0260_trashtruck.ldr": {
             "path": "oficiales/Hasbro_0260_trashtruck.ldr",
             "id": "",
             "title": "Hasbro 0260 trashtruck",
             "seriesNumber": "",
-            "refNumber": ""
+            "refNumber": "",
+            "fileTitle": "Untitled",
+            "fileAuthor": "CPCBEGIN",
+            "fileBoxTitle": "Hasbro model"
         },
         "oficiales/Hasbro_0270_basespaceaventure.ldr": {
             "path": "oficiales/Hasbro_0270_basespaceaventure.ldr",
             "id": "",
             "title": "Hasbro 0270 basespaceaventure",
             "seriesNumber": "",
-            "refNumber": ""
+            "refNumber": "",
+            "fileTitle": "Untitled",
+            "fileAuthor": "CPCBEGIN",
+            "fileBoxTitle": "Hasbro 480"
         },
         "oficiales/Hasbro_0403_laserray.ldr": {
             "path": "oficiales/Hasbro_0403_laserray.ldr",
             "id": "",
             "title": "Hasbro 0403 laserray",
             "seriesNumber": "",
-            "refNumber": ""
+            "refNumber": "",
+            "fileTitle": "Sin_nombre",
+            "fileAuthor": "cpcbegin",
+            "fileBoxTitle": ""
         },
         "oficiales/Hasbro_0481_astrostarcommander.ldr": {
             "path": "oficiales/Hasbro_0481_astrostarcommander.ldr",
             "id": "",
             "title": "Hasbro 0481 astrostarcommander",
             "seriesNumber": "",
-            "refNumber": ""
+            "refNumber": "",
+            "fileTitle": "Untitled",
+            "fileAuthor": "MLCad",
+            "fileBoxTitle": ""
         },
         "oficiales/Hasbro__astronavedefensa.ldr": {
             "path": "oficiales/Hasbro__astronavedefensa.ldr",
             "id": "",
             "title": "Hasbro  astronavedefensa",
             "seriesNumber": "",
-            "refNumber": ""
+            "refNumber": "",
+            "fileTitle": "Untitled",
+            "fileAuthor": "MLCad",
+            "fileBoxTitle": ""
         },
         "oficiales/Hasbro__camionnye.ldr": {
             "path": "oficiales/Hasbro__camionnye.ldr",
             "id": "",
             "title": "Hasbro  camionnye",
             "seriesNumber": "",
-            "refNumber": ""
+            "refNumber": "",
+            "fileTitle": "Cami�n New York Express",
+            "fileAuthor": "MLCad",
+            "fileBoxTitle": ""
         },
         "oficiales/Hasbro__campingcar.ldr": {
             "path": "oficiales/Hasbro__campingcar.ldr",
             "id": "",
             "title": "Hasbro  campingcar",
             "seriesNumber": "",
-            "refNumber": ""
+            "refNumber": "",
+            "fileTitle": "Untitled",
+            "fileAuthor": "MLCad",
+            "fileBoxTitle": ""
         },
         "oficiales/Mar_0550_barcopaseo.ldr": {
             "path": "oficiales/Mar_0550_barcopaseo.ldr",
             "id": "71",
             "title": "LOS GIGANTES DEL MAR barcopaseo",
             "seriesNumber": "Mar",
-            "refNumber": "0550"
+            "refNumber": "0550",
+            "fileTitle": "Autobus urbano",
+            "fileAuthor": "cpcbegin",
+            "fileBoxTitle": "Tente ruta"
         },
         "oficiales/Mar_0550_buqueFaro.ldr": {
             "path": "oficiales/Mar_0550_buqueFaro.ldr",
             "id": "71",
             "title": "LOS GIGANTES DEL MAR buqueFaro",
             "seriesNumber": "Mar",
-            "refNumber": "0550"
+            "refNumber": "0550",
+            "fileTitle": "Barco faro",
+            "fileAuthor": "CPCBEGIN",
+            "fileBoxTitle": "Los gigantes del Mar"
         },
         "oficiales/Mar_0550_buquepasaje.ldr": {
             "path": "oficiales/Mar_0550_buquepasaje.ldr",
             "id": "71",
             "title": "LOS GIGANTES DEL MAR buquepasaje",
             "seriesNumber": "Mar",
-            "refNumber": "0550"
+            "refNumber": "0550",
+            "fileTitle": "Sin_nombre",
+            "fileAuthor": "CPCBEGIN",
+            "fileBoxTitle": ""
         },
         "oficiales/Mar_0550_yatemallorca.ldr": {
             "path": "oficiales/Mar_0550_yatemallorca.ldr",
             "id": "71",
             "title": "LOS GIGANTES DEL MAR yatemallorca",
             "seriesNumber": "Mar",
-            "refNumber": "0550"
+            "refNumber": "0550",
+            "fileTitle": "Yate (Mallorca)",
+            "fileAuthor": "CPCBEGIN",
+            "fileBoxTitle": "Los Gigantes del Mar"
         },
         "oficiales/Mar_0550_yatexaloc.ldr": {
             "path": "oficiales/Mar_0550_yatexaloc.ldr",
             "id": "71",
             "title": "LOS GIGANTES DEL MAR yatexaloc",
             "seriesNumber": "Mar",
-            "refNumber": "0550"
+            "refNumber": "0550",
+            "fileTitle": "Yate (Mallorca)",
+            "fileAuthor": "CPCBEGIN",
+            "fileBoxTitle": "Los Gigantes del Mar"
         },
         "oficiales/Mar_0614_ferry.ldr": {
             "path": "oficiales/Mar_0614_ferry.ldr",
             "id": "86",
             "title": "FERRY  (EGEO) ferry",
             "seriesNumber": "Mar",
-            "refNumber": "0614"
+            "refNumber": "0614",
+            "fileTitle": "Ferry",
+            "fileAuthor": "cpcbegin",
+            "fileBoxTitle": ""
         },
         "oficiales/Mar_0615_fragata-lanzamisiles.ldr": {
             "path": "oficiales/Mar_0615_fragata-lanzamisiles.ldr",
             "id": "87",
             "title": "FRAGATA LANZAMISILES (ICARO) fragata-lanzamisiles",
             "seriesNumber": "Mar",
-            "refNumber": "0615"
+            "refNumber": "0615",
+            "fileTitle": "Sin_nombre",
+            "fileAuthor": "jasolo",
+            "fileBoxTitle": ""
         },
         "oficiales/Mar_0642_automotor.ldr": {
             "path": "oficiales/Mar_0642_automotor.ldr",
             "id": "113",
             "title": "EXPLOR automotor",
             "seriesNumber": "Mar",
-            "refNumber": "0642"
+            "refNumber": "0642",
+            "fileTitle": "Automotor",
+            "fileAuthor": "cpcbegin",
+            "fileBoxTitle": "Tente mar motor (alternativo hovercraft)"
         },
         "oficiales/Mar_0642_hovercraftmotor.ldr": {
             "path": "oficiales/Mar_0642_hovercraftmotor.ldr",
             "id": "113",
             "title": "EXPLOR hovercraftmotor",
             "seriesNumber": "Mar",
-            "refNumber": "0642"
+            "refNumber": "0642",
+            "fileTitle": "Hovercraft (motor)",
+            "fileAuthor": "cpcbegin",
+            "fileBoxTitle": "Tente mar - motor"
         },
         "oficiales/Mar_0710_vaportransatlantico.ldr": {
             "path": "oficiales/Mar_0710_vaportransatlantico.ldr",
             "id": "133",
             "title": "TRANSATLÁNTICO EL GRECO vaportransatlantico",
             "seriesNumber": "Mar",
-            "refNumber": "0710"
+            "refNumber": "0710",
+            "fileTitle": "Sin_nombre",
+            "fileAuthor": "CPCBEGIN",
+            "fileBoxTitle": ""
         },
         "oficiales/Mini_501_chalet.ldr": {
             "path": "oficiales/Mini_501_chalet.ldr",
             "id": "8",
             "title": "CHALET chalet",
             "seriesNumber": "Mini",
-            "refNumber": "501"
+            "refNumber": "501",
+            "fileTitle": "Untitled",
+            "fileAuthor": "ROTATION CONFIG 0 0",
+            "fileBoxTitle": ""
         },
         "oficiales/Mini_501_simbolo_chino.ldr": {
             "path": "oficiales/Mini_501_simbolo_chino.ldr",
             "id": "8",
             "title": "CHALET simbolo chino",
             "seriesNumber": "Mini",
-            "refNumber": "501"
+            "refNumber": "501",
+            "fileTitle": "Untitled",
+            "fileAuthor": "MLCad",
+            "fileBoxTitle": ""
         },
         "oficiales/Mini_502_peaje_autopista.ldr": {
             "path": "oficiales/Mini_502_peaje_autopista.ldr",
             "id": "9",
             "title": "PEAJE AUTOPISTA peaje autopista",
             "seriesNumber": "Mini",
-            "refNumber": "502"
+            "refNumber": "502",
+            "fileTitle": "Untitled",
+            "fileAuthor": "MLCad",
+            "fileBoxTitle": ""
         },
         "oficiales/Mini_503_bungalow.ldr": {
             "path": "oficiales/Mini_503_bungalow.ldr",
             "id": "10",
             "title": "BUNGALOW bungalow",
             "seriesNumber": "Mini",
-            "refNumber": "503"
+            "refNumber": "503",
+            "fileTitle": "MLCAD BTG planta baja",
+            "fileAuthor": "MLCAD BTG planta baja",
+            "fileBoxTitle": "Name: adosado503.ldr"
         },
         "oficiales/Mini_507_ermita.ldr": {
             "path": "oficiales/Mini_507_ermita.ldr",
             "id": "14",
             "title": "ERMITA ermita",
             "seriesNumber": "Mini",
-            "refNumber": "507"
+            "refNumber": "507",
+            "fileTitle": "Sin_nombre",
+            "fileAuthor": "MLCad",
+            "fileBoxTitle": ""
         },
         "oficiales/Mini_508_kiosko_refrescos.ldr": {
             "path": "oficiales/Mini_508_kiosko_refrescos.ldr",
             "id": "15",
             "title": "KIOSKO REFRESCOS kiosko refrescos",
             "seriesNumber": "Mini",
-            "refNumber": "508"
+            "refNumber": "508",
+            "fileTitle": "Kiosko",
+            "fileAuthor": "cpcbegin",
+            "fileBoxTitle": "Tente mini"
         },
         "oficiales/Mini_510_casa_de_campo.ldr": {
             "path": "oficiales/Mini_510_casa_de_campo.ldr",
             "id": "17",
             "title": "CASA DE CAMPO casa de campo",
             "seriesNumber": "Mini",
-            "refNumber": "510"
+            "refNumber": "510",
+            "fileTitle": "Sin_nombre",
+            "fileAuthor": "cpcbegin",
+            "fileBoxTitle": ""
         },
         "oficiales/Nomura_camionbomberosjapones.ldr": {
             "path": "oficiales/Nomura_camionbomberosjapones.ldr",
             "id": "",
             "title": "Nomura camionbomberosjapones",
             "seriesNumber": "",
-            "refNumber": ""
+            "refNumber": "",
+            "fileTitle": "MLCAD BTG tractor",
+            "fileAuthor": "MLCAD BTG tractor",
+            "fileBoxTitle": "Name: camionbomberosjapones.ldr"
         },
         "oficiales/Nomura_camionjaponessony.ldr": {
             "path": "oficiales/Nomura_camionjaponessony.ldr",
             "id": "",
             "title": "Nomura camionjaponessony",
             "seriesNumber": "",
-            "refNumber": ""
+            "refNumber": "",
+            "fileTitle": "Untitled",
+            "fileAuthor": "MLCad",
+            "fileBoxTitle": ""
         },
         "oficiales/Nomura_estaciondeserviciojaponesa.ldr": {
             "path": "oficiales/Nomura_estaciondeserviciojaponesa.ldr",
             "id": "",
             "title": "Nomura estaciondeserviciojaponesa",
             "seriesNumber": "",
-            "refNumber": ""
+            "refNumber": "",
+            "fileTitle": "Untitled",
+            "fileAuthor": "MLCad",
+            "fileBoxTitle": ""
         },
         "oficiales/Nomura_haitobus.ldr": {
             "path": "oficiales/Nomura_haitobus.ldr",
             "id": "",
             "title": "Nomura haitobus",
             "seriesNumber": "",
-            "refNumber": ""
+            "refNumber": "",
+            "fileTitle": "Haito bus",
+            "fileAuthor": "cpcbegin",
+            "fileBoxTitle": "Tente ruta japon"
         },
         "oficiales/Nomura_londonbus.ldr": {
             "path": "oficiales/Nomura_londonbus.ldr",
             "id": "",
             "title": "Nomura londonbus",
             "seriesNumber": "",
-            "refNumber": ""
+            "refNumber": "",
+            "fileTitle": "Untitled",
+            "fileAuthor": "MLCad",
+            "fileBoxTitle": ""
         },
         "oficiales/Nomura_minifirej.ldr": {
             "path": "oficiales/Nomura_minifirej.ldr",
             "id": "",
             "title": "Nomura minifirej",
             "seriesNumber": "",
-            "refNumber": ""
+            "refNumber": "",
+            "fileTitle": "MLCAD BTG ruedas",
+            "fileAuthor": "MLCAD BTG ruedas",
+            "fileBoxTitle": "Name: minifirej.ldr"
         },
         "oficiales/Nomura_sunshine2.ldr": {
             "path": "oficiales/Nomura_sunshine2.ldr",
             "id": "",
             "title": "Nomura sunshine2",
             "seriesNumber": "",
-            "refNumber": ""
+            "refNumber": "",
+            "fileTitle": "Name: Nomura_sunshine2.ldr",
+            "fileAuthor": "Nomura Japan",
+            "fileBoxTitle": "ROTATION CENTER 0 0 0 1 \"Custom\""
         },
         "oficiales/Pocket_0315_Eslator.ldr": {
             "path": "oficiales/Pocket_0315_Eslator.ldr",
             "id": "",
             "title": "Pocket 0315 Eslator",
             "seriesNumber": "",
-            "refNumber": ""
+            "refNumber": "",
+            "fileTitle": "Untitled",
+            "fileAuthor": "MLCad",
+            "fileBoxTitle": ""
         },
         "oficiales/Roblock_0761_Frogster.ldr": {
             "path": "oficiales/Roblock_0761_Frogster.ldr",
             "id": "289",
             "title": "FROGSTER Frogster",
             "seriesNumber": "Roblock",
-            "refNumber": "0761"
+            "refNumber": "0761",
+            "fileTitle": "Untitled",
+            "fileAuthor": "jasolo",
+            "fileBoxTitle": ""
         },
         "oficiales/Roblock_0762_DarkWarrior.ldr": {
             "path": "oficiales/Roblock_0762_DarkWarrior.ldr",
             "id": "290",
             "title": "DARK WARRIOR DarkWarrior",
             "seriesNumber": "Roblock",
-            "refNumber": "0762"
+            "refNumber": "0762",
+            "fileTitle": "Untitled",
+            "fileAuthor": "jasolo",
+            "fileBoxTitle": ""
         },
         "oficiales/Roblock_0780_Helitron.ldr": {
             "path": "oficiales/Roblock_0780_Helitron.ldr",
             "id": "299",
             "title": "HELITRON Helitron",
             "seriesNumber": "Roblock",
-            "refNumber": "0780"
+            "refNumber": "0780",
+            "fileTitle": "Untitled",
+            "fileAuthor": "MLCad",
+            "fileBoxTitle": ""
         },
         "oficiales/Roblock_0782_Hercules.ldr": {
             "path": "oficiales/Roblock_0782_Hercules.ldr",
             "id": "301",
             "title": "HERCULES Hercules",
             "seriesNumber": "Roblock",
-            "refNumber": "0782"
+            "refNumber": "0782",
+            "fileTitle": "Untitled",
+            "fileAuthor": "jasolo",
+            "fileBoxTitle": ""
         },
         "oficiales/Roblock_0783_Fenixter.ldr": {
             "path": "oficiales/Roblock_0783_Fenixter.ldr",
             "id": "302",
             "title": "FENIXTER Fenixter",
             "seriesNumber": "Roblock",
-            "refNumber": "0783"
+            "refNumber": "0783",
+            "fileTitle": "Untitled",
+            "fileAuthor": "jasolo",
+            "fileBoxTitle": ""
         },
         "oficiales/Roblock_0788_Robosaurius.ldr": {
             "path": "oficiales/Roblock_0788_Robosaurius.ldr",
             "id": "307",
             "title": "ROBOSAURIUS Robosaurius",
             "seriesNumber": "Roblock",
-            "refNumber": "0788"
+            "refNumber": "0788",
+            "fileTitle": "Untitled",
+            "fileAuthor": "jasolo",
+            "fileBoxTitle": ""
         },
         "oficiales/Roblock_0790_Persus.ldr": {
             "path": "oficiales/Roblock_0790_Persus.ldr",
             "id": "308",
             "title": "PERSUS Persus",
             "seriesNumber": "Roblock",
-            "refNumber": "0790"
+            "refNumber": "0790",
+            "fileTitle": "Untitled",
+            "fileAuthor": "MLCad",
+            "fileBoxTitle": ""
         },
         "oficiales/Roblock_0792_skymaster.ldr": {
             "path": "oficiales/Roblock_0792_skymaster.ldr",
             "id": "310",
             "title": "SKYMASTER skymaster",
             "seriesNumber": "Roblock",
-            "refNumber": "0792"
+            "refNumber": "0792",
+            "fileTitle": "TENTE ROBLOCK 0792 SKYMASTER",
+            "fileAuthor": "elfobcn",
+            "fileBoxTitle": "Ref.: TENTE 0792"
         },
         "oficiales/Roblock_0792_skymaster_transf.ldr": {
             "path": "oficiales/Roblock_0792_skymaster_transf.ldr",
             "id": "310",
             "title": "SKYMASTER skymaster transf",
             "seriesNumber": "Roblock",
-            "refNumber": "0792"
+            "refNumber": "0792",
+            "fileTitle": "TENTE ROBLOCK 0792 SKYMASTER",
+            "fileAuthor": "elfobcn",
+            "fileBoxTitle": "Ref.: TENTE 0792"
         },
         "oficiales/Roblock_0797_X-Tronic.ldr": {
             "path": "oficiales/Roblock_0797_X-Tronic.ldr",
             "id": "312",
             "title": "X-TRONIC -SONO-LUX- X-Tronic",
             "seriesNumber": "Roblock",
-            "refNumber": "0797"
+            "refNumber": "0797",
+            "fileTitle": "Untitled",
+            "fileAuthor": "MLCad",
+            "fileBoxTitle": ""
         },
         "oficiales/Roblock_0798_krator.ldr": {
             "path": "oficiales/Roblock_0798_krator.ldr",
             "id": "313",
             "title": "KRATOR -SONO-LUX- krator",
             "seriesNumber": "Roblock",
-            "refNumber": "0798"
+            "refNumber": "0798",
+            "fileTitle": "ROBLOCK_0798_KRATOR",
+            "fileAuthor": "elfobcn",
+            "fileBoxTitle": ""
         },
         "oficiales/Roblock_0798_krator_transf.ldr": {
             "path": "oficiales/Roblock_0798_krator_transf.ldr",
             "id": "313",
             "title": "KRATOR -SONO-LUX- krator transf",
             "seriesNumber": "Roblock",
-            "refNumber": "0798"
+            "refNumber": "0798",
+            "fileTitle": "ROBLOCK_0798_KRATOR",
+            "fileAuthor": "elfobcn",
+            "fileBoxTitle": ""
         },
         "oficiales/Ruta2_70037_airportservice.ldr": {
             "path": "oficiales/Ruta2_70037_airportservice.ldr",
             "id": "",
             "title": "Ruta2 70037 airportservice",
             "seriesNumber": "",
-            "refNumber": ""
+            "refNumber": "",
+            "fileTitle": "70037 Airport Service",
+            "fileAuthor": "cpcbegin",
+            "fileBoxTitle": ""
         },
         "oficiales/Ruta_0553_camionautopista.ldr": {
             "path": "oficiales/Ruta_0553_camionautopista.ldr",
             "id": "46",
             "title": "EL MUNDO DE LA RUTA camionautopista",
             "seriesNumber": "Ruta",
-            "refNumber": "0553"
+            "refNumber": "0553",
+            "fileTitle": "Camion autopista",
+            "fileAuthor": "cpcbegin",
+            "fileBoxTitle": "Tente ruta: el mundo de la ruta"
         },
         "oficiales/Ruta_0553_camiondragstercisterna.ldr": {
             "path": "oficiales/Ruta_0553_camiondragstercisterna.ldr",
             "id": "46",
             "title": "EL MUNDO DE LA RUTA camiondragstercisterna",
             "seriesNumber": "Ruta",
-            "refNumber": "0553"
+            "refNumber": "0553",
+            "fileTitle": "Camion Dragster Cisterna",
+            "fileAuthor": "cpcbegin",
+            "fileBoxTitle": "Tente ruta (el mundo de la ruta)"
         },
         "oficiales/Ruta_0553_camionespecialbomberosaeropuerto.ldr": {
             "path": "oficiales/Ruta_0553_camionespecialbomberosaeropuerto.ldr",
             "id": "46",
             "title": "EL MUNDO DE LA RUTA camionespecialbomberosaeropuerto",
             "seriesNumber": "Ruta",
-            "refNumber": "0553"
+            "refNumber": "0553",
+            "fileTitle": "Camion especial bomberos aeropuerto",
+            "fileAuthor": "cpcbegin",
+            "fileBoxTitle": "Tente ruta: el mundo de la ruta"
         },
         "oficiales/Ruta_0553_camionespecialreparacioneselectricas.ldr": {
             "path": "oficiales/Ruta_0553_camionespecialreparacioneselectricas.ldr",
             "id": "46",
             "title": "EL MUNDO DE LA RUTA camionespecialreparacioneselectricas",
             "seriesNumber": "Ruta",
-            "refNumber": "0553"
+            "refNumber": "0553",
+            "fileTitle": "MLCAD BTG ruedas ruta 21 dobles",
+            "fileAuthor": "MLCAD BTG ruedas ruta 21 dobles",
+            "fileBoxTitle": "Name: Ruta_0553_camionespecialreparacioneselectricas.ldr"
         },
         "oficiales/Ruta_0553_camionportacontainers.ldr": {
             "path": "oficiales/Ruta_0553_camionportacontainers.ldr",
             "id": "46",
             "title": "EL MUNDO DE LA RUTA camionportacontainers",
             "seriesNumber": "Ruta",
-            "refNumber": "0553"
+            "refNumber": "0553",
+            "fileTitle": "Camion porta containers",
+            "fileAuthor": "cpcbegin",
+            "fileBoxTitle": "Tente ruta (el mundo de la ruta)"
         },
         "oficiales/Ruta_0553_dragster.ldr": {
             "path": "oficiales/Ruta_0553_dragster.ldr",
             "id": "46",
             "title": "EL MUNDO DE LA RUTA dragster",
             "seriesNumber": "Ruta",
-            "refNumber": "0553"
+            "refNumber": "0553",
+            "fileTitle": "Dragster",
+            "fileAuthor": "cpcbegin",
+            "fileBoxTitle": "Tente ruta (el mundo de la ruta)"
         },
         "oficiales/Ruta_0553_dragster8cilindros.ldr": {
             "path": "oficiales/Ruta_0553_dragster8cilindros.ldr",
             "id": "46",
             "title": "EL MUNDO DE LA RUTA dragster8cilindros",
             "seriesNumber": "Ruta",
-            "refNumber": "0553"
+            "refNumber": "0553",
+            "fileTitle": "Dragster 8 cilindros",
+            "fileAuthor": "cpcbegin",
+            "fileBoxTitle": "Tente ruta: el mundo de la ruta"
         },
         "oficiales/Ruta_0553_expedicionmozambique.ldr": {
             "path": "oficiales/Ruta_0553_expedicionmozambique.ldr",
             "id": "46",
             "title": "EL MUNDO DE LA RUTA expedicionmozambique",
             "seriesNumber": "Ruta",
-            "refNumber": "0553"
+            "refNumber": "0553",
+            "fileTitle": "Expedicion Morambique",
+            "fileAuthor": "cpcbegin",
+            "fileBoxTitle": "Tente ruta: el mundo de la ruta"
         },
         "oficiales/Ruta_0553_flyingvan.ldr": {
             "path": "oficiales/Ruta_0553_flyingvan.ldr",
             "id": "46",
             "title": "EL MUNDO DE LA RUTA flyingvan",
             "seriesNumber": "Ruta",
-            "refNumber": "0553"
+            "refNumber": "0553",
+            "fileTitle": "Flying Van",
+            "fileAuthor": "cpcbegin",
+            "fileBoxTitle": "Tente ruta (el mundo de la ruta)"
         },
         "oficiales/Ruta_0553_formula1-6ruedas.ldr": {
             "path": "oficiales/Ruta_0553_formula1-6ruedas.ldr",
             "id": "46",
             "title": "EL MUNDO DE LA RUTA formula1-6ruedas",
             "seriesNumber": "Ruta",
-            "refNumber": "0553"
+            "refNumber": "0553",
+            "fileTitle": "Sin_nombre",
+            "fileAuthor": "CPCBEGIN",
+            "fileBoxTitle": ""
         },
         "oficiales/Ruta_0553_formula1elf.ldr": {
             "path": "oficiales/Ruta_0553_formula1elf.ldr",
             "id": "46",
             "title": "EL MUNDO DE LA RUTA formula1elf",
             "seriesNumber": "Ruta",
-            "refNumber": "0553"
+            "refNumber": "0553",
+            "fileTitle": "Formula 1 (el mundo de la ruta)",
+            "fileAuthor": "cpcbegin",
+            "fileBoxTitle": "Tente ruta (el mundo de la ruta)"
         },
         "oficiales/Ruta_0553_furgonetaaeropuerto.ldr": {
             "path": "oficiales/Ruta_0553_furgonetaaeropuerto.ldr",
             "id": "46",
             "title": "EL MUNDO DE LA RUTA furgonetaaeropuerto",
             "seriesNumber": "Ruta",
-            "refNumber": "0553"
+            "refNumber": "0553",
+            "fileTitle": "Furgoneta aeropuerto",
+            "fileAuthor": "CPCBEGIN",
+            "fileBoxTitle": "Tente ruta (el mundo de la ruta)"
         },
         "oficiales/Ruta_0553_gasolineramundoruta.ldr": {
             "path": "oficiales/Ruta_0553_gasolineramundoruta.ldr",
             "id": "46",
             "title": "EL MUNDO DE LA RUTA gasolineramundoruta",
             "seriesNumber": "Ruta",
-            "refNumber": "0553"
+            "refNumber": "0553",
+            "fileTitle": "Gasolinera (mundo de la ruta)",
+            "fileAuthor": "cpcbegin",
+            "fileBoxTitle": "Tente ruta (el mundo de la ruta)"
         },
         "oficiales/Ruta_0553_gruaportacontainers.ldr": {
             "path": "oficiales/Ruta_0553_gruaportacontainers.ldr",
             "id": "46",
             "title": "EL MUNDO DE LA RUTA gruaportacontainers",
             "seriesNumber": "Ruta",
-            "refNumber": "0553"
+            "refNumber": "0553",
+            "fileTitle": "Sin_nombre",
+            "fileAuthor": "CPCBEGIN",
+            "fileBoxTitle": ""
         },
         "oficiales/Ruta_0553_limpiapistas.ldr": {
             "path": "oficiales/Ruta_0553_limpiapistas.ldr",
             "id": "46",
             "title": "EL MUNDO DE LA RUTA limpiapistas",
             "seriesNumber": "Ruta",
-            "refNumber": "0553"
+            "refNumber": "0553",
+            "fileTitle": "Limpiapistas",
+            "fileAuthor": "cpcbegin",
+            "fileBoxTitle": ""
         },
         "oficiales/Ruta_0553_multiruedas.ldr": {
             "path": "oficiales/Ruta_0553_multiruedas.ldr",
             "id": "46",
             "title": "EL MUNDO DE LA RUTA multiruedas",
             "seriesNumber": "Ruta",
-            "refNumber": "0553"
+            "refNumber": "0553",
+            "fileTitle": "Flying Van",
+            "fileAuthor": "cpcbegin",
+            "fileBoxTitle": "Tente ruta (el mundo de la ruta)"
         },
         "oficiales/Ruta_0553_peajeautopista.ldr": {
             "path": "oficiales/Ruta_0553_peajeautopista.ldr",
             "id": "46",
             "title": "EL MUNDO DE LA RUTA peajeautopista",
             "seriesNumber": "Ruta",
-            "refNumber": "0553"
+            "refNumber": "0553",
+            "fileTitle": "Peaje autopista",
+            "fileAuthor": "cpcbegin",
+            "fileBoxTitle": "Tente ruta (el mundo de la ruta)"
         },
         "oficiales/Ruta_0553_todoterrenocisterna.ldr": {
             "path": "oficiales/Ruta_0553_todoterrenocisterna.ldr",
             "id": "46",
             "title": "EL MUNDO DE LA RUTA todoterrenocisterna",
             "seriesNumber": "Ruta",
-            "refNumber": "0553"
+            "refNumber": "0553",
+            "fileTitle": "Sin_nombre",
+            "fileAuthor": "cpcbegin",
+            "fileBoxTitle": ""
         },
         "oficiales/Ruta_0553_torrecontrolaeropuerto.ldr": {
             "path": "oficiales/Ruta_0553_torrecontrolaeropuerto.ldr",
             "id": "46",
             "title": "EL MUNDO DE LA RUTA torrecontrolaeropuerto",
             "seriesNumber": "Ruta",
-            "refNumber": "0553"
+            "refNumber": "0553",
+            "fileTitle": "Torre de control aeropuerto",
+            "fileAuthor": "CPCBEGIN",
+            "fileBoxTitle": "Tente ruta (el mundo de la ruta)"
         },
         "oficiales/Ruta_0553_trailertransformador.ldr": {
             "path": "oficiales/Ruta_0553_trailertransformador.ldr",
             "id": "46",
             "title": "EL MUNDO DE LA RUTA trailertransformador",
             "seriesNumber": "Ruta",
-            "refNumber": "0553"
+            "refNumber": "0553",
+            "fileTitle": "Trailer con transformador",
+            "fileAuthor": "cpcbegin",
+            "fileBoxTitle": "Tente ruta (el mundo de la ruta)"
         },
         "oficiales/Ruta_0553_trailertransportemineral.ldr": {
             "path": "oficiales/Ruta_0553_trailertransportemineral.ldr",
             "id": "46",
             "title": "EL MUNDO DE LA RUTA trailertransportemineral",
             "seriesNumber": "Ruta",
-            "refNumber": "0553"
+            "refNumber": "0553",
+            "fileTitle": "MLCAD BTG ruedas 21",
+            "fileAuthor": "MLCAD BTG ruedas 21",
+            "fileBoxTitle": "Name: trailer_transporte_mineral.ldr"
         },
         "oficiales/Ruta_0553_transportedoblearticulado.ldr": {
             "path": "oficiales/Ruta_0553_transportedoblearticulado.ldr",
             "id": "46",
             "title": "EL MUNDO DE LA RUTA transportedoblearticulado",
             "seriesNumber": "Ruta",
-            "refNumber": "0553"
+            "refNumber": "0553",
+            "fileTitle": "Transporte doble articulado",
+            "fileAuthor": "cpcbegin",
+            "fileBoxTitle": "El mundo de la ruta"
         },
         "oficiales/Ruta_0553_transporteespecial.ldr": {
             "path": "oficiales/Ruta_0553_transporteespecial.ldr",
             "id": "46",
             "title": "EL MUNDO DE LA RUTA transporteespecial",
             "seriesNumber": "Ruta",
-            "refNumber": "0553"
+            "refNumber": "0553",
+            "fileTitle": "Sin_nombre",
+            "fileAuthor": "MLCad",
+            "fileBoxTitle": ""
         },
         "oficiales/Ruta_0553_transporteespecialcarga.ldr": {
             "path": "oficiales/Ruta_0553_transporteespecialcarga.ldr",
             "id": "46",
             "title": "EL MUNDO DE LA RUTA transporteespecialcarga",
             "seriesNumber": "Ruta",
-            "refNumber": "0553"
+            "refNumber": "0553",
+            "fileTitle": "Transportes especiales (carga)",
+            "fileAuthor": "cpcbegin",
+            "fileBoxTitle": "Tente ruta: el mundo de la ruta"
         },
         "oficiales/Ruta_0553_vehiculo20ruedas.ldr": {
             "path": "oficiales/Ruta_0553_vehiculo20ruedas.ldr",
             "id": "46",
             "title": "EL MUNDO DE LA RUTA vehiculo20ruedas",
             "seriesNumber": "Ruta",
-            "refNumber": "0553"
+            "refNumber": "0553",
+            "fileTitle": "Flying Van",
+            "fileAuthor": "cpcbegin",
+            "fileBoxTitle": "Tente ruta (el mundo de la ruta)"
         },
         "oficiales/Ruta_0670_camionplataforma.ldr": {
             "path": "oficiales/Ruta_0670_camionplataforma.ldr",
             "id": "26",
             "title": "CAMIÓN PLATAFORMA camionplataforma",
             "seriesNumber": "Ruta",
-            "refNumber": "0670"
+            "refNumber": "0670",
+            "fileTitle": "Camion plataforma",
+            "fileAuthor": "cpcbegin",
+            "fileBoxTitle": "Tente ruta"
         },
         "oficiales/Ruta_0671_camionfurgon.ldr": {
             "path": "oficiales/Ruta_0671_camionfurgon.ldr",
             "id": "27",
             "title": "CAMIÓN FURGÓN  camionfurgon",
             "seriesNumber": "Ruta",
-            "refNumber": "0671"
+            "refNumber": "0671",
+            "fileTitle": "Camion furgon",
+            "fileAuthor": "cpcbegin",
+            "fileBoxTitle": "Tente ruta"
         },
         "oficiales/Ruta_0672_camionvolqueterutaclasica.ldr": {
             "path": "oficiales/Ruta_0672_camionvolqueterutaclasica.ldr",
             "id": "28",
             "title": "CAMIÓN VOLQUETE camionvolqueterutaclasica",
             "seriesNumber": "Ruta",
-            "refNumber": "0672"
+            "refNumber": "0672",
+            "fileTitle": "Camion volquete (ruta clasica)",
+            "fileAuthor": "cpcbegin",
+            "fileBoxTitle": "Tente ruta"
         },
         "oficiales/Ruta_0673_camionreparto.ldr": {
             "path": "oficiales/Ruta_0673_camionreparto.ldr",
             "id": "29",
             "title": "CAMIÓN DE REPARTO camionreparto",
             "seriesNumber": "Ruta",
-            "refNumber": "0673"
+            "refNumber": "0673",
+            "fileTitle": "Camion de reparto",
+            "fileAuthor": "cpcbegin",
+            "fileBoxTitle": "Tente ruta"
         },
         "oficiales/Ruta_0674_autobusurbano.ldr": {
             "path": "oficiales/Ruta_0674_autobusurbano.ldr",
             "id": "30",
             "title": "AUTOBÚS URBANO autobusurbano",
             "seriesNumber": "Ruta",
-            "refNumber": "0674"
+            "refNumber": "0674",
+            "fileTitle": "Autobus urbano",
+            "fileAuthor": "cpcbegin",
+            "fileBoxTitle": "Tente ruta"
         },
         "oficiales/Ruta_0675_quitanieves.ldr": {
             "path": "oficiales/Ruta_0675_quitanieves.ldr",
             "id": "31",
             "title": "QUITANIEVES quitanieves",
             "seriesNumber": "Ruta",
-            "refNumber": "0675"
+            "refNumber": "0675",
+            "fileTitle": "Quitanieves",
+            "fileAuthor": "cpcbegin",
+            "fileBoxTitle": "Tente ruta"
         },
         "oficiales/Ruta_0676_ambulanciarutaclasica.ldr": {
             "path": "oficiales/Ruta_0676_ambulanciarutaclasica.ldr",
             "id": "32",
             "title": "AMBULANCIA ambulanciarutaclasica",
             "seriesNumber": "Ruta",
-            "refNumber": "0676"
+            "refNumber": "0676",
+            "fileTitle": "Model exported from LeoCAD",
+            "fileAuthor": "",
+            "fileBoxTitle": "ROTATION CENTER 0 0 0 1 \"Custom\""
         },
         "oficiales/Ruta_0677_autobar.ldr": {
             "path": "oficiales/Ruta_0677_autobar.ldr",
             "id": "33",
             "title": "AUTO-BAR autobar",
             "seriesNumber": "Ruta",
-            "refNumber": "0677"
+            "refNumber": "0677",
+            "fileTitle": "Autobar",
+            "fileAuthor": "cpcbegin",
+            "fileBoxTitle": "Tente ruta"
         },
         "oficiales/Ruta_0680_trailerplataforma.ldr": {
             "path": "oficiales/Ruta_0680_trailerplataforma.ldr",
             "id": "34",
             "title": "TRÁILER PLATAFORMA trailerplataforma",
             "seriesNumber": "Ruta",
-            "refNumber": "0680"
+            "refNumber": "0680",
+            "fileTitle": "Trailer plataforma",
+            "fileAuthor": "ROTATION CONFIG 0 0",
+            "fileBoxTitle": ""
         },
         "oficiales/Ruta_0681_trailercisternaaeropuerto.ldr": {
             "path": "oficiales/Ruta_0681_trailercisternaaeropuerto.ldr",
             "id": "35",
             "title": "TRÁILER CISTERNA AEROPUERTO trailercisternaaeropuerto",
             "seriesNumber": "Ruta",
-            "refNumber": "0681"
+            "refNumber": "0681",
+            "fileTitle": "Trailer cisterna aeropuerto",
+            "fileAuthor": "cpcbegin",
+            "fileBoxTitle": "Tente ruta"
         },
         "oficiales/Ruta_0682_trailertransportesespeciales.ldr": {
             "path": "oficiales/Ruta_0682_trailertransportesespeciales.ldr",
             "id": "36",
             "title": "TRÁILER TRANSPORTES ESPECIALES trailertransportesespeciales",
             "seriesNumber": "Ruta",
-            "refNumber": "0682"
+            "refNumber": "0682",
+            "fileTitle": "Trailer transportes especiales",
+            "fileAuthor": "cpcbegin",
+            "fileBoxTitle": "Tente ruta"
         },
         "oficiales/Ruta_0683_trailertransporteinternacional.ldr": {
             "path": "oficiales/Ruta_0683_trailertransporteinternacional.ldr",
             "id": "37",
             "title": "TRÁILER TRANSPORTE INTERNACIONAL trailertransporteinternacional",
             "seriesNumber": "Ruta",
-            "refNumber": "0683"
+            "refNumber": "0683",
+            "fileTitle": "Trailer transporte internacional",
+            "fileAuthor": "ROTATION CONFIG 0 0",
+            "fileBoxTitle": ""
         },
         "oficiales/Ruta_0685_trailertransporteminerales.ldr": {
             "path": "oficiales/Ruta_0685_trailertransporteminerales.ldr",
             "id": "39",
             "title": "TRÁILER TRANSPORTE MINERALES trailertransporteminerales",
             "seriesNumber": "Ruta",
-            "refNumber": "0685"
+            "refNumber": "0685",
+            "fileTitle": "Untitled",
+            "fileAuthor": "CPCBEGIN",
+            "fileBoxTitle": "ROTATION CENTER 0 0 0 1 \"Custom\""
         },
         "oficiales/Ruta_0686_norfrio.ldr": {
             "path": "oficiales/Ruta_0686_norfrio.ldr",
             "id": "40",
             "title": "TRÁILER FRIGORÍFICO norfrio",
             "seriesNumber": "Ruta",
-            "refNumber": "0686"
+            "refNumber": "0686",
+            "fileTitle": "Trailer frigorifico (norfrio)",
+            "fileAuthor": "cpcbegin",
+            "fileBoxTitle": "Tente ruta"
         },
         "oficiales/Ruta_0690_camionbomberos.ldr": {
             "path": "oficiales/Ruta_0690_camionbomberos.ldr",
             "id": "42",
             "title": "CUARTEL Y CAMIÓN BOMBEROS camionbomberos",
             "seriesNumber": "Ruta",
-            "refNumber": "0690"
+            "refNumber": "0690",
+            "fileTitle": "Camion bomberos",
+            "fileAuthor": "cpcbegin",
+            "fileBoxTitle": "Tente ruta"
         },
         "oficiales/Ruta_0690_cuartelbomberos.ldr": {
             "path": "oficiales/Ruta_0690_cuartelbomberos.ldr",
             "id": "42",
             "title": "CUARTEL Y CAMIÓN BOMBEROS cuartelbomberos",
             "seriesNumber": "Ruta",
-            "refNumber": "0690"
+            "refNumber": "0690",
+            "fileTitle": "Cuartel de bomberos",
+            "fileAuthor": "cpcbegin",
+            "fileBoxTitle": "Tente ruta"
         },
         "oficiales/Ruta_0691_estacionengrase.ldr": {
             "path": "oficiales/Ruta_0691_estacionengrase.ldr",
             "id": "43",
             "title": "ESTACIÓN DE ENGRASE Y CAMIÓN GRÚA estacionengrase",
             "seriesNumber": "Ruta",
-            "refNumber": "0691"
+            "refNumber": "0691",
+            "fileTitle": "Estacion de engrase",
+            "fileAuthor": "MLCad",
+            "fileBoxTitle": "Tente ruta"
         },
         "oficiales/Ruta_0691_gruarutaclasica.ldr": {
             "path": "oficiales/Ruta_0691_gruarutaclasica.ldr",
             "id": "43",
             "title": "ESTACIÓN DE ENGRASE Y CAMIÓN GRÚA gruarutaclasica",
             "seriesNumber": "Ruta",
-            "refNumber": "0691"
+            "refNumber": "0691",
+            "fileTitle": "Camion grua",
+            "fileAuthor": "cpcbegin",
+            "fileBoxTitle": "Tente ruta: estacion de engrase y camion grua"
         },
         "oficiales/Ruta_0692_camioncisterna.ldr": {
             "path": "oficiales/Ruta_0692_camioncisterna.ldr",
             "id": "44",
             "title": "GASOLINERA Y CAMIÓN CISTERNA camioncisterna",
             "seriesNumber": "Ruta",
-            "refNumber": "0692"
+            "refNumber": "0692",
+            "fileTitle": "Camion cisterna",
+            "fileAuthor": "cpcbegin",
+            "fileBoxTitle": "Tente ruta"
         },
         "oficiales/Ruta_0692_gasolinerarutaclasica.ldr": {
             "path": "oficiales/Ruta_0692_gasolinerarutaclasica.ldr",
             "id": "44",
             "title": "GASOLINERA Y CAMIÓN CISTERNA gasolinerarutaclasica",
             "seriesNumber": "Ruta",
-            "refNumber": "0692"
+            "refNumber": "0692",
+            "fileTitle": "Gasolinera (ruta clasica)",
+            "fileAuthor": "cpcbegin",
+            "fileBoxTitle": "Tente ruta"
         },
         "oficiales/Ruta_0693_camioncemento.ldr": {
             "path": "oficiales/Ruta_0693_camioncemento.ldr",
             "id": "45",
             "title": "SILO Y CAMIÓN CEMENTO camioncemento",
             "seriesNumber": "Ruta",
-            "refNumber": "0693"
+            "refNumber": "0693",
+            "fileTitle": "Camion de cemento",
+            "fileAuthor": "cpcbegin",
+            "fileBoxTitle": "Tente ruta"
         },
         "oficiales/Ruta_0693_silo.ldr": {
             "path": "oficiales/Ruta_0693_silo.ldr",
             "id": "45",
             "title": "SILO Y CAMIÓN CEMENTO silo",
             "seriesNumber": "Ruta",
-            "refNumber": "0693"
+            "refNumber": "0693",
+            "fileTitle": "Silo",
+            "fileAuthor": "cpcbegin",
+            "fileBoxTitle": "Tente ruta"
         },
         "oficiales/Scorpion_0543_lanza_misil_movil.ldr": {
             "path": "oficiales/Scorpion_0543_lanza_misil_movil.ldr",
             "id": "256",
             "title": "SCORPIONES DE ACERO lanza misil movil",
             "seriesNumber": "Scorpion",
-            "refNumber": "0543"
+            "refNumber": "0543",
+            "fileTitle": "Untitled",
+            "fileAuthor": "MLCad",
+            "fileBoxTitle": ""
         },
         "oficiales/Scorpion_0543_misil_autotransportado.ldr": {
             "path": "oficiales/Scorpion_0543_misil_autotransportado.ldr",
             "id": "256",
             "title": "SCORPIONES DE ACERO misil autotransportado",
             "seriesNumber": "Scorpion",
-            "refNumber": "0543"
+            "refNumber": "0543",
+            "fileTitle": "Untitled",
+            "fileAuthor": "MLCad",
+            "fileBoxTitle": ""
         },
         "oficiales/Scorpion_0543_transporte_blindado.ldr": {
             "path": "oficiales/Scorpion_0543_transporte_blindado.ldr",
             "id": "256",
             "title": "SCORPIONES DE ACERO transporte blindado",
             "seriesNumber": "Scorpion",
-            "refNumber": "0543"
+            "refNumber": "0543",
+            "fileTitle": "Untitled",
+            "fileAuthor": "MLCad",
+            "fileBoxTitle": ""
         },
         "oficiales/Scorpion_0750_tanque.ldr": {
             "path": "oficiales/Scorpion_0750_tanque.ldr",
             "id": "257",
             "title": "TANQUE tanque",
             "seriesNumber": "Scorpion",
-            "refNumber": "0750"
+            "refNumber": "0750",
+            "fileTitle": "Untitled",
+            "fileAuthor": "MLCad",
+            "fileBoxTitle": ""
         },
         "oficiales/Scorpion_0751_transporteanfibio.ldr": {
             "path": "oficiales/Scorpion_0751_transporteanfibio.ldr",
             "id": "258",
             "title": "TRANSPORTE ANFIBIO transporteanfibio",
             "seriesNumber": "Scorpion",
-            "refNumber": "0751"
+            "refNumber": "0751",
+            "fileTitle": "Sin_nombre",
+            "fileAuthor": "cpcbegin",
+            "fileBoxTitle": ""
         },
         "oficiales/Scorpion_0752_semioruga.ldr": {
             "path": "oficiales/Scorpion_0752_semioruga.ldr",
             "id": "259",
             "title": "SEMI-ORUGA semioruga",
             "seriesNumber": "Scorpion",
-            "refNumber": "0752"
+            "refNumber": "0752",
+            "fileTitle": "Untitled",
+            "fileAuthor": "MLCad",
+            "fileBoxTitle": ""
         },
         "oficiales/Scorpion_0755_ambulanciacampana.ldr": {
             "path": "oficiales/Scorpion_0755_ambulanciacampana.ldr",
             "id": "262",
             "title": "AMBULANCIA DE CAMPAÑA ambulanciacampana",
             "seriesNumber": "Scorpion",
-            "refNumber": "0755"
+            "refNumber": "0755",
+            "fileTitle": "Ambulancia de campa�a",
+            "fileAuthor": "cpcbegin",
+            "fileBoxTitle": "Tente scorpio"
         },
         "oficiales/Serie400_420_estacionservicio.ldr": {
             "path": "oficiales/Serie400_420_estacionservicio.ldr",
             "id": "5",
             "title": "420 estacionservicio",
             "seriesNumber": "400",
-            "refNumber": "420"
+            "refNumber": "420",
+            "fileTitle": "Estacion de servicio",
+            "fileAuthor": "cpcbegin",
+            "fileBoxTitle": "Tente mini"
         },
         "oficiales/Titanium_0452_astronauta_expolion.ldr": {
             "path": "oficiales/Titanium_0452_astronauta_expolion.ldr",
             "id": "317",
             "title": "EXPLORION astronauta expolion",
             "seriesNumber": "Titanium",
-            "refNumber": "0452"
+            "refNumber": "0452",
+            "fileTitle": "Untitled",
+            "fileAuthor": "MLCad",
+            "fileBoxTitle": ""
         },
         "oficiales/Titanium_0452_expolion.ldr": {
             "path": "oficiales/Titanium_0452_expolion.ldr",
             "id": "317",
             "title": "EXPLORION expolion",
             "seriesNumber": "Titanium",
-            "refNumber": "0452"
+            "refNumber": "0452",
+            "fileTitle": "Untitled",
+            "fileAuthor": "CPCBEGIN",
+            "fileBoxTitle": "ROTATION CENTER 0 0 0 1 \"Custom\""
         },
         "oficiales/Titanium_70021_patrulla_espacial.ldr": {
             "path": "oficiales/Titanium_70021_patrulla_espacial.ldr",
             "id": "335",
             "title": "PATRULLA ESPACIAL patrulla espacial",
             "seriesNumber": "Titanium",
-            "refNumber": "70021"
+            "refNumber": "70021",
+            "fileTitle": "Sin_nombre",
+            "fileAuthor": "MLCad",
+            "fileBoxTitle": ""
         },
         "inventados/amstrad_cpc464.ldr": {
             "path": "inventados/amstrad_cpc464.ldr",
             "id": "",
             "title": "inventados/amstrad_cpc464",
             "seriesNumber": "",
-            "refNumber": ""
+            "refNumber": "",
+            "fileTitle": "Untitled",
+            "fileAuthor": "MLCad",
+            "fileBoxTitle": ""
         },
         "inventados/aparcamiento.ldr": {
             "path": "inventados/aparcamiento.ldr",
             "id": "",
             "title": "inventados/aparcamiento",
             "seriesNumber": "",
-            "refNumber": ""
+            "refNumber": "",
+            "fileTitle": "MLCAD BTG 4 plazas",
+            "fileAuthor": "MLCAD BTG 4 plazas",
+            "fileBoxTitle": "Name: aparcamiento.ldr"
         },
         "inventados/aparcamiento_con_vehiculos.ldr": {
             "path": "inventados/aparcamiento_con_vehiculos.ldr",
             "id": "",
             "title": "inventados/aparcamiento_con_vehiculos",
             "seriesNumber": "",
-            "refNumber": ""
+            "refNumber": "",
+            "fileTitle": "MLCAD BTG 4 plazas",
+            "fileAuthor": "MLCAD BTG 4 plazas",
+            "fileBoxTitle": "Name: aparcamiento_con_vehiculos.ldr"
         },
         "inventados/autolavado.ldr": {
             "path": "inventados/autolavado.ldr",
             "id": "",
             "title": "inventados/autolavado",
             "seriesNumber": "",
-            "refNumber": ""
+            "refNumber": "",
+            "fileTitle": "Autolavado",
+            "fileAuthor": "CPCBEGIN",
+            "fileBoxTitle": ""
         },
         "inventados/autolavado_vacio.ldr": {
             "path": "inventados/autolavado_vacio.ldr",
             "id": "",
             "title": "inventados/autolavado_vacio",
             "seriesNumber": "",
-            "refNumber": ""
+            "refNumber": "",
+            "fileTitle": "Autolavado",
+            "fileAuthor": "CPCBEGIN",
+            "fileBoxTitle": ""
         },
         "inventados/bannertente.ldr": {
             "path": "inventados/bannertente.ldr",
             "id": "",
             "title": "inventados/bannertente",
             "seriesNumber": "",
-            "refNumber": ""
+            "refNumber": "",
+            "fileTitle": "Sin_nombre",
+            "fileAuthor": "MLCad",
+            "fileBoxTitle": ""
         },
         "inventados/barco_turistico_bahia_malaga.ldr": {
             "path": "inventados/barco_turistico_bahia_malaga.ldr",
             "id": "",
             "title": "inventados/barco_turistico_bahia_malaga",
             "seriesNumber": "",
-            "refNumber": ""
+            "refNumber": "",
+            "fileTitle": "Untitled",
+            "fileAuthor": "MLCad",
+            "fileBoxTitle": ""
         },
         "inventados/bocametro.ldr": {
             "path": "inventados/bocametro.ldr",
             "id": "",
             "title": "inventados/bocametro",
             "seriesNumber": "",
-            "refNumber": ""
+            "refNumber": "",
+            "fileTitle": "Sin_nombre",
+            "fileAuthor": "cpcbegin",
+            "fileBoxTitle": "CC Reconocimiento - NoComercial - CompartirIgual"
         },
         "inventados/busbateria.ldr": {
             "path": "inventados/busbateria.ldr",
             "id": "",
             "title": "inventados/busbateria",
             "seriesNumber": "",
-            "refNumber": ""
+            "refNumber": "",
+            "fileTitle": "Bus bateria",
+            "fileAuthor": "cpcbegin",
+            "fileBoxTitle": "CC Reconocimiento - NoComercial - CompartirIgual"
         },
         "inventados/buzon_sugerencias.ldr": {
             "path": "inventados/buzon_sugerencias.ldr",
             "id": "",
             "title": "inventados/buzon_sugerencias",
             "seriesNumber": "",
-            "refNumber": ""
+            "refNumber": "",
+            "fileTitle": "Untitled",
+            "fileAuthor": "MLCad",
+            "fileBoxTitle": ""
         },
         "inventados/cabinatelefonos.ldr": {
             "path": "inventados/cabinatelefonos.ldr",
             "id": "",
             "title": "inventados/cabinatelefonos",
             "seriesNumber": "",
-            "refNumber": ""
+            "refNumber": "",
+            "fileTitle": "Cabina telefono 1980",
+            "fileAuthor": "cpcbegin",
+            "fileBoxTitle": "CC Reconocimiento - NoComercial - CompartirIgual"
         },
         "inventados/cajonera/cajon.ldr": {
             "path": "inventados/cajonera/cajon.ldr",
             "id": "",
             "title": "inventados/cajonera/cajon",
             "seriesNumber": "",
-            "refNumber": ""
+            "refNumber": "",
+            "fileTitle": "Untitled",
+            "fileAuthor": "MLCad",
+            "fileBoxTitle": ""
         },
         "inventados/cajonera/cajonera_4c.ldr": {
             "path": "inventados/cajonera/cajonera_4c.ldr",
             "id": "",
             "title": "inventados/cajonera/cajonera_4c",
             "seriesNumber": "",
-            "refNumber": ""
+            "refNumber": "",
+            "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
+            "fileAuthor": "",
+            "fileBoxTitle": ""
         },
         "inventados/cajonera/cajonera_4c_open.ldr": {
             "path": "inventados/cajonera/cajonera_4c_open.ldr",
             "id": "",
             "title": "inventados/cajonera/cajonera_4c_open",
             "seriesNumber": "",
-            "refNumber": ""
+            "refNumber": "",
+            "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
+            "fileAuthor": "",
+            "fileBoxTitle": ""
         },
         "inventados/castillito1.ldr": {
             "path": "inventados/castillito1.ldr",
             "id": "",
             "title": "inventados/castillito1",
             "seriesNumber": "",
-            "refNumber": ""
+            "refNumber": "",
+            "fileTitle": "Castillito n�.1 - 3D",
+            "fileAuthor": "CPCBEGIN",
+            "fileBoxTitle": ""
         },
         "inventados/circulo.ldr": {
             "path": "inventados/circulo.ldr",
             "id": "",
             "title": "inventados/circulo",
             "seriesNumber": "",
-            "refNumber": ""
+            "refNumber": "",
+            "fileTitle": "Sin_nombre",
+            "fileAuthor": "cpcbegin",
+            "fileBoxTitle": ""
         },
         "inventados/cohete_tintin.ldr": {
             "path": "inventados/cohete_tintin.ldr",
             "id": "",
             "title": "inventados/cohete_tintin",
             "seriesNumber": "",
-            "refNumber": ""
+            "refNumber": "",
+            "fileTitle": "Untitled",
+            "fileAuthor": "MLCad",
+            "fileBoxTitle": ""
         },
         "inventados/damas.ldr": {
             "path": "inventados/damas.ldr",
             "id": "",
             "title": "inventados/damas",
             "seriesNumber": "",
-            "refNumber": ""
+            "refNumber": "",
+            "fileTitle": "Untitled",
+            "fileAuthor": "MLCad",
+            "fileBoxTitle": ""
         },
         "inventados/donut.ldr": {
             "path": "inventados/donut.ldr",
             "id": "",
             "title": "inventados/donut",
             "seriesNumber": "",
-            "refNumber": ""
+            "refNumber": "",
+            "fileTitle": "Untitled",
+            "fileAuthor": "CPCBEGIN",
+            "fileBoxTitle": ""
         },
         "inventados/duplexcosta.ldr": {
             "path": "inventados/duplexcosta.ldr",
             "id": "",
             "title": "inventados/duplexcosta",
             "seriesNumber": "",
-            "refNumber": ""
+            "refNumber": "",
+            "fileTitle": "Peaso de chale",
+            "fileAuthor": "cpcbegin",
+            "fileBoxTitle": "CC Reconocimiento - NoComercial - CompartirIgual"
         },
         "inventados/ecocasarodante.ldr": {
             "path": "inventados/ecocasarodante.ldr",
             "id": "",
             "title": "inventados/ecocasarodante",
             "seriesNumber": "",
-            "refNumber": ""
+            "refNumber": "",
+            "fileTitle": "Eco casa rodante",
+            "fileAuthor": "cpcbegin",
+            "fileBoxTitle": "CC Reconocimiento - NoComercial - CompartirIgual"
         },
         "inventados/edificio_clot_barcelona.ldr": {
             "path": "inventados/edificio_clot_barcelona.ldr",
             "id": "",
             "title": "inventados/edificio_clot_barcelona",
             "seriesNumber": "",
-            "refNumber": ""
+            "refNumber": "",
+            "fileTitle": "Untitled",
+            "fileAuthor": "MLCad",
+            "fileBoxTitle": ""
         },
         "inventados/enterradores_meme.ldr": {
             "path": "inventados/enterradores_meme.ldr",
             "id": "",
             "title": "inventados/enterradores_meme",
             "seriesNumber": "",
-            "refNumber": ""
+            "refNumber": "",
+            "fileTitle": "Untitled",
+            "fileAuthor": "MLCad",
+            "fileBoxTitle": ""
         },
         "inventados/entrada_puerto_malaga_full.ldr": {
             "path": "inventados/entrada_puerto_malaga_full.ldr",
             "id": "",
             "title": "inventados/entrada_puerto_malaga_full",
             "seriesNumber": "",
-            "refNumber": ""
+            "refNumber": "",
+            "fileTitle": "Untitled",
+            "fileAuthor": "MLCad",
+            "fileBoxTitle": ""
         },
         "inventados/esfera1.ldr": {
             "path": "inventados/esfera1.ldr",
             "id": "",
             "title": "inventados/esfera1",
             "seriesNumber": "",
-            "refNumber": ""
+            "refNumber": "",
+            "fileTitle": "Untitled",
+            "fileAuthor": "CPCBEGIN",
+            "fileBoxTitle": ""
         },
         "inventados/esfera2.ldr": {
             "path": "inventados/esfera2.ldr",
             "id": "",
             "title": "inventados/esfera2",
             "seriesNumber": "",
-            "refNumber": ""
+            "refNumber": "",
+            "fileTitle": "Untitled",
+            "fileAuthor": "CPCBEGIN",
+            "fileBoxTitle": ""
         },
         "inventados/esfera3.ldr": {
             "path": "inventados/esfera3.ldr",
             "id": "",
             "title": "inventados/esfera3",
             "seriesNumber": "",
-            "refNumber": ""
+            "refNumber": "",
+            "fileTitle": "Untitled",
+            "fileAuthor": "MLCad",
+            "fileBoxTitle": ""
         },
         "inventados/esfera4.ldr": {
             "path": "inventados/esfera4.ldr",
             "id": "",
             "title": "inventados/esfera4",
             "seriesNumber": "",
-            "refNumber": ""
+            "refNumber": "",
+            "fileTitle": "Untitled",
+            "fileAuthor": "MLCad",
+            "fileBoxTitle": ""
         },
         "inventados/esperanza-torre.ldr": {
             "path": "inventados/esperanza-torre.ldr",
             "id": "",
             "title": "inventados/esperanza-torre",
             "seriesNumber": "",
-            "refNumber": ""
+            "refNumber": "",
+            "fileTitle": "Sin_nombre",
+            "fileAuthor": "CPCBEGIN",
+            "fileBoxTitle": ""
         },
         "inventados/estacion_feve_malaga.ldr": {
             "path": "inventados/estacion_feve_malaga.ldr",
             "id": "",
             "title": "inventados/estacion_feve_malaga",
             "seriesNumber": "",
-            "refNumber": ""
+            "refNumber": "",
+            "fileTitle": "Untitled",
+            "fileAuthor": "MLCad",
+            "fileBoxTitle": ""
         },
         "inventados/estacionmeteorologica.ldr": {
             "path": "inventados/estacionmeteorologica.ldr",
             "id": "",
             "title": "inventados/estacionmeteorologica",
             "seriesNumber": "",
-            "refNumber": ""
+            "refNumber": "",
+            "fileTitle": "Estacion meteorologica (paseo maritimo, Malaga)",
+            "fileAuthor": "cpcbegin",
+            "fileBoxTitle": ""
         },
         "inventados/etch.ldr": {
             "path": "inventados/etch.ldr",
             "id": "",
             "title": "inventados/etch",
             "seriesNumber": "",
-            "refNumber": ""
+            "refNumber": "",
+            "fileTitle": "Untitled",
+            "fileAuthor": "MLCad",
+            "fileBoxTitle": ""
         },
         "inventados/exinubuntu.ldr": {
             "path": "inventados/exinubuntu.ldr",
             "id": "",
             "title": "inventados/exinubuntu",
             "seriesNumber": "",
-            "refNumber": ""
+            "refNumber": "",
+            "fileTitle": "Sin_nombre",
+            "fileAuthor": "cpcbegin",
+            "fileBoxTitle": ""
         },
         "inventados/foodtruck.ldr": {
             "path": "inventados/foodtruck.ldr",
             "id": "",
             "title": "inventados/foodtruck",
             "seriesNumber": "",
-            "refNumber": ""
+            "refNumber": "",
+            "fileTitle": "Untitled",
+            "fileAuthor": "MLCad",
+            "fileBoxTitle": ""
         },
         "inventados/foodtruck_en_ruta.ldr": {
             "path": "inventados/foodtruck_en_ruta.ldr",
             "id": "",
             "title": "inventados/foodtruck_en_ruta",
             "seriesNumber": "",
-            "refNumber": ""
+            "refNumber": "",
+            "fileTitle": "Untitled",
+            "fileAuthor": "MLCad",
+            "fileBoxTitle": ""
         },
         "inventados/furgonetahielo.ldr": {
             "path": "inventados/furgonetahielo.ldr",
             "id": "",
             "title": "inventados/furgonetahielo",
             "seriesNumber": "",
-            "refNumber": ""
+            "refNumber": "",
+            "fileTitle": "Untitled",
+            "fileAuthor": "CPCBEGIN",
+            "fileBoxTitle": ""
         },
         "inventados/galileo.ldr": {
             "path": "inventados/galileo.ldr",
             "id": "",
             "title": "inventados/galileo",
             "seriesNumber": "",
-            "refNumber": ""
+            "refNumber": "",
+            "fileTitle": "USS Galileo",
+            "fileAuthor": "CPCBEGIN",
+            "fileBoxTitle": "Parallel Universe Model"
         },
         "inventados/galileo_concurso.ldr": {
             "path": "inventados/galileo_concurso.ldr",
             "id": "",
             "title": "inventados/galileo_concurso",
             "seriesNumber": "",
-            "refNumber": ""
+            "refNumber": "",
+            "fileTitle": "USS Galileo",
+            "fileAuthor": "CPCBEGIN",
+            "fileBoxTitle": "Parallel Universe Model"
         },
         "inventados/hunslet_att77.ldr": {
             "path": "inventados/hunslet_att77.ldr",
             "id": "",
             "title": "inventados/hunslet_att77",
             "seriesNumber": "",
-            "refNumber": ""
+            "refNumber": "",
+            "fileTitle": "Untitled",
+            "fileAuthor": "MLCad",
+            "fileBoxTitle": ""
         },
         "inventados/incinerador_termonuclear.ldr": {
             "path": "inventados/incinerador_termonuclear.ldr",
             "id": "",
             "title": "inventados/incinerador_termonuclear",
             "seriesNumber": "",
-            "refNumber": ""
+            "refNumber": "",
+            "fileTitle": "Untitled",
+            "fileAuthor": "MLCad",
+            "fileBoxTitle": ""
         },
         "inventados/jabega.ldr": {
             "path": "inventados/jabega.ldr",
             "id": "",
             "title": "inventados/jabega",
             "seriesNumber": "",
-            "refNumber": ""
+            "refNumber": "",
+            "fileTitle": "Untitled",
+            "fileAuthor": "MLCad",
+            "fileBoxTitle": ""
         },
         "inventados/jetpac.ldr": {
             "path": "inventados/jetpac.ldr",
             "id": "",
             "title": "inventados/jetpac",
             "seriesNumber": "",
-            "refNumber": ""
+            "refNumber": "",
+            "fileTitle": "Untitled",
+            "fileAuthor": "MLCad",
+            "fileBoxTitle": ""
         },
         "inventados/lafarola.ldr": {
             "path": "inventados/lafarola.ldr",
             "id": "",
             "title": "inventados/lafarola",
             "seriesNumber": "",
-            "refNumber": ""
+            "refNumber": "",
+            "fileTitle": "Untitled",
+            "fileAuthor": "MLCad",
+            "fileBoxTitle": ""
         },
         "inventados/ld3dstudio_logo.ldr": {
             "path": "inventados/ld3dstudio_logo.ldr",
             "id": "",
             "title": "inventados/ld3dstudio_logo",
             "seriesNumber": "",
-            "refNumber": ""
+            "refNumber": "",
+            "fileTitle": "Untitled",
+            "fileAuthor": "MLCad",
+            "fileBoxTitle": ""
         },
         "inventados/lemmings_flat.ldr": {
             "path": "inventados/lemmings_flat.ldr",
             "id": "",
             "title": "inventados/lemmings_flat",
             "seriesNumber": "",
-            "refNumber": ""
+            "refNumber": "",
+            "fileTitle": "Untitled",
+            "fileAuthor": "MLCad",
+            "fileBoxTitle": ""
         },
         "inventados/lopezpenalver.ldr": {
             "path": "inventados/lopezpenalver.ldr",
             "id": "",
             "title": "inventados/lopezpenalver",
             "seriesNumber": "",
-            "refNumber": ""
+            "refNumber": "",
+            "fileTitle": "Untitled",
+            "fileAuthor": "MLCad",
+            "fileBoxTitle": ""
         },
         "inventados/martian_chronicles_van.ldr": {
             "path": "inventados/martian_chronicles_van.ldr",
             "id": "",
             "title": "inventados/martian_chronicles_van",
             "seriesNumber": "",
-            "refNumber": ""
+            "refNumber": "",
+            "fileTitle": "Martian chronicles van",
+            "fileAuthor": "CPCBEGIN",
+            "fileBoxTitle": ""
         },
         "inventados/microbus50.ldr": {
             "path": "inventados/microbus50.ldr",
             "id": "",
             "title": "inventados/microbus50",
             "seriesNumber": "",
-            "refNumber": ""
+            "refNumber": "",
+            "fileTitle": "MLCAD BTG ruedas_50",
+            "fileAuthor": "MLCAD BTG ruedas_50",
+            "fileBoxTitle": "Name: microbus50.ldr"
         },
         "inventados/minipcsobremesa.ldr": {
             "path": "inventados/minipcsobremesa.ldr",
             "id": "",
             "title": "inventados/minipcsobremesa",
             "seriesNumber": "",
-            "refNumber": ""
+            "refNumber": "",
+            "fileTitle": "Untitled",
+            "fileAuthor": "MLCad",
+            "fileBoxTitle": ""
         },
         "inventados/moduloescapemarciano.ldr": {
             "path": "inventados/moduloescapemarciano.ldr",
             "id": "",
             "title": "inventados/moduloescapemarciano",
             "seriesNumber": "",
-            "refNumber": ""
+            "refNumber": "",
+            "fileTitle": "Modulo de escape marciano",
+            "fileAuthor": "CPCBEGIN",
+            "fileBoxTitle": ""
         },
         "inventados/molino.ldr": {
             "path": "inventados/molino.ldr",
             "id": "",
             "title": "inventados/molino",
             "seriesNumber": "",
-            "refNumber": ""
+            "refNumber": "",
+            "fileTitle": "Molino",
+            "fileAuthor": "cpcbegin",
+            "fileBoxTitle": "CC Reconocimiento - NoComercial - CompartirIgual"
         },
         "inventados/morlaco.ldr": {
             "path": "inventados/morlaco.ldr",
             "id": "",
             "title": "inventados/morlaco",
             "seriesNumber": "",
-            "refNumber": ""
+            "refNumber": "",
+            "fileTitle": "Tranvia del Morlaco (Malaga)",
+            "fileAuthor": "cpcbegin",
+            "fileBoxTitle": ""
         },
         "inventados/motobomba.ldr": {
             "path": "inventados/motobomba.ldr",
             "id": "",
             "title": "inventados/motobomba",
             "seriesNumber": "",
-            "refNumber": ""
+            "refNumber": "",
+            "fileTitle": "Motobomba (modelo de Pollo)",
+            "fileAuthor": "cpcbegin",
+            "fileBoxTitle": ""
         },
         "inventados/nave_guaul_mini.ldr": {
             "path": "inventados/nave_guaul_mini.ldr",
             "id": "",
             "title": "inventados/nave_guaul_mini",
             "seriesNumber": "",
-            "refNumber": ""
+            "refNumber": "",
+            "fileTitle": "Untitled",
+            "fileAuthor": "MLCad",
+            "fileBoxTitle": ""
         },
         "inventados/nave_v/navevisitante.ldr": {
             "path": "inventados/nave_v/navevisitante.ldr",
             "id": "",
             "title": "inventados/nave_v/navevisitante",
             "seriesNumber": "",
-            "refNumber": ""
+            "refNumber": "",
+            "fileTitle": "Untitled",
+            "fileAuthor": "MLCad",
+            "fileBoxTitle": ""
         },
         "inventados/ovni9.ldr": {
             "path": "inventados/ovni9.ldr",
             "id": "",
             "title": "inventados/ovni9",
             "seriesNumber": "",
-            "refNumber": ""
+            "refNumber": "",
+            "fileTitle": "Untitled",
+            "fileAuthor": "MLCad",
+            "fileBoxTitle": ""
         },
         "inventados/papamovil.ldr": {
             "path": "inventados/papamovil.ldr",
             "id": "",
             "title": "inventados/papamovil",
             "seriesNumber": "",
-            "refNumber": ""
+            "refNumber": "",
+            "fileTitle": "Untitled",
+            "fileAuthor": "MLCad",
+            "fileBoxTitle": ""
         },
         "inventados/pctubo.ldr": {
             "path": "inventados/pctubo.ldr",
             "id": "",
             "title": "inventados/pctubo",
             "seriesNumber": "",
-            "refNumber": ""
+            "refNumber": "",
+            "fileTitle": "Untitled",
+            "fileAuthor": "MLCad",
+            "fileBoxTitle": ""
         },
         "inventados/peasochalet.ldr": {
             "path": "inventados/peasochalet.ldr",
             "id": "",
             "title": "inventados/peasochalet",
             "seriesNumber": "",
-            "refNumber": ""
+            "refNumber": "",
+            "fileTitle": "Peaso de chale",
+            "fileAuthor": "cpcbegin",
+            "fileBoxTitle": "CC Reconocimiento - NoComercial - CompartirIgual"
         },
         "inventados/planeador_orbital.ldr": {
             "path": "inventados/planeador_orbital.ldr",
             "id": "",
             "title": "inventados/planeador_orbital",
             "seriesNumber": "",
-            "refNumber": ""
+            "refNumber": "",
+            "fileTitle": "Untitled",
+            "fileAuthor": "MLCad",
+            "fileBoxTitle": ""
         },
         "inventados/robotaxi.ldr": {
             "path": "inventados/robotaxi.ldr",
             "id": "",
             "title": "inventados/robotaxi",
             "seriesNumber": "",
-            "refNumber": ""
+            "refNumber": "",
+            "fileTitle": "Untitled",
+            "fileAuthor": "cpcbegin",
+            "fileBoxTitle": ""
         },
         "inventados/roverlunar.ldr": {
             "path": "inventados/roverlunar.ldr",
             "id": "",
             "title": "inventados/roverlunar",
             "seriesNumber": "",
-            "refNumber": ""
+            "refNumber": "",
+            "fileTitle": "Untitled",
+            "fileAuthor": "MLCad",
+            "fileBoxTitle": ""
         },
         "inventados/ruedelpercebe.ldr": {
             "path": "inventados/ruedelpercebe.ldr",
             "id": "",
             "title": "inventados/ruedelpercebe",
             "seriesNumber": "",
-            "refNumber": ""
+            "refNumber": "",
+            "fileTitle": "Untitled",
+            "fileAuthor": "MLCad",
+            "fileBoxTitle": ""
         },
         "inventados/seat1430.ldr": {
             "path": "inventados/seat1430.ldr",
             "id": "",
             "title": "inventados/seat1430",
             "seriesNumber": "",
-            "refNumber": ""
+            "refNumber": "",
+            "fileTitle": "Untitled",
+            "fileAuthor": "MLCad",
+            "fileBoxTitle": ""
         },
         "inventados/sinclairzx80.ldr": {
             "path": "inventados/sinclairzx80.ldr",
             "id": "",
             "title": "inventados/sinclairzx80",
             "seriesNumber": "",
-            "refNumber": ""
+            "refNumber": "",
+            "fileTitle": "Untitled",
+            "fileAuthor": "MLCad",
+            "fileBoxTitle": ""
         },
         "inventados/taller_informatico/cajon.ldr": {
             "path": "inventados/taller_informatico/cajon.ldr",
             "id": "",
             "title": "inventados/taller_informatico/cajon",
             "seriesNumber": "",
-            "refNumber": ""
+            "refNumber": "",
+            "fileTitle": "Untitled",
+            "fileAuthor": "MLCad",
+            "fileBoxTitle": ""
         },
         "inventados/taller_informatico/cajonera.ldr": {
             "path": "inventados/taller_informatico/cajonera.ldr",
             "id": "",
             "title": "inventados/taller_informatico/cajonera",
             "seriesNumber": "",
-            "refNumber": ""
+            "refNumber": "",
+            "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
+            "fileAuthor": "",
+            "fileBoxTitle": ""
         },
         "inventados/taller_informatico/taller_informatico.ldr": {
             "path": "inventados/taller_informatico/taller_informatico.ldr",
             "id": "",
             "title": "inventados/taller_informatico/taller_informatico",
             "seriesNumber": "",
-            "refNumber": ""
+            "refNumber": "",
+            "fileTitle": "Untitled",
+            "fileAuthor": "MLCad",
+            "fileBoxTitle": ""
         },
         "inventados/tardis.ldr": {
             "path": "inventados/tardis.ldr",
             "id": "",
             "title": "inventados/tardis",
             "seriesNumber": "",
-            "refNumber": ""
+            "refNumber": "",
+            "fileTitle": "Untitled",
+            "fileAuthor": "MLCad",
+            "fileBoxTitle": ""
         },
         "inventados/taxi_espacial.ldr": {
             "path": "inventados/taxi_espacial.ldr",
             "id": "",
             "title": "inventados/taxi_espacial",
             "seriesNumber": "",
-            "refNumber": ""
+            "refNumber": "",
+            "fileTitle": "Untitled",
+            "fileAuthor": "MLCad",
+            "fileBoxTitle": ""
         },
         "inventados/templo_debod.ldr": {
             "path": "inventados/templo_debod.ldr",
             "id": "",
             "title": "inventados/templo_debod",
             "seriesNumber": "",
-            "refNumber": ""
+            "refNumber": "",
+            "fileTitle": "MLCAD BTG isla",
+            "fileAuthor": "MLCAD BTG isla",
+            "fileBoxTitle": "Name: templo_debod.ldr"
         },
         "inventados/the_orville_shuttle.ldr": {
             "path": "inventados/the_orville_shuttle.ldr",
             "id": "",
             "title": "inventados/the_orville_shuttle",
             "seriesNumber": "",
-            "refNumber": ""
+            "refNumber": "",
+            "fileTitle": "Untitled",
+            "fileAuthor": "MLCad",
+            "fileBoxTitle": ""
         },
         "inventados/titan_mare_explorer.ldr": {
             "path": "inventados/titan_mare_explorer.ldr",
             "id": "",
             "title": "inventados/titan_mare_explorer",
             "seriesNumber": "",
-            "refNumber": ""
+            "refNumber": "",
+            "fileTitle": "Untitled",
+            "fileAuthor": "CPCBegin",
+            "fileBoxTitle": ""
         },
         "inventados/todoterrenocompacto.ldr": {
             "path": "inventados/todoterrenocompacto.ldr",
             "id": "",
             "title": "inventados/todoterrenocompacto",
             "seriesNumber": "",
-            "refNumber": ""
+            "refNumber": "",
+            "fileTitle": "Todoterreno compacto",
+            "fileAuthor": "cpcbegin",
+            "fileBoxTitle": ""
         },
         "inventados/torre_entrada_puerto_malaga.ldr": {
             "path": "inventados/torre_entrada_puerto_malaga.ldr",
             "id": "",
             "title": "inventados/torre_entrada_puerto_malaga",
             "seriesNumber": "",
-            "refNumber": ""
+            "refNumber": "",
+            "fileTitle": "Untitled",
+            "fileAuthor": "MLCad",
+            "fileBoxTitle": ""
         },
         "inventados/torre_fastolfe.ldr": {
             "path": "inventados/torre_fastolfe.ldr",
             "id": "",
             "title": "inventados/torre_fastolfe",
             "seriesNumber": "",
-            "refNumber": ""
+            "refNumber": "",
+            "fileTitle": "Sin_nombre",
+            "fileAuthor": "CPCBEGIN",
+            "fileBoxTitle": ""
         },
         "inventados/torre_glories_barcelona.ldr": {
             "path": "inventados/torre_glories_barcelona.ldr",
             "id": "",
             "title": "inventados/torre_glories_barcelona",
             "seriesNumber": "",
-            "refNumber": ""
+            "refNumber": "",
+            "fileTitle": "Untitled",
+            "fileAuthor": "MLCad",
+            "fileBoxTitle": ""
         },
         "inventados/torres_hanoi.ldr": {
             "path": "inventados/torres_hanoi.ldr",
             "id": "",
             "title": "inventados/torres_hanoi",
             "seriesNumber": "",
-            "refNumber": ""
+            "refNumber": "",
+            "fileTitle": "Untitled",
+            "fileAuthor": "MLCad",
+            "fileBoxTitle": "Torres de Hanoi"
         },
         "inventados/trenturistico.ldr": {
             "path": "inventados/trenturistico.ldr",
             "id": "",
             "title": "inventados/trenturistico",
             "seriesNumber": "",
-            "refNumber": ""
+            "refNumber": "",
+            "fileTitle": "Untitled",
+            "fileAuthor": "MLCad",
+            "fileBoxTitle": ""
         },
         "inventados/tux3d.ldr": {
             "path": "inventados/tux3d.ldr",
             "id": "",
             "title": "inventados/tux3d",
             "seriesNumber": "",
-            "refNumber": ""
+            "refNumber": "",
+            "fileTitle": "Untitled",
+            "fileAuthor": "MLCad",
+            "fileBoxTitle": ""
         },
         "inventados/tux_flat_base.ldr": {
             "path": "inventados/tux_flat_base.ldr",
             "id": "",
             "title": "inventados/tux_flat_base",
             "seriesNumber": "",
-            "refNumber": ""
+            "refNumber": "",
+            "fileTitle": "Untitled",
+            "fileAuthor": "MLCad",
+            "fileBoxTitle": ""
         },
         "inventados/tuxplano.ldr": {
             "path": "inventados/tuxplano.ldr",
             "id": "",
             "title": "inventados/tuxplano",
             "seriesNumber": "",
-            "refNumber": ""
+            "refNumber": "",
+            "fileTitle": "Untitled",
+            "fileAuthor": "CPCBEGIN",
+            "fileBoxTitle": ""
         },
         "inventados/tuxtentero.ldr": {
             "path": "inventados/tuxtentero.ldr",
             "id": "",
             "title": "inventados/tuxtentero",
             "seriesNumber": "",
-            "refNumber": ""
+            "refNumber": "",
+            "fileTitle": "Untitled",
+            "fileAuthor": "CPCBEGIN",
+            "fileBoxTitle": ""
         },
         "inventados/ubuntu_exin_castillos.ldr": {
             "path": "inventados/ubuntu_exin_castillos.ldr",
             "id": "",
             "title": "inventados/ubuntu_exin_castillos",
             "seriesNumber": "",
-            "refNumber": ""
+            "refNumber": "",
+            "fileTitle": "Sin_nombre",
+            "fileAuthor": "cpcbegin",
+            "fileBoxTitle": ""
         },
         "inventados/ubuntu_exin_castillos_transparente.ldr": {
             "path": "inventados/ubuntu_exin_castillos_transparente.ldr",
             "id": "",
             "title": "inventados/ubuntu_exin_castillos_transparente",
             "seriesNumber": "",
-            "refNumber": ""
+            "refNumber": "",
+            "fileTitle": "Sin_nombre",
+            "fileAuthor": "cpcbegin",
+            "fileBoxTitle": ""
         },
         "inventados/urna_votacion.ldr": {
             "path": "inventados/urna_votacion.ldr",
             "id": "",
             "title": "inventados/urna_votacion",
             "seriesNumber": "",
-            "refNumber": ""
+            "refNumber": "",
+            "fileTitle": "Untitled",
+            "fileAuthor": "MLCad",
+            "fileBoxTitle": ""
         },
         "inventados/ventanas_ahumadas.ldr": {
             "path": "inventados/ventanas_ahumadas.ldr",
             "id": "",
             "title": "inventados/ventanas_ahumadas",
             "seriesNumber": "",
-            "refNumber": ""
+            "refNumber": "",
+            "fileTitle": "Untitled",
+            "fileAuthor": "MLCad",
+            "fileBoxTitle": ""
         },
         "inventados/vialia_antiguo.ldr": {
             "path": "inventados/vialia_antiguo.ldr",
             "id": "",
             "title": "inventados/vialia_antiguo",
             "seriesNumber": "",
-            "refNumber": ""
+            "refNumber": "",
+            "fileTitle": "Edificio antiguo Vialia Malaga",
+            "fileAuthor": "CPCBEGIN",
+            "fileBoxTitle": ""
         },
         "inventados/vialia_antiguo_lateral_bajo.ldr": {
             "path": "inventados/vialia_antiguo_lateral_bajo.ldr",
             "id": "",
             "title": "inventados/vialia_antiguo_lateral_bajo",
             "seriesNumber": "",
-            "refNumber": ""
+            "refNumber": "",
+            "fileTitle": "Edificio antiguo Vialia Malaga",
+            "fileAuthor": "CPCBEGIN",
+            "fileBoxTitle": "ROTATION CENTER 0 0 0 1 \"Custom\""
         },
         "inventados/vialia_antiguo_primera_planta.ldr": {
             "path": "inventados/vialia_antiguo_primera_planta.ldr",
             "id": "",
             "title": "inventados/vialia_antiguo_primera_planta",
             "seriesNumber": "",
-            "refNumber": ""
+            "refNumber": "",
+            "fileTitle": "Edificio antiguo Vialia Malaga",
+            "fileAuthor": "CPCBEGIN",
+            "fileBoxTitle": ""
         },
         "inventados/vialia_antiguo_segunda_planta.ldr": {
             "path": "inventados/vialia_antiguo_segunda_planta.ldr",
             "id": "",
             "title": "inventados/vialia_antiguo_segunda_planta",
             "seriesNumber": "",
-            "refNumber": ""
+            "refNumber": "",
+            "fileTitle": "Edificio antiguo Vialia Malaga",
+            "fileAuthor": "CPCBEGIN",
+            "fileBoxTitle": ""
         },
         "inventados/walkietalkie.ldr": {
             "path": "inventados/walkietalkie.ldr",
             "id": "",
             "title": "inventados/walkietalkie",
             "seriesNumber": "",
-            "refNumber": ""
+            "refNumber": "",
+            "fileTitle": "Walkie Talkie 70s",
+            "fileAuthor": "CPCBegin",
+            "fileBoxTitle": ""
         },
         "inventados/walkietalkies_pair.ldr": {
             "path": "inventados/walkietalkies_pair.ldr",
             "id": "",
             "title": "inventados/walkietalkies_pair",
             "seriesNumber": "",
-            "refNumber": ""
+            "refNumber": "",
+            "fileTitle": "Untitled",
+            "fileAuthor": "MLCad",
+            "fileBoxTitle": ""
         },
         "inventados/zxspectrum48k.ldr": {
             "path": "inventados/zxspectrum48k.ldr",
             "id": "",
             "title": "inventados/zxspectrum48k",
             "seriesNumber": "",
-            "refNumber": ""
+            "refNumber": "",
+            "fileTitle": "Untitled",
+            "fileAuthor": "MLCad",
+            "fileBoxTitle": ""
         }
     },
     "modelPathsList": [

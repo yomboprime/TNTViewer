@@ -79,7 +79,7 @@ function removeFilenameExtension( path ) {
 
 	const pathLastIndexOfDot = path.lastIndexOf( "." );
 
-	if ( pathLastIndexOfDot > 0 && path.length > pathLastIndexOfDot + 1) {
+	if ( pathLastIndexOfDot > 0 && path.length > pathLastIndexOfDot + 1 ) {
 
 		return path.substring( 0, pathLastIndexOfDot );
 
@@ -88,4 +88,19 @@ function removeFilenameExtension( path ) {
 
 }
 
-export { exportModel, saveFile, removeFilenameExtension };
+function removePathFromFilename( path ) {
+
+	path = path || "";
+
+	const pathLastIndexOfSlash = path.lastIndexOf( "/" );
+
+	if ( pathLastIndexOfSlash > 0 && path.length > pathLastIndexOfSlash + 1 ) {
+
+		return path.substring( pathLastIndexOfSlash + 1 );
+
+	}
+	else return path;
+
+}
+
+export { exportModel, saveFile, removeFilenameExtension, removePathFromFilename };
