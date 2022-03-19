@@ -1141,8 +1141,8 @@ function createNewEmptyModel() {
 
 		addLDrawPartOrModel( model );
 
-		setSelectionModeModel( true );
-		selectPart( model );
+		setSelectionModeModel( false );
+		selectPart( part );
 
 		setFineSnap( false );
 		hideProgressBar();
@@ -1208,7 +1208,7 @@ function exportModelAsLDraw( model ) {
 	let output = "";
 
 	output += "0 " + fileTitle + dosLineEnd;
-	output += "0 Name: " + name + dosLineEnd;
+	if ( ! fileTitle.startsWith( "Name: " ) ) output += "0 Name: " + name + dosLineEnd;
 	output += "0 Author: " + fileAuthor + dosLineEnd;
 	output += "0 Unofficial Model" + dosLineEnd;
 	output += "0 ROTATION CENTER 0 0 0 1 \"Custom\"" + dosLineEnd;

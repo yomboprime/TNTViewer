@@ -7,8 +7,8 @@
             "seriesNumber": "Aire",
             "refNumber": "0501",
             "fileTitle": "FILE Aire_0501_servicio_autopista.ldr",
-            "fileAuthor": "Name: Aire_0501_servicio_autopista.ldr",
-            "fileBoxTitle": "Author: MLCad"
+            "fileAuthor": "MLCad",
+            "fileBoxTitle": ""
         },
         "oficiales/Aire_0502_HelicopteroBrigadaForestal.ldr": {
             "path": "oficiales/Aire_0502_HelicopteroBrigadaForestal.ldr",
@@ -417,8 +417,8 @@
             "seriesNumber": "Astro",
             "refNumber": "0720",
             "fileTitle": "FILE Astro_0720_proyectorgalacticomovil.ldr",
-            "fileAuthor": "Name: Astro_0720_proyectorgalacticomovil.ldr",
-            "fileBoxTitle": "Author: cpcbegin"
+            "fileAuthor": "jasolo",
+            "fileBoxTitle": ""
         },
         "oficiales/Astro_0721_Astronave+TorreLanzamiento.ldr": {
             "path": "oficiales/Astro_0721_Astronave+TorreLanzamiento.ldr",
@@ -437,8 +437,8 @@
             "seriesNumber": "Astro",
             "refNumber": "0722",
             "fileTitle": "FILE Astro_0722_navedefensasideral.ldr",
-            "fileAuthor": "Name: Astro_0722_navedefensasideral.ldr",
-            "fileBoxTitle": "Author: cpcbegin"
+            "fileAuthor": "jasolo",
+            "fileBoxTitle": ""
         },
         "oficiales/Astro_0722_navedefensasideral2.ldr": {
             "path": "oficiales/Astro_0722_navedefensasideral2.ldr",
@@ -447,8 +447,8 @@
             "seriesNumber": "Astro",
             "refNumber": "0722",
             "fileTitle": "FILE Astro_0722_navedefensasideral2.ldr",
-            "fileAuthor": "Name: Astro_0722_navedefensasideral2.ldr",
-            "fileBoxTitle": "Author: cpcbegin"
+            "fileAuthor": "jasolo",
+            "fileBoxTitle": ""
         },
         "oficiales/Astro_0722_navedefensasideral3.ldr": {
             "path": "oficiales/Astro_0722_navedefensasideral3.ldr",
@@ -457,8 +457,8 @@
             "seriesNumber": "Astro",
             "refNumber": "0722",
             "fileTitle": "FILE Astro_0722_navedefensasideral3.ldr",
-            "fileAuthor": "Name: Astro_0722_navedefensasideral3.ldr",
-            "fileBoxTitle": "Author: cpcbegin"
+            "fileAuthor": "jasolo",
+            "fileBoxTitle": ""
         },
         "oficiales/Astro_0723_BaseVigiaCosmica.ldr": {
             "path": "oficiales/Astro_0723_BaseVigiaCosmica.ldr",
@@ -717,7 +717,7 @@
             "seriesNumber": "Compact",
             "refNumber": "0346",
             "fileTitle": "MLCAD BTG astronauta_sentado",
-            "fileAuthor": "MLCAD BTG astronauta_sentado",
+            "fileAuthor": "MLCad",
             "fileBoxTitle": "Name: Compact_0346_Vigilantic.ldr"
         },
         "oficiales/Compact_0347_Pegasus.ldr": {
@@ -757,7 +757,7 @@
             "seriesNumber": "Compact",
             "refNumber": "0351",
             "fileTitle": "MLCAD BTG piloto1",
-            "fileAuthor": "MLCAD BTG piloto1",
+            "fileAuthor": "MLCad",
             "fileBoxTitle": "Name: Compact_0351_Tex.ldr"
         },
         "oficiales/Compact_0352_Karpan.ldr": {
@@ -1067,7 +1067,7 @@
             "seriesNumber": "Mini",
             "refNumber": "501",
             "fileTitle": "Untitled",
-            "fileAuthor": "ROTATION CONFIG 0 0",
+            "fileAuthor": "MLCad",
             "fileBoxTitle": ""
         },
         "oficiales/Mini_501_simbolo_chino.ldr": {
@@ -1097,7 +1097,7 @@
             "seriesNumber": "Mini",
             "refNumber": "503",
             "fileTitle": "MLCAD BTG planta baja",
-            "fileAuthor": "MLCAD BTG planta baja",
+            "fileAuthor": "MLCad",
             "fileBoxTitle": "Name: adosado503.ldr"
         },
         "oficiales/Mini_507_ermita.ldr": {
@@ -1137,7 +1137,7 @@
             "seriesNumber": "",
             "refNumber": "",
             "fileTitle": "MLCAD BTG tractor",
-            "fileAuthor": "MLCAD BTG tractor",
+            "fileAuthor": "MLCad",
             "fileBoxTitle": "Name: camionbomberosjapones.ldr"
         },
         "oficiales/Nomura_camionjaponessony.ldr": {
@@ -1187,7 +1187,7 @@
             "seriesNumber": "",
             "refNumber": "",
             "fileTitle": "MLCAD BTG ruedas",
-            "fileAuthor": "MLCAD BTG ruedas",
+            "fileAuthor": "cpcbegin",
             "fileBoxTitle": "Name: minifirej.ldr"
         },
         "oficiales/Nomura_sunshine2.ldr": {
@@ -1197,7 +1197,7 @@
             "seriesNumber": "",
             "refNumber": "",
             "fileTitle": "Name: Nomura_sunshine2.ldr",
-            "fileAuthor": "Nomura Japan",
+            "fileAuthor": "cpcbegin",
             "fileBoxTitle": "ROTATION CENTER 0 0 0 1 \"Custom\""
         },
         "oficiales/Pocket_0315_Eslator.ldr": {
@@ -1377,7 +1377,7 @@
             "seriesNumber": "Ruta",
             "refNumber": "0553",
             "fileTitle": "MLCAD BTG ruedas ruta 21 dobles",
-            "fileAuthor": "MLCAD BTG ruedas ruta 21 dobles",
+            "fileAuthor": "cpcbegin",
             "fileBoxTitle": "Name: Ruta_0553_camionespecialreparacioneselectricas.ldr"
         },
         "oficiales/Ruta_0553_camionportacontainers.ldr": {
@@ -1547,7 +1547,7 @@
             "seriesNumber": "Ruta",
             "refNumber": "0553",
             "fileTitle": "MLCAD BTG ruedas 21",
-            "fileAuthor": "MLCAD BTG ruedas 21",
+            "fileAuthor": "cpcbegin",
             "fileBoxTitle": "Name: trailer_transporte_mineral.ldr"
         },
         "oficiales/Ruta_0553_transportedoblearticulado.ldr": {
@@ -1677,7 +1677,7 @@
             "seriesNumber": "Ruta",
             "refNumber": "0680",
             "fileTitle": "Trailer plataforma",
-            "fileAuthor": "ROTATION CONFIG 0 0",
+            "fileAuthor": "CPCBEGIN",
             "fileBoxTitle": ""
         },
         "oficiales/Ruta_0681_trailercisternaaeropuerto.ldr": {
@@ -1707,7 +1707,7 @@
             "seriesNumber": "Ruta",
             "refNumber": "0683",
             "fileTitle": "Trailer transporte internacional",
-            "fileAuthor": "ROTATION CONFIG 0 0",
+            "fileAuthor": "CPCBEGIN",
             "fileBoxTitle": ""
         },
         "oficiales/Ruta_0685_trailertransporteminerales.ldr": {
@@ -1937,7 +1937,7 @@
             "seriesNumber": "",
             "refNumber": "",
             "fileTitle": "MLCAD BTG 4 plazas",
-            "fileAuthor": "MLCAD BTG 4 plazas",
+            "fileAuthor": "MLCad",
             "fileBoxTitle": "Name: aparcamiento.ldr"
         },
         "inventados/aparcamiento_con_vehiculos.ldr": {
@@ -1947,7 +1947,7 @@
             "seriesNumber": "",
             "refNumber": "",
             "fileTitle": "MLCAD BTG 4 plazas",
-            "fileAuthor": "MLCAD BTG 4 plazas",
+            "fileAuthor": "MLCad",
             "fileBoxTitle": "Name: aparcamiento_con_vehiculos.ldr"
         },
         "inventados/autolavado.ldr": {
@@ -2067,7 +2067,7 @@
             "seriesNumber": "",
             "refNumber": "",
             "fileTitle": "Castillito n�.1 - 3D",
-            "fileAuthor": "CPCBEGIN",
+            "fileAuthor": "MLCad",
             "fileBoxTitle": ""
         },
         "inventados/circulo.ldr": {
@@ -2397,7 +2397,7 @@
             "seriesNumber": "",
             "refNumber": "",
             "fileTitle": "MLCAD BTG ruedas_50",
-            "fileAuthor": "MLCAD BTG ruedas_50",
+            "fileAuthor": "cpcbegin",
             "fileBoxTitle": "Name: microbus50.ldr"
         },
         "inventados/minipcsobremesa.ldr": {
@@ -2627,7 +2627,7 @@
             "seriesNumber": "",
             "refNumber": "",
             "fileTitle": "MLCAD BTG isla",
-            "fileAuthor": "MLCAD BTG isla",
+            "fileAuthor": "MLCad",
             "fileBoxTitle": "Name: templo_debod.ldr"
         },
         "inventados/the_orville_shuttle.ldr": {

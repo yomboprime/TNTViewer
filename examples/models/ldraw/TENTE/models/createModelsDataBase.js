@@ -356,7 +356,7 @@ function obtainFieldsFromFile( model ) {
 				model.fileTitle = line.substring( 2 ).trim();
 
 			}
-			else if ( l === 2 ) {
+			else if ( ( l === 2 && ! model.fileAuthor ) || line.startsWith( "0 Author: " ) ) {
 
 				model.fileAuthor = line.substring( 2 ).trim();
 				if ( model.fileAuthor.startsWith( 'Author: ' ) ) model.fileAuthor = model.fileAuthor.substring( 'Author: '.length ).trim();
