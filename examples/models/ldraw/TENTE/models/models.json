@@ -1280,6 +1280,26 @@
             "fileAuthor": "MLCad",
             "fileBoxTitle": ""
         },
+        "oficiales/Roblock_0791_Thor.ldr": {
+            "path": "oficiales/Roblock_0791_Thor.ldr",
+            "id": "309",
+            "title": "THOR Thor",
+            "seriesNumber": "Roblock",
+            "refNumber": "0791",
+            "fileTitle": "Untitled",
+            "fileAuthor": "MLCad",
+            "fileBoxTitle": ""
+        },
+        "oficiales/Roblock_0791_Thor_transf.ldr": {
+            "path": "oficiales/Roblock_0791_Thor_transf.ldr",
+            "id": "309",
+            "title": "THOR Thor transf",
+            "seriesNumber": "Roblock",
+            "refNumber": "0791",
+            "fileTitle": "Untitled",
+            "fileAuthor": "MLCad",
+            "fileBoxTitle": ""
+        },
         "oficiales/Roblock_0792_skymaster.ldr": {
             "path": "oficiales/Roblock_0792_skymaster.ldr",
             "id": "310",
@@ -2990,6 +3010,8 @@
         "oficiales/Roblock_0783_Fenixter.ldr",
         "oficiales/Roblock_0788_Robosaurius.ldr",
         "oficiales/Roblock_0790_Persus.ldr",
+        "oficiales/Roblock_0791_Thor.ldr",
+        "oficiales/Roblock_0791_Thor_transf.ldr",
         "oficiales/Roblock_0792_skymaster.ldr",
         "oficiales/Roblock_0792_skymaster_transf.ldr",
         "oficiales/Roblock_0797_X-Tronic.ldr",

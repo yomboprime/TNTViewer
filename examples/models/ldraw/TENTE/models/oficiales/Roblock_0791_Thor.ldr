@@ -1,0 +1,549 @@
+0 Untitled
+0 Name: ROBLOCK_0791_THOR.ldr
+0 Author: MLCad
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+0 MLCAD BTG Pie Derecho
+1 0 -110 -40 0 1 0 0 0 1 0 0 0 1 placa2x2.dat
+0 MLCAD BTG Pie Derecho
+1 0 -70 -40 0 1 0 0 0 1 0 0 0 1 placa2x2.dat
+0 MLCAD BTG Pie Derecho
+1 0 -70 -40 -60 0 0 -1 0 1 0 1 0 0 placa2x3.dat
+0 MLCAD BTG Pie Derecho
+1 0 -30 -40 -60 0 0 -1 0 1 0 1 0 0 placa2x3.dat
+0 MLCAD BTG Pie Derecho
+1 1 -30 -48 -40 0 0 -1 0 1 0 1 0 0 jacena4.dat
+0 MLCAD BTG Pie Derecho
+1 1 -50 -48 -40 0 0 -1 0 1 0 1 0 0 jacen2x3.dat
+0 MLCAD BTG Pie Derecho
+1 1 -90 -48 -40 0 0 -1 0 1 0 1 0 0 jacena4.dat
+0 MLCAD BTG Pie Derecho
+1 1 -40 -72 -10 0 0 -1 0 1 0 1 0 0 jacena1.dat
+0 MLCAD BTG Pie Derecho
+1 1 -90 -48 20 1 0 0 0 1 0 0 0 1 cuna.dat
+0 MLCAD BTG Pie Derecho
+1 1 -70 -48 -40 1 0 0 0 1 0 0 0 1 pico.dat
+0 MLCAD BTG Pie Derecho
+1 383 -80 -72 50 1 0 0 0 1 0 0 0 1 amortigu.dat
+0 MLCAD BTG Pie Derecho
+1 383 -60 -72 50 1 0 0 0 1 0 0 0 1 amortigu.dat
+0 MLCAD BTG Pie Derecho
+1 1 -50 -96 40 -1 0 0 0 1 0 0 0 -1 pico.dat
+0 MLCAD BTG Pie Derecho
+1 1 -50 -72 -20 0 0 -1 0 1 0 1 0 0 jacen2x3.dat
+0 MLCAD BTG Pie Derecho
+1 1 -110 -72 39.998 0 0 1 0 1 0 -1 0 0 vntthor.dat
+0 MLCAD BTG Pie Derecho
+1 1 -30 -72 0 0 0 -1 0 1 0 1 0 0 vntthor.dat
+0 MLCAD BTG Pie Derecho
+1 1 -50 -96 -20 0 0 -1 0 1 0 1 0 0 jacen2x3.dat
+0 MLCAD BTG Pie Derecho
+1 1 -30 -120 20 0 0 -1 0 1 0 1 0 0 pistola.dat
+0 MLCAD BTG Pie Derecho
+1 1 -110 -48 -40 1 0 0 0 1 0 0 0 1 pico.dat
+0 MLCAD BTG Pie Derecho
+1 1 -108 -72 0 0 0 1 0 1 0 -1 0 0 enganch2.dat
+0 MLCAD BTG Pie Derecho
+1 1 -100 -96 -10 0 0 1 0 1 0 -1 0 0 jacena1.dat
+0 MLCAD BTG Pie Derecho
+1 1 -70 -72 -20 1 0 0 0 1 0 0 0 1 pico.dat
+0 MLCAD BTG Pie Derecho
+1 1 -110 -72 -20 1 0 0 0 1 0 0 0 1 pico.dat
+0 MLCAD BTG Pie Derecho
+1 1 -50 -120 -20 0 0 -1 0 1 0 1 0 0 pico.dat
+0 MLCAD BTG Pie Derecho
+1 1 -90 -120 20 0 0 -1 0 1 0 1 0 0 pistola.dat
+0 MLCAD BTG Pie Derecho
+1 1 -50 -120 -20 0 0 -1 0 1 0 1 0 0 jacen2x3.dat
+0 MLCAD BTG Pie Derecho
+1 1 -50 -144 -20 0 0 -1 0 1 0 1 0 0 jacen2x3.dat
+0 MLCAD BTG Pie Derecho
+1 1 -50 -168 -20 0 0 -1 0 1 0 1 0 0 jacen2x3.dat
+0 MLCAD BTG Pie Derecho
+1 1 -50 -192 -20 0 0 -1 0 1 0 1 0 0 bald2.dat
+0 MLCAD BTG Pie Derecho
+1 1 -70 -200 40 -1 0 0 0 1 0 0 0 -1 bisnraba.dat
+0 MLCAD BTG Pie Derecho
+1 1 -90 -120 20 0 0 1 0 1 0 -1 0 0 pico.dat
+0 MLCAD BTG Pie Derecho
+1 1 -40 -96 -10 0 0 1 0 1 0 -1 0 0 jacena1.dat
+0 MLCAD BTG Pie Derecho
+1 4 -40 -134 60 0 0 1 -1 0 0 0 -1 0 tubo.dat
+0 MLCAD BTG Pie Derecho
+1 4 -100 -134 60 0 0 1 -1 0 0 0 -1 0 tubo.dat
+0 MLCAD BTG Pie Derecho
+1 1 -70 -200 40 -1 0 0 0 1 0 0 0 -1 bisnreje.dat
+0 GROUP 35 Pie Derecho
+0 MLCAD BTG Pierna Derecha
+1 1 -70 -200 40 -1 0 0 0 1 0 0 0 -1 bisnrarr.dat
+0 MLCAD BTG Pierna Derecha
+1 1 -90 -208 40 0 0 1 0 1 0 -1 0 0 jacen2x3.dat
+0 MLCAD BTG Pierna Derecha
+1 1 -90 -200 -20 1 0 0 0 1 0 0 0 1 placa2.dat
+0 MLCAD BTG Pierna Derecha
+1 383 -80 -232 -10 1 0 0 0 1 0 0 0 1 amortigu.dat
+0 MLCAD BTG Pierna Derecha
+1 1 -90 -232 0 1 0 0 0 1 0 0 0 1 jacen2x2.dat
+0 MLCAD BTG Pierna Derecha
+1 383 -60 -232 -10 1 0 0 0 1 0 0 0 1 amortigu.dat
+0 MLCAD BTG Pierna Derecha
+1 1 -90 -256 -20 1 0 0 0 1 0 0 0 1 jacen2x2.dat
+0 MLCAD BTG Pierna Derecha
+1 1 -60 -256 30 0 0 1 0 1 0 -1 0 0 jacena1.dat
+0 MLCAD BTG Pierna Derecha
+1 1 -90 -280 20 1 0 0 0 1 0 0 0 1 placa2.dat
+0 MLCAD BTG Pierna Derecha
+1 1 -90 -256 40 0 0 1 0 1 0 -1 0 0 enganch2.dat
+0 MLCAD BTG Pierna Derecha
+1 1 -90 -288 40 1 0 0 0 1 0 0 0 1 pico.dat
+0 MLCAD BTG Pierna Derecha
+1 1 -70 -288 -20 1 0 0 0 1 0 0 0 1 bisnraba.dat
+0 MLCAD BTG Pierna Derecha
+1 1 -70 -288 -20 1 0 0 0 1 0 0 0 1 bisnreje.dat
+0 GROUP 13 Pierna Derecha
+0 MLCAD BTG Pie Izquierdo
+1 0 -30 -40 0 0 0 1 0 1 0 -1 0 0 placa2x3.dat
+0 MLCAD BTG Pie Izquierdo
+1 0 10 -40 0 0 0 1 0 1 0 -1 0 0 placa2x3.dat
+0 MLCAD BTG Pie Izquierdo
+1 0 -30 -40 40 0 0 1 0 1 0 -1 0 0 placa2x2.dat
+0 MLCAD BTG Pie Izquierdo
+1 0 10 -40 40 0 0 1 0 1 0 -1 0 0 placa2x2.dat
+0 MLCAD BTG Pie Izquierdo
+1 1 -30 -48 20 0 0 1 0 1 0 -1 0 0 jacen2x3.dat
+0 MLCAD BTG Pie Izquierdo
+1 1 -30 -48 20 1 0 0 0 1 0 0 0 1 cuna.dat
+0 MLCAD BTG Pie Izquierdo
+1 1 10 -48 20 1 0 0 0 1 0 0 0 1 cuna.dat
+0 MLCAD BTG Pie Izquierdo
+1 1 50 -48 -40 0 0 -1 0 1 0 1 0 0 jacen2x3.dat
+0 MLCAD BTG Pie Izquierdo
+1 1 -30 -48 -40 1 0 0 0 1 0 0 0 1 pico.dat
+0 MLCAD BTG Pie Izquierdo
+1 1 10 -48 -40 1 0 0 0 1 0 0 0 1 pico.dat
+0 MLCAD BTG Pie Izquierdo
+1 1 -10 -72 40 1 0 0 0 1 0 0 0 1 jacena2.dat
+0 MLCAD BTG Pie Izquierdo
+1 383 -20 -72 50 1 0 0 0 1 0 0 0 1 amortigu.dat
+0 MLCAD BTG Pie Izquierdo
+1 383 40 -72 50 1 0 0 0 1 0 0 0 1 amortigu.dat
+0 MLCAD BTG Pie Izquierdo
+1 1 10 -72 -20 0 0 -1 0 1 0 1 0 0 jacen2x3.dat
+0 MLCAD BTG Pie Izquierdo
+1 1 50 -72 -20 0 0 -1 0 1 0 1 0 0 jacen2x3.dat
+0 MLCAD BTG Pie Izquierdo
+1 1 -10 -96 60 0 0 1 0 1 0 -1 0 0 pico.dat
+0 MLCAD BTG Pie Izquierdo
+1 1 -10 -96 20 0 0 1 0 1 0 -1 0 0 pico.dat
+0 MLCAD BTG Pie Izquierdo
+1 1 -10 -96 60 0 0 1 0 1 0 -1 0 0 jacen2x4.dat
+0 MLCAD BTG Pie Izquierdo
+1 1 -10 -120 60 0 0 1 0 1 0 -1 0 0 jacen2x4.dat
+0 MLCAD BTG Pie Izquierdo
+1 1 -10 -144 40 1 0 0 0 1 0 0 0 1 jacena2.dat
+0 MLCAD BTG Pie Izquierdo
+1 1 30 -96 20 0 0 -1 0 1 0 1 0 0 pico.dat
+0 MLCAD BTG Pie Izquierdo
+1 1 30 -96 -20 0 0 -1 0 1 0 1 0 0 pico.dat
+0 MLCAD BTG Pie Izquierdo
+1 1 30 -144 0 -1 0 0 0 1 0 0 0 -1 jacena2.dat
+0 MLCAD BTG Pie Izquierdo
+1 1 10 -72 -20 1 0 0 0 1 0 0 0 1 pico.dat
+0 MLCAD BTG Pie Izquierdo
+1 1 -30 -72 -20 1 0 0 0 1 0 0 0 1 pico.dat
+0 MLCAD BTG Pie Izquierdo
+1 1 10 -144 40 0 0 1 0 1 0 -1 0 0 cuna.dat
+0 MLCAD BTG Pie Izquierdo
+1 1 30 -168 40 -1 0 0 0 1 0 0 0 -1 pico.dat
+0 MLCAD BTG Pie Izquierdo
+1 1 -10 -144 40 0 0 1 0 1 0 -1 0 0 jacena2.dat
+0 MLCAD BTG Pie Izquierdo
+1 383 0 -168 -10 0 0 1 0 1 0 -1 0 0 amortigu.dat
+0 MLCAD BTG Pie Izquierdo
+1 383 20 -168 -10 0 0 1 0 1 0 -1 0 0 amortigu.dat
+0 MLCAD BTG Pie Izquierdo
+1 4 40 -168 30 0 0 1 0 1 0 -1 0 0 chimplac.dat
+0 MLCAD BTG Pie Izquierdo
+1 1 -10 -168 40 0 0 1 0 1 0 -1 0 0 jacen2x2.dat
+0 MLCAD BTG Pie Izquierdo
+1 1 -10 -192 40 0 0 1 0 1 0 -1 0 0 jacen2x3.dat
+0 MLCAD BTG Pie Izquierdo
+1 1 10 -224 40 -1 0 0 0 1 0 0 0 -1 bisnraba.dat
+0 MLCAD BTG Pie Izquierdo
+1 1 10 -224 40 -1 0 0 0 1 0 0 0 -1 bisnreje.dat
+0 MLCAD BTG Pie Izquierdo
+1 4 40 -176 10 -1 0 0 0 1 0 0 0 -1 tubo.dat
+0 MLCAD BTG Pie Izquierdo
+1 1 -10 -216 0 0 0 1 0 1 0 -1 0 0 bald2.dat
+0 MLCAD BTG Pie Izquierdo
+1 15 40 -186.2 10 0 0 -1 0 1 0 1 0 0 radar.dat
+0 MLCAD BTG Pie Izquierdo
+1 4 40 -176 30 0 0 -1 0 1 0 1 0 0 laser.dat
+0 GROUP 39 Pie Izquierdo
+0 MLCAD BTG Pierna Izquierda
+1 1 10 -224 40 -1 0 0 0 1 0 0 0 -1 bisnrarr.dat
+0 MLCAD BTG Pierna Izquierda
+1 1 -10 -232 0 1 0 0 0 1 0 0 0 1 jacen2x2.dat
+0 MLCAD BTG Pierna Izquierda
+1 1 30 -256 -20 0 0 -1 0 1 0 1 0 0 jacen2x3.dat
+0 MLCAD BTG Pierna Izquierda
+1 383 0 -232 -10 0 0 -1 0 1 0 1 0 0 amortigu.dat
+0 MLCAD BTG Pierna Izquierda
+1 383 20 -232 -10 0 0 -1 0 1 0 1 0 0 amortigu.dat
+0 MLCAD BTG Pierna Izquierda
+1 1 -10 -224 -20 1 0 0 0 1 0 0 0 1 placa2.dat
+0 MLCAD BTG Pierna Izquierda
+1 1 -10 -280 20 1 0 0 0 1 0 0 0 1 placa2.dat
+0 MLCAD BTG Pierna Izquierda
+1 1 -10 -288 40 1 0 0 0 1 0 0 0 1 pico.dat
+0 MLCAD BTG Pierna Izquierda
+1 1 10 -288 -20 1 0 0 0 1 0 0 0 1 bisnraba.dat
+0 MLCAD BTG Pierna Izquierda
+1 1 10 -288 -20 1 0 0 0 1 0 0 0 1 bisnreje.dat
+0 GROUP 10 Pierna Izquierda
+0 MLCAD BTG Torso
+1 1 -70 -288 -20 1 0 0 0 1 0 0 0 1 bisnrarr.dat
+0 MLCAD BTG Torso
+1 1 10 -288 -20 1 0 0 0 1 0 0 0 1 bisnrarr.dat
+0 MLCAD BTG Torso
+1 1 -90 -296 0 1 0 0 0 1 0 0 0 1 jacena6.dat
+0 MLCAD BTG Torso
+1 1 -90 -296 0 1 0 0 0 1 0 0 0 1 cuna.dat
+0 MLCAD BTG Torso
+1 1 -10 -296 0 1 0 0 0 1 0 0 0 1 cuna.dat
+0 MLCAD BTG Torso
+1 1 -50 -296 0 1 0 0 0 1 0 0 0 1 cuna.dat
+0 MLCAD BTG Torso
+1 1 -70 -320 20 1 0 0 0 1 0 0 0 1 cuna.dat
+0 MLCAD BTG Torso
+1 1 -30 -320 20 1 0 0 0 1 0 0 0 1 cuna.dat
+0 MLCAD BTG Torso
+1 1 -70 -344 40 1 0 0 0 1 0 0 0 1 cuna.dat
+0 MLCAD BTG Torso
+1 1 -90 -320 -20 1 0 0 0 1 0 0 0 1 jacen2x3.dat
+0 MLCAD BTG Torso
+1 1 -30 -320 -20 1 0 0 0 1 0 0 0 1 jacen2x3.dat
+0 MLCAD BTG Torso
+1 1 -30 -344 40 1 0 0 0 1 0 0 0 1 cuna.dat
+0 MLCAD BTG Torso
+1 1 -70 -344 20 1 0 0 0 1 0 0 0 1 jacena4.dat
+0 MLCAD BTG Torso
+1 1 -70 -344 20 0 0 1 0 1 0 -1 0 0 jacena2.dat
+0 MLCAD BTG Torso
+1 1 -10 -344 20 0 0 1 0 1 0 -1 0 0 jacena2.dat
+0 MLCAD BTG Torso
+1 1 -70 -344 -20 0 0 -1 0 1 0 1 0 0 cuna.dat
+0 MLCAD BTG Torso
+1 1 10 -344 20 0 0 1 0 1 0 -1 0 0 cuna.dat
+0 MLCAD BTG Torso
+1 1 -50 -344 20 1 0 0 0 1 0 0 0 1 pico.dat
+0 MLCAD BTG Torso
+1 1 -110 -416 -20 1 0 0 0 1 0 0 0 1 jacen2x3.dat
+0 MLCAD BTG Torso
+1 1 -70 -416 80 0 0 1 0 1 0 -1 0 0 jacen2x3.dat
+0 MLCAD BTG Torso
+1 1 -30 -416 80 0 0 1 0 1 0 -1 0 0 jacen2x3.dat
+0 MLCAD BTG Torso
+1 1 -10 -416 -20 1 0 0 0 1 0 0 0 1 jacen2x3.dat
+0 MLCAD BTG Torso
+1 4 -40 -386 20 0 0 -1 -1 0 0 0 1 0 chimplac.dat
+0 MLCAD BTG Torso
+1 4 -20 -386 20 0 0 -1 -1 0 0 0 1 0 chimplac.dat
+0 MLCAD BTG Torso
+1 1 -110 -368 -20 1 0 0 0 1 0 0 0 1 jacen2x3.dat
+0 MLCAD BTG Torso
+1 1 -10 -368 -20 1 0 0 0 1 0 0 0 1 jacen2x3.dat
+0 MLCAD BTG Torso
+1 4 -30 -392 60 1 0 0 0 1 0 0 0 1 rues42l.dat
+0 MLCAD BTG Torso
+1 1 -70 -368 20 1 0 0 0 1 0 0 0 1 jacena4.dat
+0 MLCAD BTG Torso
+1 1 -70 -392 60 1 0 0 0 1 0 0 0 1 jacena4.dat
+0 MLCAD BTG Torso
+1 1 -50 -392 -20 0 0 -1 0 1 0 1 0 0 jacena4.dat
+0 MLCAD BTG Torso
+1 1 10 -392 -20 0 0 -1 0 1 0 1 0 0 jacena4.dat
+0 MLCAD BTG Torso
+1 1 -70 -392 -20 0 0 -1 0 1 0 1 0 0 jacen2x2.dat
+0 MLCAD BTG Torso
+1 1 50 -392 -20 0 0 -1 0 1 0 1 0 0 jacen2x2.dat
+0 MLCAD BTG Torso
+1 1 -50 -392 60 0 0 1 0 1 0 -1 0 0 pistola.dat
+0 MLCAD BTG Torso
+1 1 -30 -392 60 0 0 1 0 1 0 -1 0 0 pistola.dat
+0 MLCAD BTG Torso
+1 1 -30 -352 -20 -1 0 0 0 1 0 0 0 -1 bispqaba.dat
+0 MLCAD BTG Torso
+1 4 -30 -464 60 -1 0 0 0 1 0 0 0 -1 rues42l.dat
+0 MLCAD BTG Torso
+1 1 10 -440 40 -1 0 0 0 1 0 0 0 -1 jacen2x4.dat
+0 MLCAD BTG Torso
+1 1 -70 -440 20 -1 0 0 0 1 0 0 0 -1 jacen2x2.dat
+0 MLCAD BTG Torso
+1 1 50 -440 20 -1 0 0 0 1 0 0 0 -1 jacen2x2.dat
+0 MLCAD BTG Torso
+1 1 -70 -464 20 -1 0 0 0 1 0 0 0 -1 jacena2.dat
+0 MLCAD BTG Torso
+1 1 -60 -440 -10 -1 0 0 0 1 0 0 0 -1 jacena1.dat
+0 MLCAD BTG Torso
+1 1 0 -440 -10 -1 0 0 0 1 0 0 0 -1 jacena1.dat
+0 MLCAD BTG Torso
+1 1 -110 -464 0 1 0 0 0 1 0 0 0 1 pico.dat
+0 MLCAD BTG Torso
+1 1 -30 -464 0 0 0 -1 0 1 0 1 0 0 jacen2x3.dat
+0 MLCAD BTG Torso
+1 1 10 -464 0 0 0 -1 0 1 0 1 0 0 jacen2x3.dat
+0 MLCAD BTG Torso
+1 1 50 -464 20 -1 0 0 0 1 0 0 0 -1 jacena2.dat
+0 MLCAD BTG Torso
+1 1 10 -464 0 1 0 0 0 1 0 0 0 1 pico.dat
+0 MLCAD BTG Torso
+1 1 -30 -464 60 -1 0 0 0 1 0 0 0 -1 pico.dat
+0 MLCAD BTG Torso
+1 1 10 -464 60 -1 0 0 0 1 0 0 0 -1 pico.dat
+0 MLCAD BTG Torso
+1 1 -70 -464 0 1 0 0 0 1 0 0 0 1 pico.dat
+0 MLCAD BTG Torso
+1 1 -30 -464 0 1 0 0 0 1 0 0 0 1 pico.dat
+0 MLCAD BTG Torso
+1 1 -110 -488 20 1 0 0 0 1 0 0 0 1 jacen2x8.dat
+0 MLCAD BTG Torso
+1 1 -50 -512 40 1 0 0 0 1 0 0 0 1 jacena2.dat
+0 MLCAD BTG Torso
+1 383 -40 -512 30 1 0 0 0 1 0 0 0 1 amortigu.dat
+0 MLCAD BTG Torso
+1 383 -20 -512 30 1 0 0 0 1 0 0 0 1 amortigu.dat
+0 MLCAD BTG Torso
+1 1 -10 -536 60 -1 0 0 0 1 0 0 0 -1 placa2x2.dat
+0 MLCAD BTG Torso
+1 1 -50 -512 60 0 0 1 0 1 0 -1 0 0 pico.dat
+0 MLCAD BTG Torso
+1 1 -10 -512 20 0 0 -1 0 1 0 1 0 0 pico.dat
+0 MLCAD BTG Torso
+1 1 -110 -488 20 1 0 0 0 1 0 0 0 1 pico.dat
+0 MLCAD BTG Torso
+1 1 -70 -488 20 1 0 0 0 1 0 0 0 1 pico.dat
+0 MLCAD BTG Torso
+1 1 -30 -488 20 1 0 0 0 1 0 0 0 1 pico.dat
+0 MLCAD BTG Torso
+1 1 10 -488 20 1 0 0 0 1 0 0 0 1 pico.dat
+0 MLCAD BTG Torso
+1 1 -50 -544 20 1 0 0 0 1 0 0 0 1 jacen2x2.dat
+0 MLCAD BTG Torso
+1 1 -50 -568 20 1 0 0 0 1 0 0 0 1 jacen2x2.dat
+0 MLCAD BTG Torso
+1 1 -30 -600 20 1 0 0 0 1 0 0 0 1 bisnraba.dat
+0 MLCAD BTG Torso
+1 1 -110 -520 40 0 0 1 0 1 0 -1 0 0 bisnraba.dat
+0 MLCAD BTG Torso
+1 1 50 -520 40 0 0 -1 0 1 0 1 0 0 bisnraba.dat
+0 MLCAD BTG Torso
+1 1 -30 -600 20 -1 0 0 0 1 0 0 0 -1 bisnreje.dat
+0 MLCAD BTG Torso
+1 1 50 -520 40 0 0 1 0 1 0 -1 0 0 bisnreje.dat
+0 MLCAD BTG Torso
+1 1 -110 -520 40 0 0 1 0 1 0 -1 0 0 bisnreje.dat
+0 GROUP 71 Torso
+0 GROUP 6 Puerta
+0 MLCAD BTG Puerta
+1 1 -30 -352 -20 -1 0 0 0 1 0 0 0 -1 bispqarr.dat
+0 MLCAD BTG Puerta
+1 14 -10 -360 0 -1 0 0 0 1 0 0 0 -1 cuna.dat
+0 MLCAD BTG Puerta
+1 14 -50 -384 -20 1 0 0 0 1 0 0 0 1 jacena2.dat
+0 MLCAD BTG Puerta
+1 14 -50 -408 -20 1 0 0 0 1 0 0 0 1 jacena2.dat
+0 MLCAD BTG Puerta
+1 14 -50 -384 -20 1 0 0 0 1 0 0 0 1 pico.dat
+0 MLCAD BTG Puerta
+1 14 -10 -432 -20 -1 0 0 0 1 0 0 0 -1 pico.dat
+0 MLCAD BTG Brazo Izquierdo
+1 1 50 -520 40 0 0 1 0 1 0 -1 0 0 bisnraba.dat
+0 MLCAD BTG Brazo Izquierdo
+1 1 50 -504 60 0 0 1 0 1 0 -1 0 0 placa2x2.dat
+0 MLCAD BTG Brazo Izquierdo
+1 1 70 -496 20 1 0 0 0 1 0 0 0 1 bisnrarr.dat
+0 MLCAD BTG Brazo Izquierdo
+1 1 70 -496 20 1 0 0 0 1 0 0 0 1 bisnreje.dat
+0 MLCAD BTG Brazo Izquierdo
+1 1 70 -496 20 -1 0 0 0 -1 0 0 0 1 bisnrarr.dat
+0 MLCAD BTG Brazo Izquierdo
+1 1 90 -488 20 -1 0 0 0 -1 0 0 0 1 jacen2x2.dat
+0 MLCAD BTG Brazo Izquierdo
+1 1 90 -464 60 0 0 -1 0 -1 0 -1 0 0 jacena2.dat
+0 MLCAD BTG Brazo Izquierdo
+1 383 60 -464 30 0 0 -1 0 -1 0 -1 0 0 amortigu.dat
+0 MLCAD BTG Brazo Izquierdo
+1 383 60 -464 50 0 0 -1 0 -1 0 -1 0 0 amortigu.dat
+0 MLCAD BTG Brazo Izquierdo
+1 1 90 -440 60 0 0 -1 0 -1 0 -1 0 0 jacen2x2.dat
+0 MLCAD BTG Brazo Izquierdo
+1 1 50 -408 40 0 0 -1 0 -1 0 -1 0 0 bispqaba.dat
+0 MLCAD BTG Brazo Izquierdo
+1 1 70 -416 60 0 0 -1 0 -1 0 -1 0 0 pico.dat
+0 MLCAD BTG Brazo Izquierdo
+1 1 50 -408 40 0 0 -1 0 -1 0 -1 0 0 bispqarr.dat
+0 MLCAD BTG Brazo Izquierdo
+1 1 50 -408 40 0 0 -1 0 -1 0 -1 0 0 bisnreje.dat
+0 MLCAD BTG Brazo Izquierdo
+1 1 70 -400 20 0 0 1 0 -1 0 1 0 0 pico.dat
+0 GROUP 15 Brazo Izquierdo
+0 MLCAD BTG Brazo Derecho
+1 1 -110 -520 40 0 0 -1 0 1 0 1 0 0 bisnraba.dat
+0 MLCAD BTG Brazo Derecho
+1 1 -110 -504 20 0 0 -1 0 1 0 1 0 0 placa2x2.dat
+0 MLCAD BTG Brazo Derecho
+1 1 -130 -496 20 1 0 0 0 1 0 0 0 1 bisnrarr.dat
+0 MLCAD BTG Brazo Derecho
+1 1 -130 -496 20 1 0 0 0 1 0 0 0 1 bisnreje.dat
+0 MLCAD BTG Brazo Derecho
+1 1 -130 -496 20 -1 0 0 0 -1 0 0 0 1 bisnrarr.dat
+0 MLCAD BTG Brazo Derecho
+1 1 -110 -488 20 -1 0 0 0 -1 0 0 0 1 jacen2x2.dat
+0 MLCAD BTG Brazo Derecho
+1 1 -120 -464 50 -1 0 0 0 -1 0 0 0 1 tubo.dat
+0 MLCAD BTG Brazo Derecho
+1 383 -120 -464 30 -1 0 0 0 -1 0 0 0 1 amortigu.dat
+0 MLCAD BTG Brazo Derecho
+1 1 -130 -440 20 0 0 1 0 -1 0 1 0 0 jacena2.dat
+0 MLCAD BTG Brazo Derecho
+1 1 -150 -464 20 0 0 1 0 -1 0 1 0 0 jacena2.dat
+0 MLCAD BTG Brazo Derecho
+1 1 -130 -440 20 0 0 1 0 -1 0 1 0 0 pico.dat
+0 MLCAD BTG Brazo Derecho
+1 1 -120 -416 50 0 0 1 0 -1 0 1 0 0 tubo.dat
+0 MLCAD BTG Brazo Derecho
+1 383 -120 -416 30 0 0 1 0 -1 0 1 0 0 amortigu.dat
+0 MLCAD BTG Brazo Derecho
+1 1 -130 -392 20 0 0 1 0 -1 0 1 0 0 jacena2.dat
+0 MLCAD BTG Brazo Derecho
+1 4 -120 -368 30 0 0 1 0 -1 0 1 0 0 laser.dat
+0 MLCAD BTG Brazo Derecho
+1 383 -120 -364 50 0 0 1 0 -1 0 1 0 0 tbescrct.dat
+0 GROUP 16 Brazo Derecho
+0 MLCAD BTG Cabeza
+1 1 -30 -600 20 1 0 0 0 1 0 0 0 1 bisnrarr.dat
+0 MLCAD BTG Cabeza
+1 14 30 -608 60 -1 0 0 0 1 0 0 0 -1 placa2x3.dat
+0 MLCAD BTG Cabeza
+1 14 -30 -608 60 -1 0 0 0 1 0 0 0 -1 placa2x3.dat
+0 MLCAD BTG Cabeza
+1 14 -30.001 -616 40.001 -1 0 0 0 1 0 0 0 -1 jacena2.dat
+0 MLCAD BTG Cabeza
+1 14 9.998 -616 39.998 -1 0 0 0 1 0 0 0 -1 jacena2.dat
+0 MLCAD BTG Cabeza
+1 14 9.998 -640 39.998 -1 0 0 0 1 0 0 0 -1 jacen2x4.dat
+0 MLCAD BTG Cabeza
+1 14 30.001 -608 140.003 -1 0 0 0 1 0 0 0 -1 placa4x6.dat
+0 MLCAD BTG Cabeza
+1 1 10.001 -616 120.001 -1 0 0 0 1 0 0 0 -1 jacena4.dat
+0 MLCAD BTG Cabeza
+1 1 10.001 -616 120.001 0 0 1 0 1 0 -1 0 0 jacena4.dat
+0 MLCAD BTG Cabeza
+1 1 -90.002 -616 120 0 0 1 0 1 0 -1 0 0 jacena4.dat
+0 MLCAD BTG Cabeza
+1 1 20 -616 30 0 0 1 0 1 0 -1 0 0 jacena1.dat
+0 MLCAD BTG Cabeza
+1 1 -79.999 -616 30.002 0 0 1 0 1 0 -1 0 0 jacena1.dat
+0 MLCAD BTG Cabeza
+1 1 -50 -640 100.001 1 0 0 0 1 0 0 0 1 placa4.dat
+0 MLCAD BTG Cabeza
+1 1 10 -640 20 1 0 0 0 1 0 0 0 1 bald2.dat
+0 MLCAD BTG Cabeza
+1 14 -50.002 -616 -20.001 1 0 0 0 1 0 0 0 1 cuna.dat
+0 MLCAD BTG Cabeza
+1 14 -9.998 -640 0 -1 0 0 0 1 0 0 0 -1 cuna.dat
+0 MLCAD BTG Cabeza
+1 1 -70 -640 60 -1 0 0 0 1 0 0 0 -1 bald2.dat
+0 MLCAD BTG Cabeza
+1 1 -70 -640 99.998 -1 0 0 0 1 0 0 0 -1 bald2.dat
+0 MLCAD BTG Cabeza
+1 1 30 -640 100 -1 0 0 0 1 0 0 0 -1 bald2.dat
+0 MLCAD BTG Cabeza
+1 1 -49.999 -640 119.998 -1 0 0 0 1 0 0 0 -1 placa2.dat
+0 MLCAD BTG Cabeza
+1 1 30 -616 120 -1 0 0 0 1 0 0 0 -1 pico.dat
+0 MLCAD BTG Cabeza
+1 1 -49.999 -616 119.998 -1 0 0 0 1 0 0 0 -1 pico.dat
+0 MLCAD BTG Cabeza
+1 14 -9.998 -616 120 -1 0 0 0 1 0 0 0 -1 pico.dat
+0 MLCAD BTG Cabeza
+1 14 -10 -664 20 0 0 1 0 1 0 -1 0 0 pistola.dat
+0 MLCAD BTG Cabeza
+1 14 -70 -664 20.002 0 0 1 0 1 0 -1 0 0 pistola.dat
+0 MLCAD BTG Cabeza
+1 14 -30 -664 20.002 0 0 1 0 1 0 -1 0 0 jacena2.dat
+0 MLCAD BTG Cabeza
+1 14 -50 -664 19.999 0 0 1 0 1 0 -1 0 0 jacena2.dat
+0 MLCAD BTG Cabeza
+1 1 10.001 -656 120.001 1 0 0 0 1 0 0 0 1 bispqaba.dat
+0 MLCAD BTG Cabeza
+1 1 -29.998 -656 119.999 1 0 0 0 1 0 0 0 1 bispqaba.dat
+0 MLCAD BTG Cabeza
+1 1 -69.998 -656 120 1 0 0 0 1 0 0 0 1 bispqaba.dat
+0 MLCAD BTG Cabeza
+1 14 -10 -584 20 1 0 0 0 1 0 0 0 1 cuna.dat
+0 MLCAD BTG Cabeza
+1 14 30.001 -584 140.003 -1 0 0 0 1 0 0 0 -1 cuna.dat
+0 MLCAD BTG Cabeza
+1 14 -50.001 -584 140.002 -1 0 0 0 1 0 0 0 -1 cuna.dat
+0 MLCAD BTG Cabeza
+1 14 -90 -584 20 1 0 0 0 1 0 0 0 1 cuna.dat
+0 MLCAD BTG Cabeza
+1 1 -70 -600 60 1 0 0 0 1 0 0 0 1 placa4.dat
+0 MLCAD BTG Cabeza
+1 1 -69.998 -600 80.001 1 0 0 0 1 0 0 0 1 placa4.dat
+0 MLCAD BTG Cabeza
+1 7 0 -576 70 1 0 0 0 1 0 0 0 1 amortigu.dat
+0 MLCAD BTG Cabeza
+1 7 0 -576 90 1 0 0 0 1 0 0 0 1 amortigu.dat
+0 MLCAD BTG Cabeza
+1 7 -59.997 -576 70 1 0 0 0 1 0 0 0 1 amortigu.dat
+0 MLCAD BTG Cabeza
+1 7 -60 -576 89.999 1 0 0 0 1 0 0 0 1 amortigu.dat
+0 MLCAD BTG Cabeza
+1 14 -49.999 -584 119.998 1 0 0 0 1 0 0 0 1 jacena2.dat
+0 MLCAD BTG Cabeza
+1 14 -9.998 -576 120 0 0 -1 0 1 0 1 0 0 placa2x3.dat
+0 MLCAD BTG Cabeza
+1 4 -30.001 -576 80.002 -1 0 0 0 1 0 0 0 -1 rues42l.dat
+0 MLCAD BTG Cabeza
+1 15 30 -648 100 -1 0 0 0 1 0 0 0 -1 parabmrc.dat
+0 MLCAD BTG Cabeza
+1 15 -90 -648 135 1 0 0 0 1 0 0 0 1 parabcrs.dat
+0 MLCAD BTG Cabeza
+1 14 -50.001 -584 140.002 1 0 0 0 1 0 0 0 1 rejilla.dat
+0 MLCAD BTG Cabeza
+1 14 -10 -584 180 -1 0 0 0 1 0 0 0 -1 pistola.dat
+0 MLCAD BTG Cabeza
+1 1 -50.001 -664 39.998 -1 0 0 0 1 0 0 0 -1 pistola.dat
+0 MLCAD BTG Cabeza
+1 1 -10 -664 20 1 0 0 0 1 0 0 0 1 pistola.dat
+0 MLCAD BTG Cabeza
+1 14 -10 -664 20 -1 0 0 0 1 0 0 0 -1 pico.dat
+0 MLCAD BTG Cabeza
+1 14 -50.002 -664 -20.001 1 0 0 0 1 0 0 0 1 pico.dat
+0 MLCAD BTG Cabeza
+1 14 -29.998 -688 -19.999 1 0 0 0 1 0 0 0 1 pinzastr.dat
+0 MLCAD BTG Cabeza
+1 14 -30 -688 20.002 -1 0 0 0 1 0 0 0 -1 pinzastr.dat
+0 MLCAD BTG Cabeza
+1 7 10.001 -616 100.001 -1 0 0 0 1 0 0 0 -1 airsillo.dat
+0 MLCAD BTG Cabeza
+1 7 -30 -616 99.998 -1 0 0 0 1 0 0 0 -1 airsillo.dat
+0 MLCAD BTG Cabeza
+1 0 10.001 -616 100.001 -1 0 0 0 1 0 0 0 -1 helmando.dat
+0 MLCAD BTG Cabeza
+1 0 -30 -616 99.998 -1 0 0 0 1 0 0 0 -1 helmando.dat
+0 MLCAD BTG Cabeza
+1 14 30 -679 30 0 -1 0 -1 0 0 0 0 -1 tubo.dat
+0 MLCAD BTG Cabeza
+1 14 -114 -679 30 0 -1 0 -1 0 0 0 0 -1 tubo.dat
+0 MLCAD BTG Cabeza
+1 14 -91.999 -636 118.998 0 0 1 0 1 0 -1 0 0 p_gacr73.dat
+0 MLCAD BTG Cabeza
+1 14 32 -635 37.998 0 0 -1 0 1 0 1 0 0 p_gacr73.dat
+0 GROUP 61 Cabeza
+1 0 0 1 0 1 0 0 0 1 0 0 0 1 tbthor0791.dat
+0
