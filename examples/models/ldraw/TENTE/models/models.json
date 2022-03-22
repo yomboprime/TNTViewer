@@ -6232,6 +6232,11 @@
             "title": "Figura Articulada Cabeza Desnuda",
             "metaData": "|T:T"
         },
+        "htitcabr.dat": {
+            "path": "htitcabr.dat",
+            "title": "Hombre Titanium cabeza redonda",
+            "metaData": "|T:T|F:F"
+        },
         "htitentr.dat": {
             "path": "htitentr.dat",
             "title": "Hombre Titanium entrepierna",
@@ -6542,6 +6547,11 @@
             "title": "Accesorios Alfa Manguera Mochila Bombero",
             "metaData": "|F:F"
         },
+        "mascara.dat": {
+            "path": "mascara.dat",
+            "title": "Accesorios Ruta2 Máscara Anti-gas",
+            "metaData": "|R:R"
+        },
         "mastilh.dat": {
             "path": "mastilh.dat",
             "title": "Mástil (hembra)",
@@ -6636,6 +6646,16 @@
             "path": "mochila2.dat",
             "title": "Accesorios Alfa Mochila Bombero",
             "metaData": "|F:F"
+        },
+        "mochila3.dat": {
+            "path": "mochila3.dat",
+            "title": "Mochila 3",
+            "metaData": "|R:R"
+        },
+        "mochila4.dat": {
+            "path": "mochila4.dat",
+            "title": "Mochila 3 en espalda",
+            "metaData": "|R:R"
         },
         "modmando.dat": {
             "path": "modmando.dat",
@@ -8055,12 +8075,12 @@
         "tbscoeng.dat": {
             "path": "tbscoeng.dat",
             "title": "Tubo Scorpion (enganche)",
-            "metaData": "|A:A"
+            "metaData": "|F:F"
         },
         "tbscorec.dat": {
             "path": "tbscorec.dat",
             "title": "Latiguillo Enganche Lateral",
-            "metaData": "|A:A"
+            "metaData": "|F:F"
         },
         "alfaturb.dat": {
             "path": "alfaturb.dat",
@@ -8265,6 +8285,11 @@
         "xtroverd.dat": {
             "path": "xtroverd.dat",
             "title": "Xtronic Bola Verde",
+            "metaData": "|R:R"
+        },
+        "xtrointe.dat": {
+            "path": "xtrointe.dat",
+            "title": "Xtronic interruptor",
             "metaData": "|R:R"
         },
         "alfazeta.dat": {
@@ -8853,6 +8878,7 @@
         "htitbrzi.dat",
         "htitcab1.dat",
         "htitcab2.dat",
+        "htitcabr.dat",
         "htitentr.dat",
         "htitmand.dat",
         "htitmani.dat",
@@ -8915,6 +8941,7 @@
         "mastg265.dat",
         "macecun2.dat",
         "manguera.dat",
+        "mascara.dat",
         "mastilh.dat",
         "mastilm.dat",
         "mastbase.dat",
@@ -8934,6 +8961,8 @@
         "misilese.dat",
         "mochila1.dat",
         "mochila2.dat",
+        "mochila3.dat",
+        "mochila4.dat",
         "modmando.dat",
         "modmandj.dat",
         "modmandp.dat",
@@ -9260,6 +9289,7 @@
         "xtronic.dat",
         "xtroroja.dat",
         "xtroverd.dat",
+        "xtrointe.dat",
         "alfazeta.dat"
     ],
     "colorsCodesList": [

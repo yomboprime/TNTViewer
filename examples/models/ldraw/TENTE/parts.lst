@@ -577,6 +577,7 @@ htitbrzd.dat   Hombre Titanium brazo derecho      |T:T
 htitbrzi.dat   Hombre Titanium brazo izquierdo      |T:T                       
 htitcab1.dat   Hombre Titanium cabeza 1      |T:T                              
 htitcab2.dat   Hombre Titanium cabeza 2      |T:T                              
+htitcabr.dat   Hombre Titanium cabeza redonda      |T:T|F:F
 htitentr.dat   Hombre Titanium entrepierna      |T:T                           
 htitmand.dat   Hombre Titanium mano derecha      |T:T                          
 htitmani.dat   Hombre Titanium mano izquierda      |T:T                        
@@ -638,6 +639,7 @@ astgrfpq.dat   Logo Semicupula Pequeña     |S:S
 logtente.dat   Logo Tente     |D:D                                             
 macecun2.dat   Macetero cuna 2x1 I.UNITS                                       
 manguera.dat   Manguera Mochila 2    |F:F                                      
+mascara.dat    Mascara antigas    |R:R                                         
 mastbase.dat   Mastil Base       |M:M                                          
 metrall.dat    Metralleta    |E:E                                              
 misiles.dat    Misiles   |M:M                                                  
@@ -645,6 +647,8 @@ misilesc.dat   Misiles Cabezas  |M:M
 misilese.dat   Misiles Cabezas sin eje exterior |M:M                           
 mochila1.dat   Mochila 1      |T:T|F:F                                         
 mochila2.dat   Mochila 2    |F:F                                               
+mochila3.dat   Mochila 3    |R:R                                               
+mochila4.dat   Mochila 3 en espalda    |R:R                                    
 modmandj.dat   Modulo Mando Alfa Joystick |F:F                                 
 modmandp.dat   Modulo Mando Alfa Panel |F:F                                    
 modmando.dat   Modulo Mando Alfa |F:F                                          
@@ -940,8 +944,8 @@ tbfarola.dat   Tubo Farola     |C:C
 tbfutur1.dat   Tubo Futurama 1    |D:D                                         
 tbfutur2.dat   Tubo Futurama 2    |D:D                                         
 tuboruta.dat   Tubo Ruta    |R:R                                               
-tbscoeng.dat   Tubo Scorpion (enganche)     |A:A                               
-tbscorec.dat   Tubo Scorpion Recto     |A:A                                    
+tbscoeng.dat   Tubo Scorpion (enganche)     |F:F                               
+tbscorec.dat   Tubo Scorpion Recto     |F:F                                    
 alfaturb.dat   Turbina Alfa    |F:F                                            
 valla.dat      Valla       |C:C                                                
 vallaobr.dat   Valla Obras      |F:F                                           
@@ -981,6 +985,7 @@ vigibert.dat   Viga Ibertren		|D:D
 volkswag.dat   Volkswagen     |C:C|V:V                                         
 volkcarr.dat   Volkswagen Carroceria     |C:C|V:V                              
 xtronic.dat    Xtronic    |R:R                                                 
+xtrointe.dat   Xtronic interruptor    |R:R                                     
 xtroroja.dat   Xtronic Bola Roja    |R:R                                       
 xtroverd.dat   Xtronic Bola Verde   |R:R                                       
 alfazeta.dat   Zeta Alfa    |F:F                                               
