@@ -3290,6 +3290,17 @@ function deleteSelectTable( panel ) {
 	return null;
 }
 
+function removeAccents( str ) {
+
+	return str.replace( 'á', 'a' ).replace( 'Á', 'A' )
+		.replace( 'é', 'e' ).replace( 'É', 'E' )
+		.replace( 'í', 'i' ).replace( 'Í', 'I' )
+		.replace( 'ó', 'o' ).replace( 'Ó', 'O' )
+		.replace( 'ó', 'u' ).replace( 'Ú', 'U' )
+		.replace( 'ñ', 'n' ).replace( 'Ñ', 'N' );
+
+}
+
 function showSelectTable( buttonLabel, onButtonClicked, onCloseCancel, infoLine, columns, columnsNames, data, rowSelection, preselectedRow, filterEnabled ) {
 
 	//const containerElement = document.body;
@@ -3357,7 +3368,7 @@ function showSelectTable( buttonLabel, onButtonClicked, onCloseCancel, infoLine,
 		filterEditBox.placeholder = 'Type here to filter...';
 		filterEditBox.addEventListener( 'input', () => {
 
-			const filter = filterEditBox.value.toLowerCase();
+			const filter = removeAccents( filterEditBox.value.toLowerCase() );
 			applyFilter( filter );
 
 		} );
@@ -3439,7 +3450,7 @@ function showSelectTable( buttonLabel, onButtonClicked, onCloseCancel, infoLine,
 
 		tableDataRow.filterText = ( filter ) => {
 
-			const filtered = rowText.indexOf( filter ) < 0;
+			const filtered = removeAccents( rowText ).indexOf( filter ) < 0;
 
 			tableDataRow.hidden = filtered;
 
