@@ -2485,9 +2485,15 @@ function createGUI() {
 	modelSeriesController = infoFolder.add( guiData, 'modelSeries' ).name( 'Series' );
 	modelRefController = infoFolder.add( guiData, 'modelRef' ).name( 'Reference' );
 	modelInfoURLController = infoFolder.add( guiData, 'modelInfoURL' ).name( 'Info URL' );
-	pathController = infoFolder.add( guiData, 'path' ).name( 'File name' ).onChange( () => {
+	pathController = infoFolder.add( guiData, 'path' ).name( 'File name' ).onFinishChange( () => {
 
 		if ( selectedPart ) {
+
+			if ( guiData.path.indexOf( '.' ) < 0 ) {
+
+				guiData.path += ".ldr";
+				pathController.updateDisplay();
+			}
 
 			const model = getPartModel( selectedPart );
 			if ( model ) model.userData.fileName = guiData.path;
