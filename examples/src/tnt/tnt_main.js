@@ -1,5 +1,4 @@
 
-
 import * as THREE from '../three/build/three.module.js';
 import { GUI } from '../three/examples/jsm/libs/lil-gui.module.min.js';
 import { OrbitControls } from '../three/examples/jsm/controls/OrbitControls.js';
@@ -99,9 +98,9 @@ let toolRotateButton;
 let toolScaleButton;
 
 let addPartButton;
+let cloneButton;
 let deleteSelectionButton;
 
-let cloneButton;
 let saveLDrawButton;
 
 let infoDiv;
@@ -2439,14 +2438,13 @@ function createGUI() {
 	addModelButton.addEventListener( 'click', showSelectLDrawModelFromRepo );
 	fileDiv.appendChild( addModelButton );
 
-	addPartButton = document.createElement( 'div' );
-	addPartButton.className = 'buttn iconbtn';
-	addPartButton.innerHTML = iconEmojis[ "Plus" ] + iconEmojis[ "Part" ];
-	addPartButton.title = "Add LDraw part to selected model...";
-	addPartButton.addEventListener( 'click', showSelectAddLDrawPart );
-	setButtonDisabled( addPartButton, true );
-	addPartButton.hidden = true;
-	fileDiv.appendChild( addPartButton );
+	const newModelButton = document.createElement( 'div' );
+	newModelButton.className = 'buttn iconbtn';
+	newModelButton.innerHTML = iconEmojis[ "Pin" ] + iconEmojis[ "Model" ];
+	newModelButton.title = "Create new model...";
+	newModelButton.addEventListener( 'click', createNewEmptyModel );
+	newModelButton.hidden = true;
+	fileDiv.appendChild( newModelButton );
 
 	const addModelFromFileButton = document.createElement( 'div' );
 	addModelFromFileButton.className = 'buttn iconbtn';
@@ -2782,6 +2780,22 @@ function createGUI() {
 	tools2Div.className = 'playbackdiv';
 	editorPanel.appendChild( tools2Div );
 
+	addPartButton = document.createElement( 'div' );
+	addPartButton.className = 'buttn iconbtn';
+	addPartButton.innerHTML = iconEmojis[ "Plus" ] + iconEmojis[ "Part" ];
+	addPartButton.title = "Add LDraw part to selected model...";
+	addPartButton.addEventListener( 'click', showSelectAddLDrawPart );
+	setButtonDisabled( addPartButton, true );
+	tools2Div.appendChild( addPartButton );
+
+	cloneButton = document.createElement( 'div' );
+	cloneButton.className = 'buttn iconbtn';
+	cloneButton.innerHTML = iconEmojis[ "Clone" ];
+	cloneButton.title = "Clone selection (n)";
+	cloneButton.addEventListener( 'click', cloneSelection );
+	setButtonDisabled( cloneButton, true );
+	tools2Div.appendChild( cloneButton );
+
 	const undoButton = document.createElement( 'div' );
 	undoButton.className = 'buttn iconbtn';
 	undoButton.innerHTML = iconEmojis[ "Undo" ];
@@ -2797,21 +2811,6 @@ function createGUI() {
 	redoButton.addEventListener( 'click', redo );
 	setButtonDisabled( redoButton, true );
 	tools2Div.appendChild( redoButton );
-
-	cloneButton = document.createElement( 'div' );
-	cloneButton.className = 'buttn iconbtn';
-	cloneButton.innerHTML = iconEmojis[ "Clone" ];
-	cloneButton.title = "Clone selection (n)";
-	cloneButton.addEventListener( 'click', cloneSelection );
-	setButtonDisabled( cloneButton, true );
-	tools2Div.appendChild( cloneButton );
-
-	const newModelButton = document.createElement( 'div' );
-	newModelButton.className = 'buttn iconbtn';
-	newModelButton.innerHTML = iconEmojis[ "Pin" ] + iconEmojis[ "Model" ];
-	newModelButton.title = "Create new model...";
-	newModelButton.addEventListener( 'click', createNewEmptyModel );
-	tools2Div.appendChild( newModelButton );
 
 	deleteSelectionButton = document.createElement( 'div' );
 	deleteSelectionButton.className = 'buttn iconbtn';
@@ -2879,7 +2878,7 @@ function createGUI() {
 		viewerPanel.hidden = true;
 		showEditorButton.hidden = true;
 
-		addPartButton.hidden = false;
+		newModelButton.hidden = false;
 		addModelFromFileButton.hidden = false;
 		addNonLDrawModelFromFileButton.hidden = false;
 		loadTNTSceneButton.hidden = false;
