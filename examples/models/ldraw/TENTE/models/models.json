@@ -1050,6 +1050,156 @@
             "fileAuthor": "cpcbegin",
             "fileBoxTitle": "Tente mar - motor"
         },
+        "oficiales/Mar_0643_DestructorNuclear.ldr": {
+            "path": "oficiales/Mar_0643_DestructorNuclear.ldr",
+            "id": "117",
+            "title": "DESTRUCTOR NUCLEAR (THOR) DestructorNuclear",
+            "seriesNumber": "Mar",
+            "refNumber": "0643",
+            "fileTitle": "FILE Mar0643_DestructorNuclear.ldr",
+            "fileAuthor": "jasolo",
+            "fileBoxTitle": ""
+        },
+        "oficiales/Mar_0644_BuqueFactoria.ldr": {
+            "path": "oficiales/Mar_0644_BuqueFactoria.ldr",
+            "id": "118",
+            "title": "BUQUE FACTORÍA (DELFOS) BuqueFactoria",
+            "seriesNumber": "Mar",
+            "refNumber": "0644",
+            "fileTitle": "FILE Mar0644M_BuqueFactoria.ldr",
+            "fileAuthor": "jasolo",
+            "fileBoxTitle": ""
+        },
+        "oficiales/Mar_0645_Portahelicopteros.ldr": {
+            "path": "oficiales/Mar_0645_Portahelicopteros.ldr",
+            "id": "119",
+            "title": "PORTAHELICÓPTEROS LIGERO (FOX) Portahelicopteros",
+            "seriesNumber": "Mar",
+            "refNumber": "0645",
+            "fileTitle": "FILE Mar0645_Portahelicopteros.ldr",
+            "fileAuthor": "jasolo",
+            "fileBoxTitle": ""
+        },
+        "oficiales/Mar_0646_Stingdrake.ldr": {
+            "path": "oficiales/Mar_0646_Stingdrake.ldr",
+            "id": "120",
+            "title": "STRINGDRAKE Stingdrake",
+            "seriesNumber": "Mar",
+            "refNumber": "0646",
+            "fileTitle": "FILE Mar_0646_Stingdrake.ldr",
+            "fileAuthor": "jasolo",
+            "fileBoxTitle": ""
+        },
+        "oficiales/Mar_0647_Nemmor.ldr": {
+            "path": "oficiales/Mar_0647_Nemmor.ldr",
+            "id": "121",
+            "title": "NEMMOR (ДЛ / ЛД) Nemmor",
+            "seriesNumber": "Mar",
+            "refNumber": "0647",
+            "fileTitle": "Untitled",
+            "fileAuthor": "jasolo",
+            "fileBoxTitle": ""
+        },
+        "oficiales/Mar_0649_Carguero.ldr": {
+            "path": "oficiales/Mar_0649_Carguero.ldr",
+            "id": "",
+            "title": "Mar 0649 Carguero",
+            "seriesNumber": "",
+            "refNumber": "",
+            "fileTitle": "FILE Mar0649_Carguero.ldr",
+            "fileAuthor": "jasolo",
+            "fileBoxTitle": ""
+        },
+        "oficiales/Mar_0657_patrullera.ldr": {
+            "path": "oficiales/Mar_0657_patrullera.ldr",
+            "id": "",
+            "title": "Mar 0657 patrullera",
+            "seriesNumber": "",
+            "refNumber": "",
+            "fileTitle": "Mar 0657 patrullera",
+            "fileAuthor": "jasolo",
+            "fileBoxTitle": ""
+        },
+        "oficiales/Mar_0658_BarcoMeteorologico.ldr": {
+            "path": "oficiales/Mar_0658_BarcoMeteorologico.ldr",
+            "id": "",
+            "title": "Mar 0658 BarcoMeteorologico",
+            "seriesNumber": "",
+            "refNumber": "",
+            "fileTitle": "FILE Mar0658_BarcoMeteorologico.ldr",
+            "fileAuthor": "jasolo",
+            "fileBoxTitle": ""
+        },
+        "oficiales/Mar_0659_Missouri.ldr": {
+            "path": "oficiales/Mar_0659_Missouri.ldr",
+            "id": "",
+            "title": "Mar 0659 Missouri",
+            "seriesNumber": "",
+            "refNumber": "",
+            "fileTitle": "Untitled",
+            "fileAuthor": "jasolo",
+            "fileBoxTitle": ""
+        },
+        "oficiales/Mar_0700_MercanteMixto.ldr": {
+            "path": "oficiales/Mar_0700_MercanteMixto.ldr",
+            "id": "122",
+            "title": "MERCANTE MIXTO (ORIENTE) MercanteMixto",
+            "seriesNumber": "Mar",
+            "refNumber": "0700",
+            "fileTitle": "FILE Mar0700_MercanteMixto.ldr",
+            "fileAuthor": "jasolo",
+            "fileBoxTitle": ""
+        },
+        "oficiales/Mar_0701_Portaaviones_1GM_Jupiter.ldr": {
+            "path": "oficiales/Mar_0701_Portaaviones_1GM_Jupiter.ldr",
+            "id": "123",
+            "title": "PORTAAVIONES 2ª GUERRA MUNDIAL (JÚPITER) Portaaviones 1GM Jupiter",
+            "seriesNumber": "Mar",
+            "refNumber": "0701",
+            "fileTitle": "FILE Mar0701_Portaaviones 1GM Jupiter.ldr",
+            "fileAuthor": "jasolo",
+            "fileBoxTitle": ""
+        },
+        "oficiales/Mar_0702_Carguero_y_Terminal.ldr": {
+            "path": "oficiales/Mar_0702_Carguero_y_Terminal.ldr",
+            "id": "124",
+            "title": "CARGUERO Y TERMINAL DE SILOS (MENORCA) Carguero y Terminal",
+            "seriesNumber": "Mar",
+            "refNumber": "0702",
+            "fileTitle": "Untitled",
+            "fileAuthor": "jasolo",
+            "fileBoxTitle": ""
+        },
+        "oficiales/Mar_0703_Base_Naval+Fragata.ldr": {
+            "path": "oficiales/Mar_0703_Base_Naval+Fragata.ldr",
+            "id": "125",
+            "title": "FRAGATA LANZAMISILES Y BASE NAVAL (ARIES) Base Naval+Fragata",
+            "seriesNumber": "Mar",
+            "refNumber": "0703",
+            "fileTitle": "Untitled",
+            "fileAuthor": "jasolo",
+            "fileBoxTitle": ""
+        },
+        "oficiales/Mar_0704-PortaavionesTactico.ldr": {
+            "path": "oficiales/Mar_0704-PortaavionesTactico.ldr",
+            "id": "",
+            "title": "Mar 0704-PortaavionesTactico",
+            "seriesNumber": "",
+            "refNumber": "",
+            "fileTitle": "Sin_nombre",
+            "fileAuthor": "jasolo",
+            "fileBoxTitle": ""
+        },
+        "oficiales/Mar_0705_CargoShuttle.ldr": {
+            "path": "oficiales/Mar_0705_CargoShuttle.ldr",
+            "id": "128",
+            "title": "BARCO SHUTTLE (SAGITARIUS) CargoShuttle",
+            "seriesNumber": "Mar",
+            "refNumber": "0705",
+            "fileTitle": "FILE Mar705_CargoShuttle.ldr",
+            "fileAuthor": "jasolo",
+            "fileBoxTitle": ""
+        },
         "oficiales/Mar_0710_vaportransatlantico.ldr": {
             "path": "oficiales/Mar_0710_vaportransatlantico.ldr",
             "id": "133",
@@ -1198,14 +1348,14 @@
             "refNumber": "",
             "fileTitle": "Name: Nomura_sunshine2.ldr",
             "fileAuthor": "cpcbegin",
-            "fileBoxTitle": "ROTATION CENTER 0 0 0 1 \"Custom\""
+            "fileBoxTitle": ""
         },
         "oficiales/Pocket_0315_Eslator.ldr": {
             "path": "oficiales/Pocket_0315_Eslator.ldr",
-            "id": "",
-            "title": "Pocket 0315 Eslator",
-            "seriesNumber": "",
-            "refNumber": "",
+            "id": "385",
+            "title": "ESLATOR Eslator",
+            "seriesNumber": "Pocket",
+            "refNumber": "0315",
             "fileTitle": "Untitled",
             "fileAuthor": "MLCad",
             "fileBoxTitle": ""
@@ -1287,7 +1437,7 @@
             "seriesNumber": "Roblock",
             "refNumber": "0791",
             "fileTitle": "Untitled",
-            "fileAuthor": "MLCad",
+            "fileAuthor": "elfoBCN",
             "fileBoxTitle": ""
         },
         "oficiales/Roblock_0791_Thor_transf.ldr": {
@@ -1297,7 +1447,7 @@
             "seriesNumber": "Roblock",
             "refNumber": "0791",
             "fileTitle": "Untitled",
-            "fileAuthor": "MLCad",
+            "fileAuthor": "elfoBCN",
             "fileBoxTitle": ""
         },
         "oficiales/Roblock_0792_skymaster.ldr": {
@@ -2987,6 +3137,21 @@
         "oficiales/Mar_0615_fragata-lanzamisiles.ldr",
         "oficiales/Mar_0642_automotor.ldr",
         "oficiales/Mar_0642_hovercraftmotor.ldr",
+        "oficiales/Mar_0643_DestructorNuclear.ldr",
+        "oficiales/Mar_0644_BuqueFactoria.ldr",
+        "oficiales/Mar_0645_Portahelicopteros.ldr",
+        "oficiales/Mar_0646_Stingdrake.ldr",
+        "oficiales/Mar_0647_Nemmor.ldr",
+        "oficiales/Mar_0649_Carguero.ldr",
+        "oficiales/Mar_0657_patrullera.ldr",
+        "oficiales/Mar_0658_BarcoMeteorologico.ldr",
+        "oficiales/Mar_0659_Missouri.ldr",
+        "oficiales/Mar_0700_MercanteMixto.ldr",
+        "oficiales/Mar_0701_Portaaviones_1GM_Jupiter.ldr",
+        "oficiales/Mar_0702_Carguero_y_Terminal.ldr",
+        "oficiales/Mar_0703_Base_Naval+Fragata.ldr",
+        "oficiales/Mar_0704-PortaavionesTactico.ldr",
+        "oficiales/Mar_0705_CargoShuttle.ldr",
         "oficiales/Mar_0710_vaportransatlantico.ldr",
         "oficiales/Mini_501_chalet.ldr",
         "oficiales/Mini_501_simbolo_chino.ldr",

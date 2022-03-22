@@ -79,6 +79,9 @@ for ( let l in sourceDataBase ) {
 		.replace( 'ó', 'u' ).replace( 'Ú', 'U' )
 		.replace( 'ñ', 'n' ).replace( 'Ñ', 'N' )
 
+	// Remove subseries
+	fields[ 1 ] = fields[ 1 ].split( ',' )[ 0 ].trim();
+
 	sourceDataBaseFields.push( fields );
 
 	/*
