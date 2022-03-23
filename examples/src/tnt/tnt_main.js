@@ -380,19 +380,7 @@ function init() {
 
 			window.addEventListener( 'keydown', ( event ) => {
 
-				//if ( event.defaultPrevented ) {
-					// Do nothing if the event was already processed
-					//return;
-				//}
-
 				switch ( event.key ) {
-					/*
-					case 'ArrowDown':
-						break;
-
-					case 'ArrowUp':
-						break;
-					*/
 
 					case 'ArrowLeft':
 						if ( ! lastOpenPanel ) goToPrevStep();
@@ -434,6 +422,16 @@ function init() {
 						if ( lastOpenPanel ) lastOpenPanel.closeButton.onclick();
 						break;
 
+					case 'ArrowUp':
+						event.preventDefault();
+						if ( lastOpenPanel ) lastOpenPanel.selectPrevious();
+						break;
+
+					case 'ArrowDown':
+						event.preventDefault();
+						if ( lastOpenPanel ) lastOpenPanel.selectNext();
+						break;
+
 					case 'Control':
 						setSnapEnabled( false );
 						break;
@@ -447,14 +445,9 @@ function init() {
 
 				}
 
-			}, false );
+			} );
 
 			window.addEventListener( 'keyup', ( event ) => {
-
-				//if ( event.defaultPrevented ) {
-					// Do nothing if the event was already processed
-					//return;
-				//}
 
 				switch ( event.key ) {
 
@@ -471,7 +464,7 @@ function init() {
 
 				}
 
-			}, false );
+			} );
 
 			// Mouse events
 
@@ -3502,10 +3495,49 @@ function showSelectTable( buttonLabel, onButtonClicked, onCloseCancel, infoLine,
 
 			}
 
+			tableDataRow.doClick = rowClicked;
+
 		}
 
 		table.appendChild( tableDataRow );
 		tableDataRows.push( tableDataRow );
+
+	}
+
+	function selectPrevious() {
+
+		let i = selectedRow;
+
+		i --;
+
+		if ( i < 0 ) i = tableDataRows.length - 1;
+
+		while ( tableDataRows[ i ].hidden && i >= 0 ) i --;
+
+		if ( i < 0 ) return;
+
+		selectRow( i );
+
+	}
+	function selectNext() {
+
+		let i = selectedRow;
+
+		i ++;
+
+		if ( i >= tableDataRows.length ) i = 0;
+
+		while ( tableDataRows[ i ].hidden && i < tableDataRows.length ) i ++;
+
+		if ( i >= tableDataRows.length ) return;
+
+		selectRow( i );
+	}
+
+	function selectRow( index ) {
+
+		tableDataRows[ index ].doClick();
+		tableDataRows[ index ].scrollIntoView();
 
 	}
 
@@ -3525,7 +3557,9 @@ function showSelectTable( buttonLabel, onButtonClicked, onCloseCancel, infoLine,
 	const panel = {
 		panel: listDiv,
 		button: button,
-		closeButton: closeButton
+		closeButton: closeButton,
+		selectPrevious: selectPrevious,
+		selectNext: selectNext
 	};
 
 	lastOpenPanel = panel;
