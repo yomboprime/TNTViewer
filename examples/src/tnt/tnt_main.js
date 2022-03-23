@@ -3141,7 +3141,7 @@ function showSelectLDrawModelFromRepo() {
 
 	}
 
-	modelSelectPanel = showSelectTable( 'Ok', onOK, null, infoLine, columns, columnsNames, data, true, selectedModelRowIndex, true );
+	modelSelectPanel = showSelectTable( 'Ok', onOK, null, infoLine, columns, columnsNames, data, true, selectedModelRowIndex, true, 1 );
 
 }
 
@@ -3150,11 +3150,13 @@ function showSelectLDrawPartFromRepo( parentModel, onOK ) {
 	partSelectPanel = deleteSelectTable( partSelectPanel );
 
 	const columns = [
+		'mainCategory',
 		'title',
 		'path'
 	];
 
 	const columnsNames = [
+		"Category",
 		"Title",
 		"File name"
 	];
@@ -3168,6 +3170,8 @@ function showSelectLDrawPartFromRepo( parentModel, onOK ) {
 	}
 
 	data.sort( ( a, b ) => {
+
+		if ( a[ 'mainCategory' ] !== b[ 'mainCategory' ] ) return a[ 'mainCategory' ] < b[ 'mainCategory' ] ? - 1 : 1;
 
 		if ( a[ 'title' ] === b[ 'title' ] ) return 0;
 		return a[ 'title' ] < b[ 'title' ] ? - 1 : 1;
@@ -3187,7 +3191,7 @@ function showSelectLDrawPartFromRepo( parentModel, onOK ) {
 
 	}
 
-	partSelectPanel = showSelectTable( 'Ok', onSelectOK, null, infoLine, columns, columnsNames, data, true, selectedPartRowIndex, true );
+	partSelectPanel = showSelectTable( 'Ok', onSelectOK, null, infoLine, columns, columnsNames, data, true, selectedPartRowIndex, true, 0 );
 
 }
 
@@ -3307,7 +3311,7 @@ function removeAccents( str ) {
 
 }
 
-function showSelectTable( buttonLabel, onButtonClicked, onCloseCancel, infoLine, columns, columnsNames, data, rowSelection, preselectedRow, filterEnabled ) {
+function showSelectTable( buttonLabel, onButtonClicked, onCloseCancel, infoLine, columns, columnsNames, data, rowSelection, preselectedRow, filterEnabled, categoryColumnIndex ) {
 
 	//const containerElement = document.body;
 	const containerElement = container;
@@ -3380,6 +3384,24 @@ function showSelectTable( buttonLabel, onButtonClicked, onCloseCancel, infoLine,
 		} );
 		buttonsDiv.appendChild( filterEditBox );
 
+		if ( categoryColumnIndex !== undefined ) {
+
+			const listId = 'SelectTableFilter_' + Math.floor( Math.random() * 10000 );
+			const items = [];
+			for ( let r in data ) {
+
+				const row = data[ r ];
+				const item = "" + row[ columns[ categoryColumnIndex ] ];
+				if ( items.indexOf( item ) < 0 ) items.push( item );
+
+			}
+
+			const dataList = createDataList( listId, items );
+			buttonsDiv.appendChild( dataList );
+			filterEditBox.setAttribute( 'list', listId );
+
+		}
+
 		function applyFilter( filter ) {
 
 			for ( let r in tableDataRows ) {
@@ -3387,6 +3409,7 @@ function showSelectTable( buttonLabel, onButtonClicked, onCloseCancel, infoLine,
 				tableDataRows[ r ].filterText( filter );
 			}
 		}
+
 	}
 
 	const infoLineSpan = document.createElement( 'span' );
@@ -3508,6 +3531,24 @@ function showSelectTable( buttonLabel, onButtonClicked, onCloseCancel, infoLine,
 	lastOpenPanel = panel;
 
 	return panel;
+
+}
+
+function createDataList( id, array ) {
+
+
+	const dataList = document.createElement( 'datalist' );
+	dataList.id = id;
+
+	for ( let i in array ) {
+
+		const option = document.createElement( 'option' );
+		option.value = array[ i ];
+		dataList.appendChild( option );
+
+	}
+
+	return dataList;
 
 }
 

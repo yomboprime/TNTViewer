@@ -21,6 +21,7 @@ const dataBase = {
 
 	parts: {},
 	partsPathsList: [],
+	partsCategories: {},
 
 	colorsCodesList: []
 
@@ -46,6 +47,7 @@ copyP( '../p/BOX5.DAT', '../p/box5.dat' );
 console.log( "Reading materials library ..." );
 
 const materialLibrary = loadMaterialLibrary();
+
 
 console.log( "Reading source database ..." );
 
@@ -94,6 +96,7 @@ for ( let l in sourceDataBase ) {
 
 }
 
+
 console.log( "Reading parts list..." );
 
 const partsListPath = 'parts.lst';
@@ -139,10 +142,14 @@ for ( let i in partsListLines ) {
 
 	}
 
+	const categories = getPartCategories( partsListLine );
+
 	partsTempArray.push( {
 		path: path,
 		title: title,
-		metaData: metaData
+		metaData: metaData,
+		mainCategory: categories[ 0 ] || "None",
+		categories: categories
 	} );
 
 }
@@ -221,6 +228,11 @@ for ( let i in partsTempArray ) {
 	dataBase.partsPathsList.push( part.path );
 	dataBase.parts[ part.path ] = part;
 
+	const category = dataBase.partsCategories[ part.category ];
+
+	if ( ! category ) dataBase.partsCategories[ part.category ] = [ part.path ];
+	else category.push( part.path );
+
 }
 
 function findSeriesRef( series, ref ) {
@@ -240,6 +252,7 @@ function findSeriesRef( series, ref ) {
 	return null;
 
 }
+
 
 scanDirectory( __dirname, '' );
 
@@ -330,6 +343,7 @@ for ( let i in dataBase.modelPathsList ) {
 	obtainFieldsFromFile( model );
 
 }
+
 
 dataBase.colorsCodesList.sort();
 
@@ -468,9 +482,15 @@ function editModelByDataBase( model, pathFields ) {
 console.log();
 console.log( "Total models: " + dataBase.modelPathsList.length );
 
-console.log( "Number of models in source database: " + numModelsInSourceDataBase );
+console.log( "Models in source database: " + numModelsInSourceDataBase );
 
-console.log( "Number of used colors in database models: " + dataBase.colorsCodesList.length );
+console.log( "Used colors in all models: " + dataBase.colorsCodesList.length );
+
+console.log( "Total parts: " + dataBase.partsPathsList.length );
+
+console.log( "Total parts categories: " + Object.keys( dataBase.partsCategories ).length );
+
+console.log( "" );
 
 console.log( "Writing models.json ..." );
 
@@ -844,3 +864,56 @@ function strReplaceAll( str, find, replace ) {
 	return str.replace( new RegExp( find, 'g'), replace );
 
 }
+
+function removeAccents( str ) {
+
+	return str.replace( 'á', 'a' ).replace( 'Á', 'A' )
+		.replace( 'é', 'e' ).replace( 'É', 'E' )
+		.replace( 'í', 'i' ).replace( 'Í', 'I' )
+		.replace( 'ó', 'o' ).replace( 'Ó', 'O' )
+		.replace( 'ó', 'u' ).replace( 'Ú', 'U' )
+		.replace( 'ñ', 'n' ).replace( 'Ñ', 'N' );
+
+}
+
+
+function getPartCategories( partLine ) {
+
+	const categories = [];
+
+	partLine = removeAccents( partLine ).toLowerCase();
+
+	function has( str ) {
+
+		return partLine.indexOf( str.toLowerCase() ) >= 0;
+
+	}
+
+	function addCategory( category ) {
+
+		categories.push( category );
+
+	}
+
+	if ( has( '18' ) ) addCategory( "0" );
+	if ( has( 'jacena' ) ) addCategory( "Jácenas" );
+	if ( has( 'baldosa' ) || has( 'placa' ) ) addCategory( "Baldosas/Placas" );
+	if ( has( '|B' ) ) addCategory( "Básico" );
+	if ( has( '|A' ) ) addCategory( "Aire" );
+	if ( has( '|F' ) ) addCategory( "Alfa" );
+	if ( has( '|S' ) ) addCategory( "Astro" );
+	if ( has( '|E' ) ) addCategory( "Escorpión" );
+	if ( has( '|M' ) ) addCategory( "Mar" );
+	if ( has( '|C' ) ) addCategory( "Micro" );
+	if ( has( '|R' ) ) addCategory( "Ruta" );
+	if ( has( '|T' ) ) addCategory( "Titanium" );
+	if ( has( 'ventana' ) || has( 'marco' ) || has( 'cristal' ) ) addCategory( "Ventanas" );
+	if ( has( 'rueda' ) || ( has( 'eje' ) && ! has( 'bisagra' ) ) || ( has( 'agujero' ) && ! has( 'enganche' ) && ! has( 'baldosa' ) ) ) addCategory( "Ruedas" );
+	if ( has( '|V' ) ) addCategory( "Vehículos" );
+	if ( has( 'Etiqueta' ) ) addCategory( "Etiquetas" );
+	if ( has( '|D' ) ) addCategory( "Dark" );
+	if ( has( 'EtiqueDark' ) ) addCategory( "EtiqueDark" );
+	if ( has( ':X' ) ) addCategory( "Castillos" );
+
+	return categories;
+}
