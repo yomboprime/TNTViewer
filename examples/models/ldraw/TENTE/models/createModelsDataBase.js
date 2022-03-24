@@ -239,9 +239,10 @@ function findSeriesRef( series, ref ) {
 
 	for ( let l in sourceDataBaseFields ) {
 
-		if (
-			sourceDataBaseFields[ l ][ 1 ] === series &&
-			sourceDataBaseFields[ l ][ 2 ] === ref ) {
+		const dbSeries = sourceDataBaseFields[ l ][ 1 ];
+		const dbRef = strReplaceAll( sourceDataBaseFields[ l ][ 2 ], '-', '' );
+
+		if ( dbSeries === series && dbRef === ref ) {
 
 				return sourceDataBaseFields[ l ];
 
