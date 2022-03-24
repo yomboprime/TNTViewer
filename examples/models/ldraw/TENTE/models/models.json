@@ -3,7 +3,7 @@
         "oficiales/Aire_0501_Servicio_Autopista.ldr": {
             "path": "oficiales/Aire_0501_Servicio_Autopista.ldr",
             "id": "269",
-            "title": "HELICÓPTERO SERVICIO AUTOPISTA Servicio Autopista",
+            "title": "HELICÓPTERO SERVICIO AUTOPISTA - Servicio Autopista",
             "seriesNumber": "Aire",
             "refNumber": "0501",
             "fileTitle": "FILE Aire_0501_servicio_autopista.ldr",
@@ -13,7 +13,7 @@
         "oficiales/Aire_0502_Helicoptero_Brigada_Forestal.ldr": {
             "path": "oficiales/Aire_0502_Helicoptero_Brigada_Forestal.ldr",
             "id": "270",
-            "title": "HELICÓPTERO BRIGADA FORESTAL Helicoptero Brigada Forestal",
+            "title": "HELICÓPTERO BRIGADA FORESTAL - Helicoptero Brigada Forestal",
             "seriesNumber": "Aire",
             "refNumber": "0502",
             "fileTitle": "Sin_nombre",
@@ -23,7 +23,7 @@
         "oficiales/Aire_0506_Helicoptero_Fumigador.ldr": {
             "path": "oficiales/Aire_0506_Helicoptero_Fumigador.ldr",
             "id": "274",
-            "title": "HELICÓPTERO FUMIGADOR Helicoptero Fumigador",
+            "title": "HELICÓPTERO FUMIGADOR - Helicoptero Fumigador",
             "seriesNumber": "Aire",
             "refNumber": "0506",
             "fileTitle": "Sin_nombre",
@@ -33,7 +33,7 @@
         "oficiales/Aire_0508_Helicoptero_Turbo_Speed.ldr": {
             "path": "oficiales/Aire_0508_Helicoptero_Turbo_Speed.ldr",
             "id": "276",
-            "title": "HELICÓPTERO TURBO-SPEED Helicoptero Turbo Speed",
+            "title": "HELICÓPTERO TURBO-SPEED - Helicoptero Turbo Speed",
             "seriesNumber": "Aire",
             "refNumber": "0508",
             "fileTitle": "Untitled",
@@ -43,7 +43,7 @@
         "oficiales/Aire_0509_Helicoptero_Falcon.ldr": {
             "path": "oficiales/Aire_0509_Helicoptero_Falcon.ldr",
             "id": "277",
-            "title": "HELICÓPTERO FALCON Helicoptero Falcon",
+            "title": "HELICÓPTERO FALCON - Helicoptero Falcon",
             "seriesNumber": "Aire",
             "refNumber": "0509",
             "fileTitle": "Aire 0509 Helicoptero Falcon",
@@ -53,7 +53,7 @@
         "oficiales/Aire_0510_Helicoptero_Ala_Variable.ldr": {
             "path": "oficiales/Aire_0510_Helicoptero_Ala_Variable.ldr",
             "id": "278",
-            "title": "HELICÓPTERO ALA VARIABLE Helicoptero Ala Variable",
+            "title": "HELICÓPTERO ALA VARIABLE - Helicoptero Ala Variable",
             "seriesNumber": "Aire",
             "refNumber": "0510",
             "fileTitle": "Untitled",
@@ -63,7 +63,7 @@
         "oficiales/Aire_0530_Helicoptero_Autotransportado.ldr": {
             "path": "oficiales/Aire_0530_Helicoptero_Autotransportado.ldr",
             "id": "282",
-            "title": "HELICÓPTERO AUTOTRANSPORTADO Helicoptero Autotransportado",
+            "title": "HELICÓPTERO AUTOTRANSPORTADO - Helicoptero Autotransportado",
             "seriesNumber": "Aire",
             "refNumber": "0530",
             "fileTitle": "Aire 0530 Helicoptero Autotransportado",
@@ -73,7 +73,7 @@
         "oficiales/Aire_70037_Air_Service.ldr": {
             "path": "oficiales/Aire_70037_Air_Service.ldr",
             "id": "285",
-            "title": "AIR SERVICE Air Service",
+            "title": "AIR SERVICE - Air Service",
             "seriesNumber": "Aire",
             "refNumber": "70037",
             "fileTitle": "Untitled",
@@ -83,7 +83,7 @@
         "oficiales/Alfa_0364_Roadmaster.ldr": {
             "path": "oficiales/Alfa_0364_Roadmaster.ldr",
             "id": "352",
-            "title": "MOTOR SERVICE Roadmaster",
+            "title": "MOTOR SERVICE - Roadmaster",
             "seriesNumber": "Alfa",
             "refNumber": "0364",
             "fileTitle": "Untitled",
@@ -93,7 +93,7 @@
         "oficiales/Alfa_0370_Control_Aereo.ldr": {
             "path": "oficiales/Alfa_0370_Control_Aereo.ldr",
             "id": "358",
-            "title": "CONTROL AÉREO Control Aereo",
+            "title": "CONTROL AÉREO - Control Aereo",
             "seriesNumber": "Alfa",
             "refNumber": "0370",
             "fileTitle": "Alfa 0370 Control A�reo",
@@ -103,7 +103,7 @@
         "oficiales/Astro_0542_Interceptor_Tactico.ldr": {
             "path": "oficiales/Astro_0542_Interceptor_Tactico.ldr",
             "id": "198",
-            "title": "LOS EXPLORADORES DEL ESPACIO Interceptor Tactico",
+            "title": "LOS EXPLORADORES DEL ESPACIO - Interceptor Tactico",
             "seriesNumber": "Astro",
             "refNumber": "0542",
             "fileTitle": "Astro 0542 Interceptor Tactico",
@@ -113,7 +113,7 @@
         "oficiales/Astro_0542_Transporte_de_Discos.ldr": {
             "path": "oficiales/Astro_0542_Transporte_de_Discos.ldr",
             "id": "198",
-            "title": "LOS EXPLORADORES DEL ESPACIO Transporte de Discos",
+            "title": "LOS EXPLORADORES DEL ESPACIO - Transporte de Discos",
             "seriesNumber": "Astro",
             "refNumber": "0542",
             "fileTitle": "Astro 0542 Transporte de discos",
@@ -123,7 +123,7 @@
         "oficiales/Astro_0552_Aerodeslizador_Espacial.ldr": {
             "path": "oficiales/Astro_0552_Aerodeslizador_Espacial.ldr",
             "id": "197",
-            "title": "LOS VEHÍCULOS DE LAS GALAXIAS Aerodeslizador Espacial",
+            "title": "LOS VEHÍCULOS DE LAS GALAXIAS - Aerodeslizador Espacial",
             "seriesNumber": "Astro",
             "refNumber": "0552",
             "fileTitle": "aerodeslizador espacial",
@@ -133,7 +133,7 @@
         "oficiales/Astro_0552_Astro_Sencillo.ldr": {
             "path": "oficiales/Astro_0552_Astro_Sencillo.ldr",
             "id": "197",
-            "title": "LOS VEHÍCULOS DE LAS GALAXIAS Astro Sencillo",
+            "title": "LOS VEHÍCULOS DE LAS GALAXIAS - Astro Sencillo",
             "seriesNumber": "Astro",
             "refNumber": "0552",
             "fileTitle": "Astro sencillo",
@@ -143,7 +143,7 @@
         "oficiales/Astro_0552_Base_Alerta_Galactica.ldr": {
             "path": "oficiales/Astro_0552_Base_Alerta_Galactica.ldr",
             "id": "197",
-            "title": "LOS VEHÍCULOS DE LAS GALAXIAS Base Alerta Galactica",
+            "title": "LOS VEHÍCULOS DE LAS GALAXIAS - Base Alerta Galactica",
             "seriesNumber": "Astro",
             "refNumber": "0552",
             "fileTitle": "Astro 0552 Base Alerta Gal�ctica",
@@ -153,7 +153,7 @@
         "oficiales/Astro_0552_Bus_Espacial.ldr": {
             "path": "oficiales/Astro_0552_Bus_Espacial.ldr",
             "id": "197",
-            "title": "LOS VEHÍCULOS DE LAS GALAXIAS Bus Espacial",
+            "title": "LOS VEHÍCULOS DE LAS GALAXIAS - Bus Espacial",
             "seriesNumber": "Astro",
             "refNumber": "0552",
             "fileTitle": "Bus espacial",
@@ -163,7 +163,7 @@
         "oficiales/Astro_0552_Bus_Espacial_Tractor.ldr": {
             "path": "oficiales/Astro_0552_Bus_Espacial_Tractor.ldr",
             "id": "197",
-            "title": "LOS VEHÍCULOS DE LAS GALAXIAS Bus Espacial Tractor",
+            "title": "LOS VEHÍCULOS DE LAS GALAXIAS - Bus Espacial Tractor",
             "seriesNumber": "Astro",
             "refNumber": "0552",
             "fileTitle": "Bus espacial",
@@ -173,7 +173,7 @@
         "oficiales/Astro_0552_Estacion_Uranio.ldr": {
             "path": "oficiales/Astro_0552_Estacion_Uranio.ldr",
             "id": "197",
-            "title": "LOS VEHÍCULOS DE LAS GALAXIAS Estacion Uranio",
+            "title": "LOS VEHÍCULOS DE LAS GALAXIAS - Estacion Uranio",
             "seriesNumber": "Astro",
             "refNumber": "0552",
             "fileTitle": "Estacion de uranio",
@@ -183,7 +183,7 @@
         "oficiales/Astro_0552_Explorador_Detector.ldr": {
             "path": "oficiales/Astro_0552_Explorador_Detector.ldr",
             "id": "197",
-            "title": "LOS VEHÍCULOS DE LAS GALAXIAS Explorador Detector",
+            "title": "LOS VEHÍCULOS DE LAS GALAXIAS - Explorador Detector",
             "seriesNumber": "Astro",
             "refNumber": "0552",
             "fileTitle": "Explorador detector",
@@ -193,7 +193,7 @@
         "oficiales/Astro_0552_Laboratorio_Movil.ldr": {
             "path": "oficiales/Astro_0552_Laboratorio_Movil.ldr",
             "id": "197",
-            "title": "LOS VEHÍCULOS DE LAS GALAXIAS Laboratorio Movil",
+            "title": "LOS VEHÍCULOS DE LAS GALAXIAS - Laboratorio Movil",
             "seriesNumber": "Astro",
             "refNumber": "0552",
             "fileTitle": "Laboratorio movil",
@@ -203,7 +203,7 @@
         "oficiales/Astro_0552_Nave_Interceptora.ldr": {
             "path": "oficiales/Astro_0552_Nave_Interceptora.ldr",
             "id": "197",
-            "title": "LOS VEHÍCULOS DE LAS GALAXIAS Nave Interceptora",
+            "title": "LOS VEHÍCULOS DE LAS GALAXIAS - Nave Interceptora",
             "seriesNumber": "Astro",
             "refNumber": "0552",
             "fileTitle": "Untitled",
@@ -213,7 +213,7 @@
         "oficiales/Astro_0552_Patrulla_91.ldr": {
             "path": "oficiales/Astro_0552_Patrulla_91.ldr",
             "id": "197",
-            "title": "LOS VEHÍCULOS DE LAS GALAXIAS Patrulla 91",
+            "title": "LOS VEHÍCULOS DE LAS GALAXIAS - Patrulla 91",
             "seriesNumber": "Astro",
             "refNumber": "0552",
             "fileTitle": "Patrulla Astro-91",
@@ -223,7 +223,7 @@
         "oficiales/Astro_0552_Planta_Transformadora_de_Uranio.ldr": {
             "path": "oficiales/Astro_0552_Planta_Transformadora_de_Uranio.ldr",
             "id": "197",
-            "title": "LOS VEHÍCULOS DE LAS GALAXIAS Planta Transformadora de Uranio",
+            "title": "LOS VEHÍCULOS DE LAS GALAXIAS - Planta Transformadora de Uranio",
             "seriesNumber": "Astro",
             "refNumber": "0552",
             "fileTitle": "Sin_nombre",
@@ -233,7 +233,7 @@
         "oficiales/Astro_0552_Tractor_de_Mantenimiento.ldr": {
             "path": "oficiales/Astro_0552_Tractor_de_Mantenimiento.ldr",
             "id": "197",
-            "title": "LOS VEHÍCULOS DE LAS GALAXIAS Tractor de Mantenimiento",
+            "title": "LOS VEHÍCULOS DE LAS GALAXIAS - Tractor de Mantenimiento",
             "seriesNumber": "Astro",
             "refNumber": "0552",
             "fileTitle": "Sin_nombre",
@@ -243,7 +243,7 @@
         "oficiales/Astro_0552_Transporte_Uranio.ldr": {
             "path": "oficiales/Astro_0552_Transporte_Uranio.ldr",
             "id": "197",
-            "title": "LOS VEHÍCULOS DE LAS GALAXIAS Transporte Uranio",
+            "title": "LOS VEHÍCULOS DE LAS GALAXIAS - Transporte Uranio",
             "seriesNumber": "Astro",
             "refNumber": "0552",
             "fileTitle": "Transporte de uranio",
@@ -253,7 +253,7 @@
         "oficiales/Astro_0552_Transporte_de_Fluidos.ldr": {
             "path": "oficiales/Astro_0552_Transporte_de_Fluidos.ldr",
             "id": "197",
-            "title": "LOS VEHÍCULOS DE LAS GALAXIAS Transporte de Fluidos",
+            "title": "LOS VEHÍCULOS DE LAS GALAXIAS - Transporte de Fluidos",
             "seriesNumber": "Astro",
             "refNumber": "0552",
             "fileTitle": "Sin_nombre",
@@ -263,7 +263,7 @@
         "oficiales/Astro_0552_Transporte_de_Material_Radioactivo.ldr": {
             "path": "oficiales/Astro_0552_Transporte_de_Material_Radioactivo.ldr",
             "id": "197",
-            "title": "LOS VEHÍCULOS DE LAS GALAXIAS Transporte de Material Radioactivo",
+            "title": "LOS VEHÍCULOS DE LAS GALAXIAS - Transporte de Material Radioactivo",
             "seriesNumber": "Astro",
             "refNumber": "0552",
             "fileTitle": "Sin_nombre",
@@ -273,7 +273,7 @@
         "oficiales/Astro_0552_Vehiculo_Articulado.ldr": {
             "path": "oficiales/Astro_0552_Vehiculo_Articulado.ldr",
             "id": "197",
-            "title": "LOS VEHÍCULOS DE LAS GALAXIAS Vehiculo Articulado",
+            "title": "LOS VEHÍCULOS DE LAS GALAXIAS - Vehiculo Articulado",
             "seriesNumber": "Astro",
             "refNumber": "0552",
             "fileTitle": "Untitled",
@@ -283,7 +283,7 @@
         "oficiales/Astro_0552_Vehiculo_de_Defensa.ldr": {
             "path": "oficiales/Astro_0552_Vehiculo_de_Defensa.ldr",
             "id": "197",
-            "title": "LOS VEHÍCULOS DE LAS GALAXIAS Vehiculo de Defensa",
+            "title": "LOS VEHÍCULOS DE LAS GALAXIAS - Vehiculo de Defensa",
             "seriesNumber": "Astro",
             "refNumber": "0552",
             "fileTitle": "Nave de defensa",
@@ -293,7 +293,7 @@
         "oficiales/Astro_0552_Vehiculo_de_Enlace.ldr": {
             "path": "oficiales/Astro_0552_Vehiculo_de_Enlace.ldr",
             "id": "197",
-            "title": "LOS VEHÍCULOS DE LAS GALAXIAS Vehiculo de Enlace",
+            "title": "LOS VEHÍCULOS DE LAS GALAXIAS - Vehiculo de Enlace",
             "seriesNumber": "Astro",
             "refNumber": "0552",
             "fileTitle": "Vehiculo de enlace",
@@ -303,7 +303,7 @@
         "oficiales/Astro_0650_Desintegrador_de_Rayos_Laser.ldr": {
             "path": "oficiales/Astro_0650_Desintegrador_de_Rayos_Laser.ldr",
             "id": "199",
-            "title": "DESINTEGRADOR DE RAYOS LASER Desintegrador de Rayos Laser",
+            "title": "DESINTEGRADOR DE RAYOS LASER - Desintegrador de Rayos Laser",
             "seriesNumber": "Astro",
             "refNumber": "0650",
             "fileTitle": "Sin_nombre",
@@ -313,7 +313,7 @@
         "oficiales/Astro_0650_Desintegrador_de_Rayos_Laser_Alter1.ldr": {
             "path": "oficiales/Astro_0650_Desintegrador_de_Rayos_Laser_Alter1.ldr",
             "id": "199",
-            "title": "DESINTEGRADOR DE RAYOS LASER Desintegrador de Rayos Laser Alter1",
+            "title": "DESINTEGRADOR DE RAYOS LASER - Desintegrador de Rayos Laser Alter1",
             "seriesNumber": "Astro",
             "refNumber": "0650",
             "fileTitle": "Sin_nombre",
@@ -323,7 +323,7 @@
         "oficiales/Astro_0651_Centro_Movil_de_Control.ldr": {
             "path": "oficiales/Astro_0651_Centro_Movil_de_Control.ldr",
             "id": "200",
-            "title": "CENTRO MÓVIL DE CONTROL Centro Movil de Control",
+            "title": "CENTRO MÓVIL DE CONTROL - Centro Movil de Control",
             "seriesNumber": "Astro",
             "refNumber": "0651",
             "fileTitle": "Centro movil de control",
@@ -333,7 +333,7 @@
         "oficiales/Astro_0652_Explorador_Espacial.ldr": {
             "path": "oficiales/Astro_0652_Explorador_Espacial.ldr",
             "id": "201",
-            "title": "EXPLORADOR ESPACIAL Explorador Espacial",
+            "title": "EXPLORADOR ESPACIAL - Explorador Espacial",
             "seriesNumber": "Astro",
             "refNumber": "0652",
             "fileTitle": "Explorador espacial",
@@ -343,7 +343,7 @@
         "oficiales/Astro_0653_Astromovil.ldr": {
             "path": "oficiales/Astro_0653_Astromovil.ldr",
             "id": "202",
-            "title": "ASTROMÓVIL Astromovil",
+            "title": "ASTROMÓVIL - Astromovil",
             "seriesNumber": "Astro",
             "refNumber": "0653",
             "fileTitle": "Astromovil",
@@ -353,7 +353,7 @@
         "oficiales/Astro_0654_Unidad_Sideral_de_Rescate.ldr": {
             "path": "oficiales/Astro_0654_Unidad_Sideral_de_Rescate.ldr",
             "id": "203",
-            "title": "UNIDAD SIDERAL DE RESCATE Unidad Sideral de Rescate",
+            "title": "UNIDAD SIDERAL DE RESCATE - Unidad Sideral de Rescate",
             "seriesNumber": "Astro",
             "refNumber": "0654",
             "fileTitle": "Unidad sideral de rescate",
@@ -363,7 +363,7 @@
         "oficiales/Astro_0655_Torre_de_Contro_Trafico_Orbital.ldr": {
             "path": "oficiales/Astro_0655_Torre_de_Contro_Trafico_Orbital.ldr",
             "id": "204",
-            "title": "TORRE CONTROL TRÁFICO ORBITAL Torre de Contro Trafico Orbital",
+            "title": "TORRE CONTROL TRÁFICO ORBITAL - Torre de Contro Trafico Orbital",
             "seriesNumber": "Astro",
             "refNumber": "0655",
             "fileTitle": "Torre de control",
@@ -373,7 +373,7 @@
         "oficiales/Astro_0656_Interceptor_Espacial.ldr": {
             "path": "oficiales/Astro_0656_Interceptor_Espacial.ldr",
             "id": "205",
-            "title": "INTERCEPTOR ESPACIAL Interceptor Espacial",
+            "title": "INTERCEPTOR ESPACIAL - Interceptor Espacial",
             "seriesNumber": "Astro",
             "refNumber": "0656",
             "fileTitle": "Astro 0656 Interceptor Espacial",
@@ -383,7 +383,7 @@
         "oficiales/Astro_0657_Unidad_Teledetectora.ldr": {
             "path": "oficiales/Astro_0657_Unidad_Teledetectora.ldr",
             "id": "206",
-            "title": "UNIDAD TELEDETECTORA Unidad Teledetectora",
+            "title": "UNIDAD TELEDETECTORA - Unidad Teledetectora",
             "seriesNumber": "Astro",
             "refNumber": "0657",
             "fileTitle": "Unidad teledetectora",
@@ -393,7 +393,7 @@
         "oficiales/Astro_0658_Arana_Lunar.ldr": {
             "path": "oficiales/Astro_0658_Arana_Lunar.ldr",
             "id": "207",
-            "title": "ARAÑA LUNAR Arana Lunar",
+            "title": "ARAÑA LUNAR - Arana Lunar",
             "seriesNumber": "Astro",
             "refNumber": "0658",
             "fileTitle": "Ara�a lunar",
@@ -403,7 +403,7 @@
         "oficiales/Astro_0661_Unidad_Espacial_de_Sondeo.ldr": {
             "path": "oficiales/Astro_0661_Unidad_Espacial_de_Sondeo.ldr",
             "id": "210",
-            "title": "UNIDAD ESPECIAL DE SONDEO Unidad Espacial de Sondeo",
+            "title": "UNIDAD ESPECIAL DE SONDEO - Unidad Espacial de Sondeo",
             "seriesNumber": "Astro",
             "refNumber": "0661",
             "fileTitle": "Sin_nombre",
@@ -413,7 +413,7 @@
         "oficiales/Astro_0720_Proyector_Galactico_Movil.ldr": {
             "path": "oficiales/Astro_0720_Proyector_Galactico_Movil.ldr",
             "id": "211",
-            "title": "PROYECTOR GALÁCTICO MÓVIL Proyector Galactico Movil",
+            "title": "PROYECTOR GALÁCTICO MÓVIL - Proyector Galactico Movil",
             "seriesNumber": "Astro",
             "refNumber": "0720",
             "fileTitle": "FILE Astro_0720_proyectorgalacticomovil.ldr",
@@ -423,7 +423,7 @@
         "oficiales/Astro_0721_Astronave_Torre_de_Lanzamiento.ldr": {
             "path": "oficiales/Astro_0721_Astronave_Torre_de_Lanzamiento.ldr",
             "id": "212",
-            "title": "ASTRONAVE Y TORRE DE LANZAMIENTO Astronave Torre de Lanzamiento",
+            "title": "ASTRONAVE Y TORRE DE LANZAMIENTO - Astronave Torre de Lanzamiento",
             "seriesNumber": "Astro",
             "refNumber": "0721",
             "fileTitle": "FILE Astro_0721_Astronave+TorreLanzamiento.ldr",
@@ -433,7 +433,7 @@
         "oficiales/Astro_0722_Nave_de_Defensa_Sideral.ldr": {
             "path": "oficiales/Astro_0722_Nave_de_Defensa_Sideral.ldr",
             "id": "213",
-            "title": "NAVE DEFENSA SIDERAL Nave de Defensa Sideral",
+            "title": "NAVE DEFENSA SIDERAL - Nave de Defensa Sideral",
             "seriesNumber": "Astro",
             "refNumber": "0722",
             "fileTitle": "FILE Astro_0722_navedefensasideral.ldr",
@@ -443,7 +443,7 @@
         "oficiales/Astro_0722_Nave_de_Defensa_Sideral_Alter1.ldr": {
             "path": "oficiales/Astro_0722_Nave_de_Defensa_Sideral_Alter1.ldr",
             "id": "213",
-            "title": "NAVE DEFENSA SIDERAL Nave de Defensa Sideral Alter1",
+            "title": "NAVE DEFENSA SIDERAL - Nave de Defensa Sideral Alter1",
             "seriesNumber": "Astro",
             "refNumber": "0722",
             "fileTitle": "FILE Astro_0722_navedefensasideral2.ldr",
@@ -453,7 +453,7 @@
         "oficiales/Astro_0722_Nave_de_Defensa_Sideral_Alter2.ldr": {
             "path": "oficiales/Astro_0722_Nave_de_Defensa_Sideral_Alter2.ldr",
             "id": "213",
-            "title": "NAVE DEFENSA SIDERAL Nave de Defensa Sideral Alter2",
+            "title": "NAVE DEFENSA SIDERAL - Nave de Defensa Sideral Alter2",
             "seriesNumber": "Astro",
             "refNumber": "0722",
             "fileTitle": "FILE Astro_0722_navedefensasideral3.ldr",
@@ -463,7 +463,7 @@
         "oficiales/Astro_0723_Base_Vigia_Cosmica.ldr": {
             "path": "oficiales/Astro_0723_Base_Vigia_Cosmica.ldr",
             "id": "214",
-            "title": "BASE VIGÍA CÓSMICA  Base Vigia Cosmica",
+            "title": "BASE VIGÍA CÓSMICA  - Base Vigia Cosmica",
             "seriesNumber": "Astro",
             "refNumber": "0723",
             "fileTitle": "FILE Astro_0723_BaseVigiaCosmica.ldr",
@@ -473,7 +473,7 @@
         "oficiales/Astro_0726_Base_de_Descontaminacion.ldr": {
             "path": "oficiales/Astro_0726_Base_de_Descontaminacion.ldr",
             "id": "217",
-            "title": "BASE DESCONTAMINACIÓN Base de Descontaminacion",
+            "title": "BASE DESCONTAMINACIÓN - Base de Descontaminacion",
             "seriesNumber": "Astro",
             "refNumber": "0726",
             "fileTitle": "FILE Astro_0726_BaseDescontaminacion.ldr",
@@ -483,7 +483,7 @@
         "oficiales/Astro_0740_Saturno6_Mini_Explorador_Aereo.ldr": {
             "path": "oficiales/Astro_0740_Saturno6_Mini_Explorador_Aereo.ldr",
             "id": "218",
-            "title": "SUPERTRANSPORTE INTERESTELAR Saturno6 Mini Explorador Aereo",
+            "title": "SUPERTRANSPORTE INTERESTELAR - Saturno6 Mini Explorador Aereo",
             "seriesNumber": "Astro",
             "refNumber": "0740",
             "fileTitle": "Mini explorador aereo",
@@ -493,7 +493,7 @@
         "oficiales/Astro_0740_Saturno6_Mini_Explorador_Terrestre.ldr": {
             "path": "oficiales/Astro_0740_Saturno6_Mini_Explorador_Terrestre.ldr",
             "id": "218",
-            "title": "SUPERTRANSPORTE INTERESTELAR Saturno6 Mini Explorador Terrestre",
+            "title": "SUPERTRANSPORTE INTERESTELAR - Saturno6 Mini Explorador Terrestre",
             "seriesNumber": "Astro",
             "refNumber": "0740",
             "fileTitle": "Saturno-6 miniexplorador terrestre",
@@ -503,7 +503,7 @@
         "oficiales/Astro_0740_Saturno6_Nodriza.ldr": {
             "path": "oficiales/Astro_0740_Saturno6_Nodriza.ldr",
             "id": "218",
-            "title": "SUPERTRANSPORTE INTERESTELAR Saturno6 Nodriza",
+            "title": "SUPERTRANSPORTE INTERESTELAR - Saturno6 Nodriza",
             "seriesNumber": "Astro",
             "refNumber": "0740",
             "fileTitle": "Supertransporte interestelar",
@@ -513,7 +513,7 @@
         "oficiales/Astro_70022_Desintegrador_Borras.ldr": {
             "path": "oficiales/Astro_70022_Desintegrador_Borras.ldr",
             "id": "221",
-            "title": "VEHÍCULO EXPLORADOR Desintegrador Borras",
+            "title": "VEHÍCULO EXPLORADOR - Desintegrador Borras",
             "seriesNumber": "Astro",
             "refNumber": "70022",
             "fileTitle": "Sin_nombre",
@@ -523,7 +523,7 @@
         "oficiales/Astro_70022_Desintegrador_Borras_Apunta_Arriba.ldr": {
             "path": "oficiales/Astro_70022_Desintegrador_Borras_Apunta_Arriba.ldr",
             "id": "221",
-            "title": "VEHÍCULO EXPLORADOR Desintegrador Borras Apunta Arriba",
+            "title": "VEHÍCULO EXPLORADOR - Desintegrador Borras Apunta Arriba",
             "seriesNumber": "Astro",
             "refNumber": "70022",
             "fileTitle": "Sin_nombre",
@@ -573,7 +573,7 @@
         "oficiales/Basico_0401_Casa.ldr": {
             "path": "oficiales/Basico_0401_Casa.ldr",
             "id": "21",
-            "title": "1 / 401 Casa",
+            "title": "1 / 401 - Casa",
             "seriesNumber": "Basico",
             "refNumber": "0401",
             "fileTitle": "Sin_nombre",
@@ -583,7 +583,7 @@
         "oficiales/Basico_0401_F1_Tesoro.ldr": {
             "path": "oficiales/Basico_0401_F1_Tesoro.ldr",
             "id": "21",
-            "title": "1 / 401 F1 Tesoro",
+            "title": "1 / 401 - F1 Tesoro",
             "seriesNumber": "Basico",
             "refNumber": "0401",
             "fileTitle": "F-1 tesoro",
@@ -593,7 +593,7 @@
         "oficiales/Basico_0402_Casa.ldr": {
             "path": "oficiales/Basico_0402_Casa.ldr",
             "id": "22",
-            "title": "2 / 401 Casa",
+            "title": "2 / 401 - Casa",
             "seriesNumber": "Basico",
             "refNumber": "0402",
             "fileTitle": "Sin_nombre",
@@ -603,7 +603,7 @@
         "oficiales/Basico_0403_Avion_Iniciacion.ldr": {
             "path": "oficiales/Basico_0403_Avion_Iniciacion.ldr",
             "id": "23",
-            "title": "3 / 402 Avion Iniciacion",
+            "title": "3 / 402 - Avion Iniciacion",
             "seriesNumber": "Basico",
             "refNumber": "0403",
             "fileTitle": "Avion iniciacion",
@@ -613,7 +613,7 @@
         "oficiales/Basico_0403_Casa.ldr": {
             "path": "oficiales/Basico_0403_Casa.ldr",
             "id": "23",
-            "title": "3 / 402 Casa",
+            "title": "3 / 402 - Casa",
             "seriesNumber": "Basico",
             "refNumber": "0403",
             "fileTitle": "Sin_nombre",
@@ -623,7 +623,7 @@
         "oficiales/Basico_0403_Casa_Halt.ldr": {
             "path": "oficiales/Basico_0403_Casa_Halt.ldr",
             "id": "23",
-            "title": "3 / 402 Casa Halt",
+            "title": "3 / 402 - Casa Halt",
             "seriesNumber": "Basico",
             "refNumber": "0403",
             "fileTitle": "Sin_nombre",
@@ -633,7 +633,7 @@
         "oficiales/Basico_0403_Chalet.ldr": {
             "path": "oficiales/Basico_0403_Chalet.ldr",
             "id": "23",
-            "title": "3 / 402 Chalet",
+            "title": "3 / 402 - Chalet",
             "seriesNumber": "Basico",
             "refNumber": "0403",
             "fileTitle": "Sin_nombre",
@@ -643,7 +643,7 @@
         "oficiales/Basico_0403_Coche.ldr": {
             "path": "oficiales/Basico_0403_Coche.ldr",
             "id": "23",
-            "title": "3 / 402 Coche",
+            "title": "3 / 402 - Coche",
             "seriesNumber": "Basico",
             "refNumber": "0403",
             "fileTitle": "Untitled",
@@ -1093,7 +1093,7 @@
         "oficiales/Combi_Astro_0305_308.ldr": {
             "path": "oficiales/Combi_Astro_0305_308.ldr",
             "id": "223",
-            "title": "PLANEADOR ESPACIAL 308",
+            "title": "PLANEADOR ESPACIAL - 308",
             "seriesNumber": "Combi Astro",
             "refNumber": "0305",
             "fileTitle": "Generador movil",
@@ -1103,7 +1103,7 @@
         "oficiales/Combi_Astro_0306_0307.ldr": {
             "path": "oficiales/Combi_Astro_0306_0307.ldr",
             "id": "224",
-            "title": "GENERADOR MÓVIL 0307",
+            "title": "GENERADOR MÓVIL - 0307",
             "seriesNumber": "Combi Astro",
             "refNumber": "0306",
             "fileTitle": "Generador movil",
@@ -1113,7 +1113,7 @@
         "oficiales/Combi_Astro_0306_Generador_Movil.ldr": {
             "path": "oficiales/Combi_Astro_0306_Generador_Movil.ldr",
             "id": "224",
-            "title": "GENERADOR MÓVIL Generador Movil",
+            "title": "GENERADOR MÓVIL - Generador Movil",
             "seriesNumber": "Combi Astro",
             "refNumber": "0306",
             "fileTitle": "Generador movil",
@@ -1123,7 +1123,7 @@
         "oficiales/Combi_Astro_0307_Unidad_Exploradora.ldr": {
             "path": "oficiales/Combi_Astro_0307_Unidad_Exploradora.ldr",
             "id": "225",
-            "title": "UNIDAD EXPLANADORA Unidad Exploradora",
+            "title": "UNIDAD EXPLANADORA - Unidad Exploradora",
             "seriesNumber": "Combi Astro",
             "refNumber": "0307",
             "fileTitle": "Sin_nombre",
@@ -1133,7 +1133,7 @@
         "oficiales/Combi_Astro_0340_Lector_Geologico.ldr": {
             "path": "oficiales/Combi_Astro_0340_Lector_Geologico.ldr",
             "id": "233",
-            "title": "LECTOR GEOLÓGICO Lector Geologico",
+            "title": "LECTOR GEOLÓGICO - Lector Geologico",
             "seriesNumber": "Combi Astro",
             "refNumber": "0340",
             "fileTitle": "Untitled",
@@ -1143,7 +1143,7 @@
         "oficiales/Combi_Mar_0301.ldr": {
             "path": "oficiales/Combi_Mar_0301.ldr",
             "id": "184",
-            "title": "PATRULLERO (CONSUL) ",
+            "title": "PATRULLERO (CONSUL) - ",
             "seriesNumber": "Combi Mar",
             "refNumber": "0301",
             "fileTitle": "Sin_nombre",
@@ -1153,7 +1153,7 @@
         "oficiales/Combi_Mar_0302.ldr": {
             "path": "oficiales/Combi_Mar_0302.ldr",
             "id": "185",
-            "title": "TRANSPORTE ANFIBIO (OCEAN) ",
+            "title": "TRANSPORTE ANFIBIO (OCEAN) - ",
             "seriesNumber": "Combi Mar",
             "refNumber": "0302",
             "fileTitle": "Sin_nombre",
@@ -1163,7 +1163,7 @@
         "oficiales/Combi_Mar_0333_corfu.ldr": {
             "path": "oficiales/Combi_Mar_0333_corfu.ldr",
             "id": "192",
-            "title": "TRANSBORDADOR (CORFU) corfu",
+            "title": "TRANSBORDADOR (CORFU) - corfu",
             "seriesNumber": "Combi Mar",
             "refNumber": "0333",
             "fileTitle": "FILE Combi-Mar_0333_corfu.ldr",
@@ -1173,7 +1173,7 @@
         "oficiales/Compact_0342_Krang.ldr": {
             "path": "oficiales/Compact_0342_Krang.ldr",
             "id": "367",
-            "title": "KRANG Krang",
+            "title": "KRANG - Krang",
             "seriesNumber": "Compact",
             "refNumber": "0342",
             "fileTitle": "Name: Compact 0342 Krang",
@@ -1183,7 +1183,7 @@
         "oficiales/Compact_0343_Excavator.ldr": {
             "path": "oficiales/Compact_0343_Excavator.ldr",
             "id": "368",
-            "title": "EXCAVATOR Excavator",
+            "title": "EXCAVATOR - Excavator",
             "seriesNumber": "Compact",
             "refNumber": "0343",
             "fileTitle": "Untitled",
@@ -1193,7 +1193,7 @@
         "oficiales/Compact_0344_Extinthor.ldr": {
             "path": "oficiales/Compact_0344_Extinthor.ldr",
             "id": "369",
-            "title": "EXTIN-THOR Extinthor",
+            "title": "EXTIN-THOR - Extinthor",
             "seriesNumber": "Compact",
             "refNumber": "0344",
             "fileTitle": "Untitled",
@@ -1203,7 +1203,7 @@
         "oficiales/Compact_0345_Space_Patrol.ldr": {
             "path": "oficiales/Compact_0345_Space_Patrol.ldr",
             "id": "370",
-            "title": "SPACE-PATROL Space Patrol",
+            "title": "SPACE-PATROL - Space Patrol",
             "seriesNumber": "Compact",
             "refNumber": "0345",
             "fileTitle": "Untitled",
@@ -1213,7 +1213,7 @@
         "oficiales/Compact_0346_Vigilantic.ldr": {
             "path": "oficiales/Compact_0346_Vigilantic.ldr",
             "id": "371",
-            "title": "VIGILANTIC Vigilantic",
+            "title": "VIGILANTIC - Vigilantic",
             "seriesNumber": "Compact",
             "refNumber": "0346",
             "fileTitle": "MLCAD BTG astronauta_sentado",
@@ -1223,7 +1223,7 @@
         "oficiales/Compact_0347_Pegasus.ldr": {
             "path": "oficiales/Compact_0347_Pegasus.ldr",
             "id": "372",
-            "title": "PEGASUS Pegasus",
+            "title": "PEGASUS - Pegasus",
             "seriesNumber": "Compact",
             "refNumber": "0347",
             "fileTitle": "Untitled",
@@ -1233,7 +1233,7 @@
         "oficiales/Compact_0348_Bipstar.ldr": {
             "path": "oficiales/Compact_0348_Bipstar.ldr",
             "id": "373",
-            "title": "BIP-STAR Bipstar",
+            "title": "BIP-STAR - Bipstar",
             "seriesNumber": "Compact",
             "refNumber": "0348",
             "fileTitle": "Untitled",
@@ -1243,7 +1243,7 @@
         "oficiales/Compact_0349_Robby.ldr": {
             "path": "oficiales/Compact_0349_Robby.ldr",
             "id": "374",
-            "title": "ROBBY Robby",
+            "title": "ROBBY - Robby",
             "seriesNumber": "Compact",
             "refNumber": "0349",
             "fileTitle": "Untitled",
@@ -1253,7 +1253,7 @@
         "oficiales/Compact_0350_Scooper.ldr": {
             "path": "oficiales/Compact_0350_Scooper.ldr",
             "id": "375",
-            "title": "SCOOPER Scooper",
+            "title": "SCOOPER - Scooper",
             "seriesNumber": "Compact",
             "refNumber": "0350",
             "fileTitle": "Name: Compact 0350 Scooper",
@@ -1263,7 +1263,7 @@
         "oficiales/Compact_0351_Tex.ldr": {
             "path": "oficiales/Compact_0351_Tex.ldr",
             "id": "376",
-            "title": "TEX Tex",
+            "title": "TEX - Tex",
             "seriesNumber": "Compact",
             "refNumber": "0351",
             "fileTitle": "MLCAD BTG piloto1",
@@ -1273,7 +1273,7 @@
         "oficiales/Compact_0352_Karpan.ldr": {
             "path": "oficiales/Compact_0352_Karpan.ldr",
             "id": "377",
-            "title": "KARPAN Karpan",
+            "title": "KARPAN - Karpan",
             "seriesNumber": "Compact",
             "refNumber": "0352",
             "fileTitle": "Untitled",
@@ -1283,7 +1283,7 @@
         "oficiales/Compact_0353_Condor.ldr": {
             "path": "oficiales/Compact_0353_Condor.ldr",
             "id": "378",
-            "title": "CONDOR Condor",
+            "title": "CONDOR - Condor",
             "seriesNumber": "Compact",
             "refNumber": "0353",
             "fileTitle": "Untitled",
@@ -1293,7 +1293,7 @@
         "oficiales/Cosmic_0435_Scutty.ldr": {
             "path": "oficiales/Cosmic_0435_Scutty.ldr",
             "id": "242",
-            "title": "SCOUTY Scutty",
+            "title": "SCOUTY - Scutty",
             "seriesNumber": "Cosmic",
             "refNumber": "0435",
             "fileTitle": "Scutty",
@@ -1303,7 +1303,7 @@
         "oficiales/Mar_0550_Barco_Paseo.ldr": {
             "path": "oficiales/Mar_0550_Barco_Paseo.ldr",
             "id": "71",
-            "title": "LOS GIGANTES DEL MAR Barco Paseo",
+            "title": "LOS GIGANTES DEL MAR - Barco Paseo",
             "seriesNumber": "Mar",
             "refNumber": "0550",
             "fileTitle": "Autobus urbano",
@@ -1313,7 +1313,7 @@
         "oficiales/Mar_0550_Buque_Faro.ldr": {
             "path": "oficiales/Mar_0550_Buque_Faro.ldr",
             "id": "71",
-            "title": "LOS GIGANTES DEL MAR Buque Faro",
+            "title": "LOS GIGANTES DEL MAR - Buque Faro",
             "seriesNumber": "Mar",
             "refNumber": "0550",
             "fileTitle": "Barco faro",
@@ -1323,7 +1323,7 @@
         "oficiales/Mar_0550_Buque_Pasaje.ldr": {
             "path": "oficiales/Mar_0550_Buque_Pasaje.ldr",
             "id": "71",
-            "title": "LOS GIGANTES DEL MAR Buque Pasaje",
+            "title": "LOS GIGANTES DEL MAR - Buque Pasaje",
             "seriesNumber": "Mar",
             "refNumber": "0550",
             "fileTitle": "Sin_nombre",
@@ -1333,7 +1333,7 @@
         "oficiales/Mar_0550_Vapor_Transatlantico_Caribe.ldr": {
             "path": "oficiales/Mar_0550_Vapor_Transatlantico_Caribe.ldr",
             "id": "71",
-            "title": "LOS GIGANTES DEL MAR Vapor Transatlantico Caribe",
+            "title": "LOS GIGANTES DEL MAR - Vapor Transatlantico Caribe",
             "seriesNumber": "Mar",
             "refNumber": "0550",
             "fileTitle": "Sin_nombre",
@@ -1343,7 +1343,7 @@
         "oficiales/Mar_0550_Yate_Mallorca.ldr": {
             "path": "oficiales/Mar_0550_Yate_Mallorca.ldr",
             "id": "71",
-            "title": "LOS GIGANTES DEL MAR Yate Mallorca",
+            "title": "LOS GIGANTES DEL MAR - Yate Mallorca",
             "seriesNumber": "Mar",
             "refNumber": "0550",
             "fileTitle": "Yate (Mallorca)",
@@ -1353,7 +1353,7 @@
         "oficiales/Mar_0550_Yate_Xaloc.ldr": {
             "path": "oficiales/Mar_0550_Yate_Xaloc.ldr",
             "id": "71",
-            "title": "LOS GIGANTES DEL MAR Yate Xaloc",
+            "title": "LOS GIGANTES DEL MAR - Yate Xaloc",
             "seriesNumber": "Mar",
             "refNumber": "0550",
             "fileTitle": "Yate (Mallorca)",
@@ -1363,7 +1363,7 @@
         "oficiales/Mar_0614_Ferry.ldr": {
             "path": "oficiales/Mar_0614_Ferry.ldr",
             "id": "86",
-            "title": "FERRY  (EGEO) Ferry",
+            "title": "FERRY  (EGEO) - Ferry",
             "seriesNumber": "Mar",
             "refNumber": "0614",
             "fileTitle": "Ferry",
@@ -1373,7 +1373,7 @@
         "oficiales/Mar_0615_Fragata_Lanzamisiles.ldr": {
             "path": "oficiales/Mar_0615_Fragata_Lanzamisiles.ldr",
             "id": "87",
-            "title": "FRAGATA LANZAMISILES (ICARO) Fragata Lanzamisiles",
+            "title": "FRAGATA LANZAMISILES (ICARO) - Fragata Lanzamisiles",
             "seriesNumber": "Mar",
             "refNumber": "0615",
             "fileTitle": "Sin_nombre",
@@ -1383,7 +1383,7 @@
         "oficiales/Mar_0642_Automotor.ldr": {
             "path": "oficiales/Mar_0642_Automotor.ldr",
             "id": "113",
-            "title": "EXPLOR Automotor",
+            "title": "EXPLOR - Automotor",
             "seriesNumber": "Mar",
             "refNumber": "0642",
             "fileTitle": "Automotor",
@@ -1393,7 +1393,7 @@
         "oficiales/Mar_0642_Hovercraft_Motor.ldr": {
             "path": "oficiales/Mar_0642_Hovercraft_Motor.ldr",
             "id": "113",
-            "title": "EXPLOR Hovercraft Motor",
+            "title": "EXPLOR - Hovercraft Motor",
             "seriesNumber": "Mar",
             "refNumber": "0642",
             "fileTitle": "Hovercraft (motor)",
@@ -1403,7 +1403,7 @@
         "oficiales/Mar_0643_Destructor_Nuclear.ldr": {
             "path": "oficiales/Mar_0643_Destructor_Nuclear.ldr",
             "id": "117",
-            "title": "DESTRUCTOR NUCLEAR (THOR) Destructor Nuclear",
+            "title": "DESTRUCTOR NUCLEAR (THOR) - Destructor Nuclear",
             "seriesNumber": "Mar",
             "refNumber": "0643",
             "fileTitle": "FILE Mar0643_DestructorNuclear.ldr",
@@ -1423,7 +1423,7 @@
         "oficiales/Mar_0645_Portahelicopteros.ldr": {
             "path": "oficiales/Mar_0645_Portahelicopteros.ldr",
             "id": "119",
-            "title": "PORTAHELICÓPTEROS LIGERO (FOX) Portahelicopteros",
+            "title": "PORTAHELICÓPTEROS LIGERO (FOX) - Portahelicopteros",
             "seriesNumber": "Mar",
             "refNumber": "0645",
             "fileTitle": "FILE Mar0645_Portahelicopteros.ldr",
@@ -1433,7 +1433,7 @@
         "oficiales/Mar_0646_Stingdrake.ldr": {
             "path": "oficiales/Mar_0646_Stingdrake.ldr",
             "id": "120",
-            "title": "STRINGDRAKE Stingdrake",
+            "title": "STRINGDRAKE - Stingdrake",
             "seriesNumber": "Mar",
             "refNumber": "0646",
             "fileTitle": "FILE Mar_0646_Stingdrake.ldr",
@@ -1443,7 +1443,7 @@
         "oficiales/Mar_0647_Nemmor.ldr": {
             "path": "oficiales/Mar_0647_Nemmor.ldr",
             "id": "121",
-            "title": "NEMMOR (ДЛ / ЛД) Nemmor",
+            "title": "NEMMOR (ДЛ / ЛД) - Nemmor",
             "seriesNumber": "Mar",
             "refNumber": "0647",
             "fileTitle": "Untitled",
@@ -1453,7 +1453,7 @@
         "oficiales/Mar_0700_Mercante_Mixto.ldr": {
             "path": "oficiales/Mar_0700_Mercante_Mixto.ldr",
             "id": "122",
-            "title": "MERCANTE MIXTO (ORIENTE) Mercante Mixto",
+            "title": "MERCANTE MIXTO (ORIENTE) - Mercante Mixto",
             "seriesNumber": "Mar",
             "refNumber": "0700",
             "fileTitle": "FILE Mar0700_MercanteMixto.ldr",
@@ -1463,7 +1463,7 @@
         "oficiales/Mar_0701_Portaaviones_1GM_Jupiter.ldr": {
             "path": "oficiales/Mar_0701_Portaaviones_1GM_Jupiter.ldr",
             "id": "123",
-            "title": "PORTAAVIONES 2ª GUERRA MUNDIAL (JÚPITER) Portaaviones 1GM Jupiter",
+            "title": "PORTAAVIONES 2ª GUERRA MUNDIAL (JÚPITER) - Portaaviones 1GM Jupiter",
             "seriesNumber": "Mar",
             "refNumber": "0701",
             "fileTitle": "FILE Mar0701_Portaaviones 1GM Jupiter.ldr",
@@ -1473,7 +1473,7 @@
         "oficiales/Mar_0702_Carguero_y_Terminal.ldr": {
             "path": "oficiales/Mar_0702_Carguero_y_Terminal.ldr",
             "id": "124",
-            "title": "CARGUERO Y TERMINAL DE SILOS (MENORCA) Carguero y Terminal",
+            "title": "CARGUERO Y TERMINAL DE SILOS (MENORCA) - Carguero y Terminal",
             "seriesNumber": "Mar",
             "refNumber": "0702",
             "fileTitle": "Untitled",
@@ -1483,7 +1483,7 @@
         "oficiales/Mar_0703_Base_Naval_Fragata.ldr": {
             "path": "oficiales/Mar_0703_Base_Naval_Fragata.ldr",
             "id": "125",
-            "title": "FRAGATA LANZAMISILES Y BASE NAVAL (ARIES) Base Naval Fragata",
+            "title": "FRAGATA LANZAMISILES Y BASE NAVAL (ARIES) - Base Naval Fragata",
             "seriesNumber": "Mar",
             "refNumber": "0703",
             "fileTitle": "Untitled",
@@ -1493,7 +1493,7 @@
         "oficiales/Mar_0704_Portaaviones_Tactico_Coronado.ldr": {
             "path": "oficiales/Mar_0704_Portaaviones_Tactico_Coronado.ldr",
             "id": "127",
-            "title": "PORTAAVIONES TÁCTICO (CORONADO) Portaaviones Tactico Coronado",
+            "title": "PORTAAVIONES TÁCTICO (CORONADO) - Portaaviones Tactico Coronado",
             "seriesNumber": "Mar",
             "refNumber": "0704",
             "fileTitle": "Sin_nombre",
@@ -1503,7 +1503,7 @@
         "oficiales/Mar_0705_Cargo_Shuttle.ldr": {
             "path": "oficiales/Mar_0705_Cargo_Shuttle.ldr",
             "id": "128",
-            "title": "BARCO SHUTTLE (SAGITARIUS) Cargo Shuttle",
+            "title": "BARCO SHUTTLE (SAGITARIUS) - Cargo Shuttle",
             "seriesNumber": "Mar",
             "refNumber": "0705",
             "fileTitle": "FILE Mar705_CargoShuttle.ldr",
@@ -1523,7 +1523,7 @@
         "oficiales/Mini_501_Chalet.ldr": {
             "path": "oficiales/Mini_501_Chalet.ldr",
             "id": "8",
-            "title": "CHALET Chalet",
+            "title": "CHALET - Chalet",
             "seriesNumber": "Mini",
             "refNumber": "501",
             "fileTitle": "Untitled",
@@ -1533,7 +1533,7 @@
         "oficiales/Mini_501_Simbolo_Chino.ldr": {
             "path": "oficiales/Mini_501_Simbolo_Chino.ldr",
             "id": "8",
-            "title": "CHALET Simbolo Chino",
+            "title": "CHALET - Simbolo Chino",
             "seriesNumber": "Mini",
             "refNumber": "501",
             "fileTitle": "Untitled",
@@ -1543,7 +1543,7 @@
         "oficiales/Mini_502_Peaje_Autopista.ldr": {
             "path": "oficiales/Mini_502_Peaje_Autopista.ldr",
             "id": "9",
-            "title": "PEAJE AUTOPISTA Peaje Autopista",
+            "title": "PEAJE AUTOPISTA - Peaje Autopista",
             "seriesNumber": "Mini",
             "refNumber": "502",
             "fileTitle": "Untitled",
@@ -1553,7 +1553,7 @@
         "oficiales/Mini_503_Bungalow.ldr": {
             "path": "oficiales/Mini_503_Bungalow.ldr",
             "id": "10",
-            "title": "BUNGALOW Bungalow",
+            "title": "BUNGALOW - Bungalow",
             "seriesNumber": "Mini",
             "refNumber": "503",
             "fileTitle": "MLCAD BTG planta baja",
@@ -1563,7 +1563,7 @@
         "oficiales/Mini_507_Ermita.ldr": {
             "path": "oficiales/Mini_507_Ermita.ldr",
             "id": "14",
-            "title": "ERMITA Ermita",
+            "title": "ERMITA - Ermita",
             "seriesNumber": "Mini",
             "refNumber": "507",
             "fileTitle": "Sin_nombre",
@@ -1573,7 +1573,7 @@
         "oficiales/Mini_508_Kiosko_Refrescos.ldr": {
             "path": "oficiales/Mini_508_Kiosko_Refrescos.ldr",
             "id": "15",
-            "title": "KIOSKO REFRESCOS Kiosko Refrescos",
+            "title": "KIOSKO REFRESCOS - Kiosko Refrescos",
             "seriesNumber": "Mini",
             "refNumber": "508",
             "fileTitle": "Kiosko",
@@ -1583,7 +1583,7 @@
         "oficiales/Mini_510_Casa_de_Campo.ldr": {
             "path": "oficiales/Mini_510_Casa_de_Campo.ldr",
             "id": "17",
-            "title": "CASA DE CAMPO Casa de Campo",
+            "title": "CASA DE CAMPO - Casa de Campo",
             "seriesNumber": "Mini",
             "refNumber": "510",
             "fileTitle": "Sin_nombre",
@@ -1593,7 +1593,7 @@
         "oficiales/Oceanis_0649_Carguero_Colosus.ldr": {
             "path": "oficiales/Oceanis_0649_Carguero_Colosus.ldr",
             "id": "145",
-            "title": "CARGUERO  (COLOSUS) Carguero Colosus",
+            "title": "CARGUERO  (COLOSUS) - Carguero Colosus",
             "seriesNumber": "Oceanis",
             "refNumber": "0649",
             "fileTitle": "FILE Mar0649_Carguero.ldr",
@@ -1603,7 +1603,7 @@
         "oficiales/Oceanis_0657_Patrullera.ldr": {
             "path": "oficiales/Oceanis_0657_Patrullera.ldr",
             "id": "153",
-            "title": "PATRULLERA (P435) Patrullera",
+            "title": "PATRULLERA (P435) - Patrullera",
             "seriesNumber": "Oceanis",
             "refNumber": "0657",
             "fileTitle": "Mar 0657 patrullera",
@@ -1613,7 +1613,7 @@
         "oficiales/Oceanis_0658_Oceanografico_Meteor.ldr": {
             "path": "oficiales/Oceanis_0658_Oceanografico_Meteor.ldr",
             "id": "154",
-            "title": "OCEANOGRÁFICO (METEOR) Oceanografico Meteor",
+            "title": "OCEANOGRÁFICO (METEOR) - Oceanografico Meteor",
             "seriesNumber": "Oceanis",
             "refNumber": "0658",
             "fileTitle": "FILE Mar0658_BarcoMeteorologico.ldr",
@@ -1623,7 +1623,7 @@
         "oficiales/Oceanis_0659_Missouri.ldr": {
             "path": "oficiales/Oceanis_0659_Missouri.ldr",
             "id": "155",
-            "title": "MISSOURI Missouri",
+            "title": "MISSOURI - Missouri",
             "seriesNumber": "Oceanis",
             "refNumber": "0659",
             "fileTitle": "Untitled",
@@ -1633,7 +1633,7 @@
         "oficiales/Pocket_0315_Eslator.ldr": {
             "path": "oficiales/Pocket_0315_Eslator.ldr",
             "id": "385",
-            "title": "ESLATOR Eslator",
+            "title": "ESLATOR - Eslator",
             "seriesNumber": "Pocket",
             "refNumber": "0315",
             "fileTitle": "Untitled",
@@ -1643,7 +1643,7 @@
         "oficiales/Roblock_0761_Frogster.ldr": {
             "path": "oficiales/Roblock_0761_Frogster.ldr",
             "id": "289",
-            "title": "FROGSTER Frogster",
+            "title": "FROGSTER - Frogster",
             "seriesNumber": "Roblock",
             "refNumber": "0761",
             "fileTitle": "Untitled",
@@ -1653,7 +1653,7 @@
         "oficiales/Roblock_0762_DarkWarrior.ldr": {
             "path": "oficiales/Roblock_0762_DarkWarrior.ldr",
             "id": "290",
-            "title": "DARK WARRIOR DarkWarrior",
+            "title": "DARK WARRIOR - DarkWarrior",
             "seriesNumber": "Roblock",
             "refNumber": "0762",
             "fileTitle": "Untitled",
@@ -1663,7 +1663,7 @@
         "oficiales/Roblock_0780_Helitron.ldr": {
             "path": "oficiales/Roblock_0780_Helitron.ldr",
             "id": "299",
-            "title": "HELITRON Helitron",
+            "title": "HELITRON - Helitron",
             "seriesNumber": "Roblock",
             "refNumber": "0780",
             "fileTitle": "Untitled",
@@ -1673,7 +1673,7 @@
         "oficiales/Roblock_0782_Hercules.ldr": {
             "path": "oficiales/Roblock_0782_Hercules.ldr",
             "id": "301",
-            "title": "HERCULES Hercules",
+            "title": "HERCULES - Hercules",
             "seriesNumber": "Roblock",
             "refNumber": "0782",
             "fileTitle": "Untitled",
@@ -1683,7 +1683,7 @@
         "oficiales/Roblock_0783_Fenixter.ldr": {
             "path": "oficiales/Roblock_0783_Fenixter.ldr",
             "id": "302",
-            "title": "FENIXTER Fenixter",
+            "title": "FENIXTER - Fenixter",
             "seriesNumber": "Roblock",
             "refNumber": "0783",
             "fileTitle": "Untitled",
@@ -1693,7 +1693,7 @@
         "oficiales/Roblock_0788_Robosaurius.ldr": {
             "path": "oficiales/Roblock_0788_Robosaurius.ldr",
             "id": "307",
-            "title": "ROBOSAURIUS Robosaurius",
+            "title": "ROBOSAURIUS - Robosaurius",
             "seriesNumber": "Roblock",
             "refNumber": "0788",
             "fileTitle": "Untitled",
@@ -1703,7 +1703,7 @@
         "oficiales/Roblock_0790_Persus.ldr": {
             "path": "oficiales/Roblock_0790_Persus.ldr",
             "id": "308",
-            "title": "PERSUS Persus",
+            "title": "PERSUS - Persus",
             "seriesNumber": "Roblock",
             "refNumber": "0790",
             "fileTitle": "Untitled",
@@ -1713,7 +1713,7 @@
         "oficiales/Roblock_0791_Thor.ldr": {
             "path": "oficiales/Roblock_0791_Thor.ldr",
             "id": "309",
-            "title": "THOR Thor",
+            "title": "THOR - Thor",
             "seriesNumber": "Roblock",
             "refNumber": "0791",
             "fileTitle": "FILE Roblock_0791_Thor.ldr",
@@ -1723,7 +1723,7 @@
         "oficiales/Roblock_0791_Thor_Transf.ldr": {
             "path": "oficiales/Roblock_0791_Thor_Transf.ldr",
             "id": "309",
-            "title": "THOR Thor Transf",
+            "title": "THOR - Thor Transf",
             "seriesNumber": "Roblock",
             "refNumber": "0791",
             "fileTitle": "FILE Roblock_0791_Thor_transf.ldr",
@@ -1733,7 +1733,7 @@
         "oficiales/Roblock_0792_Skymaster.ldr": {
             "path": "oficiales/Roblock_0792_Skymaster.ldr",
             "id": "310",
-            "title": "SKYMASTER Skymaster",
+            "title": "SKYMASTER - Skymaster",
             "seriesNumber": "Roblock",
             "refNumber": "0792",
             "fileTitle": "TENTE ROBLOCK 0792 SKYMASTER",
@@ -1743,7 +1743,7 @@
         "oficiales/Roblock_0792_Skymaster_Transf.ldr": {
             "path": "oficiales/Roblock_0792_Skymaster_Transf.ldr",
             "id": "310",
-            "title": "SKYMASTER Skymaster Transf",
+            "title": "SKYMASTER - Skymaster Transf",
             "seriesNumber": "Roblock",
             "refNumber": "0792",
             "fileTitle": "TENTE ROBLOCK 0792 SKYMASTER",
@@ -1753,7 +1753,7 @@
         "oficiales/Roblock_0797_X_Tronic.ldr": {
             "path": "oficiales/Roblock_0797_X_Tronic.ldr",
             "id": "312",
-            "title": "X-TRONIC -SONO-LUX- X Tronic",
+            "title": "X-TRONIC -SONO-LUX- - X Tronic",
             "seriesNumber": "Roblock",
             "refNumber": "0797",
             "fileTitle": "Untitled",
@@ -1763,7 +1763,7 @@
         "oficiales/Roblock_0798_Krator.ldr": {
             "path": "oficiales/Roblock_0798_Krator.ldr",
             "id": "313",
-            "title": "KRATOR -SONO-LUX- Krator",
+            "title": "KRATOR -SONO-LUX- - Krator",
             "seriesNumber": "Roblock",
             "refNumber": "0798",
             "fileTitle": "ROBLOCK_0798_KRATOR",
@@ -1773,7 +1773,7 @@
         "oficiales/Roblock_0798_Krator_Transf.ldr": {
             "path": "oficiales/Roblock_0798_Krator_Transf.ldr",
             "id": "313",
-            "title": "KRATOR -SONO-LUX- Krator Transf",
+            "title": "KRATOR -SONO-LUX- - Krator Transf",
             "seriesNumber": "Roblock",
             "refNumber": "0798",
             "fileTitle": "ROBLOCK_0798_KRATOR",
@@ -1783,7 +1783,7 @@
         "oficiales/Ruta2_70046_Airport_Service.ldr": {
             "path": "oficiales/Ruta2_70046_Airport_Service.ldr",
             "id": "64",
-            "title": "AIRPORT SERVICE Airport Service",
+            "title": "AIRPORT SERVICE - Airport Service",
             "seriesNumber": "Ruta2",
             "refNumber": "70046",
             "fileTitle": "70037 Airport Service",
@@ -1793,7 +1793,7 @@
         "oficiales/Ruta_0553_Camion_Autopista.ldr": {
             "path": "oficiales/Ruta_0553_Camion_Autopista.ldr",
             "id": "46",
-            "title": "EL MUNDO DE LA RUTA Camion Autopista",
+            "title": "EL MUNDO DE LA RUTA - Camion Autopista",
             "seriesNumber": "Ruta",
             "refNumber": "0553",
             "fileTitle": "Camion autopista",
@@ -1803,7 +1803,7 @@
         "oficiales/Ruta_0553_Camion_Dragster_Cisterna.ldr": {
             "path": "oficiales/Ruta_0553_Camion_Dragster_Cisterna.ldr",
             "id": "46",
-            "title": "EL MUNDO DE LA RUTA Camion Dragster Cisterna",
+            "title": "EL MUNDO DE LA RUTA - Camion Dragster Cisterna",
             "seriesNumber": "Ruta",
             "refNumber": "0553",
             "fileTitle": "Camion Dragster Cisterna",
@@ -1813,7 +1813,7 @@
         "oficiales/Ruta_0553_Camion_Especial_Bomberos_Aeropuerto.ldr": {
             "path": "oficiales/Ruta_0553_Camion_Especial_Bomberos_Aeropuerto.ldr",
             "id": "46",
-            "title": "EL MUNDO DE LA RUTA Camion Especial Bomberos Aeropuerto",
+            "title": "EL MUNDO DE LA RUTA - Camion Especial Bomberos Aeropuerto",
             "seriesNumber": "Ruta",
             "refNumber": "0553",
             "fileTitle": "Camion especial bomberos aeropuerto",
@@ -1823,7 +1823,7 @@
         "oficiales/Ruta_0553_Camion_Especial_Reparaciones_Electricas.ldr": {
             "path": "oficiales/Ruta_0553_Camion_Especial_Reparaciones_Electricas.ldr",
             "id": "46",
-            "title": "EL MUNDO DE LA RUTA Camion Especial Reparaciones Electricas",
+            "title": "EL MUNDO DE LA RUTA - Camion Especial Reparaciones Electricas",
             "seriesNumber": "Ruta",
             "refNumber": "0553",
             "fileTitle": "MLCAD BTG ruedas ruta 21 dobles",
@@ -1833,7 +1833,7 @@
         "oficiales/Ruta_0553_Camion_Porta_Containers.ldr": {
             "path": "oficiales/Ruta_0553_Camion_Porta_Containers.ldr",
             "id": "46",
-            "title": "EL MUNDO DE LA RUTA Camion Porta Containers",
+            "title": "EL MUNDO DE LA RUTA - Camion Porta Containers",
             "seriesNumber": "Ruta",
             "refNumber": "0553",
             "fileTitle": "Camion porta containers",
@@ -1843,7 +1843,7 @@
         "oficiales/Ruta_0553_Dragster.ldr": {
             "path": "oficiales/Ruta_0553_Dragster.ldr",
             "id": "46",
-            "title": "EL MUNDO DE LA RUTA Dragster",
+            "title": "EL MUNDO DE LA RUTA - Dragster",
             "seriesNumber": "Ruta",
             "refNumber": "0553",
             "fileTitle": "Dragster",
@@ -1853,7 +1853,7 @@
         "oficiales/Ruta_0553_Dragster_8_Cilindros.ldr": {
             "path": "oficiales/Ruta_0553_Dragster_8_Cilindros.ldr",
             "id": "46",
-            "title": "EL MUNDO DE LA RUTA Dragster 8 Cilindros",
+            "title": "EL MUNDO DE LA RUTA - Dragster 8 Cilindros",
             "seriesNumber": "Ruta",
             "refNumber": "0553",
             "fileTitle": "Dragster 8 cilindros",
@@ -1863,7 +1863,7 @@
         "oficiales/Ruta_0553_Expedicion_Mozambique.ldr": {
             "path": "oficiales/Ruta_0553_Expedicion_Mozambique.ldr",
             "id": "46",
-            "title": "EL MUNDO DE LA RUTA Expedicion Mozambique",
+            "title": "EL MUNDO DE LA RUTA - Expedicion Mozambique",
             "seriesNumber": "Ruta",
             "refNumber": "0553",
             "fileTitle": "Expedicion Morambique",
@@ -1873,7 +1873,7 @@
         "oficiales/Ruta_0553_Flying_Van.ldr": {
             "path": "oficiales/Ruta_0553_Flying_Van.ldr",
             "id": "46",
-            "title": "EL MUNDO DE LA RUTA Flying Van",
+            "title": "EL MUNDO DE LA RUTA - Flying Van",
             "seriesNumber": "Ruta",
             "refNumber": "0553",
             "fileTitle": "Flying Van",
@@ -1883,7 +1883,7 @@
         "oficiales/Ruta_0553_Formula_1_6_Ruedas.ldr": {
             "path": "oficiales/Ruta_0553_Formula_1_6_Ruedas.ldr",
             "id": "46",
-            "title": "EL MUNDO DE LA RUTA Formula 1 6 Ruedas",
+            "title": "EL MUNDO DE LA RUTA - Formula 1 6 Ruedas",
             "seriesNumber": "Ruta",
             "refNumber": "0553",
             "fileTitle": "Sin_nombre",
@@ -1893,7 +1893,7 @@
         "oficiales/Ruta_0553_Formula_1_ELF.ldr": {
             "path": "oficiales/Ruta_0553_Formula_1_ELF.ldr",
             "id": "46",
-            "title": "EL MUNDO DE LA RUTA Formula 1 ELF",
+            "title": "EL MUNDO DE LA RUTA - Formula 1 ELF",
             "seriesNumber": "Ruta",
             "refNumber": "0553",
             "fileTitle": "Formula 1 (el mundo de la ruta)",
@@ -1903,7 +1903,7 @@
         "oficiales/Ruta_0553_Furgoneta_Aeropuerto.ldr": {
             "path": "oficiales/Ruta_0553_Furgoneta_Aeropuerto.ldr",
             "id": "46",
-            "title": "EL MUNDO DE LA RUTA Furgoneta Aeropuerto",
+            "title": "EL MUNDO DE LA RUTA - Furgoneta Aeropuerto",
             "seriesNumber": "Ruta",
             "refNumber": "0553",
             "fileTitle": "Furgoneta aeropuerto",
@@ -1913,7 +1913,7 @@
         "oficiales/Ruta_0553_Gasolinera_Mundo_Ruta.ldr": {
             "path": "oficiales/Ruta_0553_Gasolinera_Mundo_Ruta.ldr",
             "id": "46",
-            "title": "EL MUNDO DE LA RUTA Gasolinera Mundo Ruta",
+            "title": "EL MUNDO DE LA RUTA - Gasolinera Mundo Ruta",
             "seriesNumber": "Ruta",
             "refNumber": "0553",
             "fileTitle": "Gasolinera (mundo de la ruta)",
@@ -1923,7 +1923,7 @@
         "oficiales/Ruta_0553_Grua_Porta_Containers.ldr": {
             "path": "oficiales/Ruta_0553_Grua_Porta_Containers.ldr",
             "id": "46",
-            "title": "EL MUNDO DE LA RUTA Grua Porta Containers",
+            "title": "EL MUNDO DE LA RUTA - Grua Porta Containers",
             "seriesNumber": "Ruta",
             "refNumber": "0553",
             "fileTitle": "Sin_nombre",
@@ -1933,7 +1933,7 @@
         "oficiales/Ruta_0553_Limpiapistas.ldr": {
             "path": "oficiales/Ruta_0553_Limpiapistas.ldr",
             "id": "46",
-            "title": "EL MUNDO DE LA RUTA Limpiapistas",
+            "title": "EL MUNDO DE LA RUTA - Limpiapistas",
             "seriesNumber": "Ruta",
             "refNumber": "0553",
             "fileTitle": "Limpiapistas",
@@ -1943,7 +1943,7 @@
         "oficiales/Ruta_0553_Multiruedas.ldr": {
             "path": "oficiales/Ruta_0553_Multiruedas.ldr",
             "id": "46",
-            "title": "EL MUNDO DE LA RUTA Multiruedas",
+            "title": "EL MUNDO DE LA RUTA - Multiruedas",
             "seriesNumber": "Ruta",
             "refNumber": "0553",
             "fileTitle": "Flying Van",
@@ -1953,7 +1953,7 @@
         "oficiales/Ruta_0553_Peaje_Autopista.ldr": {
             "path": "oficiales/Ruta_0553_Peaje_Autopista.ldr",
             "id": "46",
-            "title": "EL MUNDO DE LA RUTA Peaje Autopista",
+            "title": "EL MUNDO DE LA RUTA - Peaje Autopista",
             "seriesNumber": "Ruta",
             "refNumber": "0553",
             "fileTitle": "Peaje autopista",
@@ -1963,7 +1963,7 @@
         "oficiales/Ruta_0553_Todoterreno_Cisterna.ldr": {
             "path": "oficiales/Ruta_0553_Todoterreno_Cisterna.ldr",
             "id": "46",
-            "title": "EL MUNDO DE LA RUTA Todoterreno Cisterna",
+            "title": "EL MUNDO DE LA RUTA - Todoterreno Cisterna",
             "seriesNumber": "Ruta",
             "refNumber": "0553",
             "fileTitle": "Sin_nombre",
@@ -1973,7 +1973,7 @@
         "oficiales/Ruta_0553_Torre_Control_Aeropuerto.ldr": {
             "path": "oficiales/Ruta_0553_Torre_Control_Aeropuerto.ldr",
             "id": "46",
-            "title": "EL MUNDO DE LA RUTA Torre Control Aeropuerto",
+            "title": "EL MUNDO DE LA RUTA - Torre Control Aeropuerto",
             "seriesNumber": "Ruta",
             "refNumber": "0553",
             "fileTitle": "Torre de control aeropuerto",
@@ -1983,7 +1983,7 @@
         "oficiales/Ruta_0553_Trailer_Transformador.ldr": {
             "path": "oficiales/Ruta_0553_Trailer_Transformador.ldr",
             "id": "46",
-            "title": "EL MUNDO DE LA RUTA Trailer Transformador",
+            "title": "EL MUNDO DE LA RUTA - Trailer Transformador",
             "seriesNumber": "Ruta",
             "refNumber": "0553",
             "fileTitle": "Trailer con transformador",
@@ -1993,7 +1993,7 @@
         "oficiales/Ruta_0553_Trailer_Transporte_Mineral.ldr": {
             "path": "oficiales/Ruta_0553_Trailer_Transporte_Mineral.ldr",
             "id": "46",
-            "title": "EL MUNDO DE LA RUTA Trailer Transporte Mineral",
+            "title": "EL MUNDO DE LA RUTA - Trailer Transporte Mineral",
             "seriesNumber": "Ruta",
             "refNumber": "0553",
             "fileTitle": "MLCAD BTG ruedas 21",
@@ -2003,7 +2003,7 @@
         "oficiales/Ruta_0553_Transporte_Doble_Articulado.ldr": {
             "path": "oficiales/Ruta_0553_Transporte_Doble_Articulado.ldr",
             "id": "46",
-            "title": "EL MUNDO DE LA RUTA Transporte Doble Articulado",
+            "title": "EL MUNDO DE LA RUTA - Transporte Doble Articulado",
             "seriesNumber": "Ruta",
             "refNumber": "0553",
             "fileTitle": "Transporte doble articulado",
@@ -2013,7 +2013,7 @@
         "oficiales/Ruta_0553_Transporte_Especial.ldr": {
             "path": "oficiales/Ruta_0553_Transporte_Especial.ldr",
             "id": "46",
-            "title": "EL MUNDO DE LA RUTA Transporte Especial",
+            "title": "EL MUNDO DE LA RUTA - Transporte Especial",
             "seriesNumber": "Ruta",
             "refNumber": "0553",
             "fileTitle": "Sin_nombre",
@@ -2023,7 +2023,7 @@
         "oficiales/Ruta_0553_Transporte_Especial_Carga.ldr": {
             "path": "oficiales/Ruta_0553_Transporte_Especial_Carga.ldr",
             "id": "46",
-            "title": "EL MUNDO DE LA RUTA Transporte Especial Carga",
+            "title": "EL MUNDO DE LA RUTA - Transporte Especial Carga",
             "seriesNumber": "Ruta",
             "refNumber": "0553",
             "fileTitle": "Transportes especiales (carga)",
@@ -2033,7 +2033,7 @@
         "oficiales/Ruta_0553_Vehiculo_20_Ruedas.ldr": {
             "path": "oficiales/Ruta_0553_Vehiculo_20_Ruedas.ldr",
             "id": "46",
-            "title": "EL MUNDO DE LA RUTA Vehiculo 20 Ruedas",
+            "title": "EL MUNDO DE LA RUTA - Vehiculo 20 Ruedas",
             "seriesNumber": "Ruta",
             "refNumber": "0553",
             "fileTitle": "Flying Van",
@@ -2043,7 +2043,7 @@
         "oficiales/Ruta_0670_Camion_Plataforma.ldr": {
             "path": "oficiales/Ruta_0670_Camion_Plataforma.ldr",
             "id": "26",
-            "title": "CAMIÓN PLATAFORMA Camion Plataforma",
+            "title": "CAMIÓN PLATAFORMA - Camion Plataforma",
             "seriesNumber": "Ruta",
             "refNumber": "0670",
             "fileTitle": "Camion plataforma",
@@ -2053,7 +2053,7 @@
         "oficiales/Ruta_0671_Camion_Furgon.ldr": {
             "path": "oficiales/Ruta_0671_Camion_Furgon.ldr",
             "id": "27",
-            "title": "CAMIÓN FURGÓN  Camion Furgon",
+            "title": "CAMIÓN FURGÓN  - Camion Furgon",
             "seriesNumber": "Ruta",
             "refNumber": "0671",
             "fileTitle": "Camion furgon",
@@ -2063,7 +2063,7 @@
         "oficiales/Ruta_0672_Camion_Volquete.ldr": {
             "path": "oficiales/Ruta_0672_Camion_Volquete.ldr",
             "id": "28",
-            "title": "CAMIÓN VOLQUETE Camion Volquete",
+            "title": "CAMIÓN VOLQUETE - Camion Volquete",
             "seriesNumber": "Ruta",
             "refNumber": "0672",
             "fileTitle": "Camion volquete (ruta clasica)",
@@ -2073,7 +2073,7 @@
         "oficiales/Ruta_0673_Camion_de_Reparto.ldr": {
             "path": "oficiales/Ruta_0673_Camion_de_Reparto.ldr",
             "id": "29",
-            "title": "CAMIÓN DE REPARTO Camion de Reparto",
+            "title": "CAMIÓN DE REPARTO - Camion de Reparto",
             "seriesNumber": "Ruta",
             "refNumber": "0673",
             "fileTitle": "Camion de reparto",
@@ -2083,7 +2083,7 @@
         "oficiales/Ruta_0674_Autobus_Urbano.ldr": {
             "path": "oficiales/Ruta_0674_Autobus_Urbano.ldr",
             "id": "30",
-            "title": "AUTOBÚS URBANO Autobus Urbano",
+            "title": "AUTOBÚS URBANO - Autobus Urbano",
             "seriesNumber": "Ruta",
             "refNumber": "0674",
             "fileTitle": "Autobus urbano",
@@ -2093,7 +2093,7 @@
         "oficiales/Ruta_0675_Quitanieves.ldr": {
             "path": "oficiales/Ruta_0675_Quitanieves.ldr",
             "id": "31",
-            "title": "QUITANIEVES Quitanieves",
+            "title": "QUITANIEVES - Quitanieves",
             "seriesNumber": "Ruta",
             "refNumber": "0675",
             "fileTitle": "Quitanieves",
@@ -2103,7 +2103,7 @@
         "oficiales/Ruta_0676_Ambulancia.ldr": {
             "path": "oficiales/Ruta_0676_Ambulancia.ldr",
             "id": "32",
-            "title": "AMBULANCIA Ambulancia",
+            "title": "AMBULANCIA - Ambulancia",
             "seriesNumber": "Ruta",
             "refNumber": "0676",
             "fileTitle": "Model exported from LeoCAD",
@@ -2113,7 +2113,7 @@
         "oficiales/Ruta_0677_Autobar.ldr": {
             "path": "oficiales/Ruta_0677_Autobar.ldr",
             "id": "33",
-            "title": "AUTO-BAR Autobar",
+            "title": "AUTO-BAR - Autobar",
             "seriesNumber": "Ruta",
             "refNumber": "0677",
             "fileTitle": "Autobar",
@@ -2123,7 +2123,7 @@
         "oficiales/Ruta_0680_Trailer_Plataforma.ldr": {
             "path": "oficiales/Ruta_0680_Trailer_Plataforma.ldr",
             "id": "34",
-            "title": "TRÁILER PLATAFORMA Trailer Plataforma",
+            "title": "TRÁILER PLATAFORMA - Trailer Plataforma",
             "seriesNumber": "Ruta",
             "refNumber": "0680",
             "fileTitle": "Trailer plataforma",
@@ -2133,7 +2133,7 @@
         "oficiales/Ruta_0681_Trailer_Cisterna_Aeropuerto.ldr": {
             "path": "oficiales/Ruta_0681_Trailer_Cisterna_Aeropuerto.ldr",
             "id": "35",
-            "title": "TRÁILER CISTERNA AEROPUERTO Trailer Cisterna Aeropuerto",
+            "title": "TRÁILER CISTERNA AEROPUERTO - Trailer Cisterna Aeropuerto",
             "seriesNumber": "Ruta",
             "refNumber": "0681",
             "fileTitle": "Trailer cisterna aeropuerto",
@@ -2143,7 +2143,7 @@
         "oficiales/Ruta_0682_Trailer_Transportes_Especiales.ldr": {
             "path": "oficiales/Ruta_0682_Trailer_Transportes_Especiales.ldr",
             "id": "36",
-            "title": "TRÁILER TRANSPORTES ESPECIALES Trailer Transportes Especiales",
+            "title": "TRÁILER TRANSPORTES ESPECIALES - Trailer Transportes Especiales",
             "seriesNumber": "Ruta",
             "refNumber": "0682",
             "fileTitle": "Trailer transportes especiales",
@@ -2153,7 +2153,7 @@
         "oficiales/Ruta_0683_Trailer_Transporte_Internacional.ldr": {
             "path": "oficiales/Ruta_0683_Trailer_Transporte_Internacional.ldr",
             "id": "37",
-            "title": "TRÁILER TRANSPORTE INTERNACIONAL Trailer Transporte Internacional",
+            "title": "TRÁILER TRANSPORTE INTERNACIONAL - Trailer Transporte Internacional",
             "seriesNumber": "Ruta",
             "refNumber": "0683",
             "fileTitle": "Trailer transporte internacional",
@@ -2163,7 +2163,7 @@
         "oficiales/Ruta_0685_Trailer_Transporte_Minerales.ldr": {
             "path": "oficiales/Ruta_0685_Trailer_Transporte_Minerales.ldr",
             "id": "39",
-            "title": "TRÁILER TRANSPORTE MINERALES Trailer Transporte Minerales",
+            "title": "TRÁILER TRANSPORTE MINERALES - Trailer Transporte Minerales",
             "seriesNumber": "Ruta",
             "refNumber": "0685",
             "fileTitle": "Untitled",
@@ -2173,7 +2173,7 @@
         "oficiales/Ruta_0686_Camion_Norfrio.ldr": {
             "path": "oficiales/Ruta_0686_Camion_Norfrio.ldr",
             "id": "40",
-            "title": "TRÁILER FRIGORÍFICO Camion Norfrio",
+            "title": "TRÁILER FRIGORÍFICO - Camion Norfrio",
             "seriesNumber": "Ruta",
             "refNumber": "0686",
             "fileTitle": "Trailer frigorifico (norfrio)",
@@ -2183,7 +2183,7 @@
         "oficiales/Ruta_0690_Camion_de_Bomberos.ldr": {
             "path": "oficiales/Ruta_0690_Camion_de_Bomberos.ldr",
             "id": "42",
-            "title": "CUARTEL Y CAMIÓN BOMBEROS Camion de Bomberos",
+            "title": "CUARTEL Y CAMIÓN BOMBEROS - Camion de Bomberos",
             "seriesNumber": "Ruta",
             "refNumber": "0690",
             "fileTitle": "Camion bomberos",
@@ -2193,7 +2193,7 @@
         "oficiales/Ruta_0690_Cuartel_Bomberos.ldr": {
             "path": "oficiales/Ruta_0690_Cuartel_Bomberos.ldr",
             "id": "42",
-            "title": "CUARTEL Y CAMIÓN BOMBEROS Cuartel Bomberos",
+            "title": "CUARTEL Y CAMIÓN BOMBEROS - Cuartel Bomberos",
             "seriesNumber": "Ruta",
             "refNumber": "0690",
             "fileTitle": "Cuartel de bomberos",
@@ -2203,7 +2203,7 @@
         "oficiales/Ruta_0691_Estacion_Engrase.ldr": {
             "path": "oficiales/Ruta_0691_Estacion_Engrase.ldr",
             "id": "43",
-            "title": "ESTACIÓN DE ENGRASE Y CAMIÓN GRÚA Estacion Engrase",
+            "title": "ESTACIÓN DE ENGRASE Y CAMIÓN GRÚA - Estacion Engrase",
             "seriesNumber": "Ruta",
             "refNumber": "0691",
             "fileTitle": "Estacion de engrase",
@@ -2213,7 +2213,7 @@
         "oficiales/Ruta_0691_Grua_Ruta_Clasica.ldr": {
             "path": "oficiales/Ruta_0691_Grua_Ruta_Clasica.ldr",
             "id": "43",
-            "title": "ESTACIÓN DE ENGRASE Y CAMIÓN GRÚA Grua Ruta Clasica",
+            "title": "ESTACIÓN DE ENGRASE Y CAMIÓN GRÚA - Grua Ruta Clasica",
             "seriesNumber": "Ruta",
             "refNumber": "0691",
             "fileTitle": "Camion grua",
@@ -2223,7 +2223,7 @@
         "oficiales/Ruta_0692_Camion_Cisterna.ldr": {
             "path": "oficiales/Ruta_0692_Camion_Cisterna.ldr",
             "id": "44",
-            "title": "GASOLINERA Y CAMIÓN CISTERNA Camion Cisterna",
+            "title": "GASOLINERA Y CAMIÓN CISTERNA - Camion Cisterna",
             "seriesNumber": "Ruta",
             "refNumber": "0692",
             "fileTitle": "Camion cisterna",
@@ -2233,7 +2233,7 @@
         "oficiales/Ruta_0692_Gasolinera_Ruta_Clasica.ldr": {
             "path": "oficiales/Ruta_0692_Gasolinera_Ruta_Clasica.ldr",
             "id": "44",
-            "title": "GASOLINERA Y CAMIÓN CISTERNA Gasolinera Ruta Clasica",
+            "title": "GASOLINERA Y CAMIÓN CISTERNA - Gasolinera Ruta Clasica",
             "seriesNumber": "Ruta",
             "refNumber": "0692",
             "fileTitle": "Gasolinera (ruta clasica)",
@@ -2243,7 +2243,7 @@
         "oficiales/Ruta_0693_Camion_Cemento.ldr": {
             "path": "oficiales/Ruta_0693_Camion_Cemento.ldr",
             "id": "45",
-            "title": "SILO Y CAMIÓN CEMENTO Camion Cemento",
+            "title": "SILO Y CAMIÓN CEMENTO - Camion Cemento",
             "seriesNumber": "Ruta",
             "refNumber": "0693",
             "fileTitle": "Camion de cemento",
@@ -2253,7 +2253,7 @@
         "oficiales/Ruta_0693_Silo.ldr": {
             "path": "oficiales/Ruta_0693_Silo.ldr",
             "id": "45",
-            "title": "SILO Y CAMIÓN CEMENTO Silo",
+            "title": "SILO Y CAMIÓN CEMENTO - Silo",
             "seriesNumber": "Ruta",
             "refNumber": "0693",
             "fileTitle": "Silo",
@@ -2453,7 +2453,7 @@
         "oficiales/Scorpion_0543_Lanza_Misil_Movil.ldr": {
             "path": "oficiales/Scorpion_0543_Lanza_Misil_Movil.ldr",
             "id": "256",
-            "title": "SCORPIONES DE ACERO Lanza Misil Movil",
+            "title": "SCORPIONES DE ACERO - Lanza Misil Movil",
             "seriesNumber": "Scorpion",
             "refNumber": "0543",
             "fileTitle": "Untitled",
@@ -2463,7 +2463,7 @@
         "oficiales/Scorpion_0543_Misil_Autotransportado.ldr": {
             "path": "oficiales/Scorpion_0543_Misil_Autotransportado.ldr",
             "id": "256",
-            "title": "SCORPIONES DE ACERO Misil Autotransportado",
+            "title": "SCORPIONES DE ACERO - Misil Autotransportado",
             "seriesNumber": "Scorpion",
             "refNumber": "0543",
             "fileTitle": "Untitled",
@@ -2473,7 +2473,7 @@
         "oficiales/Scorpion_0543_Transporte_Blindado.ldr": {
             "path": "oficiales/Scorpion_0543_Transporte_Blindado.ldr",
             "id": "256",
-            "title": "SCORPIONES DE ACERO Transporte Blindado",
+            "title": "SCORPIONES DE ACERO - Transporte Blindado",
             "seriesNumber": "Scorpion",
             "refNumber": "0543",
             "fileTitle": "Untitled",
@@ -2483,7 +2483,7 @@
         "oficiales/Scorpion_0750_Tanque.ldr": {
             "path": "oficiales/Scorpion_0750_Tanque.ldr",
             "id": "257",
-            "title": "TANQUE Tanque",
+            "title": "TANQUE - Tanque",
             "seriesNumber": "Scorpion",
             "refNumber": "0750",
             "fileTitle": "Untitled",
@@ -2493,7 +2493,7 @@
         "oficiales/Scorpion_0751_Transporte_Anfibio.ldr": {
             "path": "oficiales/Scorpion_0751_Transporte_Anfibio.ldr",
             "id": "258",
-            "title": "TRANSPORTE ANFIBIO Transporte Anfibio",
+            "title": "TRANSPORTE ANFIBIO - Transporte Anfibio",
             "seriesNumber": "Scorpion",
             "refNumber": "0751",
             "fileTitle": "Sin_nombre",
@@ -2503,7 +2503,7 @@
         "oficiales/Scorpion_0752_Semioruga.ldr": {
             "path": "oficiales/Scorpion_0752_Semioruga.ldr",
             "id": "259",
-            "title": "SEMI-ORUGA Semioruga",
+            "title": "SEMI-ORUGA - Semioruga",
             "seriesNumber": "Scorpion",
             "refNumber": "0752",
             "fileTitle": "Untitled",
@@ -2513,7 +2513,7 @@
         "oficiales/Scorpion_0755_Ambulancia_de_Campana.ldr": {
             "path": "oficiales/Scorpion_0755_Ambulancia_de_Campana.ldr",
             "id": "262",
-            "title": "AMBULANCIA DE CAMPAÑA Ambulancia de Campana",
+            "title": "AMBULANCIA DE CAMPAÑA - Ambulancia de Campana",
             "seriesNumber": "Scorpion",
             "refNumber": "0755",
             "fileTitle": "Ambulancia de campa�a",
@@ -2523,7 +2523,7 @@
         "oficiales/Serie400_410_Casita_con_Porche.ldr": {
             "path": "oficiales/Serie400_410_Casita_con_Porche.ldr",
             "id": "4",
-            "title": "410 Casita con Porche",
+            "title": "410 - Casita con Porche",
             "seriesNumber": "400",
             "refNumber": "410",
             "fileTitle": "Untitled",
@@ -2533,7 +2533,7 @@
         "oficiales/Serie400_410_Ermita.ldr": {
             "path": "oficiales/Serie400_410_Ermita.ldr",
             "id": "4",
-            "title": "410 Ermita",
+            "title": "410 - Ermita",
             "seriesNumber": "400",
             "refNumber": "410",
             "fileTitle": "Untitled",
@@ -2543,7 +2543,7 @@
         "oficiales/Serie400_410_Gasolinera.ldr": {
             "path": "oficiales/Serie400_410_Gasolinera.ldr",
             "id": "4",
-            "title": "410 Gasolinera",
+            "title": "410 - Gasolinera",
             "seriesNumber": "400",
             "refNumber": "410",
             "fileTitle": "Untitled",
@@ -2553,7 +2553,7 @@
         "oficiales/Serie400_410_Perro_Robot.ldr": {
             "path": "oficiales/Serie400_410_Perro_Robot.ldr",
             "id": "4",
-            "title": "410 Perro Robot",
+            "title": "410 - Perro Robot",
             "seriesNumber": "400",
             "refNumber": "410",
             "fileTitle": "Untitled",
@@ -2563,7 +2563,7 @@
         "oficiales/Serie400_410_Torero.ldr": {
             "path": "oficiales/Serie400_410_Torero.ldr",
             "id": "4",
-            "title": "410 Torero",
+            "title": "410 - Torero",
             "seriesNumber": "400",
             "refNumber": "410",
             "fileTitle": "Untitled",
@@ -2573,7 +2573,7 @@
         "oficiales/Serie400_410_Torre_Control.ldr": {
             "path": "oficiales/Serie400_410_Torre_Control.ldr",
             "id": "4",
-            "title": "410 Torre Control",
+            "title": "410 - Torre Control",
             "seriesNumber": "400",
             "refNumber": "410",
             "fileTitle": "Untitled",
@@ -2583,7 +2583,7 @@
         "oficiales/Serie400_410_Torre_Veraneo.ldr": {
             "path": "oficiales/Serie400_410_Torre_Veraneo.ldr",
             "id": "4",
-            "title": "410 Torre Veraneo",
+            "title": "410 - Torre Veraneo",
             "seriesNumber": "400",
             "refNumber": "410",
             "fileTitle": "Untitled",
@@ -2593,7 +2593,7 @@
         "oficiales/Serie400_420_Estacion_Servicio.ldr": {
             "path": "oficiales/Serie400_420_Estacion_Servicio.ldr",
             "id": "5",
-            "title": "420 Estacion Servicio",
+            "title": "420 - Estacion Servicio",
             "seriesNumber": "400",
             "refNumber": "420",
             "fileTitle": "Untitled",
@@ -2603,7 +2603,7 @@
         "oficiales/Serie400_430_Ballena.ldr": {
             "path": "oficiales/Serie400_430_Ballena.ldr",
             "id": "6",
-            "title": "430 Ballena",
+            "title": "430 - Ballena",
             "seriesNumber": "400",
             "refNumber": "430",
             "fileTitle": "Untitled",
@@ -2613,7 +2613,7 @@
         "oficiales/Serie400_430_Chalet_2_Tejados.ldr": {
             "path": "oficiales/Serie400_430_Chalet_2_Tejados.ldr",
             "id": "6",
-            "title": "430 Chalet 2 Tejados",
+            "title": "430 - Chalet 2 Tejados",
             "seriesNumber": "400",
             "refNumber": "430",
             "fileTitle": "Untitled",
@@ -2623,7 +2623,7 @@
         "oficiales/Serie400_430_Club_Nautico.ldr": {
             "path": "oficiales/Serie400_430_Club_Nautico.ldr",
             "id": "6",
-            "title": "430 Club Nautico",
+            "title": "430 - Club Nautico",
             "seriesNumber": "400",
             "refNumber": "430",
             "fileTitle": "Untitled",
@@ -2633,7 +2633,7 @@
         "oficiales/Serie400_430_Construccion_Singular.ldr": {
             "path": "oficiales/Serie400_430_Construccion_Singular.ldr",
             "id": "6",
-            "title": "430 Construccion Singular",
+            "title": "430 - Construccion Singular",
             "seriesNumber": "400",
             "refNumber": "430",
             "fileTitle": "Untitled",
@@ -2643,7 +2643,7 @@
         "oficiales/Serie400_430_Indio.ldr": {
             "path": "oficiales/Serie400_430_Indio.ldr",
             "id": "6",
-            "title": "430 Indio",
+            "title": "430 - Indio",
             "seriesNumber": "400",
             "refNumber": "430",
             "fileTitle": "Untitled",
@@ -2653,7 +2653,7 @@
         "oficiales/Serie400_430_Parador_de_la_Sierra.ldr": {
             "path": "oficiales/Serie400_430_Parador_de_la_Sierra.ldr",
             "id": "6",
-            "title": "430 Parador de la Sierra",
+            "title": "430 - Parador de la Sierra",
             "seriesNumber": "400",
             "refNumber": "430",
             "fileTitle": "Untitled",
@@ -2663,7 +2663,7 @@
         "oficiales/Serie400_430_Zona_Comercial.ldr": {
             "path": "oficiales/Serie400_430_Zona_Comercial.ldr",
             "id": "6",
-            "title": "430 Zona Comercial",
+            "title": "430 - Zona Comercial",
             "seriesNumber": "400",
             "refNumber": "430",
             "fileTitle": "Untitled",
@@ -2673,7 +2673,7 @@
         "oficiales/Titanium_0452_Astronauta_Expolion.ldr": {
             "path": "oficiales/Titanium_0452_Astronauta_Expolion.ldr",
             "id": "317",
-            "title": "EXPLORION Astronauta Expolion",
+            "title": "EXPLORION - Astronauta Expolion",
             "seriesNumber": "Titanium",
             "refNumber": "0452",
             "fileTitle": "Untitled",
@@ -2683,7 +2683,7 @@
         "oficiales/Titanium_0452_Expolion.ldr": {
             "path": "oficiales/Titanium_0452_Expolion.ldr",
             "id": "317",
-            "title": "EXPLORION Expolion",
+            "title": "EXPLORION - Expolion",
             "seriesNumber": "Titanium",
             "refNumber": "0452",
             "fileTitle": "Untitled",
@@ -2693,7 +2693,7 @@
         "oficiales/Titanium_70021_Patrulla_Espacial.ldr": {
             "path": "oficiales/Titanium_70021_Patrulla_Espacial.ldr",
             "id": "335",
-            "title": "PATRULLA ESPACIAL Patrulla Espacial",
+            "title": "PATRULLA ESPACIAL - Patrulla Espacial",
             "seriesNumber": "Titanium",
             "refNumber": "70021",
             "fileTitle": "Sin_nombre",

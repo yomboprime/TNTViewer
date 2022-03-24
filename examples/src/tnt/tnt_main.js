@@ -1631,6 +1631,7 @@ function setSelectionModeModel( set ) {
 
 }
 
+// TODO add "add" parameter
 function selectPart( part ) {
 
 	if ( selectionModeModel ) {

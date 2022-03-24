@@ -485,7 +485,7 @@ function editModelByDataBase( model, pathFields ) {
 	if ( sourceFields ) {
 
 		model.id = sourceFields[ 0 ];
-		model.title = sourceFields[ 3 ] + " " + model.title;
+		model.title = sourceFields[ 3 ] + " - " + model.title;
 		numModelsInSourceDataBase ++;
 
 	}
