@@ -3,6 +3,9 @@ import * as THREE from '../three/build/three.module.js';
 import { OrbitControls } from '../three/examples/jsm/controls/OrbitControls.js';
 import { RoomEnvironment } from '../three/examples/jsm/environments/RoomEnvironment.js';
 
+const vector3Temp1 = new THREE.Vector3();
+const vector3Temp2 = new THREE.Vector3();
+
 function createPartPreview( width, height, renderer, container ) {
 
 	const partPreviewDiv = document.createElement( 'div' );
@@ -48,11 +51,18 @@ function createPartPreview( width, height, renderer, container ) {
 		scene.add( part );
 		currentPart = part;
 
-		part.userData.modelBbox.getCenter( cameraControls.target0 );
-		const v = cameraControls.position0;
-		part.userData.modelBbox.getSize( v );
-		const max = Math.sqrt( Math.pow( v.x, 2 ) + Math.pow( v.z, 2 ) ) * 0.5;
-		v.set( - 0.42, - 0.5, 1 ).normalize().multiplyScalar( max * 1.5 );
+		part.userData.modelBbox.getCenter( vector3Temp1 );
+		part.userData.modelBbox.getSize( vector3Temp2 );
+		const max = vector3Temp2.length() * 0.6;
+
+		camera.left = - max;
+		camera.right = max;
+		camera.top = max;
+		camera.bottom = - max;
+		camera.updateProjectionMatrix();
+
+		cameraControls.target0.copy( vector3Temp1 );
+		cameraControls.position0.set( 1, 1, 1 ).normalize().multiplyScalar( max ).add( vector3Temp1 );
 		cameraControls.reset();
 
 		triggerRender();
@@ -67,7 +77,7 @@ function createPartPreview( width, height, renderer, container ) {
 		renderer.setRenderTarget( currentRenderTarget );
 		renderer.readRenderTargetPixels( renderTarget, 0, 0, width, height, readImage );
 		let pOrig = 0;
-		let pDest = 0;
+		let pDest = ( height - 1 ) * width * 4;
 		for ( let j = 0; j < height; j ++ ) {
 
 			for ( let i = 0; i < width; i ++ ) {
@@ -78,6 +88,8 @@ function createPartPreview( width, height, renderer, container ) {
 				pixelsData[ pDest ++ ] = readImage[ pOrig ++ ];
 
 			}
+
+			pDest -= 2 * width * 4;
 
 		}
 		ctx.putImageData( pixels, 0, 0 );
