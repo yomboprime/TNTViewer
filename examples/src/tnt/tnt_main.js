@@ -11,6 +11,7 @@ import { LDrawLoader } from '../three/examples/jsm/loaders/LDrawLoader.js';
 
 import * as FileOperations from './fileOperations.js';
 import { iconEmojis } from './iconEmojis.js';
+import { createPartPreview } from './partPreview.js';
 
 const GUI_WIDTH = 500;
 
@@ -40,7 +41,7 @@ const constructionSets = {
 };
 let currentConstructionSet;
 
-let container, progressBarDiv, sideBarDiv, scrolledDiv;
+let container, progressBarDiv, sideBarDiv, scrolledDiv, partPreview;
 let camera, scene, renderer;
 let cameraControls, transformControls;
 
@@ -147,7 +148,7 @@ let scaleSnap;
 let localCoordinateSystem = true;
 
 let selectedModelRowIndex = null;
-let selectedPartRowIndex = null;
+let selectedPartRowIndex = 0;
 let selectedColorRowIndex = null;
 
 
@@ -1439,17 +1440,21 @@ function addLDrawPartOrModel( model, parentModel ) {
 
 	}
 
+	processPartOrModel( model, parentModel !== null, parentModel === null );
+
+
+}
+
+function processPartOrModel( part, isPart, invert ) {
+
 	// Convert from LDraw coordinate system: rotate 180 degrees around X axis
-	if ( ! parentModel ) model.rotation.x = Math.PI;
+	if ( invert ) part.rotation.x = Math.PI;
 
-	createModelBBox( model );
-
-	// Put above floor
-	//if ( ! parentModel ) model.position.y = - model.userData.modelBbox.min.y;
+	createModelBBox( part );
 
 	// Extrude a little bit the stickers
 	const stickers = [];
-	model.traverse( c => {
+	part.traverse( c => {
 
 		if ( c.userData.fileName ) {
 
@@ -1484,7 +1489,7 @@ function addLDrawPartOrModel( model, parentModel ) {
 
 	}
 
-	if ( parentModel ) applyMainMaterialToPart( model, selectedColorCode );
+	if ( isPart ) applyMainMaterialToPart( part, selectedColorCode );
 
 }
 
@@ -2406,6 +2411,10 @@ function createGUI() {
 	}
 
 	if ( scrolledDiv && container.contains( scrolledDiv ) ) container.removeChild( scrolledDiv );
+
+	if ( partPreview && container.contains( partPreview.div ) ) container.removeChild( partPreview.div );
+
+
 	sideBarDiv = document.createElement( 'div' );
 	scrolledDiv = createScrolledDiv( sideBarDiv );
 	scrolledDiv.style.position = 'absolute';
@@ -2932,6 +2941,9 @@ function createGUI() {
 	ldrawLogoDiv.appendChild( p3 );
 	infoPanel.appendChild( ldrawLogoDiv );
 
+	partPreview = createPartPreview( 256, 256, renderer, container );
+	partPreview.div.hidden = true;
+
 	guiCreated = true;
 
 	onWindowResize();
@@ -3178,13 +3190,33 @@ function showSelectLDrawPartFromRepo( parentModel, onOK ) {
 		selectedPartRowIndex = rowIndex;
 		loadLDrawModelFromRepo( "../parts/" + data[ rowIndex ].path, parentModel, ( part ) => {
 
+			partPreview.div.hidden = true;
 			onOK( part );
 
 		} );
 
 	}
 
-	partSelectPanel = showSelectTable( 'Ok', onSelectOK, null, infoLine, columns, columnsNames, data, true, selectedPartRowIndex, true, 0 );
+	function onCancel() {
+
+		partPreview.div.hidden = true;
+
+	}
+
+	function onRowPreselected( rowIndex ) {
+
+		lDrawLoader.load( "../parts/" + data[ rowIndex ].path, function ( part ) {
+
+			processPartOrModel( part, true, true );
+			partPreview.updatePart( part );
+			partPreview.div.hidden = false;
+
+		}, onProgress, onError );
+
+	}
+
+	partPreview.div.hidden = false;
+	partSelectPanel = showSelectTable( 'Ok', onSelectOK, onCancel, infoLine, columns, columnsNames, data, true, selectedPartRowIndex, true, 0, onRowPreselected );
 
 }
 
@@ -3304,7 +3336,7 @@ function removeAccents( str ) {
 
 }
 
-function showSelectTable( buttonLabel, onButtonClicked, onCloseCancel, infoLine, columns, columnsNames, data, rowSelection, preselectedRow, filterEnabled, categoryColumnIndex ) {
+function showSelectTable( buttonLabel, onButtonClicked, onCloseCancel, infoLine, columns, columnsNames, data, rowSelection, preselectedRow, filterEnabled, categoryColumnIndex, onRowPreselected ) {
 
 	//const containerElement = document.body;
 	const containerElement = container;
@@ -3422,7 +3454,6 @@ function showSelectTable( buttonLabel, onButtonClicked, onCloseCancel, infoLine,
 	}
 
 	let preselectedDataRow = null;
-	let preselectedDataRowFunc = null;
 
 	let tableDataRows = [];
 
@@ -3452,6 +3483,8 @@ function showSelectTable( buttonLabel, onButtonClicked, onCloseCancel, infoLine,
 			styleRow( selectedDataRow, true );
 
 			if ( button ) setButtonDisabled( button, false );
+
+			if ( onRowPreselected ) onRowPreselected( selectedRow );
 
 		}
 
@@ -3491,7 +3524,6 @@ function showSelectTable( buttonLabel, onButtonClicked, onCloseCancel, infoLine,
 			if ( index === preselectedRow ) {
 
 				preselectedDataRow = tableDataRow;
-				preselectedDataRowFunc = () => { rowClicked(); };
 
 			}
 
@@ -3541,13 +3573,13 @@ function showSelectTable( buttonLabel, onButtonClicked, onCloseCancel, infoLine,
 
 	}
 
-	for ( let r in data ) createRow( r );
+	for ( let r = 0, n = data.length; r < n; r ++ ) createRow( r );
 
 	containerElement.appendChild( listDiv );
 
-	if ( rowSelection && preselectedDataRowFunc ) {
+	if ( rowSelection ) {
 
-		preselectedDataRowFunc();
+		preselectedDataRow.doClick();
 		preselectedDataRow.scrollIntoView();
 
 	}
