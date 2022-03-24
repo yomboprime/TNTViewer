@@ -14,6 +14,9 @@ function createPartPreview( width, height, renderer, container ) {
 	partPreviewDiv.style.position = "absolute";
 	partPreviewDiv.style.bottom = "0px";
 	partPreviewDiv.style.left = "0px";
+	partPreviewDiv.style.border = "solid";
+	partPreviewDiv.style.borderWidth = "2px";
+	partPreviewDiv.style.borderColor = "black";
 	partPreviewDiv.style.backgroundColor = "black";
 
 	container.appendChild( partPreviewDiv );
