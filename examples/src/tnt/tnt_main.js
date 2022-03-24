@@ -531,6 +531,11 @@ function init() {
 
 			if ( initialModel ) loadLDrawModelFromRepo( initialModel, null, ( model ) => {
 
+				// TODO revise camera repositioning and object apparent zoom
+				const pos = model.userData.modelBbox.getCenter( vector3Temp1 );
+				pos.y += model.position.y;
+				setCamera( model, pos.x, pos.y, pos.z );
+
 				setSelectionModeModel( true );
 				selectPart( model );
 				centerCameraInObject();
