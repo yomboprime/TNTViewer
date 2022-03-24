@@ -28,7 +28,7 @@ function createPartPreview( width, height, renderer, container ) {
 	const pixels = ctx.getImageData( 0, 0, width, height );
 	const pixelsData = pixels.data;
 
-	const camera = new THREE.OrthographicCamera( width / - 2, width / 2, height / 2, height / - 2, 0.1, 1000 );
+	const camera = new THREE.OrthographicCamera( width / - 2, width / 2, height / 2, height / - 2, 0.1, 2000 );
 	camera.position.set( 150, 200, 250 );
 
 	const pmremGenerator = new THREE.PMREMGenerator( renderer );
@@ -49,11 +49,10 @@ function createPartPreview( width, height, renderer, container ) {
 		currentPart = part;
 
 		part.userData.modelBbox.getCenter( cameraControls.target0 );
-		part.userData.modelBbox.getSize( cameraControls.position0 );
-
 		const v = cameraControls.position0;
-		const max = Math.max( Math.abs( v.x ), Math.max( Math.abs( v.y ), Math.abs( v.z ) ) );
-		cameraControls.position0.set( - 0.42, 0.5, 1 ).setLength( max );
+		part.userData.modelBbox.getSize( v );
+		const max = Math.sqrt( Math.pow( v.x, 2 ) + Math.pow( v.z, 2 ) ) * 0.5;
+		v.set( - 0.42, - 0.5, 1 ).normalize().multiplyScalar( max * 1.5 );
 		cameraControls.reset();
 
 		triggerRender();
@@ -68,7 +67,7 @@ function createPartPreview( width, height, renderer, container ) {
 		renderer.setRenderTarget( currentRenderTarget );
 		renderer.readRenderTargetPixels( renderTarget, 0, 0, width, height, readImage );
 		let pOrig = 0;
-		let pDest = ( height - 1 ) * width * 4;
+		let pDest = 0;
 		for ( let j = 0; j < height; j ++ ) {
 
 			for ( let i = 0; i < width; i ++ ) {
@@ -79,8 +78,6 @@ function createPartPreview( width, height, renderer, container ) {
 				pixelsData[ pDest ++ ] = readImage[ pOrig ++ ];
 
 			}
-
-			pDest -= 2 * width * 4;
 
 		}
 		ctx.putImageData( pixels, 0, 0 );

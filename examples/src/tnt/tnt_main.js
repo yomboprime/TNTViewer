@@ -3207,7 +3207,7 @@ function showSelectLDrawPartFromRepo( parentModel, onOK ) {
 
 		lDrawLoader.load( "../parts/" + data[ rowIndex ].path, function ( part ) {
 
-			processPartOrModel( part, true, true );
+			processPartOrModel( part, true, false );
 			partPreview.updatePart( part );
 			partPreview.div.hidden = false;
 
