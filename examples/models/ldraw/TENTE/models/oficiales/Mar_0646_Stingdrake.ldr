@@ -148,9 +148,8 @@
 0 FILE p_stingd.dat
 0 Etiqueta STINGDRAKE
 0 Author: jasolo
+0 BFC CERTIFY CCW
 0 etiqueta babor
-0 ROTATION CENTER 0 0 0 1 "Custom" 
-0 ROTATION CONFIG 0 0
 3 16 60.027 -3 -8.889 60.1 -4.3 -3 60.075 -4.3 -7.33
 3 16 60.093 -6.41 -7.33 60.1 -7.72 -3.44 60.099 -7.72 -7.33
 3 16 60.027 -3 -8.889 60.099 -7.72 -7.33 60.1 -9.43 -7.33

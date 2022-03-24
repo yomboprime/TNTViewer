@@ -1,0 +1,43 @@
+0 Sin_nombre
+0 Name: Astro_70022_desintegrador_borras.ldr
+0 Author: CPCBEGIN
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 15 -80 24 0 1 0 0 0 1 0 0 0 1 jacen2x8.dat
+1 4 -40 32 30 0 0 -1 0 1 0 1 0 0 rueastro.dat
+1 4 80 32 30 0 0 -1 0 1 0 1 0 0 rueastro.dat
+1 4 20 32 30 0 0 -1 0 1 0 1 0 0 rueastro.dat
+1 32 -60 -8 20 1 0 0 0 1 0 0 0 1 semicupg.dat
+1 32 -60 -8 20 -1 0 0 0 1 0 0 0 -1 semicupg.dat
+1 8 70 24 50 -1 0 0 0 1 0 0 0 -1 amortigu.dat
+1 8 50 24 50 -1 0 0 0 1 0 0 0 -1 amortigu.dat
+1 8 50 24 -10 -1 0 0 0 1 0 0 0 -1 amortigu.dat
+1 8 70 24 -10 -1 0 0 0 1 0 0 0 -1 amortigu.dat
+1 15 60 0 20 -1 0 0 0 1 0 0 0 -1 placa2x3.dat
+1 15 60 0 60 -1 0 0 0 1 0 0 0 -1 placa2x3.dat
+1 15 -40 0 40 -1 0 0 0 1 0 0 0 -1 placa2x3.dat
+1 15 80 0 -20 0 0 -1 0 1 0 1 0 0 placa4.dat
+1 15 80 -8 40 -1 0 0 0 1 0 0 0 -1 jacen2x4.dat
+1 15 0 -56 80 0 0 1 0 1 0 -1 0 0 placa4x6.dat
+1 15 80 -32 40 -1 0 0 0 1 0 0 0 -1 jacen2x4.dat
+1 15 80 -72 20 0 0 -1 0 1 0 1 0 0 bisnraba.dat
+1 15 80 -72 20 0 0 -1 0 1 0 1 0 0 bisnrarr.dat
+1 0 80 -72 20 0 0 -1 0 1 0 1 0 0 bisnreje.dat
+1 4 40 -8 0 1 0 0 0 1 0 0 0 1 pico.dat
+1 383 40 8 0 0 0 -1 0 1 0 1 0 0 tbesctrp.dat
+1 383 0 8 40 0 0 1 0 1 0 -1 0 0 tbesctrp.dat
+1 4 80 -8 40 -1 0 0 0 1 0 0 0 -1 pico.dat
+1 15 60 -80 40 -1 0 0 0 1 0 0 0 -1 pistola.dat
+1 15 60 -80 20 -1 0 0 0 1 0 0 0 -1 pistola.dat
+1 4 20 -96 10 0 1 0 0 0 1 1 0 0 chimplac.dat
+1 15 -20 -96 10 0 1 0 0 0 1 1 0 0 chimplac.dat
+1 4 -28 -96 10 0 1 0 0 0 1 1 0 0 chimplac.dat
+1 46 -36 -96 10 0 1 0 0 0 1 1 0 0 amortigu.dat
+1 46 -36 -96 30 0 1 0 0 0 1 1 0 0 amortigu.dat
+1 15 4 -96 10 0 1 0 0 0 1 1 0 0 cilindro.dat
+1 15 4 -96 30 0 1 0 0 0 1 1 0 0 cilindro.dat
+1 15 12 -96 10 0 1 0 0 0 1 1 0 0 chimplac.dat
+1 15 40 -64 40 0 0 -1 0 1 0 1 0 0 semicumg.dat
+1 15 40 -64 0 0 0 1 0 1 0 -1 0 0 semicumg.dat
+0

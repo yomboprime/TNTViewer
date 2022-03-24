@@ -1,0 +1,38 @@
+0 Untitled
+0 Name: 401_buho.ldr
+0 Author: jasolo & abeldb
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 0 -50 0 0 0 0 1 0 1 0 -1 0 0 jacen2x4.dat
+1 0 -50 -24 -20 0 0 1 0 1 0 -1 0 0 jacen2x2.dat
+1 0 30 0 0 0 0 1 0 1 0 -1 0 0 jacen2x4.dat
+1 1 50 -72 0 0 0 1 0 1 0 -1 0 0 jacen2x4.dat
+1 1 50 -96 -20 0 0 1 0 1 0 -1 0 0 jacen2x4.dat
+1 1 50 -120 -20 0 0 1 0 1 0 -1 0 0 jacen2x4.dat
+1 1 10 -144 -80 1 0 0 0 1 0 0 0 1 jacen2x4.dat
+1 1 -70 -144 -80 1 0 0 0 1 0 0 0 1 jacen2x4.dat
+1 1 -70 -72 0 0 0 1 0 1 0 -1 0 0 jacen2x4.dat
+1 0 30 -24 -20 0 0 1 0 1 0 -1 0 0 jacen2x2.dat
+1 15 50 -72 -40 -1 0 0 0 1 0 0 0 -1 jacen2x4.dat
+1 15 50 -120 -20 -1 0 0 0 1 0 0 0 -1 jacen2x4.dat
+1 15 50 -120 -60 -1 0 0 0 1 0 0 0 -1 jacen2x4.dat
+1 15 -10 -192 -60 -1 0 0 0 1 0 0 0 -1 jacena2.dat
+1 15 70 -192 -60 -1 0 0 0 1 0 0 0 -1 jacena2.dat
+1 15 -40 -216 -70 -1 0 0 0 1 0 0 0 -1 jacena1.dat
+1 15 60 -216 -70 -1 0 0 0 1 0 0 0 -1 jacena1.dat
+1 4 50 -144 -80 -1 0 0 0 1 0 0 0 -1 jacen2x4.dat
+1 4 30 -168 -60 -1 0 0 0 1 0 0 0 -1 jacen2x2.dat
+1 14 70 -168 -60 -1 0 0 0 1 0 0 0 -1 jacen2x2.dat
+1 14 -10 -168 -60 -1 0 0 0 1 0 0 0 -1 jacen2x2.dat
+1 4 10 -120 -110 -1 0 0 0 1 0 0 0 -1 jacena1.dat
+1 15 50 -72 0 -1 0 0 0 1 0 0 0 -1 jacen2x4.dat
+1 15 10 -96 -80 0 0 -1 0 1 0 1 0 0 jacen2x4.dat
+1 15 10 -48 -60 0 0 -1 0 1 0 1 0 0 jacen2x4.dat
+1 15 50 -48 -60 0 0 -1 0 1 0 1 0 0 jacen2x4.dat
+1 15 50 -96 -80 0 0 -1 0 1 0 1 0 0 jacen2x4.dat
+1 1 50 -48 0 0 0 1 0 1 0 -1 0 0 jacen2x2.dat
+1 1 -70 -96 -20 0 0 1 0 1 0 -1 0 0 jacen2x4.dat
+1 1 -70 -120 -20 0 0 1 0 1 0 -1 0 0 jacen2x4.dat
+1 1 -70 -48 0 0 0 1 0 1 0 -1 0 0 jacen2x2.dat
+0

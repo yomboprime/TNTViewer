@@ -228,9 +228,9 @@ for ( let i in partsTempArray ) {
 	dataBase.partsPathsList.push( part.path );
 	dataBase.parts[ part.path ] = part;
 
-	const category = dataBase.partsCategories[ part.category ];
+	const category = dataBase.partsCategories[ part.mainCategory ];
 
-	if ( ! category ) dataBase.partsCategories[ part.category ] = [ part.path ];
+	if ( ! category ) dataBase.partsCategories[ part.mainCategory ] = [ part.path ];
 	else category.push( part.path );
 
 }
@@ -266,6 +266,25 @@ dataBase.modelPathsList.sort( ( a, b ) => {
 	return a === b ? 0 : ( a < b ? - 1 : 1 );
 } );
 
+
+const countryCodes = [
+	'ESP',
+	'INT',
+	'GBR',
+	'FRA',
+	'BNL',
+	'GER',
+	'ITA',
+	'GRC',
+	'ARG',
+	'MEX',
+	'BRA',
+	'USA',
+	'CAN',
+	'JPN'
+];
+
+let numOfficialModels = 0;
 let numModelsInSourceDataBase = 0;
 for ( let i in dataBase.modelPathsList ) {
 
@@ -287,6 +306,8 @@ for ( let i in dataBase.modelPathsList ) {
 
 	if ( modelPath.startsWith( 'oficiales/' ) ) {
 
+		numOfficialModels ++;
+
 		let pathFieldsStr = modelPath;
 		if ( pathFieldsStr.endsWith( '.ldr' ) ) pathFieldsStr = pathFieldsStr.substring( 0, pathFieldsStr.length - 4 );
 		const pathFields = pathFieldsStr.substring( 'oficiales/'.length ).split( '_' );
@@ -295,19 +316,20 @@ for ( let i in dataBase.modelPathsList ) {
 		if ( numPathFields === 1 ) model.title = pathFields[ 0 ];
 		else {
 
-			if ( Number.isInteger( parseInt( pathFields[ 0 ] ) )  ) pathFields[ 0 ] = 'Serie' + pathFields[ 0 ];
-
 			if ( pathFields[ 0 ].startsWith( 'Serie' ) ) pathFields[ 0 ] = pathFields[ 0 ].substring( 'Serie'.length );
 
+			let titleFirstField = 3;
 
-			pathFields[ 0 ] = pathFields[ 0 ].replace( '-', ' ' );
-
-			if ( numPathFields === 2 ) {
+			if ( countryCodes.includes( pathFields[ 1 ] ) ) {
 
 				model.seriesNumber = pathFields[ 0 ];
-				model.refNumber = pathFields[ 1 ];
+				model.refNumber = pathFields[ 2 ];
 
-				editModelByDataBase( model, pathFields );
+			}
+			else if ( Number.isInteger( parseInt( pathFields[ 2 ] ) ) ) {
+
+				model.seriesNumber = pathFields[ 0 ] + " " + pathFields[ 1 ];
+				model.refNumber = pathFields[ 2 ];
 
 			}
 			else {
@@ -315,13 +337,15 @@ for ( let i in dataBase.modelPathsList ) {
 				model.seriesNumber = pathFields[ 0 ];
 				model.refNumber = pathFields[ 1 ];
 
-				const titleParts = [];
-				for ( let j = 2; j < numPathFields; j ++ ) titleParts.push( pathFields[ j ] );
-				model.title = titleParts.join( ' ' );
-
-				editModelByDataBase( model, pathFields );
+				titleFirstField = 2;
 
 			}
+
+			const titleParts = [];
+			for ( let j = titleFirstField; j < numPathFields; j ++ ) titleParts.push( pathFields[ j ] );
+			model.title = titleParts.join( ' ' );
+
+			editModelByDataBase( model );
 
 		}
 
@@ -465,24 +489,18 @@ function editModelByDataBase( model, pathFields ) {
 		numModelsInSourceDataBase ++;
 
 	}
-	else {
-
-		model.seriesNumber = "";
-		model.refNumber = "";
-
-		const titleParts = [];
-		for ( let j = 0; j < pathFields.length; j ++ ) titleParts.push( pathFields[ j ] );
-
-		model.title = titleParts.length > 0 ? titleParts.join( ' ' ) : '';
-
-	}
 
 }
 
 console.log();
 console.log( "Total models: " + dataBase.modelPathsList.length );
 
-console.log( "Models in source database: " + numModelsInSourceDataBase );
+console.log( "Official models: " + numOfficialModels );
+console.log( "Custom models: " + ( dataBase.modelPathsList.length - numOfficialModels ) );
+
+const percent = Math.floor( 10000 * numModelsInSourceDataBase / numOfficialModels ) / 100;
+
+console.log( "Official models in source database: " + numModelsInSourceDataBase + " (" + percent + " %)" );
 
 console.log( "Used colors in all models: " + dataBase.colorsCodesList.length );
 

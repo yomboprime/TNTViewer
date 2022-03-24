@@ -165,9 +165,8 @@
 0 FILE p_jupite.dat
 0 Etiqueta JUPITER
 0 Author: jasolo
+0 BFC CERTIFY CCW
 0 etiqueta babor
-0 ROTATION CENTER 0 0 0 1 "Custom" 
-0 ROTATION CONFIG 0 0
 3 16 60.1 -10.74 -6.67 60.099 -9.43 -8.4 60.1 -9.43 -7.18
 3 16 60.1 -9.3 -5.7 60.1 -9.1 -5.45 60.1 -10.53 -4.87
 3 16 60.1 -9.43 -7.18 60.1 -9.43 -6.42 60.1 -10.69 -5.6

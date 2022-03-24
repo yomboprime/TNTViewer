@@ -1,0 +1,31 @@
+0 Untitled
+0 Name: 401_sencillo5.ldr
+0 Author: jasolo & abeldb
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 15 0 0 -40 1 0 0 0 1 0 0 0 1 placa4x8.dat
+1 15 -160 0 -40 1 0 0 0 1 0 0 0 1 placa4x8.dat
+1 4 80 -8 40 0 0 1 0 1 0 -1 0 0 jacen2x4.dat
+1 4 40 -8 40 0 0 1 0 1 0 -1 0 0 jacen2x4.dat
+1 4 -160 -8 40 0 0 1 0 1 0 -1 0 0 jacen2x4.dat
+1 4 -120 -8 0 1 0 0 0 1 0 0 0 1 jacen2x8.dat
+1 4 -120 -8 -40 1 0 0 0 1 0 0 0 1 jacen2x8.dat
+1 15 60 -32 -20 1 0 0 0 1 0 0 0 1 jacen2x2.dat
+1 1 40 -56 -20 1 0 0 0 1 0 0 0 1 jacen2x2.dat
+1 1 -20 -56 -20 1 0 0 0 1 0 0 0 1 jacen2x2.dat
+1 1 40 -80 -20 1 0 0 0 1 0 0 0 1 jacen2x2.dat
+1 1 -20 -80 -20 1 0 0 0 1 0 0 0 1 jacen2x2.dat
+1 0 40 -104 -20 1 0 0 0 1 0 0 0 1 jacen2x2.dat
+1 0 -20 -104 -20 1 0 0 0 1 0 0 0 1 jacen2x2.dat
+1 15 -140 -32 -20 1 0 0 0 1 0 0 0 1 jacen2x2.dat
+1 4 120 -8 40 0 0 1 0 1 0 -1 0 0 jacen2x4.dat
+1 15 -20 -32 40 0 0 1 0 1 0 -1 0 0 jacen2x4.dat
+1 15 -60 -32 40 0 0 1 0 1 0 -1 0 0 jacen2x4.dat
+1 15 -100 -32 40 0 0 1 0 1 0 -1 0 0 jacen2x4.dat
+1 14 -80 -56 40 0 0 1 0 1 0 -1 0 0 jacen2x4.dat
+1 47 -100 -56 40 0 0 1 0 1 0 -1 0 0 jacena2.dat
+1 47 -100 -56 0 0 0 1 0 1 0 -1 0 0 jacena2.dat
+1 1 -100 -80 40 0 0 1 0 1 0 -1 0 0 jacen2x4.dat
+1 15 20 -32 40 0 0 1 0 1 0 -1 0 0 jacen2x4.dat
+0

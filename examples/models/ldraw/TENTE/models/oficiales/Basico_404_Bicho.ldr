@@ -1,0 +1,79 @@
+0 Untitled
+0 Name: 404_Bicho.ldr
+0 Author: jasolo & abeldb
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 4 30 0 0 0 0 1 0 1 0 -1 0 0 ruerj42t.dat
+1 4 110 0 0 0 0 1 0 1 0 -1 0 0 ruerj42t.dat
+1 4 190 0 0 0 0 1 0 1 0 -1 0 0 rueruj4t.dat
+1 0 170 0 40 0 0 1 0 1 0 -1 0 0 jacen2x4.dat
+1 0 90 0 40 0 0 1 0 1 0 -1 0 0 jacen2x4.dat
+1 15 170 -24 40 0 0 1 0 1 0 -1 0 0 jacen2x4.dat
+1 1 170 -48 40 0 0 1 0 1 0 -1 0 0 jacen2x4.dat
+1 4 -50 0 0 0 0 1 0 1 0 -1 0 0 ruerj42t.dat
+1 0 -70 0 40 0 0 1 0 1 0 -1 0 0 jacen2x4.dat
+1 1 -70 -48 40 0 0 1 0 1 0 -1 0 0 jacen2x4.dat
+1 15 170 -120 40 0 0 1 0 1 0 -1 0 0 jacen2x4.dat
+1 15 170 -168 20 1 0 0 0 1 0 0 0 1 jacena2.dat
+1 15 170 -168 -40 1 0 0 0 1 0 0 0 1 jacena2.dat
+1 47 230 -184 -20 0 0 -1 0 1 0 1 0 0 jacena2.dat
+1 47 90 -184 -20 0 0 -1 0 1 0 1 0 0 jacena2.dat
+1 15 70 -176 -20 1 0 0 0 1 0 0 0 1 placa2x8.dat
+1 47 150 -136 -20 0 0 -1 0 1 0 1 0 0 jacena2.dat
+1 47 10 -136 -20 0 0 -1 0 1 0 1 0 0 jacena2.dat
+1 4 -10 -128 -20 1 0 0 0 1 0 0 0 1 placa2x8.dat
+1 47 70 -88 -20 0 0 -1 0 1 0 1 0 0 jacena2.dat
+1 47 -70 -88 -20 0 0 -1 0 1 0 1 0 0 jacena2.dat
+1 15 -90 -80 -20 1 0 0 0 1 0 0 0 1 placa2x8.dat
+1 47 -10 -40 -20 0 0 -1 0 1 0 1 0 0 jacena2.dat
+1 47 -150 -40 -20 0 0 -1 0 1 0 1 0 0 jacena2.dat
+1 4 -170 -32 -20 1 0 0 0 1 0 0 0 1 placa2x8.dat
+1 15 90 -120 -40 1 0 0 0 1 0 0 0 1 jacena2.dat
+1 15 10 -72 -40 1 0 0 0 1 0 0 0 1 jacena2.dat
+1 15 -70 -24 -40 1 0 0 0 1 0 0 0 1 jacena2.dat
+1 4 -130 0 0 0 0 1 0 1 0 -1 0 0 ruerj42t.dat
+1 0 -150 0 40 0 0 1 0 1 0 -1 0 0 jacen2x4.dat
+1 1 -150 -48 40 0 0 1 0 1 0 -1 0 0 jacen2x4.dat
+1 15 -150 -24 -40 1 0 0 0 1 0 0 0 1 jacena2.dat
+1 15 -70 -24 20 1 0 0 0 1 0 0 0 1 jacena2.dat
+1 15 10 -72 20 1 0 0 0 1 0 0 0 1 jacena2.dat
+1 15 90 -120 20 1 0 0 0 1 0 0 0 1 jacena2.dat
+1 4 90 -168 -40 1 0 0 0 1 0 0 0 1 jacena2.dat
+1 4 10 -120 -40 1 0 0 0 1 0 0 0 1 jacena2.dat
+1 4 -70 -72 -40 1 0 0 0 1 0 0 0 1 jacena2.dat
+1 4 -70 -72 20 1 0 0 0 1 0 0 0 1 jacena2.dat
+1 4 10 -120 20 1 0 0 0 1 0 0 0 1 jacena2.dat
+1 4 90 -168 20 1 0 0 0 1 0 0 0 1 jacena2.dat
+1 15 170 -240 -20 1 0 0 0 1 0 0 0 1 jacen2x2.dat
+1 15 220 -288 -30 1 0 0 0 1 0 0 0 1 cilindro.dat
+1 15 -160 -64 -10 1 0 0 0 1 0 0 0 1 cilindro.dat
+1 15 -160 -64 10 1 0 0 0 1 0 0 0 1 cilindro.dat
+1 15 220 -288 30 1 0 0 0 1 0 0 0 1 cilindro.dat
+1 0 200 -312 30 1 0 0 0 1 0 0 0 1 cilindro.dat
+1 0 200 -336 30 1 0 0 0 1 0 0 0 1 cilindro.dat
+1 0 200 -312 -30 1 0 0 0 1 0 0 0 1 cilindro.dat
+1 0 200 -336 -30 1 0 0 0 1 0 0 0 1 cilindro.dat
+1 1 170 -144 40 0 0 1 0 1 0 -1 0 0 jacen2x4.dat
+1 1 90 -144 40 0 0 1 0 1 0 -1 0 0 jacen2x4.dat
+1 1 170 -216 40 0 0 1 0 1 0 -1 0 0 jacen2x4.dat
+1 1 90 -192 40 0 0 1 0 1 0 -1 0 0 jacen2x4.dat
+1 1 150 -264 0 1 0 0 0 1 0 0 0 1 jacen2x4.dat
+1 1 150 -264 -40 1 0 0 0 1 0 0 0 1 jacen2x4.dat
+1 4 170 -72 40 0 0 1 0 1 0 -1 0 0 jacen2x4.dat
+1 4 -70 -96 40 0 0 1 0 1 0 -1 0 0 jacen2x4.dat
+1 4 210 -288 40 -1 0 0 0 1 0 0 0 -1 jacen2x3.dat
+1 4 210 -288 0 -1 0 0 0 1 0 0 0 -1 jacen2x3.dat
+1 14 170 -96 40 0 0 1 0 1 0 -1 0 0 jacen2x4.dat
+1 15 90 -24 40 0 0 1 0 1 0 -1 0 0 jacen2x4.dat
+1 0 10 0 40 0 0 1 0 1 0 -1 0 0 jacen2x4.dat
+1 15 10 -24 40 0 0 1 0 1 0 -1 0 0 jacen2x4.dat
+1 1 90 -48 40 0 0 1 0 1 0 -1 0 0 jacen2x4.dat
+1 1 10 -96 40 0 0 1 0 1 0 -1 0 0 jacen2x4.dat
+1 4 90 -72 40 0 0 1 0 1 0 -1 0 0 jacen2x4.dat
+1 14 90 -96 40 0 0 1 0 1 0 -1 0 0 jacen2x4.dat
+1 14 10 -144 40 0 0 1 0 1 0 -1 0 0 jacen2x4.dat
+1 14 10 -48 40 0 0 1 0 1 0 -1 0 0 jacen2x4.dat
+1 14 170 -192 40 0 0 1 0 1 0 -1 0 0 jacen2x4.dat
+1 14 170 -312 20 0 0 1 0 1 0 -1 0 0 jacen2x2.dat
+0

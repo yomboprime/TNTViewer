@@ -1,0 +1,20 @@
+0 Untitled
+0 Name: 401_sencillo6.ldr
+0 Author: jasolo & abeldb
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 4 -110 -48 -20 1 0 0 0 1 0 0 0 1 jacen2x8.dat
+1 4 -30 -96 80 0 0 1 0 1 0 -1 0 0 jacen2x8.dat
+1 14 -50 -24 -20 1 0 0 0 1 0 0 0 1 jacen2x2.dat
+1 4 10 -96 -20 1 0 0 0 1 0 0 0 1 jacen2x2.dat
+1 4 10 -120 -20 1 0 0 0 1 0 0 0 1 jacen2x2.dat
+1 4 10 -192 -20 1 0 0 0 1 0 0 0 1 jacen2x2.dat
+1 1 10 -144 -20 1 0 0 0 1 0 0 0 1 jacen2x2.dat
+1 1 -110 -96 -20 1 0 0 0 1 0 0 0 1 jacen2x2.dat
+1 14 30 0 20 -1 0 0 0 1 0 0 0 -1 jacen2x4.dat
+1 14 90 -168 20 -1 0 0 0 1 0 0 0 -1 jacen2x4.dat
+1 4 50 -72 20 -1 0 0 0 1 0 0 0 -1 jacen2x4.dat
+1 1 -30 -72 20 -1 0 0 0 1 0 0 0 -1 jacen2x4.dat
+1 1 -70 -120 20 -1 0 0 0 1 0 0 0 -1 jacen2x4.dat
+0

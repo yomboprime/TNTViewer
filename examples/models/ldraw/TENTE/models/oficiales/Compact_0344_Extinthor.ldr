@@ -1,5 +1,5 @@
 0 Untitled
-0 Name: Compact0344_Extinthor.ldr
+0 Name: Compact_0344_Extinthor.ldr
 0 Author: MLCad
 0 Unofficial Model
 0 ROTATION CENTER 0 0 0 1 "Custom" 
@@ -8,12 +8,12 @@
 1 4 -40 56 40 0 0 -1 0 1 0 1 0 0 helpata.dat
 1 4 -160 56 0 0 0 1 0 1 0 -1 0 0 helpata.dat
 1 4 -20 48 40 0 0 1 0 1 0 -1 0 0 cuna.dat
-0 MLCAD BTG piloto_nave
-1 15 -162 59 20 0 0 1 0 1 0 -1 0 0 htitcab1.dat
-0 MLCAD BTG piloto_nave
-1 15 -162 59 20 0 0 1 0 1 0 -1 0 0 htittron.dat
-0 MLCAD BTG piloto_nave
-1 15 -196 23 20 0 -1 0 0 0 1 -1 0 0 htitpies.dat
+0 MLCAD BTG piloto
+1 4 -152 59 20 0 0 1 0 1 0 -1 0 0 htitcab1.dat
+0 MLCAD BTG piloto
+1 15 -152 59 20 0 0 1 0 1 0 -1 0 0 htittron.dat
+0 MLCAD BTG piloto
+1 15 -186 23 20 0 -1 0 0 0 1 -1 0 0 htitpies.dat
 1 4 -40 48 40 0 0 1 0 1 0 -1 0 0 jacena2.dat
 1 4 -60 48 60 0 0 1 0 1 0 -1 0 0 jacena4.dat
 1 4 -120 48 40 0 0 1 0 1 0 -1 0 0 jacen2x2.dat
@@ -30,16 +30,16 @@
 1 4 -80 48 40 -1 0 0 0 1 0 0 0 -1 pico.dat
 1 4 -60 24 40 -1 0 0 0 1 0 0 0 -1 placa2x3.dat
 1 4 -140 48 20 0 0 1 0 1 0 -1 0 0 skycab.dat
-1 32 -140 48 20 0 0 1 0 1 0 -1 0 0 skycabcr.dat
-1 4 -160 42 -20 0 1 0 0 0 1 1 0 0 enganch2.dat
-1 8 -184 52 -10 0 1 0 0 0 1 1 0 0 amortigu.dat
-1 46 -208 52 -10 0 1 0 0 0 1 1 0 0 amortigu.dat
-1 4 -160 42 40 0 1 0 0 0 1 1 0 0 enganch2.dat
-1 8 -184 52 50 0 1 0 0 0 1 1 0 0 amortigu.dat
-1 46 -208 52 50 0 1 0 0 0 1 1 0 0 amortigu.dat
-1 0 -200 40 40 0 0 1 0 1 0 -1 0 0 airsillo.dat
-1 0 -200 40 40 0 0 1 0 1 0 -1 0 0 helmando.dat
-1 0 -140 48 20 0 0 1 0 1 0 -1 0 0 pistola.dat
+0 MLCAD HIDE 1 47 -140 48 20 0 0 1 0 1 0 -1 0 0 skycabcr.dat
+1 4 -160 48 -20 0 1 0 0 0 1 1 0 0 enganche.dat
+1 8 -184 58 -10 0 1 0 0 0 1 1 0 0 amortigu.dat
+1 46 -208 58 -10 0 1 0 0 0 1 1 0 0 amortigu.dat
+1 4 -160 48 40 0 1 0 0 0 1 1 0 0 enganche.dat
+1 8 -184 58 50 0 1 0 0 0 1 1 0 0 amortigu.dat
+1 46 -208 58 50 0 1 0 0 0 1 1 0 0 amortigu.dat
+1 8 -200 40 40 0 0 1 0 1 0 -1 0 0 airsillo.dat
+1 8 -200 40 40 0 0 1 0 1 0 -1 0 0 helmando.dat
+1 8 -140 48 20 0 0 1 0 1 0 -1 0 0 pistola.dat
 0 MLCAD BTG ascendente
 1 4 -17.321 8 30 -0.5 0 0.866025 0 1 0 -0.866025 0 -0.5 pistola.dat
 0 MLCAD BTG ascendente
@@ -50,23 +50,23 @@
 1 4 34.922 0.27 -0.163 0.5 -0.433013 -0.75 0 0.866025 -0.5 0.866025 0.25 0.433013 bisnrarr.dat
 0 MLCAD BTG ascendente
 1 14 -64.113 -71.658 45.468 0.5 -0.433013 -0.75 0 0.866025 -0.5 0.866025 0.25 0.433013 escalera.dat
-1 0 -80 48 20 0 0 1 0 1 0 -1 0 0 pistola.dat
-1 0 -80 46 -20 1 0 0 0 0 -1 0 1 0 pistola.dat
-1 0 -80 26 60 1 0 0 0 0 1 0 -1 0 pistola.dat
-1 0 -40 36 -34 0 -1 0 0 0 1 -1 0 0 tubo.dat
-1 0 -40 36 74 0 -1 0 0 0 1 -1 0 0 tubo.dat
-1 0 -60 48 20 0 0 -1 0 1 0 1 0 0 pistola.dat
-1 0 -120 48 20 0 0 -1 0 1 0 1 0 0 pistola.dat
+1 8 -80 48 20 0 0 1 0 1 0 -1 0 0 pistola.dat
+1 8 -80 44 -20 1 0 0 0 0 -1 0 1 0 pistola.dat
+1 8 -80 24 60 1 0 0 0 0 1 0 -1 0 pistola.dat
+1 0 -40 34 -34 0 -1 0 0 0 1 -1 0 0 tubo.dat
+1 0 -40 34 74 0 -1 0 0 0 1 -1 0 0 tubo.dat
+1 8 -60 48 20 0 0 -1 0 1 0 1 0 0 pistola.dat
+1 8 -120 48 20 0 0 -1 0 1 0 1 0 0 pistola.dat
 0 MLCAD BTG ascendente
 1 4 0 8 20 0.5 0 -0.866025 0 1 0 0.866025 0 0.5 pistola.dat
 0 GROUP 7 ascendente
-0 MLCAD BTG piloto_nave
-1 15 -229 -6 20 0 -1 0 0 0 1 -1 0 0 htitbrzi.dat
-0 MLCAD BTG piloto_nave
-1 15 -229 -6 20 0 -1 0 0 0 1 -1 0 0 htitbrzd.dat
-0 MLCAD BTG piloto_nave
-1 15 -229 -6 20 0 -1 0 0 0 1 -1 0 0 htitmani.dat
-0 MLCAD BTG piloto_nave
-1 15 -229 -6 20 0 -1 0 0 0 1 -1 0 0 htitmand.dat
-0 GROUP 7 piloto_nave
+0 MLCAD BTG piloto
+1 15 -219 -6 20 0 -1 0 0 0 1 -1 0 0 htitbrzi.dat
+0 MLCAD BTG piloto
+1 15 -219 -6 20 0 -1 0 0 0 1 -1 0 0 htitbrzd.dat
+0 MLCAD BTG piloto
+1 15 -219 -6 20 0 -1 0 0 0 1 -1 0 0 htitmani.dat
+0 MLCAD BTG piloto
+1 15 -219 -6 20 0 -1 0 0 0 1 -1 0 0 htitmand.dat
+0 GROUP 7 piloto
 0

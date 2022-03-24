@@ -115,9 +115,8 @@
 0 FILE p_fox.dat
 0 Etiqueta FOX
 0 Author: jasolo
+0 BFC CERTIFY CCW
 0 etiqueta babor
-0 ROTATION CENTER 0 0 0 1 "Custom" 
-0 ROTATION CONFIG 0 0
 3 16 40.09 -7.04 -7.55 40.1 -6.98 -5.65 40.1 -8.26 -6.57
 3 16 40.1 -8.26 -6.57 40.1 -6.98 -5.65 40.1 -10.74 -3.24
 3 16 40.1 -8.26 -6.57 40.1 -10.74 -3.24 40.1 -10.74 -5.05
