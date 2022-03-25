@@ -1106,9 +1106,15 @@ function selectColor() {
 
 function showSelectAddLDrawPart() {
 
-	if ( ! selectedPart ) return;
+	if ( ! selectedPart && models.length !== 1 ) return;
 
-	if ( ! selectionModeModel ) selectPart( getPartModel( selectedPart ) );
+	if ( models.length === 1 ) {
+
+		setSelectionModeModel( true );
+		selectPart( models[ 0 ] );
+
+	}
+	else if ( ! selectionModeModel ) selectPart( getPartModel( selectedPart ) );
 
 	if ( ! selectedPart ) return;
 
@@ -1165,19 +1171,32 @@ function showSelectNonLDrawModelFromFile() {
 
 function saveModelAsLDrawButtonFunc() {
 
-	if ( ! selectedPart || ! selectionModeModel ) return;
+	let modelToBeSaved = null;
 
+	if ( models.length === 1 ) modelToBeSaved = models[ 0 ];
+	else {
 
-	let fileName = guiData.path;
+		if ( ! selectedPart ) {
+
+			alert( "Please select one of the models to be saved as .ldr" );
+			return;
+
+		}
+
+		modelToBeSaved = getPartModel( selectedPart );
+
+	}
+
+	let fileName = modelToBeSaved.userData.fileName;
 
 	if ( ! fileName ) {
 
-		alert( "Please set model file name before saving it, under Model Info -> File name." );
+		alert( "Please set model file name before saving it under Model Info -> File name after selecting it." );
 		return;
 
 	}
 
-	const fileContents = exportModelAsLDraw( selectedPart );
+	const fileContents = exportModelAsLDraw( modelToBeSaved );
 
 	FileOperations.saveFile( fileName, new Blob( [ fileContents ] ) );
 
@@ -1206,7 +1225,6 @@ function exportModelAsLDraw( model ) {
 
 	let output = "";
 
-	output += "0 " + fileTitle + dosLineEnd;
 	if ( ! fileTitle.startsWith( "Name: " ) ) output += "0 Name: " + name + dosLineEnd;
 	output += "0 Author: " + fileAuthor + dosLineEnd;
 	output += "0 Unofficial Model" + dosLineEnd;
@@ -1230,6 +1248,10 @@ function exportModelAsLDraw( model ) {
 	}
 
 	output += "0" + dosLineEnd;
+
+	const firstLine = ( embeddedParts.length > 0 ? "0 FILE "  : "0 " ) + fileTitle + dosLineEnd;
+
+	output = firstLine + output;
 
 	for ( let partIndex in embeddedParts ) {
 
@@ -1672,7 +1694,6 @@ function selectPart( part ) {
 		setButtonDisabled( addPartButton, false );
 		setButtonDisabled( deleteSelectionButton, false );
 		setButtonDisabled( cloneButton, false );
-		setButtonDisabled( saveLDrawButton, ! selectionModeModel );
 
 	}
 	else {
@@ -1690,10 +1711,9 @@ function selectPart( part ) {
 
 		}
 
-		setButtonDisabled( addPartButton, true );
+		setButtonDisabled( addPartButton, models.length !== 1 );
 		setButtonDisabled( deleteSelectionButton, true );
 		setButtonDisabled( cloneButton, true );
-		setButtonDisabled( saveLDrawButton, true );
 
 	}
 
@@ -2844,7 +2864,6 @@ function createGUI() {
 	saveLDrawButton.innerHTML = iconEmojis[ "Floppy" ] + iconEmojis[ "Model" ];
 	saveLDrawButton.title = "Save selected model (LDraw format)...";
 	saveLDrawButton.addEventListener( 'click', saveModelAsLDrawButtonFunc );
-	setButtonDisabled( saveLDrawButton, true );
 	tools3Div.appendChild( saveLDrawButton );
 
 	const saveTNTButton = document.createElement( 'div' );
