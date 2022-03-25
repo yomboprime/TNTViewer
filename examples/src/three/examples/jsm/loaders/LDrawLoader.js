@@ -688,6 +688,7 @@ class LDrawParsedCache {
 		result.type = original.type;
 		result.category = original.category;
 		result.keywords = original.keywords;
+		result.author = original.author;
 		result.subobjects = original.subobjects;
 		result.fileName = original.fileName;
 		result.totalFaces = original.totalFaces;
@@ -796,6 +797,7 @@ class LDrawParsedCache {
 		let type = 'Model';
 		let category = null;
 		let keywords = null;
+		let author = null;
 		let totalFaces = 0;
 
 		// split into lines
@@ -994,6 +996,12 @@ class LDrawParsedCache {
 							case 'STEP':
 
 								startingConstructionStep = true;
+
+								break;
+
+							case 'Author:':
+
+								author = lp.getToken();
 
 								break;
 
@@ -1223,6 +1231,7 @@ class LDrawParsedCache {
 			type,
 			category,
 			keywords,
+			author,
 			subobjects,
 			totalFaces,
 			startingConstructionStep,
@@ -1358,6 +1367,7 @@ class LDrawPartsGeometryCache {
 			const group = new Group();
 			group.userData.category = info.category;
 			group.userData.keywords = info.keywords;
+			group.userData.author = info.author;
 			group.userData.type = info.type;
 			group.userData.fileName = info.fileName;
 			info.group = group;

@@ -300,7 +300,6 @@ for ( let i in dataBase.modelPathsList ) {
 		seriesNumber: null,
 		refNumber: null,
 		fileTitle: "",
-		fileAuthor: "",
 		fileBoxTitle: ""
 	};
 	dataBase.models[ modelPath ] = model;
@@ -387,27 +386,23 @@ function obtainFieldsFromFile( model ) {
 
 	const lines = modelContents.toString().split( '\n' );
 
+	let lineNumber = 0;
 	for ( let l = 0; l < lines.length; l ++ ) {
 
 		const line = lines[ l ];
 
+		if ( line.startsWith( '0 FILE' ) && lineNumber === 0 ) continue;
+
 		if ( line.startsWith( '0 ' ) ) {
 
-			if ( l === 0 ) {
+			if ( lineNumber === 0 ) {
 
 				model.fileTitle = line.substring( 2 ).trim();
 
 			}
-			else if ( ( l === 2 && ! model.fileAuthor ) || line.startsWith( "0 Author: " ) ) {
+			else if ( lineNumber === 3 ) {
 
-				model.fileAuthor = line.substring( 2 ).trim();
-				if ( model.fileAuthor.startsWith( 'Author: ' ) ) model.fileAuthor = model.fileAuthor.substring( 'Author: '.length ).trim();
-
-			}
-			else if ( l === 3 ) {
-
-				model.fileBoxTitle = line.substring( 2 ).trim();
-				if ( model.fileBoxTitle === 'Unofficial Model' ) model.fileBoxTitle = "";
+				model.isOfficial = line !== "0 Unofficial Model";
 
 			}
 
@@ -433,6 +428,8 @@ function obtainFieldsFromFile( model ) {
 			}
 
 		}
+
+		lineNumber ++;
 	}
 
 }

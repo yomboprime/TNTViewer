@@ -170,8 +170,6 @@ const ldrawPath = 'models/ldraw/';
 let dataBase;
 let colorsData;
 
-const dosLineEnd = "\r\n";
-
 /*= {
 	'Car': 'car.ldr_Packed.mpd',
 	'Lunar Vehicle': '1621-1-LunarMPVVehicle.mpd_Packed.mpd',
@@ -1196,7 +1194,10 @@ function saveModelAsLDrawButtonFunc() {
 
 	}
 
-	const fileContents = exportModelAsLDraw( modelToBeSaved );
+	const modelInfo = getDataBaseModel( modelToBeSaved );
+	const title = ! modelInfo ? "" : ( modelInfo.title ? modelInfo.fileTitle : modelInfo.title );
+
+	const fileContents = FileOperations.exportModelAsLDraw( modelToBeSaved, title, getObjectPart, isEmbeddedPart );
 
 	FileOperations.saveFile( fileName, new Blob( [ fileContents ] ) );
 
@@ -1213,202 +1214,6 @@ function saveSceneAsTNTButtonFunc() {
 
 	FileOperations.saveFile( fileName, new Blob( [ fileContents ] ) );
 
-
-}
-
-function exportModelAsLDraw( model ) {
-
-	const dbModel = getDataBaseModel( model );
-	const name = FileOperations.removePathFromFilename( model.userData.fileName );
-	const fileAuthor = guiData.fileAuthor ? guiData.fileAuthor : ( dbModel ? dbModel.fileAuthor : "TNT Editor" );
-	const fileTitle = dbModel ? dbModel.fileTitle : name;
-
-	let output = "";
-
-	if ( ! fileTitle.startsWith( "Name: " ) ) output += "0 Name: " + name + dosLineEnd;
-	output += "0 Author: " + fileAuthor + dosLineEnd;
-	output += "0 Unofficial Model" + dosLineEnd;
-	output += "0 ROTATION CENTER 0 0 0 1 \"Custom\"" + dosLineEnd;
-	output += "0 ROTATION CONFIG 0 0" + dosLineEnd;
-	output += "0 BFC CERTIFY CCW" + dosLineEnd;
-
-	const embeddedParts = [];
-
-	for ( let childIndex in model.children ) {
-
-		const part = getObjectPart( model.children[ childIndex ] );
-		if ( ! part ) continue;
-
-		const isEmbedded = isEmbeddedPart( part );
-		if ( isEmbedded ) embeddedParts.push( part );
-
-		// Referenced model, part or embedded part
-		output += "1 " + part.userData.colorCode + " " + poseToText( part ) + " " + part.userData.fileName + dosLineEnd;
-
-	}
-
-	output += "0" + dosLineEnd;
-
-	const firstLine = ( embeddedParts.length > 0 ? "0 FILE "  : "0 " ) + fileTitle + dosLineEnd;
-
-	output = firstLine + output;
-
-	for ( let partIndex in embeddedParts ) {
-
-		output += embeddedPartToText( embeddedParts[ partIndex ] );
-
-	}
-
-	return output;
-
-}
-
-function round3( x ) { return Math.round( x * 1000 ) / 1000; }
-
-function poseToText( part ) {
-
-	const e = part.matrix.elements;
-
-	return 	"" + round3( e[ 12 ] ) + " " + round3( e[ 13 ] ) + " " + round3( e[ 14 ] ) +
-			" " + round3( e[ 0 ] ) + " " + round3( e[ 4 ] ) + " " + round3( e[ 8 ] ) +
-			" " + round3( e[ 1 ] ) + " " + round3( e[ 5 ] ) + " " + round3( e[ 9 ] ) +
-			" " + round3( e[ 2 ] ) + " " + round3( e[ 6 ] ) + " " + round3( e[ 10 ] )
-}
-
-function embeddedPartToText( embeddedPart ) {
-
-	let output = "";
-	output += "0 FILE " + embeddedPart.userData.fileName + dosLineEnd;
-	output += "0 BFC CERTIFY CCW" + dosLineEnd;
-	internalTraverseEmbeddedPart( embeddedPart, null, true );
-	return output;
-
-	function internalTraverseEmbeddedPart( child, colorCode, firstLevel ) {
-
-		let traverseChildren = true;
-
-		if ( child.userData.colorCode ) colorCode = child.userData.colorCode;
-		if ( child.material && child.material.userData.code ) colorCode = child.material.userData.code;
-
-		if ( child.isGroup ) {
-
-			// Referenced part
-			if ( ! firstLevel ) {
-
-				output += "1 " + child.userData.colorCode + " " + poseToText( child ) + " " + child.userData.fileName + dosLineEnd;
-
-			}
-
-			traverseChildren = firstLevel;
-
-		}
-		else if ( child.isMesh ) {
-
-			const positions = child.geometry.getAttribute( 'position' ).array;
-			const indices = child.geometry.getIndex() ? child.geometry.getIndex().array : null;
-			if ( indices ) {
-
-				for ( let i = 0, n = indices.length; i + 2 < n; i += 3 ) {
-
-					output += "3 " + colorCode;
-
-					vector3Temp1.fromArray( positions, indices[ i ] * 3 );
-					writeVector( vector3Temp1 );
-
-					vector3Temp1.fromArray( positions, indices[ i + 1 ] * 3 );
-					writeVector( vector3Temp1 );
-
-					vector3Temp1.fromArray( positions, indices[ i + 2 ] * 3 );
-					writeVector( vector3Temp1 );
-
-					output += dosLineEnd;
-
-				}
-
-			} else {
-
-				for ( let i = 0, n = positions.length; i + 8 < n; i += 9 ) {
-
-					output += "3 " + colorCode;
-
-					vector3Temp1.fromArray( positions, i );
-					writeVector( vector3Temp1 );
-
-					vector3Temp1.fromArray( positions, i + 3 );
-					writeVector( vector3Temp1 );
-
-					vector3Temp1.fromArray( positions, i + 6 );
-					writeVector( vector3Temp1 );
-
-					output += dosLineEnd;
-
-				}
-
-			}
-
-		} else if ( child.isConditionalLine ) {
-
-			const positions = child.geometry.getAttribute( 'position' ).array;
-			const controls0 = child.geometry.getAttribute( 'control0' ).array;
-			const controls1 = child.geometry.getAttribute( 'control1' ).array;
-
-			for ( let i = 0, n = positions.length; i + 5 < n; i += 6 ) {
-
-				output += "5 " + colorCode;
-
-				vector3Temp1.fromArray( positions, i );
-				writeVector( vector3Temp1 );
-
-				vector3Temp1.fromArray( positions, i + 3 );
-				writeVector( vector3Temp1 );
-
-				vector3Temp1.fromArray( controls0, i );
-				writeVector( vector3Temp1 );
-
-				vector3Temp1.fromArray( controls1, i );
-				writeVector( vector3Temp1 );
-
-				output += dosLineEnd;
-
-			}
-
-		} else if ( child.isLineSegments ) {
-
-			const positions = child.geometry.getAttribute( 'position' ).array;
-
-			for ( let i = 0, n = positions.length; i + 5 < n; i += 6 ) {
-
-				output += "2 " + colorCode;
-
-				vector3Temp1.fromArray( positions, i );
-				writeVector( vector3Temp1 );
-
-				vector3Temp1.fromArray( positions, i + 3 );
-				writeVector( vector3Temp1 );
-
-				output += dosLineEnd;
-
-			}
-
-		}
-
-		if ( traverseChildren ) {
-
-			for ( let c in child.children ) {
-
-				internalTraverseEmbeddedPart( child.children[ c ], colorCode );
-
-			}
-
-		}
-
-	}
-
-	function writeVector( v ) {
-
-		output += " " + round3( v.x ) + " " + round3( v.y ) + " " + round3( v.z );
-
-	}
 
 }
 
@@ -1658,7 +1463,7 @@ function setSelectionModeModel( set ) {
 
 }
 
-// TODO add "add" parameter
+// TODO rename to selectParts and convert to array parameter
 function selectPart( part ) {
 
 	if ( selectionModeModel ) {
@@ -1765,7 +1570,7 @@ function updateModelAndPartInfo() {
 	if ( modelInfo ) {
 
 		if ( modelInfo.path ) guiData.path = modelInfo.path;
-		guiData.fileAuthor = modelInfo.fileAuthor ? modelInfo.fileAuthor : "";
+		guiData.fileAuthor = selectedModel.userData.author ? selectedModel.userData.author : "";
 		guiData.modelTitle = modelInfo.title ? modelInfo.title : "No title.";
 		guiData.modelSeries = modelInfo.seriesNumber ? modelInfo.seriesNumber : "No series.";
 		if ( modelInfo.refNumber ) guiData.modelRef = modelInfo.refNumber;
@@ -2534,7 +2339,7 @@ function createGUI() {
 		if ( selectedPart ) {
 
 			const model = getPartModel( selectedPart );
-			if ( model ) model.userData.fileAuthor = guiData.fileAuthor;
+			if ( model ) model.userData.author = guiData.fileAuthor;
 
 		}
 
