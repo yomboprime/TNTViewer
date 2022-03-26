@@ -426,7 +426,7 @@
             "title": "ASTRONAVE Y TORRE DE LANZAMIENTO - Astronave Torre de Lanzamiento",
             "seriesNumber": "Astro",
             "refNumber": "0721",
-            "fileTitle": "Name: Astro_0721_Astronave+TorreLanzamiento.ldr",
+            "fileTitle": "Astro_0721_Astronave+TorreLanzamiento.ldr",
             "fileBoxTitle": "",
             "isOfficial": true
         },
@@ -466,7 +466,7 @@
             "title": "BASE VIGÍA CÓSMICA  - Base Vigia Cosmica",
             "seriesNumber": "Astro",
             "refNumber": "0723",
-            "fileTitle": "Name: Astro_0723_BaseVigiaCosmica.ldr",
+            "fileTitle": "Astro_0723_BaseVigiaCosmica.ldr",
             "fileBoxTitle": ""
         },
         "oficiales/Astro_0726_Base_de_Descontaminacion.ldr": {
@@ -475,7 +475,7 @@
             "title": "BASE DESCONTAMINACIÓN - Base de Descontaminacion",
             "seriesNumber": "Astro",
             "refNumber": "0726",
-            "fileTitle": "Name: Astro_0726_BaseDescontaminacion.ldr",
+            "fileTitle": "Astro_0726_BaseDescontaminacion.ldr",
             "fileBoxTitle": ""
         },
         "oficiales/Astro_0740_Saturno6_Mini_Explorador_Aereo.ldr": {
@@ -1054,7 +1054,7 @@
             "title": "Portacontainers",
             "seriesNumber": "Combi",
             "refNumber": "0311",
-            "fileTitle": "Name: Combi_0311 Portacontainers Rodas.ldr",
+            "fileTitle": "Combi_0311 Portacontainers Rodas.ldr",
             "fileBoxTitle": "",
             "isOfficial": true
         },
@@ -1074,7 +1074,7 @@
             "title": "Buque de Enlace",
             "seriesNumber": "Combi",
             "refNumber": "0313",
-            "fileTitle": "Name: Combi2 13 Buque de Enlace Cobra.ldr",
+            "fileTitle": "Combi2 13 Buque de Enlace Cobra.ldr",
             "fileBoxTitle": "",
             "isOfficial": true
         },
@@ -1164,7 +1164,7 @@
             "title": "TRANSBORDADOR (CORFU) - corfu",
             "seriesNumber": "Combi Mar",
             "refNumber": "0333",
-            "fileTitle": "Name: Combi-Mar_0333_corfu.ldr",
+            "fileTitle": "Combi-Mar_0333_corfu.ldr",
             "fileBoxTitle": "",
             "isOfficial": true
         },
@@ -1174,7 +1174,7 @@
             "title": "KRANG - Krang",
             "seriesNumber": "Compact",
             "refNumber": "0342",
-            "fileTitle": "Name: Compact 0342 Krang",
+            "fileTitle": "Compact 0342 Krang",
             "fileBoxTitle": ""
         },
         "oficiales/Compact_0343_Excavator.ldr": {
@@ -1253,7 +1253,7 @@
             "title": "SCOOPER - Scooper",
             "seriesNumber": "Compact",
             "refNumber": "0350",
-            "fileTitle": "Name: Compact 0350 Scooper",
+            "fileTitle": "Compact 0350 Scooper",
             "fileBoxTitle": ""
         },
         "oficiales/Compact_0351_Tex.ldr": {
@@ -1402,7 +1402,7 @@
             "title": "DESTRUCTOR NUCLEAR (THOR) - Destructor Nuclear",
             "seriesNumber": "Mar",
             "refNumber": "0643",
-            "fileTitle": "Name: Mar0643_DestructorNuclear.ldr",
+            "fileTitle": "Mar0643_DestructorNuclear.ldr",
             "fileBoxTitle": "",
             "isOfficial": true
         },
@@ -1412,7 +1412,7 @@
             "title": "Buque Factoria",
             "seriesNumber": "Mar",
             "refNumber": "0644M",
-            "fileTitle": "Name: Mar0644M_BuqueFactoria.ldr",
+            "fileTitle": "Mar0644M_BuqueFactoria.ldr",
             "fileBoxTitle": "",
             "isOfficial": true
         },
@@ -1422,7 +1422,7 @@
             "title": "PORTAHELICÓPTEROS LIGERO (FOX) - Portahelicopteros",
             "seriesNumber": "Mar",
             "refNumber": "0645",
-            "fileTitle": "Name: Mar0645_Portahelicopteros.ldr",
+            "fileTitle": "Mar0645_Portahelicopteros.ldr",
             "fileBoxTitle": "",
             "isOfficial": true
         },
@@ -1452,7 +1452,7 @@
             "title": "MERCANTE MIXTO (ORIENTE) - Mercante Mixto",
             "seriesNumber": "Mar",
             "refNumber": "0700",
-            "fileTitle": "Name: Mar0700_MercanteMixto.ldr",
+            "fileTitle": "Mar0700_MercanteMixto.ldr",
             "fileBoxTitle": "",
             "isOfficial": true
         },
@@ -1462,7 +1462,7 @@
             "title": "PORTAAVIONES 2ª GUERRA MUNDIAL (JÚPITER) - Portaaviones 1GM Jupiter",
             "seriesNumber": "Mar",
             "refNumber": "0701",
-            "fileTitle": "Name: Mar0701_Portaaviones 1GM Jupiter.ldr",
+            "fileTitle": "Mar0701_Portaaviones 1GM Jupiter.ldr",
             "fileBoxTitle": "",
             "isOfficial": true
         },
@@ -1502,7 +1502,7 @@
             "title": "BARCO SHUTTLE (SAGITARIUS) - Cargo Shuttle",
             "seriesNumber": "Mar",
             "refNumber": "0705",
-            "fileTitle": "Name: Mar705_CargoShuttle.ldr",
+            "fileTitle": "Mar705_CargoShuttle.ldr",
             "fileBoxTitle": "",
             "isOfficial": true
         },
@@ -1512,9 +1512,9 @@
             "title": "スペシャル·シップ  / SPECIAL SHIP - Special Ship Sunshine II",
             "seriesNumber": "Mar",
             "refNumber": "TS45",
-            "fileTitle": "Name: Nomura_sunshine2.ldr",
+            "fileTitle": "Nomura_sunshine2.ldr",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "oficiales/Mini_501_Chalet.ldr": {
             "path": "oficiales/Mini_501_Chalet.ldr",
@@ -1591,7 +1591,7 @@
             "title": "CARGUERO  (COLOSUS) - Carguero Colosus",
             "seriesNumber": "Oceanis",
             "refNumber": "0649",
-            "fileTitle": "Name: Mar0649_Carguero.ldr",
+            "fileTitle": "Mar0649_Carguero.ldr",
             "fileBoxTitle": "",
             "isOfficial": true
         },
@@ -1611,7 +1611,7 @@
             "title": "OCEANOGRÁFICO (METEOR) - Oceanografico Meteor",
             "seriesNumber": "Oceanis",
             "refNumber": "0658",
-            "fileTitle": "Name: Mar0658_BarcoMeteorologico.ldr",
+            "fileTitle": "Mar0658_BarcoMeteorologico.ldr",
             "fileBoxTitle": "",
             "isOfficial": true
         },
@@ -1711,7 +1711,7 @@
             "title": "THOR - Thor",
             "seriesNumber": "Roblock",
             "refNumber": "0791",
-            "fileTitle": "Name: ROBLOCK_0791_THOR.ldr",
+            "fileTitle": "ROBLOCK_0791_THOR.ldr",
             "fileBoxTitle": "",
             "isOfficial": true
         },
@@ -1721,7 +1721,7 @@
             "title": "THOR - Thor Transf",
             "seriesNumber": "Roblock",
             "refNumber": "0791",
-            "fileTitle": "Name: ROBLOCK_0791_THOR_TRANSF.ldr",
+            "fileTitle": "ROBLOCK_0791_THOR_TRANSF.ldr",
             "fileBoxTitle": "",
             "isOfficial": true
         },

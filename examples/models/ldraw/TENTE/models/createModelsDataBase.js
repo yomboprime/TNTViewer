@@ -398,6 +398,7 @@ function obtainFieldsFromFile( model ) {
 			if ( lineNumber === 0 ) {
 
 				model.fileTitle = line.substring( 2 ).trim();
+				if ( model.fileTitle.startsWith( "Name: " ) ) model.fileTitle = model.fileTitle.substring( "Name: ".length ) ;
 
 			}
 			else if ( lineNumber === 3 ) {
