@@ -743,6 +743,7 @@ function scanDirectory( base, path ) {
 	}
 
 	return true;
+
 }
 
 function writeJSONFileSync( object, path, encoding ) {

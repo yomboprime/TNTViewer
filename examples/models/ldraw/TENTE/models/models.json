@@ -1514,7 +1514,7 @@
             "refNumber": "TS45",
             "fileTitle": "Nomura_sunshine2.ldr",
             "fileBoxTitle": "",
-            "isOfficial": false
+            "isOfficial": true
         },
         "oficiales/Mini_501_Chalet.ldr": {
             "path": "oficiales/Mini_501_Chalet.ldr",

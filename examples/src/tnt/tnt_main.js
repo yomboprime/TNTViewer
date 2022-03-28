@@ -1302,6 +1302,8 @@ function processPartOrModel( part, isPart, invert ) {
 
 			if ( c.isMesh ) {
 
+				c.userData.stickerOriginalGeometry = c.geometry.clone();
+
 				const vertices = c.geometry.getAttribute( 'position' ).array;
 				const normals = c.geometry.getAttribute( 'normal' ).array;
 

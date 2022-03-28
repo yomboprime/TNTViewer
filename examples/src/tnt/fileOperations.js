@@ -96,8 +96,9 @@ function embeddedPartToText( embeddedPart ) {
 		}
 		else if ( child.isMesh ) {
 
-			const positions = child.geometry.getAttribute( 'position' ).array;
-			const indices = child.geometry.getIndex() ? child.geometry.getIndex().array : null;
+			const geometry = child.userData.stickerOriginalGeometry ? child.userData.stickerOriginalGeometry : child.geometry;
+			const positions = geometry.getAttribute( 'position' ).array;
+			const indices = geometry.getIndex() ? geometry.getIndex().array : null;
 			if ( indices ) {
 
 				for ( let i = 0, n = indices.length; i + 2 < n; i += 3 ) {
@@ -140,9 +141,10 @@ function embeddedPartToText( embeddedPart ) {
 
 		} else if ( child.isConditionalLine ) {
 
-			const positions = child.geometry.getAttribute( 'position' ).array;
-			const controls0 = child.geometry.getAttribute( 'control0' ).array;
-			const controls1 = child.geometry.getAttribute( 'control1' ).array;
+			const geometry = child.userData.stickerOriginalGeometry ? child.userData.stickerOriginalGeometry : child.geometry;
+			const positions = geometry.getAttribute( 'position' ).array;
+			const controls0 = geometry.getAttribute( 'control0' ).array;
+			const controls1 = geometry.getAttribute( 'control1' ).array;
 
 			for ( let i = 0, n = positions.length; i + 5 < n; i += 6 ) {
 
@@ -166,7 +168,8 @@ function embeddedPartToText( embeddedPart ) {
 
 		} else if ( child.isLineSegments ) {
 
-			const positions = child.geometry.getAttribute( 'position' ).array;
+			const geometry = child.userData.stickerOriginalGeometry ? child.userData.stickerOriginalGeometry : child.geometry;
+			const positions = geometry.getAttribute( 'position' ).array;
 
 			for ( let i = 0, n = positions.length; i + 5 < n; i += 6 ) {
 
