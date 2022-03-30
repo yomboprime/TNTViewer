@@ -1995,8 +1995,9 @@ class LDrawLoader extends Loader {
 			.then( group => {
 
 				// TODO missing this line?:
-				//this.applyMaterialsToMesh( group, MAIN_COLOUR_CODE, this.materialLibrary, true );
+				this.applyMaterialsToMesh( group, MAIN_COLOUR_CODE, this.materialLibrary, true );
 				this.computeConstructionSteps( group );
+				group.userData.fileName = "";
 				onLoad( group );
 
 			} );

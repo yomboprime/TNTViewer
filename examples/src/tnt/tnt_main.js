@@ -42,6 +42,7 @@ const constructionSets = {
 let currentConstructionSet;
 
 let container, progressBarDiv, sideBarDiv, scrolledDiv, partPreview;
+let theInputFiles;
 let camera, scene, renderer;
 let cameraControls, transformControls;
 
@@ -374,6 +375,17 @@ function init() {
 
 			window.addEventListener( 'resize', onWindowResize );
 
+			// File selection
+
+			theInputFiles = document.getElementById( 'theInputFiles' );
+			theInputFiles.addEventListener( 'change', ( event ) => {
+
+				const scaleToUnitMM = constructionSets[ currentConstructionSet ].scale;
+
+				FileOperations.loadModelsFiles( event.target.files, onFileLoaded, lDrawLoader, scaleToUnitMM );
+				theInputFiles.value = null;
+
+			}, false );
 
 			// Key events
 
@@ -722,7 +734,7 @@ function loadLDrawModelFromRepo( modelFileName, parentModel, onLoaded ) {
 
 	lDrawLoader.load( modelFileName, function ( model1 ) {
 
-		addLDrawPartOrModel( model1/*.clone()*/, parentModel );
+		addLDrawPartOrModel( model1/*.clone()*/, parentModel, true );
 		onLoaded( model1 );
 
 	}, onProgress, onError );
@@ -739,11 +751,15 @@ function exportModel( format ) {
 
 function isPartPath( path ) {
 
+	// TODO This function is not used, remove
+
 	return path.startsWith( '../parts/' ) || path.startsWith( 'parts/' );;
 
 }
 
 function isPartType( type ) {
+
+	// TODO This function is not used, remove
 
 	return type === 'Part' || type === 'Unofficial_Part';
 
@@ -779,7 +795,7 @@ function getObjectPart( object ) {
 
 	while ( object.parent && ! object.parent.isScene &&
 			(
-			  ( ! isPart( object ) && ! isModel( object ) ) ||
+			  ( ! isPart( object ) && ! isModel( object ) && ! object.userData.fileName ) ||
 			  ( object.parent.parent && ! object.parent.parent.isScene && isModel( object.parent ) ) ||
 			  ( object.parent.parent && ! object.parent.parent.isScene && isPart( object.parent ) )
 			)
@@ -792,7 +808,7 @@ function getObjectPart( object ) {
 
 	let rootGrandson = object;
 	let rootChild = rootGrandson.parent;
-	let root = rootChild.parent ? rootChild.parent : null;
+	let root = rootChild ? ( rootChild.parent ? rootChild.parent : null ) : null;
 	while ( root ) {
 
 		rootGrandson = rootChild;
@@ -801,14 +817,14 @@ function getObjectPart( object ) {
 
 	}
 
-	if ( rootChild.isScene ) {
+	if ( rootChild && rootChild.isScene ) {
 
 		if ( rootGrandson.userData.isAnimatedPart ) return rootGrandson;
 
 	}
 	else {
 
-		if ( rootChild.userData.isAnimatedPart ) return rootChild;
+		if ( rootChild && rootChild.userData.isAnimatedPart ) return rootChild;
 	}
 
 	return object;
@@ -1142,7 +1158,7 @@ function createNewEmptyModel() {
 
 	showSelectLDrawPartFromRepo( model, ( part ) => {
 
-		addLDrawPartOrModel( model );
+		addLDrawPartOrModel( model, null, true );
 
 		setSelectionModeModel( false );
 		selectPart( part );
@@ -1155,15 +1171,30 @@ function createNewEmptyModel() {
 
 }
 
-function showSelectLDrawModelFromFile() {
+function showSelectFromFile() {
 
-	// TODO
+	theInputFiles.click();
 
 }
 
-function showSelectNonLDrawModelFromFile() {
+function onFileLoaded( mesh, isLDraw ) {
 
-	// TODO
+	let parentModel = null;
+	if ( selectedPart ) {
+
+		parentModel = getPartModel( selectedPart );
+		if ( ! isModel( parentModel ) ) parentModel = null;
+
+	}
+
+	addLDrawPartOrModel( mesh, parentModel, isLDraw );
+
+	setSelectionModeModel( ! parentModel );
+	selectPart( mesh );
+
+	setFineSnap( false );
+	hideProgressBar();
+	triggerRender();
 
 }
 
@@ -1251,18 +1282,25 @@ function deleteSelection() {
 
 }
 
-function addLDrawPartOrModel( model, parentModel ) {
+function addLDrawPartOrModel( model, parentModel, isLDraw ) {
 
 	if ( parentModel ) {
 
 		parentModel.add( model );
-		model.userData.type = 'Unofficial_Part';
-		if ( model.userData.fileName.startsWith( '../parts/' ) ) {
 
-			model.userData.fileName = model.userData.fileName.substring( '../parts/'.length );
+		if ( isLDraw ) {
+
+			model.userData.type = 'Unofficial_Part';
+			if ( model.userData.fileName.startsWith( '../parts/' ) ) {
+
+				model.userData.fileName = model.userData.fileName.substring( '../parts/'.length );
+
+			}
+
+			model.userData.colorCode = '16';
 
 		}
-		model.userData.colorCode = '16';
+		else model.userData.fileName = "Embedded part";
 
 	}
 	else {
@@ -1272,15 +1310,14 @@ function addLDrawPartOrModel( model, parentModel ) {
 
 	}
 
-	processPartOrModel( model, parentModel !== null, parentModel === null );
-
+	processPartOrModel( model, isLDraw && parentModel !== null, ( isLDraw && parentModel === null ) || ( ! isLDraw && parentModel !== null ) );
 
 }
 
-function processPartOrModel( part, isPart, invert ) {
+function processPartOrModel( part, isAPart, doRotate ) {
 
 	// Convert from LDraw coordinate system: rotate 180 degrees around X axis
-	if ( invert ) part.rotation.x = Math.PI;
+	if ( doRotate ) part.rotation.x = Math.PI;
 
 	createModelBBox( part );
 
@@ -1323,7 +1360,7 @@ function processPartOrModel( part, isPart, invert ) {
 
 	}
 
-	if ( isPart ) applyMainMaterialToPart( part, selectedColorCode );
+	if ( isAPart ) applyMainMaterialToPart( part, selectedColorCode );
 
 }
 
@@ -1561,6 +1598,11 @@ function updateModelAndPartInfo() {
 
 				infoText += 'Part: Embedded part.<br>';
 				if ( mat ) infoText += 'Part color: ' + mat.name + '<br>';
+
+			}
+			else if ( selectedModel === selectedPart ) {
+
+				infoText += 'Model: ' + selectedModel.userData.fileName + '<br>';
 
 			}
 			else infoText += 'Part: No part selected.<br>';
@@ -2269,7 +2311,7 @@ function createGUI() {
 	const addModelButton = document.createElement( 'div' );
 	addModelButton.className = 'buttn iconbtn';
 	addModelButton.innerHTML = iconEmojis[ "Plus" ] + iconEmojis[ "Model" ];
-	addModelButton.title = "Add LDraw model...";
+	addModelButton.title = "Add LDraw model from repository...";
 	addModelButton.addEventListener( 'click', showSelectLDrawModelFromRepo );
 	fileDiv.appendChild( addModelButton );
 
@@ -2281,33 +2323,12 @@ function createGUI() {
 	newModelButton.hidden = true;
 	fileDiv.appendChild( newModelButton );
 
-	const addModelFromFileButton = document.createElement( 'div' );
-	addModelFromFileButton.className = 'buttn iconbtn';
-	addModelFromFileButton.innerHTML = iconEmojis[ "Plus" ] + iconEmojis[ "File" ];
-	addModelFromFileButton.title = "Add LDraw model from file... (not implemented yet)";
-	addModelFromFileButton.addEventListener( 'click', showSelectLDrawModelFromFile );
-	setButtonDisabled( addModelFromFileButton, true );
-	addModelFromFileButton.hidden = true;
-	fileDiv.appendChild( addModelFromFileButton );
-
-	const addNonLDrawModelFromFileButton = document.createElement( 'div' );
-	addNonLDrawModelFromFileButton.className = 'buttn iconbtn';
-	addNonLDrawModelFromFileButton.innerHTML = iconEmojis[ "Plus" ] + iconEmojis[ "File" ];
-	addNonLDrawModelFromFileButton.title = "Add non-LDraw model from file... (not implemented yet)";
-	addNonLDrawModelFromFileButton.addEventListener( 'click', showSelectNonLDrawModelFromFile );
-	setButtonDisabled( addNonLDrawModelFromFileButton, true );
-	addNonLDrawModelFromFileButton.hidden = true;
-	fileDiv.appendChild( addNonLDrawModelFromFileButton );
-
-	const loadTNTSceneButton = document.createElement( 'div' );
-	loadTNTSceneButton.className = 'buttn iconbtn';
-	loadTNTSceneButton.innerHTML = iconEmojis[ "File" ] + iconEmojis[ "TNT" ];
-	loadTNTSceneButton.title = "Load TNT scene from file (.tnte)... (not implemented yet)";
-	loadTNTSceneButton.addEventListener( 'click', loadTNTScene );
-	setButtonDisabled( loadTNTSceneButton, true );
-	loadTNTSceneButton.hidden = true;
-	fileDiv.appendChild( loadTNTSceneButton );
-
+	const addFromFileButton = document.createElement( 'div' );
+	addFromFileButton.className = 'buttn iconbtn';
+	addFromFileButton.innerHTML = iconEmojis[ "Plus" ] + iconEmojis[ "File" ];
+	addFromFileButton.title = "Add model from file (.ldr, .dat, .glb, .dae, .obj, .stl, .svg)...";
+	addFromFileButton.addEventListener( 'click', showSelectFromFile );
+	fileDiv.appendChild( addFromFileButton );
 
 	//gui = new GUI( { width: GUI_WIDTH, container: sideBarDiv } );
 	//gui.title( "Main menu" );
@@ -2719,9 +2740,6 @@ function createGUI() {
 		showEditorButton.hidden = true;
 
 		newModelButton.hidden = false;
-		addModelFromFileButton.hidden = false;
-		addNonLDrawModelFromFileButton.hidden = false;
-		loadTNTSceneButton.hidden = false;
 
 	} );
 	viewerPanel.appendChild( showEditorButton );
@@ -3409,7 +3427,7 @@ function showSelectTable( buttonLabel, onButtonClicked, onCloseCancel, infoLine,
 
 	containerElement.appendChild( listDiv );
 
-	if ( rowSelection ) {
+	if ( rowSelection && preselectedDataRow ) {
 
 		preselectedDataRow.doClick();
 		preselectedDataRow.scrollIntoView();

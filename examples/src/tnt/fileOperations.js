@@ -1,8 +1,318 @@
+
+import * as THREE from '../three/build/three.module.js';
+
+import { GLTFLoader } from '../three/examples/jsm/loaders/GLTFLoader.js';
+import { ColladaLoader } from '../three/examples/jsm/loaders/ColladaLoader.js';
+import { OBJLoader } from '../three/examples/jsm/loaders/OBJLoader.js';
+import { STLLoader } from '../three/examples/jsm/loaders/STLLoader.js';
+import { SVGLoader } from '../three/examples/jsm/loaders/SVGLoader.js';
+
 import { GLTFExporter } from '../three/examples/jsm/exporters/GLTFExporter.js';
 import { ColladaExporter } from '../three/examples/jsm/exporters/ColladaExporter.js';
 import { OBJExporter } from '../three/examples/jsm/exporters/OBJExporter.js';
 
 const dosLineEnd = "\r\n";
+
+const vector3Temp1 = new THREE.Vector3();
+
+function loadModelsFiles( files, onFileLoaded, lDrawLoader, scaleToUnitMM ) {
+
+	if ( ! files || files.length === 0 ) return;
+
+	let thereIsModel = false;
+	let thereIsProject = false;
+
+	for ( let i = 0; i < files.length; i ++ ) {
+
+		const extension = getFilenameExtension( files[ i ].name ).toLowerCase();
+
+		switch ( extension ) {
+
+			case 'tnte':
+				thereIsProject = true;
+				break;
+
+			case 'ldr':
+			case 'dat':
+			case 'dae':
+			case 'glb':
+			case 'stl':
+			case 'obj':
+			case 'svg':
+/*
+			case 'png':
+			case 'jpg':
+			case 'jpeg':
+			case 'jfif':
+			case 'pjpeg':
+			case 'pjp':
+			case 'gif':
+			case 'webp':
+*/
+				thereIsModel = true;
+
+				break;
+
+			default:
+				alert( "Unrecognized file name extension: '" + extension + "'. File loading was aborted." );
+				return;
+
+		}
+
+	}
+
+	if ( thereIsModel ) {
+
+		if ( thereIsProject ) {
+
+			alert( "You selected a model file and a project file. Please load only one project file or multiple models." );
+			return;
+
+		}
+
+	}
+	else {
+
+		if ( thereIsProject && files.length > 1 ) {
+
+			alert( "You selected more than one project file. Please load only one of them." );
+			return;
+
+		}
+
+	}
+
+	for ( let i = 0; i < files.length; i ++ ) {
+
+		const extension = getFilenameExtension( files[ i ].name ).toLowerCase();
+
+		switch ( extension ) {
+
+			case 'tnte':
+				//loadProjectFile( files[ i ] );
+				break;
+
+			case 'ldr':
+			case 'dat':
+			case 'dae':
+			case 'glb':
+			case 'stl':
+			case 'obj':
+			case 'svg':
+				loadModelFile( files[ i ], extension, onFileLoaded, lDrawLoader, scaleToUnitMM );
+				break;
+/*
+			case 'png':
+			case 'jpg':
+			case 'jpeg':
+			case 'jfif':
+			case 'pjpeg':
+			case 'pjp':
+			case 'gif':
+			case 'webp':
+				loadImageFile( files[ i ] );
+				break;
+*/
+		}
+
+	}
+
+}
+
+function loadModelFile( file, extension, onModelLoaded, lDrawLoader, scaleToUnitMM ) {
+
+	const scope = this;
+	const reader = new FileReader();
+
+	reader.onload = function( e ) {
+
+		const fileContents = e.target.result;
+
+		let mesh = null;
+		let scale = 1 / scaleToUnitMM;
+		switch ( extension ) {
+
+			case 'ldr':
+			case 'dat':
+				parseLDRAWModel( fileContents, onModelParsed, lDrawLoader );
+				break;
+
+			case 'dae':
+				// dae is in meters
+				scale *= 1000;
+				parseColladaModel( fileContents, scale, onModelParsed );
+				break;
+
+			case 'glb':
+				// gltf is in meters
+				scale *= 1000;
+				parseGLTFModel( fileContents, scale, onModelParsed );
+				break;
+
+			case 'stl':
+				parseSTLModel( fileContents, scale, onModelParsed );
+				break;
+
+			case 'obj':
+				// obj is assumed to be in meters
+				scale *= 1000;
+				parseOBJModel( fileContents, scale, onModelParsed );
+				break;
+
+			case 'svg':
+				parseSVGModel( fileContents, scale, onModelParsed );
+				break;
+
+		}
+
+		function onModelParsed( mesh, isLDraw ) {
+
+			if ( ! mesh ) {
+
+				alert( "Error parsing model file '" + file.name + "'." );
+				return;
+
+			}
+
+			onModelLoaded( mesh, isLDraw );
+
+		}
+
+	}
+
+	reader.onerror = function( e ) {
+
+		alert( "Error loading model file '" + file.name + "'." + e );
+
+	};
+
+	switch ( extension ) {
+
+		case 'glb':
+		case 'stl':
+			reader.readAsArrayBuffer( file );
+			break;
+
+		case 'ldr':
+		case 'dat':
+		case 'dae':
+		case 'obj':
+		case 'svg':
+			reader.readAsText( file );
+			break;
+
+	}
+
+}
+
+/*
+loadImage( file ) {
+
+
+
+}
+*/
+
+function parseLDRAWModel( fileContents, onModelParsed, lDrawLoader ) {
+
+	lDrawLoader.parse( fileContents, ( model ) => {
+
+		onModelParsed( model, true );
+
+	} );
+
+}
+
+function parseColladaModel( fileContents, scale, onModelParsed ) {
+
+	const collada = new ColladaLoader().parse( fileContents );
+
+	const result = ( ! collada || ! collada.scene ) ? null : collada.scene;
+
+	if ( result ) applyScaleToObjectTree( result, scale );
+
+	onModelParsed( result, false );
+
+}
+
+function parseGLTFModel( fileContents, scale, onModelParsed ) {
+
+	const gltf = new GLTFLoader().parse( fileContents, "",
+		( gltf ) => {
+
+			const result = ( ! gltf ) || ( ! gltf.scene ) ? null : gltf.scene;
+
+			if ( result ) applyScaleToObjectTree( result, scale );
+
+			onModelParsed( result, false );
+
+		},
+		( error ) => {
+
+			onModelParsed( null, false );
+
+		}
+	);
+
+}
+
+function parseSTLModel( fileContents, scale, onModelParsed ) {
+
+	const geometry = new STLLoader().parse( fileContents );
+
+	if ( ! geometry ) {
+
+		onModelParsed( null, false );
+		return;
+
+	}
+
+	geometry.rotateX( - Math.PI * 0.5 );
+	geometry.scale( scale, scale, scale );
+
+	const mesh = new THREE.Mesh( geometry, new THREE.MeshStandardMaterial() );
+
+	onModelParsed( mesh, false );
+
+}
+
+function parseOBJModel( fileContents, scale, onModelParsed ) {
+
+	const mesh = new OBJLoader().parse( fileContents );
+
+	if ( ! mesh ) {
+
+		onModelParsed( null, false );
+		return;
+
+	}
+
+	applyScaleToObjectTree( mesh, scale );
+
+	onModelParsed( mesh, false );
+
+}
+
+function parseSVGModel( fileContents, scale, onModelParsed ) {
+
+
+
+}
+
+function applyScaleToObjectTree( root, scale ) {
+
+	vector3Temp1.set( scale, scale, scale );
+
+	root.matrix.scale( vector3Temp1 );
+	if ( root.geometry ) root.geometry.scale( scale, scale, scale );
+
+	for ( let i = 0, n = root.children.length; i < n; i ++ ) {
+
+		applyScaleToObjectTree( root.children[ i ], scale );
+
+	}
+
+}
 
 function exportModelAsLDraw( model, title, getObjectPart, isEmbeddedPart ) {
 
@@ -39,7 +349,7 @@ function exportModelAsLDraw( model, title, getObjectPart, isEmbeddedPart ) {
 
 	if ( embeddedParts.length > 0 ) {
 
-		const firstLine = "0 FILE " + fileTitle + dosLineEnd;
+		const firstLine = "0 FILE " + title + dosLineEnd;
 		output = firstLine + output;
 
 	}
@@ -278,6 +588,21 @@ function saveFile( fileName, blob ) {
 
 }
 
+function getFilenameExtension( path ) {
+
+	path = path || "";
+
+	const pathLastIndexOfDot = path.lastIndexOf( "." );
+
+	if ( pathLastIndexOfDot > 0 && path.length > pathLastIndexOfDot + 1 ) {
+
+		return path.substring( pathLastIndexOfDot + 1 );
+
+	}
+	else return "";
+
+}
+
 function removeFilenameExtension( path ) {
 
 	path = path || "";
@@ -308,4 +633,12 @@ function removePathFromFilename( path ) {
 
 }
 
-export { exportModelAsLDraw, exportModel, saveFile, removeFilenameExtension, removePathFromFilename };
+export {
+	loadModelsFiles,
+	exportModelAsLDraw,
+	exportModel,
+	saveFile,
+	getFilenameExtension,
+	removeFilenameExtension,
+	removePathFromFilename
+};
