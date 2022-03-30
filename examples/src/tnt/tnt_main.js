@@ -745,7 +745,7 @@ function exportModel( format ) {
 
 	const scale = constructionSets[ currentConstructionSet ].scale * guiData.exportScale;
 
-	if ( isModel( selectedPart ) ) FileOperations.exportModel( selectedPart, format, scale );
+	FileOperations.exportModel( selectedPart, format, scale );
 
 }
 
@@ -1300,7 +1300,6 @@ function addLDrawPartOrModel( model, parentModel, isLDraw ) {
 			model.userData.colorCode = '16';
 
 		}
-		else model.userData.fileName = "Embedded part";
 
 	}
 	else {
@@ -1327,8 +1326,10 @@ function processPartOrModel( part, isAPart, doRotate ) {
 
 		if ( c.userData.fileName ) {
 
-			const part = getDataBasePart( c );
-			if ( part && part.title.indexOf( 'Etique' ) >= 0 ) stickers.push( c );
+			let title = c.userData.fileName;
+			const cPart = getDataBasePart( c );
+			if ( cPart && part.title ) title = part.title;
+			if ( title.indexOf( 'Etique' ) >= 0 ) stickers.push( c );
 
 		}
 
@@ -2315,6 +2316,13 @@ function createGUI() {
 	addModelButton.addEventListener( 'click', showSelectLDrawModelFromRepo );
 	fileDiv.appendChild( addModelButton );
 
+	const addFromFileButton = document.createElement( 'div' );
+	addFromFileButton.className = 'buttn iconbtn';
+	addFromFileButton.innerHTML = iconEmojis[ "Plus" ] + iconEmojis[ "File" ];
+	addFromFileButton.title = "Add model from file (.ldr, .dat, .glb, .dae, .obj, .stl, .svg)...";
+	addFromFileButton.addEventListener( 'click', showSelectFromFile );
+	fileDiv.appendChild( addFromFileButton );
+
 	const newModelButton = document.createElement( 'div' );
 	newModelButton.className = 'buttn iconbtn';
 	newModelButton.innerHTML = iconEmojis[ "Pin" ] + iconEmojis[ "Model" ];
@@ -2322,13 +2330,6 @@ function createGUI() {
 	newModelButton.addEventListener( 'click', createNewEmptyModel );
 	newModelButton.hidden = true;
 	fileDiv.appendChild( newModelButton );
-
-	const addFromFileButton = document.createElement( 'div' );
-	addFromFileButton.className = 'buttn iconbtn';
-	addFromFileButton.innerHTML = iconEmojis[ "Plus" ] + iconEmojis[ "File" ];
-	addFromFileButton.title = "Add model from file (.ldr, .dat, .glb, .dae, .obj, .stl, .svg)...";
-	addFromFileButton.addEventListener( 'click', showSelectFromFile );
-	fileDiv.appendChild( addFromFileButton );
 
 	//gui = new GUI( { width: GUI_WIDTH, container: sideBarDiv } );
 	//gui.title( "Main menu" );

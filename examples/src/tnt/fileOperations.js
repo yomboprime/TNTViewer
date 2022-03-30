@@ -227,13 +227,22 @@ function parseLDRAWModel( fileContents, onModelParsed, lDrawLoader ) {
 
 function parseColladaModel( fileContents, scale, onModelParsed ) {
 
-	const collada = new ColladaLoader().parse( fileContents );
+	try {
 
-	const result = ( ! collada || ! collada.scene ) ? null : collada.scene;
+		const collada = new ColladaLoader().parse( fileContents );
 
-	if ( result ) applyScaleToObjectTree( result, scale );
+		const result = ( ! collada || ! collada.scene ) ? null : collada.scene;
 
-	onModelParsed( result, false );
+		if ( result ) applyScaleToObjectTree( result, scale );
+
+		onModelParsed( result, false );
+
+	}
+	catch ( e ) {
+
+		onModelParsed( null, false );
+
+	}
 
 }
 
@@ -297,7 +306,85 @@ function parseOBJModel( fileContents, scale, onModelParsed ) {
 
 function parseSVGModel( fileContents, scale, onModelParsed ) {
 
+	const options = {
+		drawFillShapes: true,
+		drawStrokes: true,
+	};
 
+	const data = new SVGLoader().parse( fileContents );
+
+	const paths = data.paths;
+
+	const group = new THREE.Group();
+//	group.scale.multiplyScalar( 0.25 );
+//	group.position.x = - 70;
+//	group.position.y = 70;
+//	group.scale.y *= - 1;
+
+	for ( let i = 0; i < paths.length; i ++ ) {
+
+		const path = paths[ i ];
+
+		const fillColor = path.userData.style.fill;
+		if ( options.drawFillShapes && fillColor !== undefined && fillColor !== 'none' ) {
+
+			const material = new THREE.MeshStandardMaterial( {
+				color: new THREE.Color().setStyle( fillColor ),
+				opacity: path.userData.style.fillOpacity,
+				transparent: path.userData.style.fillOpacity !== 1,
+				side: THREE.FrontSide
+			} );
+
+			const shapes = SVGLoader.createShapes( path );
+
+			for ( let j = 0; j < shapes.length; j ++ ) {
+
+				const shape = shapes[ j ];
+
+				const geometry = new THREE.ShapeGeometry( shape );
+				geometry.scale( 1, -1, 1 );
+				const mesh = new THREE.Mesh( geometry, material );
+
+				group.add( mesh );
+
+			}
+
+		}
+
+		const strokeColor = path.userData.style.stroke;
+
+		if ( options.drawStrokes && strokeColor !== undefined && strokeColor !== 'none' ) {
+
+			const material = new THREE.MeshStandardMaterial( {
+				color: new THREE.Color().setStyle( strokeColor ),
+				opacity: path.userData.style.strokeOpacity,
+				transparent: path.userData.style.strokeOpacity !== 1,
+				side: THREE.FrontSide
+			} );
+
+			for ( let j = 0, jl = path.subPaths.length; j < jl; j ++ ) {
+
+				const subPath = path.subPaths[ j ];
+
+				const geometry = SVGLoader.pointsToStroke( subPath.getPoints(), path.userData.style );
+
+				if ( geometry ) {
+
+					geometry.scale( 1, -1, 1 );
+
+					const mesh = new THREE.Mesh( geometry, material );
+
+					group.add( mesh );
+
+				}
+
+			}
+
+		}
+
+	}
+
+	onModelParsed( group, false );
 
 }
 
@@ -306,6 +393,8 @@ function applyScaleToObjectTree( root, scale ) {
 	vector3Temp1.set( scale, scale, scale );
 
 	root.matrix.scale( vector3Temp1 );
+
+/*
 	if ( root.geometry ) root.geometry.scale( scale, scale, scale );
 
 	for ( let i = 0, n = root.children.length; i < n; i ++ ) {
@@ -313,7 +402,7 @@ function applyScaleToObjectTree( root, scale ) {
 		applyScaleToObjectTree( root.children[ i ], scale );
 
 	}
-
+*/
 }
 
 function exportModelAsLDraw( model, title, getObjectPart, isEmbeddedPart ) {
@@ -343,7 +432,8 @@ function exportModelAsLDraw( model, title, getObjectPart, isEmbeddedPart ) {
 		if ( isEmbedded ) embeddedParts.push( part );
 
 		// Referenced model, part or embedded part
-		output += "1 " + part.userData.colorCode + " " + poseToText( part ) + " " + part.userData.fileName + dosLineEnd;
+		const c = part.userData.colorCode || '16';
+		output += "1 " + c + " " + poseToText( part ) + " " + part.userData.fileName + dosLineEnd;
 
 	}
 
@@ -391,8 +481,16 @@ function embeddedPartToText( embeddedPart ) {
 
 		let traverseChildren = true;
 
+		// Main part color
 		if ( child.userData.colorCode ) colorCode = child.userData.colorCode;
-		if ( child.material && child.material.userData.code ) colorCode = child.material.userData.code;
+		if ( child.material ) {
+
+			// Color code from the object material
+			if ( child.material.userData.code ) colorCode = child.material.userData.code;
+			// Direct color
+			else colorCode = '0x2' + child.material.color.clone().convertLinearToSRGB().getHexString();
+
+		}
 
 		if ( child.isGroup ) {
 
@@ -543,6 +641,9 @@ function exportModel( model, format, scale ) {
 
 		case 'dae':
 
+			// dae is in meters
+			scale *= 0.001;
+
 			new ColladaExporter().parse( model, ( data ) => {
 
 				saveFile( removeFilenameExtension( model.userData.fileName ) + ".dae", new Blob( [ data.data ] ) );
@@ -551,6 +652,9 @@ function exportModel( model, format, scale ) {
 			break;
 
 		case 'gltf':
+
+			// gltf is in meters
+			scale *= 0.001;
 
 			new GLTFExporter().parse(
 				model,
@@ -570,6 +674,9 @@ function exportModel( model, format, scale ) {
 			break;
 
 		case 'obj':
+
+			// obj is assumed to be in meters
+			scale *= 0.001;
 
 			saveFile( removeFilenameExtension( model.userData.fileName ) + ".obj", new Blob( [ new OBJExporter().parse( model ) ] ) );
 
