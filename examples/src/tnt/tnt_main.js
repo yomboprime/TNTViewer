@@ -1594,15 +1594,15 @@ function updateModelAndPartInfo() {
 		}
 		else {
 
-			if ( isEmbeddedPart( selectedPart ) ) {
+			if ( selectedModel === selectedPart ) {
+
+				infoText += 'Model: ' + selectedModel.userData.fileName + '<br>';
+
+			}
+			else if ( isEmbeddedPart( selectedPart ) ) {
 
 				infoText += 'Part: Embedded part.<br>';
 				if ( mat ) infoText += 'Part color: ' + mat.name + '<br>';
-
-			}
-			else if ( selectedModel === selectedPart ) {
-
-				infoText += 'Model: ' + selectedModel.userData.fileName + '<br>';
 
 			}
 			else infoText += 'Part: No part selected.<br>';

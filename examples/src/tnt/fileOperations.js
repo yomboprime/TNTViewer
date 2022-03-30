@@ -174,6 +174,8 @@ function loadModelFile( file, extension, onModelLoaded, lDrawLoader, scaleToUnit
 
 			}
 
+			mesh.userData.fileName = file.name;
+
 			onModelLoaded( mesh, isLDraw );
 
 		}
