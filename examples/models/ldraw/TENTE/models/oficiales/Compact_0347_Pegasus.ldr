@@ -6,13 +6,13 @@
 0 ROTATION CONFIG 0 0
 1 8 -30 -24 40 0 0 1 0 1 0 -1 0 0 airsillo.dat
 1 8 -30 -24 40 0 0 1 0 1 0 -1 0 0 helmando.dat
-1 4 12 0 20 0 0 1 0 1 0 -1 0 0 htitcab1.dat
-1 14 11 0 20 0 0 1 0 1 0 -1 0 0 htittron.dat
-1 14 -56 -65 20 0 -1 0 0 0 1 -1 0 0 htitbrzd.dat
-1 14 -56 -65 20 0 -1 0 0 0 1 -1 0 0 htitbrzi.dat
-1 14 -56 -65 20 0 -1 0 0 0 1 -1 0 0 htitmand.dat
-1 14 -55 -65 20 0 -1 0 0 0 1 -1 0 0 htitmani.dat
-1 14 -25 -38 20 0 -1 0 0 0 1 -1 0 0 htitpies.dat
+1 4 20 0 20 0 0 1 0 1 0 -1 0 0 htitcab1.dat
+1 14 17 0 20 0 0 1 0 1 0 -1 0 0 htittron.dat
+1 14 -50 -65 20 0 -1 0 0 0 1 -1 0 0 htitbrzd.dat
+1 14 -50 -65 20 0 -1 0 0 0 1 -1 0 0 htitbrzi.dat
+1 14 -50 -65 20 0 -1 0 0 0 1 -1 0 0 htitmand.dat
+1 14 -49 -65 20 0 -1 0 0 0 1 -1 0 0 htitmani.dat
+1 14 -19 -38 20 0 -1 0 0 0 1 -1 0 0 htitpies.dat
 1 4 -30 32 40 0 0 1 0 1 0 -1 0 0 placa2x2.dat
 1 4 -70 40 80 0 0 1 0 1 0 -1 0 0 placa4x6.dat
 1 4 10 24 40 -1 0 0 0 1 0 0 0 -1 bald2.dat
@@ -24,40 +24,7 @@
 1 4 -20 8 30 0 0 1 0 1 0 -1 0 0 amortigu.dat
 1 4 -20 8 10 0 0 1 0 1 0 -1 0 0 amortigu.dat
 1 4 -70 0 20 0 0 1 0 1 0 -1 0 0 bisnraba.dat
-0 MLCAD BTG doble_laser
-1 4 -62 -36 -20 -1 0 0 0 0 1 0 1 0 pistola.dat
-0 MLCAD BTG doble_laser
-1 4 -62 -16 60 -1 0 0 0 0 -1 0 -1 0 pistola.dat
-0 MLCAD BTG doble_laser
-1 4 -103 -26 74 0 1 0 0 0 -1 -1 0 0 laser.dat
-0 MLCAD BTG doble_laser
-1 4 -103 -26 -34 0 1 0 0 0 -1 -1 0 0 laser.dat
 1 4 -70 0 20 0 0 1 0 1 0 -1 0 0 bisnreje.dat
-0 MLCAD BTG doble_laser
-1 4 -62 4 20 0 1 0 0 0 -1 -1 0 0 bisnrarr.dat
-0 MLCAD BTG doble_laser
-1 4 -54 -16 60 0 1 0 0 0 -1 -1 0 0 placa4.dat
-0 MLCAD BTG doble_laser
-1 4 -62 -36 60 0 1 0 1 0 0 0 0 -1 enganch2.dat
-0 MLCAD BTG doble_laser
-1 4 -62 -16 -20 0 1 0 -1 0 0 0 0 1 enganch2.dat
-0 MLCAD BTG doble_laser
-1 15 -86 -26 -10 0 1 0 -1 0 0 0 0 1 tubo.dat
-0 MLCAD BTG doble_laser
-1 15 -86 -26 50 0 1 0 -1 0 0 0 0 1 tubo.dat
-0 MLCAD BTG doble_laser
-1 4 -70 -16 0 0 1 0 0 0 1 1 0 0 pico.dat
-0 MLCAD BTG doble_laser
-1 4 -70 -16 0 0 1 0 0 0 1 1 0 0 cuna.dat
-0 MLCAD BTG doble_laser
-1 4 -94 4 0 0 1 0 0 0 1 1 0 0 pico.dat
-0 MLCAD BTG doble_laser
-1 4 -94 4 0 0 1 0 0 0 1 1 0 0 cuna.dat
-0 MLCAD BTG doble_laser
-1 15 -118 14 10 0 1 0 -1 0 0 0 0 1 chimenea.dat
-0 MLCAD BTG doble_laser
-1 15 -118 14 30 0 1 0 -1 0 0 0 0 1 chimenea.dat
-0 GROUP 16 doble_laser
 1 4 -30 -16 20 1 0 0 0 1 0 0 0 1 placa4.dat
 1 4 -30 -16 0 1 0 0 0 1 0 0 0 1 placa4.dat
 1 4 50 -24 0 0 0 -1 0 1 0 1 0 0 jacena2.dat
@@ -71,4 +38,37 @@
 1 4 -30 136 80 1 0 0 0 1 0 0 0 1 patastro.dat
 1 4 -30 24 20 1 0 0 0 1 0 0 0 1 rotorinf.dat
 1 0 -30 24 20 1 0 0 0 1 0 0 0 1 platfgir.dat
+0 MLCAD BTG laser
+1 4 -70 -40 -20 -1 0 0 0 0 1 0 1 0 pistola.dat
+0 MLCAD BTG laser
+1 4 -70 -20 60 -1 0 0 0 0 -1 0 -1 0 pistola.dat
+0 MLCAD BTG laser
+1 4 -110 -30 74 0 1 0 0 0 -1 -1 0 0 laser.dat
+0 MLCAD BTG laser
+1 4 -110 -30 -34 0 1 0 0 0 -1 -1 0 0 laser.dat
+0 MLCAD BTG laser
+1 4 -70 0 20 0 1 0 0 0 -1 -1 0 0 bisnrarr.dat
+0 MLCAD BTG laser
+1 4 -62 -20 60 0 1 0 0 0 -1 -1 0 0 placa4.dat
+0 MLCAD BTG laser
+1 4 -70 -40 60 0 1 0 1 0 0 0 0 -1 enganche.dat
+0 MLCAD BTG laser
+1 4 -70 -20 -20 0 1 0 -1 0 0 0 0 1 enganche.dat
+0 MLCAD BTG laser
+1 15 -94 -30 -10 0 1 0 -1 0 0 0 0 1 tubo.dat
+0 MLCAD BTG laser
+1 15 -94 -30 50 0 1 0 -1 0 0 0 0 1 tubo.dat
+0 MLCAD BTG laser
+1 4 -78 -20 0 0 1 0 0 0 1 1 0 0 pico.dat
+0 MLCAD BTG laser
+1 4 -78 -20 0 0 1 0 0 0 1 1 0 0 cuna.dat
+0 MLCAD BTG laser
+1 4 -102 0 0 0 1 0 0 0 1 1 0 0 pico.dat
+0 MLCAD BTG laser
+1 4 -102 0 0 0 1 0 0 0 1 1 0 0 cuna.dat
+0 MLCAD BTG laser
+1 15 -126 10 10 0 1 0 -1 0 0 0 0 1 chimenea.dat
+0 MLCAD BTG laser
+1 15 -126 10 30 0 1 0 -1 0 0 0 0 1 chimenea.dat
+0 GROUP 16 laser
 0

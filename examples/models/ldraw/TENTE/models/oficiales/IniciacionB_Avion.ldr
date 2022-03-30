@@ -1,0 +1,46 @@
+0 Untitled
+0 Name: IniciacionB_Avion.ldr
+0 Author: jasolo
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 1 -100 8 0 1 0 0 0 1 0 0 0 1 jacen2x8.dat
+1 1 -340 8 0 1 0 0 0 1 0 0 0 1 jacen2x8.dat
+1 1 -100 -8 -140 0 0 -1 0 1 0 1 0 0 placa4x8.dat
+1 1 -100 -8 20 0 0 -1 0 1 0 1 0 0 placa4x8.dat
+1 15 -100 -8 -300 0 0 -1 0 1 0 1 0 0 placa4x8.dat
+1 15 -100 -8 180 0 0 -1 0 1 0 1 0 0 placa4x8.dat
+1 1 -340 -16 100 0 0 1 0 1 0 -1 0 0 jacen2x8.dat
+1 15 -160 16 -20 0 0 1 0 1 0 -1 0 0 jacen2x8.dat
+1 15 -160 16 220 0 0 1 0 1 0 -1 0 0 jacen2x8.dat
+1 4 -40 8 20 0 0 1 0 1 0 -1 0 0 ruerj42t.dat
+1 4 -220 8 20 0 0 1 0 1 0 -1 0 0 ruerj42t.dat
+1 1 20 -16 0 1 0 0 0 1 0 0 0 1 jacen2x4.dat
+1 1 -180 16 -20 1 0 0 0 1 0 0 0 1 jacen2x4.dat
+1 1 -180 16 20 1 0 0 0 1 0 0 0 1 jacen2x4.dat
+1 1 -20 -16 0 1 0 0 0 1 0 0 0 1 jacen2x2.dat
+1 1 -300 -16 0 1 0 0 0 1 0 0 0 1 jacen2x2.dat
+1 1 -160 -16 0 1 0 0 0 1 0 0 0 1 jacen2x2.dat
+1 0 -60 -16 0 1 0 0 0 1 0 0 0 1 jacen2x2.dat
+1 0 -120 -16 0 1 0 0 0 1 0 0 0 1 jacen2x2.dat
+1 14 -100 -40 0 1 0 0 0 1 0 0 0 1 jacen2x2.dat
+1 14 -60 -40 0 1 0 0 0 1 0 0 0 1 jacen2x4.dat
+1 14 -360 -40 -60 1 0 0 0 1 0 0 0 1 jacen2x4.dat
+1 14 -360 -40 60 1 0 0 0 1 0 0 0 1 jacen2x4.dat
+1 14 -260 -40 0 1 0 0 0 1 0 0 0 1 jacen2x8.dat
+1 14 -420 -40 0 1 0 0 0 1 0 0 0 1 jacen2x8.dat
+1 4 -420 -88 0 1 0 0 0 1 0 0 0 1 jacen2x4.dat
+1 4 -460 -64 0 1 0 0 0 1 0 0 0 1 jacen2x4.dat
+1 4 -380 -64 0 1 0 0 0 1 0 0 0 1 jacen2x4.dat
+1 4 -460 -112 0 1 0 0 0 1 0 0 0 1 jacen2x4.dat
+1 15 -420 -136 20 0 0 1 0 1 0 -1 0 0 placa2x8.dat
+1 1 -460 -136 20 0 0 1 0 1 0 -1 0 0 placa2x8.dat
+1 15 -420 -136 180 0 0 1 0 1 0 -1 0 0 placa2x8.dat
+1 1 -460 -136 180 0 0 1 0 1 0 -1 0 0 placa2x8.dat
+1 4 -460 -88 0 1 0 0 0 1 0 0 0 1 jacen2x2.dat
+1 0 20 -40 40 0 0 1 0 1 0 -1 0 0 jacena2.dat
+1 1 -80 -16 40 0 0 1 0 1 0 -1 0 0 jacena2.dat
+1 0 -200 -16 0 1 0 0 0 1 0 0 0 1 jacen2x2.dat
+1 0 -260 -16 0 1 0 0 0 1 0 0 0 1 jacen2x2.dat
+1 1 -220 -16 40 0 0 1 0 1 0 -1 0 0 jacena2.dat
+0

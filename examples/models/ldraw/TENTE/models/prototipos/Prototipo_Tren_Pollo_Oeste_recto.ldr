@@ -1,0 +1,295 @@
+0 
+0 Unofficial Model
+0 Untitled
+0 Name: trenpollo.ldr
+0 Author: cpcbegin (original: pollo)
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+0 MLCAD BTG Locomotora
+1 0 -120 8 -780 1 0 0 0 1 0 0 0 1 placa2x3.dat
+0 MLCAD BTG Locomotora
+1 4 -110 32 -780 1 0 0 0 1 0 0 0 1 jacena2.dat
+0 MLCAD BTG Locomotora
+1 0 -90 -48 -750 0 0 -1 0 1 0 1 0 0 tubo.dat
+0 MLCAD BTG Locomotora
+1 0 -120 0 -740 0 0 -1 0 1 0 1 0 0 pico.dat
+0 MLCAD BTG Locomotora
+1 0 -120 8 -740 1 0 0 0 1 0 0 0 1 placa2x3.dat
+0 MLCAD BTG Locomotora
+1 0 -90 -8 -740 1 0 0 0 1 0 0 0 1 cilindr2.dat
+0 MLCAD BTG Locomotora
+1 4 -90 32 -740 1 0 0 0 1 0 0 0 1 trenr.dat
+0 MLCAD BTG Locomotora
+1 0 -90 32 -740 1 0 0 0 1 0 0 0 1 trenb.dat
+0 MLCAD BTG Locomotora
+1 0 -100 0 -720 0 0 1 0 1 0 -1 0 0 placa2.dat
+0 MLCAD BTG Locomotora
+1 0 -120 -48 -700 1 0 0 0 1 0 0 0 1 placa2x3.dat
+0 MLCAD BTG Locomotora
+1 0 -120 0 -700 1 0 0 0 1 0 0 0 1 jacen2x3.dat
+0 MLCAD BTG Locomotora
+1 0 -120 8 -700 1 0 0 0 1 0 0 0 1 placa2x3.dat
+0 MLCAD BTG Locomotora
+1 0 -90 32 -700 1 0 0 0 1 0 0 0 1 trenb.dat
+0 MLCAD BTG Locomotora
+1 4 -90 32 -700 1 0 0 0 1 0 0 0 1 trenr.dat
+0 MLCAD BTG Locomotora
+1 0 -60 0 -700 0 0 1 0 1 0 -1 0 0 pico.dat
+0 MLCAD BTG Locomotora
+1 0 -70 -24 -690 0 0 1 0 1 0 -1 0 0 jacena1.dat
+0 MLCAD BTG Locomotora
+1 0 -80 -24 -680 -1 0 0 0 1 0 0 0 -1 jacena2.dat
+0 MLCAD BTG Locomotora
+1 15 -110 -24 -670 0 0 1 0 1 0 -1 0 0 jacena1.dat
+0 MLCAD BTG Locomotora
+1 0 -90 32 -670 0 0 1 0 1 0 -1 0 0 trenejh.dat
+0 MLCAD BTG Locomotora
+1 15 -60 -24 -660 -1 0 0 0 1 0 0 0 -1 jacena2.dat
+0 GROUP 20 Locomotora
+0 MLCAD BTG Vagon1
+1 0 -120 -48 -640 1 0 0 0 1 0 0 0 1 placa2x3.dat
+0 MLCAD BTG Vagon1
+1 1 -120 8 -640 1 0 0 0 1 0 0 0 1 placa2x3.dat
+0 MLCAD BTG Vagon1
+1 0 -90 32 -630 0 0 1 0 1 0 -1 0 0 trenejm.dat
+0 MLCAD BTG Vagon1
+1 1 -110 -24 -610 0 0 1 0 1 0 -1 0 0 jacena1.dat
+0 MLCAD BTG Vagon1
+1 1 -110 0 -610 0 0 1 0 1 0 -1 0 0 jacena1.dat
+0 MLCAD BTG Vagon1
+1 15 -90 -24 -610 0 0 1 0 1 0 -1 0 0 jacena1.dat
+0 MLCAD BTG Vagon1
+1 15 -90 0 -610 0 0 1 0 1 0 -1 0 0 jacena1.dat
+0 MLCAD BTG Vagon1
+1 1 -70 -24 -610 0 0 1 0 1 0 -1 0 0 jacena1.dat
+0 MLCAD BTG Vagon1
+1 1 -70 0 -610 0 0 1 0 1 0 -1 0 0 jacena1.dat
+0 MLCAD BTG Vagon1
+1 0 -120 -48 -600 1 0 0 0 1 0 0 0 1 placa2x3.dat
+0 MLCAD BTG Vagon1
+1 1 -120 8 -600 1 0 0 0 1 0 0 0 1 placa2x3.dat
+0 MLCAD BTG Vagon1
+1 4 -90 32 -600 1 0 0 0 1 0 0 0 1 trenr.dat
+0 MLCAD BTG Vagon1
+1 0 -90 32 -600 1 0 0 0 1 0 0 0 1 trenb.dat
+0 MLCAD BTG Vagon1
+1 7 -110 -24 -590 0 0 1 0 1 0 -1 0 0 jacena1.dat
+0 MLCAD BTG Vagon1
+1 7 -110 0 -590 0 0 1 0 1 0 -1 0 0 jacena1.dat
+0 MLCAD BTG Vagon1
+1 7 -70 -24 -590 0 0 1 0 1 0 -1 0 0 jacena1.dat
+0 MLCAD BTG Vagon1
+1 7 -70 0 -590 0 0 1 0 1 0 -1 0 0 jacena1.dat
+0 MLCAD BTG Vagon1
+1 15 -110 -24 -570 0 0 1 0 1 0 -1 0 0 jacena1.dat
+0 MLCAD BTG Vagon1
+1 15 -70 -24 -570 0 0 1 0 1 0 -1 0 0 jacena1.dat
+0 MLCAD BTG Vagon1
+1 0 -120 -48 -560 1 0 0 0 1 0 0 0 1 placa2x3.dat
+0 MLCAD BTG Vagon1
+1 1 -120 8 -560 1 0 0 0 1 0 0 0 1 placa2x3.dat
+0 MLCAD BTG Vagon1
+1 0 -90 32 -560 1 0 0 0 1 0 0 0 1 trenb.dat
+0 MLCAD BTG Vagon1
+1 4 -90 32 -560 1 0 0 0 1 0 0 0 1 trenr.dat
+0 MLCAD BTG Vagon1
+1 1 -110 -24 -550 0 0 1 0 1 0 -1 0 0 jacena1.dat
+0 MLCAD BTG Vagon1
+1 15 -90 -24 -550 0 0 1 0 1 0 -1 0 0 jacena1.dat
+0 MLCAD BTG Vagon1
+1 15 -90 0 -550 0 0 1 0 1 0 -1 0 0 jacena1.dat
+0 MLCAD BTG Vagon1
+1 1 -70 -24 -550 0 0 1 0 1 0 -1 0 0 jacena1.dat
+0 MLCAD BTG Vagon1
+1 1 -120 0 -540 0 0 1 0 1 0 -1 0 0 jacena2.dat
+0 MLCAD BTG Vagon1
+1 1 -80 0 -540 0 0 1 0 1 0 -1 0 0 jacena2.dat
+0 MLCAD BTG Vagon1
+1 0 -90 32 -530 0 0 1 0 1 0 -1 0 0 trenejh.dat
+1 14 -90 32 -650 -1 0 0 0 1 0 0 0 -1 antncruz.dat
+0 GROUP 30 Vagon1
+0 MLCAD BTG Vagon2
+1 0 -120 -48 -500 1 0 0 0 1 0 0 0 1 placa2x3.dat
+0 MLCAD BTG Vagon2
+1 4 -120 8 -500 1 0 0 0 1 0 0 0 1 placa2x3.dat
+0 MLCAD BTG Vagon2
+1 0 -90 32 -490 0 0 1 0 1 0 -1 0 0 trenejm.dat
+0 MLCAD BTG Vagon2
+1 14 -110 -24 -470 0 0 1 0 1 0 -1 0 0 jacena1.dat
+0 MLCAD BTG Vagon2
+1 15 -90 -24 -470 0 0 1 0 1 0 -1 0 0 jacena1.dat
+0 MLCAD BTG Vagon2
+1 15 -90 0 -470 0 0 1 0 1 0 -1 0 0 jacena1.dat
+0 MLCAD BTG Vagon2
+1 14 -70 -24 -470 0 0 1 0 1 0 -1 0 0 jacena1.dat
+0 MLCAD BTG Vagon2
+1 0 -120 -48 -460 1 0 0 0 1 0 0 0 1 placa2x3.dat
+0 MLCAD BTG Vagon2
+1 4 -120 8 -460 1 0 0 0 1 0 0 0 1 placa2x3.dat
+0 MLCAD BTG Vagon2
+1 4 -90 32 -460 1 0 0 0 1 0 0 0 1 trenr.dat
+0 MLCAD BTG Vagon2
+1 0 -90 32 -460 1 0 0 0 1 0 0 0 1 trenb.dat
+0 MLCAD BTG Vagon2
+1 0 -120 -48 -420 1 0 0 0 1 0 0 0 1 placa2x3.dat
+0 MLCAD BTG Vagon2
+1 15 -120 -24 -420 0 0 1 0 1 0 -1 0 0 jacena2.dat
+0 MLCAD BTG Vagon2
+1 4 -120 8 -420 1 0 0 0 1 0 0 0 1 placa2x3.dat
+0 MLCAD BTG Vagon2
+1 4 -90 32 -420 1 0 0 0 1 0 0 0 1 trenr.dat
+0 MLCAD BTG Vagon2
+1 0 -90 32 -420 1 0 0 0 1 0 0 0 1 trenb.dat
+0 MLCAD BTG Vagon2
+1 15 -80 -24 -420 0 0 1 0 1 0 -1 0 0 jacena2.dat
+0 MLCAD BTG Vagon2
+1 14 -110 -24 -410 0 0 1 0 1 0 -1 0 0 jacena1.dat
+0 MLCAD BTG Vagon2
+1 15 -90 -24 -410 0 0 1 0 1 0 -1 0 0 jacena1.dat
+0 MLCAD BTG Vagon2
+1 15 -90 0 -410 0 0 1 0 1 0 -1 0 0 jacena1.dat
+0 MLCAD BTG Vagon2
+1 14 -70 -24 -410 0 0 1 0 1 0 -1 0 0 jacena1.dat
+0 MLCAD BTG Vagon2
+1 4 -120 0 -400 0 0 1 0 1 0 -1 0 0 jacena4.dat
+0 MLCAD BTG Vagon2
+1 4 -80 0 -400 0 0 1 0 1 0 -1 0 0 jacena4.dat
+0 MLCAD BTG Vagon2
+1 0 -90 32 -390 0 0 1 0 1 0 -1 0 0 trenejh.dat
+1 14 -90 24 -510 -1 0 0 0 1 0 0 0 -1 antncruz.dat
+0 GROUP 24 Vagon2
+0 MLCAD BTG Vagon3
+1 0 -120 -48 -360 1 0 0 0 1 0 0 0 1 placa2x3.dat
+0 MLCAD BTG Vagon3
+1 2 -120 8 -360 1 0 0 0 1 0 0 0 1 placa2x3.dat
+0 MLCAD BTG Vagon3
+1 0 -90 32 -350 0 0 1 0 1 0 -1 0 0 trenejm.dat
+0 MLCAD BTG Vagon3
+1 2 -110 -24 -330 0 0 1 0 1 0 -1 0 0 jacena1.dat
+0 MLCAD BTG Vagon3
+1 15 -90 -24 -330 0 0 1 0 1 0 -1 0 0 jacena1.dat
+0 MLCAD BTG Vagon3
+1 15 -90 0 -330 0 0 1 0 1 0 -1 0 0 jacena1.dat
+0 MLCAD BTG Vagon3
+1 2 -70 -24 -330 0 0 1 0 1 0 -1 0 0 jacena1.dat
+0 MLCAD BTG Vagon3
+1 0 -120 -48 -320 1 0 0 0 1 0 0 0 1 placa2x3.dat
+0 MLCAD BTG Vagon3
+1 2 -120 8 -320 1 0 0 0 1 0 0 0 1 placa2x3.dat
+0 MLCAD BTG Vagon3
+1 4 -90 32 -320 1 0 0 0 1 0 0 0 1 trenr.dat
+0 MLCAD BTG Vagon3
+1 0 -90 32 -320 1 0 0 0 1 0 0 0 1 trenb.dat
+0 MLCAD BTG Vagon3
+1 0 -120 -48 -280 1 0 0 0 1 0 0 0 1 placa2x3.dat
+0 MLCAD BTG Vagon3
+1 15 -120 -24 -280 0 0 1 0 1 0 -1 0 0 jacena2.dat
+0 MLCAD BTG Vagon3
+1 2 -120 8 -280 1 0 0 0 1 0 0 0 1 placa2x3.dat
+0 MLCAD BTG Vagon3
+1 4 -90 32 -280 1 0 0 0 1 0 0 0 1 trenr.dat
+0 MLCAD BTG Vagon3
+1 0 -90 32 -280 1 0 0 0 1 0 0 0 1 trenb.dat
+0 MLCAD BTG Vagon3
+1 15 -80 -24 -280 0 0 1 0 1 0 -1 0 0 jacena2.dat
+0 MLCAD BTG Vagon3
+1 2 -110 -24 -270 0 0 1 0 1 0 -1 0 0 jacena1.dat
+0 MLCAD BTG Vagon3
+1 15 -90 -24 -270 0 0 1 0 1 0 -1 0 0 jacena1.dat
+0 MLCAD BTG Vagon3
+1 15 -90 0 -270 0 0 1 0 1 0 -1 0 0 jacena1.dat
+0 MLCAD BTG Vagon3
+1 2 -70 -24 -270 0 0 1 0 1 0 -1 0 0 jacena1.dat
+0 MLCAD BTG Vagon3
+1 2 -120 0 -260 0 0 1 0 1 0 -1 0 0 jacena4.dat
+0 MLCAD BTG Vagon3
+1 2 -80 0 -260 0 0 1 0 1 0 -1 0 0 jacena4.dat
+0 MLCAD BTG Vagon3
+1 0 -90 32 -250 0 0 1 0 1 0 -1 0 0 trenejh.dat
+1 14 -90 24 -370 -1 0 0 0 1 0 0 0 -1 antncruz.dat
+0 GROUP 24 Vagon3
+0 MLCAD BTG Vagon4
+1 1 -120 8 -220 1 0 0 0 1 0 0 0 1 placa2x3.dat
+0 MLCAD BTG Vagon4
+1 0 -90 32 -210 0 0 1 0 1 0 -1 0 0 trenejm.dat
+0 MLCAD BTG Vagon4
+1 15 -90 -48 -190 0 0 1 0 1 0 -1 0 0 toberast.dat
+0 MLCAD BTG Vagon4
+1 0 -90 0 -190 0 0 1 0 1 0 -1 0 0 cilindro.dat
+0 MLCAD BTG Vagon4
+1 1 -120 8 -180 1 0 0 0 1 0 0 0 1 placa2x3.dat
+0 MLCAD BTG Vagon4
+1 0 -90 32 -180 1 0 0 0 1 0 0 0 1 trenb.dat
+0 MLCAD BTG Vagon4
+1 4 -90 32 -180 1 0 0 0 1 0 0 0 1 trenr.dat
+0 MLCAD BTG Vagon4
+1 0 -80 -48 -160 -1 0 0 0 1 0 0 0 -1 bald2.dat
+0 MLCAD BTG Vagon4
+1 1 -120 8 -140 1 0 0 0 1 0 0 0 1 placa2x3.dat
+0 MLCAD BTG Vagon4
+1 0 -90 32 -140 1 0 0 0 1 0 0 0 1 trenb.dat
+0 MLCAD BTG Vagon4
+1 4 -90 32 -140 1 0 0 0 1 0 0 0 1 trenr.dat
+0 MLCAD BTG Vagon4
+1 15 -90 -48 -130 0 0 1 0 1 0 -1 0 0 toberast.dat
+0 MLCAD BTG Vagon4
+1 0 -90 0 -130 0 0 1 0 1 0 -1 0 0 cilindro.dat
+0 MLCAD BTG Vagon4
+1 0 -80 -48 -120 -1 0 0 0 1 0 0 0 -1 bald2.dat
+0 MLCAD BTG Vagon4
+1 0 -90 32 -110 0 0 1 0 1 0 -1 0 0 trenejh.dat
+1 14 -90 24 -230 -1 0 0 0 1 0 0 0 -1 antncruz.dat
+0 GROUP 15 Vagon4
+0 MLCAD BTG Vagon5
+1 4 -120 8 -80 1 0 0 0 1 0 0 0 1 placa2x3.dat
+0 MLCAD BTG Vagon5
+1 0 -100 -72 -80 1 0 0 0 1 0 0 0 1 bald1.dat
+0 MLCAD BTG Vagon5
+1 15 -90 -48 -70 1 0 0 0 1 0 0 0 1 jacena1.dat
+0 MLCAD BTG Vagon5
+1 0 -90 32 -70 0 0 1 0 1 0 -1 0 0 trenejm.dat
+0 MLCAD BTG Vagon5
+1 0 -120 -48 -60 1 0 0 0 1 0 0 0 1 placa2x3.dat
+0 MLCAD BTG Vagon5
+1 4 -100 0 -60 1 0 0 0 1 0 0 0 1 jacena2.dat
+0 MLCAD BTG Vagon5
+1 4 -110 -24 -50 1 0 0 0 1 0 0 0 1 jacena1.dat
+0 MLCAD BTG Vagon5
+1 4 -110 0 -50 1 0 0 0 1 0 0 0 1 jacena1.dat
+0 MLCAD BTG Vagon5
+1 4 -70 -24 -50 1 0 0 0 1 0 0 0 1 jacena1.dat
+0 MLCAD BTG Vagon5
+1 4 -120 8 -40 1 0 0 0 1 0 0 0 1 placa2x3.dat
+0 MLCAD BTG Vagon5
+1 4 -100 -24 -40 0 0 1 0 1 0 -1 0 0 jacena2.dat
+0 MLCAD BTG Vagon5
+1 7 -100 0 -40 0 0 -1 0 1 0 1 0 0 sillastr.dat
+0 MLCAD BTG Vagon5
+1 4 -90 32 -40 1 0 0 0 1 0 0 0 1 trenr.dat
+0 MLCAD BTG Vagon5
+1 0 -90 32 -40 1 0 0 0 1 0 0 0 1 trenb.dat
+0 MLCAD BTG Vagon5
+1 0 -120 -48 -20 1 0 0 0 1 0 0 0 1 placa2x3.dat
+0 MLCAD BTG Vagon5
+1 4 -120 8 0 1 0 0 0 1 0 0 0 1 placa2x3.dat
+0 MLCAD BTG Vagon5
+1 4 -90 32 0 1 0 0 0 1 0 0 0 1 trenr.dat
+0 MLCAD BTG Vagon5
+1 0 -90 32 0 1 0 0 0 1 0 0 0 1 trenb.dat
+0 MLCAD BTG Vagon5
+1 7 -80 0 0 0 0 1 0 1 0 -1 0 0 sillastr.dat
+0 MLCAD BTG Vagon5
+1 0 -120 -48 20 1 0 0 0 1 0 0 0 1 placa1.dat
+0 MLCAD BTG Vagon5
+1 0 -100 -48 20 1 0 0 0 1 0 0 0 1 placa2.dat
+0 MLCAD BTG Vagon5
+1 4 -120 -24 40 0 0 1 0 1 0 -1 0 0 jacena2.dat
+0 MLCAD BTG Vagon5
+1 4 -120 0 40 0 0 1 0 1 0 -1 0 0 jacena2.dat
+0 MLCAD BTG Vagon5
+1 4 -80 -24 40 0 0 1 0 1 0 -1 0 0 jacena2.dat
+0 MLCAD BTG Vagon5
+1 4 -80 0 40 0 0 1 0 1 0 -1 0 0 jacena2.dat
+1 14 -90 24 -90 -1 0 0 0 1 0 0 0 -1 antncruz.dat
+0 GROUP 25 Vagon5
+0

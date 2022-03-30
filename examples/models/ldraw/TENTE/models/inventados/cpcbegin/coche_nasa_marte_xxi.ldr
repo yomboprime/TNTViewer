@@ -1,0 +1,123 @@
+0 Untitled
+0 Name: coche_nasa_marte_xxi.ldr
+0 Author: MLCad
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 0 40 48 0 1 0 0 0 1 0 0 0 1 cabalfab.dat
+1 0 60 64 -60 0 0 -1 0 1 0 1 0 0 placa2x2.dat
+1 0 60 64 -20 0 0 -1 0 1 0 1 0 0 placa2x3.dat
+1 0 60 64 80 0 0 -1 0 1 0 1 0 0 placa2x8.dat
+1 0 20 64 160 0 0 -1 0 1 0 1 0 0 placa4.dat
+1 0 20 64 80 0 0 -1 0 1 0 1 0 0 placa4.dat
+1 0 20 64 0 0 0 -1 0 1 0 1 0 0 placa4.dat
+1 0 20 56 120 0 0 -1 0 1 0 1 0 0 cuna.dat
+1 0 20 56 160 0 0 -1 0 1 0 1 0 0 cuna.dat
+1 0 20 56 200 0 0 -1 0 1 0 1 0 0 cuna.dat
+1 7 60 40 220 0 0 -1 0 1 0 1 0 0 castillo.dat
+1 0 20 -24 220 1 0 0 0 1 0 0 0 1 vntscorm.dat
+1 33 20 -24 220 1 0 0 0 1 0 0 0 1 vntscorv.dat
+1 0 40 48 240 1 0 0 0 1 0 0 0 1 bispqaba.dat
+1 7 40 48 240 1 0 0 0 1 0 0 0 1 bispqarr.dat
+1 0 60 56 240 0 0 1 0 1 0 -1 0 0 cuna.dat
+1 0 60 32 240 0 0 1 0 1 0 -1 0 0 jacen2x3.dat
+1 0 80 8 240 0 0 1 0 1 0 -1 0 0 jacena6.dat
+1 0 20 8 240 0 0 1 0 1 0 -1 0 0 jacena6.dat
+1 0 0 8 160 0 0 1 0 1 0 -1 0 0 pico.dat
+1 0 0 8 200 0 0 1 0 1 0 -1 0 0 pico.dat
+1 0 0 8 240 0 0 1 0 1 0 -1 0 0 pico.dat
+1 0 80 8 200 0 0 -1 0 1 0 1 0 0 pico.dat
+1 0 80 8 160 0 0 -1 0 1 0 1 0 0 pico.dat
+1 0 80 8 120 0 0 -1 0 1 0 1 0 0 pico.dat
+1 0 60 -16 120 0 0 -1 0 1 0 1 0 0 pico.dat
+1 0 60 -40 80 0 0 -1 0 1 0 1 0 0 placa2x8.dat
+1 33 40 -48 80 0 0 -1 0 1 0 1 0 0 rotorinf.dat
+1 0 60 -48 100 0 0 -1 0 1 0 1 0 0 bald2.dat
+1 0 20 -56 140 0 0 -1 0 1 0 1 0 0 bispqaba.dat
+1 0 20 -56 180 0 0 -1 0 1 0 1 0 0 bispqaba.dat
+1 0 20 -56 220 0 0 -1 0 1 0 1 0 0 bispqaba.dat
+1 0 60 -56 220 0 0 1 0 1 0 -1 0 0 bispqaba.dat
+1 0 60 -56 180 0 0 1 0 1 0 -1 0 0 bispqaba.dat
+1 0 60 -56 140 0 0 1 0 1 0 -1 0 0 bispqaba.dat
+0 MLCAD BTG panel_izquierdo
+1 0 58.987 -55.833 134 0 -0.766044 -0.642788 0 0.642788 -0.766044 1 0 0 bispqarr.dat
+0 MLCAD BTG panel_izquierdo
+1 0 97.553 -9.869 113.999 0 -0.766044 -0.642788 0 0.642788 -0.766044 1 0 0 placa2x3.dat
+0 MLCAD BTG panel_izquierdo
+1 0 97.553 -9.869 174 0 -0.766044 -0.642788 0 0.642788 -0.766044 1 0 0 placa2x3.dat
+0 MLCAD BTG panel_izquierdo
+1 0 90.825 -30.333 134 0 -0.766044 -0.642788 0 0.642788 -0.766044 1 0 0 baldg2x2.dat
+0 MLCAD BTG panel_izquierdo
+1 0 90.825 -30.333 174 0 -0.766044 -0.642788 0 0.642788 -0.766044 1 0 0 baldg2x2.dat
+0 MLCAD BTG panel_izquierdo
+1 0 90.825 -30.333 214 0 -0.766044 -0.642788 0 0.642788 -0.766044 1 0 0 baldc2.dat
+0 MLCAD BTG panel_izquierdo
+1 0 103.682 -15.012 114 0 -0.766044 -0.642788 0 0.642788 -0.766044 1 0 0 baldc2.dat
+0 MLCAD BTG panel_izquierdo
+1 0 103.682 -15.012 174 -0.642788 -0.766044 0 -0.766044 0.642788 0 0 0 -1 baldc2.dat
+0 MLCAD BTG panel_izquierdo
+1 0 103.682 -15.012 214 -0.642788 -0.766044 0 -0.766044 0.642788 0 0 0 -1 baldc2.dat
+0 MLCAD BTG panel_izquierdo
+1 0 103.682 -15.012 234 -0.642788 -0.766044 0 -0.766044 0.642788 0 0 0 -1 baldc1.dat
+0 MLCAD BTG panel_izquierdo
+1 0 58.987 -55.833 174 0 -0.766044 -0.642788 0 0.642788 -0.766044 1 0 0 bispqarr.dat
+0 MLCAD BTG panel_izquierdo
+1 0 58.987 -55.833 214 0 -0.766044 -0.642788 0 0.642788 -0.766044 1 0 0 bispqarr.dat
+1 0 60 -40 0 0 0 -1 0 1 0 1 0 0 bald2x2.dat
+1 0 60 -40 40 0 0 -1 0 1 0 1 0 0 bald2x2.dat
+1 0 60 -16 160 0 0 -1 0 1 0 1 0 0 pico.dat
+1 0 60 -16 200 0 0 -1 0 1 0 1 0 0 pico.dat
+1 0 20 -16 240 0 0 1 0 1 0 -1 0 0 pico.dat
+1 0 20 -16 200 0 0 1 0 1 0 -1 0 0 pico.dat
+1 0 20 -16 160 0 0 1 0 1 0 -1 0 0 pico.dat
+1 0 60 32 180 0 0 1 0 1 0 -1 0 0 jacen2x3.dat
+1 0 -20 32 240 0 0 1 0 1 0 -1 0 0 jacen2x3.dat
+1 0 -20 32 180 0 0 1 0 1 0 -1 0 0 jacen2x3.dat
+1 0 60 56 200 0 0 1 0 1 0 -1 0 0 cuna.dat
+1 0 60 56 160 0 0 1 0 1 0 -1 0 0 cuna.dat
+1 0 80 64 160 0 0 -1 0 1 0 1 0 0 placa4.dat
+1 0 80 64 80 0 0 -1 0 1 0 1 0 0 placa4.dat
+1 0 80 64 0 0 0 -1 0 1 0 1 0 0 placa4.dat
+1 0 60 72 60 -1 0 0 0 1 0 0 0 -1 guardabr.dat
+1 0 20 72 20 1 0 0 0 1 0 0 0 1 guardabr.dat
+1 0 20 72 20 1 0 0 0 1 0 0 0 1 guardabr.dat
+1 0 40 56 0 0 0 -1 0 1 0 1 0 0 comprtm.dat
+1 32 40 56 0 0 0 -1 0 1 0 1 0 0 comprtp.dat
+1 0 40 56 120 0 0 1 0 1 0 -1 0 0 comprtm.dat
+1 32 40 56 120 0 0 1 0 1 0 -1 0 0 comprtp.dat
+1 0 60 56 0 -1 0 0 0 1 0 0 0 -1 placa2.dat
+1 32 40 48 0 1 0 0 0 1 0 0 0 1 cabalfar.dat
+1 15 50 72 -60 1 0 0 0 1 0 0 0 1 rueastro.dat
+1 15 50 72 110 1 0 0 0 1 0 0 0 1 rueastro.dat
+1 15 50 72 190 1 0 0 0 1 0 0 0 1 rueastro.dat
+0 MLCAD BTG panel_izquierdo
+1 383 60.766 -59.935 124 0 -0.642788 -0.766044 0 -0.766044 0.642788 -1 0 0 tbescdbl.dat
+0 GROUP 13 panel_izquierdo
+0 MLCAD BTG panel_derecho
+1 0 20.136 -55.68 220 0 0.766044 0.642788 0 0.642788 -0.766044 -1 0 0 bispqarr.dat
+0 MLCAD BTG panel_derecho
+1 0 -18.433 -9.717 240 0 0.766044 0.642788 0 0.642788 -0.766044 -1 0 0 placa2x3.dat
+0 MLCAD BTG panel_derecho
+1 0 -18.433 -9.717 180 0 0.766044 0.642788 0 0.642788 -0.766044 -1 0 0 placa2x3.dat
+0 MLCAD BTG panel_derecho
+1 0 -11.705 -30.18 220 0 0.766044 0.642788 0 0.642788 -0.766044 -1 0 0 baldg2x2.dat
+0 MLCAD BTG panel_derecho
+1 0 -11.705 -30.18 180 0 0.766044 0.642788 0 0.642788 -0.766044 -1 0 0 baldg2x2.dat
+0 MLCAD BTG panel_derecho
+1 0 -24.563 -14.859 140 0 0.766044 0.642788 0 0.642788 -0.766044 -1 0 0 baldc2.dat
+0 MLCAD BTG panel_derecho
+1 0 -24.563 -14.859 240 0 0.766044 0.642788 0 0.642788 -0.766044 -1 0 0 baldc2.dat
+0 MLCAD BTG panel_derecho
+1 0 -24.563 -14.859 180 0.642788 0.766044 0 -0.766044 0.642788 0 0 0 1 baldc2.dat
+0 MLCAD BTG panel_derecho
+1 0 -24.563 -14.859 140 0.642788 0.766044 0 -0.766044 0.642788 0 0 0 1 baldc2.dat
+0 MLCAD BTG panel_derecho
+1 0 1.151 -45.502 220 0.642788 0.766044 0 -0.766044 0.642788 0 0 0 1 baldc1.dat
+0 MLCAD BTG panel_derecho
+1 0 20.136 -55.68 180 0 0.766044 0.642788 0 0.642788 -0.766044 -1 0 0 bispqarr.dat
+0 MLCAD BTG panel_derecho
+1 0 20.136 -55.68 140 0 0.766044 0.642788 0 0.642788 -0.766044 -1 0 0 bispqarr.dat
+0 MLCAD BTG panel_derecho
+1 383 18.355 -59.784 110 0 0.642788 0.766044 0 -0.766044 0.642788 1 0 0 tbescdbl.dat
+0 GROUP 13 panel_derecho
+0
