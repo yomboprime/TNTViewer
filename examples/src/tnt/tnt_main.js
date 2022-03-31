@@ -1325,10 +1325,12 @@ function processPartOrModel( part, isAPart, doRotate ) {
 	part.traverse( c => {
 
 		if ( c.userData.fileName ) {
-
+if ( c.userData.fileName.startsWith( 'royal' ) ) {
+	console.log( "AMEM" );
+}
 			let title = c.userData.fileName;
 			const cPart = getDataBasePart( c );
-			if ( cPart && part.title ) title = part.title;
+			if ( cPart && cPart.title ) title = cPart.title;
 			if ( title.indexOf( 'Etique' ) >= 0 ) stickers.push( c );
 
 		}
