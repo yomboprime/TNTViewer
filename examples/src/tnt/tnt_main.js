@@ -11,7 +11,7 @@ import { LDrawLoader } from '../three/examples/jsm/loaders/LDrawLoader.js';
 
 import * as FileOperations from './fileOperations.js';
 import { iconEmojis } from './iconEmojis.js';
-import { createPartPreview } from './partPreview.js';
+import { createPartPreview, generatePartsThumnbnails } from './partPreview.js';
 
 const GUI_WIDTH = 500;
 
@@ -365,6 +365,7 @@ function init() {
 				exportDAE: () => { exportModel( 'dae' ); },
 				exportOBJ: () => { exportModel( 'obj' ); },
 				showBOM: showBOM,
+				generatePartsThumnbnails: generatePartsThumnbnailsFunc,
 				translationSnap: translationSnap,
 				translationSnapVertical: translationSnapVertical,
 				rotationSnap: rotationSnap,
@@ -1313,7 +1314,7 @@ function addLDrawPartOrModel( model, parentModel, isLDraw ) {
 
 }
 
-function processPartOrModel( part, isAPart, doRotate ) {
+function processPartOrModel( part, isAPart, doRotate, colorCode ) {
 
 	// Convert from LDraw coordinate system: rotate 180 degrees around X axis
 	if ( doRotate ) part.rotation.x = Math.PI;
@@ -1325,9 +1326,7 @@ function processPartOrModel( part, isAPart, doRotate ) {
 	part.traverse( c => {
 
 		if ( c.userData.fileName ) {
-if ( c.userData.fileName.startsWith( 'royal' ) ) {
-	console.log( "AMEM" );
-}
+
 			let title = c.userData.fileName;
 			const cPart = getDataBasePart( c );
 			if ( cPart && cPart.title ) title = cPart.title;
@@ -1363,7 +1362,7 @@ if ( c.userData.fileName.startsWith( 'royal' ) ) {
 
 	}
 
-	if ( isAPart ) applyMainMaterialToPart( part, selectedColorCode );
+	if ( isAPart ) applyMainMaterialToPart( part, colorCode ? colorCode : selectedColorCode );
 
 }
 
@@ -2432,6 +2431,8 @@ function createGUI() {
 
 	} );
 
+	const generateThumbnailsController = optionsFolder.add( guiData, 'generatePartsThumnbnails' ).name( 'Generate all parts thumbnails...' );
+
 	optionsFolder.close();
 
 
@@ -2929,6 +2930,27 @@ function showBOM() {
 
 }
 
+function generatePartsThumnbnailsFunc() {
+
+	updateProgressBar( 0 );
+	showProgressBar()
+
+	generatePartsThumnbnails( 128, 128, renderer, lDrawLoader, dataBase.partsPathsList, processPartOrModel,
+		( fraction ) => {
+
+			updateProgressBar( fraction );
+
+		},
+		( zipBlob ) => {
+
+			hideProgressBar();
+			FileOperations.saveFile( 'thumbnails.zip', zipBlob );
+
+		}
+	);
+
+}
+
 function showSelectLDrawModelFromRepo() {
 
 	modelSelectPanel = deleteSelectTable( modelSelectPanel );
@@ -3008,12 +3030,14 @@ function showSelectLDrawPartFromRepo( parentModel, onOK ) {
 	partSelectPanel = deleteSelectTable( partSelectPanel );
 
 	const columns = [
+		'thumbnail',
 		'mainCategory',
 		'title',
 		'path'
 	];
 
 	const columnsNames = [
+		"Thumbnail",
 		"Category",
 		"Title",
 		"File name"
@@ -3023,7 +3047,13 @@ function showSelectLDrawPartFromRepo( parentModel, onOK ) {
 
 	for ( let i in dataBase.partsPathsList ) {
 
-		data.push( dataBase.parts[ dataBase.partsPathsList[ i ] ] );
+		const p = dataBase.parts[ dataBase.partsPathsList[ i ] ];
+		data.push( {
+			thumbnail: '<img src="./models/ldraw/TENTE/partsThumbnails/' + FileOperations.removeFilenameExtension( p.path ) + '.png"></img>',
+			mainCategory: p.mainCategory,
+			title: p.title,
+			path: p.path
+		} );
 
 	}
 
@@ -3069,7 +3099,7 @@ function showSelectLDrawPartFromRepo( parentModel, onOK ) {
 	}
 
 	partPreview.div.hidden = false;
-	partSelectPanel = showSelectTable( 'Ok', onSelectOK, onCancel, infoLine, columns, columnsNames, data, true, selectedPartRowIndex, true, 0, onRowPreselected );
+	partSelectPanel = showSelectTable( 'Ok', onSelectOK, onCancel, infoLine, columns, columnsNames, data, true, selectedPartRowIndex, true, 1, onRowPreselected );
 
 }
 

@@ -658,6 +658,7 @@ let htmlPartListContent =
 		<p>Number of parts: ***PARTS_COUNT***<p>
 		<table>
 			<tr>
+				<th>Thumbnail</th>
 				<th>Title</th>
 				<th>View part</th>
 				<th>File</th>
@@ -676,8 +677,11 @@ for ( let i in dataBase.partsPathsList ) {
 	const partPath = dataBase.partsPathsList[ i ];
 	const part = dataBase.parts[ partPath ];
 
+	const thumbnailURL = removeFilenameExtension( part.path ) + '.png';
+
 	partsContent +=
 `			<tr>
+				<td><img src="./models/ldraw/TENTE/partsThumbnails/` + thumbnailURL + `"></img></td>
 				<td>` + part.title + `</td>
 				<td><a href="/TNTViewer/examples/tnt.html?modelPath=../parts/` + part.path + `">View part</a></td>
 				<td>` + ( part.path ? part.path : "No file." ) + `</td>
@@ -935,3 +939,18 @@ function getPartCategories( partLine ) {
 
 	return categories;
 }
+
+function removeFilenameExtension( path ) {
+
+	path = path || "";
+
+	const pathLastIndexOfDot = path.lastIndexOf( "." );
+
+	if ( pathLastIndexOfDot > 0 && path.length > pathLastIndexOfDot + 1 ) {
+
+		return path.substring( 0, pathLastIndexOfDot );
+
+	}
+	else return "";
+
+}
