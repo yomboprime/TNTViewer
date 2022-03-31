@@ -1226,7 +1226,7 @@ function saveModelAsLDrawButtonFunc() {
 	}
 
 	const modelInfo = getDataBaseModel( modelToBeSaved );
-	const title = ! modelInfo ? "" : ( modelInfo.title ? modelInfo.fileTitle : modelInfo.title );
+	const title = ! modelInfo ? "" : ( modelInfo.fileTitle ? modelInfo.fileTitle : modelInfo.title );
 
 	const fileContents = FileOperations.exportModelAsLDraw( modelToBeSaved, title, getObjectPart, isEmbeddedPart );
 
