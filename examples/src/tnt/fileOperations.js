@@ -470,7 +470,7 @@ function exportModelAsLDraw( model, title, getObjectPart, isEmbeddedPart ) {
 
 	let output = "";
 
-	output += "0 " + title + dosLineEnd;
+	if ( title ) output += "0 " + title + dosLineEnd;
 	output += "0 Name: " + name + dosLineEnd;
 	output += "0 Author: " + author + dosLineEnd;
 	output += ( isOfficial ? "0 Tente official model" : "0 Unofficial Model" ) + dosLineEnd;
