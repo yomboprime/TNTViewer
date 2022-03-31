@@ -14,6 +14,7 @@ import { OBJExporter } from '../three/examples/jsm/exporters/OBJExporter.js';
 const dosLineEnd = "\r\n";
 
 const vector3Temp1 = new THREE.Vector3();
+const vector3Temp2 = new THREE.Vector3();
 
 function loadModelsFiles( files, onFileLoaded, lDrawLoader, scaleToUnitMM ) {
 
@@ -316,10 +317,6 @@ function parseSVGModel( fileContents, scale, onModelParsed ) {
 	const paths = data.paths;
 
 	const group = new THREE.Group();
-//	group.scale.multiplyScalar( 0.25 );
-//	group.position.x = - 70;
-//	group.position.y = 70;
-//	group.scale.y *= - 1;
 
 	for ( let i = 0; i < paths.length; i ++ ) {
 
@@ -342,7 +339,9 @@ function parseSVGModel( fileContents, scale, onModelParsed ) {
 				const shape = shapes[ j ];
 
 				const geometry = new THREE.ShapeGeometry( shape );
-				geometry.scale( 1, -1, 1 );
+
+				invertGeometryInY( geometry );
+
 				const mesh = new THREE.Mesh( geometry, material );
 
 				group.add( mesh );
@@ -370,7 +369,7 @@ function parseSVGModel( fileContents, scale, onModelParsed ) {
 
 				if ( geometry ) {
 
-					geometry.scale( 1, -1, 1 );
+					invertGeometryInY( geometry );
 
 					const mesh = new THREE.Mesh( geometry, material );
 
@@ -387,6 +386,64 @@ function parseSVGModel( fileContents, scale, onModelParsed ) {
 	onModelParsed( group, false );
 
 }
+
+function invertGeometryInY( geometry ) {
+
+	geometry.scale( 1, -1, 1 );
+
+	const index = geometry.getIndex();
+	if ( index ) {
+
+		const iArray = index.array;
+		for ( let i = 0, n = index.count; i + 2 < n; i += 3 ) {
+
+			const t = iArray[ i + 1 ];
+			iArray[ i + 1 ] = iArray[ i + 2 ];
+			iArray[ i + 2 ] = t;
+
+		}
+
+	}
+	else {
+
+		const positions = geometry.getAttribute( 'position' ) || null;
+		const normals = geometry.getAttribute( 'normal' ) ? geometry.getAttribute( 'normal' ) : null;
+		const uvs = geometry.getAttribute( 'uv' ) ? geometry.getAttribute( 'uv' ) : null;
+
+		if ( ! positions ) return;
+
+		const posArr = positions.array;
+		let p3 = 0;
+		let p2 = 0;
+		for ( let i = 0, n = positions.count; i < n; i ++ ) {
+
+			invertTri( posArr, p3 );
+			if ( normals ) invertTri( normals, p3 );
+			if ( uvs ) invertUV( uvs, p2 );
+
+			p2 += 6;
+			p3 += 9;		}
+	}
+
+	function invertTri( arr, pos ) {
+
+		vector3Temp1.fromArray( arr, pos + 3 );
+		vector3Temp2.fromArray( arr, pos + 6 );
+		vector3Temp1.toArray( arr, pos + 6 );
+		vector3Temp2.toArray( arr, pos + 3 );
+	}
+
+	function invertUV( arr, pos ) {
+
+		const t0 = arr[ pos + 2];
+		const t1 = arr[ pos + 3 ];
+		arr[ pos + 2 ] = arr[ pos + 4 ];
+		arr[ pos + 3 ] = arr[ pos + 5 ];
+		arr[ pos + 4 ] = t0;
+		arr[ pos + 5 ] = t1;
+
+	}
+}
 
 function applyScaleToObjectTree( root, scale ) {
 
