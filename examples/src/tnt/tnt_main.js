@@ -139,8 +139,8 @@ const TOOL_SCALE = 3;
 let selectedTool = TOOL_NONE;
 let toolButtons;
 
-const DEFAULT_ROTATION_SNAP = 15;
-const DEFAULT_SCALE_SNAP = 0.5;
+const DEFAULT_ROTATION_SNAP = 90;
+const DEFAULT_SCALE_SNAP = 0.1;
 let translationSnap;
 let translationSnapVertical;
 let rotationSnap;
@@ -1041,7 +1041,7 @@ function setFineSnap( fine ) {
 
 		translationSnap = 1;
 		translationSnapVertical = 1;
-		rotationSnap = 1;
+		rotationSnap = 5;
 		scaleSnap = 0.05;
 
 	} else {
@@ -1236,7 +1236,7 @@ function saveModelAsLDrawButtonFunc() {
 }
 
 function saveSceneAsTNTButtonFunc() {
-
+/*
 	const fileContents = exportSceneAsTNT();
 
 	let fileName = "Scene.tnte";
@@ -1245,7 +1245,7 @@ function saveSceneAsTNTButtonFunc() {
 	// TODO
 
 	FileOperations.saveFile( fileName, new Blob( [ fileContents ] ) );
-
+*/
 
 }
 
@@ -3210,12 +3210,12 @@ function deleteSelectTable( panel ) {
 
 function removeAccents( str ) {
 
-	return str.replace( 'á', 'a' ).replace( 'Á', 'A' )
-		.replace( 'é', 'e' ).replace( 'É', 'E' )
-		.replace( 'í', 'i' ).replace( 'Í', 'I' )
-		.replace( 'ó', 'o' ).replace( 'Ó', 'O' )
-		.replace( 'ó', 'u' ).replace( 'Ú', 'U' )
-		.replace( 'ñ', 'n' ).replace( 'Ñ', 'N' );
+	return str.replaceAll( 'á', 'a' ).replaceAll( 'Á', 'A' )
+		.replaceAll( 'é', 'e' ).replaceAll( 'É', 'E' )
+		.replaceAll( 'í', 'i' ).replaceAll( 'Í', 'I' )
+		.replaceAll( 'ó', 'o' ).replaceAll( 'Ó', 'O' )
+		.replaceAll( 'ú', 'u' ).replaceAll( 'Ú', 'U' )
+		.replaceAll( 'ñ', 'n' ).replaceAll( 'Ñ', 'N' );
 
 }
 

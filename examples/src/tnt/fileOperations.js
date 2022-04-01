@@ -480,9 +480,12 @@ function exportModelAsLDraw( model, title, getObjectPart, isEmbeddedPart ) {
 
 	const embeddedParts = [];
 
-	for ( let childIndex in model.children ) {
+	for ( let i = 0, n = model.children.length; i < n; i ++ ) {
 
-		const part = getObjectPart( model.children[ childIndex ] );
+		let child = model.children[ i ];
+		if ( child.isTransformControls ) child = child.object;
+
+		const part = getObjectPart( child );
 		if ( ! part ) continue;
 
 		const isEmbedded = isEmbeddedPart( part );
