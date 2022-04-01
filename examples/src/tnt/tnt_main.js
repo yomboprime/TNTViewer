@@ -3049,7 +3049,7 @@ function showSelectLDrawPartFromRepo( parentModel, onOK ) {
 
 		const p = dataBase.parts[ dataBase.partsPathsList[ i ] ];
 		data.push( {
-			thumbnail: '<img src="./models/ldraw/TENTE/partsThumbnails/' + FileOperations.removeFilenameExtension( p.path ) + '.png"></img>',
+			thumbnail: '<img src="./models/ldraw/TENTE/partsThumbnails/' + FileOperations.removeFilenameExtension( p.path ) + '.png" width="128" height="128"></img>',
 			mainCategory: p.mainCategory,
 			title: p.title,
 			path: p.path

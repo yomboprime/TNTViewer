@@ -681,7 +681,7 @@ for ( let i in dataBase.partsPathsList ) {
 
 	partsContent +=
 `			<tr>
-				<td><img src="./models/ldraw/TENTE/partsThumbnails/` + thumbnailURL + `"></img></td>
+				<td><img src="./models/ldraw/TENTE/partsThumbnails/` + thumbnailURL + `" width="128" height="128"></img></td>
 				<td>` + part.title + `</td>
 				<td><a href="/TNTViewer/examples/tnt.html?modelPath=../parts/` + part.path + `">View part</a></td>
 				<td>` + ( part.path ? part.path : "No file." ) + `</td>
