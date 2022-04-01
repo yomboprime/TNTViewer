@@ -2,8 +2,9 @@
 0 Name: Mar_0541_Portahelicopteros_Ligero.ldr
 0 Author: jasolo
 0 Unofficial Model
-0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CENTER 0 0 0 1 "Custom"
 0 ROTATION CONFIG 0 0
+0 BFC CERTIFY CCW
 1 0 -190 0 20 0 0 1 0 1 0 -1 0 0 proa4p.dat
 1 0 -190 0 -20 1 0 0 0 1 0 0 0 1 placa4x8.dat
 1 8 -150 -40 40 0 0 1 0 1 0 -1 0 0 tejado.dat
@@ -36,9 +37,6 @@
 1 0 80 -168 60 -1 0 0 0 1 0 0 0 -1 chimenea.dat
 1 7 110 -32 0 1 0 0 0 1 0 0 0 1 rallado2.dat
 1 7 210 -32 -20 1 0 0 0 1 0 0 0 1 venta4bi.dat
-1 4 -40 -32 -10 1 0 0 0 1 0 0 0 1 barca.dat
-1 15 -120 -40 -10 1 0 0 0 1 0 0 0 1 barca.dat
-1 15 -120 -40 50 1 0 0 0 1 0 0 0 1 barca.dat
 1 8 -90 -64 20 0 0 -1 0 1 0 1 0 0 heliprto.dat
 1 8 150 -64 0 0 0 -1 0 1 0 1 0 0 heliprto.dat
 1 8 310 -64 0 0 0 -1 0 1 0 1 0 0 heliprto.dat
@@ -56,14 +54,11 @@
 1 15 -230 -40 20 0 0 1 0 1 0 -1 0 0 soprtmar.dat
 1 15 -150 -56 20 0 0 1 0 1 0 -1 0 0 radar.dat
 1 15 30 -160 60 0 0 1 0 1 0 -1 0 0 radar.dat
-1 15 -90 -72 20 -0.258819 0 0.965926 0 1 0 -0.965926 0 -0.258819 helicop1.dat
-1 15 310 -72 0 -0.258819 0 0.965926 0 1 0 -0.965926 0 -0.258819 helicop1.dat
-1 15 70 -40 -10 -0.866025 0 0.5 0 1 0 -0.5 0 -0.866025 helicop1.dat
+1 15 -90 -72 20 -0.259 0 0.966 0 1 0 -0.966 0 -0.259 helicop1.dat
+1 15 310 -72 0 -0.259 0 0.966 0 1 0 -0.966 0 -0.259 helicop1.dat
+1 15 70 -40 -10 -0.866 0 0.5 0 1 0 -0.5 0 -0.866 helicop1.dat
 1 8 70 -32 0 0 0 -1 0 1 0 1 0 0 baldc4.dat
 1 4 -260 -40 20 0 0 1 0 1 0 -1 0 0 pastilla.dat
-1 4 -40 -32 50 1 0 0 0 1 0 0 0 1 barca.dat
-1 4 180 -32 -10 1 0 0 0 1 0 0 0 1 barca.dat
-1 4 180 -32 50 1 0 0 0 1 0 0 0 1 barca.dat
 1 7 290 -32 60 -1 0 0 0 1 0 0 0 -1 venta4bi.dat
 1 0 -30 0 -20 1 0 0 0 1 0 0 0 1 placa4x8.dat
 1 0 130 0 -20 1 0 0 0 1 0 0 0 1 placa4x8.dat
@@ -82,4 +77,10 @@
 1 7 270 -8 20 0 0 1 0 1 0 -1 0 0 popa4.dat
 1 7 70 -104 60 0 0 -1 0 1 0 1 0 0 popa4.dat
 1 7 -210 -32 20 0 0 1 0 1 0 -1 0 0 proa4rmt.dat
+1 4 -40 -34 -10 1 0 0 0 1 0 0 0 1 barca.dat
+1 4 180 -34 -10 1 0 0 0 1 0 0 0 1 barca.dat
+1 4 -40 -34 50 1 0 0 0 1 0 0 0 1 barca.dat
+1 4 180 -34 50 1 0 0 0 1 0 0 0 1 barca.dat
+1 15 -120 -42 50 1 0 0 0 1 0 0 0 1 barca.dat
+1 15 -120 -42 -10 1 0 0 0 1 0 0 0 1 barca.dat
 0

@@ -1,47 +1,47 @@
 0 Sin_nombre
-0 Name: Ruta_0553_todoterrenocisterna.ldr
+0 Name: Ruta_0553_Todoterreno_Cisterna.ldr
 0 Author: cpcbegin
 0 Unofficial Model
 0 ROTATION CENTER 0 0 0 1 "Custom" 
 0 ROTATION CONFIG 0 0
-1 4 -30 15 0 1 0 0 0 1 0 0 0 1 rueastro.dat
-1 4 -30 15 -60 1 0 0 0 1 0 0 0 1 rueastro.dat
-1 4 -30 15 -120 1 0 0 0 1 0 0 0 1 rueastro.dat
-1 383 -10 8 -110 1 0 0 0 1 0 0 0 1 amortigu.dat
-1 46 -10 -96 -30 1 0 0 0 1 0 0 0 1 amortigu.dat
-1 46 -70 -96 -30 1 0 0 0 1 0 0 0 1 amortigu.dat
-1 14 -50 -96 -30 1 0 0 0 1 0 0 0 1 escalera.dat
-1 383 -10 8 -50 1 0 0 0 1 0 0 0 1 amortigu.dat
-1 15 -40 8 40 -1 0 0 0 1 0 0 0 -1 rallado2.dat
-1 15 0 8 40 -1 0 0 0 1 0 0 0 -1 rallado2.dat
-1 0 -60 8 -120 1 0 0 0 1 0 0 0 1 rallado2.dat
-1 0 -40 32 -140 1 0 0 0 1 0 0 0 1 enganch2.dat
-1 0 -60 32 -140 1 0 0 0 1 0 0 0 1 enganch2.dat
-1 0 -40 -16 80 0 0 1 0 1 0 -1 0 0 placa2x3.dat
-1 0 -80 -16 80 0 0 1 0 1 0 -1 0 0 placa2x3.dat
-1 4 -80 -24 40 0 0 1 0 1 0 -1 0 0 ventan4.dat
-1 4 0 -24 -40 0 0 -1 0 1 0 1 0 0 ventan4.dat
-1 4 -60 -24 -40 1 0 0 0 1 0 0 0 1 vntcasa.dat
-1 4 -40 -24 40 -1 0 0 0 1 0 0 0 -1 cabant.dat
-1 1 -40 -24 -100 -1 0 0 0 1 0 0 0 -1 cirrevop.dat
-1 1 -40 -24 -100 1 0 0 0 1 0 0 0 1 cirrevop.dat
-1 0 -60 -96 -120 1 0 0 0 1 0 0 0 1 bald2x2.dat
-1 15 -80 -72 20 0 0 1 0 1 0 -1 0 0 bald2x2r.dat
-1 15 -80 -72 -40 1 0 0 0 1 0 0 0 1 jacena4.dat
-1 4 -80 32 -140 1 0 0 0 0 -1 0 1 0 jacena4.dat
-1 15 -80 -72 60 0 0 1 0 1 0 -1 0 0 bald2x2r.dat
-1 15 0 -72 20 0 0 -1 0 1 0 1 0 0 bald2x2r.dat
-1 15 0 -72 -20 0 0 -1 0 1 0 1 0 0 bald2x2r.dat
-1 0 -80 -16 20 0 0 1 0 1 0 -1 0 0 placa4x8.dat
-1 383 -10 8 10 1 0 0 0 1 0 0 0 1 amortigu.dat
-1 383 -70 8 -110 1 0 0 0 1 0 0 0 1 amortigu.dat
-1 383 -70 8 -50 1 0 0 0 1 0 0 0 1 amortigu.dat
-1 383 -70 8 10 1 0 0 0 1 0 0 0 1 amortigu.dat
-1 383 -10 8 -90 1 0 0 0 1 0 0 0 1 amortigu.dat
-1 383 -10 8 -30 1 0 0 0 1 0 0 0 1 amortigu.dat
-1 383 -10 8 30 1 0 0 0 1 0 0 0 1 amortigu.dat
-1 383 -70 8 -90 1 0 0 0 1 0 0 0 1 amortigu.dat
-1 383 -70 8 -30 1 0 0 0 1 0 0 0 1 amortigu.dat
-1 383 -70 8 30 1 0 0 0 1 0 0 0 1 amortigu.dat
-1 0 -60 8 40 0 0 1 0 1 0 -1 0 0 jacen2x8.dat
+1 4 -30 15 0 -1 0 0 0 1 0 0 0 -1 rueastro.dat
+1 4 -30 15 60 -1 0 0 0 1 0 0 0 -1 rueastro.dat
+1 4 -30 15 120 -1 0 0 0 1 0 0 0 -1 rueastro.dat
+1 383 -50 8 110 -1 0 0 0 1 0 0 0 -1 amortigu.dat
+1 46 -50 -96 30 -1 0 0 0 1 0 0 0 -1 amortigu.dat
+1 46 10 -96 30 -1 0 0 0 1 0 0 0 -1 amortigu.dat
+1 14 -10 -96 30 -1 0 0 0 1 0 0 0 -1 escalera.dat
+1 383 -50 8 50 -1 0 0 0 1 0 0 0 -1 amortigu.dat
+1 15 -20 8 -40 1 0 0 0 1 0 0 0 1 rallado2.dat
+1 15 -60 8 -40 1 0 0 0 1 0 0 0 1 rallado2.dat
+1 0 0 8 120 -1 0 0 0 1 0 0 0 -1 rallado2.dat
+1 0 -20 32 140 -1 0 0 0 1 0 0 0 -1 enganch2.dat
+1 0 0 32 140 -1 0 0 0 1 0 0 0 -1 enganch2.dat
+1 0 -20 -16 -80 0 0 -1 0 1 0 1 0 0 placa2x3.dat
+1 0 20 -16 -80 0 0 -1 0 1 0 1 0 0 placa2x3.dat
+1 4 20 -24 -40 0 0 -1 0 1 0 1 0 0 ventan4.dat
+1 4 -60 -24 40 0 0 1 0 1 0 -1 0 0 ventan4.dat
+1 4 0 -24 40 -1 0 0 0 1 0 0 0 -1 vntcasa.dat
+1 4 -20 -24 -40 1 0 0 0 1 0 0 0 1 cabant.dat
+1 1 -20 -24 100 1 0 0 0 1 0 0 0 1 cirrevop.dat
+1 1 -20 -24 100 -1 0 0 0 1 0 0 0 -1 cirrevop.dat
+1 0 0 -96 120 -1 0 0 0 1 0 0 0 -1 bald2x2.dat
+1 15 20 -72 -20 0 0 -1 0 1 0 1 0 0 bald2x2r.dat
+1 15 20 -72 40 -1 0 0 0 1 0 0 0 -1 jacena4.dat
+1 4 20 32 140 -1 0 0 0 0 -1 0 -1 0 jacena4.dat
+1 15 20 -72 -60 0 0 -1 0 1 0 1 0 0 bald2x2r.dat
+1 15 -60 -72 -20 0 0 1 0 1 0 -1 0 0 bald2x2r.dat
+1 15 -60 -72 20 0 0 1 0 1 0 -1 0 0 bald2x2r.dat
+1 0 20 -16 -20 0 0 -1 0 1 0 1 0 0 placa4x8.dat
+1 383 -50 8 -10 -1 0 0 0 1 0 0 0 -1 amortigu.dat
+1 383 10 8 110 -1 0 0 0 1 0 0 0 -1 amortigu.dat
+1 383 10 8 50 -1 0 0 0 1 0 0 0 -1 amortigu.dat
+1 383 10 8 -10 -1 0 0 0 1 0 0 0 -1 amortigu.dat
+1 383 -50 8 90 -1 0 0 0 1 0 0 0 -1 amortigu.dat
+1 383 -50 8 30 -1 0 0 0 1 0 0 0 -1 amortigu.dat
+1 383 -50 8 -30 -1 0 0 0 1 0 0 0 -1 amortigu.dat
+1 383 10 8 90 -1 0 0 0 1 0 0 0 -1 amortigu.dat
+1 383 10 8 30 -1 0 0 0 1 0 0 0 -1 amortigu.dat
+1 383 10 8 -30 -1 0 0 0 1 0 0 0 -1 amortigu.dat
+1 0 0 8 -40 0 0 -1 0 1 0 1 0 0 jacen2x8.dat
 0

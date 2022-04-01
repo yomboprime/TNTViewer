@@ -1,5 +1,5 @@
 0 Autobus urbano
-0 Name: barcopaseo.ldr
+0 Name: Mar_0550_Barco_Paseo.ldr
 0 Author: cpcbegin
 0 Tente ruta
 0 ROTATION CENTER 0 0 0 1 "Custom" 
@@ -59,7 +59,8 @@
 1 1 -30 -224 46 0 0 1 0 1 0 -1 0 0 jacena6.dat
 1 0 -30 -224 -74 1 0 0 0 1 0 0 0 1 jacena2.dat
 1 1 30 -224 46 0 0 1 0 1 0 -1 0 0 jacena6.dat
-1 4 -50 -216 -74 1 0 0 0 1 0 0 0 1 placa4.dat
+1 4 -50 -216 -74 1 0 0 0 1 0 0 0 1 placa2.dat
+1 4 -10 -216 -74 1 0 0 0 1 0 0 0 1 placa2.dat
 1 15 10 -336 226 -1 0 0 0 1 0 0 0 -1 vntscorp.dat
 1 0 10 -360 226 -1 0 0 0 1 0 0 0 -1 placa2x2.dat
 1 15 -20 -368 196 -1 0 0 0 1 0 0 0 -1 antninc2.dat
