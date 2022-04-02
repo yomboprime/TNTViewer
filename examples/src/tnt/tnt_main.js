@@ -1181,12 +1181,14 @@ function showSelectFromFile() {
 function onFileLoaded( mesh, isLDraw ) {
 
 	let parentModel = null;
+/*
 	if ( selectedPart ) {
 
 		parentModel = getPartModel( selectedPart );
 		if ( ! isModel( parentModel ) ) parentModel = null;
 
 	}
+*/
 
 	addLDrawPartOrModel( mesh, parentModel, isLDraw );
 
