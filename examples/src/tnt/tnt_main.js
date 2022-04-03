@@ -1121,7 +1121,12 @@ function selectColor() {
 
 function showSelectAddLDrawPart() {
 
-	if ( ! selectedPart && models.length !== 1 ) return;
+	if ( ! selectedPart && models.length !== 1 ) {
+
+		if ( models.length > 1 ) alert( "Please select one of the existing models to add the part to." );
+		return;
+
+	}
 
 	if ( models.length === 1 ) {
 
