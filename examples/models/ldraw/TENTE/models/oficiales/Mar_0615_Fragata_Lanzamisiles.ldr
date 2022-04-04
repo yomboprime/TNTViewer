@@ -1,5 +1,5 @@
 0 Sin_nombre
-0 Name: Mar_0615_fragata-lanzamisiles.ldr
+0 Name: Mar_0615_Fragata_Lanzamisiles.ldr
 0 Author: jasolo
 0 Unofficial Model
 0 ROTATION CENTER 0 0 0 1 "Custom" 
@@ -7,6 +7,7 @@
 1 0 40 64 -80 0 0 -1 0 1 0 1 0 0 placa4x8.dat
 1 0 40 64 -240 0 0 -1 0 1 0 1 0 0 placa4x8.dat
 1 0 0 64 -240 1 0 0 0 1 0 0 0 1 proa4p.dat
+1 0 0 32 -260 1 0 0 0 1 0 0 0 1 picaro.dat
 1 0 0 64 240 -1 0 0 0 1 0 0 0 -1 popa4p.dat
 1 0 40 64 80 0 0 -1 0 1 0 1 0 0 placa4x8.dat
 1 7 0 56 -220 1 0 0 0 1 0 0 0 1 proa4.dat
@@ -33,15 +34,15 @@
 1 14 0 24 290 0 0 -1 0 1 0 1 0 0 bandera.dat
 1 7 0 -56 -70 1 0 0 0 1 0 0 0 1 antnradr.dat
 1 7 0 -37 -10 -1 0 0 0 1 0 0 0 -1 antnradr.dat
-1 0 -40 32 180 0 0 1 0 1 0 -1 0 0 baldc2x2.dat
-1 0 0 32 180 0 0 1 0 1 0 -1 0 0 baldc2x2.dat
-1 0 0 32 220 1 0 0 0 1 0 0 0 1 heliprto.dat
+1 8 -40 32 180 0 0 1 0 1 0 -1 0 0 baldc2x2.dat
+1 8 0 32 180 0 0 1 0 1 0 -1 0 0 baldc2x2.dat
+1 8 0 32 220 1 0 0 0 1 0 0 0 1 heliprto.dat
 1 7 0 32 260 -1 0 0 0 1 0 0 0 -1 popa4p.dat
 1 7 -40 32 20 0 0 1 0 1 0 -1 0 0 placa4x8.dat
 1 2 0 24 -310 1 0 0 0 1 0 0 0 1 pastilla.dat
-1 0 -20 24 -280 1 0 0 0 1 0 0 0 1 baldc2x2.dat
-1 0 -20 24 -160 1 0 0 0 1 0 0 0 1 tejado.dat
-1 0 20 24 40 -1 0 0 0 1 0 0 0 -1 tejado.dat
+1 8 -20 24 -280 1 0 0 0 1 0 0 0 1 baldc2x2.dat
+1 8 -20 24 -160 1 0 0 0 1 0 0 0 1 tejado.dat
+1 8 20 24 40 -1 0 0 0 1 0 0 0 -1 tejado.dat
 1 7 -40 0 -20 0 0 1 0 1 0 -1 0 0 placa4x6.dat
 1 7 -40 -8 -140 1 0 0 0 1 0 0 0 1 venta4bu.dat
 1 7 30 -32 -130 0 0 -1 0 1 0 1 0 0 piquito.dat

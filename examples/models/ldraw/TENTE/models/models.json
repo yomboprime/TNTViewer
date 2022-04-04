@@ -1775,6 +1775,86 @@
             "fileBoxTitle": "",
             "isOfficial": true
         },
+        "oficiales/Mar_0617_Buque_Desembarco.ldr": {
+            "path": "oficiales/Mar_0617_Buque_Desembarco.ldr",
+            "id": "89",
+            "title": "BUQUE DESEMBARCO (ATLAS) - Buque Desembarco",
+            "seriesNumber": "Mar",
+            "refNumber": "0617",
+            "fileTitle": "Untitled",
+            "fileBoxTitle": "",
+            "isOfficial": true
+        },
+        "oficiales/Mar_0618_Guardacostas.ldr": {
+            "path": "oficiales/Mar_0618_Guardacostas.ldr",
+            "id": "90",
+            "title": "GUARDACOSTAS  (FENIX) - Guardacostas",
+            "seriesNumber": "Mar",
+            "refNumber": "0618",
+            "fileTitle": "Mar0618_Guardacostas.ldr",
+            "fileBoxTitle": "",
+            "isOfficial": true
+        },
+        "oficiales/Mar_0619_Rompehielos_Nuclear.ldr": {
+            "path": "oficiales/Mar_0619_Rompehielos_Nuclear.ldr",
+            "id": "91",
+            "title": "ROMPEHIELOS NUCLEAR OCEANOGRÁFICO (PEARY)  - Rompehielos Nuclear",
+            "seriesNumber": "Mar",
+            "refNumber": "0619",
+            "fileTitle": "Mar0619_Rompehielos_Nuclear.ldr",
+            "fileBoxTitle": "",
+            "isOfficial": true
+        },
+        "oficiales/Mar_0620_Estacion_Maritima_y_Remolcador.ldr": {
+            "path": "oficiales/Mar_0620_Estacion_Maritima_y_Remolcador.ldr",
+            "id": "92",
+            "title": "ESTACIÓN MARÍTIMA Y REMOLCADOR  (TORO) - Estacion Maritima y Remolcador",
+            "seriesNumber": "Mar",
+            "refNumber": "0620",
+            "fileTitle": "Mar_0620_Estacion_Maritima_y_Remolcador.ldr",
+            "fileBoxTitle": "",
+            "isOfficial": true
+        },
+        "oficiales/Mar_0621_Muelle_Comercial_y_Barco_Pesquero.ldr": {
+            "path": "oficiales/Mar_0621_Muelle_Comercial_y_Barco_Pesquero.ldr",
+            "id": "93",
+            "title": "MUELLE COMERCIAL Y BARCO PESQUERO  (ASUNCION) - Muelle Comercial y Barco Pesquero",
+            "seriesNumber": "Mar",
+            "refNumber": "0621",
+            "fileTitle": "Mar_0621_Muelle_Comercial_y_Barco_Pesquero.ldr",
+            "fileBoxTitle": "",
+            "isOfficial": true
+        },
+        "oficiales/Mar_0622_Refineria_y_Petrolero_de_Cabotaje.ldr": {
+            "path": "oficiales/Mar_0622_Refineria_y_Petrolero_de_Cabotaje.ldr",
+            "id": "94",
+            "title": "REFINERÍA Y PETROLERO DE CABOTAJE  (FOCA) - Refineria y Petrolero de Cabotaje",
+            "seriesNumber": "Mar",
+            "refNumber": "0622",
+            "fileTitle": "Mar_0622_Refineria_y_Petrolero_de_Cabotaje.ldr",
+            "fileBoxTitle": "",
+            "isOfficial": true
+        },
+        "oficiales/Mar_0623_Buque_Investigaciones_Submarinas.ldr": {
+            "path": "oficiales/Mar_0623_Buque_Investigaciones_Submarinas.ldr",
+            "id": "95",
+            "title": "BUQUE DE INVESTIGACIONES SUBMARINAS (CALIXTO) - Buque Investigaciones Submarinas",
+            "seriesNumber": "Mar",
+            "refNumber": "0623",
+            "fileTitle": "Mar_0623_Buque_Investigaciones_Submarinas.ldr",
+            "fileBoxTitle": "",
+            "isOfficial": true
+        },
+        "oficiales/Mar_0625_Transporte_Gas_Licuado.ldr": {
+            "path": "oficiales/Mar_0625_Transporte_Gas_Licuado.ldr",
+            "id": "97",
+            "title": "TRANSPORTE GAS LICUADO (TEIDE) - Transporte Gas Licuado",
+            "seriesNumber": "Mar",
+            "refNumber": "0625",
+            "fileTitle": "Mar_0625_Transporte_Gas_Licuado.ldr",
+            "fileBoxTitle": "",
+            "isOfficial": true
+        },
         "oficiales/Mar_0642_Automotor.ldr": {
             "path": "oficiales/Mar_0642_Automotor.ldr",
             "id": "113",
@@ -4088,16 +4168,6 @@
             "fileBoxTitle": "",
             "isOfficial": true
         },
-        "pruebas/Nomura_sunshine2 (version salvada en TNT).ldr": {
-            "path": "pruebas/Nomura_sunshine2 (version salvada en TNT).ldr",
-            "id": "",
-            "title": "pruebas/Nomura_sunshine2 (version salvada en TNT)",
-            "seriesNumber": "",
-            "refNumber": "",
-            "fileTitle": "Nomura_sunshine2.ldr",
-            "fileBoxTitle": "",
-            "isOfficial": true
-        },
         "pruebas/cortinero.ldr": {
             "path": "pruebas/cortinero.ldr",
             "id": "",
@@ -4348,6 +4418,14 @@
         "oficiales/Mar_0613_Destructor.ldr",
         "oficiales/Mar_0614_Ferry.ldr",
         "oficiales/Mar_0615_Fragata_Lanzamisiles.ldr",
+        "oficiales/Mar_0617_Buque_Desembarco.ldr",
+        "oficiales/Mar_0618_Guardacostas.ldr",
+        "oficiales/Mar_0619_Rompehielos_Nuclear.ldr",
+        "oficiales/Mar_0620_Estacion_Maritima_y_Remolcador.ldr",
+        "oficiales/Mar_0621_Muelle_Comercial_y_Barco_Pesquero.ldr",
+        "oficiales/Mar_0622_Refineria_y_Petrolero_de_Cabotaje.ldr",
+        "oficiales/Mar_0623_Buque_Investigaciones_Submarinas.ldr",
+        "oficiales/Mar_0625_Transporte_Gas_Licuado.ldr",
         "oficiales/Mar_0642_Automotor.ldr",
         "oficiales/Mar_0642_Hovercraft_Motor.ldr",
         "oficiales/Mar_0643_Destructor_Nuclear.ldr",
@@ -4580,7 +4658,6 @@
         "prototipos/Prototipo_Tren_Pollo_Oeste_recto.ldr",
         "pruebas/Astro_USA__Defense_Spaceship.ldr",
         "pruebas/Mini_501_casa.ldr",
-        "pruebas/Nomura_sunshine2 (version salvada en TNT).ldr",
         "pruebas/cortinero.ldr",
         "pruebas/esfera1.ldr",
         "pruebas/esfera2.ldr",
