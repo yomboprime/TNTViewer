@@ -838,6 +838,12 @@ function isEmbeddedPart( part ) {
 
 }
 
+function isNonLDrawModel( part ) {
+
+	return part && part.userData && part.userData.isNonLDrawModel;
+
+}
+
 function getPartModel( part ) {
 
 	if ( ! part ) return null;
@@ -1292,6 +1298,8 @@ function deleteSelection() {
 
 function addLDrawPartOrModel( model, parentModel, isLDraw ) {
 
+	if ( ! isLDraw ) model.userData.isNonLDrawModel = true;
+
 	if ( parentModel ) {
 
 		parentModel.add( model );
@@ -1377,21 +1385,14 @@ function deletePartOrModel( part ) {
 
 	// Returns success
 
-	if ( isModel( part ) ) {
+	if ( isModel( part ) || isNonLDrawModel( part ) ) {
+
+		if ( part === animatedModel ) return false;
 
 		const i = models.indexOf( part );
-		if ( i >= 0 ) {
+		if ( i >= 0 ) models.splice( i, 1 );
 
-			models.splice( i, 1 );
-
-		}
-
-	}
-	else {
-
-		if ( isAnimatedPart( part ) ) return false;
-
-	}
+	} else if ( isAnimatedPart( part ) ) return false;
 
 	part.removeFromParent();
 
