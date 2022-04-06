@@ -105,6 +105,8 @@ let deleteSelectionButton;
 
 let saveLDrawButton;
 
+let editMenu;
+
 let infoDiv;
 
 let bomPanel;
@@ -1293,6 +1295,12 @@ function deleteSelection() {
 	}
 
 	triggerRender();
+
+}
+
+function appendSelectionToModel() {
+
+	// TODO
 
 }
 
@@ -2714,6 +2722,29 @@ function createGUI() {
 	setButtonDisabled( saveTNTButton, true );
 	tools3Div.appendChild( saveTNTButton );
 
+	const tools4Div = document.createElement( 'div' );
+	tools4Div.className = 'playbackdiv';
+	editorPanel.appendChild( tools4Div );
+
+	editMenu = createMenu(
+		"Edit menu",
+		"EditMenu",
+		tools4Div,
+		[
+			'Append selection to another model'
+		],
+		( option ) => {
+
+			switch ( editMenu.options.indexOf( option ) ) {
+
+				case 0:
+					console.log( "YEPAA" );
+					appendSelectionToModel();
+					break;			}
+
+		}
+	);
+
 	gui3 = new GUI( { width: GUI_WIDTH, container: editorPanel } );
 	gui3.title( iconEmojis[ "Ruler" ] + " Grid" );
 	gui3.add( guiData, 'translationSnap' ).name( 'Horizontal snap' ).onChange( () => {
@@ -3506,6 +3537,38 @@ function createDataList( id, array ) {
 	}
 
 	return dataList;
+
+}
+
+function createMenu( title, id, parent, options, callback ) {
+
+	const button = document.createElement( 'input' );
+	button.type = 'text';
+	button.size = 15;
+	button.style.marginLeft = "10px";
+	button.placeholder = title;
+
+	button.addEventListener( 'input', ( event ) => {
+
+		const selectedOption = button.value;
+		button.value = "";
+		callback( selectedOption );
+
+	} );
+//kk
+	parent.appendChild( button );
+
+	const dataList = createDataList( id, options );
+	parent.appendChild( dataList );
+	button.setAttribute( 'list', id );
+
+	return {
+		button: button,
+		options: options,
+		destroy: () => {
+			parent.removeChild( dataList );
+			parent.removeChild( button );
+		}	};
 
 }
 
