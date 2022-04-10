@@ -1175,9 +1175,9 @@ function selectColor() {
 		if ( ! result ) return;
 
 		const colorCode = result;
-		if ( selection.length === 1 ) {
+		for ( let i = 0, n = selection.length; i < n; i ++ ) {
 
-			applyMainMaterialToPart( selection[ 0 ], colorCode );
+			applyMainMaterialToPart( selection[ i ], colorCode );
 			updateModelAndPartInfo();
 			triggerRender();
 
@@ -1755,9 +1755,12 @@ function updateModelAndPartInfo() {
 	const selectedModel = getPartModel( selectionIsEmpty() ? null : selection[ 0 ] );
 	const modelInfo = getDataBaseModel( selectedModel );
 
-/*
+
 	if ( selection.length > 1 ) {
-	} else */if ( selection.length === 1 ) {
+
+		infoText += selection.length + ( selectionModeModel ? ' models' : ' parts' ) + ' selected.<br>';
+
+	} else if ( selection.length === 1 ) {
 
 		const sel = selection[ 0 ];
 		const mat = lDrawLoader.materialLibrary[ sel.userData.colorCode ];
