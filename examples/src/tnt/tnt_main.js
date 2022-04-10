@@ -1668,6 +1668,7 @@ function selectParts( parts ) {
 
 		}
 
+/*
 		vector3Temp1.set( 0, 0, 0 );
 		for ( let i = 0, n = parts.length; i < n; i ++ ) {
 
@@ -1677,6 +1678,11 @@ function selectParts( parts ) {
 		vector3Temp1.divideScalar( parts.length );
 
 		selectionGroup.position.copy( vector3Temp1 );
+		selectionGroup.quaternion.set( 0, 0, 0, 1 );
+		selectionGroup.scale.set( 1, 1, 1 );
+*/
+
+		selectionGroup.position.copy( parts[ 0 ].position );
 		selectionGroup.quaternion.set( 0, 0, 0, 1 );
 		selectionGroup.scale.set( 1, 1, 1 );
 
