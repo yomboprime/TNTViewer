@@ -1682,9 +1682,10 @@ function selectParts( parts ) {
 		selectionGroup.scale.set( 1, 1, 1 );
 */
 
-		selectionGroup.position.copy( parts[ 0 ].position );
-		selectionGroup.quaternion.set( 0, 0, 0, 1 );
-		selectionGroup.scale.set( 1, 1, 1 );
+		const firstPart = parts[ 0 ];
+		selectionGroup.position.copy( firstPart.position );
+		selectionGroup.quaternion.copy( firstPart.quaternion );
+		selectionGroup.scale.copy( firstPart.scale );
 
 		for ( let i = 0, n = parts.length; i < n; i ++ ) {
 
