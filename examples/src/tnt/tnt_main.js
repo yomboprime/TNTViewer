@@ -1546,7 +1546,10 @@ function cloneSelection() {
 
 		for ( let i = 0, n = selection.length; i < n; i ++ ) {
 
-			const clone = selection[ i ].clone();
+			const original = selection[ i ];
+			const clone = original.clone();
+			clone.position.add( selectionGroup.position );
+			clone.userData.boxHelper = null;
 			clones.push( clone );
 			models.push( clone );
 			scene.add( clone );
@@ -1555,12 +1558,16 @@ function cloneSelection() {
 
 	} else {
 
-		const model = getPartModel( selection[ i ] );
+		const model = getPartModel( selection[ 0 ] );
 		if ( ! model ) return;
 
-		for ( let i = 0, n = selection.length; i < n; i ++ ) {
+		const toBeCloned = selection;
+		selectParts( [] );
 
-			const clone = selection[ i ].clone();
+		for ( let i = 0, n = toBeCloned.length; i < n; i ++ ) {
+
+			const clone = toBeCloned[ i ].clone();
+			clone.userData.boxHelper = null;
 			model.add( clone );
 			clones.push( clone );
 
@@ -1569,6 +1576,8 @@ function cloneSelection() {
 	}
 
 	selectParts( clones );
+
+	triggerRender();
 
 }
 
