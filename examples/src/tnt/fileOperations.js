@@ -474,8 +474,6 @@ function exportModelAsLDraw( model, title, getObjectPart, isEmbeddedPart ) {
 	output += "0 Name: " + name + dosLineEnd;
 	output += "0 Author: " + author + dosLineEnd;
 	output += ( isOfficial ? "0 Tente official model" : "0 Unofficial Model" ) + dosLineEnd;
-	output += "0 ROTATION CENTER 0 0 0 1 \"Custom\"" + dosLineEnd;
-	output += "0 ROTATION CONFIG 0 0" + dosLineEnd;
 	output += "0 BFC CERTIFY CCW" + dosLineEnd;
 
 	const embeddedParts = [];
@@ -483,17 +481,24 @@ function exportModelAsLDraw( model, title, getObjectPart, isEmbeddedPart ) {
 	for ( let i = 0, n = model.children.length; i < n; i ++ ) {
 
 		let child = model.children[ i ];
-		if ( child.isTransformControls ) child = child.object;
+		if ( child.isTransformControls ) continue;
 
-		const part = getObjectPart( child );
-		if ( ! part ) continue;
+		if ( ! child.isSelectionGroup ) processPart( child );
+		else for ( let j = 0, m = child.children.length; j < m; j ++ ) processPart( child.children[ j ] );
 
-		const isEmbedded = isEmbeddedPart( part );
-		if ( isEmbedded ) embeddedParts.push( part );
+		function processPart( part ) {
 
-		// Referenced model, part or embedded part
-		const c = part.userData.colorCode || '16';
-		output += "1 " + c + " " + poseToText( part ) + " " + part.userData.fileName + dosLineEnd;
+			part = getObjectPart( part );
+			if ( ! part ) return;
+
+			const isEmbedded = isEmbeddedPart( part );
+			if ( isEmbedded ) embeddedParts.push( part );
+
+			// Referenced model, part or embedded part
+			const c = part.userData.colorCode || '16';
+			output += "1 " + c + " " + poseToText( part ) + " " + part.userData.fileName + dosLineEnd;
+
+		}
 
 	}
 
@@ -516,16 +521,18 @@ function exportModelAsLDraw( model, title, getObjectPart, isEmbeddedPart ) {
 
 }
 
-function round3( x ) { return Math.round( x * 1000 ) / 1000; }
+function round6( x ) { return Math.round( x * 1000000 ) / 1000000; }
 
 function poseToText( part ) {
 
+	vector3Temp1.copy( part.position );
+	if ( part.parent && part.parent.isSelectionGroup ) vector3Temp1.add( part.parent.position );
 	const e = part.matrix.elements;
 
-	return 	"" + round3( e[ 12 ] ) + " " + round3( e[ 13 ] ) + " " + round3( e[ 14 ] ) +
-			" " + round3( e[ 0 ] ) + " " + round3( e[ 4 ] ) + " " + round3( e[ 8 ] ) +
-			" " + round3( e[ 1 ] ) + " " + round3( e[ 5 ] ) + " " + round3( e[ 9 ] ) +
-			" " + round3( e[ 2 ] ) + " " + round3( e[ 6 ] ) + " " + round3( e[ 10 ] )
+	return 	"" + round6( vector3Temp1.x ) + " " + round6( vector3Temp1.y ) + " " + round6( vector3Temp1.z ) +
+			" " + round6( e[ 0 ] ) + " " + round6( e[ 4 ] ) + " " + round6( e[ 8 ] ) +
+			" " + round6( e[ 1 ] ) + " " + round6( e[ 5 ] ) + " " + round6( e[ 9 ] ) +
+			" " + round6( e[ 2 ] ) + " " + round6( e[ 6 ] ) + " " + round6( e[ 10 ] )
 
 }
 
@@ -534,15 +541,15 @@ function embeddedPartToText( embeddedPart ) {
 	let output = "";
 	output += "0 FILE " + embeddedPart.userData.fileName + dosLineEnd;
 	output += "0 BFC CERTIFY CCW" + dosLineEnd;
-	internalTraverseEmbeddedPart( embeddedPart, null, true );
+	internalTraverseEmbeddedPart( embeddedPart, true );
 	return output;
 
-	function internalTraverseEmbeddedPart( child, colorCode, firstLevel ) {
+	function internalTraverseEmbeddedPart( child, firstLevel ) {
 
 		let traverseChildren = true;
 
 		// Main part color
-		if ( child.userData.colorCode ) colorCode = child.userData.colorCode;
+		let colorCode = '16';
 		if ( child.material ) {
 
 			// Color code from the object material
@@ -551,13 +558,14 @@ function embeddedPartToText( embeddedPart ) {
 			else colorCode = '0x2' + child.material.color.clone().convertLinearToSRGB().getHexString();
 
 		}
+		if ( child.userData.colorCode ) colorCode = child.userData.colorCode;
 
 		if ( child.isGroup ) {
 
 			// Referenced part
 			if ( ! firstLevel ) {
 
-				output += "1 " + child.userData.colorCode + " " + poseToText( child ) + " " + child.userData.fileName + dosLineEnd;
+				output += "1 " + colorCode + " " + poseToText( child ) + " " + child.userData.fileName + dosLineEnd;
 
 			}
 
@@ -661,7 +669,7 @@ function embeddedPartToText( embeddedPart ) {
 
 			for ( let c in child.children ) {
 
-				internalTraverseEmbeddedPart( child.children[ c ], colorCode );
+				internalTraverseEmbeddedPart( child.children[ c ] );
 
 			}
 
@@ -671,7 +679,7 @@ function embeddedPartToText( embeddedPart ) {
 
 	function writeVector( v ) {
 
-		output += " " + round3( v.x ) + " " + round3( v.y ) + " " + round3( v.z );
+		output += " " + round6( v.x ) + " " + round6( v.y ) + " " + round6( v.z );
 
 	}
 

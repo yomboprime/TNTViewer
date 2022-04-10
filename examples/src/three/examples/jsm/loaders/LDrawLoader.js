@@ -2419,6 +2419,8 @@ class LDrawLoader extends Loader {
 
 			} );
 			edgeMaterial.userData.conditionalEdgeMaterial.color.convertSRGBToLinear();
+			edgeMaterial.userData.conditionalEdgeMaterial.userData.code = code;
+			edgeMaterial.userData.conditionalEdgeMaterial.name = name + ' - Conditional Edge';
 
 		}
 

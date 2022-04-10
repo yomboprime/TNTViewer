@@ -127,9 +127,12 @@ let btQuatAux1;
 let btTransformAux1;
 
 // Selection
-let selectedPart;
 let selectedPartBoxHelper;
 let selectionModeModel = true;
+let selection = [];
+let selectionGroup;
+
+let shiftIsPressed = false;
 
 // Code 15 is White
 let selectedColorCode = '15';
@@ -235,13 +238,22 @@ function init() {
 
 	currentConstructionSet = 'TENTE';
 
+	selectionGroup = new THREE.Group();
+	selectionGroup.isSelectionGroup = true;
+	scene.add( selectionGroup );
+
 	transformControls = new TransformControls( camera, renderer.domElement );
 	transformControls.setMode( 'translate' );
 	transformControls.setSpace( 'local' );
 	transformControls.addEventListener( 'change', triggerRender );
 	transformControls.addEventListener( 'objectChange', () => {
 
-		if ( selectedPart && selectedPartBoxHelper ) selectedPartBoxHelper.update();
+		for ( let i = 0, n = selection.length; i < n; i ++ ) {
+
+			const bh = selection[ i ].userData.boxHelper;
+			if ( bh ) bh.update();
+		}
+
 		triggerRender();
 
 	} );
@@ -424,6 +436,18 @@ function init() {
 						if ( ! lastOpenPanel ) cloneSelection();
 						break;
 
+					case 'g':
+						if ( ! lastOpenPanel ) selectTool( TOOL_MOVE );
+						break;
+
+					case 'r':
+						if ( ! lastOpenPanel ) selectTool( TOOL_ROTATE );
+						break;
+
+					case 's':
+						if ( ! lastOpenPanel ) selectTool( TOOL_SCALE );
+						break;
+
 					case 'Delete':
 						if ( ! lastOpenPanel ) deleteSelection();
 						break;
@@ -454,6 +478,10 @@ function init() {
 						setFineSnap( true );
 						break;
 
+					case 'Shift':
+						shiftIsPressed = true;
+						break;
+
 					default:
 						break;
 
@@ -471,6 +499,10 @@ function init() {
 
 					case 'Alt':
 						setFineSnap( false );
+						break;
+
+					case 'Shift':
+						shiftIsPressed = false;
 						break;
 
 					default:
@@ -518,7 +550,22 @@ function init() {
 
 					}
 
-					selectPart( object );
+					const newSelection = [];
+
+					if ( shiftIsPressed ) {
+
+						for ( let i = 0; i < selection.length; i ++ ) {
+
+							if ( ! newSelection.includes( selection[ i ] ) && selection[ i ] !== object ) newSelection.push( selection[ i ] );
+
+						}
+
+						if ( ! selection.includes( object ) && object ) newSelection.push( object );
+
+					}
+					else if ( object ) newSelection.push( object );
+
+					selectParts( newSelection );
 
 					triggerRender();
 
@@ -550,7 +597,7 @@ function init() {
 				setCamera( model, pos.x, pos.y, pos.z );
 
 				setSelectionModeModel( true );
-				selectPart( model );
+				selectParts( [ model ] );
 				centerCameraInObject();
 				setFineSnap( false );
 				updateObjectsVisibility();
@@ -748,7 +795,14 @@ function exportModel( format ) {
 
 	const scale = constructionSets[ currentConstructionSet ].scale * guiData.exportScale;
 
-	FileOperations.exportModel( selectedPart, format, scale );
+	if ( selection.count !== 1 ) {
+
+		alert( "Please select exactly one model to export." );
+		return;
+
+	}
+
+	FileOperations.exportModel( selection[ 0 ], format, scale );
 
 }
 
@@ -799,8 +853,8 @@ function getObjectPart( object ) {
 	while ( object.parent && ! object.parent.isScene &&
 			(
 			  ( ! isPart( object ) && ! isModel( object ) && ! object.userData.fileName ) ||
-			  ( object.parent.parent && ! object.parent.parent.isScene && isModel( object.parent ) ) ||
-			  ( object.parent.parent && ! object.parent.parent.isScene && isPart( object.parent ) )
+			  ( object.parent.parent && ( ! object.parent.parent.isScene && ! object.parent.isSelectionGroup ) && isModel( object.parent ) ) ||
+			  ( object.parent.parent && ( ! object.parent.parent.isScene && ! object.parent.isSelectionGroup ) && isPart( object.parent ) )
 			)
 		  ) {
 
@@ -828,6 +882,7 @@ function getObjectPart( object ) {
 	else {
 
 		if ( rootChild && rootChild.userData.isAnimatedPart ) return rootChild;
+
 	}
 
 	return object;
@@ -849,6 +904,8 @@ function isNonLDrawModel( part ) {
 function getPartModel( part ) {
 
 	if ( ! part ) return null;
+
+	if ( isModel( part ) ) return part;
 
 	while ( part.parent && ( ! part.parent.isScene ) ) part = part.parent;
 
@@ -920,7 +977,9 @@ function setCamera( model, x, y, z ) {
 
 function centerCameraInObject() {
 
-	const model = selectedPart;
+	if ( selectionIsEmpty() ) return;
+
+	const model = selectionGroup;
 
 	if ( ! model ) return;
 
@@ -979,43 +1038,46 @@ function selectTool( tool ) {
 
 	selectedTool = tool;
 
-	activateTool( tool, previousTool, selectedPart, selectedPart );
+	activateTool( tool, previousTool, selection, selection );
 
 }
 
-function activateTool( tool, previousTool, part, previousPart ) {
+function activateTool( tool, previousTool, parts, previousParts ) {
+
+	let equalSelection = previousParts.length === parts.length;
+	for ( let i = 0, n = previousParts.length; i < n && equalSelection; i ++ ) {
+
+		equalSelection &= parts.includes( previousParts[ i ] );
+
+	}
+	let differentSelection = parts.length > 0 && ! equalSelection;
+
+	const selectionFlag = parts.length > 0;
 
 	switch ( tool ) {
 
 		case TOOL_NONE:
 
-			if ( previousTool !== TOOL_NONE && previousPart && previousPart !== part ) detachTransformControlsFromPart( previousPart );
 			transformControls.visible = false;
 			transformControls.enabled = false;
 			break;
 
 		case TOOL_MOVE:
-			if ( previousTool !== TOOL_NONE && previousPart && previousPart !== part ) detachTransformControlsFromPart( previousPart );
 			transformControls.setMode( 'translate' );
-			if ( part ) attachTransformControlsToPart( part );
-			transformControls.visible = part !== null;
-			transformControls.enabled = part !== null;
+			transformControls.visible = selectionFlag;
+			transformControls.enabled = selectionFlag;
 			break;
 
 		case TOOL_ROTATE:
-			if ( previousTool !== TOOL_NONE && previousPart && previousPart !== part ) detachTransformControlsFromPart( previousPart );
 			transformControls.setMode( 'rotate' );
-			if ( part ) attachTransformControlsToPart( part );
-			transformControls.visible = part !== null;
-			transformControls.enabled = part !== null;
+			transformControls.visible = selectionFlag;
+			transformControls.enabled = selectionFlag;
 			break;
 
 		case TOOL_SCALE:
-			if ( previousTool !== TOOL_NONE && previousPart && previousPart !== part ) detachTransformControlsFromPart( previousPart );
 			transformControls.setMode( 'scale' );
-			if ( part ) attachTransformControlsToPart( part );
-			transformControls.visible = part !== null;
-			transformControls.enabled = part !== null;
+			transformControls.visible = selectionFlag;
+			transformControls.enabled = selectionFlag;
 			break;
 
 		default:
@@ -1081,29 +1143,27 @@ function toggleCoordinateSystem() {
 
 function attachTransformControlsToPart( part ) {
 
-	part.updateMatrixWorld( true );
-	transformControls.matrix.copy( part.matrixWorld );
-	part.parent.attach( transformControls );
 	transformControls.attach( part );
-}
+
+}
 
 function detachTransformControlsFromPart( part ) {
 
-	transformControls.parent.attach( part );
-	scene.attach( transformControls );
 	transformControls.attach( undefined );
 
 }
 
 function selectColor() {
 
-	if ( selectedPart ) {
+	if ( selection.length === 1 ) {
 
-		const index = searchColorIndex( selectedPart.userData.colorCode );
+		const sel = selection[ 0 ];
+
+		const index = searchColorIndex( sel.userData.colorCode );
 
 		if ( index >= 0 ) {
 
-			selectedColorCode = selectedPart.userData.colorCode;
+			selectedColorCode = sel.userData.colorCode;
 			selectedColorRowIndex = index;
 
 		}
@@ -1115,9 +1175,9 @@ function selectColor() {
 		if ( ! result ) return;
 
 		const colorCode = result;
-		if ( selectedPart ) {
+		if ( selection.length === 1 ) {
 
-			applyMainMaterialToPart( selectedPart, colorCode );
+			applyMainMaterialToPart( selection[ 0 ], colorCode );
 			updateModelAndPartInfo();
 			triggerRender();
 
@@ -1129,7 +1189,7 @@ function selectColor() {
 
 function showSelectAddLDrawPart() {
 
-	if ( ! selectedPart && models.length !== 1 ) {
+	if ( selectionIsEmpty() && models.length !== 1 ) {
 
 		if ( models.length > 1 ) alert( "Please select one of the existing models to add the part to." );
 		return;
@@ -1139,18 +1199,18 @@ function showSelectAddLDrawPart() {
 	if ( models.length === 1 ) {
 
 		setSelectionModeModel( true );
-		selectPart( models[ 0 ] );
+		selectParts( [ models[ 0 ] ] );
 
 	}
-	else if ( ! selectionModeModel ) selectPart( getPartModel( selectedPart ) );
+	else if ( ! selectionModeModel ) selectParts( [ getPartModel( selection[ 0 ] ) ] );
 
-	if ( ! selectedPart ) return;
+	if ( selectionIsEmpty() ) return;
 
-	const selectedModel = selectedPart;
+	const selectedModel = selection[ 0 ];
 	showSelectLDrawPartFromRepo( selectedModel, ( part ) => {
 
 		setSelectionModeModel( false );
-		selectPart( part );
+		selectParts( [ part ] );
 
 		setFineSnap( false );
 		hideProgressBar();
@@ -1175,7 +1235,7 @@ function createNewEmptyModel() {
 		addLDrawPartOrModel( model, null, true );
 
 		setSelectionModeModel( false );
-		selectPart( part );
+		selectParts( [ part ] );
 
 		setFineSnap( false );
 		hideProgressBar();
@@ -1206,7 +1266,7 @@ function onFileLoaded( mesh, isLDraw ) {
 	addLDrawPartOrModel( mesh, parentModel, isLDraw );
 
 	setSelectionModeModel( ! parentModel );
-	selectPart( mesh );
+	selectParts( [ mesh ] );
 
 	setFineSnap( false );
 	hideProgressBar();
@@ -1221,14 +1281,14 @@ function saveModelAsLDrawButtonFunc() {
 	if ( models.length === 1 ) modelToBeSaved = models[ 0 ];
 	else {
 
-		if ( ! selectedPart ) {
+		if ( selection.length !== 1 ) {
 
 			alert( "Please select one of the models to be saved as .ldr" );
 			return;
 
 		}
 
-		modelToBeSaved = getPartModel( selectedPart );
+		modelToBeSaved = getPartModel( selection[ 0 ] );
 
 	}
 
@@ -1272,25 +1332,26 @@ function exportSceneAsTNT() {
 
 function deleteSelection() {
 
-	if ( ! selectedPart ) return;
+	if ( selectionIsEmpty() ) return;
 
-	const partToBeDeleted = selectedPart;
+	const partsToBeDeleted = selection;
 
-	selectPart( null );
+	selectParts( null );
 
-	const parent = partToBeDeleted.parent;
+	for ( let i = 0, n = partsToBeDeleted.length; i < n; i ++ ) {
 
-	if ( ! deletePartOrModel( partToBeDeleted ) ) {
+		const partToBeDeleted = partsToBeDeleted[ i ];
 
-		triggerRender();
-		return;
+		const parent = partToBeDeleted.parent;
 
-	}
+		deletePartOrModel( partToBeDeleted );
 
-	if ( parent && isModel( parent ) && parent.children.length === 0 ) {
+		if ( parent && isModel( parent ) && parent.children.length === 0 ) {
 
-		deletePartOrModel( parent );
-		alert( "Model was deleted because you deleted its last part." );
+			deletePartOrModel( parent );
+			alert( "Model was deleted because you deleted its last part." );
+
+		}
 
 	}
 
@@ -1477,24 +1538,37 @@ function redo() {
 
 function cloneSelection() {
 
-	if ( ! selectedPart ) return;
+	if ( selectionIsEmpty() ) return;
+
+	const clones = [];
 
 	if ( selectionModeModel ) {
 
-		const clone = selectedPart.clone();
-		models.push( clone );
-		scene.add( clone );
-		selectPart( clone );
+		for ( let i = 0, n = selection.length; i < n; i ++ ) {
+
+			const clone = selection[ i ].clone();
+			clones.push( clone );
+			models.push( clone );
+			scene.add( clone );
+
+		}
 
 	} else {
 
-		const model = getPartModel( selectedPart );
+		const model = getPartModel( selection[ i ] );
 		if ( ! model ) return;
-		const clone = selectedPart.clone();
-		model.add( clone );
-		selectPart( clone );
+
+		for ( let i = 0, n = selection.length; i < n; i ++ ) {
+
+			const clone = selection[ i ].clone();
+			model.add( clone );
+			clones.push( clone );
+
+		}
 
 	}
+
+	selectParts( clones );
 
 }
 
@@ -1502,7 +1576,7 @@ function setSelectionModeModel( set ) {
 
 	if ( selectionModeModel === set ) return;
 
-	selectPart( null );
+	selectParts( null );
 
 	if ( set ) {
 
@@ -1520,31 +1594,113 @@ function setSelectionModeModel( set ) {
 
 }
 
-// TODO rename to selectParts and convert to array parameter
-function selectPart( part ) {
+function selectParts( parts ) {
+
+	if ( ! parts || parts.length > 0 && parts[ 0 ] === null ) parts = [];
 
 	if ( selectionModeModel ) {
 
-		if ( isAnimatedPart( part ) ) part = null;
+		for ( let i = 0, n = parts.length; i < n; i ++ ) {
+
+			if ( isAnimatedPart( parts[ i ] ) ) {
+
+				parts = [];
+				break;
+
+			}
+
+		}
 
 	}
 
-	if ( part ) {
+	detachTransformControlsFromPart( selectionGroup );
 
-		if ( selectedPartBoxHelper ) {
+	while ( selectionGroup.children.length > 0 ) {
 
-			selectedPartBoxHelper.setFromObject( part );
+		const c = selectionGroup.children[ 0 ];
+		selectionGroup.parent.attach( c );
+		if ( c.userData.boxHelper ) c.userData.boxHelper.visible = false;
+
+	}
+
+	if ( parts.length > 0 ) {
+
+		if ( selectionModeModel ) {
+
+			for ( let i = 0, n = parts.length; i < n; i ++ ) {
+
+				if ( isPart( parts[ i ] ) ) {
+
+					console.log( "Error: model selection contains parts. Count = " + parts.length );
+					return;
+
+				}
+
+			}
+
+			scene.attach( selectionGroup );
+
+		} else {
+
+			const model = getPartModel( parts[ 0 ] );
+
+			for ( let i = 1, n = parts.length; i < n; i ++ ) {
+
+				if ( getPartModel( parts[ i ] ) !== model ) {
+
+					console.log( "Error: selection contains parts of different models. Count = " + parts.length );
+					return;
+
+				}
+
+			}
+
+			model.attach( selectionGroup );
 
 		}
-		else {
 
-			selectedPartBoxHelper = new THREE.BoxHelper( part, 0xFF00FF );
+		vector3Temp1.set( 0, 0, 0 );
+		for ( let i = 0, n = parts.length; i < n; i ++ ) {
+
+			vector3Temp1.add( parts[ i ].position );
+
+		}
+		vector3Temp1.divideScalar( parts.length );
+
+		selectionGroup.position.copy( vector3Temp1 );
+		selectionGroup.quaternion.set( 0, 0, 0, 1 );
+		selectionGroup.scale.set( 1, 1, 1 );
+
+		for ( let i = 0, n = parts.length; i < n; i ++ ) {
+
+			selectionGroup.attach( parts[ i ] );
 
 		}
 
-		if ( ! selectedPart ) scene.add( selectedPartBoxHelper );
+		attachTransformControlsToPart( selectionGroup );
 
-		selectedPartBoxHelper.material.color.setHex( selectionModeModel ? 0x00FF00 : 0xFF00FF );
+		for ( let i = 0, n = parts.length; i < n; i ++ ) {
+
+			const part = parts[ i ];
+			let bh = part.userData.boxHelper;
+
+			if ( bh ) {
+
+				bh.setFromObject( part );
+				bh.visible = true;
+
+			}
+			else {
+
+				bh = new THREE.BoxHelper( part, 0xFF00FF );
+				part.userData.boxHelper = bh;
+				scene.add( bh );
+
+			}
+
+			bh.material.color.setHex( selectionModeModel ? 0x00FF00 : 0xFF00FF );
+
+		}
 
 		if ( ! animationCreated && selectionModeModel ) {
 
@@ -1560,11 +1716,10 @@ function selectPart( part ) {
 	}
 	else {
 
-		if ( selectedPart ) {
-
-			if ( selectedPartBoxHelper ) selectedPartBoxHelper.removeFromParent();
-
-		}
+		scene.attach( selectionGroup );
+		selectionGroup.position.set( 0, 0, 0 );
+		selectionGroup.quaternion.set( 0, 0, 0, 1 );
+		selectionGroup.scale.set( 1, 1, 1 );
 
 		if ( ! animationCreated ) {
 
@@ -1579,27 +1734,35 @@ function selectPart( part ) {
 
 	}
 
-	const previousPart = selectedPart;
-	selectedPart = part;
+	const previousParts = selection;
+	selection = parts;
 
-	activateTool( selectedTool, selectedTool, selectedPart, previousPart );
+	activateTool( selectedTool, selectedTool, selection, previousParts );
 
 	updateModelAndPartInfo();
 
 }
 
+function selectionIsEmpty() {
+
+	return selection.length === 0;
+}
+
 function updateModelAndPartInfo() {
 
 	let infoText = '';
 
-	const selectedModel = getPartModel( selectedPart );
+	const selectedModel = getPartModel( selectionIsEmpty() ? null : selection[ 0 ] );
 	const modelInfo = getDataBaseModel( selectedModel );
 
-	if ( selectedPart ) {
+/*
+	if ( selection.length > 1 ) {
+	} else */if ( selection.length === 1 ) {
 
-		const mat = lDrawLoader.materialLibrary[ selectedPart.userData.colorCode ];
+		const sel = selection[ 0 ];
+		const mat = lDrawLoader.materialLibrary[ sel.userData.colorCode ];
 
-		let partInfo = getDataBasePart( selectedPart );
+		let partInfo = getDataBasePart( sel );
 		if ( partInfo ) {
 
 			infoText += 'Part: ' +
@@ -1612,12 +1775,12 @@ function updateModelAndPartInfo() {
 		}
 		else {
 
-			if ( selectedModel === selectedPart ) {
+			if ( selectedModel === sel ) {
 
 				infoText += 'Model: ' + selectedModel.userData.fileName + '<br>';
 
 			}
-			else if ( isEmbeddedPart( selectedPart ) ) {
+			else if ( isEmbeddedPart( sel ) ) {
 
 				infoText += 'Part: Embedded part.<br>';
 				if ( mat ) infoText += 'Part color: ' + mat.name + '<br>';
@@ -1650,7 +1813,7 @@ function updateModelAndPartInfo() {
 	}
 	else {
 
-		if ( ! selectedPart ) {
+		if ( selectionIsEmpty() ) {
 
 			guiData.path = "";
 			guiData.fileAuthor = "";
@@ -1743,11 +1906,12 @@ function startAnimation() {
 
 	const disableAnimButton = ! animationCreated;
 
+	const sel = selectionIsEmpty() ? null : selection[ 0 ];
 	if ( ! animationCreated ) {
 
-		if ( getPartModel( selectedPart ) !== selectedPart ) return;
+		if ( getPartModel( sel ) !== sel ) return;
 
-		animatedModel = selectedPart;
+		animatedModel = sel;
 
 		createAnimation();
 
@@ -1818,7 +1982,7 @@ function stopAnimation() {
 
 	models.push( animatedModel );
 	scene.add( animatedModel );
-	selectPart( animatedModel );
+	selectParts( [ animatedModel ] );
 	animatedModel = null;
 
 	animatedModel = null;
@@ -1947,7 +2111,7 @@ function goToNextStep() {
 
 function createAnimation() {
 
-	selectPart( null );
+	selectParts( null );
 	scene.remove( animatedModel );
 	const iAnimModel = models.indexOf( animatedModel );
 	if ( iAnimModel >= 0 ) models.splice( iAnimModel, 1 );
@@ -2242,7 +2406,7 @@ function positionPart( part, t ) {
 
 	part.quaternion.slerpQuaternions( part.userData.quaternionStart, part.userData.partQuaternion, tCurve );
 
-	if ( ( selectedPart === part ) && selectedPartBoxHelper ) selectedPartBoxHelper.update();
+	if ( ( selection.includes( part ) ) && selectedPartBoxHelper ) selectedPartBoxHelper.update();
 
 }
 
@@ -2361,7 +2525,7 @@ function createGUI() {
 	modelInfoURLController = infoFolder.add( guiData, 'modelInfoURL' ).name( 'Info URL' );
 	pathController = infoFolder.add( guiData, 'path' ).name( 'File name' ).onFinishChange( () => {
 
-		if ( selectedPart ) {
+		if ( ! selectionIsEmpty() ) {
 
 			if ( guiData.path.indexOf( '.' ) < 0 ) {
 
@@ -2369,7 +2533,7 @@ function createGUI() {
 				pathController.updateDisplay();
 			}
 
-			const model = getPartModel( selectedPart );
+			const model = getPartModel( selection[ 0 ] );
 			if ( model ) model.userData.fileName = guiData.path;
 
 		}
@@ -2377,9 +2541,9 @@ function createGUI() {
 	} );
 	fileAuthorController = infoFolder.add( guiData, 'fileAuthor' ).name( 'Author' ).onChange( () => {
 
-		if ( selectedPart ) {
+		if ( selectionIsEmpty() ) {
 
-			const model = getPartModel( selectedPart );
+			const model = getPartModel( selection[ 0 ] );
 			if ( model ) model.userData.author = guiData.fileAuthor;
 
 		}
@@ -2573,7 +2737,7 @@ function createGUI() {
 		if ( selectionModePartButton.disabled ) return;
 
 		selectionModeModel = false;
-		selectPart( null );
+		selectParts( null );
 		setButtonDisabled( selectionModePartButton, true );
 		setButtonDisabled( selectionModeModelButton, false );
 
@@ -2591,8 +2755,8 @@ function createGUI() {
 		if ( selectionModeModelButton.disabled ) return;
 
 		selectionModeModel = true;
-		selectPart( getPartModel( selectedPart ) );
-		if ( selectedPart ) selectedPartBoxHelper.update();
+		selectParts( [ getPartModel( selectionIsEmpty ? null : selection[ 0 ] ) ] );
+		if ( ! selectionIsEmpty() ) selectedPartBoxHelper.update();
 		setButtonDisabled( selectionModePartButton, false );
 		setButtonDisabled( selectionModeModelButton, true );
 
@@ -2847,7 +3011,7 @@ function showBOM() {
 
 	bomPanel = deleteSelectTable( bomPanel );
 
-	const model = getPartModel( selectedPart );
+	const model = getPartModel( selectionIsEmpty() ? null : selection[ 0 ] );
 
 	if ( ! model ) return;
 
@@ -2876,9 +3040,9 @@ function showBOM() {
 
 		if ( ! c.isGroup ) continue;
 
-		const part = getObjectPart( c );
+		const part = c;
 
-		if ( ! part || part !== c ) continue;
+		if ( ! part ) continue;
 
 		const dbPart = getDataBasePart( part );
 
@@ -3047,7 +3211,7 @@ function showSelectLDrawModelFromRepo() {
 			setCamera( model, pos.x, pos.y, pos.z );
 
 			setSelectionModeModel( true );
-			selectPart( model );
+			selectParts( [ model ] );
 
 			setFineSnap( false );
 
@@ -3555,7 +3719,7 @@ function createMenu( title, id, parent, options, callback ) {
 		callback( selectedOption );
 
 	} );
-//kk
+
 	parent.appendChild( button );
 
 	const dataList = createDataList( id, options );
