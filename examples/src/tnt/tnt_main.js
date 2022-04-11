@@ -550,6 +550,8 @@ function init() {
 
 					}
 
+					if ( selection.length > 0 && ! selectionModeModel && getPartModel( object ) !== getPartModel( selection[ 0 ] ) ) object = null;
+
 					const newSelection = [];
 
 					if ( shiftIsPressed ) {
@@ -1638,10 +1640,10 @@ function selectParts( parts ) {
 
 			for ( let i = 0, n = parts.length; i < n; i ++ ) {
 
-				if ( isPart( parts[ i ] ) ) {
+				if ( ! isModel( parts[ i ] ) ) {
 
 					console.log( "Error: model selection contains parts. Count = " + parts.length );
-					return;
+					//return;
 
 				}
 
@@ -1658,7 +1660,7 @@ function selectParts( parts ) {
 				if ( getPartModel( parts[ i ] ) !== model ) {
 
 					console.log( "Error: selection contains parts of different models. Count = " + parts.length );
-					return;
+					//return;
 
 				}
 
