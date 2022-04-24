@@ -1,0 +1,84 @@
+0 Mar 0631 Fragata Mixta
+0 Name: Mar_0631_Fragata_Mixta.ldr
+0 Author: jasolo
+0 Unofficial Model
+1 0 -210 0 30 0 0 1 0 1 0 -1 0 0 proa4p.dat
+1 0 -50 0 -10 1 0 0 0 1 0 0 0 1 placa4x8.dat
+1 0 110 0 -10 1 0 0 0 1 0 0 0 1 placa4x8.dat
+1 0 -210 0 -10 1 0 0 0 1 0 0 0 1 placa4x8.dat
+1 7 -70 -8 50 -1 0 0 0 1 0 0 0 -1 jacena6.dat
+1 7 90 -8 70 -1 0 0 0 1 0 0 0 -1 jacena8.dat
+1 7 250 -8 70 -1 0 0 0 1 0 0 0 -1 jacena8.dat
+0 STEP
+1 7 -190 -8 30 0 0 1 0 1 0 -1 0 0 proa4.dat
+1 7 -70 -8 -10 -1 0 0 0 1 0 0 0 -1 jacena6.dat
+1 7 90 -8 10 -1 0 0 0 1 0 0 0 -1 jacena8.dat
+1 7 250 -8 10 -1 0 0 0 1 0 0 0 -1 jacena8.dat
+1 7 250 -8 70 0 0 1 0 1 0 -1 0 0 cuna.dat
+1 7 10 -32 70 -1 0 0 0 1 0 0 0 -1 placa4x6.dat
+1 7 130 -32 70 -1 0 0 0 1 0 0 0 -1 placa4x6.dat
+0 STEP
+1 7 250 -8 30 0 0 1 0 1 0 -1 0 0 cuna.dat
+1 7 -110 -32 70 -1 0 0 0 1 0 0 0 -1 placa4x6.dat
+1 7 -110 -40 10 1 0 0 0 1 0 0 0 1 jacen2x8.dat
+1 7 -130 -40 10 1 0 0 0 1 0 0 0 1 rallado1.dat
+1 7 -110 -40 50 -1 0 0 0 1 0 0 0 -1 rallado1.dat
+1 7 30 -40 50 -1 0 0 0 1 0 0 0 -1 rallado1.dat
+1 7 10 -40 10 1 0 0 0 1 0 0 0 1 rallado1.dat
+1 7 70 -40 50 0 0 -1 0 1 0 1 0 0 castesqu.dat
+1 7 110 -40 50 1 0 0 0 1 0 0 0 1 castesqu.dat
+1 7 70 -40 10 1 0 0 0 1 0 0 0 1 jacen2x2.dat
+0 STEP
+1 7 110 -40 50 0 0 -1 0 1 0 1 0 0 castillo.dat
+1 7 -190 -40 10 1 0 0 0 1 0 0 0 1 jacen2x4.dat
+1 7 -130 -64 -10 1 0 0 0 1 0 0 0 1 placa4x8.dat
+1 7 70 -64 10 1 0 0 0 1 0 0 0 1 jacen2x2.dat
+1 7 70 -88 10 1 0 0 0 1 0 0 0 1 placa2x2.dat
+1 7 50 -64 50 0 0 1 0 1 0 -1 0 0 pico.dat
+1 7 -110 -72 10 0 0 -1 0 1 0 1 0 0 cuna.dat
+1 7 -30 -72 30 1 0 0 0 1 0 0 0 1 cuna.dat
+1 7 10 -72 30 -1 0 0 0 1 0 0 0 -1 cuna.dat
+1 7 -110 -72 10 1 0 0 0 1 0 0 0 1 jacen2x4.dat
+1 7 0 -96 60 -1 0 0 0 1 0 0 0 -1 chimtubo.dat
+0 STEP
+1 7 -110 -96 10 1 0 0 0 1 0 0 0 1 venta4bi.dat
+1 7 -30 -96 50 -1 0 0 0 1 0 0 0 -1 venta4bi.dat
+1 7 -150 -96 10 1 0 0 0 1 0 0 0 1 jacen2x2.dat
+1 7 -130 -120 60 0 0 1 0 1 0 -1 0 0 placa2x3.dat
+1 7 -70 -120 30 0 0 1 0 1 0 -1 0 0 amortigu.dat
+1 4 0 -120 60 -1 0 0 0 1 0 0 0 -1 chimplac.dat
+1 7 -30 -96 10 0 0 -1 0 1 0 1 0 0 pico.dat
+1 7 170 -32 30 1 0 0 0 1 0 0 0 1 baldc4.dat
+1 7 250 -32 30 1 0 0 0 1 0 0 0 1 baldc4.dat
+1 7 70 -40 10 -1 0 0 0 1 0 0 0 -1 castesqu.dat
+1 7 70 -40 10 0 0 1 0 1 0 -1 0 0 castillo.dat
+1 7 110 -40 10 0 0 1 0 1 0 -1 0 0 castesqu.dat
+1 7 -120 -128 30 0 0 1 0 1 0 -1 0 0 cilindro.dat
+0 STEP
+1 7 -230 -32 30 0 0 1 0 1 0 -1 0 0 proa4rmt.dat
+1 15 -230 -32 30 0 0 1 0 1 0 -1 0 0 pfrog.dat
+1 7 -190 -40 50 0 0 1 0 1 0 -1 0 0 pico.dat
+1 7 0 -96 0 -1 0 0 0 1 0 0 0 -1 chimtubo.dat
+1 4 0 -120 0 -1 0 0 0 1 0 0 0 -1 chimplac.dat
+1 0 -20 -128 60 -1 0 0 0 1 0 0 0 -1 chimenea.dat
+1 7 -70 -152 30 -1 0 0 0 1 0 0 0 -1 cilintap.dat
+1 7 -150 -120 70 0 0 1 0 1 0 -1 0 0 venta4bu.dat
+1 7 -130 -144 90 -1 0 0 0 1 0 0 0 -1 bald2.dat
+1 7 -130 -144 50 -1 0 0 0 1 0 0 0 -1 bald2.dat
+1 7 -120 -152 30 -1 0 0 0 1 0 0 0 -1 chimplac.dat
+1 7 90 -96 30 1 0 0 0 1 0 0 0 1 baldc4.dat
+0 STEP
+1 8 -120 -72 0 0.707 0 0.707 0 1 0 -0.707 0 0.707 canonpeq.dat
+1 8 -120 -72 60 -0.707 0 0.707 0 1 0 -0.707 0 -0.707 canonpeq.dat
+1 15 -230 -40 30 0 0 1 0 1 0 -1 0 0 misiles.dat
+1 15 -80 -74 0 1 0 0 0 1 0 0 0 1 barca.dat
+1 15 -80 -74 60 1 0 0 0 1 0 0 0 1 barca.dat
+1 8 -180 -40 0 1 0 0 0 1 0 0 0 1 radarneg.dat
+1 15 -170 -64 30 0 0 1 0 1 0 -1 0 0 radar.dat
+1 8 -180 -40 60 1 0 0 0 1 0 0 0 1 radarneg.dat
+1 0 -20 -128 0 -1 0 0 0 1 0 0 0 -1 chimenea.dat
+1 7 -100 -128 30 -1 0 0 0 1 0 0 0 -1 antninc2.dat
+1 15 230 -40 20 0 0 1 0 1 0 -1 0 0 helicop1.dat
+1 7 -130 -144 10 -1 0 0 0 1 0 0 0 -1 bald2.dat
+1 8 -140 -160 30 0 0 -1 0 1 0 1 0 0 radarneg.dat
+1 7 -120 -160 30 0 0 1 0 1 0 -1 0 0 antnradr.dat
