@@ -1,7 +1,9 @@
 0 Etiqueta Ferry
 0 Name: tferry.dat
 0 Author: cpcbegin
+0 !LDRAW_ORG Unofficial_Part
 0 BFC CERTIFY CW
+
 4 15 86.8 -19.6 0 84.8 -19.6 0 84.8 -19.2 0 86.8 -19.2 0
 4 15 141.6 -19.2 0 136.8 -19.2 0 136.8 -18.8 0 141.6 -18.8 0
 4 15 87.6 -19.2 0 83.2 -19.2 0 83.2 -18.8 0 87.6 -18.8 0

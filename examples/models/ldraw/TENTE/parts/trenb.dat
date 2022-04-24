@@ -1,7 +1,7 @@
 0 Tren Bloque		|D:D
 0 Name: trenb.dat
-0 !LDRAW_ORG Unofficial_Part
 0 Author: pollo & jasolo
+0 !LDRAW_ORG Unofficial_Part
 0 BFC CERTIFY CCW
 1 16 -10 0 -10 1 0 0 0 1 0 0 0 1 s\teton.dat
 1 16 -10 0 10 1 0 0 0 1 0 0 0 1 s\teton.dat

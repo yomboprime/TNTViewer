@@ -8,7 +8,7 @@
             "refNumber": "0501",
             "fileTitle": "Sin_nombre",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "oficiales/Aire_0502_Helicoptero_Brigada_Forestal.ldr": {
             "path": "oficiales/Aire_0502_Helicoptero_Brigada_Forestal.ldr",
@@ -18,7 +18,7 @@
             "refNumber": "0502",
             "fileTitle": "Sin_nombre",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "oficiales/Aire_0506_Helicoptero_Fumigador.ldr": {
             "path": "oficiales/Aire_0506_Helicoptero_Fumigador.ldr",
@@ -28,7 +28,7 @@
             "refNumber": "0506",
             "fileTitle": "Sin_nombre",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "oficiales/Aire_0508_Helicoptero_Turbo_Speed.ldr": {
             "path": "oficiales/Aire_0508_Helicoptero_Turbo_Speed.ldr",
@@ -38,7 +38,7 @@
             "refNumber": "0508",
             "fileTitle": "Untitled",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "oficiales/Aire_0509_Helicoptero_Falcon.ldr": {
             "path": "oficiales/Aire_0509_Helicoptero_Falcon.ldr",
@@ -48,7 +48,7 @@
             "refNumber": "0509",
             "fileTitle": "Aire 0509 Helicoptero Falcon",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "oficiales/Aire_0510_Helicoptero_Ala_Variable.ldr": {
             "path": "oficiales/Aire_0510_Helicoptero_Ala_Variable.ldr",
@@ -58,7 +58,7 @@
             "refNumber": "0510",
             "fileTitle": "Untitled",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "oficiales/Aire_0530_Helicoptero_Autotransportado.ldr": {
             "path": "oficiales/Aire_0530_Helicoptero_Autotransportado.ldr",
@@ -68,7 +68,7 @@
             "refNumber": "0530",
             "fileTitle": "Aire 0530 Helicoptero Autotransportado",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "oficiales/Aire_70037_Air_Service.ldr": {
             "path": "oficiales/Aire_70037_Air_Service.ldr",
@@ -78,7 +78,7 @@
             "refNumber": "70037",
             "fileTitle": "Untitled",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "oficiales/Alfa_0364_Roadmaster.ldr": {
             "path": "oficiales/Alfa_0364_Roadmaster.ldr",
@@ -88,7 +88,7 @@
             "refNumber": "0364",
             "fileTitle": "Untitled",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "oficiales/Alfa_0370_Control_Aereo.ldr": {
             "path": "oficiales/Alfa_0370_Control_Aereo.ldr",
@@ -98,7 +98,7 @@
             "refNumber": "0370",
             "fileTitle": "Alfa 0370 Control A�reo",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "oficiales/Astro_0542_Interceptor_Tactico.ldr": {
             "path": "oficiales/Astro_0542_Interceptor_Tactico.ldr",
@@ -108,7 +108,7 @@
             "refNumber": "0542",
             "fileTitle": "Astro 0542 Interceptor Tactico",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "oficiales/Astro_0542_Transporte_de_Discos.ldr": {
             "path": "oficiales/Astro_0542_Transporte_de_Discos.ldr",
@@ -118,7 +118,7 @@
             "refNumber": "0542",
             "fileTitle": "Astro 0542 Transporte de discos",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "oficiales/Astro_0552_Aerodeslizador_Espacial.ldr": {
             "path": "oficiales/Astro_0552_Aerodeslizador_Espacial.ldr",
@@ -138,7 +138,7 @@
             "refNumber": "0552",
             "fileTitle": "Astro sencillo",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "oficiales/Astro_0552_Base_Alerta_Galactica.ldr": {
             "path": "oficiales/Astro_0552_Base_Alerta_Galactica.ldr",
@@ -148,7 +148,7 @@
             "refNumber": "0552",
             "fileTitle": "Astro 0552 Base Alerta Gal�ctica",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "oficiales/Astro_0552_Bus_Espacial.ldr": {
             "path": "oficiales/Astro_0552_Bus_Espacial.ldr",
@@ -208,7 +208,7 @@
             "refNumber": "0552",
             "fileTitle": "Untitled",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "oficiales/Astro_0552_Patrulla_91.ldr": {
             "path": "oficiales/Astro_0552_Patrulla_91.ldr",
@@ -228,7 +228,7 @@
             "refNumber": "0552",
             "fileTitle": "Sin_nombre",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "oficiales/Astro_0552_Tractor_de_Mantenimiento.ldr": {
             "path": "oficiales/Astro_0552_Tractor_de_Mantenimiento.ldr",
@@ -238,7 +238,7 @@
             "refNumber": "0552",
             "fileTitle": "Sin_nombre",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "oficiales/Astro_0552_Transporte_Uranio.ldr": {
             "path": "oficiales/Astro_0552_Transporte_Uranio.ldr",
@@ -258,7 +258,7 @@
             "refNumber": "0552",
             "fileTitle": "Sin_nombre",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "oficiales/Astro_0552_Transporte_de_Material_Radioactivo.ldr": {
             "path": "oficiales/Astro_0552_Transporte_de_Material_Radioactivo.ldr",
@@ -268,7 +268,7 @@
             "refNumber": "0552",
             "fileTitle": "Sin_nombre",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "oficiales/Astro_0552_Vehiculo_Articulado.ldr": {
             "path": "oficiales/Astro_0552_Vehiculo_Articulado.ldr",
@@ -278,7 +278,7 @@
             "refNumber": "0552",
             "fileTitle": "Untitled",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "oficiales/Astro_0552_Vehiculo_de_Defensa.ldr": {
             "path": "oficiales/Astro_0552_Vehiculo_de_Defensa.ldr",
@@ -308,7 +308,7 @@
             "refNumber": "0650",
             "fileTitle": "Sin_nombre",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "oficiales/Astro_0650_Desintegrador_de_Rayos_Laser_Alter1.ldr": {
             "path": "oficiales/Astro_0650_Desintegrador_de_Rayos_Laser_Alter1.ldr",
@@ -318,7 +318,7 @@
             "refNumber": "0650",
             "fileTitle": "Sin_nombre",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "oficiales/Astro_0651_Centro_Movil_de_Control.ldr": {
             "path": "oficiales/Astro_0651_Centro_Movil_de_Control.ldr",
@@ -378,7 +378,7 @@
             "refNumber": "0656",
             "fileTitle": "Astro 0656 Interceptor Espacial",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "oficiales/Astro_0657_Unidad_Teledetectora.ldr": {
             "path": "oficiales/Astro_0657_Unidad_Teledetectora.ldr",
@@ -408,7 +408,7 @@
             "refNumber": "0661",
             "fileTitle": "Sin_nombre",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "oficiales/Astro_0720_Proyector_Galactico_Movil.ldr": {
             "path": "oficiales/Astro_0720_Proyector_Galactico_Movil.ldr",
@@ -516,7 +516,7 @@
             "refNumber": "70022",
             "fileTitle": "Sin_nombre",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "oficiales/Astro_70022_Desintegrador_Borras_Apunta_Arriba.ldr": {
             "path": "oficiales/Astro_70022_Desintegrador_Borras_Apunta_Arriba.ldr",
@@ -526,7 +526,7 @@
             "refNumber": "70022",
             "fileTitle": "Sin_nombre",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "oficiales/Astro_USA_403_Laser_Ray.ldr": {
             "path": "oficiales/Astro_USA_403_Laser_Ray.ldr",
@@ -536,7 +536,7 @@
             "refNumber": "403",
             "fileTitle": "Sin_nombre",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "oficiales/Astro_USA_480_Space_Power_Station.ldr": {
             "path": "oficiales/Astro_USA_480_Space_Power_Station.ldr",
@@ -556,7 +556,7 @@
             "refNumber": "481",
             "fileTitle": "Untitled",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "oficiales/Basico_0401_Casa.ldr": {
             "path": "oficiales/Basico_0401_Casa.ldr",
@@ -566,7 +566,7 @@
             "refNumber": "0401",
             "fileTitle": "Sin_nombre",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "oficiales/Basico_0401_F1_Tesoro.ldr": {
             "path": "oficiales/Basico_0401_F1_Tesoro.ldr",
@@ -586,7 +586,7 @@
             "refNumber": "0402",
             "fileTitle": "Untitled",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "oficiales/Basico_0402_Buho.ldr": {
             "path": "oficiales/Basico_0402_Buho.ldr",
@@ -596,7 +596,7 @@
             "refNumber": "0402",
             "fileTitle": "Untitled",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "oficiales/Basico_0402_Camion_Reparto.ldr": {
             "path": "oficiales/Basico_0402_Camion_Reparto.ldr",
@@ -606,7 +606,7 @@
             "refNumber": "0402",
             "fileTitle": "Untitled",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "oficiales/Basico_0402_Casa.ldr": {
             "path": "oficiales/Basico_0402_Casa.ldr",
@@ -616,7 +616,7 @@
             "refNumber": "0402",
             "fileTitle": "Sin_nombre",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "oficiales/Basico_0402_Casa_con_Garaje.ldr": {
             "path": "oficiales/Basico_0402_Casa_con_Garaje.ldr",
@@ -626,7 +626,7 @@
             "refNumber": "0402",
             "fileTitle": "Untitled",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "oficiales/Basico_0402_Formula_II.ldr": {
             "path": "oficiales/Basico_0402_Formula_II.ldr",
@@ -636,7 +636,7 @@
             "refNumber": "0402",
             "fileTitle": "Untitled",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "oficiales/Basico_0402_Gasolinera_Engrase.ldr": {
             "path": "oficiales/Basico_0402_Gasolinera_Engrase.ldr",
@@ -646,7 +646,7 @@
             "refNumber": "0402",
             "fileTitle": "Untitled",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "oficiales/Basico_0402_Helicoptero.ldr": {
             "path": "oficiales/Basico_0402_Helicoptero.ldr",
@@ -656,7 +656,7 @@
             "refNumber": "0402",
             "fileTitle": "Untitled",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "oficiales/Basico_0402_Monumento.ldr": {
             "path": "oficiales/Basico_0402_Monumento.ldr",
@@ -666,7 +666,7 @@
             "refNumber": "0402",
             "fileTitle": "Untitled",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "oficiales/Basico_0402_Peaje_Autopista.ldr": {
             "path": "oficiales/Basico_0402_Peaje_Autopista.ldr",
@@ -676,7 +676,7 @@
             "refNumber": "0402",
             "fileTitle": "Untitled",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "oficiales/Basico_0402_Sencillo_1.ldr": {
             "path": "oficiales/Basico_0402_Sencillo_1.ldr",
@@ -686,7 +686,7 @@
             "refNumber": "0402",
             "fileTitle": "Untitled",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "oficiales/Basico_0402_Sencillo_2.ldr": {
             "path": "oficiales/Basico_0402_Sencillo_2.ldr",
@@ -696,7 +696,7 @@
             "refNumber": "0402",
             "fileTitle": "Untitled",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "oficiales/Basico_0402_Sencillo_3.ldr": {
             "path": "oficiales/Basico_0402_Sencillo_3.ldr",
@@ -706,7 +706,7 @@
             "refNumber": "0402",
             "fileTitle": "Untitled",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "oficiales/Basico_0402_Sencillo_4.ldr": {
             "path": "oficiales/Basico_0402_Sencillo_4.ldr",
@@ -716,7 +716,7 @@
             "refNumber": "0402",
             "fileTitle": "Untitled",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "oficiales/Basico_0402_Sencillo_5.ldr": {
             "path": "oficiales/Basico_0402_Sencillo_5.ldr",
@@ -726,7 +726,7 @@
             "refNumber": "0402",
             "fileTitle": "Untitled",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "oficiales/Basico_0402_Sencillo_6.ldr": {
             "path": "oficiales/Basico_0402_Sencillo_6.ldr",
@@ -736,7 +736,7 @@
             "refNumber": "0402",
             "fileTitle": "Untitled",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "oficiales/Basico_0403_Avion_Iniciacion.ldr": {
             "path": "oficiales/Basico_0403_Avion_Iniciacion.ldr",
@@ -756,7 +756,7 @@
             "refNumber": "0403",
             "fileTitle": "Sin_nombre",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "oficiales/Basico_0403_Casa_Halt.ldr": {
             "path": "oficiales/Basico_0403_Casa_Halt.ldr",
@@ -766,7 +766,7 @@
             "refNumber": "0403",
             "fileTitle": "Sin_nombre",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "oficiales/Basico_0403_Chalet.ldr": {
             "path": "oficiales/Basico_0403_Chalet.ldr",
@@ -776,7 +776,7 @@
             "refNumber": "0403",
             "fileTitle": "Sin_nombre",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "oficiales/Basico_0403_Coche.ldr": {
             "path": "oficiales/Basico_0403_Coche.ldr",
@@ -786,7 +786,7 @@
             "refNumber": "0403",
             "fileTitle": "Untitled",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "oficiales/Basico_0404_Barco.ldr": {
             "path": "oficiales/Basico_0404_Barco.ldr",
@@ -796,7 +796,7 @@
             "refNumber": "0404",
             "fileTitle": "Untitled",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "oficiales/Basico_0404_Bicho.ldr": {
             "path": "oficiales/Basico_0404_Bicho.ldr",
@@ -806,7 +806,7 @@
             "refNumber": "0404",
             "fileTitle": "Untitled",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "oficiales/Basico_0404_Carguero_y_Grua.ldr": {
             "path": "oficiales/Basico_0404_Carguero_y_Grua.ldr",
@@ -816,7 +816,7 @@
             "refNumber": "0404",
             "fileTitle": "Untitled",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "oficiales/Basico_0404_Casa.ldr": {
             "path": "oficiales/Basico_0404_Casa.ldr",
@@ -826,7 +826,7 @@
             "refNumber": "0404",
             "fileTitle": "Untitled",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "oficiales/Basico_0404_Casa_con_Balcon.ldr": {
             "path": "oficiales/Basico_0404_Casa_con_Balcon.ldr",
@@ -836,7 +836,7 @@
             "refNumber": "0404",
             "fileTitle": "Untitled",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "oficiales/Basico_0404_Casa_con_Torre.ldr": {
             "path": "oficiales/Basico_0404_Casa_con_Torre.ldr",
@@ -846,7 +846,7 @@
             "refNumber": "0404",
             "fileTitle": "Untitled",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "oficiales/Basico_0404_Casita_con_Garaje.ldr": {
             "path": "oficiales/Basico_0404_Casita_con_Garaje.ldr",
@@ -856,7 +856,7 @@
             "refNumber": "0404",
             "fileTitle": "Untitled",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "oficiales/Basico_0404_Chinos.ldr": {
             "path": "oficiales/Basico_0404_Chinos.ldr",
@@ -866,7 +866,7 @@
             "refNumber": "0404",
             "fileTitle": "Untitled",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "oficiales/Basico_0404_Ciguena.ldr": {
             "path": "oficiales/Basico_0404_Ciguena.ldr",
@@ -876,7 +876,7 @@
             "refNumber": "0404",
             "fileTitle": "Untitled",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "oficiales/Basico_0404_Cuartel_de_Bomberos.ldr": {
             "path": "oficiales/Basico_0404_Cuartel_de_Bomberos.ldr",
@@ -886,7 +886,7 @@
             "refNumber": "0404",
             "fileTitle": "Untitled",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "oficiales/Basico_0404_Depositos_y_Camion_Cemento.ldr": {
             "path": "oficiales/Basico_0404_Depositos_y_Camion_Cemento.ldr",
@@ -896,7 +896,7 @@
             "refNumber": "0404",
             "fileTitle": "Untitled",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "oficiales/Basico_0404_Esquiador_y_Trineo.ldr": {
             "path": "oficiales/Basico_0404_Esquiador_y_Trineo.ldr",
@@ -906,7 +906,7 @@
             "refNumber": "0404",
             "fileTitle": "Untitled",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "oficiales/Basico_0404_Faro_y_Velero.ldr": {
             "path": "oficiales/Basico_0404_Faro_y_Velero.ldr",
@@ -916,7 +916,7 @@
             "refNumber": "0404",
             "fileTitle": "Untitled",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "oficiales/Basico_0404_Gallinero.ldr": {
             "path": "oficiales/Basico_0404_Gallinero.ldr",
@@ -926,7 +926,7 @@
             "refNumber": "0404",
             "fileTitle": "Untitled",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "oficiales/Basico_0404_Granja.ldr": {
             "path": "oficiales/Basico_0404_Granja.ldr",
@@ -936,7 +936,7 @@
             "refNumber": "0404",
             "fileTitle": "Untitled",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "oficiales/Basico_0404_GruaPuente_Camion_y_Containers.ldr": {
             "path": "oficiales/Basico_0404_GruaPuente_Camion_y_Containers.ldr",
@@ -946,7 +946,7 @@
             "refNumber": "0404",
             "fileTitle": "Untitled",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "oficiales/Basico_0404_Hangar_y_Avionetas.ldr": {
             "path": "oficiales/Basico_0404_Hangar_y_Avionetas.ldr",
@@ -956,7 +956,7 @@
             "refNumber": "0404",
             "fileTitle": "Untitled",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "oficiales/Basico_0404_Payaso.ldr": {
             "path": "oficiales/Basico_0404_Payaso.ldr",
@@ -966,7 +966,7 @@
             "refNumber": "0404",
             "fileTitle": "Untitled",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "oficiales/Basico_0404_Piragua_India_y_Dragon.ldr": {
             "path": "oficiales/Basico_0404_Piragua_India_y_Dragon.ldr",
@@ -976,7 +976,7 @@
             "refNumber": "0404",
             "fileTitle": "Untitled",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "oficiales/Basico_0404_Soldado.ldr": {
             "path": "oficiales/Basico_0404_Soldado.ldr",
@@ -986,7 +986,7 @@
             "refNumber": "0404",
             "fileTitle": "Untitled",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "oficiales/Basico_0404_Tren_y_Estacion.ldr": {
             "path": "oficiales/Basico_0404_Tren_y_Estacion.ldr",
@@ -996,7 +996,7 @@
             "refNumber": "0404",
             "fileTitle": "Untitled",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "oficiales/Combi_Astro_0305_308.ldr": {
             "path": "oficiales/Combi_Astro_0305_308.ldr",
@@ -1016,7 +1016,7 @@
             "refNumber": "0305",
             "fileTitle": "Sin_nombre",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "oficiales/Combi_Astro_0306_0307.ldr": {
             "path": "oficiales/Combi_Astro_0306_0307.ldr",
@@ -1046,7 +1046,7 @@
             "refNumber": "0307",
             "fileTitle": "Sin_nombre",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "oficiales/Combi_Astro_0308_Perforador_Ultrasonico.ldr": {
             "path": "oficiales/Combi_Astro_0308_Perforador_Ultrasonico.ldr",
@@ -1056,7 +1056,7 @@
             "refNumber": "0308",
             "fileTitle": "Untitle",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "oficiales/Combi_Astro_0340_Lector_Geologico.ldr": {
             "path": "oficiales/Combi_Astro_0340_Lector_Geologico.ldr",
@@ -1066,7 +1066,7 @@
             "refNumber": "0340",
             "fileTitle": "Untitled",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "oficiales/Combi_Mar_0301.ldr": {
             "path": "oficiales/Combi_Mar_0301.ldr",
@@ -1076,7 +1076,7 @@
             "refNumber": "0301",
             "fileTitle": "Sin_nombre",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "oficiales/Combi_Mar_0302.ldr": {
             "path": "oficiales/Combi_Mar_0302.ldr",
@@ -1086,7 +1086,7 @@
             "refNumber": "0302",
             "fileTitle": "Sin_nombre",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "oficiales/Combi_Mar_0303_Buque_Hospital.ldr": {
             "path": "oficiales/Combi_Mar_0303_Buque_Hospital.ldr",
@@ -1096,7 +1096,7 @@
             "refNumber": "0303",
             "fileTitle": "Untitled",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "oficiales/Combi_Mar_0304_Butanero.ldr": {
             "path": "oficiales/Combi_Mar_0304_Butanero.ldr",
@@ -1106,7 +1106,7 @@
             "refNumber": "0304",
             "fileTitle": "Untitled",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "oficiales/Combi_Mar_0311_Portacontainers.ldr": {
             "path": "oficiales/Combi_Mar_0311_Portacontainers.ldr",
@@ -1126,7 +1126,7 @@
             "refNumber": "0312",
             "fileTitle": "Untitled",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "oficiales/Combi_Mar_0313_Buque_de_Enlace.ldr": {
             "path": "oficiales/Combi_Mar_0313_Buque_de_Enlace.ldr",
@@ -1146,7 +1146,7 @@
             "refNumber": "0314",
             "fileTitle": "Untitled",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "oficiales/Combi_Mar_0333_corfu.ldr": {
             "path": "oficiales/Combi_Mar_0333_corfu.ldr",
@@ -1175,7 +1175,7 @@
             "refNumber": "0343",
             "fileTitle": "Untitled",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "oficiales/Compact_0344_Extinthor.ldr": {
             "path": "oficiales/Compact_0344_Extinthor.ldr",
@@ -1185,7 +1185,7 @@
             "refNumber": "0344",
             "fileTitle": "Untitled",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "oficiales/Compact_0345_Space_Patrol.ldr": {
             "path": "oficiales/Compact_0345_Space_Patrol.ldr",
@@ -1195,7 +1195,7 @@
             "refNumber": "0345",
             "fileTitle": "Untitled",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "oficiales/Compact_0346_Vigilantic.ldr": {
             "path": "oficiales/Compact_0346_Vigilantic.ldr",
@@ -1215,7 +1215,7 @@
             "refNumber": "0347",
             "fileTitle": "Untitled",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "oficiales/Compact_0348_Bipstar.ldr": {
             "path": "oficiales/Compact_0348_Bipstar.ldr",
@@ -1225,7 +1225,7 @@
             "refNumber": "0348",
             "fileTitle": "Untitled",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "oficiales/Compact_0349_Robby.ldr": {
             "path": "oficiales/Compact_0349_Robby.ldr",
@@ -1235,7 +1235,7 @@
             "refNumber": "0349",
             "fileTitle": "Untitled",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "oficiales/Compact_0350_Scooper.ldr": {
             "path": "oficiales/Compact_0350_Scooper.ldr",
@@ -1254,7 +1254,7 @@
             "refNumber": "0351",
             "fileTitle": "Untitled",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "oficiales/Compact_0352_Karpan.ldr": {
             "path": "oficiales/Compact_0352_Karpan.ldr",
@@ -1264,7 +1264,7 @@
             "refNumber": "0352",
             "fileTitle": "Untitled",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "oficiales/Compact_0353_Condor.ldr": {
             "path": "oficiales/Compact_0353_Condor.ldr",
@@ -1274,7 +1274,7 @@
             "refNumber": "0353",
             "fileTitle": "Untitled",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "oficiales/Cosmic_0435_Scutty.ldr": {
             "path": "oficiales/Cosmic_0435_Scutty.ldr",
@@ -1284,7 +1284,7 @@
             "refNumber": "0435",
             "fileTitle": "Scutty",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "oficiales/Cosmic_0442_Turbocuter.ldr": {
             "path": "oficiales/Cosmic_0442_Turbocuter.ldr",
@@ -1294,7 +1294,7 @@
             "refNumber": "0442",
             "fileTitle": "Untitled",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "oficiales/Cosmic_0445_Base_Odysseus.ldr": {
             "path": "oficiales/Cosmic_0445_Base_Odysseus.ldr",
@@ -1313,7 +1313,7 @@
             "refNumber": "0557",
             "fileTitle": "Untitled",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "oficiales/Cosmic_0557_Base_Espacial_Andromeda.ldr": {
             "path": "oficiales/Cosmic_0557_Base_Espacial_Andromeda.ldr",
@@ -1333,7 +1333,7 @@
             "refNumber": "0557",
             "fileTitle": "Untitled",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "oficiales/Cosmic_0557_Turbo_Inyector.ldr": {
             "path": "oficiales/Cosmic_0557_Turbo_Inyector.ldr",
@@ -1353,7 +1353,7 @@
             "refNumber": "70001",
             "fileTitle": "Untitled",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "oficiales/Iniciacion_0351_Casa.ldr": {
             "path": "oficiales/Iniciacion_0351_Casa.ldr",
@@ -1363,7 +1363,7 @@
             "refNumber": "0351",
             "fileTitle": "Untitled",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "oficiales/Iniciacion_0351_Columpio.ldr": {
             "path": "oficiales/Iniciacion_0351_Columpio.ldr",
@@ -1373,7 +1373,7 @@
             "refNumber": "0351",
             "fileTitle": "Untitled",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "oficiales/Iniciacion_0351_Faro.ldr": {
             "path": "oficiales/Iniciacion_0351_Faro.ldr",
@@ -1383,7 +1383,7 @@
             "refNumber": "0351",
             "fileTitle": "Untitled",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "oficiales/Iniciacion_0352_Avion.ldr": {
             "path": "oficiales/Iniciacion_0352_Avion.ldr",
@@ -1393,7 +1393,7 @@
             "refNumber": "0352",
             "fileTitle": "Untitled",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "oficiales/Iniciacion_0352_Casa.ldr": {
             "path": "oficiales/Iniciacion_0352_Casa.ldr",
@@ -1403,7 +1403,7 @@
             "refNumber": "0352",
             "fileTitle": "Untitled",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "oficiales/Iniciacion_0352_Pez.ldr": {
             "path": "oficiales/Iniciacion_0352_Pez.ldr",
@@ -1413,7 +1413,7 @@
             "refNumber": "0352",
             "fileTitle": "Untitled",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "oficiales/Iniciacion_0352_Tren.ldr": {
             "path": "oficiales/Iniciacion_0352_Tren.ldr",
@@ -1423,7 +1423,7 @@
             "refNumber": "0352",
             "fileTitle": "Untitled",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "oficiales/Mar_0540_Barco_Seguimiento_Satelites.ldr": {
             "path": "oficiales/Mar_0540_Barco_Seguimiento_Satelites.ldr",
@@ -1433,7 +1433,7 @@
             "refNumber": "0540",
             "fileTitle": "Untitled",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "oficiales/Mar_0540_Buque_Hospital.ldr": {
             "path": "oficiales/Mar_0540_Buque_Hospital.ldr",
@@ -1443,7 +1443,7 @@
             "refNumber": "0540",
             "fileTitle": "Untitled",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "oficiales/Mar_0540_Carguero_Frigorifico.ldr": {
             "path": "oficiales/Mar_0540_Carguero_Frigorifico.ldr",
@@ -1453,7 +1453,7 @@
             "refNumber": "0540",
             "fileTitle": "Untitled",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "oficiales/Mar_0540_Rompehielos.ldr": {
             "path": "oficiales/Mar_0540_Rompehielos.ldr",
@@ -1463,7 +1463,7 @@
             "refNumber": "0540",
             "fileTitle": "Untitled",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "oficiales/Mar_0541_Acorazado_2a_Guerra_Mundial.ldr": {
             "path": "oficiales/Mar_0541_Acorazado_2a_Guerra_Mundial.ldr",
@@ -1473,7 +1473,7 @@
             "refNumber": "0541",
             "fileTitle": "Untitled",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "oficiales/Mar_0541_Carguero_de_Escolta.ldr": {
             "path": "oficiales/Mar_0541_Carguero_de_Escolta.ldr",
@@ -1483,7 +1483,7 @@
             "refNumber": "0541",
             "fileTitle": "Untitled",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "oficiales/Mar_0541_Crucero_Nuclear.ldr": {
             "path": "oficiales/Mar_0541_Crucero_Nuclear.ldr",
@@ -1493,7 +1493,7 @@
             "refNumber": "0541",
             "fileTitle": "Untitled",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "oficiales/Mar_0541_Portahelicopteros_Ligero.ldr": {
             "path": "oficiales/Mar_0541_Portahelicopteros_Ligero.ldr",
@@ -1503,7 +1503,7 @@
             "refNumber": "0541",
             "fileTitle": "Untitled",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "oficiales/Mar_0550_Barco_Paseo.ldr": {
             "path": "oficiales/Mar_0550_Barco_Paseo.ldr",
@@ -1533,7 +1533,7 @@
             "refNumber": "0550",
             "fileTitle": "Sin_nombre",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "oficiales/Mar_0550_Vapor_Transatlantico_Caribe.ldr": {
             "path": "oficiales/Mar_0550_Vapor_Transatlantico_Caribe.ldr",
@@ -1543,7 +1543,7 @@
             "refNumber": "0550",
             "fileTitle": "Sin_nombre",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "oficiales/Mar_0550_Yate_Mallorca.ldr": {
             "path": "oficiales/Mar_0550_Yate_Mallorca.ldr",
@@ -1573,7 +1573,7 @@
             "refNumber": "0551",
             "fileTitle": "Untitled",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "oficiales/Mar_0551_Crucero_1GM.ldr": {
             "path": "oficiales/Mar_0551_Crucero_1GM.ldr",
@@ -1583,7 +1583,7 @@
             "refNumber": "0551",
             "fileTitle": "Untitled",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "oficiales/Mar_0551_Destructor_Lanzamisiles.ldr": {
             "path": "oficiales/Mar_0551_Destructor_Lanzamisiles.ldr",
@@ -1593,7 +1593,7 @@
             "refNumber": "0551",
             "fileTitle": "Untitled",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "oficiales/Mar_0551_Lancha_Torpedera.ldr": {
             "path": "oficiales/Mar_0551_Lancha_Torpedera.ldr",
@@ -1603,7 +1603,7 @@
             "refNumber": "0551",
             "fileTitle": "Untitled",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "oficiales/Mar_0551_Patrullero.ldr": {
             "path": "oficiales/Mar_0551_Patrullero.ldr",
@@ -1613,7 +1613,7 @@
             "refNumber": "0551",
             "fileTitle": "Untitled",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "oficiales/Mar_0551_Petrolero_de_Flota.ldr": {
             "path": "oficiales/Mar_0551_Petrolero_de_Flota.ldr",
@@ -1623,7 +1623,7 @@
             "refNumber": "0551",
             "fileTitle": "Untitled",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "oficiales/Mar_0551_Porta_Helicopteros_Halcon.ldr": {
             "path": "oficiales/Mar_0551_Porta_Helicopteros_Halcon.ldr",
@@ -1633,7 +1633,7 @@
             "refNumber": "0551",
             "fileTitle": "Untitled",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "oficiales/Mar_0551_Transporte_de_Ataque.ldr": {
             "path": "oficiales/Mar_0551_Transporte_de_Ataque.ldr",
@@ -1643,7 +1643,7 @@
             "refNumber": "0551",
             "fileTitle": "Untitled",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "oficiales/Mar_0560_Yellow_Sub_15.ldr": {
             "path": "oficiales/Mar_0560_Yellow_Sub_15.ldr",
@@ -1653,7 +1653,7 @@
             "refNumber": "0560",
             "fileTitle": "Untitled",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "oficiales/Mar_0560_Yellow_Sub_17.ldr": {
             "path": "oficiales/Mar_0560_Yellow_Sub_17.ldr",
@@ -1663,7 +1663,7 @@
             "refNumber": "0560",
             "fileTitle": "Untitled",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "oficiales/Mar_0600_Dragaminas.ldr": {
             "path": "oficiales/Mar_0600_Dragaminas.ldr",
@@ -1683,7 +1683,7 @@
             "refNumber": "0601",
             "fileTitle": "Untitled",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "oficiales/Mar_0602_Barco_Faro.ldr": {
             "path": "oficiales/Mar_0602_Barco_Faro.ldr",
@@ -1693,7 +1693,7 @@
             "refNumber": "0602",
             "fileTitle": "Untitled",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "oficiales/Mar_0603_Buque_Contraincendios.ldr": {
             "path": "oficiales/Mar_0603_Buque_Contraincendios.ldr",
@@ -1723,7 +1723,7 @@
             "refNumber": "0610",
             "fileTitle": "Untitled",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "oficiales/Mar_0611_Metanero.ldr": {
             "path": "oficiales/Mar_0611_Metanero.ldr",
@@ -1733,7 +1733,7 @@
             "refNumber": "0611",
             "fileTitle": "Untitled",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "oficiales/Mar_0612_Carguero.ldr": {
             "path": "oficiales/Mar_0612_Carguero.ldr",
@@ -1763,7 +1763,7 @@
             "refNumber": "0614",
             "fileTitle": "Ferry",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "oficiales/Mar_0615_Fragata_Lanzamisiles.ldr": {
             "path": "oficiales/Mar_0615_Fragata_Lanzamisiles.ldr",
@@ -1773,7 +1773,7 @@
             "refNumber": "0615",
             "fileTitle": "Sin_nombre",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "oficiales/Mar_0617_Buque_Desembarco.ldr": {
             "path": "oficiales/Mar_0617_Buque_Desembarco.ldr",
@@ -1783,7 +1783,7 @@
             "refNumber": "0617",
             "fileTitle": "Untitled",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "oficiales/Mar_0618_Guardacostas.ldr": {
             "path": "oficiales/Mar_0618_Guardacostas.ldr",
@@ -1913,7 +1913,7 @@
             "refNumber": "0646",
             "fileTitle": "Mar 0646 - Stingdrake",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "oficiales/Mar_0647_Nemmor.ldr": {
             "path": "oficiales/Mar_0647_Nemmor.ldr",
@@ -1923,7 +1923,7 @@
             "refNumber": "0647",
             "fileTitle": "Untitled",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "oficiales/Mar_0700_Mercante_Mixto.ldr": {
             "path": "oficiales/Mar_0700_Mercante_Mixto.ldr",
@@ -1953,7 +1953,7 @@
             "refNumber": "0702",
             "fileTitle": "Untitled",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "oficiales/Mar_0703_Fragata_Lanzamisiles_y_Base_Naval.ldr": {
             "path": "oficiales/Mar_0703_Fragata_Lanzamisiles_y_Base_Naval.ldr",
@@ -1963,7 +1963,7 @@
             "refNumber": "0703",
             "fileTitle": "Untitled",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "oficiales/Mar_0704_Portaaviones_Tactico_Coronado.ldr": {
             "path": "oficiales/Mar_0704_Portaaviones_Tactico_Coronado.ldr",
@@ -1973,7 +1973,7 @@
             "refNumber": "0704",
             "fileTitle": "Sin_nombre",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "oficiales/Mar_0705_Cargo_Shuttle.ldr": {
             "path": "oficiales/Mar_0705_Cargo_Shuttle.ldr",
@@ -1993,7 +1993,7 @@
             "refNumber": "TS45",
             "fileTitle": "Nomura_sunshine2.ldr",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "oficiales/Mini_501_Chalet.ldr": {
             "path": "oficiales/Mini_501_Chalet.ldr",
@@ -2012,7 +2012,7 @@
             "refNumber": "501",
             "fileTitle": "Untitled",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "oficiales/Mini_502_Peaje_Autopista.ldr": {
             "path": "oficiales/Mini_502_Peaje_Autopista.ldr",
@@ -2022,7 +2022,7 @@
             "refNumber": "502",
             "fileTitle": "Untitled",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "oficiales/Mini_503_Bungalow.ldr": {
             "path": "oficiales/Mini_503_Bungalow.ldr",
@@ -2042,7 +2042,7 @@
             "refNumber": "507",
             "fileTitle": "Sin_nombre",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "oficiales/Mini_508_Kiosko_Refrescos.ldr": {
             "path": "oficiales/Mini_508_Kiosko_Refrescos.ldr",
@@ -2062,7 +2062,7 @@
             "refNumber": "510",
             "fileTitle": "Sin_nombre",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "oficiales/Oceanis_0649_Carguero_Colosus.ldr": {
             "path": "oficiales/Oceanis_0649_Carguero_Colosus.ldr",
@@ -2082,7 +2082,7 @@
             "refNumber": "0657",
             "fileTitle": "Mar 0657 patrullera",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "oficiales/Oceanis_0658_Oceanografico_Meteor.ldr": {
             "path": "oficiales/Oceanis_0658_Oceanografico_Meteor.ldr",
@@ -2102,7 +2102,7 @@
             "refNumber": "0659",
             "fileTitle": "Untitled",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "oficiales/Pocket_0315_Eslator.ldr": {
             "path": "oficiales/Pocket_0315_Eslator.ldr",
@@ -2112,7 +2112,7 @@
             "refNumber": "0315",
             "fileTitle": "Untitled",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "oficiales/Roblock_0761_Frogster.ldr": {
             "path": "oficiales/Roblock_0761_Frogster.ldr",
@@ -2122,7 +2122,7 @@
             "refNumber": "0761",
             "fileTitle": "Untitled",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "oficiales/Roblock_0762_DarkWarrior.ldr": {
             "path": "oficiales/Roblock_0762_DarkWarrior.ldr",
@@ -2132,7 +2132,7 @@
             "refNumber": "0762",
             "fileTitle": "Untitled",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "oficiales/Roblock_0780_Helitron.ldr": {
             "path": "oficiales/Roblock_0780_Helitron.ldr",
@@ -2142,7 +2142,7 @@
             "refNumber": "0780",
             "fileTitle": "Untitled",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "oficiales/Roblock_0782_Hercules.ldr": {
             "path": "oficiales/Roblock_0782_Hercules.ldr",
@@ -2152,7 +2152,7 @@
             "refNumber": "0782",
             "fileTitle": "Untitled",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "oficiales/Roblock_0783_Fenixter.ldr": {
             "path": "oficiales/Roblock_0783_Fenixter.ldr",
@@ -2162,7 +2162,7 @@
             "refNumber": "0783",
             "fileTitle": "Untitled",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "oficiales/Roblock_0788_Robosaurius.ldr": {
             "path": "oficiales/Roblock_0788_Robosaurius.ldr",
@@ -2172,7 +2172,7 @@
             "refNumber": "0788",
             "fileTitle": "Untitled",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "oficiales/Roblock_0790_Persus.ldr": {
             "path": "oficiales/Roblock_0790_Persus.ldr",
@@ -2182,7 +2182,7 @@
             "refNumber": "0790",
             "fileTitle": "Untitled",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "oficiales/Roblock_0791_Thor.ldr": {
             "path": "oficiales/Roblock_0791_Thor.ldr",
@@ -2232,7 +2232,7 @@
             "refNumber": "0797",
             "fileTitle": "Untitled",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "oficiales/Roblock_0798_Krator.ldr": {
             "path": "oficiales/Roblock_0798_Krator.ldr",
@@ -2242,7 +2242,7 @@
             "refNumber": "0798",
             "fileTitle": "ROBLOCK_0798_KRATOR",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "oficiales/Roblock_0798_Krator_Transf.ldr": {
             "path": "oficiales/Roblock_0798_Krator_Transf.ldr",
@@ -2252,7 +2252,7 @@
             "refNumber": "0798",
             "fileTitle": "ROBLOCK_0798_KRATOR",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "oficiales/Ruta2_70046_Airport_Service.ldr": {
             "path": "oficiales/Ruta2_70046_Airport_Service.ldr",
@@ -2262,7 +2262,7 @@
             "refNumber": "70046",
             "fileTitle": "70037 Airport Service",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "oficiales/Ruta_0553_Camion_Autopista.ldr": {
             "path": "oficiales/Ruta_0553_Camion_Autopista.ldr",
@@ -2362,7 +2362,7 @@
             "refNumber": "0553",
             "fileTitle": "Sin_nombre",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "oficiales/Ruta_0553_Formula_1_ELF.ldr": {
             "path": "oficiales/Ruta_0553_Formula_1_ELF.ldr",
@@ -2402,7 +2402,7 @@
             "refNumber": "0553",
             "fileTitle": "Sin_nombre",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "oficiales/Ruta_0553_Limpiapistas.ldr": {
             "path": "oficiales/Ruta_0553_Limpiapistas.ldr",
@@ -2412,7 +2412,7 @@
             "refNumber": "0553",
             "fileTitle": "Limpiapistas",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "oficiales/Ruta_0553_Multiruedas.ldr": {
             "path": "oficiales/Ruta_0553_Multiruedas.ldr",
@@ -2442,7 +2442,7 @@
             "refNumber": "0553",
             "fileTitle": "Sin_nombre",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "oficiales/Ruta_0553_Torre_Control_Aeropuerto.ldr": {
             "path": "oficiales/Ruta_0553_Torre_Control_Aeropuerto.ldr",
@@ -2492,7 +2492,7 @@
             "refNumber": "0553",
             "fileTitle": "Sin_nombre",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "oficiales/Ruta_0553_Transporte_Especial_Carga.ldr": {
             "path": "oficiales/Ruta_0553_Transporte_Especial_Carga.ldr",
@@ -2750,7 +2750,7 @@
             "refNumber": "TC202",
             "fileTitle": "Untitled",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "oficiales/Ruta_JPN_TC202_Container_Truck_Alter1.ldr": {
             "path": "oficiales/Ruta_JPN_TC202_Container_Truck_Alter1.ldr",
@@ -2760,7 +2760,7 @@
             "refNumber": "TC202",
             "fileTitle": "Untitled",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "oficiales/Ruta_JPN_TC202_Container_Truck_Alter2.ldr": {
             "path": "oficiales/Ruta_JPN_TC202_Container_Truck_Alter2.ldr",
@@ -2770,7 +2770,7 @@
             "refNumber": "TC202",
             "fileTitle": "Cami�n New York Express",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "oficiales/Ruta_JPN_TC203_London_Bus.ldr": {
             "path": "oficiales/Ruta_JPN_TC203_London_Bus.ldr",
@@ -2780,7 +2780,7 @@
             "refNumber": "TC203",
             "fileTitle": "Untitled",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "oficiales/Ruta_JPN_TC206_Hato_Bus.ldr": {
             "path": "oficiales/Ruta_JPN_TC206_Hato_Bus.ldr",
@@ -2810,7 +2810,7 @@
             "refNumber": "TC210",
             "fileTitle": "Untitled",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "oficiales/Ruta_USA_210_Rainbow_Van.ldr": {
             "path": "oficiales/Ruta_USA_210_Rainbow_Van.ldr",
@@ -2820,7 +2820,7 @@
             "refNumber": "210",
             "fileTitle": "Sin_nombre",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "oficiales/Ruta_USA_212_Ranger_Pick_Up.ldr": {
             "path": "oficiales/Ruta_USA_212_Ranger_Pick_Up.ldr",
@@ -2870,7 +2870,7 @@
             "refNumber": "250",
             "fileTitle": "Untitled",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "oficiales/Ruta_USA_260_Dump_Truck.ldr": {
             "path": "oficiales/Ruta_USA_260_Dump_Truck.ldr",
@@ -2929,7 +2929,7 @@
             "refNumber": "0543",
             "fileTitle": "Untitled",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "oficiales/Scorpion_0543_Misil_Autotransportado.ldr": {
             "path": "oficiales/Scorpion_0543_Misil_Autotransportado.ldr",
@@ -2939,7 +2939,7 @@
             "refNumber": "0543",
             "fileTitle": "Untitled",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "oficiales/Scorpion_0543_Transporte_Blindado.ldr": {
             "path": "oficiales/Scorpion_0543_Transporte_Blindado.ldr",
@@ -2949,7 +2949,7 @@
             "refNumber": "0543",
             "fileTitle": "Untitled",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "oficiales/Scorpion_0750_Tanque.ldr": {
             "path": "oficiales/Scorpion_0750_Tanque.ldr",
@@ -2959,7 +2959,7 @@
             "refNumber": "0750",
             "fileTitle": "Untitled",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "oficiales/Scorpion_0751_Transporte_Anfibio.ldr": {
             "path": "oficiales/Scorpion_0751_Transporte_Anfibio.ldr",
@@ -2969,7 +2969,7 @@
             "refNumber": "0751",
             "fileTitle": "Sin_nombre",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "oficiales/Scorpion_0752_Semioruga.ldr": {
             "path": "oficiales/Scorpion_0752_Semioruga.ldr",
@@ -2979,7 +2979,7 @@
             "refNumber": "0752",
             "fileTitle": "Untitled",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "oficiales/Scorpion_0755_Ambulancia_de_Campana.ldr": {
             "path": "oficiales/Scorpion_0755_Ambulancia_de_Campana.ldr",
@@ -2999,7 +2999,7 @@
             "refNumber": "410",
             "fileTitle": "Untitled",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "oficiales/Serie400_410_Ermita.ldr": {
             "path": "oficiales/Serie400_410_Ermita.ldr",
@@ -3009,7 +3009,7 @@
             "refNumber": "410",
             "fileTitle": "Untitled",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "oficiales/Serie400_410_Gasolinera.ldr": {
             "path": "oficiales/Serie400_410_Gasolinera.ldr",
@@ -3019,7 +3019,7 @@
             "refNumber": "410",
             "fileTitle": "Untitled",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "oficiales/Serie400_410_Perro_Robot.ldr": {
             "path": "oficiales/Serie400_410_Perro_Robot.ldr",
@@ -3029,7 +3029,7 @@
             "refNumber": "410",
             "fileTitle": "Untitled",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "oficiales/Serie400_410_Torero.ldr": {
             "path": "oficiales/Serie400_410_Torero.ldr",
@@ -3039,7 +3039,7 @@
             "refNumber": "410",
             "fileTitle": "Untitled",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "oficiales/Serie400_410_Torre_Control.ldr": {
             "path": "oficiales/Serie400_410_Torre_Control.ldr",
@@ -3049,7 +3049,7 @@
             "refNumber": "410",
             "fileTitle": "Untitled",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "oficiales/Serie400_410_Torre_Veraneo.ldr": {
             "path": "oficiales/Serie400_410_Torre_Veraneo.ldr",
@@ -3059,7 +3059,7 @@
             "refNumber": "410",
             "fileTitle": "Untitled",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "oficiales/Serie400_420_Estacion_Servicio.ldr": {
             "path": "oficiales/Serie400_420_Estacion_Servicio.ldr",
@@ -3069,7 +3069,7 @@
             "refNumber": "420",
             "fileTitle": "Untitled",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "oficiales/Serie400_430_Ballena.ldr": {
             "path": "oficiales/Serie400_430_Ballena.ldr",
@@ -3079,7 +3079,7 @@
             "refNumber": "430",
             "fileTitle": "Untitled",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "oficiales/Serie400_430_Chalet_2_Tejados.ldr": {
             "path": "oficiales/Serie400_430_Chalet_2_Tejados.ldr",
@@ -3089,7 +3089,7 @@
             "refNumber": "430",
             "fileTitle": "Untitled",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "oficiales/Serie400_430_Club_Nautico.ldr": {
             "path": "oficiales/Serie400_430_Club_Nautico.ldr",
@@ -3099,7 +3099,7 @@
             "refNumber": "430",
             "fileTitle": "Untitled",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "oficiales/Serie400_430_Construccion_Singular.ldr": {
             "path": "oficiales/Serie400_430_Construccion_Singular.ldr",
@@ -3109,7 +3109,7 @@
             "refNumber": "430",
             "fileTitle": "Untitled",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "oficiales/Serie400_430_Indio.ldr": {
             "path": "oficiales/Serie400_430_Indio.ldr",
@@ -3119,7 +3119,7 @@
             "refNumber": "430",
             "fileTitle": "Untitled",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "oficiales/Serie400_430_Parador_de_la_Sierra.ldr": {
             "path": "oficiales/Serie400_430_Parador_de_la_Sierra.ldr",
@@ -3129,7 +3129,7 @@
             "refNumber": "430",
             "fileTitle": "Untitled",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "oficiales/Serie400_430_Zona_Comercial.ldr": {
             "path": "oficiales/Serie400_430_Zona_Comercial.ldr",
@@ -3139,7 +3139,7 @@
             "refNumber": "430",
             "fileTitle": "Untitled",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "oficiales/Titanium_0452_Astronauta_Expolion.ldr": {
             "path": "oficiales/Titanium_0452_Astronauta_Expolion.ldr",
@@ -3149,7 +3149,7 @@
             "refNumber": "0452",
             "fileTitle": "Untitled",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "oficiales/Titanium_0452_Expolion.ldr": {
             "path": "oficiales/Titanium_0452_Expolion.ldr",
@@ -3169,7 +3169,7 @@
             "refNumber": "70021",
             "fileTitle": "Sin_nombre",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "inventados/cpcbegin/amstrad_cpc464.ldr": {
             "path": "inventados/cpcbegin/amstrad_cpc464.ldr",
@@ -3179,7 +3179,7 @@
             "refNumber": "",
             "fileTitle": "Untitled",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "inventados/cpcbegin/aparcamiento.ldr": {
             "path": "inventados/cpcbegin/aparcamiento.ldr",
@@ -3209,7 +3209,7 @@
             "refNumber": "",
             "fileTitle": "Autolavado",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "inventados/cpcbegin/autolavado_vacio.ldr": {
             "path": "inventados/cpcbegin/autolavado_vacio.ldr",
@@ -3219,7 +3219,7 @@
             "refNumber": "",
             "fileTitle": "Autolavado",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "inventados/cpcbegin/bannertente.ldr": {
             "path": "inventados/cpcbegin/bannertente.ldr",
@@ -3229,7 +3229,7 @@
             "refNumber": "",
             "fileTitle": "Sin_nombre",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "inventados/cpcbegin/barco_turistico_bahia_malaga.ldr": {
             "path": "inventados/cpcbegin/barco_turistico_bahia_malaga.ldr",
@@ -3239,7 +3239,7 @@
             "refNumber": "",
             "fileTitle": "Untitled",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "inventados/cpcbegin/bocametro.ldr": {
             "path": "inventados/cpcbegin/bocametro.ldr",
@@ -3269,7 +3269,7 @@
             "refNumber": "",
             "fileTitle": "Untitled",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "inventados/cpcbegin/cabinatelefonos.ldr": {
             "path": "inventados/cpcbegin/cabinatelefonos.ldr",
@@ -3289,7 +3289,7 @@
             "refNumber": "",
             "fileTitle": "Untitled",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "inventados/cpcbegin/cajonera/cajonera_4c.ldr": {
             "path": "inventados/cpcbegin/cajonera/cajonera_4c.ldr",
@@ -3317,7 +3317,7 @@
             "refNumber": "",
             "fileTitle": "Castillito n�.1 - 3D",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "inventados/cpcbegin/circulo.ldr": {
             "path": "inventados/cpcbegin/circulo.ldr",
@@ -3327,7 +3327,7 @@
             "refNumber": "",
             "fileTitle": "Sin_nombre",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "inventados/cpcbegin/coche_nasa_marte_xxi.ldr": {
             "path": "inventados/cpcbegin/coche_nasa_marte_xxi.ldr",
@@ -3337,7 +3337,7 @@
             "refNumber": "",
             "fileTitle": "Untitled",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "inventados/cpcbegin/cohete_tintin.ldr": {
             "path": "inventados/cpcbegin/cohete_tintin.ldr",
@@ -3347,7 +3347,7 @@
             "refNumber": "",
             "fileTitle": "Untitled",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "inventados/cpcbegin/damas.ldr": {
             "path": "inventados/cpcbegin/damas.ldr",
@@ -3357,7 +3357,7 @@
             "refNumber": "",
             "fileTitle": "Untitled",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "inventados/cpcbegin/donut.ldr": {
             "path": "inventados/cpcbegin/donut.ldr",
@@ -3367,7 +3367,7 @@
             "refNumber": "",
             "fileTitle": "Untitled",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "inventados/cpcbegin/duplexcosta.ldr": {
             "path": "inventados/cpcbegin/duplexcosta.ldr",
@@ -3397,7 +3397,7 @@
             "refNumber": "",
             "fileTitle": "Untitled",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "inventados/cpcbegin/enterradores_meme.ldr": {
             "path": "inventados/cpcbegin/enterradores_meme.ldr",
@@ -3407,7 +3407,7 @@
             "refNumber": "",
             "fileTitle": "Untitled",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "inventados/cpcbegin/entrada_puerto_malaga_full.ldr": {
             "path": "inventados/cpcbegin/entrada_puerto_malaga_full.ldr",
@@ -3417,7 +3417,7 @@
             "refNumber": "",
             "fileTitle": "Untitled",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "inventados/cpcbegin/esperanza-torre.ldr": {
             "path": "inventados/cpcbegin/esperanza-torre.ldr",
@@ -3427,7 +3427,7 @@
             "refNumber": "",
             "fileTitle": "Sin_nombre",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "inventados/cpcbegin/estacion_feve_malaga.ldr": {
             "path": "inventados/cpcbegin/estacion_feve_malaga.ldr",
@@ -3437,7 +3437,7 @@
             "refNumber": "",
             "fileTitle": "Untitled",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "inventados/cpcbegin/estacionmeteorologica.ldr": {
             "path": "inventados/cpcbegin/estacionmeteorologica.ldr",
@@ -3447,7 +3447,7 @@
             "refNumber": "",
             "fileTitle": "Estacion meteorologica (paseo maritimo, Malaga)",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "inventados/cpcbegin/etch.ldr": {
             "path": "inventados/cpcbegin/etch.ldr",
@@ -3457,7 +3457,7 @@
             "refNumber": "",
             "fileTitle": "Untitled",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "inventados/cpcbegin/exinubuntu.ldr": {
             "path": "inventados/cpcbegin/exinubuntu.ldr",
@@ -3467,7 +3467,7 @@
             "refNumber": "",
             "fileTitle": "Sin_nombre",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "inventados/cpcbegin/foodtruck.ldr": {
             "path": "inventados/cpcbegin/foodtruck.ldr",
@@ -3477,7 +3477,7 @@
             "refNumber": "",
             "fileTitle": "Untitled",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "inventados/cpcbegin/foodtruck_en_ruta.ldr": {
             "path": "inventados/cpcbegin/foodtruck_en_ruta.ldr",
@@ -3487,7 +3487,7 @@
             "refNumber": "",
             "fileTitle": "Untitled",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "inventados/cpcbegin/furgonetahielo.ldr": {
             "path": "inventados/cpcbegin/furgonetahielo.ldr",
@@ -3497,7 +3497,7 @@
             "refNumber": "",
             "fileTitle": "Untitled",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "inventados/cpcbegin/galileo.ldr": {
             "path": "inventados/cpcbegin/galileo.ldr",
@@ -3527,7 +3527,7 @@
             "refNumber": "",
             "fileTitle": "Untitled",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "inventados/cpcbegin/incinerador_termonuclear.ldr": {
             "path": "inventados/cpcbegin/incinerador_termonuclear.ldr",
@@ -3537,7 +3537,7 @@
             "refNumber": "",
             "fileTitle": "Untitled",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "inventados/cpcbegin/jabega.ldr": {
             "path": "inventados/cpcbegin/jabega.ldr",
@@ -3547,7 +3547,7 @@
             "refNumber": "",
             "fileTitle": "Untitled",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "inventados/cpcbegin/jetpac.ldr": {
             "path": "inventados/cpcbegin/jetpac.ldr",
@@ -3557,7 +3557,7 @@
             "refNumber": "",
             "fileTitle": "Untitled",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "inventados/cpcbegin/lafarola.ldr": {
             "path": "inventados/cpcbegin/lafarola.ldr",
@@ -3567,7 +3567,7 @@
             "refNumber": "",
             "fileTitle": "Untitled",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "inventados/cpcbegin/ld3dstudio_logo.ldr": {
             "path": "inventados/cpcbegin/ld3dstudio_logo.ldr",
@@ -3577,7 +3577,7 @@
             "refNumber": "",
             "fileTitle": "Untitled",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "inventados/cpcbegin/lemmings_flat.ldr": {
             "path": "inventados/cpcbegin/lemmings_flat.ldr",
@@ -3587,7 +3587,7 @@
             "refNumber": "",
             "fileTitle": "Untitled",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "inventados/cpcbegin/lopezpenalver.ldr": {
             "path": "inventados/cpcbegin/lopezpenalver.ldr",
@@ -3597,7 +3597,7 @@
             "refNumber": "",
             "fileTitle": "Untitled",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "inventados/cpcbegin/lunar_cruiser.ldr": {
             "path": "inventados/cpcbegin/lunar_cruiser.ldr",
@@ -3607,7 +3607,7 @@
             "refNumber": "",
             "fileTitle": "Untitled",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "inventados/cpcbegin/martian_chronicles_van.ldr": {
             "path": "inventados/cpcbegin/martian_chronicles_van.ldr",
@@ -3617,7 +3617,7 @@
             "refNumber": "",
             "fileTitle": "Martian chronicles van",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "inventados/cpcbegin/microbus50.ldr": {
             "path": "inventados/cpcbegin/microbus50.ldr",
@@ -3637,7 +3637,7 @@
             "refNumber": "",
             "fileTitle": "Untitled",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "inventados/cpcbegin/moduloescapemarciano.ldr": {
             "path": "inventados/cpcbegin/moduloescapemarciano.ldr",
@@ -3647,7 +3647,7 @@
             "refNumber": "",
             "fileTitle": "Modulo de escape marciano",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "inventados/cpcbegin/molino.ldr": {
             "path": "inventados/cpcbegin/molino.ldr",
@@ -3667,7 +3667,7 @@
             "refNumber": "",
             "fileTitle": "Tranvia del Morlaco (Malaga)",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "inventados/cpcbegin/motobomba.ldr": {
             "path": "inventados/cpcbegin/motobomba.ldr",
@@ -3677,7 +3677,7 @@
             "refNumber": "",
             "fileTitle": "Motobomba (modelo de Pollo)",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "inventados/cpcbegin/nave_guaul_mini.ldr": {
             "path": "inventados/cpcbegin/nave_guaul_mini.ldr",
@@ -3687,7 +3687,7 @@
             "refNumber": "",
             "fileTitle": "Untitled",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "inventados/cpcbegin/nave_v/navevisitante.ldr": {
             "path": "inventados/cpcbegin/nave_v/navevisitante.ldr",
@@ -3697,7 +3697,7 @@
             "refNumber": "",
             "fileTitle": "Untitled",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "inventados/cpcbegin/ovni9.ldr": {
             "path": "inventados/cpcbegin/ovni9.ldr",
@@ -3707,7 +3707,7 @@
             "refNumber": "",
             "fileTitle": "Untitled",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "inventados/cpcbegin/papamovil.ldr": {
             "path": "inventados/cpcbegin/papamovil.ldr",
@@ -3717,7 +3717,7 @@
             "refNumber": "",
             "fileTitle": "Untitled",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "inventados/cpcbegin/pctubo.ldr": {
             "path": "inventados/cpcbegin/pctubo.ldr",
@@ -3727,7 +3727,7 @@
             "refNumber": "",
             "fileTitle": "Untitled",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "inventados/cpcbegin/planeador_orbital.ldr": {
             "path": "inventados/cpcbegin/planeador_orbital.ldr",
@@ -3737,7 +3737,7 @@
             "refNumber": "",
             "fileTitle": "Untitled",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "inventados/cpcbegin/robotaxi.ldr": {
             "path": "inventados/cpcbegin/robotaxi.ldr",
@@ -3747,7 +3747,7 @@
             "refNumber": "",
             "fileTitle": "Untitled",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "inventados/cpcbegin/roverlunar.ldr": {
             "path": "inventados/cpcbegin/roverlunar.ldr",
@@ -3757,7 +3757,7 @@
             "refNumber": "",
             "fileTitle": "Untitled",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "inventados/cpcbegin/ruedelpercebe.ldr": {
             "path": "inventados/cpcbegin/ruedelpercebe.ldr",
@@ -3767,7 +3767,7 @@
             "refNumber": "",
             "fileTitle": "Untitled",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "inventados/cpcbegin/seat1430.ldr": {
             "path": "inventados/cpcbegin/seat1430.ldr",
@@ -3777,7 +3777,7 @@
             "refNumber": "",
             "fileTitle": "Untitled",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "inventados/cpcbegin/sinclairzx80.ldr": {
             "path": "inventados/cpcbegin/sinclairzx80.ldr",
@@ -3787,7 +3787,7 @@
             "refNumber": "",
             "fileTitle": "Untitled",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "inventados/cpcbegin/taller_informatico/cajon.ldr": {
             "path": "inventados/cpcbegin/taller_informatico/cajon.ldr",
@@ -3797,7 +3797,7 @@
             "refNumber": "",
             "fileTitle": "Untitled",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "inventados/cpcbegin/taller_informatico/cajonera.ldr": {
             "path": "inventados/cpcbegin/taller_informatico/cajonera.ldr",
@@ -3816,7 +3816,7 @@
             "refNumber": "",
             "fileTitle": "Untitled",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "inventados/cpcbegin/tardis.ldr": {
             "path": "inventados/cpcbegin/tardis.ldr",
@@ -3826,7 +3826,7 @@
             "refNumber": "",
             "fileTitle": "Untitled",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "inventados/cpcbegin/taxi_espacial.ldr": {
             "path": "inventados/cpcbegin/taxi_espacial.ldr",
@@ -3836,7 +3836,7 @@
             "refNumber": "",
             "fileTitle": "Untitled",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "inventados/cpcbegin/templo_debod.ldr": {
             "path": "inventados/cpcbegin/templo_debod.ldr",
@@ -3856,7 +3856,7 @@
             "refNumber": "",
             "fileTitle": "Untitled",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "inventados/cpcbegin/titan_mare_explorer.ldr": {
             "path": "inventados/cpcbegin/titan_mare_explorer.ldr",
@@ -3866,7 +3866,7 @@
             "refNumber": "",
             "fileTitle": "Untitled",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "inventados/cpcbegin/todoterrenocompacto.ldr": {
             "path": "inventados/cpcbegin/todoterrenocompacto.ldr",
@@ -3876,7 +3876,7 @@
             "refNumber": "",
             "fileTitle": "Todoterreno compacto",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "inventados/cpcbegin/torre_entrada_puerto_malaga.ldr": {
             "path": "inventados/cpcbegin/torre_entrada_puerto_malaga.ldr",
@@ -3886,7 +3886,7 @@
             "refNumber": "",
             "fileTitle": "Untitled",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "inventados/cpcbegin/torre_fastolfe.ldr": {
             "path": "inventados/cpcbegin/torre_fastolfe.ldr",
@@ -3896,7 +3896,7 @@
             "refNumber": "",
             "fileTitle": "Sin_nombre",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "inventados/cpcbegin/torre_glories_barcelona.ldr": {
             "path": "inventados/cpcbegin/torre_glories_barcelona.ldr",
@@ -3906,7 +3906,7 @@
             "refNumber": "",
             "fileTitle": "Untitled",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "inventados/cpcbegin/torres_hanoi.ldr": {
             "path": "inventados/cpcbegin/torres_hanoi.ldr",
@@ -3926,7 +3926,7 @@
             "refNumber": "",
             "fileTitle": "Untitled",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "inventados/cpcbegin/tux3d.ldr": {
             "path": "inventados/cpcbegin/tux3d.ldr",
@@ -3936,7 +3936,7 @@
             "refNumber": "",
             "fileTitle": "Untitled",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "inventados/cpcbegin/tux_flat_base.ldr": {
             "path": "inventados/cpcbegin/tux_flat_base.ldr",
@@ -3946,7 +3946,7 @@
             "refNumber": "",
             "fileTitle": "Untitled",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "inventados/cpcbegin/tuxplano.ldr": {
             "path": "inventados/cpcbegin/tuxplano.ldr",
@@ -3956,7 +3956,7 @@
             "refNumber": "",
             "fileTitle": "Untitled",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "inventados/cpcbegin/tuxtentero.ldr": {
             "path": "inventados/cpcbegin/tuxtentero.ldr",
@@ -3966,7 +3966,7 @@
             "refNumber": "",
             "fileTitle": "Untitled",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "inventados/cpcbegin/ubuntu_exin_castillos.ldr": {
             "path": "inventados/cpcbegin/ubuntu_exin_castillos.ldr",
@@ -3976,7 +3976,7 @@
             "refNumber": "",
             "fileTitle": "Sin_nombre",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "inventados/cpcbegin/ubuntu_exin_castillos_transparente.ldr": {
             "path": "inventados/cpcbegin/ubuntu_exin_castillos_transparente.ldr",
@@ -3986,7 +3986,7 @@
             "refNumber": "",
             "fileTitle": "Sin_nombre",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "inventados/cpcbegin/urna_votacion.ldr": {
             "path": "inventados/cpcbegin/urna_votacion.ldr",
@@ -3996,7 +3996,7 @@
             "refNumber": "",
             "fileTitle": "Untitled",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "inventados/cpcbegin/ventanas_ahumadas.ldr": {
             "path": "inventados/cpcbegin/ventanas_ahumadas.ldr",
@@ -4006,7 +4006,7 @@
             "refNumber": "",
             "fileTitle": "Untitled",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "inventados/cpcbegin/vialia_antiguo.ldr": {
             "path": "inventados/cpcbegin/vialia_antiguo.ldr",
@@ -4016,7 +4016,7 @@
             "refNumber": "",
             "fileTitle": "Edificio antiguo Vialia Malaga",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "inventados/cpcbegin/vialia_antiguo_lateral_bajo.ldr": {
             "path": "inventados/cpcbegin/vialia_antiguo_lateral_bajo.ldr",
@@ -4036,7 +4036,7 @@
             "refNumber": "",
             "fileTitle": "Edificio antiguo Vialia Malaga",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "inventados/cpcbegin/vialia_antiguo_segunda_planta.ldr": {
             "path": "inventados/cpcbegin/vialia_antiguo_segunda_planta.ldr",
@@ -4046,7 +4046,7 @@
             "refNumber": "",
             "fileTitle": "Edificio antiguo Vialia Malaga",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "inventados/cpcbegin/walkietalkie.ldr": {
             "path": "inventados/cpcbegin/walkietalkie.ldr",
@@ -4056,7 +4056,7 @@
             "refNumber": "",
             "fileTitle": "Walkie Talkie 70s",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "inventados/cpcbegin/walkietalkies_pair.ldr": {
             "path": "inventados/cpcbegin/walkietalkies_pair.ldr",
@@ -4066,7 +4066,7 @@
             "refNumber": "",
             "fileTitle": "Untitled",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "inventados/cpcbegin/zxspectrum48k.ldr": {
             "path": "inventados/cpcbegin/zxspectrum48k.ldr",
@@ -4076,7 +4076,7 @@
             "refNumber": "",
             "fileTitle": "Untitled",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "prototipos/Prototipo_Ruta21_Cisterna_KS.ldr": {
             "path": "prototipos/Prototipo_Ruta21_Cisterna_KS.ldr",
@@ -4096,7 +4096,7 @@
             "refNumber": "",
             "fileTitle": "Motobomba (modelo de Pollo)",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "prototipos/Prototipo_Ruta21_Volquete_KS.ldr": {
             "path": "prototipos/Prototipo_Ruta21_Volquete_KS.ldr",
@@ -4116,7 +4116,7 @@
             "refNumber": "",
             "fileTitle": "Untitled",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "prototipos/Prototipo_Tren_Pollo_Largo_Recorrido.ldr": {
             "path": "prototipos/Prototipo_Tren_Pollo_Largo_Recorrido.ldr",
@@ -4126,7 +4126,7 @@
             "refNumber": "",
             "fileTitle": "Untitled",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "prototipos/Prototipo_Tren_Pollo_Oeste_girado.ldr": {
             "path": "prototipos/Prototipo_Tren_Pollo_Oeste_girado.ldr",
@@ -4156,7 +4156,7 @@
             "refNumber": "",
             "fileTitle": "Untitled",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "pruebas/Mini_501_casa.ldr": {
             "path": "pruebas/Mini_501_casa.ldr",
@@ -4166,7 +4166,7 @@
             "refNumber": "",
             "fileTitle": "Untitled",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "pruebas/cortinero.ldr": {
             "path": "pruebas/cortinero.ldr",
@@ -4176,7 +4176,7 @@
             "refNumber": "",
             "fileTitle": "Untitled",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "pruebas/esfera1.ldr": {
             "path": "pruebas/esfera1.ldr",
@@ -4186,7 +4186,7 @@
             "refNumber": "",
             "fileTitle": "Untitled",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "pruebas/esfera2.ldr": {
             "path": "pruebas/esfera2.ldr",
@@ -4196,7 +4196,7 @@
             "refNumber": "",
             "fileTitle": "Untitled",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "pruebas/esfera3.ldr": {
             "path": "pruebas/esfera3.ldr",
@@ -4206,7 +4206,7 @@
             "refNumber": "",
             "fileTitle": "Untitled",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "pruebas/esfera4.ldr": {
             "path": "pruebas/esfera4.ldr",
@@ -4216,7 +4216,7 @@
             "refNumber": "",
             "fileTitle": "Untitled",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         },
         "pruebas/peasochalet.ldr": {
             "path": "pruebas/peasochalet.ldr",
@@ -4236,7 +4236,7 @@
             "refNumber": "",
             "fileTitle": "Untitled",
             "fileBoxTitle": "",
-            "isOfficial": true
+            "isOfficial": false
         }
     },
     "modelPathsList": [
@@ -4704,18 +4704,18 @@
                 "Micro"
             ]
         },
-        "aduana.dat": {
-            "path": "aduana.dat",
-            "title": "Aduana Soporte",
+        "aduanasp.dat": {
+            "path": "aduanasp.dat",
+            "title": "Barrera Micro Soporte",
             "metaData": "|C:C",
             "mainCategory": "Micro",
             "categories": [
                 "Micro"
             ]
         },
-        "aduanasp.dat": {
-            "path": "aduanasp.dat",
-            "title": "Barrera Micro Soporte",
+        "aduana.dat": {
+            "path": "aduana.dat",
+            "title": "Aduana Soporte",
             "metaData": "|C:C",
             "mainCategory": "Micro",
             "categories": [
@@ -4743,37 +4743,41 @@
         "alaafgrn.dat": {
             "path": "alaafgrn.dat",
             "title": "Ala Titanium Grande",
-            "metaData": "|F:F",
+            "metaData": "|F:F|T:T",
             "mainCategory": "Alfa",
             "categories": [
-                "Alfa"
+                "Alfa",
+                "Titanium"
             ]
         },
         "alaafmed.dat": {
             "path": "alaafmed.dat",
             "title": "Ala Titanium Mediana",
-            "metaData": "|F:F",
+            "metaData": "|F:F|T:T",
             "mainCategory": "Alfa",
             "categories": [
-                "Alfa"
+                "Alfa",
+                "Titanium"
             ]
         },
         "alaafpeq.dat": {
             "path": "alaafpeq.dat",
             "title": "Ala Titanium Pequeña",
-            "metaData": "|F:F",
+            "metaData": "|F:F|T:T",
             "mainCategory": "Alfa",
             "categories": [
-                "Alfa"
+                "Alfa",
+                "Titanium"
             ]
         },
         "alaafpnt.dat": {
             "path": "alaafpnt.dat",
             "title": "Ala Titanium Puente",
-            "metaData": "|F:F",
+            "metaData": "|F:F|T:T",
             "mainCategory": "Alfa",
             "categories": [
-                "Alfa"
+                "Alfa",
+                "Titanium"
             ]
         },
         "alaskyms.dat": {
@@ -4870,7 +4874,7 @@
         },
         "almenacp.dat": {
             "path": "almenacp.dat",
-            "title": "Almena cuadrada pequeña    :X",
+            "title": "Almena cuadrada pequeÃ±a    :X",
             "metaData": "",
             "mainCategory": "Castillos",
             "categories": [
@@ -4888,7 +4892,7 @@
         },
         "almenarp.dat": {
             "path": "almenarp.dat",
-            "title": "Almena redonda pequeña    :X",
+            "title": "Almena redonda pequeÃ±a    :X",
             "metaData": "",
             "mainCategory": "Castillos",
             "categories": [
@@ -5164,49 +5168,49 @@
         },
         "bald2ry.dat": {
             "path": "bald2ry.dat",
-            "title": "Ba1dosa 2 rayada I.UNITS",
+            "title": "Placa rayada horizontal",
             "metaData": "",
             "mainCategory": "None",
             "categories": []
         },
         "bald2x3.dat": {
             "path": "bald2x3.dat",
-            "title": "Ba1dosa 2x3 I.UNITS",
+            "title": "Placa lisa 2x3",
             "metaData": "",
             "mainCategory": "None",
             "categories": []
         },
         "bald2x4.dat": {
             "path": "bald2x4.dat",
-            "title": "Ba1dosa 2x4 I.UNITS",
+            "title": "Placa lisa 2x4",
             "metaData": "",
             "mainCategory": "None",
             "categories": []
         },
         "bald2x8.dat": {
             "path": "bald2x8.dat",
-            "title": "Ba1dosa 2x8 I.UNITS",
+            "title": "Placa lisa 2x8",
             "metaData": "",
             "mainCategory": "None",
             "categories": []
         },
         "bald3.dat": {
             "path": "bald3.dat",
-            "title": "Ba1dosa 3 I.UNITS",
+            "title": "Placa lisa 1x3",
             "metaData": "",
             "mainCategory": "None",
             "categories": []
         },
         "bald4.dat": {
             "path": "bald4.dat",
-            "title": "Ba1dosa 4 I.UNITS",
+            "title": "Placa lisa 1x4",
             "metaData": "",
             "mainCategory": "None",
             "categories": []
         },
         "bald8.dat": {
             "path": "bald8.dat",
-            "title": "Ba1dosa 8 I.UNITS",
+            "title": "Placa lisa 1x8",
             "metaData": "",
             "mainCategory": "None",
             "categories": []
@@ -5258,7 +5262,7 @@
         },
         "baldcil.dat": {
             "path": "baldcil.dat",
-            "title": "Baldosa Cilindro I.UNITS",
+            "title": "Placa redonda lisa",
             "metaData": "|D:D",
             "mainCategory": "Baldosas/Placas",
             "categories": [
@@ -5359,7 +5363,7 @@
         },
         "bald2r2.dat": {
             "path": "bald2r2.dat",
-            "title": "Baldosin 2 redondeado I.UNITS",
+            "title": "Placa borde largo curvo",
             "metaData": "|D:D",
             "mainCategory": "Dark",
             "categories": [
@@ -5386,7 +5390,7 @@
         },
         "bandeesp.dat": {
             "path": "bandeesp.dat",
-            "title": "Bandera España",
+            "title": "Bandera EspaÃ¯Â¿Â½a",
             "metaData": "|M:M",
             "mainCategory": "Mar",
             "categories": [
@@ -5657,7 +5661,7 @@
         },
         "bispq.dat": {
             "path": "bispq.dat",
-            "title": "Bisagra Pequeña",
+            "title": "Bisagra PequeÃ±a",
             "metaData": "|B:B",
             "mainCategory": "Básico",
             "categories": [
@@ -5683,13 +5687,77 @@
                 "Básico"
             ]
         },
+        "canongrn.dat": {
+            "path": "canongrn.dat",
+            "title": "Torreta Triple Cañón",
+            "metaData": "|M:M",
+            "mainCategory": "Mar",
+            "categories": [
+                "Mar"
+            ]
+        },
+        "canongrb.dat": {
+            "path": "canongrb.dat",
+            "title": "CaÃ±Ã³n grande base",
+            "metaData": "|M:M",
+            "mainCategory": "Mar",
+            "categories": [
+                "Mar"
+            ]
+        },
+        "canongrt.dat": {
+            "path": "canongrt.dat",
+            "title": "CaÃ±Ã³n grande tubos",
+            "metaData": "|M:M",
+            "mainCategory": "Mar",
+            "categories": [
+                "Mar"
+            ]
+        },
+        "canonmed.dat": {
+            "path": "canonmed.dat",
+            "title": "Torreta Doble Cañón",
+            "metaData": "|M:M",
+            "mainCategory": "Mar",
+            "categories": [
+                "Mar"
+            ]
+        },
+        "canonom.dat": {
+            "path": "canonom.dat",
+            "title": "CaÃ±Ã³n Oto Melara 127mm",
+            "metaData": "|D:D",
+            "mainCategory": "Dark",
+            "categories": [
+                "Dark"
+            ]
+        },
+        "canonpeq.dat": {
+            "path": "canonpeq.dat",
+            "title": "Torreta Antiaéreos",
+            "metaData": "|M:M",
+            "mainCategory": "Mar",
+            "categories": [
+                "Mar"
+            ]
+        },
+        "canontnq.dat": {
+            "path": "canontnq.dat",
+            "title": "Cañón Tanque",
+            "metaData": "|E:E",
+            "mainCategory": "Escorpión",
+            "categories": [
+                "Escorpión"
+            ]
+        },
         "alfacris.dat": {
             "path": "alfacris.dat",
             "title": "Parabrisas Titanium",
-            "metaData": "|F:F",
+            "metaData": "|F:F|T:T",
             "mainCategory": "Alfa",
             "categories": [
-                "Alfa"
+                "Alfa",
+                "Titanium"
             ]
         },
         "cabalfab.dat": {
@@ -5832,7 +5900,7 @@
         },
         "capom.dat": {
             "path": "capom.dat",
-            "title": "Cabina Nueva Capo morro negro",
+            "title": "Cabina Nueva CapÃ³ morro negro",
             "metaData": "|R:R",
             "mainCategory": "Ruta",
             "categories": [
@@ -5897,15 +5965,16 @@
         "titcabin.dat": {
             "path": "titcabin.dat",
             "title": "Cabina Titanium",
-            "metaData": "|T:T",
-            "mainCategory": "Titanium",
+            "metaData": "|T:T|F:F",
+            "mainCategory": "Alfa",
             "categories": [
+                "Alfa",
                 "Titanium"
             ]
         },
         "cadcanon.dat": {
             "path": "cadcanon.dat",
-            "title": "Cadena Cañon Autopropulsado",
+            "title": "Cadena CaÃ±ÃÂ³n Autopropulsado",
             "metaData": "|E:E",
             "mainCategory": "Escorpión",
             "categories": [
@@ -5996,69 +6065,6 @@
                 "Vehículos"
             ]
         },
-        "canongrn.dat": {
-            "path": "canongrn.dat",
-            "title": "Torreta Triple Cañón",
-            "metaData": "|M:M",
-            "mainCategory": "Mar",
-            "categories": [
-                "Mar"
-            ]
-        },
-        "canongrb.dat": {
-            "path": "canongrb.dat",
-            "title": "Canon grande base",
-            "metaData": "|M:M",
-            "mainCategory": "Mar",
-            "categories": [
-                "Mar"
-            ]
-        },
-        "canongrt.dat": {
-            "path": "canongrt.dat",
-            "title": "Canon grande tubos",
-            "metaData": "|M:M",
-            "mainCategory": "Mar",
-            "categories": [
-                "Mar"
-            ]
-        },
-        "canonmed.dat": {
-            "path": "canonmed.dat",
-            "title": "Torreta Doble Cañón",
-            "metaData": "|M:M",
-            "mainCategory": "Mar",
-            "categories": [
-                "Mar"
-            ]
-        },
-        "canonom.dat": {
-            "path": "canonom.dat",
-            "title": "Canon Oto Melara 127mm",
-            "metaData": "|D:D",
-            "mainCategory": "Dark",
-            "categories": [
-                "Dark"
-            ]
-        },
-        "canonpeq.dat": {
-            "path": "canonpeq.dat",
-            "title": "Torreta Antiaéreos",
-            "metaData": "|M:M",
-            "mainCategory": "Mar",
-            "categories": [
-                "Mar"
-            ]
-        },
-        "canontnq.dat": {
-            "path": "canontnq.dat",
-            "title": "Cañón Tanque",
-            "metaData": "|E:E",
-            "mainCategory": "Escorpión",
-            "categories": [
-                "Escorpión"
-            ]
-        },
         "castillo.dat": {
             "path": "castillo.dat",
             "title": "Panel",
@@ -6088,7 +6094,7 @@
         },
         "castrinc.dat": {
             "path": "castrinc.dat",
-            "title": "Castillo Rincon",
+            "title": "Castillo RincÃ³n",
             "metaData": "|D:D",
             "mainCategory": "Dark",
             "categories": [
@@ -6150,11 +6156,9 @@
         "alfachas.dat": {
             "path": "alfachas.dat",
             "title": "Chasis Titanium",
-            "metaData": "|A:A|F:F|V:V|T:T",
-            "mainCategory": "Aire",
+            "metaData": "|V:V|T:T",
+            "mainCategory": "Titanium",
             "categories": [
-                "Aire",
-                "Alfa",
                 "Titanium",
                 "Vehículos"
             ]
@@ -6192,7 +6196,7 @@
         },
         "chimbald.dat": {
             "path": "chimbald.dat",
-            "title": "Chimenea baldosa  I.UNITS",
+            "title": "Placa chimenea lisa",
             "metaData": "",
             "mainCategory": "Baldosas/Placas",
             "categories": [
@@ -6201,7 +6205,7 @@
         },
         "chimeneg.dat": {
             "path": "chimeneg.dat",
-            "title": "Chimenea Guía Giro",
+            "title": "Chimenea GuÃÂ­a Giro",
             "metaData": "|M:M",
             "mainCategory": "Mar",
             "categories": [
@@ -6210,19 +6214,10 @@
         },
         "chimmach.dat": {
             "path": "chimmach.dat",
-            "title": "Chimenea macho-macho I.UNITS",
+            "title": "Placa chimenea macho-macho",
             "metaData": "",
             "mainCategory": "None",
             "categories": []
-        },
-        "chimplam.dat": {
-            "path": "chimplam.dat",
-            "title": "Chimenea p1aca mitad",
-            "metaData": "|D:D",
-            "mainCategory": "Dark",
-            "categories": [
-                "Dark"
-            ]
         },
         "chimplac.dat": {
             "path": "chimplac.dat",
@@ -6508,70 +6503,6 @@
                 "Castillos"
             ]
         },
-        "cunad1.dat": {
-            "path": "cunad1.dat",
-            "title": "Cuna 1x1 doble altura I.UNITS",
-            "metaData": "",
-            "mainCategory": "None",
-            "categories": []
-        },
-        "cunad2.dat": {
-            "path": "cunad2.dat",
-            "title": "Cuna 2x1 doble altura I.UNITS",
-            "metaData": "",
-            "mainCategory": "None",
-            "categories": []
-        },
-        "cunad4.dat": {
-            "path": "cunad4.dat",
-            "title": "Cuna 4x1 doble altura I.UNITS",
-            "metaData": "",
-            "mainCategory": "None",
-            "categories": []
-        },
-        "cunad8.dat": {
-            "path": "cunad8.dat",
-            "title": "Cuna 8x1 doble altura I.UNITS",
-            "metaData": "",
-            "mainCategory": "None",
-            "categories": []
-        },
-        "alfacuna.dat": {
-            "path": "alfacuna.dat",
-            "title": "Bloque Inclinado Superior / Cuña 2",
-            "metaData": "|F:F",
-            "mainCategory": "Alfa",
-            "categories": [
-                "Alfa"
-            ]
-        },
-        "cunaesq.dat": {
-            "path": "cunaesq.dat",
-            "title": "Cuna Esquina",
-            "metaData": "|D:D",
-            "mainCategory": "Dark",
-            "categories": [
-                "Dark"
-            ]
-        },
-        "cunaesq2.dat": {
-            "path": "cunaesq2.dat",
-            "title": "Cuna Esquina 2",
-            "metaData": "|D:D",
-            "mainCategory": "Dark",
-            "categories": [
-                "Dark"
-            ]
-        },
-        "cuna1.dat": {
-            "path": "cuna1.dat",
-            "title": "Cuna1",
-            "metaData": "|D:D",
-            "mainCategory": "Dark",
-            "categories": [
-                "Dark"
-            ]
-        },
         "cuna.dat": {
             "path": "cuna.dat",
             "title": "Bloque Inclinado Superior / Cuña",
@@ -6581,12 +6512,77 @@
                 "Básico"
             ]
         },
-        "cuna2x2e.dat": {
-            "path": "cuna2x2e.dat",
-            "title": "Cuña 2x2 Elephant",
+        "cuna1.dat": {
+            "path": "cuna1.dat",
+            "title": "CuÃ±a 1",
+            "metaData": "|D:D",
+            "mainCategory": "Dark",
+            "categories": [
+                "Dark"
+            ]
+        },
+        "cunad1.dat": {
+            "path": "cunad1.dat",
+            "title": "Cuña 2 alturas (1x1)",
             "metaData": "",
             "mainCategory": "None",
             "categories": []
+        },
+        "cunad2.dat": {
+            "path": "cunad2.dat",
+            "title": "Cuña 2 alturas (1x2)",
+            "metaData": "",
+            "mainCategory": "None",
+            "categories": []
+        },
+        "cuna2x2e.dat": {
+            "path": "cuna2x2e.dat",
+            "title": "CuÃ±a 2x2 Elephant",
+            "metaData": "",
+            "mainCategory": "None",
+            "categories": []
+        },
+        "cunad4.dat": {
+            "path": "cunad4.dat",
+            "title": "Cuña 2 alturas (1x4)",
+            "metaData": "",
+            "mainCategory": "None",
+            "categories": []
+        },
+        "cunad8.dat": {
+            "path": "cunad8.dat",
+            "title": "Cuña 2 alturas (1x8)",
+            "metaData": "",
+            "mainCategory": "None",
+            "categories": []
+        },
+        "cunaesq.dat": {
+            "path": "cunaesq.dat",
+            "title": "CuÃ±a Esquina",
+            "metaData": "|D:D",
+            "mainCategory": "Dark",
+            "categories": [
+                "Dark"
+            ]
+        },
+        "cunaesq2.dat": {
+            "path": "cunaesq2.dat",
+            "title": "CuÃ±a Esquina 2",
+            "metaData": "|D:D",
+            "mainCategory": "Dark",
+            "categories": [
+                "Dark"
+            ]
+        },
+        "alfacuna.dat": {
+            "path": "alfacuna.dat",
+            "title": "Bloque Inclinado Superior / Cuña 2",
+            "metaData": "|F:F|T:T",
+            "mainCategory": "Alfa",
+            "categories": [
+                "Alfa",
+                "Titanium"
+            ]
         },
         "curv1.dat": {
             "path": "curv1.dat",
@@ -6708,10 +6704,9 @@
         "alfa_eje.dat": {
             "path": "alfa_eje.dat",
             "title": "Soporte Llantas 8 puntos Titanium",
-            "metaData": "|A:A|F:F|V:V|T:T",
-            "mainCategory": "Aire",
+            "metaData": "|F:F|V:V|T:T",
+            "mainCategory": "Alfa",
             "categories": [
-                "Aire",
                 "Alfa",
                 "Titanium",
                 "Ruedas",
@@ -6895,7 +6890,7 @@
         },
         "enganc1m.dat": {
             "path": "enganc1m.dat",
-            "title": "Enganche 1 teton macizo",
+            "title": "Enganche 1 tetÃ³n macizo",
             "metaData": "|D:D",
             "mainCategory": "Dark",
             "categories": [
@@ -7032,7 +7027,7 @@
         },
         "plzspain.dat": {
             "path": "plzspain.dat",
-            "title": "EtiqueDark Plaza de España (metro)",
+            "title": "EtiqueDark Plaza de EspaÃ¯Â¿Â½a (metro)",
             "metaData": "",
             "mainCategory": "EtiqueDark",
             "categories": [
@@ -7277,7 +7272,7 @@
         },
         "p_bgtria.dat": {
             "path": "p_bgtria.dat",
-            "title": "Etiqueta Blackgun triángulos",
+            "title": "Etiqueta Blackgun triÃ¯Â¿Â½ngulos",
             "metaData": "",
             "mainCategory": "Etiquetas",
             "categories": [
@@ -7389,7 +7384,7 @@
         },
         "cepsaav.dat": {
             "path": "cepsaav.dat",
-            "title": "Etiqueta cepsa aviacion",
+            "title": "Etiqueta cepsa aviaciÃ³n",
             "metaData": "",
             "mainCategory": "Etiquetas",
             "categories": [
@@ -7555,7 +7550,7 @@
         },
         "p_perdis.dat": {
             "path": "p_perdis.dat",
-            "title": "Etiqueta Discos Pequeños",
+            "title": "Etiqueta Discos PequeÃ±os",
             "metaData": "",
             "mainCategory": "Etiquetas",
             "categories": [
@@ -7832,7 +7827,7 @@
         },
         "p_galtri.dat": {
             "path": "p_galtri.dat",
-            "title": "Etiqueta Galaxie triángulos",
+            "title": "Etiqueta Galaxie triÃ¯Â¿Â½ngulos",
             "metaData": "",
             "mainCategory": "Etiquetas",
             "categories": [
@@ -9676,7 +9671,7 @@
         },
         "gruatamb.dat": {
             "path": "gruatamb.dat",
-            "title": "Grua Tambor",
+            "title": "Grúa Ruta 2 Tambor",
             "metaData": "|R:R",
             "mainCategory": "Ruta",
             "categories": [
@@ -9703,7 +9698,7 @@
         },
         "gruator.dat": {
             "path": "gruator.dat",
-            "title": "Grua Tornillo",
+            "title": "Grúa Ruta 2 Tornillo",
             "metaData": "|R:R",
             "mainCategory": "Ruta",
             "categories": [
@@ -9712,7 +9707,7 @@
         },
         "gruatorn.dat": {
             "path": "gruatorn.dat",
-            "title": "Grúa Ruta 2 Tambor",
+            "title": "Grúa Ruta 2 Tornillo y Tambor",
             "metaData": "|R:R",
             "mainCategory": "Ruta",
             "categories": [
@@ -9858,16 +9853,6 @@
                 "Vehículos"
             ]
         },
-        "helirotr.dat": {
-            "path": "helirotr.dat",
-            "title": "Rotor de Cola Helicóptero",
-            "metaData": "|A:A|V:V",
-            "mainCategory": "Aire",
-            "categories": [
-                "Aire",
-                "Vehículos"
-            ]
-        },
         "helcolhu.dat": {
             "path": "helcolhu.dat",
             "title": "Cola Helicóptero Arriostrada",
@@ -9960,6 +9945,16 @@
                 "Vehículos"
             ]
         },
+        "helirotr.dat": {
+            "path": "helirotr.dat",
+            "title": "Rotor de Cola Helicóptero",
+            "metaData": "|A:A|V:V",
+            "mainCategory": "Aire",
+            "categories": [
+                "Aire",
+                "Vehículos"
+            ]
+        },
         "helrueda.dat": {
             "path": "helrueda.dat",
             "title": "Rueda Helicóptero",
@@ -10001,63 +9996,78 @@
                 "Mar"
             ]
         },
-        "htit1.dat": {
-            "path": "htit1.dat",
-            "title": "Hombre Titanium 1",
-            "metaData": "|T:T",
-            "mainCategory": "Titanium",
-            "categories": [
-                "Titanium"
-            ]
-        },
         "htit2.dat": {
             "path": "htit2.dat",
             "title": "Figura Articulada Completa",
-            "metaData": "|T:T",
-            "mainCategory": "Titanium",
+            "metaData": "|T:T|F:F",
+            "mainCategory": "Alfa",
             "categories": [
+                "Alfa",
+                "Titanium"
+            ]
+        },
+        "htit1.dat": {
+            "path": "htit1.dat",
+            "title": "Hombre Titanium 1",
+            "metaData": "|T:T|F:F",
+            "mainCategory": "Alfa",
+            "categories": [
+                "Alfa",
                 "Titanium"
             ]
         },
         "htitbrzd.dat": {
             "path": "htitbrzd.dat",
             "title": "Figura Articulada Brazo Derecho",
-            "metaData": "|T:T",
-            "mainCategory": "Titanium",
+            "metaData": "|T:T|F:F",
+            "mainCategory": "Alfa",
             "categories": [
+                "Alfa",
                 "Titanium"
             ]
         },
         "htitbrzi.dat": {
             "path": "htitbrzi.dat",
             "title": "Figura Articulada Brazo Izquierdo",
-            "metaData": "|T:T",
-            "mainCategory": "Titanium",
+            "metaData": "|T:T|F:F",
+            "mainCategory": "Alfa",
             "categories": [
+                "Alfa",
                 "Titanium"
             ]
         },
         "htitcab1.dat": {
             "path": "htitcab1.dat",
             "title": "Figura Articulada Cabeza Titanium Cuadrada",
-            "metaData": "|T:T",
-            "mainCategory": "Titanium",
+            "metaData": "|T:T|F:F",
+            "mainCategory": "Alfa",
             "categories": [
+                "Alfa",
                 "Titanium"
             ]
         },
         "htitcab2.dat": {
             "path": "htitcab2.dat",
             "title": "Figura Articulada Cabeza Desnuda",
-            "metaData": "|T:T",
-            "mainCategory": "Titanium",
+            "metaData": "|T:T|F:F",
+            "mainCategory": "Alfa",
             "categories": [
+                "Alfa",
                 "Titanium"
+            ]
+        },
+        "htitcapi.dat": {
+            "path": "htitcapi.dat",
+            "title": "Figura Articulada Cabeza Piloto Alfa",
+            "metaData": "|F:F",
+            "mainCategory": "Alfa",
+            "categories": [
+                "Alfa"
             ]
         },
         "htitcabr.dat": {
             "path": "htitcabr.dat",
-            "title": "Hombre Titanium cabeza redonda",
+            "title": "Figura Articulada Cabeza Titanium Redonda",
             "metaData": "|T:T|F:F",
             "mainCategory": "Alfa",
             "categories": [
@@ -10068,45 +10078,50 @@
         "htitentr.dat": {
             "path": "htitentr.dat",
             "title": "Hombre Titanium entrepierna",
-            "metaData": "|T:T",
-            "mainCategory": "Titanium",
+            "metaData": "|T:T|F:F",
+            "mainCategory": "Alfa",
             "categories": [
+                "Alfa",
                 "Titanium"
             ]
         },
         "htitmand.dat": {
             "path": "htitmand.dat",
             "title": "Figura Articulada Mano Derecha",
-            "metaData": "|T:T",
-            "mainCategory": "Titanium",
+            "metaData": "|T:T|F:F",
+            "mainCategory": "Alfa",
             "categories": [
+                "Alfa",
                 "Titanium"
             ]
         },
         "htitmani.dat": {
             "path": "htitmani.dat",
             "title": "Figura Articulada Mano Izquierda",
-            "metaData": "|T:T",
-            "mainCategory": "Titanium",
+            "metaData": "|T:T|F:F",
+            "mainCategory": "Alfa",
             "categories": [
+                "Alfa",
                 "Titanium"
             ]
         },
         "htitpies.dat": {
             "path": "htitpies.dat",
             "title": "Figura Articulada Piernas",
-            "metaData": "|T:T",
-            "mainCategory": "Titanium",
+            "metaData": "|T:T|F:F",
+            "mainCategory": "Alfa",
             "categories": [
+                "Alfa",
                 "Titanium"
             ]
         },
         "htittron.dat": {
             "path": "htittron.dat",
             "title": "Figura Articulada Tronco",
-            "metaData": "|T:T",
-            "mainCategory": "Titanium",
+            "metaData": "|T:T|F:F",
+            "mainCategory": "Alfa",
             "categories": [
+                "Alfa",
                 "Titanium"
             ]
         },
@@ -10296,11 +10311,12 @@
         "alfajacn.dat": {
             "path": "alfajacn.dat",
             "title": "Jácena Alfa",
-            "metaData": "|F:F",
+            "metaData": "|F:F|T:T",
             "mainCategory": "Jácenas",
             "categories": [
                 "Jácenas",
-                "Alfa"
+                "Alfa",
+                "Titanium"
             ]
         },
         "rallado1.dat": {
@@ -10465,10 +10481,9 @@
         "alfalln1.dat": {
             "path": "alfalln1.dat",
             "title": "Llanta Titanium",
-            "metaData": "|A:A|F:F|V:V|T:T",
-            "mainCategory": "Aire",
+            "metaData": "|F:F|V:V|T:T",
+            "mainCategory": "Alfa",
             "categories": [
-                "Aire",
                 "Alfa",
                 "Titanium",
                 "Vehículos"
@@ -10477,10 +10492,9 @@
         "alfalln2.dat": {
             "path": "alfalln2.dat",
             "title": "Tapacubos Titanium",
-            "metaData": "|A:A|F:F|V:V|T:T",
-            "mainCategory": "Aire",
+            "metaData": "|F:F|V:V|T:T",
+            "mainCategory": "Alfa",
             "categories": [
-                "Aire",
                 "Alfa",
                 "Titanium",
                 "Vehículos"
@@ -10488,7 +10502,7 @@
         },
         "ejeastr3.dat": {
             "path": "ejeastr3.dat",
-            "title": "Llanta Astro Americana",
+            "title": "Llanta Astro de Hasbro",
             "metaData": "|S:S",
             "mainCategory": "Astro",
             "categories": [
@@ -10597,7 +10611,7 @@
         },
         "astgrfpq.dat": {
             "path": "astgrfpq.dat",
-            "title": "Logo Semicupula Pequeña",
+            "title": "Logo Semicupula PequeÃ±a",
             "metaData": "|S:S",
             "mainCategory": "Astro",
             "categories": [
@@ -10613,18 +10627,9 @@
                 "Dark"
             ]
         },
-        "mastg265.dat": {
-            "path": "mastg265.dat",
-            "title": "Mástil grueso 265 mm",
-            "metaData": "|M:M",
-            "mainCategory": "Mar",
-            "categories": [
-                "Mar"
-            ]
-        },
         "macecun2.dat": {
             "path": "macecun2.dat",
-            "title": "Macetero cuna 2x1 I.UNITS",
+            "title": "Macetero cuña",
             "metaData": "",
             "mainCategory": "None",
             "categories": []
@@ -10764,6 +10769,15 @@
                 "Mar"
             ]
         },
+        "mastg265.dat": {
+            "path": "mastg265.dat",
+            "title": "Mástil grueso 265 mm",
+            "metaData": "|M:M",
+            "mainCategory": "Mar",
+            "categories": [
+                "Mar"
+            ]
+        },
         "metrall.dat": {
             "path": "metrall.dat",
             "title": "Metralleta / Ametralladora",
@@ -10831,7 +10845,7 @@
         },
         "mochila4.dat": {
             "path": "mochila4.dat",
-            "title": "Mochila 3 en espalda",
+            "title": "Accesorios Ruta2 Mochila",
             "metaData": "|R:R",
             "mainCategory": "Ruta",
             "categories": [
@@ -10933,11 +10947,21 @@
         "alfaneum.dat": {
             "path": "alfaneum.dat",
             "title": "Neumático Titanium",
-            "metaData": "|A:A|F:F|V:V|T:T",
-            "mainCategory": "Aire",
+            "metaData": "|V:V|T:T",
+            "mainCategory": "Titanium",
             "categories": [
-                "Aire",
+                "Titanium",
+                "Vehículos"
+            ]
+        },
+        "neumtita.dat": {
+            "path": "neumtita.dat",
+            "title": "Neumático Titanium sin Logos",
+            "metaData": "|F:F|V:V|T:T|R:R",
+            "mainCategory": "Alfa",
+            "categories": [
                 "Alfa",
+                "Ruta",
                 "Titanium",
                 "Vehículos"
             ]
@@ -11015,16 +11039,6 @@
                 "Ruta"
             ]
         },
-        "placa1c.dat": {
-            "path": "placa1c.dat",
-            "title": "P1aca 1 curva",
-            "metaData": "|D:D",
-            "mainCategory": "Baldosas/Placas",
-            "categories": [
-                "Baldosas/Placas",
-                "Dark"
-            ]
-        },
         "placa10.dat": {
             "path": "placa10.dat",
             "title": "Placa 10x10 Batería Hasbro",
@@ -11036,7 +11050,7 @@
         },
         "placa12.dat": {
             "path": "placa12.dat",
-            "title": "P1aca 12 I.UNITS",
+            "title": "Placa normal 1x12",
             "metaData": "",
             "mainCategory": "Baldosas/Placas",
             "categories": [
@@ -11045,14 +11059,14 @@
         },
         "plac2m.dat": {
             "path": "plac2m.dat",
-            "title": "P1aca 2 con teton central I.UNITS",
+            "title": "Placa tetón central",
             "metaData": "",
             "mainCategory": "None",
             "categories": []
         },
         "plac2x10.dat": {
             "path": "plac2x10.dat",
-            "title": "P1aca 2x10 I.UNITS",
+            "title": "Placa normal 2x10",
             "metaData": "",
             "mainCategory": "None",
             "categories": []
@@ -11068,7 +11082,7 @@
         },
         "placa3.dat": {
             "path": "placa3.dat",
-            "title": "P1aca 3 I.UNITS",
+            "title": "Placa normal 1x3",
             "metaData": "",
             "mainCategory": "Baldosas/Placas",
             "categories": [
@@ -11077,7 +11091,7 @@
         },
         "placa3m.dat": {
             "path": "placa3m.dat",
-            "title": "P1aca 3 macho-macho I.UNITS",
+            "title": "Placa macho-macho 1x3",
             "metaData": "",
             "mainCategory": "Baldosas/Placas",
             "categories": [
@@ -11086,7 +11100,7 @@
         },
         "placa4e.dat": {
             "path": "placa4e.dat",
-            "title": "P1aca 4 especial I.UNITS",
+            "title": "Placa especial 1x4 (2 tetones)",
             "metaData": "",
             "mainCategory": "Baldosas/Placas",
             "categories": [
@@ -11095,7 +11109,7 @@
         },
         "placa8c.dat": {
             "path": "placa8c.dat",
-            "title": "P1aca 8 Corredera I.UNITS",
+            "title": "Placa corredera 1x8",
             "metaData": "",
             "mainCategory": "Baldosas/Placas",
             "categories": [
@@ -11104,7 +11118,7 @@
         },
         "placa8.dat": {
             "path": "placa8.dat",
-            "title": "P1aca 8 I.UNITS",
+            "title": "Placa normal 1x8",
             "metaData": "",
             "mainCategory": "Baldosas/Placas",
             "categories": [
@@ -11113,21 +11127,35 @@
         },
         "pang2x4d.dat": {
             "path": "pang2x4d.dat",
-            "title": "P1aca Angulo 2x4 Derecha I.UNITS",
+            "title": "Placa ángulo dcha",
             "metaData": "",
             "mainCategory": "None",
             "categories": []
         },
         "pang2x4i.dat": {
             "path": "pang2x4i.dat",
-            "title": "P1aca Angulo 2x4 Izquierda I.UNITS",
+            "title": "Placa ángulo izda",
             "metaData": "",
             "mainCategory": "None",
             "categories": []
         },
-        "placacil.dat": {
-            "path": "placacil.dat",
-            "title": "P1aca Cilindro I.UNITS",
+        "placurd2.dat": {
+            "path": "placurd2.dat",
+            "title": "Placa curva 2 alturas",
+            "metaData": "",
+            "mainCategory": "None",
+            "categories": []
+        },
+        "placlin2.dat": {
+            "path": "placlin2.dat",
+            "title": "Placa lingote adaptada",
+            "metaData": "",
+            "mainCategory": "None",
+            "categories": []
+        },
+        "placa1c.dat": {
+            "path": "placa1c.dat",
+            "title": "P1aca Normal Curva Esquinera 1x1 I.UNITS",
             "metaData": "|D:D",
             "mainCategory": "Baldosas/Placas",
             "categories": [
@@ -11135,23 +11163,9 @@
                 "Dark"
             ]
         },
-        "placurd2.dat": {
-            "path": "placurd2.dat",
-            "title": "P1aca curva dos alturas 2x1 I.UNITS",
-            "metaData": "",
-            "mainCategory": "None",
-            "categories": []
-        },
-        "placlin2.dat": {
-            "path": "placlin2.dat",
-            "title": "P1aca lingote 2x1 I.UNITS",
-            "metaData": "",
-            "mainCategory": "None",
-            "categories": []
-        },
         "placarv2.dat": {
             "path": "placarv2.dat",
-            "title": "P1aca rallada vertical 2x1 I.UNITS",
+            "title": "Placa rallada vertical relieve",
             "metaData": "",
             "mainCategory": "Baldosas/Placas",
             "categories": [
@@ -11171,9 +11185,11 @@
         "plmgrand.dat": {
             "path": "plmgrand.dat",
             "title": "Palmera Grande",
-            "metaData": "",
-            "mainCategory": "None",
-            "categories": []
+            "metaData": "|C:C",
+            "mainCategory": "Micro",
+            "categories": [
+                "Micro"
+            ]
         },
         "plmghoja.dat": {
             "path": "plmghoja.dat",
@@ -11379,10 +11395,11 @@
         "alfapatn.dat": {
             "path": "alfapatn.dat",
             "title": "Patín Titanium",
-            "metaData": "|F:F",
+            "metaData": "|F:F|T:T",
             "mainCategory": "Alfa",
             "categories": [
-                "Alfa"
+                "Alfa",
+                "Titanium"
             ]
         },
         "petroeng.dat": {
@@ -11425,15 +11442,16 @@
         "alfapico.dat": {
             "path": "alfapico.dat",
             "title": "Bloque Inclinado Inferior / Pico 2",
-            "metaData": "|F:F",
+            "metaData": "|F:F|T:T",
             "mainCategory": "Alfa",
             "categories": [
-                "Alfa"
+                "Alfa",
+                "Titanium"
             ]
         },
         "picoesq.dat": {
             "path": "picoesq.dat",
-            "title": "Pico Esquina I.UNITS",
+            "title": "Cuña esquinera",
             "metaData": "|D:D",
             "mainCategory": "Dark",
             "categories": [
@@ -11608,11 +11626,12 @@
         "alfaplac.dat": {
             "path": "alfaplac.dat",
             "title": "Toma de Aire Titanium",
-            "metaData": "|F:F",
+            "metaData": "|F:F|T:T",
             "mainCategory": "Baldosas/Placas",
             "categories": [
                 "Baldosas/Placas",
-                "Alfa"
+                "Alfa",
+                "Titanium"
             ]
         },
         "placalfa.dat": {
@@ -11633,6 +11652,16 @@
             "categories": [
                 "Baldosas/Placas",
                 "Mar"
+            ]
+        },
+        "chimplam.dat": {
+            "path": "chimplam.dat",
+            "title": "Placa Medio CÃÂ­rculo Normal 1x1 I.UNITS",
+            "metaData": "|D:D",
+            "mainCategory": "Baldosas/Placas",
+            "categories": [
+                "Baldosas/Placas",
+                "Dark"
             ]
         },
         "popa6p.dat": {
@@ -11876,15 +11905,6 @@
             "mainCategory": "Mar",
             "categories": [
                 "Mar"
-            ]
-        },
-        "proa8rem.dat": {
-            "path": "proa8rem.dat",
-            "title": "Proa Remate 8",
-            "metaData": "|D:D",
-            "mainCategory": "Dark",
-            "categories": [
-                "Dark"
             ]
         },
         "alfprtam.dat": {
@@ -12147,10 +12167,11 @@
         "alfaramp.dat": {
             "path": "alfaramp.dat",
             "title": "Pata Titanium",
-            "metaData": "|F:F",
+            "metaData": "|F:F|T:T",
             "mainCategory": "Alfa",
             "categories": [
-                "Alfa"
+                "Alfa",
+                "Titanium"
             ]
         },
         "ramplanz.dat": {
@@ -12174,7 +12195,7 @@
         },
         "remate_1.dat": {
             "path": "remate_1.dat",
-            "title": "Remate 1  I.UNITS",
+            "title": "Placa baranda 1x2 tetón",
             "metaData": "|D:D",
             "mainCategory": "Dark",
             "categories": [
@@ -12228,7 +12249,7 @@
         },
         "remateb2.dat": {
             "path": "remateb2.dat",
-            "title": "Remate ba1dosa 2x1 I.UNITS",
+            "title": "Placa baranda 1x2 lisa",
             "metaData": "",
             "mainCategory": "None",
             "categories": []
@@ -12345,9 +12366,8 @@
             "path": "rueairj2.dat",
             "title": "Rueda Aire montada en jácena 2x2",
             "metaData": "|S:S|M:M",
-            "mainCategory": "Jácenas",
+            "mainCategory": "Astro",
             "categories": [
-                "Jácenas",
                 "Astro",
                 "Mar",
                 "Ruedas"
@@ -12658,7 +12678,7 @@
         },
         "semicuqg.dat": {
             "path": "semicuqg.dat",
-            "title": "Semicupula Pequeña con Logo",
+            "title": "Semicupula PequeÃ±a con Logo",
             "metaData": "|S:S",
             "mainCategory": "Astro",
             "categories": [
@@ -12880,7 +12900,7 @@
         },
         "tejconal.dat": {
             "path": "tejconal.dat",
-            "title": "Tejado cónico alto   :X",
+            "title": "Tejado cÃ¯Â¿Â½nico alto   :X",
             "metaData": "",
             "mainCategory": "Castillos",
             "categories": [
@@ -12889,7 +12909,7 @@
         },
         "tejconbj.dat": {
             "path": "tejconbj.dat",
-            "title": "Tejado cónico bajo   :X",
+            "title": "Tejado cÃÂ³nico bajo   :X",
             "metaData": "",
             "mainCategory": "Castillos",
             "categories": [
@@ -12898,7 +12918,7 @@
         },
         "tejcongr.dat": {
             "path": "tejcongr.dat",
-            "title": "Tejado cónico grande   :X",
+            "title": "Tejado cÃÂ³nico grande   :X",
             "metaData": "",
             "mainCategory": "Castillos",
             "categories": [
@@ -12907,7 +12927,7 @@
         },
         "tejls2x1.dat": {
             "path": "tejls2x1.dat",
-            "title": "Tejado liso 2x1  I.UNITS",
+            "title": "Placa tejado 1x2",
             "metaData": "",
             "mainCategory": "None",
             "categories": []
@@ -12941,14 +12961,7 @@
         },
         "tetonesp.dat": {
             "path": "tetonesp.dat",
-            "title": "Teton especial 1x1 I.UNITS",
-            "metaData": "",
-            "mainCategory": "None",
-            "categories": []
-        },
-        "tetonsin.dat": {
-            "path": "tetonsin.dat",
-            "title": "teton sin parte de abajo",
+            "title": "Tetón especial",
             "metaData": "",
             "mainCategory": "None",
             "categories": []
@@ -12983,7 +12996,7 @@
         },
         "trfrect2.dat": {
             "path": "trfrect2.dat",
-            "title": "Tráfico Autopista Fin",
+            "title": "Trafico Autopista Fin",
             "metaData": "|R:R",
             "mainCategory": "Ruta",
             "categories": [
@@ -12992,7 +13005,7 @@
         },
         "trfrect1.dat": {
             "path": "trfrect1.dat",
-            "title": "Tráfico Autopista Inicio",
+            "title": "Trafico Autopista Inicio",
             "metaData": "|R:R",
             "mainCategory": "Ruta",
             "categories": [
@@ -13010,7 +13023,7 @@
         },
         "trfcircp.dat": {
             "path": "trfcircp.dat",
-            "title": "Tráfico Circular Prohibido Aparcar",
+            "title": "Trafico Circular Prohibido Aparcar",
             "metaData": "|R:R",
             "mainCategory": "Ruta",
             "categories": [
@@ -13019,7 +13032,7 @@
         },
         "trftria1.dat": {
             "path": "trftria1.dat",
-            "title": "Tráfico Inflamable",
+            "title": "Trafico Inflamable",
             "metaData": "|R:R",
             "mainCategory": "Ruta",
             "categories": [
@@ -13037,7 +13050,7 @@
         },
         "trfcirc1.dat": {
             "path": "trfcirc1.dat",
-            "title": "Tráfico Prohibido Aparcar",
+            "title": "Trafico Prohibido Aparcar",
             "metaData": "|R:R",
             "mainCategory": "Ruta",
             "categories": [
@@ -13046,7 +13059,7 @@
         },
         "trfrecta.dat": {
             "path": "trfrecta.dat",
-            "title": "Tráfico Rectángulo Autopista",
+            "title": "Trafico Rectangulo Autopista",
             "metaData": "|R:R",
             "mainCategory": "Ruta",
             "categories": [
@@ -13064,7 +13077,7 @@
         },
         "trfrectf.dat": {
             "path": "trfrectf.dat",
-            "title": "Tráfico Rectángulo Fin Autopista",
+            "title": "Trafico Rectangulo Fin Autopista",
             "metaData": "|R:R",
             "mainCategory": "Ruta",
             "categories": [
@@ -13073,7 +13086,7 @@
         },
         "trfsemfr.dat": {
             "path": "trfsemfr.dat",
-            "title": "Tráfico Semáforo",
+            "title": "Trafico Semaforo",
             "metaData": "|R:R",
             "mainCategory": "Ruta",
             "categories": [
@@ -13091,7 +13104,7 @@
         },
         "trfsemfl.dat": {
             "path": "trfsemfl.dat",
-            "title": "Tráfico Semáforo Luces",
+            "title": "Trafico Semaforo Luces",
             "metaData": "|R:R",
             "mainCategory": "Ruta",
             "categories": [
@@ -13109,7 +13122,7 @@
         },
         "trftriai.dat": {
             "path": "trftriai.dat",
-            "title": "Tráfico Triángulo Inflamable",
+            "title": "Trafico Triangulo Inflamable",
             "metaData": "|R:R",
             "mainCategory": "Ruta",
             "categories": [
@@ -13118,7 +13131,7 @@
         },
         "trapesqu.dat": {
             "path": "trapesqu.dat",
-            "title": "Trapecio esquina I.UNITS",
+            "title": "Trapecio esquinero",
             "metaData": "",
             "mainCategory": "None",
             "categories": []
@@ -13489,10 +13502,11 @@
         "alfaturb.dat": {
             "path": "alfaturb.dat",
             "title": "Tobera Titanium",
-            "metaData": "|F:F",
+            "metaData": "|F:F|T:T",
             "mainCategory": "Alfa",
             "categories": [
-                "Alfa"
+                "Alfa",
+                "Titanium"
             ]
         },
         "valla.dat": {
@@ -13726,7 +13740,7 @@
         },
         "vntcirc2.dat": {
             "path": "vntcirc2.dat",
-            "title": "Ventanas circulares (círculos)",
+            "title": "Ventanas circulares (circulos)",
             "metaData": "",
             "mainCategory": "Ventanas",
             "categories": [
@@ -13911,8 +13925,8 @@
         "acetirue.dat",
         "acetitub.dat",
         "aduanabr.dat",
-        "aduana.dat",
         "aduanasp.dat",
+        "aduana.dat",
         "alaastro.dat",
         "titalaiz.dat",
         "alaafgrn.dat",
@@ -14020,6 +14034,13 @@
         "bispq.dat",
         "bispqaba.dat",
         "bispqarr.dat",
+        "canongrn.dat",
+        "canongrb.dat",
+        "canongrt.dat",
+        "canonmed.dat",
+        "canonom.dat",
+        "canonpeq.dat",
+        "canontnq.dat",
         "alfacris.dat",
         "cabalfab.dat",
         "cabalfar.dat",
@@ -14054,13 +14075,6 @@
         "camionsp.dat",
         "camion.dat",
         "camion2.dat",
-        "canongrn.dat",
-        "canongrb.dat",
-        "canongrt.dat",
-        "canonmed.dat",
-        "canonom.dat",
-        "canonpeq.dat",
-        "canontnq.dat",
         "castillo.dat",
         "castill1.dat",
         "castesqu.dat",
@@ -14077,7 +14091,6 @@
         "chimbald.dat",
         "chimeneg.dat",
         "chimmach.dat",
-        "chimplam.dat",
         "chimplac.dat",
         "chimttnc.dat",
         "chimtubo.dat",
@@ -14108,16 +14121,16 @@
         "conotanq.dat",
         "cornisa1.dat",
         "cornisa3.dat",
+        "cuna.dat",
+        "cuna1.dat",
         "cunad1.dat",
         "cunad2.dat",
+        "cuna2x2e.dat",
         "cunad4.dat",
         "cunad8.dat",
-        "alfacuna.dat",
         "cunaesq.dat",
         "cunaesq2.dat",
-        "cuna1.dat",
-        "cuna.dat",
-        "cuna2x2e.dat",
+        "alfacuna.dat",
         "curv1.dat",
         "curv1de.dat",
         "curv1iz.dat",
@@ -14466,7 +14479,6 @@
         "helcab.dat",
         "helcabcr.dat",
         "helcol.dat",
-        "helirotr.dat",
         "helcolhu.dat",
         "helicoc1.dat",
         "helicop2.dat",
@@ -14476,16 +14488,18 @@
         "helmando.dat",
         "helineum.dat",
         "helpata.dat",
+        "helirotr.dat",
         "helrueda.dat",
         "airsillo.dat",
         "helisprt.dat",
         "heliprto.dat",
-        "htit1.dat",
         "htit2.dat",
+        "htit1.dat",
         "htitbrzd.dat",
         "htitbrzi.dat",
         "htitcab1.dat",
         "htitcab2.dat",
+        "htitcapi.dat",
         "htitcabr.dat",
         "htitentr.dat",
         "htitmand.dat",
@@ -14546,7 +14560,6 @@
         "astgrfmd.dat",
         "astgrfpq.dat",
         "logtente.dat",
-        "mastg265.dat",
         "macecun2.dat",
         "manguera.dat",
         "mascara.dat",
@@ -14563,6 +14576,7 @@
         "mastg150.dat",
         "mastg170.dat",
         "mastg190.dat",
+        "mastg265.dat",
         "metrall.dat",
         "misiles.dat",
         "misilesc.dat",
@@ -14582,6 +14596,7 @@
         "alfamotr.dat",
         "mtrhasbr.dat",
         "alfaneum.dat",
+        "neumtita.dat",
         "neumtter.dat",
         "neumaxt.dat",
         "nruteje.dat",
@@ -14590,7 +14605,6 @@
         "nrutembl2.dat",
         "nrutllnt.dat",
         "nrutneum.dat",
-        "placa1c.dat",
         "placa10.dat",
         "placa12.dat",
         "plac2m.dat",
@@ -14603,9 +14617,9 @@
         "placa8.dat",
         "pang2x4d.dat",
         "pang2x4i.dat",
-        "placacil.dat",
         "placurd2.dat",
         "placlin2.dat",
+        "placa1c.dat",
         "placarv2.dat",
         "palaexcv.dat",
         "plmgrand.dat",
@@ -14658,6 +14672,7 @@
         "alfaplac.dat",
         "placalfa.dat",
         "placacty.dat",
+        "chimplam.dat",
         "popa6p.dat",
         "popa8p.dat",
         "plantas.dat",
@@ -14684,7 +14699,6 @@
         "proa8p.dat",
         "proa6p.dat",
         "proa6rem.dat",
-        "proa8rem.dat",
         "alfprtam.dat",
         "alfprtar.dat",
         "puertang.dat",
@@ -14797,7 +14811,6 @@
         "tejadorl.dat",
         "tenazas.dat",
         "tetonesp.dat",
-        "tetonsin.dat",
         "toberast.dat",
         "tobergal.dat",
         "torremcr.dat",
@@ -14914,15 +14927,31 @@
             "cabalfab.dat",
             "cabalfar.dat",
             "cabalfsg.dat",
+            "titcabin.dat",
             "cilind4p.dat",
             "comprtm.dat",
             "comprtp.dat",
             "alfacuna.dat",
+            "alfa_eje.dat",
             "ejealfa.dat",
             "escaler2.dat",
             "fusil.dat",
             "alfagarf.dat",
+            "htit2.dat",
+            "htit1.dat",
+            "htitbrzd.dat",
+            "htitbrzi.dat",
+            "htitcab1.dat",
+            "htitcab2.dat",
+            "htitcapi.dat",
             "htitcabr.dat",
+            "htitentr.dat",
+            "htitmand.dat",
+            "htitmani.dat",
+            "htitpies.dat",
+            "htittron.dat",
+            "alfalln1.dat",
+            "alfalln2.dat",
             "manguera.dat",
             "mochila1.dat",
             "mochila2.dat",
@@ -14933,6 +14962,7 @@
             "modmedca.dat",
             "modmedpa.dat",
             "alfamotr.dat",
+            "neumtita.dat",
             "alfapare.dat",
             "alfparcv.dat",
             "alfparsv.dat",
@@ -14963,8 +14993,8 @@
         ],
         "Micro": [
             "aduanabr.dat",
-            "aduana.dat",
             "aduanasp.dat",
+            "aduana.dat",
             "aspamic1.dat",
             "aspamic2.dat",
             "chasis2.dat",
@@ -14998,6 +15028,7 @@
             "vntsafar.dat",
             "minigrua.dat",
             "helice.dat",
+            "plmgrand.dat",
             "plmghoja.dat",
             "plmgtrnc.dat",
             "plmbase.dat",
@@ -15062,6 +15093,7 @@
             "pinzaesq.dat",
             "ramplanz.dat",
             "remtcoht.dat",
+            "rueairj2.dat",
             "rueastro.dat",
             "rueasneu.dat",
             "ruecosmi.dat",
@@ -15093,19 +15125,9 @@
         "Titanium": [
             "titalaiz.dat",
             "titsoprt.dat",
-            "titcabin.dat",
+            "alfachas.dat",
             "faroslzt.dat",
-            "htit1.dat",
-            "htit2.dat",
-            "htitbrzd.dat",
-            "htitbrzi.dat",
-            "htitcab1.dat",
-            "htitcab2.dat",
-            "htitentr.dat",
-            "htitmand.dat",
-            "htitmani.dat",
-            "htitpies.dat",
-            "htittron.dat",
+            "alfaneum.dat",
             "titsilla.dat",
             "titcrist.dat",
             "titmarco.dat"
@@ -15186,13 +15208,13 @@
         "Escorpión": [
             "antena.dat",
             "asiescor.dat",
+            "canontnq.dat",
             "cadcanon.dat",
             "cadcobra.dat",
             "cadcombi.dat",
             "cadmisil.dat",
             "cadcorta.dat",
             "cadlarga.dat",
-            "canontnq.dat",
             "conotanq.dat",
             "deposito.dat",
             "ejecaden.dat",
@@ -15235,14 +15257,14 @@
             "barca.dat",
             "ancl1x2.dat",
             "ancla1x2.dat",
-            "camionsp.dat",
-            "camion.dat",
-            "camion2.dat",
             "canongrn.dat",
             "canongrb.dat",
             "canongrt.dat",
             "canonmed.dat",
             "canonpeq.dat",
+            "camionsp.dat",
+            "camion.dat",
+            "camion2.dat",
             "castillo.dat",
             "castesqu.dat",
             "chimenea.dat",
@@ -15303,7 +15325,6 @@
             "landes.dat",
             "landesld.dat",
             "landesse.dat",
-            "mastg265.dat",
             "mastilh.dat",
             "mastilm.dat",
             "mastbase.dat",
@@ -15317,6 +15338,7 @@
             "mastg150.dat",
             "mastg170.dat",
             "mastg190.dat",
+            "mastg265.dat",
             "misiles.dat",
             "misilesc.dat",
             "misilese.dat",
@@ -15517,7 +15539,6 @@
             "baldgord.dat",
             "chimbald.dat",
             "chimplac.dat",
-            "placa1c.dat",
             "placa10.dat",
             "placa12.dat",
             "placa3.dat",
@@ -15525,7 +15546,7 @@
             "placa4e.dat",
             "placa8c.dat",
             "placa8.dat",
-            "placacil.dat",
+            "placa1c.dat",
             "placarv2.dat",
             "placa1.dat",
             "placa15.dat",
@@ -15542,6 +15563,7 @@
             "alfaplac.dat",
             "placalfa.dat",
             "placacty.dat",
+            "chimplam.dat",
             "popa6p.dat",
             "popa8p.dat",
             "popa4p.dat",
@@ -15552,13 +15574,11 @@
         ],
         "Aire": [
             "aspa1.dat",
-            "alfachas.dat",
             "cilindr2.dat",
             "cilindr.dat",
             "cilintap.dat",
             "eje15.dat",
             "eje26.dat",
-            "alfa_eje.dat",
             "gruastro.dat",
             "helala.dat",
             "aspa.dat",
@@ -15567,19 +15587,16 @@
             "helcab.dat",
             "helcabcr.dat",
             "helcol.dat",
-            "helirotr.dat",
             "helcolhu.dat",
             "helireje.dat",
             "helillnt.dat",
             "helmando.dat",
             "helineum.dat",
             "helpata.dat",
+            "helirotr.dat",
             "helrueda.dat",
             "airsillo.dat",
             "helisprt.dat",
-            "alfalln1.dat",
-            "alfalln2.dat",
-            "alfaneum.dat",
             "rotorinf.dat",
             "rotorsup.dat",
             "sillastr.dat",
@@ -15600,9 +15617,9 @@
             "chimmach.dat",
             "cunad1.dat",
             "cunad2.dat",
+            "cuna2x2e.dat",
             "cunad4.dat",
             "cunad8.dat",
-            "cuna2x2e.dat",
             "macecun2.dat",
             "plac2m.dat",
             "plac2x10.dat",
@@ -15610,12 +15627,10 @@
             "pang2x4i.dat",
             "placurd2.dat",
             "placlin2.dat",
-            "plmgrand.dat",
             "remateb2.dat",
             "rematl42.dat",
             "tejls2x1.dat",
             "tetonesp.dat",
-            "tetonsin.dat",
             "trapesqu.dat"
         ],
         "Dark": [
@@ -15623,16 +15638,15 @@
             "barandil.dat",
             "bis1aba.dat",
             "bis1arr.dat",
-            "cabantrr.dat",
             "canonom.dat",
+            "cabantrr.dat",
             "castill1.dat",
             "castrinc.dat",
-            "chimplam.dat",
             "ciws.dat",
             "ciws2.dat",
+            "cuna1.dat",
             "cunaesq.dat",
             "cunaesq2.dat",
-            "cuna1.dat",
             "enganc1m.dat",
             "enganc3a.dat",
             "enganc3b.dat",
@@ -15658,7 +15672,6 @@
             "proa4pmd.dat",
             "proa4pmi.dat",
             "proa8.dat",
-            "proa8rem.dat",
             "popa4qui.dat",
             "rcurva45.dat",
             "ram.dat",
@@ -15715,7 +15728,6 @@
             "alfajacn.dat",
             "rallado1.dat",
             "rallado2.dat",
-            "rueairj2.dat",
             "rueruj2l.dat",
             "ruerj42l.dat",
             "rueruj2t.dat",

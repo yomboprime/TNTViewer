@@ -1,6 +1,7 @@
 0 Etiqueta Flecha 2x2
 0 Name: flecha2.dat
 0 Author: cpcbegin
+0 !LDRAW_ORG Unofficial_Part
 0 BFC CERTIFY CW
 3 16 -1.39493 19.8361 0 -20 0 0 -1.37405 -19.8361 0
 4 16 -1.37405 -9.18033 0 20 -9.01639 0 20 9.34426 0 -1.37405 9.67213 0

@@ -1,10 +1,10 @@
 0 Curva 1 punto izquierda   :X
 0 Name: curv1iz.dat
 0 Author: jasolo & rosaspage
-0 ROTATION CENTER 0 0 -60 1 "Eje_Almena" 
-0 ROTATION CONFIG 1 1
 0 !LDRAW_ORG Unofficial_Part
 0 BFC CERTIFY CCW
+0 ROTATION CENTER 0 0 -60 1 "Eje_Almena" 
+0 ROTATION CONFIG 1 1
 3 16 12.02 -35 3.25 10.77 -35 6.25 6.27 -35 10.75
 3 16 -10.73 -35 -6.25 -8.98 -35 -8.75 -6.23 -35 -10.75
 3 16 8.77 -35 8.75 6.27 -35 10.75 10.77 -35 6.25

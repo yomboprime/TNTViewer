@@ -1,7 +1,9 @@
 0 Etiqueta MasterCaptor bandas
 0 Name: p_mcband.dat
 0 Author: svlopez
+0 !LDRAW_ORG Unofficial_Part
 0 BFC CERTIFY CW
+
 4 0 1.43 21 0 15.21 0 0 29.33 0 0 15.21 21 0
 4 0 78.57 21 0 64.79 21 0 50.67 0 0 64.79 0 0
 3 0 40 4.79 0 50.67 21 0 29.33 21 0

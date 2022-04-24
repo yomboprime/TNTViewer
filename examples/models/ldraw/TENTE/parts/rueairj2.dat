@@ -1,11 +1,11 @@
-0 Rueda Aire montada en j�cena 2x2     |S:S|M:M
+0 Rueda Aire montada en jÃ¡cena 2x2     |S:S|M:M
 0 Name: rueairj2.dat
 0 Author: jasolo
 0 !LDRAW_ORG Unofficial_Part
+0 BFC CERTIFY CCW
 1 0 0 0 0 1 0 0 0 1 0 0 0 1 jacn2x2a.dat
 1 383 0 -8 0 1 0 0 0 1 0 0 0 1 eje26.dat
 1 16 21 2 0 1 0 0 0 1 0 0 0 1 helillnt.dat
 1 256 16 -33 20 1 0 0 0 1 0 0 0 1 helineum.dat
 1 16 -21 2 0 -1 0 0 0 1 0 0 0 -1 helillnt.dat
 1 256 -16 -33 -20 -1 0 0 0 1 0 0 0 -1 helineum.dat
-0

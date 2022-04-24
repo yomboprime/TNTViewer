@@ -1,7 +1,9 @@
 0 Etiqueta Helitron Pie
 0 Name: p_helpie.dat
 0 Author: svlopez
+0 !LDRAW_ORG Unofficial_Part
 0 BFC CERTIFY CW
+
 4 14 1.08 1.32 0 21.36 1.32 0 21.36 9.6 0 1.08 9.6 0
 4 14 1.08 11.04 0 21.36 11.04 0 21.36 19.32 0 1.08 19.32 0
 4 14 1.08 20.76 0 21.36 20.76 0 21.36 29.04 0 1.08 29.04 0

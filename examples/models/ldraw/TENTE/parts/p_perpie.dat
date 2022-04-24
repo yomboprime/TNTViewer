@@ -1,7 +1,9 @@
 0 Etiqueta Persus Pie
 0 Name: p_perpie.dat
 0 Author: svlopes
+0 !LDRAW_ORG Unofficial_Part
 0 BFC CERTIFY CW
+
 4 4 11.55 2.31 0 13.53 2.31 0 13.53 22.77 0 11.55 22.77 0
 4 4 11.44 22.77 0 13.53 22.77 0 13.53 22.99 0 11.44 22.99 0
 4 4 11.33 22.99 0 13.53 22.99 0 13.53 23.1 0 11.33 23.1 0

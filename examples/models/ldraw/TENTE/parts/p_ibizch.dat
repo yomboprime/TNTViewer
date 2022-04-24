@@ -1,7 +1,9 @@
 0 Etiqueta Ibiza Chimenea
 0 Name: p_ibizch.dat
 0 Author: svlopez
+0 !LDRAW_ORG Unofficial_Part
 0 BFC CERTIFY CW
+
 4 15 8.14 2.64 0 9.57 2.64 0 9.57 2.75 0 8.14 2.75 0
 4 15 7.37 2.75 0 10.45 2.75 0 10.45 2.86 0 7.37 2.86 0
 4 15 6.93 2.86 0 10.89 2.86 0 10.89 2.97 0 6.93 2.97 0

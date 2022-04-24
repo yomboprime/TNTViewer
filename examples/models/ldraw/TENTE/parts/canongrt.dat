@@ -1,10 +1,10 @@
-0 Canon grande tubos     |M:M
+0 Cañón grande tubos     |M:M
 0 Name: canongrt.dat
 0 Author: jasolo
-0 ROTATION CENTER 0 -18.5 -15.725 0 "EjeTubos" 
-0 ROTATION CONFIG 1 0
 0 !LDRAW_ORG Unofficial_Part
 0 BFC CERTIFY CCW
+0 ROTATION CENTER 0 -18.5 -15.725 0 "EjeTubos" 
+0 ROTATION CONFIG 1 0
 4 16 2.83 -15.67 -40.73 2.83 -15.67 -13.22 3.7 -16.97 -13.22 3.7 -16.97 -40.73
 4 16 3.7 -16.97 -40.73 3.7 -16.97 -13.22 4 -18.5 -13.22 4 -18.5 -40.73
 4 16 4 -18.5 -40.73 4 -18.5 -13.22 3.7 -20.03 -13.22 3.7 -20.03 -40.73

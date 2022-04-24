@@ -1,7 +1,9 @@
 0 EtiqueDark Telefono
 0 Name: telefono.dat
 0 Author: cpcbegin
+0 !LDRAW_ORG Unofficial_Part
 0 BFC CERTIFY CW
+
 4 15 59.333 -22.061 0 56 -22.061 0 56 -21.818 0 59.333 -21.818 0
 4 15 60.667 -21.818 0 55 -21.818 0 55 -21.576 0 60.667 -21.576 0
 4 15 61.333 -21.576 0 55 -21.576 0 55 -21.333 0 61.333 -21.333 0

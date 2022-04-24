@@ -1,7 +1,9 @@
 0 Etiqueta Transcomputer pantalla
 0 Name: p_tcpant.dat
 0 Author: svlopez
+0 !LDRAW_ORG Unofficial_Part
 0 BFC CERTIFY CW
+
 4 1 0 0 0 56.6 0 0 56.6 0.6 0 0 0.6 0
 4 1 0 0.6 0 0.7 0.6 0 0.7 0.7 0 0 0.7 0
 4 1 0.7 0.6 0 0.8 0.6 0 0.8 0.7 0 0.7 0.7 0

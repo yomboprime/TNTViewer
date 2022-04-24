@@ -1,7 +1,9 @@
 0 Etiqueta Puerta Doble Fire Station		|C:C
 0 Name: prtdobfs.dat
 0 Author: jasolo
+0 !LDRAW_ORG Unofficial_Part
 0 BFC CERTIFY CCW
+
 3 0 15.257 -50.686 -0.1 15.814 -53.778 -0.1 15.257 -54.702 -0.1
 3 0 15.257 -50.686 -0.1 15.814 -50.686 -0.1 15.814 -53.778 -0.1
 3 0 15.814 -53.778 -0.1 15.729 -54.702 -0.1 15.257 -54.702 -0.1

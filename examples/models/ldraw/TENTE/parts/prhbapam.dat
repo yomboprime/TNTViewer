@@ -1,7 +1,9 @@
 0 Etiqueta Prohibido Aparcar Micro		|C:C
 0 Name: prhbapam.dat
 0 Author: jasolo
+0 !LDRAW_ORG Unofficial_Part
 0 BFC CERTIFY CCW
+
 4 4 9.701 4.018 -0.1 10.298 2.048 -0.1 7.851 1.562 -0.1 7.396 3.063 -0.1
 4 4 0 -10.5 -0.1 -2.048 -10.298 -0.1 -1.562 -7.851 -0.1 0 -8.005 -0.1
 4 4 -8.73 5.833 -0.1 -7.425 7.425 -0.1 -5.661 5.661 -0.1 -6.656 4.447 -0.1

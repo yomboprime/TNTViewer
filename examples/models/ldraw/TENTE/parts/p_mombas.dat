@@ -1,7 +1,9 @@
 0 Etiqueta Ruta Mombasa
 0 Name: p_mombas.dat
 0 Author: svlopez
+0 !LDRAW_ORG Unofficial_Part
 0 BFC CERTIFY CW
+
 4 383 58.8 2.8 0 58.9 2.8 0 58.9 2.9 0 58.8 2.9 0
 4 399 58.9 2.8 0 59 2.8 0 59 2.9 0 58.9 2.9 0
 4 271 59 2.8 0 59.2 2.8 0 59.2 2.9 0 59 2.9 0

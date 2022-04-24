@@ -3,12 +3,10 @@
 0 Author: betatron
 0 !LDRAW_ORG Unofficial_Part
 0 !LICENSE Redistributable under CCAL version 2.0 : see CAreadme.txt
-0 ROTATION CENTER 0 0 0 1 "Custom" 
-0 ROTATION CONFIG 0 0
+0 BFC CERTIFY CCW
 1 16 -10 32 0 1 0 0 0 1 0 0 0 1 cabnuear.dat
 1 16 -10 40 0 1 0 0 0 1 0 0 0 1 capo.dat
 1 16 -10 40 0 1 0 0 0 1 0 0 0 1 cabnuebs.dat
 1 16 -10 40 0 1 0 0 0 1 0 0 0 1 cabnuesp.dat
 1 16 -10 40 0 1 0 0 0 1 0 0 0 1 cabnuept.dat
 1 47 -10 32 0 1 0 0 0 1 0 0 0 1 cabnuecr.dat
-0

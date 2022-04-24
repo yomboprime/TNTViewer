@@ -280,7 +280,7 @@ function init() {
 	lDrawLoader = new LDrawLoader();
 	lDrawLoader.smoothNormals = true;
 	lDrawLoader.setPath( getLibraryPath( currentConstructionSet ) );
-	lDrawLoader.preloadMaterials( 'LDCONFIG.LDR' ).then( () => {
+	lDrawLoader.preloadMaterials( 'LDConfig.ldr' ).then( () => {
 
 		lDrawLoader.setPartsLibraryPath( getLibraryPath( currentConstructionSet ) );
 		lDrawLoader.setPath( getModelPath( currentConstructionSet ) );
@@ -375,9 +375,9 @@ function init() {
 				fileAuthor: '',
 				modelBboxInfo: '',
 				exportScale: exportScale,
-				exportGLTF: () => { exportModel( 'gltf' ); },
-				exportDAE: () => { exportModel( 'dae' ); },
-				exportOBJ: () => { exportModel( 'obj' ); },
+				exportGLTF: () => { exportModelFormat( 'gltf' ); },
+				exportDAE: () => { exportModelFormat( 'dae' ); },
+				exportOBJ: () => { exportModelFormat( 'obj' ); },
 				showBOM: showBOM,
 				generatePartsThumnbnails: generatePartsThumnbnailsFunc,
 				translationSnap: translationSnap,
@@ -793,11 +793,11 @@ function loadLDrawModelFromRepo( modelFileName, parentModel, onLoaded ) {
 
 }
 
-function exportModel( format ) {
+function exportModelFormat( format ) {
 
 	const scale = constructionSets[ currentConstructionSet ].scale * guiData.exportScale;
 
-	if ( selection.count !== 1 ) {
+	if ( selection.length !== 1 ) {
 
 		alert( "Please select exactly one model to export." );
 		return;
@@ -3158,6 +3158,8 @@ function generatePartsThumnbnailsFunc() {
 
 	updateProgressBar( 0 );
 	showProgressBar()
+
+const ii = dataBase.partsPathsList.indexOf( 'gruatamb.dat' );
 
 	generatePartsThumnbnails( 128, 128, renderer, lDrawLoader, dataBase.partsPathsList, processPartOrModel,
 		( fraction ) => {

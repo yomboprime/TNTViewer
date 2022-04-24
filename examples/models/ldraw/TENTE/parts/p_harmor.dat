@@ -1,7 +1,9 @@
 0 Etiqueta Hardtron Robot Morro
 0 Name: p_harmor.dat
 0 Author: svlopez
+0 !LDRAW_ORG Unofficial_Part
 0 BFC CERTIFY CW
+
 4 14 41.03 6.71 0 41.25 6.71 0 41.25 6.82 0 41.03 6.82 0
 4 14 40.92 6.82 0 41.36 6.82 0 41.36 6.93 0 40.92 6.93 0
 4 14 40.81 6.93 0 41.47 6.93 0 41.47 7.04 0 40.81 7.04 0

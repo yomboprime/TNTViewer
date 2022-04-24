@@ -1,7 +1,9 @@
 0 Etiqueta Helitron Interior
 0 Name: p_helint.dat
 0 Author: svlopez
+0 !LDRAW_ORG Unofficial_Part
 0 BFC CERTIFY CW
+
 4 4 1.44 0.6 0 4.92 0.6 0 4.92 0.72 0 1.44 0.72 0
 4 4 9.96 0.6 0 27.12 0.6 0 27.12 0.72 0 9.96 0.72 0
 4 4 0.96 0.72 0 5.4 0.72 0 5.4 0.84 0 0.96 0.84 0

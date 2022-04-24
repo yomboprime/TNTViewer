@@ -3,7 +3,7 @@ Accesorios Alfa Cono	pivote.dat
 Accesorios Alfa Escalera	escaler2.dat
 Accesorios Alfa Fusil	rifle.dat
 Accesorios Alfa Fusil con Mira	alfasens.dat
-Accesorios Alfa Maleta Ruedas
+Accesorios Alfa Maleta Ruedas	
 Accesorios Alfa Manguera Mochila Bombero	manguera.dat
 Accesorios Alfa Martillo Neumático	taladro.dat
 Accesorios Alfa Mochila Bombero	mochila2.dat
@@ -13,7 +13,7 @@ Accesorios Alfa Tenazas Obras	tenazas.dat
 Accesorios Alfa Valla	vallaobr.dat
 Accesorios Ruta2 Fusil	fusil.dat
 Accesorios Ruta2 Máscara Anti-gas	mascara.dat
-Accesorios Ruta2 Mochila
+Accesorios Ruta2 Mochila	mochila4.dat
 Ala Astro	alaastro.dat
 Ala Helicóptero	helala.dat
 Ala Skymaster	alaskyms.dat
@@ -99,6 +99,15 @@ Camión	camion.dat
 Cañón Tanque	canontnq.dat
 Capó Ruta 2	capo.dat
 Cepillo	escobill.dat
+Chasis 2 puntos	chasis2.dat
+Chasis 3 puntos con ruedas	chasis3r.dat
+Chasis 4 puntos con ruedas	chasis4r.dat
+Chasis Titanium	alfachas.dat
+Chimenea cuadrada	chimcua2.dat
+Chimenea placa	chimplac.dat
+Chimenea remate	chimenea.dat
+Chimenea Titanic	chimttnc.dat
+Chimenea Tubo	chimtubo.dat
 Cilindro 1 punto	cilindro.dat
 Cilindro 2 puntos Inferior Curvo	cilindab.dat
 Cilindro 2 Puntos Inferior Jácena	cilindab2.dat
@@ -110,14 +119,11 @@ Cirrevol 6 puntos	cirrevog.dat
 Cola Helicóptero	helcol.dat
 Cola Helicóptero Arriostrada	helcolhu.dat
 Cono Tanque	conotanq.dat
-Chasis 2 puntos	chasis2.dat
-Chasis 3 puntos con ruedas	chasis3r.dat
-Chasis 4 puntos con ruedas	chasis4r.dat
-Chasis Titanium	alfachas.dat
-Chimenea placa	chimplac.dat
-Chimenea remate	chimenea.dat
-Chimenea Titanic	chimttnc.dat
-Chimenea Tubo	chimtubo.dat
+Cuña 2 alturas (1x1)	cunad1.dat
+Cuña 2 alturas (1x2)	cunad2.dat
+Cuña 2 alturas (1x4)	cunad4.dat
+Cuña 2 alturas (1x8)	cunad8.dat
+Cuña esquinera	picoesq.dat
 Depósito Ruta	deposito.dat
 Elevador Micro Base	elevad1.dat
 Elevador Micro Eje	elevad2.dat
@@ -131,15 +137,15 @@ Faros Ruta	paracq21.dat
 Faros Titanium	faros.dat
 Figura Articulada Brazo Derecho	htitbrzd.dat
 Figura Articulada Brazo Izquierdo	htitbrzi.dat
-Figura Articulada Cabeza Bombero Alfa
-Figura Articulada Cabeza Bombero Ruta 2
+Figura Articulada Cabeza Bombero Alfa	
+Figura Articulada Cabeza Bombero Ruta 2	
 Figura Articulada Cabeza Desnuda	htitcab2.dat
-Figura Articulada Cabeza Mecánico Alfa
-Figura Articulada Cabeza Obras Ruta 2
-Figura Articulada Cabeza Piloto Alfa
-Figura Articulada Cabeza Policía Alfa
+Figura Articulada Cabeza Mecánico Alfa	
+Figura Articulada Cabeza Obras Ruta 2	
+Figura Articulada Cabeza Piloto Alfa	htitcapi.dat
+Figura Articulada Cabeza Policía Alfa	
 Figura Articulada Cabeza Titanium Cuadrada	htitcab1.dat
-Figura Articulada Cabeza Titanium Redonda
+Figura Articulada Cabeza Titanium Redonda	htitcabr.dat
 Figura Articulada Completa	htit2.dat
 Figura Articulada Mano Derecha	htitmand.dat
 Figura Articulada Mano Izquierda	htitmani.dat
@@ -147,16 +153,16 @@ Figura Articulada Piernas	htitpies.dat
 Figura Articulada Tronco	htittron.dat
 Figura Astronauta 1 punto dorsal	astronau.dat
 Figura Astronauta Clásico	astronav.dat
-Figura Helicóptero Militar 1
-Figura Helicóptero Militar 2
-Figura Helicóptero Piloto 1
-Figura Helicóptero Piloto 2
-Figura Marciano
-Figura Scorpión Conductor
-Figura Scorpión Soldado
-Figura Scorpión Tanquista
+Figura Helicóptero Militar 1	
+Figura Helicóptero Militar 2	
+Figura Helicóptero Piloto 1	
+Figura Helicóptero Piloto 2	
+Figura Marciano	
+Figura Scorpión Conductor	
+Figura Scorpión Soldado	
+Figura Scorpión Tanquista	
 Gancho 4 puntos	alfagarf.dat
-Grúa Alfa
+Grúa Alfa	
 Grúa Astro	gruastro.dat
 Grúa Mar Articulada	grua.dat
 Grúa Mar Articulada Base	gruab.dat
@@ -174,16 +180,18 @@ Grúa Ruta 2 Hilo	gruahilo.dat
 Grúa Ruta 2 Pluma 1	grua1.dat
 Grúa Ruta 2 Pluma 2	grua2.dat
 Grúa Ruta 2 Polea	gruaremt.dat
-Grúa Ruta 2 Tambor	gruatorn.dat
+Grúa Ruta 2 Tambor	gruatamb.dat
 Grúa Ruta 2 Tambor Soporte	gruators.dat
 Grúa Ruta 2 Tope	gruatop1.dat
+Grúa Ruta 2 Tornillo	gruator.dat
+Grúa Ruta 2 Tornillo y Tambor	gruatorn.dat
 Guardabarros	guardabr.dat
 Helicóptero Eje Rueda	helireje.dat
 Helicóptero Mar Doble	helicop2.dat
 Helicóptero Mar Rotor	heliaspa.dat
 Helicóptero Mar Simple	helicop1.dat
-Helicóptero Micro 1
-Helicóptero Micro 2
+Helicóptero Micro 1	
+Helicóptero Micro 2	
 Helicóptero Micro Rotor	aspamic2.dat
 Hidráulico Camisa	extenmed.dat
 Hidráulico Fijación Inferior	extenabj.dat
@@ -214,6 +222,8 @@ Latiguillo	tbrecto.dat
 Latiguillo Enganche Lateral	tbscorec.dat
 Llanta Astro	ejeastr4.dat
 Llanta Astro con Agujero	ejeastr1.dat
+Llanta Astro de Hasbro	ejeastr3.dat
+Llanta Hasbro	llanthas.dat
 Llanta Oruga	llantnq.dat
 Llanta Roblock	llantrob.dat
 Llanta Rueda Compuesta Cosmic Interior	ejecosm1.dat
@@ -224,6 +234,7 @@ Llanta Ruta 2	nrutllnt.dat
 Llanta Ruta Tetón	llanrutt.dat
 Llanta Titanium	alfalln1.dat
 Llanta Variant	llantaxt.dat
+Macetero cuña	macecun2.dat
 Mástil (hembra)	mastilh.dat
 Mástil (macho)	mastilm.dat
 Mástil base	mastbase.dat
@@ -244,14 +255,16 @@ Módulo Mando Alfa Joystick	modmandj.dat
 Módulo Médico Alfa	modmedic.dat
 Módulo Médico Alfa Camilla	modmedca.dat
 Motor a Pilas	motor.dat
-Motor Ruta 2
+Motor Ruta 2	
 Motor Titanium	alfamotr.dat
 Neumático Helicóptero	helineum.dat
 Neumático Ruta	ruta21nm.dat
 Neumático Ruta 2	nrutneum.dat
 Neumático Scorpión	neumtter.dat
 Neumático Titanium	alfaneum.dat
+Neumático Titanium sin Logos	neumtita.dat
 Neumático Variant	neumaxt.dat
+Nombre	Imagen
 Pala Excavadora	palaexcv.dat
 Pala Helicóptero	aspa.dat
 Palmera grande hoja	plmghoja.dat
@@ -295,7 +308,42 @@ Placa 4	placa4.dat
 Placa 4x6	placa4x6.dat
 Placa 4x8	placa4x8.dat
 Placa 6x8	placa6x8.dat
+Placa ángulo dcha	pang2x4d.dat
+Placa ángulo izda	pang2x4i.dat
+Placa baranda 1x2 lisa	remateb2.dat
+Placa baranda 1x2 tetón	remate_1.dat
 Placa Base Habitáculo Alfa	placalfa.dat
+Placa borde largo curvo	bald2r2.dat
+Placa chimenea lisa	chimbald.dat
+Placa chimenea macho-macho	chimmach.dat
+Placa compatible Lego-Tente 2x1	plalete2.dat
+Placa compatible Tente-Lego 2x1	platele2.dat
+Placa corredera 1x2	placa2c.dat
+Placa corredera 1x8	placa8c.dat
+Placa curva 2 alturas	placurd2.dat
+Placa dos alturas lisa	placadl2.dat
+Placa especial 1x4 (2 tetones)	placa4e.dat
+Placa gruesa lisa 1x2	placgor2.dat
+Placa lingote adaptada	placlin2.dat
+Placa lisa 1x3	bald3.dat
+Placa lisa 1x4	bald4.dat
+Placa lisa 1x8	bald8.dat
+Placa lisa 2x3	bald2x3.dat
+Placa lisa 2x4	bald2x4.dat
+Placa lisa 2x8	bald2x8.dat
+Placa macho-macho 1x3	placa3m.dat
+Placa normal 1x10	placa10.dat
+Placa normal 1x12	placa12.dat
+Placa normal 1x3	placa3.dat
+Placa normal 1x8	placa8.dat
+Placa normal 2x10	plac2x10.dat
+Placa rallada vertical	placral2.dat
+Placa rallada vertical relieve	placarv2.dat
+Placa rayada horizontal	bald2ry.dat
+Placa redonda con tetón	placacil.dat
+Placa redonda lisa	baldcil.dat
+Placa tejado 1x2	tejls2x1.dat
+Placa tetón central	plac2m.dat
 Plantas Micro	plantas.dat
 Popa 4 puntos	popa4.dat
 Popa 4 puntos placa	popa4p.dat
@@ -383,6 +431,7 @@ Tejado 8x2 puntos	tejado8.dat
 Tejado 8x2 puntos remate	tejador8.dat
 Tejado Micro 2 puntos	tejamcr2.dat
 Tejado Micro 3 puntos	tejamcr3.dat
+Tetón especial	tetonesp.dat
 Tobera Astro	toberast.dat
 Tobera Titanium	alfaturb.dat
 Toma de Aire Ruta 2	tuboruta.dat
@@ -391,6 +440,7 @@ Torre Micro	torremcr.dat
 Torreta Antiaéreos	canonpeq.dat
 Torreta Doble Cañón	canonmed.dat
 Torreta Triple Cañón	canongrn.dat
+Trapecio esquinero	trapesqu.dat
 Tubo Escape Recto	tbescrct.dat
 Tubo Escape Recto 2	tbescrc2.dat
 Tubo Escape Ruta 2	tbescdbl.dat

@@ -1,5 +1,6 @@
 0 Etiqueta B (Pico) Scorpiones
 0 Name: scorpb2.dat
 0 Author: jasolo
-0 BFC CERTIFY CCW 
+0 !LDRAW_ORG Unofficial_Part
+0 BFC CERTIFY CCW
 1 15 0 -8 -20 1 0 0 0 0.768221 0.640184 0 -0.640184 0.768221 scorpb.dat

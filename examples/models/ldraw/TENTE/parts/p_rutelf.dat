@@ -1,7 +1,9 @@
 0 Etiqueta Ruta Elf
 0 Name: p_rutelf.dat
 0 Author: svlopez
+0 !LDRAW_ORG Unofficial_Part
 0 BFC CERTIFY CW
+
 4 0 33.77 12.98 0 35.53 12.98 0 35.53 13.09 0 33.77 13.09 0
 4 0 33 13.09 0 36.3 13.09 0 36.3 13.2 0 33 13.2 0
 4 0 32.45 13.2 0 36.52 13.2 0 36.52 13.31 0 32.45 13.31 0

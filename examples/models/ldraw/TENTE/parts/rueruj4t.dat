@@ -2,10 +2,10 @@
 0 Name: rueruj4t.dat
 0 Author: CPCBEGIN
 0 !LDRAW_ORG Unofficial_Part
+0 BFC CERTIFY CCW
 1 383 0 16.5 0 1 0 0 0 1 0 0 0 1 eje45.dat
 1 16 -41 24 20 1 0 0 0 1 0 0 0 1 llanrutt.dat
 1 256 -41 24 20 1 0 0 0 1 0 0 0 1 ruta21nm.dat
 1 16 41 24 -20 -1 0 0 0 1 0 0 0 -1 llanrutt.dat
 1 256 41 24 -20 -1 0 0 0 1 0 0 0 -1 ruta21nm.dat
 1 0 0 24 0 1 0 0 0 1 0 0 0 1 jacn4a.dat
-0

@@ -1,10 +1,10 @@
-0 Aduana bARRA     |C:C
-0 Name: aduanaBR.dat
+0 Aduana barra     |C:C
+0 Name: aduanabr.dat
 0 Author: rufohg & jasolo
-0 ROTATION CENTER -25 -24 10 1 "Eje"
-0 ROTATION CONFIG 1 1
 0 !LDRAW_ORG Unofficial_Part
 0 BFC CERTIFY CCW
+0 ROTATION CENTER -25 -24 10 1 "Eje"
+0 ROTATION CONFIG 1 1
 3 16 -26.298 -28.853 2.5 -25 -29.023 -12.5 -25 -29.023 5
 3 16 -25 -29.023 5 -26.298 -28.853 5 -26.298 -28.853 2.5
 3 16 -26.298 -28.853 2.5 -26.718 -28.72 2.5 -26.718 -28.72 -12.5

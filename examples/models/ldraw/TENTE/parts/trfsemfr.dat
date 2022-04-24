@@ -1,4 +1,4 @@
-0 Tráfico Semáforo	|R:R
+0 Trafico Semaforo	|R:R
 0 Name: trfsemfr.dat
 0 Author: jasolo
 0 !LDRAW_ORG Unofficial_Part
@@ -7,4 +7,3 @@
 1 7 10 -13 10 1 0 0 0 1 0 0 0 1 trfposte.dat
 1 7 10 -126.5 4 0 0 1 1 0 0 0 1 0 trfsemfc.dat
 1 7 10 -146.5 -4 0 0 1 1 0 0 0 1 0 trfsemfl.dat
-0

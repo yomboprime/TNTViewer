@@ -1,7 +1,9 @@
 0 Etiqueta Circuito Roblock
 0 Name: p_helcir.dat
 0 Author: svlopez
+0 !LDRAW_ORG Unofficial_Part
 0 BFC CERTIFY CW
+
 4 16 7.7 3.52 0 16.72 3.52 0 16.72 3.63 0 7.7 3.63 0
 4 16 7.26 3.63 0 17.16 3.63 0 17.16 3.74 0 7.26 3.74 0
 4 16 7.04 3.74 0 17.38 3.74 0 17.38 3.85 0 7.04 3.85 0

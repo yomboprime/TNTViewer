@@ -1,7 +1,9 @@
 0 Etiqueta B Scorpiones
 0 Name: scorpb.dat
 0 Author: jasolo
-0 BFC CERTIFY CCW 
+0 !LDRAW_ORG Unofficial_Part
+0 BFC CERTIFY CCW
+
 0 2 24 2.5 -22 -0.5 2.5 -2 -0.5
 0 2 24 2.5 -22 -0.5 37.5 -22 -0.5
 0 2 24 37.5 -22 -0.5 37.5 -2 -0.5

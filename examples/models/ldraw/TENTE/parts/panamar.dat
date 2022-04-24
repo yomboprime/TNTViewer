@@ -1,7 +1,9 @@
 0 Etiqueta Panamar
 0 Name: panamar.dat
 0 Author: cpcbegin
+0 !LDRAW_ORG Unofficial_Part
 0 BFC CERTIFY CW
+
 4 15 151 -21.4 0 141.4 -21.4 0 141.4 -21.2 0 151 -21.2 0
 4 15 71 -21.4 0 65 -21.4 0 65 -21.2 0 71 -21.2 0
 4 15 56.2 -21.4 0 50.2 -21.4 0 50.2 -21.2 0 56.2 -21.2 0

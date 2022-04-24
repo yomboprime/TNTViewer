@@ -1,7 +1,9 @@
 0 Etiqueta Uranio Grande    |S:S
 0 Name: uraniog.dat
 0 Author: jasolo & cpcbegin
-0 BFC CERTIFY CCW 
+0 !LDRAW_ORG Unofficial_Part
+0 BFC CERTIFY CCW
+ 
 3 16 22.27 -37.1 -76.71 18.44 -37.73 -77.75 22.08 -36.81 -76.73
 3 16 -17.6 -35.65 -77.71 -21.08 -36.03 -76.88 -21 -30.69 -76.27
 3 16 22.89 -37.5 -76.6 18.44 -37.73 -77.75 22.27 -37.1 -76.71

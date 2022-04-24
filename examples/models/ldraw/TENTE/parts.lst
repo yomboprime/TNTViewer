@@ -1,15 +1,15 @@
 acetilen.dat   Acetileno    |F:F                                               
 acetirue.dat   Acetileno Ruedas    |F:F                                        
 acetitub.dat   Acetileno Tubos    |F:F                                         
-aduana.dat     Aduana Soporte     |C:C                                         
 aduanasp.dat   Aduana Soporte     |C:C                                         
-aduanabr.dat   Aduana bARRA     |C:C                                           
+aduana.dat     Aduana Soporte     |C:C                                         
+aduanabr.dat   Aduana barra     |C:C                                           
 alaastro.dat   Ala Astro   |S:S                                                
 titalaiz.dat   Ala Gaviota Izquierda       |T:T                                
-alaafgrn.dat   Ala Grande Alfa    |F:F                                         
-alaafmed.dat   Ala Mediana Alfa    |F:F                                        
-alaafpeq.dat   Ala Mediana Pequena    |F:F                                     
-alaafpnt.dat   Ala Puente Alfa    |F:F                                         
+alaafgrn.dat   Ala Grande Alfa    |F:F|T:T                                     
+alaafmed.dat   Ala Mediana Alfa    |F:F|T:T                                    
+alaafpeq.dat   Ala Mediana Pequena    |F:F|T:T                                 
+alaafpnt.dat   Ala Puente Alfa    |F:F|T:T                                     
 alaskyms.dat   Ala Skymaster   |S:S                                            
 titsoprt.dat   Alas Gaviota Soporte       |T:T                                 
 alero1.dat     Alero 1 punto   :X                                              
@@ -20,9 +20,9 @@ alercoht.dat   Aleron Cohete   |S:S|E:E
 alercoh2.dat   Aleron Cohete 2  |S:S|E:E                                       
 almena1.dat    Almena 1 punto   :X                                             
 almenacg.dat   Almena cuadrada grande    :X                                    
-almenacp.dat   Almena cuadrada peque�a    :X                                   
+almenacp.dat   Almena cuadrada pequeña    :X                                  
 almenarg.dat   Almena redonda grande    :X                                     
-almenarp.dat   Almena redonda peque�a    :X                                    
+almenarp.dat   Almena redonda pequeña    :X                                   
 amortigu.dat   Amortiguador     |B:B                                           
 antena.dat     Antena     |E:E|V:V                                             
 antncruz.dat   Antena Cruz   |M:M                                              
@@ -78,7 +78,7 @@ baldgord.dat   Baldosa gorda
 bald2r2.dat    Baldosin 2 redondeado I.UNITS     |D:D                          
 bandera.dat    Bandera   |M:M                                                  
 bandeale.dat   Bandera Alemania   |M:M                                         
-bandeesp.dat   Bandera Espa�a   |M:M                                           
+bandeesp.dat   Bandera Espaï¿½a   |M:M                                      
 bandefra.dat   Bandera Francia   |M:M                                          
 bandejap.dat   Bandera Japon   |M:M                                            
 bandepan.dat   Bandera Panama   |M:M                                           
@@ -108,12 +108,12 @@ bisnr.dat      Bisagra Normal     |B:B
 bisnraba.dat   Bisagra Normal Abajo    |B:B                                    
 bisnrarr.dat   Bisagra Normal Arriba    |B:B                                   
 bisnreje.dat   Bisagra Normal Eje    |B:B                                      
-bispq.dat      Bisagra Peque�a     |B:B                                        
-bispqaba.dat   Bisagra Peque�a Abajo    |B:B|E:E                               
-bispqarr.dat   Bisagra Peque�a Arriba    |B:B                                  
+bispq.dat      Bisagra Pequeña     |B:B                                       
+bispqaba.dat   Bisagra Pequeña Abajo    |B:B|E:E                              
+bispqarr.dat   Bisagra Pequeña Arriba    |B:B                                 
 ciws.dat       CIWS       |D:D                                                 
 ciws2.dat      CIWS 2       |D:D                                               
-alfacris.dat   Cabina Alfa (mejor usar Titanium)   |F:F                        
+alfacris.dat   Cabina Alfa (mejor usar Titanium)   |F:F|T:T                    
 cabalfab.dat   Cabina Alfa Abajo    |F:F                                       
 cabalfar.dat   Cabina Alfa Arriba    |F:F                                      
 cabalfsg.dat   Cabina Alfa Serigrafia    |F:F                                  
@@ -128,16 +128,16 @@ cabferro.dat   Cabina Ferrocarril Elephant
 cabnueva.dat   Cabina Nueva    |R:R                                            
 cabnuear.dat   Cabina Nueva Arriba   |R:R                                      
 cabnuebs.dat   Cabina Nueva Base    |R:R                                       
-capo.dat       Cabina Nueva Capo    |R:R                                       
-capom.dat      Cabina Nueva Capo morro negro    |R:R                           
+capo.dat       Cabina Nueva Capó    |R:R                                      
+capom.dat      Cabina Nueva Capó morro negro    |R:R                          
 cabnuecr.dat   Cabina Nueva Cristal    |R:R                                    
 cabnuesp.dat   Cabina Nueva Espejo    |R:R                                     
 cabnuepa.dat   Cabina Nueva Parachoques    |R:R                                
 cabnuept.dat   Cabina Nueva Puerta    |R:R                                     
 cabnuevo.dat   Cabina Nueva Volante   |R:R                                     
 cabantrr.dat   Cabina Ruta Rota      |D:D                                      
-titcabin.dat   Cabina Titanium       |T:T                                      
-cadcanon.dat   Cadena Ca�on Autopropulsado    |E:E                             
+titcabin.dat   Cabina Titanium       |T:T|F:F                                  
+cadcanon.dat   Cadena CañÃ³n Autopropulsado    |E:E                         
 cadcobra.dat   Cadena Cobra    |E:E                                            
 cadcombi.dat   Cadena Combi    |E:E                                            
 cadcorci.dat   Cadena Corta Circular    |V:V                                   
@@ -147,30 +147,29 @@ cadlarga.dat   Cadena Tanque Larga    |E:E
 camionsp.dat   Camion sin pegatinas   |M:M|V:V                                 
 camion.dat     Camion tipo 1   |M:M|V:V                                        
 camion2.dat    Camion tipo 2   |M:M|V:V                                        
-canonom.dat    Canon Oto Melara 127mm   |D:D                                   
-canontnq.dat   Canon Tanque      |E:E                                          
-canongrn.dat   Canon grande      |M:M                                          
-canongrb.dat   Canon grande base     |M:M                                      
-canongrt.dat   Canon grande tubos     |M:M                                     
-canonmed.dat   Canon mediano   |M:M                                            
-canonpeq.dat   Canon pequeno   |M:M                                            
 castillo.dat   Castillo   |M:M                                                 
 castill1.dat   Castillo 1   |D:D                                               
-castrinc.dat   Castillo Rincon  |D:D                                           
+castrinc.dat   Castillo Rincón  |D:D                                          
 castesqu.dat   Castillo esquina   |M:M                                         
+canonom.dat    Cañón Oto Melara 127mm   |D:D                                 
+canontnq.dat   Cañón Tanque      |E:E                                        
+canongrn.dat   Cañón grande      |M:M                                        
+canongrb.dat   Cañón grande base     |M:M                                    
+canongrt.dat   Cañón grande tubos     |M:M                                   
+canonmed.dat   Cañón mediano   |M:M                                          
+canonpeq.dat   Cañón pequeño   |M:M                                         
 chasis2.dat    Chasis 2 puntos     |C:C|V:V                                    
 chasis3.dat    Chasis 3 puntos     |C:C|V:V                                    
 chasis3r.dat   Chasis 3 puntos con ruedas     |C:C|V:V                         
 chasis4.dat    Chasis 4 puntos     |C:C|V:V                                    
 chasis4r.dat   Chasis 4 puntos con ruedas     |C:C|V:V                         
-alfachas.dat   Chasis Alfa     |A:A|F:F|V:V|T:T                                
+alfachas.dat   Chasis Alfa     F:F|V:V|T:T                                     
 chasisr1.dat   Chasis Rueda 1     |C:C|V:V                                     
 chasisr2.dat   Chasis Rueda 2     |C:C|V:V                                     
 chimenea.dat   Chimenea   |M:M                                                 
-chimeneg.dat   Chimenea Gu�a Giro   |M:M                                       
+chimeneg.dat   Chimenea GuÃ­a Giro   |M:M                                    
 chimttnc.dat   Chimenea Titanic   |M:M                                         
 chimbald.dat   Chimenea baldosa  I.UNITS                                       
-chimplam.dat   Chimenea p1aca mitad   |D:D                                     
 chimmach.dat   Chimenea macho-macho I.UNITS                                    
 chimplac.dat   Chimenea placa   |M:M                                           
 chimtubo.dat   Chimenea tubo   |M:M                                            
@@ -191,7 +190,7 @@ cirrevog.dat   Cirrevol Grande Limpio   |S:S
 cirrevos.dat   Cirrevol Grande Logo     |S:S                                   
 cirrevol.dat   Cirrevol Grande con Cristal   |S:S                              
 cirrevor.dat   Cirrevol Grande con Logo     |S:S                               
-cirrevop.dat   Cirrevol Peque�o    |S:S                                        
+cirrevop.dat   Cirrevol Pequeño    |S:S                                       
 columna.dat    Columna    :X                                                   
 compuert.dat   Compuerta    |B:B|E:E|V:V                                       
 comprtm.dat    Compuerta Alfa (marco)       |F:F|T:T                           
@@ -199,20 +198,20 @@ comprtp.dat    Compuerta Alfa (puerta)       |F:F|T:T
 conotanq.dat   Cono Tanque   |E:E                                              
 cornisa1.dat   Cornisa 1 punto    :X                                           
 cornisa3.dat   Cornisa 3 puntos    :X                                          
-cunad1.dat     Cuna 1x1 doble altura I.UNITS                                   
-cunad2.dat     Cuna 2x1 doble altura I.UNITS                                   
-cunad4.dat     Cuna 4x1 doble altura I.UNITS                                   
-cunad8.dat     Cuna 8x1 doble altura I.UNITS                                   
-alfacuna.dat   Cuna Alfa    |F:F                                               
-cunaesq.dat    Cuna Esquina      |D:D                                          
-cunaesq2.dat   Cuna Esquina 2      |D:D                                        
-cuna1.dat      Cuna1      |D:D                                                 
+alfacuna.dat   Cuna Alfa    |F:F|T:T                                           
 curv1.dat      Curva 1 punto    :X                                             
 curv1de.dat    Curva 1 punto derecha   :X                                      
 curv1iz.dat    Curva 1 punto izquierda   :X                                    
 curv3.dat      Curva 3 puntos    :X                                            
-cuna.dat       Cu�a      |B:B                                                  
-cuna2x2e.dat   Cu�a 2x2 Elephant                                               
+cuna.dat       Cuña      |B:B                                                 
+cuna1.dat      Cuña 1      |D:D                                               
+cunad1.dat     Cuña 1x1 doble altura I.UNITS                                  
+cunad2.dat     Cuña 2x1 doble altura I.UNITS                                  
+cuna2x2e.dat   Cuña 2x2 Elephant                                              
+cunad4.dat     Cuña 4x1 doble altura I.UNITS                                  
+cunad8.dat     Cuña 8x1 doble altura I.UNITS                                  
+cunaesq.dat    Cuña Esquina      |D:D                                         
+cunaesq2.dat   Cuña Esquina 2      |D:D                                       
 deposito.dat   Deposito      |V:V|R:R|E:E                                      
 eje15.dat      Eje 15mm para helicoptero    |V:V|A:A                           
 eje26.dat      Eje 26mm para helicoptero para 2x2   |V:V|A:A                   
@@ -220,17 +219,17 @@ eje28.dat      Eje 28mm para Ruta 21 y Tobera en jacena2   |V:V|R:R|S:S
 eje45.dat      Eje 45mm para ruedas ruta21 en jacena4    |V:V|R:R              
 eje625.dat     Eje 62.5mm para jacena4 con ruedas balon astro    |V:V|S:S      
 eje75.dat      Eje 75mm Cosmic    |V:V|S:S                                     
-alfa_eje.dat   Eje Alfa     |A:A|F:F|V:V|T:T                                   
+alfa_eje.dat   Eje Alfa     |F:F|V:V|T:T                                       
 ejealfa.dat    Eje Alfa   |F:F                                                 
 ejeastr1.dat   Eje Astro     |S:S                                              
 ejeastr2.dat   Eje Astro Vertical   |S:S                                       
 ejeastr4.dat   Eje Astro Vertical sin Agujero   |S:S                           
 ejecaden.dat   Eje Cadena    |E:E                                              
-ejecadpq.dat   Eje Cadena Peque�o    |E:E                                      
+ejecadpq.dat   Eje Cadena Pequeño    |E:E                                     
 ejecosm2.dat   Eje Cosmic Externo   |S:S                                       
 ejecosm1.dat   Eje Cosmic Interno   |S:S                                       
 ejedbcad.dat   Eje Doble Cadena     |E:E                                       
-ejedbcpq.dat   Eje Doble Cadena Peque�o    |E:E                                
+ejedbcpq.dat   Eje Doble Cadena Pequeño    |E:E                               
 ejemicro.dat   Eje Micro     |D:D                                              
 ejetnqex.dat   Eje Tanque Extremo    |E:E                                      
 ejextro2.dat   Eje Xtronic 2  (duplicado: eje corto Scorpion)                  
@@ -239,7 +238,7 @@ elevad1.dat    Elevador Base   |C:C
 elevad2.dat    Elevador Eje   |C:C                                             
 elevad3.dat    Elevador Palanca   |C:C                                         
 elevad4.dat    Elevador Plataforma   |C:C                                      
-enganc1m.dat   Enganche 1 teton macizo |D:D                                    
+enganc1m.dat   Enganche 1 tetón macizo |D:D                                   
 enganc3a.dat   Enganche 2 tetones juntos |D:D                                  
 enganc3b.dat   Enganche 2 tetones opuestos |D:D                                
 enganc4.dat    Enganche 3 tetones    |D:D                                      
@@ -254,7 +253,7 @@ escotilp.dat   Escotilla Puerta    |E:E
 eslabon.dat    Eslabon Cadena    |E:E                                          
 autolava.dat   EtiqueDark Autolavado                                           
 metro.dat      EtiqueDark Metro                                                
-plzspain.dat   EtiqueDark Plaza de Espa�a (metro)                              
+plzspain.dat   EtiqueDark Plaza de Espaï¿½a (metro)                         
 telefono.dat   EtiqueDark Telefono                                             
 tentexin.dat   EtiqueDark Tente Exin (metro)                                   
 ubuntu.dat     EtiqueDark Ubuntu                                               
@@ -278,7 +277,7 @@ balear.dat     Etiqueta BALEARES
 bcn5.dat       Etiqueta BCN-5                                                  
 bomberos.dat   Etiqueta BOMBEROS                                               
 p_bgrp_3.dat   Etiqueta Blackgun RP 3                                          
-p_bgtria.dat   Etiqueta Blackgun tri�ngulos                                    
+p_bgtria.dat   Etiqueta Blackgun triï¿½ngulos                               
 boomberg.dat   Etiqueta Boomerang (camion sony)                                
 pcabonor.dat   Etiqueta CABO NORTE      |M:M                                   
 campsa.dat     Etiqueta CAMPSA                                                 
@@ -298,7 +297,7 @@ p_hrcua2.dat   Etiqueta Cuadros Robot Hardtron 2
 kcuadros.dat   Etiqueta Cuadros con K                                          
 dianajp.dat    Etiqueta Diana japonesa                                         
 p_heldis.dat   Etiqueta Discos Grandes                                         
-p_perdis.dat   Etiqueta Discos Peque�os                                        
+p_perdis.dat   Etiqueta Discos Pequeños                                       
 enye.dat       Etiqueta E New York Express (camion sony)                       
 eaglrrow.dat   Etiqueta Eagle Arrow (camion sony)                              
 enagas.dat     Etiqueta Enagas                                                 
@@ -323,7 +322,7 @@ p_gacr73.dat   Etiqueta Galaxie CR73
 p_gaban1.dat   Etiqueta Galaxie bandas 1                                       
 p_gaban2.dat   Etiqueta Galaxie bandas 2                                       
 p_galdev.dat   Etiqueta Galaxie diablo                                         
-p_galtri.dat   Etiqueta Galaxie tri�ngulos                                     
+p_galtri.dat   Etiqueta Galaxie triï¿½ngulos                                
 gasolina.dat   Etiqueta Gasolinera                                             
 p_hard_3.dat   Etiqueta Hardtron 3                                             
 p_harban.dat   Etiqueta Hardtron Bandas                                        
@@ -471,7 +470,7 @@ pbravo.dat     Etiqueta bravo      |M:M
 cargo.dat      Etiqueta cargo                                                  
 pcaribe.dat    Etiqueta caribe      |M:M                                       
 pcastor.dat    Etiqueta castor      |M:M                                       
-cepsaav.dat    Etiqueta cepsa aviacion                                         
+cepsaav.dat    Etiqueta cepsa aviación                                        
 pconsul.dat    Etiqueta consul      |M:M                                       
 pcosmos.dat    Etiqueta cosmos      |M:M                                       
 pcyclone.dat   Etiqueta cyclone      |M:M                                      
@@ -555,7 +554,6 @@ helaspac.dat   Helicoptero Aspa Cola + enganche     |A:A|V:V
 heliaspa.dat   Helicoptero Aspa Grande    |A:A|M:M|V:V                         
 heliaspp.dat   Helicoptero Aspa Pequena    |M:M|V:V                            
 helcol.dat     Helicoptero Cola    |A:A|V:V                                    
-helirotr.dat   Helicoptero Cola Hueca    |A:A|V:V                              
 helcolhu.dat   Helicoptero Cola Hueca    |A:A|V:V                              
 helicoc2.dat   Helicoptero Doble cuerpo   |M:M|V:V                             
 helireje.dat   Helicoptero Eje Rueda    |A:A|V:V                               
@@ -563,6 +561,7 @@ helillnt.dat   Helicoptero Llanta Rueda    |A:A|V:V
 helmando.dat   Helicoptero Mandos    |A:A|V:V                                  
 helineum.dat   Helicoptero Neumatico    |A:A|V:V                               
 helpata.dat    Helicoptero Pata    |A:A|V:V                                    
+helirotr.dat   Helicoptero Rotor    |A:A|V:V                                   
 helrueda.dat   Helicoptero Rueda    |A:A|V:V                                   
 airsillo.dat   Helicoptero Sillon |A:A|V:V                                     
 helisprt.dat   Helicoptero Soporte Rueda    |A:A|V:V                           
@@ -571,18 +570,19 @@ helcab.dat     Helicoptero cabina |A:A|V:V
 helicoc1.dat   Helicoptero cuerpo   |M:M|V:V                                   
 helicop2.dat   Helicoptero doble   |M:M|V:V                                    
 heliprto.dat   Helipuerto      |M:M                                            
-htit1.dat      Hombre Titanium 1      |T:T                                     
-htit2.dat      Hombre Titanium 1      |T:T                                     
-htitbrzd.dat   Hombre Titanium brazo derecho      |T:T                         
-htitbrzi.dat   Hombre Titanium brazo izquierdo      |T:T                       
-htitcab1.dat   Hombre Titanium cabeza 1      |T:T                              
-htitcab2.dat   Hombre Titanium cabeza 2      |T:T                              
-htitcabr.dat   Hombre Titanium cabeza redonda      |T:T|F:F
-htitentr.dat   Hombre Titanium entrepierna      |T:T                           
-htitmand.dat   Hombre Titanium mano derecha      |T:T                          
-htitmani.dat   Hombre Titanium mano izquierda      |T:T                        
-htitpies.dat   Hombre Titanium piernas      |T:T                               
-htittron.dat   Hombre Titanium tronco      |T:T                                
+htit2.dat      Hombre Titanium 1      |T:T|F:F                                 
+htit1.dat      Hombre Titanium 1      |T:T|F:F                                 
+htitbrzd.dat   Hombre Titanium brazo derecho      |T:T|F:F                     
+htitbrzi.dat   Hombre Titanium brazo izquierdo      |T:T|F:F                   
+htitcab1.dat   Hombre Titanium cabeza 1      |T:T|F:F                          
+htitcab2.dat   Hombre Titanium cabeza 2      |T:T|F:F                          
+htitcapi.dat   Hombre Titanium cabeza piloto Alfa      |F:F                    
+htitcabr.dat   Hombre Titanium cabeza redonda      |T:T|F:F                    
+htitentr.dat   Hombre Titanium entrepierna      |T:T|F:F                       
+htitmand.dat   Hombre Titanium mano derecha      |T:T|F:F                      
+htitmani.dat   Hombre Titanium mano izquierda      |T:T|F:F                    
+htitpies.dat   Hombre Titanium piernas      |T:T|F:F                           
+htittron.dat   Hombre Titanium tronco      |T:T|F:F                            
 invcilin.dat   Inversor cilindrico       |D:D                                  
 jacena1.dat    Jacena 1                                                        
 enganche.dat   Jacena 1 Enganche 1                                             
@@ -603,7 +603,7 @@ jacena4.dat    Jacena 4
 jacn4a.dat     Jacena 4 con agujero                                            
 jacena6.dat    Jacena 6                                                        
 jacena8.dat    Jacena 8                                                        
-alfajacn.dat   Jacena Alfa    |F:F                                             
+alfajacn.dat   Jacena Alfa    |F:F|T:T                                         
 rallado1.dat   Jacena rallada 1                                                
 rallado2.dat   Jacena rallada 2                                                
 jet.dat        Jet   |M:M|V:V                                                  
@@ -621,8 +621,8 @@ landes.dat     Lancha Desembarco    |M:M|V:V
 landesld.dat   Lancha Desembarco Etiqueta    |M:M                              
 landesse.dat   Lancha Desembarco sin etiq    |M:M|V:V                          
 laser.dat      Laser     |E:E|V:V                                              
-alfalln1.dat   Llanta Alfa 1     |A:A|F:F|V:V|T:T                              
-alfalln2.dat   Llanta Alfa 2     |A:A|F:F|V:V|T:T                              
+alfalln1.dat   Llanta Alfa 1     |F:F|V:V|T:T                                  
+alfalln2.dat   Llanta Alfa 2     |F:F|V:V|T:T                                  
 ejeastr3.dat   Llanta Astro Americana   |S:S                                   
 llanthas.dat   Llanta Hasbro    |R:R                                           
 llantrob.dat   Llanta Roblock    |R:R                                          
@@ -631,16 +631,29 @@ llanrutt.dat   Llanta Ruta Teton   |R:R
 llantnq.dat    Llanta Tanque     |E:E                                          
 llantqab.dat   Llanta Tanque Abajo    |E:E                                     
 llantqar.dat   Llanta Tanque Arriba    |E:E                                    
-llantnqm.dat   Llanta Tanque Montada    |E:E                                   
+llantnqm.dat   Llanta Tanque Montada     |E:E                                  
 llantaxt.dat   Llanta Xtronic    |R:R                                          
 astgrfgr.dat   Logo Semicupula Grande     |S:S                                 
 astgrfmd.dat   Logo Semicupula Mediana     |S:S                                
-astgrfpq.dat   Logo Semicupula Peque�a     |S:S                                
+astgrfpq.dat   Logo Semicupula Pequeña     |S:S                               
 logtente.dat   Logo Tente     |D:D                                             
 macecun2.dat   Macetero cuna 2x1 I.UNITS                                       
 manguera.dat   Manguera Mochila 2    |F:F                                      
 mascara.dat    Mascara antigas    |R:R                                         
+mastilh.dat    Mastil (hembra)       |M:M                                      
+mastilm.dat    Mastil (macho)       |M:M                                       
 mastbase.dat   Mastil Base       |M:M                                          
+mastf100.dat   Mastil fino 100 mm       |M:M                                   
+mastf135.dat   Mastil fino 135 mm       |M:M                                   
+mastf050.dat   Mastil fino 50 mm       |M:M                                    
+mastf060.dat   Mastil fino 60 mm       |M:M                                    
+mastf070.dat   Mastil fino 70 mm       |M:M                                    
+mastf085.dat   Mastil fino 85 mm       |M:M                                    
+mastg135.dat   Mastil grueso 135 mm       |M:M                                 
+mastg150.dat   Mastil grueso 150 mm       |M:M                                 
+mastg170.dat   Mastil grueso 170 mm       |M:M                                 
+mastg190.dat   Mastil grueso 190 mm       |M:M                                 
+mastg265.dat   Mastil grueso 265 mm       |M:M                                 
 metrall.dat    Metralleta    |E:E                                              
 misiles.dat    Misiles   |M:M                                                  
 misilesc.dat   Misiles Cabezas  |M:M                                           
@@ -659,29 +672,16 @@ monoplan.dat   Monoplano   |M:M|V:V
 motor.dat      Motor      |M:M                                                 
 alfamotr.dat   Motor Alfa    |F:F|T:T                                          
 mtrhasbr.dat   Motor Hasbro    |R:R                                            
-mastg265.dat   Mástil grueso 265 mm       |M:M                                
-mastilh.dat    M�stil (hembra)       |M:M                                      
-mastilm.dat    M�stil (macho)       |M:M                                       
-mastf100.dat   M�stil fino 100 mm       |M:M                                   
-mastf135.dat   M�stil fino 135 mm       |M:M                                   
-mastf050.dat   M�stil fino 50 mm       |M:M                                    
-mastf060.dat   M�stil fino 60 mm       |M:M                                    
-mastf070.dat   M�stil fino 70 mm       |M:M                                    
-mastf085.dat   M�stil fino 85 mm       |M:M                                    
-mastg135.dat   M�stil grueso 135 mm       |M:M                                 
-mastg150.dat   M�stil grueso 150 mm       |M:M                                 
-mastg170.dat   M�stil grueso 170 mm       |M:M                                 
-mastg190.dat   M�stil grueso 190 mm       |M:M                                 
-alfaneum.dat   Neumatico Alfa     |A:A|F:F|V:V|T:T                             
+alfaneum.dat   Neumatico Alfa     F:F|V:V|T:T                                  
+neumtita.dat   Neumatico Titanium sin Logos |F:F|V:V|T:T|R:R                   
+neumtter.dat   Neumatico Todo Terreno    |R:R                                  
 neumaxt.dat    Neumatico Xtronic    |R:R                                       
-neumtter.dat   Neum�tico Todo Terreno    |R:R                                  
 nruteje.dat    New Ruta Eje    |R:R                                            
 nrutembl.dat   New Ruta Embellecedor    |R:R                                   
 nrutemb2.dat   New Ruta Embellecedor (centrada)    |R:R                        
 nrutembl2.dat  New Ruta Embellecedor (centrada)    |R:R                        
 nrutllnt.dat   New Ruta Llanta    |R:R                                         
 nrutneum.dat   New Ruta Neumatico    |R:R                                      
-placa1c.dat    P1aca 1 curva   |D:D                                            
 placa10.dat    P1aca 10 I.UNITS                                                
 placa12.dat    P1aca 12 I.UNITS                                                
 plac2m.dat     P1aca 2 con teton central I.UNITS                               
@@ -694,12 +694,12 @@ placa8c.dat    P1aca 8 Corredera I.UNITS
 placa8.dat     P1aca 8 I.UNITS                                                 
 pang2x4d.dat   P1aca Angulo 2x4 Derecha I.UNITS                                
 pang2x4i.dat   P1aca Angulo 2x4 Izquierda I.UNITS                              
-placacil.dat   P1aca Cilindro I.UNITS      |D:D                                
+placa1c.dat    P1aca Normal Curva Esquinera 1x1 I.UNITS  |D:D                  
 placurd2.dat   P1aca curva dos alturas 2x1 I.UNITS                             
 placlin2.dat   P1aca lingote 2x1 I.UNITS                                       
 placarv2.dat   P1aca rallada vertical 2x1 I.UNITS                              
 palaexcv.dat   Pala Excavadora      |R:R|V:V                                   
-plmgrand.dat   Palmera Grande                                                  
+plmgrand.dat   Palmera Grande    |C:C                                          
 plmghoja.dat   Palmera grande hoja    |C:C                                     
 plmgtrnc.dat   Palmera grande tronco    |C:C                                   
 plmbase.dat    Palmera pequena base    |C:C                                    
@@ -721,18 +721,18 @@ alfparcv.dat   Pared Alfa con ventana     |F:F
 alfparsv.dat   Pared Alfa sin ventana     |F:F                                 
 pastilla.dat   Pastilla   |M:M                                                 
 patastro.dat   Pata Astro   |S:S|V:V                                           
-alfapatn.dat   Patin Alfa      |F:F                                            
+alfapatn.dat   Patin Alfa      |F:F|T:T                                        
 petroeng.dat   Petroleo Enganche     |R:R                                      
 petrotub.dat   Petroleo Tubo     |R:R                                          
 pico.dat       Pico   |M:M|B:B                                                 
 pico1.dat      Pico 1  |D:D                                                    
-alfapico.dat   Pico Alfa    |F:F                                               
+alfapico.dat   Pico Alfa    |F:F|T:T                                           
 picoesq.dat    Pico Esquina I.UNITS    |D:D                                    
 pilaralf.dat   Pilar Alfa  |F:F                                                
 pinzastr.dat   Pinza Astro    |S:S                                             
 pinzaesq.dat   Pinza Esquina    |S:S                                           
 piquito.dat    Piquito   |M:M                                                  
-pistola.dat    Pistola    |M:M                                                 
+pistola.dat    Pistola/Cabrestante    |M:M                                     
 pivote.dat     Pivote      |F:F                                                
 placa1.dat     Placa 1                                                         
 placa15.dat    Placa 15x15		|F:F                                               
@@ -746,9 +746,10 @@ placa4.dat     Placa 4
 placa4x6.dat   Placa 4x6                                                       
 placa4x8.dat   Placa 4x8                                                       
 placa6x8.dat   Placa 6x8                                                       
-alfaplac.dat   Placa Alfa    |F:F                                              
+alfaplac.dat   Placa Alfa    |F:F|T:T                                          
 placalfa.dat   Placa Base Habitaculo Alfa	|F:F                                 
 placacty.dat   Placa Cutty Sark      |M:M                                      
+chimplam.dat   Placa Medio CÃ­rculo Normal 1x1 I.UNITS   |D:D                
 popa6p.dat     Placa popa 6   |M:M                                             
 popa8p.dat     Placa popa 8   |D:D                                             
 plantas.dat    Plantas		|C:C                                                   
@@ -775,7 +776,6 @@ proa8.dat      Proa 8   |D:D
 proa8p.dat     Proa 8 placa   |D:D                                             
 proa6p.dat     Proa Placa 6   |M:M                                             
 proa6rem.dat   Proa Remate 6   |M:M                                            
-proa8rem.dat   Proa Remate 8    |D:D                                           
 alfprtam.dat   Puerta Alfa Marco   |F:F                                        
 alfprtar.dat   Puerta Alfa Rampa   |F:F                                        
 puertang.dat   Puerta Casa Ahumada    |R:R                                     
@@ -800,11 +800,11 @@ ram2.dat       RAM 2        |D:D
 antnradr.dat   Radar   |M:M                                                    
 radaralf.dat   Radar Alfa    |F:F                                              
 radarneg.dat   Radar negro      |M:M                                           
-radar.dat      Radar parab�lica   |M:M                                         
+radar.dat      Radar parabÃ³lica   |M:M                                      
 radarp.dat     Radar plato    |M:M                                             
 rcurva45.dat   Rail Curva 45 grados          |D:D                              
 rampa.dat      Rampa       |C:C                                                
-alfaramp.dat   Rampa Alfa   |F:F                                               
+alfaramp.dat   Rampa Alfa   |F:F|T:T                                           
 ramplanz.dat   Rampa Lanzamiento    |S                                         
 rejilla.dat    Rejilla      |R:R|V:V                                           
 remate_1.dat   Remate 1  I.UNITS      |D:D                                     
@@ -825,7 +825,7 @@ rifle.dat      Rifle      |F:F
 rotorinf.dat   Rotor Abajo    |A:A|V:V|R:R                                     
 rotrinf2.dat   Rotor Abajo Nuevo    |V:V|R:R|F:F                               
 rotorsup.dat   Rotor Arriba     |A:A|V:V|R:R                                   
-rueairj2.dat   Rueda Aire montada en j�cena 2x2     |S:S|M:M                   
+rueairj2.dat   Rueda Aire montada en jÃ¡cena 2x2     |S:S|M:M                
 alfarued.dat   Rueda Alfa     |F:F|T:T                                         
 rueastro.dat   Rueda Astro     |S:S                                            
 rueasneu.dat   Rueda Astro Neumatico    |S:S                                   
@@ -855,8 +855,8 @@ semicupg.dat   Semicupula Grande   |S:S
 semicugg.dat   Semicupula Grande con Logo     |S:S                             
 semicupm.dat   Semicupula Mediana   |S:S                                       
 semicumg.dat   Semicupula Mediana con Logo     |S:S                            
-semicupp.dat   Semicupula Peque�a   |S:S                                       
-semicuqg.dat   Semicupula Peque�a con Logo     |S:S                            
+semicupp.dat   Semicupula Pequeña   |S:S                                      
+semicuqg.dat   Semicupula Pequeña con Logo     |S:S                           
 alfasens.dat   Sensor Alfa    |F:F                                             
 sillastr.dat   Silla Astro    |A:A|S:S|V:V                                     
 titsilla.dat   Silla Titanium       |T:T                                       
@@ -880,9 +880,9 @@ tejado4.dat    Tejado 4 puntos    :X
 tejado8.dat    Tejado 8      |B:B                                              
 tejador8.dat   Tejado 8 remate      |B:B                                       
 tejadol8.dat   Tejado 8 remate liso      |B:B                                  
-tejconal.dat   Tejado c�nico alto   :X                                         
-tejconbj.dat   Tejado c�nico bajo   :X                                         
-tejcongr.dat   Tejado c�nico grande   :X                                       
+tejconbj.dat   Tejado cÃ³nico bajo   :X                                      
+tejcongr.dat   Tejado cÃ³nico grande   :X                                    
+tejconal.dat   Tejado cï¿½nico alto   :X                                    
 tejls2x1.dat   Tejado liso 2x1  I.UNITS                                        
 tejadorm.dat   Tejado remate      |B:B                                         
 tejadorl.dat   Tejado remate liso      |B:B                                    
@@ -891,26 +891,26 @@ tetonesp.dat   Teton especial 1x1 I.UNITS
 toberast.dat   Tobera Astro   |S:S                                             
 tobergal.dat   Tobera Galaxy       |F:F|T:T                                    
 torremcr.dat   Torre Micro     |C                                              
+trfcircb.dat   TrAfico Circular Base		|R:R                                     
+trfrect2.dat   Trafico Autopista Fin		|R:R                                     
+trfrect1.dat   Trafico Autopista Inicio	|R:R                                   
+trfcircp.dat   Trafico Circular Prohibido Aparcar		|R:R                        
+trftria1.dat   Trafico Inflamable	|R:R                                         
+trfposte.dat   Trafico Poste		|R:R                                             
+trfcirc1.dat   Trafico Prohibido Aparcar	|R:R                                  
+trfrecta.dat   Trafico Rectangulo Autopista		|R:R                              
+trfrectb.dat   Trafico Rectangulo Base	|R:R                                    
+trfrectf.dat   Trafico Rectangulo Fin Autopista		|R:R                          
+trfsemfr.dat   Trafico Semaforo	|R:R                                           
+trfsemfc.dat   Trafico Semaforo Caja		|R:R                                     
+trfsemfl.dat   Trafico Semaforo Luces		|R:R                                    
+trftrian.dat   Trafico Triangulo Base	|R:R                                     
+trftriai.dat   Trafico Triangulo Inflamable		|R:R                              
 trapesqu.dat   Trapecio esquina I.UNITS                                        
 trenb.dat      Tren Bloque		|D:D                                               
 trenejh.dat    Tren Eje Hembra	|D:D                                            
 trenejm.dat    Tren Eje Macho	|D:D                                             
 trenr.dat      Tren Rueda		|D:D                                                
-trfrect2.dat   Tr�fico Autopista Fin		|R:R                                     
-trfrect1.dat   Tr�fico Autopista Inicio	|R:R                                   
-trfcircb.dat   Tr�fico Circular Base		|R:R                                     
-trfcircp.dat   Tr�fico Circular Prohibido Aparcar		|R:R                        
-trftria1.dat   Tr�fico Inflamable	|R:R                                         
-trfposte.dat   Tr�fico Poste		|R:R                                             
-trfcirc1.dat   Tr�fico Prohibido Aparcar	|R:R                                  
-trfrecta.dat   Tr�fico Rect�ngulo Autopista		|R:R                              
-trfrectb.dat   Tr�fico Rect�ngulo Base	|R:R                                    
-trfrectf.dat   Tr�fico Rect�ngulo Fin Autopista		|R:R                          
-trfsemfr.dat   Tr�fico Sem�foro	|R:R                                           
-trfsemfc.dat   Tr�fico Sem�foro Caja		|R:R                                     
-trfsemfl.dat   Tr�fico Sem�foro Luces		|R:R                                    
-trftrian.dat   Tr�fico Tri�ngulo Base	|R:R                                     
-trftriai.dat   Tr�fico Tri�ngulo Inflamable		|R:R                              
 tubo.dat       Tubo      |B:B                                                  
 tuboguia.dat   Tubo (extremo)      |A:A|V:V|S:S|F:F                            
 tb2x1.dat      Tubo Elastico 2x1    |D:D|L:L                                   
@@ -946,7 +946,7 @@ tbfutur2.dat   Tubo Futurama 2    |D:D
 tuboruta.dat   Tubo Ruta    |R:R                                               
 tbscoeng.dat   Tubo Scorpion (enganche)     |F:F                               
 tbscorec.dat   Tubo Scorpion Recto     |F:F                                    
-alfaturb.dat   Turbina Alfa    |F:F                                            
+alfaturb.dat   Turbina Alfa    |F:F|T:T                                        
 valla.dat      Valla       |C:C                                                
 vallaobr.dat   Valla Obras      |F:F                                           
 ventana1.dat   Ventana 1    |R:R                                               
@@ -970,7 +970,7 @@ vntthorm.dat   Ventana Thor Marco    |R:R
 titcrist.dat   Ventana Titanium (cristal)       |T:T                           
 titmarco.dat   Ventana Titanium (marco)       |T:T                             
 alfventn.dat   Ventana pared Alfa     |F:F                                     
-vntcirc2.dat   Ventanas circulares (c�rculos)                                  
+vntcirc2.dat   Ventanas circulares (circulos)                                  
 venta2ci.dat   Ventanas circulares 2x1   |M:M                                  
 venta2bi.dat   Ventanas circulares 2x1 blancas   |M:M                          
 venta4ci.dat   Ventanas circulares 4x1   |M:M                                  
@@ -985,8 +985,7 @@ vigibert.dat   Viga Ibertren		|D:D
 volkswag.dat   Volkswagen     |C:C|V:V                                         
 volkcarr.dat   Volkswagen Carroceria     |C:C|V:V                              
 xtronic.dat    Xtronic    |R:R                                                 
-xtrointe.dat   Xtronic interruptor    |R:R                                     
 xtroroja.dat   Xtronic Bola Roja    |R:R                                       
 xtroverd.dat   Xtronic Bola Verde   |R:R                                       
+xtrointe.dat   Xtronic interruptor    |R:R                                     
 alfazeta.dat   Zeta Alfa    |F:F                                               
-tetonsin.dat   teton sin parte de abajo                                        

@@ -1,6 +1,7 @@
 0 Etiqueta zebra      |M:M
 0 Name: pzebra.dat
 0 Author: CPCBEGIN
+0 !LDRAW_ORG Unofficial_Part
 0 BFC CERTIFY CCW
 0 etiqueta babor
 3 16 39.125 -6.06 -21.542 39.164 -3 -18.664 39.511 -10.74 -21.782

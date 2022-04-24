@@ -437,7 +437,7 @@ function obtainFieldsFromFile( model ) {
 
 function loadMaterialLibrary() {
 
-	const materialLibraryPath = '../LDCONFIG.LDR';
+	const materialLibraryPath = '../LDConfig.ldr';
 	let materialLibraryContents = readTextFileSync( pathJoin( __dirname, materialLibraryPath ), "utf-8" );
 
 	if ( materialLibraryContents === null ) {

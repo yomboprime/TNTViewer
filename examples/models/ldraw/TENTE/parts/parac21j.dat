@@ -2,9 +2,9 @@
 0 Name: parac21j.dat
 0 Author: betatron
 0 !LDRAW_ORG Unofficial_Part
+0 BFC CERTIFY CCW
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 paracq21.dat
 1 15 0 0 0 1 0 0 0 1 0 0 0 1 faros212.dat
 1 15 0.5 -3.039 -1.396 1 0 0 0 0.984808 -0.173648 0 0.173648 0.984808 radiadjp.dat
 1 15 0 0 0 1 0 0 0 1 0 0 0 1 faros214.dat
 1 0 0 0 0 1 0 0 0 1 0 0 0 1 faros213.dat
-0
