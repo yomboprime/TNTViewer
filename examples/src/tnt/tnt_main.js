@@ -3204,6 +3204,7 @@ function clipboardRestore( type ) {
 
 	}
 
+	selectParts( selection );
 	triggerRender();
 
 }
