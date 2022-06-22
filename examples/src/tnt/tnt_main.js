@@ -132,6 +132,12 @@ let selectionModeModel = true;
 let selection = [];
 let selectionGroup;
 
+const CLIPBOARD_NONE = 0;
+const CLIPBOARD_POSITION = 1;
+const CLIPBOARD_ROTATION = 2;
+let clipboardType;
+let clipboardMatrix;
+
 let shiftIsPressed = false;
 
 // Code 15 is White
@@ -241,6 +247,9 @@ function init() {
 	selectionGroup = new THREE.Group();
 	selectionGroup.isSelectionGroup = true;
 	scene.add( selectionGroup );
+
+	clipboardType = CLIPBOARD_NONE;
+	clipboardMatrix = new THREE.Matrix4();
 
 	transformControls = new TransformControls( camera, renderer.domElement );
 	transformControls.setMode( 'translate' );
@@ -516,6 +525,8 @@ function init() {
 
 			renderer.domElement.addEventListener( 'mousedown', ( event ) => {
 
+				clearUserMessage();
+
 				raycasterPointer.set( event.clientX, event.clientY );
 
 			} );
@@ -578,7 +589,7 @@ function init() {
 			progressBarDiv = document.createElement( 'div' );
 			progressBarDiv.innerText = 'Loading...';
 			progressBarDiv.style.fontSize = '2em';
-			progressBarDiv.style.color = '#888';
+			progressBarDiv.style.color = '#AA4';
 			progressBarDiv.style.display = 'block';
 			progressBarDiv.style.position = 'absolute';
 			progressBarDiv.style.top = '50%';
@@ -2916,14 +2927,48 @@ function createGUI() {
 		"EditMenu",
 		tools4Div,
 		[
-			'Append selection to another model'
+			'Select pieces of same color (and model)',
+			'Select pieces of same type (and model)',
+			'Select pieces of same type and color (and model)',
+			'Copy position and rotation of model/part to internal clipboard',
+			'Paste position of models/parts from internal clipboard',
+			'Paste rotation and scale of models/parts from internal clipboard',
+			'Paste position and rotation of models/parts from internal clipboard'
+			//'Append selection to another model'
 		],
 		( option ) => {
 
 			switch ( editMenu.options.indexOf( option ) ) {
 
 				case 0:
-					console.log( "YEPAA" );
+					selectSimilarPieces( true, false );
+					break;
+
+				case 1:
+					selectSimilarPieces( false, true );
+					break;
+
+				case 2:
+					selectSimilarPieces( true, true );
+					break;
+
+				case 3:
+					clipboardStore( CLIPBOARD_POSITION );
+					break;
+
+				case 4:
+					clipboardRestore( CLIPBOARD_POSITION );
+					break;
+
+				case 5:
+					clipboardRestore( CLIPBOARD_ROTATION );
+					break;
+
+				case 6:
+					clipboardRestore( CLIPBOARD_POSITION | CLIPBOARD_ROTATION );
+					break;
+
+				case 7:
 					appendSelectionToModel();
 					break;			}
 
@@ -3025,6 +3070,141 @@ function createGUI() {
 	guiCreated = true;
 
 	onWindowResize();
+
+}
+
+function selectSimilarPieces( sameColor, sameType ) {
+
+	if ( selectionModeModel ) {
+
+		showUserMessage( "Please use this option in Part mode." );
+		return;
+
+	}
+
+	if ( selection.length !== 1 ) {
+
+		showUserMessage( "Please select only one model or part." );
+		return;
+
+	}
+
+	const selectedPart = selection[ 0 ];
+
+	const color = selectedPart.userData.colorCode;
+	const fileName = selectedPart.userData.fileName;
+	const model = getPartModel( selectedPart );
+
+	if ( ! model ) return;
+
+	const newSelection = [];
+
+	model.traverse( ( child ) => {
+
+		if ( isPart( child ) ) {
+
+			if ( sameType ) {
+
+				if ( child.userData.fileName !== fileName ) return;
+
+			}
+
+			if ( sameColor ) {
+
+				if ( child.userData.colorCode !== color ) return;
+
+			}
+
+			newSelection.push( child );
+
+		}
+
+	} );
+
+	selectParts( newSelection );
+	triggerRender();
+
+}
+
+function clipboardStore() {
+
+	if ( selection.length !== 1 ) {
+
+		showUserMessage( "Please select only one model or part." );
+		return;
+
+	}
+
+	const selected = selection[ 0 ];
+
+	selected.updateMatrixWorld();
+	clipboardMatrix.copy( selected.matrixWorld );
+	clipboardType = CLIPBOARD_POSITION | CLIPBOARD_ROTATION;
+
+	console.log( clipboardMatrix.elements );
+
+}
+
+function clipboardRestore( type ) {
+
+	console.log( clipboardMatrix.elements );
+
+	if ( clipboardType === CLIPBOARD_NONE ) return;
+
+	if ( selection.length === 0 ) {
+
+		showUserMessage( "Please select one or more models or parts." );
+		return;
+
+	}
+
+	const targetParts = selection;
+
+	selectTool( TOOL_NONE );
+
+	const x = clipboardMatrix.elements[ 12 ];
+	const y = clipboardMatrix.elements[ 13 ];
+	const z = clipboardMatrix.elements[ 14 ];
+	vector3Temp1.set( x, y, z );
+
+	for ( let i = 0, l = targetParts.length; i < l; i ++ ) {
+
+		const selected = targetParts[ i ];
+		const parent = selected.parent;
+
+		selected.worldToLocal( vector3Temp1 );
+
+		switch ( type ) {
+
+			case CLIPBOARD_POSITION | CLIPBOARD_ROTATION:
+
+				if ( ! parent ) return;
+				scene.attach( selected );
+				clipboardMatrix.decompose( selected.position, selected.rotation, selected.scale );
+				parent.attach( selected );
+				break;
+
+			case CLIPBOARD_POSITION:
+				selected.position.set( vector3Temp1.x, vector3Temp1.y, vector3Temp1.z );
+				break;
+
+			case CLIPBOARD_ROTATION:
+
+				if ( ! parent ) return;
+				const px = selected.position.x;
+				const py = selected.position.y;
+				const pz = selected.position.z;
+				scene.attach( selected );
+				clipboardMatrix.decompose( selected.position, selected.rotation, selected.scale );
+				parent.attach( selected );
+				selected.position.set( px, py, pz );
+				break;
+
+		}
+
+	}
+
+	triggerRender();
 
 }
 
@@ -3929,15 +4109,28 @@ function onProgress( xhr ) {
 
 function onError( e ) {
 
-	const message = 'Error loading model: ' + e;
-	progressBarDiv.innerText = message;
+	showUserMessage( 'Error loading model: ' + e );
+
+}
+
+function showUserMessage( message ) {
+
 	console.log( message );
+	progressBarDiv.innerText = message;
+	showProgressBar();
+
+}
+
+function clearUserMessage( message ) {
+
+	progressBarDiv.innerText = "";
+	hideProgressBar();
 
 }
 
 function showProgressBar() {
 
-	container.appendChild( progressBarDiv );
+	if ( ! container.contains( progressBarDiv ) ) container.appendChild( progressBarDiv );
 
 }
 
