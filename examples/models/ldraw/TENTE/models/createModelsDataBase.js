@@ -596,7 +596,7 @@ for ( let i in dataBase.modelPathsList ) {
 				` +
 				(
 					model.id ?
-					`<td><a href="https://tente.spread.name/id/` + model.id + `">Model information</a></td>`
+					`<td><a href="https://refstente.com/id/` + model.id + `">Model information</a></td>`
 					:
 					`<td>No info.</td>`
 				) +
