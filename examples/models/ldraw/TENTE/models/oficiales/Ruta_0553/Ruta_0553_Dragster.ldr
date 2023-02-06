@@ -1,0 +1,51 @@
+0 Dragster
+0 Name: Ruta_0553_dragster.ldr
+0 cpcbegin
+0 Tente ruta (el mundo de la ruta)
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 14 -60 0 0 0 0 -1 0 1 0 1 0 0 jacena8.dat
+1 0 -50 0 -40 0 0 -1 0 1 0 1 0 0 jacen2x2.dat
+1 0 -50 0 160 0 0 -1 0 1 0 1 0 0 jacen2x4.dat
+1 14 -50 0 260 -1 0 0 0 1 0 0 0 -1 jacena2.dat
+1 0 -30 0 300 -1 0 0 0 1 0 0 0 -1 jacen2x4.dat
+1 4 -50 -24 320 -1 0 0 0 1 0 0 0 -1 placa2x2.dat
+1 4 -90 -24 280 0 0 1 0 1 0 -1 0 0 placa2x8.dat
+1 4 -90 -24 -20 1 0 0 0 1 0 0 0 1 bald2x2r.dat
+1 4 -90 -80 280 1 0 0 0 1 0 0 0 1 bald2x2r.dat
+1 15 -110 -80 280 1 0 0 0 1 0 0 0 1 bald2r.dat
+1 15 -50 -80 280 1 0 0 0 1 0 0 0 1 bald2r.dat
+1 4 -70 -80 190 1 0 0 0 1 0 0 0 1 semicupp.dat
+1 383 -70 8 160 1 0 0 0 1 0 0 0 1 tbesctrp.dat
+1 383 -70 8 200 1 0 0 0 1 0 0 0 1 tbesctrp.dat
+1 383 -70 8 240 -1 0 0 0 1 0 0 0 -1 tbesctrp.dat
+1 383 -70 8 200 -1 0 0 0 1 0 0 0 -1 tbesctrp.dat
+1 0 -90 -32 120 1 0 0 0 1 0 0 0 1 bald2x2.dat
+1 0 -70 -32 160 0 0 -1 0 1 0 1 0 0 rallado2.dat
+1 0 -70 -32 200 0 0 -1 0 1 0 1 0 0 rallado2.dat
+1 0 -70 -32 240 0 0 1 0 1 0 -1 0 0 rallado2.dat
+1 0 -70 -32 200 0 0 1 0 1 0 -1 0 0 rallado2.dat
+1 14 -30 -32 320 -1 0 0 0 1 0 0 0 -1 jacena4.dat
+1 14 -30 -56 320 -1 0 0 0 1 0 0 0 -1 jacena4.dat
+1 383 -60 -56 230 -1 0 0 0 1 0 0 0 -1 amortigu.dat
+1 383 -80 -56 230 -1 0 0 0 1 0 0 0 -1 amortigu.dat
+1 383 -60 -56 210 -1 0 0 0 1 0 0 0 -1 amortigu.dat
+1 383 -80 -56 210 -1 0 0 0 1 0 0 0 -1 amortigu.dat
+1 383 -80 -56 190 -1 0 0 0 1 0 0 0 -1 amortigu.dat
+1 383 -60 -56 190 -1 0 0 0 1 0 0 0 -1 amortigu.dat
+1 383 -60 -56 170 -1 0 0 0 1 0 0 0 -1 amortigu.dat
+1 383 -80 -56 170 -1 0 0 0 1 0 0 0 -1 amortigu.dat
+1 14 -70 -32 300 1 0 0 0 1 0 0 0 1 cabant.dat
+1 4 -30 0 260 -1 0 0 0 1 0 0 0 -1 llantrut.dat
+1 0 -30 0 260 -1 0 0 0 1 0 0 0 -1 ruta21nm.dat
+1 4 -10 0 260 -1 0 0 0 1 0 0 0 -1 llantrut.dat
+1 0 -10 0 260 -1 0 0 0 1 0 0 0 -1 ruta21nm.dat
+1 4 -50 0 -40 -1 0 0 0 1 0 0 0 -1 llantrut.dat
+1 0 -50 0 -40 -1 0 0 0 1 0 0 0 -1 ruta21nm.dat
+1 4 -90 0 0 1 0 0 0 1 0 0 0 1 llantrut.dat
+1 0 -90 0 0 1 0 0 0 1 0 0 0 1 ruta21nm.dat
+1 4 -110 0 300 1 0 0 0 1 0 0 0 1 llantrut.dat
+1 0 -110 0 300 1 0 0 0 1 0 0 0 1 ruta21nm.dat
+1 4 -130 0 300 1 0 0 0 1 0 0 0 1 llantrut.dat
+1 0 -130 0 300 1 0 0 0 1 0 0 0 1 ruta21nm.dat
+0

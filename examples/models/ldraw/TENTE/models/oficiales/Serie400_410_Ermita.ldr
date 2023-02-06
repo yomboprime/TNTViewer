@@ -1,9 +1,7 @@
-0 Untitled
+0 410 Ermita
 0 Name: 410_ermita.ldr
 0 Author: jasolo & abeldb
 0 Unofficial Model
-0 ROTATION CENTER 0 0 0 1 "Custom" 
-0 ROTATION CONFIG 0 0
 1 15 -170 0 -130 1 0 0 0 1 0 0 0 1 placa6x8.dat
 1 15 -50 -80 -130 0 0 -1 0 1 0 1 0 0 placa4x8.dat
 1 15 30 -80 -130 0 0 -1 0 1 0 1 0 0 placa4x8.dat
@@ -79,11 +77,7 @@
 1 4 30 -80 -90 0 0 1 0 1 0 -1 0 0 placa2.dat
 1 4 50 -80 -70 0 0 1 0 1 0 -1 0 0 placa2.dat
 1 4 50 -88 -70 0 0 1 0 1 0 -1 0 0 placa2.dat
-1 4 110 -112 130 0 0 1 0 1 0 -1 0 0 placa2.dat
 1 4 90 -104 -30 0 0 1 0 1 0 -1 0 0 placa2.dat
-1 4 110 -112 -10 0 0 1 0 1 0 -1 0 0 placa2.dat
-1 4 110 -112 30 0 0 1 0 1 0 -1 0 0 placa2.dat
-1 4 110 -112 70 0 0 1 0 1 0 -1 0 0 placa2.dat
 1 4 10 -104 130 -1 0 0 0 1 0 0 0 -1 placa2.dat
 1 4 50 -104 130 -1 0 0 0 1 0 0 0 -1 placa2.dat
 1 4 90 -104 130 -1 0 0 0 1 0 0 0 -1 placa2.dat
@@ -92,7 +86,7 @@
 1 4 130 -104 50 -1 0 0 0 1 0 0 0 -1 placa2x2.dat
 1 4 130 -104 10 -1 0 0 0 1 0 0 0 -1 placa2x2.dat
 1 4 130 -104 -30 -1 0 0 0 1 0 0 0 -1 placa1.dat
-1 4 130 -112 90 -1 0 0 0 1 0 0 0 -1 placa1.dat
+1 4 130 -112 -30 -1 0 0 0 1 0 0 0 -1 placa1.dat
 1 4 -110 -104 90 1 0 0 0 1 0 0 0 1 tejado.dat
 1 4 10 -104 90 1 0 0 0 1 0 0 0 1 tejado.dat
 1 4 -30 -104 90 1 0 0 0 1 0 0 0 1 tejado.dat
@@ -180,4 +174,4 @@
 1 7 -170 -88 -120 -1 0 0 0 1 0 0 0 -1 cilindro.dat
 1 4 -70 -8 -70 0 0 1 0 1 0 -1 0 0 puertam2.dat
 1 47 -70 -8 -70 0 0 1 0 1 0 -1 0 0 puertacr.dat
-0
+1 4 110 -112 -30 0 0 -1 0 1 0 1 0 0 tejado8.dat

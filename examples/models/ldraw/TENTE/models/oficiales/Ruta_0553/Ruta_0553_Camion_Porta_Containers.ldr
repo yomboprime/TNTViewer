@@ -1,0 +1,51 @@
+0 Camion porta containers
+0 Name: camionportacontainers.ldr
+0 cpcbegin
+0 Tente ruta (el mundo de la ruta)
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 4 -30 -24 0 0 0 -1 0 1 0 1 0 0 placa4x8.dat
+1 4 -50 -16 -60 0 0 -1 0 1 0 1 0 0 placa2x8.dat
+1 4 -70 -32 -80 0 0 -1 0 1 0 1 0 0 placa2x3.dat
+1 4 -50 -16 100 0 0 -1 0 1 0 1 0 0 placa2x3.dat
+1 4 -50 -24 -60 0 0 -1 0 1 0 1 0 0 placa2x3.dat
+1 4 -30 -32 -80 0 0 -1 0 1 0 1 0 0 placa2x3.dat
+1 14 -110 -32 160 0 0 1 0 1 0 -1 0 0 placa4x8.dat
+1 4 -110 -96 160 0 0 1 0 1 0 -1 0 0 placa4x8.dat
+1 0 -110 -40 40 0 0 1 0 1 0 -1 0 0 placa2x2.dat
+1 0 -110 -40 160 0 0 1 0 1 0 -1 0 0 placa2x2.dat
+1 0 -70 -40 160 0 0 1 0 1 0 -1 0 0 placa2x2.dat
+1 0 -70 -40 40 0 0 1 0 1 0 -1 0 0 placa2x2.dat
+1 4 -70 -48 160 0 0 1 0 1 0 -1 0 0 jacen2x8.dat
+1 4 -70 -72 160 0 0 1 0 1 0 -1 0 0 jacen2x8.dat
+1 4 -110 -48 160 0 0 1 0 1 0 -1 0 0 jacen2x8.dat
+1 4 -110 -72 160 0 0 1 0 1 0 -1 0 0 jacen2x8.dat
+1 0 -90 -16 120 1 0 0 0 1 0 0 0 1 placa2.dat
+1 14 -110 -88 -20 0 0 1 0 1 0 -1 0 0 bald2x2r.dat
+1 14 -30 -88 -60 0 0 -1 0 1 0 1 0 0 bald2x2r.dat
+1 14 -70 -40 -40 1 0 0 0 1 0 0 0 1 cabant.dat
+1 4 -70 -32 -60 1 0 0 0 1 0 0 0 1 paracf21.dat
+1 0 -90 8 -60 1 0 0 0 1 0 0 0 1 jacen2x2.dat
+1 0 -90 8 100 1 0 0 0 1 0 0 0 1 jacen2x2.dat
+1 0 -90 8 40 1 0 0 0 1 0 0 0 1 jacen2x2.dat
+1 4 -90 8 140 1 0 0 0 1 0 0 0 1 llantrut.dat
+1 0 -90 8 140 1 0 0 0 1 0 0 0 1 ruta21nm.dat
+1 4 -90 8 80 1 0 0 0 1 0 0 0 1 llantrut.dat
+1 0 -90 8 80 1 0 0 0 1 0 0 0 1 ruta21nm.dat
+1 4 -90 8 -20 1 0 0 0 1 0 0 0 1 llantrut.dat
+1 0 -90 8 -20 1 0 0 0 1 0 0 0 1 ruta21nm.dat
+1 4 -50 8 -60 -1 0 0 0 1 0 0 0 -1 llantrut.dat
+1 0 -50 8 -60 -1 0 0 0 1 0 0 0 -1 ruta21nm.dat
+1 4 -50 8 40 -1 0 0 0 1 0 0 0 -1 llantrut.dat
+1 0 -50 8 40 -1 0 0 0 1 0 0 0 -1 ruta21nm.dat
+1 4 -50 8 100 -1 0 0 0 1 0 0 0 -1 llantrut.dat
+1 0 -50 8 100 -1 0 0 0 1 0 0 0 -1 ruta21nm.dat
+1 14 -110 -64 -40 1 0 0 0 1 0 0 0 1 jacen2x4.dat
+1 14 -110 -40 -40 1 0 0 0 1 0 0 0 1 jacen2x4.dat
+1 4 -70 -32 -20 1 0 0 0 1 0 0 0 1 placa2.dat
+1 4 -110 -32 -20 1 0 0 0 1 0 0 0 1 placa2.dat
+1 4 -50 -8 -10 0 0 -1 0 1 0 1 0 0 deposito.dat
+1 4 -90 -8 30 0 0 1 0 1 0 -1 0 0 deposito.dat
+1 14 -110 -88 0 0 0 1 0 1 0 -1 0 0 bald2r.dat
+1 14 -30 -88 -20 0 0 -1 0 1 0 1 0 0 bald2r.dat
+0

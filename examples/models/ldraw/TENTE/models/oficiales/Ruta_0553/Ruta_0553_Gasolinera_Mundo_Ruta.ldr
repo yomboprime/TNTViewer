@@ -1,0 +1,87 @@
+0 Gasolinera (mundo de la ruta)
+0 Name: gasolineramundoruta.ldr
+0 cpcbegin
+0 Tente ruta (el mundo de la ruta)
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 2 -10 8 0 1 0 0 0 1 0 0 0 1 placa6x8.dat
+1 2 -290 8 120 0 0 1 0 1 0 -1 0 0 placa6x8.dat
+1 4 -30 0 80 0 0 1 0 1 0 -1 0 0 placa2x2.dat
+1 4 -30 -80 80 0 0 1 0 1 0 -1 0 0 placa2x2.dat
+1 0 -110 0 0 1 0 0 0 1 0 0 0 1 placa2.dat
+1 0 50 0 0 1 0 0 0 1 0 0 0 1 placa2.dat
+1 15 70 0 100 1 0 0 0 1 0 0 0 1 jacena4.dat
+1 15 -250 0 100 1 0 0 0 1 0 0 0 1 jacena8.dat
+1 15 -90 0 100 1 0 0 0 1 0 0 0 1 jacena8.dat
+1 15 -90 -120 100 1 0 0 0 1 0 0 0 1 jacena8.dat
+1 15 -110 -120 0 0 0 -1 0 1 0 1 0 0 jacena6.dat
+1 1 -270 -136 0 0 0 -1 0 1 0 1 0 0 jacena6.dat
+1 1 -70 -152 20 1 0 0 0 1 0 0 0 1 jacena6.dat
+1 47 -110 -32 20 1 0 0 0 1 0 0 0 1 rallado2.dat
+1 47 50 -32 20 1 0 0 0 1 0 0 0 1 rallado2.dat
+1 0 -110 -56 20 0 0 1 0 1 0 -1 0 0 bald2.dat
+1 0 50 -56 20 0 0 1 0 1 0 -1 0 0 bald2.dat
+1 15 -210 -72 0 0 0 -1 0 1 0 1 0 0 jacena6.dat
+1 15 -270 -72 0 0 0 -1 0 1 0 1 0 0 jacena6.dat
+1 15 70 -120 0 0 0 -1 0 1 0 1 0 0 jacena6.dat
+1 15 -260 0 110 1 0 0 0 1 0 0 0 1 jacena1.dat
+1 15 -270 0 0 1 0 0 0 1 0 0 0 1 jacena4.dat
+1 15 -270 -24 100 1 0 0 0 1 0 0 0 1 jacena4.dat
+1 15 -270 -48 100 1 0 0 0 1 0 0 0 1 jacena4.dat
+1 15 -250 0 20 0 0 -1 0 1 0 1 0 0 jacena4.dat
+1 2 -170 8 0 1 0 0 0 1 0 0 0 1 placa6x8.dat
+1 4 -10 -144 0 1 0 0 0 1 0 0 0 1 placa6x8.dat
+1 4 -170 -144 0 1 0 0 0 1 0 0 0 1 placa6x8.dat
+1 4 -210 -96 20 0 0 -1 0 1 0 1 0 0 tejado.dat
+1 4 -210 -96 -20 0 0 -1 0 1 0 1 0 0 tejado.dat
+1 4 -210 -96 60 0 0 -1 0 1 0 1 0 0 tejado.dat
+1 4 -210 -96 100 0 0 -1 0 1 0 1 0 0 tejado.dat
+1 4 -230 -104 20 0 0 -1 0 1 0 1 0 0 tejado.dat
+1 4 -230 -104 -20 0 0 -1 0 1 0 1 0 0 tejado.dat
+1 4 -230 -104 60 0 0 -1 0 1 0 1 0 0 tejado.dat
+1 4 -230 -104 100 0 0 -1 0 1 0 1 0 0 tejado.dat
+1 4 -250 -96 100 0 0 1 0 1 0 -1 0 0 tejado.dat
+1 4 -250 -96 140 0 0 1 0 1 0 -1 0 0 tejado.dat
+1 4 -250 -96 60 0 0 1 0 1 0 -1 0 0 tejado.dat
+1 4 -250 -96 20 0 0 1 0 1 0 -1 0 0 tejado.dat
+1 4 -230 -104 140 0 0 1 0 1 0 -1 0 0 tejado.dat
+1 4 -230 -104 80 0 0 1 0 1 0 -1 0 0 tejado.dat
+1 4 -250 -96 20 0 0 1 0 1 0 -1 0 0 placa2x2.dat
+1 4 -250 -96 140 0 0 1 0 1 0 -1 0 0 placa2x2.dat
+1 4 -230 -104 20 0 0 1 0 1 0 -1 0 0 tejado.dat
+1 1 -110 -8 0 1 0 0 0 1 0 0 0 1 jacena2.dat
+1 15 -250 -72 100 1 0 0 0 1 0 0 0 1 jacena2.dat
+1 15 -250 -72 0 1 0 0 0 1 0 0 0 1 jacena2.dat
+1 15 -260 -24 10 1 0 0 0 1 0 0 0 1 jacena1.dat
+1 15 -200 -24 10 1 0 0 0 1 0 0 0 1 jacena1.dat
+1 15 -260 -48 10 1 0 0 0 1 0 0 0 1 jacena1.dat
+1 15 -200 -48 10 1 0 0 0 1 0 0 0 1 jacena1.dat
+1 4 -110 -24 100 1 0 0 0 1 0 0 0 1 jacena2.dat
+1 4 50 -24 100 1 0 0 0 1 0 0 0 1 jacena2.dat
+1 15 50 -48 100 1 0 0 0 1 0 0 0 1 jacena2.dat
+1 15 -110 -48 100 1 0 0 0 1 0 0 0 1 jacena2.dat
+1 4 -110 -72 100 1 0 0 0 1 0 0 0 1 jacena2.dat
+1 15 -110 -96 100 1 0 0 0 1 0 0 0 1 jacena2.dat
+1 4 50 -72 100 1 0 0 0 1 0 0 0 1 jacena2.dat
+1 15 50 -96 100 1 0 0 0 1 0 0 0 1 jacena2.dat
+1 4 50 -8 0 1 0 0 0 1 0 0 0 1 jacena2.dat
+1 15 -30 -8 40 1 0 0 0 1 0 0 0 1 puertang.dat
+1 4 -190 0 60 0 0 -1 0 1 0 1 0 0 puertang.dat
+1 4 -190 0 20 0 0 -1 0 1 0 1 0 0 puertang.dat
+1 15 10 -8 80 -1 0 0 0 1 0 0 0 -1 puertang.dat
+1 4 -250 -24 0 1 0 0 0 1 0 0 0 1 vntcasa.dat
+1 4 -210 -112 140 0 0 1 0 1 0 -1 0 0 tejadorm.dat
+1 4 -210 -112 100 0 0 1 0 1 0 -1 0 0 tejadorm.dat
+1 4 -210 -112 60 0 0 1 0 1 0 -1 0 0 tejadorm.dat
+1 4 -210 -112 20 0 0 1 0 1 0 -1 0 0 tejadorm.dat
+1 14 -50 -88 60 0 0 1 0 1 0 -1 0 0 bald2x2.dat
+1 14 -10 -88 60 0 0 1 0 1 0 -1 0 0 bald2x2.dat
+1 14 -50 -88 100 0 0 1 0 1 0 -1 0 0 bald2x2.dat
+1 14 -10 -88 100 0 0 1 0 1 0 -1 0 0 bald2x2.dat
+1 0 -260 -112 90 0 0 1 0 1 0 -1 0 0 cilindro.dat
+1 0 -260 -112 30 0 0 1 0 1 0 -1 0 0 cilindro.dat
+1 0 -250 -136 120 0 0 1 0 1 0 -1 0 0 gasolina.dat
+1 0 -270 -136 0 0 0 -1 0 1 0 1 0 0 gasolina.dat
+1 0 50 -152 0 -1 0 0 0 1 0 0 0 -1 gasolina.dat
+1 0 -70 -152 20 1 0 0 0 1 0 0 0 1 gasolina.dat
+0

@@ -1,5 +1,5 @@
-0 Sin_nombre
-0 Name: Mar0704-PortaavionesTactico.ldr
+0 Mar 0704 Portaaviones Tactico Coronado
+0 Name: Mar_0704_Portaaviones_Tactico_Coronado.ldr
 0 Author: jasolo
 0 Unofficial Model
 0 ROTATION CENTER 0 0 0 1 "Custom" 
@@ -67,7 +67,6 @@
 1 7 -40 -88 -200 0 0 1 0 1 0 -1 0 0 castesqu.dat
 1 7 -80 -88 -200 -1 0 0 0 1 0 0 0 -1 castesqu.dat
 1 7 -80 -88 -160 -1 0 0 0 1 0 0 0 -1 castillo.dat
-1 7 -40 -88 -160 0 0 -1 0 1 0 1 0 0 castillo.dat
 1 7 -40 -88 -200 1 0 0 0 1 0 0 0 1 castillo.dat
 1 7 -80 -88 -200 0 0 1 0 1 0 -1 0 0 castillo.dat
 1 0 -40 -88 200 0 0 -1 0 1 0 1 0 0 baldc4.dat

@@ -1,4 +1,3 @@
-
 import * as THREE from '../three/build/three.module.js';
 import { GUI } from '../three/examples/jsm/libs/lil-gui.module.min.js';
 import { OrbitControls } from '../three/examples/jsm/controls/OrbitControls.js';
@@ -218,7 +217,7 @@ function init() {
 	camera.position.set( 150, 200, 250 );
 
 	//
-
+console.log( typeof module );
 	renderer = new THREE.WebGLRenderer( { antialias: true } );
 	renderer.setPixelRatio( window.devicePixelRatio );
 	renderer.setSize( window.innerWidth, window.innerHeight );
@@ -261,7 +260,8 @@ function init() {
 
 			const bh = selection[ i ].userData.boxHelper;
 			if ( bh ) bh.update();
-		}
+
+		}
 
 		triggerRender();
 
@@ -1097,7 +1097,8 @@ function activateTool( tool, previousTool, parts, previousParts ) {
 			break;
 
 	}
-}
+
+}
 
 function setSnapEnabled( enabled ) {
 
@@ -1775,7 +1776,8 @@ function selectParts( parts ) {
 function selectionIsEmpty() {
 
 	return selection.length === 0;
-}
+
+}
 
 function updateModelAndPartInfo() {
 
@@ -1853,7 +1855,8 @@ function updateModelAndPartInfo() {
 			guiData.modelSeries = "";
 			guiData.modelRef = "";
 			guiData.modelInfoURL = "";
-		}
+
+		}
 		else {
 
 			guiData.path = selectedModel && selectedModel.userData.fileName ? selectedModel.userData.fileName : "";
@@ -2563,7 +2566,8 @@ function createGUI() {
 
 				guiData.path += ".ldr";
 				pathController.updateDisplay();
-			}
+
+			}
 
 			const model = getPartModel( selection[ 0 ] );
 			if ( model ) model.userData.fileName = guiData.path;
@@ -2920,6 +2924,7 @@ function createGUI() {
 
 	const tools4Div = document.createElement( 'div' );
 	tools4Div.className = 'playbackdiv';
+	tools4Div.style.width = "100%";
 	editorPanel.appendChild( tools4Div );
 
 	editMenu = createMenu(
@@ -2970,7 +2975,8 @@ function createGUI() {
 
 				case 7:
 					appendSelectionToModel();
-					break;			}
+					break;
+			}
 
 		}
 	);
@@ -3563,7 +3569,8 @@ function searchColorIndex( colorCode ) {
 	}
 
 	return - 1;
-}
+
+}
 
 function showSelectLDrawColorCode( onResult ) {
 
@@ -3613,7 +3620,8 @@ function deleteSelectTable( panel ) {
 	}
 
 	return null;
-}
+
+}
 
 function removeAccents( str ) {
 
@@ -3722,8 +3730,10 @@ function showSelectTable( buttonLabel, onButtonClicked, onCloseCancel, infoLine,
 			for ( let r in tableDataRows ) {
 
 				tableDataRows[ r ].filterText( filter );
-			}
-		}
+
+			}
+
+		}
 
 	}
 
@@ -3854,7 +3864,8 @@ function showSelectTable( buttonLabel, onButtonClicked, onCloseCancel, infoLine,
 		if ( i >= tableDataRows.length ) return;
 
 		selectRow( i );
-	}
+
+	}
 
 	function selectRow( index ) {
 
@@ -3914,6 +3925,7 @@ function createMenu( title, id, parent, options, callback ) {
 	button.type = 'text';
 	button.size = 15;
 	button.style.marginLeft = "10px";
+	button.style.width = "100%";
 	button.placeholder = title;
 
 	button.addEventListener( 'input', ( event ) => {
@@ -3936,7 +3948,8 @@ function createMenu( title, id, parent, options, callback ) {
 		destroy: () => {
 			parent.removeChild( dataList );
 			parent.removeChild( button );
-		}	};
+		}
+	};
 
 }
 

@@ -1,0 +1,53 @@
+0 Flying Van
+0 Name: flyingvan.ldr
+0 Author: cpcbegin
+0 Tente ruta (el mundo de la ruta)
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 4 70 16 40 1 0 0 0 1 0 0 0 1 llanrutt.dat
+1 4 50 16 40 1 0 0 0 1 0 0 0 1 llantrut.dat
+1 0 70 16 40 1 0 0 0 1 0 0 0 1 ruta21nm.dat
+1 0 50 16 40 1 0 0 0 1 0 0 0 1 ruta21nm.dat
+1 4 170 16 0 -1 0 0 0 1 0 0 0 -1 llantrut.dat
+1 0 170 16 0 -1 0 0 0 1 0 0 0 -1 ruta21nm.dat
+1 4 150 16 0 -1 0 0 0 1 0 0 0 -1 llanrutt.dat
+1 0 150 16 0 -1 0 0 0 1 0 0 0 -1 ruta21nm.dat
+1 0 150 16 40 -1 0 0 0 1 0 0 0 -1 jacen2x4.dat
+1 0 90 -8 40 0 0 1 0 1 0 -1 0 0 jacen2x8.dat
+0 Flying Van
+0 Name: flyingvan.ldr
+0 Author: cpcbegin
+0 Tente ruta (el mundo de la ruta)
+0 Name: formula1elf.ldr
+0 cpcbegin
+0 Tente ruta (el mundo de la ruta)
+1 4 70 16 -80 1 0 0 0 1 0 0 0 1 llanrutt.dat
+1 4 50 16 -80 1 0 0 0 1 0 0 0 1 llantrut.dat
+1 0 70 16 -80 1 0 0 0 1 0 0 0 1 ruta21nm.dat
+1 0 50 16 -80 1 0 0 0 1 0 0 0 1 ruta21nm.dat
+1 4 170 16 -120 -1 0 0 0 1 0 0 0 -1 llantrut.dat
+1 0 170 16 -120 -1 0 0 0 1 0 0 0 -1 ruta21nm.dat
+1 4 150 16 -120 -1 0 0 0 1 0 0 0 -1 llanrutt.dat
+1 0 150 16 -120 -1 0 0 0 1 0 0 0 -1 ruta21nm.dat
+1 0 150 16 -80 -1 0 0 0 1 0 0 0 -1 jacen2x4.dat
+1 4 70 -32 40 0 0 1 0 1 0 -1 0 0 placa4x8.dat
+1 4 70 -40 0 1 0 0 0 1 0 0 0 1 jacen2x4.dat
+1 4 70 -64 0 1 0 0 0 1 0 0 0 1 jacen2x4.dat
+1 4 110 -40 -80 1 0 0 0 1 0 0 0 1 cabant.dat
+1 4 70 -40 0 0 0 1 0 1 0 -1 0 0 ventan4.dat
+1 4 150 -40 -80 0 0 -1 0 1 0 1 0 0 ventan4.dat
+1 15 150 -88 -100 0 0 -1 0 1 0 1 0 0 bald2x2r.dat
+1 14 150 -88 -60 0 0 -1 0 1 0 1 0 0 bald2x2r.dat
+1 2 150 -88 -20 0 0 -1 0 1 0 1 0 0 bald2x2r.dat
+1 2 70 -88 20 0 0 1 0 1 0 -1 0 0 bald2x2r.dat
+1 14 70 -88 -20 0 0 1 0 1 0 -1 0 0 bald2x2r.dat
+1 15 70 -88 -60 0 0 1 0 1 0 -1 0 0 bald2x2r.dat
+1 4 90 -88 60 1 0 0 0 1 0 0 0 1 tejado.dat
+1 4 30 -96 80 1 0 0 0 1 0 0 0 1 tejado8.dat
+1 1 30 -104 60 1 0 0 0 1 0 0 0 1 bald2x2.dat
+1 1 70 -104 60 1 0 0 0 1 0 0 0 1 bald2x2.dat
+1 1 110 -104 60 1 0 0 0 1 0 0 0 1 bald2x2.dat
+1 1 150 -104 60 1 0 0 0 1 0 0 0 1 bald2x2.dat
+1 15 134 -114 80 0 1 0 0 0 1 1 0 0 flecha2.dat
+1 15 94 -114 80 0 1 0 0 0 1 1 0 0 flecha2.dat
+0

@@ -76,9 +76,8 @@
             "title": "HELICÓPTERO AUTOTRANSPORTADO - Helicoptero Autotransportado",
             "seriesNumber": "Aire",
             "refNumber": "0530",
-            "fileTitle": "Aire 0530 Helicoptero Autotransportado",
-            "fileBoxTitle": "",
-            "isOfficial": true
+            "fileTitle": "Mar 0651 Corbeta",
+            "fileBoxTitle": ""
         },
         "oficiales/Aire_0556_Base_Polar_Artic_2.ldr": {
             "path": "oficiales/Aire_0556_Base_Polar_Artic_2.ldr",
@@ -516,6 +515,16 @@
             "refNumber": "0723",
             "fileTitle": "Astro_0723_BaseVigiaCosmica.ldr",
             "fileBoxTitle": ""
+        },
+        "oficiales/Astro_0725_Equipo_Movil_Fotoestereo.ldr": {
+            "path": "oficiales/Astro_0725_Equipo_Movil_Fotoestereo.ldr",
+            "id": "216",
+            "title": "EQUIPO MÓVIL FOTOSTÉREO - Equipo Movil Fotoestereo",
+            "seriesNumber": "Astro",
+            "refNumber": "0725",
+            "fileTitle": "Astro 0725 Equipo Móvil Fotoestéreo",
+            "fileBoxTitle": "",
+            "isOfficial": true
         },
         "oficiales/Astro_0726_Base_de_Descontaminacion.ldr": {
             "path": "oficiales/Astro_0726_Base_de_Descontaminacion.ldr",
@@ -1324,6 +1333,16 @@
             "fileBoxTitle": "",
             "isOfficial": true
         },
+        "oficiales/Cosmic_0434_Dragster.ldr": {
+            "path": "oficiales/Cosmic_0434_Dragster.ldr",
+            "id": "241",
+            "title": "DRAGSTER - Dragster",
+            "seriesNumber": "Cosmic",
+            "refNumber": "0434",
+            "fileTitle": "Untitled",
+            "fileBoxTitle": "",
+            "isOfficial": true
+        },
         "oficiales/Cosmic_0435_Scutty.ldr": {
             "path": "oficiales/Cosmic_0435_Scutty.ldr",
             "id": "242",
@@ -1331,6 +1350,26 @@
             "seriesNumber": "Cosmic",
             "refNumber": "0435",
             "fileTitle": "Scutty",
+            "fileBoxTitle": "",
+            "isOfficial": true
+        },
+        "oficiales/Cosmic_0437_Stroner.ldr": {
+            "path": "oficiales/Cosmic_0437_Stroner.ldr",
+            "id": "244",
+            "title": "STRONER - Stroner",
+            "seriesNumber": "Cosmic",
+            "refNumber": "0437",
+            "fileTitle": "Cosmic 0437 Stroner",
+            "fileBoxTitle": "",
+            "isOfficial": true
+        },
+        "oficiales/Cosmic_0439_Discopter.ldr": {
+            "path": "oficiales/Cosmic_0439_Discopter.ldr",
+            "id": "246",
+            "title": "DISCOPTER - Discopter",
+            "seriesNumber": "Cosmic",
+            "refNumber": "0439",
+            "fileTitle": "Untitled",
             "fileBoxTitle": "",
             "isOfficial": true
         },
@@ -1762,6 +1801,56 @@
             "fileBoxTitle": "",
             "isOfficial": true
         },
+        "oficiales/Mar_0605_Cistena_de_Escolta.ldr": {
+            "path": "oficiales/Mar_0605_Cistena_de_Escolta.ldr",
+            "id": "79",
+            "title": "CISTERNA DE ESCOLTA (SYDNEY) - Cistena de Escolta",
+            "seriesNumber": "Mar",
+            "refNumber": "0605",
+            "fileTitle": "Mar 0605 Cisterna de Escolta",
+            "fileBoxTitle": "",
+            "isOfficial": true
+        },
+        "oficiales/Mar_0606_Barco_de_Rescate.ldr": {
+            "path": "oficiales/Mar_0606_Barco_de_Rescate.ldr",
+            "id": "80",
+            "title": "BARCO DE RESCATE (SANSON) - Barco de Rescate",
+            "seriesNumber": "Mar",
+            "refNumber": "0606",
+            "fileTitle": "Mar 0606 Barco de Rescate",
+            "fileBoxTitle": "",
+            "isOfficial": true
+        },
+        "oficiales/Mar_0607_Buque_Meteorologico.ldr": {
+            "path": "oficiales/Mar_0607_Buque_Meteorologico.ldr",
+            "id": "81",
+            "title": "BUQUE METEOROLÓGICO (EOLO) - Buque Meteorologico",
+            "seriesNumber": "Mar",
+            "refNumber": "0607",
+            "fileTitle": "Mar 0607 Buque Meteorológico",
+            "fileBoxTitle": "",
+            "isOfficial": true
+        },
+        "oficiales/Mar_0608_Hovercraft.ldr": {
+            "path": "oficiales/Mar_0608_Hovercraft.ldr",
+            "id": "",
+            "title": "Hovercraft",
+            "seriesNumber": "Mar",
+            "refNumber": "0608",
+            "fileTitle": "Mar 0608 Hovercraft",
+            "fileBoxTitle": "",
+            "isOfficial": true
+        },
+        "oficiales/Mar_0609_Destructor.ldr": {
+            "path": "oficiales/Mar_0609_Destructor.ldr",
+            "id": "",
+            "title": "Destructor",
+            "seriesNumber": "Mar",
+            "refNumber": "0609",
+            "fileTitle": "Mar 0609 Destructor",
+            "fileBoxTitle": "",
+            "isOfficial": true
+        },
         "oficiales/Mar_0610_Motonave.ldr": {
             "path": "oficiales/Mar_0610_Motonave.ldr",
             "id": "82",
@@ -1819,6 +1908,16 @@
             "seriesNumber": "Mar",
             "refNumber": "0615",
             "fileTitle": "Sin_nombre",
+            "fileBoxTitle": "",
+            "isOfficial": true
+        },
+        "oficiales/Mar_0616_Hovercraft.ldr": {
+            "path": "oficiales/Mar_0616_Hovercraft.ldr",
+            "id": "88",
+            "title": "HOVERCRAFT (PEGASO) - Hovercraft",
+            "seriesNumber": "Mar",
+            "refNumber": "0616",
+            "fileTitle": "Mar 0616 Hovercraft",
             "fileBoxTitle": "",
             "isOfficial": true
         },
@@ -1892,6 +1991,16 @@
             "fileBoxTitle": "",
             "isOfficial": true
         },
+        "oficiales/Mar_0624_Destructor_Antisubmarino.ldr": {
+            "path": "oficiales/Mar_0624_Destructor_Antisubmarino.ldr",
+            "id": "96",
+            "title": "DESTRUCTOR ANTISUBMARINO (TRITON) - Destructor Antisubmarino",
+            "seriesNumber": "Mar",
+            "refNumber": "0624",
+            "fileTitle": "Mar 0624 Destructor Antisubmarino",
+            "fileBoxTitle": "",
+            "isOfficial": true
+        },
         "oficiales/Mar_0625_Transporte_Gas_Licuado.ldr": {
             "path": "oficiales/Mar_0625_Transporte_Gas_Licuado.ldr",
             "id": "97",
@@ -1912,6 +2021,25 @@
             "fileBoxTitle": "",
             "isOfficial": true
         },
+        "oficiales/Mar_0627_Buque_de_Performaciones.ldr": {
+            "path": "oficiales/Mar_0627_Buque_de_Performaciones.ldr",
+            "id": "99",
+            "title": "BUQUE DE PERFORACIONES (CASTOR) - Buque de Performaciones",
+            "seriesNumber": "Mar",
+            "refNumber": "0627",
+            "fileTitle": "Mar 0627 Buque de Perforaciones",
+            "fileBoxTitle": "",
+            "isOfficial": true
+        },
+        "oficiales/Mar_0628_Buque_Frigorifico.ldr": {
+            "path": "oficiales/Mar_0628_Buque_Frigorifico.ldr",
+            "id": "100",
+            "title": "BUQUE FRIGORÍFICO (AROSA) - Buque Frigorifico",
+            "seriesNumber": "Mar",
+            "refNumber": "0628",
+            "fileTitle": "Mar 0628 Buque Frigorífico",
+            "fileBoxTitle": ""
+        },
         "oficiales/Mar_0629_Corsario.ldr": {
             "path": "oficiales/Mar_0629_Corsario.ldr",
             "id": "101",
@@ -1922,6 +2050,15 @@
             "fileBoxTitle": "",
             "isOfficial": true
         },
+        "oficiales/Mar_0630_Crucero.ldr": {
+            "path": "oficiales/Mar_0630_Crucero.ldr",
+            "id": "102",
+            "title": "CRUCERO (FALCON) - Crucero",
+            "seriesNumber": "Mar",
+            "refNumber": "0630",
+            "fileTitle": "Mar 0630 Crucero",
+            "fileBoxTitle": ""
+        },
         "oficiales/Mar_0631_Fragata_Mixta.ldr": {
             "path": "oficiales/Mar_0631_Fragata_Mixta.ldr",
             "id": "103",
@@ -1929,6 +2066,26 @@
             "seriesNumber": "Mar",
             "refNumber": "0631",
             "fileTitle": "Mar 0631 Fragata Mixta",
+            "fileBoxTitle": "",
+            "isOfficial": true
+        },
+        "oficiales/Mar_0633_Buque_de_Carga.ldr": {
+            "path": "oficiales/Mar_0633_Buque_de_Carga.ldr",
+            "id": "104",
+            "title": "BUQUE DE CARGA (THORELL) - Buque de Carga",
+            "seriesNumber": "Mar",
+            "refNumber": "0633",
+            "fileTitle": "Mar 0633 Buque de Carga",
+            "fileBoxTitle": "",
+            "isOfficial": true
+        },
+        "oficiales/Mar_0634_Transporte_Mixto.ldr": {
+            "path": "oficiales/Mar_0634_Transporte_Mixto.ldr",
+            "id": "105",
+            "title": "TRANSPORTE MIXTO (SEAGULL) - Transporte Mixto",
+            "seriesNumber": "Mar",
+            "refNumber": "0634",
+            "fileTitle": "Mar 0634 Transporte Mixto",
             "fileBoxTitle": "",
             "isOfficial": true
         },
@@ -1980,23 +2137,108 @@
             "fileTitle": "Mar 0639 Orion",
             "fileBoxTitle": ""
         },
-        "oficiales/Mar_0642_Automotor.ldr": {
-            "path": "oficiales/Mar_0642_Automotor.ldr",
-            "id": "113",
-            "title": "EXPLOR - Automotor",
+        "oficiales/Mar_0640_Barco_Meteorologico.ldr": {
+            "path": "oficiales/Mar_0640_Barco_Meteorologico.ldr",
+            "id": "111",
+            "title": "SIRIUS - Barco Meteorologico",
             "seriesNumber": "Mar",
-            "refNumber": "0642",
-            "fileTitle": "Automotor",
+            "refNumber": "0640",
+            "fileTitle": "Mar 0640 Barco Meteorologico",
             "fileBoxTitle": "",
             "isOfficial": true
         },
-        "oficiales/Mar_0642_Hovercraft_Motor.ldr": {
-            "path": "oficiales/Mar_0642_Hovercraft_Motor.ldr",
+        "oficiales/Mar_0640_Buque_Polar_Rescate.ldr": {
+            "path": "oficiales/Mar_0640_Buque_Polar_Rescate.ldr",
+            "id": "111",
+            "title": "SIRIUS - Buque Polar Rescate",
+            "seriesNumber": "Mar",
+            "refNumber": "0640",
+            "fileTitle": "Mar 0640 Buque Polar Rescate",
+            "fileBoxTitle": "",
+            "isOfficial": true
+        },
+        "oficiales/Mar_0640_Sirius.ldr": {
+            "path": "oficiales/Mar_0640_Sirius.ldr",
+            "id": "111",
+            "title": "SIRIUS - Sirius",
+            "seriesNumber": "Mar",
+            "refNumber": "0640",
+            "fileTitle": "Mar 0640 Sirius",
+            "fileBoxTitle": "",
+            "isOfficial": true
+        },
+        "oficiales/Mar_0641_Buque_de_Asalto.ldr": {
+            "path": "oficiales/Mar_0641_Buque_de_Asalto.ldr",
+            "id": "112",
+            "title": "PHOENIX - Buque de Asalto",
+            "seriesNumber": "Mar",
+            "refNumber": "0641",
+            "fileTitle": "Mar 0641 Buque de Asalto",
+            "fileBoxTitle": ""
+        },
+        "oficiales/Mar_0641_Corbeta_Lanzamisiles.ldr": {
+            "path": "oficiales/Mar_0641_Corbeta_Lanzamisiles.ldr",
+            "id": "112",
+            "title": "PHOENIX - Corbeta Lanzamisiles",
+            "seriesNumber": "Mar",
+            "refNumber": "0641",
+            "fileTitle": "Mar 0641 Buque de Asalto",
+            "fileBoxTitle": ""
+        },
+        "oficiales/Mar_0641_Phoenix.ldr": {
+            "path": "oficiales/Mar_0641_Phoenix.ldr",
+            "id": "112",
+            "title": "PHOENIX - Phoenix",
+            "seriesNumber": "Mar",
+            "refNumber": "0641",
+            "fileTitle": "Mar 0641 Phoenix",
+            "fileBoxTitle": "",
+            "isOfficial": true
+        },
+        "oficiales/Mar_0641_Portaaviones_Escolta.ldr": {
+            "path": "oficiales/Mar_0641_Portaaviones_Escolta.ldr",
+            "id": "112",
+            "title": "PHOENIX - Portaaviones Escolta",
+            "seriesNumber": "Mar",
+            "refNumber": "0641",
+            "fileTitle": "Mar 0641 Portaaviones Escolta",
+            "fileBoxTitle": ""
+        },
+        "oficiales/Mar_0642_Explor.ldr": {
+            "path": "oficiales/Mar_0642_Explor.ldr",
             "id": "113",
-            "title": "EXPLOR - Hovercraft Motor",
+            "title": "EXPLOR - Explor",
             "seriesNumber": "Mar",
             "refNumber": "0642",
-            "fileTitle": "Hovercraft (motor)",
+            "fileTitle": "Mar_0642_Explor",
+            "fileBoxTitle": ""
+        },
+        "oficiales/Mar_0642_Hovercraft_de_Transporte.ldr": {
+            "path": "oficiales/Mar_0642_Hovercraft_de_Transporte.ldr",
+            "id": "113",
+            "title": "EXPLOR - Hovercraft de Transporte",
+            "seriesNumber": "Mar",
+            "refNumber": "0642",
+            "fileTitle": "Untitled",
+            "fileBoxTitle": "",
+            "isOfficial": true
+        },
+        "oficiales/Mar_0642_Motonave.ldr": {
+            "path": "oficiales/Mar_0642_Motonave.ldr",
+            "id": "113",
+            "title": "EXPLOR - Motonave",
+            "seriesNumber": "Mar",
+            "refNumber": "0642",
+            "fileTitle": "Mar_0642_Motonave.ldr",
+            "fileBoxTitle": ""
+        },
+        "oficiales/Mar_0642_Transbordador_Hovercraft.ldr": {
+            "path": "oficiales/Mar_0642_Transbordador_Hovercraft.ldr",
+            "id": "113",
+            "title": "EXPLOR - Transbordador Hovercraft",
+            "seriesNumber": "Mar",
+            "refNumber": "0642",
+            "fileTitle": "Untitled",
             "fileBoxTitle": "",
             "isOfficial": true
         },
@@ -2090,13 +2332,23 @@
             "fileBoxTitle": "",
             "isOfficial": true
         },
+        "oficiales/Mar_0703_Mystere.ldr": {
+            "path": "oficiales/Mar_0703_Mystere.ldr",
+            "id": "125",
+            "title": "FRAGATA LANZAMISILES Y BASE NAVAL (ARIES) - Mystere",
+            "seriesNumber": "Mar",
+            "refNumber": "0703",
+            "fileTitle": "Mar 0703 Mystere",
+            "fileBoxTitle": "",
+            "isOfficial": true
+        },
         "oficiales/Mar_0704_Portaaviones_Tactico_Coronado.ldr": {
             "path": "oficiales/Mar_0704_Portaaviones_Tactico_Coronado.ldr",
             "id": "127",
             "title": "PORTAAVIONES TÁCTICO (CORONADO) - Portaaviones Tactico Coronado",
             "seriesNumber": "Mar",
             "refNumber": "0704",
-            "fileTitle": "Sin_nombre",
+            "fileTitle": "Mar 0704 Portaaviones Tactico Coronado",
             "fileBoxTitle": "",
             "isOfficial": true
         },
@@ -2107,6 +2359,26 @@
             "seriesNumber": "Mar",
             "refNumber": "0705",
             "fileTitle": "Mar705_CargoShuttle.ldr",
+            "fileBoxTitle": "",
+            "isOfficial": true
+        },
+        "oficiales/Mar_0715_Portahelicopteros.ldr": {
+            "path": "oficiales/Mar_0715_Portahelicopteros.ldr",
+            "id": "138",
+            "title": "PORTAHELICÓPTEROS  (DRAGON) - Portahelicopteros",
+            "seriesNumber": "Mar",
+            "refNumber": "0715",
+            "fileTitle": "Mar 0715 Portahelicópteros",
+            "fileBoxTitle": "",
+            "isOfficial": true
+        },
+        "oficiales/Mar_0717_Transatlantico.ldr": {
+            "path": "oficiales/Mar_0717_Transatlantico.ldr",
+            "id": "140",
+            "title": "TRANSATLATICO II (PALERMO) - Transatlantico",
+            "seriesNumber": "Mar",
+            "refNumber": "0717",
+            "fileTitle": "Mar 0717 Transatlántico",
             "fileBoxTitle": "",
             "isOfficial": true
         },
@@ -2189,6 +2461,16 @@
             "fileBoxTitle": "",
             "isOfficial": true
         },
+        "oficiales/Oceanis_0648_Buque_de_Asalto.ldr": {
+            "path": "oficiales/Oceanis_0648_Buque_de_Asalto.ldr",
+            "id": "144",
+            "title": "BUQUE DE ASALTO (ZEBRA) - Buque de Asalto",
+            "seriesNumber": "Oceanis",
+            "refNumber": "0648",
+            "fileTitle": "Mar 0648 Buque de Asalto",
+            "fileBoxTitle": "",
+            "isOfficial": true
+        },
         "oficiales/Oceanis_0649_Carguero_Colosus.ldr": {
             "path": "oficiales/Oceanis_0649_Carguero_Colosus.ldr",
             "id": "145",
@@ -2196,6 +2478,63 @@
             "seriesNumber": "Oceanis",
             "refNumber": "0649",
             "fileTitle": "Mar0649_Carguero.ldr",
+            "fileBoxTitle": "",
+            "isOfficial": true
+        },
+        "oficiales/Oceanis_0650_Remolcador.ldr": {
+            "path": "oficiales/Oceanis_0650_Remolcador.ldr",
+            "id": "146",
+            "title": "REMOLCADOR (TORO) - Remolcador",
+            "seriesNumber": "Oceanis",
+            "refNumber": "0650",
+            "fileTitle": "Mar 0650 Remolcador",
+            "fileBoxTitle": ""
+        },
+        "oficiales/Oceanis_0651_Corbeta.ldr": {
+            "path": "oficiales/Oceanis_0651_Corbeta.ldr",
+            "id": "147",
+            "title": "CORBETA “DESCUBIERTA” - Corbeta",
+            "seriesNumber": "Oceanis",
+            "refNumber": "0651",
+            "fileTitle": "Mar 0651 Corbeta",
+            "fileBoxTitle": ""
+        },
+        "oficiales/Oceanis_0652_Fragata.ldr": {
+            "path": "oficiales/Oceanis_0652_Fragata.ldr",
+            "id": "148",
+            "title": "FRAGATA “SANTA MARIA” - Fragata",
+            "seriesNumber": "Oceanis",
+            "refNumber": "0652",
+            "fileTitle": "Mar 0652 Fragata",
+            "fileBoxTitle": "",
+            "isOfficial": true
+        },
+        "oficiales/Oceanis_0653_Task_Force_Eagle.ldr": {
+            "path": "oficiales/Oceanis_0653_Task_Force_Eagle.ldr",
+            "id": "149",
+            "title": "TASK FORCE (NIMITZ / EAGLE / TRITON) - Task Force Eagle",
+            "seriesNumber": "Oceanis",
+            "refNumber": "0653",
+            "fileTitle": "Oceanis 0653 Eagle",
+            "fileBoxTitle": ""
+        },
+        "oficiales/Oceanis_0653_Task_Force_Nimitz.ldr": {
+            "path": "oficiales/Oceanis_0653_Task_Force_Nimitz.ldr",
+            "id": "149",
+            "title": "TASK FORCE (NIMITZ / EAGLE / TRITON) - Task Force Nimitz",
+            "seriesNumber": "Oceanis",
+            "refNumber": "0653",
+            "fileTitle": "Oceanis 0653 Task Force Nimitz",
+            "fileBoxTitle": "",
+            "isOfficial": true
+        },
+        "oficiales/Oceanis_0653_Task_Force_Triton.ldr": {
+            "path": "oficiales/Oceanis_0653_Task_Force_Triton.ldr",
+            "id": "149",
+            "title": "TASK FORCE (NIMITZ / EAGLE / TRITON) - Task Force Triton",
+            "seriesNumber": "Oceanis",
+            "refNumber": "0653",
+            "fileTitle": "Oceanis 0653 Task Force Triton",
             "fileBoxTitle": "",
             "isOfficial": true
         },
@@ -2216,8 +2555,7 @@
             "seriesNumber": "Oceanis",
             "refNumber": "0658",
             "fileTitle": "Mar0658_BarcoMeteorologico.ldr",
-            "fileBoxTitle": "",
-            "isOfficial": true
+            "fileBoxTitle": ""
         },
         "oficiales/Oceanis_0659_Missouri.ldr": {
             "path": "oficiales/Oceanis_0659_Missouri.ldr",
@@ -2389,251 +2727,251 @@
             "fileBoxTitle": "",
             "isOfficial": true
         },
-        "oficiales/Ruta_0553_Camion_Autopista.ldr": {
-            "path": "oficiales/Ruta_0553_Camion_Autopista.ldr",
-            "id": "46",
-            "title": "EL MUNDO DE LA RUTA - Camion Autopista",
-            "seriesNumber": "Ruta",
+        "oficiales/Ruta_0553/Ruta_0553_Camion_Autopista.ldr": {
+            "path": "oficiales/Ruta_0553/Ruta_0553_Camion_Autopista.ldr",
+            "id": "",
+            "title": "Camion Autopista",
+            "seriesNumber": "Ruta 0553/Ruta",
             "refNumber": "0553",
             "fileTitle": "Camion autopista",
             "fileBoxTitle": "",
             "isOfficial": true
         },
-        "oficiales/Ruta_0553_Camion_Dragster_Cisterna.ldr": {
-            "path": "oficiales/Ruta_0553_Camion_Dragster_Cisterna.ldr",
-            "id": "46",
-            "title": "EL MUNDO DE LA RUTA - Camion Dragster Cisterna",
-            "seriesNumber": "Ruta",
+        "oficiales/Ruta_0553/Ruta_0553_Camion_Dragster_Cisterna.ldr": {
+            "path": "oficiales/Ruta_0553/Ruta_0553_Camion_Dragster_Cisterna.ldr",
+            "id": "",
+            "title": "Camion Dragster Cisterna",
+            "seriesNumber": "Ruta 0553/Ruta",
             "refNumber": "0553",
             "fileTitle": "Camion Dragster Cisterna",
             "fileBoxTitle": "",
             "isOfficial": true
         },
-        "oficiales/Ruta_0553_Camion_Especial_Bomberos_Aeropuerto.ldr": {
-            "path": "oficiales/Ruta_0553_Camion_Especial_Bomberos_Aeropuerto.ldr",
-            "id": "46",
-            "title": "EL MUNDO DE LA RUTA - Camion Especial Bomberos Aeropuerto",
-            "seriesNumber": "Ruta",
+        "oficiales/Ruta_0553/Ruta_0553_Camion_Especial_Bomberos_Aeropuerto.ldr": {
+            "path": "oficiales/Ruta_0553/Ruta_0553_Camion_Especial_Bomberos_Aeropuerto.ldr",
+            "id": "",
+            "title": "Camion Especial Bomberos Aeropuerto",
+            "seriesNumber": "Ruta 0553/Ruta",
             "refNumber": "0553",
             "fileTitle": "Camion especial bomberos aeropuerto",
             "fileBoxTitle": "",
             "isOfficial": true
         },
-        "oficiales/Ruta_0553_Camion_Especial_Reparaciones_Electricas.ldr": {
-            "path": "oficiales/Ruta_0553_Camion_Especial_Reparaciones_Electricas.ldr",
-            "id": "46",
-            "title": "EL MUNDO DE LA RUTA - Camion Especial Reparaciones Electricas",
-            "seriesNumber": "Ruta",
+        "oficiales/Ruta_0553/Ruta_0553_Camion_Especial_Reparaciones_Electricas.ldr": {
+            "path": "oficiales/Ruta_0553/Ruta_0553_Camion_Especial_Reparaciones_Electricas.ldr",
+            "id": "",
+            "title": "Camion Especial Reparaciones Electricas",
+            "seriesNumber": "Ruta 0553/Ruta",
             "refNumber": "0553",
             "fileTitle": "MLCAD BTG ruedas ruta 21 dobles",
             "fileBoxTitle": "",
             "isOfficial": true
         },
-        "oficiales/Ruta_0553_Camion_Porta_Containers.ldr": {
-            "path": "oficiales/Ruta_0553_Camion_Porta_Containers.ldr",
-            "id": "46",
-            "title": "EL MUNDO DE LA RUTA - Camion Porta Containers",
-            "seriesNumber": "Ruta",
+        "oficiales/Ruta_0553/Ruta_0553_Camion_Porta_Containers.ldr": {
+            "path": "oficiales/Ruta_0553/Ruta_0553_Camion_Porta_Containers.ldr",
+            "id": "",
+            "title": "Camion Porta Containers",
+            "seriesNumber": "Ruta 0553/Ruta",
             "refNumber": "0553",
             "fileTitle": "Camion porta containers",
             "fileBoxTitle": "",
             "isOfficial": true
         },
-        "oficiales/Ruta_0553_Dragster.ldr": {
-            "path": "oficiales/Ruta_0553_Dragster.ldr",
-            "id": "46",
-            "title": "EL MUNDO DE LA RUTA - Dragster",
-            "seriesNumber": "Ruta",
+        "oficiales/Ruta_0553/Ruta_0553_Dragster.ldr": {
+            "path": "oficiales/Ruta_0553/Ruta_0553_Dragster.ldr",
+            "id": "",
+            "title": "Dragster",
+            "seriesNumber": "Ruta 0553/Ruta",
             "refNumber": "0553",
             "fileTitle": "Dragster",
             "fileBoxTitle": "",
             "isOfficial": true
         },
-        "oficiales/Ruta_0553_Dragster_8_Cilindros.ldr": {
-            "path": "oficiales/Ruta_0553_Dragster_8_Cilindros.ldr",
-            "id": "46",
-            "title": "EL MUNDO DE LA RUTA - Dragster 8 Cilindros",
-            "seriesNumber": "Ruta",
+        "oficiales/Ruta_0553/Ruta_0553_Dragster_8_Cilindros.ldr": {
+            "path": "oficiales/Ruta_0553/Ruta_0553_Dragster_8_Cilindros.ldr",
+            "id": "",
+            "title": "Dragster 8 Cilindros",
+            "seriesNumber": "Ruta 0553/Ruta",
             "refNumber": "0553",
             "fileTitle": "Dragster 8 cilindros",
             "fileBoxTitle": "",
             "isOfficial": true
         },
-        "oficiales/Ruta_0553_Expedicion_Mozambique.ldr": {
-            "path": "oficiales/Ruta_0553_Expedicion_Mozambique.ldr",
-            "id": "46",
-            "title": "EL MUNDO DE LA RUTA - Expedicion Mozambique",
-            "seriesNumber": "Ruta",
+        "oficiales/Ruta_0553/Ruta_0553_Expedicion_Mozambique.ldr": {
+            "path": "oficiales/Ruta_0553/Ruta_0553_Expedicion_Mozambique.ldr",
+            "id": "",
+            "title": "Expedicion Mozambique",
+            "seriesNumber": "Ruta 0553/Ruta",
             "refNumber": "0553",
             "fileTitle": "Expedicion Morambique",
             "fileBoxTitle": "",
             "isOfficial": true
         },
-        "oficiales/Ruta_0553_Flying_Van.ldr": {
-            "path": "oficiales/Ruta_0553_Flying_Van.ldr",
-            "id": "46",
-            "title": "EL MUNDO DE LA RUTA - Flying Van",
-            "seriesNumber": "Ruta",
+        "oficiales/Ruta_0553/Ruta_0553_Flying_Van.ldr": {
+            "path": "oficiales/Ruta_0553/Ruta_0553_Flying_Van.ldr",
+            "id": "",
+            "title": "Flying Van",
+            "seriesNumber": "Ruta 0553/Ruta",
             "refNumber": "0553",
             "fileTitle": "Flying Van",
             "fileBoxTitle": "",
             "isOfficial": true
         },
-        "oficiales/Ruta_0553_Formula_1_6_Ruedas.ldr": {
-            "path": "oficiales/Ruta_0553_Formula_1_6_Ruedas.ldr",
-            "id": "46",
-            "title": "EL MUNDO DE LA RUTA - Formula 1 6 Ruedas",
-            "seriesNumber": "Ruta",
+        "oficiales/Ruta_0553/Ruta_0553_Formula_1_6_Ruedas.ldr": {
+            "path": "oficiales/Ruta_0553/Ruta_0553_Formula_1_6_Ruedas.ldr",
+            "id": "",
+            "title": "Formula 1 6 Ruedas",
+            "seriesNumber": "Ruta 0553/Ruta",
             "refNumber": "0553",
             "fileTitle": "Sin_nombre",
             "fileBoxTitle": "",
             "isOfficial": true
         },
-        "oficiales/Ruta_0553_Formula_1_ELF.ldr": {
-            "path": "oficiales/Ruta_0553_Formula_1_ELF.ldr",
-            "id": "46",
-            "title": "EL MUNDO DE LA RUTA - Formula 1 ELF",
-            "seriesNumber": "Ruta",
+        "oficiales/Ruta_0553/Ruta_0553_Formula_1_ELF.ldr": {
+            "path": "oficiales/Ruta_0553/Ruta_0553_Formula_1_ELF.ldr",
+            "id": "",
+            "title": "Formula 1 ELF",
+            "seriesNumber": "Ruta 0553/Ruta",
             "refNumber": "0553",
             "fileTitle": "Formula 1 (el mundo de la ruta)",
             "fileBoxTitle": "",
             "isOfficial": true
         },
-        "oficiales/Ruta_0553_Furgoneta_Aeropuerto.ldr": {
-            "path": "oficiales/Ruta_0553_Furgoneta_Aeropuerto.ldr",
-            "id": "46",
-            "title": "EL MUNDO DE LA RUTA - Furgoneta Aeropuerto",
-            "seriesNumber": "Ruta",
+        "oficiales/Ruta_0553/Ruta_0553_Furgoneta_Aeropuerto.ldr": {
+            "path": "oficiales/Ruta_0553/Ruta_0553_Furgoneta_Aeropuerto.ldr",
+            "id": "",
+            "title": "Furgoneta Aeropuerto",
+            "seriesNumber": "Ruta 0553/Ruta",
             "refNumber": "0553",
             "fileTitle": "Furgoneta aeropuerto",
             "fileBoxTitle": "",
             "isOfficial": true
         },
-        "oficiales/Ruta_0553_Gasolinera_Mundo_Ruta.ldr": {
-            "path": "oficiales/Ruta_0553_Gasolinera_Mundo_Ruta.ldr",
-            "id": "46",
-            "title": "EL MUNDO DE LA RUTA - Gasolinera Mundo Ruta",
-            "seriesNumber": "Ruta",
+        "oficiales/Ruta_0553/Ruta_0553_Gasolinera_Mundo_Ruta.ldr": {
+            "path": "oficiales/Ruta_0553/Ruta_0553_Gasolinera_Mundo_Ruta.ldr",
+            "id": "",
+            "title": "Gasolinera Mundo Ruta",
+            "seriesNumber": "Ruta 0553/Ruta",
             "refNumber": "0553",
             "fileTitle": "Gasolinera (mundo de la ruta)",
             "fileBoxTitle": "",
             "isOfficial": true
         },
-        "oficiales/Ruta_0553_Grua_Porta_Containers.ldr": {
-            "path": "oficiales/Ruta_0553_Grua_Porta_Containers.ldr",
-            "id": "46",
-            "title": "EL MUNDO DE LA RUTA - Grua Porta Containers",
-            "seriesNumber": "Ruta",
+        "oficiales/Ruta_0553/Ruta_0553_Grua_Porta_Containers.ldr": {
+            "path": "oficiales/Ruta_0553/Ruta_0553_Grua_Porta_Containers.ldr",
+            "id": "",
+            "title": "Grua Porta Containers",
+            "seriesNumber": "Ruta 0553/Ruta",
             "refNumber": "0553",
             "fileTitle": "Sin_nombre",
             "fileBoxTitle": "",
             "isOfficial": true
         },
-        "oficiales/Ruta_0553_Limpiapistas.ldr": {
-            "path": "oficiales/Ruta_0553_Limpiapistas.ldr",
-            "id": "46",
-            "title": "EL MUNDO DE LA RUTA - Limpiapistas",
-            "seriesNumber": "Ruta",
+        "oficiales/Ruta_0553/Ruta_0553_Limpiapistas.ldr": {
+            "path": "oficiales/Ruta_0553/Ruta_0553_Limpiapistas.ldr",
+            "id": "",
+            "title": "Limpiapistas",
+            "seriesNumber": "Ruta 0553/Ruta",
             "refNumber": "0553",
             "fileTitle": "Limpiapistas",
             "fileBoxTitle": "",
             "isOfficial": true
         },
-        "oficiales/Ruta_0553_Multiruedas.ldr": {
-            "path": "oficiales/Ruta_0553_Multiruedas.ldr",
-            "id": "46",
-            "title": "EL MUNDO DE LA RUTA - Multiruedas",
-            "seriesNumber": "Ruta",
+        "oficiales/Ruta_0553/Ruta_0553_Multiruedas.ldr": {
+            "path": "oficiales/Ruta_0553/Ruta_0553_Multiruedas.ldr",
+            "id": "",
+            "title": "Multiruedas",
+            "seriesNumber": "Ruta 0553/Ruta",
             "refNumber": "0553",
             "fileTitle": "Flying Van",
             "fileBoxTitle": "",
             "isOfficial": true
         },
-        "oficiales/Ruta_0553_Peaje_Autopista.ldr": {
-            "path": "oficiales/Ruta_0553_Peaje_Autopista.ldr",
-            "id": "46",
-            "title": "EL MUNDO DE LA RUTA - Peaje Autopista",
-            "seriesNumber": "Ruta",
+        "oficiales/Ruta_0553/Ruta_0553_Peaje_Autopista.ldr": {
+            "path": "oficiales/Ruta_0553/Ruta_0553_Peaje_Autopista.ldr",
+            "id": "",
+            "title": "Peaje Autopista",
+            "seriesNumber": "Ruta 0553/Ruta",
             "refNumber": "0553",
             "fileTitle": "Peaje autopista",
             "fileBoxTitle": "",
             "isOfficial": true
         },
-        "oficiales/Ruta_0553_Todoterreno_Cisterna.ldr": {
-            "path": "oficiales/Ruta_0553_Todoterreno_Cisterna.ldr",
-            "id": "46",
-            "title": "EL MUNDO DE LA RUTA - Todoterreno Cisterna",
-            "seriesNumber": "Ruta",
+        "oficiales/Ruta_0553/Ruta_0553_Todoterreno_Cisterna.ldr": {
+            "path": "oficiales/Ruta_0553/Ruta_0553_Todoterreno_Cisterna.ldr",
+            "id": "",
+            "title": "Todoterreno Cisterna",
+            "seriesNumber": "Ruta 0553/Ruta",
             "refNumber": "0553",
             "fileTitle": "Sin_nombre",
             "fileBoxTitle": "",
             "isOfficial": true
         },
-        "oficiales/Ruta_0553_Torre_Control_Aeropuerto.ldr": {
-            "path": "oficiales/Ruta_0553_Torre_Control_Aeropuerto.ldr",
-            "id": "46",
-            "title": "EL MUNDO DE LA RUTA - Torre Control Aeropuerto",
-            "seriesNumber": "Ruta",
+        "oficiales/Ruta_0553/Ruta_0553_Torre_Control_Aeropuerto.ldr": {
+            "path": "oficiales/Ruta_0553/Ruta_0553_Torre_Control_Aeropuerto.ldr",
+            "id": "",
+            "title": "Torre Control Aeropuerto",
+            "seriesNumber": "Ruta 0553/Ruta",
             "refNumber": "0553",
             "fileTitle": "Torre de control aeropuerto",
             "fileBoxTitle": "",
             "isOfficial": true
         },
-        "oficiales/Ruta_0553_Trailer_Transformador.ldr": {
-            "path": "oficiales/Ruta_0553_Trailer_Transformador.ldr",
-            "id": "46",
-            "title": "EL MUNDO DE LA RUTA - Trailer Transformador",
-            "seriesNumber": "Ruta",
+        "oficiales/Ruta_0553/Ruta_0553_Trailer_Transformador.ldr": {
+            "path": "oficiales/Ruta_0553/Ruta_0553_Trailer_Transformador.ldr",
+            "id": "",
+            "title": "Trailer Transformador",
+            "seriesNumber": "Ruta 0553/Ruta",
             "refNumber": "0553",
             "fileTitle": "Trailer con transformador",
             "fileBoxTitle": "",
             "isOfficial": true
         },
-        "oficiales/Ruta_0553_Trailer_Transporte_Mineral.ldr": {
-            "path": "oficiales/Ruta_0553_Trailer_Transporte_Mineral.ldr",
-            "id": "46",
-            "title": "EL MUNDO DE LA RUTA - Trailer Transporte Mineral",
-            "seriesNumber": "Ruta",
+        "oficiales/Ruta_0553/Ruta_0553_Trailer_Transporte_Mineral.ldr": {
+            "path": "oficiales/Ruta_0553/Ruta_0553_Trailer_Transporte_Mineral.ldr",
+            "id": "",
+            "title": "Trailer Transporte Mineral",
+            "seriesNumber": "Ruta 0553/Ruta",
             "refNumber": "0553",
             "fileTitle": "MLCAD BTG ruedas 21",
             "fileBoxTitle": "",
             "isOfficial": true
         },
-        "oficiales/Ruta_0553_Transporte_Doble_Articulado.ldr": {
-            "path": "oficiales/Ruta_0553_Transporte_Doble_Articulado.ldr",
-            "id": "46",
-            "title": "EL MUNDO DE LA RUTA - Transporte Doble Articulado",
-            "seriesNumber": "Ruta",
+        "oficiales/Ruta_0553/Ruta_0553_Transporte_Doble_Articulado.ldr": {
+            "path": "oficiales/Ruta_0553/Ruta_0553_Transporte_Doble_Articulado.ldr",
+            "id": "",
+            "title": "Transporte Doble Articulado",
+            "seriesNumber": "Ruta 0553/Ruta",
             "refNumber": "0553",
             "fileTitle": "Transporte doble articulado",
             "fileBoxTitle": "",
             "isOfficial": true
         },
-        "oficiales/Ruta_0553_Transporte_Especial.ldr": {
-            "path": "oficiales/Ruta_0553_Transporte_Especial.ldr",
-            "id": "46",
-            "title": "EL MUNDO DE LA RUTA - Transporte Especial",
-            "seriesNumber": "Ruta",
+        "oficiales/Ruta_0553/Ruta_0553_Transporte_Especial.ldr": {
+            "path": "oficiales/Ruta_0553/Ruta_0553_Transporte_Especial.ldr",
+            "id": "",
+            "title": "Transporte Especial",
+            "seriesNumber": "Ruta 0553/Ruta",
             "refNumber": "0553",
             "fileTitle": "Sin_nombre",
             "fileBoxTitle": "",
             "isOfficial": true
         },
-        "oficiales/Ruta_0553_Transporte_Especial_Carga.ldr": {
-            "path": "oficiales/Ruta_0553_Transporte_Especial_Carga.ldr",
-            "id": "46",
-            "title": "EL MUNDO DE LA RUTA - Transporte Especial Carga",
-            "seriesNumber": "Ruta",
+        "oficiales/Ruta_0553/Ruta_0553_Transporte_Especial_Carga.ldr": {
+            "path": "oficiales/Ruta_0553/Ruta_0553_Transporte_Especial_Carga.ldr",
+            "id": "",
+            "title": "Transporte Especial Carga",
+            "seriesNumber": "Ruta 0553/Ruta",
             "refNumber": "0553",
             "fileTitle": "Transportes especiales (carga)",
             "fileBoxTitle": "",
             "isOfficial": true
         },
-        "oficiales/Ruta_0553_Vehiculo_20_Ruedas.ldr": {
-            "path": "oficiales/Ruta_0553_Vehiculo_20_Ruedas.ldr",
-            "id": "46",
-            "title": "EL MUNDO DE LA RUTA - Vehiculo 20 Ruedas",
-            "seriesNumber": "Ruta",
+        "oficiales/Ruta_0553/Ruta_0553_Vehiculo_20_Ruedas.ldr": {
+            "path": "oficiales/Ruta_0553/Ruta_0553_Vehiculo_20_Ruedas.ldr",
+            "id": "",
+            "title": "Vehiculo 20 Ruedas",
+            "seriesNumber": "Ruta 0553/Ruta",
             "refNumber": "0553",
             "fileTitle": "Flying Van",
             "fileBoxTitle": "",
@@ -3072,7 +3410,17 @@
             "title": "SCORPIONES DE ACERO - Transporte Blindado",
             "seriesNumber": "Scorpion",
             "refNumber": "0543",
-            "fileTitle": "Untitled",
+            "fileTitle": "Scorpion 0543 Transporte Blindado",
+            "fileBoxTitle": "",
+            "isOfficial": true
+        },
+        "oficiales/Scorpion_0543_Unidad_Antiaerea.ldr": {
+            "path": "oficiales/Scorpion_0543_Unidad_Antiaerea.ldr",
+            "id": "256",
+            "title": "SCORPIONES DE ACERO - Unidad Antiaerea",
+            "seriesNumber": "Scorpion",
+            "refNumber": "0543",
+            "fileTitle": "Scorpion 0543 Unidad Antiaérea",
             "fileBoxTitle": "",
             "isOfficial": true
         },
@@ -3132,7 +3480,7 @@
             "title": "410 - Ermita",
             "seriesNumber": "400",
             "refNumber": "410",
-            "fileTitle": "Untitled",
+            "fileTitle": "410 Ermita",
             "fileBoxTitle": "",
             "isOfficial": true
         },
@@ -3417,6 +3765,16 @@
             "path": "inventados/cpcbegin/buzon_sugerencias.ldr",
             "id": "",
             "title": "inventados/cpcbegin/buzon_sugerencias",
+            "seriesNumber": "",
+            "refNumber": "",
+            "fileTitle": "Untitled",
+            "fileBoxTitle": "",
+            "isOfficial": true
+        },
+        "inventados/cpcbegin/cabina80_mini.ldr": {
+            "path": "inventados/cpcbegin/cabina80_mini.ldr",
+            "id": "",
+            "title": "inventados/cpcbegin/cabina80_mini",
             "seriesNumber": "",
             "refNumber": "",
             "fileTitle": "Untitled",
@@ -3721,6 +4079,16 @@
             "fileBoxTitle": "",
             "isOfficial": true
         },
+        "inventados/cpcbegin/lafarola2022.ldr": {
+            "path": "inventados/cpcbegin/lafarola2022.ldr",
+            "id": "",
+            "title": "inventados/cpcbegin/lafarola2022",
+            "seriesNumber": "",
+            "refNumber": "",
+            "fileTitle": "Untitled",
+            "fileBoxTitle": "",
+            "isOfficial": true
+        },
         "inventados/cpcbegin/ld3dstudio_logo.ldr": {
             "path": "inventados/cpcbegin/ld3dstudio_logo.ldr",
             "id": "",
@@ -3778,16 +4146,6 @@
             "seriesNumber": "",
             "refNumber": "",
             "fileTitle": "MLCAD BTG ruedas_50",
-            "fileBoxTitle": "",
-            "isOfficial": true
-        },
-        "inventados/cpcbegin/minipcsobremesa.ldr": {
-            "path": "inventados/cpcbegin/minipcsobremesa.ldr",
-            "id": "",
-            "title": "inventados/cpcbegin/minipcsobremesa",
-            "seriesNumber": "",
-            "refNumber": "",
-            "fileTitle": "Untitled",
             "fileBoxTitle": "",
             "isOfficial": true
         },
@@ -3865,6 +4223,26 @@
             "path": "inventados/cpcbegin/papamovil.ldr",
             "id": "",
             "title": "inventados/cpcbegin/papamovil",
+            "seriesNumber": "",
+            "refNumber": "",
+            "fileTitle": "Untitled",
+            "fileBoxTitle": "",
+            "isOfficial": true
+        },
+        "inventados/cpcbegin/pcsobremesa_monitor_plano.ldr": {
+            "path": "inventados/cpcbegin/pcsobremesa_monitor_plano.ldr",
+            "id": "",
+            "title": "inventados/cpcbegin/pcsobremesa_monitor_plano",
+            "seriesNumber": "",
+            "refNumber": "",
+            "fileTitle": "Untitled",
+            "fileBoxTitle": "",
+            "isOfficial": true
+        },
+        "inventados/cpcbegin/pcsobremesa_monitor_plano_2022.ldr": {
+            "path": "inventados/cpcbegin/pcsobremesa_monitor_plano_2022.ldr",
+            "id": "",
+            "title": "inventados/cpcbegin/pcsobremesa_monitor_plano_2022",
             "seriesNumber": "",
             "refNumber": "",
             "fileTitle": "Untitled",
@@ -4027,6 +4405,16 @@
             "seriesNumber": "",
             "refNumber": "",
             "fileTitle": "Todoterreno compacto",
+            "fileBoxTitle": "",
+            "isOfficial": true
+        },
+        "inventados/cpcbegin/torno.ldr": {
+            "path": "inventados/cpcbegin/torno.ldr",
+            "id": "",
+            "title": "inventados/cpcbegin/torno",
+            "seriesNumber": "",
+            "refNumber": "",
+            "fileTitle": "Untitled",
             "fileBoxTitle": "",
             "isOfficial": true
         },
@@ -4444,6 +4832,7 @@
         "oficiales/Astro_0722_Nave_de_Defensa_Sideral_Alter1.ldr",
         "oficiales/Astro_0722_Nave_de_Defensa_Sideral_Alter2.ldr",
         "oficiales/Astro_0723_Base_Vigia_Cosmica.ldr",
+        "oficiales/Astro_0725_Equipo_Movil_Fotoestereo.ldr",
         "oficiales/Astro_0726_Base_de_Descontaminacion.ldr",
         "oficiales/Astro_0740_Saturno6_Mini_Explorador_Aereo.ldr",
         "oficiales/Astro_0740_Saturno6_Mini_Explorador_Terrestre.ldr",
@@ -4525,7 +4914,10 @@
         "oficiales/Compact_0351_Tex.ldr",
         "oficiales/Compact_0352_Karpan.ldr",
         "oficiales/Compact_0353_Condor.ldr",
+        "oficiales/Cosmic_0434_Dragster.ldr",
         "oficiales/Cosmic_0435_Scutty.ldr",
+        "oficiales/Cosmic_0437_Stroner.ldr",
+        "oficiales/Cosmic_0439_Discopter.ldr",
         "oficiales/Cosmic_0442_Turbocuter.ldr",
         "oficiales/Cosmic_0445_Base_Odysseus.ldr",
         "oficiales/Cosmic_0557_Base_Andromeda.ldr",
@@ -4569,12 +4961,18 @@
         "oficiales/Mar_0602_Barco_Faro.ldr",
         "oficiales/Mar_0603_Buque_Contraincendios.ldr",
         "oficiales/Mar_0604_Barco_Policia.ldr",
+        "oficiales/Mar_0605_Cistena_de_Escolta.ldr",
+        "oficiales/Mar_0606_Barco_de_Rescate.ldr",
+        "oficiales/Mar_0607_Buque_Meteorologico.ldr",
+        "oficiales/Mar_0608_Hovercraft.ldr",
+        "oficiales/Mar_0609_Destructor.ldr",
         "oficiales/Mar_0610_Motonave.ldr",
         "oficiales/Mar_0611_Metanero.ldr",
         "oficiales/Mar_0612_Carguero.ldr",
         "oficiales/Mar_0613_Destructor.ldr",
         "oficiales/Mar_0614_Ferry.ldr",
         "oficiales/Mar_0615_Fragata_Lanzamisiles.ldr",
+        "oficiales/Mar_0616_Hovercraft.ldr",
         "oficiales/Mar_0617_Buque_Desembarco.ldr",
         "oficiales/Mar_0618_Guardacostas.ldr",
         "oficiales/Mar_0619_Rompehielos_Nuclear.ldr",
@@ -4582,17 +4980,32 @@
         "oficiales/Mar_0621_Muelle_Comercial_y_Barco_Pesquero.ldr",
         "oficiales/Mar_0622_Refineria_y_Petrolero_de_Cabotaje.ldr",
         "oficiales/Mar_0623_Buque_Investigaciones_Submarinas.ldr",
+        "oficiales/Mar_0624_Destructor_Antisubmarino.ldr",
         "oficiales/Mar_0625_Transporte_Gas_Licuado.ldr",
         "oficiales/Mar_0626_Transporte_Lanchas_Desembarco.ldr",
+        "oficiales/Mar_0627_Buque_de_Performaciones.ldr",
+        "oficiales/Mar_0628_Buque_Frigorifico.ldr",
         "oficiales/Mar_0629_Corsario.ldr",
+        "oficiales/Mar_0630_Crucero.ldr",
         "oficiales/Mar_0631_Fragata_Mixta.ldr",
+        "oficiales/Mar_0633_Buque_de_Carga.ldr",
+        "oficiales/Mar_0634_Transporte_Mixto.ldr",
         "oficiales/Mar_0635_Buque_Pasaje.ldr",
         "oficiales/Mar_0636_Vampire.ldr",
         "oficiales/Mar_0637_Laser_X.ldr",
         "oficiales/Mar_0638_Storm.ldr",
         "oficiales/Mar_0639_Orion.ldr",
-        "oficiales/Mar_0642_Automotor.ldr",
-        "oficiales/Mar_0642_Hovercraft_Motor.ldr",
+        "oficiales/Mar_0640_Barco_Meteorologico.ldr",
+        "oficiales/Mar_0640_Buque_Polar_Rescate.ldr",
+        "oficiales/Mar_0640_Sirius.ldr",
+        "oficiales/Mar_0641_Buque_de_Asalto.ldr",
+        "oficiales/Mar_0641_Corbeta_Lanzamisiles.ldr",
+        "oficiales/Mar_0641_Phoenix.ldr",
+        "oficiales/Mar_0641_Portaaviones_Escolta.ldr",
+        "oficiales/Mar_0642_Explor.ldr",
+        "oficiales/Mar_0642_Hovercraft_de_Transporte.ldr",
+        "oficiales/Mar_0642_Motonave.ldr",
+        "oficiales/Mar_0642_Transbordador_Hovercraft.ldr",
         "oficiales/Mar_0643_Destructor_Nuclear.ldr",
         "oficiales/Mar_0644_Buque_Factoria_Motor.ldr",
         "oficiales/Mar_0645_Portahelicopteros.ldr",
@@ -4602,8 +5015,11 @@
         "oficiales/Mar_0701_Portaaviones_1GM_Jupiter.ldr",
         "oficiales/Mar_0702_Carguero_y_Terminal.ldr",
         "oficiales/Mar_0703_Fragata_Lanzamisiles_y_Base_Naval.ldr",
+        "oficiales/Mar_0703_Mystere.ldr",
         "oficiales/Mar_0704_Portaaviones_Tactico_Coronado.ldr",
         "oficiales/Mar_0705_Cargo_Shuttle.ldr",
+        "oficiales/Mar_0715_Portahelicopteros.ldr",
+        "oficiales/Mar_0717_Transatlantico.ldr",
         "oficiales/Mar_JPN_TS45_Special_Ship_Sunshine_II.ldr",
         "oficiales/Mini_501_Chalet.ldr",
         "oficiales/Mini_501_Simbolo_Chino.ldr",
@@ -4612,7 +5028,14 @@
         "oficiales/Mini_507_Ermita.ldr",
         "oficiales/Mini_508_Kiosko_Refrescos.ldr",
         "oficiales/Mini_510_Casa_de_Campo.ldr",
+        "oficiales/Oceanis_0648_Buque_de_Asalto.ldr",
         "oficiales/Oceanis_0649_Carguero_Colosus.ldr",
+        "oficiales/Oceanis_0650_Remolcador.ldr",
+        "oficiales/Oceanis_0651_Corbeta.ldr",
+        "oficiales/Oceanis_0652_Fragata.ldr",
+        "oficiales/Oceanis_0653_Task_Force_Eagle.ldr",
+        "oficiales/Oceanis_0653_Task_Force_Nimitz.ldr",
+        "oficiales/Oceanis_0653_Task_Force_Triton.ldr",
         "oficiales/Oceanis_0657_Patrullera.ldr",
         "oficiales/Oceanis_0658_Oceanografico_Meteor.ldr",
         "oficiales/Oceanis_0659_Missouri.ldr",
@@ -4632,31 +5055,31 @@
         "oficiales/Roblock_0798_Krator.ldr",
         "oficiales/Roblock_0798_Krator_Transf.ldr",
         "oficiales/Ruta2_70046_Airport_Service.ldr",
-        "oficiales/Ruta_0553_Camion_Autopista.ldr",
-        "oficiales/Ruta_0553_Camion_Dragster_Cisterna.ldr",
-        "oficiales/Ruta_0553_Camion_Especial_Bomberos_Aeropuerto.ldr",
-        "oficiales/Ruta_0553_Camion_Especial_Reparaciones_Electricas.ldr",
-        "oficiales/Ruta_0553_Camion_Porta_Containers.ldr",
-        "oficiales/Ruta_0553_Dragster.ldr",
-        "oficiales/Ruta_0553_Dragster_8_Cilindros.ldr",
-        "oficiales/Ruta_0553_Expedicion_Mozambique.ldr",
-        "oficiales/Ruta_0553_Flying_Van.ldr",
-        "oficiales/Ruta_0553_Formula_1_6_Ruedas.ldr",
-        "oficiales/Ruta_0553_Formula_1_ELF.ldr",
-        "oficiales/Ruta_0553_Furgoneta_Aeropuerto.ldr",
-        "oficiales/Ruta_0553_Gasolinera_Mundo_Ruta.ldr",
-        "oficiales/Ruta_0553_Grua_Porta_Containers.ldr",
-        "oficiales/Ruta_0553_Limpiapistas.ldr",
-        "oficiales/Ruta_0553_Multiruedas.ldr",
-        "oficiales/Ruta_0553_Peaje_Autopista.ldr",
-        "oficiales/Ruta_0553_Todoterreno_Cisterna.ldr",
-        "oficiales/Ruta_0553_Torre_Control_Aeropuerto.ldr",
-        "oficiales/Ruta_0553_Trailer_Transformador.ldr",
-        "oficiales/Ruta_0553_Trailer_Transporte_Mineral.ldr",
-        "oficiales/Ruta_0553_Transporte_Doble_Articulado.ldr",
-        "oficiales/Ruta_0553_Transporte_Especial.ldr",
-        "oficiales/Ruta_0553_Transporte_Especial_Carga.ldr",
-        "oficiales/Ruta_0553_Vehiculo_20_Ruedas.ldr",
+        "oficiales/Ruta_0553/Ruta_0553_Camion_Autopista.ldr",
+        "oficiales/Ruta_0553/Ruta_0553_Camion_Dragster_Cisterna.ldr",
+        "oficiales/Ruta_0553/Ruta_0553_Camion_Especial_Bomberos_Aeropuerto.ldr",
+        "oficiales/Ruta_0553/Ruta_0553_Camion_Especial_Reparaciones_Electricas.ldr",
+        "oficiales/Ruta_0553/Ruta_0553_Camion_Porta_Containers.ldr",
+        "oficiales/Ruta_0553/Ruta_0553_Dragster.ldr",
+        "oficiales/Ruta_0553/Ruta_0553_Dragster_8_Cilindros.ldr",
+        "oficiales/Ruta_0553/Ruta_0553_Expedicion_Mozambique.ldr",
+        "oficiales/Ruta_0553/Ruta_0553_Flying_Van.ldr",
+        "oficiales/Ruta_0553/Ruta_0553_Formula_1_6_Ruedas.ldr",
+        "oficiales/Ruta_0553/Ruta_0553_Formula_1_ELF.ldr",
+        "oficiales/Ruta_0553/Ruta_0553_Furgoneta_Aeropuerto.ldr",
+        "oficiales/Ruta_0553/Ruta_0553_Gasolinera_Mundo_Ruta.ldr",
+        "oficiales/Ruta_0553/Ruta_0553_Grua_Porta_Containers.ldr",
+        "oficiales/Ruta_0553/Ruta_0553_Limpiapistas.ldr",
+        "oficiales/Ruta_0553/Ruta_0553_Multiruedas.ldr",
+        "oficiales/Ruta_0553/Ruta_0553_Peaje_Autopista.ldr",
+        "oficiales/Ruta_0553/Ruta_0553_Todoterreno_Cisterna.ldr",
+        "oficiales/Ruta_0553/Ruta_0553_Torre_Control_Aeropuerto.ldr",
+        "oficiales/Ruta_0553/Ruta_0553_Trailer_Transformador.ldr",
+        "oficiales/Ruta_0553/Ruta_0553_Trailer_Transporte_Mineral.ldr",
+        "oficiales/Ruta_0553/Ruta_0553_Transporte_Doble_Articulado.ldr",
+        "oficiales/Ruta_0553/Ruta_0553_Transporte_Especial.ldr",
+        "oficiales/Ruta_0553/Ruta_0553_Transporte_Especial_Carga.ldr",
+        "oficiales/Ruta_0553/Ruta_0553_Vehiculo_20_Ruedas.ldr",
         "oficiales/Ruta_0670_Camion_Plataforma.ldr",
         "oficiales/Ruta_0671_Camion_Furgon.ldr",
         "oficiales/Ruta_0672_Camion_Volquete.ldr",
@@ -4701,6 +5124,7 @@
         "oficiales/Scorpion_0543_Lanza_Misil_Movil.ldr",
         "oficiales/Scorpion_0543_Misil_Autotransportado.ldr",
         "oficiales/Scorpion_0543_Transporte_Blindado.ldr",
+        "oficiales/Scorpion_0543_Unidad_Antiaerea.ldr",
         "oficiales/Scorpion_0750_Tanque.ldr",
         "oficiales/Scorpion_0751_Transporte_Anfibio.ldr",
         "oficiales/Scorpion_0752_Semioruga.ldr",
@@ -4736,6 +5160,7 @@
         "inventados/cpcbegin/bocametro.ldr",
         "inventados/cpcbegin/busbateria.ldr",
         "inventados/cpcbegin/buzon_sugerencias.ldr",
+        "inventados/cpcbegin/cabina80_mini.ldr",
         "inventados/cpcbegin/cabinatelefonos.ldr",
         "inventados/cpcbegin/cajonera/cajon.ldr",
         "inventados/cpcbegin/cajonera/cajonera_4c.ldr",
@@ -4766,13 +5191,13 @@
         "inventados/cpcbegin/jabega.ldr",
         "inventados/cpcbegin/jetpac.ldr",
         "inventados/cpcbegin/lafarola.ldr",
+        "inventados/cpcbegin/lafarola2022.ldr",
         "inventados/cpcbegin/ld3dstudio_logo.ldr",
         "inventados/cpcbegin/lemmings_flat.ldr",
         "inventados/cpcbegin/lopezpenalver.ldr",
         "inventados/cpcbegin/lunar_cruiser.ldr",
         "inventados/cpcbegin/martian_chronicles_van.ldr",
         "inventados/cpcbegin/microbus50.ldr",
-        "inventados/cpcbegin/minipcsobremesa.ldr",
         "inventados/cpcbegin/moduloescapemarciano.ldr",
         "inventados/cpcbegin/molino.ldr",
         "inventados/cpcbegin/morlaco.ldr",
@@ -4781,6 +5206,8 @@
         "inventados/cpcbegin/nave_v/navevisitante.ldr",
         "inventados/cpcbegin/ovni9.ldr",
         "inventados/cpcbegin/papamovil.ldr",
+        "inventados/cpcbegin/pcsobremesa_monitor_plano.ldr",
+        "inventados/cpcbegin/pcsobremesa_monitor_plano_2022.ldr",
         "inventados/cpcbegin/pctubo.ldr",
         "inventados/cpcbegin/planeador_orbital.ldr",
         "inventados/cpcbegin/robotaxi.ldr",
@@ -4797,6 +5224,7 @@
         "inventados/cpcbegin/the_orville_shuttle.ldr",
         "inventados/cpcbegin/titan_mare_explorer.ldr",
         "inventados/cpcbegin/todoterrenocompacto.ldr",
+        "inventados/cpcbegin/torno.ldr",
         "inventados/cpcbegin/torre_entrada_puerto_malaga.ldr",
         "inventados/cpcbegin/torre_fastolfe.ldr",
         "inventados/cpcbegin/torre_glories_barcelona.ldr",
@@ -5565,6 +5993,15 @@
                 "Mar"
             ]
         },
+        "bandesta.dat": {
+            "path": "bandesta.dat",
+            "title": "Bandera Estandarte Ibertren",
+            "metaData": "|D:D",
+            "mainCategory": "Dark",
+            "categories": [
+                "Dark"
+            ]
+        },
         "bandefra.dat": {
             "path": "bandefra.dat",
             "title": "Bandera Francia",
@@ -5719,6 +6156,20 @@
                 "Mar"
             ]
         },
+        "baserad1.dat": {
+            "path": "baserad1.dat",
+            "title": "Base Radar Tipo 1 IUNITS",
+            "metaData": "",
+            "mainCategory": "None",
+            "categories": []
+        },
+        "baserad2.dat": {
+            "path": "baserad2.dat",
+            "title": "Base Radar Tipo 2 IUNITS",
+            "metaData": "",
+            "mainCategory": "None",
+            "categories": []
+        },
         "bis1aba.dat": {
             "path": "bis1aba.dat",
             "title": "Bisagra 1 teton Abajo",
@@ -5827,6 +6278,24 @@
                 "Básico"
             ]
         },
+        "bisnrhh.dat": {
+            "path": "bisnrhh.dat",
+            "title": "Bisagra Normal Hembra-Hembra",
+            "metaData": "|B:B",
+            "mainCategory": "Básico",
+            "categories": [
+                "Básico"
+            ]
+        },
+        "bisnrmm.dat": {
+            "path": "bisnrmm.dat",
+            "title": "Bisagra Normal Macho-Macho",
+            "metaData": "|B:B",
+            "mainCategory": "Básico",
+            "categories": [
+                "Básico"
+            ]
+        },
         "bispq.dat": {
             "path": "bispq.dat",
             "title": "Bisagra PequeÃ±a",
@@ -5854,6 +6323,27 @@
             "categories": [
                 "Básico"
             ]
+        },
+        "canondab.dat": {
+            "path": "canondab.dat",
+            "title": "CaÃ±Ã³n Doble Articulado (base) IUNITS",
+            "metaData": "",
+            "mainCategory": "None",
+            "categories": []
+        },
+        "canondat.dat": {
+            "path": "canondat.dat",
+            "title": "CaÃ±Ã³n Doble Articulado (tubo) IUNITS",
+            "metaData": "",
+            "mainCategory": "None",
+            "categories": []
+        },
+        "canonda.dat": {
+            "path": "canonda.dat",
+            "title": "CaÃ±Ã³n Doble Articulado IUNITS",
+            "metaData": "",
+            "mainCategory": "None",
+            "categories": []
         },
         "canongrn.dat": {
             "path": "canongrn.dat",
@@ -5890,6 +6380,27 @@
             "categories": [
                 "Mar"
             ]
+        },
+        "canonmab.dat": {
+            "path": "canonmab.dat",
+            "title": "CaÃ±Ã³n Melara Articulado (base) IUNITS",
+            "metaData": "",
+            "mainCategory": "None",
+            "categories": []
+        },
+        "canonmat.dat": {
+            "path": "canonmat.dat",
+            "title": "CaÃ±Ã³n Melara Articulado (tubo) IUNITS",
+            "metaData": "",
+            "mainCategory": "None",
+            "categories": []
+        },
+        "canonma.dat": {
+            "path": "canonma.dat",
+            "title": "CaÃ±Ã³n Melara Articulado IUNITS",
+            "metaData": "",
+            "mainCategory": "None",
+            "categories": []
         },
         "canonom.dat": {
             "path": "canonom.dat",
@@ -6361,6 +6872,13 @@
             "categories": [
                 "Mar"
             ]
+        },
+        "chimene3.dat": {
+            "path": "chimene3.dat",
+            "title": "Chimenea 1x3 IUNITS",
+            "metaData": "",
+            "mainCategory": "None",
+            "categories": []
         },
         "chimbald.dat": {
             "path": "chimbald.dat",
@@ -10011,6 +10529,16 @@
                 "Vehículos"
             ]
         },
+        "helcabsu.dat": {
+            "path": "helcabsu.dat",
+            "title": "Helicoptero cabina superior",
+            "metaData": "|A:A|V:V",
+            "mainCategory": "Aire",
+            "categories": [
+                "Aire",
+                "Vehículos"
+            ]
+        },
         "helcol.dat": {
             "path": "helcol.dat",
             "title": "Cola Helicóptero",
@@ -10164,6 +10692,16 @@
                 "Mar"
             ]
         },
+        "htit1.dat": {
+            "path": "htit1.dat",
+            "title": "Hombre Titanium 1",
+            "metaData": "|T:T|F:F",
+            "mainCategory": "Alfa",
+            "categories": [
+                "Alfa",
+                "Titanium"
+            ]
+        },
         "htit2.dat": {
             "path": "htit2.dat",
             "title": "Figura Articulada Completa",
@@ -10174,9 +10712,9 @@
                 "Titanium"
             ]
         },
-        "htit1.dat": {
-            "path": "htit1.dat",
-            "title": "Hombre Titanium 1",
+        "htit3.dat": {
+            "path": "htit3.dat",
+            "title": "Hombre Titanium 3",
             "metaData": "|T:T|F:F",
             "mainCategory": "Alfa",
             "categories": [
@@ -11171,8 +11709,8 @@
                 "Ruta"
             ]
         },
-        "nrutemb2.dat": {
-            "path": "nrutemb2.dat",
+        "nrutembl2.dat": {
+            "path": "nrutembl2.dat",
             "title": "New Ruta Embellecedor (centrada)",
             "metaData": "|R:R",
             "mainCategory": "Ruta",
@@ -11180,8 +11718,8 @@
                 "Ruta"
             ]
         },
-        "nrutembl2.dat": {
-            "path": "nrutembl2.dat",
+        "nrutemb2.dat": {
+            "path": "nrutemb2.dat",
             "title": "New Ruta Embellecedor (centrada)",
             "metaData": "|R:R",
             "mainCategory": "Ruta",
@@ -11307,6 +11845,30 @@
             "mainCategory": "None",
             "categories": []
         },
+        "pe45d2x2.dat": {
+            "path": "pe45d2x2.dat",
+            "title": "P1aca Angulo Derecha a 45 2x2 IUNITS",
+            "metaData": "",
+            "mainCategory": "None",
+            "categories": []
+        },
+        "pe45i2x2.dat": {
+            "path": "pe45i2x2.dat",
+            "title": "P1aca Angulo Izquierda a 45 2x2 IUNITS",
+            "metaData": "",
+            "mainCategory": "None",
+            "categories": []
+        },
+        "placacil.dat": {
+            "path": "placacil.dat",
+            "title": "Placa redonda con tetón",
+            "metaData": "|D:D",
+            "mainCategory": "Baldosas/Placas",
+            "categories": [
+                "Baldosas/Placas",
+                "Dark"
+            ]
+        },
         "placurd2.dat": {
             "path": "placurd2.dat",
             "title": "Placa curva 2 alturas",
@@ -11331,14 +11893,33 @@
                 "Dark"
             ]
         },
-        "placarv2.dat": {
-            "path": "placarv2.dat",
-            "title": "Placa rallada vertical relieve",
+        "popa6pi.dat": {
+            "path": "popa6pi.dat",
+            "title": "P1aca popa 6 IUNITS",
             "metaData": "",
-            "mainCategory": "Baldosas/Placas",
-            "categories": [
-                "Baldosas/Placas"
-            ]
+            "mainCategory": "None",
+            "categories": []
+        },
+        "placral2.dat": {
+            "path": "placral2.dat",
+            "title": "Placa rallada vertical",
+            "metaData": "",
+            "mainCategory": "None",
+            "categories": []
+        },
+        "predturb.dat": {
+            "path": "predturb.dat",
+            "title": "P1aca Redonda Turbina IUNITS",
+            "metaData": "",
+            "mainCategory": "None",
+            "categories": []
+        },
+        "ptetc2x2.dat": {
+            "path": "ptetc2x2.dat",
+            "title": "P1aca Teton Central 2x2 IUNITS",
+            "metaData": "",
+            "mainCategory": "None",
+            "categories": []
         },
         "palaexcv.dat": {
             "path": "palaexcv.dat",
@@ -11928,15 +12509,6 @@
                 "Mar"
             ]
         },
-        "popa6pm.dat": {
-            "path": "popa6pm.dat",
-            "title": "Popa 6 p1aca mitad",
-            "metaData": "|D:D",
-            "mainCategory": "Dark",
-            "categories": [
-                "Dark"
-            ]
-        },
         "popa6pmh.dat": {
             "path": "popa6pmh.dat",
             "title": "Popa 6 p1aca mitad con hueco",
@@ -11945,6 +12517,13 @@
             "categories": [
                 "Dark"
             ]
+        },
+        "popa6pm.dat": {
+            "path": "popa6pm.dat",
+            "title": "Popa 6 p1aca mitad IUNITS",
+            "metaData": "",
+            "mainCategory": "None",
+            "categories": []
         },
         "popa6mre.dat": {
             "path": "popa6mre.dat",
@@ -12003,21 +12582,17 @@
         },
         "proa4pmd.dat": {
             "path": "proa4pmd.dat",
-            "title": "Proa 4 puntos p1aca mitad derecha",
-            "metaData": "|D:D",
-            "mainCategory": "Dark",
-            "categories": [
-                "Dark"
-            ]
+            "title": "Proa 4 puntos p1aca mitad derecha IUNITS",
+            "metaData": "",
+            "mainCategory": "None",
+            "categories": []
         },
         "proa4pmi.dat": {
             "path": "proa4pmi.dat",
-            "title": "Proa 4 puntos p1aca mitad izquierda",
-            "metaData": "|D:D",
-            "mainCategory": "Dark",
-            "categories": [
-                "Dark"
-            ]
+            "title": "Proa 4 puntos p1aca mitad izquierda IUNITS",
+            "metaData": "",
+            "mainCategory": "None",
+            "categories": []
         },
         "proa_6.dat": {
             "path": "proa_6.dat",
@@ -13134,6 +13709,13 @@
             "mainCategory": "None",
             "categories": []
         },
+        "tetonsin.dat": {
+            "path": "tetonsin.dat",
+            "title": "teton sin parte de abajo",
+            "metaData": "",
+            "mainCategory": "None",
+            "categories": []
+        },
         "toberast.dat": {
             "path": "toberast.dat",
             "title": "Tobera Astro",
@@ -13162,6 +13744,15 @@
                 "Micro"
             ]
         },
+        "trfcircb.dat": {
+            "path": "trfcircb.dat",
+            "title": "Señal Tráfico Círculo",
+            "metaData": "|R:R",
+            "mainCategory": "Ruta",
+            "categories": [
+                "Ruta"
+            ]
+        },
         "trfrect2.dat": {
             "path": "trfrect2.dat",
             "title": "Trafico Autopista Fin",
@@ -13174,15 +13765,6 @@
         "trfrect1.dat": {
             "path": "trfrect1.dat",
             "title": "Trafico Autopista Inicio",
-            "metaData": "|R:R",
-            "mainCategory": "Ruta",
-            "categories": [
-                "Ruta"
-            ]
-        },
-        "trfcircb.dat": {
-            "path": "trfcircb.dat",
-            "title": "Señal Tráfico Círculo",
             "metaData": "|R:R",
             "mainCategory": "Ruta",
             "categories": [
@@ -13362,6 +13944,16 @@
                 "Alfa",
                 "Astro",
                 "Vehículos"
+            ]
+        },
+        "tubo2.dat": {
+            "path": "tubo2.dat",
+            "title": "Tubo Cutty",
+            "metaData": "|B:B|M:M",
+            "mainCategory": "Básico",
+            "categories": [
+                "Básico",
+                "Mar"
             ]
         },
         "tb2x1.dat": {
@@ -13665,6 +14257,15 @@
             "mainCategory": "Alfa",
             "categories": [
                 "Alfa"
+            ]
+        },
+        "tubos.dat": {
+            "path": "tubos.dat",
+            "title": "Tubos",
+            "metaData": "|D:D",
+            "mainCategory": "Dark",
+            "categories": [
+                "Dark"
             ]
         },
         "alfaturb.dat": {
@@ -14004,6 +14605,51 @@
                 "Ventanas"
             ]
         },
+        "vibiza1p.dat": {
+            "path": "vibiza1p.dat",
+            "title": "Ventanas Ibiza 1 con puerta IUNITS",
+            "metaData": "",
+            "mainCategory": "Ventanas",
+            "categories": [
+                "Ventanas"
+            ]
+        },
+        "vibiza1v.dat": {
+            "path": "vibiza1v.dat",
+            "title": "Ventanas Ibiza 1 IUNITS",
+            "metaData": "",
+            "mainCategory": "Ventanas",
+            "categories": [
+                "Ventanas"
+            ]
+        },
+        "vibiza2p.dat": {
+            "path": "vibiza2p.dat",
+            "title": "Ventanas Ibiza 2 con puerta IUNITS",
+            "metaData": "",
+            "mainCategory": "Ventanas",
+            "categories": [
+                "Ventanas"
+            ]
+        },
+        "vibiza2v.dat": {
+            "path": "vibiza2v.dat",
+            "title": "Ventanas Ibiza 2 IUNITS",
+            "metaData": "",
+            "mainCategory": "Ventanas",
+            "categories": [
+                "Ventanas"
+            ]
+        },
+        "vibiza3.dat": {
+            "path": "vibiza3.dat",
+            "title": "Ventanas Ibiza 3 IUNITS",
+            "metaData": "",
+            "mainCategory": "Ventanas",
+            "categories": [
+                "Ventanas"
+            ]
+        },
         "alfaviga.dat": {
             "path": "alfaviga.dat",
             "title": "Viga Alfa",
@@ -14170,6 +14816,7 @@
         "bandera.dat",
         "bandeale.dat",
         "bandeesp.dat",
+        "bandesta.dat",
         "bandefra.dat",
         "bandejap.dat",
         "bandepan.dat",
@@ -14187,6 +14834,8 @@
         "basel2x1.dat",
         "ancl1x2.dat",
         "ancla1x2.dat",
+        "baserad1.dat",
+        "baserad2.dat",
         "bis1aba.dat",
         "bis1arr.dat",
         "bsgcarr1.dat",
@@ -14199,13 +14848,21 @@
         "bisnraba.dat",
         "bisnrarr.dat",
         "bisnreje.dat",
+        "bisnrhh.dat",
+        "bisnrmm.dat",
         "bispq.dat",
         "bispqaba.dat",
         "bispqarr.dat",
+        "canondab.dat",
+        "canondat.dat",
+        "canonda.dat",
         "canongrn.dat",
         "canongrb.dat",
         "canongrt.dat",
         "canonmed.dat",
+        "canonmab.dat",
+        "canonmat.dat",
+        "canonma.dat",
         "canonom.dat",
         "canonpeq.dat",
         "canontnq.dat",
@@ -14256,6 +14913,7 @@
         "chasisr1.dat",
         "chasisr2.dat",
         "chimenea.dat",
+        "chimene3.dat",
         "chimbald.dat",
         "chimeneg.dat",
         "chimmach.dat",
@@ -14646,6 +15304,7 @@
         "heliaspp.dat",
         "helcab.dat",
         "helcabcr.dat",
+        "helcabsu.dat",
         "helcol.dat",
         "helcolhu.dat",
         "helicoc1.dat",
@@ -14661,8 +15320,9 @@
         "airsillo.dat",
         "helisprt.dat",
         "heliprto.dat",
-        "htit2.dat",
         "htit1.dat",
+        "htit2.dat",
+        "htit3.dat",
         "htitbrzd.dat",
         "htitbrzi.dat",
         "htitcab1.dat",
@@ -14769,8 +15429,8 @@
         "neumaxt.dat",
         "nruteje.dat",
         "nrutembl.dat",
-        "nrutemb2.dat",
         "nrutembl2.dat",
+        "nrutemb2.dat",
         "nrutllnt.dat",
         "nrutneum.dat",
         "placa10.dat",
@@ -14785,10 +15445,16 @@
         "placa8.dat",
         "pang2x4d.dat",
         "pang2x4i.dat",
+        "pe45d2x2.dat",
+        "pe45i2x2.dat",
+        "placacil.dat",
         "placurd2.dat",
         "placlin2.dat",
         "placa1c.dat",
-        "placarv2.dat",
+        "popa6pi.dat",
+        "placral2.dat",
+        "predturb.dat",
+        "ptetc2x2.dat",
         "palaexcv.dat",
         "plmgrand.dat",
         "plmghoja.dat",
@@ -14851,8 +15517,8 @@
         "popa4p.dat",
         "popa4mre.dat",
         "popa_6.dat",
-        "popa6pm.dat",
         "popa6pmh.dat",
+        "popa6pm.dat",
         "popa6mre.dat",
         "popa8.dat",
         "popa6rem.dat",
@@ -14979,12 +15645,13 @@
         "tejadorl.dat",
         "tenazas.dat",
         "tetonesp.dat",
+        "tetonsin.dat",
         "toberast.dat",
         "tobergal.dat",
         "torremcr.dat",
+        "trfcircb.dat",
         "trfrect2.dat",
         "trfrect1.dat",
-        "trfcircb.dat",
         "trfcircp.dat",
         "trftria1.dat",
         "trfposte.dat",
@@ -15004,6 +15671,7 @@
         "trenr.dat",
         "tubo.dat",
         "tuboguia.dat",
+        "tubo2.dat",
         "tb2x1.dat",
         "tbas5421.dat",
         "tbas5422.dat",
@@ -15037,6 +15705,7 @@
         "tuboruta.dat",
         "tbscoeng.dat",
         "tbscorec.dat",
+        "tubos.dat",
         "alfaturb.dat",
         "valla.dat",
         "vallaobr.dat",
@@ -15071,6 +15740,11 @@
         "venta2bu.dat",
         "venta4cu.dat",
         "venta4bu.dat",
+        "vibiza1p.dat",
+        "vibiza1v.dat",
+        "vibiza2p.dat",
+        "vibiza2v.dat",
+        "vibiza3.dat",
         "alfaviga.dat",
         "vigibert.dat",
         "volkswag.dat",
@@ -15105,8 +15779,9 @@
             "escaler2.dat",
             "fusil.dat",
             "alfagarf.dat",
-            "htit2.dat",
             "htit1.dat",
+            "htit2.dat",
+            "htit3.dat",
             "htitbrzd.dat",
             "htitbrzi.dat",
             "htitcab1.dat",
@@ -15357,6 +16032,8 @@
             "bisnraba.dat",
             "bisnrarr.dat",
             "bisnreje.dat",
+            "bisnrhh.dat",
+            "bisnrmm.dat",
             "bispq.dat",
             "bispqaba.dat",
             "bispqarr.dat",
@@ -15371,7 +16048,8 @@
             "tejadol8.dat",
             "tejadorm.dat",
             "tejadorl.dat",
-            "tubo.dat"
+            "tubo.dat",
+            "tubo2.dat"
         ],
         "Escorpión": [
             "antena.dat",
@@ -15620,8 +16298,8 @@
             "neumaxt.dat",
             "nruteje.dat",
             "nrutembl.dat",
-            "nrutemb2.dat",
             "nrutembl2.dat",
+            "nrutemb2.dat",
             "nrutllnt.dat",
             "nrutneum.dat",
             "palaexcv.dat",
@@ -15652,9 +16330,9 @@
             "soport1.dat",
             "soport2.dat",
             "soport3.dat",
+            "trfcircb.dat",
             "trfrect2.dat",
             "trfrect1.dat",
-            "trfcircb.dat",
             "trfcircp.dat",
             "trftria1.dat",
             "trfposte.dat",
@@ -15714,8 +16392,8 @@
             "placa4e.dat",
             "placa8c.dat",
             "placa8.dat",
+            "placacil.dat",
             "placa1c.dat",
-            "placarv2.dat",
             "placa1.dat",
             "placa15.dat",
             "placa2.dat",
@@ -15754,6 +16432,7 @@
             "heliaspa.dat",
             "helcab.dat",
             "helcabcr.dat",
+            "helcabsu.dat",
             "helcol.dat",
             "helcolhu.dat",
             "helireje.dat",
@@ -15781,7 +16460,16 @@
             "bald3.dat",
             "bald4.dat",
             "bald8.dat",
+            "baserad1.dat",
+            "baserad2.dat",
+            "canondab.dat",
+            "canondat.dat",
+            "canonda.dat",
+            "canonmab.dat",
+            "canonmat.dat",
+            "canonma.dat",
             "cabferro.dat",
+            "chimene3.dat",
             "chimmach.dat",
             "cunad1.dat",
             "cunad2.dat",
@@ -15793,16 +16481,27 @@
             "plac2x10.dat",
             "pang2x4d.dat",
             "pang2x4i.dat",
+            "pe45d2x2.dat",
+            "pe45i2x2.dat",
             "placurd2.dat",
             "placlin2.dat",
+            "popa6pi.dat",
+            "placral2.dat",
+            "predturb.dat",
+            "ptetc2x2.dat",
+            "popa6pm.dat",
+            "proa4pmd.dat",
+            "proa4pmi.dat",
             "remateb2.dat",
             "rematl42.dat",
             "tejls2x1.dat",
             "tetonesp.dat",
+            "tetonsin.dat",
             "trapesqu.dat"
         ],
         "Dark": [
             "bald2r2.dat",
+            "bandesta.dat",
             "barandil.dat",
             "bis1aba.dat",
             "bis1arr.dat",
@@ -15832,13 +16531,10 @@
             "picoesq.dat",
             "popa4pm.dat",
             "popa4mre.dat",
-            "popa6pm.dat",
             "popa6pmh.dat",
             "popa6mre.dat",
             "popa8.dat",
             "popa8rem.dat",
-            "proa4pmd.dat",
-            "proa4pmi.dat",
             "proa8.dat",
             "popa4qui.dat",
             "rcurva45.dat",
@@ -15864,6 +16560,7 @@
             "tuboextr.dat",
             "tbfutur1.dat",
             "tbfutur2.dat",
+            "tubos.dat",
             "vigibert.dat"
         ],
         "Vehículos": [
@@ -16109,7 +16806,12 @@
         "Ventanas": [
             "ventsony.dat",
             "vntcirc2.dat",
-            "vntcuad2.dat"
+            "vntcuad2.dat",
+            "vibiza1p.dat",
+            "vibiza1v.dat",
+            "vibiza2p.dat",
+            "vibiza2v.dat",
+            "vibiza3.dat"
         ]
     },
     "colorsCodesList": [
@@ -16117,7 +16819,6 @@
         "1",
         "10",
         "11",
-        "110",
         "12",
         "13",
         "132",
@@ -16162,6 +16863,7 @@
         "496",
         "57",
         "6",
+        "64",
         "67",
         "7",
         "70",

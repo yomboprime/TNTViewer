@@ -1,0 +1,95 @@
+0 Untitled
+0 Name: 0434 - Dragster - Cosmic.ldr
+0 Author: Isaac
+0 Unofficial Model
+0 WRITE Paso1
+1 4 -30 0 -70 -1 0 0 0 1 0 0 0 -1 helcol.dat
+1 4 -70 8 50 0 0 1 0 1 0 -1 0 0 placa2x8.dat
+1 4 -50 0 10 0 0 1 0 1 0 -1 0 0 cuna.dat
+1 4 -50 0 -30 0 0 -1 0 1 0 1 0 0 cuna.dat
+0 WRITE pASO 2
+0 STEP
+1 4 -70 0 -50 1 0 0 0 1 0 0 0 1 jacena2.dat
+1 4 -30 0 -70 0 0 -1 0 1 0 1 0 0 enganche.dat
+1 4 -70 0 -50 0 0 1 0 1 0 -1 0 0 enganche.dat
+1 4 -10 0 50 1 0 0 0 1 0 0 0 1 ejecaden.dat
+1 4 -50 0 10 1 0 0 0 1 0 0 0 1 llantaxt.dat
+1 4 -50 0 50 -1 0 0 0 1 0 0 0 -1 llantaxt.dat
+1 0 -50 0 50 -1 0 0 0 1 0 0 0 -1 neumaxt.dat
+1 0 72 0 50 -1 0 0 0 1 0 0 0 -1 neumaxt.dat
+1 0 -70 0 -350 1 0 0 0 1 0 0 0 1 neumtter.dat
+1 0 -10 0 -350 1 0 0 0 1 0 0 0 1 neumtter.dat
+1 0 -50 0 -370 1 0 0 0 1 0 0 0 1 jacn2x2a.dat
+1 0 -50 0 -370 1 0 0 0 1 0 0 0 1 eje28.dat
+1 4 -70 0 -350 1 0 0 0 1 0 0 0 1 llantrut.dat
+1 4 -30 0 -390 -1 0 0 0 1 0 0 0 -1 llantrut.dat
+1 4 -70 -24 -310 0 0 1 0 1 0 -1 0 0 placa2x3.dat
+0 WRITE Paso 3
+0 STEP
+1 4 -70 -24 -10 0 0 1 0 1 0 -1 0 0 placa2x8.dat
+1 4 -70 -24 50 0 0 1 0 1 0 -1 0 0 placa2x3.dat
+1 4 -70 -24 -410 1 0 0 0 1 0 0 0 1 baldgord.dat
+0 WRITE Paso 4
+0 STEP
+1 4 -70 0 -410 1 0 0 0 1 0 0 0 1 enganche.dat
+1 4 -50 0 -410 1 0 0 0 1 0 0 0 1 enganche.dat
+1 8 -10 -24 -30 0 0 -1 0 1 0 1 0 0 placa2.dat
+1 8 -70 -24 -30 0 0 -1 0 1 0 1 0 0 placa2.dat
+1 4 -70 -24 50 0 0 1 0 1 0 -1 0 0 pico.dat
+1 4 -70 -32 -90 1 0 0 0 1 0 0 0 1 pico.dat
+1 4 -70 -10 -60 0 1 0 -1 0 0 0 0 1 helala.dat
+0 WRITE Paso 5
+0 STEP
+1 4 -30 -10 -60 0 -1 0 1 0 0 0 0 1 helala.dat
+1 4 -30 -32 -30 0 0 -1 0 1 0 1 0 0 jacen2x4.dat
+1 4 -30 -24 10 0 0 -1 0 1 0 1 0 0 pico.dat
+1 8 -30 -32 10 0 0 1 0 1 0 -1 0 0 pistola.dat
+1 8 -90 -32 10 0 0 1 0 1 0 -1 0 0 pistola.dat
+1 8 -60 -32 -120 0 0 1 0 1 0 -1 0 0 amortigu.dat
+1 8 -40 -32 -120 0 0 1 0 1 0 -1 0 0 amortigu.dat
+1 8 -70 -32 -90 1 0 0 0 1 0 0 0 1 airsillo.dat
+1 4 -50 -2 -410 -1 0 0 0 0 1 0 1 0 pico.dat
+0 WRITE Paso 6
+0 STEP
+1 4 -10 -2 -410 -1 0 0 0 0 1 0 1 0 pico.dat
+1 4 -30 -32 -310 -1 0 0 0 1 0 0 0 -1 bald2x2r.dat
+1 8 -60 -56 -120 1 0 0 0 1 0 0 0 1 chimplac.dat
+1 8 -60 -32 -140 0 0 -1 0 1 0 1 0 0 chimenea.dat
+1 8 -40 -32 -140 0 0 -1 0 1 0 1 0 0 chimenea.dat
+1 0 -50 -56 10 0 0 -1 0 1 0 1 0 0 rotorinf.dat
+1 8 -80 -46 -54 0 0 -1 1 0 0 0 -1 0 tubo.dat
+1 8 -20 -46 -54 0 0 -1 1 0 0 0 -1 0 tubo.dat
+0 WRITE Paso 7
+0 STEP
+1 0 -50 -56 10 0 0 1 0 1 0 -1 0 0 platfgir.dat
+1 8 -70 -72 30 0 0 1 0 1 0 -1 0 0 jacen2x2.dat
+1 8 -70 -72 -10 1 0 0 0 1 0 0 0 1 pico.dat
+1 8 -70 -96 -10 1 0 0 0 1 0 0 0 1 placa2x2.dat
+0 WRITE Paso 8
+0 STEP
+1 8 -50 -112 -10 1 0 0 0 1 0 0 0 1 bisnraba.dat
+1 8 -50 -112 -10 1 0 0 0 0.259 -0.966 0 0.966 0.259 bisnreje.dat
+1 8 -50 -112 -10 1 0 0 0 0.259 -0.966 0 0.966 0.259 bisnrarr.dat
+1 8 -30 -72 30 -1 0 0 0 1 0 0 0 -1 pico.dat
+0 WRITE Paso 9
+0 STEP
+1 8 -40 -123.73 -15.139 -1 0 0 0 0.259 0.966 0 0.966 -0.259 gruab.dat
+1 8 -60 -123.73 -15.139 1 0 0 0 0.259 -0.966 0 0.966 0.259 gruab.dat
+1 14 -60 -143.048 -9.963 1 0 0 0 0.259 -0.966 0 0.966 0.259 chimplac.dat
+0 WRITE Paso 10
+0 STEP
+1 8 -70 -120.282 -40.91 1 0 0 0 0.259 -0.966 0 0.966 0.259 jacena2.dat
+1 8 -20 -117.518 8.043 1 0 0 0 0.259 -0.966 0 0.966 0.259 cilindro.dat
+1 8 -80 -117.518 8.043 1 0 0 0 0.259 -0.966 0 0.966 0.259 cilindro.dat
+1 8 -20 -111.306 31.225 1 0 0 0 0.259 -0.966 0 0.966 0.259 cilindro.dat
+0 WRITE Paso 11
+0 STEP
+1 8 -80 -111.306 31.225 1 0 0 0 0.259 -0.966 0 0.966 0.259 cilindro.dat
+1 8 -40 -136.153 -61.504 1 0 0 0 0.259 -0.966 0 0.966 0.259 laser.dat
+1 8 -60 -136.153 -61.504 1 0 0 0 0.259 -0.966 0 0.966 0.259 laser.dat
+1 8 -30 -135.46 -20.278 -1 0 0 0 0.259 0.966 0 0.966 -0.259 pico.dat
+0 WRITE Paso 12
+0 STEP
+1 0 -50 -32 -360 -1 0 0 0 1 0 0 0 -1 pastilla.dat
+1 8 -70 -32 -90 1 0 0 0 1 0 0 0 1 helmando.dat
+0

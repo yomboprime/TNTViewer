@@ -1,0 +1,122 @@
+0 Untitled
+0 Name: torno.ldr
+0 Author: MLCad
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 383 0 -8 300 -1 0 0 0 1 0 0 0 -1 eje28.dat
+1 383 22 0 280 -1 0 0 0 1 0 0 0 -1 llanrutt.dat
+1 383 -23 0 320 1 0 0 0 1 0 0 0 1 llanrutt.dat
+1 0 0 0 300 -1 0 0 0 1 0 0 0 -1 jacn2x2a.dat
+1 7 10 0 330 -1 0 0 0 1 0 0 0 -1 jacena1.dat
+1 7 -50 0 330 -1 0 0 0 1 0 0 0 -1 jacena1.dat
+1 7 -20 0 260 1 0 0 0 1 0 0 0 1 enganch2.dat
+1 4 -30 -8 260 1 0 0 0 0 -1 0 1 0 baldcil.dat
+1 2 -10 -8 260 1 0 0 0 0 -1 0 1 0 baldcil.dat
+1 7 -40 0 260 1 0 0 0 1 0 0 0 1 enganch2.dat
+1 7 -50 0 270 1 0 0 0 1 0 0 0 1 jacena1.dat
+1 7 20 24 260 0 0 -1 0 1 0 1 0 0 jacen2x4.dat
+1 28 20 48 300 -1 0 0 0 1 0 0 0 -1 jacen2x4.dat
+1 28 20 48 340 -1 0 0 0 1 0 0 0 -1 jacen2x4.dat
+1 7 -20 24 340 -1 0 0 0 1 0 0 0 -1 jacena2.dat
+1 28 20 32 340 0 0 1 0 1 0 -1 0 0 baldc4x6.dat
+0 MLCAD BTG cabezal
+1 64 117 30 260 0 0 1 0 1 0 -1 0 0 placa2x2.dat
+0 MLCAD BTG cabezal
+1 64 147 22 280 1 0 0 0 1 0 0 0 1 cunad4.dat
+0 MLCAD BTG cabezal
+1 64 127 22 280 -1 0 0 0 1 0 0 0 -1 cunad4.dat
+0 MLCAD BTG cabezal
+1 64 117 22 220 1 0 0 0 1 0 0 0 1 bald2r2.dat
+0 MLCAD BTG cabezal
+1 64 117 54 220 1 0 0 0 1 0 0 0 1 jacena2.dat
+0 MLCAD BTG cabezal
+1 64 117 78 220 1 0 0 0 1 0 0 0 1 jacena2.dat
+0 MLCAD BTG cabezal
+1 64 137 78 230 1 0 0 0 -1 0 0 0 -1 jacn2x2a.dat
+0 MLCAD BTG cabezal
+1 64 137 77 230 1 0 0 0 -1 0 0 0 -1 tetonesp.dat
+0 MLCAD BTG cabezal
+1 64 157 102 210 -1 0 0 0 -1 0 0 0 1 baldgord.dat
+0 GROUP 9 cabezal
+1 28 180 32 300 0 0 1 0 1 0 -1 0 0 baldc4.dat
+1 383 38 -6 300 0 -1 0 -1 0 0 0 0 -1 canontnq.dat
+1 7 -20 24 280 -1 0 0 0 1 0 0 0 -1 jacena2.dat
+1 7 -40 24 320 -1 0 0 0 1 0 0 0 -1 castillo.dat
+1 7 -60 -24 340 0 0 1 0 1 0 -1 0 0 placa4.dat
+1 7 -40 -24 300 1 0 0 0 1 0 0 0 1 placa2x3.dat
+1 7 -40 -24 260 1 0 0 0 1 0 0 0 1 placa2x3.dat
+1 7 -20 -32 300 1 0 0 0 1 0 0 0 1 baldc4.dat
+1 7 10 0 270 -1 0 0 0 1 0 0 0 -1 jacena1.dat
+1 7 0 0 340 -1 0 0 0 1 0 0 0 -1 vntscorp.dat
+1 7 220 8 290 0 0 -1 0 1 0 1 0 0 vnt1x1m.dat
+1 7 260 8 290 0 0 -1 0 1 0 1 0 0 vnt1x1m.dat
+1 28 -60 56 320 0 0 1 0 1 0 -1 0 0 placa2x3.dat
+1 28 -30 56 320 0 0 1 0 1 0 -1 0 0 placa2x3.dat
+1 28 -60 64 240 1 0 0 0 1 0 0 0 1 jacena4.dat
+1 28 -30 40 250 1 0 0 0 1 0 0 0 1 bald3.dat
+1 28 110 40 250 1 0 0 0 1 0 0 0 1 bald3.dat
+1 28 170 40 250 1 0 0 0 1 0 0 0 1 bald3.dat
+1 28 40 40 250 1 0 0 0 1 0 0 0 1 bald4.dat
+1 28 140 40 270 1 0 0 0 1 0 0 0 1 placa12.dat
+1 28 230 40 250 1 0 0 0 1 0 0 0 1 bald3.dat
+1 28 20 64 240 1 0 0 0 1 0 0 0 1 jacen2x8.dat
+1 28 180 64 240 1 0 0 0 1 0 0 0 1 jacen2x4.dat
+1 28 40 96 220 0 0 -1 0 1 0 1 0 0 enganche.dat
+1 28 40 72 220 0 0 -1 0 1 0 1 0 0 placa2.dat
+1 28 240 72 220 0 0 -1 0 1 0 1 0 0 placa2.dat
+1 28 220 96 240 0 0 1 0 1 0 -1 0 0 enganche.dat
+1 28 -40 88 240 1 0 0 0 1 0 0 0 1 jacena2.dat
+1 28 -20 112 240 0 0 -1 0 1 0 1 0 0 jacen2x3.dat
+1 28 20 112 340 -1 0 0 0 1 0 0 0 -1 jacen2x4.dat
+1 28 20 112 240 0 0 -1 0 1 0 1 0 0 jacen2x3.dat
+1 28 -20 136 340 0 0 1 0 1 0 -1 0 0 jacen2x3.dat
+1 28 -60 136 240 1 0 0 0 1 0 0 0 1 jacen2x4.dat
+1 28 -60 136 340 0 0 1 0 1 0 -1 0 0 jacen2x3.dat
+1 28 -20 160 240 0 0 -1 0 1 0 1 0 0 jacen2x3.dat
+1 28 20 160 340 -1 0 0 0 1 0 0 0 -1 jacen2x4.dat
+1 28 20 160 240 0 0 -1 0 1 0 1 0 0 jacen2x3.dat
+1 28 -50 88 250 1 0 0 0 1 0 0 0 1 jacena1.dat
+1 28 240 88 220 0 0 -1 0 1 0 1 0 0 jacena6.dat
+1 28 240 128 220 0 0 -1 0 1 0 1 0 0 jacena6.dat
+1 28 240 152 220 0 0 -1 0 1 0 1 0 0 jacena6.dat
+1 28 250 160 250 0 0 -1 0 1 0 1 0 0 placa3.dat
+1 28 250 160 310 0 0 -1 0 1 0 1 0 0 placa3.dat
+1 28 250 96 310 0 0 -1 0 1 0 1 0 0 placa3.dat
+1 28 250 104 270 0 0 -1 0 1 0 1 0 0 placa3.dat
+1 28 260 104 300 0 0 -1 0 1 0 1 0 0 placa2.dat
+1 28 260 104 240 -1 0 0 0 1 0 0 0 -1 placa2.dat
+1 28 40 104 240 -1 0 0 0 1 0 0 0 -1 placa2.dat
+1 28 20 96 240 -1 0 0 0 1 0 0 0 -1 placa1.dat
+1 28 250 96 250 0 0 -1 0 1 0 1 0 0 placa3.dat
+1 28 20 88 220 0 0 -1 0 1 0 1 0 0 jacena2.dat
+1 28 0 64 240 1 0 0 0 1 0 0 0 1 pico.dat
+1 28 220 64 240 1 0 0 0 1 0 0 0 1 pico.dat
+1 28 20 56 300 1 0 0 0 1 0 0 0 1 jacen2x8.dat
+1 28 180 56 300 1 0 0 0 1 0 0 0 1 jacen2x4.dat
+1 28 60 64 320 1 0 0 0 1 0 0 0 1 tejado8.dat
+1 28 20 64 320 1 0 0 0 1 0 0 0 1 tejado.dat
+1 28 220 64 320 1 0 0 0 1 0 0 0 1 tejado.dat
+1 28 100 64 330 1 0 0 0 1 0 0 0 1 placa12.dat
+1 28 220 64 320 1 0 0 0 1 0 0 0 1 placa2.dat
+1 28 -60 64 300 1 0 0 0 1 0 0 0 1 placa2x2.dat
+1 28 -60 64 260 1 0 0 0 1 0 0 0 1 placa2x2.dat
+1 28 20 64 260 0 0 -1 0 1 0 1 0 0 placa2x3.dat
+1 28 20 88 260 0 0 -1 0 1 0 1 0 0 jacen2x4.dat
+1 28 -20 88 260 0 0 -1 0 1 0 1 0 0 jacen2x4.dat
+1 28 20 56 340 -1 0 0 0 1 0 0 0 -1 placa4.dat
+1 7 240 8 310 -1 0 0 0 1 0 0 0 -1 pico.dat
+1 7 260 8 310 -1 0 0 0 1 0 0 0 -1 pico1.dat
+1 7 200 -16 310 0 0 1 0 1 0 -1 0 0 bald2.dat
+1 7 240 -16 310 0 0 1 0 1 0 -1 0 0 bald1.dat
+1 7 220 16 330 0 0 1 0 1 0 -1 0 0 placa2x3.dat
+1 7 240 24 270 0 0 -1 0 1 0 1 0 0 placa2x3.dat
+1 7 250 24 300 0 0 -1 0 1 0 1 0 0 placa3.dat
+1 7 210 16 300 0 0 -1 0 1 0 1 0 0 placa3.dat
+1 28 260 32 280 0 0 -1 0 1 0 1 0 0 placa2x2.dat
+1 28 260 32 260 0 0 -1 0 1 0 1 0 0 baldc2.dat
+1 28 260 32 320 0 0 -1 0 1 0 1 0 0 baldc2.dat
+1 7 200 8 290 1 0 0 0 1 0 0 0 1 pico.dat
+1 7 240 8 290 1 0 0 0 1 0 0 0 1 pico1.dat
+1 8 132 86 230.5 1 0 0 0 1 0 0 0 1 eje75.dat
+0

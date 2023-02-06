@@ -1,0 +1,53 @@
+0 Limpiapistas
+0 Name: Ruta_0553_limpiapistas.ldr
+0 Author: cpcbegin
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 4 -30 15 0 1 0 0 0 1 0 0 0 1 rueastro.dat
+1 4 -30 15 -60 1 0 0 0 1 0 0 0 1 rueastro.dat
+1 4 -30 15 -120 1 0 0 0 1 0 0 0 1 rueastro.dat
+1 0 -20 -16 0 0 0 -1 0 1 0 1 0 0 enganch2.dat
+1 0 -20 -16 -20 0 0 -1 0 1 0 1 0 0 enganch2.dat
+1 0 -20 -16 -40 0 0 -1 0 1 0 1 0 0 enganch2.dat
+1 0 -20 -16 -60 0 0 -1 0 1 0 1 0 0 enganch2.dat
+1 0 -20 -16 -80 0 0 -1 0 1 0 1 0 0 enganch2.dat
+1 0 -60 -16 -60 0 0 1 0 1 0 -1 0 0 enganch2.dat
+1 0 -60 -16 -40 0 0 1 0 1 0 -1 0 0 enganch2.dat
+1 0 -60 -16 -20 0 0 1 0 1 0 -1 0 0 enganch2.dat
+1 0 -60 -16 0 0 0 1 0 1 0 -1 0 0 enganch2.dat
+1 0 -60 -16 20 0 0 1 0 1 0 -1 0 0 enganch2.dat
+1 0 -20 -16 20 -1 0 0 0 1 0 0 0 -1 rallado2.dat
+1 4 -20 -40 0 -1 0 0 0 1 0 0 0 -1 bald2x2.dat
+1 4 -20 -40 40 -1 0 0 0 1 0 0 0 -1 bald2x2r.dat
+1 4 -60 -40 -80 1 0 0 0 1 0 0 0 1 bald2x2r.dat
+1 4 -40 -8 -140 1 0 0 0 1 0 0 0 1 cabant.dat
+1 4 -80 -56 -160 1 0 0 0 1 0 0 0 1 bald2x2r.dat
+1 15 -50 10 -213 -1 0 0 0 0 -1 0 -1 0 cilindro.dat
+1 15 -70 10 -213 -1 0 0 0 0 -1 0 -1 0 cilindro.dat
+1 15 -90 10 -213 -1 0 0 0 0 -1 0 -1 0 cilindro.dat
+1 15 -110 10 -213 -1 0 0 0 0 -1 0 -1 0 cilindro.dat
+1 15 30 10 -213 -1 0 0 0 0 -1 0 -1 0 cilindro.dat
+1 15 10 10 -213 -1 0 0 0 0 -1 0 -1 0 cilindro.dat
+1 15 -10 10 -213 -1 0 0 0 0 -1 0 -1 0 cilindro.dat
+1 15 -30 10 -213 -1 0 0 0 0 -1 0 -1 0 cilindro.dat
+1 4 -21 0 -163 1 0 0 0 0 1 0 -1 0 enganch2.dat
+1 4 -41 0 -163 1 0 0 0 0 1 0 -1 0 enganch2.dat
+1 4 -61 0 -163 1 0 0 0 0 1 0 -1 0 enganch2.dat
+1 4 -81 0 -163 1 0 0 0 0 1 0 -1 0 enganch2.dat
+1 4 39 20 -187 -1 0 0 0 0 -1 0 -1 0 jacena8.dat
+1 4 -40 -56 -160 1 0 0 0 1 0 0 0 1 bald2x2r.dat
+1 4 -80 -8 -140 1 0 0 0 1 0 0 0 1 jacena4.dat
+1 4 -80 -32 -140 1 0 0 0 1 0 0 0 1 jacena4.dat
+1 0 -80 0 -60 0 0 1 0 1 0 -1 0 0 placa4x6.dat
+1 0 -80 0 60 0 0 1 0 1 0 -1 0 0 placa4x6.dat
+1 0 -60 8 40 0 0 1 0 1 0 -1 0 0 placa2x8.dat
+1 4 -60 -8 40 0 0 1 0 1 0 -1 0 0 placa2x8.dat
+1 4 -40 -8 -80 -1 0 0 0 1 0 0 0 -1 semicupp.dat
+1 383 -20 -18 -20 0 -1 0 1 0 0 0 0 1 tbesctrp.dat
+1 383 -20 -18 -80 0 -1 0 1 0 0 0 0 1 tbesctrp.dat
+1 383 -60 -18 -40 0 1 0 1 0 0 0 0 -1 tbesctrp.dat
+1 383 -60 -18 20 0 1 0 1 0 0 0 0 -1 tbesctrp.dat
+1 46 -56 -28 -30 0 1 0 1 0 0 0 0 -1 amortigu.dat
+1 46 -16 -28 -30 0 -1 0 1 0 0 0 0 1 amortigu.dat
+0

@@ -1,0 +1,55 @@
+0 Expedicion Morambique
+0 Name: Ruta_0553_expedicionmozambique.ldr
+0 Author: cpcbegin
+0 Tente ruta: el mundo de la ruta
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 4 100 24 30 -1 0 0 0 1 0 0 0 -1 rueastro.dat
+1 4 100 24 -90 -1 0 0 0 1 0 0 0 -1 rueastro.dat
+1 4 100 24 -30 -1 0 0 0 1 0 0 0 -1 rueastro.dat
+1 0 90 16 50 0 0 1 0 1 0 -1 0 0 jacen2x8.dat
+1 0 90 16 -110 0 0 1 0 1 0 -1 0 0 jacen2x2.dat
+1 15 170 16 50 -1 0 0 0 1 0 0 0 -1 jacena6.dat
+1 15 170 -40 70 0 0 1 0 1 0 -1 0 0 jacena6.dat
+1 15 70 -40 70 0 0 1 0 1 0 -1 0 0 jacena6.dat
+1 0 110 16 -150 1 0 0 0 1 0 0 0 1 rallado2.dat
+1 0 70 16 -150 1 0 0 0 1 0 0 0 1 rallado2.dat
+1 2 70 -8.5 -152 -1 0 0 0 0 1 0 1 0 enganche.dat
+1 2 170 -8.5 -152 -1 0 0 0 0 1 0 1 0 enganche.dat
+1 0 110 24 -190 1 0 0 0 1 0 0 0 1 placa2x3.dat
+1 0 50 24 -190 1 0 0 0 1 0 0 0 1 placa2x3.dat
+1 4 110 24 50 1 0 0 0 1 0 0 0 1 placa2x3.dat
+1 4 50 24 50 1 0 0 0 1 0 0 0 1 placa2x3.dat
+1 2 170 -8 -170 0 0 -1 0 1 0 1 0 0 placa6x8.dat
+1 2 170 -64 -90 0 0 -1 0 1 0 1 0 0 placa6x8.dat
+1 2 50 -16 -90 0 0 1 0 1 0 -1 0 0 bald2x2r.dat
+1 2 90 -64 -90 0 0 1 0 1 0 -1 0 0 bald2x2r.dat
+1 2 170 -64 -130 0 0 -1 0 1 0 1 0 0 bald2x2r.dat
+1 2 130 -16 -110 1 0 0 0 1 0 0 0 1 cabant.dat
+1 0 60 -24 -140 1 0 0 0 1 0 0 0 1 cilindro.dat
+1 15 80 -64 -20 1 0 0 0 1 0 0 0 1 cilindro.dat
+1 14 80 -64 20 1 0 0 0 1 0 0 0 1 cilindro.dat
+1 4 100 -64 -20 1 0 0 0 1 0 0 0 1 cilindro.dat
+1 4 100 -64 0 1 0 0 0 1 0 0 0 1 cilindro.dat
+1 1 110 -64 10 0 0 -1 0 1 0 1 0 0 jacena2.dat
+1 0 70 -48 -150 0 0 -1 0 1 0 1 0 0 bald1.dat
+1 14 120 -72 -40 1 0 0 0 1 0 0 0 1 escalera.dat
+1 7 80 -24 -140 1 0 0 0 1 0 0 0 1 tbescrct.dat
+1 2 170 -8 70 -1 0 0 0 1 0 0 0 -1 placa4x6.dat
+1 0 130 -16 -150 -1 0 0 0 1 0 0 0 -1 placa2.dat
+1 2 50 -16 -150 0 0 1 0 1 0 -1 0 0 bald2r.dat
+1 2 170 -16 -170 0 0 -1 0 1 0 1 0 0 bald2r.dat
+1 4 170 -16 -90 0 0 -1 0 1 0 1 0 0 jacena8.dat
+1 4 70 -16 -90 0 0 -1 0 1 0 1 0 0 jacena8.dat
+1 4 150 -16 70 -1 0 0 0 1 0 0 0 -1 jacena4.dat
+1 2 170 -16 -90 -1 0 0 0 1 0 0 0 -1 jacena4.dat
+1 2 170 -40 -90 -1 0 0 0 1 0 0 0 -1 jacena4.dat
+1 4 80 -16 -80 -1 0 0 0 1 0 0 0 -1 jacena1.dat
+1 15 80 -40 -80 -1 0 0 0 1 0 0 0 -1 jacena1.dat
+1 47 110 -40 50 -1 0 0 0 1 0 0 0 -1 rallado2.dat
+1 47 150 -40 50 -1 0 0 0 1 0 0 0 -1 rallado2.dat
+1 47 150 -40 -90 0 0 -1 0 1 0 1 0 0 rallado2.dat
+1 47 70 -40 -50 0 0 1 0 1 0 -1 0 0 rallado2.dat
+1 2 90 -16 -130 -1 0 0 0 1 0 0 0 -1 placa2.dat
+1 4 60 -76 -80 0 0 -1 0 1 0 1 0 0 bandera.dat
+0

@@ -4,7 +4,7 @@ Files in this directory:
 
 - ```createModelsDataBase.js``` - A node.js script that will regenerate the ```models.json``` main database file, as well as the ```tnt_parts.html``` and ```tnt_models.html``` HTML list files.
 - ```models.json``` - The main database file used by TNTViewer. This will be overwritten.
-- ```TENTE Refs - Visor TNT - RefsTENTE.tsv``` - This file is a dump of the [Listado completo de Referencias y Catálogos de TENTE](https://tente.spread.name/) online Database, by **abeldb**. It is used to get titles for official models and a link to the model in the database.
+- ```TENTE Refs - Visor TNT - RefsTENTE.tsv``` - This file is a dump of the [Listado completo de Referencias y Catálogos de TENTE](https://refstente.com/) online Database, by **abeldb**. It is used to get titles for official models and a link to the model in the database.
 - ```partslist.tsv``` - This file is a list of part names dumped from http://tenteros.land/tente/index.php/pieza
 
 The other files used to generate the database are all ```.ldr``` models uder the ```TENTE/models/``` subdirectory, as well as the ```TENTE/parts``` files.

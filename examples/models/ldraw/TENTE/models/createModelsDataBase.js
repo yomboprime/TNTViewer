@@ -59,7 +59,8 @@ if ( sourceDataBase === null ) {
 	console.error();
 	console.error( "Error reading source database file: " + sourceDataBasePath );
 	process.exit( - 1 );
-}
+
+}
 
 sourceDataBase = sourceDataBase.toString().split( '\n' );
 
@@ -265,7 +266,8 @@ dataBase.modelPathsList.sort( ( a, b ) => {
 	if ( aOf !== bOf ) return aOf ? - 1 : 1;
 
 	return a === b ? 0 : ( a < b ? - 1 : 1 );
-} );
+
+} );
 
 
 const countryCodes = [
@@ -422,7 +424,8 @@ function obtainFieldsFromFile( model ) {
 				if ( ! materialLibrary.includes( colorCode ) ) {
 
 					console.error( "****** ERROR: The color code " + colorCode + " was not found in materials library but it is used in the model: " + modelPath );
-				}
+
+				}
 
 				dataBase.colorsCodesList.push( colorCode );
 
@@ -431,7 +434,8 @@ function obtainFieldsFromFile( model ) {
 		}
 
 		lineNumber ++;
-	}
+
+	}
 
 }
 
@@ -938,7 +942,8 @@ function getPartCategories( partLine ) {
 	if ( has( ':X' ) ) addCategory( "Castillos" );
 
 	return categories;
-}
+
+}
 
 function removeFilenameExtension( path ) {
 

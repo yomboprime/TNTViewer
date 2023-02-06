@@ -1,0 +1,69 @@
+0 Untitled
+0 Name: cabina80_mini.ldr
+0 Author: MLCad
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 7 -70 0 20 1 0 0 0 1 0 0 0 1 puertamr.dat
+1 7 -10 0 40 0 0 -1 0 1 0 1 0 0 vntscorp.dat
+1 7 -30 0 100 -1 0 0 0 1 0 0 0 -1 vntscorp.dat
+1 7 -20 0 90 1 0 0 0 1 0 0 0 1 jacena1.dat
+1 7 -80 0 90 1 0 0 0 1 0 0 0 1 jacena1.dat
+1 7 -80 0 30 1 0 0 0 1 0 0 0 1 jacena1.dat
+1 7 -20 0 30 1 0 0 0 1 0 0 0 1 jacena1.dat
+1 7 -20 -24 90 1 0 0 0 1 0 0 0 1 jacena1.dat
+1 7 -80 -24 90 1 0 0 0 1 0 0 0 1 jacena1.dat
+1 7 -80 -24 30 1 0 0 0 1 0 0 0 1 jacena1.dat
+1 7 -20 -24 30 1 0 0 0 1 0 0 0 1 jacena1.dat
+1 7 -20 -48 90 1 0 0 0 1 0 0 0 1 jacena1.dat
+1 7 -80 -48 90 1 0 0 0 1 0 0 0 1 jacena1.dat
+1 7 -80 -48 30 1 0 0 0 1 0 0 0 1 jacena1.dat
+1 7 -20 -48 30 1 0 0 0 1 0 0 0 1 jacena1.dat
+1 7 -70 0 40 1 0 0 0 1 0 0 0 1 baldc2x2.dat
+1 7 -50 8 60 1 0 0 0 1 0 0 0 1 placa2x2.dat
+1 7 -90 8 60 1 0 0 0 1 0 0 0 1 placa2x2.dat
+1 7 -50 8 20 1 0 0 0 1 0 0 0 1 placa2x2.dat
+1 7 -90 8 20 1 0 0 0 1 0 0 0 1 placa2x2.dat
+1 7 -50 -144 60 1 0 0 0 1 0 0 0 1 placa2x2.dat
+1 7 -90 -144 60 1 0 0 0 1 0 0 0 1 placa2x2.dat
+1 7 -50 -144 20 1 0 0 0 1 0 0 0 1 placa2x2.dat
+1 7 -90 -144 20 1 0 0 0 1 0 0 0 1 placa2x2.dat
+1 7 -90 0 80 0 0 1 0 1 0 -1 0 0 vntscorp.dat
+1 7 -90 -24 80 0 0 1 0 1 0 -1 0 0 vntthor.dat
+1 7 -10 -24 40 0 0 -1 0 1 0 1 0 0 vntthor.dat
+1 7 -30 -24 100 -1 0 0 0 1 0 0 0 -1 vntthor.dat
+1 7 -70 -72 20 1 0 0 0 1 0 0 0 1 puertamr.dat
+1 7 -20 -96 90 1 0 0 0 1 0 0 0 1 jacena1.dat
+1 7 -80 -96 90 1 0 0 0 1 0 0 0 1 jacena1.dat
+1 7 -80 -96 30 1 0 0 0 1 0 0 0 1 jacena1.dat
+1 7 -20 -96 30 1 0 0 0 1 0 0 0 1 jacena1.dat
+1 7 -20 -120 90 1 0 0 0 1 0 0 0 1 jacena1.dat
+1 7 -80 -120 90 1 0 0 0 1 0 0 0 1 jacena1.dat
+1 7 -80 -120 30 1 0 0 0 1 0 0 0 1 jacena1.dat
+1 7 -80 -152 30 1 0 0 0 1 0 0 0 1 jacena1.dat
+1 7 -50 -176 60 1 0 0 0 1 0 0 0 1 baldc4.dat
+0 MLCAD BTG telefono
+1 0 -60 -104 84 1 0 0 0 0 -1 0 1 0 camionsp.dat
+0 MLCAD BTG telefono
+1 1 -70 -134 76 0 0 1 1 0 0 0 1 0 placa2.dat
+0 MLCAD BTG telefono
+1 1 -70 -134 68 0 0 1 1 0 0 0 1 0 placa1.dat
+0 MLCAD BTG telefono
+1 1 -70 -114 68 0 0 1 1 0 0 0 1 0 bald1.dat
+0 GROUP 4 telefono
+1 7 -80 -152 90 1 0 0 0 1 0 0 0 1 jacena1.dat
+1 7 -20 -152 90 1 0 0 0 1 0 0 0 1 jacena1.dat
+1 7 -20 -152 30 1 0 0 0 1 0 0 0 1 jacena1.dat
+1 33 -70 -152 80 1 0 0 0 1 0 0 0 1 jacena2.dat
+1 33 -70 -152 20 1 0 0 0 1 0 0 0 1 jacena2.dat
+1 33 -10 -152 40 0 0 -1 0 1 0 1 0 0 jacena2.dat
+1 33 -70 -152 40 0 0 -1 0 1 0 1 0 0 jacena2.dat
+1 7 -20 -120 30 1 0 0 0 1 0 0 0 1 jacena1.dat
+1 7 -90 -96 80 0 0 1 0 1 0 -1 0 0 vntthor.dat
+1 7 -10 -96 40 0 0 -1 0 1 0 1 0 0 vntthor.dat
+1 7 -30 -96 100 -1 0 0 0 1 0 0 0 -1 vntthor.dat
+1 7 -30 -72 100 0 0 1 0 1 0 -1 0 0 jacena4.dat
+1 7 -90 -72 100 0 0 1 0 1 0 -1 0 0 jacena4.dat
+1 7 -70 -72 80 1 0 0 0 1 0 0 0 1 enganche.dat
+1 7 -40 -72 90 1 0 0 0 1 0 0 0 1 jacena1.dat
+0

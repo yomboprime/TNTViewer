@@ -1,0 +1,45 @@
+0 Transportes especiales (carga)
+0 Name: Ruta_0553_transporteespecialcarga.ldr
+0 cpcbegin
+0 Tente ruta: el mundo de la ruta
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 4 -60 24 0 0 0 -1 0 1 0 1 0 0 jacena8.dat
+1 4 -40 24 0 0 0 -1 0 1 0 1 0 0 jacena8.dat
+1 14 -20 0 0 0 0 -1 0 1 0 1 0 0 placa4x8.dat
+1 4 -50 32 0 1 0 0 0 1 0 0 0 1 rueastro.dat
+1 4 -50 32 120 1 0 0 0 1 0 0 0 1 rueastro.dat
+1 4 -50 32 60 1 0 0 0 1 0 0 0 1 rueastro.dat
+1 14 -100 16 -40 1 0 0 0 1 0 0 0 1 jacen2x4.dat
+1 14 -100 40 -40 1 0 0 0 1 0 0 0 1 jacen2x4.dat
+1 0 -40 -32 80 0 0 -1 0 1 0 1 0 0 jacen2x4.dat
+1 14 -60 40 -40 1 0 0 0 1 0 0 0 1 cabant.dat
+1 14 -100 -8 -20 0 0 1 0 1 0 -1 0 0 bald2x2r.dat
+1 14 -100 -8 20 0 0 1 0 1 0 -1 0 0 bald2x2r.dat
+1 14 -20 -8 -20 0 0 -1 0 1 0 1 0 0 bald2x2r.dat
+1 14 -40 -56 160 -1 0 0 0 1 0 0 0 -1 bald2x2r.dat
+1 14 -20 -8 -60 0 0 -1 0 1 0 1 0 0 bald2x2r.dat
+1 0 -60 -8 100 0 0 -1 0 1 0 1 0 0 rotorinf.dat
+1 0 -60 -8 100 0 0 -1 0 1 0 1 0 0 rotorsup.dat
+1 15 -60 -24 100 0 0 -1 0 1 0 1 0 0 popa4p.dat
+1 15 -60 -24 100 0 0 1 0 1 0 -1 0 0 popa4p.dat
+1 14 -60 -56 120 0 0 1 0 1 0 -1 0 0 bald2.dat
+1 14 -100 -56 120 0 0 1 0 1 0 -1 0 0 bald2.dat
+1 46 -90 -8 30 0 0 1 0 1 0 -1 0 0 amortigu.dat
+1 46 -30 -8 30 0 0 1 0 1 0 -1 0 0 amortigu.dat
+1 383 -30 -46 124 0 0 1 -1 0 0 0 -1 0 amortigu.dat
+1 14 -30 -46 28 0 0 1 -1 0 0 0 -1 0 cilindro.dat
+1 0 -30 -46 52 0 0 1 -1 0 0 0 -1 0 cilindro.dat
+1 0 -30 -46 4 0 0 1 -1 0 0 0 -1 0 cilindro.dat
+1 0 -90 -46 4 0 0 1 -1 0 0 0 -1 0 cilindro.dat
+1 4 -30 -46 148 0 0 1 -1 0 0 0 -1 0 cilindro.dat
+1 0 -30 -46 76 0 0 1 -1 0 0 0 -1 0 cilindro.dat
+1 0 -40 -56 100 1 0 0 0 0 1 0 -1 0 enganche.dat
+1 383 -90 -46 124 0 0 1 -1 0 0 0 -1 0 amortigu.dat
+1 14 -90 -46 28 0 0 1 -1 0 0 0 -1 0 cilindro.dat
+1 0 -90 -46 52 0 0 1 -1 0 0 0 -1 0 cilindro.dat
+1 4 -90 -46 148 0 0 1 -1 0 0 0 -1 0 cilindro.dat
+1 0 -90 -46 76 0 0 1 -1 0 0 0 -1 0 cilindro.dat
+1 0 -100 -56 100 1 0 0 0 0 1 0 -1 0 enganche.dat
+1 0 -100 -56 172 1 0 0 0 0 1 0 -1 0 jacena4.dat
+0

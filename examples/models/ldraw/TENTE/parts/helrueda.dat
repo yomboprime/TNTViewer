@@ -3,9 +3,9 @@
 0 Author: betatron
 0 !LDRAW_ORG Unofficial_Part
 0 BFC CERTIFY CCW
-1 4 8.5 35 20 1 0 0 0 1 0 0 0 1 helillnt.dat
-1 4 -8.5 35 20 -1 0 0 0 1 0 0 0 -1 helillnt.dat
+1 16 8.5 35 20 1 0 0 0 1 0 0 0 1 helillnt.dat
+1 16 -8.5 35 20 -1 0 0 0 1 0 0 0 -1 helillnt.dat
 1 256 -4 0 0 -1 0 0 0 1 0 0 0 -1 helineum.dat
 1 256 4 0 40 1 0 0 0 1 0 0 0 1 helineum.dat
-1 16 0 0 0 -1 0 0 0 1 0 0 0 -1 helisprt.dat
+1 0 0 0 0 -1 0 0 0 1 0 0 0 -1 helisprt.dat
 1 383 0 25 20 1 0 0 0 1 0 0 0 1 helireje.dat
