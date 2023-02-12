@@ -1,0 +1,81 @@
+0 Untitled
+0 Name: 402_PeajeAutopista.ldr
+0 Author: jasolo & abeldb
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 2 0 0 80 0 0 1 0 1 0 -1 0 0 placa6x8.dat
+1 2 -120 0 80 0 0 1 0 1 0 -1 0 0 placa6x8.dat
+1 1 20 -8 -20 -1 0 0 0 1 0 0 0 -1 jacen2x4.dat
+1 4 20 -8 60 -1 0 0 0 1 0 0 0 -1 puertamr.dat
+1 4 60 -32 60 -1 0 0 0 1 0 0 0 -1 vntcasam.dat
+1 47 60 -32 60 -1 0 0 0 1 0 0 0 -1 vntcasac.dat
+1 4 -20 -32 -60 1 0 0 0 1 0 0 0 1 vntcasam.dat
+1 47 -20 -32 -60 1 0 0 0 1 0 0 0 1 vntcasac.dat
+1 47 20 -8 60 -1 0 0 0 1 0 0 0 -1 puertacr.dat
+1 4 20 -8 -60 1 0 0 0 1 0 0 0 1 puertamr.dat
+1 4 100 -32 -40 0 0 -1 0 1 0 1 0 0 ventan4m.dat
+1 47 100 -32 -40 0 0 -1 0 1 0 1 0 0 ventan4c.dat
+1 4 -60 -32 40 0 0 1 0 1 0 -1 0 0 ventan4m.dat
+1 4 -60 -80 -20 1 0 0 0 1 0 0 0 1 jacen2x8.dat
+1 4 -60 -80 20 1 0 0 0 1 0 0 0 1 jacen2x4.dat
+1 4 20 -80 20 1 0 0 0 1 0 0 0 1 jacen2x4.dat
+1 4 20 -80 -60 1 0 0 0 1 0 0 0 1 jacen2x4.dat
+1 4 -60 -80 -60 1 0 0 0 1 0 0 0 1 jacen2x4.dat
+1 4 40 -104 -80 0 0 -1 0 1 0 1 0 0 jacen2x3.dat
+1 15 40 -128 -80 0 0 -1 0 1 0 1 0 0 jacen2x3.dat
+1 14 40 -160 -240 0 0 -1 0 1 0 1 0 0 jacen2x4.dat
+1 14 40 -160 -320 0 0 -1 0 1 0 1 0 0 jacen2x4.dat
+1 4 40 -152 -200 0 0 -1 0 1 0 1 0 0 placa2x8.dat
+1 4 40 -152 -440 0 0 -1 0 1 0 1 0 0 placa2x8.dat
+1 15 140 0 -400 -1 0 0 0 1 0 0 0 -1 placa2x8.dat
+1 15 140 0 -220 -1 0 0 0 1 0 0 0 -1 placa2x8.dat
+1 15 -60 -152 -280 1 0 0 0 1 0 0 0 1 placa4x8.dat
+1 15 0 -128 -440 1 0 0 0 1 0 0 0 1 jacen2x2.dat
+1 15 0 -128 -260 1 0 0 0 1 0 0 0 1 jacen2x2.dat
+1 15 0 -80 -440 1 0 0 0 1 0 0 0 1 jacen2x2.dat
+1 15 0 -80 -260 1 0 0 0 1 0 0 0 1 jacen2x2.dat
+1 4 0 -104 -440 1 0 0 0 1 0 0 0 1 jacen2x2.dat
+1 4 0 -104 -260 1 0 0 0 1 0 0 0 1 jacen2x2.dat
+1 4 0 -56 -440 1 0 0 0 1 0 0 0 1 jacen2x2.dat
+1 4 60 -32 -420 1 0 0 0 1 0 0 0 1 jacena2.dat
+1 4 60 -32 -240 1 0 0 0 1 0 0 0 1 jacena2.dat
+1 4 130 -8 -410 1 0 0 0 1 0 0 0 1 cilindro.dat
+1 4 0 -56 -260 1 0 0 0 1 0 0 0 1 jacen2x2.dat
+1 15 0 -32 -440 1 0 0 0 1 0 0 0 1 jacen2x2.dat
+1 15 140 -32 -420 0 0 -1 0 1 0 1 0 0 jacena8.dat
+1 4 -110 -8 -70 -1 0 0 0 1 0 0 0 -1 cilindro.dat
+1 15 -120 -32 -60 0 0 1 0 1 0 -1 0 0 jacena8.dat
+1 15 0 -32 -260 1 0 0 0 1 0 0 0 1 jacen2x2.dat
+1 4 0 -8 -440 1 0 0 0 1 0 0 0 1 jacen2x2.dat
+1 4 0 -8 -260 1 0 0 0 1 0 0 0 1 jacen2x2.dat
+1 1 60 -8 -440 1 0 0 0 1 0 0 0 1 jacen2x2.dat
+1 1 60 -8 -240 1 0 0 0 1 0 0 0 1 jacen2x2.dat
+1 47 -60 -32 40 0 0 1 0 1 0 -1 0 0 ventan4c.dat
+1 15 60 -32 40 1 0 0 0 1 0 0 0 1 jacena2.dat
+1 15 60 -56 40 1 0 0 0 1 0 0 0 1 jacena2.dat
+1 15 -60 -32 -60 1 0 0 0 1 0 0 0 1 jacena2.dat
+1 15 -60 -56 -60 1 0 0 0 1 0 0 0 1 jacena2.dat
+1 47 -60 -32 40 1 0 0 0 1 0 0 0 1 jacena2.dat
+1 47 -60 -56 40 1 0 0 0 1 0 0 0 1 jacena2.dat
+1 47 60 -32 -60 1 0 0 0 1 0 0 0 1 jacena2.dat
+1 47 60 -56 -60 1 0 0 0 1 0 0 0 1 jacena2.dat
+1 47 20 -8 -60 1 0 0 0 1 0 0 0 1 puertacr.dat
+1 1 100 -8 -60 0 0 -1 0 1 0 1 0 0 jacen2x4.dat
+1 1 -20 -8 -20 0 0 -1 0 1 0 1 0 0 jacen2x4.dat
+1 1 100 -8 60 -1 0 0 0 1 0 0 0 -1 jacen2x4.dat
+0 WRITE coche
+1 15 180 -40 -190 1 0 0 0 1 0 0 0 1 placa4x8.dat
+1 1 260 -72 -190 1 0 0 0 1 0 0 0 1 jacen2x4.dat
+1 1 260 -72 -150 1 0 0 0 1 0 0 0 1 jacen2x4.dat
+1 1 260 -48 -110 0 0 1 0 1 0 -1 0 0 jacen2x2.dat
+1 1 260 -48 -150 0 0 1 0 1 0 -1 0 0 jacen2x2.dat
+1 14 300 -48 -110 0 0 1 0 1 0 -1 0 0 jacen2x4.dat
+1 15 190 -16 -120 1 0 0 0 1 0 0 0 1 jacena1.dat
+1 15 190 -16 -180 1 0 0 0 1 0 0 0 1 jacena1.dat
+1 4 180 -16 -130 0 0 1 0 1 0 -1 0 0 jacena2.dat
+1 4 220 -48 -110 0 0 1 0 1 0 -1 0 0 ventan4m.dat
+1 47 220 -48 -110 0 0 1 0 1 0 -1 0 0 ventan4c.dat
+1 4 210 -40 -150 0 0 1 0 1 0 -1 0 0 rueruj4t.dat
+1 4 310 -40 -150 0 0 1 0 1 0 -1 0 0 rueruj4t.dat
+0

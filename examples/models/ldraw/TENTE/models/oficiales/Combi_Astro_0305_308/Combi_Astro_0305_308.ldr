@@ -1,0 +1,47 @@
+0 Generador movil
+0 Name: Combi-Astro_5_8.ldr
+0 Author: cpcbegin
+0 Tente astro: Combi 6
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 0 100 40 30 1 0 0 0 1 0 0 0 1 ruetober.dat
+1 0 100 40 150 1 0 0 0 1 0 0 0 1 ruetober.dat
+1 1 70 0 150 1 0 0 0 1 0 0 0 1 jacena2.dat
+1 0 70 -24 150 1 0 0 0 1 0 0 0 1 sillastr.dat
+1 383 80 -6 80 0 0 1 0 1 0 -1 0 0 tbescrc2.dat
+1 1 70 16 190 0 0 1 0 1 0 -1 0 0 placa2x8.dat
+1 1 70 8 70 0 0 1 0 1 0 -1 0 0 placa2x8.dat
+1 15 70 8 210 0 0 1 0 1 0 -1 0 0 placa2x3.dat
+1 15 120 0 130 -1 0 0 0 1 0 0 0 -1 placa2x3.dat
+1 4 20 0 110 1 0 0 0 1 0 0 0 1 cilindr2.dat
+1 4 160 0 110 1 0 0 0 1 0 0 0 1 cilindr2.dat
+1 1 90 8 110 1 0 0 0 1 0 0 0 1 alaastro.dat
+1 1 90 8 110 -1 0 0 0 1 0 0 0 -1 alaastro.dat
+1 0 110 0 -50 0 0 -1 0 1 0 1 0 0 pinzastr.dat
+1 1 90 0 170 1 0 0 0 1 0 0 0 1 semicupp.dat
+1 15 90 0 170 1 0 0 0 1 0 0 0 1 astgrfpq.dat
+1 1 90 0 -60 -1 0 0 0 1 0 0 0 -1 semicupp.dat
+1 15 90 0 -60 -1 0 0 0 1 0 0 0 -1 astgrfpq.dat
+1 4 100 0 40 0 0 -1 0 1 0 1 0 0 cilindro.dat
+1 4 90 -8 120 0 0 -1 0 1 0 1 0 0 cilindro.dat
+1 4 90 -56 120 0 0 -1 0 1 0 1 0 0 cilindro.dat
+1 4 90 -80 120 0 0 -1 0 1 0 1 0 0 cilindro.dat
+1 15 90 18 -18 0 0 -1 -1 0 0 0 1 0 cilindro.dat
+1 15 90 18 6 0 0 -1 -1 0 0 0 1 0 cilindro.dat
+1 15 90 18 -42 0 0 -1 -1 0 0 0 1 0 cilindro.dat
+1 15 90 -139 120 1 0 0 0 1 0 0 0 1 radar.dat
+1 4 80 0 40 0 0 -1 0 1 0 1 0 0 cilindro.dat
+1 4 80 0 60 0 0 -1 0 1 0 1 0 0 cilindro.dat
+1 4 100 0 60 0 0 -1 0 1 0 1 0 0 cilindro.dat
+1 383 90 -32 50 0 0 -1 0 1 0 1 0 0 amortigu.dat
+1 15 110 -24 70 -1 0 0 0 1 0 0 0 -1 placa2.dat
+1 15 110 -24 50 -1 0 0 0 1 0 0 0 -1 placa2.dat
+1 0 90 -56 120 0 0 -1 0 1 0 1 0 0 toberast.dat
+1 15 90 18 -71 -1 0 0 0 0 1 0 1 0 antncruz.dat
+1 15 90 -104 120 1 0 0 0 1 0 0 0 1 ramplanz.dat
+1 1 90 -128 120 1 0 0 0 1 0 0 0 1 tubo.dat
+1 15 100 8 30 -1 0 0 0 0 1 0 1 0 enganch2.dat
+1 15 90 -18.768 -34.33 1 0 0 0 -0.0871557 0.996195 0 -0.996195 -0.0871557 astpierv.dat
+1 15 90 -17.768 -34.33 1 0 0 0 0.939692 0.34202 0 -0.34202 0.939692 astcuerv.dat
+1 0 90 -8 158 -1 0 0 0 1 0 0 0 -1 tbcb1_58.dat
+0

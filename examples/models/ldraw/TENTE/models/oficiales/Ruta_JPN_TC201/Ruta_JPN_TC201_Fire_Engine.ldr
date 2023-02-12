@@ -1,0 +1,224 @@
+0 MLCAD BTG tractor
+0 Untitled
+0 MLCAD BTG tractor
+0 Name: camionbomberosjapones.ldr
+0 MLCAD BTG tractor
+0 Author: MLCad
+0 MLCAD BTG tractor
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+0 MLCAD BTG tractor
+1 4 -100 88 0 1 0 0 0 1 0 0 0 1 enganch2.dat
+0 MLCAD BTG tractor
+1 4 -100 64 140 0 0 1 0 1 0 -1 0 0 enganch2.dat
+0 MLCAD BTG tractor
+1 4 -90 64 150 0 0 1 0 1 0 -1 0 0 cilindro.dat
+0 MLCAD BTG tractor
+1 4 -30 64 150 0 0 1 0 1 0 -1 0 0 cilindro.dat
+0 MLCAD BTG tractor
+1 4 -90 40 130 0 0 1 0 1 0 -1 0 0 jacena1.dat
+0 MLCAD BTG tractor
+1 4 -30 40 130 0 0 1 0 1 0 -1 0 0 jacena1.dat
+0 MLCAD BTG tractor
+1 4 -30 16 130 0 0 1 0 1 0 -1 0 0 jacena1.dat
+0 MLCAD BTG tractor
+1 4 -90 16 130 0 0 1 0 1 0 -1 0 0 jacena1.dat
+0 MLCAD BTG tractor
+1 14 -40 40 120 -1 0 0 0 1 0 0 0 -1 rallado2.dat
+0 MLCAD BTG tractor
+1 14 -40 16 120 -1 0 0 0 1 0 0 0 -1 rallado2.dat
+0 MLCAD BTG tractor
+1 4 -20 40 80 -1 0 0 0 1 0 0 0 -1 jacena4.dat
+0 MLCAD BTG tractor
+1 4 -20 96 40 -1 0 0 0 1 0 0 0 -1 jacena4.dat
+0 MLCAD BTG tractor
+1 4 -60 40 60 1 0 0 0 1 0 0 0 1 cabant.dat
+0 MLCAD BTG tractor
+1 4 -40 40 0 0 0 -1 0 1 0 1 0 0 bald2.dat
+0 MLCAD BTG tractor
+1 4 -20 16 80 -1 0 0 0 1 0 0 0 -1 jacena4.dat
+0 MLCAD BTG tractor
+1 4 -80 40 80 0 0 -1 0 1 0 1 0 0 vntcasa.dat
+0 MLCAD BTG tractor
+1 4 -40 40 120 0 0 1 0 1 0 -1 0 0 vntcasa.dat
+0 MLCAD BTG tractor
+1 4 -20 64 120 0 0 -1 0 1 0 1 0 0 enganch2.dat
+0 MLCAD BTG tractor
+1 4 -100 64 40 0 0 1 0 1 0 -1 0 0 placa2.dat
+0 MLCAD BTG tractor
+1 4 -40 64 40 0 0 1 0 1 0 -1 0 0 placa2.dat
+0 MLCAD BTG tractor
+1 4 -40 56 40 0 0 1 0 1 0 -1 0 0 placa2.dat
+0 MLCAD BTG tractor
+1 4 -100 56 40 0 0 1 0 1 0 -1 0 0 placa2.dat
+0 MLCAD BTG tractor
+1 4 -40 88 0 1 0 0 0 1 0 0 0 1 enganch2.dat
+0 MLCAD BTG tractor
+1 15 -100 96 0 1 0 0 0 1 0 0 0 1 placa4.dat
+0 MLCAD BTG tractor
+1 4 -100 48 20 1 0 0 0 1 0 0 0 1 placa4.dat
+0 MLCAD BTG tractor
+1 15 -20 72 20 0 0 -1 0 1 0 1 0 0 placa4x8.dat
+0 MLCAD BTG tractor
+1 0 -40 80 40 0 0 -1 0 1 0 1 0 0 placa2x2.dat
+0 MLCAD BTG tractor
+1 0 -40 80 80 0 0 -1 0 1 0 1 0 0 placa2x8.dat
+0 MLCAD BTG tractor
+1 15 -40 72 240 -1 0 0 0 1 0 0 0 -1 placa2x2.dat
+0 MLCAD BTG tractor
+1 4 -40 64 240 -1 0 0 0 1 0 0 0 -1 jacen2x2.dat
+0 MLCAD BTG tractor
+1 4 -60 40 220 -1 0 0 0 1 0 0 0 -1 rotorinf.dat
+0 MLCAD BTG tractor
+1 0 -80 88 20 1 0 0 0 1 0 0 0 1 rallado2.dat
+0 MLCAD BTG tractor
+1 0 -80 64 20 1 0 0 0 1 0 0 0 1 rallado2.dat
+0 MLCAD BTG tractor
+1 4 -60 80 80 1 0 0 0 1 0 0 0 1 rueruj2l.dat
+0 MLCAD BTG tractor
+1 4 -60 80 220 1 0 0 0 1 0 0 0 1 rueruj2l.dat
+0 MLCAD BTG tractor
+1 4 -80 88 160 0 0 1 0 1 0 -1 0 0 deposito.dat
+0 MLCAD BTG tractor
+1 4 -40 88 120 0 0 -1 0 1 0 1 0 0 deposito.dat
+0 MLCAD BTG tractor
+1 4 -100 64 80 0 0 1 0 1 0 -1 0 0 jacena2.dat
+0 MLCAD BTG tractor
+1 14 -100 64 80 0 0 1 0 1 0 -1 0 0 fireline.dat
+0 MLCAD BTG tractor
+1 4 -100 64 120 0 0 1 0 1 0 -1 0 0 jacena2.dat
+0 MLCAD BTG tractor
+1 14 -100 64 120 0 0 1 0 1 0 -1 0 0 fireshli.dat
+0 MLCAD BTG tractor
+1 4 -80 64 160 1 0 0 0 1 0 0 0 1 jacena2.dat
+0 MLCAD BTG tractor
+1 0 -80 40 160 1 0 0 0 1 0 0 0 1 placa2.dat
+0 MLCAD BTG tractor
+1 4 -80 64 120 1 0 0 0 1 0 0 0 1 jacen2x2.dat
+0 MLCAD BTG tractor
+1 4 -40 64 120 0 0 1 0 1 0 -1 0 0 jacena2.dat
+0 MLCAD BTG tractor
+1 4 -40 64 80 0 0 1 0 1 0 -1 0 0 jacena2.dat
+0 MLCAD BTG tractor
+1 14 -20 64 80 0 0 1 0 1 0 -1 0 0 fireline.dat
+0 MLCAD BTG tractor
+1 14 -20 64 120 0 0 1 0 1 0 -1 0 0 fireshli.dat
+0 MLCAD BTG tractor
+1 4 -100 -8 40 1 0 0 0 1 0 0 0 1 bald2x2r.dat
+0 MLCAD BTG tractor
+1 4 -60 -8 40 1 0 0 0 1 0 0 0 1 bald2x2r.dat
+0 MLCAD BTG tractor
+1 4 -40 -8 80 0 0 -1 0 1 0 1 0 0 bald2.dat
+0 MLCAD BTG tractor
+1 46 -30 -8 90 0 0 -1 0 1 0 1 0 0 amortigu.dat
+0 MLCAD BTG tractor
+1 46 -90 -8 90 0 0 -1 0 1 0 1 0 0 amortigu.dat
+0 MLCAD BTG tractor
+1 4 -80 16 80 1 0 0 0 1 0 0 0 1 jacen2x2.dat
+0 MLCAD BTG tractor
+1 4 -80 40 80 1 0 0 0 1 0 0 0 1 jacen2x2.dat
+0 MLCAD BTG tractor
+1 4 -80 64 80 1 0 0 0 1 0 0 0 1 jacen2x2.dat
+0 MLCAD BTG tractor
+1 4 -60 -8 140 -1 0 0 0 1 0 0 0 -1 bald2x2r.dat
+0 MLCAD BTG tractor
+1 4 -20 -8 140 -1 0 0 0 1 0 0 0 -1 bald2x2r.dat
+0 GROUP 62 tractor
+1 4 -60 40 220 -1 0 0 0 1 0 0 0 -1 rotorsup.dat
+1 4 -20 24 200 0 0 -1 0 1 0 1 0 0 placa4x6.dat
+1 4 -40 56 280 0 0 -1 0 1 0 1 0 0 placa2x8.dat
+1 4 -30 48 270 0 0 -1 0 1 0 1 0 0 jacena1.dat
+1 4 -50 48 290 0 0 -1 0 1 0 1 0 0 jacena1.dat
+1 4 -50 48 330 0 0 -1 0 1 0 1 0 0 jacena1.dat
+1 4 -50 48 370 0 0 -1 0 1 0 1 0 0 jacena1.dat
+1 4 -70 48 330 0 0 -1 0 1 0 1 0 0 jacena1.dat
+1 4 -70 48 370 0 0 -1 0 1 0 1 0 0 jacena1.dat
+1 15 -40 48 300 0 0 -1 0 1 0 1 0 0 enganch2.dat
+1 383 -40 38 310 0 -1 0 0 0 -1 1 0 0 amortigu.dat
+1 383 -40 38 350 0 -1 0 0 0 -1 1 0 0 amortigu.dat
+1 4 -40 20 382 -1 0 0 0 0 -1 0 -1 0 llantrut.dat
+1 15 -80 -24 220 1 0 0 0 1 0 0 0 1 enganch2.dat
+1 15 -40 48 340 0 0 -1 0 1 0 1 0 0 enganch2.dat
+1 15 -40 48 380 0 0 -1 0 1 0 1 0 0 enganch2.dat
+1 4 -20 56 520 0 0 -1 0 1 0 1 0 0 enganch2.dat
+1 4 -100 56 540 0 0 1 0 1 0 -1 0 0 enganch2.dat
+1 4 -20 64 380 0 0 -1 0 1 0 1 0 0 placa4x8.dat
+1 4 -20 88 540 -1 0 0 0 1 0 0 0 -1 jacen2x4.dat
+1 4 -20 96 260 0 0 -1 0 1 0 1 0 0 jacen2x4.dat
+1 0 -40 80 340 0 0 -1 0 1 0 1 0 0 placa2x8.dat
+1 4 -60 80 370 -1 0 0 0 1 0 0 0 -1 rueruj2l.dat
+1 4 -60 80 470 -1 0 0 0 1 0 0 0 -1 rueruj2l.dat
+1 4 -60 96 260 0 0 -1 0 1 0 1 0 0 jacen2x4.dat
+1 15 -20 72 260 0 0 -1 0 1 0 1 0 0 placa4x8.dat
+1 15 -20 72 420 0 0 -1 0 1 0 1 0 0 placa2x3.dat
+1 15 -60 72 420 0 0 -1 0 1 0 1 0 0 placa2x3.dat
+1 15 -60 72 500 -1 0 0 0 1 0 0 0 -1 placa2.dat
+1 15 -20 72 500 -1 0 0 0 1 0 0 0 -1 placa2.dat
+1 4 -20 64 260 0 0 -1 0 1 0 1 0 0 placa4x6.dat
+1 4 -40 48 400 0 0 -1 0 1 0 1 0 0 jacen2x2.dat
+1 4 -40 56 440 0 0 -1 0 1 0 1 0 0 jacen2x4.dat
+1 4 -40 32 440 0 0 -1 0 1 0 1 0 0 jacen2x4.dat
+1 4 -20 32 440 0 0 -1 0 1 0 1 0 0 jacena4.dat
+1 14 -20 32 520 0 0 1 0 1 0 -1 0 0 firedept.dat
+1 4 -40 8 440 0 0 -1 0 1 0 1 0 0 jacena4.dat
+1 4 -20 8 480 -1 0 0 0 1 0 0 0 -1 bald2.dat
+1 4 -20 8 520 -1 0 0 0 1 0 0 0 -1 bald2.dat
+1 4 -80 8 480 -1 0 0 0 1 0 0 0 -1 bald2.dat
+1 4 -80 8 520 -1 0 0 0 1 0 0 0 -1 bald2.dat
+1 4 -60 8 440 0 0 -1 0 1 0 1 0 0 jacena4.dat
+1 4 -80 32 440 0 0 -1 0 1 0 1 0 0 jacena4.dat
+1 14 -100 32 440 0 0 -1 0 1 0 1 0 0 firedept.dat
+1 4 -40 56 440 0 0 -1 0 1 0 1 0 0 rallado2.dat
+1 4 -40 56 480 0 0 -1 0 1 0 1 0 0 rallado2.dat
+1 4 -80 56 520 0 0 1 0 1 0 -1 0 0 rallado2.dat
+1 4 -80 56 480 0 0 1 0 1 0 -1 0 0 rallado2.dat
+1 4 -40 24 400 0 0 -1 0 1 0 1 0 0 jacen2x2.dat
+1 4 -40 0 400 0 0 -1 0 1 0 1 0 0 placa2x2.dat
+1 4 -40 -16 420 0 0 -1 0 1 0 1 0 0 placa2x2.dat
+1 4 -40 0 260 0 0 -1 0 1 0 1 0 0 placa2x2.dat
+1 4 -40 -8 260 0 0 -1 0 1 0 1 0 0 placa2x2.dat
+1 4 -60 -16 280 0 0 -1 0 1 0 1 0 0 rotorinf.dat
+1 4 -60 -16 280 0 0 -1 0 1 0 1 0 0 rotorsup.dat
+1 7 -70 -40 510 1 0 0 0 1 0 0 0 1 escalera.dat
+1 7 -70 -32 390 1 0 0 0 1 0 0 0 1 escalera.dat
+1 4 -40 16 200 0 0 -1 0 1 0 1 0 0 placa2x2.dat
+1 4 -40 16 240 0 0 -1 0 1 0 1 0 0 placa2x3.dat
+1 15 -20 8 220 0 0 -1 0 1 0 1 0 0 placa2x3.dat
+1 15 -60 8 240 0 0 -1 0 1 0 1 0 0 placa2x3.dat
+1 15 -60 8 280 -1 0 0 0 1 0 0 0 -1 popa4p.dat
+1 15 -60 8 220 1 0 0 0 1 0 0 0 1 popa4p.dat
+1 4 -80 -16 460 1 0 0 0 1 0 0 0 1 placa2.dat
+1 4 -80 -16 480 1 0 0 0 1 0 0 0 1 placa2.dat
+1 4 -40 16 400 -1 0 0 0 1 0 0 0 -1 jacena2.dat
+1 4 -40 -8 400 -1 0 0 0 1 0 0 0 -1 jacena2.dat
+1 15 -40 0 240 -1 0 0 0 1 0 0 0 -1 jacena2.dat
+1 15 -30 0 230 -1 0 0 0 1 0 0 0 -1 cilindro.dat
+1 15 -90 0 230 -1 0 0 0 1 0 0 0 -1 cilindro.dat
+1 15 -40 0 200 0 0 -1 0 1 0 1 0 0 bald2.dat
+1 4 -40 -16 520 -1 0 0 0 1 0 0 0 -1 jacena2.dat
+1 15 -80 48 320 0 0 1 0 1 0 -1 0 0 enganch2.dat
+1 15 -80 48 360 0 0 1 0 1 0 -1 0 0 enganch2.dat
+1 383 -80 38 350 0 1 0 0 0 -1 -1 0 0 amortigu.dat
+1 383 -80 38 310 0 1 0 0 0 -1 -1 0 0 amortigu.dat
+1 4 -80 20 396 1 0 0 0 0 -1 0 1 0 llantrut.dat
+1 15 -80 48 400 0 0 1 0 1 0 -1 0 0 enganch2.dat
+1 4 -70 48 290 0 0 -1 0 1 0 1 0 0 jacena1.dat
+1 4 -90 48 270 0 0 -1 0 1 0 1 0 0 jacena1.dat
+1 14 -80 48 280 1 0 0 0 1 0 0 0 1 rallado2.dat
+1 4 -60 56 260 1 0 0 0 1 0 0 0 1 placa2.dat
+1 4 -100 56 260 1 0 0 0 1 0 0 0 1 placa2.dat
+1 4 -60 24 320 0 0 -1 0 1 0 1 0 0 placa2x2.dat
+1 4 -20 24 320 0 0 -1 0 1 0 1 0 0 placa2x2.dat
+1 4 -20 16 340 0 0 -1 0 1 0 1 0 0 bald2x2r.dat
+1 4 -20 16 320 0 0 -1 0 1 0 1 0 0 bald2r.dat
+1 4 -100 16 380 0 0 1 0 1 0 -1 0 0 bald2x2r.dat
+1 4 -100 16 340 0 0 1 0 1 0 -1 0 0 bald2r.dat
+1 4 -20 24 360 0 0 -1 0 1 0 1 0 0 placa2x2.dat
+1 4 -60 24 360 0 0 -1 0 1 0 1 0 0 placa2x2.dat
+1 4 -90 32 530 0 0 -1 0 1 0 1 0 0 jacena1.dat
+1 14 -80 32 540 -1 0 0 0 1 0 0 0 -1 fireshld.dat
+1 14 -20 32 540 -1 0 0 0 1 0 0 0 -1 fireshld.dat
+1 4 -30 32 530 0 0 -1 0 1 0 1 0 0 jacena1.dat
+1 383 -70 -34 214 0 0 -1 -1 0 0 0 1 0 tbescrct.dat
+0

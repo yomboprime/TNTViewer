@@ -1,0 +1,54 @@
+0 Astro 0656 Interceptor Espacial
+0 Name: Astro_0656_InterceptorEspacial.ldr
+0 Author: Jasolo
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 1 40 -64 -80 0 0 -1 0 1 0 1 0 0 placa4x8.dat
+1 1 20 -72 20 0 0 -1 0 1 0 1 0 0 jacen2x8.dat
+1 1 0 -96 120 -1 0 0 0 1 0 0 0 -1 alaastro.dat
+1 1 -20 -72 60 -1 0 0 0 1 0 0 0 -1 pinzastr.dat
+1 1 -20 -72 20 -1 0 0 0 1 0 0 0 -1 pinzastr.dat
+1 1 20 -72 -20 1 0 0 0 1 0 0 0 1 pinzastr.dat
+1 15 0 -88 1 1 0 0 0 0 1 0 -1 0 astpierv.dat
+1 1 20 -72 20 1 0 0 0 1 0 0 0 1 pinzastr.dat
+1 0 30 -72 70 1 0 0 0 0 -1 0 1 0 tubas656.dat
+1 0 -30 -72 70 -1 0 0 0 0 -1 0 1 0 tubas656.dat
+1 1 -20 -176 260 -1 0 0 0 1 0 0 0 -1 pinzastr.dat
+1 1 20 -176 220 1 0 0 0 1 0 0 0 1 pinzastr.dat
+1 1 -40 -168 220 1 0 0 0 1 0 0 0 1 placa2x2.dat
+1 1 0 -168 220 1 0 0 0 1 0 0 0 1 placa2x2.dat
+1 46 0 -200 240 1 0 0 0 1 0 0 0 1 amortigu.dat
+1 1 0 -96 120 1 0 0 0 1 0 0 0 1 alaastro.dat
+1 0 20 0 -60 0 0 1 0 1 0 -1 0 0 patastro.dat
+1 1 20 -104 260 0 0 1 0 1 0 -1 0 0 patastro.dat
+1 0 -20 0 100 -1 0 0 0 1 0 0 0 -1 patastro.dat
+1 0 -130 -76 160 -1 0 0 0 0 1 0 1 0 toberast.dat
+1 0 130 -76 160 -1 0 0 0 0 1 0 1 0 toberast.dat
+1 0 20 0 140 1 0 0 0 1 0 0 0 1 patastro.dat
+1 4 30 -72 -30 0 0 1 0 1 0 -1 0 0 chimtubo.dat
+1 4 -30 -72 -30 0 0 1 0 1 0 -1 0 0 chimtubo.dat
+1 4 40 -96 -60 0 0 -1 0 1 0 1 0 0 deposito.dat
+1 4 -40 -96 -20 0 0 1 0 1 0 -1 0 0 deposito.dat
+1 4 30 -82 -80 0 0 1 1 0 0 0 1 0 laser.dat
+1 4 -30 -82 -80 0 0 1 1 0 0 0 1 0 laser.dat
+1 15 -40 -72 -80 1 0 0 0 1 0 0 0 1 enganch2.dat
+1 15 -20 -120 60 1 0 0 0 1 0 0 0 1 enganch2.dat
+1 15 0 -120 60 1 0 0 0 1 0 0 0 1 enganch2.dat
+1 15 0 -140 52 1 0 0 0 0 -1 0 1 0 bispqaba.dat
+1 15 0 -140 52 1 0 0 0 0 -1 0 1 0 bispqarr.dat
+1 32 0 -110 49 1 0 0 0 0 -1 0 1 0 semicupg.dat
+1 4 -130 -56 120 1 0 0 0 1 0 0 0 1 cilindab.dat
+1 4 -130 -68 120 1 0 0 0 1 0 0 0 1 cilindar.dat
+1 4 130 -56 120 1 0 0 0 1 0 0 0 1 cilindab.dat
+1 4 130 -68 120 1 0 0 0 1 0 0 0 1 cilindar.dat
+1 15 20 -72 -80 1 0 0 0 1 0 0 0 1 enganch2.dat
+1 15 -40 -96 -60 0 0 1 0 1 0 -1 0 0 bald2x2r.dat
+1 15 40 -96 -100 0 0 -1 0 1 0 1 0 0 bald2x2r.dat
+1 15 -40 -104 -20 0 0 1 0 1 0 -1 0 0 bald2x2r.dat
+1 15 40 -104 -60 0 0 -1 0 1 0 1 0 0 bald2x2r.dat
+1 15 0 -104 80 1 0 0 0 1 0 0 0 1 semicupg.dat
+1 15 0 -88 1 1 0 0 0 0.996195 0.0871557 0 -0.0871557 0.996195 astcuerv.dat
+1 15 -20 -96 20 1 0 0 0 1 0 0 0 1 bald2x2r.dat
+1 15 -20 -96 60 1 0 0 0 1 0 0 0 1 jacena2.dat
+0

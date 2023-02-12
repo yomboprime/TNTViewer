@@ -1,0 +1,478 @@
+0 Untitled
+0 Name: Roblock0790_Persus.ldr
+0 Author: MLCad
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 14 100 44 -34 0 0 1 -1 0 0 0 -1 0 bisnreje.dat
+0 MLCAD BTG HombroIzq
+1 14 100 44 -34 0 0 1 -1 0 0 0 -1 0 bisnraba.dat
+0 MLCAD BTG HombroIzq
+1 14 120 64 -50 -1 0 0 0 0 -1 0 -1 0 bisnrarr.dat
+0 GROUP 2 HombroIzq
+0 MLCAD BTG BrazoIzq
+1 14 100 64 -58 1 0 0 0 0 -1 0 1 0 jacen2x2.dat
+1 14 120 64 -50 -1 0 0 0 -1 0 0 0 1 bisnreje.dat
+0 GROUP 12 BrazoIzq
+0 MLCAD BTG BrazoIzq
+1 14 120 64 -50 1 0 0 0 0 -1 0 1 0 bisnrarr.dat
+0 MLCAD BTG BrazoIzq
+1 14 100 64 -106 1 0 0 0 0 -1 0 1 0 jacen2x2.dat
+0 MLCAD BTG BrazoIzq
+1 14 100 64 -130 1 0 0 0 0 -1 0 1 0 jacen2x2.dat
+0 MLCAD BTG BrazoIzq
+1 14 100 44 -154 1 0 0 0 0 -1 0 1 0 pico.dat
+0 MLCAD BTG BrazoIzq
+1 14 100 64 -82 1 0 0 0 0 -1 0 1 0 jacena2.dat
+0 MLCAD BTG BrazoIzq
+1 7 110 34 -82 1 0 0 0 0 -1 0 1 0 amortigu.dat
+0 MLCAD BTG BrazoIzq
+1 7 130 34 -82 1 0 0 0 0 -1 0 1 0 amortigu.dat
+0 MLCAD BTG BrazoIzq
+1 7 110 34 -154 1 0 0 0 0 -1 0 1 0 amortigu.dat
+0 MLCAD BTG BrazoIzq
+1 4 110 34 -178 1 0 0 0 0 -1 0 1 0 laser.dat
+0 MLCAD BTG BrazoIzq
+1 4 130 34 -178 1 0 0 0 0 -1 0 1 0 laser.dat
+0 MLCAD BTG BrazoIzq
+1 7 130 34 -154 1 0 0 0 0 -1 0 1 0 amortigu.dat
+0 MLCAD BTG Compuerta
+1 1 20 184 -106 -1 0 0 0 0 1 0 1 0 bispqaba.dat
+0 MLCAD BTG Compuerta
+1 1 -20 184 -106 -1 0 0 0 0 1 0 1 0 bispqaba.dat
+0 MLCAD BTG Compuerta
+1 1 -40 64 -90 0 0 1 1 0 0 0 1 0 placa4x6.dat
+0 MLCAD BTG Compuerta
+1 1 0 144 -98 0 0 1 1 0 0 0 1 0 bald2.dat
+0 MLCAD BTG Compuerta
+1 1 0 104 -122 0 0 1 1 0 0 0 1 0 bald2.dat
+0 MLCAD BTG Compuerta
+1 4 -20 134 -98 1 0 0 0 0 -1 0 1 0 pastilla.dat
+0 MLCAD BTG Compuerta
+1 4 -20 114 -98 1 0 0 0 0 -1 0 1 0 pastilla.dat
+0 MLCAD BTG Compuerta
+1 4 -20 94 -98 1 0 0 0 0 -1 0 1 0 pastilla.dat
+0 MLCAD BTG Compuerta
+1 1 -40 144 -98 0 0 1 1 0 0 0 1 0 bald2.dat
+0 MLCAD BTG Compuerta
+1 1 -20 44 -98 -1 0 0 0 0 1 0 1 0 bald2.dat
+0 MLCAD BTG Compuerta
+1 1 0 44 -98 -1 0 0 0 0 1 0 1 0 bald2.dat
+0 MLCAD BTG Compuerta
+1 1 20 44 -98 -1 0 0 0 0 1 0 1 0 bald2.dat
+0 MLCAD BTG Compuerta
+1 1 40 44 -98 -1 0 0 0 0 1 0 1 0 bald2.dat
+0 MLCAD BTG Compuerta
+1 1 40 104 -98 -1 0 0 0 0 1 0 1 0 pico.dat
+0 MLCAD BTG Compuerta
+1 1 0 124 -98 1 0 0 0 0 -1 0 1 0 pico.dat
+0 MLCAD BTG Compuerta
+1 7 10 114 -98 1 0 0 0 0 -1 0 1 0 amortigu.dat
+0 MLCAD BTG Compuerta
+1 7 30 114 -98 1 0 0 0 0 -1 0 1 0 amortigu.dat
+1 14 -100 44 -34 0 0 -1 1 0 0 0 -1 0 bisnreje.dat
+0 MLCAD BTG HombroDch
+1 14 -100 44 -34 0 0 -1 1 0 0 0 -1 0 bisnraba.dat
+0 MLCAD BTG HombroDch
+1 14 -120 64 -50 -1 0 0 0 0 -1 0 -1 0 bisnrarr.dat
+0 GROUP 2 HombroDch
+1 14 -120 64 -50 -1 0 0 0 0 -1 0 -1 0 bisnreje.dat
+0 GROUP 7 Brazo1Dch
+0 MLCAD BTG Brazo1Dch
+1 14 -120 64 -50 1 0 0 0 -1 0 0 0 -1 bisnrarr.dat
+0 MLCAD BTG Brazo1Dch
+1 14 -140 72 -50 1 0 0 0 -1 0 0 0 -1 jacena2.dat
+0 MLCAD BTG Brazo1Dch
+1 7 -100 72 -70 -1 0 0 0 -1 0 0 0 1 rallado2.dat
+0 MLCAD BTG Brazo1Dch
+1 14 -140 120 -50 1 0 0 0 -1 0 0 0 -1 jacena2.dat
+0 MLCAD BTG Brazo1Dch
+1 14 -120 152 -90 -1 0 0 0 -1 0 0 0 1 bisnraba.dat
+0 MLCAD BTG Brazo1Dch
+1 7 -100 120 -70 -1 0 0 0 -1 0 0 0 1 rallado2.dat
+0 MLCAD BTG Brazo1Dch
+1 14 -100 96 -90 -1 0 0 0 -1 0 0 0 1 jacen2x2.dat
+1 14 -120 152 -90 -1 0 0 0 0 1 0 1 0 bisnreje.dat
+0 GROUP 9 Brazo2Dch
+0 MLCAD BTG Brazo2Dch
+1 14 -120 152 -90 -1 0 0 0 0 1 0 1 0 bisnrarr.dat
+0 MLCAD BTG Brazo2Dch
+1 14 -100 152 -98 -1 0 0 0 0 1 0 1 0 jacen2x2.dat
+0 MLCAD BTG Brazo2Dch
+1 14 -100 172 -122 -1 0 0 0 0 1 0 1 0 jacena2.dat
+0 MLCAD BTG Brazo2Dch
+1 14 -120 192 -146 0 0 -1 -1 0 0 0 1 0 cuna.dat
+0 MLCAD BTG Brazo2Dch
+1 14 -120 152 -146 0 0 1 1 0 0 0 1 0 cuna.dat
+0 MLCAD BTG Brazo2Dch
+1 14 -100 172 -178 0 0 -1 -1 0 0 0 1 0 bispqaba.dat
+0 MLCAD BTG Brazo2Dch
+1 14 -140 172 -178 0 0 1 1 0 0 0 1 0 bispqaba.dat
+0 MLCAD BTG Brazo2Dch
+1 7 -130 162 -122 -1 0 0 0 0 1 0 1 0 amortigu.dat
+0 MLCAD BTG Brazo2Dch
+1 7 -110 162 -122 -1 0 0 0 0 1 0 1 0 amortigu.dat
+0 GROUP 2 Pinza2
+0 MLCAD BTG Pinza2
+1 14 -100 172 -178 0 0 -1 -1 0 0 0 1 0 bispqarr.dat
+0 MLCAD BTG Pinza2
+1 14 -80 152 -186 0 0 1 1 0 0 0 1 0 pico.dat
+0 GROUP 2 Pinza1
+0 MLCAD BTG Pinza1
+1 14 -140 172 -178 0 0 1 1 0 0 0 1 0 bispqarr.dat
+0 MLCAD BTG Pinza1
+1 14 -160 192 -186 0 0 -1 -1 0 0 0 1 0 pico.dat
+0 GROUP 17 Compuerta
+0 MLCAD BTG Cabeza
+1 14 20 4 -106 -1 0 0 0 1 0 0 0 -1 bisnrarr.dat
+0 MLCAD BTG Cabeza
+1 14 -20 4 -106 -1 0 0 0 1 0 0 0 -1 bisnrarr.dat
+0 MLCAD BTG Cabeza
+1 14 40 -4 -106 -1 0 0 0 1 0 0 0 -1 jacen2x4.dat
+0 MLCAD BTG Cabeza
+1 14 0 -28 -106 1 0 0 0 1 0 0 0 1 helcab.dat
+0 MLCAD BTG Cabeza
+1 7 -40 -36 -166 1 0 0 0 1 0 0 0 1 airsillo.dat
+0 MLCAD BTG Cabeza
+1 7 0 -36 -166 1 0 0 0 1 0 0 0 1 airsillo.dat
+0 MLCAD BTG Cabeza
+1 0 -40 -36 -166 1 0 0 0 1 0 0 0 1 helmando.dat
+0 MLCAD BTG Cabeza
+1 0 0 -36 -166 1 0 0 0 1 0 0 0 1 helmando.dat
+0 MLCAD BTG Cabeza
+1 14 0 -28 -106 1 0 0 0 1 0 0 0 1 helcabcr.dat
+0 MLCAD BTG Cabeza
+1 14 20 4 -106 -1 0 0 0 1 0 0 0 -1 bisnreje.dat
+0 MLCAD BTG Cabeza
+1 14 -20 4 -106 -1 0 0 0 1 0 0 0 -1 bisnreje.dat
+0 GROUP 11 Cabeza
+0 MLCAD BTG Tronco
+1 14 -40 24 -106 0 0 -1 1 0 0 0 -1 0 placa2x8.dat
+0 MLCAD BTG Tronco
+1 14 -40 184 -106 0 0 -1 1 0 0 0 -1 0 placa2x2.dat
+0 MLCAD BTG Tronco
+1 14 -60 224 -114 -1 0 0 0 0 -1 0 -1 0 bisnrarr.dat
+0 MLCAD BTG Tronco
+1 14 60 224 -114 -1 0 0 0 0 -1 0 -1 0 bisnrarr.dat
+0 MLCAD BTG Tronco
+1 14 60 224 -114 -1 0 0 0 0 -1 0 -1 0 bisnreje.dat
+0 MLCAD BTG Tronco
+1 14 -60 224 -114 -1 0 0 0 0 -1 0 -1 0 bisnreje.dat
+0 MLCAD BTG Tronco
+1 14 80 184 -106 0 0 -1 1 0 0 0 -1 0 placa2x2.dat
+0 MLCAD BTG Tronco
+1 1 20 185 -106 -1 0 0 0 0 -1 0 -1 0 bispqarr.dat
+0 MLCAD BTG Tronco
+1 1 -20 185 -106 -1 0 0 0 0 -1 0 -1 0 bispqarr.dat
+0 MLCAD BTG Tronco
+1 14 -40 204 -106 1 0 0 0 0 1 0 -1 0 placa2.dat
+0 MLCAD BTG Tronco
+1 14 0 204 -106 1 0 0 0 0 1 0 -1 0 placa2.dat
+0 MLCAD BTG Tronco
+1 14 -60 224 -98 1 0 0 0 0 1 0 -1 0 jacena6.dat
+0 MLCAD BTG Tronco
+1 14 -60 44 -98 1 0 0 0 0 1 0 -1 0 jacena6.dat
+0 MLCAD BTG Tronco
+1 14 -60 204 -74 1 0 0 0 0 1 0 -1 0 jacena6.dat
+0 MLCAD BTG Tronco
+1 14 -60 204 -98 1 0 0 0 0 1 0 -1 0 jacena6.dat
+0 MLCAD BTG Tronco
+1 14 -80 24 -50 1 0 0 0 0 1 0 -1 0 placa4x8.dat
+0 MLCAD BTG Tronco
+1 14 80 64 -50 0 0 1 -1 0 0 0 -1 0 placa2.dat
+0 MLCAD BTG Tronco
+1 14 -100 64 -50 0 0 1 -1 0 0 0 -1 0 placa2.dat
+0 MLCAD BTG Tronco
+1 14 -80 104 -50 1 0 0 0 0 1 0 -1 0 placa6x8.dat
+0 MLCAD BTG Tronco
+1 1 20 104 -94 1 0 0 0 0 1 0 -1 0 cilindab.dat
+0 MLCAD BTG Tronco
+1 1 20 104 -82 1 0 0 0 0 1 0 -1 0 cilindar.dat
+0 MLCAD BTG Tronco
+1 1 -20 104 -94 1 0 0 0 0 1 0 -1 0 cilindab.dat
+0 MLCAD BTG Tronco
+1 1 -20 104 -82 1 0 0 0 0 1 0 -1 0 cilindar.dat
+0 MLCAD BTG Tronco
+1 1 20 144 -74 1 0 0 0 -1 0 0 0 -1 cilintap.dat
+0 MLCAD BTG Tronco
+1 1 20 64 -74 -1 0 0 0 1 0 0 0 -1 cilintap.dat
+0 MLCAD BTG Tronco
+1 1 -20 144 -74 1 0 0 0 -1 0 0 0 -1 cilintap.dat
+0 MLCAD BTG Tronco
+1 1 -20 64 -74 -1 0 0 0 1 0 0 0 -1 cilintap.dat
+0 MLCAD BTG Tronco
+1 1 0 74 -36 0 0 -1 1 0 0 0 -1 0 cilindab.dat
+0 MLCAD BTG Tronco
+1 1 0 74 -24 0 0 -1 1 0 0 0 -1 0 cilindar.dat
+0 MLCAD BTG Tronco
+1 1 -40 74 -16 0 1 0 1 0 0 0 0 -1 cilintap.dat
+0 MLCAD BTG Tronco
+1 1 40 74 -16 0 -1 0 -1 0 0 0 0 -1 cilintap.dat
+0 MLCAD BTG Tronco
+1 1 0 174 -36 0 0 -1 1 0 0 0 -1 0 cilindab.dat
+0 MLCAD BTG Tronco
+1 1 0 174 -24 0 0 -1 1 0 0 0 -1 0 cilindar.dat
+0 MLCAD BTG Tronco
+1 1 -40 174 -16 0 1 0 1 0 0 0 0 -1 cilintap.dat
+0 MLCAD BTG Tronco
+1 1 40 174 -16 0 -1 0 -1 0 0 0 0 -1 cilintap.dat
+0 MLCAD BTG Tronco
+1 14 60 224 -98 0 0 1 -1 0 0 0 -1 0 cuna.dat
+0 MLCAD BTG Tronco
+1 14 60 184 -98 0 0 1 -1 0 0 0 -1 0 cuna.dat
+0 MLCAD BTG Tronco
+1 14 60 144 -98 0 0 1 -1 0 0 0 -1 0 cuna.dat
+0 MLCAD BTG Tronco
+1 14 60 104 -98 0 0 1 -1 0 0 0 -1 0 cuna.dat
+0 MLCAD BTG Tronco
+1 14 60 64 -98 0 0 1 -1 0 0 0 -1 0 cuna.dat
+0 MLCAD BTG Tronco
+1 14 -60 24 -98 0 0 -1 1 0 0 0 -1 0 cuna.dat
+0 MLCAD BTG Tronco
+1 14 -60 64 -98 0 0 -1 1 0 0 0 -1 0 cuna.dat
+0 MLCAD BTG Tronco
+1 14 -60 104 -98 0 0 -1 1 0 0 0 -1 0 cuna.dat
+0 MLCAD BTG Tronco
+1 14 -60 144 -98 0 0 -1 1 0 0 0 -1 0 cuna.dat
+0 MLCAD BTG Tronco
+1 14 -60 184 -98 0 0 -1 1 0 0 0 -1 0 cuna.dat
+0 MLCAD BTG Tronco
+1 14 -80 224 -74 0 0 1 -1 0 0 0 -1 0 pico.dat
+0 MLCAD BTG Tronco
+1 14 -80 184 -74 0 0 1 -1 0 0 0 -1 0 pico.dat
+0 MLCAD BTG Tronco
+1 14 -80 144 -74 0 0 1 -1 0 0 0 -1 0 pico.dat
+0 MLCAD BTG Tronco
+1 14 -80 104 -74 0 0 1 -1 0 0 0 -1 0 pico.dat
+0 MLCAD BTG Tronco
+1 14 80 64 -74 0 0 -1 1 0 0 0 -1 0 pico.dat
+0 MLCAD BTG Tronco
+1 1 -40 44 -42 1 0 0 0 0 1 0 -1 0 pico.dat
+0 MLCAD BTG Tronco
+1 1 -10 74 -42 1 0 0 0 0 1 0 -1 0 chimplac.dat
+0 MLCAD BTG Tronco
+1 1 -10 174 -42 1 0 0 0 0 1 0 -1 0 chimplac.dat
+0 MLCAD BTG Tronco
+1 1 0 44 -42 1 0 0 0 0 1 0 -1 0 pico.dat
+0 MLCAD BTG Tronco
+1 1 40 204 -42 -1 0 0 0 0 -1 0 -1 0 pico.dat
+0 MLCAD BTG Tronco
+1 1 0 204 -42 -1 0 0 0 0 -1 0 -1 0 pico.dat
+0 MLCAD BTG Tronco
+1 1 -20 144 -42 0 0 1 -1 0 0 0 -1 0 pico.dat
+0 MLCAD BTG Tronco
+1 1 -20 124 -18 0 0 1 -1 0 0 0 -1 0 bald2.dat
+0 MLCAD BTG Tronco
+1 1 -20 144 -18 0 0 1 -1 0 0 0 -1 0 bald2.dat
+0 MLCAD BTG Tronco
+1 1 20 104 -42 0 0 -1 1 0 0 0 -1 0 pico.dat
+0 MLCAD BTG Tronco
+1 14 80 104 -74 0 0 -1 1 0 0 0 -1 0 pico.dat
+0 MLCAD BTG Tronco
+1 14 80 144 -74 0 0 -1 1 0 0 0 -1 0 pico.dat
+0 MLCAD BTG Tronco
+1 14 80 184 -74 0 0 -1 1 0 0 0 -1 0 pico.dat
+0 MLCAD BTG Tronco
+1 14 -100 64 -74 0 0 1 -1 0 0 0 -1 0 jacena2.dat
+0 MLCAD BTG Tronco
+1 14 -80 204 -74 0 0 1 -1 0 0 0 -1 0 jacena8.dat
+0 MLCAD BTG Tronco
+1 14 60 204 -74 0 0 1 -1 0 0 0 -1 0 jacena8.dat
+0 MLCAD BTG Tronco
+1 14 80 64 -74 0 0 1 -1 0 0 0 -1 0 jacena2.dat
+0 MLCAD BTG Tronco
+1 14 -80 204 -74 1 0 0 0 0 1 0 -1 0 jacena2.dat
+0 MLCAD BTG Tronco
+1 14 -80 24 -74 1 0 0 0 0 1 0 -1 0 jacena2.dat
+0 MLCAD BTG Tronco
+1 14 40 24 -74 1 0 0 0 0 1 0 -1 0 jacena2.dat
+0 MLCAD BTG Tronco
+1 14 -40 4 -74 1 0 0 0 0 1 0 -1 0 jacen2x4.dat
+0 MLCAD BTG Tronco
+1 14 -40 4 -98 1 0 0 0 0 1 0 -1 0 jacena4.dat
+0 MLCAD BTG Tronco
+1 14 40 204 -74 1 0 0 0 0 1 0 -1 0 jacena2.dat
+0 MLCAD BTG Tronco
+1 7 0 204 -74 -1 0 0 0 0 -1 0 -1 0 rallado2.dat
+0 MLCAD BTG Tronco
+1 7 40 204 -74 -1 0 0 0 0 -1 0 -1 0 rallado2.dat
+0 MLCAD BTG Tronco
+1 7 -10 134 -42 -1 0 0 0 0 -1 0 -1 0 amortigu.dat
+0 MLCAD BTG Tronco
+1 7 10 134 -42 -1 0 0 0 0 -1 0 -1 0 amortigu.dat
+0 MLCAD BTG Tronco
+1 7 -20 24 -50 -1 0 0 0 0 -1 0 -1 0 pistola.dat
+0 MLCAD BTG Tronco
+1 7 20 4 -50 1 0 0 0 0 1 0 -1 0 pistola.dat
+0 MLCAD BTG Tronco
+1 7 60 14 -36 0 -1 0 0 0 1 -1 0 0 tubo.dat
+0 MLCAD BTG Tronco
+1 7 -84 14 -36 0 -1 0 0 0 1 -1 0 0 tubo.dat
+0 MLCAD BTG Tronco
+1 7 -10 114 -42 -1 0 0 0 0 -1 0 -1 0 amortigu.dat
+0 MLCAD BTG Tronco
+1 7 10 114 -42 -1 0 0 0 0 -1 0 -1 0 amortigu.dat
+0 MLCAD BTG Tronco
+1 14 80 24 -106 0 0 -1 1 0 0 0 -1 0 placa2x8.dat
+0 MLCAD BTG Tronco
+1 14 -20 4 -106 1 0 0 0 0 1 0 -1 0 bisnrarr.dat
+0 MLCAD BTG Tronco
+1 14 20 4 -106 1 0 0 0 0 1 0 -1 0 bisnrarr.dat
+0 MLCAD BTG Tronco
+1 14 100 44 -34 0 0 -1 1 0 0 0 -1 0 bisnraba.dat
+0 MLCAD BTG Tronco
+1 14 -100 44 -34 0 0 1 -1 0 0 0 -1 0 bisnraba.dat
+0 GROUP 88 Tronco
+0 MLCAD BTG MusloDch
+1 0 -170 304 -74 1 0 0 0 0 -1 0 1 0 cadcorta.dat
+0 MLCAD BTG MusloDch
+1 0 -80 304 -50 -1 0 0 0 0 1 0 1 0 ejedbcpq.dat
+0 MLCAD BTG MusloDch
+1 14 -80 284 -74 0 0 1 1 0 0 0 1 0 placa2x3.dat
+0 MLCAD BTG MusloDch
+1 14 -80 244 -74 0 0 1 1 0 0 0 1 0 placa2x2.dat
+0 MLCAD BTG MusloDch
+1 14 -80 344 -106 0 0 1 1 0 0 0 1 0 placa2x2.dat
+0 MLCAD BTG MusloDch
+1 14 -80 344 -114 0 0 1 1 0 0 0 1 0 bald2x2.dat
+0 MLCAD BTG MusloDch
+1 14 -60 224 -114 -1 0 0 0 0 1 0 1 0 bisnraba.dat
+0 MLCAD BTG MusloDch
+1 14 -60 384 -74 1 0 0 0 0 -1 0 1 0 bisnrarr.dat
+0 MLCAD BTG MusloDch
+1 14 -60 384 -74 1 0 0 0 0 -1 0 1 0 bisnreje.dat
+0 MLCAD BTG MusloDch
+1 14 -40 384 -82 0 0 -1 -1 0 0 0 1 0 jacen2x8.dat
+0 MLCAD BTG MusloDch
+1 0 -40 304 -50 1 0 0 0 0 -1 0 1 0 ejedbcpq.dat
+0 MLCAD BTG MusloDch
+1 14 -40 184 -50 1 0 0 0 0 -1 0 1 0 llantqar.dat
+0 MLCAD BTG MusloDch
+1 14 -40 304 -50 1 0 0 0 0 -1 0 1 0 llantqar.dat
+0 MLCAD BTG MusloDch
+1 14 -80 424 -50 -1 0 0 0 0 1 0 1 0 llantqar.dat
+0 MLCAD BTG MusloDch
+1 14 -80 304 -50 -1 0 0 0 0 1 0 1 0 llantqar.dat
+0 MLCAD BTG MusloDch
+1 14 -80 304 -50 -1 0 0 0 0 1 0 1 0 llantqab.dat
+0 MLCAD BTG MusloDch
+1 14 -80 344 -50 -1 0 0 0 0 1 0 1 0 llantqab.dat
+0 MLCAD BTG MusloDch
+1 14 -40 304 -50 1 0 0 0 0 -1 0 1 0 llantqab.dat
+0 MLCAD BTG MusloDch
+1 14 -40 264 -50 1 0 0 0 0 -1 0 1 0 llantqab.dat
+0 MLCAD BTG MusloDch
+1 0 -80 304 -74 1 0 0 0 0 -1 0 1 0 cadcorta.dat
+0 GROUP 20 MusloDch
+0 MLCAD BTG PiernaDch
+1 14 -60 384 -74 -1 0 0 0 0 1 0 1 0 bisnrarr.dat
+0 MLCAD BTG PiernaDch
+1 14 -60 384 -82 0 0 1 1 0 0 0 1 0 jacen2x4.dat
+0 MLCAD BTG PiernaDch
+1 14 -100 384 -82 0 0 1 1 0 0 0 1 0 jacen2x4.dat
+0 MLCAD BTG PiernaDch
+1 14 -100 504 -82 1 0 0 0 0 -1 0 1 0 jacen2x4.dat
+0 MLCAD BTG PiernaDch
+1 14 -60 504 -106 -1 0 0 0 0 1 0 1 0 pico.dat
+0 MLCAD BTG PiernaDch
+1 14 -20 504 -106 -1 0 0 0 0 1 0 1 0 pico.dat
+0 MLCAD BTG PiernaDch
+1 14 -100 504 -58 1 0 0 0 0 -1 0 1 0 jacena4.dat
+0 MLCAD BTG PiernaDch
+1 14 -100 484 -58 1 0 0 0 0 -1 0 1 0 cuna.dat
+0 MLCAD BTG PiernaDch
+1 14 -60 484 -58 1 0 0 0 0 -1 0 1 0 cuna.dat
+0 MLCAD BTG PiernaDch
+1 14 -40 424 -74 -1 0 0 0 0 1 0 1 0 placa2.dat
+0 MLCAD BTG PiernaDch
+1 14 -40 404 -66 -1 0 0 0 0 1 0 1 0 placa2x2.dat
+0 MLCAD BTG PiernaDch
+1 0 -60 444 -66 -1 0 0 0 0 1 0 1 0 helisprt.dat
+0 MLCAD BTG PiernaDch
+1 383 -60 424 -41 -1 0 0 0 0 1 0 1 0 helireje.dat
+0 MLCAD BTG PiernaDch
+1 0 -68 424 -31 -1 0 0 0 0 1 0 1 0 helillnt.dat
+0 MLCAD BTG PiernaDch
+1 0 -62 444 -66 -1 0 0 0 0 1 0 1 0 helineum.dat
+0 MLCAD BTG PiernaDch
+1 0 -31 444 -66 -1 0 0 0 0 1 0 1 0 helineum.dat
+0 MLCAD BTG PiernaDch
+1 0 -52 424 -31 1 0 0 0 0 -1 0 1 0 helillnt.dat
+0 GROUP 17 PiernaDch
+0 MLCAD BTG PiernaIzq
+1 14 60 384 -74 -1 0 0 0 0 1 0 1 0 bisnrarr.dat
+0 MLCAD BTG PiernaIzq
+1 14 60 384 -82 0 0 1 1 0 0 0 1 0 jacen2x4.dat
+0 MLCAD BTG PiernaIzq
+1 14 20 384 -82 0 0 1 1 0 0 0 1 0 jacen2x4.dat
+0 MLCAD BTG PiernaIzq
+1 14 20 504 -82 1 0 0 0 0 -1 0 1 0 jacen2x4.dat
+0 MLCAD BTG PiernaIzq
+1 14 60 504 -106 -1 0 0 0 0 1 0 1 0 pico.dat
+0 MLCAD BTG PiernaIzq
+1 14 100 504 -106 -1 0 0 0 0 1 0 1 0 pico.dat
+0 MLCAD BTG PiernaIzq
+1 14 20 504 -58 1 0 0 0 0 -1 0 1 0 jacena4.dat
+0 MLCAD BTG PiernaIzq
+1 14 20 484 -58 1 0 0 0 0 -1 0 1 0 cuna.dat
+0 MLCAD BTG PiernaIzq
+1 14 60 484 -58 1 0 0 0 0 -1 0 1 0 cuna.dat
+0 MLCAD BTG PiernaIzq
+1 14 80 424 -74 -1 0 0 0 0 1 0 1 0 placa2.dat
+0 MLCAD BTG PiernaIzq
+1 14 80 404 -66 -1 0 0 0 0 1 0 1 0 placa2x2.dat
+0 MLCAD BTG PiernaIzq
+1 0 60 444 -66 -1 0 0 0 0 1 0 1 0 helisprt.dat
+0 MLCAD BTG PiernaIzq
+1 383 60 424 -41 -1 0 0 0 0 1 0 1 0 helireje.dat
+0 MLCAD BTG PiernaIzq
+1 0 52 424 -31 -1 0 0 0 0 1 0 1 0 helillnt.dat
+0 MLCAD BTG PiernaIzq
+1 0 58 444 -66 -1 0 0 0 0 1 0 1 0 helineum.dat
+0 MLCAD BTG PiernaIzq
+1 0 89 444 -66 -1 0 0 0 0 1 0 1 0 helineum.dat
+0 MLCAD BTG PiernaIzq
+1 0 68 424 -31 1 0 0 0 0 -1 0 1 0 helillnt.dat
+0 GROUP 17 PiernaIzq
+0 MLCAD BTG MusloIzq
+1 0 -50 304 -74 1 0 0 0 0 -1 0 1 0 cadcorta.dat
+0 MLCAD BTG MusloIzq
+1 0 40 304 -50 -1 0 0 0 0 1 0 1 0 ejedbcpq.dat
+0 MLCAD BTG MusloIzq
+1 14 40 284 -74 0 0 1 1 0 0 0 1 0 placa2x3.dat
+0 MLCAD BTG MusloIzq
+1 14 40 244 -74 0 0 1 1 0 0 0 1 0 placa2x2.dat
+0 MLCAD BTG MusloIzq
+1 14 40 344 -106 0 0 1 1 0 0 0 1 0 placa2x2.dat
+0 MLCAD BTG MusloIzq
+1 14 40 344 -114 0 0 1 1 0 0 0 1 0 bald2x2.dat
+0 MLCAD BTG MusloIzq
+1 14 60 224 -114 -1 0 0 0 0 1 0 1 0 bisnraba.dat
+0 MLCAD BTG MusloIzq
+1 14 60 384 -74 1 0 0 0 0 -1 0 1 0 bisnrarr.dat
+0 MLCAD BTG MusloIzq
+1 14 60 384 -74 1 0 0 0 0 -1 0 1 0 bisnreje.dat
+0 MLCAD BTG MusloIzq
+1 14 80 384 -82 0 0 -1 -1 0 0 0 1 0 jacen2x8.dat
+0 MLCAD BTG MusloIzq
+1 0 80 304 -50 1 0 0 0 0 -1 0 1 0 ejedbcpq.dat
+0 MLCAD BTG MusloIzq
+1 14 80 184 -50 1 0 0 0 0 -1 0 1 0 llantqar.dat
+0 MLCAD BTG MusloIzq
+1 14 80 304 -50 1 0 0 0 0 -1 0 1 0 llantqar.dat
+0 MLCAD BTG MusloIzq
+1 14 40 424 -50 -1 0 0 0 0 1 0 1 0 llantqar.dat
+0 MLCAD BTG MusloIzq
+1 14 40 304 -50 -1 0 0 0 0 1 0 1 0 llantqar.dat
+0 MLCAD BTG MusloIzq
+1 14 40 304 -50 -1 0 0 0 0 1 0 1 0 llantqab.dat
+0 MLCAD BTG MusloIzq
+1 14 40 344 -50 -1 0 0 0 0 1 0 1 0 llantqab.dat
+0 MLCAD BTG MusloIzq
+1 14 80 304 -50 1 0 0 0 0 -1 0 1 0 llantqab.dat
+0 MLCAD BTG MusloIzq
+1 14 80 264 -50 1 0 0 0 0 -1 0 1 0 llantqab.dat
+0 MLCAD BTG MusloIzq
+1 0 40 304 -74 1 0 0 0 0 -1 0 1 0 cadcorta.dat
+0 GROUP 20 MusloIzq
+0

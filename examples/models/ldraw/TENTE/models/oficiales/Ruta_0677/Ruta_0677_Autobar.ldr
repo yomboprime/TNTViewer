@@ -1,0 +1,60 @@
+0 Autobar
+0 Name: autobar.ldr
+0 Author: cpcbegin
+0 Tente ruta
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 15 20 24 40 0 0 1 0 1 0 -1 0 0 placa2x2.dat
+1 15 20 24 140 0 0 1 0 1 0 -1 0 0 placa2x2.dat
+1 1 0 16 -20 1 0 0 0 1 0 0 0 1 placa2.dat
+1 1 40 16 -20 1 0 0 0 1 0 0 0 1 placa2.dat
+1 1 80 16 0 0 0 -1 0 1 0 1 0 0 placa4x8.dat
+1 15 40 8 20 1 0 0 0 1 0 0 0 1 cabant.dat
+1 1 40 16 0 1 0 0 0 1 0 0 0 1 paracf21.dat
+1 0 20 48 0 1 0 0 0 1 0 0 0 1 jacen2x2.dat
+1 0 20 48 100 1 0 0 0 1 0 0 0 1 jacen2x2.dat
+1 4 60 48 0 -1 0 0 0 1 0 0 0 -1 llantrut.dat
+1 0 60 48 0 -1 0 0 0 1 0 0 0 -1 ruta21nm.dat
+1 4 60 48 100 -1 0 0 0 1 0 0 0 -1 llantrut.dat
+1 0 60 48 100 -1 0 0 0 1 0 0 0 -1 ruta21nm.dat
+1 4 20 48 140 1 0 0 0 1 0 0 0 1 llantrut.dat
+1 0 20 48 140 1 0 0 0 1 0 0 0 1 ruta21nm.dat
+1 4 20 48 40 1 0 0 0 1 0 0 0 1 llantrut.dat
+1 0 20 48 40 1 0 0 0 1 0 0 0 1 ruta21nm.dat
+1 1 40 16 140 -1 0 0 0 1 0 0 0 -1 paracq21.dat
+1 4 60 8 60 -1 0 0 0 1 0 0 0 -1 jacen2x2.dat
+1 4 60 -16 60 -1 0 0 0 1 0 0 0 -1 jacen2x2.dat
+1 4 60 8 140 -1 0 0 0 1 0 0 0 -1 rallado2.dat
+1 4 60 -16 140 -1 0 0 0 1 0 0 0 -1 rallado2.dat
+1 1 0 -40 40 0 0 1 0 1 0 -1 0 0 bald2x2r.dat
+1 1 80 -40 0 0 0 -1 0 1 0 1 0 0 bald2x2r.dat
+1 1 0 -48 80 0 0 1 0 1 0 -1 0 0 bald2x2r.dat
+1 1 80 -48 40 0 0 -1 0 1 0 1 0 0 bald2x2r.dat
+1 1 0 -48 160 0 0 1 0 1 0 -1 0 0 bald2x2r.dat
+1 1 80 -48 120 0 0 -1 0 1 0 1 0 0 bald2x2r.dat
+1 14 80 -32 80 0 0 -1 0 1 0 1 0 0 placa2.dat
+1 14 20 -32 80 0 0 -1 0 1 0 1 0 0 placa2.dat
+1 1 80 40 50 0 0 -1 0 1 0 1 0 0 jacena2.dat
+1 1 20 40 50 0 0 -1 0 1 0 1 0 0 jacena2.dat
+1 15 20 8 60 0 0 -1 0 1 0 1 0 0 bald2x2.dat
+1 15 20 8 100 0 0 -1 0 1 0 1 0 0 bald2x2.dat
+1 15 100 8 60 0 0 -1 0 1 0 1 0 0 bald2x2.dat
+1 15 100 8 100 0 0 -1 0 1 0 1 0 0 bald2x2.dat
+1 0 60 8 60 0 0 -1 0 1 0 1 0 0 bald2x2.dat
+1 0 60 8 100 0 0 -1 0 1 0 1 0 0 bald2x2.dat
+1 15 80 -40 40 0 0 -1 0 1 0 1 0 0 placa4x6.dat
+1 1 60 -48 80 0 0 -1 0 1 0 1 0 0 placa2x2.dat
+1 1 10 -56 80 1 0 0 0 1 0 0 0 1 placa2x3.dat
+1 1 80 -48 120 -1 0 0 0 1 0 0 0 -1 bald2.dat
+1 4 50 -88 120 -1 0 0 0 1 0 0 0 -1 bald2.dat
+1 4 30 -88 40 1 0 0 0 1 0 0 0 1 bald2r.dat
+1 1 60 8 20 1 0 0 0 1 0 0 0 1 castillo.dat
+1 1 20 8 60 -1 0 0 0 1 0 0 0 -1 castillo.dat
+1 4 50 -88 160 -1 0 0 0 1 0 0 0 -1 bald2r.dat
+1 4 50 -64 160 0 0 1 0 1 0 -1 0 0 jacena6.dat
+1 4 30 -64 40 0 0 -1 0 1 0 1 0 0 refresco.dat
+1 4 50 -64 160 0 0 1 0 1 0 -1 0 0 refresco.dat
+1 1 20 -48 120 -1 0 0 0 1 0 0 0 -1 bald2.dat
+1 1 60 8 140 1 0 0 0 1 0 0 0 1 castesqu.dat
+1 1 20 8 140 0 0 -1 0 1 0 1 0 0 castesqu.dat
+0

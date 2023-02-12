@@ -1,0 +1,152 @@
+0 Nave de defensa
+0 Name: Astro_0552_vehiculodedefensa.ldr
+0 cpcbegin
+0 Tente astro (los vehiculos de las galaxias)
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 4 60 16 -170 1 0 0 0 1 0 0 0 1 rueastro.dat
+1 4 60 16 -110 1 0 0 0 1 0 0 0 1 rueastro.dat
+1 4 60 16 -50 1 0 0 0 1 0 0 0 1 rueastro.dat
+1 0 30 8 30 0 0 1 0 1 0 -1 0 0 jacen2x8.dat
+1 4 60 16 10 1 0 0 0 1 0 0 0 1 rueastro.dat
+1 383 80 8 -140 0 0 -1 0 1 0 1 0 0 amortigu.dat
+1 383 80 8 -160 0 0 -1 0 1 0 1 0 0 amortigu.dat
+1 383 20 8 -140 0 0 -1 0 1 0 1 0 0 amortigu.dat
+1 383 20 8 -160 0 0 -1 0 1 0 1 0 0 amortigu.dat
+1 383 80 8 -80 0 0 -1 0 1 0 1 0 0 amortigu.dat
+1 383 80 8 -100 0 0 -1 0 1 0 1 0 0 amortigu.dat
+1 383 20 8 -100 0 0 -1 0 1 0 1 0 0 amortigu.dat
+1 383 80 8 -20 0 0 -1 0 1 0 1 0 0 amortigu.dat
+1 383 80 8 -40 0 0 -1 0 1 0 1 0 0 amortigu.dat
+1 383 20 8 -40 0 0 -1 0 1 0 1 0 0 amortigu.dat
+1 383 80 8 40 0 0 -1 0 1 0 1 0 0 amortigu.dat
+1 383 80 8 20 0 0 -1 0 1 0 1 0 0 amortigu.dat
+1 383 20 8 20 0 0 -1 0 1 0 1 0 0 amortigu.dat
+1 383 20 8 40 0 0 -1 0 1 0 1 0 0 amortigu.dat
+1 0 70 8 -170 0 0 -1 0 1 0 1 0 0 jacen2x2.dat
+1 383 20 8 -20 0 0 -1 0 1 0 1 0 0 amortigu.dat
+1 383 20 8 -80 0 0 -1 0 1 0 1 0 0 amortigu.dat
+1 0 90 8 -170 -1 0 0 0 1 0 0 0 -1 jacena4.dat
+1 0 90 32 -170 -1 0 0 0 1 0 0 0 -1 jacena4.dat
+1 0 70 8 30 -1 0 0 0 1 0 0 0 -1 rallado2.dat
+1 0 10 40 -70 0 0 1 0 1 0 -1 0 0 placa4x8.dat
+1 0 130 32 -190 -1 0 0 0 1 0 0 0 -1 placa4x8.dat
+1 0 10 32 -270 1 0 0 0 1 0 0 0 1 popa4p.dat
+1 0 90 32 -270 1 0 0 0 1 0 0 0 1 popa4p.dat
+1 0 110 -16 50 -1 0 0 0 1 0 0 0 -1 placa4x6.dat
+1 0 110 -16 -190 0 0 -1 0 1 0 1 0 0 placa6x8.dat
+1 0 -10 40 -230 0 0 1 0 1 0 -1 0 0 placa2x3.dat
+1 0 70 40 -230 0 0 1 0 1 0 -1 0 0 placa2x3.dat
+1 1 110 -24 10 0 0 -1 0 1 0 1 0 0 bald2x2r.dat
+1 1 110 -24 -30 0 0 -1 0 1 0 1 0 0 bald2x2r.dat
+1 1 110 -24 -70 0 0 -1 0 1 0 1 0 0 bald2x2r.dat
+1 1 110 -24 -110 0 0 -1 0 1 0 1 0 0 bald2x2r.dat
+1 1 110 -24 -150 0 0 -1 0 1 0 1 0 0 bald2x2r.dat
+1 1 110 -24 -190 0 0 -1 0 1 0 1 0 0 bald2x2r.dat
+1 1 -10 -24 -110 0 0 1 0 1 0 -1 0 0 bald2x2r.dat
+1 1 -10 -24 -70 0 0 1 0 1 0 -1 0 0 bald2x2r.dat
+1 1 -10 -24 -30 0 0 1 0 1 0 -1 0 0 bald2x2r.dat
+1 1 -10 -24 10 0 0 1 0 1 0 -1 0 0 bald2x2r.dat
+1 1 -10 -24 50 0 0 1 0 1 0 -1 0 0 bald2x2r.dat
+1 0 50 -24 -30 0 0 -1 0 1 0 1 0 0 rotorinf.dat
+1 0 50 -24 -30 -0.559193 0 -0.829038 0 1 0 0.829038 0 -0.559193 rotorsup.dat
+1 32 90 24 -270 -1 0 0 0 1 0 0 0 -1 semicupp.dat
+1 32 10 24 -270 -1 0 0 0 1 0 0 0 -1 semicupp.dat
+1 1 70 24 -250 -1 0 0 0 1 0 0 0 -1 jacena2.dat
+1 1 -30 24 -250 0 0 1 0 1 0 -1 0 0 enganch2.dat
+1 1 130 24 -270 0 0 -1 0 1 0 1 0 0 enganch2.dat
+1 0 70 24 -210 1 0 0 0 1 0 0 0 1 sillastr.dat
+1 0 -10 24 -210 1 0 0 0 1 0 0 0 1 sillastr.dat
+1 0 70 24 -250 1 0 0 0 1 0 0 0 1 bald2x2.dat
+1 0 -10 24 -250 1 0 0 0 1 0 0 0 1 bald2x2.dat
+1 1 -10 -24 -150 0 0 1 0 1 0 -1 0 0 bald2x2r.dat
+1 15 10 8 -222 1 0 0 0 1 0 0 0 1 astcuerv.dat
+1 15 10 8 -224 1 0 0 0 0 1 0 -1 0 astpierv.dat
+1 15 90 8 -222 1 0 0 0 1 0 0 0 1 astcuerv.dat
+1 15 90 8 -224 1 0 0 0 0 1 0 -1 0 astpierv.dat
+0 MLCAD BTG defensa
+1 32 85.787 -74 -83.058 -0.829038 0 0.559193 0 1 0 -0.559193 0 -0.829038 semicupp.dat
+0 MLCAD BTG defensa
+1 46 171.417 -64 -120.592 0.829038 -0.559193 0 0 0 -1 0.559193 0.829038 0 amortigu.dat
+0 MLCAD BTG defensa
+1 0 16.644 -48 -16.313 0.829038 0 -0.559193 0 1 0 0.559193 0 0.829038 sillastr.dat
+0 MLCAD BTG defensa
+1 15 39.934 -72 -15.076 0.829038 0.559193 0 0 0 1 0.559193 -0.829038 0 astpierv.dat
+0 MLCAD BTG defensa
+1 1 61.378 -56 -82.637 0.829038 0 -0.559193 0 1 0 0.559193 0 0.829038 enganch2.dat
+0 MLCAD BTG defensa
+1 0 91.381 -74 -91.348 -0.829038 -0.559193 0 0 0 1 -0.559193 0.829038 0 enganch2.dat
+0 MLCAD BTG defensa
+1 14 65.729 -64 36.097 0.829038 -0.559193 0 0 0 -1 0.559193 0.829038 0 cilindro.dat
+0 MLCAD BTG defensa
+1 14 79.149 -64 16.198 0.829038 -0.559193 0 0 0 -1 0.559193 0.829038 0 cilindro.dat
+0 MLCAD BTG defensa
+1 14 92.57 -64 -3.698 0.829038 -0.559193 0 0 0 -1 0.559193 0.829038 0 cilindro.dat
+0 MLCAD BTG defensa
+1 14 105.992 -64 -23.595 0.829038 -0.559193 0 0 0 -1 0.559193 0.829038 0 cilindro.dat
+0 MLCAD BTG defensa
+1 14 132.831 -64 -63.389 0.829038 -0.559193 0 0 0 -1 0.559193 0.829038 0 cilindro.dat
+0 MLCAD BTG defensa
+1 46 154.836 -64 -131.777 0.829038 -0.559193 0 0 0 -1 0.559193 0.829038 0 amortigu.dat
+0 MLCAD BTG defensa
+1 14 146.254 -64 -83.286 0.829038 -0.559193 0 0 0 -1 0.559193 0.829038 0 ejeastr2.dat
+0 MLCAD BTG defensa
+1 14 -17.175 -64 -19.823 0.829038 -0.559193 0 0 0 -1 0.559193 0.829038 0 cilindro.dat
+0 MLCAD BTG defensa
+1 14 -3.754 -64 -39.722 0.829038 -0.559193 0 0 0 -1 0.559193 0.829038 0 cilindro.dat
+0 MLCAD BTG defensa
+1 14 9.666 -64 -59.617 0.829038 -0.559193 0 0 0 -1 0.559193 0.829038 0 cilindro.dat
+0 MLCAD BTG defensa
+1 14 23.088 -64 -79.515 0.829038 -0.559193 0 0 0 -1 0.559193 0.829038 0 cilindro.dat
+0 MLCAD BTG defensa
+1 0 28.217 -74 -105.003 0.829038 -0.559193 0 0 0 -1 0.559193 0.829038 0 jacena6.dat
+0 MLCAD BTG defensa
+1 14 49.928 -64 -119.308 0.829038 -0.559193 0 0 0 -1 0.559193 0.829038 0 cilindro.dat
+0 MLCAD BTG defensa
+1 14 63.35 -64 -139.206 0.829038 -0.559193 0 0 0 -1 0.559193 0.829038 0 ejeastr2.dat
+0 MLCAD BTG defensa
+1 0 22.04 -48 11.451 -0.829038 0 0.559193 0 1 0 -0.559193 0 -0.829038 popa4p.dat
+0 MLCAD BTG defensa
+1 0 39.012 -48 -49.475 0.829038 0 -0.559193 0 1 0 0.559193 0 0.829038 bald2x2.dat
+0 MLCAD BTG defensa
+1 15 61.378 -48 -82.637 0.829038 0 -0.559193 0 1 0 0.559193 0 0.829038 placa2.dat
+0 MLCAD BTG defensa
+1 0 27.827 -40 -32.892 0.559193 0 0.829038 0 1 0 -0.829038 0 0.559193 placa2x3.dat
+0 MLCAD BTG defensa
+1 15 38.816 -72 -13.419 0.829038 0 -0.559193 0 1 0 0.559193 0 0.829038 astcuerv.dat
+0 MLCAD BTG defensa
+1 1 77.96 -56 -71.451 0.829038 0 -0.559193 0 1 0 0.559193 0 0.829038 enganch2.dat
+0 MLCAD BTG defensa
+1 0 107.961 -74 -80.166 -0.829038 -0.559193 0 0 0 1 -0.559193 0.829038 0 enganch2.dat
+0 MLCAD BTG defensa
+1 14 -0.593 -64 -8.641 0.829038 -0.559193 0 0 0 -1 0.559193 0.829038 0 cilindro.dat
+0 MLCAD BTG defensa
+1 14 12.826 -64 -28.537 0.829038 -0.559193 0 0 0 -1 0.559193 0.829038 0 cilindro.dat
+0 MLCAD BTG defensa
+1 14 26.247 -64 -48.433 0.829038 -0.559193 0 0 0 -1 0.559193 0.829038 0 cilindro.dat
+0 MLCAD BTG defensa
+1 14 39.668 -64 -68.331 0.829038 -0.559193 0 0 0 -1 0.559193 0.829038 0 cilindro.dat
+0 MLCAD BTG defensa
+1 14 66.51 -64 -108.126 0.829038 -0.559193 0 0 0 -1 0.559193 0.829038 0 cilindro.dat
+0 MLCAD BTG defensa
+1 46 88.513 -64 -176.511 0.829038 -0.559193 0 0 0 -1 0.559193 0.829038 0 amortigu.dat
+0 MLCAD BTG defensa
+1 14 79.929 -64 -128.022 0.829038 -0.559193 0 0 0 -1 0.559193 0.829038 0 ejeastr2.dat
+0 MLCAD BTG defensa
+1 0 -5.724 -40 16.848 0.559193 0 0.829038 0 1 0 -0.829038 0 0.559193 placa2x3.dat
+0 MLCAD BTG defensa
+1 14 49.15 -64 24.912 0.829038 -0.559193 0 0 0 -1 0.559193 0.829038 0 cilindro.dat
+0 MLCAD BTG defensa
+1 14 62.569 -64 5.015 0.829038 -0.559193 0 0 0 -1 0.559193 0.829038 0 cilindro.dat
+0 MLCAD BTG defensa
+1 14 75.988 -64 -14.882 0.829038 -0.559193 0 0 0 -1 0.559193 0.829038 0 cilindro.dat
+0 MLCAD BTG defensa
+1 14 89.409 -64 -34.78 0.829038 -0.559193 0 0 0 -1 0.559193 0.829038 0 cilindro.dat
+0 MLCAD BTG defensa
+1 14 116.251 -64 -74.573 0.829038 -0.559193 0 0 0 -1 0.559193 0.829038 0 cilindro.dat
+0 MLCAD BTG defensa
+1 46 105.093 -64 -165.328 0.829038 -0.559193 0 0 0 -1 0.559193 0.829038 0 amortigu.dat
+0 MLCAD BTG defensa
+1 14 129.672 -64 -94.469 0.829038 -0.559193 0 0 0 -1 0.559193 0.829038 0 ejeastr2.dat
+0 GROUP 42 defensa
+0

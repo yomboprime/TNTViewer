@@ -10,7 +10,8 @@ import { LDrawLoader } from '../three/examples/jsm/loaders/LDrawLoader.js';
 
 import * as FileOperations from './fileOperations.js';
 import { iconEmojis } from './iconEmojis.js';
-import { createPartPreview, generatePartsThumnbnails } from './partPreview.js';
+import { createPartPreview, generatePartsThumbnails } from './partPreview.js';
+import { generateAllIndexLDRs } from './indexLDRG.js';
 
 const GUI_WIDTH = 500;
 
@@ -388,7 +389,8 @@ console.log( typeof module );
 				exportDAE: () => { exportModelFormat( 'dae' ); },
 				exportOBJ: () => { exportModelFormat( 'obj' ); },
 				showBOM: showBOM,
-				generatePartsThumnbnails: generatePartsThumnbnailsFunc,
+				generatePartsThumbnails: generatePartsThumbnails,
+				generateIndexLDRsButtonFunc: generateIndexLDRsButtonFunc,
 				translationSnap: translationSnap,
 				translationSnapVertical: translationSnapVertical,
 				rotationSnap: rotationSnap,
@@ -1324,6 +1326,27 @@ function saveModelAsLDrawButtonFunc() {
 
 }
 
+function generateIndexLDRsButtonFunc() {
+
+	updateProgressBar( 0 );
+	showProgressBar()
+
+	generateAllIndexLDRs( lDrawLoader, dataBase, processPartOrModel,
+		( fraction ) => {
+
+			updateProgressBar( fraction );
+
+		},
+		( zipBlob ) => {
+
+			hideProgressBar();
+			FileOperations.saveFile( 'indexLDRFiles.zip', zipBlob );
+
+		}
+	);
+
+}
+
 function saveSceneAsTNTButtonFunc() {
 /*
 	const fileContents = exportSceneAsTNT();
@@ -1837,9 +1860,9 @@ function updateModelAndPartInfo() {
 		else guiData.modelRef = "No ref.";
 		if ( modelInfo.id && Number.isInteger( parseInt( modelInfo.id ) ) ) {
 
-			guiData.modelInfoURL = 'https://tente.spread.name/id/' + modelInfo.id;
+			guiData.modelInfoURL = 'https://refstente.com/id/' + modelInfo.id;
 
-			infoText += 'Go <a href="https://tente.spread.name/id/' + modelInfo.id + '"><b>here for model info</b> (external link)</a>';
+			infoText += 'Go <a href="https://refstente.com/id/' + modelInfo.id + '"><b>here for model info</b> (external link)</a>';
 
 		}
 		else guiData.modelInfoURL = "No URL.";
@@ -2557,7 +2580,7 @@ function createGUI() {
 	modelTitleController = infoFolder.add( guiData, 'modelTitle' ).name( 'Title' );
 	modelSeriesController = infoFolder.add( guiData, 'modelSeries' ).name( 'Series' );
 	modelRefController = infoFolder.add( guiData, 'modelRef' ).name( 'Reference' );
-	modelInfoURLController = infoFolder.add( guiData, 'modelInfoURL' ).name( 'Info URL' );
+	modelInfoURLController = infoFolder.add( guiData, 'modelInfoURL' ).name( 'Info URL (external link)' );
 	pathController = infoFolder.add( guiData, 'path' ).name( 'File name' ).onFinishChange( () => {
 
 		if ( ! selectionIsEmpty() ) {
@@ -2647,7 +2670,9 @@ function createGUI() {
 
 	} );
 
-	const generateThumbnailsController = optionsFolder.add( guiData, 'generatePartsThumnbnails' ).name( 'Generate all parts thumbnails...' );
+	const generateThumbnailsController = optionsFolder.add( guiData, 'generatePartsThumbnails' ).name( 'Generate all parts thumbnails...' );
+
+	const generateIndexLDRsController = optionsFolder.add( guiData, 'generateIndexLDRsButtonFunc' ).name( 'Generate all models index LDR files...' );
 
 	optionsFolder.close();
 
@@ -3345,8 +3370,6 @@ function generatePartsThumnbnailsFunc() {
 
 	updateProgressBar( 0 );
 	showProgressBar()
-
-const ii = dataBase.partsPathsList.indexOf( 'gruatamb.dat' );
 
 	generatePartsThumnbnails( 128, 128, renderer, lDrawLoader, dataBase.partsPathsList, processPartOrModel,
 		( fraction ) => {

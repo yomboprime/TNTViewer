@@ -1,0 +1,76 @@
+0 Camión New York Express
+0 Name: camionnye.ldr
+0 Author: MLCad
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 15 390 -64 40 0 0 -1 0 1 0 1 0 0 bald2x2r.dat
+1 15 350 -64 80 -1 0 0 0 1 0 0 0 -1 bald2.dat
+1 15 350 -64 40 -1 0 0 0 1 0 0 0 -1 bald2.dat
+1 383 320 -46 10 1 0 0 0 1 0 0 0 1 tbescrct.dat
+1 383 320 -46 70 1 0 0 0 1 0 0 0 1 tbescrct.dat
+1 9 370 -16 40 0 0 -1 0 1 0 1 0 0 cabant.dat
+1 9 390 16 40 0 0 -1 0 1 0 1 0 0 parac21j.dat
+1 15 390 -64 0 0 0 -1 0 1 0 1 0 0 bald2x2r.dat
+1 383 140 40 40 0 0 1 0 1 0 -1 0 0 rueruj2l.dat
+1 383 200 40 40 0 0 1 0 1 0 -1 0 0 rueruj2l.dat
+1 383 370 40 40 0 0 1 0 1 0 -1 0 0 rueruj2l.dat
+1 0 350 40 60 0 0 1 0 1 0 -1 0 0 jacen2x2.dat
+1 15 410 16 80 -1 0 0 0 1 0 0 0 -1 placa4x8.dat
+1 15 250 16 80 -1 0 0 0 1 0 0 0 -1 placa4x8.dat
+1 15 290 0 80 -1 0 0 0 1 0 0 0 -1 placa4x8.dat
+1 15 370 8 60 1 0 0 0 1 0 0 0 1 jacena2.dat
+1 0 220 40 20 0 0 -1 0 1 0 1 0 0 jacena2.dat
+1 15 110 24 0 0 0 -1 0 1 0 1 0 0 placa4.dat
+1 4 90 48 20 0 0 1 0 1 0 -1 0 0 enganch2.dat
+1 4 90 48 80 0 0 1 0 1 0 -1 0 0 enganch2.dat
+1 15 370 8 0 1 0 0 0 1 0 0 0 1 jacena2.dat
+1 9 330 -16 0 1 0 0 0 1 0 0 0 1 jacena2.dat
+1 9 330 -16 60 1 0 0 0 1 0 0 0 1 jacena2.dat
+1 9 330 -40 60 1 0 0 0 1 0 0 0 1 jacena2.dat
+1 9 330 -16 80 1 0 0 0 -1 0 0 0 -1 eaglrrow.dat
+1 9 370 -16 0 -1 0 0 0 -1 0 0 0 1 eaglrrow.dat
+1 9 350 -40 20 0 0 -1 0 1 0 1 0 0 jacena2.dat
+1 9 330 -40 0 1 0 0 0 1 0 0 0 1 jacena2.dat
+1 15 310 8 20 1 0 0 0 1 0 0 0 1 jacen2x2.dat
+1 0 320 8 70 1 0 0 0 1 0 0 0 1 cilindro.dat
+1 0 320 8 10 1 0 0 0 1 0 0 0 1 cilindro.dat
+1 0 320 -16 70 1 0 0 0 1 0 0 0 1 cilindro.dat
+1 0 320 -16 10 1 0 0 0 1 0 0 0 1 cilindro.dat
+1 0 390 8 20 0 0 -1 0 1 0 1 0 0 rallado2.dat
+1 7 330 8 20 1 0 0 0 1 0 0 0 1 rallado2.dat
+1 7 370 8 60 -1 0 0 0 1 0 0 0 -1 rallado2.dat
+1 15 130 0 80 -1 0 0 0 1 0 0 0 -1 placa2x2.dat
+1 15 130 0 40 -1 0 0 0 1 0 0 0 -1 placa2x2.dat
+1 15 290 -80 80 -1 0 0 0 1 0 0 0 -1 placa4x8.dat
+1 15 130 -80 80 -1 0 0 0 1 0 0 0 -1 placa2x2.dat
+1 15 130 -80 40 -1 0 0 0 1 0 0 0 -1 placa2x2.dat
+1 15 270 8 60 -1 0 0 0 1 0 0 0 -1 placa2x8.dat
+1 15 250 -8 80 0 0 1 0 1 0 -1 0 0 jacen2x4.dat
+1 15 250 -56 80 0 0 1 0 1 0 -1 0 0 jacen2x4.dat
+1 15 270 -32 60 0 0 1 0 1 0 -1 0 0 jacena2.dat
+1 15 90 -8 60 0 0 1 0 1 0 -1 0 0 jacena2.dat
+1 15 90 -56 60 0 0 1 0 1 0 -1 0 0 jacena2.dat
+1 9 90 -32 60 0 0 1 0 1 0 -1 0 0 jacena2.dat
+1 9 210 -8 60 1 0 0 0 1 0 0 0 1 jacena2.dat
+1 1 210 -56 60 1 0 0 0 1 0 0 0 1 jacena2.dat
+1 1 210 -56 0 1 0 0 0 1 0 0 0 1 jacena2.dat
+1 15 90 -56 20 1 0 0 0 1 0 0 0 1 jacena6.dat
+1 15 90 -56 80 1 0 0 0 1 0 0 0 1 jacena6.dat
+1 9 90 -32 80 1 0 0 0 1 0 0 0 1 jacena6.dat
+1 9 230 40 80 1 0 0 0 1 0 0 0 1 jacena6.dat
+1 0 120 40 20 1 0 0 0 1 0 0 0 1 jacen2x4.dat
+1 9 230 40 20 1 0 0 0 1 0 0 0 1 jacena6.dat
+1 9 170 -32 20 1 0 0 0 1 0 0 0 1 jacena6.dat
+1 15 290 -32 0 -1 0 0 0 -1 0 0 0 1 enye.dat
+1 15 90 -32 80 1 0 0 0 -1 0 0 0 -1 enye.dat
+1 4 210 -56 80 1 0 0 0 -1 0 0 0 -1 flagblck.dat
+1 4 250 -56 0 -1 0 0 0 -1 0 0 0 1 flagblck.dat
+1 9 90 -32 0 1 0 0 0 1 0 0 0 1 jacena4.dat
+1 9 210 -32 60 1 0 0 0 1 0 0 0 1 jacena4.dat
+1 15 210 -32 80 1 0 0 0 -1 0 0 0 -1 ny.dat
+1 15 170 -32 0 -1 0 0 0 -1 0 0 0 1 ny.dat
+1 15 90 -8 80 1 0 0 0 1 0 0 0 1 jacena6.dat
+1 15 90 -8 20 1 0 0 0 1 0 0 0 1 jacena6.dat
+1 9 210 -8 0 1 0 0 0 1 0 0 0 1 jacena2.dat
+0

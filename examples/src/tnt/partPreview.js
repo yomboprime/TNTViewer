@@ -109,7 +109,7 @@ function createPartPreview( width, height, renderer, container ) {
 
 }
 
-function generatePartsThumnbnails( width, height, renderer, lDrawLoader, partsPathsList, processPartOrModel, onProgress, onResult ) {
+function generatePartsThumbnails( width, height, renderer, lDrawLoader, partsPathsList, processPartOrModel, onProgress, onResult ) {
 
 	// onResult is called with zip blob
 
@@ -188,4 +188,4 @@ function encodeImageToPPM( width, height, data ) {
 
 }
 
-export { createPartPreview, generatePartsThumnbnails };
+export { createPartPreview, generatePartsThumbnails };

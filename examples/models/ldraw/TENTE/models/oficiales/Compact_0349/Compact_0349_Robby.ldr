@@ -1,0 +1,75 @@
+0 Untitled
+0 Name: Compact_0349_Robby.ldr
+0 Author: MLCad
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 8 -30 -24 40 0 0 1 0 1 0 -1 0 0 airsillo.dat
+1 1 30 -24 40 0 0 1 0 1 0 -1 0 0 jacen2x2.dat
+1 1 30 -48 40 0 0 1 0 1 0 -1 0 0 jacen2x2.dat
+1 1 30 -96 40 0 0 1 0 1 0 -1 0 0 jacen2x2.dat
+1 1 70 -24 0 0 0 -1 0 1 0 1 0 0 pico.dat
+1 1 70 -160 0 0 0 -1 0 1 0 1 0 0 pico.dat
+0 MLCAD BTG brazo_derecho
+1 1 70 -107.938 66.964 0 0 -1 0.866025 0.5 0 0.5 -0.866025 0 pistola.dat
+0 MLCAD BTG brazo_derecho
+1 1 50 -107.938 66.964 0 0 -1 0.866025 0.5 0 0.5 -0.866025 0 pistola.dat
+0 MLCAD BTG brazo_izquierdo
+1 1 30 -107.938 -26.964 0 0 1 0.866025 0.5 0 -0.5 0.866025 0 pistola.dat
+0 MLCAD BTG brazo_izquierdo
+1 1 50 -107.938 -26.964 0 0 1 0.866025 0.5 0 -0.5 0.866025 0 pistola.dat
+1 14 70 -144 40 0 0 -1 0 1 0 1 0 0 pistola.dat
+1 14 60 -144 30 0 0 -1 0 1 0 1 0 0 tubo.dat
+1 14 60 -144 10 0 0 -1 0 1 0 1 0 0 tubo.dat
+1 14 50 -144 0 0 0 1 0 1 0 -1 0 0 pistola.dat
+1 14 60 -144 30 0 0 1 0 1 0 -1 0 0 laser.dat
+1 0 50 -120 20 0 0 1 0 1 0 -1 0 0 rotorinf.dat
+1 0 50 -120 20 0 0 1 0 1 0 -1 0 0 platfgir.dat
+1 1 70 -136 40 0 0 1 0 1 0 -1 0 0 jacena2.dat
+1 1 50 -136 20 0 0 -1 0 1 0 1 0 0 semicupm.dat
+1 14 50 -158 80 1 0 0 0 0 1 0 -1 0 chimplac.dat
+1 14 70 -158 -40 -1 0 0 0 0 1 0 1 0 chimplac.dat
+0 MLCAD BTG brazo_izquierdo
+1 4 60 -80.297 -59.088 -1 0 0 0 -0.866025 0.5 0 0.5 0.866025 chimplac.dat
+0 MLCAD BTG brazo_derecho
+1 4 40 -80.297 99.088 1 0 0 0 -0.866025 0.5 0 -0.5 -0.866025 chimplac.dat
+0 MLCAD BTG brazo_derecho
+1 4 70 -68.369 94.427 -1 0 0 0 -0.866025 -0.5 0 -0.5 0.866025 pistola.dat
+0 MLCAD BTG brazo_izquierdo
+1 4 70 -78.368 -71.749 -1 0 0 0 -0.866025 0.5 0 0.5 0.866025 pistola.dat
+0 MLCAD BTG brazo_izquierdo
+1 4 6 -61.244 -70.088 0 -1 0 0.866025 0 0.5 -0.5 0 0.866025 tubo.dat
+1 14 50 -136 60 0 0 1 0 1 0 -1 0 0 placa4.dat
+1 1 10 0 0 1 0 0 0 1 0 0 0 1 jacen2x3.dat
+1 1 30 24 0 1 0 0 0 1 0 0 0 1 jacen2x3.dat
+1 14 80 0 10 1 0 0 0 1 0 0 0 1 amortigu.dat
+1 14 80 0 30 1 0 0 0 1 0 0 0 1 amortigu.dat
+1 1 10 48 40 0 0 -1 0 1 0 1 0 0 ejecadpq.dat
+1 1 10 48 40 0 0 -1 0 1 0 1 0 0 llantqab.dat
+1 1 50 48 40 0 0 -1 0 1 0 1 0 0 llantqab.dat
+1 1 90 48 0 0 0 1 0 1 0 -1 0 0 llantqab.dat
+1 1 50 48 0 0 0 1 0 1 0 -1 0 0 llantqab.dat
+1 1 50 48 40 0 0 -1 0 1 0 1 0 0 ejecadpq.dat
+1 1 10 0 0 0 0 -1 0 1 0 1 0 0 cuna.dat
+1 1 70 -72 20 -1 0 0 0 1 0 0 0 -1 cuna.dat
+1 1 50 -104 -20 -1 0 0 0 1 0 0 0 -1 bispqaba.dat
+0 MLCAD BTG brazo_derecho
+1 1 50 -103.937 60.035 -1 0 0 0 0.5 -0.866025 0 -0.866025 -0.5 bispqarr.dat
+1 1 50 -104 60 1 0 0 0 1 0 0 0 1 bispqaba.dat
+0 MLCAD BTG brazo_izquierdo
+1 1 50 -103.937 -20.035 1 0 0 0 0.5 -0.866025 0 0.866025 0.5 bispqarr.dat
+0 GROUP 6 brazo_izquierdo
+1 1 30 -72 20 1 0 0 0 1 0 0 0 1 cuna.dat
+1 1 30 24 0 0 0 -1 0 1 0 1 0 0 cuna.dat
+1 8 -30 -24 40 0 0 1 0 1 0 -1 0 0 helmando.dat
+1 15 16 -80 20 0 0 1 0 1 0 -1 0 0 htitcabr.dat
+1 15 17 0 20 0 0 1 0 1 0 -1 0 0 htittron.dat
+1 15 -50 -65 20 0 -1 0 0 0 1 -1 0 0 htitbrzd.dat
+1 15 -50 -65 20 0 -1 0 0 0 1 -1 0 0 htitbrzi.dat
+1 15 -50 -65 20 0 -1 0 0 0 1 -1 0 0 htitmand.dat
+1 15 -49 -65 20 0 -1 0 0 0 1 -1 0 0 htitmani.dat
+1 15 -19 -38 20 0 -1 0 0 0 1 -1 0 0 htitpies.dat
+0 MLCAD BTG brazo_derecho
+1 4 31 -43.057 120.588 0 1 0 0.866025 0 0.5 0.5 0 -0.866025 chimenea.dat
+0 GROUP 6 brazo_derecho
+0

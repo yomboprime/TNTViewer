@@ -1,0 +1,56 @@
+0 Unofficial Model
+0 Untitled
+0 Name: Compact_0346_Vigilantic.ldr
+0 Author: MLCad
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 4 -120 62 20 1 0 0 0 1 0 0 0 1 placa2x3.dat
+1 4 -120 62 -20 1 0 0 0 1 0 0 0 1 placa2x3.dat
+1 4 -80 54 -20 1 0 0 0 1 0 0 0 1 enganche.dat
+1 4 -100 54 -20 1 0 0 0 1 0 0 0 1 enganche.dat
+1 4 -80 54 60 -1 0 0 0 1 0 0 0 -1 enganche.dat
+1 4 -60 54 60 -1 0 0 0 1 0 0 0 -1 enganche.dat
+1 4 -80 54 40 -1 0 0 0 1 0 0 0 -1 jacen2x2.dat
+1 4 -80 54 40 0 0 1 0 1 0 -1 0 0 cuna.dat
+1 4 -60 30 40 -1 0 0 0 1 0 0 0 -1 jacen2x2.dat
+1 4 -60 30 40 0 0 1 0 1 0 -1 0 0 cuna.dat
+1 4 -100 32 40 0 0 1 0 1 0 -1 0 0 pico.dat
+1 4 -80 8 40 0 0 1 0 1 0 -1 0 0 pico.dat
+1 4 -80 8 0 1 0 0 0 1 0 0 0 1 placa2x8.dat
+1 4 40 0 0 1 0 0 0 1 0 0 0 1 placa2x2.dat
+1 4 0 0 0 1 0 0 0 1 0 0 0 1 bald2x2.dat
+1 4 -120 54 0 0 0 1 0 1 0 -1 0 0 enganche.dat
+1 4 -120 54 60 0 0 1 0 1 0 -1 0 0 enganche.dat
+1 4 -120 30 40 1 0 0 0 1 0 0 0 1 placa4.dat
+1 4 -120 22 -40 1 0 0 0 1 0 0 0 1 bald2x2r.dat
+1 4 -80 22 -40 1 0 0 0 1 0 0 0 1 bald2x2r.dat
+1 4 -80 44 -20 0 0 -1 -1 0 0 0 1 0 cilindar.dat
+1 4 -80 44 60 0 0 -1 1 0 0 0 -1 0 cilindar.dat
+1 4 -40 22 80 -1 0 0 0 1 0 0 0 -1 bald2x2r.dat
+1 4 -80 22 80 -1 0 0 0 1 0 0 0 -1 bald2x2r.dat
+1 4 60 -8 20 0 0 1 0 1 0 -1 0 0 helala.dat
+1 8 -20 0 20 0 0 1 0 1 0 -1 0 0 pistola.dat
+1 8 0 0 20 0 0 -1 0 1 0 1 0 0 pistola.dat
+1 8 -20 -24 60 1 0 0 0 0 1 0 -1 0 pistola.dat
+1 0 44 -13 74 0 1 0 0 0 1 1 0 0 tubo.dat
+1 8 -20 -4 -20 1 0 0 0 0 -1 0 1 0 pistola.dat
+1 0 44 -14 -34 0 1 0 0 0 -1 -1 0 0 tubo.dat
+1 15 -100 54 -48 1 0 0 0 0 -1 0 1 0 pistola.dat
+1 15 -36 44 -62 0 1 0 0 0 -1 -1 0 0 tubo.dat
+1 15 -95 44 -62 0 1 0 0 0 -1 -1 0 0 laser.dat
+1 15 -100 34 88 1 0 0 0 0 1 0 -1 0 pistola.dat
+1 15 -36 44 102 0 1 0 0 0 1 1 0 0 tubo.dat
+1 15 -95 43 102 0 1 0 0 0 1 1 0 0 laser.dat
+1 8 -120 44 10 0 1 0 0 0 1 1 0 0 chimenea.dat
+1 4 -120 30 -20 1 0 0 0 1 0 0 0 1 placa4.dat
+1 8 -120 44 30 0 1 0 0 0 -1 -1 0 0 chimenea.dat
+1 14 -99 -42 20 0 -1 0 0 0 1 -1 0 0 htitbrzi.dat
+1 8 -80 0 40 0 0 1 0 1 0 -1 0 0 airsillo.dat
+1 8 -80 0 40 0 0 1 0 1 0 -1 0 0 helmando.dat
+1 14 -30 23 20 0 0 1 0 1 0 -1 0 0 htitcab1.dat
+1 14 -32 23 20 0 0 1 0 1 0 -1 0 0 htittron.dat
+1 14 -99 -42 20 0 -1 0 0 0 1 -1 0 0 htitbrzd.dat
+1 14 -99 -42 20 0 -1 0 0 0 1 -1 0 0 htitmand.dat
+1 14 -99 -42 20 0 -1 0 0 0 1 -1 0 0 htitmani.dat
+1 14 -68 -15 20 0 -1 0 0 0 1 -1 0 0 htitpies.dat
+0

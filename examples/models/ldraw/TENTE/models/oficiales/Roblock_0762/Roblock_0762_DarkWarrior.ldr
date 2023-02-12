@@ -1,0 +1,121 @@
+0 Untitled
+0 Name: Roblock0762_DarkWarrior.ldr
+0 Author: jasolo
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 0 0 0 0 1 0 0 0 1 0 0 0 1 jacen2x4.dat
+1 0 20 16 0 1 0 0 0 1 0 0 0 1 bisgrarr.dat
+1 0 60 16 0 1 0 0 0 1 0 0 0 1 bisgrarr.dat
+1 0 0 -24 0 1 0 0 0 1 0 0 0 1 jacen2x4.dat
+1 0 0 -96 0 1 0 0 0 1 0 0 0 1 jacen2x4.dat
+1 0 20 -120 0 1 0 0 0 1 0 0 0 1 placa2x2.dat
+1 0 20 -128 0 1 0 0 0 1 0 0 0 1 jacen2x2.dat
+1 0 -40 -136 20 0 0 1 0 1 0 -1 0 0 bisnraba.dat
+1 0 120 -136 20 0 0 -1 0 1 0 1 0 0 bisnraba.dat
+1 0 0 -48 40 0 0 1 0 1 0 -1 0 0 jacena2.dat
+1 0 60 -48 40 0 0 1 0 1 0 -1 0 0 jacena2.dat
+1 0 60 -72 40 0 0 1 0 1 0 -1 0 0 cuna.dat
+1 0 80 -96 40 0 0 1 0 1 0 -1 0 0 cuna.dat
+1 0 20 -72 20 1 0 0 0 1 0 0 0 1 cuna.dat
+1 0 20 -152 20 1 0 0 0 1 0 0 0 1 cuna.dat
+1 0 20 -176 40 1 0 0 0 1 0 0 0 1 cuna.dat
+1 0 20 -176 20 1 0 0 0 1 0 0 0 1 jacena2.dat
+1 0 40 -208 20 1 0 0 0 1 0 0 0 1 bisnraba.dat
+1 0 60 -200 60 0 0 -1 0 1 0 1 0 0 bald2.dat
+1 0 20 -152 20 1 0 0 0 1 0 0 0 1 pico.dat
+1 0 60 -96 40 -1 0 0 0 1 0 0 0 -1 rallado2.dat
+1 0 20 -72 0 0 0 -1 0 1 0 1 0 0 cuna.dat
+1 0 0 -96 0 0 0 -1 0 1 0 1 0 0 cuna.dat
+1 0 40 -48 40 -1 0 0 0 1 0 0 0 -1 enganche.dat
+1 0 60 -48 40 -1 0 0 0 1 0 0 0 -1 enganche.dat
+1 0 60 -68 40 0 0 -1 1 0 0 0 -1 0 placa2x3.dat
+1 0 40 -28 48 1 0 0 0 0 1 0 -1 0 helala.dat
+1 4 30 -48 10 0 0 1 0 1 0 -1 0 0 amortigu.dat
+1 4 50 -48 10 0 0 1 0 1 0 -1 0 0 amortigu.dat
+1 4 30 -72 10 0 0 1 0 1 0 -1 0 0 amortigu.dat
+1 4 50 -72 10 0 0 1 0 1 0 -1 0 0 amortigu.dat
+1 4 120 -120 40 -1 0 0 0 1 0 0 0 -1 placa2x3.dat
+1 4 20 -120 40 -1 0 0 0 1 0 0 0 -1 placa2x3.dat
+1 4 40 -120 60 -1 0 0 0 1 0 0 0 -1 pistola.dat
+1 4 40 -120 40 1 0 0 0 1 0 0 0 1 pistola.dat
+0 WRITE cuello
+1 0 40 -208 20 1 0 0 0 0 -1 0 1 0 bisnreje.dat
+0 WRITE cabeza
+1 0 40 -208 20 1 0 0 0 0 -1 0 1 0 bisnrarr.dat
+1 4 20 -268 12 0 0 1 1 0 0 0 1 0 placa2x3.dat
+1 4 60 -248 4 -1 0 0 0 0 1 0 1 0 pico.dat
+1 0 80 -208 -68 -1 0 0 0 0 1 0 1 0 pico.dat
+1 0 40 -208 -68 -1 0 0 0 0 1 0 1 0 pico.dat
+1 0 40 -208 4 0 0 -1 -1 0 0 0 1 0 cuna.dat
+1 0 40 -248 4 0 0 1 1 0 0 0 1 0 cuna.dat
+1 0 40 -208 -20 -1 0 0 0 0 1 0 1 0 cabantmr.dat
+1 36 40 -208 -20 -1 0 0 0 0 1 0 1 0 cabantcr.dat
+1 0 60 -268 20 -1 0 0 0 0 1 0 1 0 placa2.dat
+0 WRITE hombroIzq
+1 0 120 -136 20 0 -1 0 0 0 -1 1 0 0 bisnreje.dat
+1 0 120 -136 20 0 -1 0 0 0 -1 1 0 0 bisnrarr.dat
+1 4 136 -156 20 0 -1 0 -1 0 0 0 0 -1 bispqaba.dat
+0 WRITE brazoIzq
+1 4 136 -156 20 0 0 -1 -1 0 0 0 1 0 bispqarr.dat
+1 4 146 -166 12 0 0 -1 -1 0 0 0 1 0 cilindro.dat
+1 4 146 -146 12 0 0 -1 -1 0 0 0 1 0 canontnq.dat
+1 0 146 -166 -12 0 0 -1 -1 0 0 0 1 0 tubo.dat
+0 WRITE hombroDch
+1 0 -40 -136 20 0 1 0 0 0 1 1 0 0 bisnreje.dat
+1 0 -40 -136 20 0 1 0 0 0 -1 -1 0 0 bisnrarr.dat
+1 4 -56 -156 20 0 1 0 1 0 0 0 0 -1 bispqaba.dat
+0 WRITE brazoDch
+1 4 -56 -156 20 0 0 1 1 0 0 0 1 0 bispqarr.dat
+1 4 -66 -166 12 0 0 1 1 0 0 0 1 0 cilindro.dat
+1 4 -66 -146 12 0 0 1 1 0 0 0 1 0 canontnq.dat
+1 0 -66 -166 -12 0 0 1 1 0 0 0 1 0 tubo.dat
+0 WRITE caderaDch
+1 0 20 16 0 1 0 0 0 1 0 0 0 1 bisgreje.dat
+0 WRITE musloDch
+1 0 0 40 0 1 0 0 0 1 0 0 0 1 placa2x2.dat
+1 0 40 64 0 0 0 -1 0 1 0 1 0 0 jacena2.dat
+1 0 0 64 20 0 0 1 0 1 0 -1 0 0 enganche.dat
+1 0 0 54 10 0 1 0 0 0 -1 -1 0 0 helala.dat
+1 0 10 64 30 0 0 1 0 1 0 -1 0 0 jacena1.dat
+1 0 0 88 40 0 0 1 0 1 0 -1 0 0 jacen2x2.dat
+1 0 0 112 40 0 0 1 0 1 0 -1 0 0 jacen2x2.dat
+1 0 20 120 40 -1 0 0 0 1 0 0 0 -1 bisnrarr.dat
+1 0 20 16 0 1 0 0 0 1 0 0 0 1 bisgraba.dat
+0 WRITE rodillaDch
+1 0 20 120 40 -1 0 0 0 1 0 0 0 -1 bisnreje.dat
+0 WRITE piernaDch
+1 0 20 120 40 -1 0 0 0 1 0 0 0 -1 bisnraba.dat
+1 0 40 152 40 -1 0 0 0 1 0 0 0 -1 jacen2x2.dat
+1 0 40 200 20 -1 0 0 0 1 0 0 0 -1 jacena2.dat
+1 0 40 224 20 -1 0 0 0 1 0 0 0 -1 jacena2.dat
+1 0 0 224 0 1 0 0 0 1 0 0 0 1 pico.dat
+1 4 40 224 40 -1 0 0 0 1 0 0 0 -1 pistola.dat
+1 4 0 190 30 0 1 0 1 0 0 0 0 -1 chimplac.dat
+1 4 0 176 0 1 0 0 0 1 0 0 0 1 cuna.dat
+1 4 40 232 -20 0 0 -1 0 1 0 1 0 0 placa2x3.dat
+0 WRITE caderaIzq
+1 0 60 16 0 1 0 0 0 1 0 0 0 1 bisgreje.dat
+0 WRITE musloIzq
+1 0 40 40 0 1 0 0 0 1 0 0 0 1 placa2x2.dat
+1 0 40 64 40 0 0 1 0 1 0 -1 0 0 jacena2.dat
+1 0 80 64 0 0 0 -1 0 1 0 1 0 0 enganche.dat
+1 0 80 54 10 0 -1 0 0 0 -1 1 0 0 helala.dat
+1 0 70 64 30 0 0 1 0 1 0 -1 0 0 jacena1.dat
+1 0 40 88 40 0 0 1 0 1 0 -1 0 0 jacen2x2.dat
+1 0 40 112 40 0 0 1 0 1 0 -1 0 0 jacen2x2.dat
+1 0 60 120 40 -1 0 0 0 1 0 0 0 -1 bisnrarr.dat
+1 0 60 16 0 1 0 0 0 1 0 0 0 1 bisgraba.dat
+0 WRITE rodillaIzq
+1 0 20 120 40 -1 0 0 0 1 0 0 0 -1 bisnreje.dat
+0 WRITE piernaIzq
+1 0 60 120 40 -1 0 0 0 1 0 0 0 -1 bisnraba.dat
+1 0 80 152 40 -1 0 0 0 1 0 0 0 -1 jacen2x2.dat
+1 0 80 200 20 -1 0 0 0 1 0 0 0 -1 jacena2.dat
+1 0 80 224 20 -1 0 0 0 1 0 0 0 -1 jacena2.dat
+1 0 40 224 0 1 0 0 0 1 0 0 0 1 pico.dat
+1 4 40 224 20 1 0 0 0 1 0 0 0 1 pistola.dat
+1 4 80 190 30 0 -1 0 1 0 0 0 0 1 chimplac.dat
+1 4 40 176 0 1 0 0 0 1 0 0 0 1 cuna.dat
+1 4 80 232 -20 0 0 -1 0 1 0 1 0 0 placa2x3.dat
+0

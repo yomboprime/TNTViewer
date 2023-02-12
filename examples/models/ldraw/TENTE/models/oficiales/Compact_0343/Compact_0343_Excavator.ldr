@@ -1,0 +1,52 @@
+0 Untitled
+0 Name: Compact_0343_Excavator.ldr
+0 Author: MLCad
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 14 -190 0 80 0 0 -1 0 1 0 1 0 0 ejecadpq.dat
+1 0 -230 14 80 0 0 -1 0 1 0 1 0 0 llantqar.dat
+1 0 -110 14 80 0 0 -1 0 1 0 1 0 0 llantqar.dat
+1 0 10 14 40 0 0 1 0 1 0 -1 0 0 llantqar.dat
+1 0 -160 56 80 0 0 1 0 1 0 -1 0 0 cadcobra.dat
+1 0 -160 56 170 0 0 1 0 1 0 -1 0 0 cadcobra.dat
+1 0 -110 14 40 0 0 1 0 1 0 -1 0 0 llantqar.dat
+1 14 -70 0 80 0 0 -1 0 1 0 1 0 0 ejecadpq.dat
+1 14 -30 8 80 -1 0 0 0 1 0 0 0 -1 placa2x8.dat
+1 14 -30 -24 80 -1 0 0 0 1 0 0 0 -1 placa2x8.dat
+1 7 -150 -32 80 0 0 1 0 1 0 -1 0 0 airsillo.dat
+1 7 -150 -32 80 0 0 1 0 1 0 -1 0 0 helmando.dat
+1 14 -50 -32 60 -1 0 0 0 1 0 0 0 -1 cuna.dat
+1 14 -90 -32 60 1 0 0 0 1 0 0 0 1 cuna.dat
+1 14 -50 -56 80 -1 0 0 0 1 0 0 0 -1 pico.dat
+1 14 -50 -56 80 -1 0 0 0 1 0 0 0 -1 jacen2x2.dat
+1 14 -90 -80 60 0 0 1 0 1 0 -1 0 0 bald2.dat
+1 4 -80 -80 70 1 0 0 0 1 0 0 0 1 chimplac.dat
+1 4 -60 -88 70 1 0 0 0 1 0 0 0 1 laser.dat
+0 MLCAD BTG operario
+1 25 -103 -10 60 0 0 1 0 1 0 -1 0 0 htittron.dat
+0 MLCAD BTG operario
+1 25 -170 -76 60 0 -1 0 0 0 1 -1 0 0 htitbrzi.dat
+0 MLCAD BTG operario
+1 25 -170 -76 60 0 -1 0 0 0 1 -1 0 0 htitbrzd.dat
+0 MLCAD BTG operario
+1 25 -170 -76 60 0 -1 0 0 0 1 -1 0 0 htitmand.dat
+0 MLCAD BTG operario
+1 25 -170 -76 60 0 -1 0 0 0 1 -1 0 0 htitmani.dat
+0 MLCAD BTG operario
+1 25 -137 -46 60 0 -1 0 0 0 1 -1 0 0 htitpies.dat
+0 GROUP 6 operario
+1 14 -190 -40 60 0 0 1 0 1 0 -1 0 0 bisnraba.dat
+1 14 -190 -40 60 0 0 1 0 1 0 -1 0 0 bisnreje.dat
+0 MLCAD BTG cuchara
+1 14 -189.918 -40.003 60 0 0.866025 -0.5 0 -0.5 -0.866025 -1 0 0 bisnrarr.dat
+0 MLCAD BTG cuchara
+1 14 -226.847 -87.964 60 0 0.866025 0.5 0 -0.5 0.866025 1 0 0 palaexcv.dat
+0 GROUP 2 cuchara
+1 46 -80 -88 70 1 0 0 0 1 0 0 0 1 amortigu.dat
+1 14 -90 -56 40 1 0 0 0 1 0 0 0 1 pico.dat
+1 0 -40 -32 70 -1 0 0 0 1 0 0 0 -1 tubo.dat
+1 0 -40 -32 50 -1 0 0 0 1 0 0 0 -1 tubo.dat
+1 0 -26 -96 60 0 1 0 1 0 0 0 0 -1 pistola.dat
+1 0 -26 -96 80 0 1 0 1 0 0 0 0 -1 pistola.dat
+0

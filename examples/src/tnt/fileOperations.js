@@ -422,8 +422,10 @@ function invertGeometryInY( geometry ) {
 			if ( uvs ) invertUV( uvs, p2 );
 
 			p2 += 6;
-			p3 += 9;		}
-	}
+			p3 += 9;
+		}
+
+	}
 
 	function invertTri( arr, pos ) {
 
@@ -431,7 +433,8 @@ function invertGeometryInY( geometry ) {
 		vector3Temp2.fromArray( arr, pos + 6 );
 		vector3Temp1.toArray( arr, pos + 6 );
 		vector3Temp2.toArray( arr, pos + 3 );
-	}
+
+	}
 
 	function invertUV( arr, pos ) {
 
@@ -443,7 +446,8 @@ function invertGeometryInY( geometry ) {
 		arr[ pos + 5 ] = t1;
 
 	}
-}
+
+}
 
 function applyScaleToObjectTree( root, scale ) {
 
@@ -810,6 +814,15 @@ function removePathFromFilename( path ) {
 
 }
 
+function removeFilename( path ) {
+
+	const lastSlash = path.lastIndexOf( '/' );
+	if ( lastSlash < 0 ) return "";
+
+	return path.substring( 0, lastSlash + 1 );
+
+}
+
 export {
 	loadModelsFiles,
 	exportModelAsLDraw,
@@ -817,5 +830,6 @@ export {
 	saveFile,
 	getFilenameExtension,
 	removeFilenameExtension,
-	removePathFromFilename
+	removePathFromFilename,
+	removeFilename
 };

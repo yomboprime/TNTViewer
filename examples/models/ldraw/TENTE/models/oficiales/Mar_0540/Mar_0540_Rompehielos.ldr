@@ -1,0 +1,74 @@
+0 Untitled
+0 Name: Mar_0540_Rompehielos.ldr
+0 Author: jasolo
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 0 0 0 -40 1 0 0 0 1 0 0 0 1 jacena8.dat
+1 0 -160 0 -40 1 0 0 0 1 0 0 0 1 jacena8.dat
+1 0 -160 0 0 0 0 1 0 1 0 -1 0 0 proa4.dat
+1 0 -160 0 20 1 0 0 0 1 0 0 0 1 jacena8.dat
+1 0 0 0 20 1 0 0 0 1 0 0 0 1 jacena8.dat
+1 0 160 0 0 0 0 1 0 1 0 -1 0 0 popa4.dat
+1 15 80 -24 -40 1 0 0 0 1 0 0 0 1 placa4x6.dat
+1 15 -40 -24 -40 1 0 0 0 1 0 0 0 1 placa4x6.dat
+1 15 -200 -24 -40 1 0 0 0 1 0 0 0 1 placa4x8.dat
+1 15 -200 -56 -40 1 0 0 0 1 0 0 0 1 placa4x8.dat
+1 15 -200 -88 -40 1 0 0 0 1 0 0 0 1 placa4x6.dat
+1 15 -180 -96 -60 1 0 0 0 1 0 0 0 1 bald2.dat
+1 15 -180 -96 20 1 0 0 0 1 0 0 0 1 bald2.dat
+1 15 -200 -64 40 0 0 1 0 1 0 -1 0 0 venta4cu.dat
+1 15 -200 -96 40 0 0 1 0 1 0 -1 0 0 venta4cu.dat
+1 15 -100 -64 20 0 0 1 0 1 0 -1 0 0 jacena2.dat
+1 15 20 -56 20 0 0 1 0 1 0 -1 0 0 jacena2.dat
+1 15 90 -64 0 0 0 1 0 1 0 -1 0 0 helicop1.dat
+1 15 50 -80 -20 0 0 -1 0 1 0 1 0 0 bald2x2r.dat
+1 15 -210 -120 0 0 0 1 0 1 0 -1 0 0 bald2x2r.dat
+1 15 -210 -120 40 0 0 1 0 1 0 -1 0 0 bald2x2r.dat
+1 8 120 -56 0 0 0 -1 0 1 0 1 0 0 baldc4.dat
+1 8 80 -56 0 0 0 -1 0 1 0 1 0 0 baldc2x2.dat
+1 8 80 -56 -40 0 0 -1 0 1 0 1 0 0 baldc2x2.dat
+1 2 210 -32 0 0 0 -1 0 1 0 1 0 0 pastilla.dat
+1 2 -250 -56 0 0 0 -1 0 1 0 1 0 0 pastilla.dat
+1 15 140 -32 20 0 0 1 0 1 0 -1 0 0 jacena2.dat
+1 14 70 -34 -30 -1 0 0 0 1 0 0 0 -1 barca.dat
+1 14 70 -34 30 -1 0 0 0 1 0 0 0 -1 barca.dat
+1 14 -70 -66 -30 -1 0 0 0 1 0 0 0 -1 barca.dat
+1 14 -70 -66 30 -1 0 0 0 1 0 0 0 -1 barca.dat
+1 4 -240 -56 20 0 0 1 0 1 0 -1 0 0 baldc2x2.dat
+1 4 -80 -64 20 0 0 1 0 1 0 -1 0 0 baldc2x2.dat
+1 4 -50 -80 0 -1 0 0 0 1 0 0 0 -1 gruab.dat
+1 4 -50 -80 0 -1 0 0 0 1 0 0 0 -1 gruap.dat
+1 4 -90 -128 0 -1 0 0 0 1 0 0 0 -1 chimtubo.dat
+1 0 -110 -152 0 -1 0 0 0 1 0 0 0 -1 chimenea.dat
+1 4 160 -32 20 0 0 1 0 1 0 -1 0 0 baldc2x2.dat
+1 15 200 -24 0 0 0 -1 0 1 0 1 0 0 popa4p.dat
+1 14 230 -32 0 1 0 0 0 1 0 0 0 1 bandera.dat
+1 15 -180 -64 -40 1 0 0 0 1 0 0 0 1 venta4cu.dat
+1 15 -160 -96 -20 1 0 0 0 1 0 0 0 1 venta2cu.dat
+1 15 -140 -120 0 0 0 1 0 1 0 -1 0 0 soprtmar.dat
+1 15 -140 -116 0 0 0 1 0 1 0 -1 0 0 radarp.dat
+1 15 -120 -96 20 -1 0 0 0 1 0 0 0 -1 venta2cu.dat
+1 15 -100 -64 40 -1 0 0 0 1 0 0 0 -1 venta4cu.dat
+1 15 -200 -32 40 0 0 1 0 1 0 -1 0 0 jacen2x4.dat
+1 15 -120 -96 20 0 0 1 0 1 0 -1 0 0 jacen2x2.dat
+1 15 -120 -120 30 0 0 1 0 1 0 -1 0 0 placa2x3.dat
+1 0 -10 -66 20 0 0 1 -1 0 0 0 -1 0 amortigu.dat
+1 0 -10 -66 -20 0 0 -1 -1 0 0 0 1 0 amortigu.dat
+1 15 100 -32 40 0 0 1 0 1 0 -1 0 0 jacen2x4.dat
+1 15 0 -32 -20 1 0 0 0 1 0 0 0 1 jacen2x4.dat
+1 15 -160 -32 -40 1 0 0 0 1 0 0 0 1 venta4ci.dat
+1 15 -80 -32 -20 1 0 0 0 1 0 0 0 1 venta4ci.dat
+1 15 -30 -56 0 0 0 -1 0 1 0 1 0 0 ancl1x2.dat
+1 15 -170 -96 0 0 0 -1 0 1 0 1 0 0 ancl1x2.dat
+1 15 -165 -120 6 0 0 1 0 1 0 -1 0 0 antnradr.dat
+1 15 10 -56 0 0 0 -1 0 1 0 1 0 0 ancl1x2.dat
+1 4 -20 -56 -20 1 0 0 0 1 0 0 0 1 enganch2.dat
+1 4 0 -56 20 -1 0 0 0 1 0 0 0 -1 enganch2.dat
+1 15 0 -32 20 -1 0 0 0 1 0 0 0 -1 venta4ci.dat
+1 15 -80 -32 40 -1 0 0 0 1 0 0 0 -1 venta4ci.dat
+1 15 -200 -24 0 0 0 1 0 1 0 -1 0 0 proa4p.dat
+1 15 -200 -32 0 0 0 1 0 1 0 -1 0 0 proa4p.dat
+1 15 -200 -40 0 0 0 1 0 1 0 -1 0 0 proa4p.dat
+1 15 -200 -48 0 0 0 1 0 1 0 -1 0 0 proa4rmt.dat
+0

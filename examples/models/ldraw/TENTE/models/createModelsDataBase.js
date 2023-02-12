@@ -260,8 +260,8 @@ scanDirectory( __dirname, '' );
 
 dataBase.modelPathsList.sort( ( a, b ) => {
 
-	const aOf = a.startsWith( 'oficiales' );
-	const bOf = b.startsWith( 'oficiales' );
+	const aOf = a.startsWith( 'oficiales/' );
+	const bOf = b.startsWith( 'oficiales/' );
 
 	if ( aOf !== bOf ) return aOf ? - 1 : 1;
 
@@ -304,15 +304,20 @@ for ( let i in dataBase.modelPathsList ) {
 		fileTitle: "",
 		fileBoxTitle: ""
 	};
-	dataBase.models[ modelPath ] = model;
 
 	if ( modelPath.startsWith( 'oficiales/' ) ) {
 
-		numOfficialModels ++;
+		const modelFilename = getFilenameFromPath( modelPath );
 
-		let pathFieldsStr = modelPath;
+		if ( modelFilename.startsWith( '_' ) ) continue;
+
+		numOfficialModels ++;
+		dataBase.models[ modelPath ] = model;
+
+		let pathFieldsStr = modelFilename;
 		if ( pathFieldsStr.endsWith( '.ldr' ) ) pathFieldsStr = pathFieldsStr.substring( 0, pathFieldsStr.length - 4 );
-		const pathFields = pathFieldsStr.substring( 'oficiales/'.length ).split( '_' );
+
+		const pathFields = pathFieldsStr.split( '_' );
 		const numPathFields = pathFields.length;
 		if ( numPathFields === 0 ) continue;
 		if ( numPathFields === 1 ) model.title = pathFields[ 0 ];
@@ -358,6 +363,8 @@ for ( let i in dataBase.modelPathsList ) {
 		model.seriesNumber = "";
 		model.refNumber = "";
 
+		dataBase.models[ modelPath ] = model;
+
 	}
 
 	if ( model.title.endsWith( '.ldr' ) ) {
@@ -367,6 +374,45 @@ for ( let i in dataBase.modelPathsList ) {
 	}
 
 	obtainFieldsFromFile( model );
+
+}
+/*
+// Index ldr files
+let prevSeries = null;
+let indexModels = [];
+for ( let i in dataBase.modelPathsList ) {
+
+	const model = dataBase.models[ i ];
+
+	if ( ! prevSeries ) indexModels.push( model );
+	else {
+
+		if ( prevSeries === model.series ) indexModels.push( model );
+		else {
+
+			if ( indexModels.length >= 2 ) {
+
+				createIndexLDR( indexModels );
+				indexModels = [];
+
+			}
+
+		}
+	}
+
+}
+
+if ( indexModels.length >= 2 ) createIndexLDR( indexModels );
+*/
+
+function createIndexLDR( indexModels ) {
+
+	for ( let i = 0; i < indexModels.length; i ++ ) {
+
+		const model = indexModels[ i ];
+		const bbox = { x: null, y: null, z: null };
+
+	}
 
 }
 
@@ -489,7 +535,8 @@ function editModelByDataBase( model, pathFields ) {
 
 		model.id = sourceFields[ 0 ];
 		model.title = sourceFields[ 3 ] + " - " + model.title;
-		numModelsInSourceDataBase ++;
+
+		if ( ! getFilenameFromPath( model.path ).startsWith( '_' ) ) numModelsInSourceDataBase ++;
 
 	}
 
@@ -507,7 +554,7 @@ console.log( "Official models in source database: " + numModelsInSourceDataBase 
 
 console.log( "Used colors in all models: " + dataBase.colorsCodesList.length );
 
-console.log( "Total parts: " + dataBase.partsPathsList.length );
+console.log( "Total different parts: " + dataBase.partsPathsList.length );
 
 console.log( "Total parts categories: " + Object.keys( dataBase.partsCategories ).length );
 
@@ -554,7 +601,7 @@ let htmlModelListContent =
 				<th>Series</th>
 				<th>Reference</th>
 				<th>View model</th>
-				<th>Model information</th>
+				<th>Model information (external link)</th>
 				<th>File</th>
 			</tr>
 ***OFFICIAL_MODELS***
@@ -596,7 +643,7 @@ for ( let i in dataBase.modelPathsList ) {
 				` +
 				(
 					model.id ?
-					`<td><a href="https://refstente.com/id/` + model.id + `">Model information</a></td>`
+					`<td><a href="https://refstente.com/id/` + model.id + `">Model information (external link)</a></td>`
 					:
 					`<td>No info.</td>`
 				) +
@@ -741,7 +788,10 @@ function scanDirectory( base, path ) {
 		}
 		else if ( stat.isFile() ) {
 
-			if ( ! fileName.toLowerCase().endsWith( '.ldr' ) ) continue;
+			if (
+				fileName.startsWith( '_' ) ||
+				! fileName.toLowerCase().endsWith( '.ldr' )
+			) continue;
 
 //			console.log( "Adding model " + filePath);
 			dataBase.modelPathsList.push( filePath );
@@ -957,5 +1007,23 @@ function removeFilenameExtension( path ) {
 
 	}
 	else return "";
+
+}
+
+function getFilenameFromPath( path ) {
+
+	const lastSlash = path.lastIndexOf( '/' );
+	if ( lastSlash < 0 ) return "";
+
+	return path.substring( lastSlash + 1 );
+
+}
+
+function removeFilename( path ) {
+
+	const lastSlash = path.lastIndexOf( '/' );
+	if ( lastSlash < 0 ) return "";
+
+	return path.substring( 0, lastSlash + 1 );
 
 }

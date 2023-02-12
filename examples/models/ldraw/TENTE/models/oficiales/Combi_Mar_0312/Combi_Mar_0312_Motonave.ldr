@@ -1,0 +1,57 @@
+0 Untitled
+0 Name: Combi_0312_Motonave.ldr
+0 Author: jasolo
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 0 -120 0 -40 1 0 0 0 1 0 0 0 1 placa4x6.dat
+1 0 0 0 -40 1 0 0 0 1 0 0 0 1 placa4x6.dat
+1 0 -120 0 0 0 0 1 0 1 0 -1 0 0 proa4p.dat
+1 0 120 0 0 0 0 -1 0 1 0 1 0 0 popa4p.dat
+1 4 -20 -8 40 -1 0 0 0 1 0 0 0 -1 jacena4.dat
+1 4 100 -8 20 -1 0 0 0 1 0 0 0 -1 jacena6.dat
+1 4 -20 -8 -20 -1 0 0 0 1 0 0 0 -1 jacena4.dat
+1 4 100 -8 -40 -1 0 0 0 1 0 0 0 -1 jacena6.dat
+0 STEP
+1 4 -100 -8 0 0 0 1 0 1 0 -1 0 0 proa4.dat
+1 4 100 -8 0 0 0 1 0 1 0 -1 0 0 popa4.dat
+0 STEP
+1 15 20 -32 40 -1 0 0 0 1 0 0 0 -1 placa4x8.dat
+1 15 140 -32 40 -1 0 0 0 1 0 0 0 -1 placa4x6.dat
+0 STEP
+1 15 -140 -32 0 0 0 1 0 1 0 -1 0 0 proa4rmt.dat
+1 15 140 -32 0 0 0 -1 0 1 0 1 0 0 popa4p.dat
+1 15 -80 -40 40 -1 0 0 0 1 0 0 0 -1 venta2cu.dat
+1 15 0 -40 20 -1 0 0 0 1 0 0 0 -1 venta4cu.dat
+1 15 -80 -40 -20 1 0 0 0 1 0 0 0 1 venta4cu.dat
+1 15 0 -40 -20 1 0 0 0 1 0 0 0 1 venta2ci.dat
+1 15 40 -40 20 -1 0 0 0 1 0 0 0 -1 venta2ci.dat
+1 15 -90 -40 0 0 0 1 0 1 0 -1 0 0 ancla1x2.dat
+1 15 50 -40 0 0 0 1 0 1 0 -1 0 0 ancla1x2.dat
+1 0 -140 -32 0 0 0 1 0 1 0 -1 0 0 ptunez.dat
+0 STEP
+1 15 -120 -64 40 0 0 1 0 1 0 -1 0 0 venta4cu.dat
+1 15 -140 -40 20 0 0 1 0 1 0 -1 0 0 venta2ci.dat
+1 15 80 -40 -20 0 0 -1 0 1 0 1 0 0 venta2ci.dat
+1 15 -40 -64 -30 0 0 -1 0 1 0 1 0 0 placa2x3.dat
+1 15 20 -64 -30 0 0 -1 0 1 0 1 0 0 placa2x3.dat
+1 15 -120 -40 -40 1 0 0 0 1 0 0 0 1 venta2cu.dat
+0 STEP
+1 2 -170 -40 0 0 0 -1 0 1 0 1 0 0 pastilla.dat
+1 1 140 -40 -20 0 0 -1 0 1 0 1 0 0 bald2x2.dat
+1 1 -50 -72 0 -1 0 0 0 1 0 0 0 -1 chimtubo.dat
+1 1 10 -72 0 -1 0 0 0 1 0 0 0 -1 chimtubo.dat
+1 0 -70 -96 0 -1 0 0 0 1 0 0 0 -1 chimenea.dat
+1 0 -10 -96 0 -1 0 0 0 1 0 0 0 -1 chimenea.dat
+1 14 170 -40 0 1 0 0 0 1 0 0 0 1 bandera.dat
+1 15 50 -64 0 0 0 1 0 1 0 -1 0 0 antncruz.dat
+1 15 -90 -64 0 0 0 1 0 1 0 -1 0 0 antncruz.dat
+1 15 -110 -88 10 -1 0 0 0 1 0 0 0 -1 piquito.dat
+1 15 -110 -88 -10 -1 0 0 0 1 0 0 0 -1 piquito.dat
+1 15 -120 -64 0 -1 0 0 0 1 0 0 0 -1 bald2.dat
+1 15 -120 -64 40 -1 0 0 0 1 0 0 0 -1 bald2.dat
+1 4 50 -42 -30 -1 0 0 0 1 0 0 0 -1 barca.dat
+1 4 50 -42 30 -1 0 0 0 1 0 0 0 -1 barca.dat
+1 4 0 -74 20 -1 0 0 0 1 0 0 0 -1 barca.dat
+1 4 0 -74 -20 -1 0 0 0 1 0 0 0 -1 barca.dat
+0

@@ -1,0 +1,78 @@
+0 Untitled
+0 Name: campingcar.ldr
+0 Author: MLCad
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 15 250 16 0 1 0 0 0 1 0 0 0 1 placa4x8.dat
+1 15 30 16 0 1 0 0 0 1 0 0 0 1 placa4x8.dat
+1 15 150 -64 0 1 0 0 0 1 0 0 0 1 placa4x6.dat
+1 15 30 -64 0 1 0 0 0 1 0 0 0 1 placa4x6.dat
+1 15 230 -72 20 1 0 0 0 1 0 0 0 1 bald2x2.dat
+1 15 390 -40 40 0 0 -1 0 1 0 1 0 0 bald2x2r.dat
+1 15 350 -40 80 -1 0 0 0 1 0 0 0 -1 bald2.dat
+1 15 350 -40 40 -1 0 0 0 1 0 0 0 -1 bald2.dat
+1 9 370 8 40 0 0 -1 0 1 0 1 0 0 cabant.dat
+1 9 390 16 40 0 0 -1 0 1 0 1 0 0 parac21j.dat
+1 15 390 -40 0 0 0 -1 0 1 0 1 0 0 bald2x2r.dat
+1 383 250 24 40 0 0 1 0 1 0 -1 0 0 rueruj2l.dat
+1 383 90 24 40 0 0 1 0 1 0 -1 0 0 rueruj2l.dat
+1 0 70 24 60 0 0 1 0 1 0 -1 0 0 placa2x2.dat
+1 383 310 -16 70 1 0 0 0 1 0 0 0 1 llantrut.dat
+1 0 310 -16 70 1 0 0 0 1 0 0 0 1 ruta21nm.dat
+1 383 370 24 40 0 0 1 0 1 0 -1 0 0 rueruj2l.dat
+1 4 250 0 40 -1 0 0 0 1 0 0 0 -1 rotorsup.dat
+1 4 250 0 40 -1 0 0 0 1 0 0 0 -1 rotorinf.dat
+1 0 270 -16 60 -1 0 0 0 1 0 0 0 -1 jacen2x2.dat
+1 1 270 -40 60 -1 0 0 0 1 0 0 0 -1 jacen2x2.dat
+1 1 190 8 60 -1 0 0 0 1 0 0 0 -1 jacen2x2.dat
+1 1 70 8 60 -1 0 0 0 1 0 0 0 -1 jacen2x2.dat
+1 1 70 -40 60 -1 0 0 0 1 0 0 0 -1 jacen2x2.dat
+1 15 70 -16 60 -1 0 0 0 1 0 0 0 -1 jacen2x2.dat
+1 15 270 -16 80 -1 0 0 0 1 0 0 0 -1 jacena2.dat
+1 1 230 -16 80 -1 0 0 0 1 0 0 0 -1 jacena2.dat
+1 1 230 -16 20 -1 0 0 0 1 0 0 0 -1 jacena2.dat
+1 15 190 -16 0 -1 0 0 0 1 0 0 0 -1 jacena6.dat
+1 15 150 8 0 -1 0 0 0 1 0 0 0 -1 jacena6.dat
+1 1 190 8 0 -1 0 0 0 -1 0 0 0 1 campicar.dat
+1 1 30 8 80 1 0 0 0 -1 0 0 0 -1 campicar.dat
+1 8 70 -16 80 1 0 0 0 -1 0 0 0 -1 ventsony.dat
+1 8 70 -16 0 1 0 0 0 -1 0 0 0 -1 ventsony.dat
+1 4 190 -16 80 1 0 0 0 -1 0 0 0 -1 flagblck.dat
+1 4 230 -16 0 -1 0 0 0 -1 0 0 0 1 flagblck.dat
+1 15 190 40 60 -1 0 0 0 1 0 0 0 -1 jacen2x4.dat
+1 0 70 40 60 -1 0 0 0 1 0 0 0 -1 jacen2x2.dat
+1 4 30 40 80 0 0 1 0 1 0 -1 0 0 enganch2.dat
+1 4 30 40 20 0 0 1 0 1 0 -1 0 0 enganch2.dat
+1 15 150 8 60 -1 0 0 0 1 0 0 0 -1 jacena6.dat
+1 15 150 -40 0 -1 0 0 0 1 0 0 0 -1 jacena6.dat
+1 15 270 -40 0 -1 0 0 0 1 0 0 0 -1 jacena6.dat
+1 15 150 -40 60 -1 0 0 0 1 0 0 0 -1 jacena6.dat
+1 15 270 -40 60 -1 0 0 0 1 0 0 0 -1 jacena6.dat
+1 15 190 -16 60 -1 0 0 0 1 0 0 0 -1 jacena6.dat
+1 7 70 -16 60 -1 0 0 0 1 0 0 0 -1 rallado2.dat
+1 7 30 -16 20 1 0 0 0 1 0 0 0 1 rallado2.dat
+1 15 270 -16 20 -1 0 0 0 1 0 0 0 -1 jacena2.dat
+1 15 190 8 20 -1 0 0 0 1 0 0 0 -1 jacena2.dat
+1 15 190 40 20 -1 0 0 0 1 0 0 0 -1 jacena2.dat
+1 4 150 16 80 1 0 0 0 1 0 0 0 1 boomberg.dat
+1 4 150 16 0 1 0 0 0 1 0 0 0 1 boomberg.dat
+1 15 190 40 80 -1 0 0 0 1 0 0 0 -1 jacena2.dat
+1 15 190 8 80 -1 0 0 0 1 0 0 0 -1 jacena2.dat
+1 0 390 24 60 -1 0 0 0 1 0 0 0 -1 placa2x8.dat
+1 0 270 8 60 -1 0 0 0 1 0 0 0 -1 placa2x2.dat
+1 15 230 16 60 0 0 1 0 1 0 -1 0 0 placa2.dat
+1 9 330 8 0 1 0 0 0 1 0 0 0 1 jacena2.dat
+1 9 330 8 60 1 0 0 0 1 0 0 0 1 jacena2.dat
+1 9 330 -16 60 1 0 0 0 1 0 0 0 1 jacena2.dat
+1 9 330 8 80 1 0 0 0 -1 0 0 0 -1 eaglrrow.dat
+1 9 370 8 0 -1 0 0 0 -1 0 0 0 1 eaglrrow.dat
+1 9 330 -16 0 1 0 0 0 1 0 0 0 1 jacena2.dat
+1 15 310 8 20 1 0 0 0 1 0 0 0 1 jacen2x2.dat
+1 0 320 8 70 1 0 0 0 1 0 0 0 1 cilindro.dat
+1 0 320 8 10 1 0 0 0 1 0 0 0 1 cilindro.dat
+1 0 320 -16 70 1 0 0 0 1 0 0 0 1 cilindro.dat
+1 0 320 -16 10 1 0 0 0 1 0 0 0 1 cilindro.dat
+1 9 310 -16 60 0 0 1 0 1 0 -1 0 0 enganch2.dat
+1 9 320 -16 30 0 0 1 0 1 0 -1 0 0 jacena1.dat
+0

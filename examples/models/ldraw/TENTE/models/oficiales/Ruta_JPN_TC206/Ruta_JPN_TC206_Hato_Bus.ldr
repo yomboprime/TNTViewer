@@ -1,0 +1,73 @@
+0 Haito bus
+0 Name: haitobus.ldr
+0 Author: cpcbegin
+0 Tente ruta japon
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 4 30 -12 48 0 0 1 0 1 0 -1 0 0 placa4x8.dat
+1 4 30 -12 208 0 0 1 0 1 0 -1 0 0 placa4x8.dat
+1 14 30 -92 48 0 0 1 0 1 0 -1 0 0 placa4x8.dat
+1 14 30 -92 208 0 0 1 0 1 0 -1 0 0 placa4x8.dat
+1 14 110 -20 -92 -1 0 0 0 1 0 0 0 -1 jacena4.dat
+1 4 110 -20 -112 -1 0 0 0 -1 0 0 0 1 haitbus1.dat
+1 14 110 12 68 -1 0 0 0 1 0 0 0 -1 jacena4.dat
+1 14 50 12 48 0 0 1 0 1 0 -1 0 0 rallado2.dat
+1 14 50 12 108 0 0 1 0 1 0 -1 0 0 rallado2.dat
+1 14 90 12 68 0 0 -1 0 1 0 1 0 0 rallado2.dat
+1 14 90 12 168 0 0 -1 0 1 0 1 0 0 rallado2.dat
+1 14 90 12 188 -1 0 0 0 1 0 0 0 -1 rallado2.dat
+1 14 30 -100 -72 0 0 1 0 1 0 -1 0 0 bald2x2r.dat
+1 14 30 -100 -32 0 0 1 0 1 0 -1 0 0 bald2x2r.dat
+1 14 30 -100 8 0 0 1 0 1 0 -1 0 0 bald2x2r.dat
+1 14 30 -100 48 0 0 1 0 1 0 -1 0 0 bald2x2r.dat
+1 14 50 12 208 0 0 1 0 1 0 -1 0 0 rallado2.dat
+1 14 30 -100 88 0 0 1 0 1 0 -1 0 0 bald2x2r.dat
+1 14 30 -100 128 0 0 1 0 1 0 -1 0 0 bald2x2r.dat
+1 14 30 -100 168 0 0 1 0 1 0 -1 0 0 bald2x2r.dat
+1 14 30 -100 208 0 0 1 0 1 0 -1 0 0 bald2x2r.dat
+1 14 110 -100 168 0 0 -1 0 1 0 1 0 0 bald2x2r.dat
+1 14 110 -100 128 0 0 -1 0 1 0 1 0 0 bald2x2r.dat
+1 14 110 -100 88 0 0 -1 0 1 0 1 0 0 bald2x2r.dat
+1 14 110 -100 48 0 0 -1 0 1 0 1 0 0 bald2x2r.dat
+1 14 110 -100 8 0 0 -1 0 1 0 1 0 0 bald2x2r.dat
+1 14 110 -100 -32 0 0 -1 0 1 0 1 0 0 bald2x2r.dat
+1 14 110 -100 -72 0 0 -1 0 1 0 1 0 0 bald2x2r.dat
+1 14 110 -100 -112 0 0 -1 0 1 0 1 0 0 bald2x2r.dat
+1 14 50 12 208 0 0 1 0 1 0 -1 0 0 rallado2.dat
+1 14 90 12 8 0 0 -1 0 1 0 1 0 0 rallado2.dat
+1 14 110 -20 208 -1 0 0 0 1 0 0 0 -1 jacena4.dat
+1 0 30 -20 208 1 0 0 0 -1 0 0 0 -1 haitbus4.dat
+1 14 50 -20 188 0 0 1 0 1 0 -1 0 0 jacena6.dat
+1 14 110 -20 68 0 0 1 0 1 0 -1 0 0 jacena6.dat
+1 14 50 -20 68 0 0 1 0 1 0 -1 0 0 jacena6.dat
+1 4 110 -20 68 0 0 -1 0 -1 0 -1 0 0 haitbus2.dat
+1 4 110 -20 188 0 0 -1 0 -1 0 -1 0 0 haitbus3.dat
+1 4 30 -20 68 0 0 1 0 -1 0 1 0 0 haitbus2.dat
+1 4 30 -20 -52 0 0 1 0 -1 0 1 0 0 haitbus3.dat
+1 14 110 -20 -92 0 0 -1 0 1 0 1 0 0 puertang.dat
+1 14 30 -20 -52 0 0 1 0 1 0 -1 0 0 puertang.dat
+1 14 110 -20 188 0 0 1 0 1 0 -1 0 0 jacena6.dat
+1 14 30 -44 28 0 0 1 0 1 0 -1 0 0 ventan4.dat
+1 14 30 -44 108 0 0 1 0 1 0 -1 0 0 ventan4.dat
+1 14 30 -44 188 0 0 1 0 1 0 -1 0 0 ventan4.dat
+1 14 110 -44 108 0 0 -1 0 1 0 1 0 0 ventan4.dat
+1 14 110 -44 28 0 0 -1 0 1 0 1 0 0 ventan4.dat
+1 14 110 -44 -52 0 0 -1 0 1 0 1 0 0 ventan4.dat
+1 14 30 -44 -112 1 0 0 0 1 0 0 0 1 ventan4.dat
+1 14 110 -44 208 -1 0 0 0 1 0 0 0 -1 ventan4.dat
+1 14 70 -12 -92 1 0 0 0 1 0 0 0 1 parac21j.dat
+1 0 90 -4 108 0 0 -1 0 1 0 1 0 0 placa2x3.dat
+1 0 90 -4 -52 0 0 -1 0 1 0 1 0 0 placa2x3.dat
+1 0 90 20 -42 0 0 -1 0 1 0 1 0 0 jacen2x2.dat
+1 0 90 20 118 0 0 -1 0 1 0 1 0 0 jacen2x2.dat
+1 14 110 12 -92 0 0 -1 0 1 0 1 0 0 vntscorm.dat
+1 14 30 12 -52 0 0 1 0 1 0 -1 0 0 vntscorm.dat
+1 4 90 20 -42 -1 0 0 0 1 0 0 0 -1 llantrut.dat
+1 0 90 20 -42 -1 0 0 0 1 0 0 0 -1 ruta21nm.dat
+1 4 90 20 118 -1 0 0 0 1 0 0 0 -1 llantrut.dat
+1 0 90 20 118 -1 0 0 0 1 0 0 0 -1 ruta21nm.dat
+1 4 50 20 158 1 0 0 0 1 0 0 0 1 llantrut.dat
+1 0 50 20 158 1 0 0 0 1 0 0 0 1 ruta21nm.dat
+1 4 50 20 -2 1 0 0 0 1 0 0 0 1 llantrut.dat
+1 0 50 20 -2 1 0 0 0 1 0 0 0 1 ruta21nm.dat
+0

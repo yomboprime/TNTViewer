@@ -1,0 +1,50 @@
+0 Untitled
+0 Name: IniciacionA_casa.ldr
+0 Author: jasolo
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 1 0 -24 40 0 0 1 0 1 0 -1 0 0 jacena2.dat
+1 1 20 -24 40 0 0 1 0 1 0 -1 0 0 jacena2.dat
+1 1 -40 24 0 1 0 0 0 1 0 0 0 1 jacen2x2.dat
+1 1 40 24 0 1 0 0 0 1 0 0 0 1 jacen2x2.dat
+1 15 0 24 0 1 0 0 0 1 0 0 0 1 jacen2x2.dat
+1 15 0 72 0 1 0 0 0 1 0 0 0 1 jacen2x2.dat
+1 0 0 120 0 1 0 0 0 1 0 0 0 1 jacen2x2.dat
+1 0 0 144 0 1 0 0 0 1 0 0 0 1 jacen2x2.dat
+1 0 0 168 0 1 0 0 0 1 0 0 0 1 jacen2x2.dat
+1 15 -60 144 0 1 0 0 0 1 0 0 0 1 jacen2x2.dat
+1 15 60 144 0 1 0 0 0 1 0 0 0 1 jacen2x2.dat
+1 1 -20 0 0 1 0 0 0 1 0 0 0 1 jacen2x4.dat
+1 4 -60 48 0 1 0 0 0 1 0 0 0 1 jacen2x4.dat
+1 14 -80 120 0 1 0 0 0 1 0 0 0 1 jacen2x4.dat
+1 14 40 120 0 1 0 0 0 1 0 0 0 1 jacen2x4.dat
+1 14 -80 168 0 1 0 0 0 1 0 0 0 1 jacen2x4.dat
+1 14 40 168 0 1 0 0 0 1 0 0 0 1 jacen2x8.dat
+1 4 -100 96 0 1 0 0 0 1 0 0 0 1 jacen2x4.dat
+1 4 60 96 0 1 0 0 0 1 0 0 0 1 jacen2x4.dat
+1 4 -20 96 0 1 0 0 0 1 0 0 0 1 jacen2x4.dat
+1 4 20 48 0 1 0 0 0 1 0 0 0 1 jacen2x4.dat
+1 4 -80 72 0 1 0 0 0 1 0 0 0 1 jacen2x4.dat
+1 4 40 72 0 1 0 0 0 1 0 0 0 1 jacen2x4.dat
+1 4 80 24 40 0 0 1 0 1 0 -1 0 0 jacena2.dat
+1 14 -80 144 40 0 0 1 0 1 0 -1 0 0 jacena2.dat
+1 14 -20 144 40 0 0 1 0 1 0 -1 0 0 jacena2.dat
+1 14 40 144 40 0 0 1 0 1 0 -1 0 0 jacena2.dat
+1 14 100 144 40 0 0 1 0 1 0 -1 0 0 jacena2.dat
+1 4 80 0 40 0 0 1 0 1 0 -1 0 0 jacena2.dat
+1 0 80 -24 40 0 0 1 0 1 0 -1 0 0 jacena2.dat
+0 WRITE seto
+1 14 120 168 -160 1 0 0 0 1 0 0 0 1 jacen2x2.dat
+1 14 170 72 -150 1 0 0 0 1 0 0 0 1 jacen2x2.dat
+1 14 170 24 -150 1 0 0 0 1 0 0 0 1 jacen2x2.dat
+1 1 150 48 -170 1 0 0 0 1 0 0 0 1 jacen2x4.dat
+1 1 150 48 -130 1 0 0 0 1 0 0 0 1 jacen2x4.dat
+1 0 190 120 -130 1 0 0 0 1 0 0 0 1 cilindro.dat
+1 0 190 96 -130 1 0 0 0 1 0 0 0 1 cilindro.dat
+1 14 200 168 -160 0 0 -1 0 1 0 1 0 0 jacen2x4.dat
+1 14 200 168 -80 0 0 -1 0 1 0 1 0 0 jacen2x4.dat
+1 14 200 144 -120 0 0 -1 0 1 0 1 0 0 jacen2x8.dat
+1 14 120 144 -160 1 0 0 0 1 0 0 0 1 jacen2x4.dat
+1 14 120 144 0 1 0 0 0 1 0 0 0 1 jacen2x2.dat
+0

@@ -1,0 +1,80 @@
+0 Patrulla Astro-91
+0 Name: Astro_0552_patrulla91.ldr
+0 cpcbegin
+0 Tente astro: los vehiculos de las galaxias
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 0 -70 0 -20 0 0 -1 0 1 0 1 0 0 jacen2x8.dat
+1 1 -170 -32 -40 1 0 0 0 1 0 0 0 1 jacena8.dat
+1 1 -170 -32 140 1 0 0 0 1 0 0 0 1 jacena8.dat
+1 1 -10 -32 -40 -1 0 0 0 1 0 0 0 -1 intgalax.dat
+1 1 -170 -32 160 1 0 0 0 1 0 0 0 1 intgalax.dat
+1 0 -50 -32 80 1 0 0 0 1 0 0 0 1 bald2x2.dat
+1 0 -170 -32 80 1 0 0 0 1 0 0 0 1 bald2x2.dat
+1 0 -170 -32 0 1 0 0 0 1 0 0 0 1 bald2x2.dat
+1 0 -50 -32 0 1 0 0 0 1 0 0 0 1 bald2x2.dat
+1 0 -170 -32 40 1 0 0 0 1 0 0 0 1 sillastr.dat
+1 0 -50 -32 40 1 0 0 0 1 0 0 0 1 sillastr.dat
+1 0 -110 -120 80 1 0 0 0 1 0 0 0 1 bald2x2.dat
+1 1 -110 -120 0 1 0 0 0 1 0 0 0 1 bald2x2.dat
+1 0 -110 -120 120 1 0 0 0 1 0 0 0 1 sillastr.dat
+1 0 -10 -32 80 -1 0 0 0 1 0 0 0 -1 sillastr.dat
+1 0 -70 -45.679 128.661 0 -1 0 -0.866025 0 -0.5 0.5 0 -0.866025 sillastr.dat
+1 0 -110 -80.32 148.661 0 1 0 0.866025 0 -0.5 -0.5 0 -0.866025 sillastr.dat
+1 0 -130 -32 80 -1 0 0 0 1 0 0 0 -1 sillastr.dat
+1 1 -70 -32 -20 0 0 -1 0 1 0 1 0 0 jacen2x8.dat
+1 1 -170 -24 40 1 0 0 0 1 0 0 0 1 placa2x8.dat
+1 1 -70 -112 -20 0 0 -1 0 1 0 1 0 0 placa2x8.dat
+1 1 -170 -24 80 1 0 0 0 1 0 0 0 1 placa4x8.dat
+1 1 -170 -24 -40 1 0 0 0 1 0 0 0 1 placa4x8.dat
+1 1 -90 -24 -20 1 0 0 0 1 0 0 0 1 paracq21.dat
+1 383 -70 -16 140 0 0 1 0 1 0 -1 0 0 tbesctrp.dat
+1 383 -150 -16 140 0 0 1 0 1 0 -1 0 0 tbesctrp.dat
+1 4 -100 8 20 -1 0 0 0 1 0 0 0 -1 rueastro.dat
+1 4 -100 8 140 -1 0 0 0 1 0 0 0 -1 rueastro.dat
+1 4 -100 8 80 -1 0 0 0 1 0 0 0 -1 rueastro.dat
+1 40 -130 -56 -10 -1 0 0 0 1 0 0 0 -1 semicupp.dat
+1 40 -50 -56 -10 -1 0 0 0 1 0 0 0 -1 semicupp.dat
+1 40 -90 -152 70 -1 0 0 0 1 0 0 0 -1 semicupp.dat
+1 383 -100 -56 90 1 0 0 0 1 0 0 0 1 amortigu.dat
+1 383 -100 -56 110 1 0 0 0 1 0 0 0 1 amortigu.dat
+1 383 -80 -56 90 1 0 0 0 1 0 0 0 1 amortigu.dat
+1 383 -80 -56 110 1 0 0 0 1 0 0 0 1 amortigu.dat
+1 46 -60 -136 -77 1 0 0 0 0 -1 0 1 0 amortigu.dat
+1 46 -120 -136 -77 1 0 0 0 0 -1 0 1 0 amortigu.dat
+1 1 -110 -56 40 1 0 0 0 1 0 0 0 1 placa2x2.dat
+1 1 -110 -104 40 1 0 0 0 1 0 0 0 1 placa2x2.dat
+1 1 -110 -64 40 1 0 0 0 1 0 0 0 1 jacen2x2.dat
+1 0 -70 -56 140 -1 0 0 0 1 0 0 0 -1 rallado2.dat
+1 1 -110 -56 140 0 0 1 0 1 0 -1 0 0 enganch2.dat
+1 0 -90 -56 30 1 0 0 0 1 0 0 0 1 ancla1x2.dat
+1 1 -110 -80 80 1 0 0 0 1 0 0 0 1 bald2x2.dat
+1 1 -70 -56 120 0 0 -1 0 1 0 1 0 0 enganch2.dat
+1 1 -110 -128 40 1 0 0 0 1 0 0 0 1 enganch2.dat
+1 1 -90 -128 40 1 0 0 0 1 0 0 0 1 enganch2.dat
+1 15 -110 -120 40 1 0 0 0 1 0 0 0 1 placa2.dat
+1 1 -70 -80 160 -1 0 0 0 1 0 0 0 -1 bald2x2r.dat
+1 0 -90 -88 60 -1 0 0 0 1 0 0 0 -1 rotorinf.dat
+1 0 -90 -88 60 -1 0 0 0 1 0 0 0 -1 rotorsup.dat
+1 0 -50 -146 40 -1 0 0 0 0 1 0 1 0 jacena4.dat
+1 14 -120 -136 16 -1 0 0 0 0 1 0 1 0 cilindro.dat
+1 14 -120 -136 -8 -1 0 0 0 0 1 0 1 0 cilindro.dat
+1 14 -60 -136 16 -1 0 0 0 0 1 0 1 0 cilindro.dat
+1 14 -60 -136 -8 -1 0 0 0 0 1 0 1 0 cilindro.dat
+1 14 -120 -136 -32 -1 0 0 0 0 1 0 1 0 ejeastr2.dat
+1 14 -60 -136 -32 -1 0 0 0 0 1 0 1 0 ejeastr2.dat
+1 14 -120 -136 88 -1 0 0 0 0 1 0 1 0 cilindro.dat
+1 14 -120 -136 64 -1 0 0 0 0 1 0 1 0 cilindro.dat
+1 14 -60 -136 88 -1 0 0 0 0 1 0 1 0 cilindro.dat
+1 14 -60 -136 64 -1 0 0 0 0 1 0 1 0 cilindro.dat
+1 15 -150 -45 29 1 0 0 0 1 0 0 0 1 astcuerv.dat
+1 15 -150 -49 29 1 0 0 0 0 1 0 -1 0 astpierv.dat
+1 15 -30 -45 29 1 0 0 0 1 0 0 0 1 astcuerv.dat
+1 15 -30 -49 29 1 0 0 0 0 1 0 -1 0 astpierv.dat
+1 15 -90 -133 109 1 0 0 0 1 0 0 0 1 astcuerv.dat
+1 15 -90 -137 109 1 0 0 0 0 1 0 -1 0 astpierv.dat
+1 15 -150 -45 92 -1 0 0 0 1 0 0 0 -1 astcuerv.dat
+1 15 -150 -49 92 -1 0 0 0 0 1 0 1 0 astpierv.dat
+1 15 -30 -45 92 -1 0 0 0 1 0 0 0 -1 astcuerv.dat
+1 15 -30 -49 92 -1 0 0 0 0 1 0 1 0 astpierv.dat
+0

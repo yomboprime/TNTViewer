@@ -1,11 +1,11 @@
 0 Torre de control aeropuerto
-0 Name: torrecontrolaeropuerto.ldr
+0 Name: Ruta_0553_Torre_Control_Aeropuerto.ldr
 0 Author: CPCBEGIN
 0 Tente ruta (el mundo de la ruta)
 0 ROTATION CENTER 0 0 0 1 "Custom" 
 0 ROTATION CONFIG 0 0
-1 2 0 8 100 1 0 0 0 1 0 0 0 1 placa6x8.dat
-1 2 0 8 -20 1 0 0 0 1 0 0 0 1 placa6x8.dat
+1 2 0 56 100 1 0 0 0 1 0 0 0 1 placa6x8.dat
+1 2 0 56 -20 1 0 0 0 1 0 0 0 1 placa6x8.dat
 1 4 40 -216 -40 1 0 0 0 1 0 0 0 1 placa6x8.dat
 1 4 40 -272 -40 1 0 0 0 1 0 0 0 1 placa6x8.dat
 1 0 100 -280 0 1 0 0 0 1 0 0 0 1 jacen2x2.dat
@@ -13,13 +13,13 @@
 1 4 160 -224 20 0 0 -1 0 1 0 1 0 0 cabant.dat
 1 4 160 -224 80 -1 0 0 0 1 0 0 0 -1 ventan4.dat
 1 4 80 -224 -40 1 0 0 0 1 0 0 0 1 ventan4.dat
-1 2 160 8 100 1 0 0 0 1 0 0 0 1 placa6x8.dat
-1 2 160 8 -20 1 0 0 0 1 0 0 0 1 placa6x8.dat
+1 2 160 56 100 1 0 0 0 1 0 0 0 1 placa6x8.dat
+1 2 160 56 -20 1 0 0 0 1 0 0 0 1 placa6x8.dat
 1 15 240 0 180 -1 0 0 0 1 0 0 0 -1 jacena8.dat
+1 15 240 24 180 -1 0 0 0 1 0 0 0 -1 jacena8.dat
 1 15 240 -24 180 -1 0 0 0 1 0 0 0 -1 jacena8.dat
 1 15 240 -48 180 -1 0 0 0 1 0 0 0 -1 jacena8.dat
-1 15 240 -72 180 -1 0 0 0 1 0 0 0 -1 jacena8.dat
-1 15 240 0 40 -1 0 0 0 1 0 0 0 -1 Unknown
+1 15 240 48 180 -1 0 0 0 1 0 0 0 -1 jacena8.dat
 1 4 160 0 40 -1 0 0 0 1 0 0 0 -1 jacen2x4.dat
 1 4 160 -24 40 -1 0 0 0 1 0 0 0 -1 jacen2x4.dat
 1 4 160 -48 40 -1 0 0 0 1 0 0 0 -1 jacen2x4.dat
@@ -27,22 +27,26 @@
 1 15 160 -120 40 -1 0 0 0 1 0 0 0 -1 jacen2x4.dat
 1 4 160 -144 40 -1 0 0 0 1 0 0 0 -1 jacen2x4.dat
 1 15 160 -168 40 -1 0 0 0 1 0 0 0 -1 jacen2x4.dat
-1 0 240 0 140 -1 0 0 0 1 0 0 0 -1 placa4x8.dat
+1 0 240 48 140 -1 0 0 0 1 0 0 0 -1 placa4x8.dat
 1 15 240 0 40 -1 0 0 0 1 0 0 0 -1 jacena4.dat
+1 4 160 24 40 -1 0 0 0 1 0 0 0 -1 jacen2x4.dat
+1 4 160 48 40 -1 0 0 0 1 0 0 0 -1 jacen2x4.dat
+1 15 240 24 40 -1 0 0 0 1 0 0 0 -1 jacena4.dat
 1 15 240 -24 40 -1 0 0 0 1 0 0 0 -1 jacena4.dat
 1 15 240 -48 40 -1 0 0 0 1 0 0 0 -1 jacena4.dat
-1 15 240 -72 40 -1 0 0 0 1 0 0 0 -1 jacena4.dat
-1 4 200 -96 60 1 0 0 0 1 0 0 0 1 tejado.dat
-1 4 160 -96 60 1 0 0 0 1 0 0 0 1 tejado.dat
-1 4 80 -104 80 1 0 0 0 1 0 0 0 1 tejado8.dat
-1 4 80 -112 100 1 0 0 0 1 0 0 0 1 tejado8.dat
-1 4 80 -120 120 1 0 0 0 1 0 0 0 1 tejadorm.dat
-1 4 120 -120 120 1 0 0 0 1 0 0 0 1 tejadorm.dat
-1 4 160 -120 120 1 0 0 0 1 0 0 0 1 tejadorm.dat
-1 4 200 -120 120 1 0 0 0 1 0 0 0 1 tejadorm.dat
-1 4 240 -96 140 -1 0 0 0 1 0 0 0 -1 tejado8.dat
-1 4 240 -104 120 -1 0 0 0 1 0 0 0 -1 tejado8.dat
-1 4 240 -112 100 -1 0 0 0 1 0 0 0 -1 tejado8.dat
+1 15 240 48 40 -1 0 0 0 1 0 0 0 -1 jacena4.dat
+1 4 200 -72 60 1 0 0 0 1 0 0 0 1 tejado.dat
+1 4 160 -72 60 1 0 0 0 1 0 0 0 1 tejado.dat
+1 4 160 -80 80 1 0 0 0 1 0 0 0 1 tejado.dat
+1 4 80 -80 80 1 0 0 0 1 0 0 0 1 tejado8.dat
+1 4 80 -88 100 1 0 0 0 1 0 0 0 1 tejado8.dat
+1 4 80 -96 120 1 0 0 0 1 0 0 0 1 tejadorm.dat
+1 4 120 -96 120 1 0 0 0 1 0 0 0 1 tejadorm.dat
+1 4 160 -96 120 1 0 0 0 1 0 0 0 1 tejadorm.dat
+1 4 200 -96 120 1 0 0 0 1 0 0 0 1 tejadorm.dat
+1 4 240 -72 140 -1 0 0 0 1 0 0 0 -1 tejado8.dat
+1 4 240 -80 120 -1 0 0 0 1 0 0 0 -1 tejado8.dat
+1 4 240 -88 100 -1 0 0 0 1 0 0 0 -1 tejado8.dat
 1 4 160 -192 40 -1 0 0 0 1 0 0 0 -1 jacen2x3.dat
 1 4 80 -192 40 0 0 1 0 1 0 -1 0 0 enganche.dat
 1 4 80 -192 20 0 0 1 0 1 0 -1 0 0 enganche.dat

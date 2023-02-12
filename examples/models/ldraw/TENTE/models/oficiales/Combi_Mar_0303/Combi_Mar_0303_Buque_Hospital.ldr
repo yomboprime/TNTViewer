@@ -1,0 +1,37 @@
+0 Untitled
+0 Name: Combi_0303_Buque_Hospital.ldr
+0 Author: jasolo
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 4 -80 0 -40 1 0 0 0 1 0 0 0 1 placa4x6.dat
+1 14 -50 -74 -20 1 0 0 0 1 0 0 0 1 barca.dat
+1 14 -50 -74 20 1 0 0 0 1 0 0 0 1 barca.dat
+1 0 -50 -96 0 -1 0 0 0 1 0 0 0 -1 chimenea.dat
+1 0 -100 -32 0 0 0 1 0 1 0 -1 0 0 pmaria.dat
+1 15 -100 -32 0 0 0 1 0 1 0 -1 0 0 proa4rmt.dat
+1 15 -100 -32 -40 1 0 0 0 1 0 0 0 1 placa4x6.dat
+1 15 -40 -64 -30 0 0 -1 0 1 0 1 0 0 placa2x3.dat
+1 15 -50 -72 0 1 0 0 0 1 0 0 0 1 chimtubo.dat
+1 15 0 -64 -30 0 0 -1 0 1 0 1 0 0 placa2x3.dat
+1 15 -10 -77 0 0 0 -1 0 1 0 1 0 0 antncruz.dat
+1 15 -70 -77 0 0 0 -1 0 1 0 1 0 0 antncruz.dat
+1 4 -160 -40 20 0 0 1 0 1 0 -1 0 0 baldc2x2.dat
+1 4 -80 0 0 0 0 1 0 1 0 -1 0 0 proa4p.dat
+1 4 40 0 0 0 0 -1 0 1 0 1 0 0 popa4p.dat
+1 15 -60 -8 0 0 0 1 0 1 0 -1 0 0 proa4.dat
+1 15 20 -8 0 0 0 1 0 1 0 -1 0 0 popa4.dat
+1 8 60 -32 0 0 0 1 0 1 0 -1 0 0 heliprto.dat
+1 15 -60 -8 -40 1 0 0 0 1 0 0 0 1 venta4ci.dat
+1 15 20 -8 40 -1 0 0 0 1 0 0 0 -1 venta4ci.dat
+1 15 -120 -40 20 0 0 1 0 1 0 -1 0 0 venta2cu.dat
+1 15 -120 -64 40 0 0 1 0 1 0 -1 0 0 venta4cu.dat
+1 15 -100 -40 0 1 0 0 0 1 0 0 0 1 jacena6.dat
+1 15 -100 -40 20 1 0 0 0 1 0 0 0 1 jacena6.dat
+1 15 -80 -64 -20 0 0 -1 0 1 0 1 0 0 jacena2.dat
+1 15 -80 -88 -20 0 0 -1 0 1 0 1 0 0 placa2x2.dat
+1 15 -100 -96 0 0 0 -1 0 1 0 1 0 0 soprtmar.dat
+1 15 -100 -92 0 0 0 1 0 1 0 -1 0 0 radarp.dat
+1 15 60 -40 0 0 0 1 0 1 0 -1 0 0 helicop1.dat
+1 15 20 -64 -20 0 0 -1 0 1 0 1 0 0 jacena2.dat
+0

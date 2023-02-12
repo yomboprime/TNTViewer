@@ -11,7 +11,7 @@ You will see a 3D model and can rotate, zoom, pan, etc with your mouse or touch 
 
 When viewing a part from the parts list (or a model that uses the main color code 16) you can also change the color of the part. Please see 'Options' panel folder.
 
-Most of the original official models by TENTE (subfolder ```models/oficiales```) also show a model link to [this database by **abeldb**](https://tente.spread.name/) with more information and case pictures.
+Most of the original official models by TENTE (subfolder ```models/oficiales```) also show a model link to [the database at Refstente.com](https://refstente.com/) with more information and case pictures (external site)
 
 ## How to use your own models
 
