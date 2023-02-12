@@ -742,7 +742,7 @@ class LDrawParsedCache {
 					} else {
 
 						// Next attempt is lower case
-						fileName = fileName.toLowerCase();
+						fileName = fileName/*.toLowerCase()*/;
 						subobjectURL = fileName;
 						triedLowerCase = true;
 						locationState = FILE_LOCATION_TRY_PARTS;
@@ -1244,7 +1244,7 @@ class LDrawParsedCache {
 	// returns an (optionally cloned) instance of the data
 	getData( fileName, clone = true ) {
 
-		const key = fileName.toLowerCase();
+		const key = fileName/*.toLowerCase()*/;
 		const result = this._cache[ key ];
 		if ( result === null || result instanceof Promise ) {
 
@@ -1268,7 +1268,7 @@ class LDrawParsedCache {
 	// the data is ready to use and can be retrieved synchronously with "getData".
 	async ensureDataLoaded( fileName ) {
 
-		const key = fileName.toLowerCase();
+		const key = fileName/*.toLowerCase()*/;
 		if ( ! ( key in this._cache ) ) {
 
 			// replace the promise with a copy of the parsed data for immediate processing
@@ -1289,7 +1289,7 @@ class LDrawParsedCache {
 	// sets the data in the cache from parsed data
 	setData( fileName, text ) {
 
-		const key = fileName.toLowerCase();
+		const key = fileName/*.toLowerCase()*/;
 		this._cache[ key ] = this.parse( text, fileName );
 
 	}
@@ -1538,7 +1538,7 @@ class LDrawPartsGeometryCache {
 
 	hasCachedModel( fileName ) {
 
-		return fileName !== null && fileName.toLowerCase() in this._cache;
+		return fileName !== null && fileName/*.toLowerCase()*/ in this._cache;
 
 	}
 
@@ -1546,7 +1546,7 @@ class LDrawPartsGeometryCache {
 
 		if ( fileName !== null && this.hasCachedModel( fileName ) ) {
 
-			const key = fileName.toLowerCase();
+			const key = fileName/*.toLowerCase()*/;
 			const group = await this._cache[ key ];
 			return group.clone();
 
@@ -1562,7 +1562,7 @@ class LDrawPartsGeometryCache {
 	async loadModel( fileName ) {
 
 		const parseCache = this.parseCache;
-		const key = fileName.toLowerCase();
+		const key = fileName/*.toLowerCase()*/;
 		if ( this.hasCachedModel( fileName ) ) {
 
 			// Return cached model if available.

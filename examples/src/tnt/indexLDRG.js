@@ -20,7 +20,7 @@ function generateAllIndexLDRs( lDrawLoader, db, processPartOrModel, onProgress, 
 
 		const model = db.models[ db.modelPathsList[ i ] ];
 
-		if( previousSeries !== null && ( previousSeries !== model.seriesNumber || previousRefNumber !== model.refNumber ) && models.length > 0 ) {
+		if ( previousSeries !== null && ( previousSeries !== model.seriesNumber || previousRefNumber !== model.refNumber ) && models.length > 0 ) {
 
 			if ( models[ 0 ].path.startsWith( "oficiales/" ) ) modelsIndices.push( models );
 
@@ -103,7 +103,7 @@ function generateAllIndexLDRs( lDrawLoader, db, processPartOrModel, onProgress, 
 				const whiteColor = '15';
 				processPartOrModel( model1, false, true, whiteColor );
 
-				model1.userData.indexPath = model.path;//.substring( "oficiales/".length );
+				model1.userData.indexPath = model.path.substring( "oficiales/".length );
 				models.push( model1 );
 
 				loadModel( index + 1 );
@@ -163,7 +163,7 @@ function generateAllIndexLDRs( lDrawLoader, db, processPartOrModel, onProgress, 
 		let subfolderPath = FileOperations.removeFilename( dbModel.path );
 		if ( subfolderPath.endsWith( '/' ) ) subfolderPath = subfolderPath.substring( 0, subfolderPath.length - 1 );
 		subfolderPath = subfolderPath.substring( "oficiales/".length );
-		const seriesIndexName = FileOperations.removeFilename( subfolderPath ) + "_" + dbModel.seriesNumber.replace( ' ', '_' ) + "_" + dbModel.refNumber + ".ldr";
+		const seriesIndexName = FileOperations.removeFilename( subfolderPath ) + "ind_" + dbModel.seriesNumber.replace( ' ', '_' ) + "_" + dbModel.refNumber + ".ldr";
 
 		const indexContents = generateIndexLDRInternal( models );
 		zipFile.file( seriesIndexName, indexContents );

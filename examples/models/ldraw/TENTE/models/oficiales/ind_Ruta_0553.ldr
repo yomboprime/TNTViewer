@@ -1,0 +1,29 @@
+0 ROTATION CENTER 0 0 0 1 "Custom"
+0 ROTATION CONFIG 0 0
+
+1 0 -5599.800000000001 0 0 1 0 0 0 1 0 0 0 1 Ruta_0553/Ruta_0553_Camion_Autopista.ldr
+1 0 -5290.852800750734 0 0 1 0 0 0 1 0 0 0 1 Ruta_0553/Ruta_0553_Camion_Dragster_Cisterna.ldr
+1 0 -4821.652800750734 0 0 1 0 0 0 1 0 0 0 1 Ruta_0553/Ruta_0553_Camion_Especial_Bomberos_Aeropuerto.ldr
+1 0 -4341.652800750734 0 0 1 0 0 0 1 0 0 0 1 Ruta_0553/Ruta_0553_Camion_Especial_Reparaciones_Electricas.ldr
+1 0 -4017.652800750734 0 0 1 0 0 0 1 0 0 0 1 Ruta_0553/Ruta_0553_Camion_Porta_Containers.ldr
+1 0 -3656.152800750734 0 0 1 0 0 0 1 0 0 0 1 Ruta_0553/Ruta_0553_Dragster.ldr
+1 0 -3234.652800750734 0 0 1 0 0 0 1 0 0 0 1 Ruta_0553/Ruta_0553_Dragster_8_Cilindros.ldr
+1 0 -2862.652800750734 0 0 1 0 0 0 1 0 0 0 1 Ruta_0553/Ruta_0553_Expedicion_Mozambique.ldr
+1 0 -2561.152800750734 0 0 1 0 0 0 1 0 0 0 1 Ruta_0553/Ruta_0553_Flying_Van.ldr
+1 0 -2163.652800750734 0 0 1 0 0 0 1 0 0 0 1 Ruta_0553/Ruta_0553_Formula_1_6_Ruedas.ldr
+1 0 -1647.652800750734 0 0 1 0 0 0 1 0 0 0 1 Ruta_0553/Ruta_0553_Formula_1_ELF.ldr
+1 0 -1299.652800750734 0 0 1 0 0 0 1 0 0 0 1 Ruta_0553/Ruta_0553_Furgoneta_Aeropuerto.ldr
+1 0 -939.6528007507341 0 0 1 0 0 0 1 0 0 0 1 Ruta_0553/Ruta_0553_Gasolinera_Mundo_Ruta.ldr
+1 0 -411.65280075073406 0 0 1 0 0 0 1 0 0 0 1 Ruta_0553/Ruta_0553_Grua_Porta_Containers.ldr
+1 0 16.147199249265924 0 0 1 0 0 0 1 0 0 0 1 Ruta_0553/Ruta_0553_Limpiapistas.ldr
+1 0 323.9471992492659 0 0 1 0 0 0 1 0 0 0 1 Ruta_0553/Ruta_0553_Multiruedas.ldr
+1 0 803.9471992492659 0 0 1 0 0 0 1 0 0 0 1 Ruta_0553/Ruta_0553_Peaje_Autopista.ldr
+1 0 1289.347199249266 0 0 1 0 0 0 1 0 0 0 1 Ruta_0553/Ruta_0553_Todoterreno_Cisterna.ldr
+1 0 1701.547199249266 0 0 1 0 0 0 1 0 0 0 1 Ruta_0553/Ruta_0553_Torre_Control_Aeropuerto.ldr
+1 0 2372.347199249266 0 0 1 0 0 0 1 0 0 0 1 Ruta_0553/Ruta_0553_Trailer_Transformador.ldr
+1 0 3141.847199249266 0 0 1 0 0 0 1 0 0 0 1 Ruta_0553/Ruta_0553_Trailer_Transporte_Mineral.ldr
+1 0 3816.847199249266 0 0 1 0 0 0 1 0 0 0 1 Ruta_0553/Ruta_0553_Transporte_Doble_Articulado.ldr
+1 0 4622.347199249266 0 0 1 0 0 0 1 0 0 0 1 Ruta_0553/Ruta_0553_Transporte_Especial.ldr
+1 0 5282.947199249266 0 0 1 0 0 0 1 0 0 0 1 Ruta_0553/Ruta_0553_Transporte_Especial_Carga.ldr
+1 0 5595.547199249267 0 0 1 0 0 0 1 0 0 0 1 Ruta_0553/Ruta_0553_Vehiculo_20_Ruedas.ldr
+0
