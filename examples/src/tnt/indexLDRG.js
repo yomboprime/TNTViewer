@@ -163,7 +163,8 @@ function generateAllIndexLDRs( lDrawLoader, db, processPartOrModel, onProgress, 
 		let subfolderPath = FileOperations.removeFilename( dbModel.path );
 		if ( subfolderPath.endsWith( '/' ) ) subfolderPath = subfolderPath.substring( 0, subfolderPath.length - 1 );
 		subfolderPath = subfolderPath.substring( "oficiales/".length );
-		const seriesIndexName = FileOperations.removeFilename( subfolderPath ) + "ind_" + dbModel.seriesNumber.replace( ' ', '_' ) + "_" + dbModel.refNumber + ".ldr";
+		//const seriesIndexName = FileOperations.removeFilename( subfolderPath ) + "ind_" + dbModel.seriesNumber.replace( ' ', '_' ) + "_" + dbModel.refNumber + ".ldr";
+		const seriesIndexName = subfolderPath + ".ldr";
 
 		const indexContents = generateIndexLDRInternal( models );
 		zipFile.file( seriesIndexName, indexContents );
