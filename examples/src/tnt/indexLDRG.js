@@ -20,15 +20,14 @@ function generateAllIndexLDRs( lDrawLoader, db, processPartOrModel, onProgress, 
 
 		const model = db.models[ db.modelPathsList[ i ] ];
 
-		models.push( model );
-
 		if( previousSeries !== null && ( previousSeries !== model.seriesNumber || previousRefNumber !== model.refNumber ) && models.length > 0 ) {
 
 			if ( models[ 0 ].path.startsWith( "oficiales/" ) ) modelsIndices.push( models );
 
-			models = [];
+			models = [ model ];
 
 		}
+		else models.push( model );
 
 		previousSeries = model.seriesNumber;
 		previousRefNumber = model.refNumber;
@@ -104,7 +103,7 @@ function generateAllIndexLDRs( lDrawLoader, db, processPartOrModel, onProgress, 
 				const whiteColor = '15';
 				processPartOrModel( model1, false, true, whiteColor );
 
-				model1.userData.indexPath = model.path.substring( "oficiales/".length );
+				model1.userData.indexPath = model.path;//.substring( "oficiales/".length );
 				models.push( model1 );
 
 				loadModel( index + 1 );
