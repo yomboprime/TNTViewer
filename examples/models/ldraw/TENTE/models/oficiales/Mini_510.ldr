@@ -1,5 +1,5 @@
 0 ROTATION CENTER 0 0 0 1 "Custom"
-0 ROTATION CONFIG 0 0
-
-1 0 0 0 0 1 0 0 0 1 0 0 0 1 Mini_510/Mini_510_Casa_de_Campo.ldr
+		0 ROTATION CONFIG 0 0
+		
+			1 -72 -72 40 0 1 0 0 0 1 0 0 0 1 Mini_510/Mini_510_Casa_de_Campo.ldr
 0

@@ -1,6 +1,6 @@
 0 ROTATION CENTER 0 0 0 1 "Custom"
-0 ROTATION CONFIG 0 0
-
-1 0 -192 0 0 1 0 0 0 1 0 0 0 1 Ruta_0692/Ruta_0692_Camion_Cisterna.ldr
-1 0 115.8 0 0 1 0 0 0 1 0 0 0 1 Ruta_0692/Ruta_0692_Gasolinera_Ruta_Clasica.ldr
+		0 ROTATION CONFIG 0 0
+		
+			1 -192 -192 63.00000000000002 0 1 0 0 0 1 0 0 0 1 Ruta_0692/Ruta_0692_Camion_Cisterna.ldr
+			1 0 -192 8.000000000000014 0 1 0 0 0 1 0 0 0 1 Ruta_0692/Ruta_0692_Gasolinera_Ruta_Clasica.ldr
 0

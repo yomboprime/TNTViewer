@@ -20,6 +20,8 @@ function generateAllIndexLDRs( lDrawLoader, db, processPartOrModel, onProgress, 
 
 		const model = db.models[ db.modelPathsList[ i ] ];
 
+		if ( model.isIndex ) continue;
+
 		if ( previousSeries !== null && ( previousSeries !== model.seriesNumber || previousRefNumber !== model.refNumber ) && models.length > 0 ) {
 
 			if ( models[ 0 ].path.startsWith( "oficiales/" ) ) modelsIndices.push( models );
@@ -125,7 +127,7 @@ function generateAllIndexLDRs( lDrawLoader, db, processPartOrModel, onProgress, 
 
 		const factor = 1.2;
 		let maxRadius = 0;
-		for ( let i = 0; i < ; i ++ ) {
+		for ( let i = 0; i < numModels; i ++ ) {
 
 			const r = models[ i ].userData.modelDiameter * factor * 0.5;
 			if ( maxRadius < r ) maxRadius = r;
@@ -146,8 +148,8 @@ function generateAllIndexLDRs( lDrawLoader, db, processPartOrModel, onProgress, 
 
 			const model = models[ i ];
 
-			const currentX = x * maxRadius - maxRadius * size * 0.5;
-			const currentY = y * maxRadius - maxRadius * size * 0.5;
+			const currentX = x * maxRadius - maxRadius * side * 0.5;
+			const currentY = y * maxRadius - maxRadius * side * 0.5;
 			const currentZ = - model.userData.modelBbox.min.y;
 
 			fileContents +=

@@ -1,5 +1,5 @@
 0 ROTATION CENTER 0 0 0 1 "Custom"
-0 ROTATION CONFIG 0 0
-
-1 0 0 0 0 1 0 0 0 1 0 0 0 1 Combi_Astro_0308/Combi_Astro_0308_Perforador_Ultrasonico.ldr
+		0 ROTATION CONFIG 0 0
+		
+			1 -94.76849899291992 -94.76849899291992 1.5000000000000284 0 1 0 0 0 1 0 0 0 1 Combi_Astro_0308/Combi_Astro_0308_Perforador_Ultrasonico.ldr
 0

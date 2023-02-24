@@ -1,5 +1,5 @@
 0 ROTATION CENTER 0 0 0 1 "Custom"
-0 ROTATION CONFIG 0 0
-
-1 0 0 0 0 1 0 0 0 1 0 0 0 1 Ruta_0670/Ruta_0670_Camion_Plataforma.ldr
+		0 ROTATION CONFIG 0 0
+		
+			1 -78.3 -78.3 63.00000000000002 0 1 0 0 0 1 0 0 0 1 Ruta_0670/Ruta_0670_Camion_Plataforma.ldr
 0

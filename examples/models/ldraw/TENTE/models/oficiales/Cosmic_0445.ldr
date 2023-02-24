@@ -1,5 +1,5 @@
 0 ROTATION CENTER 0 0 0 1 "Custom"
-0 ROTATION CONFIG 0 0
-
-1 0 0 0 0 1 0 0 0 1 0 0 0 1 Cosmic_0445/Cosmic_0445_Base_Odysseus.ldr
+		0 ROTATION CONFIG 0 0
+		
+			1 -288.9 -288.9 -23.99999999999998 0 1 0 0 0 1 0 0 0 1 Cosmic_0445/Cosmic_0445_Base_Odysseus.ldr
 0

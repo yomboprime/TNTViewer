@@ -67789,6 +67789,8 @@
 
 			const model = db.models[ db.modelPathsList[ i ] ];
 
+			if ( model.isIndex ) continue;
+
 			if ( previousSeries !== null && ( previousSeries !== model.seriesNumber || previousRefNumber !== model.refNumber ) && models.length > 0 ) {
 
 				if ( models[ 0 ].path.startsWith( "oficiales/" ) ) modelsIndices.push( models );
@@ -67883,36 +67885,48 @@
 
 		}
 
-		function generateIndexLDRInternal( models ) {
+		function generateIndexLDRInternal2( models ) {
+
+			const numModels = models.length;
 
 			const factor = 1.2;
-			let totalLength = 0;
+			let maxRadius = 0;
+			for ( let i = 0; i < numModels; i ++ ) {
 
-			for ( let i = 0; i < models.length; i ++ ) {
-
-				totalLength += models[ i ].userData.modelDiameter * factor;
+				const r = models[ i ].userData.modelDiameter * factor * 0.5;
+				if ( maxRadius < r ) maxRadius = r;
 
 			}
 
+			let side = 1;
+			while ( side * side < numModels ) side ++;
+
 			let fileContents =
-`0 ROTATION CENTER 0 0 0 1 "Custom"
-0 ROTATION CONFIG 0 0
-`	;
+			`0 ROTATION CENTER 0 0 0 1 "Custom"
+		0 ROTATION CONFIG 0 0
+		`;
 
-			let currentX = - totalLength * 0.5;
-
-			for ( let i = 0; i < models.length; i ++ ) {
+			let x = 0;
+			let y = 0;
+			for ( let i = 0; i < numModels; i ++ ) {
 
 				const model = models[ i ];
 
-				const increment = model.userData.modelDiameter * factor * 0.5;
-				currentX += increment;
+				const currentX = x * maxRadius - maxRadius * side * 0.5;
+				const currentY = y * maxRadius - maxRadius * side * 0.5;
+				const currentZ = - model.userData.modelBbox.min.y;
 
 				fileContents +=
-`
-1 0 `	 + currentX + ` 0 0 1 0 0 0 1 0 0 0 1 ` + model.userData.indexPath;
+				`
+			1 ` + currentX + ` ` + currentY + ` ` + currentZ + ` 0 1 0 0 0 1 0 0 0 1 ` + model.userData.indexPath;
 
-				currentX += increment;
+				x ++;
+				if ( x >= side ) {
+
+					x = 0;
+					y ++;
+
+				}
 
 			}
 
@@ -67930,7 +67944,7 @@
 			//const seriesIndexName = FileOperations.removeFilename( subfolderPath ) + "ind_" + dbModel.seriesNumber.replace( ' ', '_' ) + "_" + dbModel.refNumber + ".ldr";
 			const seriesIndexName = subfolderPath + ".ldr";
 
-			const indexContents = generateIndexLDRInternal( models );
+			const indexContents = generateIndexLDRInternal2( models );
 			zipFile.file( seriesIndexName, indexContents );
 
 		}

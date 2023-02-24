@@ -1,6 +1,6 @@
 0 ROTATION CENTER 0 0 0 1 "Custom"
-0 ROTATION CONFIG 0 0
-
-1 0 -302.5151999985694 0 0 1 0 0 0 1 0 0 0 1 Roblock_0791/Roblock_0791_Thor.ldr
-1 0 420.75000000000006 0 0 1 0 0 0 1 0 0 0 1 Roblock_0791/Roblock_0791_Thor_Transf.ldr
+		0 ROTATION CONFIG 0 0
+		
+			1 -420.75 -420.75 -39.99999999999999 0 1 0 0 0 1 0 0 0 1 Roblock_0791/Roblock_0791_Thor.ldr
+			1 0 -420.75 -408.001 0 1 0 0 0 1 0 0 0 1 Roblock_0791/Roblock_0791_Thor_Transf.ldr
 0

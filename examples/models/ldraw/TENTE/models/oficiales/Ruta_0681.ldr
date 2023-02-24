@@ -1,5 +1,5 @@
 0 ROTATION CENTER 0 0 0 1 "Custom"
-0 ROTATION CONFIG 0 0
-
-1 0 0 0 0 1 0 0 0 1 0 0 0 1 Ruta_0681/Ruta_0681_Trailer_Cisterna_Aeropuerto.ldr
+		0 ROTATION CONFIG 0 0
+		
+			1 -132.6 -132.6 55.000000000000014 0 1 0 0 0 1 0 0 0 1 Ruta_0681/Ruta_0681_Trailer_Cisterna_Aeropuerto.ldr
 0

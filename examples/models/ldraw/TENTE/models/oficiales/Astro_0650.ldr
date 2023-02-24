@@ -1,6 +1,6 @@
 0 ROTATION CENTER 0 0 0 1 "Custom"
-0 ROTATION CONFIG 0 0
-
-1 0 -168.34919986724856 0 0 1 0 0 0 1 0 0 0 1 Astro_0650/Astro_0650_Desintegrador_de_Rayos_Laser.ldr
-1 0 119.99999999999999 0 0 1 0 0 0 1 0 0 0 1 Astro_0650/Astro_0650_Desintegrador_de_Rayos_Laser_Alter1.ldr
+		0 ROTATION CONFIG 0 0
+		
+			1 -168.34919986724853 -168.34919986724853 59.58200073242189 0 1 0 0 0 1 0 0 0 1 Astro_0650/Astro_0650_Desintegrador_de_Rayos_Laser.ldr
+			1 0 -168.34919986724853 59.582000732421875 0 1 0 0 0 1 0 0 0 1 Astro_0650/Astro_0650_Desintegrador_de_Rayos_Laser_Alter1.ldr
 0

@@ -1,7 +1,7 @@
 0 ROTATION CENTER 0 0 0 1 "Custom"
-0 ROTATION CONFIG 0 0
-
-1 0 -656.673 0 0 1 0 0 0 1 0 0 0 1 Astro_0722/Astro_0722_Nave_de_Defensa_Sideral.ldr
-1 0 147.32699999999994 0 0 1 0 0 0 1 0 0 0 1 Astro_0722/Astro_0722_Nave_de_Defensa_Sideral_Alter1.ldr
-1 0 803.9999999999999 0 0 1 0 0 0 1 0 0 0 1 Astro_0722/Astro_0722_Nave_de_Defensa_Sideral_Alter2.ldr
+		0 ROTATION CONFIG 0 0
+		
+			1 -472.79999999999995 -472.79999999999995 112.00000000000004 0 1 0 0 0 1 0 0 0 1 Astro_0722/Astro_0722_Nave_de_Defensa_Sideral.ldr
+			1 0 -472.79999999999995 128 0 1 0 0 0 1 0 0 0 1 Astro_0722/Astro_0722_Nave_de_Defensa_Sideral_Alter1.ldr
+			1 -472.79999999999995 0 152.00000000000003 0 1 0 0 0 1 0 0 0 1 Astro_0722/Astro_0722_Nave_de_Defensa_Sideral_Alter2.ldr
 0
