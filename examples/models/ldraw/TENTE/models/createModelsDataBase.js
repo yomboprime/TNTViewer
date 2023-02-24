@@ -289,6 +289,9 @@ const countryCodes = [
 
 let numOfficialModels = 0;
 let numModelsInSourceDataBase = 0;
+let numIndexModels = 0;
+let lastModelSeries = undefined;
+let lastModelRef = undefined;
 for ( let i in dataBase.modelPathsList ) {
 
 	const modelPath = dataBase.modelPathsList[ i ];
@@ -302,8 +305,12 @@ for ( let i in dataBase.modelPathsList ) {
 		seriesNumber: null,
 		refNumber: null,
 		fileTitle: "",
-		fileBoxTitle: ""
+		fileBoxTitle: "",
+		isOfficial: false,
+		isIndex: false
 	};
+
+	let modelIsInDB = false;
 
 	if ( modelPath.startsWith( 'oficiales/' ) ) {
 
@@ -311,7 +318,6 @@ for ( let i in dataBase.modelPathsList ) {
 
 		if ( modelFilename.startsWith( '_' ) ) continue;
 
-		numOfficialModels ++;
 		dataBase.models[ modelPath ] = model;
 
 		let pathFieldsStr = modelFilename;
@@ -352,7 +358,7 @@ for ( let i in dataBase.modelPathsList ) {
 			for ( let j = titleFirstField; j < numPathFields; j ++ ) titleParts.push( pathFields[ j ] );
 			model.title = titleParts.join( ' ' );
 
-			editModelByDataBase( model );
+			modelIsInDB = editModelByDataBase( model );
 
 		}
 
@@ -375,46 +381,26 @@ for ( let i in dataBase.modelPathsList ) {
 
 	obtainFieldsFromFile( model );
 
-}
-/*
-// Index ldr files
-let prevSeries = null;
-let indexModels = [];
-for ( let i in dataBase.modelPathsList ) {
+	if ( modelPath.startsWith( 'oficiales/' ) ) {
 
-	const model = dataBase.models[ i ];
+		if ( ( lastModelSeries === undefined && lastModelRef === undefined ) ||
+			( lastModelSeries !== model.seriesNumber || lastModelRef !== model.refNumber ) ) {
 
-	if ( ! prevSeries ) indexModels.push( model );
-	else {
-
-		if ( prevSeries === model.series ) indexModels.push( model );
-		else {
-
-			if ( indexModels.length >= 2 ) {
-
-				createIndexLDR( indexModels );
-				indexModels = [];
-
-			}
+			model.isIndex = true;
+			numIndexModels ++;
 
 		}
-	}
+		else numOfficialModels ++;
 
-}
-
-if ( indexModels.length >= 2 ) createIndexLDR( indexModels );
-*/
-
-function createIndexLDR( indexModels ) {
-
-	for ( let i = 0; i < indexModels.length; i ++ ) {
-
-		const model = indexModels[ i ];
-		const bbox = { x: null, y: null, z: null };
+		lastModelSeries = model.seriesNumber;
+		lastModelRef = model.refNumber;
 
 	}
 
+	if ( modelIsInDB && ! model.isIndex ) numModelsInSourceDataBase ++;
+
 }
+
 
 
 dataBase.colorsCodesList.sort();
@@ -536,21 +522,27 @@ function editModelByDataBase( model, pathFields ) {
 		model.id = sourceFields[ 0 ];
 		model.title = sourceFields[ 3 ] + " - " + model.title;
 
-		if ( ! getFilenameFromPath( model.path ).startsWith( '_' ) ) numModelsInSourceDataBase ++;
+		return true;
 
 	}
 
+	return false;
+
 }
 
+const totalNumModels = dataBase.modelPathsList.length - numIndexModels;
+
 console.log();
-console.log( "Total models: " + dataBase.modelPathsList.length );
+console.log( "Total models: " + totalNumModels );
 
 console.log( "Official models: " + numOfficialModels );
-console.log( "Custom models: " + ( dataBase.modelPathsList.length - numOfficialModels ) );
+console.log( "Custom models: " + ( totalNumModels - numOfficialModels ) );
 
 const percent = Math.floor( 10000 * numModelsInSourceDataBase / numOfficialModels ) / 100;
 
 console.log( "Official models in source database: " + numModelsInSourceDataBase + " (" + percent + " %)" );
+
+console.log( "Index models: " + numIndexModels );
 
 console.log( "Used colors in all models: " + dataBase.colorsCodesList.length );
 
@@ -652,7 +644,7 @@ for ( let i in dataBase.modelPathsList ) {
 			</tr>
 `;
 
-		officialModelsCount ++;
+		if ( ! model.isIndex ) officialModelsCount ++;
 
 	}
 	else {

@@ -48468,7 +48468,7 @@
 						} else {
 
 							// Next attempt is lower case
-							fileName = fileName/*.toLowerCase()*/;
+							fileName = fileName.toLowerCase();
 							subobjectURL = fileName;
 							triedLowerCase = true;
 							locationState = FILE_LOCATION_TRY_PARTS;
@@ -48966,7 +48966,7 @@
 		// returns an (optionally cloned) instance of the data
 		getData( fileName, clone = true ) {
 
-			const key = fileName/*.toLowerCase()*/;
+			const key = fileName.toLowerCase();
 			const result = this._cache[ key ];
 			if ( result === null || result instanceof Promise ) {
 
@@ -48990,7 +48990,7 @@
 		// the data is ready to use and can be retrieved synchronously with "getData".
 		async ensureDataLoaded( fileName ) {
 
-			const key = fileName/*.toLowerCase()*/;
+			const key = fileName.toLowerCase();
 			if ( ! ( key in this._cache ) ) {
 
 				// replace the promise with a copy of the parsed data for immediate processing
@@ -49011,7 +49011,7 @@
 		// sets the data in the cache from parsed data
 		setData( fileName, text ) {
 
-			const key = fileName/*.toLowerCase()*/;
+			const key = fileName.toLowerCase();
 			this._cache[ key ] = this.parse( text, fileName );
 
 		}
@@ -49260,7 +49260,7 @@
 
 		hasCachedModel( fileName ) {
 
-			return fileName !== null && fileName/*.toLowerCase()*/ in this._cache;
+			return fileName !== null && fileName.toLowerCase() in this._cache;
 
 		}
 
@@ -49268,7 +49268,7 @@
 
 			if ( fileName !== null && this.hasCachedModel( fileName ) ) {
 
-				const key = fileName/*.toLowerCase()*/;
+				const key = fileName.toLowerCase();
 				const group = await this._cache[ key ];
 				return group.clone();
 
@@ -49284,7 +49284,7 @@
 		async loadModel( fileName ) {
 
 			const parseCache = this.parseCache;
-			const key = fileName/*.toLowerCase()*/;
+			const key = fileName.toLowerCase();
 			if ( this.hasCachedModel( fileName ) ) {
 
 				// Return cached model if available.
@@ -67927,7 +67927,8 @@
 			let subfolderPath = removeFilename( dbModel.path );
 			if ( subfolderPath.endsWith( '/' ) ) subfolderPath = subfolderPath.substring( 0, subfolderPath.length - 1 );
 			subfolderPath = subfolderPath.substring( "oficiales/".length );
-			const seriesIndexName = removeFilename( subfolderPath ) + "ind_" + dbModel.seriesNumber.replace( ' ', '_' ) + "_" + dbModel.refNumber + ".ldr";
+			//const seriesIndexName = FileOperations.removeFilename( subfolderPath ) + "ind_" + dbModel.seriesNumber.replace( ' ', '_' ) + "_" + dbModel.refNumber + ".ldr";
+			const seriesIndexName = subfolderPath + ".ldr";
 
 			const indexContents = generateIndexLDRInternal( models );
 			zipFile.file( seriesIndexName, indexContents );

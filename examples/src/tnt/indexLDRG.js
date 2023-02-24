@@ -119,6 +119,57 @@ function generateAllIndexLDRs( lDrawLoader, db, processPartOrModel, onProgress, 
 
 	}
 
+	function generateIndexLDRInternal2( models ) {
+
+		const numModels = models.length;
+
+		const factor = 1.2;
+		let maxRadius = 0;
+		for ( let i = 0; i < ; i ++ ) {
+
+			const r = models[ i ].userData.modelDiameter * factor * 0.5;
+			if ( maxRadius < r ) maxRadius = r;
+
+		}
+
+		let side = 1;
+		while ( side * side < numModels ) side ++;
+
+		let fileContents =
+		`0 ROTATION CENTER 0 0 0 1 "Custom"
+		0 ROTATION CONFIG 0 0
+		`;
+
+		let x = 0;
+		let y = 0;
+		for ( let i = 0; i < numModels; i ++ ) {
+
+			const model = models[ i ];
+
+			const currentX = x * maxRadius - maxRadius * size * 0.5;
+			const currentY = y * maxRadius - maxRadius * size * 0.5;
+			const currentZ = - model.userData.modelBbox.min.y;
+
+			fileContents +=
+			`
+			1 ` + currentX + ` ` + currentY + ` ` + currentZ + ` 0 1 0 0 0 1 0 0 0 1 ` + model.userData.indexPath;
+
+			x ++;
+			if ( x >= side ) {
+
+				x = 0;
+				y ++;
+
+			}
+
+		}
+
+		fileContents += '\n0';
+
+		return fileContents;
+
+	}
+
 	function generateIndexLDRInternal( models ) {
 
 		const factor = 1.2;
@@ -166,7 +217,7 @@ function generateAllIndexLDRs( lDrawLoader, db, processPartOrModel, onProgress, 
 		//const seriesIndexName = FileOperations.removeFilename( subfolderPath ) + "ind_" + dbModel.seriesNumber.replace( ' ', '_' ) + "_" + dbModel.refNumber + ".ldr";
 		const seriesIndexName = subfolderPath + ".ldr";
 
-		const indexContents = generateIndexLDRInternal( models );
+		const indexContents = generateIndexLDRInternal2( models );
 		zipFile.file( seriesIndexName, indexContents );
 
 	}
