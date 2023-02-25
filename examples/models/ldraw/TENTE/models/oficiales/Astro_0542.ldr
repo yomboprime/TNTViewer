@@ -1,6 +1,6 @@
 0 ROTATION CENTER 0 0 0 1 "Custom"
 		0 ROTATION CONFIG 0 0
 		
-			1 -706.8 0 -706.8 0 1 0 0 0 1 0 0 0 1 Astro_0542/Astro_0542_Interceptor_Tactico.ldr
-			1 0 0 -706.8 0 1 0 0 0 1 0 0 0 1 Astro_0542/Astro_0542_Transporte_de_Discos.ldr
+			1 -706.8 -72.00000000000001 -706.8 0 1 0 0 0 1 0 0 0 1 Astro_0542/Astro_0542_Interceptor_Tactico.ldr
+			1 0 -11.58200073242191 -706.8 0 1 0 0 0 1 0 0 0 1 Astro_0542/Astro_0542_Transporte_de_Discos.ldr
 0

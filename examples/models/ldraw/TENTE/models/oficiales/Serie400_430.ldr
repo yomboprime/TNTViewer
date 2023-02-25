@@ -1,11 +1,11 @@
 0 ROTATION CENTER 0 0 0 1 "Custom"
 		0 ROTATION CONFIG 0 0
 		
-			1 -1620 0 -1620 0 1 0 0 0 1 0 0 0 1 Serie400_430/Serie400_430_Ballena.ldr
-			1 -540 0 -1620 0 1 0 0 0 1 0 0 0 1 Serie400_430/Serie400_430_Chalet_2_Tejados.ldr
-			1 540 0 -1620 0 1 0 0 0 1 0 0 0 1 Serie400_430/Serie400_430_Club_Nautico.ldr
-			1 -1620 0 -540 0 1 0 0 0 1 0 0 0 1 Serie400_430/Serie400_430_Construccion_Singular.ldr
-			1 -540 0 -540 0 1 0 0 0 1 0 0 0 1 Serie400_430/Serie400_430_Indio.ldr
-			1 540 0 -540 0 1 0 0 0 1 0 0 0 1 Serie400_430/Serie400_430_Parador_de_la_Sierra.ldr
-			1 -1620 0 540 0 1 0 0 0 1 0 0 0 1 Serie400_430/Serie400_430_Zona_Comercial.ldr
+			1 -1620 -2.4492935982947073e-15 -1620 0 1 0 0 0 1 0 0 0 1 Serie400_430/Serie400_430_Ballena.ldr
+			1 -540 -3.429011037612589e-14 -1620 0 1 0 0 0 1 0 0 0 1 Serie400_430/Serie400_430_Chalet_2_Tejados.ldr
+			1 540 -56.000000000000014 -1620 0 1 0 0 0 1 0 0 0 1 Serie400_430/Serie400_430_Club_Nautico.ldr
+			1 -1620 -24.00000000000001 -2700 0 1 0 0 0 1 0 0 0 1 Serie400_430/Serie400_430_Construccion_Singular.ldr
+			1 -540 -1.2246467991473535e-14 -2700 0 1 0 0 0 1 0 0 0 1 Serie400_430/Serie400_430_Indio.ldr
+			1 540 -2.694222958124177e-14 -2700 0 1 0 0 0 1 0 0 0 1 Serie400_430/Serie400_430_Parador_de_la_Sierra.ldr
+			1 -1620 -1.9594348786357655e-14 -3780 0 1 0 0 0 1 0 0 0 1 Serie400_430/Serie400_430_Zona_Comercial.ldr
 0

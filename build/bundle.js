@@ -67913,8 +67913,8 @@
 				const model = models[ i ];
 
 				const currentX = x * maxDiameter - maxDiameter * side * 0.5;
-				const currentY = 0;//- model.userData.modelBbox.min.y;
-				const currentZ = z * maxDiameter - maxDiameter * side * 0.5;
+				const currentY = model.userData.modelBbox.min.y;
+				const currentZ = - z * maxDiameter - maxDiameter * side * 0.5;
 
 				fileContents +=
 				`

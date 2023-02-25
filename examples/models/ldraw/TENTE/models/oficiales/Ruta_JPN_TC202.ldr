@@ -1,7 +1,7 @@
 0 ROTATION CENTER 0 0 0 1 "Custom"
 		0 ROTATION CONFIG 0 0
 		
-			1 -626.4 0 -626.4 0 1 0 0 0 1 0 0 0 1 Ruta_JPN_TC202/Ruta_JPN_TC202_Container_Truck.ldr
-			1 0 0 -626.4 0 1 0 0 0 1 0 0 0 1 Ruta_JPN_TC202/Ruta_JPN_TC202_Container_Truck_Alter1.ldr
-			1 -626.4 0 0 0 1 0 0 0 1 0 0 0 1 Ruta_JPN_TC202/Ruta_JPN_TC202_Container_Truck_Alter2.ldr
+			1 -626.4 -63.00000000000001 -626.4 0 1 0 0 0 1 0 0 0 1 Ruta_JPN_TC202/Ruta_JPN_TC202_Container_Truck.ldr
+			1 0 -63.00000000000001 -626.4 0 1 0 0 0 1 0 0 0 1 Ruta_JPN_TC202/Ruta_JPN_TC202_Container_Truck_Alter1.ldr
+			1 -626.4 -79.00000000000001 -1252.8 0 1 0 0 0 1 0 0 0 1 Ruta_JPN_TC202/Ruta_JPN_TC202_Container_Truck_Alter2.ldr
 0

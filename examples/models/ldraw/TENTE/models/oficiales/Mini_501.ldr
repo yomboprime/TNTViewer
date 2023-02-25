@@ -1,6 +1,6 @@
 0 ROTATION CENTER 0 0 0 1 "Custom"
 		0 ROTATION CONFIG 0 0
 		
-			1 -312 0 -312 0 1 0 0 0 1 0 0 0 1 Mini_501/Mini_501_Chalet.ldr
-			1 0 0 -312 0 1 0 0 0 1 0 0 0 1 Mini_501/Mini_501_Simbolo_Chino.ldr
+			1 -312 -104.00000000000001 -312 0 1 0 0 0 1 0 0 0 1 Mini_501/Mini_501_Chalet.ldr
+			1 0 -1.469576158976824e-14 -312 0 1 0 0 0 1 0 0 0 1 Mini_501/Mini_501_Simbolo_Chino.ldr
 0
