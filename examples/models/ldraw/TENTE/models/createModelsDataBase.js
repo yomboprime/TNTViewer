@@ -290,8 +290,11 @@ const countryCodes = [
 let numOfficialModels = 0;
 let numModelsInSourceDataBase = 0;
 let numIndexModels = 0;
+
 let lastModelSeries = undefined;
 let lastModelRef = undefined;
+let lastIndexFileIndex = undefined;
+
 for ( let i in dataBase.modelPathsList ) {
 
 	const modelPath = dataBase.modelPathsList[ i ];
@@ -308,6 +311,7 @@ for ( let i in dataBase.modelPathsList ) {
 		fileBoxTitle: "",
 		isOfficial: false,
 		isIndex: false
+		// numFilesInIndex: 0 (Only if isIndex === true)
 	};
 
 	let modelIsInDB = false;
@@ -386,11 +390,18 @@ for ( let i in dataBase.modelPathsList ) {
 		if ( ( lastModelSeries === undefined && lastModelRef === undefined ) ||
 			( lastModelSeries !== model.seriesNumber || lastModelRef !== model.refNumber ) ) {
 
-			model.isIndex = true;
 			numIndexModels ++;
+			model.isIndex = true;
+			model.numFilesInIndex = 0;
+			lastIndexFileIndex = i;
 
 		}
-		else numOfficialModels ++;
+		else {
+
+			numOfficialModels ++;
+			if ( lastIndexFileIndex !== undefined ) dataBase.models[ dataBase.modelPathsList[ lastIndexFileIndex ] ].numFilesInIndex ++;
+
+		}
 
 		lastModelSeries = model.seriesNumber;
 		lastModelRef = model.refNumber;
@@ -626,16 +637,18 @@ for ( let i in dataBase.modelPathsList ) {
 
 	if ( modelPath.startsWith( 'oficiales/' ) ) {
 
-		officialModelsContent +=
+		if ( ! model.isIndex || model.numFilesInIndex > 1 ) {
+
+			officialModelsContent +=
 `			<tr>
 				<td>` + model.title + `</td>
 				<td>` + ( model.seriesNumber ? model.seriesNumber : "No series." ) + `</td>
 				<td>` + ( model.refNumber ? model.refNumber : "No ref." ) + `</td>
-				<td><a href="/TNTViewer/examples/tnt.html?modelPath=` + model.path + `">View model</a></td>
+				<td><a href="/TNTViewer/examples/tnt.html?modelPath=` + model.path + `">View ` + ( model.isIndex ? `Reference index` : `model` ) + `</a></td>
 				` +
 				(
 					model.id ?
-					`<td><a href="https://refstente.com/id/` + model.id + `">Model information (external link)</a></td>`
+					`<td><a href="https://refstente.com/id/` + model.id + `">` + ( model.isIndex ? `Reference` : `Model` ) + ` information (external link)</a></td>`
 					:
 					`<td>No info.</td>`
 				) +
@@ -644,7 +657,9 @@ for ( let i in dataBase.modelPathsList ) {
 			</tr>
 `;
 
-		if ( ! model.isIndex ) officialModelsCount ++;
+			if ( ! model.isIndex ) officialModelsCount ++;
+
+		}
 
 	}
 	else {

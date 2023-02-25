@@ -1,25 +1,25 @@
 0 ROTATION CENTER 0 0 0 1 "Custom"
 		0 ROTATION CONFIG 0 0
 		
-			1 -1710 -1710 9.797174393178829e-15 0 1 0 0 0 1 0 0 0 1 Basico_0404/Basico_0404_Barco.ldr
-			1 -1026 -1710 39.00000000000001 0 1 0 0 0 1 0 0 0 1 Basico_0404/Basico_0404_Bicho.ldr
-			1 -342 -1710 1.2246467991473534e-14 0 1 0 0 0 1 0 0 0 1 Basico_0404/Basico_0404_Carguero_y_Grua.ldr
-			1 342 -1710 1.83697019872103e-14 0 1 0 0 0 1 0 0 0 1 Basico_0404/Basico_0404_Casa.ldr
-			1 1026 -1710 1.469576158976824e-14 0 1 0 0 0 1 0 0 0 1 Basico_0404/Basico_0404_Casa_con_Balcon.ldr
-			1 -1710 -1026 1.9594348786357655e-14 0 1 0 0 0 1 0 0 0 1 Basico_0404/Basico_0404_Casa_con_Torre.ldr
-			1 -1026 -1026 7.347880794884123e-15 0 1 0 0 0 1 0 0 0 1 Basico_0404/Basico_0404_Casita_con_Garaje.ldr
-			1 -342 -1026 1.7145055188062946e-14 0 1 0 0 0 1 0 0 0 1 Basico_0404/Basico_0404_Chinos.ldr
-			1 342 -1026 8.572527594031476e-15 0 1 0 0 0 1 0 0 0 1 Basico_0404/Basico_0404_Ciguena.ldr
-			1 1026 -1026 1.7145055188062946e-14 0 1 0 0 0 1 0 0 0 1 Basico_0404/Basico_0404_Cuartel_de_Bomberos.ldr
-			1 -1710 -342 40.00000000000004 0 1 0 0 0 1 0 0 0 1 Basico_0404/Basico_0404_Depositos_y_Camion_Cemento.ldr
-			1 -1026 -342 128.00000000000003 0 1 0 0 0 1 0 0 0 1 Basico_0404/Basico_0404_Esquiador_y_Trineo.ldr
-			1 -342 -342 8.000000000000036 0 1 0 0 0 1 0 0 0 1 Basico_0404/Basico_0404_Faro_y_Velero.ldr
-			1 342 -342 152.00000000000003 0 1 0 0 0 1 0 0 0 1 Basico_0404/Basico_0404_Gallinero.ldr
-			1 1026 -342 9.797174393178829e-15 0 1 0 0 0 1 0 0 0 1 Basico_0404/Basico_0404_Granja.ldr
-			1 -1710 342 40.00000000000003 0 1 0 0 0 1 0 0 0 1 Basico_0404/Basico_0404_GruaPuente_Camion_y_Containers.ldr
-			1 -1026 342 55.12783350000001 0 1 0 0 0 1 0 0 0 1 Basico_0404/Basico_0404_Hangar_y_Avionetas.ldr
-			1 -342 342 4.898587196589413e-15 0 1 0 0 0 1 0 0 0 1 Basico_0404/Basico_0404_Payaso.ldr
-			1 342 342 4.898587196589414e-15 0 1 0 0 0 1 0 0 0 1 Basico_0404/Basico_0404_Piragua_India_y_Dragon.ldr
-			1 1026 342 4.898587196589413e-15 0 1 0 0 0 1 0 0 0 1 Basico_0404/Basico_0404_Soldado.ldr
-			1 -1710 1026 24.000000000000032 0 1 0 0 0 1 0 0 0 1 Basico_0404/Basico_0404_Tren_y_Estacion.ldr
+			1 -3420 9.797174393178829e-15 -3420 0 1 0 0 0 1 0 0 0 1 Basico_0404/Basico_0404_Barco.ldr
+			1 -2052 39.00000000000001 -3420 0 1 0 0 0 1 0 0 0 1 Basico_0404/Basico_0404_Bicho.ldr
+			1 -684 1.2246467991473534e-14 -3420 0 1 0 0 0 1 0 0 0 1 Basico_0404/Basico_0404_Carguero_y_Grua.ldr
+			1 684 1.83697019872103e-14 -3420 0 1 0 0 0 1 0 0 0 1 Basico_0404/Basico_0404_Casa.ldr
+			1 2052 1.469576158976824e-14 -3420 0 1 0 0 0 1 0 0 0 1 Basico_0404/Basico_0404_Casa_con_Balcon.ldr
+			1 -3420 1.9594348786357655e-14 -2052 0 1 0 0 0 1 0 0 0 1 Basico_0404/Basico_0404_Casa_con_Torre.ldr
+			1 -2052 7.347880794884123e-15 -2052 0 1 0 0 0 1 0 0 0 1 Basico_0404/Basico_0404_Casita_con_Garaje.ldr
+			1 -684 1.7145055188062946e-14 -2052 0 1 0 0 0 1 0 0 0 1 Basico_0404/Basico_0404_Chinos.ldr
+			1 684 8.572527594031476e-15 -2052 0 1 0 0 0 1 0 0 0 1 Basico_0404/Basico_0404_Ciguena.ldr
+			1 2052 1.7145055188062946e-14 -2052 0 1 0 0 0 1 0 0 0 1 Basico_0404/Basico_0404_Cuartel_de_Bomberos.ldr
+			1 -3420 40.00000000000004 -684 0 1 0 0 0 1 0 0 0 1 Basico_0404/Basico_0404_Depositos_y_Camion_Cemento.ldr
+			1 -2052 128.00000000000003 -684 0 1 0 0 0 1 0 0 0 1 Basico_0404/Basico_0404_Esquiador_y_Trineo.ldr
+			1 -684 8.000000000000036 -684 0 1 0 0 0 1 0 0 0 1 Basico_0404/Basico_0404_Faro_y_Velero.ldr
+			1 684 152.00000000000003 -684 0 1 0 0 0 1 0 0 0 1 Basico_0404/Basico_0404_Gallinero.ldr
+			1 2052 9.797174393178829e-15 -684 0 1 0 0 0 1 0 0 0 1 Basico_0404/Basico_0404_Granja.ldr
+			1 -3420 40.00000000000003 684 0 1 0 0 0 1 0 0 0 1 Basico_0404/Basico_0404_GruaPuente_Camion_y_Containers.ldr
+			1 -2052 55.12783350000001 684 0 1 0 0 0 1 0 0 0 1 Basico_0404/Basico_0404_Hangar_y_Avionetas.ldr
+			1 -684 4.898587196589413e-15 684 0 1 0 0 0 1 0 0 0 1 Basico_0404/Basico_0404_Payaso.ldr
+			1 684 4.898587196589414e-15 684 0 1 0 0 0 1 0 0 0 1 Basico_0404/Basico_0404_Piragua_India_y_Dragon.ldr
+			1 2052 4.898587196589413e-15 684 0 1 0 0 0 1 0 0 0 1 Basico_0404/Basico_0404_Soldado.ldr
+			1 -3420 24.000000000000032 2052 0 1 0 0 0 1 0 0 0 1 Basico_0404/Basico_0404_Tren_y_Estacion.ldr
 0

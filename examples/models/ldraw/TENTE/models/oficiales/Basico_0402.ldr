@@ -1,20 +1,20 @@
 0 ROTATION CENTER 0 0 0 1 "Custom"
 		0 ROTATION CONFIG 0 0
 		
-			1 -672 -672 47.00000000000001 0 1 0 0 0 1 0 0 0 1 Basico_0402/Basico_0402_Avion.ldr
-			1 -336 -672 1.0877048587575129e-30 0 1 0 0 0 1 0 0 0 1 Basico_0402/Basico_0402_Buho.ldr
-			1 0 -672 7.000000000000005 0 1 0 0 0 1 0 0 0 1 Basico_0402/Basico_0402_Camion_Reparto.ldr
-			1 336 -672 40.00000000000002 0 1 0 0 0 1 0 0 0 1 Basico_0402/Basico_0402_Casa.ldr
-			1 -672 -336 2.939152317953648e-14 0 1 0 0 0 1 0 0 0 1 Basico_0402/Basico_0402_Casa_con_Garaje.ldr
-			1 -336 -336 7.000000000000005 0 1 0 0 0 1 0 0 0 1 Basico_0402/Basico_0402_Formula_II.ldr
-			1 0 -336 1.469576158976824e-14 0 1 0 0 0 1 0 0 0 1 Basico_0402/Basico_0402_Gasolinera_Engrase.ldr
-			1 336 -336 1.2246467991473532e-14 0 1 0 0 0 1 0 0 0 1 Basico_0402/Basico_0402_Helicoptero.ldr
-			1 -672 0 1.469576158976824e-14 0 1 0 0 0 1 0 0 0 1 Basico_0402/Basico_0402_Monumento.ldr
-			1 -336 0 9.797174393178829e-15 0 1 0 0 0 1 0 0 0 1 Basico_0402/Basico_0402_Peaje_Autopista.ldr
-			1 0 0 7.34788079488412e-15 0 1 0 0 0 1 0 0 0 1 Basico_0402/Basico_0402_Sencillo_1.ldr
-			1 336 0 7.34788079488412e-15 0 1 0 0 0 1 0 0 0 1 Basico_0402/Basico_0402_Sencillo_2.ldr
-			1 -672 336 7.34788079488412e-15 0 1 0 0 0 1 0 0 0 1 Basico_0402/Basico_0402_Sencillo_3.ldr
-			1 -336 336 -1.0000000000000018 0 1 0 0 0 1 0 0 0 1 Basico_0402/Basico_0402_Sencillo_4.ldr
-			1 0 336 4.898587196589413e-15 0 1 0 0 0 1 0 0 0 1 Basico_0402/Basico_0402_Sencillo_5.ldr
-			1 336 336 2.4492935982947065e-15 0 1 0 0 0 1 0 0 0 1 Basico_0402/Basico_0402_Sencillo_6.ldr
+			1 -1344 47.00000000000001 -1344 0 1 0 0 0 1 0 0 0 1 Basico_0402/Basico_0402_Avion.ldr
+			1 -672 1.0877048587575129e-30 -1344 0 1 0 0 0 1 0 0 0 1 Basico_0402/Basico_0402_Buho.ldr
+			1 0 7.000000000000005 -1344 0 1 0 0 0 1 0 0 0 1 Basico_0402/Basico_0402_Camion_Reparto.ldr
+			1 672 40.00000000000002 -1344 0 1 0 0 0 1 0 0 0 1 Basico_0402/Basico_0402_Casa.ldr
+			1 -1344 2.939152317953648e-14 -672 0 1 0 0 0 1 0 0 0 1 Basico_0402/Basico_0402_Casa_con_Garaje.ldr
+			1 -672 7.000000000000005 -672 0 1 0 0 0 1 0 0 0 1 Basico_0402/Basico_0402_Formula_II.ldr
+			1 0 1.469576158976824e-14 -672 0 1 0 0 0 1 0 0 0 1 Basico_0402/Basico_0402_Gasolinera_Engrase.ldr
+			1 672 1.2246467991473532e-14 -672 0 1 0 0 0 1 0 0 0 1 Basico_0402/Basico_0402_Helicoptero.ldr
+			1 -1344 1.469576158976824e-14 0 0 1 0 0 0 1 0 0 0 1 Basico_0402/Basico_0402_Monumento.ldr
+			1 -672 9.797174393178829e-15 0 0 1 0 0 0 1 0 0 0 1 Basico_0402/Basico_0402_Peaje_Autopista.ldr
+			1 0 7.34788079488412e-15 0 0 1 0 0 0 1 0 0 0 1 Basico_0402/Basico_0402_Sencillo_1.ldr
+			1 672 7.34788079488412e-15 0 0 1 0 0 0 1 0 0 0 1 Basico_0402/Basico_0402_Sencillo_2.ldr
+			1 -1344 7.34788079488412e-15 672 0 1 0 0 0 1 0 0 0 1 Basico_0402/Basico_0402_Sencillo_3.ldr
+			1 -672 -1.0000000000000018 672 0 1 0 0 0 1 0 0 0 1 Basico_0402/Basico_0402_Sencillo_4.ldr
+			1 0 4.898587196589413e-15 672 0 1 0 0 0 1 0 0 0 1 Basico_0402/Basico_0402_Sencillo_5.ldr
+			1 672 2.4492935982947065e-15 672 0 1 0 0 0 1 0 0 0 1 Basico_0402/Basico_0402_Sencillo_6.ldr
 0

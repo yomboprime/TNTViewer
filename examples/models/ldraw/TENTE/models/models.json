@@ -9,7 +9,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 1
         },
         "oficiales/Aire_0500/Aire_0500_Helicoptero_de_Rescate.ldr": {
             "path": "oficiales/Aire_0500/Aire_0500_Helicoptero_de_Rescate.ldr",
@@ -31,7 +32,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 1
         },
         "oficiales/Aire_0501/Aire_0501_Servicio_Autopista.ldr": {
             "path": "oficiales/Aire_0501/Aire_0501_Servicio_Autopista.ldr",
@@ -53,7 +55,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 1
         },
         "oficiales/Aire_0502/Aire_0502_Helicoptero_Brigada_Forestal.ldr": {
             "path": "oficiales/Aire_0502/Aire_0502_Helicoptero_Brigada_Forestal.ldr",
@@ -75,7 +78,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 1
         },
         "oficiales/Aire_0506/Aire_0506_Helicoptero_Fumigador.ldr": {
             "path": "oficiales/Aire_0506/Aire_0506_Helicoptero_Fumigador.ldr",
@@ -97,7 +101,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 1
         },
         "oficiales/Aire_0508/Aire_0508_Helicoptero_Turbo_Speed.ldr": {
             "path": "oficiales/Aire_0508/Aire_0508_Helicoptero_Turbo_Speed.ldr",
@@ -119,7 +124,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 1
         },
         "oficiales/Aire_0509/Aire_0509_Helicoptero_Falcon.ldr": {
             "path": "oficiales/Aire_0509/Aire_0509_Helicoptero_Falcon.ldr",
@@ -141,7 +147,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 1
         },
         "oficiales/Aire_0510/Aire_0510_Helicoptero_Ala_Variable.ldr": {
             "path": "oficiales/Aire_0510/Aire_0510_Helicoptero_Ala_Variable.ldr",
@@ -163,7 +170,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 1
         },
         "oficiales/Aire_0530/Aire_0530_Helicoptero_Autotransportado.ldr": {
             "path": "oficiales/Aire_0530/Aire_0530_Helicoptero_Autotransportado.ldr",
@@ -185,7 +193,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 4
         },
         "oficiales/Aire_0556/Aire_0556_Base_Polar_Artic_2.ldr": {
             "path": "oficiales/Aire_0556/Aire_0556_Base_Polar_Artic_2.ldr",
@@ -240,7 +249,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 1
         },
         "oficiales/Aire_70037/Aire_70037_Air_Service.ldr": {
             "path": "oficiales/Aire_70037/Aire_70037_Air_Service.ldr",
@@ -262,7 +272,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 1
         },
         "oficiales/Alfa_0364/Alfa_0364_Roadmaster.ldr": {
             "path": "oficiales/Alfa_0364/Alfa_0364_Roadmaster.ldr",
@@ -284,7 +295,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 1
         },
         "oficiales/Alfa_0370/Alfa_0370_Control_Aereo.ldr": {
             "path": "oficiales/Alfa_0370/Alfa_0370_Control_Aereo.ldr",
@@ -306,7 +318,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 2
         },
         "oficiales/Astro_0542/Astro_0542_Interceptor_Tactico.ldr": {
             "path": "oficiales/Astro_0542/Astro_0542_Interceptor_Tactico.ldr",
@@ -339,7 +352,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 18
         },
         "oficiales/Astro_0552/Astro_0552_Aerodeslizador_Espacial.ldr": {
             "path": "oficiales/Astro_0552/Astro_0552_Aerodeslizador_Espacial.ldr",
@@ -548,7 +562,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 2
         },
         "oficiales/Astro_0650/Astro_0650_Desintegrador_de_Rayos_Laser.ldr": {
             "path": "oficiales/Astro_0650/Astro_0650_Desintegrador_de_Rayos_Laser.ldr",
@@ -581,7 +596,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 1
         },
         "oficiales/Astro_0651/Astro_0651_Centro_Movil_de_Control.ldr": {
             "path": "oficiales/Astro_0651/Astro_0651_Centro_Movil_de_Control.ldr",
@@ -603,7 +619,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 1
         },
         "oficiales/Astro_0652/Astro_0652_Explorador_Espacial.ldr": {
             "path": "oficiales/Astro_0652/Astro_0652_Explorador_Espacial.ldr",
@@ -625,7 +642,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 1
         },
         "oficiales/Astro_0653/Astro_0653_Astromovil.ldr": {
             "path": "oficiales/Astro_0653/Astro_0653_Astromovil.ldr",
@@ -647,7 +665,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 1
         },
         "oficiales/Astro_0654/Astro_0654_Unidad_Sideral_de_Rescate.ldr": {
             "path": "oficiales/Astro_0654/Astro_0654_Unidad_Sideral_de_Rescate.ldr",
@@ -669,7 +688,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 1
         },
         "oficiales/Astro_0655/Astro_0655_Torre_de_Contro_Trafico_Orbital.ldr": {
             "path": "oficiales/Astro_0655/Astro_0655_Torre_de_Contro_Trafico_Orbital.ldr",
@@ -691,7 +711,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 1
         },
         "oficiales/Astro_0656/Astro_0656_Interceptor_Espacial.ldr": {
             "path": "oficiales/Astro_0656/Astro_0656_Interceptor_Espacial.ldr",
@@ -713,7 +734,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 1
         },
         "oficiales/Astro_0657/Astro_0657_Unidad_Teledetectora.ldr": {
             "path": "oficiales/Astro_0657/Astro_0657_Unidad_Teledetectora.ldr",
@@ -735,7 +757,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 1
         },
         "oficiales/Astro_0658/Astro_0658_Arana_Lunar.ldr": {
             "path": "oficiales/Astro_0658/Astro_0658_Arana_Lunar.ldr",
@@ -757,7 +780,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 1
         },
         "oficiales/Astro_0661/Astro_0661_Unidad_Espacial_de_Sondeo.ldr": {
             "path": "oficiales/Astro_0661/Astro_0661_Unidad_Espacial_de_Sondeo.ldr",
@@ -779,7 +803,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 1
         },
         "oficiales/Astro_0720/Astro_0720_Proyector_Galactico_Movil.ldr": {
             "path": "oficiales/Astro_0720/Astro_0720_Proyector_Galactico_Movil.ldr",
@@ -801,7 +826,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 1
         },
         "oficiales/Astro_0721/Astro_0721_Astronave_Torre_de_Lanzamiento.ldr": {
             "path": "oficiales/Astro_0721/Astro_0721_Astronave_Torre_de_Lanzamiento.ldr",
@@ -823,7 +849,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 3
         },
         "oficiales/Astro_0722/Astro_0722_Nave_de_Defensa_Sideral.ldr": {
             "path": "oficiales/Astro_0722/Astro_0722_Nave_de_Defensa_Sideral.ldr",
@@ -867,7 +894,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 1
         },
         "oficiales/Astro_0723/Astro_0723_Base_Vigia_Cosmica.ldr": {
             "path": "oficiales/Astro_0723/Astro_0723_Base_Vigia_Cosmica.ldr",
@@ -889,7 +917,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 1
         },
         "oficiales/Astro_0725/Astro_0725_Equipo_Movil_Fotoestereo.ldr": {
             "path": "oficiales/Astro_0725/Astro_0725_Equipo_Movil_Fotoestereo.ldr",
@@ -911,7 +940,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 1
         },
         "oficiales/Astro_0726/Astro_0726_Base_de_Descontaminacion.ldr": {
             "path": "oficiales/Astro_0726/Astro_0726_Base_de_Descontaminacion.ldr",
@@ -933,7 +963,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 3
         },
         "oficiales/Astro_0740/Astro_0740_Saturno6_Mini_Explorador_Aereo.ldr": {
             "path": "oficiales/Astro_0740/Astro_0740_Saturno6_Mini_Explorador_Aereo.ldr",
@@ -977,7 +1008,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 2
         },
         "oficiales/Astro_70022/Astro_70022_Desintegrador_Borras.ldr": {
             "path": "oficiales/Astro_70022/Astro_70022_Desintegrador_Borras.ldr",
@@ -1010,7 +1042,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 1
         },
         "oficiales/Astro_USA_403/Astro_USA_403_Laser_Ray.ldr": {
             "path": "oficiales/Astro_USA_403/Astro_USA_403_Laser_Ray.ldr",
@@ -1032,7 +1065,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 1
         },
         "oficiales/Astro_USA_480/Astro_USA_480_Space_Power_Station.ldr": {
             "path": "oficiales/Astro_USA_480/Astro_USA_480_Space_Power_Station.ldr",
@@ -1054,7 +1088,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 1
         },
         "oficiales/Astro_USA_481/Astro_USA_481_Star_Commander.ldr": {
             "path": "oficiales/Astro_USA_481/Astro_USA_481_Star_Commander.ldr",
@@ -1076,7 +1111,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 2
         },
         "oficiales/Basico_0401/Basico_0401_Casa.ldr": {
             "path": "oficiales/Basico_0401/Basico_0401_Casa.ldr",
@@ -1109,7 +1145,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 16
         },
         "oficiales/Basico_0402/Basico_0402_Avion.ldr": {
             "path": "oficiales/Basico_0402/Basico_0402_Avion.ldr",
@@ -1296,7 +1333,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 5
         },
         "oficiales/Basico_0403/Basico_0403_Avion_Iniciacion.ldr": {
             "path": "oficiales/Basico_0403/Basico_0403_Avion_Iniciacion.ldr",
@@ -1362,7 +1400,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 21
         },
         "oficiales/Basico_0404/Basico_0404_Barco.ldr": {
             "path": "oficiales/Basico_0404/Basico_0404_Barco.ldr",
@@ -1604,7 +1643,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 2
         },
         "oficiales/Combi_Astro_0305/Combi_Astro_0305_Nave_Sideral.ldr": {
             "path": "oficiales/Combi_Astro_0305/Combi_Astro_0305_Nave_Sideral.ldr",
@@ -1637,7 +1677,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 2
         },
         "oficiales/Combi_Astro_0306/Combi_Astro_0306_Generador_Movil.ldr": {
             "path": "oficiales/Combi_Astro_0306/Combi_Astro_0306_Generador_Movil.ldr",
@@ -1670,7 +1711,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 1
         },
         "oficiales/Combi_Astro_0307/Combi_Astro_0307_Unidad_Exploradora.ldr": {
             "path": "oficiales/Combi_Astro_0307/Combi_Astro_0307_Unidad_Exploradora.ldr",
@@ -1692,7 +1734,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 1
         },
         "oficiales/Combi_Astro_0308/Combi_Astro_0308_Perforador_Ultrasonico.ldr": {
             "path": "oficiales/Combi_Astro_0308/Combi_Astro_0308_Perforador_Ultrasonico.ldr",
@@ -1714,7 +1757,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 1
         },
         "oficiales/Combi_Astro_0340/Combi_Astro_0340_Lector_Geologico.ldr": {
             "path": "oficiales/Combi_Astro_0340/Combi_Astro_0340_Lector_Geologico.ldr",
@@ -1736,7 +1780,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 1
         },
         "oficiales/Combi_Mar_0301/Combi_Mar_0301.ldr": {
             "path": "oficiales/Combi_Mar_0301/Combi_Mar_0301.ldr",
@@ -1758,7 +1803,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 1
         },
         "oficiales/Combi_Mar_0302/Combi_Mar_0302.ldr": {
             "path": "oficiales/Combi_Mar_0302/Combi_Mar_0302.ldr",
@@ -1780,7 +1826,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 1
         },
         "oficiales/Combi_Mar_0303/Combi_Mar_0303_Buque_Hospital.ldr": {
             "path": "oficiales/Combi_Mar_0303/Combi_Mar_0303_Buque_Hospital.ldr",
@@ -1802,7 +1849,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 1
         },
         "oficiales/Combi_Mar_0304/Combi_Mar_0304_Butanero.ldr": {
             "path": "oficiales/Combi_Mar_0304/Combi_Mar_0304_Butanero.ldr",
@@ -1824,7 +1872,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 1
         },
         "oficiales/Combi_Mar_0311/Combi_Mar_0311_Portacontainers.ldr": {
             "path": "oficiales/Combi_Mar_0311/Combi_Mar_0311_Portacontainers.ldr",
@@ -1846,7 +1895,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 1
         },
         "oficiales/Combi_Mar_0312/Combi_Mar_0312_Motonave.ldr": {
             "path": "oficiales/Combi_Mar_0312/Combi_Mar_0312_Motonave.ldr",
@@ -1868,7 +1918,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 1
         },
         "oficiales/Combi_Mar_0313/Combi_Mar_0313_Buque_de_Enlace.ldr": {
             "path": "oficiales/Combi_Mar_0313/Combi_Mar_0313_Buque_de_Enlace.ldr",
@@ -1890,7 +1941,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 1
         },
         "oficiales/Combi_Mar_0314/Combi_Mar_0314_Buque_de_Escolta.ldr": {
             "path": "oficiales/Combi_Mar_0314/Combi_Mar_0314_Buque_de_Escolta.ldr",
@@ -1912,7 +1964,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 1
         },
         "oficiales/Combi_Mar_0333/Combi_Mar_0333_corfu.ldr": {
             "path": "oficiales/Combi_Mar_0333/Combi_Mar_0333_corfu.ldr",
@@ -1934,7 +1987,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 1
         },
         "oficiales/Compact_0342/Compact_0342_Krang.ldr": {
             "path": "oficiales/Compact_0342/Compact_0342_Krang.ldr",
@@ -1956,7 +2010,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 1
         },
         "oficiales/Compact_0343/Compact_0343_Excavator.ldr": {
             "path": "oficiales/Compact_0343/Compact_0343_Excavator.ldr",
@@ -1978,7 +2033,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 1
         },
         "oficiales/Compact_0344/Compact_0344_Extinthor.ldr": {
             "path": "oficiales/Compact_0344/Compact_0344_Extinthor.ldr",
@@ -2000,7 +2056,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 1
         },
         "oficiales/Compact_0345/Compact_0345_Space_Patrol.ldr": {
             "path": "oficiales/Compact_0345/Compact_0345_Space_Patrol.ldr",
@@ -2022,7 +2079,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 1
         },
         "oficiales/Compact_0346/Compact_0346_Vigilantic.ldr": {
             "path": "oficiales/Compact_0346/Compact_0346_Vigilantic.ldr",
@@ -2044,7 +2102,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 1
         },
         "oficiales/Compact_0347/Compact_0347_Pegasus.ldr": {
             "path": "oficiales/Compact_0347/Compact_0347_Pegasus.ldr",
@@ -2066,7 +2125,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 1
         },
         "oficiales/Compact_0348/Compact_0348_Bipstar.ldr": {
             "path": "oficiales/Compact_0348/Compact_0348_Bipstar.ldr",
@@ -2088,7 +2148,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 1
         },
         "oficiales/Compact_0349/Compact_0349_Robby.ldr": {
             "path": "oficiales/Compact_0349/Compact_0349_Robby.ldr",
@@ -2110,7 +2171,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 1
         },
         "oficiales/Compact_0350/Compact_0350_Scooper.ldr": {
             "path": "oficiales/Compact_0350/Compact_0350_Scooper.ldr",
@@ -2132,7 +2194,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 1
         },
         "oficiales/Compact_0351/Compact_0351_Tex.ldr": {
             "path": "oficiales/Compact_0351/Compact_0351_Tex.ldr",
@@ -2154,7 +2217,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 1
         },
         "oficiales/Compact_0352/Compact_0352_Karpan.ldr": {
             "path": "oficiales/Compact_0352/Compact_0352_Karpan.ldr",
@@ -2176,7 +2240,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 1
         },
         "oficiales/Compact_0353/Compact_0353_Condor.ldr": {
             "path": "oficiales/Compact_0353/Compact_0353_Condor.ldr",
@@ -2198,7 +2263,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 1
         },
         "oficiales/Cosmic_0434/Cosmic_0434_Dragster.ldr": {
             "path": "oficiales/Cosmic_0434/Cosmic_0434_Dragster.ldr",
@@ -2220,7 +2286,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 1
         },
         "oficiales/Cosmic_0435/Cosmic_0435_Scutty.ldr": {
             "path": "oficiales/Cosmic_0435/Cosmic_0435_Scutty.ldr",
@@ -2242,7 +2309,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 1
         },
         "oficiales/Cosmic_0437/Cosmic_0437_Stroner.ldr": {
             "path": "oficiales/Cosmic_0437/Cosmic_0437_Stroner.ldr",
@@ -2264,7 +2332,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 1
         },
         "oficiales/Cosmic_0439/Cosmic_0439_Discopter.ldr": {
             "path": "oficiales/Cosmic_0439/Cosmic_0439_Discopter.ldr",
@@ -2286,7 +2355,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 1
         },
         "oficiales/Cosmic_0442/Cosmic_0442_Turbocuter.ldr": {
             "path": "oficiales/Cosmic_0442/Cosmic_0442_Turbocuter.ldr",
@@ -2308,7 +2378,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 1
         },
         "oficiales/Cosmic_0445/Cosmic_0445_Base_Odysseus.ldr": {
             "path": "oficiales/Cosmic_0445/Cosmic_0445_Base_Odysseus.ldr",
@@ -2330,7 +2401,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 4
         },
         "oficiales/Cosmic_0557/Cosmic_0557_Base_Andromeda.ldr": {
             "path": "oficiales/Cosmic_0557/Cosmic_0557_Base_Andromeda.ldr",
@@ -2385,7 +2457,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 1
         },
         "oficiales/Imagine_70001/Imagine_70001_Coche_Blanco.ldr": {
             "path": "oficiales/Imagine_70001/Imagine_70001_Coche_Blanco.ldr",
@@ -2407,7 +2480,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 3
         },
         "oficiales/Iniciacion_0351/Iniciacion_0351_Casa.ldr": {
             "path": "oficiales/Iniciacion_0351/Iniciacion_0351_Casa.ldr",
@@ -2451,7 +2525,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 4
         },
         "oficiales/Iniciacion_0352/Iniciacion_0352_Avion.ldr": {
             "path": "oficiales/Iniciacion_0352/Iniciacion_0352_Avion.ldr",
@@ -2506,7 +2581,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 4
         },
         "oficiales/Mar_0540/Mar_0540_Barco_Seguimiento_Satelites.ldr": {
             "path": "oficiales/Mar_0540/Mar_0540_Barco_Seguimiento_Satelites.ldr",
@@ -2561,7 +2637,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 4
         },
         "oficiales/Mar_0541/Mar_0541_Acorazado_2a_Guerra_Mundial.ldr": {
             "path": "oficiales/Mar_0541/Mar_0541_Acorazado_2a_Guerra_Mundial.ldr",
@@ -2616,7 +2693,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 6
         },
         "oficiales/Mar_0550/Mar_0550_Barco_Paseo.ldr": {
             "path": "oficiales/Mar_0550/Mar_0550_Barco_Paseo.ldr",
@@ -2693,7 +2771,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 8
         },
         "oficiales/Mar_0551/Mar_0551_Acorazado_1GM.ldr": {
             "path": "oficiales/Mar_0551/Mar_0551_Acorazado_1GM.ldr",
@@ -2792,7 +2871,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 2
         },
         "oficiales/Mar_0560/Mar_0560_Yellow_Sub_15.ldr": {
             "path": "oficiales/Mar_0560/Mar_0560_Yellow_Sub_15.ldr",
@@ -2825,7 +2905,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 1
         },
         "oficiales/Mar_0600/Mar_0600_Dragaminas.ldr": {
             "path": "oficiales/Mar_0600/Mar_0600_Dragaminas.ldr",
@@ -2847,7 +2928,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 1
         },
         "oficiales/Mar_0601/Mar_0601_Pesquero_Alta_Mar.ldr": {
             "path": "oficiales/Mar_0601/Mar_0601_Pesquero_Alta_Mar.ldr",
@@ -2869,7 +2951,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 1
         },
         "oficiales/Mar_0602/Mar_0602_Barco_Faro.ldr": {
             "path": "oficiales/Mar_0602/Mar_0602_Barco_Faro.ldr",
@@ -2891,7 +2974,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 1
         },
         "oficiales/Mar_0603/Mar_0603_Buque_Contraincendios.ldr": {
             "path": "oficiales/Mar_0603/Mar_0603_Buque_Contraincendios.ldr",
@@ -2913,7 +2997,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 1
         },
         "oficiales/Mar_0604/Mar_0604_Barco_Policia.ldr": {
             "path": "oficiales/Mar_0604/Mar_0604_Barco_Policia.ldr",
@@ -2935,7 +3020,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 1
         },
         "oficiales/Mar_0605/Mar_0605_Cistena_de_Escolta.ldr": {
             "path": "oficiales/Mar_0605/Mar_0605_Cistena_de_Escolta.ldr",
@@ -2957,7 +3043,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 1
         },
         "oficiales/Mar_0606/Mar_0606_Barco_de_Rescate.ldr": {
             "path": "oficiales/Mar_0606/Mar_0606_Barco_de_Rescate.ldr",
@@ -2979,7 +3066,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 1
         },
         "oficiales/Mar_0607/Mar_0607_Buque_Meteorologico.ldr": {
             "path": "oficiales/Mar_0607/Mar_0607_Buque_Meteorologico.ldr",
@@ -3001,7 +3089,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 1
         },
         "oficiales/Mar_0610/Mar_0610_Motonave.ldr": {
             "path": "oficiales/Mar_0610/Mar_0610_Motonave.ldr",
@@ -3023,7 +3112,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 1
         },
         "oficiales/Mar_0611/Mar_0611_Metanero.ldr": {
             "path": "oficiales/Mar_0611/Mar_0611_Metanero.ldr",
@@ -3045,7 +3135,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 1
         },
         "oficiales/Mar_0612/Mar_0612_Carguero.ldr": {
             "path": "oficiales/Mar_0612/Mar_0612_Carguero.ldr",
@@ -3067,7 +3158,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 1
         },
         "oficiales/Mar_0613/Mar_0613_Destructor.ldr": {
             "path": "oficiales/Mar_0613/Mar_0613_Destructor.ldr",
@@ -3089,7 +3181,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 1
         },
         "oficiales/Mar_0614/Mar_0614_Ferry.ldr": {
             "path": "oficiales/Mar_0614/Mar_0614_Ferry.ldr",
@@ -3111,7 +3204,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 1
         },
         "oficiales/Mar_0615/Mar_0615_Fragata_Lanzamisiles.ldr": {
             "path": "oficiales/Mar_0615/Mar_0615_Fragata_Lanzamisiles.ldr",
@@ -3133,7 +3227,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 1
         },
         "oficiales/Mar_0616/Mar_0616_Hovercraft.ldr": {
             "path": "oficiales/Mar_0616/Mar_0616_Hovercraft.ldr",
@@ -3155,7 +3250,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 1
         },
         "oficiales/Mar_0617/Mar_0617_Buque_Desembarco.ldr": {
             "path": "oficiales/Mar_0617/Mar_0617_Buque_Desembarco.ldr",
@@ -3177,7 +3273,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 1
         },
         "oficiales/Mar_0618/Mar_0618_Guardacostas.ldr": {
             "path": "oficiales/Mar_0618/Mar_0618_Guardacostas.ldr",
@@ -3199,7 +3296,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 1
         },
         "oficiales/Mar_0619/Mar_0619_Rompehielos_Nuclear.ldr": {
             "path": "oficiales/Mar_0619/Mar_0619_Rompehielos_Nuclear.ldr",
@@ -3221,7 +3319,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 1
         },
         "oficiales/Mar_0620/Mar_0620_Estacion_Maritima_y_Remolcador.ldr": {
             "path": "oficiales/Mar_0620/Mar_0620_Estacion_Maritima_y_Remolcador.ldr",
@@ -3243,7 +3342,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 1
         },
         "oficiales/Mar_0621/Mar_0621_Muelle_Comercial_y_Barco_Pesquero.ldr": {
             "path": "oficiales/Mar_0621/Mar_0621_Muelle_Comercial_y_Barco_Pesquero.ldr",
@@ -3265,7 +3365,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 1
         },
         "oficiales/Mar_0622/Mar_0622_Refineria_y_Petrolero_de_Cabotaje.ldr": {
             "path": "oficiales/Mar_0622/Mar_0622_Refineria_y_Petrolero_de_Cabotaje.ldr",
@@ -3287,7 +3388,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 1
         },
         "oficiales/Mar_0623/Mar_0623_Buque_Investigaciones_Submarinas.ldr": {
             "path": "oficiales/Mar_0623/Mar_0623_Buque_Investigaciones_Submarinas.ldr",
@@ -3309,7 +3411,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 1
         },
         "oficiales/Mar_0624/Mar_0624_Destructor_Antisubmarino.ldr": {
             "path": "oficiales/Mar_0624/Mar_0624_Destructor_Antisubmarino.ldr",
@@ -3331,7 +3434,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 1
         },
         "oficiales/Mar_0625/Mar_0625_Transporte_Gas_Licuado.ldr": {
             "path": "oficiales/Mar_0625/Mar_0625_Transporte_Gas_Licuado.ldr",
@@ -3353,7 +3457,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 1
         },
         "oficiales/Mar_0626/Mar_0626_Transporte_Lanchas_Desembarco.ldr": {
             "path": "oficiales/Mar_0626/Mar_0626_Transporte_Lanchas_Desembarco.ldr",
@@ -3375,7 +3480,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 1
         },
         "oficiales/Mar_0627/Mar_0627_Buque_de_Performaciones.ldr": {
             "path": "oficiales/Mar_0627/Mar_0627_Buque_de_Performaciones.ldr",
@@ -3397,7 +3503,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 1
         },
         "oficiales/Mar_0628/Mar_0628_Buque_Frigorifico.ldr": {
             "path": "oficiales/Mar_0628/Mar_0628_Buque_Frigorifico.ldr",
@@ -3419,7 +3526,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 1
         },
         "oficiales/Mar_0629/Mar_0629_Corsario.ldr": {
             "path": "oficiales/Mar_0629/Mar_0629_Corsario.ldr",
@@ -3441,7 +3549,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 1
         },
         "oficiales/Mar_0630/Mar_0630_Crucero.ldr": {
             "path": "oficiales/Mar_0630/Mar_0630_Crucero.ldr",
@@ -3463,7 +3572,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 1
         },
         "oficiales/Mar_0631/Mar_0631_Fragata_Mixta.ldr": {
             "path": "oficiales/Mar_0631/Mar_0631_Fragata_Mixta.ldr",
@@ -3485,7 +3595,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 1
         },
         "oficiales/Mar_0633/Mar_0633_Buque_de_Carga.ldr": {
             "path": "oficiales/Mar_0633/Mar_0633_Buque_de_Carga.ldr",
@@ -3507,7 +3618,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 1
         },
         "oficiales/Mar_0634/Mar_0634_Transporte_Mixto.ldr": {
             "path": "oficiales/Mar_0634/Mar_0634_Transporte_Mixto.ldr",
@@ -3529,7 +3641,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 1
         },
         "oficiales/Mar_0635/Mar_0635_Buque_Pasaje.ldr": {
             "path": "oficiales/Mar_0635/Mar_0635_Buque_Pasaje.ldr",
@@ -3551,7 +3664,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 1
         },
         "oficiales/Mar_0636/Mar_0636_Vampire.ldr": {
             "path": "oficiales/Mar_0636/Mar_0636_Vampire.ldr",
@@ -3573,7 +3687,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 1
         },
         "oficiales/Mar_0637/Mar_0637_Laser_X.ldr": {
             "path": "oficiales/Mar_0637/Mar_0637_Laser_X.ldr",
@@ -3595,7 +3710,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 1
         },
         "oficiales/Mar_0638/Mar_0638_Storm.ldr": {
             "path": "oficiales/Mar_0638/Mar_0638_Storm.ldr",
@@ -3617,7 +3733,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 1
         },
         "oficiales/Mar_0639/Mar_0639_Orion.ldr": {
             "path": "oficiales/Mar_0639/Mar_0639_Orion.ldr",
@@ -3639,7 +3756,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 1
         },
         "oficiales/Mar_0640/Mar_0640_Sirius.ldr": {
             "path": "oficiales/Mar_0640/Mar_0640_Sirius.ldr",
@@ -3661,7 +3779,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 2
         },
         "oficiales/Mar_0640M/Mar_0640M_Barco_Meteorologico.ldr": {
             "path": "oficiales/Mar_0640M/Mar_0640M_Barco_Meteorologico.ldr",
@@ -3694,7 +3813,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 1
         },
         "oficiales/Mar_0641/Mar_0641_Phoenix.ldr": {
             "path": "oficiales/Mar_0641/Mar_0641_Phoenix.ldr",
@@ -3716,7 +3836,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 3
         },
         "oficiales/Mar_0641M/Mar_0641M_Buque_de_Asalto.ldr": {
             "path": "oficiales/Mar_0641M/Mar_0641M_Buque_de_Asalto.ldr",
@@ -3760,7 +3881,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 1
         },
         "oficiales/Mar_0642/Mar_0642_Explor.ldr": {
             "path": "oficiales/Mar_0642/Mar_0642_Explor.ldr",
@@ -3782,7 +3904,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 3
         },
         "oficiales/Mar_0642M/Mar_0642M_Hovercraft_de_Transporte.ldr": {
             "path": "oficiales/Mar_0642M/Mar_0642M_Hovercraft_de_Transporte.ldr",
@@ -3826,7 +3949,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 1
         },
         "oficiales/Mar_0643/Mar_0643_Destructor_Nuclear.ldr": {
             "path": "oficiales/Mar_0643/Mar_0643_Destructor_Nuclear.ldr",
@@ -3848,7 +3972,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 1
         },
         "oficiales/Mar_0644/Mar_0644_Buque_Factoria_Motor.ldr": {
             "path": "oficiales/Mar_0644/Mar_0644_Buque_Factoria_Motor.ldr",
@@ -3870,7 +3995,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 1
         },
         "oficiales/Mar_0645/Mar_0645_Portahelicopteros.ldr": {
             "path": "oficiales/Mar_0645/Mar_0645_Portahelicopteros.ldr",
@@ -3892,7 +4018,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 1
         },
         "oficiales/Mar_0646/Mar_0646_Stingdrake.ldr": {
             "path": "oficiales/Mar_0646/Mar_0646_Stingdrake.ldr",
@@ -3914,7 +4041,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 1
         },
         "oficiales/Mar_0647/Mar_0647_Nemmor.ldr": {
             "path": "oficiales/Mar_0647/Mar_0647_Nemmor.ldr",
@@ -3936,7 +4064,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 1
         },
         "oficiales/Mar_0700/Mar_0700_Mercante_Mixto.ldr": {
             "path": "oficiales/Mar_0700/Mar_0700_Mercante_Mixto.ldr",
@@ -3958,7 +4087,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 1
         },
         "oficiales/Mar_0701/Mar_0701_Portaaviones_1GM_Jupiter.ldr": {
             "path": "oficiales/Mar_0701/Mar_0701_Portaaviones_1GM_Jupiter.ldr",
@@ -3980,7 +4110,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 1
         },
         "oficiales/Mar_0702/Mar_0702_Carguero_y_Terminal.ldr": {
             "path": "oficiales/Mar_0702/Mar_0702_Carguero_y_Terminal.ldr",
@@ -4002,7 +4133,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 2
         },
         "oficiales/Mar_0703/Mar_0703_Fragata_Lanzamisiles_y_Base_Naval.ldr": {
             "path": "oficiales/Mar_0703/Mar_0703_Fragata_Lanzamisiles_y_Base_Naval.ldr",
@@ -4035,7 +4167,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 1
         },
         "oficiales/Mar_0704/Mar_0704_Portaaviones_Tactico_Coronado.ldr": {
             "path": "oficiales/Mar_0704/Mar_0704_Portaaviones_Tactico_Coronado.ldr",
@@ -4057,7 +4190,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 1
         },
         "oficiales/Mar_0705/Mar_0705_Cargo_Shuttle.ldr": {
             "path": "oficiales/Mar_0705/Mar_0705_Cargo_Shuttle.ldr",
@@ -4079,7 +4213,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 1
         },
         "oficiales/Mar_0715/Mar_0715_Portahelicopteros.ldr": {
             "path": "oficiales/Mar_0715/Mar_0715_Portahelicopteros.ldr",
@@ -4101,7 +4236,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 1
         },
         "oficiales/Mar_0717/Mar_0717_Transatlantico.ldr": {
             "path": "oficiales/Mar_0717/Mar_0717_Transatlantico.ldr",
@@ -4123,7 +4259,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 1
         },
         "oficiales/Mar_JPN_TS45/Mar_JPN_TS45_Special_Ship_Sunshine_II.ldr": {
             "path": "oficiales/Mar_JPN_TS45/Mar_JPN_TS45_Special_Ship_Sunshine_II.ldr",
@@ -4145,7 +4282,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 2
         },
         "oficiales/Mini_501/Mini_501_Chalet.ldr": {
             "path": "oficiales/Mini_501/Mini_501_Chalet.ldr",
@@ -4178,7 +4316,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 1
         },
         "oficiales/Mini_502/Mini_502_Peaje_Autopista.ldr": {
             "path": "oficiales/Mini_502/Mini_502_Peaje_Autopista.ldr",
@@ -4200,7 +4339,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 1
         },
         "oficiales/Mini_503/Mini_503_Bungalow.ldr": {
             "path": "oficiales/Mini_503/Mini_503_Bungalow.ldr",
@@ -4222,7 +4362,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 1
         },
         "oficiales/Mini_507/Mini_507_Ermita.ldr": {
             "path": "oficiales/Mini_507/Mini_507_Ermita.ldr",
@@ -4244,7 +4385,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 1
         },
         "oficiales/Mini_508/Mini_508_Kiosko_Refrescos.ldr": {
             "path": "oficiales/Mini_508/Mini_508_Kiosko_Refrescos.ldr",
@@ -4266,7 +4408,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 1
         },
         "oficiales/Mini_510/Mini_510_Casa_de_Campo.ldr": {
             "path": "oficiales/Mini_510/Mini_510_Casa_de_Campo.ldr",
@@ -4288,7 +4431,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 1
         },
         "oficiales/Oceanis_0608/Oceanis_0608_Hovercraft.ldr": {
             "path": "oficiales/Oceanis_0608/Oceanis_0608_Hovercraft.ldr",
@@ -4310,7 +4454,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 1
         },
         "oficiales/Oceanis_0609/Oceanis_0609_Destructor.ldr": {
             "path": "oficiales/Oceanis_0609/Oceanis_0609_Destructor.ldr",
@@ -4332,7 +4477,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 1
         },
         "oficiales/Oceanis_0648/Oceanis_0648_Buque_de_Asalto.ldr": {
             "path": "oficiales/Oceanis_0648/Oceanis_0648_Buque_de_Asalto.ldr",
@@ -4354,7 +4500,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 1
         },
         "oficiales/Oceanis_0649/Oceanis_0649_Carguero_Colosus.ldr": {
             "path": "oficiales/Oceanis_0649/Oceanis_0649_Carguero_Colosus.ldr",
@@ -4376,7 +4523,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 1
         },
         "oficiales/Oceanis_0650/Oceanis_0650_Remolcador.ldr": {
             "path": "oficiales/Oceanis_0650/Oceanis_0650_Remolcador.ldr",
@@ -4398,7 +4546,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 1
         },
         "oficiales/Oceanis_0651/Oceanis_0651_Corbeta.ldr": {
             "path": "oficiales/Oceanis_0651/Oceanis_0651_Corbeta.ldr",
@@ -4420,7 +4569,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 1
         },
         "oficiales/Oceanis_0652/Oceanis_0652_Fragata.ldr": {
             "path": "oficiales/Oceanis_0652/Oceanis_0652_Fragata.ldr",
@@ -4442,7 +4592,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 3
         },
         "oficiales/Oceanis_0653/Oceanis_0653_Task_Force_Eagle.ldr": {
             "path": "oficiales/Oceanis_0653/Oceanis_0653_Task_Force_Eagle.ldr",
@@ -4486,7 +4637,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 1
         },
         "oficiales/Oceanis_0657/Oceanis_0657_Patrullera.ldr": {
             "path": "oficiales/Oceanis_0657/Oceanis_0657_Patrullera.ldr",
@@ -4508,7 +4660,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 1
         },
         "oficiales/Oceanis_0658/Oceanis_0658_Oceanografico_Meteor.ldr": {
             "path": "oficiales/Oceanis_0658/Oceanis_0658_Oceanografico_Meteor.ldr",
@@ -4530,7 +4683,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 1
         },
         "oficiales/Oceanis_0659/Oceanis_0659_Missouri.ldr": {
             "path": "oficiales/Oceanis_0659/Oceanis_0659_Missouri.ldr",
@@ -4552,7 +4706,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 1
         },
         "oficiales/Pocket_0315/Pocket_0315_Eslator.ldr": {
             "path": "oficiales/Pocket_0315/Pocket_0315_Eslator.ldr",
@@ -4574,7 +4729,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 1
         },
         "oficiales/Roblock_0761/Roblock_0761_Frogster.ldr": {
             "path": "oficiales/Roblock_0761/Roblock_0761_Frogster.ldr",
@@ -4596,7 +4752,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 1
         },
         "oficiales/Roblock_0762/Roblock_0762_DarkWarrior.ldr": {
             "path": "oficiales/Roblock_0762/Roblock_0762_DarkWarrior.ldr",
@@ -4618,7 +4775,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 1
         },
         "oficiales/Roblock_0780/Roblock_0780_Helitron.ldr": {
             "path": "oficiales/Roblock_0780/Roblock_0780_Helitron.ldr",
@@ -4640,7 +4798,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 1
         },
         "oficiales/Roblock_0782/Roblock_0782_Hercules.ldr": {
             "path": "oficiales/Roblock_0782/Roblock_0782_Hercules.ldr",
@@ -4662,7 +4821,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 1
         },
         "oficiales/Roblock_0783/Roblock_0783_Fenixter.ldr": {
             "path": "oficiales/Roblock_0783/Roblock_0783_Fenixter.ldr",
@@ -4684,7 +4844,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 1
         },
         "oficiales/Roblock_0788/Roblock_0788_Robosaurius.ldr": {
             "path": "oficiales/Roblock_0788/Roblock_0788_Robosaurius.ldr",
@@ -4706,7 +4867,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 1
         },
         "oficiales/Roblock_0790/Roblock_0790_Persus.ldr": {
             "path": "oficiales/Roblock_0790/Roblock_0790_Persus.ldr",
@@ -4728,7 +4890,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 2
         },
         "oficiales/Roblock_0791/Roblock_0791_Thor.ldr": {
             "path": "oficiales/Roblock_0791/Roblock_0791_Thor.ldr",
@@ -4761,7 +4924,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 2
         },
         "oficiales/Roblock_0792/Roblock_0792_Skymaster.ldr": {
             "path": "oficiales/Roblock_0792/Roblock_0792_Skymaster.ldr",
@@ -4794,7 +4958,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 1
         },
         "oficiales/Roblock_0797/Roblock_0797_X_Tronic.ldr": {
             "path": "oficiales/Roblock_0797/Roblock_0797_X_Tronic.ldr",
@@ -4816,7 +4981,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 2
         },
         "oficiales/Roblock_0798/Roblock_0798_Krator.ldr": {
             "path": "oficiales/Roblock_0798/Roblock_0798_Krator.ldr",
@@ -4849,7 +5015,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 1
         },
         "oficiales/Ruta2_70046/Ruta2_70046_Airport_Service.ldr": {
             "path": "oficiales/Ruta2_70046/Ruta2_70046_Airport_Service.ldr",
@@ -4871,7 +5038,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 25
         },
         "oficiales/Ruta_0553/Ruta_0553_Camion_Autopista.ldr": {
             "path": "oficiales/Ruta_0553/Ruta_0553_Camion_Autopista.ldr",
@@ -5157,7 +5325,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 1
         },
         "oficiales/Ruta_0670/Ruta_0670_Camion_Plataforma.ldr": {
             "path": "oficiales/Ruta_0670/Ruta_0670_Camion_Plataforma.ldr",
@@ -5179,7 +5348,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 1
         },
         "oficiales/Ruta_0671/Ruta_0671_Camion_Furgon.ldr": {
             "path": "oficiales/Ruta_0671/Ruta_0671_Camion_Furgon.ldr",
@@ -5201,7 +5371,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 1
         },
         "oficiales/Ruta_0672/Ruta_0672_Camion_Volquete.ldr": {
             "path": "oficiales/Ruta_0672/Ruta_0672_Camion_Volquete.ldr",
@@ -5223,7 +5394,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 1
         },
         "oficiales/Ruta_0673/Ruta_0673_Camion_de_Reparto.ldr": {
             "path": "oficiales/Ruta_0673/Ruta_0673_Camion_de_Reparto.ldr",
@@ -5245,7 +5417,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 1
         },
         "oficiales/Ruta_0674/Ruta_0674_Autobus_Urbano.ldr": {
             "path": "oficiales/Ruta_0674/Ruta_0674_Autobus_Urbano.ldr",
@@ -5267,7 +5440,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 1
         },
         "oficiales/Ruta_0675/Ruta_0675_Quitanieves.ldr": {
             "path": "oficiales/Ruta_0675/Ruta_0675_Quitanieves.ldr",
@@ -5289,7 +5463,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 1
         },
         "oficiales/Ruta_0676/Ruta_0676_Ambulancia.ldr": {
             "path": "oficiales/Ruta_0676/Ruta_0676_Ambulancia.ldr",
@@ -5311,7 +5486,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 1
         },
         "oficiales/Ruta_0677/Ruta_0677_Autobar.ldr": {
             "path": "oficiales/Ruta_0677/Ruta_0677_Autobar.ldr",
@@ -5333,7 +5509,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 1
         },
         "oficiales/Ruta_0680/Ruta_0680_Trailer_Plataforma.ldr": {
             "path": "oficiales/Ruta_0680/Ruta_0680_Trailer_Plataforma.ldr",
@@ -5355,7 +5532,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 1
         },
         "oficiales/Ruta_0681/Ruta_0681_Trailer_Cisterna_Aeropuerto.ldr": {
             "path": "oficiales/Ruta_0681/Ruta_0681_Trailer_Cisterna_Aeropuerto.ldr",
@@ -5377,7 +5555,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 1
         },
         "oficiales/Ruta_0682/Ruta_0682_Trailer_Transportes_Especiales.ldr": {
             "path": "oficiales/Ruta_0682/Ruta_0682_Trailer_Transportes_Especiales.ldr",
@@ -5399,7 +5578,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 1
         },
         "oficiales/Ruta_0683/Ruta_0683_Trailer_Transporte_Internacional.ldr": {
             "path": "oficiales/Ruta_0683/Ruta_0683_Trailer_Transporte_Internacional.ldr",
@@ -5421,7 +5601,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 1
         },
         "oficiales/Ruta_0685/Ruta_0685_Trailer_Transporte_Minerales.ldr": {
             "path": "oficiales/Ruta_0685/Ruta_0685_Trailer_Transporte_Minerales.ldr",
@@ -5443,7 +5624,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 1
         },
         "oficiales/Ruta_0686/Ruta_0686_Camion_Norfrio.ldr": {
             "path": "oficiales/Ruta_0686/Ruta_0686_Camion_Norfrio.ldr",
@@ -5465,7 +5647,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 2
         },
         "oficiales/Ruta_0690/Ruta_0690_Camion_de_Bomberos.ldr": {
             "path": "oficiales/Ruta_0690/Ruta_0690_Camion_de_Bomberos.ldr",
@@ -5498,7 +5681,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 2
         },
         "oficiales/Ruta_0691/Ruta_0691_Estacion_Engrase.ldr": {
             "path": "oficiales/Ruta_0691/Ruta_0691_Estacion_Engrase.ldr",
@@ -5531,7 +5715,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 2
         },
         "oficiales/Ruta_0692/Ruta_0692_Camion_Cisterna.ldr": {
             "path": "oficiales/Ruta_0692/Ruta_0692_Camion_Cisterna.ldr",
@@ -5564,7 +5749,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 2
         },
         "oficiales/Ruta_0693/Ruta_0693_Camion_Cemento.ldr": {
             "path": "oficiales/Ruta_0693/Ruta_0693_Camion_Cemento.ldr",
@@ -5597,7 +5783,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 1
         },
         "oficiales/Ruta_JPN_TC201/Ruta_JPN_TC201_Fire_Engine.ldr": {
             "path": "oficiales/Ruta_JPN_TC201/Ruta_JPN_TC201_Fire_Engine.ldr",
@@ -5619,7 +5806,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 3
         },
         "oficiales/Ruta_JPN_TC202/Ruta_JPN_TC202_Container_Truck.ldr": {
             "path": "oficiales/Ruta_JPN_TC202/Ruta_JPN_TC202_Container_Truck.ldr",
@@ -5663,7 +5851,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 1
         },
         "oficiales/Ruta_JPN_TC203/Ruta_JPN_TC203_London_Bus.ldr": {
             "path": "oficiales/Ruta_JPN_TC203/Ruta_JPN_TC203_London_Bus.ldr",
@@ -5685,7 +5874,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 1
         },
         "oficiales/Ruta_JPN_TC206/Ruta_JPN_TC206_Hato_Bus.ldr": {
             "path": "oficiales/Ruta_JPN_TC206/Ruta_JPN_TC206_Hato_Bus.ldr",
@@ -5707,7 +5897,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 1
         },
         "oficiales/Ruta_JPN_TC207/Ruta_JPN_TC207_Mini_Fire_Engine.ldr": {
             "path": "oficiales/Ruta_JPN_TC207/Ruta_JPN_TC207_Mini_Fire_Engine.ldr",
@@ -5729,7 +5920,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 1
         },
         "oficiales/Ruta_JPN_TC210/Ruta_JPN_TC210_Filling_Station.ldr": {
             "path": "oficiales/Ruta_JPN_TC210/Ruta_JPN_TC210_Filling_Station.ldr",
@@ -5751,7 +5943,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 1
         },
         "oficiales/Ruta_USA_210/Ruta_USA_210_Rainbow_Van.ldr": {
             "path": "oficiales/Ruta_USA_210/Ruta_USA_210_Rainbow_Van.ldr",
@@ -5773,7 +5966,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 1
         },
         "oficiales/Ruta_USA_212/Ruta_USA_212_Ranger_Pick_Up.ldr": {
             "path": "oficiales/Ruta_USA_212/Ruta_USA_212_Ranger_Pick_Up.ldr",
@@ -5795,7 +5989,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 1
         },
         "oficiales/Ruta_USA_220/Ruta_USA_220_Refrigerator_Truck.ldr": {
             "path": "oficiales/Ruta_USA_220/Ruta_USA_220_Refrigerator_Truck.ldr",
@@ -5817,7 +6012,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 2
         },
         "oficiales/Ruta_USA_222/Ruta_USA_222_Greyhound_Bus.ldr": {
             "path": "oficiales/Ruta_USA_222/Ruta_USA_222_Greyhound_Bus.ldr",
@@ -5850,7 +6046,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 1
         },
         "oficiales/Ruta_USA_250/Ruta_USA_250_Formula_1_Racer_with_T_8.ldr": {
             "path": "oficiales/Ruta_USA_250/Ruta_USA_250_Formula_1_Racer_with_T_8.ldr",
@@ -5872,7 +6069,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 5
         },
         "oficiales/Ruta_USA_260/Ruta_USA_260_Dump_Truck.ldr": {
             "path": "oficiales/Ruta_USA_260/Ruta_USA_260_Dump_Truck.ldr",
@@ -5938,7 +6136,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 4
         },
         "oficiales/Scorpion_0543/Scorpion_0543_Lanza_Misil_Movil.ldr": {
             "path": "oficiales/Scorpion_0543/Scorpion_0543_Lanza_Misil_Movil.ldr",
@@ -5993,7 +6192,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 1
         },
         "oficiales/Scorpion_0750/Scorpion_0750_Tanque.ldr": {
             "path": "oficiales/Scorpion_0750/Scorpion_0750_Tanque.ldr",
@@ -6015,7 +6215,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 1
         },
         "oficiales/Scorpion_0751/Scorpion_0751_Transporte_Anfibio.ldr": {
             "path": "oficiales/Scorpion_0751/Scorpion_0751_Transporte_Anfibio.ldr",
@@ -6037,7 +6238,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 1
         },
         "oficiales/Scorpion_0752/Scorpion_0752_Semioruga.ldr": {
             "path": "oficiales/Scorpion_0752/Scorpion_0752_Semioruga.ldr",
@@ -6059,7 +6261,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 1
         },
         "oficiales/Scorpion_0755/Scorpion_0755_Ambulancia_de_Campana.ldr": {
             "path": "oficiales/Scorpion_0755/Scorpion_0755_Ambulancia_de_Campana.ldr",
@@ -6081,7 +6284,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 7
         },
         "oficiales/Serie400_410/Serie400_410_Casita_con_Porche.ldr": {
             "path": "oficiales/Serie400_410/Serie400_410_Casita_con_Porche.ldr",
@@ -6169,7 +6373,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 1
         },
         "oficiales/Serie400_420/Serie400_420_Estacion_Servicio.ldr": {
             "path": "oficiales/Serie400_420/Serie400_420_Estacion_Servicio.ldr",
@@ -6191,7 +6396,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 7
         },
         "oficiales/Serie400_430/Serie400_430_Ballena.ldr": {
             "path": "oficiales/Serie400_430/Serie400_430_Ballena.ldr",
@@ -6279,7 +6485,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 2
         },
         "oficiales/Titanium_0452/Titanium_0452_Astronauta_Expolion.ldr": {
             "path": "oficiales/Titanium_0452/Titanium_0452_Astronauta_Expolion.ldr",
@@ -6312,7 +6519,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 1
         },
         "oficiales/Titanium_10001/Titanium_10001_Off_Road_Buggy.ldr": {
             "path": "oficiales/Titanium_10001/Titanium_10001_Off_Road_Buggy.ldr",
@@ -6334,7 +6542,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 1
         },
         "oficiales/Titanium_10002/Titanium_10002_Hot_Rod_Buggy.ldr": {
             "path": "oficiales/Titanium_10002/Titanium_10002_Hot_Rod_Buggy.ldr",
@@ -6356,7 +6565,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 1
         },
         "oficiales/Titanium_10003/Titanium_10003_Army_Buggy.ldr": {
             "path": "oficiales/Titanium_10003/Titanium_10003_Army_Buggy.ldr",
@@ -6378,7 +6588,8 @@
             "fileTitle": "ROTATION CENTER 0 0 0 1 \"Custom\"",
             "fileBoxTitle": "",
             "isOfficial": false,
-            "isIndex": true
+            "isIndex": true,
+            "numFilesInIndex": 1
         },
         "oficiales/Titanium_70021/Titanium_70021_Patrulla_Espacial.ldr": {
             "path": "oficiales/Titanium_70021/Titanium_70021_Patrulla_Espacial.ldr",

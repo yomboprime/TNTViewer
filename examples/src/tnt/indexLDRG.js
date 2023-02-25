@@ -126,11 +126,11 @@ function generateAllIndexLDRs( lDrawLoader, db, processPartOrModel, onProgress, 
 		const numModels = models.length;
 
 		const factor = 1.2;
-		let maxRadius = 0;
+		let maxDiameter = 0;
 		for ( let i = 0; i < numModels; i ++ ) {
 
-			const r = models[ i ].userData.modelDiameter * factor * 0.5;
-			if ( maxRadius < r ) maxRadius = r;
+			const r = models[ i ].userData.modelDiameter * factor;
+			if ( maxDiameter < r ) maxDiameter = r;
 
 		}
 
@@ -148,9 +148,9 @@ function generateAllIndexLDRs( lDrawLoader, db, processPartOrModel, onProgress, 
 
 			const model = models[ i ];
 
-			const currentX = x * maxRadius - maxRadius * side * 0.5;
-			const currentY = y * maxRadius - maxRadius * side * 0.5;
-			const currentZ = - model.userData.modelBbox.min.y;
+			const currentX = x * maxDiameter - maxDiameter * side * 0.5;
+			const currentY = - model.userData.modelBbox.min.y;
+			const currentZ = y * maxDiameter - maxDiameter * side * 0.5;
 
 			fileContents +=
 			`
