@@ -2,11 +2,11 @@
 0 ROTATION CENTER 0 0 0 1 "Custom"
 0 ROTATION CONFIG 0 0
 
-1 -964.8 0 964.8 0 1 0 0 0 1 0 0 0 1 Serie400_410/Serie400_410_Casita_con_Porche.ldr
-1 -321.6 0 964.8 0 1 0 0 0 1 0 0 0 1 Serie400_410/Serie400_410_Ermita.ldr
-1 321.6 0 964.8 0 1 0 0 0 1 0 0 0 1 Serie400_410/Serie400_410_Gasolinera.ldr
-1 -964.8 -3.2 321.6 0 1 0 0 0 1 0 0 0 1 Serie400_410/Serie400_410_Perro_Robot.ldr
-1 -321.6 0 321.6 0 1 0 0 0 1 0 0 0 1 Serie400_410/Serie400_410_Torero.ldr
-1 321.6 0 321.6 0 1 0 0 0 1 0 0 0 1 Serie400_410/Serie400_410_Torre_Control.ldr
-1 -964.8 0 -321.6 0 1 0 0 0 1 0 0 0 1 Serie400_410/Serie400_410_Torre_Veraneo.ldr
+1 16 -643.2 0 643.2 1 0 0 0 1 0 0 0 1 Serie400_410/Serie400_410_Casita_con_Porche.ldr
+1 16 0 0 643.2 1 0 0 0 1 0 0 0 1 Serie400_410/Serie400_410_Ermita.ldr
+1 16 643.2 0 643.2 1 0 0 0 1 0 0 0 1 Serie400_410/Serie400_410_Gasolinera.ldr
+1 16 -643.2 -8 0 1 0 0 0 1 0 0 0 1 Serie400_410/Serie400_410_Perro_Robot.ldr
+1 16 0 0 0 1 0 0 0 1 0 0 0 1 Serie400_410/Serie400_410_Torero.ldr
+1 16 643.2 0 0 1 0 0 0 1 0 0 0 1 Serie400_410/Serie400_410_Torre_Control.ldr
+1 16 -643.2 0 -643.2 1 0 0 0 1 0 0 0 1 Serie400_410/Serie400_410_Torre_Veraneo.ldr
 0

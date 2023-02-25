@@ -2,6 +2,6 @@
 0 ROTATION CENTER 0 0 0 1 "Custom"
 0 ROTATION CONFIG 0 0
 
-1 -359.357 0 359.357 0 1 0 0 0 1 0 0 0 1 Mar_0560/Mar_0560_Yellow_Sub_15.ldr
-1 0 0 359.357 0 1 0 0 0 1 0 0 0 1 Mar_0560/Mar_0560_Yellow_Sub_17.ldr
+1 16 -179.678 0 179.678 1 0 0 0 1 0 0 0 1 Mar_0560/Mar_0560_Yellow_Sub_15.ldr
+1 16 179.678 0 179.678 1 0 0 0 1 0 0 0 1 Mar_0560/Mar_0560_Yellow_Sub_17.ldr
 0

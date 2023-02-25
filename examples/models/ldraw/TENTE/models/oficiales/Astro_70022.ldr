@@ -2,6 +2,6 @@
 0 ROTATION CENTER 0 0 0 1 "Custom"
 0 ROTATION CONFIG 0 0
 
-1 -289.864 -27.033 289.864 0 1 0 0 0 1 0 0 0 1 Astro_70022/Astro_70022_Desintegrador_Borras.ldr
-1 0 -27.033 289.864 0 1 0 0 0 1 0 0 0 1 Astro_70022/Astro_70022_Desintegrador_Borras_Apunta_Arriba.ldr
+1 16 -144.932 -67.582 144.932 1 0 0 0 1 0 0 0 1 Astro_70022/Astro_70022_Desintegrador_Borras.ldr
+1 16 144.932 -67.582 144.932 1 0 0 0 1 0 0 0 1 Astro_70022/Astro_70022_Desintegrador_Borras_Apunta_Arriba.ldr
 0

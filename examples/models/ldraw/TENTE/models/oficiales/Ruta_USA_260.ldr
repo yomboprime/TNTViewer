@@ -2,9 +2,9 @@
 0 ROTATION CENTER 0 0 0 1 "Custom"
 0 ROTATION CONFIG 0 0
 
-1 -1053.063 -18.8 1053.063 0 1 0 0 0 1 0 0 0 1 Ruta_USA_260/Ruta_USA_260_Dump_Truck.ldr
-1 -351.021 -9.2 1053.063 0 1 0 0 0 1 0 0 0 1 Ruta_USA_260/Ruta_USA_260_Fire_Truck.ldr
-1 351.021 -12.4 1053.063 0 1 0 0 0 1 0 0 0 1 Ruta_USA_260/Ruta_USA_260_Jeep_Convertible.ldr
-1 -1053.063 -15.6 351.021 0 1 0 0 0 1 0 0 0 1 Ruta_USA_260/Ruta_USA_260_Mobile_Home.ldr
-1 -351.021 -15.6 351.021 0 1 0 0 0 1 0 0 0 1 Ruta_USA_260/Ruta_USA_260_Trash_Truck.ldr
+1 16 -702.042 -47 702.042 1 0 0 0 1 0 0 0 1 Ruta_USA_260/Ruta_USA_260_Dump_Truck.ldr
+1 16 0 -23 702.042 1 0 0 0 1 0 0 0 1 Ruta_USA_260/Ruta_USA_260_Fire_Truck.ldr
+1 16 702.042 -31 702.042 1 0 0 0 1 0 0 0 1 Ruta_USA_260/Ruta_USA_260_Jeep_Convertible.ldr
+1 16 -702.042 -39 0 1 0 0 0 1 0 0 0 1 Ruta_USA_260/Ruta_USA_260_Mobile_Home.ldr
+1 16 0 -39 0 1 0 0 0 1 0 0 0 1 Ruta_USA_260/Ruta_USA_260_Trash_Truck.ldr
 0

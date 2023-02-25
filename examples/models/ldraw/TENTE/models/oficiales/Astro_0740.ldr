@@ -2,7 +2,7 @@
 0 ROTATION CENTER 0 0 0 1 "Custom"
 0 ROTATION CONFIG 0 0
 
-1 -1108.801 -3.2 1108.801 0 1 0 0 0 1 0 0 0 1 Astro_0740/Astro_0740_Saturno6_Mini_Explorador_Aereo.ldr
-1 0 -31.038 1108.801 0 1 0 0 0 1 0 0 0 1 Astro_0740/Astro_0740_Saturno6_Mini_Explorador_Terrestre.ldr
-1 -1108.801 -22.4 0 0 1 0 0 0 1 0 0 0 1 Astro_0740/Astro_0740_Saturno6_Nodriza.ldr
+1 16 -554.401 -8 554.401 1 0 0 0 1 0 0 0 1 Astro_0740/Astro_0740_Saturno6_Mini_Explorador_Aereo.ldr
+1 16 554.401 -77.596 554.401 1 0 0 0 1 0 0 0 1 Astro_0740/Astro_0740_Saturno6_Mini_Explorador_Terrestre.ldr
+1 16 -554.401 -56 -554.401 1 0 0 0 1 0 0 0 1 Astro_0740/Astro_0740_Saturno6_Nodriza.ldr
 0

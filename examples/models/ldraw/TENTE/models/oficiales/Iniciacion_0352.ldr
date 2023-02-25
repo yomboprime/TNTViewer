@@ -2,8 +2,8 @@
 0 ROTATION CENTER 0 0 0 1 "Custom"
 0 ROTATION CONFIG 0 0
 
-1 -816 -18.8 816 0 1 0 0 0 1 0 0 0 1 Iniciacion_0352/Iniciacion_0352_Avion.ldr
-1 0 -9.6 816 0 1 0 0 0 1 0 0 0 1 Iniciacion_0352/Iniciacion_0352_Casa.ldr
-1 -816 30.2 0 0 1 0 0 0 1 0 0 0 1 Iniciacion_0352/Iniciacion_0352_Pez.ldr
-1 0 13.2 0 0 1 0 0 0 1 0 0 0 1 Iniciacion_0352/Iniciacion_0352_Tren.ldr
+1 16 -408 -47 408 1 0 0 0 1 0 0 0 1 Iniciacion_0352/Iniciacion_0352_Avion.ldr
+1 16 408 -24 408 1 0 0 0 1 0 0 0 1 Iniciacion_0352/Iniciacion_0352_Casa.ldr
+1 16 -408 75.5 -408 1 0 0 0 1 0 0 0 1 Iniciacion_0352/Iniciacion_0352_Pez.ldr
+1 16 408 33 -408 1 0 0 0 1 0 0 0 1 Iniciacion_0352/Iniciacion_0352_Tren.ldr
 0

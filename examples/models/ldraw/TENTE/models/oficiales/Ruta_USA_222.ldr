@@ -2,6 +2,6 @@
 0 ROTATION CENTER 0 0 0 1 "Custom"
 0 ROTATION CONFIG 0 0
 
-1 -536.4 -18.8 536.4 0 1 0 0 0 1 0 0 0 1 Ruta_USA_222/Ruta_USA_222_Greyhound_Bus.ldr
-1 0 -54 536.4 0 1 0 0 0 1 0 0 0 1 Ruta_USA_222/Ruta_USA_222_Greyhound_Bus_Alter3.ldr
+1 16 -268.2 -47 268.2 1 0 0 0 1 0 0 0 1 Ruta_USA_222/Ruta_USA_222_Greyhound_Bus.ldr
+1 16 268.2 -135 268.2 1 0 0 0 1 0 0 0 1 Ruta_USA_222/Ruta_USA_222_Greyhound_Bus_Alter3.ldr
 0

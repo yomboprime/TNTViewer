@@ -2,20 +2,20 @@
 0 ROTATION CENTER 0 0 0 1 "Custom"
 0 ROTATION CONFIG 0 0
 
-1 -1344 -18.8 1344 0 1 0 0 0 1 0 0 0 1 Basico_0402/Basico_0402_Avion.ldr
-1 -672 0 1344 0 1 0 0 0 1 0 0 0 1 Basico_0402/Basico_0402_Buho.ldr
-1 0 -2.8 1344 0 1 0 0 0 1 0 0 0 1 Basico_0402/Basico_0402_Camion_Reparto.ldr
-1 672 -16 1344 0 1 0 0 0 1 0 0 0 1 Basico_0402/Basico_0402_Casa.ldr
-1 -1344 0 672 0 1 0 0 0 1 0 0 0 1 Basico_0402/Basico_0402_Casa_con_Garaje.ldr
-1 -672 -2.8 672 0 1 0 0 0 1 0 0 0 1 Basico_0402/Basico_0402_Formula_II.ldr
-1 0 0 672 0 1 0 0 0 1 0 0 0 1 Basico_0402/Basico_0402_Gasolinera_Engrase.ldr
-1 672 0 672 0 1 0 0 0 1 0 0 0 1 Basico_0402/Basico_0402_Helicoptero.ldr
-1 -1344 0 0 0 1 0 0 0 1 0 0 0 1 Basico_0402/Basico_0402_Monumento.ldr
-1 -672 0 0 0 1 0 0 0 1 0 0 0 1 Basico_0402/Basico_0402_Peaje_Autopista.ldr
-1 0 0 0 0 1 0 0 0 1 0 0 0 1 Basico_0402/Basico_0402_Sencillo_1.ldr
-1 672 0 0 0 1 0 0 0 1 0 0 0 1 Basico_0402/Basico_0402_Sencillo_2.ldr
-1 -1344 0 -672 0 1 0 0 0 1 0 0 0 1 Basico_0402/Basico_0402_Sencillo_3.ldr
-1 -672 0.4 -672 0 1 0 0 0 1 0 0 0 1 Basico_0402/Basico_0402_Sencillo_4.ldr
-1 0 0 -672 0 1 0 0 0 1 0 0 0 1 Basico_0402/Basico_0402_Sencillo_5.ldr
-1 672 0 -672 0 1 0 0 0 1 0 0 0 1 Basico_0402/Basico_0402_Sencillo_6.ldr
+1 16 -1008 -47 1008 1 0 0 0 1 0 0 0 1 Basico_0402/Basico_0402_Avion.ldr
+1 16 -336 0 1008 1 0 0 0 1 0 0 0 1 Basico_0402/Basico_0402_Buho.ldr
+1 16 336 -7 1008 1 0 0 0 1 0 0 0 1 Basico_0402/Basico_0402_Camion_Reparto.ldr
+1 16 1008 -40 1008 1 0 0 0 1 0 0 0 1 Basico_0402/Basico_0402_Casa.ldr
+1 16 -1008 0 336 1 0 0 0 1 0 0 0 1 Basico_0402/Basico_0402_Casa_con_Garaje.ldr
+1 16 -336 -7 336 1 0 0 0 1 0 0 0 1 Basico_0402/Basico_0402_Formula_II.ldr
+1 16 336 0 336 1 0 0 0 1 0 0 0 1 Basico_0402/Basico_0402_Gasolinera_Engrase.ldr
+1 16 1008 0 336 1 0 0 0 1 0 0 0 1 Basico_0402/Basico_0402_Helicoptero.ldr
+1 16 -1008 0 -336 1 0 0 0 1 0 0 0 1 Basico_0402/Basico_0402_Monumento.ldr
+1 16 -336 0 -336 1 0 0 0 1 0 0 0 1 Basico_0402/Basico_0402_Peaje_Autopista.ldr
+1 16 336 0 -336 1 0 0 0 1 0 0 0 1 Basico_0402/Basico_0402_Sencillo_1.ldr
+1 16 1008 0 -336 1 0 0 0 1 0 0 0 1 Basico_0402/Basico_0402_Sencillo_2.ldr
+1 16 -1008 0 -1008 1 0 0 0 1 0 0 0 1 Basico_0402/Basico_0402_Sencillo_3.ldr
+1 16 -336 1 -1008 1 0 0 0 1 0 0 0 1 Basico_0402/Basico_0402_Sencillo_4.ldr
+1 16 336 0 -1008 1 0 0 0 1 0 0 0 1 Basico_0402/Basico_0402_Sencillo_5.ldr
+1 16 1008 0 -1008 1 0 0 0 1 0 0 0 1 Basico_0402/Basico_0402_Sencillo_6.ldr
 0

@@ -2,8 +2,8 @@
 0 ROTATION CENTER 0 0 0 1 "Custom"
 0 ROTATION CONFIG 0 0
 
-1 -1094.798 0 1094.798 0 1 0 0 0 1 0 0 0 1 Mar_0541/Mar_0541_Acorazado_2a_Guerra_Mundial.ldr
-1 0 0 1094.798 0 1 0 0 0 1 0 0 0 1 Mar_0541/Mar_0541_Carguero_de_Escolta.ldr
-1 -1094.798 -19.2 0 0 1 0 0 0 1 0 0 0 1 Mar_0541/Mar_0541_Crucero_Nuclear.ldr
-1 0 0 0 0 1 0 0 0 1 0 0 0 1 Mar_0541/Mar_0541_Portahelicopteros_Ligero.ldr
+1 16 -547.399 0 547.399 1 0 0 0 1 0 0 0 1 Mar_0541/Mar_0541_Acorazado_2a_Guerra_Mundial.ldr
+1 16 547.399 0 547.399 1 0 0 0 1 0 0 0 1 Mar_0541/Mar_0541_Carguero_de_Escolta.ldr
+1 16 -547.399 -48 -547.399 1 0 0 0 1 0 0 0 1 Mar_0541/Mar_0541_Crucero_Nuclear.ldr
+1 16 547.399 0 -547.399 1 0 0 0 1 0 0 0 1 Mar_0541/Mar_0541_Portahelicopteros_Ligero.ldr
 0

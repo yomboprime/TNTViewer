@@ -2,6 +2,6 @@
 0 ROTATION CENTER 0 0 0 1 "Custom"
 0 ROTATION CONFIG 0 0
 
-1 -343.2 -18.8 343.2 0 1 0 0 0 1 0 0 0 1 Ruta_0690/Ruta_0690_Camion_de_Bomberos.ldr
-1 0 -6.4 343.2 0 1 0 0 0 1 0 0 0 1 Ruta_0690/Ruta_0690_Cuartel_Bomberos.ldr
+1 16 -171.6 -47 171.6 1 0 0 0 1 0 0 0 1 Ruta_0690/Ruta_0690_Camion_de_Bomberos.ldr
+1 16 171.6 -16 171.6 1 0 0 0 1 0 0 0 1 Ruta_0690/Ruta_0690_Cuartel_Bomberos.ldr
 0

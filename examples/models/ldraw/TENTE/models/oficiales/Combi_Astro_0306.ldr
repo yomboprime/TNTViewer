@@ -2,6 +2,6 @@
 0 ROTATION CENTER 0 0 0 1 "Custom"
 0 ROTATION CONFIG 0 0
 
-1 -349.888 -23 349.888 0 1 0 0 0 1 0 0 0 1 Combi_Astro_0306/Combi_Astro_0306_Generador_Movil.ldr
-1 0 -23 349.888 0 1 0 0 0 1 0 0 0 1 Combi_Astro_0306_307/Combi_Astro_0306_0307.ldr
+1 16 -174.944 -57.5 174.944 1 0 0 0 1 0 0 0 1 Combi_Astro_0306/Combi_Astro_0306_Generador_Movil.ldr
+1 16 174.944 -57.5 174.944 1 0 0 0 1 0 0 0 1 Combi_Astro_0306_307/Combi_Astro_0306_0307.ldr
 0

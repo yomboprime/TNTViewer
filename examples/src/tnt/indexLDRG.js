@@ -156,7 +156,7 @@ console.log( "side: " + side );
 			const model = models[ i ];
 
 			const currentX = ( x + 0.5 ) * maxDiameter - maxDiameter * side * 0.5;
-			const currentY = model.userData.modelBbox.min.y * scale;
+			const currentY = model.userData.modelBbox.min.y;
 			const currentZ = - ( z + 0.5 ) * maxDiameter + maxDiameter * side * 0.5;
 
 console.log( "currentX: " + currentX );
@@ -165,7 +165,7 @@ console.log( "currentZ: " + currentZ );
 
 			fileContents +=
 			`
-1 ` + round1000( currentX ) + ` ` + round1000( currentY ) + ` ` + round1000( currentZ ) + ` 0 1 0 0 0 1 0 0 0 1 ` + model.userData.indexPath;
+1 16 ` + round1000( currentX ) + ` ` + round1000( currentY ) + ` ` + round1000( currentZ ) + ` 1 0 0 0 1 0 0 0 1 ` + model.userData.indexPath;
 
 			x ++;
 			if ( x >= side ) {

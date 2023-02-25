@@ -2,25 +2,25 @@
 0 ROTATION CENTER 0 0 0 1 "Custom"
 0 ROTATION CONFIG 0 0
 
-1 -3420 0 3420 0 1 0 0 0 1 0 0 0 1 Basico_0404/Basico_0404_Barco.ldr
-1 -2052 -15.6 3420 0 1 0 0 0 1 0 0 0 1 Basico_0404/Basico_0404_Bicho.ldr
-1 -684 0 3420 0 1 0 0 0 1 0 0 0 1 Basico_0404/Basico_0404_Carguero_y_Grua.ldr
-1 684 0 3420 0 1 0 0 0 1 0 0 0 1 Basico_0404/Basico_0404_Casa.ldr
-1 2052 0 3420 0 1 0 0 0 1 0 0 0 1 Basico_0404/Basico_0404_Casa_con_Balcon.ldr
-1 -3420 0 2052 0 1 0 0 0 1 0 0 0 1 Basico_0404/Basico_0404_Casa_con_Torre.ldr
-1 -2052 0 2052 0 1 0 0 0 1 0 0 0 1 Basico_0404/Basico_0404_Casita_con_Garaje.ldr
-1 -684 0 2052 0 1 0 0 0 1 0 0 0 1 Basico_0404/Basico_0404_Chinos.ldr
-1 684 0 2052 0 1 0 0 0 1 0 0 0 1 Basico_0404/Basico_0404_Ciguena.ldr
-1 2052 0 2052 0 1 0 0 0 1 0 0 0 1 Basico_0404/Basico_0404_Cuartel_de_Bomberos.ldr
-1 -3420 -16 684 0 1 0 0 0 1 0 0 0 1 Basico_0404/Basico_0404_Depositos_y_Camion_Cemento.ldr
-1 -2052 -51.2 684 0 1 0 0 0 1 0 0 0 1 Basico_0404/Basico_0404_Esquiador_y_Trineo.ldr
-1 -684 -3.2 684 0 1 0 0 0 1 0 0 0 1 Basico_0404/Basico_0404_Faro_y_Velero.ldr
-1 684 -60.8 684 0 1 0 0 0 1 0 0 0 1 Basico_0404/Basico_0404_Gallinero.ldr
-1 2052 0 684 0 1 0 0 0 1 0 0 0 1 Basico_0404/Basico_0404_Granja.ldr
-1 -3420 -16 -684 0 1 0 0 0 1 0 0 0 1 Basico_0404/Basico_0404_GruaPuente_Camion_y_Containers.ldr
-1 -2052 -22.051 -684 0 1 0 0 0 1 0 0 0 1 Basico_0404/Basico_0404_Hangar_y_Avionetas.ldr
-1 -684 0 -684 0 1 0 0 0 1 0 0 0 1 Basico_0404/Basico_0404_Payaso.ldr
-1 684 0 -684 0 1 0 0 0 1 0 0 0 1 Basico_0404/Basico_0404_Piragua_India_y_Dragon.ldr
-1 2052 0 -684 0 1 0 0 0 1 0 0 0 1 Basico_0404/Basico_0404_Soldado.ldr
-1 -3420 -9.6 -2052 0 1 0 0 0 1 0 0 0 1 Basico_0404/Basico_0404_Tren_y_Estacion.ldr
+1 16 -2736 0 2736 1 0 0 0 1 0 0 0 1 Basico_0404/Basico_0404_Barco.ldr
+1 16 -1368 -39 2736 1 0 0 0 1 0 0 0 1 Basico_0404/Basico_0404_Bicho.ldr
+1 16 0 0 2736 1 0 0 0 1 0 0 0 1 Basico_0404/Basico_0404_Carguero_y_Grua.ldr
+1 16 1368 0 2736 1 0 0 0 1 0 0 0 1 Basico_0404/Basico_0404_Casa.ldr
+1 16 2736 0 2736 1 0 0 0 1 0 0 0 1 Basico_0404/Basico_0404_Casa_con_Balcon.ldr
+1 16 -2736 0 1368 1 0 0 0 1 0 0 0 1 Basico_0404/Basico_0404_Casa_con_Torre.ldr
+1 16 -1368 0 1368 1 0 0 0 1 0 0 0 1 Basico_0404/Basico_0404_Casita_con_Garaje.ldr
+1 16 0 0 1368 1 0 0 0 1 0 0 0 1 Basico_0404/Basico_0404_Chinos.ldr
+1 16 1368 0 1368 1 0 0 0 1 0 0 0 1 Basico_0404/Basico_0404_Ciguena.ldr
+1 16 2736 0 1368 1 0 0 0 1 0 0 0 1 Basico_0404/Basico_0404_Cuartel_de_Bomberos.ldr
+1 16 -2736 -40 0 1 0 0 0 1 0 0 0 1 Basico_0404/Basico_0404_Depositos_y_Camion_Cemento.ldr
+1 16 -1368 -128 0 1 0 0 0 1 0 0 0 1 Basico_0404/Basico_0404_Esquiador_y_Trineo.ldr
+1 16 0 -8 0 1 0 0 0 1 0 0 0 1 Basico_0404/Basico_0404_Faro_y_Velero.ldr
+1 16 1368 -152 0 1 0 0 0 1 0 0 0 1 Basico_0404/Basico_0404_Gallinero.ldr
+1 16 2736 0 0 1 0 0 0 1 0 0 0 1 Basico_0404/Basico_0404_Granja.ldr
+1 16 -2736 -40 -1368 1 0 0 0 1 0 0 0 1 Basico_0404/Basico_0404_GruaPuente_Camion_y_Containers.ldr
+1 16 -1368 -55.128 -1368 1 0 0 0 1 0 0 0 1 Basico_0404/Basico_0404_Hangar_y_Avionetas.ldr
+1 16 0 0 -1368 1 0 0 0 1 0 0 0 1 Basico_0404/Basico_0404_Payaso.ldr
+1 16 1368 0 -1368 1 0 0 0 1 0 0 0 1 Basico_0404/Basico_0404_Piragua_India_y_Dragon.ldr
+1 16 2736 0 -1368 1 0 0 0 1 0 0 0 1 Basico_0404/Basico_0404_Soldado.ldr
+1 16 -2736 -24 -2736 1 0 0 0 1 0 0 0 1 Basico_0404/Basico_0404_Tren_y_Estacion.ldr
 0

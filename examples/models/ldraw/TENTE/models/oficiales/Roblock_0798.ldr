@@ -2,6 +2,6 @@
 0 ROTATION CENTER 0 0 0 1 "Custom"
 0 ROTATION CONFIG 0 0
 
-1 -875.502 -13.434 875.502 0 1 0 0 0 1 0 0 0 1 Roblock_0798/Roblock_0798_Krator.ldr
-1 0 -1.1 875.502 0 1 0 0 0 1 0 0 0 1 Roblock_0798/Roblock_0798_Krator_Transf.ldr
+1 16 -437.751 -33.585 437.751 1 0 0 0 1 0 0 0 1 Roblock_0798/Roblock_0798_Krator.ldr
+1 16 437.751 -2.751 437.751 1 0 0 0 1 0 0 0 1 Roblock_0798/Roblock_0798_Krator_Transf.ldr
 0

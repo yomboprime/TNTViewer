@@ -2,8 +2,8 @@
 0 ROTATION CENTER 0 0 0 1 "Custom"
 0 ROTATION CONFIG 0 0
 
-1 -1491 0 1491 0 1 0 0 0 1 0 0 0 1 Cosmic_0557/Cosmic_0557_Base_Andromeda.ldr
-1 0 -27 1491 0 1 0 0 0 1 0 0 0 1 Cosmic_0557/Cosmic_0557_Base_Espacial_Andromeda.ldr
-1 -1491 -25.6 0 0 1 0 0 0 1 0 0 0 1 Cosmic_0557/Cosmic_0557_Crucero_Cosmico.ldr
-1 0 -17.4 0 0 1 0 0 0 1 0 0 0 1 Cosmic_0557/Cosmic_0557_Turbo_Inyector.ldr
+1 16 -745.5 0 745.5 1 0 0 0 1 0 0 0 1 Cosmic_0557/Cosmic_0557_Base_Andromeda.ldr
+1 16 745.5 -67.5 745.5 1 0 0 0 1 0 0 0 1 Cosmic_0557/Cosmic_0557_Base_Espacial_Andromeda.ldr
+1 16 -745.5 -64 -745.5 1 0 0 0 1 0 0 0 1 Cosmic_0557/Cosmic_0557_Crucero_Cosmico.ldr
+1 16 745.5 -43.5 -745.5 1 0 0 0 1 0 0 0 1 Cosmic_0557/Cosmic_0557_Turbo_Inyector.ldr
 0

@@ -2,7 +2,7 @@
 0 ROTATION CENTER 0 0 0 1 "Custom"
 0 ROTATION CONFIG 0 0
 
-1 -1512 0 1512 0 1 0 0 0 1 0 0 0 1 Oceanis_0653/Oceanis_0653_Task_Force_Eagle.ldr
-1 0 0 1512 0 1 0 0 0 1 0 0 0 1 Oceanis_0653/Oceanis_0653_Task_Force_Nimitz.ldr
-1 -1512 0 0 0 1 0 0 0 1 0 0 0 1 Oceanis_0653/Oceanis_0653_Task_Force_Triton.ldr
+1 16 -756 0 756 1 0 0 0 1 0 0 0 1 Oceanis_0653/Oceanis_0653_Task_Force_Eagle.ldr
+1 16 756 0 756 1 0 0 0 1 0 0 0 1 Oceanis_0653/Oceanis_0653_Task_Force_Nimitz.ldr
+1 16 -756 0 -756 1 0 0 0 1 0 0 0 1 Oceanis_0653/Oceanis_0653_Task_Force_Triton.ldr
 0

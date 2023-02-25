@@ -2,6 +2,6 @@
 0 ROTATION CENTER 0 0 0 1 "Custom"
 0 ROTATION CONFIG 0 0
 
-1 -528 -22.4 528 0 1 0 0 0 1 0 0 0 1 Ruta_0691/Ruta_0691_Estacion_Engrase.ldr
-1 0 -25.2 528 0 1 0 0 0 1 0 0 0 1 Ruta_0691/Ruta_0691_Grua_Ruta_Clasica.ldr
+1 16 -264 -56 264 1 0 0 0 1 0 0 0 1 Ruta_0691/Ruta_0691_Estacion_Engrase.ldr
+1 16 264 -63 264 1 0 0 0 1 0 0 0 1 Ruta_0691/Ruta_0691_Grua_Ruta_Clasica.ldr
 0

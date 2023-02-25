@@ -2,7 +2,7 @@
 0 ROTATION CENTER 0 0 0 1 "Custom"
 0 ROTATION CONFIG 0 0
 
-1 -734.798 -3.752 734.798 0 1 0 0 0 1 0 0 0 1 Mar_0642M/Mar_0642M_Hovercraft_de_Transporte.ldr
-1 0 -3.752 734.798 0 1 0 0 0 1 0 0 0 1 Mar_0642M/Mar_0642M_Motonave.ldr
-1 -734.798 -3.752 0 0 1 0 0 0 1 0 0 0 1 Mar_0642M/Mar_0642M_Transbordador_Hovercraft.ldr
+1 16 -367.399 -9.38 367.399 1 0 0 0 1 0 0 0 1 Mar_0642M/Mar_0642M_Hovercraft_de_Transporte.ldr
+1 16 367.399 -9.38 367.399 1 0 0 0 1 0 0 0 1 Mar_0642M/Mar_0642M_Motonave.ldr
+1 16 -367.399 -9.38 -367.399 1 0 0 0 1 0 0 0 1 Mar_0642M/Mar_0642M_Transbordador_Hovercraft.ldr
 0
