@@ -1,8 +1,8 @@
 0 ROTATION CENTER 0 0 0 1 "Custom"
 		0 ROTATION CONFIG 0 0
 		
-			1 -607.9415999999999 92 -607.9415999999999 0 1 0 0 0 1 0 0 0 1 Scorpion_0543/Scorpion_0543_Lanza_Misil_Movil.ldr
-			1 0 67.50000000000003 -607.9415999999999 0 1 0 0 0 1 0 0 0 1 Scorpion_0543/Scorpion_0543_Misil_Autotransportado.ldr
-			1 -607.9415999999999 -4.499999999999986 0 0 1 0 0 0 1 0 0 0 1 Scorpion_0543/Scorpion_0543_Transporte_Blindado.ldr
-			1 0 68.00000000000003 0 0 1 0 0 0 1 0 0 0 1 Scorpion_0543/Scorpion_0543_Unidad_Antiaerea.ldr
+			1 -607.9415999999999 0 -607.9415999999999 0 1 0 0 0 1 0 0 0 1 Scorpion_0543/Scorpion_0543_Lanza_Misil_Movil.ldr
+			1 0 0 -607.9415999999999 0 1 0 0 0 1 0 0 0 1 Scorpion_0543/Scorpion_0543_Misil_Autotransportado.ldr
+			1 -607.9415999999999 0 0 0 1 0 0 0 1 0 0 0 1 Scorpion_0543/Scorpion_0543_Transporte_Blindado.ldr
+			1 0 0 0 0 1 0 0 0 1 0 0 0 1 Scorpion_0543/Scorpion_0543_Unidad_Antiaerea.ldr
 0

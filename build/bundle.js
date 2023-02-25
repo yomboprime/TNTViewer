@@ -67893,8 +67893,8 @@
 			let maxDiameter = 0;
 			for ( let i = 0; i < numModels; i ++ ) {
 
-				const r = models[ i ].userData.modelDiameter * factor;
-				if ( maxDiameter < r ) maxDiameter = r;
+				const d = models[ i ].userData.modelDiameter * factor;
+				if ( maxDiameter < d ) maxDiameter = d;
 
 			}
 
@@ -67907,14 +67907,14 @@
 		`;
 
 			let x = 0;
-			let y = 0;
+			let z = 0;
 			for ( let i = 0; i < numModels; i ++ ) {
 
 				const model = models[ i ];
 
 				const currentX = x * maxDiameter - maxDiameter * side * 0.5;
-				const currentY = - model.userData.modelBbox.min.y;
-				const currentZ = y * maxDiameter - maxDiameter * side * 0.5;
+				const currentY = 0;//- model.userData.modelBbox.min.y;
+				const currentZ = z * maxDiameter - maxDiameter * side * 0.5;
 
 				fileContents +=
 				`
@@ -67924,7 +67924,7 @@
 				if ( x >= side ) {
 
 					x = 0;
-					y ++;
+					z ++;
 
 				}
 
@@ -68844,8 +68844,7 @@
 		model.userData.modelBbox.setFromObject( model );
 
 		model.userData.modelBbox.getSize( vector3Temp1 );
-		const radius = Math.max( vector3Temp1.x, Math.max( vector3Temp1.y, vector3Temp1.z ) ) * 0.5;
-		model.userData.modelDiameter = 2 * radius;
+		model.userData.modelDiameter = Math.max( vector3Temp1.x, Math.max( vector3Temp1.y, vector3Temp1.z ) );
 
 	}
 

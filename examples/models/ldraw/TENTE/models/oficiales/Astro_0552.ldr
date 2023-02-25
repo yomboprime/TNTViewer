@@ -1,22 +1,22 @@
 0 ROTATION CENTER 0 0 0 1 "Custom"
 		0 ROTATION CONFIG 0 0
 		
-			1 -2160 47.00000000000001 -2160 0 1 0 0 0 1 0 0 0 1 Astro_0552/Astro_0552_Aerodeslizador_Espacial.ldr
-			1 -1296 43.58200073242189 -2160 0 1 0 0 0 1 0 0 0 1 Astro_0552/Astro_0552_Astro_Sencillo.ldr
-			1 -432 1.714505518806295e-14 -2160 0 1 0 0 0 1 0 0 0 1 Astro_0552/Astro_0552_Base_Alerta_Galactica.ldr
-			1 432 72.5 -2160 0 1 0 0 0 1 0 0 0 1 Astro_0552/Astro_0552_Bus_Espacial.ldr
-			1 1296 72.5 -2160 0 1 0 0 0 1 0 0 0 1 Astro_0552/Astro_0552_Bus_Espacial_Tractor.ldr
-			1 -2160 1.3471114790620888e-14 -1296 0 1 0 0 0 1 0 0 0 1 Astro_0552/Astro_0552_Estacion_Uranio.ldr
-			1 -1296 44.27774908373691 -1296 0 1 0 0 0 1 0 0 0 1 Astro_0552/Astro_0552_Explorador_Detector.ldr
-			1 -432 51.58200073242193 -1296 0 1 0 0 0 1 0 0 0 1 Astro_0552/Astro_0552_Laboratorio_Movil.ldr
-			1 432 181.67699199999998 -1296 0 1 0 0 0 1 0 0 0 1 Astro_0552/Astro_0552_Nave_Interceptora.ldr
-			1 1296 43.582000732421896 -1296 0 1 0 0 0 1 0 0 0 1 Astro_0552/Astro_0552_Patrulla_91.ldr
-			1 -2160 16.00000000000003 -432 0 1 0 0 0 1 0 0 0 1 Astro_0552/Astro_0552_Planta_Transformadora_de_Uranio.ldr
-			1 -1296 27.582000732421914 -432 0 1 0 0 0 1 0 0 0 1 Astro_0552/Astro_0552_Tractor_de_Mantenimiento.ldr
-			1 -432 59.58200073242189 -432 0 1 0 0 0 1 0 0 0 1 Astro_0552/Astro_0552_Transporte_Uranio.ldr
-			1 432 59.58200073242189 -432 0 1 0 0 0 1 0 0 0 1 Astro_0552/Astro_0552_Transporte_de_Fluidos.ldr
-			1 1296 51.582000732421925 -432 0 1 0 0 0 1 0 0 0 1 Astro_0552/Astro_0552_Transporte_de_Material_Radioactivo.ldr
-			1 -2160 47.79400014877321 432 0 1 0 0 0 1 0 0 0 1 Astro_0552/Astro_0552_Vehiculo_Articulado.ldr
-			1 -1296 51.58200073242188 432 0 1 0 0 0 1 0 0 0 1 Astro_0552/Astro_0552_Vehiculo_de_Defensa.ldr
-			1 -432 59.58200073242189 432 0 1 0 0 0 1 0 0 0 1 Astro_0552/Astro_0552_Vehiculo_de_Enlace.ldr
+			1 -2160 0 -2160 0 1 0 0 0 1 0 0 0 1 Astro_0552/Astro_0552_Aerodeslizador_Espacial.ldr
+			1 -1296 0 -2160 0 1 0 0 0 1 0 0 0 1 Astro_0552/Astro_0552_Astro_Sencillo.ldr
+			1 -432 0 -2160 0 1 0 0 0 1 0 0 0 1 Astro_0552/Astro_0552_Base_Alerta_Galactica.ldr
+			1 432 0 -2160 0 1 0 0 0 1 0 0 0 1 Astro_0552/Astro_0552_Bus_Espacial.ldr
+			1 1296 0 -2160 0 1 0 0 0 1 0 0 0 1 Astro_0552/Astro_0552_Bus_Espacial_Tractor.ldr
+			1 -2160 0 -1296 0 1 0 0 0 1 0 0 0 1 Astro_0552/Astro_0552_Estacion_Uranio.ldr
+			1 -1296 0 -1296 0 1 0 0 0 1 0 0 0 1 Astro_0552/Astro_0552_Explorador_Detector.ldr
+			1 -432 0 -1296 0 1 0 0 0 1 0 0 0 1 Astro_0552/Astro_0552_Laboratorio_Movil.ldr
+			1 432 0 -1296 0 1 0 0 0 1 0 0 0 1 Astro_0552/Astro_0552_Nave_Interceptora.ldr
+			1 1296 0 -1296 0 1 0 0 0 1 0 0 0 1 Astro_0552/Astro_0552_Patrulla_91.ldr
+			1 -2160 0 -432 0 1 0 0 0 1 0 0 0 1 Astro_0552/Astro_0552_Planta_Transformadora_de_Uranio.ldr
+			1 -1296 0 -432 0 1 0 0 0 1 0 0 0 1 Astro_0552/Astro_0552_Tractor_de_Mantenimiento.ldr
+			1 -432 0 -432 0 1 0 0 0 1 0 0 0 1 Astro_0552/Astro_0552_Transporte_Uranio.ldr
+			1 432 0 -432 0 1 0 0 0 1 0 0 0 1 Astro_0552/Astro_0552_Transporte_de_Fluidos.ldr
+			1 1296 0 -432 0 1 0 0 0 1 0 0 0 1 Astro_0552/Astro_0552_Transporte_de_Material_Radioactivo.ldr
+			1 -2160 0 432 0 1 0 0 0 1 0 0 0 1 Astro_0552/Astro_0552_Vehiculo_Articulado.ldr
+			1 -1296 0 432 0 1 0 0 0 1 0 0 0 1 Astro_0552/Astro_0552_Vehiculo_de_Defensa.ldr
+			1 -432 0 432 0 1 0 0 0 1 0 0 0 1 Astro_0552/Astro_0552_Vehiculo_de_Enlace.ldr
 0

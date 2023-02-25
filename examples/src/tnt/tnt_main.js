@@ -975,8 +975,7 @@ function createModelBBox( model ) {
 	model.userData.modelBbox.setFromObject( model );
 
 	const size = model.userData.modelBbox.getSize( vector3Temp1 );
-	const radius = Math.max( vector3Temp1.x, Math.max( vector3Temp1.y, vector3Temp1.z ) ) * 0.5;
-	model.userData.modelDiameter = 2 * radius;
+	model.userData.modelDiameter = Math.max( vector3Temp1.x, Math.max( vector3Temp1.y, vector3Temp1.z ) );
 
 }
 

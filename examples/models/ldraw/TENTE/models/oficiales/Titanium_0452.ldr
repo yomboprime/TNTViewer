@@ -1,6 +1,6 @@
 0 ROTATION CENTER 0 0 0 1 "Custom"
 		0 ROTATION CONFIG 0 0
 		
-			1 -421.4268035888672 72.00999999977648 -421.4268035888672 0 1 0 0 0 1 0 0 0 1 Titanium_0452/Titanium_0452_Astronauta_Expolion.ldr
-			1 0 36.17800140380862 -421.4268035888672 0 1 0 0 0 1 0 0 0 1 Titanium_0452/Titanium_0452_Expolion.ldr
+			1 -421.4268035888672 0 -421.4268035888672 0 1 0 0 0 1 0 0 0 1 Titanium_0452/Titanium_0452_Astronauta_Expolion.ldr
+			1 0 0 -421.4268035888672 0 1 0 0 0 1 0 0 0 1 Titanium_0452/Titanium_0452_Expolion.ldr
 0

@@ -1,6 +1,6 @@
 0 ROTATION CENTER 0 0 0 1 "Custom"
 		0 ROTATION CONFIG 0 0
 		
-			1 -775.8 56.00000000000001 -775.8 0 1 0 0 0 1 0 0 0 1 Roblock_0792/Roblock_0792_Skymaster.ldr
-			1 0 58.21894280823529 -775.8 0 1 0 0 0 1 0 0 0 1 Roblock_0792/Roblock_0792_Skymaster_Transf.ldr
+			1 -775.8 0 -775.8 0 1 0 0 0 1 0 0 0 1 Roblock_0792/Roblock_0792_Skymaster.ldr
+			1 0 0 -775.8 0 1 0 0 0 1 0 0 0 1 Roblock_0792/Roblock_0792_Skymaster_Transf.ldr
 0

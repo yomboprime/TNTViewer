@@ -1,9 +1,9 @@
 0 ROTATION CENTER 0 0 0 1 "Custom"
 		0 ROTATION CONFIG 0 0
 		
-			1 -1296 198.99999999999997 -1296 0 1 0 0 0 1 0 0 0 1 Basico_0403/Basico_0403_Avion_Iniciacion.ldr
-			1 -432 64.00000000000003 -1296 0 1 0 0 0 1 0 0 0 1 Basico_0403/Basico_0403_Casa.ldr
-			1 432 9.797174393178828e-15 -1296 0 1 0 0 0 1 0 0 0 1 Basico_0403/Basico_0403_Casa_Halt.ldr
-			1 -1296 40.000000000000014 -432 0 1 0 0 0 1 0 0 0 1 Basico_0403/Basico_0403_Chalet.ldr
-			1 -432 15.50000000000002 -432 0 1 0 0 0 1 0 0 0 1 Basico_0403/Basico_0403_Coche.ldr
+			1 -1296 0 -1296 0 1 0 0 0 1 0 0 0 1 Basico_0403/Basico_0403_Avion_Iniciacion.ldr
+			1 -432 0 -1296 0 1 0 0 0 1 0 0 0 1 Basico_0403/Basico_0403_Casa.ldr
+			1 432 0 -1296 0 1 0 0 0 1 0 0 0 1 Basico_0403/Basico_0403_Casa_Halt.ldr
+			1 -1296 0 -432 0 1 0 0 0 1 0 0 0 1 Basico_0403/Basico_0403_Chalet.ldr
+			1 -432 0 -432 0 1 0 0 0 1 0 0 0 1 Basico_0403/Basico_0403_Coche.ldr
 0

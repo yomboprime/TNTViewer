@@ -1,8 +1,8 @@
 0 ROTATION CENTER 0 0 0 1 "Custom"
 		0 ROTATION CONFIG 0 0
 		
-			1 -1104 8.000000000000027 -1104 0 1 0 0 0 1 0 0 0 1 Aire_0556/Aire_0556_Base_Polar_Artic_2.ldr
-			1 0 24.06100082397462 -1104 0 1 0 0 0 1 0 0 0 1 Aire_0556/Aire_0556_Helicoptero_de_Servicio.ldr
-			1 -1104 44.000000000000014 0 0 1 0 0 0 1 0 0 0 1 Aire_0556/Aire_0556_Remolque_Procesador_Materiales.ldr
-			1 0 12.000000000000002 0 0 1 0 0 0 1 0 0 0 1 Aire_0556/Aire_0556_Sonda_Polar.ldr
+			1 -1104 0 -1104 0 1 0 0 0 1 0 0 0 1 Aire_0556/Aire_0556_Base_Polar_Artic_2.ldr
+			1 0 0 -1104 0 1 0 0 0 1 0 0 0 1 Aire_0556/Aire_0556_Helicoptero_de_Servicio.ldr
+			1 -1104 0 0 0 1 0 0 0 1 0 0 0 1 Aire_0556/Aire_0556_Remolque_Procesador_Materiales.ldr
+			1 0 0 0 0 1 0 0 0 1 0 0 0 1 Aire_0556/Aire_0556_Sonda_Polar.ldr
 0
