@@ -1330,7 +1330,7 @@ function generateIndexLDRsButtonFunc() {
 	updateProgressBar( 0 );
 	showProgressBar()
 
-	generateAllIndexLDRs( lDrawLoader, dataBase, processPartOrModel,
+	generateAllIndexLDRs( lDrawLoader, dataBase, processPartOrModel, constructionSets[ currentConstructionSet ].scale,
 		( fraction ) => {
 
 			updateProgressBar( fraction );

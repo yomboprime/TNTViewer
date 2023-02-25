@@ -67774,7 +67774,7 @@
 	new Vector3();
 	new Vector3();
 
-	function generateAllIndexLDRs( lDrawLoader, db, processPartOrModel, onProgress, onResult ) {
+	function generateAllIndexLDRs( lDrawLoader, db, processPartOrModel, scale, onProgress, onResult ) {
 
 		// onResult is called with zip blob
 
@@ -67885,7 +67885,7 @@
 
 		}
 
-		function generateIndexLDRInternal2( models ) {
+		function generateIndexLDRInternal( models, scale ) {
 
 			const numModels = models.length;
 
@@ -67912,9 +67912,9 @@
 
 				const model = models[ i ];
 
-				const currentX = x * maxDiameter - maxDiameter * side * 0.5;
+				const currentX = ( x * maxDiameter - maxDiameter * side * 0.5 ) / scale;
 				const currentY = model.userData.modelBbox.min.y;
-				const currentZ = - z * maxDiameter - maxDiameter * side * 0.5;
+				const currentZ = ( - z * maxDiameter - maxDiameter * side * 0.5 ) / scale;
 
 				fileContents +=
 				`
@@ -67944,7 +67944,7 @@
 			//const seriesIndexName = FileOperations.removeFilename( subfolderPath ) + "ind_" + dbModel.seriesNumber.replace( ' ', '_' ) + "_" + dbModel.refNumber + ".ldr";
 			const seriesIndexName = subfolderPath + ".ldr";
 
-			const indexContents = generateIndexLDRInternal2( models );
+			const indexContents = generateIndexLDRInternal( models, scale );
 			zipFile.file( seriesIndexName, indexContents );
 
 		}
@@ -69196,7 +69196,7 @@
 		updateProgressBar( 0 );
 		showProgressBar();
 
-		generateAllIndexLDRs( lDrawLoader, dataBase, processPartOrModel,
+		generateAllIndexLDRs( lDrawLoader, dataBase, processPartOrModel, constructionSets[ currentConstructionSet ].scale,
 			( fraction ) => {
 
 				updateProgressBar( fraction );

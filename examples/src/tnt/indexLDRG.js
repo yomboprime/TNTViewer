@@ -5,7 +5,7 @@ import * as FileOperations from './fileOperations.js';
 const vector3Temp1 = new THREE.Vector3();
 const vector3Temp2 = new THREE.Vector3();
 
-function generateAllIndexLDRs( lDrawLoader, db, processPartOrModel, onProgress, onResult ) {
+function generateAllIndexLDRs( lDrawLoader, db, processPartOrModel, scale, onProgress, onResult ) {
 
 	// onResult is called with zip blob
 
@@ -121,7 +121,7 @@ function generateAllIndexLDRs( lDrawLoader, db, processPartOrModel, onProgress, 
 
 	}
 
-	function generateIndexLDRInternal2( models ) {
+	function generateIndexLDRInternal( models, scale ) {
 
 		const numModels = models.length;
 
@@ -148,9 +148,9 @@ function generateAllIndexLDRs( lDrawLoader, db, processPartOrModel, onProgress, 
 
 			const model = models[ i ];
 
-			const currentX = x * maxDiameter - maxDiameter * side * 0.5;
+			const currentX = ( x * maxDiameter - maxDiameter * side * 0.5 ) / scale;
 			const currentY = model.userData.modelBbox.min.y;
-			const currentZ = - z * maxDiameter - maxDiameter * side * 0.5;
+			const currentZ = ( - z * maxDiameter - maxDiameter * side * 0.5 ) / scale;
 
 			fileContents +=
 			`
@@ -172,45 +172,6 @@ function generateAllIndexLDRs( lDrawLoader, db, processPartOrModel, onProgress, 
 
 	}
 
-	function generateIndexLDRInternal( models ) {
-
-		const factor = 1.2;
-		let totalLength = 0;
-
-		for ( let i = 0; i < models.length; i ++ ) {
-
-			totalLength += models[ i ].userData.modelDiameter * factor;
-
-		}
-
-		let fileContents =
-`0 ROTATION CENTER 0 0 0 1 "Custom"
-0 ROTATION CONFIG 0 0
-`;
-
-		let currentX = - totalLength * 0.5;
-
-		for ( let i = 0; i < models.length; i ++ ) {
-
-			const model = models[ i ];
-
-			const increment = model.userData.modelDiameter * factor * 0.5;
-			currentX += increment;
-
-			fileContents +=
-`
-1 0 ` + currentX + ` 0 0 1 0 0 0 1 0 0 0 1 ` + model.userData.indexPath;
-
-			currentX += increment;
-
-		}
-
-		fileContents += '\n0';
-
-		return fileContents;
-
-	}
-
 	function zipIndexLDR( dbModel, models ) {
 
 		let subfolderPath = FileOperations.removeFilename( dbModel.path );
@@ -219,7 +180,7 @@ function generateAllIndexLDRs( lDrawLoader, db, processPartOrModel, onProgress, 
 		//const seriesIndexName = FileOperations.removeFilename( subfolderPath ) + "ind_" + dbModel.seriesNumber.replace( ' ', '_' ) + "_" + dbModel.refNumber + ".ldr";
 		const seriesIndexName = subfolderPath + ".ldr";
 
-		const indexContents = generateIndexLDRInternal2( models );
+		const indexContents = generateIndexLDRInternal( models, scale );
 		zipFile.file( seriesIndexName, indexContents );
 
 	}
