@@ -1,11 +1,12 @@
+0 Index of Series: 400 Ref: 410
 0 ROTATION CENTER 0 0 0 1 "Custom"
-		0 ROTATION CONFIG 0 0
-		
-			1 -964.8 -9.797174393178829e-15 -964.8 0 1 0 0 0 1 0 0 0 1 Serie400_410/Serie400_410_Casita_con_Porche.ldr
-			1 -321.6 -1.8369701987210297e-14 -964.8 0 1 0 0 0 1 0 0 0 1 Serie400_410/Serie400_410_Ermita.ldr
-			1 321.5999999999999 -2.0818995585505007e-14 -964.8 0 1 0 0 0 1 0 0 0 1 Serie400_410/Serie400_410_Gasolinera.ldr
-			1 -964.8 -8.000000000000012 -1608 0 1 0 0 0 1 0 0 0 1 Serie400_410/Serie400_410_Perro_Robot.ldr
-			1 -321.6 -6.123233995736767e-15 -1608 0 1 0 0 0 1 0 0 0 1 Serie400_410/Serie400_410_Torero.ldr
-			1 321.5999999999999 -7.34788079488412e-15 -1608 0 1 0 0 0 1 0 0 0 1 Serie400_410/Serie400_410_Torre_Control.ldr
-			1 -964.8 -2.204364238465236e-14 -2251.2 0 1 0 0 0 1 0 0 0 1 Serie400_410/Serie400_410_Torre_Veraneo.ldr
+0 ROTATION CONFIG 0 0
+
+1 -964.8 0 964.8 0 1 0 0 0 1 0 0 0 1 Serie400_410/Serie400_410_Casita_con_Porche.ldr
+1 -321.6 0 964.8 0 1 0 0 0 1 0 0 0 1 Serie400_410/Serie400_410_Ermita.ldr
+1 321.6 0 964.8 0 1 0 0 0 1 0 0 0 1 Serie400_410/Serie400_410_Gasolinera.ldr
+1 -964.8 -3.2 321.6 0 1 0 0 0 1 0 0 0 1 Serie400_410/Serie400_410_Perro_Robot.ldr
+1 -321.6 0 321.6 0 1 0 0 0 1 0 0 0 1 Serie400_410/Serie400_410_Torero.ldr
+1 321.6 0 321.6 0 1 0 0 0 1 0 0 0 1 Serie400_410/Serie400_410_Torre_Control.ldr
+1 -964.8 0 -321.6 0 1 0 0 0 1 0 0 0 1 Serie400_410/Serie400_410_Torre_Veraneo.ldr
 0

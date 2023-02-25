@@ -67790,7 +67790,7 @@
 			const model = db.models[ db.modelPathsList[ i ] ];
 
 			if ( model.isIndex ) continue;
-
+	//if ( model.refNumber !== '0542' ) continue;
 			if ( previousSeries !== null && ( previousSeries !== model.seriesNumber || previousRefNumber !== model.refNumber ) && models.length > 0 ) {
 
 				if ( models[ 0 ].path.startsWith( "oficiales/" ) ) modelsIndices.push( models );
@@ -67828,7 +67828,7 @@
 
 			loadModels( modelsIndices[ index ], ( models ) => {
 
-				zipIndexLDR( modelsIndices[ index ][ 0 ], models );
+				zipIndexLDR( modelsIndices[ index ][ 0 ], models, modelsIndices[ index ] );
 				for ( let i = 0; i < models.length; i ++ ) {
 
 					models[ i ].traverse( ( child ) => {
@@ -67885,9 +67885,11 @@
 
 		}
 
-		function generateIndexLDRInternal( models, scale ) {
+		function generateIndexLDRInternal( models, dbModels ) {
 
 			const numModels = models.length;
+
+			if ( numModels === 0 ) return "";
 
 			const factor = 1.2;
 			let maxDiameter = 0;
@@ -67898,13 +67900,18 @@
 
 			}
 
+	console.log( "maxDiameter: " + maxDiameter );
+
 			let side = 1;
 			while ( side * side < numModels ) side ++;
 
+	console.log( "side: " + side );
+
 			let fileContents =
-			`0 ROTATION CENTER 0 0 0 1 "Custom"
-		0 ROTATION CONFIG 0 0
-		`;
+`0 Index of Series: `	 + dbModels[ 0 ].seriesNumber + ` Ref: ` + dbModels[ 0 ].refNumber + `
+0 ROTATION CENTER 0 0 0 1 "Custom"
+0 ROTATION CONFIG 0 0
+`;
 
 			let x = 0;
 			let z = 0;
@@ -67912,13 +67919,17 @@
 
 				const model = models[ i ];
 
-				const currentX = ( x * maxDiameter - maxDiameter * side * 0.5 ) / scale;
-				const currentY = model.userData.modelBbox.min.y;
-				const currentZ = ( - z * maxDiameter - maxDiameter * side * 0.5 ) / scale;
+				const currentX = x * maxDiameter - maxDiameter * side * 0.5;
+				const currentY = model.userData.modelBbox.min.y * scale;
+				const currentZ = - z * maxDiameter + maxDiameter * side * 0.5;
+
+	console.log( "currentX: " + currentX );
+	console.log( "currentY: " + currentY );
+	console.log( "currentZ: " + currentZ );
 
 				fileContents +=
 				`
-			1 ` + currentX + ` ` + currentY + ` ` + currentZ + ` 0 1 0 0 0 1 0 0 0 1 ` + model.userData.indexPath;
+1 ` + round1000( currentX ) + ` ` + round1000( currentY ) + ` ` + round1000( currentZ ) + ` 0 1 0 0 0 1 0 0 0 1 ` + model.userData.indexPath;
 
 				x ++;
 				if ( x >= side ) {
@@ -67934,9 +67945,14 @@
 
 			return fileContents;
 
+			function round1000( x ) {
+
+				return Math.round( x * 1000 ) / 1000;
+			}
+
 		}
 
-		function zipIndexLDR( dbModel, models ) {
+		function zipIndexLDR( dbModel, models, dbModels ) {
 
 			let subfolderPath = removeFilename( dbModel.path );
 			if ( subfolderPath.endsWith( '/' ) ) subfolderPath = subfolderPath.substring( 0, subfolderPath.length - 1 );
@@ -67944,7 +67960,7 @@
 			//const seriesIndexName = FileOperations.removeFilename( subfolderPath ) + "ind_" + dbModel.seriesNumber.replace( ' ', '_' ) + "_" + dbModel.refNumber + ".ldr";
 			const seriesIndexName = subfolderPath + ".ldr";
 
-			const indexContents = generateIndexLDRInternal( models, scale );
+			const indexContents = generateIndexLDRInternal( models, dbModels );
 			zipFile.file( seriesIndexName, indexContents );
 
 		}

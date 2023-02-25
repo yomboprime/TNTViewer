@@ -1,6 +1,7 @@
+0 Index of Series: Mar Ref: 0703
 0 ROTATION CENTER 0 0 0 1 "Custom"
-		0 ROTATION CONFIG 0 0
-		
-			1 -1132.8 -2.3268289183799713e-14 -1132.8 0 1 0 0 0 1 0 0 0 1 Mar_0703/Mar_0703_Fragata_Lanzamisiles_y_Base_Naval.ldr
-			1 0 -4.898587196589413e-15 -1132.8 0 1 0 0 0 1 0 0 0 1 Mar_0703/Mar_0703_Mystere.ldr
+0 ROTATION CONFIG 0 0
+
+1 -1132.8 0 1132.8 0 1 0 0 0 1 0 0 0 1 Mar_0703/Mar_0703_Fragata_Lanzamisiles_y_Base_Naval.ldr
+1 0 0 1132.8 0 1 0 0 0 1 0 0 0 1 Mar_0703/Mar_0703_Mystere.ldr
 0

@@ -1,29 +1,30 @@
+0 Index of Series: Ruta Ref: 0553
 0 ROTATION CENTER 0 0 0 1 "Custom"
-		0 ROTATION CONFIG 0 0
-		
-			1 -2460 -63.00000000000002 -2460 0 1 0 0 0 1 0 0 0 1 Ruta_0553/Ruta_0553_Camion_Autopista.ldr
-			1 -1476 -15.000000000000005 -2460 0 1 0 0 0 1 0 0 0 1 Ruta_0553/Ruta_0553_Camion_Dragster_Cisterna.ldr
-			1 -492 -63.00000000000003 -2460 0 1 0 0 0 1 0 0 0 1 Ruta_0553/Ruta_0553_Camion_Especial_Bomberos_Aeropuerto.ldr
-			1 492 -47.00000000000002 -2460 0 1 0 0 0 1 0 0 0 1 Ruta_0553/Ruta_0553_Camion_Especial_Reparaciones_Electricas.ldr
-			1 1476 -23.000000000000018 -2460 0 1 0 0 0 1 0 0 0 1 Ruta_0553/Ruta_0553_Camion_Porta_Containers.ldr
-			1 -2460 -15.000000000000037 -3444 0 1 0 0 0 1 0 0 0 1 Ruta_0553/Ruta_0553_Dragster.ldr
-			1 -1476 -75.58200073242188 -3444 0 1 0 0 0 1 0 0 0 1 Ruta_0553/Ruta_0553_Dragster_8_Cilindros.ldr
-			1 -492 -59.58200073242188 -3444 0 1 0 0 0 1 0 0 0 1 Ruta_0553/Ruta_0553_Expedicion_Mozambique.ldr
-			1 492 -31.000000000000007 -3444 0 1 0 0 0 1 0 0 0 1 Ruta_0553/Ruta_0553_Flying_Van.ldr
-			1 1476 -15.00000000000003 -3444 0 1 0 0 0 1 0 0 0 1 Ruta_0553/Ruta_0553_Formula_1_6_Ruedas.ldr
-			1 -2460 -23.00000000000002 -4428 0 1 0 0 0 1 0 0 0 1 Ruta_0553/Ruta_0553_Formula_1_ELF.ldr
-			1 -1476 -63.00000000000003 -4428 0 1 0 0 0 1 0 0 0 1 Ruta_0553/Ruta_0553_Furgoneta_Aeropuerto.ldr
-			1 -492 -8.000000000000014 -4428 0 1 0 0 0 1 0 0 0 1 Ruta_0553/Ruta_0553_Gasolinera_Mundo_Ruta.ldr
-			1 492 -263 -4428 0 1 0 0 0 1 0 0 0 1 Ruta_0553/Ruta_0553_Grua_Porta_Containers.ldr
-			1 1476 -50.58200073242188 -4428 0 1 0 0 0 1 0 0 0 1 Ruta_0553/Ruta_0553_Limpiapistas.ldr
-			1 -2460 -31.000000000000007 -5412 0 1 0 0 0 1 0 0 0 1 Ruta_0553/Ruta_0553_Multiruedas.ldr
-			1 -1476 -16.00000000000002 -5412 0 1 0 0 0 1 0 0 0 1 Ruta_0553/Ruta_0553_Peaje_Autopista.ldr
-			1 -492 -50.58200073242189 -5412 0 1 0 0 0 1 0 0 0 1 Ruta_0553/Ruta_0553_Todoterreno_Cisterna.ldr
-			1 492 -56.00000000000003 -5412 0 1 0 0 0 1 0 0 0 1 Ruta_0553/Ruta_0553_Torre_Control_Aeropuerto.ldr
-			1 1476 -31.000000000000075 -5412 0 1 0 0 0 1 0 0 0 1 Ruta_0553/Ruta_0553_Trailer_Transformador.ldr
-			1 -2460 -39.00000000000001 -6396 0 1 0 0 0 1 0 0 0 1 Ruta_0553/Ruta_0553_Trailer_Transporte_Mineral.ldr
-			1 -1476 -23.000000000000004 -6396 0 1 0 0 0 1 0 0 0 1 Ruta_0553/Ruta_0553_Transporte_Doble_Articulado.ldr
-			1 -492 -63 -6396 0 1 0 0 0 1 0 0 0 1 Ruta_0553/Ruta_0553_Transporte_Especial.ldr
-			1 492 -67.5820007324219 -6396 0 1 0 0 0 1 0 0 0 1 Ruta_0553/Ruta_0553_Transporte_Especial_Carga.ldr
-			1 1476 -31.000000000000007 -6396 0 1 0 0 0 1 0 0 0 1 Ruta_0553/Ruta_0553_Vehiculo_20_Ruedas.ldr
+0 ROTATION CONFIG 0 0
+
+1 -2460 -25.2 2460 0 1 0 0 0 1 0 0 0 1 Ruta_0553/Ruta_0553_Camion_Autopista.ldr
+1 -1476 -6 2460 0 1 0 0 0 1 0 0 0 1 Ruta_0553/Ruta_0553_Camion_Dragster_Cisterna.ldr
+1 -492 -25.2 2460 0 1 0 0 0 1 0 0 0 1 Ruta_0553/Ruta_0553_Camion_Especial_Bomberos_Aeropuerto.ldr
+1 492 -18.8 2460 0 1 0 0 0 1 0 0 0 1 Ruta_0553/Ruta_0553_Camion_Especial_Reparaciones_Electricas.ldr
+1 1476 -9.2 2460 0 1 0 0 0 1 0 0 0 1 Ruta_0553/Ruta_0553_Camion_Porta_Containers.ldr
+1 -2460 -6 1476 0 1 0 0 0 1 0 0 0 1 Ruta_0553/Ruta_0553_Dragster.ldr
+1 -1476 -30.233 1476 0 1 0 0 0 1 0 0 0 1 Ruta_0553/Ruta_0553_Dragster_8_Cilindros.ldr
+1 -492 -23.833 1476 0 1 0 0 0 1 0 0 0 1 Ruta_0553/Ruta_0553_Expedicion_Mozambique.ldr
+1 492 -12.4 1476 0 1 0 0 0 1 0 0 0 1 Ruta_0553/Ruta_0553_Flying_Van.ldr
+1 1476 -6 1476 0 1 0 0 0 1 0 0 0 1 Ruta_0553/Ruta_0553_Formula_1_6_Ruedas.ldr
+1 -2460 -9.2 492 0 1 0 0 0 1 0 0 0 1 Ruta_0553/Ruta_0553_Formula_1_ELF.ldr
+1 -1476 -25.2 492 0 1 0 0 0 1 0 0 0 1 Ruta_0553/Ruta_0553_Furgoneta_Aeropuerto.ldr
+1 -492 -3.2 492 0 1 0 0 0 1 0 0 0 1 Ruta_0553/Ruta_0553_Gasolinera_Mundo_Ruta.ldr
+1 492 -105.2 492 0 1 0 0 0 1 0 0 0 1 Ruta_0553/Ruta_0553_Grua_Porta_Containers.ldr
+1 1476 -20.233 492 0 1 0 0 0 1 0 0 0 1 Ruta_0553/Ruta_0553_Limpiapistas.ldr
+1 -2460 -12.4 -492 0 1 0 0 0 1 0 0 0 1 Ruta_0553/Ruta_0553_Multiruedas.ldr
+1 -1476 -6.4 -492 0 1 0 0 0 1 0 0 0 1 Ruta_0553/Ruta_0553_Peaje_Autopista.ldr
+1 -492 -20.233 -492 0 1 0 0 0 1 0 0 0 1 Ruta_0553/Ruta_0553_Todoterreno_Cisterna.ldr
+1 492 -22.4 -492 0 1 0 0 0 1 0 0 0 1 Ruta_0553/Ruta_0553_Torre_Control_Aeropuerto.ldr
+1 1476 -12.4 -492 0 1 0 0 0 1 0 0 0 1 Ruta_0553/Ruta_0553_Trailer_Transformador.ldr
+1 -2460 -15.6 -1476 0 1 0 0 0 1 0 0 0 1 Ruta_0553/Ruta_0553_Trailer_Transporte_Mineral.ldr
+1 -1476 -9.2 -1476 0 1 0 0 0 1 0 0 0 1 Ruta_0553/Ruta_0553_Transporte_Doble_Articulado.ldr
+1 -492 -25.2 -1476 0 1 0 0 0 1 0 0 0 1 Ruta_0553/Ruta_0553_Transporte_Especial.ldr
+1 492 -27.033 -1476 0 1 0 0 0 1 0 0 0 1 Ruta_0553/Ruta_0553_Transporte_Especial_Carga.ldr
+1 1476 -12.4 -1476 0 1 0 0 0 1 0 0 0 1 Ruta_0553/Ruta_0553_Vehiculo_20_Ruedas.ldr
 0

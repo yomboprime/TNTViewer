@@ -1,8 +1,9 @@
+0 Index of Series: Iniciacion Ref: 0352
 0 ROTATION CENTER 0 0 0 1 "Custom"
-		0 ROTATION CONFIG 0 0
-		
-			1 -816 -47.00000000000001 -816 0 1 0 0 0 1 0 0 0 1 Iniciacion_0352/Iniciacion_0352_Avion.ldr
-			1 0 -24.000000000000007 -816 0 1 0 0 0 1 0 0 0 1 Iniciacion_0352/Iniciacion_0352_Casa.ldr
-			1 -816 75.5 -1632 0 1 0 0 0 1 0 0 0 1 Iniciacion_0352/Iniciacion_0352_Pez.ldr
-			1 0 33 -1632 0 1 0 0 0 1 0 0 0 1 Iniciacion_0352/Iniciacion_0352_Tren.ldr
+0 ROTATION CONFIG 0 0
+
+1 -816 -18.8 816 0 1 0 0 0 1 0 0 0 1 Iniciacion_0352/Iniciacion_0352_Avion.ldr
+1 0 -9.6 816 0 1 0 0 0 1 0 0 0 1 Iniciacion_0352/Iniciacion_0352_Casa.ldr
+1 -816 30.2 0 0 1 0 0 0 1 0 0 0 1 Iniciacion_0352/Iniciacion_0352_Pez.ldr
+1 0 13.2 0 0 1 0 0 0 1 0 0 0 1 Iniciacion_0352/Iniciacion_0352_Tren.ldr
 0

@@ -1,6 +1,7 @@
+0 Index of Series: Astro Ref: 70022
 0 ROTATION CENTER 0 0 0 1 "Custom"
-		0 ROTATION CONFIG 0 0
-		
-			1 -289.86387750140193 -67.58200073242189 -289.86387750140193 0 1 0 0 0 1 0 0 0 1 Astro_70022/Astro_70022_Desintegrador_Borras.ldr
-			1 0 -67.5820007324219 -289.86387750140193 0 1 0 0 0 1 0 0 0 1 Astro_70022/Astro_70022_Desintegrador_Borras_Apunta_Arriba.ldr
+0 ROTATION CONFIG 0 0
+
+1 -289.864 -27.033 289.864 0 1 0 0 0 1 0 0 0 1 Astro_70022/Astro_70022_Desintegrador_Borras.ldr
+1 0 -27.033 289.864 0 1 0 0 0 1 0 0 0 1 Astro_70022/Astro_70022_Desintegrador_Borras_Apunta_Arriba.ldr
 0

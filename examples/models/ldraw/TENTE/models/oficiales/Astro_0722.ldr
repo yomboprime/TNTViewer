@@ -1,7 +1,8 @@
+0 Index of Series: Astro Ref: 0722
 0 ROTATION CENTER 0 0 0 1 "Custom"
-		0 ROTATION CONFIG 0 0
-		
-			1 -945.5999999999999 -112.00000000000004 -945.5999999999999 0 1 0 0 0 1 0 0 0 1 Astro_0722/Astro_0722_Nave_de_Defensa_Sideral.ldr
-			1 0 -128 -945.5999999999999 0 1 0 0 0 1 0 0 0 1 Astro_0722/Astro_0722_Nave_de_Defensa_Sideral_Alter1.ldr
-			1 -945.5999999999999 -152.00000000000003 -1891.1999999999998 0 1 0 0 0 1 0 0 0 1 Astro_0722/Astro_0722_Nave_de_Defensa_Sideral_Alter2.ldr
+0 ROTATION CONFIG 0 0
+
+1 -945.6 -44.8 945.6 0 1 0 0 0 1 0 0 0 1 Astro_0722/Astro_0722_Nave_de_Defensa_Sideral.ldr
+1 0 -51.2 945.6 0 1 0 0 0 1 0 0 0 1 Astro_0722/Astro_0722_Nave_de_Defensa_Sideral_Alter1.ldr
+1 -945.6 -60.8 0 0 1 0 0 0 1 0 0 0 1 Astro_0722/Astro_0722_Nave_de_Defensa_Sideral_Alter2.ldr
 0

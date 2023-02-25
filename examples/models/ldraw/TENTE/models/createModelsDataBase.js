@@ -393,6 +393,7 @@ for ( let i in dataBase.modelPathsList ) {
 			numIndexModels ++;
 			model.isIndex = true;
 			model.numFilesInIndex = 0;
+			model.fileTitle = model.seriesNumber + " " + model.refNumber + " " + model.title;
 			lastIndexFileIndex = i;
 
 		}
