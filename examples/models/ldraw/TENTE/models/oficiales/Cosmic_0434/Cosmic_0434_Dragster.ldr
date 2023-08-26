@@ -17,13 +17,8 @@
 1 4 -50 0 50 -1 0 0 0 1 0 0 0 -1 llantaxt.dat
 1 0 -50 0 50 -1 0 0 0 1 0 0 0 -1 neumaxt.dat
 1 0 72 0 50 -1 0 0 0 1 0 0 0 -1 neumaxt.dat
-1 0 -70 0 -350 1 0 0 0 1 0 0 0 1 neumtter.dat
-1 0 -10 0 -350 1 0 0 0 1 0 0 0 1 neumtter.dat
-1 0 -50 0 -370 1 0 0 0 1 0 0 0 1 jacn2x2a.dat
-1 0 -50 0 -370 1 0 0 0 1 0 0 0 1 eje28.dat
-1 4 -70 0 -350 1 0 0 0 1 0 0 0 1 llantrut.dat
-1 4 -30 0 -390 -1 0 0 0 1 0 0 0 -1 llantrut.dat
 1 4 -70 -24 -310 0 0 1 0 1 0 -1 0 0 placa2x3.dat
+1 4 -50 -24 -370 1 0 0 0 1 0 0 0 1 ruescj2l.dat
 0 WRITE Paso 3
 0 STEP
 1 4 -70 -24 -10 0 0 1 0 1 0 -1 0 0 placa2x8.dat
@@ -92,4 +87,6 @@
 0 STEP
 1 0 -50 -32 -360 -1 0 0 0 1 0 0 0 -1 pastilla.dat
 1 8 -70 -32 -90 1 0 0 0 1 0 0 0 1 helmando.dat
+1 2 0 30 -290 1 0 0 0 1 0 0 0 1 marciano.dat
+1 2 -50 -32 -50 1 0 0 0 1 0 0 0 1 marcians.dat
 0

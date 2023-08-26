@@ -1,5 +1,5 @@
 0 Aire 0509 Helicoptero Falcon
-0 Name: Aire0509_HelicopteroFalcon.ldr
+0 Name: Aire_0509_Helicoptero_Falcon.ldr
 0 Author: Isaac
 0 Unofficial Model
 0 ROTATION CENTER 0 0 0 1 "Custom" 
@@ -128,6 +128,8 @@
 1 1 330 38 -274 -1 0 0 0 1 0 0 0 -1 cuna.dat
 1 1 262 10 -234 0 1 0 0 0 -1 -1 0 0 bispqaba.dat
 1 7 290 30 -254 1 0 0 0 1 0 0 0 1 airsillo.dat
+1 14 310 30 -210 1 0 0 0 1 0 0 0 1 piloto2s.dat
+1 14 30 -4 -87 1 0 0 0 1 0 0 0 1 piloto1s.dat
 0 STEP
 1 1 254 20 -234 0 1 0 -1 0 0 0 0 1 alaskyms.dat
 1 1 358 10 -234 0 -1 0 0 0 -1 1 0 0 bispqarr.dat

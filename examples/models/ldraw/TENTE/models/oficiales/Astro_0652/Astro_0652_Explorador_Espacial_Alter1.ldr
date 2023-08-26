@@ -1,0 +1,15 @@
+0 Untitled
+0 Name: Astro_0652_Explorador_Espacial_Alter1.ldr
+0 Author: MLCad
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 15 -20 24 0 1 0 0 0 1 0 0 0 1 panelast.dat
+1 15 -50 40 -30 1 0 0 0 1 0 0 0 1 placa2x2.dat
+1 32 -30 112 -10 1 0 0 0 1 0 0 0 1 cirrevop.dat
+1 1 -10 120 -40 0 0 -1 0 1 0 1 0 0 placa2x3.dat
+1 4 -40 128 -20 -1 0 0 0 1 0 0 0 -1 rueastro.dat
+1 4 -40 128 40 -1 0 0 0 1 0 0 0 -1 rueastro.dat
+1 383 -50 120 20 0 0 1 0 1 0 -1 0 0 tbesctrp.dat
+1 1 -30 112 -10 -1 0 0 0 1 0 0 0 -1 cirrevop.dat
+0

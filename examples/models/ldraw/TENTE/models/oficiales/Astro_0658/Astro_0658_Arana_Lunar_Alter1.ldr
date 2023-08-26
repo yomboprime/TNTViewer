@@ -1,0 +1,39 @@
+0 Araña lunar
+0 Name: Astro_0658_Arana_Lunar_Alter1.ldr
+0 cpcbegin
+0 Tente astro
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 15 -110 0 40 1 0 0 0 1 0 0 0 1 placa4x8.dat
+1 15 10 -8 40 1 0 0 0 1 0 0 0 1 placa4x8.dat
+1 0 130 -16 -40 0 0 -1 0 1 0 1 0 0 patastro.dat
+1 0 170 -16 200 0 0 1 0 1 0 -1 0 0 patastro.dat
+1 0 -70 -8 120 1 0 0 0 1 0 0 0 1 pico.dat
+1 0 -10 -8 60 1 0 0 0 1 0 0 0 1 castillo.dat
+1 0 -30 -8 40 -1 0 0 0 1 0 0 0 -1 pico.dat
+1 15 -90 -8 80 0 0 1 0 1 0 -1 0 0 rallado2.dat
+1 15 -26.958 -31.81 78 0 -1 0 0 0 1 -1 0 0 astpiern.dat
+1 15 -25.864 19.068 70 0 -0.258819 0.965926 0 0.965926 0.258819 -1 0 0 astcuerp.dat
+1 15 -90 -8 120 0 0 1 0 1 0 -1 0 0 rallado2.dat
+1 15 -80 -8 110 1 0 0 0 1 0 0 0 1 jacena1.dat
+1 4 70 16 0 0 0 -1 0 1 0 1 0 0 jacena8.dat
+1 4 60 -4 3 0 0 1 0 1 0 -1 0 0 cilindr.dat
+1 4 60 -4 163 0 0 1 0 1 0 -1 0 0 cilindr.dat
+1 15 -70 -32 80 0 0 1 0 1 0 -1 0 0 cabant2.dat
+1 0 98 -24 3 0 1 0 0 0 -1 -1 0 0 toberast.dat
+1 0 98 -24 163 0 1 0 0 0 -1 -1 0 0 toberast.dat
+1 4 190 16 40 -1 0 0 0 1 0 0 0 -1 jacena6.dat
+1 4 190 16 100 -1 0 0 0 1 0 0 0 -1 jacena6.dat
+1 15 -80 -8 50 1 0 0 0 1 0 0 0 1 jacena1.dat
+1 0 150 -16 60 -1 0 0 0 1 0 0 0 -1 patastro.dat
+1 4 130 -16 80 0 0 -1 0 1 0 1 0 0 semicupp.dat
+1 15 30 -16 110 -1 0 0 0 1 0 0 0 -1 ancl1x2.dat
+1 15 30 -16 50 -1 0 0 0 1 0 0 0 -1 ancl1x2.dat
+1 4 170 -112 -160 0 0 -1 0 1 0 1 0 0 placa2x8.dat
+1 4 170 -112 160 0 0 -1 0 1 0 1 0 0 placa2x8.dat
+1 14 130 -112 80 0 0 -1 0 1 0 1 0 0 amortigu.dat
+1 15 130 -144 80 0 0 -1 0 1 0 1 0 0 panelast.dat
+1 0 10 -2 80 0 0 -1 0 1 0 1 0 0 toberast.dat
+1 0 100 40 50 -1 0 0 0 1 0 0 0 -1 chimtubo.dat
+1 0 100 40 110 -1 0 0 0 1 0 0 0 -1 chimtubo.dat
+0

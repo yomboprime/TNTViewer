@@ -1,8 +1,7 @@
-0 Index of Series: Astro Ref: 0740
 0 ROTATION CENTER 0 0 0 1 "Custom"
 0 ROTATION CONFIG 0 0
 
-1 16 -554.401 -8 554.401 1 0 0 0 1 0 0 0 1 Astro_0740/Astro_0740_Saturno6_Mini_Explorador_Aereo.ldr
-1 16 554.401 -77.596 554.401 1 0 0 0 1 0 0 0 1 Astro_0740/Astro_0740_Saturno6_Mini_Explorador_Terrestre.ldr
-1 16 -554.401 -56 -554.401 1 0 0 0 1 0 0 0 1 Astro_0740/Astro_0740_Saturno6_Nodriza.ldr
+1 0 -652.2323999404906 0 0 1 0 0 0 1 0 0 0 1 Astro_0740/Astro_0740_Saturno6_Mini_Explorador_Aereo.ldr
+1 0 -420.00059967041005 0 0 1 0 0 0 1 0 0 0 1 Astro_0740/Astro_0740_Saturno6_Mini_Explorador_Terrestre.ldr
+1 0 232.2318002700806 0 0 1 0 0 0 1 0 0 0 1 Astro_0740/Astro_0740_Saturno6_Nodriza.ldr
 0

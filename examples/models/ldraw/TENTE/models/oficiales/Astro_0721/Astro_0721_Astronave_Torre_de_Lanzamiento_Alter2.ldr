@@ -1,0 +1,145 @@
+0 MLCAD BTG cohete
+0 Untitled
+0 MLCAD BTG cohete
+0 Name: Astro_0721_Astronave_Torre_de_Lanzamiento_Alter2.ldr
+0 MLCAD BTG cohete
+0 Author: MLCad
+0 MLCAD BTG cohete
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+0 MLCAD BTG cohete
+1 4 -40 64 0 1 0 0 0 1 0 0 0 1 patastro.dat
+0 MLCAD BTG cohete
+1 4 -80 64 -20 0 0 -1 0 1 0 1 0 0 patastro.dat
+0 MLCAD BTG cohete
+1 4 -80 64 -40 -1 0 0 0 1 0 0 0 -1 patastro.dat
+0 MLCAD BTG cohete
+1 4 -40 64 -20 0 0 1 0 1 0 -1 0 0 patastro.dat
+0 MLCAD BTG cohete
+1 0 -20 -8 -20 0 0 1 0 1 0 -1 0 0 toberast.dat
+0 MLCAD BTG cohete
+1 4 -140 -32 -40 1 0 0 0 1 0 0 0 1 placa2x8.dat
+0 MLCAD BTG cohete
+1 0 -80 -40 -40 1 0 0 0 1 0 0 0 1 jacen2x2.dat
+0 MLCAD BTG cohete
+1 1 -80 -32 -60 1 0 0 0 1 0 0 0 1 jacena2.dat
+0 MLCAD BTG cohete
+1 1 -40 -96 -60 0 0 -1 0 1 0 1 0 0 jacen2x4.dat
+0 MLCAD BTG cohete
+1 1 -40 -120 -60 0 0 -1 0 1 0 1 0 0 jacen2x4.dat
+0 MLCAD BTG cohete
+1 1 -40 -144 0 0 0 -1 0 1 0 1 0 0 placa2x2.dat
+0 MLCAD BTG cohete
+1 1 -40 -144 -80 0 0 -1 0 1 0 1 0 0 placa2x2.dat
+0 MLCAD BTG cohete
+1 1 -40 -224 -40 0 0 -1 0 1 0 1 0 0 placa2x2.dat
+0 MLCAD BTG cohete
+1 15 -60 -232 -20 -1 0 0 0 1 0 0 0 -1 radar.dat
+0 MLCAD BTG cohete
+1 15 -60 -152 -20 -1 0 0 0 1 0 0 0 -1 cirrevol.dat
+0 MLCAD BTG cohete
+1 1 -60 -152 -20 1 0 0 0 1 0 0 0 1 cirrevos.dat
+0 MLCAD BTG cohete
+1 15 -60 -152 -20 1 0 0 0 1 0 0 0 1 cirrevol.dat
+0 MLCAD BTG cohete
+1 1 -60 -152 -20 -1 0 0 0 1 0 0 0 -1 cirrevos.dat
+0 MLCAD BTG cohete
+1 4 20 -144 0 -1 0 0 0 1 0 0 0 -1 placa2x8.dat
+0 MLCAD BTG cohete
+1 1 -80 -32 0 1 0 0 0 1 0 0 0 1 jacena2.dat
+0 MLCAD BTG cohete
+1 383 -20 -40 -20 1 0 0 0 1 0 0 0 1 amortigu.dat
+0 MLCAD BTG cohete
+1 383 -100 -40 -20 1 0 0 0 1 0 0 0 1 amortigu.dat
+0 MLCAD BTG cohete
+1 15 -40 -104 -20 0 -1 0 0 0 1 -1 0 0 cilindr.dat
+0 MLCAD BTG cohete
+1 15 -81 -104 -20 0 1 0 0 0 1 1 0 0 cilindr.dat
+0 MLCAD BTG cohete
+1 15 -80 -64 -40 1 0 0 0 1 0 0 0 1 jacen2x2.dat
+0 MLCAD BTG cohete
+1 0 -100 -8 -20 0 0 1 0 1 0 -1 0 0 toberast.dat
+0 MLCAD BTG cohete
+1 4 -80 -88 -40 1 0 0 0 1 0 0 0 1 deposito.dat
+0 MLCAD BTG cohete
+1 4 -40 -88 0 -1 0 0 0 1 0 0 0 -1 deposito.dat
+0 GROUP 32 cohete
+0 MLCAD BTG lanzadera
+1 1 220 64 70 -1 0 0 0 1 0 0 0 -1 placa4x6.dat
+0 MLCAD BTG lanzadera
+1 15 140 56 50 -1 0 0 0 1 0 0 0 -1 jacen2x2.dat
+0 MLCAD BTG lanzadera
+1 15 140 8 50 -1 0 0 0 1 0 0 0 -1 jacen2x2.dat
+0 MLCAD BTG lanzadera
+1 15 100 56 50 1 0 0 0 1 0 0 0 1 patastro.dat
+0 MLCAD BTG lanzadera
+1 15 100 -144 50 1 0 0 0 1 0 0 0 1 patastro.dat
+0 MLCAD BTG lanzadera
+1 15 300 -144 -50 -1 0 0 0 1 0 0 0 -1 patastro.dat
+0 MLCAD BTG lanzadera
+1 383 280 -240 -30 -1 0 0 0 1 0 0 0 -1 amortigu.dat
+0 MLCAD BTG lanzadera
+1 15 280 -264 -30 -1 0 0 0 1 0 0 0 -1 cilindro.dat
+0 MLCAD BTG lanzadera
+1 4 280 -288 -30 -1 0 0 0 1 0 0 0 -1 cilindro.dat
+0 MLCAD BTG lanzadera
+1 15 280 -312 -30 -1 0 0 0 1 0 0 0 -1 cilindro.dat
+0 MLCAD BTG lanzadera
+1 15 280 -360 -30 -1 0 0 0 1 0 0 0 -1 cilindro.dat
+0 MLCAD BTG lanzadera
+1 4 280 -384 -30 -1 0 0 0 1 0 0 0 -1 cilindro.dat
+0 MLCAD BTG lanzadera
+1 4 130 -144 20 -1 0 0 0 1 0 0 0 -1 cilindro.dat
+0 MLCAD BTG lanzadera
+1 4 130 -144 40 -1 0 0 0 1 0 0 0 -1 cilindro.dat
+0 MLCAD BTG lanzadera
+1 4 100 -160 30 0 0 -1 0 1 0 1 0 0 bispqarr.dat
+0 MLCAD BTG lanzadera
+1 4 100 -160 30 0 0.965926 0.258819 0 0.258819 -0.965926 -1 0 0 bispqaba.dat
+0 MLCAD BTG lanzadera
+1 4 280 -432 -30 -1 0 0 0 1 0 0 0 -1 laser.dat
+0 MLCAD BTG lanzadera
+1 15 280 -408 -30 -1 0 0 0 1 0 0 0 -1 cilindro.dat
+0 MLCAD BTG lanzadera
+1 4 280 -336 -30 -1 0 0 0 1 0 0 0 -1 cilindro.dat
+0 MLCAD BTG lanzadera
+1 15 220 -40 10 -1 0 0 0 1 0 0 0 -1 patastro.dat
+0 MLCAD BTG lanzadera
+1 1 140 32 50 -1 0 0 0 1 0 0 0 -1 jacen2x2.dat
+0 MLCAD BTG lanzadera
+1 1 220 64 -50 -1 0 0 0 1 0 0 0 -1 placa4x6.dat
+0 MLCAD BTG lanzadera
+1 15 140 56 -70 -1 0 0 0 1 0 0 0 -1 jacen2x2.dat
+0 MLCAD BTG lanzadera
+1 15 140 8 -70 -1 0 0 0 1 0 0 0 -1 jacen2x2.dat
+0 MLCAD BTG lanzadera
+1 15 140 -192 50 -1 0 0 0 1 0 0 0 -1 jacen2x2.dat
+0 MLCAD BTG lanzadera
+1 15 140 -168 50 -1 0 0 0 1 0 0 0 -1 jacen2x2.dat
+0 MLCAD BTG lanzadera
+1 15 100 56 -70 1 0 0 0 1 0 0 0 1 patastro.dat
+0 MLCAD BTG lanzadera
+1 15 100 -144 -70 1 0 0 0 1 0 0 0 1 patastro.dat
+0 MLCAD BTG lanzadera
+1 15 220 -40 -110 -1 0 0 0 1 0 0 0 -1 patastro.dat
+0 MLCAD BTG lanzadera
+1 15 180 -136 50 0 0 1 0 1 0 -1 0 0 placa2x8.dat
+0 MLCAD BTG lanzadera
+1 15 200 -96 -10 0 0 -1 0 1 0 1 0 0 cilindr.dat
+0 MLCAD BTG lanzadera
+1 15 200 -96 -50 0 0 -1 0 1 0 1 0 0 cilindr.dat
+0 MLCAD BTG lanzadera
+1 1 140 32 -70 -1 0 0 0 1 0 0 0 -1 jacen2x2.dat
+0 MLCAD BTG lanzadera
+1 4 115.455 -155.859 50 -0.258819 0.965926 0 0.965926 0.258819 0 0 0 -1 placa2x8.dat
+0 MLCAD BTG lanzadera
+1 0 102.551 -138.611 50 -0.258819 0.965926 0 0.965926 0.258819 0 0 0 -1 baldc2x2.dat
+0 MLCAD BTG lanzadera
+1 0 92.198 -99.974 50 -0.258819 0.965926 0 0.965926 0.258819 0 0 0 -1 baldc2x2.dat
+0 MLCAD BTG lanzadera
+1 0 81.846 -61.337 50 -0.258819 0.965926 0 0.965926 0.258819 0 0 0 -1 baldc2x2.dat
+0 MLCAD BTG lanzadera
+1 0 71.493 -22.7 50 -0.258819 0.965926 0 0.965926 0.258819 0 0 0 -1 baldc2x2.dat
+0 GROUP 38 lanzadera
+0

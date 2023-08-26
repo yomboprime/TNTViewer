@@ -1,5 +1,5 @@
 0 Sin_nombre
-0 Name: Aire_0506_HelicopteroFumigador.ldr
+0 Name: Aire_0506_Helicoptero_Fumigador.ldr
 0 Author: jasolo
 0 Unofficial Model
 0 ROTATION CENTER 0 0 0 1 "Custom" 
@@ -21,6 +21,8 @@
 1 1 -110 -8 -10 -1 0 0 0 1 0 0 0 -1 cuna.dat
 1 1 -70 -8 -10 -1 0 0 0 1 0 0 0 -1 cuna.dat
 1 1 -110 -32 -10 1 0 0 0 1 0 0 0 1 skycab.dat
+1 4 -90 -48 -20 1 0 0 0 1 0 0 0 1 piloto1s.dat
+1 4 -130 -48 -20 1 0 0 0 1 0 0 0 1 piloto1s.dat
 1 1 -110 -32 -10 1 0 0 0 1 0 0 0 1 skycabcr.dat
 1 1 -130 -80 10 1 0 0 0 1 0 0 0 1 jacena2.dat
 1 7 -150 -40 -70 1 0 0 0 1 0 0 0 1 airsillo.dat

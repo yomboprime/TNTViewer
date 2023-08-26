@@ -2,6 +2,8 @@
 0 Name: Aire 0500 Helicóptero de Rescate
 0 Author: jasolo [jasolo]
 0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
 0 BFC CERTIFY CCW
 1 14 -80 0 -20 1 0 0 0 1 0 0 0 1 placa2x8.dat
 1 14 -40 -8 20 0 0 1 0 1 0 -1 0 0 placa4.dat
@@ -10,6 +12,8 @@
 0 STEP
 1 14 -20 -16 20 1 0 0 0 1 0 0 0 1 cuna.dat
 1 14 0 -16 -20 1 0 0 0 1 0 0 0 1 skycab.dat
+1 1 20 -33 -33 1 0 0 0 1 0 0 0 1 piloto1s.dat
+1 1 -20 -33 -33 1 0 0 0 1 0 0 0 1 piloto1s.dat
 0 STEP
 1 8 -40 -24 -80 1 0 0 0 1 0 0 0 1 airsillo.dat
 1 8 -20 -40 40 1 0 0 0 1 0 0 0 1 helcolhu.dat
@@ -65,6 +69,8 @@
 1 0 -10 -110 80 0 0 -1 1 0 0 0 -1 0 tubo.dat
 0
 0 FILE tba0501.ldr
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
 0 BFC CERTIFY CCW
 1 16 0 0 0 0 0 -1 0 1 0 1 0 0 placacil.dat
 1 16 0 -40 0 0 0 -1 0 1 0 1 0 0 placacil.dat
@@ -1343,3 +1349,5 @@
 5 24 -1.768 -45.726 8.294 -1.768 -45.755 14.324 -2.5 -43.958 8.295 0 -46.487 14.304
 5 24 0 -46.458 8.294 0 -46.487 14.304 -1.768 -45.726 8.294 1.768 -45.755 14.324
 5 24 1.768 -45.726 8.294 1.768 -45.755 14.324 0 -46.458 8.294 2.5 -43.988 14.373
+0
+0

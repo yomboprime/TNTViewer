@@ -1,7 +1,6 @@
-0 Index of Series: Roblock Ref: 0791
 0 ROTATION CENTER 0 0 0 1 "Custom"
 0 ROTATION CONFIG 0 0
 
-1 16 -420.75 40 420.75 1 0 0 0 1 0 0 0 1 Roblock_0791/Roblock_0791_Thor.ldr
-1 16 420.75 408.001 420.75 1 0 0 0 1 0 0 0 1 Roblock_0791/Roblock_0791_Thor_Transf.ldr
+1 0 -302.5151999985694 0 0 1 0 0 0 1 0 0 0 1 Roblock_0791/Roblock_0791_Thor.ldr
+1 0 420.75000000000006 0 0 1 0 0 0 1 0 0 0 1 Roblock_0791/Roblock_0791_Thor_Transf.ldr
 0

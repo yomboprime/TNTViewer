@@ -1,7 +1,6 @@
-0 Index of Series: Astro Ref: 0542
 0 ROTATION CENTER 0 0 0 1 "Custom"
 0 ROTATION CONFIG 0 0
 
-1 16 -353.4 -72 353.4 1 0 0 0 1 0 0 0 1 Astro_0542/Astro_0542_Interceptor_Tactico.ldr
-1 16 353.4 -11.582 353.4 1 0 0 0 1 0 0 0 1 Astro_0542/Astro_0542_Transporte_de_Discos.ldr
+1 0 -340.826400089264 0 0 1 0 0 0 1 0 0 0 1 Astro_0542/Astro_0542_Interceptor_Tactico.ldr
+1 0 353.3999999999999 0 0 1 0 0 0 1 0 0 0 1 Astro_0542/Astro_0542_Transporte_de_Discos.ldr
 0

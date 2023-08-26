@@ -1,8 +1,10 @@
 0 Scorpion 0543 Transporte Blindado
-0 Name: Scorpion 0543 Transporte Blindado
+0 Name: Scorpion_0543_Transporte_Blindado.ldr
 0 Author: Jasolo
 0 UNOFFICIAL MODEL
 0 !LICENSE Free for non-commercial use.
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
 1 330 80 -72 20 -1 0 0 0 1 0 0 0 -1 placa6x8.dat
 1 330 80 -72 140 -1 0 0 0 1 0 0 0 -1 placa6x8.dat
 1 330 40 -48 -100 0 0 -1 0 1 0 1 0 0 jacen2x8.dat
@@ -122,3 +124,6 @@
 1 330 40 -128 20 1 0 0 0 1 0 0 0 1 baldc2x2.dat
 1 330 40 -104 -120 0 0 -1 0 1 0 1 0 0 bald2r.dat
 1 330 -40 -104 -100 0 0 1 0 1 0 -1 0 0 bald2r.dat
+1 92 -40 -111 -24 1 0 0 0 1 0 0 0 1 ftanquis.dat
+1 92 40 -111 -24 1 0 0 0 1 0 0 0 1 ftanquis.dat
+0

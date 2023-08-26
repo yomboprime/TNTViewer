@@ -143,7 +143,8 @@
 1 0 -120 128 270 1 0 0 0 1 0 0 0 1 cadcobra.dat
 1 0 -290 128 30 1 0 0 0 1 0 0 0 1 cadcobra.dat
 1 0 -120 128 30 1 0 0 0 1 0 0 0 1 cadcobra.dat
-0
+1 2 -140 -72 280 1 0 0 0 1 0 0 0 1 marcians.dat
+1 2 -10 91 180 1 0 0 0 1 0 0 0 1 marciano.dat
 0 FILE tbco437a.dat
 0 Tubo Cosmic 0437 A
 0 Author: Jasolo

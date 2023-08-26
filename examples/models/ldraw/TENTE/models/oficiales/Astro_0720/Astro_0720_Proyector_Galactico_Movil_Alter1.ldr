@@ -1,0 +1,31 @@
+0 Untitled
+0 Name: Astro_0720_Proyector_Galactico_Movil_Alter1.ldr
+0 Author: MLCad
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 1 -40 24 0 1 0 0 0 1 0 0 0 1 placa4x6.dat
+1 1 40 120 60 1 0 0 0 1 0 0 0 1 patastro.dat
+1 1 0 120 40 0 0 -1 0 1 0 1 0 0 patastro.dat
+1 1 0 120 20 -1 0 0 0 1 0 0 0 -1 patastro.dat
+1 1 40 120 40 0 0 1 0 1 0 -1 0 0 patastro.dat
+1 4 20 8 40 0 0 1 0 1 0 -1 0 0 bispqaba.dat
+1 4 20 8 40 0 0 -1 0 1 0 1 0 0 bispqarr.dat
+1 4 50 0 20 0 0 -1 0 1 0 1 0 0 placa2x2.dat
+1 4 30 -8 40 0 0 -1 0 1 0 1 0 0 rotorinf.dat
+1 4 30 -8 40 0 0 -1 0 1 0 1 0 0 platfgir.dat
+1 15 30 -24 40 0 0 1 0 1 0 -1 0 0 cirrevol.dat
+1 15 -10 -132 50 0 1 0 0 0 -1 -1 0 0 chimtubo.dat
+1 4 -34 -132 50 0 1 0 0 0 -1 -1 0 0 laser.dat
+1 4 -34 -132 30 0 1 0 0 0 -1 -1 0 0 laser.dat
+1 15 30 -24 40 0 0 -1 0 1 0 1 0 0 cirrevog.dat
+1 4 30 -24 40 0 0 -1 0 1 0 1 0 0 p_pgm.dat
+1 4 -80 128 50 0 0 -1 0 1 0 1 0 0 rueastro.dat
+1 4 160 128 50 0 0 -1 0 1 0 1 0 0 rueastro.dat
+1 4 40 128 150 0 0 -1 0 1 0 1 0 0 rueastro.dat
+1 4 40 128 -50 0 0 -1 0 1 0 1 0 0 rueastro.dat
+1 4 50 -104 10 0 0 -1 0 1 0 1 0 0 placa2x3.dat
+1 4 30 -96 40 0 0 1 0 1 0 -1 0 0 popa6p.dat
+1 15 30 -112 40 0 0 1 0 1 0 -1 0 0 cilindr.dat
+1 4 30 -96 40 0 0 -1 0 1 0 1 0 0 popa6p.dat
+0

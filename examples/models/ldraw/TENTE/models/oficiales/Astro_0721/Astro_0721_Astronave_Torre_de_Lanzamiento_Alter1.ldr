@@ -1,0 +1,55 @@
+0 Untitled
+0 Name: Astro_0721_Astronave_Torre_de_Lanzamiento_Alter1.ldr
+0 Author: MLCad
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 4 -70 16 0 1 0 0 0 1 0 0 0 1 placa2x8.dat
+1 4 -50 -64 0 1 0 0 0 1 0 0 0 1 placa2x8.dat
+1 4 100 -77 30 1 0 0 0 1 0 0 0 1 grua.dat
+1 4 50 8 0 1 0 0 0 1 0 0 0 1 placa2x8.dat
+1 15 130 0 0 1 0 0 0 1 0 0 0 1 placa2x8.dat
+1 4 90 -8 0 1 0 0 0 1 0 0 0 1 deposito.dat
+1 4 110 -64 0 1 0 0 0 1 0 0 0 1 deposito.dat
+1 4 150 -64 40 -1 0 0 0 1 0 0 0 -1 deposito.dat
+1 4 170 -8 0 1 0 0 0 1 0 0 0 1 deposito.dat
+1 4 90 56 20 0 0 -1 0 1 0 1 0 0 patastro.dat
+1 4 170 56 20 0 0 -1 0 1 0 1 0 0 patastro.dat
+1 4 250 56 20 0 0 -1 0 1 0 1 0 0 patastro.dat
+1 4 290 56 20 0 0 1 0 1 0 -1 0 0 patastro.dat
+1 4 210 56 20 0 0 1 0 1 0 -1 0 0 patastro.dat
+1 4 130 56 20 0 0 1 0 1 0 -1 0 0 patastro.dat
+1 4 90 -40 0 1 0 0 0 1 0 0 0 1 jacen2x8.dat
+1 15 250 -40 40 0 0 1 0 1 0 -1 0 0 jacen2x2.dat
+1 15 250 -40 80 0 0 1 0 1 0 -1 0 0 jacen2x2.dat
+1 15 250 -40 0 0 0 1 0 1 0 -1 0 0 jacen2x2.dat
+1 4 250 -8 0 1 0 0 0 1 0 0 0 1 deposito.dat
+1 4 210 -8 40 -1 0 0 0 1 0 0 0 -1 deposito.dat
+1 4 290 -8 40 -1 0 0 0 1 0 0 0 -1 deposito.dat
+1 4 130 -8 40 -1 0 0 0 1 0 0 0 -1 deposito.dat
+1 46 -30 -72 20 -1 0 0 0 1 0 0 0 -1 amortigu.dat
+1 4 280 -64 -30 -1 0 0 0 1 0 0 0 -1 cilindro.dat
+1 4 260 -64 -30 -1 0 0 0 1 0 0 0 -1 cilindro.dat
+1 4 280 -64 70 -1 0 0 0 1 0 0 0 -1 cilindro.dat
+1 4 260 -64 70 -1 0 0 0 1 0 0 0 -1 cilindro.dat
+1 0 290 -64 60 -1 0 0 0 1 0 0 0 -1 baldc2x2.dat
+1 0 290 -64 20 -1 0 0 0 1 0 0 0 -1 baldc2x2.dat
+1 0 250 -64 40 -1 0 0 0 1 0 0 0 -1 baldc2x2.dat
+1 0 210 -64 40 -1 0 0 0 1 0 0 0 -1 baldc2x2.dat
+1 15 -30 56 20 0 0 1 0 1 0 -1 0 0 cilindr.dat
+1 4 -68 36 20 0 1 0 0 0 -1 -1 0 0 cilindro.dat
+1 4 -92 36 20 0 1 0 0 0 -1 -1 0 0 cilindro.dat
+1 4 -116 36 20 0 1 0 0 0 -1 -1 0 0 cilindro.dat
+1 4 -140 36 20 0 1 0 0 0 -1 -1 0 0 laser.dat
+1 15 -30 8 20 0 0 1 0 1 0 -1 0 0 cirrevol.dat
+1 1 -30 8 20 0 0 -1 0 1 0 1 0 0 cirrevos.dat
+1 15 -30 8 20 0 0 -1 0 1 0 1 0 0 cirrevol.dat
+1 1 -30 8 20 0 0 1 0 1 0 -1 0 0 cirrevos.dat
+1 0 90 0 0 1 0 0 0 1 0 0 0 1 placa2x2.dat
+1 15 270 -88 -30 0 0 1 0 1 0 -1 0 0 cilindr.dat
+1 15 270 -88 70 0 0 1 0 1 0 -1 0 0 cilindr.dat
+1 15 250 40 20 0 0 1 0 1 0 -1 0 0 cilindr.dat
+1 0 308 -109 -30 0 1 0 0 0 -1 -1 0 0 toberast.dat
+1 0 308 -109 70 0 1 0 0 0 -1 -1 0 0 toberast.dat
+1 0 288 21 20 0 1 0 0 0 -1 -1 0 0 toberast.dat
+0

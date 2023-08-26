@@ -1,5 +1,5 @@
 0 Untitled
-0 Name: Escorpion_0543_lanza_misil_movil.ldr
+0 Name: Scorpion_0543_Lanza_Misil_Movil.ldr
 0 Author: MLCad
 0 Unofficial Model
 0 ROTATION CENTER 0 0 0 1 "Custom" 
@@ -80,6 +80,8 @@
 1 8 150 -8 -60 0 0 1 0 1 0 -1 0 0 asiescor.dat
 1 8 150 -8 -20 0 0 1 0 1 0 -1 0 0 asiescor.dat
 1 8 150 -8 20 0 0 1 0 1 0 -1 0 0 asiescor.dat
+1 92 130 -16 -40 0 0 1 0 1 0 -1 0 0 fconducs.dat
+1 92 -170 96 -40 0 0 -1 0 1 0 1 0 0 ftanquip.dat
 1 8 30 16 20 0 0 1 0 1 0 -1 0 0 rallado2.dat
 1 8 30 -8 20 0 0 1 0 1 0 -1 0 0 rallado2.dat
 1 8 10 16 20 1 0 0 0 1 0 0 0 1 jacena4.dat

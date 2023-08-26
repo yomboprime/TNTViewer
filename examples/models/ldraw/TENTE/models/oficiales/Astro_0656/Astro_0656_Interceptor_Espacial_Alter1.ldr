@@ -1,0 +1,31 @@
+0 Untitled
+0 Name: Astro_0656_Interceptor_Espacial_Alter1.ldr
+0 Author: MLCad
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 1 -80 24 0 1 0 0 0 1 0 0 0 1 placa4x8.dat
+1 0 80 112 60 1 0 0 0 1 0 0 0 1 patastro.dat
+1 0 -80 112 20 -1 0 0 0 1 0 0 0 -1 patastro.dat
+1 0 -20 120 60 0 0 -1 0 1 0 1 0 0 patastro.dat
+1 1 -60 16 40 -1 0 0 0 1 0 0 0 -1 alaastro.dat
+1 1 -60 8 40 -1 0 0 0 1 0 0 0 -1 pinzastr.dat
+1 1 0 -8 -20 -1 0 0 0 1 0 0 0 -1 pinzastr.dat
+1 1 -60 8 80 -1 0 0 0 1 0 0 0 -1 pinzastr.dat
+1 1 60 8 40 1 0 0 0 1 0 0 0 1 pinzastr.dat
+1 1 60 8 0 1 0 0 0 1 0 0 0 1 pinzastr.dat
+1 1 0 -8 -60 1 0 0 0 1 0 0 0 1 pinzastr.dat
+1 4 20 -8 100 -1 0 0 0 1 0 0 0 -1 deposito.dat
+1 0 -50 42 0 1 0 0 0 0 1 0 -1 0 toberast.dat
+1 0 50 42 0 1 0 0 0 0 1 0 -1 0 toberast.dat
+1 4 -50 42 80 0.5 0 -0.866025 0.866025 0 0.5 0 -1 0 chimtubo.dat
+1 4 -50 42 104 0.5 0 -0.866025 0.866025 0 0.5 0 -1 0 laser.dat
+1 4 50 42 80 -0.5 0 -0.866025 0.866025 0 -0.5 0 -1 0 chimtubo.dat
+1 4 50 42 104 -0.5 0 -0.866025 0.866025 0 -0.5 0 -1 0 laser.dat
+1 1 20 16 -60 0 0 -1 0 1 0 1 0 0 jacen2x8.dat
+1 15 0 -40 50 0 0 1 0 1 0 -1 0 0 semicugg.dat
+1 32 0 -8 40 1 0 0 0 1 0 0 0 1 semicupg.dat
+1 1 60 16 40 1 0 0 0 1 0 0 0 1 alaastro.dat
+1 4 -50 64 40 -1 0 0 0 1 0 0 0 -1 cilindr2.dat
+1 4 50 64 40 -1 0 0 0 1 0 0 0 -1 cilindr2.dat
+0

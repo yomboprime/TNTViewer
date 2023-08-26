@@ -1,5 +1,5 @@
 0 Sin_nombre
-0 Name: Aire_0502_HelicopteroBrigadaForestal.ldr
+0 Name: Aire_0502_Helicoptero_Brigada_Forestal.ldr
 0 Author: jasolo
 0 Unofficial Model
 0 ROTATION CENTER 0 0 0 1 "Custom" 
@@ -87,4 +87,6 @@
 1 0 -150 -16 -20 1 0 0 0 1 0 0 0 1 helmando.dat
 1 0 -110 -16 -20 1 0 0 0 1 0 0 0 1 helmando.dat
 1 0 -90 -84 470 1 0 0 0 1 0 0 0 1 tbhelbrg.dat
+1 1 -90 -24 24 1 0 0 0 1 0 0 0 1 piloto1s.dat
+1 1 -130 -24 24 1 0 0 0 1 0 0 0 1 piloto1s.dat
 0

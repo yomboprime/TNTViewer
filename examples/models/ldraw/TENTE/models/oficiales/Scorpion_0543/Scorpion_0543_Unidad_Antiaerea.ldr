@@ -1,7 +1,9 @@
 0 Scorpion 0543 Unidad Antiaérea
-0 Name: Scorpion 0543 Unidad Antiaérea
+0 Name: Scorpion_0543_Unidad_Antiaerea.ldr
 0 Author: jasolo
 0 !LICENSE Free for non-commercial use.
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
 1 330 0 0 -70 1 0 0 0 1 0 0 0 1 placa2x3.dat
 1 330 -60 0 -70 1 0 0 0 1 0 0 0 1 placa2x3.dat
 1 330 -60 0 -30 1 0 0 0 1 0 0 0 1 placa4x6.dat
@@ -99,3 +101,9 @@
 1 330 0 24 210 1 0 0 0 1 0 0 0 1 ruescorl.dat
 1 330 0 24 150 -1 0 0 0 1 0 0 0 -1 ruescorl.dat
 1 330 0 24 210 -1 0 0 0 1 0 0 0 -1 ruescorl.dat
+1 92 40 -16 -10 1 0 0 0 1 0 0 0 1 fconducs.dat
+1 92 -30 -66 200 1 0 0 0 -0.0871557 0.996195 0 -0.996195 -0.0871557 fpiernas.dat
+1 92 -30 -66.693 200.981 1 0 0 0 0.906308 0.422618 0 -0.422618 0.906308 fconducc.dat
+1 92 30 -66 200 1 0 0 0 -0.0871557 0.996195 0 -0.996195 -0.0871557 fpiernas.dat
+1 92 30 -63.126 196.945 1 0 0 0 0.906308 0.422618 0 -0.422618 0.906308 ftanquic.dat
+0

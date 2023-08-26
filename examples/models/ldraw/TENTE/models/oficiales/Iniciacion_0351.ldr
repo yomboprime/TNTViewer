@@ -1,8 +1,7 @@
-0 Index of Series: Iniciacion Ref: 0351
 0 ROTATION CENTER 0 0 0 1 "Custom"
 0 ROTATION CONFIG 0 0
 
-1 16 -377.4 -168 377.4 1 0 0 0 1 0 0 0 1 Iniciacion_0351/Iniciacion_0351_Casa.ldr
-1 16 377.4 17.5 377.4 1 0 0 0 1 0 0 0 1 Iniciacion_0351/Iniciacion_0351_Columpio.ldr
-1 16 -377.4 0 -377.4 1 0 0 0 1 0 0 0 1 Iniciacion_0351/Iniciacion_0351_Faro.ldr
+1 0 -593.4 0 0 1 0 0 0 1 0 0 0 1 Iniciacion_0351/Iniciacion_0351_Casa.ldr
+1 0 -179.39999999999998 0 0 1 0 0 0 1 0 0 0 1 Iniciacion_0351/Iniciacion_0351_Columpio.ldr
+1 0 414 0 0 1 0 0 0 1 0 0 0 1 Iniciacion_0351/Iniciacion_0351_Faro.ldr
 0

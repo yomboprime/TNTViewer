@@ -1,0 +1,25 @@
+0 Untitled
+0 Name: Astro_0552_Mini_Vehiculo_1.ldr
+0 Author: MLCad
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 0 -20 -8 0 1 0 0 0 1 0 0 0 1 jacen2x8.dat
+1 383 130 -8 50 1 0 0 0 1 0 0 0 1 amortigu.dat
+1 383 110 -8 50 1 0 0 0 1 0 0 0 1 amortigu.dat
+1 383 110 -8 -10 1 0 0 0 1 0 0 0 1 amortigu.dat
+1 383 130 -8 -10 1 0 0 0 1 0 0 0 1 amortigu.dat
+1 0 80 -32 20 1 0 0 0 1 0 0 0 1 amortigu.dat
+1 15 80 -61 20 1 0 0 0 1 0 0 0 1 antincv.dat
+1 4 100 -32 -20 1 0 0 0 1 0 0 0 1 bald2x2r.dat
+1 4 140 -32 60 -1 0 0 0 1 0 0 0 -1 bald2x2r.dat
+1 4 60 -32 60 -1 0 0 0 1 0 0 0 -1 placa2x2.dat
+1 4 60 -32 20 -1 0 0 0 1 0 0 0 -1 placa2x2.dat
+1 32 20 -32 20 0 0 -1 0 1 0 1 0 0 semicupg.dat
+1 32 40 -40 40 0 0 1 0 1 0 -1 0 0 sillastr.dat
+1 32 0 -40 40 0 0 1 0 1 0 -1 0 0 bald2x2.dat
+1 15 29 -62 21 0 0 1 0 1 0 -1 0 0 astcuerv.dat
+1 15 29 -62 21 0 -1 0 0 0 1 -1 0 0 astpiern.dat
+1 4 100 0 10 0 0 1 0 1 0 -1 0 0 rueastro.dat
+1 4 0 -8 20 0 0 1 0 1 0 -1 0 0 rueruj2l.dat
+0

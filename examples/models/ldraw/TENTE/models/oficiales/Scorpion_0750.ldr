@@ -1,6 +1,6 @@
-0 Index of Series: Scorpion Ref: 0750
-0 ROTATION CENTER 0 0 0 1 "Custom"
-0 ROTATION CONFIG 0 0
 
-1 16 0 -59.5 0 1 0 0 0 1 0 0 0 1 Scorpion_0750/Scorpion_0750_Tanque.ldr
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 0 0 0 0 1 0 0 0 1 0 0 0 1 Scorpion_0750/Scorpion_0750_Tanque.ldr
+1 14 166 -66 -20 0 0 1 0 1 0 -1 0 0 ftanquis.dat
 0

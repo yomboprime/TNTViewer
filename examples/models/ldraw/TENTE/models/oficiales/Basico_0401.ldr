@@ -1,7 +1,6 @@
-0 Index of Series: Basico Ref: 0401
 0 ROTATION CENTER 0 0 0 1 "Custom"
 0 ROTATION CONFIG 0 0
 
-1 16 -192 -176 192 1 0 0 0 1 0 0 0 1 Basico_0401/Basico_0401_Casa.ldr
-1 16 192 -15 192 1 0 0 0 1 0 0 0 1 Basico_0401/Basico_0401_F1_Tesoro.ldr
+1 0 -115.5 0 0 1 0 0 0 1 0 0 0 1 Basico_0401/Basico_0401_Casa.ldr
+1 0 192 0 0 1 0 0 0 1 0 0 0 1 Basico_0401/Basico_0401_F1_Tesoro.ldr
 0

@@ -1,7 +1,9 @@
 0 Untitled
-0 Name: Scorpion0543_misil_autotransportado.ldr
+0 Name: Scorpion_0543_Misil_Autotransportado.ldr
 0 Author: jasolo
 0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
 1 330 0 0 80 -1 0 0 0 1 0 0 0 -1 placa6x8.dat
 1 330 -80 0 240 0 0 1 0 1 0 -1 0 0 placa4x8.dat
 1 330 -80 24 -20 0 0 -1 0 1 0 1 0 0 jacen2x8.dat
@@ -128,3 +130,5 @@
 1 330 -40 -8 140 -1 0 0 0 1 0 0 0 -1 baldc2.dat
 1 8 -50 -40 220 0 0 -1 0 1 0 1 0 0 pastilla.dat
 1 0 -30 -45 90 1 0 0 0 1 0 0 0 1 antena.dat
+1 92 -170 64 -190 -1 0 0 0 1 0 0 0 -1 fsoldadp.dat
+0

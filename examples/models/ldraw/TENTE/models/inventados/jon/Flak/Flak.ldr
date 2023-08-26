@@ -1,0 +1,405 @@
+0 Untitled
+0 Name: Flak.ldr
+0 Author: MLCad
+0 Unofficial Model
+0 Untitled
+0 Name: Flak.ldr
+0 Author: MLCad
+0 Unofficial Model
+0 !COLOUR Kaki CODE 77 VALUE #424510 EDGE #222222 ALPHA 255
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+0 GROUP 38 Ruedas1
+0 MLCAD BTG Ruedas1
+1 0 226 18 389.999 0 0 1 1 0 0 0 1 0 engbarco.dat
+0 MLCAD BTG Ruedas1
+1 0 285.999 18 390 0 0 1 1 0 0 0 1 0 engbarco.dat
+0 MLCAD BTG Ruedas1
+1 8 228 -20 400 1 0 0 0 1 0 0 0 1 gruators.dat
+0 MLCAD BTG Ruedas1
+1 0 314 -32 410 0 1 0 -1 0 0 0 0 1 bisnreje.dat
+0 MLCAD BTG Ruedas1
+1 8 284 -20 360.001 -1 0 0 0 1 0 0 0 -1 gruators.dat
+0 MLCAD BTG Ruedas1
+1 8 324 -20 360.001 1 0 0 0 1 0 0 0 1 alfapico.dat
+0 MLCAD BTG Ruedas1
+1 8 294 -20 410 1 0 0 0 1 0 0 0 1 piquito.dat
+0 MLCAD BTG Ruedas1
+1 8 228 -12 340 0 0 -1 0 1 0 1 0 0 placa4.dat
+0 MLCAD BTG Ruedas1
+1 8 324 -4 420 -1 0 0 0 1 0 0 0 -1 deposito.dat
+0 MLCAD BTG Ruedas1
+1 8 247.999 -12 390 0 -1 0 0 0 1 -1 0 0 enganc2.dat
+0 MLCAD BTG Ruedas1
+1 0 240 -2 379.999 0 -1 0 0.19509 0 -0.980785 0.980785 0 0.19509 chimplac.dat
+0 MLCAD BTG Ruedas1
+1 0 232 -2 380 0 -1 0 1 0 0 0 0 1 chimplac.dat
+0 MLCAD BTG Ruedas1
+1 8 303.999 -12 340 0 0 -1 0 1 0 1 0 0 placa4.dat
+0 MLCAD BTG Ruedas1
+1 0 280 -2 380 0 1 0 1 0 0 0 0 -1 chimplac.dat
+0 MLCAD BTG Ruedas1
+1 0 272 -2 379.999 0 1 0 0.19509 0 0.980785 0.980785 0 -0.19509 chimplac.dat
+0 MLCAD BTG Ruedas1
+1 77 187.999 26 400 1 0 0 0 1 0 0 0 1 llantrut.dat
+0 MLCAD BTG Ruedas1
+1 77 208.001 26 400 1 0 0 0 1 0 0 0 1 llanrutt.dat
+0 MLCAD BTG Ruedas1
+1 383 256 18 380 -1 0 0 0 1 0 0 0 -1 eje5.dat
+0 MLCAD BTG Ruedas1
+1 0 208.001 26 400 1 0 0 0 1 0 0 0 1 neumtter.dat
+0 MLCAD BTG Ruedas1
+1 8 284 -4 340 1 0 0 0 1 0 0 0 1 placa2.dat
+0 MLCAD BTG Ruedas1
+1 0 187.999 26 400 1 0 0 0 1 0 0 0 1 neumtter.dat
+0 MLCAD BTG Ruedas1
+1 8 304 -12 370 0 1 0 0 0 1 1 0 0 enganch2.dat
+0 MLCAD BTG Ruedas1
+1 0 324 26 360 -1 0 0 0 1 0 0 0 -1 neumtter.dat
+0 MLCAD BTG Ruedas1
+1 77 304 26 360 -1 0 0 0 1 0 0 0 -1 llanrutt.dat
+0 MLCAD BTG Ruedas1
+1 77 324 26 360 -1 0 0 0 1 0 0 0 -1 llantrut.dat
+0 MLCAD BTG Ruedas1
+1 8 324 -12 400.001 -1 0 0 0 1 0 0 0 -1 guardabr.dat
+0 MLCAD BTG Ruedas1
+1 383 256 1.903 399.615 -1 0 0 0 0.980785 -0.19509 0 -0.19509 -0.980785 eje15.dat
+0 MLCAD BTG Ruedas1
+1 8 304 -12 360 0 0 1 0 1 0 -1 0 0 placa1.dat
+0 MLCAD BTG Ruedas1
+1 0 304 26 360 -1 0 0 0 1 0 0 0 -1 neumtter.dat
+0 MLCAD BTG Ruedas1
+1 8 228 -20 360.001 1 0 0 0 1 0 0 0 1 alfapico.dat
+0 MLCAD BTG Ruedas1
+1 0 314 -37 410 1 0 0 0 1 0 0 0 1 cabnuevo.dat
+0 MLCAD BTG Ruedas1
+1 8 218 -20 410.001 1 0 0 0 1 0 0 0 1 piquito.dat
+0 MLCAD BTG Ruedas1
+1 8 198 -12 410.001 1 0 0 0 1 0 0 0 1 tubo.dat
+0 MLCAD BTG Ruedas1
+1 8 188 -12 360 1 0 0 0 1 0 0 0 1 guardabr.dat
+0 MLCAD BTG Ruedas1
+1 8 208.001 -12 340 0 0 -1 0 1 0 1 0 0 placa1.dat
+0 MLCAD BTG Ruedas1
+1 8 228 -4 420 -1 0 0 0 1 0 0 0 -1 deposito.dat
+0 MLCAD BTG Ruedas1
+1 8 188 -4 340.001 1 0 0 0 1 0 0 0 1 placa2.dat
+0 MLCAD BTG Ruedas1
+1 8 208.001 -12 390 0 -1 0 0 0 1 -1 0 0 enganch2.dat
+0 GROUP 42 Ruedas2
+0 MLCAD BTG Ruedas2
+1 8 188 -20 100 -1 0 0 0 1 0 0 0 -1 gruatorn.dat
+0 MLCAD BTG Ruedas2
+1 8 324 -20 140 1 0 0 0 1 0 0 0 1 gruators.dat
+0 MLCAD BTG Ruedas2
+1 0 294 -20 90 0 0 -1 0 1 0 1 0 0 engbarco.dat
+0 MLCAD BTG Ruedas2
+1 0 246.815 -26.319 64.564 -0.92388 0.382683 0 0.212608 0.51328 0.83147 0.31819 0.768178 -0.55557 engbarco.dat
+0 MLCAD BTG Ruedas2
+1 8 304 -20 150 1 0 0 0 1 0 0 0 1 ancl1x2.dat
+0 MLCAD BTG Ruedas2
+1 0 250.643 -21.185 72.246 -0.92388 0.382683 0 0.212608 0.51328 0.83147 0.31819 0.768178 -0.55557 tubo.dat
+0 MLCAD BTG Ruedas2
+1 8 314 -12 89.999 -1 0 0 0 1 0 0 0 -1 piquito.dat
+0 MLCAD BTG Ruedas2
+1 0 256 -14 83 0 -0.382683 0.92388 -0.83147 -0.51328 -0.212608 0.55557 -0.768178 -0.31819 mastilm.dat
+0 MLCAD BTG Ruedas2
+1 8 324 -12 140 -1 0 0 0 1 0 0 0 -1 guardabr.dat
+0 MLCAD BTG Ruedas2
+1 8 304 -12 160 0 0 1 0 1 0 -1 0 0 placa1.dat
+0 MLCAD BTG Ruedas2
+1 8 284 -4 80 1 0 0 0 1 0 0 0 1 deposito.dat
+0 MLCAD BTG Ruedas2
+1 0 256 -14 83 0 0 1 -0.83147 -0.55557 0 0.55557 -0.83147 0 mastilh.dat
+0 MLCAD BTG Ruedas2
+1 0 272 -2 120 0 1 0 0 0 -1 -1 0 0 chimplac.dat
+0 MLCAD BTG Ruedas2
+1 8 303.999 -12 110 0 1 0 0 0 1 1 0 0 enganch2.dat
+0 MLCAD BTG Ruedas2
+1 8 324 -4 160 -1 0 0 0 1 0 0 0 -1 placa2.dat
+0 MLCAD BTG Ruedas2
+1 8 188 -12 100 1 0 0 0 1 0 0 0 1 guardabr.dat
+0 MLCAD BTG Ruedas2
+1 8 208 -12 140 0 0 -1 0 1 0 1 0 0 placa1.dat
+0 MLCAD BTG Ruedas2
+1 0 218 -20 90 0 0 -1 0 1 0 1 0 0 engbarco.dat
+0 MLCAD BTG Ruedas2
+1 8 208 -12 130 0 -1 0 0 0 1 -1 0 0 enganch2.dat
+0 MLCAD BTG Ruedas2
+1 8 188 -4 80 1 0 0 0 1 0 0 0 1 deposito.dat
+0 MLCAD BTG Ruedas2
+1 0 188 26 140 1 0 0 0 1 0 0 0 1 neumtter.dat
+0 MLCAD BTG Ruedas2
+1 77 208 26 140 1 0 0 0 1 0 0 0 1 llanrutt.dat
+0 MLCAD BTG Ruedas2
+1 383 256 18 120 1 0 0 0 1 0 0 0 1 eje5.dat
+0 MLCAD BTG Ruedas2
+1 0 208 26 140 1 0 0 0 1 0 0 0 1 neumtter.dat
+0 MLCAD BTG Ruedas2
+1 77 188 26 140 1 0 0 0 1 0 0 0 1 llantrut.dat
+0 MLCAD BTG Ruedas2
+1 0 324.001 26 100 -1 0 0 0 1 0 0 0 -1 neumtter.dat
+0 MLCAD BTG Ruedas2
+1 77 303.999 26 100 -1 0 0 0 1 0 0 0 -1 llanrutt.dat
+0 MLCAD BTG Ruedas2
+1 0 226 18 110 0 0 -1 1 0 0 0 -1 0 engbarco.dat
+0 MLCAD BTG Ruedas2
+1 0 232 -2 120 0 -1 0 1 0 0 0 0 1 chimplac.dat
+0 MLCAD BTG Ruedas2
+1 0 286 18 110.001 0 0 -1 1 0 0 0 -1 0 engbarco.dat
+0 MLCAD BTG Ruedas2
+1 0 303.999 26 100 -1 0 0 0 1 0 0 0 -1 neumtter.dat
+0 MLCAD BTG Ruedas2
+1 77 324.001 26 100 -1 0 0 0 1 0 0 0 -1 llantrut.dat
+0 MLCAD BTG Ruedas2
+1 8 188 -20 100 -1 0 0 0 1 0 0 0 -1 gruators.dat
+0 MLCAD BTG Ruedas2
+1 8 198 -12 90 -1 0 0 0 1 0 0 0 -1 piquito.dat
+0 MLCAD BTG Ruedas2
+1 0 240 -2 120.001 0 -1 0 0 0 1 -1 0 0 chimplac.dat
+0 MLCAD BTG Ruedas2
+1 8 264 -12 110 0 1 0 0 0 1 1 0 0 enganc2.dat
+0 MLCAD BTG Ruedas2
+1 0 280 -2 120 0 1 0 1 0 0 0 0 -1 chimplac.dat
+0 MLCAD BTG Ruedas2
+1 8 188 -20 100 -1 0 0 0 1 0 0 0 -1 gruahilo.dat
+0 MLCAD BTG Ruedas2
+1 8 284 -12 160 0 0 1 0 1 0 -1 0 0 placa4.dat
+0 MLCAD BTG Ruedas2
+1 8 188 -20 159.999 0 0 1 0 1 0 -1 0 0 bald2r.dat
+0 MLCAD BTG Ruedas2
+1 8 208.001 -12 160 0 0 1 0 1 0 -1 0 0 placa4.dat
+0 MLCAD BTG Ruedas2
+1 8 228 -4 160 -1 0 0 0 1 0 0 0 -1 placa2.dat
+0 GROUP 50 Plataforma
+0 MLCAD BTG Plataforma
+1 77 256 8 250 -1 0 0 0 1 0 0 0 -1 platfgir.dat
+0 MLCAD BTG Plataforma
+1 77 236 -8 250 0 0 1 0 1 0 -1 0 0 placa2x2.dat
+0 MLCAD BTG Plataforma
+1 77 316 -8 250 -1 0 0 0 1 0 0 0 -1 placa2x2.dat
+0 MLCAD BTG Plataforma
+1 77 196 -8 210 1 0 0 0 1 0 0 0 1 placa2x2.dat
+0 MLCAD BTG Plataforma
+1 77 276 -8 250 -1 0 0 0 1 0 0 0 -1 tejado.dat
+0 MLCAD BTG Plataforma
+1 77 196 -12.923 191.525 1 0 0 0 0.605294 -0.796002 0 0.796002 0.605294 bald2x2r.dat
+0 MLCAD BTG Plataforma
+1 77 236 -12.923 191.525 1 0 0 0 0.605294 -0.796002 0 0.796002 0.605294 bald2x2r.dat
+0 MLCAD BTG Plataforma
+1 77 276 -12.923 191.525 1 0 0 0 0.605294 -0.796002 0 0.796002 0.605294 bald2x2r.dat
+0 MLCAD BTG Plataforma
+1 77 226 -8 260 0 0 -1 0 1 0 1 0 0 piquito.dat
+0 MLCAD BTG Plataforma
+1 77 236 -16 250 1 0 0 0 1 0 0 0 1 placa2.dat
+0 MLCAD BTG Plataforma
+1 77 236 -24 209.999 1 0 0 0 1 0 0 0 1 bisnraba.dat
+0 MLCAD BTG Plataforma
+1 77 276 -24 209.999 1 0 0 0 1 0 0 0 1 bisnraba.dat
+0 MLCAD BTG Plataforma
+1 77 236 -24 209.999 1 0 0 0 1 0 0 0 1 bisnreje.dat
+0 MLCAD BTG Plataforma
+1 77 276 -24 209.999 1 0 0 0 1 0 0 0 1 bisnreje.dat
+0 MLCAD BTG Plataforma
+1 77 236 -24 210 1 0 0 0 0.605294 -0.796002 0 0.796002 0.605294 bisnrarr.dat
+0 MLCAD BTG Plataforma
+1 77 276 -24 210 1 0 0 0 0.605294 -0.796002 0 0.796002 0.605294 bisnrarr.dat
+0 MLCAD BTG Plataforma
+1 77 236 -24 250 1 0 0 0 1 0 0 0 1 cuna.dat
+0 MLCAD BTG Plataforma
+1 77 236 -24 250 1 0 0 0 1 0 0 0 1 cuna.dat
+0 MLCAD BTG Plataforma
+1 383 253 -40 290 1 0 0 0 1 0 0 0 1 eje28.dat
+0 MLCAD BTG Plataforma
+1 77 278 -32.5 270 -1 0 0 0 1 0 0 0 -1 llantrut.dat
+0 MLCAD BTG Plataforma
+1 77 256 -40 290 -1 0 0 0 1 0 0 0 -1 bispqarr.dat
+0 MLCAD BTG Plataforma
+1 0 222 -39.961 289.913 0 1 0 -0.930418 0 -0.366502 -0.366502 0 0.930418 cabnuevo.dat
+0 MLCAD BTG Plataforma
+1 383 256 -48 242 -1 0 0 0 0 -1 0 -1 0 eje28.dat
+0 MLCAD BTG Plataforma
+1 77 196 -44.763 215.739 1 0 0 0 0.605294 -0.796002 0 0.796002 0.605294 bald2x2.dat
+0 MLCAD BTG Plataforma
+1 77 276 -44.763 215.739 0 0 -1 -0.796002 0.605294 0 0.605294 0.796002 0 bald2.dat
+0 MLCAD BTG Plataforma
+1 77 276 -44.763 215.739 1 0 0 0 0.605294 -0.796002 0 0.796002 0.605294 bald2x2.dat
+0 MLCAD BTG Plataforma
+1 77 256 -48 242 -1 0 0 0 0 -1 0 -1 0 bispqarr.dat
+0 MLCAD BTG Plataforma
+1 77 223 -47.999 241.999 0 -1 0 -0.71934 0 -0.694659 0.694659 0 -0.71934 chimplac.dat
+0 MLCAD BTG Plataforma
+1 77 289 -48 242 0 1 0 -0.71934 0 0.694659 0.694659 0 0.71934 chimplac.dat
+0 MLCAD BTG Plataforma
+1 77 297 -48 242 0 1 0 0.763233 0 0.646124 0.646124 0 -0.763233 chimplac.dat
+0 MLCAD BTG Plataforma
+1 0 285.569 -13 260 0.19509 0 -0.980785 0 1 0 0.980785 0 0.19509 antnincl.dat
+0 MLCAD BTG Plataforma
+1 77 236 -55.839 234.212 0 0 -1 -0.796002 0.605294 0 0.605294 0.796002 0 placa4.dat
+0 MLCAD BTG Plataforma
+1 77 296 -55.839 234.212 0 0 -1 -0.796002 0.605294 0 0.605294 0.796002 0 placa4.dat
+0 MLCAD BTG Plataforma
+1 77 236 -48 250 1 0 0 0 1 0 0 0 1 airsillo.dat
+0 MLCAD BTG Plataforma
+1 77 215 -62.386 255.892 0 -1 0 -0.398749 0 -0.917061 0.917061 0 -0.398749 chimplac.dat
+0 MLCAD BTG Plataforma
+1 77 297 -62.387 255.893 0 1 0 -0.569997 0 0.821648 0.821648 0 0.569997 chimplac.dat
+0 MLCAD BTG Plataforma
+1 77 215 -63.031 292.841 0 -1 0 -0.930418 0 -0.366502 0.366502 0 -0.930418 chimplac.dat
+0 MLCAD BTG Plataforma
+1 77 206 -16 240 1 0 0 0 1 0 0 0 1 helala.dat
+0 MLCAD BTG Plataforma
+1 77 306 -16 240 1 0 0 0 1 0 0 0 1 helala.dat
+0 MLCAD BTG Plataforma
+1 77 223 -70.361 274.233 0 -1 0 0.366502 0 -0.930418 0.930418 0 0.366502 chimplac.dat
+0 MLCAD BTG Plataforma
+1 0 221 -71.515 296.661 0 1 0 -0.930418 0 -0.366502 -0.366502 0 0.930418 cabnuevo.dat
+0 MLCAD BTG Plataforma
+1 77 289 -73.787 272.326 0 1 0 -0.930418 0 0.366502 0.366502 0 0.930418 chimplac.dat
+0 MLCAD BTG Plataforma
+1 77 196 -76.603 239.949 1 0 0 0 0.605294 -0.796002 0 0.796002 0.605294 bald2x2.dat
+0 MLCAD BTG Plataforma
+1 77 276 -76.603 239.949 1 0 0 0 0.605294 -0.796002 0 0.796002 0.605294 bald2x2.dat
+0 MLCAD BTG Plataforma
+1 77 246 -80 250 1 0 0 0 1 0 0 0 1 placa1.dat
+0 MLCAD BTG Plataforma
+1 383 265 -92 280 -1 0 0 0 0 -1 0 -1 0 eje15.dat
+0 MLCAD BTG Plataforma
+1 77 256 -96 270 -1 0 0 0 1 0 0 0 -1 bisnraba.dat
+0 MLCAD BTG Plataforma
+1 77 256 -96 270 1 0 0 0 -1 0 0 0 -1 bisnreje.dat
+0 MLCAD BTG Plataforma
+1 77 196 -140.282 288.374 0 0 1 0.796002 0.605294 0 -0.605294 0.796002 0 bald2x2.dat
+0 MLCAD BTG Plataforma
+1 77 276 -140.282 288.374 0 0 1 0.796002 0.605294 0 -0.605294 0.796002 0 bald2x2.dat
+0 GROUP 28 Cañon
+0 MLCAD BTG Cañon
+1 77 266 -142 184 1 0 0 0 0 1 0 -1 0 ejeastr4.dat
+0 MLCAD BTG Cañon
+1 77 266 -142 229 1 0 0 0 0 1 0 -1 0 ejeastr4.dat
+0 MLCAD BTG Cañon
+1 0 256 -122 31 -1 0 0 0 0 -1 0 -1 0 cilindro.dat
+0 MLCAD BTG Cañon
+1 0 256 -122 55 -1 0 0 0 0 -1 0 -1 0 amortigu.dat
+0 MLCAD BTG Cañon
+1 77 246 -142 279 -1 0 0 0 0 1 0 1 0 tbescrct.dat
+0 MLCAD BTG Cañon
+1 0 246 -122 250 0 0 -1 -1 0 0 0 1 0 antninc2.dat
+0 MLCAD BTG Cañon
+1 77 266 -142 282 0 0 1 -1 0 0 0 -1 0 piquito.dat
+0 MLCAD BTG Cañon
+1 77 246 -122 274 0 0 1 -1 0 0 0 -1 0 chimplac.dat
+0 MLCAD BTG Cañon
+1 77 266 -122 274 0 0 1 -1 0 0 0 -1 0 chimplac.dat
+0 MLCAD BTG Cañon
+1 77 256 -112 250 -1 0 0 0 0 -1 0 -1 0 enganch2.dat
+0 MLCAD BTG Cañon
+1 77 276 -112 250 -1 0 0 0 0 -1 0 -1 0 enganch2.dat
+0 MLCAD BTG Cañon
+1 77 266 -122 242 -1 0 0 0 0 -1 0 -1 0 chimplac.dat
+0 MLCAD BTG Cañon
+1 77 276 -88 250 -1 0 0 0 0 1 0 1 0 enganch2.dat
+0 MLCAD BTG Cañon
+1 0 246 -106.664 371.606 0 0 -1 -0.92388 0.382683 0 0.382683 0.92388 0 antninc2.dat
+0 MLCAD BTG Cañon
+1 77 266 -122 280 1 0 0 0 0 1 0 -1 0 ejeastr4.dat
+0 MLCAD BTG Cañon
+1 0 246 -122 282 -1 0 0 0 0 -1 0 -1 0 canonpeq.dat
+0 MLCAD BTG Cañon
+1 77 256 -88 250 -1 0 0 0 0 1 0 1 0 enganch2.dat
+0 MLCAD BTG Cañon
+1 77 266 -78 202 1 0 0 0 0 -1 0 1 0 cilindro.dat
+0 MLCAD BTG Cañon
+1 77 266 -78 226 1 0 0 0 0 -1 0 1 0 cilindro.dat
+0 MLCAD BTG Cañon
+1 77 246 -78 226 1 0 0 0 0 -1 0 1 0 cilindro.dat
+0 MLCAD BTG Cañon
+1 77 236 -112 270 1 0 0 0 -1 0 0 0 -1 placa2.dat
+0 MLCAD BTG Cañon
+1 77 246 -78 202 1 0 0 0 0 -1 0 1 0 cilindro.dat
+0 MLCAD BTG Cañon
+1 77 256 -122 79 -1 0 0 0 0 -1 0 -1 0 canontnq.dat
+0 MLCAD BTG Cañon
+1 77 266 -122 247 -1 0 0 0 0 1 0 1 0 laser.dat
+0 MLCAD BTG Cañon
+1 77 246 -112 170 0 0 1 0 -1 0 1 0 0 placa4.dat
+0 MLCAD BTG Cañon
+1 77 256 -96 270 1 0 0 0 -1 0 0 0 -1 bisnraba.dat
+0 MLCAD BTG Cañon
+1 77 256 -104 180 -1 0 0 0 -1 0 0 0 1 piquito.dat
+0 MLCAD BTG Cañon
+1 77 256 -104 210 0 0 -1 0 -1 0 -1 0 0 pastilla.dat
+0 MLCAD BTG Chasis
+1 77 236 32 290 1 0 0 0 1 0 0 0 1 vntscorp.dat
+0 MLCAD BTG Chasis
+1 77 276 32 210 -1 0 0 0 1 0 0 0 -1 vntscorp.dat
+0 MLCAD BTG Chasis
+1 77 275.999 28 334 -1 0 0 0 0 1 0 1 0 rallado2.dat
+0 MLCAD BTG Chasis
+1 77 236 28 166 1 0 0 0 0 1 0 -1 0 rallado2.dat
+0 MLCAD BTG Chasis
+1 8 203.942 26 250 0 1 0 0 0 -1 -1 0 0 soprtmar.dat
+0 MLCAD BTG Chasis
+1 8 308 26 250 0 -1 0 0 0 -1 1 0 0 soprtmar.dat
+0 MLCAD BTG Chasis
+1 77 246 18 342 -1 0 0 0 0 1 0 1 0 chimplac.dat
+0 MLCAD BTG Chasis
+1 77 286 18 342 -1 0 0 0 0 1 0 1 0 chimplac.dat
+0 MLCAD BTG Chasis
+1 77 226 18 158 1 0 0 0 0 1 0 -1 0 chimplac.dat
+0 MLCAD BTG Chasis
+1 77 266 18 158 1 0 0 0 0 1 0 -1 0 chimplac.dat
+0 MLCAD BTG Chasis
+1 77 195.942 16 270 0 0 1 0 1 0 -1 0 0 placa2.dat
+0 MLCAD BTG Chasis
+1 77 256 24 250 -1 0 0 0 1 0 0 0 -1 platfgir.dat
+0 MLCAD BTG Chasis
+1 77 316 16 230 0 0 -1 0 1 0 1 0 0 placa2.dat
+0 MLCAD BTG Chasis
+1 8 256 18 356 1 0 0 0 0 1 0 -1 0 soprtmar.dat
+0 MLCAD BTG Chasis
+1 8 256 18 144 -1 0 0 0 0 1 0 1 0 soprtmar.dat
+0 MLCAD BTG Chasis
+1 77 276 8 310 -1 0 0 0 1 0 0 0 -1 bald2x2r.dat
+0 MLCAD BTG Chasis
+1 77 196 8 270 0 0 1 0 1 0 -1 0 0 bald2x2r.dat
+0 MLCAD BTG Chasis
+1 77 316 8 230 0 0 -1 0 1 0 1 0 0 bald2x2r.dat
+0 MLCAD BTG Chasis
+1 77 236 8 189.999 1 0 0 0 1 0 0 0 1 bald2x2r.dat
+0 MLCAD BTG Chasis
+1 77 256 18 374 -1 0 0 0 0 1 0 1 0 jacena1.dat
+0 MLCAD BTG Chasis
+1 77 256 18 126 1 0 0 0 0 1 0 -1 0 jacena1.dat
+0 MLCAD BTG Chasis
+1 77 188.971 54.971 250 0.707107 -0.707107 0 0.707107 0.707107 0 0 0 1 gruap.dat
+0 MLCAD BTG Chasis
+1 77 322.971 54.971 250 -0.707107 0.707107 0 0.707107 0.707107 0 0 0 -1 gruap.dat
+0 MLCAD BTG Chasis
+1 0 285.999 18 334 -1 0 0 0 0 -1 0 -1 0 engbarco.dat
+0 MLCAD BTG Chasis
+1 0 285.999 18 334 -1 0 0 0 0 -1 0 -1 0 engbarco.dat
+0 MLCAD BTG Chasis
+1 0 226 18 333.999 1 0 0 0 0 1 0 -1 0 engbarco.dat
+0 MLCAD BTG Chasis
+1 0 226 18 333.999 1 0 0 0 0 1 0 -1 0 engbarco.dat
+0 MLCAD BTG Chasis
+1 0 256 8 250 -1 0 0 0 1 0 0 0 -1 rotorinf.dat
+0 MLCAD BTG Chasis
+1 0 286 18 166.001 -1 0 0 0 0 1 0 1 0 engbarco.dat
+0 MLCAD BTG Chasis
+1 0 286 18 166.001 -1 0 0 0 0 1 0 1 0 engbarco.dat
+0 MLCAD BTG Chasis
+1 0 226 18 166 1 0 0 0 0 -1 0 1 0 engbarco.dat
+0 MLCAD BTG Chasis
+1 0 226 18 166 1 0 0 0 0 -1 0 1 0 engbarco.dat
+0 MLCAD BTG Chasis
+1 77 276 8 350 -1 0 0 0 0 1 0 1 0 placa2.dat
+0 MLCAD BTG Chasis
+1 77 195.942 16 260 0 -1 0 0 0 1 -1 0 0 enganch2.dat
+0 MLCAD BTG Chasis
+1 77 316 16 240 0 1 0 0 0 1 1 0 0 enganch2.dat
+0 MLCAD BTG Chasis
+1 77 236 8 150 1 0 0 0 0 1 0 -1 0 placa2.dat
+0 GROUP 36 Chasis
+0

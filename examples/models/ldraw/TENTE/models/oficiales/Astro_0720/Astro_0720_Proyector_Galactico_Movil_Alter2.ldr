@@ -1,0 +1,51 @@
+0 Untitled
+0 Name: Astro_0720_Proyector_Galactico_Movil_Alter2.ldr
+0 Author: MLCad
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 1 40 152 -180 0 0 1 0 1 0 -1 0 0 patastro.dat
+1 1 0 128 -160 1 0 0 0 1 0 0 0 1 patastro.dat
+1 1 120 128 -220 1 0 0 0 1 0 0 0 1 placa4x6.dat
+1 15 360 136 -220 1 0 0 0 1 0 0 0 1 placa4x6.dat
+1 1 280 128 -220 0 0 -1 0 1 0 1 0 0 jacen2x4.dat
+1 1 140 120 -220 0 0 -1 0 1 0 1 0 0 jacen2x4.dat
+1 1 180 120 -160 -1 0 0 0 1 0 0 0 -1 pico.dat
+1 1 140 120 -200 1 0 0 0 1 0 0 0 1 pico.dat
+1 0 180 120 -200 1 0 0 0 1 0 0 0 1 bald2x2.dat
+1 0 220 120 -160 0 0 1 0 1 0 -1 0 0 sillastr.dat
+1 383 230 128 -150 1 0 0 0 1 0 0 0 1 tbescrct.dat
+1 383 230 128 -210 1 0 0 0 1 0 0 0 1 tbescrct.dat
+1 15 100 96 -200 1 0 0 0 1 0 0 0 1 bald2x2.dat
+1 15 130 96 -150 1 0 0 0 1 0 0 0 1 chimenea.dat
+1 15 130 96 -210 1 0 0 0 1 0 0 0 1 chimenea.dat
+1 4 140 136 -170 0 0 -1 0 1 0 1 0 0 rueastro.dat
+1 4 260 136 -170 0 0 -1 0 1 0 1 0 0 rueastro.dat
+1 4 400 144 -170 0 0 -1 0 1 0 1 0 0 rueastro.dat
+1 4 480 144 -170 0 0 -1 0 1 0 1 0 0 rueastro.dat
+1 4 200 136 -170 0 0 -1 0 1 0 1 0 0 rueastro.dat
+1 1 0 152 -180 0 0 -1 0 1 0 1 0 0 patastro.dat
+1 4 320 88 -200 0 0 -1 0 1 0 1 0 0 placa2x2.dat
+1 4 320 96 -180 0 0 1 0 1 0 -1 0 0 bispqarr.dat
+1 4 320 96 -180 0 0 -1 0 1 0 1 0 0 bispqaba.dat
+1 1 520 128 -160 -1 0 0 0 1 0 0 0 -1 jacen2x4.dat
+1 383 510 104 -170 -1 0 0 0 1 0 0 0 -1 tbescrct.dat
+1 1 400 128 -140 0 0 1 0 1 0 -1 0 0 jacen2x4.dat
+1 1 400 128 -160 -1 0 0 0 1 0 0 0 -1 jacen2x4.dat
+1 1 500 104 -120 -1 0 0 0 1 0 0 0 -1 placa6x8.dat
+1 4 260 104 -180 0 0 -1 0 1 0 1 0 0 rotorinf.dat
+1 4 420 24 -180 0 0 -1 0 1 0 1 0 0 rotorinf.dat
+1 4 260 104 -180 0 0 -1 0 1 0 1 0 0 rotorsup.dat
+1 15 420 96 -180 -1 0 0 0 1 0 0 0 -1 cirrevog.dat
+1 4 420 96 -180 -1 0 0 0 1 0 0 0 -1 p_pgm.dat
+1 15 420 96 -180 1 0 0 0 1 0 0 0 1 cirrevog.dat
+1 4 420 96 -180 1 0 0 0 1 0 0 0 1 p_pgm.dat
+1 4 40 160 -60 -1 0 0 0 1 0 0 0 -1 placa2x3.dat
+1 4 20 168 -80 0 0 1 0 1 0 -1 0 0 popa6p.dat
+1 15 290 80 -180 1 0 0 0 1 0 0 0 1 cilindr.dat
+1 4 20 168 -80 0 0 -1 0 1 0 1 0 0 popa6p.dat
+1 4 40 160 -260 -1 0 0 0 1 0 0 0 -1 placa2x3.dat
+1 4 300 96 -160 -1 0 0 0 1 0 0 0 -1 placa2x3.dat
+1 4 20 168 -280 0 0 1 0 1 0 -1 0 0 popa6p.dat
+1 4 20 168 -280 0 0 -1 0 1 0 1 0 0 popa6p.dat
+0

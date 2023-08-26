@@ -1,0 +1,92 @@
+0 MLCAD BTG quilla
+0 Untitled
+0 MLCAD BTG quilla
+0 Name: barco_3_ancho.ldr
+0 MLCAD BTG quilla
+0 Author: MLCad
+0 MLCAD BTG quilla
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+0 MLCAD BTG quilla
+1 8 0 60 300 1 0 0 0 0 -1 0 1 0 picoesq.dat
+0 MLCAD BTG quilla
+1 8 -20 60 300 1 0 0 0 0 -1 0 1 0 pico1.dat
+0 MLCAD BTG quilla
+1 8 -20 60 300 0 0 1 1 0 0 0 1 0 picoesq.dat
+0 MLCAD BTG quilla
+1 8 -10 70 308 1 0 0 0 0 -1 0 1 0 placa3.dat
+0 MLCAD BTG quilla
+1 8 -10 70 436 1 0 0 0 0 -1 0 1 0 placa3.dat
+0 MLCAD BTG quilla
+1 0 -30 70 460 1 0 0 0 0 -1 0 1 0 cilindro.dat
+0 MLCAD BTG quilla
+1 0 -10 70 460 1 0 0 0 0 -1 0 1 0 cilindro.dat
+0 MLCAD BTG quilla
+1 0 10 70 460 1 0 0 0 0 -1 0 1 0 cilindro.dat
+0 MLCAD BTG quilla
+1 8 -20 80 332 1 0 0 0 0 -1 0 1 0 jacena2.dat
+0 MLCAD BTG quilla
+1 8 -30 70 332 1 0 0 0 0 -1 0 1 0 jacena1.dat
+0 MLCAD BTG quilla
+1 8 0 60 356 -1 0 0 0 0 1 0 1 0 jacena2.dat
+0 MLCAD BTG quilla
+1 8 10 70 356 -1 0 0 0 0 1 0 1 0 jacena1.dat
+0 MLCAD BTG quilla
+1 8 -20 80 404 1 0 0 0 0 -1 0 1 0 jacena2.dat
+0 MLCAD BTG quilla
+1 8 -30 70 404 1 0 0 0 0 -1 0 1 0 jacena1.dat
+0 MLCAD BTG quilla
+1 8 0 60 428 -1 0 0 0 0 1 0 1 0 jacena2.dat
+0 MLCAD BTG quilla
+1 8 10 70 428 -1 0 0 0 0 1 0 1 0 jacena1.dat
+0 MLCAD BTG quilla
+1 8 -30 70 380 -1 0 0 0 0 1 0 1 0 jacena1.dat
+0 MLCAD BTG quilla
+1 8 10 70 380 -1 0 0 0 0 1 0 1 0 jacena1.dat
+0 MLCAD BTG quilla
+1 8 0 60 380 -1 0 0 0 0 1 0 1 0 enganche.dat
+0 GROUP 23 quilla
+1 19 -40 60 340 1 0 0 0 1 0 0 0 1 placa2x3.dat
+1 19 -40 60 380 1 0 0 0 1 0 0 0 1 placa2x3.dat
+1 19 -40 60 420 1 0 0 0 1 0 0 0 1 placa2x3.dat
+1 19 -40 60 300 1 0 0 0 1 0 0 0 1 placa2x3.dat
+1 7 -20 52 280 1 0 0 0 1 0 0 0 1 bald2r.dat
+1 19 -20 60 280 1 0 0 0 1 0 0 0 1 placa1.dat
+1 7 -10 44 430 0 0 -1 0 1 0 1 0 0 plac2m.dat
+1 14 -10 31 430 0 0 -1 0 1 0 1 0 0 bandera.dat
+1 33 20 44 320 -1 0 0 0 1 0 0 0 -1 bald1.dat
+1 33 -20 44 320 -1 0 0 0 1 0 0 0 -1 bald1.dat
+1 19 0 52 320 0 0 -1 0 1 0 1 0 0 placa2.dat
+1 7 -10 52 450 -1 0 0 0 1 0 0 0 -1 radarneg.dat
+1 19 0 52 360 0 0 -1 0 1 0 1 0 0 placa4.dat
+1 7 -30 52 420 -1 0 0 0 1 0 0 0 -1 remateb2.dat
+1 7 -30 52 380 -1 0 0 0 1 0 0 0 -1 remateb2.dat
+1 7 -30 52 340 -1 0 0 0 1 0 0 0 -1 remateb2.dat
+1 7 10 52 340 1 0 0 0 1 0 0 0 1 remateb2.dat
+1 7 10 52 380 1 0 0 0 1 0 0 0 1 remateb2.dat
+1 7 10 52 420 1 0 0 0 1 0 0 0 1 remateb2.dat
+1 7 10 44 380 0 0 -1 0 1 0 1 0 0 placa2x2.dat
+1 7 -10 36 380 1 0 0 0 1 0 0 0 1 enganche.dat
+1 7 -30 36 380 1 0 0 0 1 0 0 0 1 enganche.dat
+1 7 -30 36 400 -1 0 0 0 1 0 0 0 -1 alfapico.dat
+1 7 -30 12 380 1 0 0 0 1 0 0 0 1 placa2.dat
+1 7 -30 4 380 1 0 0 0 1 0 0 0 1 enganc2.dat
+1 7 -10 4 380 1 0 0 0 1 0 0 0 1 enganc2.dat
+1 7 -10 44 350 0 0 -1 0 1 0 1 0 0 bald2x3.dat
+0 MLCAD BTG castilloproa
+1 0 10 16 356 -1 0 0 0 0 1 0 1 0 pico.dat
+0 MLCAD BTG castilloproa
+1 7 10 16 356 -1 0 0 0 0 1 0 1 0 jacena2.dat
+0 MLCAD BTG castilloproa
+1 7 10 -4 380 -1 0 0 0 0 1 0 1 0 jacen2x2.dat
+1 7 20 52 320 -1 0 0 0 1 0 0 0 -1 placa1.dat
+1 7 -20 52 320 -1 0 0 0 1 0 0 0 -1 placa1.dat
+0 MLCAD BTG castilloproa
+1 7 10 16 332 -1 0 0 0 0 1 0 1 0 placa2.dat
+0 MLCAD BTG castilloproa
+1 47 0 26 324.001 -1 0 0 0 0 1 0 1 0 placacil.dat
+0 MLCAD BTG castilloproa
+1 47 -20 26 324.001 -1 0 0 0 0 1 0 1 0 placacil.dat
+0 GROUP 6 castilloproa
+0

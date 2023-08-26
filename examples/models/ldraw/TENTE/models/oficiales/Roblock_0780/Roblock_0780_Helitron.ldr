@@ -1,126 +1,128 @@
 0 Untitled
-0 Name: Roblock0780_Helitron.ldr
+0 Name: Roblock_0780_Helitron.ldr
 0 Author: MLCad
 0 Unofficial Model
-0 ROTATION CENTER 0 0 0 1 "Custom" 
-0 ROTATION CONFIG 0 0
-0 MLCAD BTG cuerpo
+0 MLCAD BTG Cuerpo
 1 1 0 0 0 1 0 0 0 1 0 0 0 1 jacen2x2.dat
-0 MLCAD BTG cuerpo
+0 MLCAD BTG Cuerpo
 1 1 60 -256 -20 1 0 0 0 1 0 0 0 1 bisnraba.dat
-0 MLCAD BTG cuerpo
+0 MLCAD BTG Cuerpo
 1 15 80 -48 20 0 0 -1 0 1 0 1 0 0 jacen2x3.dat
-0 MLCAD BTG cuerpo
+0 MLCAD BTG Cuerpo
 1 15 60 -56 0 -1 0 0 0 1 0 0 0 -1 bispqaba.dat
-0 MLCAD BTG cuerpo
+0 MLCAD BTG Cuerpo
 1 15 60 -56 0 -1 0 0 0 1 0 0 0 -1 bispqarr.dat
-0 MLCAD BTG cuerpo
+0 MLCAD BTG Cuerpo
 1 15 80 -72 20 0 0 -1 0 1 0 1 0 0 jacen2x3.dat
-0 MLCAD BTG cuerpo
+0 MLCAD BTG Cuerpo
 1 15 80 -96 60 -1 0 0 0 1 0 0 0 -1 pico.dat
-0 MLCAD BTG cuerpo
+0 MLCAD BTG Cuerpo
 1 1 40 -152 40 0 0 1 0 1 0 -1 0 0 pico.dat
-0 MLCAD BTG cuerpo
+0 MLCAD BTG Cuerpo
 1 15 40 -136 0 1 0 0 0 1 0 0 0 1 pico.dat
-0 MLCAD BTG cuerpo
+0 MLCAD BTG Cuerpo
 1 1 80 -152 0 0 0 -1 0 1 0 1 0 0 pico.dat
-0 MLCAD BTG cuerpo
+0 MLCAD BTG Cuerpo
 1 15 80 -88 0 -1 0 0 0 1 0 0 0 -1 pico.dat
-0 MLCAD BTG cuerpo
+0 MLCAD BTG Cuerpo
 1 1 80 -224 40 -1 0 0 0 1 0 0 0 -1 pico.dat
-0 MLCAD BTG cuerpo
+0 MLCAD BTG Cuerpo
 1 15 40 -96 60 0 0 1 0 1 0 -1 0 0 jacena2.dat
-0 MLCAD BTG cuerpo
+0 MLCAD BTG Cuerpo
 1 15 50 -120 50 1 0 0 0 1 0 0 0 1 chimplac.dat
-0 MLCAD BTG cuerpo
+0 MLCAD BTG Cuerpo
 1 1 60 -128 60 -1 0 0 0 1 0 0 0 -1 enganch2.dat
-0 MLCAD BTG cuerpo
+0 MLCAD BTG Cuerpo
 1 1 80 -128 60 -1 0 0 0 1 0 0 0 -1 enganch2.dat
-0 MLCAD BTG cuerpo
+0 MLCAD BTG Cuerpo
 1 1 20 -120 40 0 0 1 0 1 0 -1 0 0 jacena2.dat
-0 MLCAD BTG cuerpo
+0 MLCAD BTG Cuerpo
 1 1 40 -200 20 1 0 0 0 1 0 0 0 1 jacena2.dat
-0 MLCAD BTG cuerpo
+0 MLCAD BTG Cuerpo
 1 14 50 -200 50 1 0 0 0 1 0 0 0 1 amortigu.dat
-0 MLCAD BTG cuerpo
+0 MLCAD BTG Cuerpo
 1 14 70 -200 50 1 0 0 0 1 0 0 0 1 amortigu.dat
-0 MLCAD BTG cuerpo
+0 MLCAD BTG Cuerpo
 1 1 140 -144 40 -1 0 0 0 1 0 0 0 -1 placa2x8.dat
-0 MLCAD BTG cuerpo
+0 MLCAD BTG Cuerpo
 1 1 -20 -160 20 0 0 1 0 1 0 -1 0 0 bisnraba.dat
-0 MLCAD BTG cuerpo
+0 MLCAD BTG Cuerpo
+1 1 -20 -160 20 0 0 1 0 1 0 -1 0 0 bisnreje.dat
+0 MLCAD BTG Cuerpo
 1 1 -20 -160 20 0 0 -1 0 1 0 1 0 0 bisnraba.dat
-0 MLCAD BTG cuerpo
+0 MLCAD BTG Cuerpo
 1 1 140 -160 20 0 0 1 0 1 0 -1 0 0 bisnraba.dat
-0 MLCAD BTG cuerpo
+0 MLCAD BTG Cuerpo
 1 1 140 -160 20 0 0 -1 0 1 0 1 0 0 bisnraba.dat
-0 MLCAD BTG cuerpo
+0 MLCAD BTG Cuerpo
+1 1 140 -160 20 0 0 -1 0 1 0 1 0 0 bisnreje.dat
+0 MLCAD BTG Cuerpo
 1 1 -40 -144 0 1 0 0 0 1 0 0 0 1 bisnrarr.dat
-0 MLCAD BTG cuerpo
+0 MLCAD BTG Cuerpo
 1 1 160 -144 0 1 0 0 0 1 0 0 0 1 bisnrarr.dat
-0 MLCAD BTG cuerpo
+0 MLCAD BTG Cuerpo
 1 1 160 -144 0 1 0 0 0 1 0 0 0 1 bisnreje.dat
-0 MLCAD BTG cuerpo
+0 MLCAD BTG Cuerpo
 1 1 -40 -144 0 1 0 0 0 1 0 0 0 1 bisnreje.dat
-0 MLCAD BTG cuerpo
+0 MLCAD BTG Cuerpo
 1 1 100 -120 40 0 0 1 0 1 0 -1 0 0 cuna.dat
-0 MLCAD BTG cuerpo
+0 MLCAD BTG Cuerpo
 1 1 100 -120 0 0 0 -1 0 1 0 1 0 0 jacena2.dat
-0 MLCAD BTG cuerpo
+0 MLCAD BTG Cuerpo
 1 15 40 -88 -20 1 0 0 0 1 0 0 0 1 jacena2.dat
-0 MLCAD BTG cuerpo
+0 MLCAD BTG Cuerpo
 1 15 40 -112 -20 1 0 0 0 1 0 0 0 1 jacena2.dat
-0 MLCAD BTG cuerpo
+0 MLCAD BTG Cuerpo
 1 15 60 -96 60 0 0 1 0 1 0 -1 0 0 jacena2.dat
-0 MLCAD BTG cuerpo
+0 MLCAD BTG Cuerpo
 1 1 20 8 0 1 0 0 0 1 0 0 0 1 bisnrarr.dat
-0 MLCAD BTG cuerpo
+0 MLCAD BTG Cuerpo
 1 1 100 8 0 1 0 0 0 1 0 0 0 1 bisnrarr.dat
-0 MLCAD BTG cuerpo
+0 MLCAD BTG Cuerpo
 1 1 100 8 0 1 0 0 0 1 0 0 0 1 bisnreje.dat
-0 MLCAD BTG cuerpo
+0 MLCAD BTG Cuerpo
 1 1 20 8 0 1 0 0 0 1 0 0 0 1 bisnreje.dat
-0 MLCAD BTG cuerpo
+0 MLCAD BTG Cuerpo
 1 1 80 0 0 1 0 0 0 1 0 0 0 1 jacen2x2.dat
-0 MLCAD BTG cuerpo
+0 MLCAD BTG Cuerpo
 1 1 60 -16 40 -1 0 0 0 1 0 0 0 -1 bisnrarr.dat
 0 MLCAD BTG Cola
-1 1 60 -16 40 1 0 0 0 0.469472 0.882948 0 -0.882948 0.469472 bisnrarr.dat
+1 1 60 -16 40 1 0 0 0 0.469 0.883 0 -0.883 0.469 bisnrarr.dat
 0 MLCAD BTG Cola
 1 1 40 -19.756 47.064 1 0 0 0 0.469472 0.882948 0 -0.882948 0.469472 helcol.dat
-0 MLCAD BTG cuerpo
+0 MLCAD BTG Cuerpo
 1 1 0 -48 0 1 0 0 0 1 0 0 0 1 jacen2x2.dat
-0 MLCAD BTG cuerpo
+0 MLCAD BTG Cuerpo
 1 1 80 -48 0 1 0 0 0 1 0 0 0 1 jacen2x2.dat
-0 MLCAD BTG cuerpo
+0 MLCAD BTG Cuerpo
 1 1 0 -72 0 1 0 0 0 1 0 0 0 1 jacen2x2.dat
-0 MLCAD BTG cuerpo
+0 MLCAD BTG Cuerpo
 1 1 80 -72 0 1 0 0 0 1 0 0 0 1 jacen2x2.dat
-0 MLCAD BTG cuerpo
+0 MLCAD BTG Cuerpo
 1 1 0 -96 0 1 0 0 0 1 0 0 0 1 jacen2x2.dat
-0 MLCAD BTG cuerpo
+0 MLCAD BTG Cuerpo
 1 1 80 -96 0 1 0 0 0 1 0 0 0 1 jacen2x2.dat
-0 MLCAD BTG cuerpo
+0 MLCAD BTG Cuerpo
 1 1 20 -120 0 0 0 -1 0 1 0 1 0 0 cuna.dat
-0 MLCAD BTG cuerpo
+0 MLCAD BTG Cuerpo
 1 15 80 -64 20 -1 0 0 0 1 0 0 0 -1 cuna.dat
-0 MLCAD BTG cuerpo
+0 MLCAD BTG Cuerpo
 1 1 80 -200 20 -1 0 0 0 1 0 0 0 -1 cuna.dat
-0 MLCAD BTG cuerpo
+0 MLCAD BTG Cuerpo
 1 15 80 -120 40 -1 0 0 0 1 0 0 0 -1 cuna.dat
-0 MLCAD BTG cuerpo
+0 MLCAD BTG Cuerpo
 1 1 0 -24 0 1 0 0 0 1 0 0 0 1 jacen2x3.dat
-0 MLCAD BTG cuerpo
+0 MLCAD BTG Cuerpo
 1 1 60 -24 0 1 0 0 0 1 0 0 0 1 jacen2x3.dat
-0 MLCAD BTG cuerpo
+0 MLCAD BTG Cuerpo
 1 1 80 -152 0 0 0 -1 0 1 0 1 0 0 jacen2x3.dat
-0 MLCAD BTG cuerpo
+0 MLCAD BTG Cuerpo
 1 1 80 -176 0 0 0 -1 0 1 0 1 0 0 jacen2x3.dat
-0 MLCAD BTG cuerpo
+0 MLCAD BTG Cuerpo
 1 1 80 -224 -20 0 0 -1 0 1 0 1 0 0 jacen2x3.dat
-0 MLCAD BTG cuerpo
+0 MLCAD BTG Cuerpo
 1 1 80 -248 20 0 0 -1 0 1 0 1 0 0 bald2.dat
-0 GROUP 56 cuerpo
+0 GROUP 58 Cuerpo
 0 MLCAD BTG Cola
 1 1 80 4.293 87.034 -1 0 0 0 0.469472 -0.882948 0 -0.882948 -0.469472 bald2.dat
 0 MLCAD BTG Cola
@@ -135,31 +137,32 @@
 1 1 60 187.275 211.508 1 0 0 0 0.469472 0.882948 0 -0.882948 0.469472 helala.dat
 0 MLCAD BTG Cola
 1 0 76 185.02 194.452 1 0 0 0 0.469472 0.882948 0 -0.882948 0.469472 helirotr.dat
+1 1 60 -16 40 -1 0 0 0 1 0 0 0 -1 bisnreje.dat
 0 GROUP 9 Cola
-0 MLCAD HIDE 1 4 116 -16 40 0 -1 0 0.882948 0 -0.469472 0.469472 0 0.882948 antncruz.dat
-0 MLCAD HIDE 1 4 60 -192 130 -0.990268 0 0.139173 -0.139173 0 -0.990268 0 -1 0 antncruz.dat
-0 MLCAD HIDE 1 4 86 -256 -20 0 -1 0 0.601815 0 -0.798636 0.798636 0 0.601815 antncruz.dat
-0 MLCAD BTG Cabina
+0 GHOST 1 4 116 -16 40 0 -1 0 0.882948 0 -0.469472 0.469472 0 0.882948 antncruz.dat
+0 GHOST 1 4 60 -192 130 -0.990268 0 0.139173 -0.139173 0 -0.990268 0 -1 0 antncruz.dat
+0 GHOST 1 4 86 -256 -20 0 -1 0 0.601815 0 -0.798636 0.798636 0 0.601815 antncruz.dat
+0 MLCAD BTG Cabeza
 1 1 60 -240 -20 1 0 0 0 1 0 0 0 1 helcab.dat
-0 MLCAD BTG Cabina
+0 MLCAD BTG Cabeza
 1 1 20 -248 -20 0 0 1 0 1 0 -1 0 0 placa4.dat
-0 MLCAD BTG Cabina
+0 MLCAD BTG Cabeza
 1 1 80 -248 -20 0 0 1 0 1 0 -1 0 0 placa4.dat
-0 MLCAD BTG Cabina
+0 MLCAD BTG Cabeza
 1 1 60 -256 -20 -1 0 0 0 1 0 0 0 -1 bisnraba.dat
-0 MLCAD BTG Cabina
+0 MLCAD BTG Cabeza
 1 1 60 -256 -20 -1 0 0 0 1 0 0 0 -1 bisnreje.dat
-0 MLCAD BTG Cabina
+0 MLCAD BTG Cabeza
 1 8 20 -256 -100 1 0 0 0 1 0 0 0 1 airsillo.dat
-0 MLCAD BTG Cabina
+0 MLCAD BTG Cabeza
 1 8 60 -256 -100 1 0 0 0 1 0 0 0 1 airsillo.dat
-0 MLCAD BTG Cabina
+0 MLCAD BTG Cabeza
 1 0 20 -257 -100 1 0 0 0 1 0 0 0 1 helmando.dat
-0 MLCAD BTG Cabina
+0 MLCAD BTG Cabeza
 1 0 60 -257 -100 1 0 0 0 1 0 0 0 1 helmando.dat
-0 MLCAD BTG Cabina
+0 MLCAD BTG Cabeza
 1 32 60 -240 -20 1 0 0 0 1 0 0 0 1 helcabcr.dat
-0 GROUP 10 Cabina
+0 GROUP 10 Cabeza
 0 MLCAD BTG brazo1
 1 1 -20 -124 -56 -1 0 0 0 0 1 0 1 0 jacen2x2.dat
 0 MLCAD BTG brazo1
@@ -324,50 +327,50 @@
 0 GROUP 13 pieDch
 0 GROUP 5 aspas
 0 MLCAD BTG aspas
-1 0 60 -192 100 -0.707107 0 -0.707107 0.707107 0 -0.707107 0 -1 0 platfgir.dat
+1 0 60 -188 100 -0.707 0 -0.707 0.707 0 -0.707 0 -1 0 platfgir.dat
 0 MLCAD BTG aspas
-1 0 31.715 -206.141 116 -0.707107 0 -0.707107 0.707107 0 -0.707107 0 -1 0 aspa.dat
+1 0 31.715 -202.141 116 -0.707 0 -0.707 0.707 0 -0.707 0 -1 0 aspa.dat
 0 MLCAD BTG aspas
-1 0 74.141 -220.285 116 -0.707107 0 0.707107 -0.707107 0 -0.707107 0 -1 0 aspa.dat
+1 0 74.141 -216.285 116 -0.707 0 0.707 -0.707 0 -0.707 0 -1 0 aspa.dat
 0 MLCAD BTG aspas
-1 0 88.285 -177.859 116 0.707107 0 0.707107 -0.707107 0 0.707107 0 -1 0 aspa.dat
+1 0 88.285 -173.859 116 0.707 0 0.707 -0.707 0 0.707 0 -1 0 aspa.dat
 0 MLCAD BTG aspas
-1 0 45.859 -163.715 116 0.707107 0 -0.707107 0.707107 0 0.707107 0 -1 0 aspa.dat
+1 0 45.859 -159.715 116 0.707 0 -0.707 0.707 0 0.707 0 -1 0 aspa.dat
 0 MLCAD BTG motor
-1 1 60 -212 60 0 0 -1 1 0 0 0 -1 0 placa4.dat
+1 1 60 -208 60 0 0 -1 1 0 0 0 -1 0 placa4.dat
 0 MLCAD BTG motor
-1 1 80 -212 92 0 0 -1 1 0 0 0 -1 0 placa2x2.dat
+1 1 80 -208 92 0 0 -1 1 0 0 0 -1 0 placa2x2.dat
 0 MLCAD BTG motor
-1 0 60 -192 100 0 0 -1 1 0 0 0 -1 0 rotorinf.dat
+1 0 60 -188 100 0 0 -1 1 0 0 0 -1 0 rotorinf.dat
 0 MLCAD BTG motor
-1 1 80 -172 92 0 0 -1 1 0 0 0 -1 0 bald2.dat
+1 1 80 -168 92 0 0 -1 1 0 0 0 -1 0 bald2.dat
 0 MLCAD BTG motor
-1 1 80 -212 60 0 0 -1 1 0 0 0 -1 0 placa4.dat
+1 1 80 -208 60 0 0 -1 1 0 0 0 -1 0 placa4.dat
 0 MLCAD BTG motor
-1 1 80 -152 68 -1 0 0 0 0 -1 0 -1 0 pico.dat
+1 1 80 -148 68 -1 0 0 0 0 -1 0 -1 0 pico.dat
 0 MLCAD BTG motor
-1 15 40 -152 68 0 0 1 -1 0 0 0 -1 0 enganch2.dat
+1 15 40 -148 68 0 0 1 -1 0 0 0 -1 0 enganch2.dat
 0 MLCAD BTG motor
-1 15 80 -172 68 0 0 -1 1 0 0 0 -1 0 enganch2.dat
+1 15 80 -168 68 0 0 -1 1 0 0 0 -1 0 enganch2.dat
 0 MLCAD BTG motor
-1 8 50 -182 68 0 0 -1 1 0 0 0 -1 0 amortigu.dat
+1 8 50 -178 68 0 0 -1 1 0 0 0 -1 0 amortigu.dat
 0 MLCAD BTG motor
-1 8 70 -182 68 0 0 -1 1 0 0 0 -1 0 amortigu.dat
+1 8 70 -178 68 0 0 -1 1 0 0 0 -1 0 amortigu.dat
 0 MLCAD BTG motor
-1 8 50 -202 68 0 0 -1 1 0 0 0 -1 0 amortigu.dat
+1 8 50 -198 68 0 0 -1 1 0 0 0 -1 0 amortigu.dat
 0 MLCAD BTG motor
-1 0 23 -202 68 0.258819 0 0.965926 0 1 0 -0.965926 0 0.258819 chimenea.dat
+1 0 23 -198 68 0.259 0 0.966 0 1 0 -0.966 0 0.259 chimenea.dat
 0 MLCAD BTG motor
-1 0 98 -202 68 -0.241922 0 0.970296 0 1 0 -0.970296 0 -0.241922 chimenea.dat
+1 0 98 -198 68 -0.242 0 0.97 0 1 0 -0.97 0 -0.242 chimenea.dat
 0 MLCAD BTG motor
-1 8 70 -202 68 0 0 -1 1 0 0 0 -1 0 amortigu.dat
+1 8 70 -198 68 0 0 -1 1 0 0 0 -1 0 amortigu.dat
 0 MLCAD BTG motor
-1 15 40 -162 78 0 1 0 0 0 1 1 0 0 cilindr.dat
+1 15 40 -158 78 0 1 0 0 0 1 1 0 0 cilindr.dat
 0 MLCAD BTG motor
-1 0 20 -127 78 0 0 1 0 -1 0 1 0 0 llantnq.dat
+1 0 20 -123 78 0 0 1 0 -1 0 1 0 0 llantnq.dat
 0 MLCAD BTG motor
-1 0 100 -127 78 0 0 1 0 -1 0 1 0 0 llantnq.dat
+1 0 100 -123 78 0 0 1 0 -1 0 1 0 0 llantnq.dat
 0 MLCAD BTG motor
-1 15 80 -162 78 0 -1 0 0 0 1 -1 0 0 cilindr.dat
+1 15 80 -158 78 0 -1 0 0 0 1 -1 0 0 cilindr.dat
 0 GROUP 18 motor
 0

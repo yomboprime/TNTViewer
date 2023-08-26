@@ -1,0 +1,19 @@
+0 Untitled
+0 Name: Ruta_0553_Montajes_Sencillos_2.ldr
+0 Author: MLCad
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 4 -80 8 0 1 0 0 0 1 0 0 0 1 placa2x8.dat
+1 4 -40 -24 20 0 0 -1 0 1 0 1 0 0 rueruj2l.dat
+1 4 60 -24 20 0 0 -1 0 1 0 1 0 0 rueruj2l.dat
+1 4 -60 0 40 0 0 1 0 1 0 -1 0 0 tejado.dat
+1 4 20 -24 40 0 0 1 0 1 0 -1 0 0 tejado.dat
+1 4 40 0 40 -1 0 0 0 1 0 0 0 -1 jacen2x3.dat
+1 4 80 -24 0 0 0 -1 0 1 0 1 0 0 jacena2.dat
+1 14 100 -48 -60 0 0 -1 0 1 0 1 0 0 placa2x8.dat
+1 383 50 -24 30 0 0 -1 0 1 0 1 0 0 amortigu.dat
+1 383 50 -24 10 0 0 -1 0 1 0 1 0 0 amortigu.dat
+1 383 30 -24 10 0 0 -1 0 1 0 1 0 0 amortigu.dat
+1 383 30 -24 30 0 0 -1 0 1 0 1 0 0 amortigu.dat
+0

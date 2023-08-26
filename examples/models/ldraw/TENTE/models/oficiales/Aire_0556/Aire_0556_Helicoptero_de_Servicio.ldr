@@ -1,5 +1,5 @@
 0 Untitled
-0 Name: Aire0556_HelicopteroDeServicio.ldr
+0 Name: Aire_0556_Helicoptero_de_Servicio.ldr
 0 Author: jasolo
 0 Unofficial Model
 0 ROTATION CENTER 0 0 0 1 "Custom" 
@@ -17,6 +17,8 @@
 1 15 120 -56 20 0 0 1 0 1 0 -1 0 0 cuna.dat
 1 15 120 -56 -20 0 0 1 0 1 0 -1 0 0 cuna.dat
 1 1 -40 -8 0 0 0 1 0 1 0 -1 0 0 helcab.dat
+1 1 -54 -15 20 0 0 1 0 1 0 -1 0 0 piloto1s.dat
+1 1 -54 -15 -20 0 0 1 0 1 0 -1 0 0 piloto1s.dat
 1 32 -40 -8 0 0 0 1 0 1 0 -1 0 0 helcabcr.dat
 1 7 -100 -16 40 0 0 1 0 1 0 -1 0 0 airsillo.dat
 1 7 -100 -16 0 0 0 1 0 1 0 -1 0 0 airsillo.dat
@@ -86,8 +88,9 @@
 1 15 60 -32 60 -1 0 0 0 1 0 0 0 -1 vntthor.dat
 1 15 20 -32 -60 1 0 0 0 1 0 0 0 1 vntthor.dat
 1 15 -20 -32 -60 1 0 0 0 1 0 0 0 1 vntthor.dat
-0
+0 
 1 4 80 -88 -60 1 0 0 0 1 0 0 0 1 baldgord.dat
 1 4 120 -88 -60 1 0 0 0 1 0 0 0 1 baldgord.dat
 1 4 120 -88 60 -1 0 0 0 1 0 0 0 -1 baldgord.dat
 1 4 160 -88 60 -1 0 0 0 1 0 0 0 -1 baldgord.dat
+0

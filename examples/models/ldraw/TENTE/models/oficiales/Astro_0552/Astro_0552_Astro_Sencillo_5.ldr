@@ -1,0 +1,22 @@
+0 Astro sencillo
+0 Name: Astro_0552_Astro_Sencillo.ldr
+0 Author: jasolo
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 15 30 0 -50 0 0 -1 0 1 0 1 0 0 placa2x8.dat
+1 15 -10 0 70 0 0 -1 0 1 0 1 0 0 placa2.dat
+1 15 50 0 70 0 0 -1 0 1 0 1 0 0 placa2.dat
+1 383 -10 -8 70 1 0 0 0 1 0 0 0 1 tbesctrp.dat
+1 383 30 -8 110 -1 0 0 0 1 0 0 0 -1 tbesctrp.dat
+1 383 0 -8 100 -1 0 0 0 1 0 0 0 -1 amortigu.dat
+1 383 20 -8 100 -1 0 0 0 1 0 0 0 -1 amortigu.dat
+1 383 0 -8 80 -1 0 0 0 1 0 0 0 -1 amortigu.dat
+1 383 20 -8 80 -1 0 0 0 1 0 0 0 -1 amortigu.dat
+1 15 30 24 -10 0 0 -1 0 1 0 1 0 0 jacen2x4.dat
+1 40 10 -8 10 -1 0 0 0 1 0 0 0 -1 semicupg.dat
+1 15 10 -8 10 1 0 0 0 1 0 0 0 1 semicupg.dat
+1 15 30 -32 110 -1 0 0 0 1 0 0 0 -1 bald2x2r.dat
+1 4 0 8 -10 -1 0 0 0 1 0 0 0 -1 rueastro.dat
+1 4 0 8 110 -1 0 0 0 1 0 0 0 -1 rueastro.dat
+0

@@ -1,0 +1,16 @@
+0 Untitled
+0 Name: Astro_0552_Mini_Vehiculo_4.ldr
+0 Author: MLCad
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 4 -20 0 10 0 0 1 0 1 0 -1 0 0 rueastro.dat
+1 32 60 -32 30 0 0 1 0 1 0 -1 0 0 semicupp.dat
+1 15 140 -32 10 0 0 -1 0 1 0 1 0 0 bald2x2r.dat
+1 15 60 -56 70 -1 0 0 0 1 0 0 0 -1 bald2x2r.dat
+1 15 20 -56 -10 1 0 0 0 1 0 0 0 1 bald2x2r.dat
+1 15 60 -32 -10 0 0 -1 0 1 0 1 0 0 jacen2x4.dat
+1 4 100 0 10 0 0 1 0 1 0 -1 0 0 rueastro.dat
+1 15 110 -8 10 0 0 1 0 1 0 -1 0 0 escalera.dat
+1 15 -20 -8 20 1 0 0 0 1 0 0 0 1 jacena8.dat
+0

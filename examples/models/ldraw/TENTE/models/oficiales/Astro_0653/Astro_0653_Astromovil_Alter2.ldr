@@ -1,0 +1,40 @@
+0 Centro movil de control
+0 Name: Astro_0653_Astromovil_Alter_2.ldr
+0 Author: cpcbegin
+0 Tente astro
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 4 -40 14 430 1 0 0 0 0 1 0 -1 0 rueastro.dat
+1 4 -40 56 228 1 0 0 0 0 -1 0 1 0 rueastro.dat
+1 4 -30 16 340 0 0 -1 0 1 0 1 0 0 rueastro.dat
+1 0 -10 0 250 0 0 -1 0 1 0 1 0 0 placa4x8.dat
+1 1 10 -32 290 -1 0 0 0 1 0 0 0 -1 placa4x6.dat
+1 0 -30 8 310 0 0 -1 0 1 0 1 0 0 placa2x3.dat
+1 383 -30 -8 410 -1 0 0 0 1 0 0 0 -1 tbesctrp.dat
+1 383 -70 -8 370 1 0 0 0 1 0 0 0 1 tbesctrp.dat
+1 1 -70 -8 370 1 0 0 0 1 0 0 0 1 jacen2x2.dat
+1 4 -70 -8 330 0 0 1 0 1 0 -1 0 0 rallado2.dat
+1 4 -70 -8 370 0 0 1 0 1 0 -1 0 0 rallado2.dat
+1 4 -30 -8 330 0 0 -1 0 1 0 1 0 0 rallado2.dat
+1 4 -30 -8 290 0 0 -1 0 1 0 1 0 0 rallado2.dat
+1 32 -10 -40 230 -1 0 0 0 1 0 0 0 -1 semicupp.dat
+1 1 -50 -60 410 1 0 0 0 1 0 0 0 1 semicupp.dat
+1 0 -50 -56 410 -1 0 0 0 1 0 0 0 -1 popa4p.dat
+1 32 -90 -40 230 -1 0 0 0 1 0 0 0 -1 semicupp.dat
+1 1 -90 -8 250 1 0 0 0 1 0 0 0 1 jacen2x4.dat
+1 1 -50 -32 370 1 0 0 0 1 0 0 0 1 popa4.dat
+1 1 -10 -32 330 0 0 -1 0 1 0 1 0 0 bald2x2r.dat
+1 1 -10 -32 290 0 0 -1 0 1 0 1 0 0 bald2x2r.dat
+1 1 -90 -32 330 0 0 1 0 1 0 -1 0 0 bald2x2r.dat
+1 1 -90 -32 370 0 0 1 0 1 0 -1 0 0 bald2x2r.dat
+1 1 -10 -56 370 0 0 -1 0 1 0 1 0 0 bald2x2r.dat
+1 1 -90 -56 410 0 0 1 0 1 0 -1 0 0 bald2x2r.dat
+1 0 -70 -40 270 -1 0 0 0 1 0 0 0 -1 bald2x2.dat
+1 0 -110 -40 270 1 0 0 0 1 0 0 0 1 sillastr.dat
+1 15 -90 -61 259 1 0 0 0 0 1 0 -1 0 astpierv.dat
+1 15 -90 -61 258 1 0 0 0 1 0 0 0 1 astcuerv.dat
+1 0 10 -40 270 -1 0 0 0 1 0 0 0 -1 bald2x2.dat
+1 0 -30 -40 270 1 0 0 0 1 0 0 0 1 sillastr.dat
+1 0 -50 -40 280 1 0 0 0 1 0 0 0 1 ancl1x2.dat
+1 15 -50 -65 280 -1 0 0 0 1 0 0 0 -1 panelast.dat
+0

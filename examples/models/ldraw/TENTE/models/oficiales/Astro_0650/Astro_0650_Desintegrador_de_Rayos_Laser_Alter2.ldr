@@ -1,0 +1,26 @@
+0 Untitled
+0 Name: Astro_0650_Desintegrador_de_Rayos_Laser_Alter2.ldr
+0 Author: MLCad
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 4 20 16 0 1 0 0 0 1 0 0 0 1 rueastro.dat
+1 4 20 40 80 1 0 0 0 1 0 0 0 1 rueastro.dat
+1 15 50 8 0 0 0 -1 0 1 0 1 0 0 placa4x6.dat
+1 15 50 32 60 0 0 -1 0 1 0 1 0 0 jacen2x3.dat
+1 15 10 32 60 0 0 -1 0 1 0 1 0 0 jacen2x3.dat
+1 1 30 0 100 0 0 -1 0 1 0 1 0 0 jacen2x3.dat
+1 15 30 24 120 0 0 -1 0 1 0 1 0 0 jacen2x2.dat
+1 15 -20 0 110 0 0 -1 0 1 0 1 0 0 cilindro.dat
+1 15 40 0 110 0 0 -1 0 1 0 1 0 0 cilindro.dat
+1 14 20 -24 150 0 0 -1 0 1 0 1 0 0 amortigu.dat
+1 14 0 -24 150 0 0 -1 0 1 0 1 0 0 amortigu.dat
+1 383 0 -24 130 0 0 -1 0 1 0 1 0 0 amortigu.dat
+1 383 20 -24 130 0 0 -1 0 1 0 1 0 0 amortigu.dat
+1 15 -30 24 -20 1 0 0 0 1 0 0 0 1 enganche.dat
+1 15 30 24 -20 1 0 0 0 1 0 0 0 1 enganche.dat
+1 15 -10 24 -20 1 0 0 0 1 0 0 0 1 jacena2.dat
+1 15 10 -32 30 0 0 -1 0 1 0 1 0 0 semicugg.dat
+1 32 10 0 30 -1 0 0 0 1 0 0 0 -1 semicupg.dat
+1 15 10 -48 120 0 0 -1 0 1 0 1 0 0 semicumg.dat
+0

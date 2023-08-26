@@ -1,0 +1,47 @@
+0 Untitled
+0 Name: Astro_0655_Torre_de_Contro_Trafico_Orbital_Alter2.ldr
+0 Author: MLCad
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 4 -70 40 0 1 0 0 0 1 0 0 0 1 placa6x8.dat
+0 MLCAD BTG astronauta1
+1 15 -147.124 -8 -109.66 -0.5 0 -0.866025 0 1 0 0.866025 0 -0.5 astpierv.dat
+0 MLCAD BTG astronauta1
+1 15 -143.66 -13 -107.66 -0.5 0 -0.866025 0 1 0 0.866025 0 -0.5 astcuerv.dat
+0 GROUP 2 astronauta1
+1 15 146 -8 96 0 0 1 0 1 0 -1 0 0 astpierv.dat
+1 15 159.321 -13 106 0.5 0 0.866025 0 1 0 -0.866025 0 0.5 astcuerv.dat
+1 4 -70 40 -120 1 0 0 0 1 0 0 0 1 placa6x8.dat
+1 1 30 32 -40 0 0 -1 0 1 0 1 0 0 jacen2x4.dat
+1 1 30 -16 -40 0 0 -1 0 1 0 1 0 0 jacen2x4.dat
+1 0 70 -16 40 0 0 -1 0 1 0 1 0 0 baldc4.dat
+1 0 70 -16 -40 0 0 -1 0 1 0 1 0 0 baldc4.dat
+1 15 -10 -16 0 -1 0 0 0 1 0 0 0 -1 semicumg.dat
+1 1 30 -40 -40 0 0 -1 0 1 0 1 0 0 jacen2x4.dat
+1 1 30 -64 -40 0 0 -1 0 1 0 1 0 0 jacen2x4.dat
+1 1 10 -112 0 0 0 -1 0 1 0 1 0 0 cirrevol.dat
+1 1 10 -112 0 0 0 1 0 1 0 -1 0 0 cirrevol.dat
+1 1 30 -88 -40 0 0 -1 0 1 0 1 0 0 jacen2x4.dat
+1 1 30 -184 -40 0 0 -1 0 1 0 1 0 0 jacen2x4.dat
+1 1 30 -208 -40 0 0 -1 0 1 0 1 0 0 jacen2x4.dat
+1 1 30 -232 -40 0 0 -1 0 1 0 1 0 0 jacen2x4.dat
+1 1 30 -256 -40 0 0 -1 0 1 0 1 0 0 jacen2x4.dat
+1 0 30 -280 -20 -1 0 0 0 1 0 0 0 -1 sillastr.dat
+1 0 -10 -280 20 1 0 0 0 1 0 0 0 1 sillastr.dat
+1 1 20 -280 10 0 0 -1 0 1 0 1 0 0 cilindro.dat
+1 15 0 -280 -10 0 0 -1 0 1 0 1 0 0 cilindro.dat
+1 1 20 -304 10 0 0 -1 0 1 0 1 0 0 cilindro.dat
+1 15 0 -304 -10 0 0 -1 0 1 0 1 0 0 cilindro.dat
+1 1 20 -328 10 0 0 -1 0 1 0 1 0 0 cilindro.dat
+1 15 0 -328 -10 0 0 -1 0 1 0 1 0 0 cilindro.dat
+1 1 20 -352 10 0 0 -1 0 1 0 1 0 0 cilindro.dat
+1 15 0 -352 -10 0 0 -1 0 1 0 1 0 0 cilindro.dat
+1 1 20 -376 10 0 0 -1 0 1 0 1 0 0 cilindro.dat
+1 15 0 -376 -10 0 0 -1 0 1 0 1 0 0 cilindro.dat
+1 46 20 -400 10 0 0 -1 0 1 0 1 0 0 amortigu.dat
+1 15 1 -406 -10 0.5 0 -0.866025 0 1 0 0.866025 0 0.5 panelast.dat
+1 32 30 -184 0 0 0 1 0 1 0 -1 0 0 semicupp.dat
+1 1 90 8 20 -1 0 0 0 1 0 0 0 -1 jacen2x8.dat
+1 1 30 8 40 -1 0 0 0 1 0 0 0 -1 jacena2.dat
+0

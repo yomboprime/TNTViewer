@@ -1,0 +1,24 @@
+0 Centro movil de control
+0 Name: Astro_0653_Astromovil_Alter_1.ldr
+0 Author: cpcbegin
+0 Tente astro
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 4 -40 -8 80 1 0 0 0 1 0 0 0 1 rueastro.dat
+1 4 -40 -8 200 1 0 0 0 1 0 0 0 1 rueastro.dat
+1 4 -40 -8 140 1 0 0 0 1 0 0 0 1 rueastro.dat
+1 0 -10 -16 80 0 0 -1 0 1 0 1 0 0 placa4x8.dat
+1 0 -30 -24 160 0 0 -1 0 1 0 1 0 0 placa2x3.dat
+1 383 -50 -32 220 -1 0 0 0 1 0 0 0 -1 tbesctrp.dat
+1 383 -50 -32 180 1 0 0 0 1 0 0 0 1 tbesctrp.dat
+1 1 -70 -40 180 1 0 0 0 1 0 0 0 1 jacen2x2.dat
+1 32 -50 -48 70 -1 0 0 0 1 0 0 0 -1 semicupp.dat
+1 1 -90 -24 100 1 0 0 0 1 0 0 0 1 jacen2x4.dat
+1 1 -50 -24 100 -1 0 0 0 1 0 0 0 -1 popa4.dat
+1 0 -30 -48 120 -1 0 0 0 1 0 0 0 -1 bald2x2.dat
+1 0 -70 -48 120 1 0 0 0 1 0 0 0 1 sillastr.dat
+1 15 -50 -69 109 1 0 0 0 0 1 0 -1 0 astpierv.dat
+1 15 -50 -69 108 1 0 0 0 1 0 0 0 1 astcuerv.dat
+1 0 -50 -24 150 1 0 0 0 1 0 0 0 1 ancl1x2.dat
+1 15 -50 -49 150 -1 0 0 0 1 0 0 0 -1 panelast.dat
+0

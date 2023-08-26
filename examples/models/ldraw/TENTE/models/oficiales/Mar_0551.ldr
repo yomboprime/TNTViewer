@@ -1,13 +1,12 @@
-0 Index of Series: Mar Ref: 0551
 0 ROTATION CENTER 0 0 0 1 "Custom"
 0 ROTATION CONFIG 0 0
 
-1 16 -1023.494 0 1023.494 1 0 0 0 1 0 0 0 1 Mar_0551/Mar_0551_Acorazado_1GM.ldr
-1 16 0 0 1023.494 1 0 0 0 1 0 0 0 1 Mar_0551/Mar_0551_Crucero_1GM.ldr
-1 16 1023.494 0 1023.494 1 0 0 0 1 0 0 0 1 Mar_0551/Mar_0551_Destructor_Lanzamisiles.ldr
-1 16 -1023.494 0 0 1 0 0 0 1 0 0 0 1 Mar_0551/Mar_0551_Lancha_Torpedera.ldr
-1 16 0 0 0 1 0 0 0 1 0 0 0 1 Mar_0551/Mar_0551_Patrullero.ldr
-1 16 1023.494 0 0 1 0 0 0 1 0 0 0 1 Mar_0551/Mar_0551_Petrolero_de_Flota.ldr
-1 16 -1023.494 0 -1023.494 1 0 0 0 1 0 0 0 1 Mar_0551/Mar_0551_Porta_Helicopteros_Halcon.ldr
-1 16 0 0 -1023.494 1 0 0 0 1 0 0 0 1 Mar_0551/Mar_0551_Transporte_de_Ataque.ldr
+1 0 -2948.743190002441 0 0 1 0 0 0 1 0 0 0 1 Mar_0551/Mar_0551_Acorazado_1GM.ldr
+1 0 -2021.2487915039062 0 0 1 0 0 0 1 0 0 0 1 Mar_0551/Mar_0551_Crucero_1GM.ldr
+1 0 -1094.102394104004 0 0 1 0 0 0 1 0 0 0 1 Mar_0551/Mar_0551_Destructor_Lanzamisiles.ldr
+1 0 -331.05119705200207 0 0 1 0 0 0 1 0 0 0 1 Mar_0551/Mar_0551_Lancha_Torpedera.ldr
+1 0 335.99999999999983 0 0 1 0 0 0 1 0 0 0 1 Mar_0551/Mar_0551_Patrullero.ldr
+1 0 1202.7983963012693 0 0 1 0 0 0 1 0 0 0 1 Mar_0551/Mar_0551_Petrolero_de_Flota.ldr
+1 0 2093.9447937011714 0 0 1 0 0 0 1 0 0 0 1 Mar_0551/Mar_0551_Porta_Helicopteros_Halcon.ldr
+1 0 2997.0911911010735 0 0 1 0 0 0 1 0 0 0 1 Mar_0551/Mar_0551_Transporte_de_Ataque.ldr
 0

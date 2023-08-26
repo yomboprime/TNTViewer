@@ -1,8 +1,7 @@
-0 Index of Series: Oceanis Ref: 0653
 0 ROTATION CENTER 0 0 0 1 "Custom"
 0 ROTATION CONFIG 0 0
 
-1 16 -756 0 756 1 0 0 0 1 0 0 0 1 Oceanis_0653/Oceanis_0653_Task_Force_Eagle.ldr
-1 16 756 0 756 1 0 0 0 1 0 0 0 1 Oceanis_0653/Oceanis_0653_Task_Force_Nimitz.ldr
-1 16 -756 0 -756 1 0 0 0 1 0 0 0 1 Oceanis_0653/Oceanis_0653_Task_Force_Triton.ldr
+1 0 -1267.3991981506347 0 0 1 0 0 0 1 0 0 0 1 Oceanis_0653/Oceanis_0653_Task_Force_Eagle.ldr
+1 0 -168 0 0 1 0 0 0 1 0 0 0 1 Oceanis_0653/Oceanis_0653_Task_Force_Nimitz.ldr
+1 0 1099.3991981506347 0 0 1 0 0 0 1 0 0 0 1 Oceanis_0653/Oceanis_0653_Task_Force_Triton.ldr
 0

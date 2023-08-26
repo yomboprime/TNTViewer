@@ -1,5 +1,5 @@
 0 Untitled
-0 Name: Escorpion_0750_tanque.ldr
+0 Name: Scorpion_0750_Tanque.ldr
 0 Author: MLCad
 0 Unofficial Model
 0 ROTATION CENTER 0 0 0 1 "Custom" 
@@ -224,4 +224,6 @@
 0 MLCAD BTG motorizacion
 1 0 110 -24 0 0 -1 0 0 0 -1 1 0 0 tbcb1_58.dat
 0 GROUP 71 motorizacion
+1 92 170 -68 -20 0 0 1 0 1 0 -1 0 0 ftanquis.dat
+1 92 -160 56 -20 0 0 -1 0 1 0 1 0 0 fsoldadp.dat
 0

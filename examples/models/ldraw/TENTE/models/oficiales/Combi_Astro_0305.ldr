@@ -1,7 +1,6 @@
-0 Index of Series: Combi Astro Ref: 0305
 0 ROTATION CENTER 0 0 0 1 "Custom"
 0 ROTATION CONFIG 0 0
 
-1 16 -225.975 -24 225.975 1 0 0 0 1 0 0 0 1 Combi_Astro_0305/Combi_Astro_0305_Nave_Sideral.ldr
-1 16 225.975 -57.5 225.975 1 0 0 0 1 0 0 0 1 Combi_Astro_0305_308/Combi_Astro_0305_308.ldr
+1 0 -225.97500000000002 0 0 1 0 0 0 1 0 0 0 1 Combi_Astro_0305/Combi_Astro_0305_Nave_Sideral.ldr
+1 0 215.99999999999997 0 0 1 0 0 0 1 0 0 0 1 Combi_Astro_0305_308/Combi_Astro_0305_308.ldr
 0

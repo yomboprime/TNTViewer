@@ -1,0 +1,42 @@
+0 Untitled
+0 Name: Astro_0656_Interceptor_Espacial_Alter2.ldr
+0 Author: MLCad
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 0 -60 48 0 -1 0 0 0 1 0 0 0 -1 patastro.dat
+0 MLCAD BTG astronauta
+1 15 24.18 -24.494 11.212 0 -0.258819 0.965926 0 0.965926 0.258819 -1 0 0 astcuerp.dat
+0 MLCAD BTG astronauta
+1 15 25.392 -75.701 20.212 0 -1 0 0 0 1 -1 0 0 astpiern.dat
+0 GROUP 2 astronauta
+1 0 80 -56 180 0 0 1 0 1 0 -1 0 0 patastro.dat
+1 0 40 -56 -140 0 0 -1 0 1 0 1 0 0 patastro.dat
+1 1 40 -56 0 1 0 0 0 1 0 0 0 1 pinzastr.dat
+1 1 60 -152 140 0 0 -1 0 1 0 1 0 0 alaastro.dat
+1 1 60 -152 -100 0 0 1 0 1 0 -1 0 0 alaastro.dat
+1 4 50 -56 50 1 0 0 0 1 0 0 0 1 chimtubo.dat
+1 4 50 -56 -10 1 0 0 0 1 0 0 0 1 chimtubo.dat
+1 4 40 -80 -20 1 0 0 0 1 0 0 0 1 deposito.dat
+1 4 80 -80 60 -1 0 0 0 1 0 0 0 -1 deposito.dat
+1 0 10 -24 20 -1 0 0 0 1 0 0 0 -1 toberast.dat
+1 0 40 -8 90 -1 0 0 0 1 0 0 0 -1 toberast.dat
+1 0 40 -8 -50 -1 0 0 0 1 0 0 0 -1 toberast.dat
+1 4 -102 -58 30 0 1 0 1 0 0 0 0 -1 laser.dat
+1 4 -102 -58 10 0 1 0 1 0 0 0 0 -1 laser.dat
+1 1 200 -48 0 -1 0 0 0 1 0 0 0 -1 patastro.dat
+1 15 160 -144 60 0 0 1 0 1 0 -1 0 0 bald2x2r.dat
+1 15 160 -144 20 0 0 1 0 1 0 -1 0 0 bald2x2r.dat
+1 15 -100 -72 40 0 0 1 0 1 0 -1 0 0 bald2x2r.dat
+1 15 0 -56 -60 1 0 0 0 1 0 0 0 1 bald2x2r.dat
+1 15 40 -56 100 -1 0 0 0 1 0 0 0 -1 bald2x2r.dat
+1 4 40 -8 -50 0 0 1 0 1 0 -1 0 0 cilindr2.dat
+1 4 40 -8 90 0 0 1 0 1 0 -1 0 0 cilindr2.dat
+1 1 100 -24 40 -1 0 0 0 1 0 0 0 -1 jacen2x8.dat
+1 15 -100 -48 40 0 0 1 0 1 0 -1 0 0 enganch2.dat
+1 15 -100 -48 20 0 0 1 0 1 0 -1 0 0 enganch2.dat
+1 1 -80 -48 40 0 0 1 0 1 0 -1 0 0 placa2x2.dat
+1 1 -40 -48 40 0 0 1 0 1 0 -1 0 0 placa2x2.dat
+1 1 0 -48 100 0 0 1 0 1 0 -1 0 0 placa4x8.dat
+1 32 0 -56 20 0 0 -1 0 1 0 1 0 0 semicupg.dat
+0

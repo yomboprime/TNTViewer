@@ -1,0 +1,48 @@
+0 Untitled
+0 Name: Astro_0658_Arana_Lunar_Alter2.ldr
+0 Author: MLCad
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 15 -100 48 0 1 0 0 0 1 0 0 0 1 placa4x8.dat
+1 15 -60 48 0 0 0 1 0 1 0 -1 0 0 placa4x8.dat
+1 0 0 144 -120 0 0 1 0 1 0 -1 0 0 patastro.dat
+1 0 20 144 60 1 0 0 0 1 0 0 0 1 patastro.dat
+1 0 -60 144 20 -1 0 0 0 1 0 0 0 -1 patastro.dat
+1 0 20 40 -60 0 0 1 0 1 0 -1 0 0 pico.dat
+1 0 -60 40 -100 0 0 -1 0 1 0 1 0 0 pico.dat
+1 15 0 40 -20 0 0 -1 0 1 0 1 0 0 jacen2x3.dat
+1 4 20 40 -40 0 0 -1 0 1 0 1 0 0 jacena2.dat
+1 15 0 16 -40 0 0 -1 0 1 0 1 0 0 rallado2.dat
+1 15 -20 16 -10 -1 0 0 0 1 0 0 0 -1 ancl1x2.dat
+1 15 -20 -8 -10 1 0 0 0 1 0 0 0 1 panelast.dat
+1 15 -20 -8 60 1 0 0 0 1 0 0 0 1 pinzaesq.dat
+1 15 -20 -8 60 0 0 1 0 1 0 -1 0 0 pinzaesq.dat
+1 15 -20 -8 60 -1 0 0 0 1 0 0 0 -1 pinzaesq.dat
+1 15 -20 -8 60 0 0 -1 0 1 0 1 0 0 pinzaesq.dat
+1 0 20 0 0 0 0 -1 0 1 0 1 0 0 placa4x6.dat
+1 0 -20 48 60 0 0 -1 0 1 0 1 0 0 toberast.dat
+1 0 -20 48 -90 0 0 -1 0 1 0 1 0 0 toberast.dat
+1 0 -110 -13 61 0 0 -1 -1 0 0 0 1 0 toberast.dat
+1 0 70 -13 61 0 0 -1 -1 0 0 0 1 0 toberast.dat
+1 15 -40 16 0 0 0 1 0 1 0 -1 0 0 rallado2.dat
+1 15 -40 40 -140 1 0 0 0 1 0 0 0 1 rallado2.dat
+1 14 -10 72 -56 1 0 0 0 1 0 0 0 1 astcuerp.dat
+1 14 -20 23 -67 1 0 0 0 0 1 0 -1 0 astpierv.dat
+1 4 -20 40 -100 -1 0 0 0 1 0 0 0 -1 semicupp.dat
+1 0 0 40 -60 0 0 -1 0 1 0 1 0 0 castillo.dat
+1 4 -40 40 -40 0 0 -1 0 1 0 1 0 0 jacena2.dat
+1 4 0 40 80 -1 0 0 0 1 0 0 0 -1 jacena2.dat
+1 4 40 40 160 0 0 1 0 1 0 -1 0 0 placa2x8.dat
+1 15 100 32 120 0 0 -1 0 1 0 1 0 0 bald2x2r.dat
+1 15 -140 32 160 0 0 1 0 1 0 -1 0 0 bald2x2r.dat
+1 0 70 32 30 0 0 1 0 1 0 -1 0 0 chimtubo.dat
+1 4 -110 8 20 1 0 0 0 1 0 0 0 1 cilindr.dat
+1 4 70 8 20 1 0 0 0 1 0 0 0 1 cilindr.dat
+1 0 -110 32 30 0 0 1 0 1 0 -1 0 0 chimtubo.dat
+1 4 -120 40 160 0 0 1 0 1 0 -1 0 0 placa2x8.dat
+1 15 -20 8 80 1 0 0 0 1 0 0 0 1 bispqaba.dat
+1 15 -20 8 80 1 0 0 0 1 0 0 0 1 bispqarr.dat
+1 0 -40 8 0 1 0 0 0 1 0 0 0 1 bald2x2.dat
+1 15 -40 16 20 1 0 0 0 1 0 0 0 1 placa2.dat
+0

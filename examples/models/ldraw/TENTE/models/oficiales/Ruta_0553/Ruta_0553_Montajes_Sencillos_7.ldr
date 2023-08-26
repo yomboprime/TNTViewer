@@ -1,0 +1,24 @@
+0 Untitled
+0 Name: Ruta_0553_Montajes_Sencillos_7.ldr
+0 Author: MLCad
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 10 -100 0 -10 1 0 0 0 1 0 0 0 1 placa6x8.dat
+1 15 -80 -8 30 1 0 0 0 1 0 0 0 1 puertam2.dat
+1 32 -80 -8 30 1 0 0 0 1 0 0 0 1 puertacr.dat
+1 15 -40 -8 70 -1 0 0 0 1 0 0 0 -1 puertam2.dat
+1 32 -40 -8 70 -1 0 0 0 1 0 0 0 -1 puertacr.dat
+1 0 -40 -80 70 -1 0 0 0 1 0 0 0 -1 bald2x2.dat
+1 1 80 -136 -10 -1 0 0 0 1 0 0 0 -1 jacena6.dat
+1 1 80 -136 -11 -1 0 0 0 1 0 0 0 -1 gasolina.dat
+1 4 -60 -128 -10 1 0 0 0 1 0 0 0 1 placa6x8.dat
+1 1 0 -8 10 1 0 0 0 1 0 0 0 1 jacena2.dat
+1 47 0 -32 30 1 0 0 0 1 0 0 0 1 rallado2.dat
+1 0 40 -56 10 0 0 -1 0 1 0 1 0 0 bald2.dat
+1 15 0 -8 70 1 0 0 0 1 0 0 0 1 jacena2.dat
+1 4 0 -32 70 1 0 0 0 1 0 0 0 1 jacena2.dat
+1 15 0 -56 70 1 0 0 0 1 0 0 0 1 jacena2.dat
+1 4 0 -80 70 1 0 0 0 1 0 0 0 1 jacena2.dat
+1 15 0 -104 70 1 0 0 0 1 0 0 0 1 jacena2.dat
+0
