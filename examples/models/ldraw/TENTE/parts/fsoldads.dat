@@ -1,0 +1,7 @@
+0 Figura Soldado Sentada   |E:E
+0 Name: fsoldads.dat
+0 Author: jasolo
+0 !LDRAW_ORG Unofficial_Part
+0 BFC CERTIFY CCW
+1 16 0 -6.5 4 0.999848 0 0.0174524 -0.00060908 0.999391 0.0348942 -0.0174418 -0.0348995 0.999239 fsoldadc.dat
+1 16 -1 -6.5 4 0.999848 -0.0174524 0 0 0 1 -0.0174524 -0.999848 0 fpiernas.dat

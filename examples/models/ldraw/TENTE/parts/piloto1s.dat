@@ -1,0 +1,7 @@
+0 Piloto 1 Sentado    |A:A
+0 Name: piloto1s.dat
+0 Author: jasolo
+0 !LDRAW_ORG Unofficial_Part
+0 BFC CERTIFY CCW 
+1 16 0 -16 -2 1 0 0 0 -0.104528 0.994522 0 -0.994522 -0.104528 pilotopi.dat
+1 16 -0.25 -16 -2 1 0 0 0 0.994522 0.104528 0 -0.104528 0.994522 piloto1c.dat

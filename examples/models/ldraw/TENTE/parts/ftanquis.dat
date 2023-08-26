@@ -1,0 +1,7 @@
+0 Figura Tanquista Sentada   |E:E
+0 Name: ftanquis.dat
+0 Author: jasolo
+0 !LDRAW_ORG Unofficial_Part
+0 BFC CERTIFY CCW
+1 16 -1 -6.5 7 0.99863 0 0.052336 0 1 0 -0.052336 0 0.99863 ftanquic.dat
+1 16 -1 -6.5 7 0.99863 -0.052336 0 0 0 1 -0.052336 -0.99863 0 fpiernas.dat

@@ -1,0 +1,7 @@
+0 Figura Soldado de Pie   |E:E
+0 Name: fsoldadp.dat
+0 Author: jasolo
+0 !LDRAW_ORG Unofficial_Part
+0 BFC CERTIFY CCW
+1 16 0 -41 5 1 0 0 0 1 0 0 0 1 fsoldadc.dat
+1 16 0 -41 5 1 0 0 0 1 0 0 0 1 fpiernas.dat

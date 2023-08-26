@@ -1,0 +1,8 @@
+0 Ventanas Granelero Macetero     IUNITS
+0 Name: vgranem.dat
+0 Author: I.UNITS (diseño), jasolo (modelado)
+0 !LDRAW_ORG Unofficial_Part
+0 BFC CERTIFY CCW
+1 16 -10 0 -10 1 0 0 0 1 0 0 0 1 enganc2.dat
+4 0 -7.25 -4.875 -10.125 -0.625 -4.875 -10.125 -0.625 -11.5 -10.125 -7.25 -11.5 -10.125
+4 0 7.25 -4.875 -10.125 7.25 -11.5 -10.125 0.625 -11.5 -10.125 0.625 -4.875 -10.125

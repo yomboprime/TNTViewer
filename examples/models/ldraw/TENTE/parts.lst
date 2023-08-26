@@ -534,6 +534,16 @@ faros214.dat   Faros2 Focos    |R:R
 faros212.dat   Faros2 Fondo1    |R:R                                           
 faros213.dat   Faros2 Fondo2    |R:R                                           
 radiadjp.dat   Faros2 Radiador Japones    |R:R                                 
+fconducc.dat   Figura Conductor Cuerpo   |E:E                                  
+fconducs.dat   Figura Conductor Sentada   |E:E                                 
+fconducp.dat   Figura Conductor de Pie   |E:E                                  
+fsoldadc.dat   Figura Soldado Cuerpo   |E:E                                    
+fsoldads.dat   Figura Soldado Sentada   |E:E                                   
+fsoldadp.dat   Figura Soldado de Pie   |E:E                                    
+ftanquic.dat   Figura Tanquista Cuerpo   |E:E                                  
+ftanquis.dat   Figura Tanquista Sentada   |E:E                                 
+ftanquip.dat   Figura Tanquista de Pie   |E:E                                  
+fpiernas.dat   Figuras Scorpion Piernas   |E:E                                 
 fusil.dat      Fusil      |F:F                                                 
 garfio.dat     Garfio    |R:R                                                  
 alfagarf.dat   Garfio Alfa    |F:F                                             
@@ -654,6 +664,10 @@ logtente.dat   Logo Tente     |D:D
 macecun2.dat   Macetero cuna 2x1 I.UNITS                                       
 manguera.dat   Manguera Mochila 2    |F:F                                      
 mascara.dat    Mascara antigas    |R:R                                         
+marciano.dat   Marciano    |S:S                                                
+marcianc.dat   Marciano Cuerpo   |S:S                                          
+marcianp.dat   Marciano Piernas   |S:S                                         
+marcians.dat   Marciano Sentado    |S:S                                        
 mastilh.dat    Mastil (hembra)       |M:M                                      
 mastilm.dat    Mastil (macho)       |M:M                                       
 mastbase.dat   Mastil Base       |M:M                                          
@@ -711,12 +725,12 @@ pang2x4i.dat   P1aca Angulo 2x4 Izquierda I.UNITS
 pe45d2x2.dat   P1aca Angulo Derecha a 45 2x2 IUNITS                            
 pe45i2x2.dat   P1aca Angulo Izquierda a 45 2x2 IUNITS                          
 placacil.dat   P1aca Cilindro I.UNITS      |D:D                                
+plcelev4.dat   P1aca Elevador 4 puntos   |D:D                                  
 placa1c.dat    P1aca Normal Curva Esquinera 1x1 I.UNITS  |D:D                  
 predturb.dat   P1aca Redonda Turbina IUNITS                                    
 ptetc2x2.dat   P1aca Teton Central 2x2 IUNITS                                  
 placurd2.dat   P1aca curva dos alturas 2x1 I.UNITS                             
 placlin2.dat   P1aca lingote 2x1 I.UNITS                                       
-popa6pi.dat    P1aca popa 6 IUNITS                                             
 placral2.dat   P1aca rallada vertical 2x1 I.UNITS                              
 palaexcv.dat   Pala Excavadora      |R:R|V:V                                   
 plmgrand.dat   Palmera Grande    |C:C                                          
@@ -749,6 +763,13 @@ pico1.dat      Pico 1  |D:D
 alfapico.dat   Pico Alfa    |F:F|T:T                                           
 picoesq.dat    Pico Esquina I.UNITS    |D:D                                    
 pilaralf.dat   Pilar Alfa  |F:F                                                
+piloto1.dat    Piloto 1    |A:A                                                
+piloto1c.dat   Piloto 1 Cuerpo   |A:A                                          
+piloto1s.dat   Piloto 1 Sentado    |A:A                                        
+piloto2.dat    Piloto 2    |A:A                                                
+piloto2c.dat   Piloto 2 Cuerpo   |A:A                                          
+piloto2s.dat   Piloto 2 Sentado    |A:A                                        
+pilotopi.dat   Piloto Piernas   |A:A                                           
 pinzastr.dat   Pinza Astro    |S:S                                             
 pinzaesq.dat   Pinza Esquina    |S:S                                           
 piquito.dat    Piquito   |M:M                                                  
@@ -907,7 +928,10 @@ tejls2x1.dat   Tejado liso 2x1  I.UNITS
 tejadorm.dat   Tejado remate      |B:B                                         
 tejadorl.dat   Tejado remate liso      |B:B                                    
 tenazas.dat    Tenazas   |F:F                                                  
-tetonesp.dat   Teton especial 1x1 corto I.UNITS                                
+tetonesr.dat   Teton especial 1x1 corto cantos redondeados I.UNITS             
+tetonesp.dat   Teton especial 1x1 corto cantos vivos I.UNITS                   
+tetonesl.dat   Teton especial 1x1 largo cantos redondeados IUNITS              
+tetonesm.dat   Teton especial 1x1 medio cantos redondeados IUNITS              
 toberast.dat   Tobera Astro   |S:S                                             
 tobergal.dat   Tobera Galaxy       |F:F|T:T                                    
 torremcr.dat   Torre Micro     |C                                              
@@ -967,7 +991,7 @@ tbfutur2.dat   Tubo Futurama 2    |D:D
 tuboruta.dat   Tubo Ruta    |R:R                                               
 tbscoeng.dat   Tubo Scorpion (enganche)     |F:F                               
 tbscorec.dat   Tubo Scorpion Recto     |F:F                                    
-tubos.dat      Tubos   |D:D                                                    
+tubos.dat      Bloque inversor 4 ptos.   |D:D                                  
 alfaturb.dat   Turbina Alfa    |F:F|T:T                                        
 valla.dat      Valla       |C:C                                                
 vallaobr.dat   Valla Obras      |F:F                                           
@@ -997,6 +1021,12 @@ vibiza1p.dat   Ventanas Ibiza 1 con puerta IUNITS
 vibiza2v.dat   Ventanas Ibiza 2 IUNITS                                        
 vibiza2p.dat   Ventanas Ibiza 2 con puerta IUNITS                             
 vibiza3.dat    Ventanas Ibiza 3 IUNITS                                        
+vgrane1.dat    Ventanas Granelero 1     IUNITS                                 
+vgrane1d.dat   Ventanas Granelero 1 doble    IUNITS                            
+vgrane2.dat    Ventanas Granelero 2     IUNITS                                 
+vgrane4.dat    Ventanas Granelero 4     IUNITS                                 
+vgrane6.dat    Ventanas Granelero 6     IUNITS                                 
+vgranem.dat    Ventanas Granelero Macetero     IUNITS                          
 vntcirc2.dat   Ventanas circulares (circulos)                                  
 venta2ci.dat   Ventanas circulares 2x1   |M:M                                  
 venta2bi.dat   Ventanas circulares 2x1 blancas   |M:M                          
